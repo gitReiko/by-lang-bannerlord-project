@@ -16,6 +16,17 @@
 		<DependedModule Id="Belarusian Core" DependentVersion="v1.1.5"/>
 	</DependedModules>
 	<SubModules/>
-	<Xmls> 
+	<Xmls>
+
+		<XmlNode>
+			<XmlName id="Factions" path="clans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
 	</Xmls>
 </Module>
