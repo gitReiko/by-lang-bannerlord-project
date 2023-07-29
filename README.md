@@ -13,6 +13,14 @@
 
 ## Дзе знайсьці пераклады?
 
+Пераклад гульні
+
+[Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2875208329)
+
+[NexusMods](https://www.nexusmods.com/mountandblade2bannerlord/mods/3735)
+
+Усе пераклады
+
 [Steam](https://steamcommunity.com/id/Reiko017/myworkshopfiles/?appid=261550)
 
 [NexusMods](https://www.nexusmods.com/mountandblade2bannerlord/users/55060242?tab=user+files)
