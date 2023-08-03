@@ -2,21 +2,30 @@
 <Module>
 	<Name value = "Belarusian Europe 1100"/>
 	<Id value = "Belarusian Europe 1100"/>
-	<Version value = "v1.1.4"/>
+	<Version value = "v1.1.5"/>
 	<DefaultModule value="true"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
 	<Author value="Denis Makouski (Reiko17)" />
   	<Official value="false" />
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.1.4"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.1.4"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.1.4"/>
-		<DependedModule Id="StoryMode" DependentVersion="v1.1.4"/>
-		<DependedModule Id="Belarusian Core" DependentVersion="v1.1.4"/>
+		<DependedModule Id="Native" DependentVersion="v1.1.5"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.1.5"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.1.5"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.1.5"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.1.0"/>
 	</DependedModules>
 	<SubModules/>
 	<Xmls>
+
+		<XmlNode>
+		<XmlName id="Kingdoms" path="spkingdoms"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+		</XmlNode>
 
 		<XmlNode>                
 			<XmlName id="NPCCharacters" path="spnpccharacters_baltic"/>
