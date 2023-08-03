@@ -19,6 +19,14 @@
 	<Xmls>
 
 		<XmlNode>                
+			<XmlName id="NPCCharacters" path="spnpccharacters_baltic"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>                
 			<XmlName id="NPCCharacters" path="spnpccharacters_berber"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
