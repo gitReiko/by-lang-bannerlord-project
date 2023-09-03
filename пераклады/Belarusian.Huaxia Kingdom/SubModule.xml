@@ -17,5 +17,12 @@
 	</DependedModules>
 	<SubModules/>
 	<Xmls> 
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="units_fixes"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
 	</Xmls>
 </Module>
