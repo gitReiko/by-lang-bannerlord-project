@@ -19,6 +19,16 @@
 	<Xmls> 
 
 		<XmlNode>
+			<XmlName id="Factions" path="tor_clans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
 			<XmlName id="Kingdoms" path="tor_kingdoms"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
