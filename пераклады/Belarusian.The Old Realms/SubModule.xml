@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Module>
-	<Name value = "Belarusian The Old Realms"/>
-	<Id value = "Belarusian The Old Realms"/>
-	<Version value = "v1.2.3"/>
+	<Name value="Belarusian The Old Realms"/>
+	<Id value="Belarusian The Old Realms"/>
+	<Version value="v1.2.3"/>
 	<DefaultModule value="true"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
@@ -21,25 +21,33 @@
 		<XmlNode>
 			<XmlName id="Factions" path="tor_clans"/>
 			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
 		<XmlNode>
 			<XmlName id="Kingdoms" path="tor_kingdoms"/>
 			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
 		<XmlNode>
 			<XmlName id="Religions" path="tor_religions" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Settlements" path="tor_settlements" />
 			<IncludedGameTypes>
 				<GameType value="Campaign" />
 				<GameType value="CampaignStoryMode" />
