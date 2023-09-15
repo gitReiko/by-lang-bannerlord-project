@@ -295,7 +295,7 @@
 		<TriggeredEffect>physical_bonus_20</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="DustStorm" 
-      Name="Пыльная Бура" 
+      Name="Пылавая Бура" 
       SpriteName="dust_storm_icon" 
       CoolDown="10" 
       WindsOfMagicCost="6" 
@@ -1024,7 +1024,7 @@
 		<TriggeredEffect>shemgaze_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="StoneAssault" 
-      Name="Assault of Stone" 
+      Name="Каменны Штурм" 
       SpriteName="assaultofstone_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1054,7 +1054,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Launch a small number of stones at the enemy - Monthy Python style.">
+      TooltipDescription="Запускае ў ворага маленькую колькасьць камянёў - у стыле Манці Пайтон.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1064,7 +1064,7 @@
 		<TriggeredEffect>cinderblast_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="HealingLight"
-      Name="Healing Light"
+      Name="Лячэбнае Сьвятло"
       SpriteName="healinglight_icon"
       CoolDown="30"
       WindsOfMagicCost="12"
@@ -1096,7 +1096,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Allies in the area of effect regenerate health over time.">
+      TooltipDescription="Хаўрусьнікі ў вобласьці дзеяньня аднаўляюць здароўе з цягам часу.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1106,7 +1106,7 @@
 		<TriggeredEffect>apply_healing_statuseffect</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="PhaProtection"
-      Name="Pha's Protection"
+      Name="Абарона Фа"
       SpriteName="phasprotection_icon"
       CoolDown="30"
       WindsOfMagicCost="12"
@@ -1138,7 +1138,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Allies in a 3 meter radius gain 50% physical resistance for 15 seconds.">
+      TooltipDescription="Хаўрусьнікі ў радыусе 3 метраў атрымліваюць 50% фізычны супраціў на 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1148,7 +1148,7 @@
 		<TriggeredEffect>physical_resistance_50</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="DeathlyShards" 
-      Name="Deathly Shards" 
+      Name="Аскепкі Сьмерці" 
       SpriteName="deadlyshards_icon" 
       CoolDown="30" 
       WindsOfMagicCost="15" 
@@ -1178,7 +1178,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="3"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Sharp shards of light fly towards the target piercing through the toughest armor.">
+      TooltipDescription="Вострыя аскепкі сьвятла ляцяць да цэлі і прабіваюць найтрывалую браню.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1188,7 +1188,7 @@
 		<TriggeredEffect>shard_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="RadiancePillar" 
-      Name="Pillar of Radiance" 
+      Name="Слуп Зьзяньня" 
       SpriteName="pillarofradiance_icon" 
       CoolDown="40" 
       WindsOfMagicCost="30" 
@@ -1221,7 +1221,7 @@
       TargetCapturingRadius="2"
       SpellTier="4"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="A large pillar of light applies high damage to those caught in the beam.">
+      TooltipDescription="Буйны слуп сьвятла наносіць вялікую шкоду тым, што трапляе пад яго прамень.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1231,7 +1231,7 @@
 		<TriggeredEffect>pillar_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="RadiantGaze" 
-      Name="Radiant Gaze" 
+      Name="Зьзяючы Позірк" 
       SpriteName="radiantgaze_icon" 
       CoolDown="40" 
       WindsOfMagicCost="25" 
@@ -1264,7 +1264,7 @@
       TargetCapturingRadius="3"
       SpellTier="4"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Columns of light raise from the ground in a path.">
+      TooltipDescription="З зямлі падымаюцца слупы сьвятла ў форме сьцежкі.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1274,7 +1274,7 @@
 		<TriggeredEffect>wind_of_death_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="NetOfAmyntok"
-      Name="Net of Amyntok"
+      Name="Сетка Амынтока"
       SpriteName="netofamyntok_icon"
       CoolDown="5"
       WindsOfMagicCost="12"
@@ -1306,7 +1306,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="The wizard conjures an arcane net in the selected area. Any foe caught in the spell is halted for 15 seconds.">
+      TooltipDescription="Чараўнік стварае арканную сетку ў абранай вобласьці. Усякі вораг, што трапляе пад дзеяньне заклёна, спыняецца на 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1317,7 +1317,7 @@
 	</AbilityTemplate>
 	<!-- Necromancy -->
 	<AbilityTemplate StringID="NagashGaze" 
-      Name="Gaze of Nagash" 
+      Name="Позірк Нагаша" 
       SpriteName="gazeofnagash_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1347,7 +1347,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="A bolt of Dhar fly from the caster's eyes, and what flesh they touch blackens and withers, peeling away completely to reveal bleached white bone beneath.">
+      TooltipDescription="Болт дхара вылятае з вочаў заклінальніка, і ўся плоць, да якой ён дакрынаецца, чарнее і вяне, цалкам адслойваецца і агаляе пад сабой белую костку.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1357,7 +1357,7 @@
 		<TriggeredEffect>nagashgaze_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="SummonSkeleton" 
-      Name="Raise the Dead" 
+      Name="Уздым Мёртвых" 
       SpriteName="summonskeleton_icon" 
       CoolDown="20" 
       WindsOfMagicCost="4" 
@@ -1390,7 +1390,7 @@
       TargetCapturingRadius="5"
       SpellTier="2"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Raise old bones from the ground. Summon 5 Skeletons for the duration of any single battle.">
+      TooltipDescription="Уздымае старые косткі з зямлі. Заклікае 5 Касьцякоў на час аднога бою.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1400,7 +1400,7 @@
 		<TriggeredEffect>summon_skeleton</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="Shadowblood" 
-      Name="Shadowblood" 
+      Name="Ценевая Кроў" 
       SpriteName="shadowblood_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1430,7 +1430,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Shadowy orbs of blood fly towards the target staining the ground beneath every step of the way.">
+      TooltipDescription="Ценевыя згусткі крыві ляцяць да цэлі, акрапляючы зямлю пад нагамі падчас кожнага кроку.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1440,7 +1440,7 @@
 		<TriggeredEffect>shadowblood_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="Morkharn"
-      Name="Morkharn - Breath of Darkness"
+      Name="Морхарн - Подых Цемры"
       SpriteName="breathofdarkness_icon"
       CoolDown="30"
       WindsOfMagicCost="12"
@@ -1472,7 +1472,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Allies in the area regenerate health over time.">
+      TooltipDescription="Хаўрусьнікі ў вобласьці дзеяньня аднаўляюць здароўе з цягам часу.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1528,7 +1528,7 @@
 		<TriggeredEffect>witheringwave_tick</TriggeredEffect>
 	</AbilityTemplate> -->
 	<AbilityTemplate StringID="Kandorak" 
-      Name="Kandorak - The Harbinger" 
+      Name="Кандорак - Прадвесьнік" 
       SpriteName="theharbinger_icon" 
       CoolDown="30" 
       WindsOfMagicCost="6" 
@@ -1561,7 +1561,7 @@
       TargetCapturingRadius="2.5"
       SpellTier="3"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Raise 4 Grave Guard for the remainder of the battle.">
+      TooltipDescription="Уздымае 4 Вартаўнікоў Магілаў да канца бітвы.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1571,7 +1571,7 @@
 		<TriggeredEffect>summon_kandorak</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="ScreamingSkull" 
-      Name="Screaming Skull" 
+      Name="Крыклівы Чэрап" 
       SpriteName="screamingskull_icon" 
       CoolDown="40" 
       WindsOfMagicCost="30" 
@@ -1604,7 +1604,7 @@
       TargetCapturingRadius="3"
       SpellTier="4"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Conjure a screaming skull dripping with acid that moves forward damaging everything in its path.">
+      TooltipDescription="Стварае чэрап, які крычыць, капае кіслатой і рухаецца наперад, пашкоджваючы ўсё на сваім шляху.">
 		<LightColorRGB x="52" y="235" z="88" w="-1">
 			<AsVec2>
 				<x>52</x>
@@ -1615,7 +1615,7 @@
 		<TriggeredEffect>wind_of_death_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="WindOfDeath" 
-      Name="Wind of Death" 
+      Name="Вецер Сьмерці" 
       SpriteName="windofdeath_icon" 
       CoolDown="40" 
       WindsOfMagicCost="25" 
@@ -1648,7 +1648,7 @@
       TargetCapturingRadius="3"
       SpellTier="4"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Invoke the spirits of the dead to consume the souls of the living. Applies high damage while moving along its path.">
+      TooltipDescription="Заклікае мёртвых духаў дзеля паглынаньня душаў жывых. Наносіць высокую шкоду падчас руху па накірунку.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1658,7 +1658,7 @@
 		<TriggeredEffect>wind_of_death_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="GraveCall" 
-      Name="Grave Call" 
+      Name="Магільны Покліч" 
       SpriteName="gravecall_icon" 
       CoolDown="40" 
       WindsOfMagicCost="14" 
@@ -1691,7 +1691,7 @@
       TargetCapturingRadius="2.5"
       SpellTier="4"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Raise 15 Skeleton Champions.">
+      TooltipDescription="Уздымае 15 Касьцякоў-Чэмпіёнаў.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1702,7 +1702,7 @@
 	</AbilityTemplate>
 	
 		<AbilityTemplate StringID="CurseOfYears"
-      Name="Curse of Years"
+      Name="Праклён Гадоў"
       SpriteName="curseofyears_icon"
       CoolDown="5"
       WindsOfMagicCost="12"
@@ -1734,7 +1734,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="The caster utters an ancient curse, which causes the foe to age at a horrific rate. Reduces enemy attack and movement speed by 50% for 15 seconds.">
+      TooltipDescription="Заклінальнік вымаўляе старажытны праклён, які прымушае ворагаў старэць з жахлівай хуткасьцю. Зьніжае варожую хуткасьць атакі і руха на 50% на 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
