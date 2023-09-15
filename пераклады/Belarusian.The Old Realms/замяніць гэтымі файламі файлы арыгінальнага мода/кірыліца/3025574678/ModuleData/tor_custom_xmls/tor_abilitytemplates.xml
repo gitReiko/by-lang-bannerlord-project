@@ -1747,7 +1747,7 @@
 	
 	<!-- Dark Magic -->
 	<AbilityTemplate StringID="Chillwind" 
-      Name="Chillwind" 
+      Name="Ледзяны Вецер" 
       SpriteName="chillwind_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1780,7 +1780,7 @@
       TargetCapturingRadius="2"
       SpellTier="2"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="The caster assails the enemy with a freezing gale.">
+      TooltipDescription="Заклінальнік атакуе ворага ледзяным штормам.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1791,7 +1791,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="DoomBolt"
-      Name="Doom Bolt"
+      Name="Болт Згубы"
       SpriteName="doombolt_icon"
       CoolDown="40"
       WindsOfMagicCost="40"
@@ -1828,7 +1828,7 @@
       VisualsRotationVelocity="1"
       SpellTier="4"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="The wizard rips open the sky and calls down a bolt burning with dark flames on the foe.">
+      TooltipDescription="Чараўнік разьдзірае нябёсы і абрынае на ворага болт, які гарыць цёмным полымям.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1839,7 +1839,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="DeathSpasm" 
-      Name="Death Spasm" 
+      Name="Смяротная Спазма" 
       SpriteName="deathspasm_icon" 
       CoolDown="20" 
       WindsOfMagicCost="12" 
@@ -1869,7 +1869,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="A crackling black bolt of energy that explodes in a fireball and sets victims on fire.">
+      TooltipDescription="Траскучы чорны болт энэргіі, які выбухае вогненым шарам і падпальвае ахвяру.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1879,7 +1879,7 @@
 		<TriggeredEffect>fireball_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="SoulRain" 
-      Name="Soul Rain" 
+      Name="Дождж Душаў" 
       SpriteName="soulrain_icon" 
       CoolDown="30" 
       WindsOfMagicCost="15" 
@@ -1912,7 +1912,7 @@
       TargetCapturingRadius="2"
       SpellTier="3"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="A black cloud looms over the targeted area striking those below with arcane lightning bolts.">
+      TooltipDescription="Чорная хмара навісае над вобласьцю, і паражае тых, хто знаходзіцца ўнізе, арканнымі маланкамі.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1922,7 +1922,7 @@
 		<TriggeredEffect>lightning_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="PowerOfDarkness"
-      Name="Power of Darkness"
+      Name="Улада Цемры"
       SpriteName="powerofdarkness_icon"
       CoolDown="30"
       WindsOfMagicCost="12"
@@ -1954,7 +1954,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Allies in a 3 meter radius gain 20% physical bonus damage for 15 seconds.">
+      TooltipDescription="Хаўрусьнікі ў радыусе 3 метраў атрымліваюць 20% бонуснай фізычнай шкоды ў ходзе 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1964,7 +1964,7 @@
 		<TriggeredEffect>physical_bonus_20</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="BlackHorror" 
-      Name="Arnzipal's Black Horror" 
+      Name="Чорная Жудасьць Арнзіпала" 
       SpriteName="arzipalsblackhorror_icon" 
       CoolDown="40" 
       WindsOfMagicCost="30" 
@@ -2000,7 +2000,7 @@
       VisualsRotationVelocity="0"
       SpellTier="4"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="The caster tears down the walls between realities, and a black cloud of roiling energy sweeps across the battlefield. As the darkness travels, slimy tentacles lash out from its depths, draggin unfortunate victims screaming to an unknown fate.">
+      TooltipDescription="Заклінальнік разбурае сьцены паміж сусветамі, і чорнае воблака бурлівай энэргіі праносіцца па полю боя. Па меры распаўсюджваньня цемры, зь яе глыбінь вылазяць сьлізкія шчупальцы і зацягваюць няшчасных ахвяр з крыкамі насустрач невядомай доле.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2010,7 +2010,7 @@
 		<TriggeredEffect>witheringwave_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="SoulStealer"
-   Name="Soul Stealer"
+   Name="Выкрадальнік Душ"
    SpriteName="soulstealer_icon"
    CoolDown="40"
    WindsOfMagicCost="25"
@@ -2042,7 +2042,7 @@
    CrosshairType="TargetedAOE"
    SpellTier="4"
     BelongsToLoreID="DarkMagic"
-    TooltipDescription="Enemies in the area experience a soul draining direct damage over time effect causing them to take 12 damage every second for 10 seconds.">
+    TooltipDescription="Ворагі ў вобласьці дзеяньня атрымліваюць эфект прамой шкоды, які з цягам часу зьнясільвае душы і наносіць ім 12 шкоды кожную сякунду цягам 10 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2054,7 +2054,7 @@
 	
 	<!-- Lore of Life-->
 	<AbilityTemplate StringID="DwellersBelow"
-      Name="Dwelllers Below"
+      Name="Жыхары Нізу"
       SpriteName="dwellersbelow_icon"
       CoolDown="50"
       WindsOfMagicCost="35"
@@ -2086,7 +2086,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="4"
       BelongsToLoreID="LoreOfLife"
-      TooltipDescription="Tendrils emerge from the ground reaching out and attacking enemies passing the area. Knocks down and dismounts enemies, slows (0.8%) and deals 5 dmg per second for 16 seconds.">
+      TooltipDescription="З зямлі вырываюцца шчупальцы, якія атакуюць мінаючых побач ворагаў. Яны зьбіваюць з ног і скідваюць з коней ворагаў, запавольваюць (0.8%) і наносяць 5 шкоды кожную сякунду цягам 16 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2097,7 +2097,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="TheGreenEye" 
-      Name="The Green Eye" 
+      Name="Зялёнае Вока" 
       SpriteName="greeneye_icon" 
       CoolDown="5" 
       WindsOfMagicCost="8" 
@@ -2128,7 +2128,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="3"
       BelongsToLoreID="LoreOfLife"
-      TooltipDescription="Caster merges their eyes, firing a single fast, penetrating projectile in the aimed direction.">
+      TooltipDescription="Заклінальнік яднае свае вочы і выпускае адзін хуткі снарад, які прадзіраюцца ў накірунку цэлі.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2139,7 +2139,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="Barkskin"
-      Name="Barkskin"
+      Name="Дубовая Скура"
       SpriteName="barkskin_icon"
       CoolDown="10"
       WindsOfMagicCost="6"
@@ -2171,7 +2171,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfLife"
-      TooltipDescription="Hardens the skin of targets, making them tougher, providing 35% physical resistance for total duration of 8 secouds">
+      TooltipDescription="Зацьверджвае скуру цэлі, робіць яе трывалейшай, забясьпечвае 35% фізічны супраціў на 8 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
