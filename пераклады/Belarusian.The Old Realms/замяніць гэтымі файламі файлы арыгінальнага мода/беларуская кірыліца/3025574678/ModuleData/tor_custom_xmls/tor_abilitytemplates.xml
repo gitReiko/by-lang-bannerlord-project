@@ -2,7 +2,7 @@
 <AbilityTemplates>
 	<!-- Minor magic -->
 	<AbilityTemplate StringID="Dart" 
-      Name="Mahičny Bołt" 
+      Name="Магічны Болт" 
       SpriteName="dart_icon" 
       CoolDown="10" 
       WindsOfMagicCost="4" 
@@ -32,7 +32,7 @@
       MaxDistance="100"
       CrosshairType="Missile"
       AbilityTargetType="WorldPosition"
-      TooltipDescription="Kidaje ŭ voraha mahičny bołt. Snarad traplaje ŭ cel i pry kantakcie nanosić 40 škody ŭ radyusie 3 mietraŭ.">
+      TooltipDescription="Кідае ў ворага магічны болт. Снарад трапляе ў цэль і пры кантакце наносіць 40 шкоды ў радыусе 3 метраў.">
 		<LightColorRGB x="0" y="204" z="255" w="-1">
 			<AsVec2>
 				<y>204</y>
@@ -42,7 +42,7 @@
 		<TriggeredEffect>dart_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="WardOfArrows" 
-      Name="Adbićcio Strełaŭ" 
+      Name="Адбіцьцё Стрэлаў" 
       SpriteName="ward_of_arrows_icon" 
       CoolDown="10" 
       WindsOfMagicCost="3" 
@@ -73,7 +73,7 @@
       TargetCapturingRadius="1"
       SpellTier="1"
       BelongsToLoreID="MinorMagic"
-      TooltipDescription="Dadaje zaklinalniku 40% fizyčnaha supracivu ad škody dalokaha boju na 15 siakund.">
+      TooltipDescription="Дадае заклінальніку 40% фізычнага супраціву ад шкоды далёкага бою на 15 сякунд.">
 		<LightColorRGB x="255" y="255" z="255" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -84,7 +84,7 @@
 		<TriggeredEffect>ward_of_arrows</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="MinorHeal" 
-      Name="Małoje Lačeńnie" 
+      Name="Малое Лячэньне" 
       SpriteName="petty_healing_icon" 
       CoolDown="20" 
       WindsOfMagicCost="4" 
@@ -115,7 +115,7 @@
       TargetCapturingRadius="1"
       SpellTier="1"
       BelongsToLoreID="MinorMagic"
-      TooltipDescription="Lečyć zaklinalniku 20 zdaroŭja kožnuju siakundu ciaham 5 siakundaŭ.">
+      TooltipDescription="Лечыць заклінальніку 20 здароўя кожную сякунду цягам 5 сякундаў.">
 		<LightColorRGB x="255" y="255" z="255" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -126,7 +126,7 @@
 		<TriggeredEffect>apply_healing_statuseffect</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="FoetidCloud" 
-      Name="Smurodnaje Vobłaka" 
+      Name="Смуроднае Воблака" 
       SpriteName="foetid_cloud_icon" 
       CoolDown="10" 
       WindsOfMagicCost="4" 
@@ -159,7 +159,7 @@
       TargetCapturingRadius="2"
       SpellTier="1"
       BelongsToLoreID="MinorMagic"
-      TooltipDescription="Chvarobnaje atrutnaje hazavaje vobłaka maleńkaha radyusa dziejańnia.">
+      TooltipDescription="Хваробнае атрутнае газавае воблака маленькага радыуса дзеяньня.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -169,7 +169,7 @@
 		<TriggeredEffect>foetid_cloud_burst</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="EnchantWeapon"
-      Name="Začaravańnie Zbroi"
+      Name="Зачараваньне Зброі"
       SpriteName="enchant_weapon_icon"
       CoolDown="10"
       WindsOfMagicCost="6"
@@ -201,7 +201,7 @@
       CrosshairType="SingleTarget"
       SpellTier="1"
       BelongsToLoreID="MinorMagic"
-      TooltipDescription="Bafaje metavuju chaŭrusnuju zbroju. Jana nanosić dadatkovuju mahičnuju škodu.">
+      TooltipDescription="Бафае мэтавую хаўрусную зброю. Яна наносіць дадатковую магічную шкоду.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -211,7 +211,7 @@
 		<TriggeredEffect>enchant_weapon</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="AuraOfResistance"
-      Name="Aura Ŭstojlivaści"
+      Name="Аура Ўстойлівасьці"
       SpriteName="resistanceaura_icon"
       CoolDown="10"
       WindsOfMagicCost="6"
@@ -243,7 +243,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="1"
       BelongsToLoreID="MinorMagic"
-      TooltipDescription="Chaŭruśniki ŭ radyusie 3 mietraŭ atrymlivajuć 20% fizičny supraciŭ na 15 siakund.">
+      TooltipDescription="Хаўрусьнікі ў радыусе 3 метраў атрымліваюць 20% фізічны супраціў на 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -253,7 +253,7 @@
 		<TriggeredEffect>physical_resistance_20</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="StrengthOfCombat" 
-      Name="Bajavaja Moc" 
+      Name="Баявая Моц" 
       SpriteName="healingprayer_icon" 
       CoolDown="10" 
       WindsOfMagicCost="3" 
@@ -284,7 +284,7 @@
       TargetCapturingRadius="1"
       SpellTier="1"
       BelongsToLoreID="MinorMagic"
-      TooltipDescription="Daje zaklinalniku 20% bonus da fizičnaj škody na 15 siakund.">
+      TooltipDescription="Дае заклінальніку 20% бонус да фізічнай шкоды на 15 сякунд.">
 		<LightColorRGB x="255" y="255" z="255" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -295,7 +295,7 @@
 		<TriggeredEffect>physical_bonus_20</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="DustStorm" 
-      Name="Pyłavaja Bura" 
+      Name="Пылавая Бура" 
       SpriteName="dust_storm_icon" 
       CoolDown="10" 
       WindsOfMagicCost="6" 
@@ -331,7 +331,7 @@
       VisualsRotationVelocity="0"
       SpellTier="1"
       BelongsToLoreID="MinorMagic"
-      TooltipDescription="Suchi pustelny viecier źbivaje achviar z noh i nanosić maleńkuju škodu.">
+      TooltipDescription="Сухі пустэльны вецер зьбівае ахвяр з ног і наносіць маленькую шкоду.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -342,7 +342,7 @@
 	</AbilityTemplate>
 	<!-- Lore of Fire -->
 	<AbilityTemplate StringID="Fireball" 
-      Name="Vohnieny Šar" 
+      Name="Вогнены Шар" 
       SpriteName="fireball_icon" 
       CoolDown="30" 
       WindsOfMagicCost="15" 
@@ -372,7 +372,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="3"
       BelongsToLoreID="LoreOfFire"
-      TooltipDescription="Ništo nie ciešyć tak, jak vohnieny šar u tvar. Nanosić 80 škody ŭ radyusie 3 mietraŭ i nakładvaje efiekt hareńnia na 5 siakund.">
+      TooltipDescription="Нішто не цешыць так, як вогнены шар у твар. Наносіць 80 шкоды ў радыусе 3 метраў і накладвае эфект гарэньня на 5 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -382,7 +382,7 @@
 		<TriggeredEffect>fireball_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="CinderBlast" 
-      Name="Łavavy Vybuch" 
+      Name="Лававы Выбух" 
       SpriteName="cinderblast_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -412,7 +412,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="LoreOfFire"
-      TooltipDescription="Kidaje ŭ voraha askiepki zastyhłaj łavy i nanosić siaredniuju škody pry kantakcie.">
+      TooltipDescription="Кідае ў ворага аскепкі застыглай лавы і наносіць сярэднюю шкоды пры кантакце.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -422,7 +422,7 @@
 		<TriggeredEffect>cinderblast_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="BoltOfAqshy" 
-      Name="Bołt Ekšy" 
+      Name="Болт Экшы" 
       SpriteName="boltofashqy_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -452,7 +452,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="LoreOfFire"
-      TooltipDescription="Chutki vohnieny bołt, jaki nanosić siaredniuju škodu pry ŭdary.">
+      TooltipDescription="Хуткі вогнены болт, які наносіць сярэднюю шкоду пры ўдары.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -462,7 +462,7 @@
 		<TriggeredEffect>boltofaqshy_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="Sear" 
-      Name="Apiakańnie" 
+      Name="Апяканьне" 
       SpriteName="sear_icon" 
       CoolDown="30" 
       WindsOfMagicCost="12" 
@@ -495,7 +495,7 @@
       TargetCapturingRadius="2"
       SpellTier="3"
       BelongsToLoreID="LoreOfFire"
-      TooltipDescription="Padryvaje voraha atakaj apiakalnaha połymia karotkaha radyusa dziejańnia i nanosić siaredniuju škodu.">
+      TooltipDescription="Падрывае ворага атакай апякальнага полымя кароткага радыуса дзеяньня і наносіць сярэднюю шкоду.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -505,7 +505,7 @@
 		<TriggeredEffect>sear_burst</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="CascadingFireCloak" 
-      Name="Kaskadny Vohnieny Płašč" 
+      Name="Каскадны Вогнены Плашч" 
       SpriteName="cascadingfirecloak_icon" 
       CoolDown="30" 
       WindsOfMagicCost="4" 
@@ -538,7 +538,7 @@
       TargetCapturingRadius="1"
       SpellTier="2"
       BelongsToLoreID="LoreOfFire"
-      TooltipDescription="Zaklinalnik achutvaje sabie płaščom mahičnaha połymia, jaki abaraniaje jaho ad fizyčnaj (30%) i vohnienaj (70%) škody ciaham 15 siakund.">
+      TooltipDescription="Заклінальнік ахутвае сабе плашчом магічнага полымя, які абараняе яго ад фізычнай (30%) і вогненай (70%) шкоды цягам 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -548,7 +548,7 @@
 		<TriggeredEffect>apply_fire_cloak_augment</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="FlamingSwords"
-      Name="Pałymiany Mieč Ruin"
+      Name="Палымяны Меч Руін"
       SpriteName="swordsofrhuin_icon"
       CoolDown="30"
       WindsOfMagicCost="13"
@@ -580,7 +580,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfFire"
-      TooltipDescription="Bafaje zbroju chaŭruśnikaŭ u radyusie 5 mietraŭ asablivaściu Hareńnie na 20 siakundaŭ. Zbroja haryć połymiam i spalvaje ŭsich vorahaŭ, u jakich traplaje.">
+      TooltipDescription="Бафае зброю хаўрусьнікаў у радыусе 5 метраў асаблівасьцю Гарэньне на 20 сякундаў. Зброя гарыць полымям і спальвае ўсіх ворагаў, у якіх трапляе.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -590,7 +590,7 @@
 		<TriggeredEffect>apply_flaming_sword_trait</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="BurningHead" 
-      Name="Pałymianaja Hałava" 
+      Name="Палымяная Галава" 
       SpriteName="burninghead_icon" 
       CoolDown="40" 
       WindsOfMagicCost="25" 
@@ -623,7 +623,7 @@
       TargetCapturingRadius="3"
       SpellTier="4"
       BelongsToLoreID="LoreOfFire"
-      TooltipDescription="Stvaraje vialiki pyłajučy čerap, jaki rušyć napierad, spalvaja ŭsio na svaim puci.">
+      TooltipDescription="Стварае вялікі пылаючы чэрап, які рушыць наперад, спальвая ўсё на сваім пуці.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -633,7 +633,7 @@
 		<TriggeredEffect>burning_head_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="FlameStorm" 
-      Name="Vohnienaje Tarnada" 
+      Name="Вогненае Тарнада" 
       SpriteName="flamingstorm_icon" 
       CoolDown="40" 
       WindsOfMagicCost="30" 
@@ -669,7 +669,7 @@
       VisualsRotationVelocity="20"
       SpellTier="4"
       BelongsToLoreID="LoreOfFire"
-      TooltipDescription="Vypadkova rušačaje vohnienaje tarnada. Nanosić vialikuju škodu.">
+      TooltipDescription="Выпадкова рушачае вогненае тарнада. Наносіць вялікую шкоду.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -680,7 +680,7 @@
 	</AbilityTemplate>
 	<!-- Lore of Heavens -->
 	<AbilityTemplate StringID="LightningBolt" 
-      Name="Małankavy Bołt" 
+      Name="Маланкавы Болт" 
       SpriteName="lightningbolt_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -710,7 +710,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="LoreOfHeavens"
-      TooltipDescription="Kidaje ŭ vorahaŭ elektryčny bołt, jaki nanosić siaredniuju škodu pry kantakcie.">
+      TooltipDescription="Кідае ў ворагаў электрычны болт, які наносіць сярэднюю шкоду пры кантакце.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -720,7 +720,7 @@
 		<TriggeredEffect>lightningbolt_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="WindBlast" 
-      Name="Vietravy Vybuch" 
+      Name="Ветравы Выбух" 
       SpriteName="wind_blast_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -753,7 +753,7 @@
       TargetCapturingRadius="2"
       SpellTier="2"
       BelongsToLoreID="LoreOfHeavens"
-      TooltipDescription="Paryŭ vietra, jaki źbivaje achviar z noh i nanosić maleńkuju škodu.">
+      TooltipDescription="Парыў ветра, які зьбівае ахвяр з ног і наносіць маленькую шкоду.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -763,7 +763,7 @@
 		<TriggeredEffect>windblast_burst</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="ChainLightning" 
-      Name="Łancuhovaja Małanka" 
+      Name="Ланцуговая Маланка" 
       SpriteName="chainlightning_icon" 
       CoolDown="30" 
       WindsOfMagicCost="15" 
@@ -799,7 +799,7 @@
       VisualsRotationVelocity="4"
       SpellTier="3"
       BelongsToLoreID="LoreOfHeavens"
-      TooltipDescription="Šaravaja małanka, jakaja nanosić voraham siaredniuju škodu ŭ vobłaści trapleńnia.">
+      TooltipDescription="Шаравая маланка, якая наносіць ворагам сярэднюю шкоду ў вобласьці трапленьня.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -809,7 +809,7 @@
 		<TriggeredEffect>lightning_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="HarmonicConvergence"
-      Name="Harmaničnaja Kanvierhiencyja"
+      Name="Гарманічная Канвергенцыя"
       SpriteName="harmonicconvergence_icon"
       CoolDown="30"
       WindsOfMagicCost="13"
@@ -841,7 +841,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfHeavens"
-      TooltipDescription="Chaŭruśniki ŭ radyusie 3 mietraŭ atrymlivajuć 50% fizyčny supraciŭ na 15 siakund.">
+      TooltipDescription="Хаўрусьнікі ў радыусе 3 метраў атрымліваюць 50% фізычны супраціў на 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -851,7 +851,7 @@
 		<TriggeredEffect>physical_resistance_50</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="Blizzard" 
-      Name="Zavirucha Ledzianych Askiepkaŭ" 
+      Name="Завіруха Ледзяных Аскепкаў" 
       SpriteName="iceshardblizzard_icon" 
       CoolDown="30" 
       WindsOfMagicCost="14" 
@@ -884,7 +884,7 @@
       TargetCapturingRadius="2"
       SpellTier="4"
       BelongsToLoreID="LoreOfHeavens"
-      TooltipDescription="Štarmavyja vobłaki navisajuć nad vobłaściu i asypajuć jaje vostrymi askiepkami lodu.">
+      TooltipDescription="Штармавыя воблакі навісаюць над вобласьцю і асыпаюць яе вострымі аскепкамі лёду.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -894,7 +894,7 @@
 		<TriggeredEffect>blizzard_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="CometOfCasandora"
-      Name="Kamieta Kasandory"
+      Name="Камета Касандоры"
       SpriteName="comet_icon"
       CoolDown="40"
       WindsOfMagicCost="40"
@@ -930,7 +930,7 @@
       VisualsRotationVelocity="1"
       SpellTier="4"
       BelongsToLoreID="LoreOfHeavens"
-      TooltipDescription="U vyniku padzieńnia bujnaha mieteora, zabivaje udarnaj chvalaj ŭsio, uva što traplaje.">
+      TooltipDescription="У выніку падзеньня буйнага метэора, забівае ударнай хваляй ўсё, ува што трапляе.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -940,7 +940,7 @@
 		<TriggeredEffect>comet_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="Thunderbolt" 
-      Name="Małanka Urannona" 
+      Name="Маланка Ураннона" 
       SpriteName="thunderbolt_icon" 
       CoolDown="40" 
       WindsOfMagicCost="25" 
@@ -973,7 +973,7 @@
       TargetCapturingRadius="2"
       SpellTier="4"
       BelongsToLoreID="LoreOfHeavens"
-      TooltipDescription="Adzin vialiki małankavy bołt, jaki zrynajecca z niabios i vałodaje značnym elektryčnym zaradam.">
+      TooltipDescription="Адзін вялікі маланкавы болт, які зрынаецца з нябёс і валодае значным электрычным зарадам.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -984,7 +984,7 @@
 	</AbilityTemplate>
 	<!-- Lore of Light -->
 	<AbilityTemplate StringID="ShemGaze" 
-      Name="Piaklivy Pozirk Šema" 
+      Name="Пяклівы Позірк Шэма" 
       SpriteName="shemsburninggaze_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1014,7 +1014,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Z ruk zaklinalnika vylataje bołt ačyščalnaj enerhii, jaki spalvaje zło ŭsiudy, kudy traplaje.">
+      TooltipDescription="З рук заклінальніка вылятае болт ачышчальнай энэргіі, які спальвае зло ўсюды, куды трапляе.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1024,7 +1024,7 @@
 		<TriggeredEffect>shemgaze_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="StoneAssault" 
-      Name="Kamienny Šturm" 
+      Name="Каменны Штурм" 
       SpriteName="assaultofstone_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1054,7 +1054,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Zapuskaje ŭ voraha maleńkuju kolkaść kamianioŭ - u style Manci Pajton.">
+      TooltipDescription="Запускае ў ворага маленькую колькасьць камянёў - у стыле Манці Пайтон.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1064,7 +1064,7 @@
 		<TriggeredEffect>cinderblast_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="HealingLight"
-      Name="Lačebnaje Śviatło"
+      Name="Лячэбнае Сьвятло"
       SpriteName="healinglight_icon"
       CoolDown="30"
       WindsOfMagicCost="12"
@@ -1096,7 +1096,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Chaŭruśniki ŭ vobłaści dziejańnia adnaŭlajuć zdaroŭje z ciaham času.">
+      TooltipDescription="Хаўрусьнікі ў вобласьці дзеяньня аднаўляюць здароўе з цягам часу.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1106,7 +1106,7 @@
 		<TriggeredEffect>apply_healing_statuseffect</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="PhaProtection"
-      Name="Abarona Fa"
+      Name="Абарона Фа"
       SpriteName="phasprotection_icon"
       CoolDown="30"
       WindsOfMagicCost="12"
@@ -1138,7 +1138,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Chaŭruśniki ŭ radyusie 3 mietraŭ atrymlivajuć 50% fizyčny supraciŭ na 15 siakund.">
+      TooltipDescription="Хаўрусьнікі ў радыусе 3 метраў атрымліваюць 50% фізычны супраціў на 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1148,7 +1148,7 @@
 		<TriggeredEffect>physical_resistance_50</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="DeathlyShards" 
-      Name="Askiepki Śmierci" 
+      Name="Аскепкі Сьмерці" 
       SpriteName="deadlyshards_icon" 
       CoolDown="30" 
       WindsOfMagicCost="15" 
@@ -1178,7 +1178,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="3"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Vostryja askiepki śviatła laciać da celi i prabivajuć najtryvałuju braniu.">
+      TooltipDescription="Вострыя аскепкі сьвятла ляцяць да цэлі і прабіваюць найтрывалую браню.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1188,7 +1188,7 @@
 		<TriggeredEffect>shard_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="RadiancePillar" 
-      Name="Słup Źziańnia" 
+      Name="Слуп Зьзяньня" 
       SpriteName="pillarofradiance_icon" 
       CoolDown="40" 
       WindsOfMagicCost="30" 
@@ -1221,7 +1221,7 @@
       TargetCapturingRadius="2"
       SpellTier="4"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Bujny słup śviatła nanosić vialikuju škodu tym, što traplaje pad jaho pramień.">
+      TooltipDescription="Буйны слуп сьвятла наносіць вялікую шкоду тым, што трапляе пад яго прамень.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1231,7 +1231,7 @@
 		<TriggeredEffect>pillar_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="RadiantGaze" 
-      Name="Źziajučy Pozirk" 
+      Name="Зьзяючы Позірк" 
       SpriteName="radiantgaze_icon" 
       CoolDown="40" 
       WindsOfMagicCost="25" 
@@ -1264,7 +1264,7 @@
       TargetCapturingRadius="3"
       SpellTier="4"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Z ziamli padymajucca słupy śviatła ŭ formie ściežki.">
+      TooltipDescription="З зямлі падымаюцца слупы сьвятла ў форме сьцежкі.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1274,7 +1274,7 @@
 		<TriggeredEffect>wind_of_death_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="NetOfAmyntok"
-      Name="Sietka Amyntoka"
+      Name="Сетка Амынтока"
       SpriteName="netofamyntok_icon"
       CoolDown="5"
       WindsOfMagicCost="12"
@@ -1306,7 +1306,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfLight"
-      TooltipDescription="Čaraŭnik stvaraje arkannuju sietku ŭ abranaj vobłaści. Usiaki vorah, što traplaje pad dziejańnie zaklona, spyniajecca na 15 siakund.">
+      TooltipDescription="Чараўнік стварае арканную сетку ў абранай вобласьці. Усякі вораг, што трапляе пад дзеяньне заклёна, спыняецца на 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1317,7 +1317,7 @@
 	</AbilityTemplate>
 	<!-- Necromancy -->
 	<AbilityTemplate StringID="NagashGaze" 
-      Name="Pozirk Nahaša" 
+      Name="Позірк Нагаша" 
       SpriteName="gazeofnagash_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1347,7 +1347,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Bołt dchara vylataje z vočaŭ zaklinalnika, i ŭsia płoć, da jakoj jon dakrynajecca, čarnieje i vianie, całkam adsłojvajecca i ahalaje pad saboj biełuju kostku.">
+      TooltipDescription="Болт дхара вылятае з вочаў заклінальніка, і ўся плоць, да якой ён дакрынаецца, чарнее і вяне, цалкам адслойваецца і агаляе пад сабой белую костку.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1357,7 +1357,7 @@
 		<TriggeredEffect>nagashgaze_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="SummonSkeleton" 
-      Name="Uzdym Miortvych" 
+      Name="Уздым Мёртвых" 
       SpriteName="summonskeleton_icon" 
       CoolDown="20" 
       WindsOfMagicCost="4" 
@@ -1390,7 +1390,7 @@
       TargetCapturingRadius="5"
       SpellTier="2"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Uzdymaje staryje kostki z ziamli. Zaklikaje 5 Kaściakoŭ na čas adnoha boju.">
+      TooltipDescription="Уздымае старые косткі з зямлі. Заклікае 5 Касьцякоў на час аднога бою.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1400,7 +1400,7 @@
 		<TriggeredEffect>summon_skeleton</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="Shadowblood" 
-      Name="Cienievaja Kroŭ" 
+      Name="Ценевая Кроў" 
       SpriteName="shadowblood_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1430,7 +1430,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Cienievyja zhustki kryvi laciać da celi, akraplajučy ziamlu pad nahami padčas kožnaha kroku.">
+      TooltipDescription="Ценевыя згусткі крыві ляцяць да цэлі, акрапляючы зямлю пад нагамі падчас кожнага кроку.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1440,7 +1440,7 @@
 		<TriggeredEffect>shadowblood_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="Morkharn"
-      Name="Morcharn - Podych Ciemry"
+      Name="Морхарн - Подых Цемры"
       SpriteName="breathofdarkness_icon"
       CoolDown="30"
       WindsOfMagicCost="12"
@@ -1472,7 +1472,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Chaŭruśniki ŭ vobłaści dziejańnia adnaŭlajuć zdaroŭje z ciaham času.">
+      TooltipDescription="Хаўрусьнікі ў вобласьці дзеяньня аднаўляюць здароўе з цягам часу.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1528,7 +1528,7 @@
 		<TriggeredEffect>witheringwave_tick</TriggeredEffect>
 	</AbilityTemplate> -->
 	<AbilityTemplate StringID="Kandorak" 
-      Name="Kandorak - Pradvieśnik" 
+      Name="Кандорак - Прадвесьнік" 
       SpriteName="theharbinger_icon" 
       CoolDown="30" 
       WindsOfMagicCost="6" 
@@ -1561,7 +1561,7 @@
       TargetCapturingRadius="2.5"
       SpellTier="3"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Uzdymaje 4 Vartaŭnikoŭ Mahiłaŭ da kanca bitvy.">
+      TooltipDescription="Уздымае 4 Вартаўнікоў Магілаў да канца бітвы.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1571,7 +1571,7 @@
 		<TriggeredEffect>summon_kandorak</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="ScreamingSkull" 
-      Name="Kryklivy Čerap" 
+      Name="Крыклівы Чэрап" 
       SpriteName="screamingskull_icon" 
       CoolDown="40" 
       WindsOfMagicCost="30" 
@@ -1604,7 +1604,7 @@
       TargetCapturingRadius="3"
       SpellTier="4"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Stvaraje čerap, jaki kryčyć, kapaje kisłatoj i ruchajecca napierad, paškodžvajučy ŭsio na svaim šlachu.">
+      TooltipDescription="Стварае чэрап, які крычыць, капае кіслатой і рухаецца наперад, пашкоджваючы ўсё на сваім шляху.">
 		<LightColorRGB x="52" y="235" z="88" w="-1">
 			<AsVec2>
 				<x>52</x>
@@ -1615,7 +1615,7 @@
 		<TriggeredEffect>wind_of_death_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="WindOfDeath" 
-      Name="Viecier Śmierci" 
+      Name="Вецер Сьмерці" 
       SpriteName="windofdeath_icon" 
       CoolDown="40" 
       WindsOfMagicCost="25" 
@@ -1648,7 +1648,7 @@
       TargetCapturingRadius="3"
       SpellTier="4"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Zaklikaje miortvych duchaŭ dziela pahłynańnia dušaŭ žyvych. Nanosić vysokuju škodu padčas ruchu pa nakirunku.">
+      TooltipDescription="Заклікае мёртвых духаў дзеля паглынаньня душаў жывых. Наносіць высокую шкоду падчас руху па накірунку.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1658,7 +1658,7 @@
 		<TriggeredEffect>wind_of_death_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="GraveCall" 
-      Name="Mahilny Poklič" 
+      Name="Магільны Покліч" 
       SpriteName="gravecall_icon" 
       CoolDown="40" 
       WindsOfMagicCost="14" 
@@ -1691,7 +1691,7 @@
       TargetCapturingRadius="2.5"
       SpellTier="4"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Uzdymaje 15 Kaściakoŭ-Čempijonaŭ.">
+      TooltipDescription="Уздымае 15 Касьцякоў-Чэмпіёнаў.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1702,7 +1702,7 @@
 	</AbilityTemplate>
 	
 		<AbilityTemplate StringID="CurseOfYears"
-      Name="Praklon Hadoŭ"
+      Name="Праклён Гадоў"
       SpriteName="curseofyears_icon"
       CoolDown="5"
       WindsOfMagicCost="12"
@@ -1734,7 +1734,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="Necromancy"
-      TooltipDescription="Zaklinalnik vymaŭlaje staražytny praklon, jaki prymušaje vorahaŭ stareć z žachlivaj chutkaściu. Źnižaje varožuju chutkaść ataki i rucha na 50% na 15 siakund.">
+      TooltipDescription="Заклінальнік вымаўляе старажытны праклён, які прымушае ворагаў старэць з жахлівай хуткасьцю. Зьніжае варожую хуткасьць атакі і руха на 50% на 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1747,7 +1747,7 @@
 	
 	<!-- Dark Magic -->
 	<AbilityTemplate StringID="Chillwind" 
-      Name="Ledziany Viecier" 
+      Name="Ледзяны Вецер" 
       SpriteName="chillwind_icon" 
       CoolDown="20" 
       WindsOfMagicCost="8" 
@@ -1780,7 +1780,7 @@
       TargetCapturingRadius="2"
       SpellTier="2"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Zaklinalnik atakuje voraha ledzianym štormam.">
+      TooltipDescription="Заклінальнік атакуе ворага ледзяным штормам.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1791,7 +1791,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="DoomBolt"
-      Name="Bołt Zhuby"
+      Name="Болт Згубы"
       SpriteName="doombolt_icon"
       CoolDown="40"
       WindsOfMagicCost="40"
@@ -1828,7 +1828,7 @@
       VisualsRotationVelocity="1"
       SpellTier="4"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Čaraŭnik raździraje niabiosy i abrynaje na voraha bołt, jaki haryć ciomnym połymiam.">
+      TooltipDescription="Чараўнік разьдзірае нябёсы і абрынае на ворага болт, які гарыць цёмным полымям.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1839,7 +1839,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="DeathSpasm" 
-      Name="Smiarotnaja Spazma" 
+      Name="Смяротная Спазма" 
       SpriteName="deathspasm_icon" 
       CoolDown="20" 
       WindsOfMagicCost="12" 
@@ -1869,7 +1869,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Traskučy čorny bołt enerhii, jaki vybuchaje vohnienym šaram i padpalvaje achviaru.">
+      TooltipDescription="Траскучы чорны болт энэргіі, які выбухае вогненым шарам і падпальвае ахвяру.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1879,7 +1879,7 @@
 		<TriggeredEffect>fireball_explosion</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="SoulRain" 
-      Name="Doždž Dušaŭ" 
+      Name="Дождж Душаў" 
       SpriteName="soulrain_icon" 
       CoolDown="30" 
       WindsOfMagicCost="15" 
@@ -1912,7 +1912,7 @@
       TargetCapturingRadius="2"
       SpellTier="3"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Čornaja chmara navisaje nad vobłaściu, i paražaje tych, chto znachodzicca ŭnizie, arkannymi małankami.">
+      TooltipDescription="Чорная хмара навісае над вобласьцю, і паражае тых, хто знаходзіцца ўнізе, арканнымі маланкамі.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1922,7 +1922,7 @@
 		<TriggeredEffect>lightning_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="PowerOfDarkness"
-      Name="Ułada Ciemry"
+      Name="Улада Цемры"
       SpriteName="powerofdarkness_icon"
       CoolDown="30"
       WindsOfMagicCost="12"
@@ -1954,7 +1954,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Chaŭruśniki ŭ radyusie 3 mietraŭ atrymlivajuć 20% bonusnaj fizyčnaj škody ŭ chodzie 15 siakund.">
+      TooltipDescription="Хаўрусьнікі ў радыусе 3 метраў атрымліваюць 20% бонуснай фізычнай шкоды ў ходзе 15 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -1964,7 +1964,7 @@
 		<TriggeredEffect>physical_bonus_20</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="BlackHorror" 
-      Name="Čornaja Žudaść Arnzipała" 
+      Name="Чорная Жудасьць Арнзіпала" 
       SpriteName="arzipalsblackhorror_icon" 
       CoolDown="40" 
       WindsOfMagicCost="30" 
@@ -2000,7 +2000,7 @@
       VisualsRotationVelocity="0"
       SpellTier="4"
       BelongsToLoreID="DarkMagic"
-      TooltipDescription="Zaklinalnik razburaje ścieny pamiž susvietami, i čornaje vobłaka burlivaj enerhii pranosicca pa polu boja. Pa miery raspaŭsiudžvańnia ciemry, ź jaje hłybiń vyłaziać ślizkija ščupalcy i zaciahvajuć niaščasnych achviar z krykami nasustrač nieviadomaj dole.">
+      TooltipDescription="Заклінальнік разбурае сьцены паміж сусветамі, і чорнае воблака бурлівай энэргіі праносіцца па полю боя. Па меры распаўсюджваньня цемры, зь яе глыбінь вылазяць сьлізкія шчупальцы і зацягваюць няшчасных ахвяр з крыкамі насустрач невядомай доле.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2010,7 +2010,7 @@
 		<TriggeredEffect>witheringwave_tick</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="SoulStealer"
-   Name="Vykradalnik Duš"
+   Name="Выкрадальнік Душ"
    SpriteName="soulstealer_icon"
    CoolDown="40"
    WindsOfMagicCost="25"
@@ -2042,7 +2042,7 @@
    CrosshairType="TargetedAOE"
    SpellTier="4"
     BelongsToLoreID="DarkMagic"
-    TooltipDescription="Vorahi ŭ vobłaści dziejańnia atrymlivajuć efiekt pramoj škody, jaki z ciaham času źniasilvaje dušy i nanosić im 12 škody kožnuju siakundu ciaham 10 siakund.">
+    TooltipDescription="Ворагі ў вобласьці дзеяньня атрымліваюць эфект прамой шкоды, які з цягам часу зьнясільвае душы і наносіць ім 12 шкоды кожную сякунду цягам 10 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2054,7 +2054,7 @@
 	
 	<!-- Lore of Life-->
 	<AbilityTemplate StringID="DwellersBelow"
-      Name="Žychary Nizu"
+      Name="Жыхары Нізу"
       SpriteName="dwellersbelow_icon"
       CoolDown="50"
       WindsOfMagicCost="35"
@@ -2086,7 +2086,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="4"
       BelongsToLoreID="LoreOfLife"
-      TooltipDescription="Z ziamli vyryvajucca ščupalcy, jakija atakujuć minajučych pobač vorahaŭ. Jany źbivajuć z noh i skidvajuć z koniej vorahaŭ, zapavolvajuć (0.8%) i nanosiać 5 škody kožnuju siakundu ciaham 16 siakund.">
+      TooltipDescription="З зямлі вырываюцца шчупальцы, якія атакуюць мінаючых побач ворагаў. Яны зьбіваюць з ног і скідваюць з коней ворагаў, запавольваюць (0.8%) і наносяць 5 шкоды кожную сякунду цягам 16 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2097,7 +2097,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="TheGreenEye" 
-      Name="Zialonaje Voka" 
+      Name="Зялёнае Вока" 
       SpriteName="greeneye_icon" 
       CoolDown="5" 
       WindsOfMagicCost="8" 
@@ -2128,7 +2128,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="3"
       BelongsToLoreID="LoreOfLife"
-      TooltipDescription="Zaklinalnik jadnaje svaje vočy i vypuskaje adzin chutki snarad, jaki pradzirajucca ŭ nakirunku celi.">
+      TooltipDescription="Заклінальнік яднае свае вочы і выпускае адзін хуткі снарад, які прадзіраюцца ў накірунку цэлі.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2139,7 +2139,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="Barkskin"
-      Name="Dubovaja Skura"
+      Name="Дубовая Скура"
       SpriteName="barkskin_icon"
       CoolDown="10"
       WindsOfMagicCost="6"
@@ -2171,7 +2171,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="3"
       BelongsToLoreID="LoreOfLife"
-      TooltipDescription="Zaćvierdžvaje skuru celi, robić jaje tryvalejšaj, zabiaśpiečvaje 35% fizičny supraciŭ na 8 siakund.">
+      TooltipDescription="Зацьверджвае скуру цэлі, робіць яе трывалейшай, забясьпечвае 35% фізічны супраціў на 8 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2182,7 +2182,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="SummerHeat"
-      Name="Summer Heat"
+      Name="Летняя Спёка"
       SpriteName="summerheat_icon"
       CoolDown="5"
       WindsOfMagicCost="12"
@@ -2214,7 +2214,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="2"
       BelongsToLoreID="LoreOfLife"
-      TooltipDescription="Causes a small area to radiate unbearable heat, causing fatigue, impairing movement by 50%, and making the enemies vulnerable to fire damage by 25% for  seconds 8.">
+      TooltipDescription="Апраменьвае маленькую вобласьць, выклікае стомленасьць, пагаршае рух на 50%, і робіць ворагаў уразьлівымі да вогненай шкоды на 25% на 8 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2225,7 +2225,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="Regrowth" 
-	Name="Regrowth"
+	Name="Рэгенерацыя"
 	SpriteName="regrowth_icon"
 	CoolDown="10"
 	WindsOfMagicCost="6"
@@ -2257,7 +2257,7 @@
 	CrosshairType="TargetedAOE"
 	SpellTier="3"
 	BelongsToLoreID="LoreOfLife"
-	TooltipDescription="Allies in a 3 meter radius gain 5 health points per second. Lasts 12 seconds.">
+	TooltipDescription="Хаўрусьнікі ў радыусе 3 метраў аднаўляюць 5 очкоў здароўя кожную сякунду. Цягам 12 сякунд.">
 		<LightColorRGB x="255" y="255" z="255" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2269,7 +2269,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="DrainLife"
-   Name="Drain Life"
+   Name="Высмоктваньне Жыцьця"
    SpriteName="drainlife_icon"
    CoolDown="15"
    WindsOfMagicCost="6"
@@ -2301,7 +2301,7 @@
    CrosshairType="TargetedAOE"
    SpellTier="2"
     BelongsToLoreID="LoreOfLife"
-    TooltipDescription="Drains the life essence from an enemy, dealing 5 damage per second for total duration of 10 seconds.">
+    TooltipDescription="Высмоктвае эсэнцыю жыцьця з ворага, наносе яму 5 шкоды кожную сякунду цягам 10 сякунд.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2313,7 +2313,7 @@
 	
 	
 	<AbilityTemplate StringID="StormOfRenewal" 
-	Name="Storm of Renewal"
+	Name="Шторм Аднаўленьня"
 	SpriteName="stormofrenewal_icon"
 	CoolDown="10"
 	WindsOfMagicCost="6"
@@ -2345,7 +2345,7 @@
 	CrosshairType="TargetedAOE"
 	SpellTier="4"
 	BelongsToLoreID="LoreOfLife"
-	TooltipDescription="Raw energy flows across the battlefield, renewing lost vigour and mending wounds. Heals 30 hitpoints flat, and 10 hitpoints of all friendly targets inside the area for 12 seconds.">
+	TooltipDescription="Сыравінная энэргія струменіцца па полі бою, аднаўляе страчаную бадзёрасьць і загойвае раны. Вылечвае 30 ачкоў удару, 10 ачкоў удару ўсім хаўрусным цэлям унутры вобласьці цягам 12 сякунд.">
 		<LightColorRGB x="50" y="255" z="50" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2360,7 +2360,7 @@
 	<!-- Lore of Beasts-->
 	
 	<AbilityTemplate StringID="AmberSpear" 
-      Name="Amber Spear" 
+      Name="Бурштынавая Дзіда" 
       SpriteName="amberspear_icon" 
       CoolDown="4" 
       WindsOfMagicCost="8" 
@@ -2391,7 +2391,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="2"
       BelongsToLoreID="LoreOfBeasts"
-      TooltipDescription="The caster throws a javelin like amber spear in the targeted direction that penetrates multiple targets.">
+      TooltipDescription="Заклінальнік кідае ў цэль дротык, падобны на бурштынавую дзіду, які прабівае некалькі цэляў.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2402,7 +2402,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="TanglingThorn"
-      Name="Tangling Thorn"
+      Name="Заблытваючая Калючка"
       SpriteName="tanglingthorn_icon"
       CoolDown="15"
       WindsOfMagicCost="8"
@@ -2434,7 +2434,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="2"
       BelongsToLoreID="LoreOfBeasts"
-      TooltipDescription="Roots erupt from the ground preventing all enemies from moving for 4 seconds.">
+      TooltipDescription="Карані выдзіраюцца з зямлі, і пазбаўляюць усіх ворагаў магчымасьці рухацца на 4 сякунды.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2446,7 +2446,7 @@
 	
 	
 	<AbilityTemplate StringID="PannsImpenetrablePelt" 
-      Name="Panns Impenetrable Pelt" 
+      Name="Непрабойная Скура Панна" 
       SpriteName="pannsimpenetrablepelt_icon" 
       CoolDown="10" 
       WindsOfMagicCost="3" 
@@ -2477,7 +2477,7 @@
       TargetCapturingRadius="1"
       SpellTier="2"
       BelongsToLoreID="LoreOfBeasts"
-      TooltipDescription="A magical skin surrounds the caster protecting him from physical damage (35%) for 12 seconds.">
+      TooltipDescription="Магічная скура ахутвае заклінальніка і абараняе яго ад фізычнай шкоды (35%) на 12 сякунд.">
 		<LightColorRGB x="255" y="255" z="255" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2490,7 +2490,7 @@
 	
 	
 	<AbilityTemplate StringID="HailStorm" 
-      Name="Hail Storm" 
+      Name="Вітальны Шторм" 
       SpriteName="hailstorm_icon" 
       CoolDown="30" 
       WindsOfMagicCost="15" 
@@ -2523,7 +2523,7 @@
       TargetCapturingRadius="6"
       SpellTier="3"
       BelongsToLoreID="LoreOfBeasts"
-      TooltipDescription="A Storm of Stones is falling down on your enemies dealing physical damage">
+      TooltipDescription="Шторм Камянёў абвальваецца на вашых ворагаў і наносіць ім фізічную шкоду.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2534,7 +2534,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="FlockOfDoom"
-   Name="Flock Of Doom"
+   Name="Статак Згубы"
    SpriteName="flockofdoom_icon"
    CoolDown="15"
    WindsOfMagicCost="6"
@@ -2566,7 +2566,7 @@
    CrosshairType="TargetedAOE"
    SpellTier="3"
     BelongsToLoreID="LoreOfBeasts"
-    TooltipDescription="Summons a nightmare of crows in the targeted area. Enemies caught in the area suffer damage over time for 5 sec and their physical resist is reduced by 20%.">
+    TooltipDescription="Заклікае кашмар крумкачоў у цэлевой вобласьці. Ворагі, што патрапілі ў гэтую вобласьць, атрымліваюць шкоду з цягам часу ў ходзе 5 сякунд, а іх фізычны супраціў зьніжаецца на 20%.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2578,7 +2578,7 @@
 	
 	
 	<AbilityTemplate StringID="TheBeastUnleashed"
-      Name="The Beast Unleashed"
+      Name="Вызвалены Зьвер"
       SpriteName="beastunleashed_icon"
       CoolDown="10"
       WindsOfMagicCost="6"
@@ -2610,7 +2610,7 @@
       CrosshairType="TargetedAOE"
       SpellTier="4"
       BelongsToLoreID="LoreOfBeasts"
-      TooltipDescription="Allies in a 3 meter radius will deal 25% more physical damage and attack 25% faster.">
+      TooltipDescription="Хаўрусьнікі ў радыусе 3 метраў наносяць на 25% болей фізычнай шкоды і атакуюць на 25% хутчэй.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2621,7 +2621,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="CurseOfAnraheir"
-   Name="Curse Of Anraheir"
+   Name="Праклён Анрахайра"
    SpriteName="curseofanraheir_icon"
    CoolDown="15"
    WindsOfMagicCost="6"
@@ -2653,7 +2653,7 @@
    CrosshairType="TargetedAOE"
    SpellTier="4"
     BelongsToLoreID="LoreOfBeasts"
-    TooltipDescription="Woodland sprites hinder all enemies caught in an area for 11 seconds, reducing movement (35%) and attack speed (50%) and causing 3 damage per second.">
+    TooltipDescription="Лясныя спрайты перашкаджаюць усім ворагам, што трапілі ў вобласьць дзеяньня, цягам 11 сякунд, зьніжаюць хуткасьць руху (35%) і хуткасьць атакі (50%) ды наносяць 3 шкоды кожную сякунду.">
 		<LightColorRGB x="255" y="170" z="0" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -2666,7 +2666,7 @@
 	
 	<!-- Artillery -->
 	<AbilityTemplate StringID="MortarSpawner" 
-    Name="Place Mortar" 
+    Name="Размясьціць Марціру" 
     SpriteName="placeartillery_icon" 
     CoolDown="1" 
     WindsOfMagicCost="0" 
@@ -2706,7 +2706,7 @@
 		<TriggeredEffect>place_mortar</TriggeredEffect>
 	</AbilityTemplate>
 	<AbilityTemplate StringID="GreatCannonSpawner" 
-    Name="Place Great Cannon" 
+    Name="Размясьціць Вялікую Гармату" 
     SpriteName="placeartillery_icon" 
     CoolDown="1" 
     WindsOfMagicCost="0" 
@@ -2746,7 +2746,7 @@
 		<TriggeredEffect>place_greatcannon</TriggeredEffect>
 	</AbilityTemplate>
    <AbilityTemplate StringID="FieldTrebuchetSpawner" 
-    Name="Place Field Trebuchet" 
+    Name="Размясьціць Палявы Трэбушэт" 
     SpriteName="placeartillery_icon" 
     CoolDown="1" 
     WindsOfMagicCost="0" 
@@ -2981,7 +2981,7 @@
       AbilityTargetType="WorldPosition"
       SpellTier="3"
       BelongsToLoreID="SigmaritePrayers"
-      TooltipDescription="You throw a fiery missile that takes the form of Sigmars famed twin-tailed comet. A comet of Sigmar is a holy missile with 30 Damage. It can knock units down, or throw them off horse. Only affects enemies">
+      TooltipDescription="You throw a fiery missile that takes the form of Sigmar’s famed twin-tailed comet. A comet of Sigmar is a holy missile with 30 Damage. It can knock units down, or throw them off horse. Only affects enemies">
 		<LightColorRGB x="245" y="247" z="129" w="-1">
 			<AsVec2>
 				<x>255</x>
@@ -3256,7 +3256,7 @@
 	</AbilityTemplate>
 	
 	<AbilityTemplate StringID="LadysFavour"
-      Name="Ladys Favour"
+      Name="Lady's Favour"
       SpriteName="ladys_favor_icon"
       CoolDown="60"
       WindsOfMagicCost="0"
