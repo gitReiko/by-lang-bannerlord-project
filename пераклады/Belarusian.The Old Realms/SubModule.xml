@@ -19,6 +19,15 @@
 	<Xmls> 
 
 		<XmlNode>
+			<XmlName id="Concept" path="tor_concept_strings" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
 			<XmlName id="Factions" path="tor_clans"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
