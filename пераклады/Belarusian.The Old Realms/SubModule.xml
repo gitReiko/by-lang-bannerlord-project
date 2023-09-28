@@ -18,12 +18,11 @@
 	<SubModules/>
 	<Xmls> 
 
-		<XmlNode>
-			<XmlName id="Concept" path="tor_concept_strings" />
+		<XmlNode>                
+			<XmlName id="Concepts" path="tor_concept_strings"/>
 			<IncludedGameTypes>
-				<GameType value="Campaign" />
-				<GameType value="CampaignStoryMode" />
-				<GameType value="CustomGame"/>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
@@ -68,6 +67,15 @@
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="CraftingPieces" path="tor_crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
