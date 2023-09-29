@@ -126,34 +126,34 @@ Kala chałupy vy bačycie, što jana nadziejna zabita. Adzinaja dźvier u chału
     *[Pahrukacca ŭ dźviery]Vy hrukajeciesia, ale nia čujecie adkazu.->Approach.choice1
     
     //Pick the lock (Roguery)
-        *[Pick the lock on the door {PartyRogueryCheckText}]
-            Your partys best "rogue" attempts to pick the lock.
-            {PartyRogueryCheckTest: Your party succeeds in getting through the lock. ->Inside | Your party fails to pick the lock. ->Approach.choice1}
+        *[Uzłamać zamak na dźviarach {PartyRogueryCheckText}]
+            Lepšy "machlar" vašaj partyi sprabuje ŭzłamać zamok.
+            {PartyRogueryCheckTest: Vaša partyja paśpiachova ŭzłamała zamok. ->Inside | Vaša partyja nie zmahła ŭzłamać zamok. ->Approach.choice1}
         
     //Disassemble the Lock (Engineering)
-        *[Disassemble the lock {PartyEngineeringCheckText}]
-            Your partys best engineer attempts to disassemble the lock.
-            {PartyEngineeringCheckTest: Using a selection of their finest tools including screwdrivers, chisels, and a sledgehammer; your engineer masterfully disassembles the lock, so "thorough" is the disassembly that the lock will never be put back together. ->Inside | Your party fails to disassemble the lock. ->Approach.choice1}
+        *[Razabrać zamak {PartyEngineeringCheckText}]
+            Lepšy inžynier vašaj partyi sprabuje razabrać zamok.
+            {PartyEngineeringCheckTest: Vykarystoŭvajučy nabor samych lepšych instrumantaŭ: šruboŭki, dołata i kavadły, vašy inžynier pa-majstersku raźbiraje zamak, prytym raźbiraje hetak staranna, što jaho ŭžo nikoli nie sabrać. ->Inside | Vaša partyja nie zmahła razabrać zamok. ->Approach.choice1}
     
     //Blow up the door (Spellcraft)
-        *{PartyCanCastSpell == true}[Blow up the door {PartySpellcraftCheckText}]
-            Your partys best mage attempts to blow up the door with magic.
-            {PartySpellcraftCheckTest: Your party blows the door clean off its hinges. ->Inside |Your party fails to blow up the door. ->Approach.choice1}
+        *{PartyCanCastSpell == true}[Padarvać dźviery {PartySpellcraftCheckText}]
+            Lepšy zaklinalnik vašaj partyi sprabuje padarvać dźviery mahijaj.
+            {PartySpellcraftCheckTest: Vaša partyja zryvaje dźviery z pietlaŭ. ->Inside |Vaša partyja nie zmahła padarvać dźviery. ->Approach.choice1}
             
     //Break down the door (Vigor)
-        *[Break down the door {PartyVigorCheckText}]
-            Your partys strongest member attempts to break down the door.
-            {PartyVigorCheckTest: Your party bashes the door clean off its hinges. ->Inside |Your party fails to break down the door. ->Approach.choice1}
+        *[Vyłamać dźviery {PartyVigorCheckText}]
+            Macniejšy čalec vašaj partyi sprabuje vyłamać dźviery.
+            {PartyVigorCheckTest: Vaša partyja zryvaje dźviery z pietlaŭ. ->Inside |Vaša partyja nie zmahła vyłamać dźviery. ->Approach.choice1}
 
-    *[Go on your way (Leave)]You decide it is better to move on for now.->END
+    *[Praciahnuć svajo padarožža (Syści)]Vy vyrašyli, što pakul lepiej praciahnuć svajo padarožža.->END
 
 ===Inside===
 
-Your party gets inside the cabin and find that someone or something has stored some supplies here.->choice2
+Vaša partyja traplaje ŭ chałupu i vyjaŭlaje, što niechta ci niešta zachoŭvaje tut zapasy.->choice2
 
     =choice2
-        *[Take the supplies ({RewardText})]
-            You take the {RewardText} and add it to your supplies before continuing on your way.
+        *[Zabrać ({RewardText})]
+            Vy biarecie {RewardText} i dadajecie da svaich zapasaŭ pierš čym syści.
             {RewardRoll:
                 -0: 
                     ~ GiveItem("grain",5)
@@ -164,4 +164,4 @@ Your party gets inside the cabin and find that someone or something has stored s
             }
             ->END
         
-        *[Leave]You decide to leave the supplies and head on your way.->END
+        *[Syści]Vy vyrašyli pakinuć zapasy i praciahnuć padarožža.->END

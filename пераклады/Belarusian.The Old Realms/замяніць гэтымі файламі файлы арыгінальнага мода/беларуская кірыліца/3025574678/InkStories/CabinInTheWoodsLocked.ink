@@ -126,34 +126,34 @@ INCLUDE include.ink
     *[Пагрукацца ў дзьверы]Вы грукаецеся, але ня чуеце адказу.->Approach.choice1
     
     //Pick the lock (Roguery)
-        *[Pick the lock on the door {PartyRogueryCheckText}]
-            Your party's best "rogue" attempts to pick the lock.
-            {PartyRogueryCheckTest: Your party succeeds in getting through the lock. ->Inside | Your party fails to pick the lock. ->Approach.choice1}
+        *[Узламаць замак на дзьвярах {PartyRogueryCheckText}]
+            Лепшы "махляр" вашай партыі спрабуе ўзламаць замок.
+            {PartyRogueryCheckTest: Ваша партыя пасьпяхова ўзламала замок. ->Inside | Ваша партыя не змагла ўзламаць замок. ->Approach.choice1}
         
     //Disassemble the Lock (Engineering)
-        *[Disassemble the lock {PartyEngineeringCheckText}]
-            Your party's best engineer attempts to disassemble the lock.
-            {PartyEngineeringCheckTest: Using a selection of their finest tools including screwdrivers, chisels, and a sledgehammer; your engineer masterfully disassembles the lock, so "thorough" is the disassembly that the lock will never be put back together. ->Inside | Your party fails to disassemble the lock. ->Approach.choice1}
+        *[Разабраць замак {PartyEngineeringCheckText}]
+            Лепшы інжынер вашай партыі спрабуе разабраць замок.
+            {PartyEngineeringCheckTest: Выкарыстоўваючы набор самых лепшых інструмантаў: шрубоўкі, долата і кавадлы, вашы інжынер па-майстэрску разьбірае замак, прытым разьбірае гэтак старанна, што яго ўжо ніколі не сабраць. ->Inside | Ваша партыя не змагла разабраць замок. ->Approach.choice1}
     
     //Blow up the door (Spellcraft)
-        *{PartyCanCastSpell == true}[Blow up the door {PartySpellcraftCheckText}]
-            Your party's best mage attempts to blow up the door with magic.
-            {PartySpellcraftCheckTest: Your party blows the door clean off its hinges. ->Inside |Your party fails to blow up the door. ->Approach.choice1}
+        *{PartyCanCastSpell == true}[Падарваць дзьверы {PartySpellcraftCheckText}]
+            Лепшы заклінальнік вашай партыі спрабуе падарваць дзьверы магіяй.
+            {PartySpellcraftCheckTest: Ваша партыя зрывае дзьверы з петляў. ->Inside |Ваша партыя не змагла падарваць дзьверы. ->Approach.choice1}
             
     //Break down the door (Vigor)
-        *[Break down the door {PartyVigorCheckText}]
-            Your party's strongest member attempts to break down the door.
-            {PartyVigorCheckTest: Your party bashes the door clean off its hinges. ->Inside |Your party fails to break down the door. ->Approach.choice1}
+        *[Выламаць дзьверы {PartyVigorCheckText}]
+            Мацнейшы чалец вашай партыі спрабуе выламаць дзьверы.
+            {PartyVigorCheckTest: Ваша партыя зрывае дзьверы з петляў. ->Inside |Ваша партыя не змагла выламаць дзьверы. ->Approach.choice1}
 
-    *[Go on your way (Leave)]You decide it is better to move on for now.->END
+    *[Працягнуць сваё падарожжа (Сысьці)]Вы вырашылі, што пакуль лепей працягнуць сваё падарожжа.->END
 
 ===Inside===
 
-Your party gets inside the cabin and find that someone or something has stored some supplies here.->choice2
+Ваша партыя трапляе ў халупу і выяўляе, што нехта ці нешта захоўвае тут запасы.->choice2
 
     =choice2
-        *[Take the supplies ({RewardText})]
-            You take the {RewardText} and add it to your supplies before continuing on your way.
+        *[Забраць ({RewardText})]
+            Вы бярэце {RewardText} і дадаеце да сваіх запасаў перш чым сысьці.
             {RewardRoll:
                 -0: 
                     ~ GiveItem("grain",5)
@@ -164,4 +164,4 @@ Your party gets inside the cabin and find that someone or something has stored s
             }
             ->END
         
-        *[Leave]You decide to leave the supplies and head on your way.->END
+        *[Сысьці]Вы вырашылі пакінуць запасы і працягнуць падарожжа.->END
