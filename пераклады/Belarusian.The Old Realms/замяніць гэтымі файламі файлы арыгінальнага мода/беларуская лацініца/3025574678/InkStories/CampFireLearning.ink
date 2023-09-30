@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Campfire
+# title: Łahierny Ahoń
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -66,11 +66,11 @@
                 
                 {MeleeWeaponRandom:
                     -1:
-                        ~ MeleeWeaponText = "One Handed"
+                        ~ MeleeWeaponText = "Adnaručnaj Zbroi"
                     -2:
-                        ~ MeleeWeaponText = "Two Handed"
+                        ~ MeleeWeaponText = "Dvuchručnaj Zbroi"
                     -3:
-                        ~ MeleeWeaponText = "Polearm"
+                        ~ MeleeWeaponText = "Tronkavaj Zbroi"
                 }
 
         //Ranged
@@ -80,13 +80,13 @@
                 
                 {RangedWeaponRandom:
                     -1:
-                        ~ RangedWeaponText = "Bow"
+                        ~ RangedWeaponText = "Łuka"
                     -2:
-                        ~ RangedWeaponText = "Crossbow"
+                        ~ RangedWeaponText = "Arbaleta"
                     -3:
-                        ~ RangedWeaponText = "Throwing"
+                        ~ RangedWeaponText = "Kidańnia"
                     -4:
-                        ~ RangedWeaponText = "Gunpowder"
+                        ~ RangedWeaponText = "Poracha"
                 }
     
     //Group 1
@@ -100,29 +100,29 @@
             {StorySelect:
                 -0: ERROR
                 -1:
-                    ~ StoryName = "The Hunt"
+                    ~ StoryName = "Palavańnie"
                     ~ StoryBranch = ->TheHunt
-                    ~ StoryXpText = "(+1000 XP for Scouting, {RangedWeaponText}, and Tactics)"
+                    ~ StoryXpText = "(+1000 dośvieda da Vyviedki, {RangedWeaponText} i Taktyki)"
                 -2:
-                    ~ StoryName = "The Ambush"
+                    ~ StoryName = "Zasada"
                     ~ StoryBranch = ->TheAmbush
-                    ~ StoryXpText = "(+1000 XP for Leadership, Tactics, and Roguery)"
+                    ~ StoryXpText = "(+1000 dośvieda da Lidarstva, Taktyki i Machlarstva)"
                 -3:
-                    ~ StoryName = "The Charge"
+                    ~ StoryName = "Pahonia"
                     ~ StoryBranch = ->TheCharge
-                    ~ StoryXpText = "(+1000 XP for Riding, Polearm, and Leadership)"
+                    ~ StoryXpText = "(+1000 dośvieda da Konnaj Jazdy, Tronkavaj Zbroi i Lidarstva)"
                 -4:
-                    ~ StoryName = "Holding the Line"
+                    ~ StoryName = "Trymać Šycht"
                     ~ StoryBranch = ->HoldingTheLine
-                    ~ StoryXpText = "(+1000 XP for {MeleeWeaponText}, Leadership, and Tactics)"
+                    ~ StoryXpText = "(+1000 dośvieda da {MeleeWeaponText}, Lidarstva i Taktyki)"
                 -5:
-                    ~ StoryName = "The Brawl"
+                    ~ StoryName = "Bojka"
                     ~ StoryBranch = ->TheBrawl
-                    ~ StoryXpText = "(+1000 XP for all melee weapon skills)"
+                    ~ StoryXpText = "(+1000 dośvieda da ŭsich navykaŭ zbroi blizkaha boju)"
                 -6:
-                    ~ StoryName = "The Shootout"
+                    ~ StoryName = "Stralanina"
                     ~ StoryBranch = ->TheShootout
-                    ~ StoryXpText = "(+750 XP for all ranged weapon skills)"
+                    ~ StoryXpText = "(+750 dośvieda da ŭsich navykaŭ zbroi dalokaha boju)"
             }
     
     //Group 2
@@ -136,25 +136,25 @@
             {DiscussionSelect:
                 -0: ERROR
                 -1:
-                    ~ DiscussionName = "Great Rulers"
+                    ~ DiscussionName = "Vybitnyja Haspadary"
                     ~ DiscussionBranch = ->GreatRulers
-                    ~ DiscussionXpText = "(+1000 XP for Steward, Leadership, and Charm)"
+                    ~ DiscussionXpText = "(+1000 dośvieda da Zahadvańnia, Lidarstva i Charyzmy)"
                 -2:
-                    ~ DiscussionName = "Craftsman"
+                    ~ DiscussionName = "Ramieśnik"
                     ~ DiscussionBranch = ->Craftsman
-                    ~ DiscussionXpText = "(+1500 XP for Smithing and Engineering)"
+                    ~ DiscussionXpText = "(+1500 dośvieda da Kavalstva i Inžynieryi)"
                 -3:
-                    ~ DiscussionName = "Negotiation"
+                    ~ DiscussionName = "Pieramovy"
                     ~ DiscussionBranch = ->Negotiation
-                    ~ DiscussionXpText = "(+1000 XP for Charm, Trade, and Roguery)"
+                    ~ DiscussionXpText = "(+1000 dośvieda da Charyzmy, Handlu i Machlarstva)"
                 -4:
-                    ~ DiscussionName = "Traveling"
+                    ~ DiscussionName = "Vandroŭka"
                     ~ DiscussionBranch = ->Traveling
-                    ~ DiscussionXpText = "(+1500 XP for Riding and Athletics)"
+                    ~ DiscussionXpText = "(+1500 dośvieda da Konnaj Jazdy i Atletyki)"
                 -5:
-                    ~ DiscussionName = "Survival"
+                    ~ DiscussionName = "Vyžyvańnia"
                     ~ DiscussionBranch = ->Survival
-                    ~ DiscussionXpText = "(+1000 XP for Medicine, Scouting, and Athletics)"
+                    ~ DiscussionXpText = "(+1000 dośvieda da Miedycyny, Vyviedki i Atletyki)"
             }
             
             
@@ -167,25 +167,25 @@
 
 ===Start===
 
-As it gets dark you and your men setup camp. As the night goes on you can see that your men have broken off into two groups. One seems to be telling war stories, while the other is just talking. -> choice1
+Z nadychodam ciemry vy i vašyja paplečniki ŭładkoŭvajuć łahier. Nanač vy bačycie, što vašyja ludzi padzialilisia na dźvie hrupy. Zdajecca, adna raskazvaje vajskovyja historyi, inšaja prosta razmaŭlaje. -> choice1
 
     =choice1
-        What will you do? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
-            *[Listen in on the story of {StoryName} {StoryXpText}]
+        Što vy budziecie rabić? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
+            *[Słuchać historyju pra {StoryName} {StoryXpText}]
                 ->StoryBranch
-            *[Join in the discussion of {DiscussionName} {DiscussionXpText}]
+            *[Dałučycca da abmierkavańnia {DiscussionName} {DiscussionXpText}]
                 ->DiscussionBranch
-            *[Tell your men to get some rest (All companions healed and all wounded troops restored)]
-                You tell your men to head to bed early and get all the rest they can.
+            *[Skazać svaim ludziam adpačyć (Usie paranienyja kampańjony i vajary buduć vylekavany)]
+                Vy skazali svaim ludziej pabolej paspać i adpačyć.
                 ~ HealPartyToFull()
                 ->END
 
 ===TheHunt===
-    Amidst the crackling of the campfire, a grizzled soldier's voice carried a tale of stealth and pursuit. The flickering flames seemed to mirror the anticipation in the eyes of his companions as they leaned in to listen.
+    Amidst the crackling of the campfire, a grizzled soldiers voice carried a tale of stealth and pursuit. The flickering flames seemed to mirror the anticipation in the eyes of his companions as they leaned in to listen.
 
 "Listen up, lads and lasses," the soldier began, "let me regale you with the tale of our last hunt. It was a moonless night, our steps guided by shadows and the rustling leaves. Our scouts moved through the underbrush, eyes sharp and senses alert as we sensed a minotaur..."
 
-As the story unfolded, the soldiers felt themselves drawn into the narrative, experiencing the thrill of the chase and the tension that hung in the air. The storyteller's words painted a vivid picture of cunning and strategy, and by the time the tale concluded, the soldiers had a newfound appreciation for scouting and the art of the hunt.
+As the story unfolded, the soldiers felt themselves drawn into the narrative, experiencing the thrill of the chase and the tension that hung in the air. The storytellers words painted a vivid picture of cunning and strategy, and by the time the tale concluded, the soldiers had a newfound appreciation for scouting and the art of the hunt.
     
     //Give Xp
         ~ GiveSkillExperience("Scouting",1000)
@@ -204,11 +204,11 @@ As the story unfolded, the soldiers felt themselves drawn into the narrative, ex
     -> END
 
 ===TheAmbush===
-    Amid the crackling embers, a soldier's voice rose with a mischievous glint in his eye. The campfire's warm glow illuminated the eager faces of his comrades as they settled in for the story.
+    Amid the crackling embers, a soldiers voice rose with a mischievous glint in his eye. The campfires warm glow illuminated the eager faces of his comrades as they settled in for the story.
 
-"Gather 'round, men," the soldier said with a grin, "and let me tell you about the ambush we survived. Picture this—a Mannslieblit night, the enemy beastmen advancing unaware. Our plan was cunning, our movements swift. We struck with surprise and ferocity, turning the tide in our favor..."
+"Gather round, men," the soldier said with a grin, "and let me tell you about the ambush we survived. Picture this—a Mannslieblit night, the enemy beastmen advancing unaware. Our plan was cunning, our movements swift. We struck with surprise and ferocity, turning the tide in our favor..."
 
-The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tale's conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush.
+The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tales conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush.
     
         //Give Xp
             ~ GiveSkillExperience("Leadership",1000)
@@ -217,7 +217,7 @@ The soldiers were transported to a scene of calculated cunning and swift executi
     -> END
 
 ===TheCharge===
-    The fire's warm embrace cast dancing shadows upon the faces of the soldiers gathered around. Their attention was rapt as a battle-hardened warrior's voice filled the air.
+    The fires warm embrace cast dancing shadows upon the faces of the soldiers gathered around. Their attention was rapt as a battle-hardened warriors voice filled the air.
 
 "Listen well, my friends," the soldier began, "to the tale of our last battle. It was a day bathed in the glow of a setting sun. Our horses were eager, their hooves pawing at the earth. With a thunderous cry, we charged..."
 
@@ -230,11 +230,11 @@ The soldiers could almost feel the rush of wind against their faces and the poun
     -> END 
 
 ===HoldingTheLine===
-    Amidst the campfire's gentle crackle, a soldier's voice carried the weight of determination. The glow of the flames seemed to mirror the resolve in the eyes of his companions.
+    Amidst the campfires gentle crackle, a soldiers voice carried the weight of determination. The glow of the flames seemed to mirror the resolve in the eyes of his companions.
 
 "Listen closely, my friends," the soldier spoke with unwavering conviction, "to the tale of our last battle. It was a moment of unbreakable unity as we positioned ourselves to hold strong, shields locked in steadfast defense. As the undead army advanced, we stood resolute..."
 
-The soldiers felt a sense of solidarity wash over them, as if they were standing side by side with the warriors of the story. The storyteller's words emphasized the importance of leadership and tactics, leaving the soldiers with a deeper appreciation for the art of defense.
+The soldiers felt a sense of solidarity wash over them, as if they were standing side by side with the warriors of the story. The storytellers words emphasized the importance of leadership and tactics, leaving the soldiers with a deeper appreciation for the art of defense.
     
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
@@ -252,11 +252,11 @@ The soldiers felt a sense of solidarity wash over them, as if they were standing
     -> END
 
 ===TheBrawl===
-    Around the campfire's flickering light, a soldier's voice carried a tale of camaraderie and friendly competition. Laughter mingled with the crackling of flames as his companions leaned in, eager to hear the story.
+    Around the campfires flickering light, a soldiers voice carried a tale of camaraderie and friendly competition. Laughter mingled with the crackling of flames as his companions leaned in, eager to hear the story.
 
 "Ah, my comrades," the soldier chuckled, "let me tell you of what occured the last training session! It was a night of merriment turned into spirited contest. We playfully tested our mettle, each strike and parry a dance of skill..."
 
-The soldiers shared knowing glances, their own memories of friendly contests coming to mind. The storyteller's words emphasized the bonds of camaraderie and the lessons of melee combat techniques, leaving the soldiers with a sense of shared experience.
+The soldiers shared knowing glances, their own memories of friendly contests coming to mind. The storytellers words emphasized the bonds of camaraderie and the lessons of melee combat techniques, leaving the soldiers with a sense of shared experience.
     
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
@@ -265,11 +265,11 @@ The soldiers shared knowing glances, their own memories of friendly contests com
     -> END
 
 ===TheShootout===
-    Amidst the warm embrace of the campfire, a soldier's voice rose with a sense of anticipation. The flames danced in the eyes of his companions as they settled in to hear the tale.
+    Amidst the warm embrace of the campfire, a soldiers voice rose with a sense of anticipation. The flames danced in the eyes of his companions as they settled in to hear the tale.
 
 "Listen closely, my comrades," the soldier began, "to the tale of our last battle. Imagine a sky heavy with clouds, setting the stage for a display of ranged prowess as my regiment aimed for the approaching beastmen. Bows, crossbows, throwing knives, and gunpowder weapons took center stage..."
 
-The soldiers exchanged nods, their minds vividly painting scenes of arrows and projectiles soaring through the air. The storyteller's words underscored the intricacies of ranged combat, leaving the soldiers with a deeper understanding of various ranged weapon skills.
+The soldiers exchanged nods, their minds vividly painting scenes of arrows and projectiles soaring through the air. The storytellers words underscored the intricacies of ranged combat, leaving the soldiers with a deeper understanding of various ranged weapon skills.
     
     //Give Xp
             ~ GiveSkillExperience("Bow",750)
@@ -329,9 +329,9 @@ As the stories wove their tapestry of adventure, the soldiers found themselves t
     -> END
     
 ===Survival===
-    Amidst the gentle crackling of the fire, a group of soldiers shared their insights on surviving in the wilderness. Their voices carried the weight of experience as they recounted tales of resourcefulness and endurance in the face of nature's challenges.
+    Amidst the gentle crackling of the fire, a group of soldiers shared their insights on surviving in the wilderness. Their voices carried the weight of experience as they recounted tales of resourcefulness and endurance in the face of natures challenges.
 
-"Listen well," one soldier began, his voice steady and assured, "for I shall impart the wisdom of how to properly survival in the thickest wild woods. From foraging for sustenance to navigating the dense forests and treacherous swamps, the key lies in understanding the land's rhythms..."
+"Listen well," one soldier began, his voice steady and assured, "for I shall impart the wisdom of how to properly survival in the thickest wild woods. From foraging for sustenance to navigating the dense forests and treacherous swamps, the key lies in understanding the lands rhythms..."
 
 As the tales unfolded, the soldiers found themselves immersed in the art of survival, learning to read the signs of nature and adapt to its demands. The stories emphasized the skills of medicine, scouting, and athleticism, leaving the soldiers with a newfound respect for the unforgiving yet awe-inspiring world beyond the safety of civilization.
     
@@ -343,29 +343,3 @@ As the tales unfolded, the soldiers found themselves immersed in the art of surv
 
 
 -> END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

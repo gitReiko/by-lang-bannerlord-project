@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Campfire
+# title: Лагерны Агонь
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -66,11 +66,11 @@
                 
                 {MeleeWeaponRandom:
                     -1:
-                        ~ MeleeWeaponText = "One Handed"
+                        ~ MeleeWeaponText = "Аднаручнай Зброі"
                     -2:
-                        ~ MeleeWeaponText = "Two Handed"
+                        ~ MeleeWeaponText = "Двухручнай Зброі"
                     -3:
-                        ~ MeleeWeaponText = "Polearm"
+                        ~ MeleeWeaponText = "Тронкавай Зброі"
                 }
 
         //Ranged
@@ -80,13 +80,13 @@
                 
                 {RangedWeaponRandom:
                     -1:
-                        ~ RangedWeaponText = "Bow"
+                        ~ RangedWeaponText = "Лука"
                     -2:
-                        ~ RangedWeaponText = "Crossbow"
+                        ~ RangedWeaponText = "Арбалета"
                     -3:
-                        ~ RangedWeaponText = "Throwing"
+                        ~ RangedWeaponText = "Кіданьня"
                     -4:
-                        ~ RangedWeaponText = "Gunpowder"
+                        ~ RangedWeaponText = "Пораха"
                 }
     
     //Group 1
@@ -100,29 +100,29 @@
             {StorySelect:
                 -0: ERROR
                 -1:
-                    ~ StoryName = "The Hunt"
+                    ~ StoryName = "Паляваньне"
                     ~ StoryBranch = ->TheHunt
-                    ~ StoryXpText = "(+1000 XP for Scouting, {RangedWeaponText}, and Tactics)"
+                    ~ StoryXpText = "(+1000 досьведа да Выведкі, {RangedWeaponText} і Тактыкі)"
                 -2:
-                    ~ StoryName = "The Ambush"
+                    ~ StoryName = "Засада"
                     ~ StoryBranch = ->TheAmbush
-                    ~ StoryXpText = "(+1000 XP for Leadership, Tactics, and Roguery)"
+                    ~ StoryXpText = "(+1000 досьведа да Лідарства, Тактыкі і Махлярства)"
                 -3:
-                    ~ StoryName = "The Charge"
+                    ~ StoryName = "Пагоня"
                     ~ StoryBranch = ->TheCharge
-                    ~ StoryXpText = "(+1000 XP for Riding, Polearm, and Leadership)"
+                    ~ StoryXpText = "(+1000 досьведа да Коннай Язды, Тронкавай Зброі і Лідарства)"
                 -4:
-                    ~ StoryName = "Holding the Line"
+                    ~ StoryName = "Трымаць Шыхт"
                     ~ StoryBranch = ->HoldingTheLine
-                    ~ StoryXpText = "(+1000 XP for {MeleeWeaponText}, Leadership, and Tactics)"
+                    ~ StoryXpText = "(+1000 досьведа да {MeleeWeaponText}, Лідарства і Тактыкі)"
                 -5:
-                    ~ StoryName = "The Brawl"
+                    ~ StoryName = "Бойка"
                     ~ StoryBranch = ->TheBrawl
-                    ~ StoryXpText = "(+1000 XP for all melee weapon skills)"
+                    ~ StoryXpText = "(+1000 досьведа да ўсіх навыкаў зброі блізкага бою)"
                 -6:
-                    ~ StoryName = "The Shootout"
+                    ~ StoryName = "Страляніна"
                     ~ StoryBranch = ->TheShootout
-                    ~ StoryXpText = "(+750 XP for all ranged weapon skills)"
+                    ~ StoryXpText = "(+750 досьведа да ўсіх навыкаў зброі далёкага бою)"
             }
     
     //Group 2
@@ -136,25 +136,25 @@
             {DiscussionSelect:
                 -0: ERROR
                 -1:
-                    ~ DiscussionName = "Great Rulers"
+                    ~ DiscussionName = "Выбітныя Гаспадары"
                     ~ DiscussionBranch = ->GreatRulers
-                    ~ DiscussionXpText = "(+1000 XP for Steward, Leadership, and Charm)"
+                    ~ DiscussionXpText = "(+1000 досьведа да Загадваньня, Лідарства і Харызмы)"
                 -2:
-                    ~ DiscussionName = "Craftsman"
+                    ~ DiscussionName = "Рамесьнік"
                     ~ DiscussionBranch = ->Craftsman
-                    ~ DiscussionXpText = "(+1500 XP for Smithing and Engineering)"
+                    ~ DiscussionXpText = "(+1500 досьведа да Кавальства і Інжынерыі)"
                 -3:
-                    ~ DiscussionName = "Negotiation"
+                    ~ DiscussionName = "Перамовы"
                     ~ DiscussionBranch = ->Negotiation
-                    ~ DiscussionXpText = "(+1000 XP for Charm, Trade, and Roguery)"
+                    ~ DiscussionXpText = "(+1000 досьведа да Харызмы, Гандлю і Махлярства)"
                 -4:
-                    ~ DiscussionName = "Traveling"
+                    ~ DiscussionName = "Вандроўка"
                     ~ DiscussionBranch = ->Traveling
-                    ~ DiscussionXpText = "(+1500 XP for Riding and Athletics)"
+                    ~ DiscussionXpText = "(+1500 досьведа да Коннай Язды і Атлетыкі)"
                 -5:
-                    ~ DiscussionName = "Survival"
+                    ~ DiscussionName = "Выжываньня"
                     ~ DiscussionBranch = ->Survival
-                    ~ DiscussionXpText = "(+1000 XP for Medicine, Scouting, and Athletics)"
+                    ~ DiscussionXpText = "(+1000 досьведа да Медыцыны, Выведкі і Атлетыкі)"
             }
             
             
@@ -167,16 +167,16 @@
 
 ===Start===
 
-As it gets dark you and your men setup camp. As the night goes on you can see that your men have broken off into two groups. One seems to be telling war stories, while the other is just talking. -> choice1
+З надыходам цемры вы і вашыя паплечнікі ўладкоўваюць лагер. Нанач вы бачыце, што вашыя людзі падзяліліся на дзьве групы. Здаецца, адна расказвае вайсковыя гісторыі, іншая проста размаўляе. -> choice1
 
     =choice1
-        What will you do? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
-            *[Listen in on the story of {StoryName} {StoryXpText}]
+        Што вы будзеце рабіць? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
+            *[Слухаць гісторыю пра {StoryName} {StoryXpText}]
                 ->StoryBranch
-            *[Join in the discussion of {DiscussionName} {DiscussionXpText}]
+            *[Далучыцца да абмеркаваньня {DiscussionName} {DiscussionXpText}]
                 ->DiscussionBranch
-            *[Tell your men to get some rest (All companions healed and all wounded troops restored)]
-                You tell your men to head to bed early and get all the rest they can.
+            *[Сказаць сваім людзям адпачыць (Усе параненыя кампаньёны і ваяры будуць вылекаваны)]
+                Вы сказалі сваім людзей паболей паспаць і адпачыць.
                 ~ HealPartyToFull()
                 ->END
 
