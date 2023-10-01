@@ -104,23 +104,23 @@
                     ~ StoryBranch = ->TheHunt
                     ~ StoryXpText = "(+1000 dośvieda da Vyviedki, {RangedWeaponText} i Taktyki)"
                 -2:
-                    ~ StoryName = "Zasada"
+                    ~ StoryName = "Zasadu"
                     ~ StoryBranch = ->TheAmbush
                     ~ StoryXpText = "(+1000 dośvieda da Lidarstva, Taktyki i Machlarstva)"
                 -3:
-                    ~ StoryName = "Pahonia"
+                    ~ StoryName = "Pahoniu"
                     ~ StoryBranch = ->TheCharge
                     ~ StoryXpText = "(+1000 dośvieda da Konnaj Jazdy, Tronkavaj Zbroi i Lidarstva)"
                 -4:
-                    ~ StoryName = "Trymać Šycht"
+                    ~ StoryName = "Trymańnie Šychta"
                     ~ StoryBranch = ->HoldingTheLine
                     ~ StoryXpText = "(+1000 dośvieda da {MeleeWeaponText}, Lidarstva i Taktyki)"
                 -5:
-                    ~ StoryName = "Bojka"
+                    ~ StoryName = "Bojku"
                     ~ StoryBranch = ->TheBrawl
                     ~ StoryXpText = "(+1000 dośvieda da ŭsich navykaŭ zbroi blizkaha boju)"
                 -6:
-                    ~ StoryName = "Stralanina"
+                    ~ StoryName = "Stralaninu"
                     ~ StoryBranch = ->TheShootout
                     ~ StoryXpText = "(+750 dośvieda da ŭsich navykaŭ zbroi dalokaha boju)"
             }
@@ -136,19 +136,19 @@
             {DiscussionSelect:
                 -0: ERROR
                 -1:
-                    ~ DiscussionName = "Vybitnyja Haspadary"
+                    ~ DiscussionName = "Vybitnych Haspadaroŭ"
                     ~ DiscussionBranch = ->GreatRulers
                     ~ DiscussionXpText = "(+1000 dośvieda da Zahadvańnia, Lidarstva i Charyzmy)"
                 -2:
-                    ~ DiscussionName = "Ramieśnik"
+                    ~ DiscussionName = "Ramieśnikaŭ"
                     ~ DiscussionBranch = ->Craftsman
                     ~ DiscussionXpText = "(+1500 dośvieda da Kavalstva i Inžynieryi)"
                 -3:
-                    ~ DiscussionName = "Pieramovy"
+                    ~ DiscussionName = "Pieramovaŭ"
                     ~ DiscussionBranch = ->Negotiation
                     ~ DiscussionXpText = "(+1000 dośvieda da Charyzmy, Handlu i Machlarstva)"
                 -4:
-                    ~ DiscussionName = "Vandroŭka"
+                    ~ DiscussionName = "Vandravańniaŭ"
                     ~ DiscussionBranch = ->Traveling
                     ~ DiscussionXpText = "(+1500 dośvieda da Konnaj Jazdy i Atletyki)"
                 -5:
