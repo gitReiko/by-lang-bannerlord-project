@@ -104,23 +104,23 @@
                     ~ StoryBranch = ->TheHunt
                     ~ StoryXpText = "(+1000 досьведа да Выведкі, {RangedWeaponText} і Тактыкі)"
                 -2:
-                    ~ StoryName = "Засада"
+                    ~ StoryName = "Засаду"
                     ~ StoryBranch = ->TheAmbush
                     ~ StoryXpText = "(+1000 досьведа да Лідарства, Тактыкі і Махлярства)"
                 -3:
-                    ~ StoryName = "Пагоня"
+                    ~ StoryName = "Пагоню"
                     ~ StoryBranch = ->TheCharge
                     ~ StoryXpText = "(+1000 досьведа да Коннай Язды, Тронкавай Зброі і Лідарства)"
                 -4:
-                    ~ StoryName = "Трымаць Шыхт"
+                    ~ StoryName = "Трыманьне Шыхта"
                     ~ StoryBranch = ->HoldingTheLine
                     ~ StoryXpText = "(+1000 досьведа да {MeleeWeaponText}, Лідарства і Тактыкі)"
                 -5:
-                    ~ StoryName = "Бойка"
+                    ~ StoryName = "Бойку"
                     ~ StoryBranch = ->TheBrawl
                     ~ StoryXpText = "(+1000 досьведа да ўсіх навыкаў зброі блізкага бою)"
                 -6:
-                    ~ StoryName = "Страляніна"
+                    ~ StoryName = "Страляніну"
                     ~ StoryBranch = ->TheShootout
                     ~ StoryXpText = "(+750 досьведа да ўсіх навыкаў зброі далёкага бою)"
             }
@@ -136,19 +136,19 @@
             {DiscussionSelect:
                 -0: ERROR
                 -1:
-                    ~ DiscussionName = "Выбітныя Гаспадары"
+                    ~ DiscussionName = "Выбітных Гаспадароў"
                     ~ DiscussionBranch = ->GreatRulers
                     ~ DiscussionXpText = "(+1000 досьведа да Загадваньня, Лідарства і Харызмы)"
                 -2:
-                    ~ DiscussionName = "Рамесьнік"
+                    ~ DiscussionName = "Рамесьнікаў"
                     ~ DiscussionBranch = ->Craftsman
                     ~ DiscussionXpText = "(+1500 досьведа да Кавальства і Інжынерыі)"
                 -3:
-                    ~ DiscussionName = "Перамовы"
+                    ~ DiscussionName = "Перамоваў"
                     ~ DiscussionBranch = ->Negotiation
                     ~ DiscussionXpText = "(+1000 досьведа да Харызмы, Гандлю і Махлярства)"
                 -4:
-                    ~ DiscussionName = "Вандроўка"
+                    ~ DiscussionName = "Вандраваньняў"
                     ~ DiscussionBranch = ->Traveling
                     ~ DiscussionXpText = "(+1500 досьведа да Коннай Язды і Атлетыкі)"
                 -5:
