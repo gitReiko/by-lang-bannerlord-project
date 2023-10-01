@@ -183,7 +183,7 @@ Z nadychodam ciemry vy i vašyja paplečniki ŭładkoŭvajuć łahier. Nanač vy
 ===TheHunt===
     Siarod patreskvańnia vohnišča zadychany hołas sałdata raskazvaŭ pra ŭtojlivaść i pieraśled. Mihatlivaje połymia, zdavałasia, adlustroŭvała pradčuvańnie ŭ vačach jaho spadarožnikaŭ, što schililisia pasłuchać.
 
-"Pasłuchajcie, chłopcy i dzieŭki, - pačaŭ sałdat, - dazvolcie mnie raskazać vam pra našaje apošniaje palavańnie. Stajała bieźmiesiacovaja noč, našyja kroki vyznačalisia cieniami i šołacham liścia. Našyja vyviedniki prabiralisia praz zaraśniki, zorka sočačy za minataŭram..."
+"Pasłuchajcie, chłopcy i dzieŭki - pačaŭ sałdat: dazvolcie mnie raskazać vam pra našaje apošniaje palavańnie. Stajała bieźmiesiacovaja noč, našyja kroki vyznačalisia cieniami i šołacham liścia. Našyja vyviedniki prabiralisia praz zaraśniki, zorka sočačy za minataŭram..."
 
 Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ryzyku pahoni i napruhu, što pavisła ŭ pavietry. Słovy apaviadańnika malavali jarkuju karcinu chitraści i stratehii, i naprykancy apovieda sałdaty stali pa-novamu razumieć, što takoje vyviedka i majsterstva palavańnia.
     
@@ -206,9 +206,9 @@ Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ry
 ===TheAmbush===
     Siarod tresku vuhloŭ prahučaŭ hołas sałdata z hareznym blaskam u vačach. Ciopły vodblisk vohnišča aśviatlaŭ nieciarplivyja tvary jaho tavaryšaŭ, jakija sieli pasłuchać apovied.
 
-"Źbirajciesia, chłopcy," - skazaŭ sałdat z uchmyłkaj, - "i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Našy płan byŭ chitry, ruchi imklivyja. My naniesli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..."
+"Źbirajciesia, chłopcy, - skazaŭ sałdat z uchmyłkaj: i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Našy płan byŭ chitry, ruchi imklivyja. My naniesli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..."
 
-The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tales conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush.
+Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. Śmiech i ŭchvalnyja kivy supravadžali kancoŭku apovieda, pakidajučy ŭ sałdataŭ hłybiejšaje razumieńnie taktyki i mocy dobra zładžanaj zasady.
     
         //Give Xp
             ~ GiveSkillExperience("Leadership",1000)
@@ -217,11 +217,11 @@ The soldiers were transported to a scene of calculated cunning and swift executi
     -> END
 
 ===TheCharge===
-    The fires warm embrace cast dancing shadows upon the faces of the soldiers gathered around. Their attention was rapt as a battle-hardened warriors voice filled the air.
+    Ciopłyja abdymki vohnišča adkidvali skoki cieniaŭ na tvary navakolnych vajaroŭ. Ich uvaha była prykuta, kali ŭ pavietry zahučaŭ hołas zahartavanaha ŭ bajach vajara.
 
-"Listen well, my friends," the soldier began, "to the tale of our last battle. It was a day bathed in the glow of a setting sun. Our horses were eager, their hooves pawing at the earth. With a thunderous cry, we charged..."
+"Słuchajcie ŭvažliva, siabry maje - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Heta byŭ dzień, abłaskany pramieniami zychodziačaha sonca. Našyja koni byli ŭ nieciarpieńni, ich kapyty hrukali ab ziamlu. Z hrymotnym pokličam my rynulisia ŭ boj..."
 
-The soldiers could almost feel the rush of wind against their faces and the pounding of hooves beneath them. The story painted a vivid picture of unity and bravery, leaving the soldiers with a deeper understanding of riding, weapon usage, and the power of a well-coordinated charge.
+Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapyty. Historyja malaŭničuju karcinu jadnańnia i advahi, prymušajučy sałdataŭ hłybiej razumieć asablivaści konnaj jazdy, abychodžańnia sa zbrojaj i siłu zładžanaj kamandy.
     
     //Give Xp
         ~ GiveSkillExperience("Riding",1000)
@@ -230,11 +230,11 @@ The soldiers could almost feel the rush of wind against their faces and the poun
     -> END 
 
 ===HoldingTheLine===
-    Amidst the campfires gentle crackle, a soldiers voice carried the weight of determination. The glow of the flames seemed to mirror the resolve in the eyes of his companions.
+    Siarod miakkaha patreskvańnia vohnišča hołas sałdata hučaŭ navažna. Vodbliski połymia, zdavałasia, adlustroŭvali rašučaść u vačach jaho tavaryšaŭ.
 
-"Listen closely, my friends," the soldier spoke with unwavering conviction, "to the tale of our last battle. It was a moment of unbreakable unity as we positioned ourselves to hold strong, shields locked in steadfast defense. As the undead army advanced, we stood resolute..."
+"Słuchajcie ŭvažliva, siabry maje - z niepachisnaj pierakananaściu pramoviŭ sałdat: apovied pra našu apošniuju bitvu. Heta byŭ momant nieparušnaha jadnańnia, my budavali tryvały šerah, začyniŭšysia ščytami dla nadziejnaj abarony. Kali armija niežyci nastavała, my stajali navažna..."
 
-The soldiers felt a sense of solidarity wash over them, as if they were standing side by side with the warriors of the story. The storytellers words emphasized the importance of leadership and tactics, leaving the soldiers with a deeper appreciation for the art of defense.
+Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać poruč z vajarami hetaj historyi. Słovy apaviadańnika padkreslili važnaść lidarstva i taktyki, što dazvoliła sałdatam hłybiej zrazumieć majsterstva abarony.
     
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
@@ -252,11 +252,11 @@ The soldiers felt a sense of solidarity wash over them, as if they were standing
     -> END
 
 ===TheBrawl===
-    Around the campfires flickering light, a soldiers voice carried a tale of camaraderie and friendly competition. Laughter mingled with the crackling of flames as his companions leaned in, eager to hear the story.
+    U mihatlivym śviatle vohnišča hołas sałdata raskazvaŭ pra tavarystva i siabroŭskaje supiernictva. Śmiech źmiešvaŭsia z treskam połymia, kali jaho tavaryšy nachilalisia, žadajučy pačuć apovied.
 
-"Ah, my comrades," the soldier chuckled, "let me tell you of what occured the last training session! It was a night of merriment turned into spirited contest. We playfully tested our mettle, each strike and parry a dance of skill..."
+"Voch, siabry - uśmichnuŭsia sałdat: dazvolcie raskazać vam toje-sioje pra zdareńnie na apošnich rychtoŭlach! Heta była noč viesiałości, što pieratvaryłasia ŭ zapalnaje spabornictva. My hulliva praviarali svaje siły, kožny ŭdar i adbićcio byli tancam majsterstva..."
 
-The soldiers shared knowing glances, their own memories of friendly contests coming to mind. The storytellers words emphasized the bonds of camaraderie and the lessons of melee combat techniques, leaving the soldiers with a sense of shared experience.
+Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy pra siabroŭskija dvuboi. Słovy apaviadańnika padkryslivali viazi tavarystva i praktykavańni ručnoha boju, pakidajučy ŭ sałdataŭ adčuvańnie ahulnaha dosviedu.
     
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
@@ -265,11 +265,11 @@ The soldiers shared knowing glances, their own memories of friendly contests com
     -> END
 
 ===TheShootout===
-    Amidst the warm embrace of the campfire, a soldiers voice rose with a sense of anticipation. The flames danced in the eyes of his companions as they settled in to hear the tale.
+    U ciopłych abdymkach vohnišča hołas sałdata ŭzvysiŭsia ad pradčuvańnia. U vačach jaho spadarožnikaŭ skakali ahieńčyki, kali jany raźmiaścilisia, kab pasłuchać apovied.
 
-"Listen closely, my comrades," the soldier began, "to the tale of our last battle. Imagine a sky heavy with clouds, setting the stage for a display of ranged prowess as my regiment aimed for the approaching beastmen. Bows, crossbows, throwing knives, and gunpowder weapons took center stage..."
+"Słuchajcie ŭvažliva, paplečniki - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Ujavicie sabie nieba, zaciahnutaje chmarami, na jakim razhortvajecca demanstracyja strałkovaha majsterstva: moj połk naceliŭsia na nadychodziačych pačvar. Łuki, arbalety, kidalnyja nažy, parachavaja zbroja..."
 
-The soldiers exchanged nods, their minds vividly painting scenes of arrows and projectiles soaring through the air. The storytellers words underscored the intricacies of ranged combat, leaving the soldiers with a deeper understanding of various ranged weapon skills.
+Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snaradaŭ i streł u pavietry. Słovy apaviadańnika padkreslili ŭsie tonkaści boju na dystancyi i dazvolili sałdatam hłybiej zrazumieć usialakija navyki vałodańnia dystancyjnaj zbrojaj.
     
     //Give Xp
             ~ GiveSkillExperience("Bow",750)

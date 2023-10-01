@@ -183,7 +183,7 @@
 ===TheHunt===
     Сярод патрэскваньня вогнішча задыханы голас салдата расказваў пра ўтойлівасьць і перасьлед. Мігатлівае полымя, здавалася, адлюстроўвала прадчуваньне ў вачах яго спадарожнікаў, што схіліліся паслухаць.
 
-"Паслухайце, хлопцы і дзеўкі, - пачаў салдат, - дазвольце мне расказаць вам пра нашае апошняе паляваньне. Стаяла безьмесяцовая ноч, нашыя крокі вызначаліся ценямі і шолахам лісьця. Нашыя выведнікі прабіраліся праз зарасьнікі, зорка сочачы за мінатаўрам..."
+"Паслухайце, хлопцы і дзеўкі - пачаў салдат: дазвольце мне расказаць вам пра нашае апошняе паляваньне. Стаяла безьмесяцовая ноч, нашыя крокі вызначаліся ценямі і шолахам лісьця. Нашыя выведнікі прабіраліся праз зарасьнікі, зорка сочачы за мінатаўрам..."
 
 Па меры разьвіцьця сюжэта салдаты ўцягваліся ў аповед, адчуваючы рызыку пагоні і напругу, што павісла ў паветры. Словы апавяданьніка малявалі яркую карціну хітрасьці і стратэгіі, і напрыканцы аповеда салдаты сталі па-новаму разумець, што такое выведка і майстэрства паляваньня.
     
@@ -206,9 +206,9 @@
 ===TheAmbush===
     Сярод трэску вуглёў прагучаў голас салдата з гарэзным бляскам у вачах. Цёплы водбліск вогнішча асьвятляў нецярплівыя твары яго таварышаў, якія селі паслухаць аповед.
 
-"Зьбірайцеся, хлопцы," - сказаў салдат з ухмылкай, - "і дазвольце мне расказаць вам пра засаду, у якой мы выжылі. Уявіце сабе - ноч у Маннсьлібліце, варожыя зьвералюдзі наступаюць, не падазраючы пра пастку. Нашы план быў хітры, рухі імклівыя. Мы нанеслі нечаканы і жорсткі ўдар, які пераламіў ход падзеяў на нашую карысьць..."
+"Зьбірайцеся, хлопцы, - сказаў салдат з ухмылкай: і дазвольце мне расказаць вам пра засаду, у якой мы выжылі. Уявіце сабе - ноч у Маннсьлібліце, варожыя зьвералюдзі наступаюць, не падазраючы пра пастку. Нашы план быў хітры, рухі імклівыя. Мы нанеслі нечаканы і жорсткі ўдар, які пераламіў ход падзеяў на нашую карысьць..."
 
-The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tale's conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush.
+Салдаты перанесьліся ў сцэну ашчаднай хітрасьці і хуткага выкананьня. Сьмех і ўхвальныя ківы суправаджалі канцоўку аповеда, пакідаючы ў салдатаў глыбейшае разуменьне тактыкі і моцы добра зладжанай засады.
     
         //Give Xp
             ~ GiveSkillExperience("Leadership",1000)
@@ -217,11 +217,11 @@ The soldiers were transported to a scene of calculated cunning and swift executi
     -> END
 
 ===TheCharge===
-    The fire's warm embrace cast dancing shadows upon the faces of the soldiers gathered around. Their attention was rapt as a battle-hardened warrior's voice filled the air.
+    Цёплыя абдымкі вогнішча адкідвалі скокі ценяў на твары навакольных ваяроў. Іх увага была прыкута, калі ў паветры загучаў голас загартаванага ў баях ваяра.
 
-"Listen well, my friends," the soldier began, "to the tale of our last battle. It was a day bathed in the glow of a setting sun. Our horses were eager, their hooves pawing at the earth. With a thunderous cry, we charged..."
+"Слухайце ўважліва, сябры мае - пачаў салдат: аповед пра нашую апошнюю бітву. Гэта быў дзень, абласканы праменямі зыходзячага сонца. Нашыя коні былі ў нецярпеньні, іх капыты грукалі аб зямлю. З грымотным поклічам мы рынуліся ў бой..."
 
-The soldiers could almost feel the rush of wind against their faces and the pounding of hooves beneath them. The story painted a vivid picture of unity and bravery, leaving the soldiers with a deeper understanding of riding, weapon usage, and the power of a well-coordinated charge.
+Салдаты амаль адчувалі, як вецер б'ецца ў твар, а пад нагамі грукаюць капыты. Гісторыя маляўнічую карціну яднаньня і адвагі, прымушаючы салдатаў глыбей разумець асаблівасьці коннай язды, абыходжаньня са зброяй і сілу зладжанай каманды.
     
     //Give Xp
         ~ GiveSkillExperience("Riding",1000)
@@ -230,11 +230,11 @@ The soldiers could almost feel the rush of wind against their faces and the poun
     -> END 
 
 ===HoldingTheLine===
-    Amidst the campfire's gentle crackle, a soldier's voice carried the weight of determination. The glow of the flames seemed to mirror the resolve in the eyes of his companions.
+    Сярод мяккага патрэскваньня вогнішча голас салдата гучаў наважна. Водбліскі полымя, здавалася, адлюстроўвалі рашучасьць у вачах яго таварышаў.
 
-"Listen closely, my friends," the soldier spoke with unwavering conviction, "to the tale of our last battle. It was a moment of unbreakable unity as we positioned ourselves to hold strong, shields locked in steadfast defense. As the undead army advanced, we stood resolute..."
+"Слухайце ўважліва, сябры мае - з непахіснай перакананасьцю прамовіў салдат: аповед пра нашу апошнюю бітву. Гэта быў момант непарушнага яднаньня, мы будавалі трывалы шэраг, зачыніўшыся шчытамі для надзейнай абароны. Калі армія нежыці наставала, мы стаялі наважна..."
 
-The soldiers felt a sense of solidarity wash over them, as if they were standing side by side with the warriors of the story. The storyteller's words emphasized the importance of leadership and tactics, leaving the soldiers with a deeper appreciation for the art of defense.
+Салдаты адчулі, што іх ахапляе пачуцьцё салідарнасьці, нібы яны стаяць поруч з ваярамі гэтай гісторыі. Словы апавяданьніка падкрэслілі важнасьць лідарства і тактыкі, што дазволіла салдатам глыбей зразумець майстэрства абароны.
     
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
@@ -252,11 +252,11 @@ The soldiers felt a sense of solidarity wash over them, as if they were standing
     -> END
 
 ===TheBrawl===
-    Around the campfire's flickering light, a soldier's voice carried a tale of camaraderie and friendly competition. Laughter mingled with the crackling of flames as his companions leaned in, eager to hear the story.
+    У мігатлівым сьвятле вогнішча голас салдата расказваў пра таварыства і сяброўскае суперніцтва. Сьмех зьмешваўся з трэскам полымя, калі яго таварышы нахіляліся, жадаючы пачуць аповед.
 
-"Ah, my comrades," the soldier chuckled, "let me tell you of what occured the last training session! It was a night of merriment turned into spirited contest. We playfully tested our mettle, each strike and parry a dance of skill..."
+"Вох, сябры - усьміхнуўся салдат: дазвольце расказаць вам тое-сёе пра здарэньне на апошніх рыхтоўлях! Гэта была ноч весялосьці, што ператварылася ў запальнае спаборніцтва. Мы гульліва правяралі свае сілы, кожны ўдар і адбіцьцё былі танцам майстэрства..."
 
-The soldiers shared knowing glances, their own memories of friendly contests coming to mind. The storyteller's words emphasized the bonds of camaraderie and the lessons of melee combat techniques, leaving the soldiers with a sense of shared experience.
+Салдаты абменьваліся паглядамі разуменьня, у памяці ўсплывалі ўспаміны пра сяброўскія двубоі. Словы апавяданьніка падкрыслівалі вязі таварыства і практыкаваньні ручнога бою, пакідаючы ў салдатаў адчуваньне агульнага досведу.
     
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
@@ -265,11 +265,11 @@ The soldiers shared knowing glances, their own memories of friendly contests com
     -> END
 
 ===TheShootout===
-    Amidst the warm embrace of the campfire, a soldier's voice rose with a sense of anticipation. The flames danced in the eyes of his companions as they settled in to hear the tale.
+    У цёплых абдымках вогнішча голас салдата ўзвысіўся ад прадчуваньня. У вачах яго спадарожнікаў скакалі агеньчыкі, калі яны разьмясьціліся, каб паслухаць аповед.
 
-"Listen closely, my comrades," the soldier began, "to the tale of our last battle. Imagine a sky heavy with clouds, setting the stage for a display of ranged prowess as my regiment aimed for the approaching beastmen. Bows, crossbows, throwing knives, and gunpowder weapons took center stage..."
+"Слухайце ўважліва, паплечнікі - пачаў салдат: аповед пра нашую апошнюю бітву. Уявіце сабе неба, зацягнутае хмарамі, на якім разгортваецца дэманстрацыя стралковага майстэрства: мой полк нацэліўся на надыходзячых пачвар. Лукі, арбалеты, кідальныя нажы, парахавая зброя..."
 
-The soldiers exchanged nods, their minds vividly painting scenes of arrows and projectiles soaring through the air. The storyteller's words underscored the intricacies of ranged combat, leaving the soldiers with a deeper understanding of various ranged weapon skills.
+Салдаты абменьваліся ківамі, у іх памяці ўзьнікалі яркія сцэны лёту снарадаў і стрэл у паветры. Словы апавяданьніка падкрэслілі ўсе тонкасьці бою на дыстанцыі і дазволілі салдатам глыбей зразумець усялякія навыкі валоданьня дыстанцыйнай зброяй.
     
     //Give Xp
             ~ GiveSkillExperience("Bow",750)
