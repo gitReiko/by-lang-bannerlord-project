@@ -279,11 +279,11 @@
     -> END
 
 ===GreatRulers===
-    Amidst the warm glow of the campfire, a group of soldiers engaged in a spirited conversation about the great rulers of the Old World. Their voices carried admiration and respect, their tales interwoven with lessons of leadership and statecraft.
+    У цёплым сьвятле вогнішча група ваяроў захоплена расказвала пра вялікіх гаспадароў Старога Света. У іх галасах гучала захапленьне і павага, а ў аповедах перапляталіся ўрокі лідарства і гаспадарскага майстэрства.
 
-One soldier began, his voice laden with reverence, "Let us speak of the legendary rulers who shaped our lands. Last I heard, the great Karl Franz seemed to uphold his reputation well, as it takes a lot to govern..."
+Адзін з ваяроў пачаў з глыбокай пашанай у голасе: "Давайце пагаворым пра легендарных гаспадароў, што стварылі нашыя землі. Наколькі я чуў, вялікі Карл Франц, здаецца, падтрымліваў сваю рэпутацыю, бо для панаваньня над краінай, патрэбна шмат рэчаў..."
 
-As the stories flowed, the soldiers contemplated the qualities that made these rulers exceptional—their mastery of stewardship, the art of leadership, and the charisma that united their subjects. In their minds, the lessons of stewardship, leadership, and charm took root, leaving them with a deeper understanding of the responsibilities that came with power.
+Падчас аповеда салдаты разважалі над тым, якія якасьці рабілі гэтых гаспадароў выбітнымі - майстэрствы загадваньня і лідарства, харызма, што яднала падданых. Урокі ўкараніліся ў іх сьвядомасьці і прывялі да глыбейшага разуменьня адказнасьці, якую нясе з сабой улада.
     
     //Give Xp
             ~ GiveSkillExperience("Steward",1000)
@@ -292,11 +292,11 @@ As the stories flowed, the soldiers contemplated the qualities that made these r
     -> END
 
 ===Craftsman===
-    Amidst the camaraderie of the campfire, a group of soldiers exchanged tales of craftsmanship and engineering marvels. Their voices held a sense of awe and admiration as they recounted the feats of master artisans and ingenious engineers.
+    Падчас сяброўскай гутаркі ў вогнішча група салдатаў мянялася аповедамі пра дзівы рамеснага і інжынернага майстэрстваў. У іх галасах гучала пачуцьцё глыбокай пашаны і захапленьня, калі яны расказвалі пра вычыны майстроў-рамеснікаў і геніяльных інжынераў.
 
-"Listen closely, comrades," one soldier urged, "Not many know this, but I have had the blessing to learn about engineering from a dwarf. The Dwarfen holds are a testament to the art of smithing..."
+"Слухайце ўважліва, таварышы - заклікаў адзін з салдатаў: мала хто ведае пра гэтае, але мне пашчасьціла вучыцца інжынернай справе ў гнома. Валадарствы гномаў - сведчаньне кавальскага майстэрства..."
 
-As the stories unfolded, the soldiers marveled at the intricate designs and the sheer ingenuity that drove these feats. Their discussions delved into the realms of smithing, engineering, and the marvels born from the minds of skilled craftsmen and craftsdwarfs, leaving them with a newfound appreciation for these vital trades.
+Па ходу аповеда салдаты захапляліся мудрагелістымі канструкцыямі і вынаходлівасьцю, якая рухала гэтымі вычынамі. Абмяркоўваючы кавальскую ды інжынерную справы і дзівы, народжаныя ў галовах майстроў і гномаў, салдаты зноў знайшлі разуменьне гэтых жыцьцёва важных прафесіяў.
     
     //Give Xp
             ~ GiveSkillExperience("Smithing",1500)
