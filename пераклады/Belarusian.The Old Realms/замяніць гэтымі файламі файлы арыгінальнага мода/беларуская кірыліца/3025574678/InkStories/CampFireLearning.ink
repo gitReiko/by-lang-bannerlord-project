@@ -181,11 +181,11 @@
                 ->END
 
 ===TheHunt===
-    Amidst the crackling of the campfire, a grizzled soldier's voice carried a tale of stealth and pursuit. The flickering flames seemed to mirror the anticipation in the eyes of his companions as they leaned in to listen.
+    Сярод патрэскваньня вогнішча задыханы голас салдата расказваў пра ўтойлівасьць і перасьлед. Мігатлівае полымя, здавалася, адлюстроўвала прадчуваньне ў вачах яго спадарожнікаў, што схіліліся паслухаць.
 
-"Listen up, lads and lasses," the soldier began, "let me regale you with the tale of our last hunt. It was a moonless night, our steps guided by shadows and the rustling leaves. Our scouts moved through the underbrush, eyes sharp and senses alert as we sensed a minotaur..."
+"Паслухайце, хлопцы і дзеўкі, - пачаў салдат, - дазвольце мне расказаць вам пра нашае апошняе паляваньне. Стаяла безьмесяцовая ноч, нашыя крокі вызначаліся ценямі і шолахам лісьця. Нашыя выведнікі прабіраліся праз зарасьнікі, зорка сочачы за мінатаўрам..."
 
-As the story unfolded, the soldiers felt themselves drawn into the narrative, experiencing the thrill of the chase and the tension that hung in the air. The storyteller's words painted a vivid picture of cunning and strategy, and by the time the tale concluded, the soldiers had a newfound appreciation for scouting and the art of the hunt.
+Па меры разьвіцьця сюжэта салдаты ўцягваліся ў аповед, адчуваючы рызыку пагоні і напругу, што павісла ў паветры. Словы апавяданьніка малявалі яркую карціну хітрасьці і стратэгіі, і напрыканцы аповеда салдаты сталі па-новаму разумець, што такое выведка і майстэрства паляваньня.
     
     //Give Xp
         ~ GiveSkillExperience("Scouting",1000)
@@ -204,9 +204,9 @@ As the story unfolded, the soldiers felt themselves drawn into the narrative, ex
     -> END
 
 ===TheAmbush===
-    Amid the crackling embers, a soldier's voice rose with a mischievous glint in his eye. The campfire's warm glow illuminated the eager faces of his comrades as they settled in for the story.
+    Сярод трэску вуглёў прагучаў голас салдата з гарэзным бляскам у вачах. Цёплы водбліск вогнішча асьвятляў нецярплівыя твары яго таварышаў, якія селі паслухаць аповед.
 
-"Gather 'round, men," the soldier said with a grin, "and let me tell you about the ambush we survived. Picture this—a Mannslieblit night, the enemy beastmen advancing unaware. Our plan was cunning, our movements swift. We struck with surprise and ferocity, turning the tide in our favor..."
+"Зьбірайцеся, хлопцы," - сказаў салдат з ухмылкай, - "і дазвольце мне расказаць вам пра засаду, у якой мы выжылі. Уявіце сабе - ноч у Маннсьлібліце, варожыя зьвералюдзі наступаюць, не падазраючы пра пастку. Нашы план быў хітры, рухі імклівыя. Мы нанеслі нечаканы і жорсткі ўдар, які пераламіў ход падзеяў на нашую карысьць..."
 
 The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tale's conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush.
     

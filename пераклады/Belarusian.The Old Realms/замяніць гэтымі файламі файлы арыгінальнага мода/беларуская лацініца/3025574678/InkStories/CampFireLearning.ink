@@ -181,11 +181,11 @@ Z nadychodam ciemry vy i vašyja paplečniki ŭładkoŭvajuć łahier. Nanač vy
                 ->END
 
 ===TheHunt===
-    Amidst the crackling of the campfire, a grizzled soldiers voice carried a tale of stealth and pursuit. The flickering flames seemed to mirror the anticipation in the eyes of his companions as they leaned in to listen.
+    Siarod patreskvańnia vohnišča zadychany hołas sałdata raskazvaŭ pra ŭtojlivaść i pieraśled. Mihatlivaje połymia, zdavałasia, adlustroŭvała pradčuvańnie ŭ vačach jaho spadarožnikaŭ, što schililisia pasłuchać.
 
-"Listen up, lads and lasses," the soldier began, "let me regale you with the tale of our last hunt. It was a moonless night, our steps guided by shadows and the rustling leaves. Our scouts moved through the underbrush, eyes sharp and senses alert as we sensed a minotaur..."
+"Pasłuchajcie, chłopcy i dzieŭki, - pačaŭ sałdat, - dazvolcie mnie raskazać vam pra našaje apošniaje palavańnie. Stajała bieźmiesiacovaja noč, našyja kroki vyznačalisia cieniami i šołacham liścia. Našyja vyviedniki prabiralisia praz zaraśniki, zorka sočačy za minataŭram..."
 
-As the story unfolded, the soldiers felt themselves drawn into the narrative, experiencing the thrill of the chase and the tension that hung in the air. The storytellers words painted a vivid picture of cunning and strategy, and by the time the tale concluded, the soldiers had a newfound appreciation for scouting and the art of the hunt.
+Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ryzyku pahoni i napruhu, što pavisła ŭ pavietry. Słovy apaviadańnika malavali jarkuju karcinu chitraści i stratehii, i naprykancy apovieda sałdaty stali pa-novamu razumieć, što takoje vyviedka i majsterstva palavańnia.
     
     //Give Xp
         ~ GiveSkillExperience("Scouting",1000)
@@ -204,9 +204,9 @@ As the story unfolded, the soldiers felt themselves drawn into the narrative, ex
     -> END
 
 ===TheAmbush===
-    Amid the crackling embers, a soldiers voice rose with a mischievous glint in his eye. The campfires warm glow illuminated the eager faces of his comrades as they settled in for the story.
+    Siarod tresku vuhloŭ prahučaŭ hołas sałdata z hareznym blaskam u vačach. Ciopły vodblisk vohnišča aśviatlaŭ nieciarplivyja tvary jaho tavaryšaŭ, jakija sieli pasłuchać apovied.
 
-"Gather round, men," the soldier said with a grin, "and let me tell you about the ambush we survived. Picture this—a Mannslieblit night, the enemy beastmen advancing unaware. Our plan was cunning, our movements swift. We struck with surprise and ferocity, turning the tide in our favor..."
+"Źbirajciesia, chłopcy," - skazaŭ sałdat z uchmyłkaj, - "i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Našy płan byŭ chitry, ruchi imklivyja. My naniesli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..."
 
 The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tales conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush.
     
