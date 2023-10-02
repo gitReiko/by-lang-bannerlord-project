@@ -18,22 +18,21 @@ VAR DeniedBefore = true
 ===START===
 Вы працягваеце свой шлях па завілістай дарозе, і кожны вашы крок суправаджаецца ціхім шэпатам ветру.
 Раптам вашую ўвага прыцягнуў рытмічны грук крокаў, што набліжаліся. Падняўшы вочы, {not MetBefore: вы заўважылі таямнічую фігуру, што ўпэўнена набліжалася да вас. По меры набліжэньня, у вочы кінуўся бляск рапіры тонкай работы. Незнаёмы спыніўся перад вамі і пацаў ацэньваць вас, на яго твары з'явілася цёплая ўсьмешка.}{MetBefore: вы заўважылі знаёмую фігуру Вітторыё дэ Люка, знакамітага Цілійскага дуэлянта, які ўпэўнена крочыў да вашай групы. {not DeniedBefore: Успаміны пра папярэднюю дуэль наваліліся на яго хваляй, і ў галаве дагэтуль не заціхала захапленьне ад першай дуэлі.}}
-#illustration: stranger
-{not MetBefore: "Ah, what a stroke of luck to meet a band of worthy warriors on this lonely path," they say. "I am Vittorio de Luca, a master of the blade from the distant lands of Tilea. I have journeyed far and wide, seeking a worthy adversary who can match my skills in combat. And now, fate has led me to you. Care to prove your skills in a friendly duel, with a little wager to make it exciting?"}
-{MetBefore: As Vittorio draws nearer, the glint of his finely crafted rapier catches your eye, and a warm smile spreads across his face as he appraises you. "Ah, what a stroke of luck to meet again on this lonely path," he says, his voice carrying a playful undertone. "I see the fire of a warrior still burns within you. {not DeniedBefore: Care to prove your skills once more in a rematch?"} {DeniedBefore: Care to prove your skills this time around?}}
+#illustration: stranger {not MetBefore: "Вох, якое шчасьце, сустрэць на гэтым самотным шляхе вартых ваяроў - гавора ён: я Вітторыё дэ Люка, майстар клінка із далёкіх зямель Ціліі. Я прайшоў доўгую дарогу ў пошуках вартага суперніка, здольнага параўнацца з маім майстэрствам у боі. І вось доля прывяла мяне да вас. Жадаеце спраўдзіць сваё майстэрства ў сяброўскім боі, склаўшы маленькі заклад, каб было цікавей?"}
+{MetBefore: Пакуль Вітторыё набліжаецца, у вочы кідаецца бляск яго тонка вырабленай рапіры, і на яго твары з'яўляецца цёплая ўсмешка, калі ён ацэньвае вас. "Вох, якое шчасьце, зноў сустрэцца на гэтым самотным шляхе - гавора ён з гарэзьлівым адценьнем у голасе: Бачу, у тваім сэрцы дагэтуль гарыць полымя ваяра. {not DeniedBefore: Жадаеш наноў спраўдзіць сваё майстэрства ў рэваншы?"} {DeniedBefore: Жадаеце давесьці сваё майстэрства ў гэты раз?}"}
 ~ SetPlayerCustomTag("MetVittorio")
 -> choices
 
 =choices
-*[Accept the challenge.] ->accept
-*[Perhaps another time. We have no time to waste.] -> deny
+*[Прыняць выклік.] ->accept
+*[Магчыма іншым разам. Мы ня можам марнаваць час.] -> deny
 
 =accept
-{not MetBefore: Intrigued by the proposition, you return their smile, curious about the stakes they propose.}
-{not MetBefore: "A duel with a wager? I'm listening," you reply, open to the idea.}
-{not MetBefore: The duelist's eyes sparkle with anticipation as they explain the terms. "If you win, I shall offer a sum of 5000 gold coins as a testament to your skill. Should I prove triumphant, I ask for nothing more than the honor of having tested my skills against yours."}
-With a gleam of excitement in your eyes, you accept the duelist's challenge, and a determined smile crosses your face. "Very well," you say, "I accept your offer, Vittorio de Luca. Let us make this duel one to remember {MetBefore: once more}."
-As your fellow warriors cheer in support, you order them to make camp by the roadside, turning the clearing into an impromptu arena. #illustration: meadow
+{not MetBefore: Заінтрыгаваныя прапановай, вы адказваеце на яго ўсмешку, цікавасьцю да прапанаваных закладаў.}
+{not MetBefore: "Дуэль з закладам? Я слухаю" - адказваеце вы, адкрываючыся да ідэі.}
+{not MetBefore: Вочы дуэлянта блішчаць ад прадчуваньня, калі ён тлумачыць умовы: "Калі вы пераможаце, я прапаную вам 5000 залатых манет у якасьці пацьверджаньня вашага майстэрства. Калі перамога будзе маёй, то мне хопіць толькі ўганараваньня і параўнаньня свайго майстэрства з вашым."}
+З бляскам азарту ў вачах вы прыймаеце выклік дуэлянта, і на вашым твары з'яўляецца наважная ўхмылка. "Добра - гаворыце вы: я прыймаю вашую прапанову Вітторыё дэ Люка. Давайце зробім гэтую дуэль незабыўнай {MetBefore: яшчэ раз}."
+Падбадзёрваючы сваіх паплечнікаў, вы загадваеце ім разьбіць лагер на ўзбоччы дарогі, каб ператварыць паляну ў імправізаваную арэну. #illustration: meadow
 With the arena ready, you step into the center, your heart pounding with anticipation. Your fellow warriors gather around, forming a circle to watch the contest, their expressions a mix of excitement and pride.
 ->enterArena
 

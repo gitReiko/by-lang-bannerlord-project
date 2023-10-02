@@ -18,22 +18,21 @@ VAR DeniedBefore = true
 ===START===
 Vy praciahvajecie svoj šlach pa zavilistaj darozie, i kožny vašy krok supravadžajecca cichim šepatam vietru.
 Raptam vašuju ŭvaha pryciahnuŭ rytmičny hruk krokaŭ, što nabližalisia. Padniaŭšy vočy, {not MetBefore: vy zaŭvažyli tajamničuju fihuru, što ŭpeŭniena nabližałasia da vas. Po miery nabližeńnia, u vočy kinuŭsia blask rapiry tonkaj raboty. Nieznajomy spyniŭsia pierad vami i pacaŭ aceńvać vas, na jaho tvary zjaviłasia ciopłaja ŭśmieška.}{MetBefore: vy zaŭvažyli znajomuju fihuru Vittoryjo de Luka, znakamitaha Cilijskaha duelanta, jaki ŭpeŭniena kročyŭ da vašaj hrupy. {not DeniedBefore: Uspaminy pra papiaredniuju duel navalilisia na jaho chvalaj, i ŭ hałavie dahetul nie zacichała zachapleńnie ad pieršaj dueli.}}
-#illustration: stranger
-{not MetBefore: "Ah, what a stroke of luck to meet a band of worthy warriors on this lonely path," they say. "I am Vittorio de Luca, a master of the blade from the distant lands of Tilea. I have journeyed far and wide, seeking a worthy adversary who can match my skills in combat. And now, fate has led me to you. Care to prove your skills in a friendly duel, with a little wager to make it exciting?"}
-{MetBefore: As Vittorio draws nearer, the glint of his finely crafted rapier catches your eye, and a warm smile spreads across his face as he appraises you. "Ah, what a stroke of luck to meet again on this lonely path," he says, his voice carrying a playful undertone. "I see the fire of a warrior still burns within you. {not DeniedBefore: Care to prove your skills once more in a rematch?"} {DeniedBefore: Care to prove your skills this time around?}}
+#illustration: stranger {not MetBefore: "Voch, jakoje ščaście, sustreć na hetym samotnym šlachie vartych vajaroŭ - havora jon: ja Vittoryjo de Luka, majstar klinka iz dalokich ziamiel Cilii. Ja prajšoŭ doŭhuju darohu ŭ pošukach vartaha supiernika, zdolnaha paraŭnacca z maim majsterstvam u boi. I voś dola pryviała mianie da vas. Žadajecie spraŭdzić svajo majsterstva ŭ siabroŭskim boi, skłaŭšy maleńki zakład, kab było cikaviej?"}
+{MetBefore: Pakul Vittoryjo nabližajecca, u vočy kidajecca blask jaho tonka vyrablenaj rapiry, i na jaho tvary zjaŭlajecca ciopłaja ŭsmieška, kali jon aceńvaje vas. "Voch, jakoje ščaście, znoŭ sustrecca na hetym samotnym šlachie - havora jon z hareźlivym adcieńniem u hołasie: Baču, u tvaim sercy dahetul haryć połymia vajara. {not DeniedBefore: Žadaješ nanoŭ spraŭdzić svajo majsterstva ŭ revanšy?"} {DeniedBefore: Žadajecie davieści svajo majsterstva ŭ hety raz?}"}
 ~ SetPlayerCustomTag("MetVittorio")
 -> choices
 
 =choices
-*[Accept the challenge.] ->accept
-*[Perhaps another time. We have no time to waste.] -> deny
+*[Pryniać vyklik.] ->accept
+*[Mahčyma inšym razam. My nia možam marnavać čas.] -> deny
 
 =accept
-{not MetBefore: Intrigued by the proposition, you return their smile, curious about the stakes they propose.}
-{not MetBefore: "A duel with a wager? Im listening," you reply, open to the idea.}
-{not MetBefore: The duelists eyes sparkle with anticipation as they explain the terms. "If you win, I shall offer a sum of 5000 gold coins as a testament to your skill. Should I prove triumphant, I ask for nothing more than the honor of having tested my skills against yours."}
-With a gleam of excitement in your eyes, you accept the duelists challenge, and a determined smile crosses your face. "Very well," you say, "I accept your offer, Vittorio de Luca. Let us make this duel one to remember {MetBefore: once more}."
-As your fellow warriors cheer in support, you order them to make camp by the roadside, turning the clearing into an impromptu arena. #illustration: meadow
+{not MetBefore: Zaintryhavanyja prapanovaj, vy adkazvajecie na jaho ŭsmiešku, cikavaściu da prapanavanych zakładaŭ.}
+{not MetBefore: "Duel z zakładam? Ja słuchaju" - adkazvajecie vy, adkryvajučysia da idei.}
+{not MetBefore: Vočy duelanta bliščać ad pradčuvańnia, kali jon tłumačyć umovy: "Kali vy pieramožacie, ja prapanuju vam 5000 załatych maniet u jakaści paćvierdžańnia vašaha majsterstva. Kali pieramoha budzie majoj, to mnie chopić tolki ŭhanaravańnia i paraŭnańnia svajho majsterstva z vašym."}
+Z blaskam azartu ŭ vačach vy pryjmajecie vyklik duelanta, i na vašym tvary zjaŭlajecca navažnaja ŭchmyłka. "Dobra - havorycie vy: ja pryjmaju vašuju prapanovu Vittoryjo de Luka. Davajcie zrobim hetuju duel niezabyŭnaj {MetBefore: jašče raz}."
+Padbadziorvajučy svaich paplečnikaŭ, vy zahadvajecie im raźbić łahier na ŭzboččy darohi, kab pieratvaryć palanu ŭ impravizavanuju arenu. #illustration: meadow
 With the arena ready, you step into the center, your heart pounding with anticipation. Your fellow warriors gather around, forming a circle to watch the contest, their expressions a mix of excitement and pride.
 ->enterArena
 
