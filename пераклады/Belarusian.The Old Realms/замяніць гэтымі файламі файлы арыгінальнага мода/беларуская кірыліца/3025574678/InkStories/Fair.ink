@@ -39,55 +39,55 @@ VAR TurnipPrice = 50
     * [Вярнуцца да сэрца кірмаша.]->Start.choices
 
 ===BuyHorse===
-{HasEnoughGold(HorsePrice): You strike a deal with the merchant. You exchange coins for a sturdy saddle and reins. With a surge of anticipation, you mount the horse. The connection between you is immediate, the horse seems to respond to your touch with trust and eagerness. {GiveGold(-HorsePrice)} | You don't have enough gold.}
+{HasEnoughGold(HorsePrice): Вы складаеце ўгоду з гандляром. Вы мяняеце манеты на трывалае сядло і вупраж. У прадчуваньні вы сядаеце на каня. Сувязь паміж вамі ўзьнікае імгненна, конь рэагуе на вашыя дакрананьні з даверам і гатовасьцю. {GiveGold(-HorsePrice)} | Вам бракуе золата.}
 
-* [Return to the revelry]->Start.choices
+* [Вярнуцца да весялосьці]->Start.choices
 
 ===PersuadeMerchant===
 {perform_player_skill_check("Charm",150): -> success | -> fail}
 
     =success
-    Your words work their magic, and the merchant agrees to lower the price by 25%. The merchant grumbles but respects your negotiating skills.
+    Вашыя словы робяць сваю магію і гандляр пагаджаецца зьнізіць кошт на 25%. Гандляр бурчыць, але шануе вашае ўменьне весьці перамовы.
     ~HorsePrice = 1500
     ->HorseStalls.choices
 
     =fail
-    Despite your best attempts to haggle, the merchant remains firm on the price.
+    Нягледзячы на ўсе вашыя спробы патаргавацца, гандляр упарта трымае кошт.
     ->HorseStalls.choices
     
 
 ===FoodStalls===
-Scents swirl and tempt, guiding you to a feast of flavors. Meats sizzle and ale froths – a carnival for the senses. There's plenty of food available, and it's your choice to partake.
+Водары лунаюць і вабяць, накіроўваючы вас на баляваньне густаў. Мяса шыпіць, эль пеніцца - карнавал пачуцьцяў. Ежы тут больш чым трэба, і выбар за вамі.
 
-* [Indulge in the fair's feast. ({FoodPrice} gold)]->BuyFood
-* [Carry on, resisting the temptation.]->Start
+* [Прыняць удзел у кірмашовым фэсьце. ({FoodPrice} золата)]->BuyFood
+* [Ісьці далей, не паддаючыся спакусе.]->Start
 
 ===BuyFood===
-{HasEnoughGold(FoodPrice): Indulgence wins. You feast, the fair's flavors a delightful symphony on your tongue. Merchants nod their approval as you partake. {GiveGold(-FoodPrice)} | You don't have enough gold.}
+{HasEnoughGold(FoodPrice): Спакуса перамагае. Вы балюеце, і смакі кірмаша гучаць на вашым языке цудоўнай сімфоніяй. Гандляры ўхвальна ківаюць вам усьлед. {GiveGold(-FoodPrice)} | Вам бракуе золата.}
 
-* [Return to the merriment.]->Start.choices
+* [Вярнуцца да весялосьці.]->Start.choices
 
 ===HorseRaces===
-Cheers erupt from an amphitheater. Horses thunder, riders urging them to glory.
+З амфітэатра даносяцца ўхвальныя воклічы. Коні ржуць, вершнікі заклікаюць іх да славы.
 ->choices
 
     =choices
-    * [Place a wager on a racing horse. ({HorseBetPrice} gold - payout 5x on win)]->PlaceBet
-    * [You decide that you shouldn't test your luck.]->Start.choices
+    * [Зрабіць стаўку на скакавога каня. ({HorseBetPrice} золата - узнгарода 5x пры перамозе)]->PlaceBet
+    * [Вы вырашылі не выпрабоўваць сваю ўдачу.]->Start.choices
 
 ===PlaceBet===
-{not HasEnoughGold(HorseBetPrice): You don't have enough gold. -> HorseRaces.choices}
+{not HasEnoughGold(HorseBetPrice): Вам бракуе золата. -> HorseRaces.choices}
 ~GiveGold(-HorseBetPrice)
 {WinHorseRace: ->success | ->fail}
     =success
-    Your heart races as you place your wager. The horse you chose surges forward, and luck dances in your favor. Laughter and clinking coins surround you.
+    Ваша сэрца б'ецца, калі вы робіце стаўку. Абраны вамі конь ірвецца наперад, і посьпех танцуе на вашую карысьць. Сьмех і звон манет атачаюць вас.
     ~ GiveGold(HorseBetPayout)
-    * [Return to the merry crowd.]->Start.choices
+    * [Вярнуцца да натоўпу весялосьці.]->Start.choices
 
     =fail
-    Your heart races as you place your wager. The horse you chose quickly surges forward at first, but the other riders soon catch up. Eventually, your horse slows down to the point of only earning a late place. Laughter and clinking coins surround you.
+    Ваша сэрца б'ецца, калі вы робіце стаўку. Абраны Вамі конь спачатку хутка выдзіраецца наперад, але неўзабаве яго даганяюць іншыя наезьнікі. Урэшце, Вашы конь запавольваецца гэтак, што можа заняць толькі апошняе месца. Сьмех і звон манет атачаюць вас.
     
-    * [Return to the merry crowd.]->Start.choices
+    * [Вярнуцца да натоўпу весялосьці.]->Start.choices
 
 ===Turnip===
 Intrigue tugs at your senses as you gaze upon the comet-shaped turnip – a whimsical marvel. A farmer grins, inviting you to join a raffle.

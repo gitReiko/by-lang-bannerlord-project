@@ -39,55 +39,55 @@ Serca kirmašu bjecca najmacniej na konnym kirmašu. Hanarlivyja žarabcy skaču
     * [Viarnucca da serca kirmaša.]->Start.choices
 
 ===BuyHorse===
-{HasEnoughGold(HorsePrice): You strike a deal with the merchant. You exchange coins for a sturdy saddle and reins. With a surge of anticipation, you mount the horse. The connection between you is immediate, the horse seems to respond to your touch with trust and eagerness. {GiveGold(-HorsePrice)} | You dont have enough gold.}
+{HasEnoughGold(HorsePrice): Vy składajecie ŭhodu z handlarom. Vy mianiajecie maniety na tryvałaje siadło i vupraž. U pradčuvańni vy siadajecie na kania. Suviaź pamiž vami ŭźnikaje imhnienna, koń reahuje na vašyja dakranańni z davieram i hatovaściu. {GiveGold(-HorsePrice)} | Vam brakuje zołata.}
 
-* [Return to the revelry]->Start.choices
+* [Viarnucca da viesiałości]->Start.choices
 
 ===PersuadeMerchant===
 {perform_player_skill_check("Charm",150): -> success | -> fail}
 
     =success
-    Your words work their magic, and the merchant agrees to lower the price by 25%. The merchant grumbles but respects your negotiating skills.
+    Vašyja słovy robiać svaju mahiju i handlar pahadžajecca źnizić košt na 25%. Handlar burčyć, ale šanuje vašaje ŭmieńnie vieści pieramovy.
     ~HorsePrice = 1500
     ->HorseStalls.choices
 
     =fail
-    Despite your best attempts to haggle, the merchant remains firm on the price.
+    Niahledziačy na ŭsie vašyja sproby patarhavacca, handlar uparta trymaje košt.
     ->HorseStalls.choices
     
 
 ===FoodStalls===
-Scents swirl and tempt, guiding you to a feast of flavors. Meats sizzle and ale froths – a carnival for the senses. Theres plenty of food available, and its your choice to partake.
+Vodary łunajuć i vabiać, nakiroŭvajučy vas na balavańnie hustaŭ. Miasa šypić, el pienicca - karnavał pačućciaŭ. Ježy tut bolš čym treba, i vybar za vami.
 
-* [Indulge in the fairs feast. ({FoodPrice} gold)]->BuyFood
-* [Carry on, resisting the temptation.]->Start
+* [Pryniać udzieł u kirmašovym feście. ({FoodPrice} zołata)]->BuyFood
+* [Iści dalej, nie paddajučysia spakusie.]->Start
 
 ===BuyFood===
-{HasEnoughGold(FoodPrice): Indulgence wins. You feast, the fairs flavors a delightful symphony on your tongue. Merchants nod their approval as you partake. {GiveGold(-FoodPrice)} | You dont have enough gold.}
+{HasEnoughGold(FoodPrice): Spakusa pieramahaje. Vy balujecie, i smaki kirmaša hučać na vašym jazykie cudoŭnaj simfonijaj. Handlary ŭchvalna kivajuć vam uśled. {GiveGold(-FoodPrice)} | Vam brakuje zołata.}
 
-* [Return to the merriment.]->Start.choices
+* [Viarnucca da viesiałości.]->Start.choices
 
 ===HorseRaces===
-Cheers erupt from an amphitheater. Horses thunder, riders urging them to glory.
+Z amfiteatra danosiacca ŭchvalnyja vokličy. Koni ržuć, vieršniki zaklikajuć ich da słavy.
 ->choices
 
     =choices
-    * [Place a wager on a racing horse. ({HorseBetPrice} gold - payout 5x on win)]->PlaceBet
-    * [You decide that you shouldnt test your luck.]->Start.choices
+    * [Zrabić staŭku na skakavoha kania. ({HorseBetPrice} zołata - uznharoda 5x pry pieramozie)]->PlaceBet
+    * [Vy vyrašyli nie vypraboŭvać svaju ŭdaču.]->Start.choices
 
 ===PlaceBet===
-{not HasEnoughGold(HorseBetPrice): You dont have enough gold. -> HorseRaces.choices}
+{not HasEnoughGold(HorseBetPrice): Vam brakuje zołata. -> HorseRaces.choices}
 ~GiveGold(-HorseBetPrice)
 {WinHorseRace: ->success | ->fail}
     =success
-    Your heart races as you place your wager. The horse you chose surges forward, and luck dances in your favor. Laughter and clinking coins surround you.
+    Vaša serca bjecca, kali vy robicie staŭku. Abrany vami koń irviecca napierad, i pośpiech tancuje na vašuju karyść. Śmiech i zvon maniet atačajuć vas.
     ~ GiveGold(HorseBetPayout)
-    * [Return to the merry crowd.]->Start.choices
+    * [Viarnucca da natoŭpu viesiałości.]->Start.choices
 
     =fail
-    Your heart races as you place your wager. The horse you chose quickly surges forward at first, but the other riders soon catch up. Eventually, your horse slows down to the point of only earning a late place. Laughter and clinking coins surround you.
+    Vaša serca bjecca, kali vy robicie staŭku. Abrany Vami koń spačatku chutka vydzirajecca napierad, ale nieŭzabavie jaho dahaniajuć inšyja najeźniki. Urešcie, Vašy koń zapavolvajecca hetak, što moža zaniać tolki apošniaje miesca. Śmiech i zvon maniet atačajuć vas.
     
-    * [Return to the merry crowd.]->Start.choices
+    * [Viarnucca da natoŭpu viesiałości.]->Start.choices
 
 ===Turnip===
 Intrigue tugs at your senses as you gaze upon the comet-shaped turnip – a whimsical marvel. A farmer grins, inviting you to join a raffle.
