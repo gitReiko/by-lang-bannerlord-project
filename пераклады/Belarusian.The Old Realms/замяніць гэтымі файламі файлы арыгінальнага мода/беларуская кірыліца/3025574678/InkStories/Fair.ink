@@ -1,5 +1,5 @@
 //Global story tags
-# title: A Fair in the Woods
+# title: Кірмаш у Лесе
 # frequency: Uncommon
 # development: false
 # illustration: trader
@@ -17,26 +17,26 @@ VAR TurnipPrice = 50
 -> Start
 
 ===Start===
-As your army travels, a sudden clearing reveals a surprising sight – a bustling fair known as the Morrslieb Revelry. Tents stand proud, colors dancing in the dappled sunlight. Laughter mingles with the snorts of horses, the heart of this joyous gathering.
+Падчас падарожжа вашага войска на паляне нечакана адкрываецца дзіўнае гледзішча -  шумны кірмаш, вядомы як Моррсьлібская Весялосьць. Намёты ганарліва ўзвышаюцца, іх колеры скачуць у праменях сонца. Сьмех зьмешваецца з рыгатаньнем коней - сэрца гэтага радаснага сходу.
 
-Merchants beckon, their eyes alight with mischief, hawking horses at a discount from the standard rates you'd find in the scrolls. The air carries the tempting scents of roasted meat, frothy ale, and tangy wine. Amidst the merry crowd, a farmer grins, offering a turnip that oddly resembles the famed twin-tailed comet. Yours for a mere penny, a chance to possess this curious marvel.
+Гандляры вабяць, іх вочы гараць свавольствам, яны прадаюць коней са зніжкай у параўнаньні са звычайным коштам, які льга знайсьці ў скрутках. У паветры лунаюць спакусьлівыя водары печанага мяса, пеністага элю і даўкага віна. Сярод вясёлага натоўпу ўхмыляецца земляроб, што прапаноўвае рэпу, якая дзіўна напамінае знакамітую двуххвостую камету. За сапраўдныя капейкі вы атрымаеце шанец стаць уладальнікам гэтага дзіўнага цуда.
     ->choices
 
     =choices
-    * [Join the crowd at the horse market.]->HorseStalls
-    * [Savor the flavors of the fair.]->FoodStalls
-    * [Test your luck at the horse races.]->HorseRaces
-    * [Examine the peculiar turnip.]->Turnip
-    * [Continue your journey through the woods.]->Leave
+    * [Далучыцца да натоўпу на конным кірмашы.]->HorseStalls
+    * [Атрымаць асалоду ад водару кірмаша.]->FoodStalls
+    * [Выпрабаваць сваё шчасьце на конных скачках.]->HorseRaces
+    * [Разглядзець дзіўную рэпу.]->Turnip
+    * [Працягнуць падарожжа праз лес.]->Leave
 
 ===HorseStalls===
-The fair's heart beats strongest at the horse market. Proud stallions prance, their eyes fierce and wild. One horse, in particular, captures your attention. It has a sleek, ebony coat that glistens in the sunlight, and its eyes seem to hold a knowing glint. 
+Сэрца кірмашу б'ецца наймацней на конным кірмашу. Ганарлівыя жарабцы скачуць, вочы іх лютыя і дзікія. Адзін конь, у прыватнасьці, прыцягвае вашую ўвагу. Ён мае гладкую поўсьць колеру чорнага дрэва, што зіхаціць у сонечных праменях, а ў вачах, здаецца, застыў дасьведчаны бляск. 
     ->choices
 
     =choices
-    + [Take the merchant's deal for the horse. ({HorsePrice} gold)]->BuyHorse
-    * [Persuade the merchant to lower the price. {print_player_skill_chance("Charm",150)}]->PersuadeMerchant
-    * [Return to the fair's heart.]->Start.choices
+    + [Пагадзіцца на ўгоду гандляра па каню. ({HorsePrice} золата)]->BuyHorse
+    * [Пераканаць гандляра зьнізіць кошт. {print_player_skill_chance("Charm",150)}]->PersuadeMerchant
+    * [Вярнуцца да сэрца кірмаша.]->Start.choices
 
 ===BuyHorse===
 {HasEnoughGold(HorsePrice): You strike a deal with the merchant. You exchange coins for a sturdy saddle and reins. With a surge of anticipation, you mount the horse. The connection between you is immediate, the horse seems to respond to your touch with trust and eagerness. {GiveGold(-HorsePrice)} | You don't have enough gold.}
