@@ -206,7 +206,7 @@ Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ry
 ===TheAmbush===
     Siarod tresku vuhloŭ prahučaŭ hołas sałdata z hareznym blaskam u vačach. Ciopły vodblisk vohnišča aśviatlaŭ nieciarplivyja tvary jaho tavaryšaŭ, jakija sieli pasłuchać apovied.
 
-"Źbirajciesia, chłopcy, - skazaŭ sałdat z uchmyłkaj: i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Našy płan byŭ chitry, ruchi imklivyja. My naniesli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..."
+"Źbirajciesia, chłopcy, - skazaŭ sałdat z uchmyłkaj: i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Našy płan byŭ chitry, ruchi imklivyja. My nanieśli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..."
 
 Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. Śmiech i ŭchvalnyja kivy supravadžali kancoŭku apovieda, pakidajučy ŭ sałdataŭ hłybiejšaje razumieńnie taktyki i mocy dobra zładžanaj zasady.
     
@@ -234,7 +234,7 @@ Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapy
 
 "Słuchajcie ŭvažliva, siabry maje - z niepachisnaj pierakananaściu pramoviŭ sałdat: apovied pra našu apošniuju bitvu. Heta byŭ momant nieparušnaha jadnańnia, my budavali tryvały šerah, začyniŭšysia ščytami dla nadziejnaj abarony. Kali armija niežyci nastavała, my stajali navažna..."
 
-Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać poruč z vajarami hetaj historyi. Słovy apaviadańnika padkreslili važnaść lidarstva i taktyki, što dazvoliła sałdatam hłybiej zrazumieć majsterstva abarony.
+Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać poruč z vajarami hetaj historyi. Słovy apaviadańnika padkreślili važnaść lidarstva i taktyki, što dazvoliła sałdatam hłybiej zrazumieć majsterstva abarony.
     
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
@@ -256,7 +256,7 @@ Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać
 
 "Voch, siabry - uśmichnuŭsia sałdat: dazvolcie raskazać vam toje-sioje pra zdareńnie na apošnich rychtoŭlach! Heta była noč viesiałości, što pieratvaryłasia ŭ zapalnaje spabornictva. My hulliva praviarali svaje siły, kožny ŭdar i adbićcio byli tancam majsterstva..."
 
-Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy pra siabroŭskija dvuboi. Słovy apaviadańnika padkryslivali viazi tavarystva i praktykavańni ručnoha boju, pakidajučy ŭ sałdataŭ adčuvańnie ahulnaha dosviedu.
+Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy pra siabroŭskija dvuboi. Słovy apaviadańnika padkreślivali viazi tavarystva i praktykavańni ručnoha boju, pakidajučy ŭ sałdataŭ adčuvańnie ahulnaha dośviedu.
     
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
@@ -269,7 +269,7 @@ Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy 
 
 "Słuchajcie ŭvažliva, paplečniki - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Ujavicie sabie nieba, zaciahnutaje chmarami, na jakim razhortvajecca demanstracyja strałkovaha majsterstva: moj połk naceliŭsia na nadychodziačych pačvar. Łuki, arbalety, kidalnyja nažy, parachavaja zbroja..."
 
-Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snaradaŭ i streł u pavietry. Słovy apaviadańnika padkreslili ŭsie tonkaści boju na dystancyi i dazvolili sałdatam hłybiej zrazumieć usialakija navyki vałodańnia dystancyjnaj zbrojaj.
+Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snaradaŭ i streł u pavietry. Słovy apaviadańnika padkreślili ŭsie tonkaści boju na dystancyi i dazvolili sałdatam hłybiej zrazumieć usialakija navyki vałodańnia dystancyjnaj zbrojaj.
     
     //Give Xp
             ~ GiveSkillExperience("Bow",750)
@@ -279,7 +279,7 @@ Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snar
     -> END
 
 ===GreatRulers===
-    U ciopłym śviatle vohnišča hrupa vajaroŭ zachoplena raskazvała pra vialikich haspadaroŭ Staroha Svieta. U ich hałasach hučała zachapleńnie i pavaha, a ŭ apoviedach pieraplatalisia ŭroki lidarstva i haspadarskaha majsterstva.
+    U ciopłym śviatle vohnišča hrupa vajaroŭ zachoplena raskazvała pra vialikich haspadaroŭ Staroha Śvieta. U ich hałasach hučała zachapleńnie i pavaha, a ŭ apoviedach pieraplatalisia ŭroki lidarstva i haspadarskaha majsterstva.
 
 Adzin z vajaroŭ pačaŭ z hłybokaj pašanaj u hołasie: "Davajcie pahavorym pra lehiendarnych haspadaroŭ, što stvaryli našyja ziemli. Nakolki ja čuŭ, vialiki Karł Franc, zdajecca, padtrymlivaŭ svaju reputacyju, bo dla panavańnia nad krainaj, patrebna šmat rečaŭ..."
 
@@ -292,9 +292,9 @@ Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych hasp
     -> END
 
 ===Craftsman===
-    Padčas siabroŭskaj hutarki ŭ vohnišča hrupa sałdataŭ mianiałasia apoviedami pra dzivy ramiesnaha i inžyniernaha majsterstvaŭ. U ich hałasach hučała pačućcio hłybokaj pašany i zachapleńnia, kali jany raskazvali pra vyčyny majstroŭ-ramiesnikaŭ i hienijalnych inžynieraŭ.
+    Padčas siabroŭskaj hutarki ŭ vohnišča hrupa sałdataŭ mianiałasia apoviedami pra dzivy ramiesnaha i inžyniernaha majsterstvaŭ. U ich hałasach hučała pačućcio hłybokaj pašany i zachapleńnia, kali jany raskazvali pra vyčyny majstroŭ-ramieśnikaŭ i hienijalnych inžynieraŭ.
 
-"Słuchajcie ŭvažliva, tavaryšy - zaklikaŭ adzin z sałdataŭ: mała chto viedaje pra hetaje, ale mnie paščaściła vučycca inžyniernaj spravie ŭ hnoma. Vaładarstvy hnomaŭ - sviedčańnie kavalskaha majsterstva..."
+"Słuchajcie ŭvažliva, tavaryšy - zaklikaŭ adzin z sałdataŭ: mała chto viedaje pra hetaje, ale mnie paščaściła vučycca inžyniernaj spravie ŭ hnoma. Vaładarstvy hnomaŭ - śviedčańnie kavalskaha majsterstva..."
 
 Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynachodlivaściu, jakaja ruchała hetymi vyčynami. Abmiarkoŭvajučy kavalskuju dy inžyniernuju spravy i dzivy, narodžanyja ŭ hałovach majstroŭ i hnomaŭ, sałdaty znoŭ znajšli razumieńnie hetych žyćciova važnych prafiesijaŭ.
     
@@ -304,11 +304,11 @@ Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynach
     -> END
 
 ===Negotiation===
-    Amidst the flickering firelight, a group of soldiers regaled one another with stories of haggling and trade. Laughter mingled with their voices as they shared both successful negotiations and amusing tales of when things had gone awry.
+    U mihatlivym śviatle vohnišča hrupa sałdataŭ raskazvała adzin adnamu historyi pra pieramovy i handal. Śmiech źmiešvaŭsia ź ich hałasami, kali jany raskazvali jak pra ŭdałyja pieramovy, hetak i pra paciešnyja vypadki, kali spravy išli drenna.
 
-"Ah, my comrades," one soldier chuckled, "let me share the art of haggling and the dance of trade. From bartering with the wily halflings to facing the shrewd merchants of Marienburg, the path to a fair deal is lined with wit and cunning..."
+"Voch, tavaryšy - uśmichnuŭsia adzin z sałdataŭ: dazvolcie mnie padzialicca z vami majsterstvam pieramovaŭ i tancam handlu. Ad handlu z chitrymi paŭroślikami da sustrečy z praniklivymi handlarami Maryjenburha - šlach da sumlennaj uhody vysłany dościpam i chitraściu..."
 
-The soldiers leaned in, captivated by the stories of wit and banter that had unfolded in the bustling markets and bazaars of the Old World. They contemplated the delicate balance of charm, trade acumen, and the occasional misstep that came with the territory, leaving them with a deeper understanding of the art of negotiation.
+Sałdaty nachilalisia, zachoplenyja apoviedami pra dościp i błaźnierstva, jakija razhortvalisia na šumnych kirmašach i bazarach Staroha Śvieta. Jany razvažali pra tonki bałans čaraŭ, handlovaj chvatki i vypadkovych promachaŭ, jakija byli ŭłaścivyja hetamu kraju, što dazvoliła im hłybiej zrazumieć majsterstva viadzieńnia pieramovaŭ.
     
     //Give Xp
             ~ GiveSkillExperience("Charm",1000)
@@ -317,11 +317,11 @@ The soldiers leaned in, captivated by the stories of wit and banter that had unf
     -> END
 
 ===Traveling===
-   Around the crackling fire, a group of soldiers shared tales of their travels and experiences on horseback. Their voices held a sense of adventure and camaraderie as they recounted journeys across treacherous landscapes and encounters with the denizens of the Old World.
+   U treskie vohnišča hrupa sałdataŭ raskazvała pra svaje padarožžy i konnyja pachody. U ich hałasach hučali notki pryhodaŭ i tavarystva, kali jany raskazvali pra padarožžy pa padstupnych łandšaftach i sustrečach z nasielnikami Staroha Śvieta.
 
-"Keeping a battlehorse healthy," one soldier declared, "that is its own challenge. The bond between rider and steed is a connection unlike any other..."
+"Zachavać zdaroŭje bajavoha kania - zajaviŭ adzin z sałdataŭ: heta asobnaje zadańnie. Suviaź pamiž vieršnikam i kaniom - heta suviaź, nie padobnaja ni na jakuju inšuju..."
 
-As the stories wove their tapestry of adventure, the soldiers found themselves transported to distant lands and untamed wilderness. They contemplated the skills of riding and the unbreakable bond between a rider and their mount, leaving them with a deeper appreciation for the art of traveling on horseback.
+Pa miery apaviadańnia pra pryhody, sałdaty pieranosilisia ŭ dalokija krainy i dzikuju pryrodu. Jany razvažali pra majsterstva konnaj jazdy i pra nieparyŭnuju suviaź pamiž vieršnikam i jaho žyviołaj, što dazvoliła im hłybiej acanić konnaje majsterstva padarožžaŭ.
     
     //Give Xp
             ~ GiveSkillExperience("Riding",1500)
@@ -329,11 +329,11 @@ As the stories wove their tapestry of adventure, the soldiers found themselves t
     -> END
     
 ===Survival===
-    Amidst the gentle crackling of the fire, a group of soldiers shared their insights on surviving in the wilderness. Their voices carried the weight of experience as they recounted tales of resourcefulness and endurance in the face of natures challenges.
+    U miakkim treskie vohnišča hrupa sałdataŭ padzialiłasia svaim dośviedam vyžyvańnia ŭva ŭmovach dzikaj pryrody. Ich hałasy nieśli ŭ sabie hruz dośviedu, raskazvajučy pra znachodlivaść i ciahavitaść pierad tvaram pryrodnych vyprabavańniaŭ.
 
-"Listen well," one soldier began, his voice steady and assured, "for I shall impart the wisdom of how to properly survival in the thickest wild woods. From foraging for sustenance to navigating the dense forests and treacherous swamps, the key lies in understanding the lands rhythms..."
+"Słuchajcie ŭvažliva - pačaŭ adzin z sałdataŭ, jaho hołas byŭ roŭnym i ŭpeŭnienym: ja raskažu vam pra toje, jak słušna vyžyvać u samoj huščy dzikich lasoŭ. Ad zdabyčy pražytka da navihacyi ŭ hustych lasach i padstupnych bałotach - hałoŭnaje zrazumieć rytmy ziamli..."
 
-As the tales unfolded, the soldiers found themselves immersed in the art of survival, learning to read the signs of nature and adapt to its demands. The stories emphasized the skills of medicine, scouting, and athleticism, leaving the soldiers with a newfound respect for the unforgiving yet awe-inspiring world beyond the safety of civilization.
+Pa chodzie apovieda sałdaty akunalisia ŭ majsterstva vyžyvańnia, vučylisia čytać znaki pryrody i prystasoŭvacca da jaje vymohaŭ. U apoviedach admiennaja ŭvaha nadavałasia navykam miedycyny, vyviedki dy atletyki, i sałdaty znoŭ znachodzili pavahu da niaŭmolnaha i ŭ toj ža čas cudoŭnamu śvietu za miežami cyvilizacyi.
     
     //Give Xp
             ~ GiveSkillExperience("Medicine",1000)
