@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Meadow
+# title: Паляна
 # frequency: Common
 # development: false
 # illustration: meadow
@@ -176,9 +176,10 @@
 
 ===Start===
 
-    You and your party have been trudging along a winding path, when the landscape gradually shifts. The air becomes gentler, the sounds more peaceful.
-    And then, you step into a clearing, and a gasp escapes your lips. Before you stretches a meadow unlike any you've seen in a long while. The grass is a rich tapestry of green, waving softly in the breeze. A multitude of wildflowers paints the scene with vibrant hues of red, purple, and yellow.
-    {IsNight(): Silver moonlight | Golden sunlight } filters through the tree canopy, bathing the meadow in warmth. A gentle aroma of blooming flowers perfumes the air. Birds serenade with their melodies, filling the clearing with a symphony that feels like a balm to your weary spirit.
+    Вы і ваша партыя пляліся па завілістай сьцяжынцы, і тут краявід паступова зьмяніўся. Паветра стала мякчэйшым, а гукі - спакайнейшымі.
+    
+    І тут вы выходзіце на паляну, і з вашых вуснаў зрываецца ўздых. Перад вамі расьсьцілаецца луг, падобнага якому вы ня бачылі даўно. Трава - багацейшы габелен зялёнага колеру, што мякка калышацца пад подзьмухам ветру. Мноства палявых кветак афарбоўваюць луг у яркія адценьні чырвонага, фіялетавага і жоўтага.
+    {IsNight(): Срэбнае сьвятло месяца | Залатое сьвятло сонца } прадзіраецца праз кроны дрэваў і ахутвае луг цяплом. У паветры лунае далікатны водар кветак. Птушкі напяваюць свае мелодыі, напаўняючы паляну сімфоніяй, якая нібы бальзам на стомлены дух.
         ->choice1
         
     =choice1

@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Meadow
+# title: Palana
 # frequency: Common
 # development: false
 # illustration: meadow
@@ -176,9 +176,10 @@
 
 ===Start===
 
-    You and your party have been trudging along a winding path, when the landscape gradually shifts. The air becomes gentler, the sounds more peaceful.
-    And then, you step into a clearing, and a gasp escapes your lips. Before you stretches a meadow unlike any you've seen in a long while. The grass is a rich tapestry of green, waving softly in the breeze. A multitude of wildflowers paints the scene with vibrant hues of red, purple, and yellow.
-    {IsNight(): Silver moonlight | Golden sunlight } filters through the tree canopy, bathing the meadow in warmth. A gentle aroma of blooming flowers perfumes the air. Birds serenade with their melodies, filling the clearing with a symphony that feels like a balm to your weary spirit.
+    Vy i vaša partyja plalisia pa zavilistaj ściažyncy, i tut krajavid pastupova źmianiŭsia. Pavietra stała miakčejšym, a huki - spakajniejšymi.
+    
+    I tut vy vychodzicie na palanu, i z vašych vusnaŭ zryvajecca ŭzdych. Pierad vami raśściłajecca łuh, padobnaha jakomu vy nia bačyli daŭno. Trava - bahaciejšy habielen zialonaha koleru, što miakka kałyšacca pad podźmucham vietru. Mnostva palavych kvietak afarboŭvajuć łuh u jarkija adcieńni čyrvonaha, fijaletavaha i žoŭtaha.
+    {IsNight(): Srebnaje śviatło miesiaca | Załatoje śviatło sonca } pradzirajecca praz krony drevaŭ i achutvaje łuh ciapłom. U pavietry łunaje dalikatny vodar kvietak. Ptuški napiavajuć svaje miełodyi, napaŭniajučy palanu simfonijaj, jakaja niby balzam na stomleny duch.
         ->choice1
         
     =choice1
@@ -220,7 +221,7 @@
                 
             *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
                 
-                You try to give your men a break hoping that the brief respite will help them get better. You set up a makeshift camp at the meadow's edge. 
+                You try to give your men a break hoping that the brief respite will help them get better. You set up a makeshift camp at the meadows edge. 
                 
                 {PartyMedicineCheckTest:
                     -true: 
@@ -336,4 +337,3 @@
     ~ MakePartyDisorganized()
     
 -> END
-
