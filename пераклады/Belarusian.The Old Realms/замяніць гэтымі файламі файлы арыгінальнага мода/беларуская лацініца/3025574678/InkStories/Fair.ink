@@ -19,7 +19,7 @@ VAR TurnipPrice = 50
 ===Start===
 Padčas padarožža vašaha vojska na palanie niečakana adkryvajecca dziŭnaje hledzišča -  šumny kirmaš, viadomy jak Morrślibskaja Viesiałość. Namioty hanarliva ŭzvyšajucca, ich kolery skačuć u pramieniach sonca. Śmiech źmiešvajecca z ryhatańniem koniej - serca hetaha radasnaha schodu.
 
-Handlary vabiać, ich vočy harać svavolstvam, jany pradajuć koniej sa znižkaj u paraŭnańni sa zvyčajnym koštam, jaki lha znajści ŭ skrutkach. U pavietry łunajuć spakuślivyja vodary piečanaha miasa, pienistaha elu i daŭkaha vina. Siarod viasiołaha natoŭpu ŭchmylajecca ziemlarob, što prapanoŭvaje repu, jakaja dziŭna napaminaje znakamituju dvuchchvostuju kamietu. Za sapraŭdnyja kapiejki vy atrymajecie šaniec stać uładalnikam hetaha dziŭnaha cuda.
+Handlary vabiać, ich vočy harać svavolstvam, jany pradajuć koniej sa źnižkaj u paraŭnańni sa zvyčajnym koštam, jaki lha znajści ŭ skrutkach. U pavietry łunajuć spakuślivyja vodary piečanaha miasa, pienistaha elu i daŭkaha vina. Siarod viasiołaha natoŭpu ŭchmylajecca ziemlarob, što prapanoŭvaje repu, jakaja dziŭna napaminaje znakamituju dvuchchvostuju kamietu. Za sapraŭdnyja kapiejki vy atrymajecie šaniec stać uładalnikam hetaha dziŭnaha cuda.
     ->choices
 
     =choices
@@ -90,32 +90,32 @@ Z amfiteatra danosiacca ŭchvalnyja vokličy. Koni ržuć, vieršniki zaklikaju�
     * [Viarnucca da natoŭpu viesiałości.]->Start.choices
 
 ===Turnip===
-Intrigue tugs at your senses as you gaze upon the comet-shaped turnip – a whimsical marvel. A farmer grins, inviting you to join a raffle.
+Intryha zaciahvaje vas, kali vy hladzicie na repu ŭ formie kamiety - mudrahielistaje dziva. Ziemlarob uśmichajecca, zaprašajučy vas pryniać udzieł u łatarei.
     ->choices
 
     =choices
-    * [Try your luck with a raffle ticket. ({TurnipPrice} gold)]->BuyTicket
-    * [Use your perception to find hidden clues about the turnip. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
-    * [Move on, leaving the curious turnip behind.]->Start.choices
+    * [Vyprabavać svaju ŭdaču, kupiŭšy łatarejny kvitok. ({TurnipPrice} zołata)]->BuyTicket
+    * [Vykarystać svajo ŭsprymańnie, kab znajści ŭtojenyja padkazki pra repu. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
+    * [Pajści dalej, pakinuŭšy cikavuju repu zzadu.]->Start.choices
 
 ===BuyTicket===
-{HasEnoughGold(TurnipPrice): With a coin and a smile, you secure your chance at the raffle. Who knows? The comet-kissed turnip might be yours after all. {GiveGold(-TurnipPrice)} | You dont have enough gold. -> Turnip.choices}
+{HasEnoughGold(TurnipPrice): Kinuŭšy manietu i ŭśmichnuŭšysia, vy zabiaśpiečvajecie sabie šaniec na ŭdzieł u rozyhryšy. Chto viedaje? Moža, repa, pacałavanaja kamietaj, usio-taki stanie vašaj. {GiveGold(-TurnipPrice)} | Vam brakuje zołata. -> Turnip.choices}
 
-With anticipation in the air, the raffle commences, and as the announcer calls out the winning ticket number, you hold your breath. However, luck is not on your side this time. The winning number isnt yours, and a twinge of disappointment washes over you.
+U pradčuvańni łatarei pačynajecca rozyhryš, i kali dyktar kliča numar pieramožnaha kvitka, vy zatojvajecie dychańnie. Adnak hetym razam pośpiech nie na vašym boku. Pieramožny numar nie vaš, i vas achaplaje pačućcio rasčaravańnia.
 
-* [Return to the mirthful revelry.]->Start.choices
+* [Viarnucca da balavańnia viesiałości.]->Start.choices
 
 === PerceiveTurnip ===
 {perform_player_skill_check("Roguery", 80): -> success | ->fail}
 
     =success
-    Your sharp eyes pick up on subtle details that others might miss. The turnip seems to have no strange markings that hint at its significance. Its completely ordinary.
+    Vaša vostraje voka łović tonkija detali, jakija inšyja mohuć prapuścić. Na repie niama nijakich dziŭnych aznak, što namiakajuć na jaje značnaść. Jana zusim zvyčajnaja.
     ->Turnip.choices
     
     =fail
-    Your examination doesnt reveal anything unusual about the turnip.
+    Vašy ahlad nia vyjaviŭ ničoha niezvyčajnaha ŭ repie.
     ->Turnip.choices
 
 ===Leave===
-As the fairs merriment fades, you step back into the embrace of the wilderness, leaving the laughter of the fairs revelry behind.
+Kali viesiałość kirmašu ścichaje, vy viartajeciesia ŭ abdymki dzikaj pryrody, pakidajučy za saboj śmiech kirmašovaj viesiałości.
 ->END

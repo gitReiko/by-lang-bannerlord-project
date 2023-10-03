@@ -19,7 +19,7 @@ VAR TurnipPrice = 50
 ===Start===
 Падчас падарожжа вашага войска на паляне нечакана адкрываецца дзіўнае гледзішча -  шумны кірмаш, вядомы як Моррсьлібская Весялосьць. Намёты ганарліва ўзвышаюцца, іх колеры скачуць у праменях сонца. Сьмех зьмешваецца з рыгатаньнем коней - сэрца гэтага радаснага сходу.
 
-Гандляры вабяць, іх вочы гараць свавольствам, яны прадаюць коней са зніжкай у параўнаньні са звычайным коштам, які льга знайсьці ў скрутках. У паветры лунаюць спакусьлівыя водары печанага мяса, пеністага элю і даўкага віна. Сярод вясёлага натоўпу ўхмыляецца земляроб, што прапаноўвае рэпу, якая дзіўна напамінае знакамітую двуххвостую камету. За сапраўдныя капейкі вы атрымаеце шанец стаць уладальнікам гэтага дзіўнага цуда.
+Гандляры вабяць, іх вочы гараць свавольствам, яны прадаюць коней са зьніжкай у параўнаньні са звычайным коштам, які льга знайсьці ў скрутках. У паветры лунаюць спакусьлівыя водары печанага мяса, пеністага элю і даўкага віна. Сярод вясёлага натоўпу ўхмыляецца земляроб, што прапаноўвае рэпу, якая дзіўна напамінае знакамітую двуххвостую камету. За сапраўдныя капейкі вы атрымаеце шанец стаць уладальнікам гэтага дзіўнага цуда.
     ->choices
 
     =choices
@@ -90,32 +90,32 @@ VAR TurnipPrice = 50
     * [Вярнуцца да натоўпу весялосьці.]->Start.choices
 
 ===Turnip===
-Intrigue tugs at your senses as you gaze upon the comet-shaped turnip – a whimsical marvel. A farmer grins, inviting you to join a raffle.
+Інтрыга зацягвае вас, калі вы глядзіце на рэпу ў форме каметы - мудрагелістае дзіва. Земляроб усьміхаецца, запрашаючы вас прыняць удзел у латарэі.
     ->choices
 
     =choices
-    * [Try your luck with a raffle ticket. ({TurnipPrice} gold)]->BuyTicket
-    * [Use your perception to find hidden clues about the turnip. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
-    * [Move on, leaving the curious turnip behind.]->Start.choices
+    * [Выпрабаваць сваю ўдачу, купіўшы латарэйны квіток. ({TurnipPrice} золата)]->BuyTicket
+    * [Выкарыстаць сваё ўспрыманьне, каб знайсьці ўтоеныя падказкі пра рэпу. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
+    * [Пайсьці далей, пакінуўшы цікавую рэпу ззаду.]->Start.choices
 
 ===BuyTicket===
-{HasEnoughGold(TurnipPrice): With a coin and a smile, you secure your chance at the raffle. Who knows? The comet-kissed turnip might be yours after all. {GiveGold(-TurnipPrice)} | You don't have enough gold. -> Turnip.choices}
+{HasEnoughGold(TurnipPrice): Кінуўшы манету і ўсьміхнуўшыся, вы забясьпечваеце сабе шанец на ўдзел у розыгрышы. Хто ведае? Можа, рэпа, пацалаваная каметай, усё-такі стане вашай. {GiveGold(-TurnipPrice)} | Вам бракуе золата. -> Turnip.choices}
 
-With anticipation in the air, the raffle commences, and as the announcer calls out the winning ticket number, you hold your breath. However, luck is not on your side this time. The winning number isn't yours, and a twinge of disappointment washes over you.
+У прадчуваньні латарэі пачынаецца розыгрыш, і калі дыктар кліча нумар пераможнага квітка, вы затойваеце дыханьне. Аднак гэтым разам посьпех не на вашым боку. Пераможны нумар не ваш, і вас ахапляе пачуцьцё расчараваньня.
 
-* [Return to the mirthful revelry.]->Start.choices
+* [Вярнуцца да баляваньня весялосьці.]->Start.choices
 
 === PerceiveTurnip ===
 {perform_player_skill_check("Roguery", 80): -> success | ->fail}
 
     =success
-    Your sharp eyes pick up on subtle details that others might miss. The turnip seems to have no strange markings that hint at its significance. It's completely ordinary.
+    Ваша вострае вока ловіць тонкія дэталі, якія іншыя могуць прапусьціць. На рэпе няма ніякіх дзіўных азнак, што намякаюць на яе значнасьць. Яна зусім звычайная.
     ->Turnip.choices
     
     =fail
-    Your examination doesn't reveal anything unusual about the turnip.
+    Вашы агляд ня выявіў нічога незвычайнага ў рэпе.
     ->Turnip.choices
 
 ===Leave===
-As the fair's merriment fades, you step back into the embrace of the wilderness, leaving the laughter of the fair's revelry behind.
+Калі весялосьць кірмашу сьціхае, вы вяртаецеся ў абдымкі дзікай прыроды, пакідаючы за сабой сьмех кірмашовай весялосьці.
 ->END
