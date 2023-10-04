@@ -13,8 +13,8 @@ INCLUDE include.ink
 ~ GiveMiracleItem()
 Vy staicie la ałtara boha, jakomu daŭno pakłaniajeciesia, i vypraboŭvajecie hłybokuju pašanu i pradbačańnie. U pavietry łunaje pačućcio staražytnaj siły, i vy nia možacie nie adčuvać pryliŭ chvalavańniaŭ.
 Schiliŭšy kaleni la ałtara, vy zapluščvajecie vočy i pramaŭlajecie ščyruju malitvu. Vy raskazvajecie pra svaju prychilnaść i niepachisnuju vieru. Słovy źlatajuć z vašych vusnaŭ, jak miełodyja, uznosiačy vašuju addanaść da niabiosaŭ.
-Ciopłaja i piaščotnaja prysutnaść achutvaje vas, niby samo pavietra adkazvaje na vašuju viernaść. Raspluščyŭšy vočy, vy bačycie, jak zvierchu spuskajecca pramianistaje śviatło, jakoje achinaje vas svaim nieziamnym źzianniem. Śviatło pieratvarajecca ŭ mihatlivuju fihuru.
+Ciopłaja i piaščotnaja prysutnaść achutvaje vas, niby samo pavietra adkazvaje na vašuju viernaść. Raspluščyŭšy vočy, vy bačycie, jak źvierchu spuskajecca pramianistaje śviatło, jakoje achinaje vas svaim nieziamnym źziańniem. Śviatło pieratvarajecca ŭ mihatlivuju fihuru.
 Vytančanym žestam fihura praciahvaje da vas ruku z raskrytaj dałońniu. U jaje ruce vy bačycie zichatlivy artefakt, jaki pulsuje - boski darunak.
-You feel a mixture of awe and gratitude as you reach out and take the item from the figures hand. Its warmth surges through you, filling you with a sense of empowerment and purpose.
-As you leave the shrine, the world around you seems brighter, as if the very essence of your deitys blessing has illuminated your path. With the divine gift in your possession, you step into the future with confidence, ready to face whatever challenges may come, knowing that you are not alone.
+Vy vypraboŭvajecie pačućcio hłybokaj pašany i padziaki, kali praciahvajecie ruku i bieracie pradmiet z ruk fihury. Ad jaje zychodzić ciapło, što napaŭniaje vas adčuvańniem siły i mety.
+Kali vy pakidajecie śviatyniu, śviet vakoł zdajecca śviatlej, niby sama sutnaść błasłavieńnia vašaha boha aśviatliła vašy šlach. Vałodajučy boskim darunkam, vy ŭpeŭniena kročycie ŭ budučyniu, hatovyja da lubych ciažkaściaŭ, viedajučy, što vy nie samotnyja.
 ->END
