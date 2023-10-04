@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Dark Moon Rises
+# title: Узыход Цёмнага Месяца
 # frequency: Special
 # development: false
 # illustration: morrslieb_comet
@@ -38,12 +38,12 @@
 
 ===Start===
 
-A sickly green glow comes over the horizon, Morrslieb the Dark Moon is rising. Its mocking presence fills the sky, growing brighter as it bathes the world in its foul, tainted light., All across the land, dark magic begins to pool in places no sane man would dare to tread, causing the Winds of Magic to become erratic.
-The worshippers of darkness will seize upon this night to advance their twisted schemes and agendas. Beastmen gather howling and chanting, cultists undertake all manner of blasphemous ceremonies, and daemons start to walk the material plane stalking for prey.
-If one was to dare look directly at the moon they could swear it was smiling, smirking ominously at the terror it was to bring upon the world. However, if those who had looked upon it kept watching they would have seen this smile fade, turning into an almost angry frown as the moon found itself no longer alone in the sky.
-The Twin Tailed Comet burned bright across the heavens, almost as if to challenge Morrslieb. Casting its own light upon the dark moon as their paths crossed in the sky, the comet seemed to dampen the effect of Morrslieb's chaotic glow.
-As the night wore on, both of the celestial bodies would find their way over the horizon, and the next day would begin.
-Herdstones have been repopulated and Chaos Portals have reopened.
+На гарызонце з'явілася ванітоўнае зялёнае сьвячэньне - гэта ўзышоў Цёмны Месяц Моррсьліба. Яго кплівая наяўнасьць запаўняе неба, робіць яго ўсё ярчэй і ярчэй, ды абмывае сьвет сваім нячыстым, сапсаваным сьвятлом. Па ўсёй зямлі цёмная магія пачынае назапашвацца ў месцах, куды не адважваюцца ступаць разважныя людзі, і выклікае няўстойлівасьць Ветру Магіі.
+Прыхільнікі цемры выкарыстоўваюць гэтую ноч дзеля ажыцьцяўленьня сваіх вычварэнскіх планаў і задум. Зьвералюдзі зьбіраюцца з выцьцём і песьнясьпевамі, культысты ладзяць разнастайныя блюзьнерскія абрады, а дэманы пачынаюць блукаць па матэрыяльным сьвеце і высочваць здабычу.
+Калі хтосьці адважыцца паглядзець прама на месяц, то зможа паклясьціся, што месяц ўсьміхаецца злавеснай ухмылкай жаху, які ён нясе ў сьвет. Аднак калі працягнуць назіраць за месяцам, то льга пабачыць, як гэтая ўсьмешка зьнікае, ператвараючыся ў амаль злосны хмурны погляд, калі месяц выяўляе, што ён больш не адзіны на небе.
+Дзьвуххвостая камета ярка гарыць у небе, нібы кідаючы выклік Моррсьлібу. Адкідвае сваё сьвятло на цёмны месяц, і, здаецца, прыглушае эфект хаатычнага зьзяньня Моррсьліба, калі іхнія шляхі перасякаюцца ў небе.
+Са сканчэньнем ночы абодва нябесныя целы хаваюцца за гарызонтам, і пачынаецца наступны дзень.
+Статкавыя Камяні заселены наноў; Парталы Хаосу зноў адкрыліся.
 
 -> END
 
