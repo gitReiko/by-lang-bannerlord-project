@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Pond
+# title: Сажалка
 # frequency: Common
 # development: false
 # illustration: pond
@@ -177,12 +177,12 @@
 
 ===Start===
 
-    As your party is traveling you come across a tranquil scene that steals your breath away. Before you stretches a serene pond, a hidden gem amidst the wilderness. The water is calm and clear, reflecting the azure sky above. Lush vegetation surrounds the pond, offering a peaceful sanctuary.
-    {IsNight(): Silver moonlight | Golden sunlight} filters through the trees, casting a glow on the water's surface. The air carries the gentle scent of nature, a soothing balm for your weary senses. Birds sing melodious tunes, contributing to the serene atmosphere.
+    Падчас падарожжа вы натыкаецеся на лагодную сцэну, ад якой перахапляе дыханне. Перад вамі раскінулася цудоўная сажалка, утоеная перліна сярод дзікай прыроды. Вада спакойная і празрыстая, у ёй адлюстроўваецца блакітнае неба. Пышная расліннасьць атачае сажалку, ствараючы атмасферу спакою.
+    {IsNight(): Срэбная месячнае сьвятло | Залацістае сонечнае сьвятло} прадзіраецца скрозь дрэвы, адкідваючы водбліскі на паверхню вады. У паветры лунае далікатны водар прыроды, які супакойвае стомленыя пачуцьці. Птушкі напяваюць мелодыі і ствараюць лагодную атмасферу.
 
-    As you stand there, captivated by the sight, your men catch up to you. Their faces, etched with exhaustion, light up with wonder and relief. Even the typically reserved member of your group manages a small smile.
-    
-    Your second places a hand on your shoulder, their voice carrying a rare note of lightness. "A moment of respite by the pond. What do you say?"
+    Пакуль вы стаіце, зачараваныя гэтым гледзішчам, вас даганяюць вашыя людзі. Іх твары, змучаныя стомленасьцю, азараюцца зьдзіўленьнем і палёгкай. Нават зазвычай стрыманы чалец вашай групы здолеў усьміхнуцца.
+
+    Памагаты паклаў на вашае плячо руку, у яго голасе прагучала рэдкая нота лёгкасьці: "Маленькі адпачынак ля сажалкі. Што скажаш?".
         ->choice1
         
     =choice1

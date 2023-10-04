@@ -1,5 +1,5 @@
 //Global story tags
-# title: Šybielnik
+# title: Šybielniki
 # frequency: Common
 # development: false
 # illustration: hangedman

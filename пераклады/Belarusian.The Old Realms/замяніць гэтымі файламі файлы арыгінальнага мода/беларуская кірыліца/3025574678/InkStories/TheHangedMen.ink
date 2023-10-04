@@ -1,5 +1,5 @@
 //Global story tags
-# title: Шыбельнік
+# title: Шыбельнікі
 # frequency: Common
 # development: false
 # illustration: hangedman
