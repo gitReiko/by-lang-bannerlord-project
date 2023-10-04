@@ -1,5 +1,5 @@
 //Global story tags
-# title: Traveling Merchant
+# title: Вандроўны Гандляр
 # frequency: Abundant
 # development: false
 # illustration: trader
@@ -9,16 +9,16 @@ INCLUDE include.ink
 ->START
 
 ===START===
-While journeying along the dusty roads, a unique sight unfolds before your eyes — a colorful caravan, a mobile emporium amidst the quiet landscape. 
-As you draw near, a traveling merchant approaches. With a welcoming smile, he introduces you to tales of distant realms and beckons you to take a look at his wares.
+Падчас падарожжа па пыльных дарогах перад вачамі адкрываецца ўнікальнае гледзішча - маляўнічы караван, мабільная гандлёвая крама сярод лагоднага краявіду. 
+Калі вы набліжаецеся, да вас падыходзіць вандроўны гандляр. Ветла ўсьміхаецца і расказвае вам гісторыі пра далёкія краі і запрашае зірнуць на яго тавары.
 ->choices
     
     =choices
-    +[Browse his wares]
+    +[Паглядзець яго тавары]
         ~ OpenInventoryAsTrade()
     ->AfterShopping
-    *[Continue your journey (Leave)] You decide it is better to move on for now.->END
+    *[Працягнуць сваё падарожжа (Пакінуць)] Вы вырашылі, што пакуль лепей рухацца далей.->END
 
 ===AfterShopping===
-You conclude your exploration of the merchant's array of treasures, and with a respectful bow of his head, he extends his appreciation for your interest and choices.
+Вы завяршаеце знаёмства са скарбамі гандляра, і ён, паважна схіліўшы галаву, паказвае вам сваю ўдзячнасьць за зацікаўленасьць і зроблены выбар.
     -> END

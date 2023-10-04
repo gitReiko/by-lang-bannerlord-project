@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Hanged Men
+# title: Шыбельнік
 # frequency: Common
 # development: false
 # illustration: hangedman
@@ -62,23 +62,23 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    You come across a tree with three men hanging from it with a sword stuck in the ground beneath them. As you get closer you can see that the word "Traitors" is etched into the tree and that the sword has been used to mark a grave. ->choice1
+    Вы натыкаецеся на дрэва, на якім вісяць тры чалавекі з мячом, уваткнутым у зямлю пад імі. Падыдучы бліжэй, вы бачыце, што на дрэве выдрапана слова "Здраднікі", а меч выкарыстоўваецца для пазначэньня магілы. ->choice1
 
     //What to do with the hanging bodies
     =choice1
-        What will your party do with the hanging bodies?
+        Што ваша партыя будзе рабіць з павешанымі целамі?
         
-            *[Do nothing]
-                You decide to do nothing with the hanging bodies.
+            *[Нічога]
+                Вы вырашаеце нічога не рабіць з павешанымі целамі.
                 ->choice1to2Intermission
         
-            *[Bury the hanging bodies (Mercy+)]
-                You cut down the bodies and lay them to rest.
+            *[Пахаваць павешаныя целы (Літасьць+)]
+                Вы сячэце вяроўкі і хаваеце ў зямлю целы.
                 ~ AddTraitInfluence("Mercy", 20)
                 ->choice1to2Intermission
         
-            *[Loot the hanging bodies (Mercy-)]
-                You cut down the bodies and loot the corpses, taking the tattered rags they were executed in.
+            *[Абрабаваць павешаныя целы (Літасьць-)]
+                Вы сячэце вяроўкі, рабуеце целы і забіраеце рваныя лахманы, у якіх яны былі забіты.
                 ~ AddTraitInfluence("Mercy", -20)
                 ~ GiveItem("wrapped_headcloth",3)
                 ~ GiveItem("ragged_robes",3)
@@ -86,19 +86,19 @@ INCLUDE include.ink
                 ->choice1to2Intermission
             
         //Raise the hanging bodies as skeletons
-            *{PartyCanRaiseDead}[Raise the hanging bodies as skeletons (Mercy--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
+            *{PartyCanRaiseDead}[Ажывіць павешаныя целы ў якасьці касьцякоў (Літасьць--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
                 ~ AddTraitInfluence("Mercy", -50)
                 {perform_party_skill_check("Spellcraft", RaiseDeadDifficulty):
                     -true:
                         ~ ChangePartyTroopCount("tor_vc_skeleton",3)
                         ~ SkeletonSuccess = true
                 }
-                Your party attempts to resurrect the corpses as skeletons {SkeletonSuccess: and succeeds. ->choice1to2Intermission | and fails.->choice1}
+                {SkeletonSuccess: Вашая партыя пасьпяхова ажыўляе целы ў якасьці касьцякоў. ->choice1to2Intermission | Вашая партыя няўдала спрабуе ажывіць целы ў якасьці касьцякоў.->choice1}
 
 
     //Needed for intermission text 
     =choice1to2Intermission
-        Having decided what to do with the hanging bodies you turn your attention to the grave marked by the sword.
+        Вырашыўшы, што рабіць з павешанымі целамі, вы заўважаеце магілу, пазначаную мячом.
         ->choice2
         
     //What to do with the buried body
@@ -106,31 +106,31 @@ INCLUDE include.ink
         
         //Variable Update
         ~ RaiseDeadDifficulty = 100
-        What will you do with the grave?
-        *[Leave this place (Leave)]
+        Што рабіць з магілай?
+        *[Пакінуць гэтае месца (Пакінуць)]
             ->Leave
             
-        *[Offer a prayer (Mercy+)]
-            You say a prayer for the departed hoping they can find peace.
+        *[Памаліцца (Літасьць+)]
+            Вы моліцеся за нябожчыкаў і спадзеяцеся, што яны знойдуць супакой.
             ~ AddTraitInfluence("Mercy", 20)
             ->Leave
 
 
-        *[Take the sword (1 tier 3 sword, Mercy-)]
+        *[Забраць меч (1 меч 3 роўня, Літасьць-)]
             You take the sword into your hands.
             ~ AddTraitInfluence("Mercy", -20)
             ~ HaveSword = true
             ~ TookSword = true
             ->choice2
             
-        *[Dig up the grave (Mercy-)]
-            You dig up the grave to find a warrior buried in some armour. You can see some of the armour is damaged, most likely from the "traitors".
+        *[Раскапаць магілу (Літасьць-)]
+            Раскапаўшы магілу, вы знаходзіце ваяра, пахаванага ў дасьпехах. Бачна, што частка дасьпехаў пашкоджана, найхутчэй, "здраднікамі".
             ~ AddTraitInfluence("Mercy", -20)
             ~ DugUpGrave = true
             ->choice2
         
-        *{DugUpGrave == true}[Loot the buried body (2 pieces of tier 3 armour, Mercy-)]
-            You strip the body of all the armour that is still intact.
+        *{DugUpGrave == true}[Абрабаваць цела нябожчыка (2 адзінкі брані 3 роўня, Літасьць-)]
+            Вы здымаеце з цела ўсю захаваную браню.
             ~LootedBody = true
             ~AddTraitInfluence("Mercy", -20)
             
@@ -150,7 +150,7 @@ INCLUDE include.ink
 
             ->choice2
             
-        *{DugUpGrave && PartyCanRaiseDead && not LootedBody}[Resurrect the buried body as a wight (+1 Crypt Guard, Mercy--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
+        *{DugUpGrave && PartyCanRaiseDead && not LootedBody}[Ажывіць цела нябожчыка ў якасьці прывіда (+1 Вартаўнік Склепа, Літасьць--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
             ~AddTraitInfluence("Mercy", -50)
                 
                 //Raise Dead
@@ -161,12 +161,12 @@ INCLUDE include.ink
                             ~ HaveSword = false
                         -false:
                     }
-
-                Your party attempts to resurrect the corpse as a wight {CryptGuardSuccess: and succeed. The wight stands up {TookSword: and holds out its hand as if to ask for its sword back. You give back the weapon} then it marches off to join the rest of your forces. ->Leave | and fail.->choice2}
+               
+                {CryptGuardSuccess: Вашая партыя пасьпяхова ажыўляе цела ў якасьці прывіда. {TookSword: Прывід уздымаецца і працягвае руку, нібы просячы вярнуць яму меч. Вы вяртаеце яму зброю.} Ён далучаецца да астатніх вашых сілаў. ->Leave | Вашая партыя няўдала спрабуе ажывіць цела ў якасьці прывіда.->choice2}
             ->Leave
 
 ===Leave===
-    Having made your decisions you go on your way.
+    Прыняўшы разьвязак, вы рушыце ў шлях.
     {HaveSword: 
         ~GiveItem("vlandia_sword_1_t2",1)
     }

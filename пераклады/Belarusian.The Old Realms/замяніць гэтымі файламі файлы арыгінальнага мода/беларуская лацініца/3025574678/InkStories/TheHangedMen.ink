@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Hanged Men
+# title: Šybielnik
 # frequency: Common
 # development: false
 # illustration: hangedman
@@ -62,23 +62,23 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    You come across a tree with three men hanging from it with a sword stuck in the ground beneath them. As you get closer you can see that the word "Traitors" is etched into the tree and that the sword has been used to mark a grave. ->choice1
+    Vy natykajeciesia na dreva, na jakim visiać try čałavieki z miačom, uvatknutym u ziamlu pad imi. Padydučy bližej, vy bačycie, što na drevie vydrapana słova "Zdradniki", a mieč vykarystoŭvajecca dla paznačeńnia mahiły. ->choice1
 
     //What to do with the hanging bodies
     =choice1
-        What will your party do with the hanging bodies?
+        Što vaša partyja budzie rabić z paviešanymi ciełami?
         
-            *[Do nothing]
-                You decide to do nothing with the hanging bodies.
+            *[Ničoha]
+                Vy vyrašajecie ničoha nie rabić z paviešanymi ciełami.
                 ->choice1to2Intermission
         
-            *[Bury the hanging bodies (Mercy+)]
-                You cut down the bodies and lay them to rest.
+            *[Pachavać paviešanyja cieły (Litaść+)]
+                Vy siačecie viaroŭki i chavajecie ŭ ziamlu cieły.
                 ~ AddTraitInfluence("Mercy", 20)
                 ->choice1to2Intermission
         
-            *[Loot the hanging bodies (Mercy-)]
-                You cut down the bodies and loot the corpses, taking the tattered rags they were executed in.
+            *[Abrabavać paviešanyja cieły (Litaść-)]
+                Vy siačecie viaroŭki, rabujecie cieły i zabirajecie rvanyja łachmany, u jakich jany byli zabity.
                 ~ AddTraitInfluence("Mercy", -20)
                 ~ GiveItem("wrapped_headcloth",3)
                 ~ GiveItem("ragged_robes",3)
@@ -86,19 +86,19 @@ INCLUDE include.ink
                 ->choice1to2Intermission
             
         //Raise the hanging bodies as skeletons
-            *{PartyCanRaiseDead}[Raise the hanging bodies as skeletons (Mercy--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
+            *{PartyCanRaiseDead}[Ažyvić paviešanyja cieły ŭ jakaści kaściakoŭ (Litaść--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
                 ~ AddTraitInfluence("Mercy", -50)
                 {perform_party_skill_check("Spellcraft", RaiseDeadDifficulty):
                     -true:
                         ~ ChangePartyTroopCount("tor_vc_skeleton",3)
                         ~ SkeletonSuccess = true
                 }
-                Your party attempts to resurrect the corpses as skeletons {SkeletonSuccess: and succeeds. ->choice1to2Intermission | and fails.->choice1}
+                {SkeletonSuccess: Vašaja partyja paśpiachova ažyŭlaje cieły ŭ jakaści kaściakoŭ. ->choice1to2Intermission | Vašaja partyja niaŭdała sprabuje ažyvić cieły ŭ jakaści kaściakoŭ.->choice1}
 
 
     //Needed for intermission text 
     =choice1to2Intermission
-        Having decided what to do with the hanging bodies you turn your attention to the grave marked by the sword.
+        Vyrašyŭšy, što rabić z paviešanymi ciełami, vy zaŭvažajecie mahiłu, paznačanuju miačom.
         ->choice2
         
     //What to do with the buried body
@@ -106,31 +106,31 @@ INCLUDE include.ink
         
         //Variable Update
         ~ RaiseDeadDifficulty = 100
-        What will you do with the grave?
-        *[Leave this place (Leave)]
+        Što rabić z mahiłaj?
+        *[Pakinuć hetaje miesca (Pakinuć)]
             ->Leave
             
-        *[Offer a prayer (Mercy+)]
-            You say a prayer for the departed hoping they can find peace.
+        *[Pamalicca (Litaść+)]
+            Vy moliciesia za niabožčykaŭ i spadziejaciesia, što jany znojduć supakoj.
             ~ AddTraitInfluence("Mercy", 20)
             ->Leave
 
 
-        *[Take the sword (1 tier 3 sword, Mercy-)]
+        *[Zabrać mieč (1 mieč 3 roŭnia, Litaść-)]
             You take the sword into your hands.
             ~ AddTraitInfluence("Mercy", -20)
             ~ HaveSword = true
             ~ TookSword = true
             ->choice2
             
-        *[Dig up the grave (Mercy-)]
-            You dig up the grave to find a warrior buried in some armour. You can see some of the armour is damaged, most likely from the "traitors".
+        *[Raskapać mahiłu (Litaść-)]
+            Raskapaŭšy mahiłu, vy znachodzicie vajara, pachavanaha ŭ daśpiechach. Bačna, što častka daśpiechaŭ paškodžana, najchutčej, "zdradnikami".
             ~ AddTraitInfluence("Mercy", -20)
             ~ DugUpGrave = true
             ->choice2
         
-        *{DugUpGrave == true}[Loot the buried body (2 pieces of tier 3 armour, Mercy-)]
-            You strip the body of all the armour that is still intact.
+        *{DugUpGrave == true}[Abrabavać cieła niabožčyka (2 adzinki brani 3 roŭnia, Litaść-)]
+            Vy zdymajecie z cieła ŭsiu zachavanuju braniu.
             ~LootedBody = true
             ~AddTraitInfluence("Mercy", -20)
             
@@ -150,7 +150,7 @@ INCLUDE include.ink
 
             ->choice2
             
-        *{DugUpGrave && PartyCanRaiseDead && not LootedBody}[Resurrect the buried body as a wight (+1 Crypt Guard, Mercy--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
+        *{DugUpGrave && PartyCanRaiseDead && not LootedBody}[Ažyvić cieła niabožčyka ŭ jakaści pryvida (+1 Vartaŭnik Sklepa, Litaść--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
             ~AddTraitInfluence("Mercy", -50)
                 
                 //Raise Dead
@@ -161,28 +161,13 @@ INCLUDE include.ink
                             ~ HaveSword = false
                         -false:
                     }
-
-                Your party attempts to resurrect the corpse as a wight {CryptGuardSuccess: and succeed. The wight stands up {TookSword: and holds out its hand as if to ask for its sword back. You give back the weapon} then it marches off to join the rest of your forces. ->Leave | and fail.->choice2}
+               
+                {CryptGuardSuccess: Vašaja partyja paśpiachova ažyŭlaje cieła ŭ jakaści pryvida. {TookSword: Pryvid uzdymajecca i praciahvaje ruku, niby prosiačy viarnuć jamu mieč. Vy viartajecie jamu zbroju.} Jon dałučajecca da astatnich vašych siłaŭ. ->Leave | Vašaja partyja niaŭdała sprabuje ažyvić cieła ŭ jakaści pryvida.->choice2}
             ->Leave
 
 ===Leave===
-    Having made your decisions you go on your way.
+    Pryniaŭšy raźviazak, vy rušycie ŭ šlach.
     {HaveSword: 
         ~GiveItem("vlandia_sword_1_t2",1)
     }
 -> END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
