@@ -1,5 +1,5 @@
 //Global story tags
-# title: Roadside Accident
+# title: Vypadak na Ŭzboččy
 # frequency: Common
 # development: false
 # illustration: cart_accident
@@ -129,12 +129,12 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    As your party is travelling along you see a cart in the distance.
-    As you get closer you can see that it had broken down and tipped over. 
-    {HorsesAround: You can also see some horses grazing on grass in a nearby field, presumably these were pulling the cart prior to the incident.}
+    Padčas padarožža vy bačycie ŭdalečyni furmanku.
+    Paśla nabližeńnia vidavočna, što jana złamałasia i pierakuliłasia.
+    {HorsesAround: Na susiednim poli vy bačycie, jak paśviacca koni, zdajecca, jany ciahnuli furmanku.}
 
-    *[Approach the cart]->Approach
-    *[Go on your way] You decide to ignore the overturned cart and continue your journey. ->END
+    *[Padajści da furmanki]->Approach
+    *[Praciahnuć svoj šlach] Vy vyrašajecie nie źviartać uvahu na pierakulenuju furmanku i praciahnuć svajo padarožža. ->END
 
 ===Approach===
 
@@ -149,7 +149,7 @@ INCLUDE include.ink
             You ask the man what he can do for you.
             The man replies, "I am just a simple {Profession} from {Settlement}, I cannot give you a reward other than my thanks."
             After a moment he says, "I am a friend of {Notable} and I will put in a good word for you."
-            While he is talking you can't help but notice there still seems to be some cargo in the cart.
+            While he is talking you cant help but notice there still seems to be some cargo in the cart.
             ~HasAsked = true
             ->choices
         
@@ -165,7 +165,7 @@ INCLUDE include.ink
                 ->AfterLift
         
             *{HasAsked}[Extort him for a reward (Mercy-)]
-                You tell the {Profession} that he shouldn't be so modest. He is clearly a man of some means and can easily spare {RewardText} as compensation for the assistance.
+                You tell the {Profession} that he shouldnt be so modest. He is clearly a man of some means and can easily spare {RewardText} as compensation for the assistance.
                 The man, believing he has no other option, agrees.
                 ~ AddTraitInfluence("Mercy", -20)
                 ~ HasExtorted = true
@@ -192,7 +192,7 @@ INCLUDE include.ink
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
     =raiseSucceed
-    Having successfully raised the dead, you decide to celebrate by taking all the man's possessions.
+    Having successfully raised the dead, you decide to celebrate by taking all the mans possessions.
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -206,7 +206,7 @@ INCLUDE include.ink
         -> END
     
     =raiseFail
-    Having failed you decide to take all the dead man's possessions as compensation for wasting your time.
+    Having failed you decide to take all the dead mans possessions as compensation for wasting your time.
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -234,7 +234,7 @@ INCLUDE include.ink
                         {MedicineSkillCheckTest: ->Success | ->Fail}
                         
                 *{LoreOfLifeInParty}[Treat him with magic {SpellcraftSkillCheckText}]
-                    A spellcaster in your party calls upon the winds of Ghyran to mend the man's wounds.
+                    A spellcaster in your party calls upon the winds of Ghyran to mend the mans wounds.
                         {SpellcraftSkillCheckTest: ->Success | ->Fail}
                     
         =Success
@@ -257,7 +257,7 @@ INCLUDE include.ink
     =LiveReward
         Having been saved, the man {HasExtorted: begrudgingly} thanks you for your help{HasExtorted: and gives you the promised reward}.
         {NotableChange: As he starts gathering his things he says, "I will tell {Notable} of your deeds as soon as I am home."}
-        {HasExtorted == false && BonusRoll >=50: The man pausing for a moment says, "I know I said I didn't have much but please take this ({RewardText}). It's the least I can do for your kindness."}
+        {HasExtorted == false && BonusRoll >=50: The man pausing for a moment says, "I know I said I didnt have much but please take this ({RewardText}). Its the least I can do for your kindness."}
         
         {HasExtorted || (not HasExtorted && BonusRoll >=50):
             -true:
@@ -296,7 +296,7 @@ INCLUDE include.ink
                 Yout party makes an attempt and {RaiseDeadSkillCheckTest: succeeds| fails}.
                 
                 {RaiseDeadSkillCheckTest:
-                    -true: The man's body stands up and shambles off to join the rest of your army.
+                    -true: The mans body stands up and shambles off to join the rest of your army.
                         ~ ChangePartyTroopCount("tor_vc_skeleton",1)
                 }
                 ->DeadReward

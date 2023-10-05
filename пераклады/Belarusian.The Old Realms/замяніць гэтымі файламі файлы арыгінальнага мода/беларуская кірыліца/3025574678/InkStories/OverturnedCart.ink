@@ -129,12 +129,12 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    As your party is travelling along you see a cart in the distance.
-    As you get closer you can see that it had broken down and tipped over. 
-    {HorsesAround: You can also see some horses grazing on grass in a nearby field, presumably these were pulling the cart prior to the incident.}
+    Падчас падарожжа вы бачыце ўдалечыні фурманку.
+    Пасьля набліжэньня відавочна, што яна зламалася і перакулілася.
+    {HorsesAround: На суседнім полі вы бачыце, як пасьвяцца коні, здаецца, яны цягнулі фурманку.}
 
-    *[Approach the cart]->Approach
-    *[Go on your way] You decide to ignore the overturned cart and continue your journey. ->END
+    *[Падайсьці да фурманкі]->Approach
+    *[Працягнуць свой шлях] Вы вырашаеце не зьвяртаць увагу на перакуленую фурманку і працягнуць сваё падарожжа. ->END
 
 ===Approach===
 
