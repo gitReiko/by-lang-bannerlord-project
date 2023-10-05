@@ -177,7 +177,7 @@
 
 ===Start===
 
-    Padčas padarožža vy natykajeciesia na łahodnuju scenu, ad jakoj pierachaplaje dychannie. Pierad vami raskinułasia cudoŭnaja sažałka, utojenaja pierlina siarod dzikaj pryrody. Vada spakojnaja i prazrystaja, u joj adlustroŭvajecca błakitnaje nieba. Pyšnaja raslinnaść atačaje sažałku, stvarajučy atmasfieru spakoju.
+    Padčas padarožža vy natykajeciesia na łahodnuju scenu, ad jakoj pierachaplaje dychańnie. Pierad vami raskinułasia cudoŭnaja sažałka, utojenaja pierlina siarod dzikaj pryrody. Vada spakojnaja i prazrystaja, u joj adlustroŭvajecca błakitnaje nieba. Pyšnaja raslinnaść atačaje sažałku, stvarajučy atmasfieru spakoju.
     {IsNight(): Srebnaja miesiačnaje śviatło | Załacistaje soniečnaje śviatło} pradzirajecca skroź drevy, adkidvajučy vodbliski na pavierchniu vady. U pavietry łunaje dalikatny vodar pryrody, jaki supakojvaje stomlenyja pačućci. Ptuški napiavajuć miełodyi i stvarajuć łahodnuju atmasfieru.
 
     Pakul vy staicie, začaravanyja hetym hledziščam, vas dahaniajuć vašyja ludzi. Ich tvary, zmučanyja stomlenaściu, azarajucca ździŭleńniem i palohkaj. Navat zazvyčaj strymany čalec vašaj hrupy zdoleŭ uśmichnucca.
@@ -186,15 +186,15 @@
         ->choice1
         
     =choice1
-        What will you have your party do?
-            *[Forage for wild plants (Multiple attempts at {LoreOfLifeInParty: 50% chance (Improved by Lore of Life)| 25% chance} to succeed at harvesting various wild plants)] 
+        Što budzie rabić vašaja partyja?
+            *[Narychtoŭvać dzikija raśliny (Šmatlikija sproby z {LoreOfLifeInParty: 50% šancam (Palepšana Viedami Žyćcia)| 25% šancam} paśpiachovaha zboru roznych dzikich raślin)] 
                 
-                You order your party to forage for wild plants.
+                Vy zahadali svajoj partyi źbirać dzikija raśliny.
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            A mage in your party calls upon the Wind of Ghyran to aid your men in their search.
+                            Mah z vašaj partyi zaklikaje Viecier Hirana na dapamohu vašym ludziam u pošukach.
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR
@@ -202,15 +202,15 @@
                     
                 ->ForageLoop
 
-            *[Fish (Multiple chances to get Fish (50% success chance))] 
+            *[Łavić rybu (Šmatlikija sproby złavić rybu (50% šaniec pośpiechu))] 
             
-            You have your men go fishing.
+            Vy zahadali svaim ludziam rybačyć.
                 
                 ->FishLoop
                 
-            *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
+            *[Adpačyvać (Usie kampańjony i paranienyja vajary vylečvajucca {PartyMedicineCheckText})]
                 
-                You try to give your men a break hoping that the brief respite will help them get better.
+                Vy namahajeciesia dać svaim ludziam adpačyć, spadziajučysia, što karotki pieradych dapamoža im ačuniać.
                 
                 {PartyMedicineCheckTest:
                     -true: 
@@ -219,11 +219,11 @@
                     -else: "ERROR"
                 }
                 
-                {PartyMedicineCheckTest: Your party takes advantage of the break to take care of the wounded.| Just as the men start to tend to the wounded, the ground suddenly shakes beneath you, and a roar fills the air. A cascade of earth and rocks crashes into the pond, caused by a landslide along the shore. The water churns, swallowing a part of the land it had eroded over time.}
+                {PartyMedicineCheckTest: Vašaja partyja skarystałasia adpačynkam, kab pakłapacicca pra ranienych.| U toj momant, kali vajary pačynajuć dahladać za paranienymi, ziamla pad nahami raptam uzdryhvaje, i pavietra napaŭniajecca rykam. U sažałku abrušvajecca vał ziamli i kamianioŭ, što ŭtvaryŭsia ŭ vyniku apoŭznia na bierazie. Vada ŭzdymajecca i pahłynaje častku razmytaj joju ziamli.}
                 
                 ->Leave
                 
-            *[Leave] You decide your party has no time to rest and set out immediately.->END
+            *[Pakinuć] Vy vyrašajecie, što vašaja partyja nia maje času na adpačynak, i nieadkładna rušycie ŭ šlach.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -248,9 +248,9 @@
             
             {RewardRoll:
                 -0:
-                    Foraging yields no results, your men return empty handed.
+                    Narychtoŭla nie pryniasła vynikaŭ, vašyja ludzi viarnulisia z pustymi rukami.
                 -1:
-                    Your men find some wild rice. (+1 Grain)
+                    Vašyja ludzi znajšli dziki rys (+1 Ziernie).
                     ~ GiveItem("grain",1)
             }
             
@@ -275,10 +275,10 @@
         //Reward
             {
                 - AttemptSuccessful == true:
-                    Your men catch some fish (+1 Fish).
+                    Vašyja ludzi złavili rybu (+1 Ryba).
                     ~ GiveItem("fish",1)
                 - AttemptSuccessful == false:
-                     Your men catch nothing.
+                    Vašyja ludziam nie paščaściła złavić rybu.
                 -else: ERROR
             }
                     
@@ -288,7 +288,7 @@
     ->END
     
 ===Leave===
-    Having spent your time by the pond you decide to head off.
+    Prabaviačy čas u sažałki, vy vyrašajecie rušyć u darohu.
 
     ~ MakePartyDisorganized()
     

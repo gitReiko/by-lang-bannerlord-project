@@ -177,7 +177,7 @@
 
 ===Start===
 
-    Падчас падарожжа вы натыкаецеся на лагодную сцэну, ад якой перахапляе дыханне. Перад вамі раскінулася цудоўная сажалка, утоеная перліна сярод дзікай прыроды. Вада спакойная і празрыстая, у ёй адлюстроўваецца блакітнае неба. Пышная расліннасьць атачае сажалку, ствараючы атмасферу спакою.
+    Падчас падарожжа вы натыкаецеся на лагодную сцэну, ад якой перахапляе дыханьне. Перад вамі раскінулася цудоўная сажалка, утоеная перліна сярод дзікай прыроды. Вада спакойная і празрыстая, у ёй адлюстроўваецца блакітнае неба. Пышная расліннасьць атачае сажалку, ствараючы атмасферу спакою.
     {IsNight(): Срэбная месячнае сьвятло | Залацістае сонечнае сьвятло} прадзіраецца скрозь дрэвы, адкідваючы водбліскі на паверхню вады. У паветры лунае далікатны водар прыроды, які супакойвае стомленыя пачуцьці. Птушкі напяваюць мелодыі і ствараюць лагодную атмасферу.
 
     Пакуль вы стаіце, зачараваныя гэтым гледзішчам, вас даганяюць вашыя людзі. Іх твары, змучаныя стомленасьцю, азараюцца зьдзіўленьнем і палёгкай. Нават зазвычай стрыманы чалец вашай групы здолеў усьміхнуцца.
@@ -186,15 +186,15 @@
         ->choice1
         
     =choice1
-        What will you have your party do?
-            *[Forage for wild plants (Multiple attempts at {LoreOfLifeInParty: 50% chance (Improved by Lore of Life)| 25% chance} to succeed at harvesting various wild plants)] 
+        Што будзе рабіць вашая партыя?
+            *[Нарыхтоўваць дзікія расьліны (Шматлікія спробы з {LoreOfLifeInParty: 50% шанцам (Палепшана Ведамі Жыцьця)| 25% шанцам} пасьпяховага збору розных дзікіх расьлін)] 
                 
-                You order your party to forage for wild plants.
+                Вы загадалі сваёй партыі зьбіраць дзікія расьліны.
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            A mage in your party calls upon the Wind of Ghyran to aid your men in their search.
+                            Маг з вашай партыі заклікае Вецер Гірана на дапамогу вашым людзям у пошуках.
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR
@@ -202,15 +202,15 @@
                     
                 ->ForageLoop
 
-            *[Fish (Multiple chances to get Fish (50% success chance))] 
+            *[Лавіць рыбу (Шматлікія спробы злавіць рыбу (50% шанец посьпеху))] 
             
-            You have your men go fishing.
+            Вы загадалі сваім людзям рыбачыць.
                 
                 ->FishLoop
                 
-            *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
+            *[Адпачываць (Усе кампаньёны і параненыя ваяры вылечваюцца {PartyMedicineCheckText})]
                 
-                You try to give your men a break hoping that the brief respite will help them get better.
+                Вы намагаецеся даць сваім людзям адпачыць, спадзяючыся, што кароткі перадых дапаможа ім ачуняць.
                 
                 {PartyMedicineCheckTest:
                     -true: 
@@ -219,11 +219,11 @@
                     -else: "ERROR"
                 }
                 
-                {PartyMedicineCheckTest: Your party takes advantage of the break to take care of the wounded.| Just as the men start to tend to the wounded, the ground suddenly shakes beneath you, and a roar fills the air. A cascade of earth and rocks crashes into the pond, caused by a landslide along the shore. The water churns, swallowing a part of the land it had eroded over time.}
+                {PartyMedicineCheckTest: Вашая партыя скарысталася адпачынкам, каб паклапаціцца пра раненых.| У той момант, калі ваяры пачынаюць даглядаць за параненымі, зямля пад нагамі раптам уздрыгвае, і паветра напаўняецца рыкам. У сажалку абрушваецца вал зямлі і камянёў, што ўтварыўся ў выніку апоўзня на беразе. Вада ўздымаецца і паглынае частку размытай ёю зямлі.}
                 
                 ->Leave
                 
-            *[Leave] You decide your party has no time to rest and set out immediately.->END
+            *[Пакінуць] Вы вырашаеце, што вашая партыя ня мае часу на адпачынак, і неадкладна рушыце ў шлях.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -248,9 +248,9 @@
             
             {RewardRoll:
                 -0:
-                    Foraging yields no results, your men return empty handed.
+                    Нарыхтоўля не прынясла вынікаў, вашыя людзі вярнуліся з пустымі рукамі.
                 -1:
-                    Your men find some wild rice. (+1 Grain)
+                    Вашыя людзі знайшлі дзікі рыс (+1 Зерне).
                     ~ GiveItem("grain",1)
             }
             
@@ -275,10 +275,10 @@
         //Reward
             {
                 - AttemptSuccessful == true:
-                    Your men catch some fish (+1 Fish).
+                    Вашыя людзі злавілі рыбу (+1 Рыба).
                     ~ GiveItem("fish",1)
                 - AttemptSuccessful == false:
-                     Your men catch nothing.
+                    Вашыя людзям не пашчасьціла злавіць рыбу.
                 -else: ERROR
             }
                     
@@ -288,7 +288,7 @@
     ->END
     
 ===Leave===
-    Having spent your time by the pond you decide to head off.
+    Прабавячы час у сажалкі, вы вырашаеце рушыць у дарогу.
 
     ~ MakePartyDisorganized()
     
