@@ -52,21 +52,21 @@ INCLUDE include.ink
         VAR InjuryText1 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText1 = "uninjured"
+                    ~InjuryText1 = "не паранены"
                 -1: 
-                    ~InjuryText1 = "mildly injured"
+                    ~InjuryText1 = "лёгка паранены"
                 -2: 
-                    ~InjuryText1 = "severely injured"
+                    ~InjuryText1 = "цяжка паранены"
             }
         
         VAR InjuryText2 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText2 = "asks"
+                    ~InjuryText2 = "просіць вас"
                 -1: 
-                    ~InjuryText2 = "begs"
+                    ~InjuryText2 = "моліць вас"
                 -2: 
-                    ~InjuryText2 = "gasps"
+                    ~InjuryText2 = "ледзь прамаўляе вам"
             }
         
         VAR InjuryText3 = ""
@@ -102,21 +102,21 @@ INCLUDE include.ink
         VAR Profession = ""
             {ProfessionRoll:
                 -0: 
-                    ~Profession = "merchant"
+                    ~Profession = "гандляр"
                 -1: 
-                    ~Profession = "farmer"
+                    ~Profession = "земляроб"
                 -2: 
-                    ~Profession = "blacksmith"
+                    ~Profession = "каваль"
             }
         
         VAR RewardText = ""
             {ProfessionRoll:
                 -0: 
-                    ~RewardText = "500 gold"
+                    ~RewardText = "500 золата ў"
                 -1: 
-                    ~RewardText = "5 grain"
+                    ~RewardText = "5 зерня ў"
                 -2: 
-                    ~RewardText = "2 steel ingots"
+                    ~RewardText = "2 сталёвых зьліткаў у"
             }
 
         VAR HasExtorted = false
@@ -138,35 +138,35 @@ INCLUDE include.ink
 
 ===Approach===
 
-    You approach the cart and find a man stuck underneath. When he sees you approaching he calls out for help.
-    You notice that the man trapped under the cart is {InjuryText1}.
-    As you get close he {InjuryText2} to you, "Please help me". 
-    What will you do?
+    Вы падыходзіце да фурманкі і выяўляеце, што пад ёй захрас чалавек. Ён заўважае, што вы набліжаецеся, і кліча па дапамогу.
+    Вы бачыце, што чалавек, які трапіў у пастку пад фурманкай, {InjuryText1}.
+    Пакуль вы набліжаецеся, ён {InjuryText2}: "Калі ласка, дапамажыце мне".
+    Што вы будзеце рабіць?
     ->choices
     
     =choices
-        *[Ask what he can do for you if you help him]
-            You ask the man what he can do for you.
-            The man replies, "I am just a simple {Profession} from {Settlement}, I cannot give you a reward other than my thanks."
-            After a moment he says, "I am a friend of {Notable} and I will put in a good word for you."
-            While he is talking you can't help but notice there still seems to be some cargo in the cart.
+        *[Спытаць, што ён зможа зрабіць дзеля вас, калі вы дапаможаце яму]
+            Вы пытаеце, што чалавек можа зрабіць для вас.
+            Чалавек адказвае: "Я толькі просты {Profession} з {Settlement}. Я магу ўзнагародзіць вас толькі сваёй падзякай".
+            Праз момант ён кажа: "Я сябар {Notable} і замоўлю за вас слова".
+            Пакуль ён гавора, вы ня можаце не заўважыць, што ў фурманцы, здаецца, маецца яшчэ нейкі груз.
             ~HasAsked = true
             ->choices
         
-            *{not HasAsked}[Help him (Mercy++)]
-                You decide to help him.
+            *{not HasAsked}[Дапамагчы яму (Літасьць++)]
+                Вы вырашаеце дапамагчы яму.
                 ~ AddTraitInfluence("Mercy", 40)
                 ->AfterLift
                 
-            *{HasAsked}[Help him (+Relations with {Notable}, Mercy+)]
-                You decide to help him.
+            *{HasAsked}[Дапамагчы яму (+Адносіны з {Notable}, Літасьць+)]
+                Вы вырашаеце дапамагчы яму.
                 ~ AddTraitInfluence("Mercy", 20)
                 ~ NotableChange = true
                 ->AfterLift
         
-            *{HasAsked}[Extort him for a reward (Mercy-)]
-                You tell the {Profession} that he shouldn't be so modest. He is clearly a man of some means and can easily spare {RewardText} as compensation for the assistance.
-                The man, believing he has no other option, agrees.
+            *{HasAsked}[Патрабаваць ад яго ўзнагароду (Літасьць-)]
+                Вы гаворыце яму ня быць такім сьціплым. Ён відавочна чалавек з дастаткам і цалкам можа выдзяліць {RewardText} якасьці кампенсацыі за аказаную дапамогу.
+                Чалавек, лічыць, што ён ня мае іншага выйсьця і згаджаецца.
                 ~ AddTraitInfluence("Mercy", -20)
                 ~ HasExtorted = true
                 ->AfterLift

@@ -52,21 +52,21 @@ INCLUDE include.ink
         VAR InjuryText1 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText1 = "uninjured"
+                    ~InjuryText1 = "nie paranieny"
                 -1: 
-                    ~InjuryText1 = "mildly injured"
+                    ~InjuryText1 = "lohka paranieny"
                 -2: 
-                    ~InjuryText1 = "severely injured"
+                    ~InjuryText1 = "ciažka paranieny"
             }
         
         VAR InjuryText2 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText2 = "asks"
+                    ~InjuryText2 = "prosić vas"
                 -1: 
-                    ~InjuryText2 = "begs"
+                    ~InjuryText2 = "molić vas"
                 -2: 
-                    ~InjuryText2 = "gasps"
+                    ~InjuryText2 = "ledź pramaŭlaje vam"
             }
         
         VAR InjuryText3 = ""
@@ -102,21 +102,21 @@ INCLUDE include.ink
         VAR Profession = ""
             {ProfessionRoll:
                 -0: 
-                    ~Profession = "merchant"
+                    ~Profession = "handlar"
                 -1: 
-                    ~Profession = "farmer"
+                    ~Profession = "ziemlarob"
                 -2: 
-                    ~Profession = "blacksmith"
+                    ~Profession = "kaval"
             }
         
         VAR RewardText = ""
             {ProfessionRoll:
                 -0: 
-                    ~RewardText = "500 gold"
+                    ~RewardText = "500 zołata ŭ"
                 -1: 
-                    ~RewardText = "5 grain"
+                    ~RewardText = "5 ziernia ŭ"
                 -2: 
-                    ~RewardText = "2 steel ingots"
+                    ~RewardText = "2 stalovych źlitkaŭ u"
             }
 
         VAR HasExtorted = false
@@ -138,35 +138,35 @@ INCLUDE include.ink
 
 ===Approach===
 
-    You approach the cart and find a man stuck underneath. When he sees you approaching he calls out for help.
-    You notice that the man trapped under the cart is {InjuryText1}.
-    As you get close he {InjuryText2} to you, "Please help me". 
-    What will you do?
+    Vy padychodzicie da furmanki i vyjaŭlajecie, što pad joj zachras čałaviek. Jon zaŭvažaje, što vy nabližajeciesia, i kliča pa dapamohu.
+    Vy bačycie, što čałaviek, jaki trapiŭ u pastku pad furmankaj, {InjuryText1}.
+    Pakul vy nabližajeciesia, jon {InjuryText2}: "Kali łaska, dapamažycie mnie".
+    Što vy budziecie rabić?
     ->choices
     
     =choices
-        *[Ask what he can do for you if you help him]
-            You ask the man what he can do for you.
-            The man replies, "I am just a simple {Profession} from {Settlement}, I cannot give you a reward other than my thanks."
-            After a moment he says, "I am a friend of {Notable} and I will put in a good word for you."
-            While he is talking you cant help but notice there still seems to be some cargo in the cart.
+        *[Spytać, što jon zmoža zrabić dziela vas, kali vy dapamožacie jamu]
+            Vy pytajecie, što čałaviek moža zrabić dla vas.
+            Čałaviek adkazvaje: "Ja tolki prosty {Profession} z {Settlement}. Ja mahu ŭznaharodzić vas tolki svajoj padziakaj".
+            Praz momant jon kaža: "Ja siabar {Notable} i zamoŭlu za vas słova".
+            Pakul jon havora, vy nia možacie nie zaŭvažyć, što ŭ furmancy, zdajecca, majecca jašče niejki hruz.
             ~HasAsked = true
             ->choices
         
-            *{not HasAsked}[Help him (Mercy++)]
-                You decide to help him.
+            *{not HasAsked}[Dapamahčy jamu (Litaść++)]
+                Vy vyrašajecie dapamahčy jamu.
                 ~ AddTraitInfluence("Mercy", 40)
                 ->AfterLift
                 
-            *{HasAsked}[Help him (+Relations with {Notable}, Mercy+)]
-                You decide to help him.
+            *{HasAsked}[Dapamahčy jamu (+Adnosiny z {Notable}, Litaść+)]
+                Vy vyrašajecie dapamahčy jamu.
                 ~ AddTraitInfluence("Mercy", 20)
                 ~ NotableChange = true
                 ->AfterLift
         
-            *{HasAsked}[Extort him for a reward (Mercy-)]
-                You tell the {Profession} that he shouldnt be so modest. He is clearly a man of some means and can easily spare {RewardText} as compensation for the assistance.
-                The man, believing he has no other option, agrees.
+            *{HasAsked}[Patrabavać ad jaho ŭznaharodu (Litaść-)]
+                Vy havorycie jamu nia być takim ścipłym. Jon vidavočna čałaviek z dastatkam i całkam moža vydzialić {RewardText} jakaści kampiensacyi za akazanuju dapamohu.
+                Čałaviek, ličyć, što jon nia maje inšaha vyjścia i zhadžajecca.
                 ~ AddTraitInfluence("Mercy", -20)
                 ~ HasExtorted = true
                 ->AfterLift
