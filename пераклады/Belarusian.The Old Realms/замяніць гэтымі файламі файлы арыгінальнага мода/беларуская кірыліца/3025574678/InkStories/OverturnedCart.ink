@@ -72,11 +72,11 @@ INCLUDE include.ink
         VAR InjuryText3 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText3 = "gets up"
+                    ~InjuryText3 = "уздымаецца"
                 -1: 
-                    ~InjuryText3 = "barely gets up"
+                    ~InjuryText3 = "са складанасьцю ўздымаецца"
                 -2: 
-                    ~InjuryText3 = "lays there trying not to die"
+                    ~InjuryText3 = "ляжыць і спрабуе не памерці"
             }
             
         VAR InjuryText4 = ""
@@ -84,9 +84,9 @@ INCLUDE include.ink
                 -0: 
                     ~InjuryText4 = ""
                 -1: 
-                    ~InjuryText4 = "seems to get a bit depressed knowing that he will be crippled for at least some time"
+                    ~InjuryText4 = "здаецца, трохі прыгнечаны, ведаючы, што ён будзе калекай, прынамсі, пэўны час"
                 -2: 
-                    ~InjuryText4 = "dies"
+                    ~InjuryText4 = "памірае"
             }
     
         VAR HorsesAround = 0
@@ -112,11 +112,11 @@ INCLUDE include.ink
         VAR RewardText = ""
             {ProfessionRoll:
                 -0: 
-                    ~RewardText = "500 золата ў"
+                    ~RewardText = "500 золата"
                 -1: 
-                    ~RewardText = "5 зерня ў"
+                    ~RewardText = "5 зерня"
                 -2: 
-                    ~RewardText = "2 сталёвых зьліткаў у"
+                    ~RewardText = "2 сталёвых зьлітка"
             }
 
         VAR HasExtorted = false
@@ -165,34 +165,34 @@ INCLUDE include.ink
                 ->AfterLift
         
             *{HasAsked}[Патрабаваць ад яго ўзнагароду (Літасьць-)]
-                Вы гаворыце яму ня быць такім сьціплым. Ён відавочна чалавек з дастаткам і цалкам можа выдзяліць {RewardText} якасьці кампенсацыі за аказаную дапамогу.
+                Вы гаворыце яму ня быць такім сьціплым. Ён відавочна чалавек з дастаткам і цалкам можа выдзяліць {RewardText} у якасьці кампенсацыі за аказаную дапамогу.
                 Чалавек, лічыць, што ён ня мае іншага выйсьця і згаджаецца.
                 ~ AddTraitInfluence("Mercy", -20)
                 ~ HasExtorted = true
                 ->AfterLift
             
-            *{HasAsked && HorsesAround}[Demand one of the horses (Mercy-)]
-                You say that since he is clearly incapable of controlling two horses and therefore should be fine giving you one as payment.
-                The man, seeing as he has no other option, agrees.
+            *{HasAsked && HorsesAround}[Запатрабаваць аднога з коней (Літасьць-)]
+                Вы гаворыце, што паколькі ён відавочна не ў стане кіраваць дзьвума коньмі, таму, павінен аддаць вам адну ў якасьці аплаты.
+                Чалавек, лічыць, што ён ня мае іншага выйсьця і згаджаецца.
                 ~ AddTraitInfluence("Mercy", -20)
                 ~ HasExtorted = true
                 ->AfterLift
         
-            *{HorsesAround}[Take the horses and leave (Mercy--)]
-                You decide that rather than help the man you would rather go and tame the two horses, as they are clearly wild horses, who in no way have had any previous owner this is perfectly legal.
-                After you have gotten a handle on the horses and are heading off, you can hear the cries of the trapped man begging you to come back and help, fade into the distance. 
+            *{HorsesAround}[Забраць коней і сысьці (Літасьць--)]
+                Вы вырашаеце, што заміж таго, каб дапамагчы чалавеку, лепей пайсьці і прыручыць дзьвух коней, бо гэта відавочна дзікія коні, якія ні ў якім разе ня мелі ранейшага спадара, што цалкам законна.
+                Пасьля таго як вы суладалі з коньмі і рушылі ў дарогу, удалечыні чутныя крыкі чалавека, што трапіў у пастку, ён моліць вас вярнуцца і дапамагчы.
                 ~ AddTraitInfluence("Mercy", -40)
                 ~ GiveItem("old_horse",2)
                 ->END
                 
         //Necromancer option
-            *{PartyCanRaiseDead}[Kill the man, raise his corpse as a skeleton, {HorsesAround: take the horses,} and loot his cart (Mercy---) {RaiseDeadSkillCheckText}]
-                A brilliant idea comes to your mind. Since the man is clearly worthless as a cart driver, perhaps he can find value by becoming one of your undead minions.
-                In one swift motion you kill the man and go about raising him as a skeleton. Your party makes an attempt and {RaiseDeadSkillCheckTest: succeeds| fails}.
+            *{PartyCanRaiseDead}[Забіць чалавека, узьняць яго ў якасьці касьцяка, {HorsesAround: забраць коней,} і разрабаваць яго фурманку (Літасьць---) {RaiseDeadSkillCheckText}]
+                Вам прыходзіць у галаву бліскучая ідэя. Бо гэты чалавек відавочна бескарысны наезьнік, магчыма, ён зможа стаць каштоўным, у якасьці аднога з вашых мёртвых слугаў.
+                Адным рухам вы забіваеце чалавека і адраджаеце яго ў якасьці касьцяка. Вашая партыя робіць {RaiseDeadSkillCheckTest: пасьпяховую| няўдалую} спробу.
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
     =raiseSucceed
-    Having successfully raised the dead, you decide to celebrate by taking all the man's possessions.
+    Пасьпяхова адрадзіўшы мяртвяка, вы вырашаеце адсьвяткаваць гэтую падзею і забраць усю яго маёмасьць.
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -206,7 +206,7 @@ INCLUDE include.ink
         -> END
     
     =raiseFail
-    Having failed you decide to take all the dead man's possessions as compensation for wasting your time.
+    Пацярпеўшы няшчасьце, вы вырашаеце забраць усю маёмасьць мяртвяка ў якасьці кампенсацыі за прамарнаваны час.
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -219,7 +219,7 @@ INCLUDE include.ink
         -> END
 
 ===AfterLift===
-    Your party lifts the cart off the man and he {InjuryText3}.
+    Вашая партыя падымае фурманку з чалавека, і ён {InjuryText3}.
 
     //Is Injured?
         {InjuryRoll:
@@ -228,22 +228,22 @@ INCLUDE include.ink
         }
 
         =Injury
-            How will you treat his injury?
-                *[Treat him with medicine {MedicineSkillCheckText}]
-                    Your best doctor goes to work attempting to fix the man up.
+            Як вы будзеце лячыць яго раны?
+                *[Лячыць яго медыцынай {MedicineSkillCheckText}]
+                    Вашы лепшы лекар прыступае да працы і спрабуе вылекаваць чалавека.
                         {MedicineSkillCheckTest: ->Success | ->Fail}
                         
-                *{LoreOfLifeInParty}[Treat him with magic {SpellcraftSkillCheckText}]
-                    A spellcaster in your party calls upon the winds of Ghyran to mend the man's wounds.
+                *{LoreOfLifeInParty}[Лячыць яго магіяй {SpellcraftSkillCheckText}]
+                    Заклінальнік вашай партыі заклікае Вятры Гірана, каб загаіць раны чалавека.
                         {SpellcraftSkillCheckTest: ->Success | ->Fail}
                     
         =Success
-            Your treatment succeeds and the man will now be fine.
+            Вашае лекаваньне пасьпяховае, цяпер з чалавекам будзе ўсё файна.
                 ~ BonusRoll = RANDOM(0,100)
                 ->Reward
             
         =Fail
-            Your treatment fails and the man {InjuryText4}.
+            Вашае лекаваньне няўдалае і чалавек {InjuryText4}.
                 {InjuryRoll:
                     -2:
                         ~ ManAlive = false
@@ -255,9 +255,9 @@ INCLUDE include.ink
     {ManAlive:->LiveReward|->DeadReward}
 
     =LiveReward
-        Having been saved, the man {HasExtorted: begrudgingly} thanks you for your help{HasExtorted: and gives you the promised reward}.
-        {NotableChange: As he starts gathering his things he says, "I will tell {Notable} of your deeds as soon as I am home."}
-        {HasExtorted == false && BonusRoll >=50: The man pausing for a moment says, "I know I said I didn't have much but please take this ({RewardText}). It's the least I can do for your kindness."}
+        Атрымаўшы выратаваньне, чалавек {HasExtorted: begrudgingly} дзякуе вас за дапамогу{HasExtorted: і дае вам абяцаную ўзнагароду}.
+        {NotableChange: Зьбіраючы свае рэчы, ён гавора: "Я раскажу {Notable} пра вашыя ўчынкі як толькі вярнуся дадому".}
+        {HasExtorted == false && BonusRoll >=50: Чалавек спыніўся на момант і сказаў: "Я ведаю, што сказаў, што ня мае многага, але, калі ласка, вазьміце ({RewardText}). Гэтай наймалае, чым я магу адказаць на вашую дабрыню".}
         
         {HasExtorted || (not HasExtorted && BonusRoll >=50):
             -true:
@@ -274,13 +274,13 @@ INCLUDE include.ink
         ->END
         
     =DeadReward
-        What will your party do next?
-            *[Bury the man (Mercy+)]
-                You decide to bury the man, hoping that he can find peace.
+        Што вашая партыя будзе рабіць далей?
+            *[Пахаваць чалавека (Літасьць+)]
+                Вы вырашаеце пахаваць чалавека, спадзеючыся, што ён знойдзе супакой.
                 {AddTraitInfluence("Mercy", 40)}
                 ->DeadReward
-            *[Loot the cart {HorsesAround: and take the horses} ({RewardText}{HorsesAround:, +2 tier 0 horses})]
-                Now that the man has passed he obviously will not need the supplies anymore.
+            *[Абрабаваць фурманку {HorsesAround: і забраць коней} ({RewardText}{HorsesAround:, +2 каня 0 роўня})]
+                Зараз, калі чалавек сышоў з жыцьця, ён болей ня мае патрэбы ў гэтых таварах.
                 {ProfessionRoll:
                     -0: 
                         ~GiveGold(500)
@@ -291,15 +291,15 @@ INCLUDE include.ink
                 }
                 {HorsesAround: {GiveItem("old_horse",2)}}
                 ->DeadReward
-            *{PartyCanRaiseDead}[Raise him as a skeleton (+1 skeleton){RaiseDeadSkillCheckText}]
-                Since a dead man has no use for his body you decide to raise it as a skeleton.
-                Yout party makes an attempt and {RaiseDeadSkillCheckTest: succeeds| fails}.
+            *{PartyCanRaiseDead}[Узьняць яго ў якасьці касьцяка (+1 касьцяк){RaiseDeadSkillCheckText}]
+                Бо ад цела мерцьвяка няма аніякай карысьці, вы вырашаеце адрадзіць яго ў якасьці касьцяка.
+                Вашая партыя спрабуе {RaiseDeadSkillCheckTest: пасьпяхова| няўдала} адрадзіць чалавека.
                 
                 {RaiseDeadSkillCheckTest:
-                    -true: The man's body stands up and shambles off to join the rest of your army.
+                    -true: Цела чалавека ўздымаецца і накіроўваецца да астатняй часткі вашага войска.
                         ~ ChangePartyTroopCount("tor_vc_skeleton",1)
                 }
                 ->DeadReward
-            *[Move along (leave)]
-                You decide that it is time to move on and continue your journey.
+            *[Рушыць далей (пакінуць)]
+                Вы вырашаеце, што прыйшоў час рухацца далей дзеля прадаўжэньня свайго шляху.
                 ->END
