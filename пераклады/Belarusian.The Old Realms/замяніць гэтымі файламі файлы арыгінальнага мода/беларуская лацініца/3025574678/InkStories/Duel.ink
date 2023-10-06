@@ -17,9 +17,9 @@ VAR DeniedBefore = true
 
 ===START===
 Vy praciahvajecie svoj šlach pa zavilistaj darozie, i kožny vašy krok supravadžajecca cichim šepatam vietru.
-Raptam vašuju ŭvaha pryciahnuŭ rytmičny hruk krokaŭ, što nabližalisia. Padniaŭšy vočy, {not MetBefore: vy zaŭvažyli tajamničuju fihuru, što ŭpeŭniena nabližałasia da vas. Po miery nabližeńnia, u vočy kinuŭsia blask rapiry tonkaj raboty. Nieznajomy spyniŭsia pierad vami i pacaŭ aceńvać vas, na jaho tvary zjaviłasia ciopłaja ŭśmieška.}{MetBefore: vy zaŭvažyli znajomuju fihuru Vittoryjo de Luka, znakamitaha Cilijskaha duelanta, jaki ŭpeŭniena kročyŭ da vašaj hrupy. {not DeniedBefore: Uspaminy pra papiaredniuju duel navalilisia na jaho chvalaj, i ŭ hałavie dahetul nie zacichała zachapleńnie ad pieršaj dueli.}}
-#illustration: stranger {not MetBefore: "Voch, jakoje ščaście, sustreć na hetym samotnym šlachie vartych vajaroŭ - havora jon: ja Vittoryjo de Luka, majstar klinka iz dalokich ziamiel Cilii. Ja prajšoŭ doŭhuju darohu ŭ pošukach vartaha supiernika, zdolnaha paraŭnacca z maim majsterstvam u boi. I voś dola pryviała mianie da vas. Žadajecie spraŭdzić svajo majsterstva ŭ siabroŭskim boi, skłaŭšy maleńki zakład, kab było cikaviej?"}
-{MetBefore: Pakul Vittoryjo nabližajecca, u vočy kidajecca blask jaho tonka vyrablenaj rapiry, i na jaho tvary zjaŭlajecca ciopłaja ŭśmieška, kali jon aceńvaje vas. "Voch, jakoje ščaście, znoŭ sustrecca na hetym samotnym šlachie - havora jon z hareźlivym adcieńniem u hołasie: Baču, u tvaim sercy dahetul haryć połymia vajara. {not DeniedBefore: Žadaješ nanoŭ spraŭdzić svajo majsterstva ŭ revanšy?"} {DeniedBefore: Žadajecie davieści svajo majsterstva ŭ hety raz?}"}
+Raptam vašuju ŭvaha pryciahnuŭ rytmičny hruk krokaŭ, što nabližalisia. Padniaŭšy vočy, {not MetBefore: vy zaŭvažyli tajamničuju fihuru, što ŭpeŭniena nabližałasia da vas. Po miery nabližeńnia, u vočy kinuŭsia blask rapiry tonkaj raboty. Nieznajomy spyniŭsia pierad vami i pacaŭ aceńvać vas, na jaho tvary zjaviłasia ciopłaja ŭśmieška.}{MetBefore: vy zaŭvažyli znajomuju fihuru Vittoryjo de Luka, znakamitaha Cilijskaha duelanta, jaki ŭpeŭniena kročyŭ da vašaj hrupy. {not DeniedBefore: Uspaminy pra papiaredniuju duel navalilisia na jaho chvalaj, i ŭ hałavie dahetul nie zacichała zachapleńnie ad pieršaj dueli.}} #illustration: stranger
+{not MetBefore: "Voch, jakoje ščaście, sustreć na hetym samotnym šlachie vartych vajaroŭ - havora jon: ja Vittoryjo de Luka, majstar klinka iz dalokich ziamiel Cilii. Ja prajšoŭ doŭhuju darohu ŭ pošukach vartaha supiernika, zdolnaha paraŭnacca z maim majsterstvam u boi. I voś dola pryviała mianie da vas. Žadajecie spraŭdzić svajo majsterstva ŭ siabroŭskim boi, skłaŭšy maleńki zakład, kab było cikaviej?"}
+{MetBefore: Pakul Vittoryjo nabližajecca, u vočy kidajecca blask jaho tonka vyrablenaj rapiry, i na jaho tvary zjaŭlajecca ciopłaja ŭśmieška, kali jon aceńvaje vas. "Voch, jakoje ščaście, znoŭ sustrecca na hetym samotnym šlachie - havora jon z hareźlivym adcieńniem u hołasie: Baču, u tvaim sercy dahetul haryć połymia vajara. {not DeniedBefore: Žadaješ nanoŭ spraŭdzić svajo majsterstva ŭ revanšy?"} {DeniedBefore:  Žadajecie davieści svajo majsterstva ŭ hety raz?"}}
 ~ SetPlayerCustomTag("MetVittorio")
 -> choices
 
@@ -46,8 +46,7 @@ Z napyšlivaj elehantnaściu Vittoryjo de Luka zaviaršaje sustreču pahreblivym
 =enterArena
 ~ OpenDuelMission()
 ...
-{PlayerWin: 
-Kali sucichaje zvon miačoŭ, u pavietry razdajucca radasnyja vokličy vašych paplečnikaŭ, što adlustroŭvajuć nastupstvy vašaj nialohkaj pieramohi. {SetPlayerCustomTag("DefeatedVittorio")}}
+{PlayerWin: Kali sucichaje zvon miačoŭ, u pavietry razdajucca radasnyja vokličy vašych paplečnikaŭ, što adlustroŭvajuć nastupstvy vašaj nialohkaj pieramohi. {SetPlayerCustomTag("DefeatedVittorio")}}
 {PlayerWin: Vy staicie ŭ centry impravizavanaj bajcoŭskaj jamy, vašyja hrudzi ŭzdymajucca ad napruhi i tryumfu. Vittoryjo de Luka, znakamity Cilijski duelant, praciahvaje vam ruku ŭ znak pavahi, i jaho tvar azaraje ščyraja ŭśmieška. "Vydatny boj" - kaža jon, jaho hołas poŭny zachapleńnia.}
 {PlayerWin: Braterstva pamiž vašaj partyjaj i Vittoryjo zamacoŭvajecca paśla vietlivaha ŭručeńnia 5000 załatych maniet u znak paćvierdžańnia zakładu i pryznańnia vašaha majsterstva. {GiveGold(5000)}} 
 {not PlayerWin: Paśla zaviaršeńnia dueli ŭ pavietry łunaje sumieś emocyjaŭ. Vašyja paplečniki z maŭklivaj pavahaj nazirajuć za tym, jak Vittoryjo de Luka, znakamity Cilijski duelant, vychodzić pieramožcam z biaźlitasnaj bojki.}
