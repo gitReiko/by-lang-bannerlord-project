@@ -1,5 +1,5 @@
 //Global story tags
-# title: The plague ridden village
+# title: Вёска, паражаная чумой
 # frequency: Special
 # development: false
 # illustration: village
@@ -21,33 +21,35 @@ VAR MadeDealWithCultists = false
 
 
 ===START===
-You leave your party camped at the edge of the village and decide to enter alone, wearing simple commoner's clothes to avoid attention. As you step into the village, a foul stench assaults your senses. The air hangs heavy with the scent of decay, mingled with the lingering odor of despair. Narrow, deserted streets wind through dilapidated buildings, their facades worn and battered by time and neglect. The villagers, once vibrant and lively, now shuffle along like haunted specters, their vitality snuffed out by the merciless grip of an unkown plague.
+Вы пакідаеце сваю партыю ў лагеры на ўскраіне вёскі і вырашаеце ўвайсьці ў яе ў адзінотку, надзеўшы простую вопратку, каб не прыцягваць увагі. Як толькі вы ўваходзьце ў вёску, на вас абвальваецца дрэнны пах. У паветры вісіць цяжкі пах раскладаньня, зьмяшаны з нудным пахам роспачы. Вузкія пустэчныя вулачкі праходзяць праз паўразбураныя будынкі, фасады якіх знасіліся і патрапаліся ад часу і запусценьня. Жыхары вёскі, некалі энергічныя і жыцьцярадасныя, зараз ходзяць па вулачках, нібы здані, іх жыцьцёвыя сілы згасаюць пад бязьлітасным напорам невядомай чумы.
 
-A sickly haze blankets the village, casting a pallor upon everything it touches. Doors creak on rusty hinges, their once vibrant colors faded and peeling. Shuttered windows betray the fear that resides within, as if the villagers have locked themselves away. Here and there, flickering lanterns cast feeble light upon desperate symbols of protection scrawled on walls - crude sigils etched in blood and ash, futile attempts to ward off the contagion.
+Хваравітая імгла ахутвае вёску, надаючы бледнасьць усяму, чаго яна датыкаецца. Дзьверы рыпаюць на іржавых петлях, яркія колеры пяцель пабляклі і аблупіліся. Зачыненыя вокны выдаюць пануючы ўнутры страх, нібы жыхары вёскі замкнуліся на замок. То тут, то там мігатлівыя ліхтары кідаюць слабое сьвятло на надрапаныя на сьценах роспачныя абярэгі - грубыя абярэгі, выгравіраваныя крывёю і попелам, дарэмныя спробы засьцерагчыся ад хваробы.
 
-Amidst the desolation, a few figures defy the relentless onslaught of the disease. They move with purpose, their eyes harboring a flicker of resilience. These survivors cast wary glances, their bodies untouched by the affliction that has ravaged their neighbors. Their existence, like fragile embers amidst the encroaching darkness, hints at a lingering hope for the village. -> choices
+Сярод запусценьня некалькі чалавек супрацьстаяць няўмольнаму напору хваробы. Яны рухаюцца мэтліва, у іх вачах мільгае трываласьць. Людзі, якім пашчасьціла выжыць, кідаюць насьцярожаныя погляды, іхнія целы не кранула хвароба, што паразіла іх суседзяў. Іхняе існаваньне, як крохкіх вугольчыкаў сярод цемры, што насоўваецца, намякае на тое, што вёска дагэтуль мае надзею. -> choices
 
     =choices
-    *[Seek information from the villagers.] -> QuestionVillagers
-    *[Walk around the village carefully observing the sights.] -> ObserveVillage
-    *{suspicious}{not found_age} [Ask around about the healer.] -> AskAboutHealer
-    *{found_vial || (found_age && met_healer)}[Take a moment to gather your thoughts and go over your findings.] -> GatherThoughts
+    *[Зьвярнуцца за інфармацыяй да вяскоўцаў.] -> QuestionVillagers
+    *[Пашпацырыць па вёске, асьцярожна аглядая знакі.] -> ObserveVillage
+    *{suspicious}{not found_age} [Распытаць навакольных пра лекара.] -> AskAboutHealer
+    *{found_vial || (found_age && met_healer)}[Трохі адпачыць, каб сабрацца з думкамі і прааналізаваць атрыманыя вынікі.] -> GatherThoughts
 
 
 ===QuestionVillagers===
-As you approach a lone figure among the weary villagers, their eyes glimmer with a spark of resilience. Intrigued, you pose the question that weighs heavily on your mind, asking about the plague. 
-With a wearied expression, the villager responds in a hushed voice, "The plague... it has been haunting us for months now. So many lives lost, so much suffering endured." Their voice carries the weight of their personal experience, reflecting the collective anguish that permeates the air. 
-They gesture towards the dwelling of the village healer, acknowledging their unwavering dedication in the face of despair, and say, "Seek the healer. They have become our beacon of hope, tirelessly fighting against this unyielding affliction." ->choices 
+Калі вы падыходзіце да самотнай фігуры сярод змардаваных жыхароў вёскі, у яе вачах мільгае іскра трываласьці. 
+Заінтрыгаваныя, вы задаеце пытаньне, якое не дае вам спакою, пытаеце пра чуму. 
+Са стомленым выразам твару вясковец адказвае ціхім голасам: "Чума... яна перасьледуе нас ужо некалькі месяцаў. Столькі жыцьцяў загублена, столькі пакут перажыта". Яго голас нясе ў сабе цяжар асабістага досьведу, адлюстроўваючы супальную пакуту, што праймае паветра.
+Ён жэстам паказвае на жыльлё вясковага лекара, адзначаючы яго непахісную адданасьць перад тварам роспачы, і кажа: "Шукайце лекара. Ён стаў нашым маяком надзеі, нястомна змагаючыся з гэтай непераадольнай хваробай". ->choices 
 
     =choices
-    *{not met_healer}[Heed the advice and find the village healer.] -> AtTheHealers
-    *{met_healer}[Go back to the healer's dwelling hoping you will find him there this time.] -> AtTheHealers
+    *{not met_healer}[Прыслухацца да рады і знайсьці вясковага лекара.] -> AtTheHealers
+    *{met_healer}[Вярнуцца да жыльля лекара ў надзеі знайсьці яго ў гэты раз.] -> AtTheHealers
 
 ===AskAboutHealer===
-You decide to discreetly inquire about the healer among the villagers. As you strike up conversations, you notice a common thread in their responses—the healer has been a pillar of the village for as long as anyone can remember. Generations have relied on his expertise, his knowledge passed down from one era to the next.
-"Ah, the healer? He's been with us for as long as I can recall," one elderly villager says, a sense of reverence in his voice. "His wisdom and remedies have saved countless lives, even my grandfather sought his aid."
-Another villager adds, "Yes, I was just a child when I first saw him, and that was many decades ago. He has remained a steady presence, offering comfort to the sick and hope to the desperate."
-The villagers' words strike you as odd, for if their accounts are true, the healer would be over ninety years old, yet the last time you saw him, he appeared no older than fifty. Doubt gnaws at the corners of your mind, as if reality itself has twisted within this forsaken village.
+Вы вырашаеце непрыкметна распытаць жыхароў вёскі пра лекара.
+Завязваючы гутаркі, вы заўважаеце агульную рысу ў іх адказах - лекар заўжды быў слупом вёскі, гэтак доўга, што іншых слупоў, ужо не памятаюць. На яго досьвед апіраліся многімі пакаленьнямі, яго веды перадаваліся з пакаленьня ў пакаленьне.
+"Вох, лекар? Колькі я сябе памятаю, ён заўжды быў з намі" - кажа адзін пажылы жыхар вёскі, у яго голасе адчуваецца глыбокая пашана. Яго мудрасьць і лекі выратавалі незлічонае мноства жыцьцяў, нават мой дзед зьвяртаўся да яго за дапамогай".
+Іншы жыхар вёскі дадае: "Так, я быў яшчэ дзіцём, калі ўпершыню ўбачыў яго, і гэта было шмат дзесяцігодзьдзяў таму. Ён дагэтуль увесь час знаходзіцца побач ды дае суцяшэньне хворым і надзею роспачным".
+Словы жыхароў вёскі здаюцца вам дзіўнымі, бо калі іх аповеды праўдзівыя, то лекару павінна быць больш за дзевяноста гадоў, а калі вы бачылі яго ў апошні раз, ён выглядаў не старэй за пяцьдзясят. Сумневы закрадаюцца ў самыя куткі сьвядомасьці, як быццам сама рэальнасьць перакруцілася ў гэтай забытай вёсцы.
 ~found_age = true
 ->START.choices
 
