@@ -1,37 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+
+<!--troops-->
   
-  <NPCCharacter id="byzantine_tagma"
-                default_group="Infantry"
-                level="6"
-                name="{=E11BYt07}Byzantine Tagma"
-				is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+  <NPCCharacter id="byzantine_tagma" default_group="Infantry" level="6" name="{=byzantine_tagma.name}Byzantine Tagma" is_basic_troop="true" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.byzantine_skoutatoi" />
-	  <upgrade_target id="NPCCharacter.byzantine_toxotoi" />
+      <upgrade_target id="NPCCharacter.byzantine_skoutatoi"/>
+	  <upgrade_target id="NPCCharacter.byzantine_toxotoi"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -48,35 +36,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="byzantine_toxotoi"
-                default_group="Ranged"
-                level="11"
-                name="{=E11BYt08}Byzantine Toxotoi"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+  <NPCCharacter id="byzantine_toxotoi" default_group="Ranged" level="11" name="{=byzantine_toxotoi.name}Byzantine Toxotoi" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.byzantine_trapezund_toxotoi" />
+      <upgrade_target id="NPCCharacter.byzantine_trapezund_toxotoi"/>
 
     </upgrade_targets>
     <Equipments>
@@ -92,35 +67,22 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="byzantine_trapezund_toxotoi"
-                default_group="Ranged"
-                level="16"
-                name="{=E11BYt09}Byzantine Trapezund Toxotoi"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+   <NPCCharacter id="byzantine_trapezund_toxotoi" default_group="Ranged" level="16" name="{=byzantine_trapezund_toxotoi.name}Byzantine Trapezund Toxotoi" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.byzantine_palatine_guard" />
+      <upgrade_target id="NPCCharacter.byzantine_palatine_guard"/>
 
     </upgrade_targets>
     <Equipments>
@@ -137,32 +99,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="byzantine_palatine_guard"
-                default_group="Ranged"
-                level="21"
-                name="{=E11BYt10}Byzantine Palatine Guard"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+  <NPCCharacter id="byzantine_palatine_guard" default_group="Ranged" level="21" name="{=byzantine_palatine_guard.name}Byzantine Palatine Guard" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -181,36 +130,23 @@
     </Equipments>
   </NPCCharacter>
   
- <NPCCharacter id="byzantine_skoutatoi"
-                default_group="Infantry"
-                level="11"
-                name="{=E11BYt11}Byzantine Skoutatoi"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+ <NPCCharacter id="byzantine_skoutatoi" default_group="Infantry" level="11" name="{=byzantine_skoutatoi.name}Byzantine Skoutatoi" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.byzantine_menaulon" />
-	  <upgrade_target id="NPCCharacter.byzantine_spatharioi" />
+      <upgrade_target id="NPCCharacter.byzantine_menaulon"/>
+	  <upgrade_target id="NPCCharacter.byzantine_spatharioi"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -226,35 +162,22 @@
     </Equipments>
   </NPCCharacter>
  
-  <NPCCharacter id="byzantine_menaulon"
-                default_group="Infantry"
-                level="16"
-                name="{=E11BYt12}Byzantine Menaulon"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+  <NPCCharacter id="byzantine_menaulon" default_group="Infantry" level="16" name="{=byzantine_menaulon.name}Byzantine Menaulon" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.byzantine_noumeroi" />
+      <upgrade_target id="NPCCharacter.byzantine_noumeroi"/>
 
     </upgrade_targets>
     <Equipments>
@@ -271,35 +194,22 @@
     </Equipments>
   </NPCCharacter>
   
-    <NPCCharacter id="byzantine_spatharioi"
-                default_group="Infantry"
-                level="16"
-                name="{=E11BYt13}Byzantine Spatharioi"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+    <NPCCharacter id="byzantine_spatharioi" default_group="Infantry" level="16" name="{=byzantine_spatharioi.name}Byzantine Spatharioi" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.byzantine_domestikos" />
+      <upgrade_target id="NPCCharacter.byzantine_domestikos"/>
 
     </upgrade_targets>
     <Equipments>
@@ -316,32 +226,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="byzantine_domestikos"
-                default_group="Infantry"
-                level="21"
-                name="{=E11BYt14}Byzantine Domestikos"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+  <NPCCharacter id="byzantine_domestikos" default_group="Infantry" level="21" name="{=byzantine_domestikos.name}Byzantine Domestikos" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
 
@@ -360,32 +257,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="byzantine_noumeroi"
-                default_group="Infantry"
-                level="21"
-                name="{=E11BYt15}Byzantine Noumeroi"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+  <NPCCharacter id="byzantine_noumeroi" default_group="Infantry" level="21" name="{=byzantine_noumeroi.name}Byzantine Noumeroi" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
 
@@ -404,36 +288,22 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="byzantine_archontopouloi"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11BYt16}Byzantine Archontopouloi"
-				is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+   <NPCCharacter id="byzantine_archontopouloi" default_group="Cavalry" level="21" name="{=byzantine_archontopouloi.name}Byzantine Archontopouloi" is_basic_troop="true" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.byzantine_athanatoi" />
+      <upgrade_target id="NPCCharacter.byzantine_athanatoi"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -451,36 +321,22 @@
     </Equipments>
   </NPCCharacter>
   
-     <NPCCharacter id="byzantine_athanatoi"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11BYt17}Byzantine Athanatoi"
-				upgrade_requires="ItemCategory.war_horse"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+     <NPCCharacter id="byzantine_athanatoi" default_group="Cavalry" level="26" name="{=byzantine_athanatoi.name}Byzantine Athanatoi" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.byzantine_kataphraktoi" />
+      <upgrade_target id="NPCCharacter.byzantine_kataphraktoi"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -498,32 +354,19 @@
     </Equipments>
   </NPCCharacter>
   
-    <NPCCharacter id="byzantine_kataphraktoi"
-                default_group="Cavalry"
-                level="31"
-                name="{=E11BYt18}Byzantine Kataphraktoi"
-                occupation="Soldier"
-                culture="Culture.byzantine">
+    <NPCCharacter id="byzantine_kataphraktoi" default_group="Cavalry" level="31" name="{=byzantine_kataphraktoi.name}Byzantine Kataphraktoi" occupation="Soldier" culture="Culture.byzantine">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
     <upgrade_targets>
 

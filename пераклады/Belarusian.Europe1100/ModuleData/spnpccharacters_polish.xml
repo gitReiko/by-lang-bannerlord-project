@@ -1,37 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="polish_levy"
-                default_group="Infantry"
-                level="6"
-                name="{=E11POt07}Polish Levy"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+<!--troops-->
+
+  <NPCCharacter id="polish_levy" default_group="Infantry" level="6" name="{=polish_levy.name}Polish Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.polish_militia_axeman" />
-      <upgrade_target id="NPCCharacter.polish_militia_archer" />
+      <upgrade_target id="NPCCharacter.polish_militia_axeman"/>
+      <upgrade_target id="NPCCharacter.polish_militia_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -48,36 +36,23 @@
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_militia_axeman"
-                default_group="Infantry"
-                level="11"
-                name="{=E11POt08}Polish Militia Axeman"
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_militia_axeman" default_group="Infantry" level="11" name="{=polish_militia_axeman.name}Polish Militia Axeman" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.polish_veteran_militia_axeman" />
-      <upgrade_target id="NPCCharacter.polish_tarczownicy" />
+      <upgrade_target id="NPCCharacter.polish_veteran_militia_axeman"/>
+      <upgrade_target id="NPCCharacter.polish_tarczownicy"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -90,35 +65,22 @@
 	</Equipments>		
   </NPCCharacter>
   
-   <NPCCharacter id="polish_veteran_militia_axeman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11POt09}Polish Veteran Militia Axeman"
-                occupation="Soldier"
-                culture="Culture.polish">
+   <NPCCharacter id="polish_veteran_militia_axeman" default_group="Infantry" level="16" name="{=polish_veteran_militia_axeman.name}Polish Veteran Militia Axeman" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.polish_infantry_wlodyka" />
+      <upgrade_target id="NPCCharacter.polish_infantry_wlodyka"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -134,32 +96,19 @@
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_infantry_wlodyka"
-                default_group="Infantry"
-                level="21"
-                name="{=E11POt10}Polish Infantry Wlodyka"
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_infantry_wlodyka" default_group="Infantry" level="21" name="{=polish_infantry_wlodyka.name}Polish Infantry Wlodyka" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -177,35 +126,22 @@
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_militia_archer"
-                default_group="Ranged"
-                level="11"
-                name="{=E11POt11}Polish Militia Archer"
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_militia_archer" default_group="Ranged" level="11" name="{=polish_militia_archer.name}Polish Militia Archer" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-	      <upgrade_target id="NPCCharacter.polish_veteran_militia_archer" />
+	      <upgrade_target id="NPCCharacter.polish_veteran_militia_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -219,35 +155,22 @@
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_veteran_militia_archer"
-                default_group="Ranged"
-                level="16"
-                name="{=E11POt12}Polish Veteran Militia Archer"
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_veteran_militia_archer" default_group="Ranged" level="16" name="{=polish_veteran_militia_archer.name}Polish Veteran Militia Archer" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-		      <upgrade_target id="NPCCharacter.polish_archer_wlodyka" />
+		      <upgrade_target id="NPCCharacter.polish_archer_wlodyka"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -263,32 +186,19 @@
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_archer_wlodyka"
-                default_group="Ranged"
-                level="21"
-                name="{=E11POt13}Polish Archer Wlodyka"
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_archer_wlodyka" default_group="Ranged" level="21" name="{=polish_archer_wlodyka.name}Polish Archer Wlodyka" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -307,35 +217,22 @@
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_tarczownicy"
-                default_group="Infantry"
-                level="16"
-                name="{=E11POt14}Polish Tarczownicy"
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_tarczownicy" default_group="Infantry" level="16" name="{=polish_tarczownicy.name}Polish Tarczownicy" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-			      <upgrade_target id="NPCCharacter.polish_veteran_tarczownicy" />
+			      <upgrade_target id="NPCCharacter.polish_veteran_tarczownicy"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -350,32 +247,19 @@
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_veteran_tarczownicy"
-                default_group="Infantry"
-                level="21"
-                name="{=E11POt15}Polish Veteran Tarczownicy"
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_veteran_tarczownicy" default_group="Infantry" level="21" name="{=polish_veteran_tarczownicy.name}Polish Veteran Tarczownicy" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -393,36 +277,22 @@
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_druzynnik"
-                default_group="HorseArcher"
-                level="21"
-                name="{=E11POt16}Polish Druzynnik"
-				is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_druzynnik" default_group="HorseArcher" level="21" name="{=polish_druzynnik.name}Polish Druzynnik" is_basic_troop="true" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-            value="45" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="110" />
-    <skill id="Bow"
-           value="150" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="110"/>
+    <skill id="Bow" value="150"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-				      <upgrade_target id="NPCCharacter.polish_szlachta" />
+				      <upgrade_target id="NPCCharacter.polish_szlachta"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -441,36 +311,22 @@
 	</Equipments>		
   </NPCCharacter>
 
-  <NPCCharacter id="polish_szlachta"
-                default_group="HorseArcher"
-                level="26"
-                name="{=E11POt17}Polish Szlachta"
-				upgrade_requires="ItemCategory.war_horse"				
-                occupation="Soldier"
-                culture="Culture.polish">
+  <NPCCharacter id="polish_szlachta" default_group="HorseArcher" level="26" name="{=polish_szlachta.name}Polish Szlachta" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="50" />
-    <skill id="TwoHanded"
-           value="50" />
-    <skill id="Polearm"
-           value="130" />
-    <skill id="Bow"
-           value="160" />
-    <skill id="Crossbow"
-           value="160" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="50"/>
+    <skill id="TwoHanded" value="50"/>
+    <skill id="Polearm" value="130"/>
+    <skill id="Bow" value="160"/>
+    <skill id="Crossbow" value="160"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-				      <upgrade_target id="NPCCharacter.polish_rycerz" />
+				      <upgrade_target id="NPCCharacter.polish_rycerz"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -489,32 +345,19 @@
 	</Equipments>		
   </NPCCharacter>
   
-   <NPCCharacter id="polish_rycerz"
-                default_group="HorseArcher"
-                level="31"
-                name="{=E11POt18s}Polish Rycerz"
-                occupation="Soldier"
-                culture="Culture.polish">
+   <NPCCharacter id="polish_rycerz" default_group="HorseArcher" level="31" name="{=polish_rycerz.name}Polish Rycerz" occupation="Soldier" culture="Culture.polish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="60" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="220" />
-    <skill id="Bow"
-           value="260" />
-    <skill id="Crossbow"
-           value="260" />
-    <skill id="Throwing"
-           value="30" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="60"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="220"/>
+    <skill id="Bow" value="260"/>
+    <skill id="Crossbow" value="260"/>
+    <skill id="Throwing" value="30"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>

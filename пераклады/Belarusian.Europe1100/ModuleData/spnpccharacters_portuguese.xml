@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-
+  
 <!--troops-->
 
-  <NPCCharacter id="spanish_levy" default_group="Infantry" level="6" name="{=spanish_levy.name}Spanish Peones" occupation="Soldier" is_basic_troop="true" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_levy" default_group="Infantry" level="6" name="{=portuguese_levy.name}Portuguese Peão" occupation="Soldier" is_basic_troop="true" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
       <skill id="Athletics" value="20"/>
@@ -18,8 +18,8 @@
       <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.spanish_militia_spearman"/>
-      <upgrade_target id="NPCCharacter.spanish_militia_crossbowman"/>
+      <upgrade_target id="NPCCharacter.portuguese_militia_spearman"/>
+      <upgrade_target id="NPCCharacter.portuguese_militia_crossbowman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -36,9 +36,9 @@
     </Equipments>
   </NPCCharacter>
   
- <NPCCharacter id="spanish_militia_spearman" default_group="Infantry" level="11" name="{=spanish_militia_spearman.name}Spanish Militia Spearman" occupation="Soldier" culture="Culture.spanish">
+ <NPCCharacter id="portuguese_militia_spearman" default_group="Infantry" level="11" name="{=portuguese_militia_spearman.name}Portuguese Milicia Lanceira" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="40"/>
@@ -51,8 +51,8 @@
     <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.spanish_veteran_militia_spearman"/>
-      <upgrade_target id="NPCCharacter.spanish_light_cavalry"/>
+      <upgrade_target id="NPCCharacter.portuguese_veteran_militia_spearman"/>
+      <upgrade_target id="NPCCharacter.portuguese_light_cavalry"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -70,9 +70,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_veteran_militia_spearman" default_group="Infantry" level="16" name="{=spanish_veteran_militia_spearman.name}Spanish Veteran Militia Spearman" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_veteran_militia_spearman" default_group="Infantry" level="16" name="{=portuguese_veteran_militia_spearman.name}Portuguese Veteran Milicia Lanceira" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="70"/>
@@ -85,7 +85,7 @@
     <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.spanish_bidet"/>
+      <upgrade_target id="NPCCharacter.portuguese_bidet"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -101,9 +101,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_bidet" default_group="Infantry" level="21" name="{=spanish_bidet.name}Spanish Bidet" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_bidet" default_group="Infantry" level="21" name="{=portuguese_bidet.name}Portuguese Lanceiro Pavesado" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="100"/>
@@ -132,9 +132,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_militia_crossbowman" default_group="Ranged" level="11" name="{=spanish_militia_crossbowman.name}Spanish Militia Crossbowman" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_militia_crossbowman" default_group="Ranged" level="11" name="{=portuguese_militia_crossbowman.name}Portuguese Milicia Besteira" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="40"/>
@@ -147,7 +147,7 @@
     <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-	      <upgrade_target id="NPCCharacter.spanish_veteran_militia_crossbowman"/>
+	      <upgrade_target id="NPCCharacter.portuguese_veteran_militia_crossbowman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -161,9 +161,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_veteran_militia_crossbowman" default_group="Ranged" level="16" name="{=spanish_veteran_militia_crossbowman.name}Spanish Veteran Militia Crossbowman" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_veteran_militia_crossbowman" default_group="Ranged" level="16" name="{=portuguese_veteran_militia_crossbowman.name}Portuguese Veteran Milicia Besteira" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="70"/>
@@ -176,7 +176,7 @@
     <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-		      <upgrade_target id="NPCCharacter.spanish_ballestero"/>
+		      <upgrade_target id="NPCCharacter.portuguese_ballestero"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -192,9 +192,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_ballestero" default_group="Ranged" level="21" name="{=spanish_ballestero.name}Spanish Ballestero" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_ballestero" default_group="Ranged" level="21" name="{=portuguese_ballestero.name}Portuguese Sargento Besteiro" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="100"/>
@@ -223,9 +223,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_light_cavalry" default_group="Cavalry" level="16" name="{=spanish_light_cavalry.name}Spanish Light Cavalry" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_light_cavalry" default_group="Cavalry" level="16" name="{=portuguese_light_cavalry.name}Portuguese Light Cavalry" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="60"/>
@@ -238,7 +238,7 @@
     <skill id="Throwing" value="10"/>
     </skills>
     <upgrade_targets>
-			      <upgrade_target id="NPCCharacter.spanish_jinite"/>
+			      <upgrade_target id="NPCCharacter.portuguese_jinite"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -256,9 +256,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_jinite" default_group="Cavalry" level="21" name="{=spanish_jinite.name}Spanish Jinite" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_jinite" default_group="Cavalry" level="21" name="{=portuguese_jinite.name}Portuguese Ginete" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="40"/>
@@ -289,9 +289,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_talayeros" default_group="Cavalry" level="21" name="{=spanish_talayeros.name}Spanish Talayeros" is_basic_troop="true" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_escudeiro" default_group="Cavalry" level="21" name="{=portuguese_escudeiro.name}Portuguese Escudeiro" is_basic_troop="true" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="40"/>
@@ -304,7 +304,7 @@
     <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-			<upgrade_target id="NPCCharacter.spanish_caballeros"/>
+			<upgrade_target id="NPCCharacter.portuguese_cavaleiro"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -322,9 +322,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_caballeros" default_group="Cavalry" level="26" name="{=spanish_caballeros.name}Spanish Caballeros" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_cavaleiro" default_group="Cavalry" level="26" name="{=portuguese_cavaleiro.name}Portuguese Cavaleiro" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="80"/>
@@ -337,7 +337,7 @@
     <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-			<upgrade_target id="NPCCharacter.spanish_noble_caballeros"/>
+			<upgrade_target id="NPCCharacter.portuguese_real_cavaleiro"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -355,9 +355,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="spanish_noble_caballeros" default_group="Cavalry" level="31" name="{=spanish_noble_caballeros.name}Spanish Noble Caballeros" occupation="Soldier" culture="Culture.spanish">
+  <NPCCharacter id="portuguese_real_cavaleiro" default_group="Cavalry" level="31" name="{=portuguese_real_cavaleiro.name}Portuguese Real Cavaleiro" occupation="Soldier" culture="Culture.portuguese">
     <face>
-      <face_key_template value="BodyProperty.fighter_spanish"/>
+      <face_key_template value="BodyProperty.fighter_portuguese"/>
     </face>
     <skills>
     <skill id="Athletics" value="60"/>

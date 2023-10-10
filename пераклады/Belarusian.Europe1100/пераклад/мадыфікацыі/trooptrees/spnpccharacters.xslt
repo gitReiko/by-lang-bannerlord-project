@@ -116,6 +116,11 @@
     <xsl:template match="NPCCharacter[@id='aserai_militia_veteran_archer']"/>
 	<xsl:template match="NPCCharacter[@id='aserai_militia_spearman']"/>
 	<xsl:template match="NPCCharacter[@id='aserai_militia_veteran_spearman']"/>
+	
+	<xsl:template match="NPCCharacter[@id='caravan_master_aserai']"/>
+	<xsl:template match="NPCCharacter[@id='armed_trader_aserai']"/>
+	<xsl:template match="NPCCharacter[@id='caravan_guard_aserai']"/>
+	<xsl:template match="NPCCharacter[@id='veteran_caravan_guard_aserai']"/>
 
 	<xsl:template match="NPCCharacter[@id='imperial_recruit']"/>
     <xsl:template match="NPCCharacter[@id='imperial_infantryman']"/>
@@ -384,5 +389,16 @@
 	<xsl:template match="NPCCharacter[@id='caravan_guard_goldenhorde']"/>
 	<xsl:template match="NPCCharacter[@id='veteran_caravan_guard_goldenhorde']"/>
 	<xsl:template match="NPCCharacter[@id='armed_trader_goldenhorde']"/>
+	
+	<xsl:template match="NPCCharacter[@id='rus_polkovoj_veteran_kopijnik']"/>
+	<xsl:template match="NPCCharacter[@id='rus_woj_siekirnik']"/>
+	<xsl:template match="NPCCharacter[@id='rus_polkovoj_siekirnik']"/>
+	<xsl:template match="NPCCharacter[@id='rus_polkovoj_veteran_siekirnik']"/>
+	<xsl:template match="NPCCharacter[@id='rus_veteran_polk_archer']"/>
+	<xsl:template match="NPCCharacter[@id='rus_syn_bojarski']"/>
+	<xsl:template match="NPCCharacter[@id='rus_dziecki']"/>
+	<xsl:template match="NPCCharacter[@id='rus_otrok']"/>
+
+
 
 </xsl:stylesheet>

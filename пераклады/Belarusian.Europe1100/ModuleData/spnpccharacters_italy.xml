@@ -1,37 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="italian_levy"
-                default_group="Infantry"
-                level="6"
-                name="{=E11ITt07}Italian Levy"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.italian">
+<!--troops-->
+
+  <NPCCharacter id="italian_levy" default_group="Infantry" level="6" name="{=italian_levy.name}Italian Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="0" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="10" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="10" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="0"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="10"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.italian_contadini_spearman" />
-	  <upgrade_target id="NPCCharacter.italian_contadini_crossbowman" />
+      <upgrade_target id="NPCCharacter.italian_contadini_spearman"/>
+	  <upgrade_target id="NPCCharacter.italian_contadini_crossbowman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -48,36 +36,23 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_contadini_spearman"
-                default_group="Infantry"
-                level="11"
-                name="{=E11ITt08}Italian Contadini Spearman"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_contadini_spearman" default_group="Infantry" level="11" name="{=italian_contadini_spearman.name}Italian Contadini Spearman" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.italian_contadini_veteran_spearman" />
-	  <upgrade_target id="NPCCharacter.italian_contadini_cavalry" />
+      <upgrade_target id="NPCCharacter.italian_contadini_veteran_spearman"/>
+	  <upgrade_target id="NPCCharacter.italian_contadini_cavalry"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -91,35 +66,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_contadini_veteran_spearman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11ITt09}Italian Contadini Veteran Spearman"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_contadini_veteran_spearman" default_group="Infantry" level="16" name="{=italian_contadini_veteran_spearman.name}Italian Contadini Veteran Spearman" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-	  <upgrade_target id="NPCCharacter.italian_capitani_pikeman" />
+	  <upgrade_target id="NPCCharacter.italian_capitani_pikeman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -135,32 +97,19 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="italian_capitani_pikeman"
-                default_group="Infantry"
-                level="21"
-                name="{=E11ITt10}Italian Capitani Pikeman"
-                occupation="Soldier"
-                culture="Culture.italian">
+   <NPCCharacter id="italian_capitani_pikeman" default_group="Infantry" level="21" name="{=italian_capitani_pikeman.name}Italian Capitani Pikeman" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -178,35 +127,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_contadini_crossbowman"
-                default_group="Ranged"
-                level="11"
-                name="{=E11ITt11}Italian Contadini Crossbowman"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_contadini_crossbowman" default_group="Ranged" level="11" name="{=italian_contadini_crossbowman.name}Italian Contadini Crossbowman" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-		  <upgrade_target id="NPCCharacter.italian_contadini_veteran_crossbowman" />
+		  <upgrade_target id="NPCCharacter.italian_contadini_veteran_crossbowman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -220,35 +156,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_contadini_veteran_crossbowman"
-                default_group="Ranged"
-                level="16"
-                name="{=E11ITt12}Italian Contadini Veteran Crossbowman"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_contadini_veteran_crossbowman" default_group="Ranged" level="16" name="{=italian_contadini_veteran_crossbowman.name}Italian Contadini Veteran Crossbowman" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-		  <upgrade_target id="NPCCharacter.italian_capitani_crossbowman" />
+		  <upgrade_target id="NPCCharacter.italian_capitani_crossbowman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -265,32 +188,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_capitani_crossbowman"
-                default_group="Ranged"
-                level="21"
-                name="{=E11ITt13}Italian Capitani Crossbowman"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_capitani_crossbowman" default_group="Ranged" level="21" name="{=italian_capitani_crossbowman.name}Italian Capitani Crossbowman" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -309,36 +219,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_contadini_cavalry"
-                default_group="Cavalry"
-                level="16"
-                name="{=E11ITt14}Italian Contadini Cavalry"
-				upgrade_requires="ItemCategory.horse"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_contadini_cavalry" default_group="Cavalry" level="16" name="{=italian_contadini_cavalry.name}Italian Contadini Cavalry" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="60" />
-    <skill id="Riding"
-           value="70" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="10" />
-    <skill id="Throwing"
-           value="10" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="70"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="10"/>
+    <skill id="Throwing" value="10"/>
     </skills>
     <upgrade_targets>
-			  <upgrade_target id="NPCCharacter.italian_contadini_veteran_cavalry" />
+			  <upgrade_target id="NPCCharacter.italian_contadini_veteran_cavalry"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -356,32 +252,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_contadini_veteran_cavalry"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11ITt15}Italian Contadini Veteran Cavalry"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_contadini_veteran_cavalry" default_group="Cavalry" level="21" name="{=italian_contadini_veteran_cavalry.name}Italian Contadini Veteran Cavalry" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -401,36 +284,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_commune_noble"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11ITt16}Italian Commune Noble"
-                is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_commune_noble" default_group="Cavalry" level="21" name="{=italian_commune_noble.name}Italian Commune Noble" is_basic_troop="true" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-				  <upgrade_target id="NPCCharacter.italian_milites" />
+				  <upgrade_target id="NPCCharacter.italian_milites"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -447,36 +316,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_milites"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11ITt17}Italian Milites Pro Commune"
-				upgrade_requires="ItemCategory.war_horse"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_milites" default_group="Cavalry" level="26" name="{=italian_milites.name}Italian Milites Pro Commune" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-				  <upgrade_target id="NPCCharacter.italian_vavassores" />
+				  <upgrade_target id="NPCCharacter.italian_vavassores"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -494,32 +349,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_vavassores"
-                default_group="Cavalry"
-                level="31"
-                name="{=E11ITt18}Italian Vavassores"
-                occupation="Soldier"
-                culture="Culture.italian">
+  <NPCCharacter id="italian_vavassores" default_group="Cavalry" level="31" name="{=italian_vavassores.name}Italian Vavassores" occupation="Soldier" culture="Culture.italian">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>

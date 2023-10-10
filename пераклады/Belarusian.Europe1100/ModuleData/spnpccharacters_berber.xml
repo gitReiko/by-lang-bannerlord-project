@@ -1,37 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="berber_levy"
-                default_group="Infantry"
-                level="6"
-                name="{=E11BEt06}Berber Hushud"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.aserai">
+<!--troops-->
+
+  <NPCCharacter id="berber_levy" default_group="Infantry" level="6" name="{=berber_levy.name}Berber Hushud" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.berber_tribal_spearman" />
-	  <upgrade_target id="NPCCharacter.berber_tribal_archer" />
+      <upgrade_target id="NPCCharacter.berber_tribal_spearman"/>
+	  <upgrade_target id="NPCCharacter.berber_tribal_archer"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -68,37 +56,23 @@
 		</Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="berber_tribal_spearman"
-                default_group="Infantry"
-                level="11"
-                name="{=E11BEt07}Berber Tribal Spearman"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.aserai">
+  <NPCCharacter id="berber_tribal_spearman" default_group="Infantry" level="11" name="{=berber_tribal_spearman.name}Berber Tribal Spearman" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.berber_veteran_tribal_spearman" />
-      <upgrade_target id="NPCCharacter.berber_mutatawwia" />
+      <upgrade_target id="NPCCharacter.berber_veteran_tribal_spearman"/>
+      <upgrade_target id="NPCCharacter.berber_mutatawwia"/>
     </upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -111,35 +85,22 @@
 		</Equipments>
   </NPCCharacter>
   
-    <NPCCharacter id="berber_mutatawwia"
-                default_group="Infantry"
-                level="16"
-                name="{=E11BEt08}Berber Mutatawwi'a"
-                occupation="Soldier"
-                culture="Culture.aserai">
+    <NPCCharacter id="berber_mutatawwia" default_group="Infantry" level="16" name="{=berber_mutatawwia.name}Berber Mutatawwi'a" occupation="Soldier" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-	      <upgrade_target id="NPCCharacter.berber_ghazi" />
+	      <upgrade_target id="NPCCharacter.berber_ghazi"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -154,32 +115,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="berber_ghazi"
-                default_group="Infantry"
-                level="21"
-                name="{=E11BEt09}Berber Ghazi"
-                occupation="Soldier"
-                culture="Culture.aserai">
+  <NPCCharacter id="berber_ghazi" default_group="Infantry" level="21" name="{=berber_ghazi.name}Berber Ghazi" occupation="Soldier" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
 
@@ -198,35 +146,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="berber_veteran_tribal_spearman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11BEt10}Berber Veteran Tribal Spearman"
-                occupation="Soldier"
-                culture="Culture.aserai">
+  <NPCCharacter id="berber_veteran_tribal_spearman" default_group="Infantry" level="16" name="{=berber_veteran_tribal_spearman.name}Berber Veteran Tribal Spearman" occupation="Soldier" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-	      <upgrade_target id="NPCCharacter.berber_murtaziqa" />
+	      <upgrade_target id="NPCCharacter.berber_murtaziqa"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -240,32 +175,19 @@
     </Equipments>
   </NPCCharacter>
   
-    <NPCCharacter id="berber_murtaziqa"
-                default_group="Infantry"
-                level="21"
-                name="{=E11BEt11}Berber Murtaziqa"
-                occupation="Soldier"
-                culture="Culture.aserai">
+    <NPCCharacter id="berber_murtaziqa" default_group="Infantry" level="21" name="{=berber_murtaziqa.name}Berber Murtaziqa" occupation="Soldier" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
 
@@ -284,36 +206,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="berber_tribal_archer"
-                default_group="Ranged"
-                level="11"
-                name="{=E11BEt12}Berber Tribal Archer"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.aserai">
+  <NPCCharacter id="berber_tribal_archer" default_group="Ranged" level="11" name="{=berber_tribal_archer.name}Berber Tribal Archer" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.berber_veteran_tribal_archer" />
+      <upgrade_target id="NPCCharacter.berber_veteran_tribal_archer"/>
 
     </upgrade_targets>
 		<Equipments>
@@ -329,36 +237,22 @@
 		</Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="berber_veteran_tribal_archer"
-                default_group="Ranged"
-                level="16"
-                name="{=E11BEt13}Berber Veteran Tribal Archer"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.aserai">
+  <NPCCharacter id="berber_veteran_tribal_archer" default_group="Ranged" level="16" name="{=berber_veteran_tribal_archer.name}Berber Veteran Tribal Archer" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.berber_lamtunah_archer" />
+      <upgrade_target id="NPCCharacter.berber_lamtunah_archer"/>
     </upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -375,33 +269,19 @@
 		</Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="berber_lamtunah_archer"
-                default_group="Ranged"
-                level="21"
-                name="{=E11BEt14}Berber Lamtunah Archer"
-                occupation="Soldier"
-                is_basic_troop="false"
-                culture="Culture.aserai">
+  <NPCCharacter id="berber_lamtunah_archer" default_group="Ranged" level="21" name="{=berber_lamtunah_archer.name}Berber Lamtunah Archer" occupation="Soldier" is_basic_troop="false" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -420,36 +300,22 @@
 		</Equipments>
   </NPCCharacter>
   
- <NPCCharacter id="berber_mulathamun"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11BEt15}Berber Mulathamun"
-				is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.aserai">
+ <NPCCharacter id="berber_mulathamun" default_group="Cavalry" level="21" name="{=berber_mulathamun.name}Berber Mulathamun" is_basic_troop="true" occupation="Soldier" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.berber_granadine" />
+      <upgrade_target id="NPCCharacter.berber_granadine"/>
     </upgrade_targets>
     <Equipments>
      		<EquipmentRoster>
@@ -466,36 +332,22 @@
     </Equipments>
   </NPCCharacter>  
   
-  <NPCCharacter id="berber_granadine"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11BEt16}Berber Granadine"
-                occupation="Soldier"
-				upgrade_requires="ItemCategory.war_horse"
-                culture="Culture.aserai">
+  <NPCCharacter id="berber_granadine" default_group="Cavalry" level="26" name="{=berber_granadine.name}Berber Granadine" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.berber_heavy_granadine" />
+      <upgrade_target id="NPCCharacter.berber_heavy_granadine"/>
     </upgrade_targets>
     <Equipments>
       		<EquipmentRoster>
@@ -513,34 +365,21 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="berber_heavy_granadine"
-                default_group="Cavalry"
-                level="31"
-                name="{=E11BEt17}Berber Heavy Granadine"
-                occupation="Soldier"
-                culture="Culture.aserai">
+  <NPCCharacter id="berber_heavy_granadine" default_group="Cavalry" level="31" name="{=berber_heavy_granadine.name}Berber Heavy Granadine" occupation="Soldier" culture="Culture.aserai">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.empire_polearm_1_t4"/>

@@ -1,37 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="scottish_volunteer"
-                default_group="Infantry"
-                level="6"
-                name="{=E11SCt06}Scottish Neyf"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.scottish">
+<!--troops-->
+
+  <NPCCharacter id="scottish_volunteer" default_group="Infantry" level="6" name="{=scottish_volunteer.name}Scottish Neyf" occupation="Soldier" is_basic_troop="true" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.scottish_militia_spearman" />
-	  <upgrade_target id="NPCCharacter.scottish_militia_archer" />
+      <upgrade_target id="NPCCharacter.scottish_militia_spearman"/>
+	  <upgrade_target id="NPCCharacter.scottish_militia_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -48,36 +36,23 @@
     </Equipments>
   </NPCCharacter>
  
-  <NPCCharacter id="scottish_militia_spearman"
-                default_group="Infantry"
-                level="11"
-                name="{=E11SCt07}Scottish Militia Spearman"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_militia_spearman" default_group="Infantry" level="11" name="{=scottish_militia_spearman.name}Scottish Militia Spearman" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.scottish_veteran_militia_spearman" />
-	  <upgrade_target id="NPCCharacter.scottish_swordsman" />
+      <upgrade_target id="NPCCharacter.scottish_veteran_militia_spearman"/>
+	  <upgrade_target id="NPCCharacter.scottish_swordsman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -98,35 +73,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_veteran_militia_spearman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11SCt08}Scottish Veteran Militia Spearman"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_veteran_militia_spearman" default_group="Infantry" level="16" name="{=scottish_veteran_militia_spearman.name}Scottish Veteran Militia Spearman" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-	  <upgrade_target id="NPCCharacter.scottish_highland_spearman" />
+	  <upgrade_target id="NPCCharacter.scottish_highland_spearman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -152,32 +114,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_highland_spearman"
-                default_group="Infantry"
-                level="21"
-                name="{=E11SCt09}Scottish Highland Spearman"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_highland_spearman" default_group="Infantry" level="21" name="{=scottish_highland_spearman.name}Scottish Highland Spearman" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -194,35 +143,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_militia_archer"
-                default_group="Ranged"
-                level="11"
-                name="{=E11SCt10}Scottish Militia Archer"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_militia_archer" default_group="Ranged" level="11" name="{=scottish_militia_archer.name}Scottish Militia Archer" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-		  <upgrade_target id="NPCCharacter.scottish_veteran_militia_archer" />
+		  <upgrade_target id="NPCCharacter.scottish_veteran_militia_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -244,35 +180,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_veteran_militia_archer"
-                default_group="Ranged"
-                level="16"
-                name="{=E11SCt11}Scottish Veteran Militia Archer"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_veteran_militia_archer" default_group="Ranged" level="16" name="{=scottish_veteran_militia_archer.name}Scottish Veteran Militia Archer" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-		  <upgrade_target id="NPCCharacter.scottish_highland_archer" />
+		  <upgrade_target id="NPCCharacter.scottish_highland_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -299,32 +222,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_highland_archer"
-                default_group="Ranged"
-                level="21"
-                name="{=E11SCt12}Scottish Highland Archer"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_highland_archer" default_group="Ranged" level="21" name="{=scottish_highland_archer.name}Scottish Highland Archer" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
 
@@ -353,35 +263,22 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="scottish_swordsman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11SCt13}Scottish Swordsman"
-                occupation="Soldier"
-                culture="Culture.scottish">
+   <NPCCharacter id="scottish_swordsman" default_group="Infantry" level="16" name="{=scottish_swordsman.name}Scottish Swordsman" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-	  <upgrade_target id="NPCCharacter.scottish_highland_swordsman" />
+	  <upgrade_target id="NPCCharacter.scottish_highland_swordsman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -396,32 +293,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_highland_swordsman"
-                default_group="Infantry"
-                level="21"
-                name="{=E11SCt14}Scottish Highland Swordsman"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_highland_swordsman" default_group="Infantry" level="21" name="{=scottish_highland_swordsman.name}Scottish Highland Swordsman" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -438,36 +322,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_light_cavalry"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11SCt15}Scottish Light Cavalry"
-				is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_light_cavalry" default_group="Cavalry" level="21" name="{=scottish_light_cavalry.name}Scottish Light Cavalry" is_basic_troop="true" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-		  <upgrade_target id="NPCCharacter.scottish_knight" />
+		  <upgrade_target id="NPCCharacter.scottish_knight"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -483,36 +353,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_knight"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11SCt16}Scottish Knight"
-				upgrade_requires="ItemCategory.war_horse"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_knight" default_group="Cavalry" level="26" name="{=scottish_knight.name}Scottish Knight" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-		  <upgrade_target id="NPCCharacter.scottish_champion_knight" />
+		  <upgrade_target id="NPCCharacter.scottish_champion_knight"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -530,32 +386,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="scottish_champion_knight"
-                default_group="Cavalry"
-                level="31"
-                name="{=E11SCt17}Scottish Champion Knight"
-                occupation="Soldier"
-                culture="Culture.scottish">
+  <NPCCharacter id="scottish_champion_knight" default_group="Cavalry" level="31" name="{=scottish_champion_knight.name}Scottish Champion Knight" occupation="Soldier" culture="Culture.scottish">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
     <upgrade_targets>
 

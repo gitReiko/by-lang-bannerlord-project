@@ -3,37 +3,23 @@
   
 <!--Troops-->
 
-  <NPCCharacter id="english_levy"
-                default_group="Infantry"
-                level="6"
-                name="{=E11ENt06}English Levy"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.english">
+  <NPCCharacter id="english_levy" default_group="Infantry" level="6" name="{=english_levy.name}English Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="10" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="0" />
-      <skill id="Throwing"
-             value="10" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="0"/>
+      <skill id="Throwing" value="10"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.english_fyrd_spearman" />
-	  <upgrade_target id="NPCCharacter.english_fyrd_archer" />
+      <upgrade_target id="NPCCharacter.english_fyrd_spearman"/>
+	  <upgrade_target id="NPCCharacter.english_fyrd_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -50,36 +36,23 @@
     </Equipments>
   </NPCCharacter>
   
- <NPCCharacter id="english_fyrd_spearman"
-                default_group="Infantry"
-                level="11"
-                name="{=E11ENt07}English Fyrd Spearman"
-                occupation="Soldier"
-                culture="Culture.english">
+ <NPCCharacter id="english_fyrd_spearman" default_group="Infantry" level="11" name="{=english_fyrd_spearman.name}English Fyrd Spearman" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.english_veteran_fyrd_spearman" />
-	  <upgrade_target id="NPCCharacter.english_axeman" />
+      <upgrade_target id="NPCCharacter.english_veteran_fyrd_spearman"/>
+	  <upgrade_target id="NPCCharacter.english_axeman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -99,35 +72,22 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="english_veteran_fyrd_spearman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11ENt08}English Veteran Fyrd Spearman"
-                occupation="Soldier"
-                culture="Culture.english">
+  <NPCCharacter id="english_veteran_fyrd_spearman" default_group="Infantry" level="16" name="{=english_veteran_fyrd_spearman.name}English Veteran Fyrd Spearman" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.english_sergeant_spearman" />
+      <upgrade_target id="NPCCharacter.english_sergeant_spearman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -151,32 +111,19 @@
     </Equipments>
   </NPCCharacter>
   
-<NPCCharacter id="english_sergeant_spearman"
-                default_group="Infantry"
-                level="21"
-                name="{=E11ENt09}English Sergeant Spearman"
-                occupation="Soldier"
-                culture="Culture.english">
+<NPCCharacter id="english_sergeant_spearman" default_group="Infantry" level="21" name="{=english_sergeant_spearman.name}English Sergeant Spearman" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
 
@@ -203,35 +150,22 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="english_fyrd_archer"
-                default_group="Ranged"
-                level="11"
-                name="{=E11ENt10}English Fyrd Archer"
-                occupation="Soldier"
-                culture="Culture.english">
+  <NPCCharacter id="english_fyrd_archer" default_group="Ranged" level="11" name="{=english_fyrd_archer.name}English Fyrd Archer" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.english_veteran_fyrd_archer" />
+      <upgrade_target id="NPCCharacter.english_veteran_fyrd_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -246,35 +180,22 @@
     </Equipments>
   </NPCCharacter>
 
-<NPCCharacter id="english_veteran_fyrd_archer"
-                default_group="Ranged"
-                level="16"
-                name="{=E11ENt11}English Veteran Fyrd Archer"
-                occupation="Soldier"
-                culture="Culture.english">
+<NPCCharacter id="english_veteran_fyrd_archer" default_group="Ranged" level="16" name="{=english_veteran_fyrd_archer.name}English Veteran Fyrd Archer" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.english_sergeant_archer" />
+      <upgrade_target id="NPCCharacter.english_sergeant_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -291,32 +212,19 @@
     </Equipments>
   </NPCCharacter> 
 
-<NPCCharacter id="english_sergeant_archer"
-                default_group="Ranged"
-                level="21"
-                name="{=E11ENt12}English Sergeant Archer"
-                occupation="Soldier"
-                culture="Culture.english">
+<NPCCharacter id="english_sergeant_archer" default_group="Ranged" level="21" name="{=english_sergeant_archer.name}English Sergeant Archer" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
 
@@ -337,35 +245,22 @@
     </Equipments>
   </NPCCharacter>  
   
- <NPCCharacter id="english_axeman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11ENt13}English Axeman"
-                occupation="Soldier"
-                culture="Culture.english">
+ <NPCCharacter id="english_axeman" default_group="Infantry" level="16" name="{=english_axeman.name}English Axeman" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.english_sergeant_axeman" />
+      <upgrade_target id="NPCCharacter.english_sergeant_axeman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -387,32 +282,19 @@
     </Equipments>
   </NPCCharacter>  
   
-  <NPCCharacter id="english_sergeant_axeman"
-                default_group="Infantry"
-                level="21"
-                name="{=E11ENt14}English Sergeant Axeman"
-                occupation="Soldier"
-                culture="Culture.english">
+  <NPCCharacter id="english_sergeant_axeman" default_group="Infantry" level="21" name="{=english_sergeant_axeman.name}English Sergeant Axeman" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
 
@@ -437,36 +319,22 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="english_squire"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11ENt15}English Squire"
-				is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.english">
+  <NPCCharacter id="english_squire" default_group="Cavalry" level="21" name="{=english_squire.name}English Squire" is_basic_troop="true" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.english_yeoman" />
+      <upgrade_target id="NPCCharacter.english_yeoman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -482,36 +350,22 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="english_yeoman"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11ENt16}English Yeoman"
-                occupation="Soldier"
-				upgrade_requires="ItemCategory.war_horse"
-                culture="Culture.english">
+  <NPCCharacter id="english_yeoman" default_group="Cavalry" level="26" name="{=english_yeoman.name}English Yeoman" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.english_knight" />
+      <upgrade_target id="NPCCharacter.english_knight"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -520,19 +374,8 @@
 				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
 				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
 				<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a"/>
-				<equipment slot="Body" id="Item.vlandia_chainmail"/>
-				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
-				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
-				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
-				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
-				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
-				<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a"/>
-				<equipment slot="Body" id="Item.hauberk"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
@@ -540,32 +383,19 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="english_knight"
-                default_group="Cavalry"
-                level="31"
-                name="{=E11ENt17}English Knight"
-                occupation="Soldier"
-                culture="Culture.english">
+  <NPCCharacter id="english_knight" default_group="Cavalry" level="31" name="{=english_knight.name}English Knight" occupation="Soldier" culture="Culture.english">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
     <upgrade_targets>
 
@@ -577,18 +407,7 @@
 				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
 				<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet"/>
 				<equipment slot="Cape" id="Item.mail_shoulders"/>
-				<equipment slot="Body" id="Item.red_coat_over_mail"/>
-				<equipment slot="Gloves" id="Item.mail_mitten"/>
-				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_polearm_1_t4"/>
-				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
-				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
-				<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet"/>
-				<equipment slot="Body" id="Item.vlandia_chainmail"/>
+				<equipment slot="Body" id="Item.legionary_mail"/>
 				<equipment slot="Gloves" id="Item.mail_mitten"/>
 				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>

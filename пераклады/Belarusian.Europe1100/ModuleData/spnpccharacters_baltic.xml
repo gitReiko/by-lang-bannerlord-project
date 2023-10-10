@@ -1,43 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-<!--npcs-->
-
-
-  
 <!--troops-->
 
-  <NPCCharacter id="baltic_tribesman"
-                default_group="Infantry"
-                level="6"
-                name="{=E11BAt06}Baltic Tribesman"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_tribesman" default_group="Infantry" level="6" name="{=baltic_tribesman.name}Baltic Tribesman" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.baltic_spearman" />
-	  <upgrade_target id="NPCCharacter.baltic_archer" />
+      <upgrade_target id="NPCCharacter.baltic_spearman"/>
+	  <upgrade_target id="NPCCharacter.baltic_archer"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -49,37 +31,23 @@
 		</Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="baltic_spearman"
-                default_group="Infantry"
-                level="11"
-                name="{=E11BAt07}Baltic Spearman"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+   <NPCCharacter id="baltic_spearman" default_group="Infantry" level="11" name="{=baltic_spearman.name}Baltic Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.baltic_veteran_spearman" />
-	  <upgrade_target id="NPCCharacter.baltic_light_cavalry" />
+      <upgrade_target id="NPCCharacter.baltic_veteran_spearman"/>
+	  <upgrade_target id="NPCCharacter.baltic_light_cavalry"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -91,36 +59,22 @@
 		</Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="baltic_veteran_spearman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11BAt08}Baltic Veteran Spearman"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_veteran_spearman" default_group="Infantry" level="16" name="{=baltic_veteran_spearman.name}Baltic Veteran Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.baltic_cassubian_spearman" />
+      <upgrade_target id="NPCCharacter.baltic_cassubian_spearman"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -136,33 +90,19 @@
 		</Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="baltic_cassubian_spearman"
-                default_group="Infantry"
-                level="21"
-                name="{=E11BAt09}Baltic Cassubian Spearman"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_cassubian_spearman" default_group="Infantry" level="21" name="{=baltic_cassubian_spearman.name}Baltic Cassubian Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
 
@@ -181,36 +121,22 @@
 		</Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="baltic_archer"
-                default_group="Ranged"
-                level="11"
-                name="{=E11BAt10}Baltic Archer"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_archer" default_group="Ranged" level="11" name="{=baltic_archer.name}Baltic Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.baltic_veteran_archer" />
+      <upgrade_target id="NPCCharacter.baltic_veteran_archer"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -225,36 +151,22 @@
 		</Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="baltic_veteran_archer"
-                default_group="Ranged"
-                level="16"
-                name="{=E11BAt11}Baltic Veteran Archer"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_veteran_archer" default_group="Ranged" level="16" name="{=baltic_veteran_archer.name}Baltic Veteran Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.baltic_wendish_archer" />
+      <upgrade_target id="NPCCharacter.baltic_wendish_archer"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -270,33 +182,19 @@
 		</Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="baltic_wendish_archer"
-                default_group="Ranged"
-                level="21"
-                name="{=E11BAt12}Baltic Wendish Archer"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_wendish_archer" default_group="Ranged" level="21" name="{=baltic_wendish_archer.name}Baltic Wendish Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
 
@@ -316,37 +214,22 @@
 		</Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="baltic_light_cavalry"
-                default_group="HorseArcher"
-                level="16"
-                name="{=E11BAt13}Baltic Light Cavalry"
-				upgrade_requires="ItemCategory.horse"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_light_cavalry" default_group="HorseArcher" level="16" name="{=baltic_light_cavalry.name}Baltic Light Cavalry" upgrade_requires="ItemCategory.horse" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="40" />
-    <skill id="Riding"
-           value="70" />
-    <skill id="OneHanded"
-           value="45" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="70" />
-    <skill id="Crossbow"
-           value="70" />
-    <skill id="Throwing"
-           value="25" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="70"/>
+    <skill id="OneHanded" value="45"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="70"/>
+    <skill id="Crossbow" value="70"/>
+    <skill id="Throwing" value="25"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.baltic_veteran_light_cavalry" />
+      <upgrade_target id="NPCCharacter.baltic_veteran_light_cavalry"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -364,33 +247,19 @@
 		</Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="baltic_veteran_light_cavalry"
-                default_group="HorseArcher"
-                level="16"
-                name="{=E11BAt14}Baltic Veteran Light Cavalry"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_veteran_light_cavalry" default_group="HorseArcher" level="16" name="{=baltic_veteran_light_cavalry.name}Baltic Veteran Light Cavalry" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-            value="45" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="110" />
-    <skill id="Bow"
-           value="150" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="110"/>
+    <skill id="Bow" value="150"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
 
@@ -412,36 +281,22 @@
 		</Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="baltic_ukininkas"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11BAt15}Baltic Ukininkas"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_ukininkas" default_group="Cavalry" level="21" name="{=baltic_ukininkas.name}Baltic Ukininkas" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.baltic_bajoras" />
+      <upgrade_target id="NPCCharacter.baltic_bajoras"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -459,37 +314,22 @@
 		</Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="baltic_bajoras"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11BAt16}Baltic Bajoras"
-                occupation="Soldier"
-				upgrade_requires="ItemCategory.war_horse"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_bajoras" default_group="Cavalry" level="26" name="{=baltic_bajoras.name}Baltic Bajoras" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.baltic_rikis" />
+      <upgrade_target id="NPCCharacter.baltic_rikis"/>
     </upgrade_targets>
     	<Equipments>
 			<EquipmentRoster>
@@ -507,33 +347,19 @@
 		</Equipments>
   </NPCCharacter> 
 
-  <NPCCharacter id="baltic_rikis"
-                default_group="Cavalry"
-                level="31"
-                name="{=E11BAt17}Baltic Rikis"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.polish">
+  <NPCCharacter id="baltic_rikis" default_group="Cavalry" level="31" name="{=baltic_rikis.name}Baltic Rikis" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
     <upgrade_targets>
 

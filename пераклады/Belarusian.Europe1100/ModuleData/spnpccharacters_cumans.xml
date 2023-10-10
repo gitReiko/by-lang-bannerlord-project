@@ -1,37 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+
+  <!--Khuzait Troops-->
   
-  <NPCCharacter id="cuman_nomad"
-                default_group="Infantry"
-                level="6"
-                name="{=E11CUt06}Cuman Nomad"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.khuzait">
+  <NPCCharacter id="cuman_nomad" default_group="Infantry" level="6" name="{=cuman_nomad.name}Cuman Nomad" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cuman_nomad_spearman" />
-	  <upgrade_target id="NPCCharacter.cuman_nomad_archer" />
+      <upgrade_target id="NPCCharacter.cuman_nomad_spearman"/>
+	  <upgrade_target id="NPCCharacter.cuman_nomad_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -48,36 +36,23 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="cuman_nomad_spearman"
-                default_group="Infantry"
-                level="11"
-                name="{=E11CUt07}Cuman Nomad Spearman"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="cuman_nomad_spearman" default_group="Infantry" level="11" name="{=cuman_nomad_spearman.name}Cuman Nomad Spearman" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cuman_veteran_nomad_spearman" />
-	  <upgrade_target id="NPCCharacter.cuman_horse_archer" />
+      <upgrade_target id="NPCCharacter.cuman_veteran_nomad_spearman"/>
+	  <upgrade_target id="NPCCharacter.cuman_horse_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -91,35 +66,22 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="cuman_veteran_nomad_spearman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11CUt08}Cuman Veteran Nomad Spearman"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="cuman_veteran_nomad_spearman" default_group="Infantry" level="16" name="{=cuman_veteran_nomad_spearman.name}Cuman Veteran Nomad Spearman" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cuman_nomad_bodguard" />
+      <upgrade_target id="NPCCharacter.cuman_nomad_bodguard"/>
 
     </upgrade_targets>
     <Equipments>
@@ -135,32 +97,19 @@
     </Equipments>
   </NPCCharacter> 
   
-   <NPCCharacter id="cuman_nomad_bodguard"
-                default_group="Infantry"
-                level="21"
-                name="{=E11CUt09}Cuman Nomad Bodyguard"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+   <NPCCharacter id="cuman_nomad_bodguard" default_group="Infantry" level="21" name="{=cuman_nomad_bodguard.name}Cuman Nomad Bodyguard" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
 
@@ -179,35 +128,22 @@
     </Equipments>
   </NPCCharacter> 
   
-   <NPCCharacter id="cuman_nomad_archer"
-                default_group="Ranged"
-                level="11"
-                name="{=E11CUt10}Cuman Nomad Archer"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+   <NPCCharacter id="cuman_nomad_archer" default_group="Ranged" level="11" name="{=cuman_nomad_archer.name}Cuman Nomad Archer" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cuman_veteran_nomad_archer" />
+      <upgrade_target id="NPCCharacter.cuman_veteran_nomad_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -231,35 +167,22 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="cuman_veteran_nomad_archer"
-                default_group="Ranged"
-                level="16"
-                name="{=E11CUt11}Cuman Veteran Nomad Archer"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="cuman_veteran_nomad_archer" default_group="Ranged" level="16" name="{=cuman_veteran_nomad_archer.name}Cuman Veteran Nomad Archer" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cuman_marksman" />
+      <upgrade_target id="NPCCharacter.cuman_marksman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -276,32 +199,19 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="cuman_marksman"
-                default_group="Ranged"
-                level="21"
-                name="{=E11CUt12}Cuman Marksman"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+   <NPCCharacter id="cuman_marksman" default_group="Ranged" level="21" name="{=cuman_marksman.name}Cuman Marksman" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
 
@@ -321,36 +231,22 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="cuman_horse_archer"
-                default_group="HorseArcher"
-                level="16"
-                name="{=E11CUt13}Cuman Horse Archer"
-				upgrade_requires="ItemCategory.horse"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+   <NPCCharacter id="cuman_horse_archer" default_group="HorseArcher" level="16" name="{=cuman_horse_archer.name}Cuman Horse Archer" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="40" />
-    <skill id="Riding"
-           value="70" />
-    <skill id="OneHanded"
-           value="45" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="70" />
-    <skill id="Crossbow"
-           value="70" />
-    <skill id="Throwing"
-           value="25" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="70"/>
+    <skill id="OneHanded" value="45"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="70"/>
+    <skill id="Crossbow" value="70"/>
+    <skill id="Throwing" value="25"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cuman_veteran_horse_archer" />
+      <upgrade_target id="NPCCharacter.cuman_veteran_horse_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -369,32 +265,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="cuman_veteran_horse_archer"
-                default_group="HorseArcher"
-                level="21"
-                name="{=E11CUt14}Cuman Veteran Horse Archer"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="cuman_veteran_horse_archer" default_group="HorseArcher" level="21" name="{=cuman_veteran_horse_archer.name}Cuman Veteran Horse Archer" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-            value="45" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="110" />
-    <skill id="Bow"
-           value="150" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="110"/>
+    <skill id="Bow" value="150"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
 
@@ -416,36 +299,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="cuman_light_cavalry"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11CUt15}Cuman Light Cavalry"
-				is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="cuman_light_cavalry" default_group="Cavalry" level="21" name="{=cuman_light_cavalry.name}Cuman Light Cavalry" is_basic_troop="true" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cuman_heavy_cavalry" />
+      <upgrade_target id="NPCCharacter.cuman_heavy_cavalry"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -463,36 +332,22 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="cuman_heavy_cavalry"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11CUt16}Cuman Heavy Cavalry"
-                occupation="Soldier"
-				upgrade_requires="ItemCategory.war_horse"
-                culture="Culture.khuzait">
+   <NPCCharacter id="cuman_heavy_cavalry" default_group="Cavalry" level="26" name="{=cuman_heavy_cavalry.name}Cuman Heavy Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-     <upgrade_target id="NPCCharacter.cuman_khans_guard" />
+     <upgrade_target id="NPCCharacter.cuman_khans_guard"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -510,32 +365,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="cuman_khans_guard"
-                default_group="Cavalry"
-                level="31"
-                name="{=E11CUt17}Cuman Khan's Guard"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="cuman_khans_guard" default_group="Cavalry" level="31" name="{=cuman_khans_guard.name}Cuman Khan's Guard" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
     <upgrade_targets>
 

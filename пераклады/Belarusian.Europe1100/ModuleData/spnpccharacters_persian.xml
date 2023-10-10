@@ -1,37 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
- <NPCCharacter id="seljuk_levy"
-                default_group="Infantry"
-                level="6"
-                name="{=E11PEt06}Seljuk Turkmenn"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.khuzait">
+<!--troops-->
+
+ <NPCCharacter id="seljuk_levy" default_group="Infantry" level="6" name="{=seljuk_levy.name}Seljuk Turkmenn" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.seljuk_tribal_spearman" />
-	  <upgrade_target id="NPCCharacter.seljuk_tribal_archer" />
+      <upgrade_target id="NPCCharacter.seljuk_tribal_spearman"/>
+	  <upgrade_target id="NPCCharacter.seljuk_tribal_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -47,36 +35,23 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_tribal_spearman"
-                default_group="Infantry"
-                level="11"
-                name="{=E11PEt07}Seljuk Tribal Spearman"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_tribal_spearman" default_group="Infantry" level="11" name="{=seljuk_tribal_spearman.name}Seljuk Tribal Spearman" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="15" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="20" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.seljuk_veteran_tribal_spearman" />
-	  <upgrade_target id="NPCCharacter.seljuk_horse_archer" />
+      <upgrade_target id="NPCCharacter.seljuk_veteran_tribal_spearman"/>
+	  <upgrade_target id="NPCCharacter.seljuk_horse_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -90,35 +65,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_veteran_tribal_spearman"
-                default_group="Infantry"
-                level="16"
-                name="{=E11PEt08}Seljuk Veteran Tribal Spearman"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_veteran_tribal_spearman" default_group="Infantry" level="16" name="{=seljuk_veteran_tribal_spearman.name}Seljuk Veteran Tribal Spearman" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="40" />
-    <skill id="Bow"
-           value="30" />
-    <skill id="Crossbow"
-           value="30" />
-    <skill id="Throwing"
-           value="70" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.seljuk_light_cavalry" />
+      <upgrade_target id="NPCCharacter.seljuk_light_cavalry"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -134,33 +96,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_light_cavalry"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11PEt09}Seljuk Tribal Light Cavalry"
-				upgrade_requires="ItemCategory.horse"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_light_cavalry" default_group="Cavalry" level="21" name="{=seljuk_light_cavalry.name}Seljuk Tribal Light Cavalry" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -180,35 +128,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_tribal_archer"
-                default_group="Ranged"
-                level="11"
-                name="{=E11PEt10}Seljuk Tribal Archer"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_tribal_archer" default_group="Ranged" level="11" name="{=seljuk_tribal_archer.name}Seljuk Tribal Archer" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="5" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="20" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="40" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-		      <upgrade_target id="NPCCharacter.seljuk_veteran_tribal_archer" />
+		      <upgrade_target id="NPCCharacter.seljuk_veteran_tribal_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -223,35 +158,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_veteran_tribal_archer"
-                default_group="Ranged"
-                level="16"
-                name="{=E11PEt11}Seljuk Veteran Tribal Archer"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_veteran_tribal_archer" default_group="Ranged" level="16" name="{=seljuk_veteran_tribal_archer.name}Seljuk Veteran Tribal Archer" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="70" />
-    <skill id="Riding"
-           value="10" />
-    <skill id="OneHanded"
-           value="70" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-	      <upgrade_target id="NPCCharacter.seljuk_tribal_skirmisher" />
+	      <upgrade_target id="NPCCharacter.seljuk_tribal_skirmisher"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -268,32 +190,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_tribal_skirmisher"
-                default_group="Infantry"
-                level="21"
-                name="{=E11PEt12}Seljuk Tribal Skirmisher"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_tribal_skirmisher" default_group="Infantry" level="21" name="{=seljuk_tribal_skirmisher.name}Seljuk Tribal Skirmisher" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="60" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="100" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -312,36 +221,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_horse_archer"
-                default_group="HorseArcher"
-                level="16"
-                name="{=E11PEt13}Seljuk Horse Archer"
-				upgrade_requires="ItemCategory.horse"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_horse_archer" default_group="HorseArcher" level="16" name="{=seljuk_horse_archer.name}Seljuk Horse Archer" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="40" />
-    <skill id="Riding"
-           value="70" />
-    <skill id="OneHanded"
-           value="45" />
-    <skill id="TwoHanded"
-           value="15" />
-    <skill id="Polearm"
-           value="30" />
-    <skill id="Bow"
-           value="70" />
-    <skill id="Crossbow"
-           value="70" />
-    <skill id="Throwing"
-           value="25" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="70"/>
+    <skill id="OneHanded" value="45"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="70"/>
+    <skill id="Crossbow" value="70"/>
+    <skill id="Throwing" value="25"/>
     </skills>
     <upgrade_targets>
-		      <upgrade_target id="NPCCharacter.seljuk_veteran_horse_archer" />
+		      <upgrade_target id="NPCCharacter.seljuk_veteran_horse_archer"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -360,32 +255,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_veteran_horse_archer"
-                default_group="HorseArcher"
-                level="21"
-                name="{=E11PEt14}Seljuk Veteran Horse Archer"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_veteran_horse_archer" default_group="HorseArcher" level="21" name="{=seljuk_veteran_horse_archer.name}Seljuk Veteran Horse Archer" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-            value="45" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="110" />
-    <skill id="Bow"
-           value="150" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="110"/>
+    <skill id="Bow" value="150"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -406,36 +288,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_ghulam_light_cavalry"
-                default_group="Cavalry"
-                level="21"
-                name="{=E11PEt15}Seljuk Ghulam Light Cavalry"
-				is_basic_troop="true"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_ghulam_light_cavalry" default_group="Cavalry" level="21" name="{=seljuk_ghulam_light_cavalry.name}Seljuk Ghulam Light Cavalry" is_basic_troop="true" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-              value="40" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="110" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="150" />
-    <skill id="Bow"
-           value="40" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-			      <upgrade_target id="NPCCharacter.seljuk_ghulam_heavy_cavalry" />
+			      <upgrade_target id="NPCCharacter.seljuk_ghulam_heavy_cavalry"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -454,36 +322,22 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="seljuk_ghulam_heavy_cavalry"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11PEt16}Seljuk Ghulam Heavy Cavalry"
-				upgrade_requires="ItemCategory.war_horse"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+   <NPCCharacter id="seljuk_ghulam_heavy_cavalry" default_group="Cavalry" level="26" name="{=seljuk_ghulam_heavy_cavalry.name}Seljuk Ghulam Heavy Cavalry" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-			      <upgrade_target id="NPCCharacter.seljuk_askari" />
+			      <upgrade_target id="NPCCharacter.seljuk_askari"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -501,32 +355,19 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_askari"
-                default_group="Cavalry"
-                level="31"
-                name="{=E11PEt17}Seljuk Ghulam Askari"
-                occupation="Soldier"
-                culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_askari" default_group="Cavalry" level="31" name="{=seljuk_askari.name}Seljuk Ghulam Askari" occupation="Soldier" culture="Culture.khuzait">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
