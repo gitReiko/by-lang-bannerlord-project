@@ -64,7 +64,14 @@ class FilesWriter
         {
             if($trans->id == (string)$string['id'])
             {
-                return $trans->by;
+                if(isset($trans->by))
+                {
+                    return $trans->by;
+                }
+                else
+                {
+                    return $trans->en;
+                }
             }
         }
     }
@@ -77,7 +84,14 @@ class FilesWriter
         {
             if($trans->en == (string)$string['text'])
             {
-                return $trans->by;
+                if(isset($trans->by))
+                {
+                    return $trans->by;
+                }
+                else
+                {
+                    return $trans->en;
+                }
             }
         }
     }
