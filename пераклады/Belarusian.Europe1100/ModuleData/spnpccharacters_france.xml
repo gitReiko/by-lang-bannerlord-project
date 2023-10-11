@@ -1,6 +1,319 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
+<NPCCharacter id="village_woman_vlandia" default_group="Infantry" is_female="true" level="1" name="{=village_woman_vlandia.name}Frankish Peasant" occupation="Villager" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_vlandia"/>
+    </face>
+    <skills/>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandian_woman_dress"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.plain_dress"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.dress_with_overall"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.laced_dress"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cut_dress"/>
+        <equipment slot="Cape" id="Item.female_hood"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandian_woman_dress"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.plain_dress"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.dress_with_overall"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.laced_dress"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cut_dress"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan-->
+  
+  <NPCCharacter id="caravan_master_vlandia" default_group="Infantry" level="26" name="{=caravan_master_vlandia.name}Frankish Caravan Master" occupation="CaravanGuard" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif"/>
+        <equipment slot="Body" id="Item.banded_leather_over_mail"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
+        <equipment slot="Body" id="Item.mail_shirt"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth"/>
+        <equipment slot="Body" id="Item.padded_short_coat"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif"/>
+        <equipment slot="Body" id="Item.banded_leather_over_mail"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--armed trader-->
+  
+  <NPCCharacter id="armed_trader_vlandia" default_group="Ranged" level="16" name="{=armed_trader_vlandia.name}Frankish Armed Trader" occupation="CaravanGuard" culture="Culture.vlandia" is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="60"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="70"/>
+      <skill id="Throwing" value="30"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a"/>
+        <equipment slot="Item1" id="Item.bolt_a"/>
+        <equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+        <equipment slot="Body" id="Item.layered_leather_tunic"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a"/>
+        <equipment slot="Item1" id="Item.bolt_a"/>
+        <equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+        <equipment slot="Body" id="Item.gambeson_b"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Cape" id="Item.hood"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a"/>
+        <equipment slot="Item1" id="Item.bolt_a"/>
+        <equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+        <equipment slot="Body" id="Item.layered_leather_tunic"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.crossbow_a"/>
+        <equipment slot="Item1" id="Item.bolt_a"/>
+        <equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+        <equipment slot="Body" id="Item.layered_leather_tunic"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.crossbow_a"/>
+        <equipment slot="Item1" id="Item.bolt_a"/>
+        <equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+        <equipment slot="Body" id="Item.gambeson_b"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Cape" id="Item.hood"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan guard-->
+  
+  <NPCCharacter id="caravan_guard_vlandia" default_group="Cavalry" level="21" name="{=caravan_guard_vlandia.name}Frankish Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="100"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="160"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="15"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Item2" id="Item.battered_kite_shield"/>
+        <equipment slot="Head" id="Item.cervelliere_over_laced_coif"/>
+        <equipment slot="Body" id="Item.mail_shirt"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Item2" id="Item.battered_kite_shield"/>
+        <equipment slot="Head" id="Item.cervelliere_over_arming_coif"/>
+        <equipment slot="Body" id="Item.mail_shirt"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.hood"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Item2" id="Item.battered_kite_shield"/>
+        <equipment slot="Head" id="Item.nasal_cervelliere_over_padded_coif"/>
+        <equipment slot="Body" id="Item.padded_short_coat"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.western_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Item2" id="Item.battered_kite_shield"/>
+        <equipment slot="Head" id="Item.nasal_cervelliere_over_padded_coif"/>
+        <equipment slot="Body" id="Item.padded_short_coat"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.western_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
+        <equipment slot="Item2" id="Item.battered_kite_shield"/>
+        <equipment slot="Head" id="Item.cervelliere_over_arming_coif"/>
+        <equipment slot="Body" id="Item.mail_shirt"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.hood"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.vlandia_horse"/>
+      <equipment slot="HorseHarness" id="Item.light_harness"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="veteran_caravan_guard_vlandia" default_group="Cavalry" level="26" name="{=veteran_caravan_guard_vlandia.name}Frankish Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="160"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="20"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.vlandia_sword_4_t4"/>
+        <equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+        <equipment slot="Head" id="Item.cervelliere_over_laced_coif"/>
+        <equipment slot="Body" id="Item.plated_leather_coat"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.hood"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.vlandia_mace_2_t4"/>
+        <equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+        <equipment slot="Head" id="Item.cervelliere_over_arming_coif"/>
+        <equipment slot="Body" id="Item.plated_leather_coat"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+        <equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+        <equipment slot="Head" id="Item.nasal_cervelliere_over_padded_coif"/>
+        <equipment slot="Body" id="Item.plated_leather_coat"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.hood"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+        <equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+        <equipment slot="Head" id="Item.nasal_cervelliere_over_padded_coif"/>
+        <equipment slot="Body" id="Item.plated_leather_coat"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.hood"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+        <equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+        <equipment slot="Head" id="Item.cervelliere_over_arming_coif"/>
+        <equipment slot="Body" id="Item.plated_leather_coat"/>
+        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.vlandia_horse"/>
+      <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    </Equipments>
+  </NPCCharacter>
+
 <!--troops-->
 
  <NPCCharacter id="frankish_levy" default_group="Infantry" level="6" name="{=frankish_levy.name}Frankish Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
