@@ -1,36 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
   
-  <NPCCharacter id="ghilman_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.byzantine"
-                name="{=E11ARMENIAN_tr1}Armenian Spearman">
+  <NPCCharacter id="ghilman_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.byzantine" name="{=ghilman_tier_1.name}Armenian Spearman">
     <face>
-      <face_key_template value="BodyProperty.fighter_byzantine" />
+      <face_key_template value="BodyProperty.fighter_byzantine"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="75" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="100" />
-      <skill id="TwoHanded"
-             value="45" />
-      <skill id="Polearm"
-             value="100" />
-      <skill id="Bow"
-             value="25" />
-      <skill id="Crossbow"
-             value="25" />
-      <skill id="Throwing"
-             value="75" />
+      <skill id="Athletics" value="75"/>
+      <skill id="Riding" value="100"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="45"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="25"/>
+      <skill id="Crossbow" value="25"/>
+      <skill id="Throwing" value="75"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.ghilman_tier_2" />
+      <upgrade_target id="NPCCharacter.ghilman_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -56,35 +42,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="ghilman_tier_2"
-                default_group="Infantry"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.byzantine"
-                name="{=E11ARMENIAN_tr2}Armenian Veteran Spearman">
+  <NPCCharacter id="ghilman_tier_2" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.byzantine" name="{=ghilman_tier_2.name}Armenian Veteran Spearman">
     <face>
-      <face_key_template value="BodyProperty.fighter_byzantine" />
+      <face_key_template value="BodyProperty.fighter_byzantine"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="100" />
-      <skill id="Riding"
-             value="130" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="80" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="60" />
-      <skill id="Crossbow"
-             value="20" />
-      <skill id="Throwing"
-             value="100" />
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.ghilman_tier_3" />
+      <upgrade_target id="NPCCharacter.ghilman_tier_3"/>
     </upgrade_targets>
     <Equipments>
 
@@ -112,15 +85,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="ghilman_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.persian"
-                name="{=E11ARMENIAN_tr3}Armenian Noble Cavalry"
-                upgrade_requires="ItemCategory.war_horse">
+  <NPCCharacter id="ghilman_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.persian" name="{=ghilman_tier_3.name}Armenian Noble Cavalry" upgrade_requires="ItemCategory.war_horse">
     <face>
-      <face_key_template value="BodyProperty.fighter_byzantine" />
+      <face_key_template value="BodyProperty.fighter_byzantine"/>
     </face>
     <skills>
 			<skill id="Athletics" value="170"/>
@@ -132,7 +99,7 @@
 			<skill id="Crossbow" value="25"/>
 			<skill id="Throwing" value="25"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
@@ -160,36 +127,22 @@
     </Equipments>
   </NPCCharacter>
   <!-- lost legion - -->
-  <NPCCharacter id="legion_of_the_betrayed_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.spanish"
-                name="{=E11ST_MICHAEL_tr1}Order Brother of St Michael">
+  <NPCCharacter id="legion_of_the_betrayed_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.spanish" name="{=legion_of_the_betrayed_tier_1.name}Order Brother of St Michael">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.legion_of_the_betrayed_tier_2" />
+      <upgrade_target id="NPCCharacter.legion_of_the_betrayed_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -201,31 +154,25 @@
 				<equipment slot="Body" id="Item.chain_hauberk_1"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t1"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="legion_of_the_betrayed_tier_2"
-                default_group="Cavalry"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.spanish"
-                name="{=E11ST_MICHAEL_tr2}Sergant of St Michael">
+  <NPCCharacter id="legion_of_the_betrayed_tier_2" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.spanish" name="{=legion_of_the_betrayed_tier_2.name}Sergant of St Michael">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Bow" value="80" />
-      <skill id="OneHanded" value="170" />
-      <skill id="Polearm" value="170" />
-      <skill id="Riding" value="170" />
-      <skill id="Throwing" value="170" />
-      <skill id="TwoHanded" value="100" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Bow" value="80"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="Polearm" value="170"/>
+      <skill id="Riding" value="170"/>
+      <skill id="Throwing" value="170"/>
+      <skill id="TwoHanded" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.legion_of_the_betrayed_tier_3" />
+      <upgrade_target id="NPCCharacter.legion_of_the_betrayed_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -261,31 +208,24 @@
 				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="legion_of_the_betrayed_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.spanish"
-                name="{=E11ST_MICHAEL_tr3}Knight of St Michael"
-				upgrade_requires="ItemCategory.war_horse">
+  <NPCCharacter id="legion_of_the_betrayed_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.spanish" name="{=legion_of_the_betrayed_tier_3.name}Knight of St Michael" upgrade_requires="ItemCategory.war_horse">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Bow" value="80" />
-      <skill id="OneHanded" value="170" />
-      <skill id="Polearm" value="170" />
-      <skill id="Riding" value="170" />
-      <skill id="Throwing" value="170" />
-      <skill id="TwoHanded" value="100" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Bow" value="80"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="Polearm" value="170"/>
+      <skill id="Riding" value="170"/>
+      <skill id="Throwing" value="170"/>
+      <skill id="TwoHanded" value="100"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -383,41 +323,26 @@
 				<equipment slot="Horse" id="Item.t3_empire_horse"/>
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="skolderbrotva_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.empire"
-                name="{=E11PECHENEGS_tr1}Bruder von der Garde des Erzbischofs">
+  <NPCCharacter id="skolderbrotva_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.empire" name="{=skolderbrotva_tier_1.name}Bruder von der Garde des Erzbischofs">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.skolderbrotva_tier_2" />
+      <upgrade_target id="NPCCharacter.skolderbrotva_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -429,31 +354,25 @@
 				<equipment slot="Body" id="Item.tab_tunic1"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t1"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="skolderbrotva_tier_2"
-                default_group="Cavalry"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.empire"
-                name="{=E11PECHENEGS_tr2}Knecht von der Garde des Erzbischofs">
+  <NPCCharacter id="skolderbrotva_tier_2" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.empire" name="{=skolderbrotva_tier_2.name}Knecht von der Garde des Erzbischofs">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Bow" value="80" />
-      <skill id="OneHanded" value="170" />
-      <skill id="Polearm" value="170" />
-      <skill id="Riding" value="170" />
-      <skill id="Throwing" value="170" />
-      <skill id="TwoHanded" value="100" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Bow" value="80"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="Polearm" value="170"/>
+      <skill id="Riding" value="170"/>
+      <skill id="Throwing" value="170"/>
+      <skill id="TwoHanded" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.skolderbrotva_tier_3" />
+      <upgrade_target id="NPCCharacter.skolderbrotva_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -489,39 +408,25 @@
 				<equipment slot="Horse" id="Item.t3_empire_horse"/>
 				<equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="skolderbrotva_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.empire"
-                name="{=E11PECHENEGS_tr3}Ritter von der Garde des Erzbischofs">
+  <NPCCharacter id="skolderbrotva_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.empire" name="{=skolderbrotva_tier_3.name}Ritter von der Garde des Erzbischofs">
     <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="150" />
-      <skill id="Riding"
-             value="200" />
-      <skill id="OneHanded"
-             value="260" />
-      <skill id="TwoHanded"
-             value="1" />
-      <skill id="Polearm"
-             value="260" />
-      <skill id="Bow"
-             value="1" />
-      <skill id="Crossbow"
-             value="1" />
-      <skill id="Throwing"
-             value="1" />
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="200"/>
+      <skill id="OneHanded" value="260"/>
+      <skill id="TwoHanded" value="1"/>
+      <skill id="Polearm" value="260"/>
+      <skill id="Bow" value="1"/>
+      <skill id="Crossbow" value="1"/>
+      <skill id="Throwing" value="1"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -558,41 +463,26 @@
 				<equipment slot="Horse" id="Item.t3_empire_horse"/>
 				<equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   <!-- free company/vlandia -->
-  <NPCCharacter id="company_of_the_boar_tier_1"
-                default_group="infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.italian"
-                name="{=E11LAZARUS_tr1}Pisan Sailor">
+  <NPCCharacter id="company_of_the_boar_tier_1" default_group="infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.italian" name="{=company_of_the_boar_tier_1.name}Pisan Sailor">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.company_of_the_boar_tier_2" />
+      <upgrade_target id="NPCCharacter.company_of_the_boar_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -605,35 +495,22 @@
       </EquipmentRoster>
 </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="company_of_the_boar_tier_2"
-                default_group="Infantry"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.italian"
-                name="{=E11LAZARUS_tr2}Pisan Mariner">
+  <NPCCharacter id="company_of_the_boar_tier_2" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.italian" name="{=company_of_the_boar_tier_2.name}Pisan Mariner">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="20" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="130" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="60" />
-      <skill id="Crossbow"
-             value="60" />
-      <skill id="Throwing"
-             value="80" />
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="130"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="80"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.company_of_the_boar_tier_3" />
+      <upgrade_target id="NPCCharacter.company_of_the_boar_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -658,35 +535,21 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="company_of_the_boar_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.italian"
-				upgrade_requires="ItemCategory.war_horse"
-                name="{=E11LAZARUS_tr3}Pisan Knight">
+  <NPCCharacter id="company_of_the_boar_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.italian" upgrade_requires="ItemCategory.war_horse" name="{=company_of_the_boar_tier_3.name}Pisan Knight">
     <face>
-      <face_key_template value="BodyProperty.fighter_italian" />
+      <face_key_template value="BodyProperty.fighter_italian"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -766,36 +629,22 @@
   </NPCCharacter>
   <!-- troop trees for mercenary outlaw minor factions (8) -->
   <!-- beni zul/aserai -->
-  <NPCCharacter id="beni_zilal_tier_1"
-                default_group="Cavalry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.persian"
-                name="{=E11ASSASINS_tr1}Bedouin Clan Raider">
+  <NPCCharacter id="beni_zilal_tier_1" default_group="Cavalry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.persian" name="{=beni_zilal_tier_1.name}Bedouin Clan Raider">
     <face>
-      <face_key_template value="BodyProperty.fighter_persian" />
+      <face_key_template value="BodyProperty.fighter_persian"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="20" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="130" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="60" />
-      <skill id="Crossbow"
-             value="60" />
-      <skill id="Throwing"
-             value="80" />
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="130"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="80"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.beni_zilal_tier_2" />
+      <upgrade_target id="NPCCharacter.beni_zilal_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -842,40 +691,26 @@
 				<equipment slot="Horse" id="Item.aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="aserai_troop_civilian_template_t1"
-                    civilian="true" />
+      <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="beni_zilal_tier_2"
-                default_group="Cavalry"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.persian"
-                name="{=E11ASSASINS_tr2}Bedouin Clan Mercenary">
+  <NPCCharacter id="beni_zilal_tier_2" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.persian" name="{=beni_zilal_tier_2.name}Bedouin Clan Mercenary">
     <face>
-      <face_key_template value="BodyProperty.fighter_persian" />
+      <face_key_template value="BodyProperty.fighter_persian"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="170" />
-    <skill id="Riding"
-           value="60" />
-    <skill id="OneHanded"
-           value="220" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="50" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="170"/>
+    <skill id="Riding" value="60"/>
+    <skill id="OneHanded" value="220"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="50"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.beni_zilal_tier_3" />
+      <upgrade_target id="NPCCharacter.beni_zilal_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -922,39 +757,25 @@
 				<equipment slot="Horse" id="Item.aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="aserai_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="beni_zilal_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.persian"
-                name="{=E11ASSASINS_tr3}Bedouin Clan Warrior">
+  <NPCCharacter id="beni_zilal_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.persian" name="{=beni_zilal_tier_3.name}Bedouin Clan Warrior">
     <face>
-      <face_key_template value="BodyProperty.fighter_persian" />
+      <face_key_template value="BodyProperty.fighter_persian"/>
     </face>
     <skills>
-    <skill id="Athletics"
-      value="185" />
-    <skill id="Bow"
-      value="80" />
-    <skill id="Crossbow"
-      value="80" />
-    <skill id="OneHanded"
-      value="240" />
-    <skill id="Polearm"
-      value="200" />
-    <skill id="Riding"
-      value="80" />
-    <skill id="Throwing"
-      value="190" />
-    <skill id="TwoHanded"
-      value="240" />
+    <skill id="Athletics" value="185"/>
+    <skill id="Bow" value="80"/>
+    <skill id="Crossbow" value="80"/>
+    <skill id="OneHanded" value="240"/>
+    <skill id="Polearm" value="200"/>
+    <skill id="Riding" value="80"/>
+    <skill id="Throwing" value="190"/>
+    <skill id="TwoHanded" value="240"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.southern_spear_3_t4"/>
@@ -1000,41 +821,26 @@
 				<equipment slot="Horse" id="Item.aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="aserai_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   <!-- wolfskins - battanians with no armor or cloth, only animal hides -->
-  <NPCCharacter id="wolfskins_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr1}Welsh Hired Spearman">
+  <NPCCharacter id="wolfskins_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.battania" name="{=wolfskins_tier_1.name}Welsh Hired Spearman">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="100" />
-      <skill id="Riding"
-             value="10" />
-      <skill id="OneHanded"
-             value="40" />
-      <skill id="TwoHanded"
-             value="15" />
-      <skill id="Polearm"
-             value="100" />
-      <skill id="Bow"
-             value="40" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="20" />
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.wolfskins_tier_2" />
+      <upgrade_target id="NPCCharacter.wolfskins_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1065,39 +871,25 @@
 				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
       </EquipmentRoster>
-      <EquipmentSet id="battania_troop_civilian_template_t1"
-                    civilian="true" />
+      <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="wolfskins_tier_2"
-                default_group="Ranged"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr2}Welsh Hired Longbowman">
+  <NPCCharacter id="wolfskins_tier_2" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.battania" name="{=wolfskins_tier_2.name}Welsh Hired Longbowman">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="140" />
-      <skill id="Riding"
-             value="10" />
-      <skill id="OneHanded"
-             value="170" />
-      <skill id="TwoHanded"
-             value="40" />
-      <skill id="Polearm"
-             value="30" />
-      <skill id="Bow"
-             value="170" />
-      <skill id="Crossbow"
-             value="10" />
-      <skill id="Throwing"
-             value="10" />
+      <skill id="Athletics" value="140"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="170"/>
+      <skill id="Crossbow" value="10"/>
+      <skill id="Throwing" value="10"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.wolfskins_tier_3" />
+      <upgrade_target id="NPCCharacter.wolfskins_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1128,39 +920,24 @@
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
 
       </EquipmentRoster>
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="wolfskins_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.battania"
-				upgrade_requires="ItemCategory.war_horse"
-                name="{=E11GWYNEDD_tr3}Welsh Noble Outlaw">
+  <NPCCharacter id="wolfskins_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.battania" upgrade_requires="ItemCategory.war_horse" name="{=wolfskins_tier_3.name}SWelsh Noble Outlaw">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="150" />
-      <skill id="Riding"
-             value="200" />
-      <skill id="OneHanded"
-             value="260" />
-      <skill id="TwoHanded"
-             value="1" />
-      <skill id="Polearm"
-             value="260" />
-      <skill id="Bow"
-             value="1" />
-      <skill id="Crossbow"
-             value="1" />
-      <skill id="Throwing"
-             value="1" />
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="200"/>
+      <skill id="OneHanded" value="260"/>
+      <skill id="TwoHanded" value="1"/>
+      <skill id="Polearm" value="260"/>
+      <skill id="Bow" value="1"/>
+      <skill id="Crossbow" value="1"/>
+      <skill id="Throwing" value="1"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -1192,41 +969,26 @@
 				<equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   <!-- hidden ones - -->
-  <NPCCharacter id="hidden_hand_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.italian"
-				name="{=E11GENOESE_tr1}Genoese Mariner">
+  <NPCCharacter id="hidden_hand_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.italian" name="{=hidden_hand_tier_1.name}Genoese Mariner">
     <face>
-      <face_key_template value="BodyProperty.fighter_italian" />
+      <face_key_template value="BodyProperty.fighter_italian"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="120" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="120" />
-    <skill id="TwoHanded"
-           value="5" />
-    <skill id="Polearm"
-           value="5" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="5" />
-    <skill id="Throwing"
-           value="5" />
+    <skill id="Athletics" value="120"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="120"/>
+    <skill id="TwoHanded" value="5"/>
+    <skill id="Polearm" value="5"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="5"/>
+    <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.hidden_hand_tier_2" />
+      <upgrade_target id="NPCCharacter.hidden_hand_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1252,35 +1014,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="hidden_hand_tier_2"
-                default_group="Ranged"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.italian"
-                name="{=E11GENOESE_tr2}Genoese Crossbowman">
+  <NPCCharacter id="hidden_hand_tier_2" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.italian" name="{=hidden_hand_tier_2.name}Genoese Crossbowman">
     <face>
-      <face_key_template value="BodyProperty.fighter_italian" />
+      <face_key_template value="BodyProperty.fighter_italian"/>
     </face>
     <skills>
-    <skill id="Athletics"
-             value="120" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="170" />
-    <skill id="TwoHanded"
-           value="5" />
-    <skill id="Polearm"
-           value="60" />
-    <skill id="Bow"
-           value="5" />
-    <skill id="Crossbow"
-           value="170" />
-    <skill id="Throwing"
-           value="5" />
+    <skill id="Athletics" value="120"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="170"/>
+    <skill id="TwoHanded" value="5"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="5"/>
+    <skill id="Crossbow" value="170"/>
+    <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.hidden_hand_tier_3" />
+      <upgrade_target id="NPCCharacter.hidden_hand_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1333,34 +1082,21 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="hidden_hand_tier_3"
-                default_group="Ranged"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.italian"
-                name="{=E11GENOESE_tr3}Genoese Champion Crossbowman">
+  <NPCCharacter id="hidden_hand_tier_3" default_group="Ranged" level="31" occupation="Soldier" culture="Culture.italian" name="{=hidden_hand_tier_3.name}Genoese Champion Crossbowman">
     <face>
-      <face_key_template value="BodyProperty.fighter_italian" />
+      <face_key_template value="BodyProperty.fighter_italian"/>
     </face>
     <skills>
-    <skill id="Athletics"
-      value="100" />
-    <skill id="Bow"
-      value="5" />
-    <skill id="Crossbow"
-      value="200" />
-    <skill id="OneHanded"
-      value="150" />
-    <skill id="Polearm"
-      value="70" />
-    <skill id="Riding"
-      value="40" />
-    <skill id="Throwing"
-      value="5" />
-    <skill id="TwoHanded"
-      value="5" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Bow" value="5"/>
+    <skill id="Crossbow" value="200"/>
+    <skill id="OneHanded" value="150"/>
+    <skill id="Polearm" value="70"/>
+    <skill id="Riding" value="40"/>
+    <skill id="Throwing" value="5"/>
+    <skill id="TwoHanded" value="5"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.crossbow_d"/>
@@ -1406,36 +1142,22 @@
   </NPCCharacter>
   <!-- the water and the stone - -->
   <!-- lakepike/sturgia - -->
-  <NPCCharacter id="lakepike_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.sturgia"
-                name="{=E11VARAG_tr1}Varyag">
+  <NPCCharacter id="lakepike_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia" name="{=lakepike_tier_1.name}Varyag">
     <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="120" />
-      <skill id="Riding"
-             value="120" />
-      <skill id="OneHanded"
-             value="120" />
-      <skill id="TwoHanded"
-             value="120" />
-      <skill id="Polearm"
-             value="15" />
-      <skill id="Bow"
-             value="120" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="120" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Riding" value="120"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="120"/>
+      <skill id="Polearm" value="15"/>
+      <skill id="Bow" value="120"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="120"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.lakepike_tier_2" />
+      <upgrade_target id="NPCCharacter.lakepike_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1445,31 +1167,25 @@
 				<equipment slot="Body" id="Item.light_tunic"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t1"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="lakepike_tier_2"
-                default_group="Infantry"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.sturgia"
-                name="{=E11VARAG_tr2}Varangian Mercenary">
+  <NPCCharacter id="lakepike_tier_2" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.sturgia" name="{=lakepike_tier_2.name}Varangian Mercenary">
     <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Bow" value="80" />
-      <skill id="OneHanded" value="170" />
-      <skill id="Polearm" value="170" />
-      <skill id="Riding" value="5" />
-      <skill id="Throwing" value="5" />
-      <skill id="TwoHanded" value="170" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Bow" value="80"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="Polearm" value="170"/>
+      <skill id="Riding" value="5"/>
+      <skill id="Throwing" value="5"/>
+      <skill id="TwoHanded" value="170"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.lakepike_tier_3" />
+      <upgrade_target id="NPCCharacter.lakepike_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1509,40 +1225,26 @@
 				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
 				<equipment slot="Leg" id="Item.plated_strip_boots"/>
 			</EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="lakepike_tier_3"
-                default_group="Infantry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.sturgia"
-                name="{=E11VARAG_tr3}Varangian Bodyguard">
+  <NPCCharacter id="lakepike_tier_3" default_group="Infantry" level="31" occupation="Soldier" culture="Culture.sturgia" name="{=lakepike_tier_3.name}Varangian Bodyguard">
 
     <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="150" />
-      <skill id="Riding"
-             value="5" />
-      <skill id="OneHanded"
-             value="260" />
-      <skill id="TwoHanded"
-             value="230" />
-      <skill id="Polearm"
-             value="260" />
-      <skill id="Bow"
-             value="1" />
-      <skill id="Crossbow"
-             value="1" />
-      <skill id="Throwing"
-             value="1" />
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="260"/>
+      <skill id="TwoHanded" value="230"/>
+      <skill id="Polearm" value="260"/>
+      <skill id="Bow" value="1"/>
+      <skill id="Crossbow" value="1"/>
+      <skill id="Throwing" value="1"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
 
 	        <EquipmentRoster>
@@ -1621,41 +1323,26 @@
 				<equipment slot="Body" id="Item.chain_hauberk_1"/>
 				<equipment slot="Leg" id="Item.mailchasseus_1"/>
 			</EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   <!-- brotherhood of woods - -->
-  <NPCCharacter id="brotherhood_of_woods_tier_1"
-                default_group="Ranged"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.aserai"
-                name="{=E11HOSPITAL_tr1}Sudanese Mercenary Archers">
+  <NPCCharacter id="brotherhood_of_woods_tier_1" default_group="Ranged" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai" name="{=brotherhood_of_woods_tier_1.name}Sudanese Mercenary Archers">
     <face>
-      <face_key_template value="BodyProperty.fighter_sudan" />
+      <face_key_template value="BodyProperty.fighter_sudan"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.brotherhood_of_woods_tier_2" />
+      <upgrade_target id="NPCCharacter.brotherhood_of_woods_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1696,35 +1383,22 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="brotherhood_of_woods_tier_2"
-                default_group="Ranged"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.aserai"
-                name="{=E11HOSPITAL_tr2}Sudanese Guard">
+  <NPCCharacter id="brotherhood_of_woods_tier_2" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.aserai" name="{=brotherhood_of_woods_tier_2.name}Sudanese Guard">
     <face>
-      <face_key_template value="BodyProperty.fighter_sudan" />
+      <face_key_template value="BodyProperty.fighter_sudan"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="20" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="130" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="90" />
-      <skill id="Crossbow"
-             value="60" />
-      <skill id="Throwing"
-             value="80" />
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="130"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="90"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="80"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.brotherhood_of_woods_tier_3" />
+      <upgrade_target id="NPCCharacter.brotherhood_of_woods_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1790,34 +1464,21 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="brotherhood_of_woods_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.aserai"
-                name="{=E11HOSPITAL_tr3}Sudanese Ghulam">
+  <NPCCharacter id="brotherhood_of_woods_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.aserai" name="{=brotherhood_of_woods_tier_3.name}Sudanese Ghulam">
     <face>
-      <face_key_template value="BodyProperty.fighter_sudan" />
+      <face_key_template value="BodyProperty.fighter_sudan"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
 
 	  	        <EquipmentRoster>
@@ -1857,36 +1518,22 @@
     </Equipments>
   </NPCCharacter>
   <!-- Embers of the Flame Troops - -->
-  <NPCCharacter id="embers_of_flame_tier_1"
-                default_group="HorseArcher"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.byzantine"
-                name="{=E11GEORG_tr1}Georgian Alan Rider">
+  <NPCCharacter id="embers_of_flame_tier_1" default_group="HorseArcher" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.byzantine" name="{=embers_of_flame_tier_1.name}Georgian Alan Rider">
     <face>
-      <face_key_template value="BodyProperty.fighter_byzantine" />
+      <face_key_template value="BodyProperty.fighter_byzantine"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="40" />
-    <skill id="Riding"
-           value="100" />
-    <skill id="OneHanded"
-           value="20" />
-    <skill id="TwoHanded"
-           value="20" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="100" />
-    <skill id="Crossbow"
-           value="10" />
-    <skill id="Throwing"
-           value="100" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="100"/>
+    <skill id="OneHanded" value="20"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="10"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.embers_of_flame_tier_2" />
+      <upgrade_target id="NPCCharacter.embers_of_flame_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1900,32 +1547,25 @@
 				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t1"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="embers_of_flame_tier_2"
-                default_group="HorseArcher"
-                level="26"
-                occupation="Soldier"
-				upgrade_requires="ItemCategory.war_horse"
-                culture="Culture.byzantine"
-                name="{=E11GEORG_tr2}Georgian Veteran Alan Rider">
+  <NPCCharacter id="embers_of_flame_tier_2" default_group="HorseArcher" level="26" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.byzantine" name="{=embers_of_flame_tier_2.name}Georgian Veteran Alan Rider">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Bow" value="170" />
-      <skill id="OneHanded" value="170" />
-      <skill id="Polearm" value="170" />
-      <skill id="Riding" value="170" />
-      <skill id="Throwing" value="170" />
-      <skill id="TwoHanded" value="100" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Bow" value="170"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="Polearm" value="170"/>
+      <skill id="Riding" value="170"/>
+      <skill id="Throwing" value="170"/>
+      <skill id="TwoHanded" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.embers_of_flame_tier_3" />
+      <upgrade_target id="NPCCharacter.embers_of_flame_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1939,39 +1579,25 @@
 				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="embers_of_flame_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.byzantine"
-                name="{=E11GEORG_tr3}Georgian Allied Monaspa">
+  <NPCCharacter id="embers_of_flame_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.byzantine" name="{=embers_of_flame_tier_3.name}Georgian Allied Monaspa">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="150" />
-      <skill id="Riding"
-             value="200" />
-      <skill id="OneHanded"
-             value="260" />
-      <skill id="TwoHanded"
-             value="1" />
-      <skill id="Polearm"
-             value="260" />
-      <skill id="Bow"
-             value="1" />
-      <skill id="Crossbow"
-             value="1" />
-      <skill id="Throwing"
-             value="1" />
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="200"/>
+      <skill id="OneHanded" value="260"/>
+      <skill id="TwoHanded" value="1"/>
+      <skill id="Polearm" value="260"/>
+      <skill id="Bow" value="1"/>
+      <skill id="Crossbow" value="1"/>
+      <skill id="Throwing" value="1"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -2012,42 +1638,27 @@
 				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   <!-- troop trees for mercenary nomad minor factions (4) -->
   <!-- jawwal - tuareg-style horsemen and half-naked infantry with wicker shields -->
-  <NPCCharacter id="jawwal_tier_1"
-                default_group="HorseArcher"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.persian"
-                name="{=E11DANISHMENDS_tr1}Danishmend Horse Archer">
+  <NPCCharacter id="jawwal_tier_1" default_group="HorseArcher" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.persian" name="{=jawwal_tier_1.name}Danishmend Horse Archer">
     <face>
-      <face_key_template value="BodyProperty.fighter_persian" />
+      <face_key_template value="BodyProperty.fighter_persian"/>
     </face>
     <skills>
-    <skill id="Athletics"
-            value="45" />
-    <skill id="Riding"
-           value="110" />
-    <skill id="OneHanded"
-           value="40" />
-    <skill id="TwoHanded"
-           value="40" />
-    <skill id="Polearm"
-           value="110" />
-    <skill id="Bow"
-           value="150" />
-    <skill id="Crossbow"
-           value="15" />
-    <skill id="Throwing"
-           value="15" />
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="110"/>
+    <skill id="Bow" value="150"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.jawwal_tier_2" />
+      <upgrade_target id="NPCCharacter.jawwal_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -2100,26 +1711,21 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="jawwal_tier_2"
-                default_group="HorseArcher"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.persian"
-                name="{=E11DANISHMENDS_tr2}Danishmend Veteran Horse Archer">
+  <NPCCharacter id="jawwal_tier_2" default_group="HorseArcher" level="26" occupation="Soldier" culture="Culture.persian" name="{=jawwal_tier_2.name}Danishmend Veteran Horse Archer">
     <face>
-      <face_key_template value="BodyProperty.fighter_persian" />
+      <face_key_template value="BodyProperty.fighter_persian"/>
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Bow" value="170" />
-      <skill id="OneHanded" value="170" />
-      <skill id="Polearm" value="170" />
-      <skill id="Riding" value="170" />
-      <skill id="Throwing" value="170" />
-      <skill id="TwoHanded" value="100" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Bow" value="170"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="Polearm" value="170"/>
+      <skill id="Riding" value="170"/>
+      <skill id="Throwing" value="170"/>
+      <skill id="TwoHanded" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.jawwal_tier_3" />
+      <upgrade_target id="NPCCharacter.jawwal_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -2174,35 +1780,21 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="jawwal_tier_3"
-                default_group="HorseArcher"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.persian"
-                name="{=E11DANISHMENDS_tr3}Danishmend Champion Horse Archer"
-                upgrade_requires="ItemCategory.war_horse">
+  <NPCCharacter id="jawwal_tier_3" default_group="HorseArcher" level="31" occupation="Soldier" culture="Culture.persian" name="{=jawwal_tier_3.name}Danishmend Champion Horse Archer" upgrade_requires="ItemCategory.war_horse">
     <face>
-      <face_key_template value="BodyProperty.fighter_persian" />
+      <face_key_template value="BodyProperty.fighter_persian"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="150" />
-      <skill id="Riding"
-             value="200" />
-      <skill id="OneHanded"
-             value="200" />
-      <skill id="TwoHanded"
-             value="1" />
-      <skill id="Polearm"
-             value="230" />
-      <skill id="Bow"
-             value="200" />
-      <skill id="Crossbow"
-             value="1" />
-      <skill id="Throwing"
-             value="1" />
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="200"/>
+      <skill id="OneHanded" value="200"/>
+      <skill id="TwoHanded" value="1"/>
+      <skill id="Polearm" value="230"/>
+      <skill id="Bow" value="200"/>
+      <skill id="Crossbow" value="1"/>
+      <skill id="Throwing" value="1"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.steppe_war_bow"/>
@@ -2251,41 +1843,26 @@
 				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="aserai_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   <!-- karakhuzaits - different headgear (scythian cap? hunnic hood?) but otherwise poorer-looking nomads -->
-  <NPCCharacter id="karakhuzaits_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.battania"
-                name="{=E11PECHENEGS_tr1}Anglo-Saxon Sellsword">
+  <NPCCharacter id="karakhuzaits_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.battania" name="{=karakhuzaits_tier_1.name}Anglo-Saxon Sellsword">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="40" />
-      <skill id="Riding"
-             value="40" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="15" />
-      <skill id="Polearm"
-             value="10" />
-      <skill id="Bow"
-             value="30" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="15" />
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="40"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="10"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="15"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.karakhuzaits_tier_2" />
+      <upgrade_target id="NPCCharacter.karakhuzaits_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -2326,26 +1903,21 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="karakhuzaits_tier_2"
-                default_group="Infantry"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11PECHENEGS_tr2}Anglo-Saxon Veteran Sellsword">
+  <NPCCharacter id="karakhuzaits_tier_2" default_group="Infantry" level="26" occupation="Soldier" culture="Culture.battania" name="{=karakhuzaits_tier_2.name}Anglo-Saxon Veteran Sellsword">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Bow" value="170" />
-      <skill id="OneHanded" value="170" />
-      <skill id="Polearm" value="170" />
-      <skill id="Riding" value="170" />
-      <skill id="Throwing" value="170" />
-      <skill id="TwoHanded" value="100" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Bow" value="170"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="Polearm" value="170"/>
+      <skill id="Riding" value="170"/>
+      <skill id="Throwing" value="170"/>
+      <skill id="TwoHanded" value="100"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.karakhuzaits_tier_3" />
+      <upgrade_target id="NPCCharacter.karakhuzaits_tier_3"/>
     </upgrade_targets>
     <Equipments>
      		  <EquipmentRoster>
@@ -2407,34 +1979,21 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="karakhuzaits_tier_3"
-                default_group="Infantry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11PECHENEGS_tr3}Anglo-Saxon Exiled Noble">
+  <NPCCharacter id="karakhuzaits_tier_3" default_group="Infantry" level="31" occupation="Soldier" culture="Culture.battania" name="{=karakhuzaits_tier_3.name}Anglo-Saxon Exiled Noble">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="150" />
-      <skill id="Riding"
-             value="200" />
-      <skill id="OneHanded"
-             value="200" />
-      <skill id="TwoHanded"
-             value="150" />
-      <skill id="Polearm"
-             value="200" />
-      <skill id="Bow"
-             value="5" />
-      <skill id="Crossbow"
-             value="1" />
-      <skill id="Throwing"
-             value="1" />
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="200"/>
+      <skill id="OneHanded" value="200"/>
+      <skill id="TwoHanded" value="150"/>
+      <skill id="Polearm" value="200"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="1"/>
+      <skill id="Throwing" value="1"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
 			    <EquipmentRoster>
 				<equipment slot="Item0" id="Item.northern_axe_t3"/>
@@ -2469,36 +2028,22 @@
     </Equipments>
   </NPCCharacter>
   <!-- forest people/sturgia  -->
-  <NPCCharacter id="forest_people_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr1}Welsh Spearman">
+  <NPCCharacter id="forest_people_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.battania" name="{=forest_people_tier_1.name}Welsh Spearman">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.forest_people_tier_2" />
+      <upgrade_target id="NPCCharacter.forest_people_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -2528,41 +2073,27 @@
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
 
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t1"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="forest_people_tier_2"
-                default_group="Ranged"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr2}Welsh Longbowman">
+  <NPCCharacter id="forest_people_tier_2" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.battania" name="{=forest_people_tier_2.name}Welsh Longbowman">
 				
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="130" />
-    <skill id="Riding"
-           value="80" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="30" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="160" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="130"/>
+    <skill id="Riding" value="80"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="160"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.forest_people_tier_3" />
+      <upgrade_target id="NPCCharacter.forest_people_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -2593,40 +2124,25 @@
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
 
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="forest_people_tier_3"
-                default_group="Cavalry"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr3}Welsh Allied Uchelwr"
-				upgrade_requires="ItemCategory.war_horse">
+  <NPCCharacter id="forest_people_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.battania" name="{=forest_people_tier_3.name}Welsh Allied Uchelwr" upgrade_requires="ItemCategory.war_horse">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="130" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+    <skill id="Athletics" value="130"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -2658,41 +2174,26 @@
 				<equipment slot="Horse" id="Item.noble_horse_battania"/>
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   <!-- eleftheroi/empire -  -->
-  <NPCCharacter id="eleftheroi_tier_1"
-                default_group="Infantry"
-                level="21"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.italian"
-                name="{=E11JAMES_tr1}Order Brother of Saint James">
+  <NPCCharacter id="eleftheroi_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.italian" name="{=eleftheroi_tier_1.name}Order Brother of Saint James">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="100" />
-    <skill id="Riding"
-           value="15" />
-    <skill id="OneHanded"
-           value="100" />
-    <skill id="TwoHanded"
-           value="100" />
-    <skill id="Polearm"
-           value="100" />
-    <skill id="Bow"
-           value="45" />
-    <skill id="Crossbow"
-           value="45" />
-    <skill id="Throwing"
-           value="60" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.eleftheroi_tier_2" />
+      <upgrade_target id="NPCCharacter.eleftheroi_tier_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -2713,40 +2214,26 @@
 				<equipment slot="Body" id="Item.sackcloth_tunic"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t1"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eleftheroi_tier_2"
-                default_group="Cavalry"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.italian"
-                name="{=E11JAMES_tr2}Serjeant of Saint James">
+  <NPCCharacter id="eleftheroi_tier_2" default_group="Cavalry" level="26" occupation="Soldier" culture="Culture.italian" name="{=eleftheroi_tier_2.name}Serjeant of Saint James">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="20" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="130" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="60" />
-      <skill id="Crossbow"
-             value="60" />
-      <skill id="Throwing"
-             value="80" />
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="130"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="80"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.eleftheroi_tier_3" />
+      <upgrade_target id="NPCCharacter.eleftheroi_tier_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -2773,40 +2260,25 @@
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
 
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eleftheroi_tier_3"
-                default_group="Cavalry"
-                level="21"
-                occupation="Soldier"
-                culture="Culture.italian"
-               upgrade_requires="ItemCategory.war_horse"
-			   name="{=E11JAMES_tr3}Knight of Saint James">
+  <NPCCharacter id="eleftheroi_tier_3" default_group="Cavalry" level="21" occupation="Soldier" culture="Culture.italian" upgrade_requires="ItemCategory.war_horse" name="{=eleftheroi_tier_3.name}Knight of Saint James">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
     <skills>
-    <skill id="Athletics"
-           value="130" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="220" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="50" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="40" />
+    <skill id="Athletics" value="130"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="220"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="50"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="40"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
@@ -2841,46 +2313,29 @@
 				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   <!-- end of minor faction troop trees -->
   
 <!--Tavern Mercs-->
 
-<NPCCharacter id="sword_sisters_sister_t3"
-                is_female="false"
-                default_group="Infantry"
-                is_hero="false"
-                is_basic_troop="true"
-                level="16"
-                name="{=E11TAVERN_tr1}Crusader Spearman"
-                occupation="Mercenary"
-                culture="Culture.vlandia">
+<NPCCharacter id="sword_sisters_sister_t3" is_female="false" default_group="Infantry" is_hero="false" is_basic_troop="true" level="16" name="{=sword_sisters_sister_t3.name}Crusader Spearman" occupation="Mercenary" culture="Culture.vlandia">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="70" />
-      <skill id="Riding"
-             value="20" />
-      <skill id="OneHanded"
-             value="65" />
-      <skill id="TwoHanded"
-             value="30" />
-      <skill id="Polearm"
-             value="65" />
-      <skill id="Bow"
-             value="10" />
-      <skill id="Crossbow"
-             value="60" />
-      <skill id="Throwing"
-             value="30" />
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="65"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="65"/>
+      <skill id="Bow" value="10"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="30"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sword_sisters_sister_t4" />
+      <upgrade_target id="NPCCharacter.sword_sisters_sister_t4"/>
     </upgrade_targets>
     <Equipments>
     			<EquipmentRoster>
@@ -2928,43 +2383,27 @@
 				<equipment slot="Cape" id="Item.steelcross1"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
-      <EquipmentSet id="vlandia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="sword_sisters_sister_t4"
-                is_female="false"
-                default_group="Infantry"
-                is_hero="false"
-                level="21"
-                name="{=E11TAVERN_tr2}Veteran Crusader Spearman"
-                occupation="Mercenary"
-                culture="Culture.vlandia">
+  <NPCCharacter id="sword_sisters_sister_t4" is_female="false" default_group="Infantry" is_hero="false" level="21" name="{=sword_sisters_sister_t4.name}Veteran Crusader Spearman" occupation="Mercenary" culture="Culture.vlandia">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="110" />
-      <skill id="Riding"
-             value="60" />
-      <skill id="OneHanded"
-             value="110" />
-      <skill id="TwoHanded"
-             value="45" />
-      <skill id="Polearm"
-             value="110" />
-      <skill id="Bow"
-             value="15" />
-      <skill id="Crossbow"
-             value="90" />
-      <skill id="Throwing"
-             value="20" />
+      <skill id="Athletics" value="110"/>
+      <skill id="Riding" value="60"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="45"/>
+      <skill id="Polearm" value="110"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="90"/>
+      <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sword_sisters_sister_t5" />
-      <upgrade_target id="NPCCharacter.sword_sisters_sister_infantry_t5" />
+      <upgrade_target id="NPCCharacter.sword_sisters_sister_t5"/>
+      <upgrade_target id="NPCCharacter.sword_sisters_sister_infantry_t5"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -3022,39 +2461,23 @@
 				<equipment slot="Body" id="Item.tundra_tunic"/>
 				<equipment slot="Leg" id="Item.rough_tied_boots"/>
 			</EquipmentRoster>
-      <EquipmentSet id="vlandia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="sword_sisters_sister_t5"
-                is_female="false"
-                default_group="Infantry"
-                is_hero="false"
-                level="26"
-                name="{=E11TAVERN_tr4}Crusader Foot Knight"
-                occupation="Mercenary"
-                culture="Culture.vlandia">
+  <NPCCharacter id="sword_sisters_sister_t5" is_female="false" default_group="Infantry" is_hero="false" level="26" name="{=sword_sisters_sister_t5.name}Crusader Foot Knight" occupation="Mercenary" culture="Culture.vlandia">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="70" />
-      <skill id="Riding"
-             value="130" />
-      <skill id="OneHanded"
-             value="120" />
-      <skill id="TwoHanded"
-             value="45" />
-      <skill id="Polearm"
-             value="120" />
-      <skill id="Bow"
-             value="15" />
-      <skill id="Crossbow"
-             value="20" />
-      <skill id="Throwing"
-             value="20" />
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="45"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="20"/>
     </skills>
     <Equipments>
 	      	<EquipmentRoster>	
@@ -3145,40 +2568,23 @@
 				<equipment slot="Leg" id="Item.mailchasseus_1"/>
 
       </EquipmentRoster>
-      <EquipmentSet id="vlandia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="sword_sisters_sister_infantry_t5"
-                is_female="false"
-                default_group="Cavalry"
-                is_hero="false"
-                level="26"
-                name="{=E11TAVERN_tr3}Hospitaller Knight"
-				upgrade_requires="ItemCategory.war_horse"
-                occupation="Mercenary"
-                culture="Culture.vlandia">
+  <NPCCharacter id="sword_sisters_sister_infantry_t5" is_female="false" default_group="Cavalry" is_hero="false" level="26" name="{=sword_sisters_sister_infantry_t5.name}Hospitaller Knight" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.vlandia">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="50" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="45" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="15" />
-      <skill id="Crossbow"
-             value="150" />
-      <skill id="Throwing"
-             value="20" />
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="50"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="45"/>
+      <skill id="Polearm" value="45"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="150"/>
+      <skill id="Throwing" value="20"/>
     </skills>
     <Equipments>
       <EquipmentRoster>
@@ -3277,42 +2683,26 @@
 				<equipment slot="Horse" id="Item.t3_empire_horse"/>
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
       </EquipmentRoster>
-	      <EquipmentSet id="vlandia_troop_civilian_template_t3"
-                    civilian="true" />
+	      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eastern_mercenary"
-                default_group="Infantry"
-                level="16"
-                name="{=E11TAVERN_tr5}Outremer Swordsman"
-                occupation="Mercenary"
-                is_basic_troop="true"
-                is_hero="false"
-                culture="Culture.vlandia">
+  <NPCCharacter id="eastern_mercenary" default_group="Infantry" level="16" name="{=eastern_mercenary.name}Outremer Swordsman" occupation="Mercenary" is_basic_troop="true" is_hero="false" culture="Culture.vlandia">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="70" />
-      <skill id="Riding"
-             value="70" />
-      <skill id="OneHanded"
-             value="70" />
-      <skill id="TwoHanded"
-             value="30" />
-      <skill id="Polearm"
-             value="70" />
-      <skill id="Bow"
-             value="40" />
-      <skill id="Crossbow"
-             value="10" />
-      <skill id="Throwing"
-             value="70" />
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="70"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="10"/>
+      <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.eastern_mercenary_t4" />
+      <upgrade_target id="NPCCharacter.eastern_mercenary_t4"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -3352,40 +2742,26 @@
 				<equipment slot="Body" id="Item.levy_gambeson_1"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
 			</EquipmentRoster>
-      <EquipmentSet id="vlandia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eastern_mercenary_t4"
-                default_group="Ranged"
-                level="21"
-                name="{=E11TAVERN_tr6}Crusader Crossbowman"
-                occupation="Mercenary"
-                culture="Culture.vlandia">
+  <NPCCharacter id="eastern_mercenary_t4" default_group="Ranged" level="21" name="{=eastern_mercenary_t4.name}Crusader Crossbowman" occupation="Mercenary" culture="Culture.vlandia">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="100" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="100" />
-      <skill id="TwoHanded"
-             value="80" />
-      <skill id="Polearm"
-             value="100" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="100" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="100"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="45"/>
+      <skill id="Crossbow" value="100"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.eastern_mercenary_t5" />
+      <upgrade_target id="NPCCharacter.eastern_mercenary_t5"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -3428,39 +2804,25 @@
 				<equipment slot="Body" id="Item.gambeson_levy1"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
 			</EquipmentRoster>
-      <EquipmentSet id="vlandia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eastern_mercenary_t5"
-                default_group="Ranged"
-                level="26"
-                name="{=E11TAVERN_tr7}Crusader Master Crossbowman"
-                occupation="Mercenary"
-                culture="Culture.vlandia">
+  <NPCCharacter id="eastern_mercenary_t5" default_group="Ranged" level="26" name="{=eastern_mercenary_t5.name}Crusader Master Crossbowman" occupation="Mercenary" culture="Culture.vlandia">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia" />
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="130" />
-      <skill id="OneHanded"
-             value="140" />
-      <skill id="TwoHanded"
-             value="130" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="40" />
-      <skill id="Crossbow"
-             value="10" />
-      <skill id="Throwing"
-             value="130" />
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="140"/>
+      <skill id="TwoHanded" value="130"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="10"/>
+      <skill id="Throwing" value="130"/>
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.crossbow_d"/>
@@ -3492,41 +2854,26 @@
 				<equipment slot="Body" id="Item.surcoat_6"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
       </EquipmentRoster>
-      <EquipmentSet id="vlandia_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eastern_mounted_mercenary_t4"
-                default_group="HorseArcher"
-                is_hero="false"
-                level="21"
-                name="{=E11TAVERN_tr8}Mercenary Turkopole"
-                occupation="Mercenary"
-                culture="Culture.neutral_culture">
+  <NPCCharacter id="eastern_mounted_mercenary_t4" default_group="HorseArcher" is_hero="false" level="21" name="{=eastern_mounted_mercenary_t4.name}Mercenary Turkopole" occupation="Mercenary" culture="Culture.neutral_culture">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="110" />
-      <skill id="Riding"
-             value="120" />
-      <skill id="OneHanded"
-             value="120" />
-      <skill id="TwoHanded"
-             value="30" />
-      <skill id="Polearm"
-             value="120" />
-      <skill id="Bow"
-             value="120" />
-      <skill id="Crossbow"
-             value="5" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="110"/>
+      <skill id="Riding" value="120"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Bow" value="120"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.eastern_mounted_mercenary_t5" />
+      <upgrade_target id="NPCCharacter.eastern_mounted_mercenary_t5"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -3561,34 +2908,25 @@
 				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t3"
-                    civilian="true" />
-      <equipment slot="Horse"
-                 id="Item.noble_horse_eastern" />
-      <equipment slot="HorseHarness"
-                 id="Item.steppe_harness" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+      <equipment slot="Horse" id="Item.noble_horse_eastern"/>
+      <equipment slot="HorseHarness" id="Item.steppe_harness"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eastern_mounted_mercenary_t5"
-                default_group="HorseArcher"
-                is_hero="false"
-                level="26"
-                name="{=E11TAVERN_tr9}Veteran Mercenary Turkopole"
-                occupation="Mercenary"
-                culture="Culture.neutral_culture">
+  <NPCCharacter id="eastern_mounted_mercenary_t5" default_group="HorseArcher" is_hero="false" level="26" name="{=eastern_mounted_mercenary_t5.name}Veteran Mercenary Turkopole" occupation="Mercenary" culture="Culture.neutral_culture">
     <face>
-      <face_key_template value="BodyProperty.fighter_khuzait" />
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Bow" value="150" />
-      <skill id="OneHanded" value="150" />
-      <skill id="Polearm" value="150" />
-      <skill id="Riding" value="150" />
-      <skill id="Throwing" value="150" />
-      <skill id="TwoHanded" value="100" />
-	  <skill id="Crossbow" value="5" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Bow" value="150"/>
+      <skill id="OneHanded" value="150"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Riding" value="150"/>
+      <skill id="Throwing" value="150"/>
+      <skill id="TwoHanded" value="100"/>
+	  <skill id="Crossbow" value="5"/>
     </skills>
     <Equipments>
       <EquipmentRoster>
@@ -3638,46 +2976,28 @@
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t3"
-                    civilian="true" />
-      <equipment slot="Horse"
-                 id="Item.noble_horse_eastern" />
-      <equipment slot="HorseHarness"
-                 id="Item.steppe_fur_harness" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+      <equipment slot="Horse" id="Item.noble_horse_eastern"/>
+      <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="western_mercenary"
-                default_group="Infantry"
-                level="16"
-                name="{=E11TAVERN_tr10}Wendish Mercenary"
-                occupation="Mercenary"
-                is_basic_troop="true"
-                is_hero="false"
-                culture="Culture.neutral_culture">
+  <NPCCharacter id="western_mercenary" default_group="Infantry" level="16" name="{=western_mercenary.name}Wendish Mercenary" occupation="Mercenary" is_basic_troop="true" is_hero="false" culture="Culture.neutral_culture">
     <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="70" />
-      <skill id="Riding"
-             value="40" />
-      <skill id="OneHanded"
-             value="70" />
-      <skill id="TwoHanded"
-             value="30" />
-      <skill id="Polearm"
-             value="70" />
-      <skill id="Bow"
-             value="40" />
-      <skill id="Crossbow"
-             value="10" />
-      <skill id="Throwing"
-             value="30" />
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="40"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="10"/>
+      <skill id="Throwing" value="30"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.western_mercenary_t4" />
+      <upgrade_target id="NPCCharacter.western_mercenary_t4"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -3712,40 +3032,26 @@
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
       </EquipmentRoster>
-      <EquipmentSet id="vlandia_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="western_mercenary_t4"
-                default_group="Infantry"
-                level="21"
-				name="{=E11TAVERN_tr11}Veteran Wendish Mercenary"
-                occupation="Mercenary"
-                culture="Culture.neutral_culture">
+  <NPCCharacter id="western_mercenary_t4" default_group="Infantry" level="21" name="{=western_mercenary_t4.name}Veteran Wendish Mercenary" occupation="Mercenary" culture="Culture.neutral_culture">
     <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="110" />
-      <skill id="Riding"
-             value="60" />
-      <skill id="OneHanded"
-             value="90" />
-      <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
-             value="100" />
-      <skill id="Bow"
-             value="15" />
-      <skill id="Crossbow"
-             value="45" />
-      <skill id="Throwing"
-             value="120" />
+      <skill id="Athletics" value="110"/>
+      <skill id="Riding" value="60"/>
+      <skill id="OneHanded" value="90"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="45"/>
+      <skill id="Throwing" value="120"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.western_mercenary_t5" />
+      <upgrade_target id="NPCCharacter.western_mercenary_t5"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -3782,37 +3088,23 @@
 				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
 
       </EquipmentRoster>
-      <EquipmentSet id="vlandia_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="western_mercenary_t5"
-                default_group="Cavalry"
-                level="26"
-                name="{=E11TAVERN_tr12}Wendish Exiled Noble"
-                occupation="Mercenary"
-                culture="Culture.neutral_culture">
+  <NPCCharacter id="western_mercenary_t5" default_group="Cavalry" level="26" name="{=western_mercenary_t5.name}Wendish Exiled Noble" occupation="Mercenary" culture="Culture.neutral_culture">
     <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="160" />
-      <skill id="OneHanded"
-             value="150" />
-      <skill id="TwoHanded"
-             value="5" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="20" />
-      <skill id="Crossbow"
-             value="60" />
-      <skill id="Throwing"
-             value="5" />
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="160"/>
+      <skill id="OneHanded" value="150"/>
+      <skill id="TwoHanded" value="5"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="20"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="5"/>
     </skills>
     <Equipments>
       <EquipmentRoster>
@@ -3856,40 +3148,26 @@
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
 				</EquipmentRoster>
 	  
-      <EquipmentSet id="vlandia_troop_civilian_template_t2"
-                    civilian="true" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="western_crossbow_t4"
-                default_group="Ranged"
-                level="26"
-                occupation="Soldier"
-                culture="Culture.italian"
-                name="{=E11GENOESE_tr2}Genoese Mercenary Crossbowman">
+  <NPCCharacter id="western_crossbow_t4" default_group="Ranged" level="26" occupation="Soldier" culture="Culture.italian" name="{=western_crossbow_t4.name}Genoese Mercenary Crossbowman">
     <face>
-      <face_key_template value="BodyProperty.fighter_italian" />
+      <face_key_template value="BodyProperty.fighter_italian"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="100" />
-      <skill id="Riding"
-             value="60" />
-      <skill id="OneHanded"
-             value="90" />
-      <skill id="TwoHanded"
-             value="45" />
-      <skill id="Polearm"
-             value="45" />
-      <skill id="Bow"
-             value="15" />
-      <skill id="Crossbow"
-             value="110" />
-      <skill id="Throwing"
-             value="60" />
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="60"/>
+      <skill id="OneHanded" value="90"/>
+      <skill id="TwoHanded" value="45"/>
+      <skill id="Polearm" value="45"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="110"/>
+      <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.western_crossbow_t5" />
+      <upgrade_target id="NPCCharacter.western_crossbow_t5"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
@@ -3932,37 +3210,23 @@
 				<equipment slot="Body" id="Item.gambeson_levy1"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
 			</EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="western_crossbow_t5"
-                default_group="Ranged"
-                level="31"
-                occupation="Soldier"
-                culture="Culture.italian"
-                name="{=E11GENOESE_tr3}Genoese Veteran Mercenary Crossbowman">
+  <NPCCharacter id="western_crossbow_t5" default_group="Ranged" level="31" occupation="Soldier" culture="Culture.italian" name="{=western_crossbow_t5.name}Genoese Veteran Mercenary Crossbowman">
     <face>
-      <face_key_template value="BodyProperty.fighter_italian" />
+      <face_key_template value="BodyProperty.fighter_italian"/>
     </face>
     <skills>
-      <skill id="Athletics"
-             value="120" />
-      <skill id="Riding"
-             value="30" />
-      <skill id="OneHanded"
-             value="140" />
-      <skill id="TwoHanded"
-             value="70" />
-      <skill id="Polearm"
-             value="60" />
-      <skill id="Bow"
-             value="80" />
-      <skill id="Crossbow"
-             value="140" />
-      <skill id="Throwing"
-             value="50" />
+      <skill id="Athletics" value="120"/>
+      <skill id="Riding" value="30"/>
+      <skill id="OneHanded" value="140"/>
+      <skill id="TwoHanded" value="70"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="140"/>
+      <skill id="Throwing" value="50"/>
     </skills>
     <Equipments>
       <EquipmentRoster>
@@ -3995,8 +3259,7 @@
 				<equipment slot="Body" id="Item.surcoat_6"/>
 				<equipment slot="Leg" id="Item.poor_el_boots1"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   

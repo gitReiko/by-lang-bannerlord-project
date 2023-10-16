@@ -3121,21 +3121,21 @@
     </upgrade_targets>
     <Equipments>
     			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
 				<equipment slot="Item1" id="Item.desert_round_shield"/>
 				<equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
 				<equipment slot="Body" id="Item.eastern_silk_clothing"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
 				<equipment slot="Item1" id="Item.desert_round_shield"/>
 				<equipment slot="Head" id="Item.desert_cap"/>
 				<equipment slot="Body" id="Item.steppe_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
 				<equipment slot="Item1" id="Item.desert_round_shield"/>
 				<equipment slot="Head" id="Item.desert_cap"/>
 				<equipment slot="Body" id="Item.tassled_southern_robes"/>
@@ -3396,7 +3396,6 @@
 				<equipment slot="Item0" id="Item.steppe_war_bow"/>
 				<equipment slot="Item1" id="Item.steppe_arrows"/>
 				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
-				<equipment slot="Item3" id="Item.desert_round_shield"/>
 				<equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
 				<equipment slot="Body" id="Item.eastern_silk_clothing"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
@@ -3405,9 +3404,9 @@
   </NPCCharacter>
   
   <NPCCharacter id="seljuk_veteran_tribal_archer"
-                default_group="Ranged"
+                default_group="Infantry"
                 level="16"
-                name="{=E11PEt10}Seljuk Veteran Tribal Archer"
+                name="{=E11PEt10}Seljuk Light Footman"
                 occupation="Soldier"
                 culture="Culture.persian">
     <face>
@@ -3436,26 +3435,23 @@
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.steppe_arrows"/>
-				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.desert_round_shield"/>
 				<equipment slot="Head" id="Item.steppe_helmet"/>
 				<equipment slot="Body" id="Item.desert_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.steppe_arrows"/>
-				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
 				<equipment slot="Head" id="Item.steppe_helmet"/>
 				<equipment slot="Body" id="Item.desert_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.steppe_arrows"/>
-				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
 				<equipment slot="Head" id="Item.steppe_helmet"/>
 				<equipment slot="Body" id="Item.eastern_silk_clothing"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
@@ -3464,7 +3460,7 @@
   </NPCCharacter>
   
   <NPCCharacter id="seljuk_tribal_skirmisher"
-                default_group="Infantry"
+                default_group="Ranged"
                 level="21"
                 name="{=E11PEt10}Seljuk Heavy Archers"
                 occupation="Soldier"
@@ -3497,7 +3493,7 @@
 				<equipment slot="Item0" id="Item.steppe_war_bow"/>
 				<equipment slot="Item1" id="Item.steppe_arrows"/>
 				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
-				<equipment slot="Item3" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.studded_round_shield"/>
 				<equipment slot="Head" id="Item.steppe_helmet"/>
 				<equipment slot="Body" id="Item.leather_lamellar_armor"/>
 				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
@@ -3508,7 +3504,7 @@
 				<equipment slot="Item0" id="Item.steppe_war_bow"/>
 				<equipment slot="Item1" id="Item.steppe_arrows"/>
 				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
-				<equipment slot="Item3" id="Item.desert_round_shield"/>
+				<equipment slot="Item3" id="Item.studded_round_shield"/>
 				<equipment slot="Head" id="Item.steppe_helmet"/>
 				<equipment slot="Body" id="Item.leather_lamellar_armor"/>
 				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
@@ -3565,7 +3561,6 @@
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
 				<equipment slot="Item1" id="Item.steppe_arrows"/>
 				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
-				<equipment slot="Item3" id="Item.desert_round_shield"/>
 				<equipment slot="Head" id="Item.steppe_helmet"/>
 				<equipment slot="Body" id="Item.desert_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
@@ -3576,7 +3571,6 @@
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
 				<equipment slot="Item1" id="Item.steppe_arrows"/>
 				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
-				<equipment slot="Item3" id="Item.desert_round_shield"/>
 				<equipment slot="Head" id="Item.steppe_helmet"/>
 				<equipment slot="Body" id="Item.steppe_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
@@ -3587,7 +3581,6 @@
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
 				<equipment slot="Item1" id="Item.steppe_arrows"/>
 				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
-				<equipment slot="Item3" id="Item.desert_round_shield"/>
 				<equipment slot="Head" id="Item.steppe_helmet"/>
 				<equipment slot="Body" id="Item.desert_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
@@ -3637,19 +3630,19 @@
 				<equipment slot="Body" id="Item.desert_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
 				<equipment slot="Item1" id="Item.steppe_arrows"/>
 				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
 				<equipment slot="Item3" id="Item.desert_round_shield"/>
-				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
 				<equipment slot="Head" id="Item.nordic_helmet"/>
 				<equipment slot="Body" id="Item.steppe_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
@@ -3662,6 +3655,18 @@
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item3" id="Item.desert_round_shield"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.nordic_helmet"/>
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -3717,8 +3722,8 @@
 				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
 				<equipment slot="Item3" id="Item.steel_round_shield"/>
 				<equipment slot="Head" id="Item.nordic_helmet"/>
-				<equipment slot="Cape" id="Item.empire_cape_a"/>
-				<equipment slot="Body" id="Item.eastern_lamellar_armor"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.leather_lamellar_armor"/>
 				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
@@ -3762,7 +3767,19 @@
 
 
 						<EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Head" id="Item.goggled_helmet_over_full_mail"/>
+				<equipment slot="Body" id="Item.byz_noble_armor1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+									<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
 				<equipment slot="Item1" id="Item.steel_round_shield"/>
 				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
 				<equipment slot="Item3" id="Item.khuzait_noble_sword_2_t5"/>
@@ -3808,18 +3825,41 @@
     <Equipments>
 
 			    <EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
 				<equipment slot="Item1" id="Item.steel_round_shield"/>
 				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
 				<equipment slot="Item3" id="Item.khuzait_noble_sword_2_t5"/>
 				<equipment slot="Head" id="Item.seljuk_helmet_1"/>
 				<equipment slot="Body" id="Item.khazangand_1"/>
 				<equipment slot="Leg" id="Item.mailchasseus_1"/>
-				<equipment slot="Cape" id="Item.cape_1" />
+				<equipment slot="Cape" id="Item.cape_heavy_11" />
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 			</EquipmentRoster>
-
+			    <EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.seljuk_helmet_1"/>
+				<equipment slot="Body" id="Item.khazangand_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a" />
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+						    <EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.seljuk_helmet_1"/>
+				<equipment slot="Body" id="Item.khazangand_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11" />
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
 
