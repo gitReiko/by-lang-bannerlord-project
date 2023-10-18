@@ -70,25 +70,25 @@ VAR MadeDealWithCultists = false
     *[Пакінуць.] -> START.choices
 
     =succeed
-    As you examine the vial with a growing sense of alarm, your trained eye recognizes the contents for what they truly are — an insidious agent of the contagion, a potent and vile substance that fuels the very plague consuming the village.
+    Па меры нарастаньня пачуцьця трывогі, вы аглядаеце бутэльку, вашае нарыхтаванае вока распазнае ў яго зьмесціве рэчыва, якое насамрэч з'яўляецца - падступным узбуджальнікам хваробы, магутную і гідкую матэрыю, якая падсілкоўвае саму чуму, што раз'ядае вёску.
     ~found_vial = true
     ->choices
     
     =fail
-    As you examine the vial with a perplexed expression, you can't quite place its purpose or contents, lacking the necessary medical knowledge to discern its true nature. -> choices
+    Вы разглядаеце бутэльку з разгубленым выразам твару і ня можаце вызначыць яе прызначэньне і зьмесьціва, бо не валодаеце патрэбнымі медычнымі ведамі дзеля распазнаньня сапраўднай прыроды. -> choices
 
     =inquire
-    You direct your gaze towards the healer and ask directly about the peculiar vial. 
-    "What is the purpose of this vial? Its contents appear unlike any remedy I have encountered," you inquire, your tone laced with a mix of curiosity and caution. 
-    The healer meets your gaze, their eyes briefly flickering with unease before they respond in a reassuring voice, "Ah, that vial contains a potent extract of a rare herb—a key ingredient in a powerful disinfectant. It aids in curbing the spread of the disease, ensuring the safety of both the afflicted and the healthy." Their words are accompanied by a calm smile, masking any underlying apprehension. 
+    Вы накіроўваеце свой пагляд на лекара і наўпрост пытаеце пра незвычайную бутэльку. 
+    "Якое прызначэньне мае гэтая бутэлька? Яе зьмесьціва не падобнае на ніводную вядомую мне рэч." - пытаеце вы, у вашым тоне адчуваецца цікаўнасьць і асцярожнасьць. 
+    Лекар сустракае вашы погляд, у яго вачах на імгненьне мільгае занепакоенасьць, але потым ён адказвае супакойным голасам: "Вой, у гэтай бутэльцы ўтрымваецца магутны экстракт рэдкай травы - ключавы інгрэдыент магутнага дэзынфектавальнага сродку. Ён дапамагае стрымліваць распаўсюджваньне хваробы, забясьпечвае бясьпеку як хворых, гэтак і здаровых" - яго словы суправаджаюцца спакойнай усьмешкай, што маскуе схаваныя боязі. 
     ~suspicious = true
     -> choices
 
 ===ObserveVillage===
 
-You walk the desolate streets, your eyes keenly scanning the surroundings for any signs that might reveal the truth behind the plague and the rumors of cultist activity. Among the dilapidated buildings and the suffering inhabitants, you notice subtle details that pique your interest.
+Вы ідзяце па пустэльных вуліцах, уважліва аглядаеце навакольле ў пошуках адзнак, якія маглі выявіць праўду пра чуму і чуткі пра дзейнасьць культыстаў. Сярод паўразбураных будынкаў і пакутуючых жыхароў вы заўважаеце ледзь заўважныя дэталі, якія выклікаюць у вас цікавасьць.
 
-A faded sigil etched on a crumbling wall catches your eye. It bears a resemblance to symbols associated with the chaos god Nurgle, hinting at a possible connection to the cultist rumors. Seeing the plague, you already suspected as much, but its presence alone is not enough to confirm the truth.
+У вочы кідаецца выцьвілы знак, выгравіраваны на паўразбуранай сьцяне. Ён напамінае сымбаль бога хаосу Нургла і намякае на магчымую сувязь з чуткамі пра культыстаў. Убачыўшы чуму, вы ўжо здагадаліся пра гэтае, але адной яе наяўнасьці недастаткова для пацьверджаньня праўды.
 
 Amidst the desolation, you notice a peculiar pattern. Your eyes are drawn to certain individuals who defy the affliction that plagues the rest. Mid-aged males between the ages of thirty and forty, they exude an extraordinary level of health and vitality. Their robust, muscular builds stand as a stark contrast to the frail, emaciated figures that surround them. Their cheeks bear a healthy flush, glowing with vitality, while their eyes sparkle with resilience and strength. Their very presence seems to radiate life amidst the gloom.
 
