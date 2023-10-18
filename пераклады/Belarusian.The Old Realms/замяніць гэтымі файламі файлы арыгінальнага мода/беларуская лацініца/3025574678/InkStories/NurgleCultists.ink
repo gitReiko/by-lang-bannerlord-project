@@ -55,19 +55,19 @@ Słovy žycharoŭ vioski zdajucca vam dziŭnymi, bo kali ich apoviedy praŭdzivy
 
 ===AtTheHealers===
 ~met_healer=true
-As you step into the healers dwelling, a scene unfolds before your eyes that both captivates and unsettles. The room is filled with patients, their pallid faces marked by the ravages of the plague. Some lay on cots, writhing in pain, while others sit in chairs, waiting anxiously for their turn to receive treatment. 
+Kali vy ŭvachodzicie ŭ žyllo lekara, pierad vašymi vačami razhortvajecca karcina, jakaja adnačasna začaroŭvaje i naściarožvaje. Pamiaškańnie zapoŭniena pacyjentami, na ich blednych tvarach bačny ślady čumy. Adny lažać na łožkach, kryviačysia ad bolu, inšyja siadziać u kresłach, z nieciarpieńniem čakajučy svajoj čarhi na lačeńnie. 
 
-The healer moves through the room, their movements graceful yet purposeful. They offer soothing words of comfort, their touch gentle and assured. Shelves lining the walls bear the weight of countless vials, jars, and medical instruments. The flickering candlelight casts eerie shadows, revealing glimpses of the healers dedication and the tools of their trade.
+Lekar saŭhajecca pa pakoi, jaho ruchi hracyjoznyja i metanakiravanyja. Jon pramaŭlaje zaspakajalnyja słovy, jaho dakranańni dalikatnyja i ŭpeŭnienyja. Na palicach uzdoŭž ścien stajać niezličonyja plašački, słoički i miedyčnyja pryłady. Mihatlivaje śviatło śviečak adkidaje žudasnyja cieni, adkryvajučy pahladu samaaddanaść lekara i pryłady jaho ramiastva.
 
-Amidst the array of medicinal herbs and potions, your gaze lands on something seemingly out of place — a curious vial of dark, viscous liquid that stands apart from the rest. -> choices 
+Siarod mnostva lekavych travaŭ i ziołak vašy pohlad spyniajecca na niečym niezvyčajnym - dziŭnaj sklancy z ciomnaj, hlejkaj vadkaściu, što staić ubaku ad astatnich. -> choices 
 
     =choices
-    *[Examine the curious vial. {print_player_skill_chance("Medicine", EASYSKILLCHECK)}]
+    *[Ahladzieć cikavuju butelku. {print_player_skill_chance("Medicine", EASYSKILLCHECK)}]
         {perform_player_skill_check("Medicine", EASYSKILLCHECK): -> succeed | -> fail}
-    *[Ask the healer about the vial.] -> inquire
-    *{found_vial}[Confront the healer.] -> ConfrontHealer
-    *{found_vial}[Decide to keep the discovery for yourself and continue your investigation.] -> START.choices
-    *[Leave.] -> START.choices
+    *[Raspytać lekara pra butelku.] -> inquire
+    *{found_vial}[Supraćdziejničać lekaru.] -> ConfrontHealer
+    *{found_vial}[Pakul pakinuć adkryćcio pry sabie i praciahnuć svajo raśśledavańnie.] -> START.choices
+    *[Pakinuć.] -> START.choices
 
     =succeed
     As you examine the vial with a growing sense of alarm, your trained eye recognizes the contents for what they truly are — an insidious agent of the contagion, a potent and vile substance that fuels the very plague consuming the village.

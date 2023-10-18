@@ -55,19 +55,19 @@ VAR MadeDealWithCultists = false
 
 ===AtTheHealers===
 ~met_healer=true
-As you step into the healer's dwelling, a scene unfolds before your eyes that both captivates and unsettles. The room is filled with patients, their pallid faces marked by the ravages of the plague. Some lay on cots, writhing in pain, while others sit in chairs, waiting anxiously for their turn to receive treatment. 
+Калі вы ўваходзіце ў жыльлё лекара, перад вашымі вачамі разгортваецца карціна, якая адначасна зачароўвае і насьцярожвае. Памяшканьне запоўнена пацыентамі, на іх бледных тварах бачны сьляды чумы. Адны ляжаць на ложках, крывячыся ад болю, іншыя сядзяць у крэслах, з нецярпеньнем чакаючы сваёй чаргі на лячэньне. 
 
-The healer moves through the room, their movements graceful yet purposeful. They offer soothing words of comfort, their touch gentle and assured. Shelves lining the walls bear the weight of countless vials, jars, and medical instruments. The flickering candlelight casts eerie shadows, revealing glimpses of the healer's dedication and the tools of their trade.
+Лекар саўгаецца па пакоі, яго рухі грацыёзныя і мэтанакіраваныя. Ён прамаўляе заспакаяльныя словы, яго дакрананьні далікатныя і ўпэўненыя. На паліцах уздоўж сьцен стаяць незлічоныя пляшачкі, слоічкі і медычныя прылады. Мігатлівае сьвятло сьвечак адкідае жудасныя цені, адкрываючы пагляду самаадданасьць лекара і прылады яго рамяства.
 
-Amidst the array of medicinal herbs and potions, your gaze lands on something seemingly out of place — a curious vial of dark, viscous liquid that stands apart from the rest. -> choices 
+Сярод мноства лекавых траваў і зёлак вашы погляд спыняецца на нечым незвычайным - дзіўнай склянцы з цёмнай, глейкай вадкасьцю, што стаіць убаку ад астатніх. -> choices 
 
     =choices
-    *[Examine the curious vial. {print_player_skill_chance("Medicine", EASYSKILLCHECK)}]
+    *[Аглядзець цікавую бутэльку. {print_player_skill_chance("Medicine", EASYSKILLCHECK)}]
         {perform_player_skill_check("Medicine", EASYSKILLCHECK): -> succeed | -> fail}
-    *[Ask the healer about the vial.] -> inquire
-    *{found_vial}[Confront the healer.] -> ConfrontHealer
-    *{found_vial}[Decide to keep the discovery for yourself and continue your investigation.] -> START.choices
-    *[Leave.] -> START.choices
+    *[Распытаць лекара пра бутэльку.] -> inquire
+    *{found_vial}[Супрацьдзейнічаць лекару.] -> ConfrontHealer
+    *{found_vial}[Пакуль пакінуць адкрыцьцё пры сабе і працягнуць сваё расьсьледаваньне.] -> START.choices
+    *[Пакінуць.] -> START.choices
 
     =succeed
     As you examine the vial with a growing sense of alarm, your trained eye recognizes the contents for what they truly are — an insidious agent of the contagion, a potent and vile substance that fuels the very plague consuming the village.
