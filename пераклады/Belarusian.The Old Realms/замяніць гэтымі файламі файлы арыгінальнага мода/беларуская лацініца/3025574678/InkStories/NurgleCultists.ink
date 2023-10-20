@@ -90,41 +90,41 @@ Vy idziacie pa pustelnych vulicach, uvažliva ahladajecie navakolle ŭ pošukach
 
 U vočy kidajecca vyćviły znak, vyhraviravany na paŭrazburanaj ścianie. Jon napaminaje symbal boha chaosu Nurhła i namiakaje na mahčymuju suviaź z čutkami pra kultystaŭ. Ubačyŭšy čumu, vy ŭžo zdahadalisia pra hetaje, ale adnoj jaje najaŭnaści niedastatkova dla paćvierdžańnia praŭdy.
 
-Amidst the desolation, you notice a peculiar pattern. Your eyes are drawn to certain individuals who defy the affliction that plagues the rest. Mid-aged males between the ages of thirty and forty, they exude an extraordinary level of health and vitality. Their robust, muscular builds stand as a stark contrast to the frail, emaciated figures that surround them. Their cheeks bear a healthy flush, glowing with vitality, while their eyes sparkle with resilience and strength. Their very presence seems to radiate life amidst the gloom.
+Siarod zapuścieńnia vy zaŭvažajecie niezvyčajnuju zakanamiernaść. Vašuju ŭvahu pryciahvajuć asobnyja ludzi, jakija nie paddajucca chvarobie, što paraziła ŭsich astatnich. Mužčyny siaredniaha vieku ad tryccaci da saraka hadoŭ, jany vypramieńvajuć niezvyčajnaje zdaroŭje i žyćciovuju siłu. Ich mocny, muskulisty ciełaskład rezka kantrastuje z navakolnymi krochkimi i źniasilenymi fihurami. Ichnija ščoki pałajuć zdarovym rumiankam, śvieciacca žyćciovaj siłaj, a vočy iskracca prutkaściu i mocaj. Zdajecca, što sama ich najaŭnaść vypramianiaje žyćcio siarod zmroku.
 
-You cannot help but be awestruck by their sheer well-being. Their exceptional health raises questions within you — what grants them this extraordinary resilience? Is there a natural explanation, or could there be more to their apparent invulnerability? -> choices
+Niemahčyma nie ŭrazicca ich dabrabytu. Ich vyłučnaje zdaroŭje vyklikaje ŭ vas pytańni: što daje im takuju niezvyčajnuju tryvałaść? Ci majecca hetamu naturalnaje tłumačeńnie, ci za ichniaj ujaŭnaj nieparažalnaściu kryjecca štości bolšaje? -> choices
 
     =choices
-    *[Observe the daily routine of the healthy villagers.] -> ObserveRoutine
+    *[Nazirać za štodzionnym žyćciom zdarovych žycharoŭ vioski.] -> ObserveRoutine
 
 ===ObserveRoutine===
-Intrigued by the extraordinary health of the mid-aged males in the village, you decide to observe their daily routine over the course of a few days. Your investigation leads you to a fascinating discovery - each morning, without fail, the healthy villagers gather at the humble dwelling of the village healer.
-It piques your curiosity as they dont require any treatment, yet they spend a considerable amount of time inside. -> choices
+Zacikaviŭšysia niezvyčajnym zdaroŭjem mužčynaŭ siaredniaha vieku ŭ vioscy, vy vyrašyli panahladać za ichnim rasparadkam dnia na praciahu niekalkich dzion. Daśledavańnie pryvodzić vas da cikavaha adkryćcia: štoranku zdarovyja žychary vioski nieadmienna źbirajucca ŭ ścipłym žylli viaskovaha lekara.
+Heta vyklikaje cikaŭnaść, bo im nie patrabujecca anijakaha lačeńnia, ale pry hetym baviać značnuju kolkasć času razam z lekaram. -> choices
     
     =choices
-    *[Decide to enter the healers dwelling while most of the healthy villagers are inside.] -> AtTheHealersAgain
+    *[Uvajści ŭ žyllo lekara padčas znachodžańnia bolšaści zdarovych žycharoŭ vioski ŭnutry.] -> AtTheHealersAgain
 
 ===AtTheHealersAgain===
-With curiosity getting the better of you, you decide to seize the opportunity and enter the healers dwelling {met_healer: again} when the healthy villagers are gathered inside. The moment you step through the door, an eerie sight greets you. The healers abode is dimly lit, filled with the scent of herbs and incense. On one side of the room, a few villagers lie in bad condition, moaning in pain, their bodies ravaged by the plague. 
-But theres no sign of the healer or the healthy villagers who you just saw enter moments ago.
+Cikaŭnaść biare vierch, i vy vyrašajecie skarystacca vypadkam i ŭvajści ŭ žyllo lekara {met_healer: znoŭ} padčas zboru ŭsich zdarovych žycharoŭ vioski. Jak tolki vy pierastupajecie paroh, vas sustrakaje žudasnaje hledzišča. Prystanak lekara ćmiana aśvietleny, napoŭnieny vodaram travaŭ i pachoščaŭ. Na adnym boku pakoja ŭ ciažkim stanie lažać niekalki žycharoŭ vioski, jakija stohnuć ad bolu, ichnija cieły razburany čumoj. 
+Ale ni lekara, ni zdarovych žycharoŭ, jakich vy bačyli niekalki chvilin tamu, nia bačna.
 ~suspicious = true
 ->choices
 
     =choices
-    *[Look around for a clue as to where they might have disappeared.{print_player_skill_chance("Scouting", EASYSKILLCHECK)}]
+    *[Ahledziecca ŭ pošukach padkazki, kudy jany mahli źniknuć.{print_player_skill_chance("Scouting", EASYSKILLCHECK)}]
         {perform_player_skill_check("Scouting", EASYSKILLCHECK): -> succeed | -> fail}
-    *{found_passage}[Without hesitation, you descend underground.] -> Descend
-    *{not found_passage}[Give up the search and leave.] -> START.choices
+    *{found_passage}[Nie razvažajučy spuścicca pad ziamlu.] -> Descend
+    *{not found_passage}[Admovicca ad pošukaŭ i syści.] -> START.choices
 
     =succeed
-    Your eyes sweep across the room, searching for any clue that might explain their sudden disappearance. Shelves line the walls, adorned with vials, potion bottles, and ancient tomes on various medicinal practices. The room feels strangely tense, as if it holds a secret waiting to be unraveled.
-    As you cautiously explore further, a hidden passageway catches your attention, concealed behind a heavy tapestry. Instinctively, you move closer, your heart pounding in anticipation. The passageway seems to lead underground, into an unknown darkness that beckons you to uncover its secrets.
+    Vašy pohlad kidaŭsia pa pakoi ŭ pošukach choć jakoj začepki, jakaja mahła b patłumačyć ich raptoŭnaje źniknieńnie. Uzdoŭž ścien stajać palicy, upryhožanyja sklankami, butelkami z ziellami i staražytnymi knihami pa roznych miedyčnych praktykach. U pakoi adčuvajecca dziŭnaja napruha, jak byccam u joj zachoŭvajecca tajamnica, jakaja čakaje razhadki.
+    Pa miery taho jak vy aściarožna prasoŭvajeciesia dalej, vašuju ŭvahu pryciahvaje patajny prachod, schavany za ciažkim habielenam. Instynktyŭna vy padychodzicie bližej, serca bjecca ŭ pradčuvańni. Zdajecca, što prachod viadzie pad ziamlu, u niaźviedanuju ciemru, jakaja hetak i vabić adkryć svaje tajamnicy.
     ~found_passage=true
     ->choices
     
     =fail
-    Your eyes sweep across the room, searching for any clue that might explain their sudden disappearance. You meticulously inspect every nook and cranny, running your hands over the shelves and walls, trying to find a hidden passageway. However, no matter how hard you look, there seems to be no obvious way to uncover the mystery.
-    As frustration and bewilderment start to take hold, you cant help but feel dumbfounded by the situation. The healer and the healthy villagers seem to have vanished without a trace, leaving you with more questions than answers. Could they have sensed your presence and slipped away unnoticed?->choices
+    Vy abšnyrvajecie vačami pakoj u pošukach choć jakoj začepki, jakaja mahła b patłumačyć ich raptoŭnaje zniknieńnie. Vy prydzirliva ahladajecie kožny kutok, pravodzicie rukami pa palicach i ścienach, sprabujučy znajści schavany prachod. Adnak, jak ni imkniciesia, vyjaŭnaha šlachu da razhadki tajamnicy nie znachodzicie.
+    Rasčaravańnie i źbiantežanaść avałodvajuć vami, i vy nia možacie nie pačuvacca ahałomšanym situacyjaj. Lekar i zdarovyja žychary vioski niby biaśśledna źnikli, i ŭ vas zastałosia bolš pytańniaŭ, čym adkazaŭ. Ci mahli jany adčuć vašuju najaŭnaść i vyśliznuć nieŭprykmiet?->choices
 
 ===GatherThoughts===
 You find a moment of respite to gather your thoughts. You retreat to a quiet corner of the village, away from prying eyes, and meticulously review the evidence you have amassed so far.

@@ -90,41 +90,41 @@ VAR MadeDealWithCultists = false
 
 У вочы кідаецца выцьвілы знак, выгравіраваны на паўразбуранай сьцяне. Ён напамінае сымбаль бога хаосу Нургла і намякае на магчымую сувязь з чуткамі пра культыстаў. Убачыўшы чуму, вы ўжо здагадаліся пра гэтае, але адной яе наяўнасьці недастаткова для пацьверджаньня праўды.
 
-Amidst the desolation, you notice a peculiar pattern. Your eyes are drawn to certain individuals who defy the affliction that plagues the rest. Mid-aged males between the ages of thirty and forty, they exude an extraordinary level of health and vitality. Their robust, muscular builds stand as a stark contrast to the frail, emaciated figures that surround them. Their cheeks bear a healthy flush, glowing with vitality, while their eyes sparkle with resilience and strength. Their very presence seems to radiate life amidst the gloom.
+Сярод запусьценьня вы заўважаеце незвычайную заканамернасьць. Вашую ўвагу прыцягваюць асобныя людзі, якія не паддаюцца хваробе, што паразіла ўсіх астатніх. Мужчыны сярэдняга веку ад трыццаці да сарака гадоў, яны выпраменьваюць незвычайнае здароўе і жыцьцёвую сілу. Іх моцны, мускулісты целасклад рэзка кантрастуе з навакольнымі крохкімі і зьнясіленымі фігурамі. Іхнія шчокі палаюць здаровым румянкам, сьвецяцца жыцьцёвай сілай, а вочы іскрацца пруткасьцю і моцай. Здаецца, што сама іх наяўнасьць выпрамяняе жыцьцё сярод змроку.
 
-You cannot help but be awestruck by their sheer well-being. Their exceptional health raises questions within you — what grants them this extraordinary resilience? Is there a natural explanation, or could there be more to their apparent invulnerability? -> choices
+Немагчыма не ўразіцца іх дабрабыту. Іх вылучнае здароўе выклікае ў вас пытаньні: што дае ім такую незвычайную трываласьць? Ці маецца гэтаму натуральнае тлумачэньне, ці за іхняй уяўнай непаражальнасьцю крыецца штосьці большае? -> choices
 
     =choices
-    *[Observe the daily routine of the healthy villagers.] -> ObserveRoutine
+    *[Назіраць за штодзённым жыцьцём здаровых жыхароў вёскі.] -> ObserveRoutine
 
 ===ObserveRoutine===
-Intrigued by the extraordinary health of the mid-aged males in the village, you decide to observe their daily routine over the course of a few days. Your investigation leads you to a fascinating discovery - each morning, without fail, the healthy villagers gather at the humble dwelling of the village healer.
-It piques your curiosity as they don't require any treatment, yet they spend a considerable amount of time inside. -> choices
+Зацікавіўшыся незвычайным здароўем мужчынаў сярэдняга веку ў вёсцы, вы вырашылі панаглядаць за іхнім распарадкам дня на працягу некалькіх дзён. Дасьледаваньне прыводзіць вас да цікавага адкрыцьця: шторанку здаровыя жыхары вёскі неадменна зьбіраюцца ў сьціплым жыльлі вясковага лекара.
+Гэта выклікае цікаўнасьць, бо ім не патрабуецца аніякага лячэньня, але пры гэтым бавяць значную колькасць часу разам з лекарам. -> choices
     
     =choices
-    *[Decide to enter the healer's dwelling while most of the healthy villagers are inside.] -> AtTheHealersAgain
+    *[Увайсьці ў жыльлё лекара падчас знаходжаньня большасьці здаровых жыхароў вёскі ўнутры.] -> AtTheHealersAgain
 
 ===AtTheHealersAgain===
-With curiosity getting the better of you, you decide to seize the opportunity and enter the healer's dwelling {met_healer: again} when the healthy villagers are gathered inside. The moment you step through the door, an eerie sight greets you. The healer's abode is dimly lit, filled with the scent of herbs and incense. On one side of the room, a few villagers lie in bad condition, moaning in pain, their bodies ravaged by the plague. 
-But there's no sign of the healer or the healthy villagers who you just saw enter moments ago.
+Цікаўнасьць бярэ верх, і вы вырашаеце скарыстацца выпадкам і ўвайсьці ў жыльлё лекара {met_healer: зноў} падчас збору ўсіх здаровых жыхароў вёскі. Як толькі вы пераступаеце парог, вас сустракае жудаснае гледзішча. Прыстанак лекара цьмяна асьветлены, напоўнены водарам траваў і пахошчаў. На адным боку пакоя ў цяжкім стане ляжаць некалькі жыхароў вёскі, якія стогнуць ад болю, іхнія целы разбураны чумой. 
+Але ні лекара, ні здаровых жыхароў, якіх вы бачылі некалькі хвілін таму, ня бачна.
 ~suspicious = true
 ->choices
 
     =choices
-    *[Look around for a clue as to where they might have disappeared.{print_player_skill_chance("Scouting", EASYSKILLCHECK)}]
+    *[Агледзецца ў пошуках падказкі, куды яны маглі зьнікнуць.{print_player_skill_chance("Scouting", EASYSKILLCHECK)}]
         {perform_player_skill_check("Scouting", EASYSKILLCHECK): -> succeed | -> fail}
-    *{found_passage}[Without hesitation, you descend underground.] -> Descend
-    *{not found_passage}[Give up the search and leave.] -> START.choices
+    *{found_passage}[Не разважаючы спусьціцца пад зямлю.] -> Descend
+    *{not found_passage}[Адмовіцца ад пошукаў і сысьці.] -> START.choices
 
     =succeed
-    Your eyes sweep across the room, searching for any clue that might explain their sudden disappearance. Shelves line the walls, adorned with vials, potion bottles, and ancient tomes on various medicinal practices. The room feels strangely tense, as if it holds a secret waiting to be unraveled.
-    As you cautiously explore further, a hidden passageway catches your attention, concealed behind a heavy tapestry. Instinctively, you move closer, your heart pounding in anticipation. The passageway seems to lead underground, into an unknown darkness that beckons you to uncover its secrets.
+    Вашы погляд кідаўся па пакоі ў пошуках хоць якой зачэпкі, якая магла б патлумачыць іх раптоўнае зьнікненьне. Уздоўж сьцен стаяць паліцы, упрыгожаныя склянкамі, бутэлькамі з зельлямі і старажытнымі кнігамі па розных медычных практыках. У пакоі адчуваецца дзіўная напруга, як быццам у ёй захоўваецца таямніца, якая чакае разгадкі.
+    Па меры таго як вы асьцярожна прасоўваецеся далей, вашую ўвагу прыцягвае патайны праход, схаваны за цяжкім габеленам. Інстынктыўна вы падыходзіце бліжэй, сэрца б'ецца ў прадчуваньні. Здаецца, што праход вядзе пад зямлю, у нязьведаную цемру, якая гэтак і вабіць адкрыць свае таямніцы.
     ~found_passage=true
     ->choices
     
     =fail
-    Your eyes sweep across the room, searching for any clue that might explain their sudden disappearance. You meticulously inspect every nook and cranny, running your hands over the shelves and walls, trying to find a hidden passageway. However, no matter how hard you look, there seems to be no obvious way to uncover the mystery.
-    As frustration and bewilderment start to take hold, you can't help but feel dumbfounded by the situation. The healer and the healthy villagers seem to have vanished without a trace, leaving you with more questions than answers. Could they have sensed your presence and slipped away unnoticed?->choices
+    Вы абшнырваеце вачамі пакой у пошуках хоць якой зачэпкі, якая магла б патлумачыць іх раптоўнае знікненьне. Вы прыдзірліва аглядаеце кожны куток, праводзіце рукамі па паліцах і сьценах, спрабуючы знайсьці схаваны праход. Аднак, як ні імкніцеся, выяўнага шляху да разгадкі таямніцы не знаходзіце.
+    Расчараваньне і зьбянтэжанасьць авалодваюць вамі, і вы ня можаце не пачувацца агаломшаным сітуацыяй. Лекар і здаровыя жыхары вёскі нібы бясьсьледна зьніклі, і ў вас засталося больш пытаньняў, чым адказаў. Ці маглі яны адчуць вашую наяўнасьць і высьлізнуць неўпрыкмет?->choices
 
 ===GatherThoughts===
 You find a moment of respite to gather your thoughts. You retreat to a quiet corner of the village, away from prying eyes, and meticulously review the evidence you have amassed so far.
