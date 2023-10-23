@@ -127,30 +127,30 @@ VAR MadeDealWithCultists = false
     Расчараваньне і зьбянтэжанасьць авалодваюць вамі, і вы ня можаце не пачувацца агаломшаным сітуацыяй. Лекар і здаровыя жыхары вёскі нібы бясьсьледна зьніклі, і ў вас засталося больш пытаньняў, чым адказаў. Ці маглі яны адчуць вашую наяўнасьць і высьлізнуць неўпрыкмет?->choices
 
 ===GatherThoughts===
-You find a moment of respite to gather your thoughts. You retreat to a quiet corner of the village, away from prying eyes, and meticulously review the evidence you have amassed so far.
-The healthy villagers, seemingly untouched by the plague, continue to stand out as an enigma. Their robust health, vibrant energy, and inexplicable immunity confound reason. They are the very embodiment of life amidst the despair that consumes the village.
-Yet, their association with the healer raises more questions than answers. If the healer has indeed been tending to the village for generations, he should be a frail, elderly man, but that is far from the truth. The last time you encountered him, he appeared to be a man in his prime, defying the passage of time.
-The discovery of the symbol of Nurgle etched on a crumbling wall hints at a possible connection to the cultist rumors. The presence of such a symbol in the village casts a sinister shadow over its already grim atmosphere. 
-Additionally, the suspicious vial you found in the healer's dwelling lingers in your thoughts. {not found_vial: Its contents remain unidentified, and the healer's explanation raises doubts about its true purpose. Could it be an agent of the contagion, or is it genuinely an innocent remedy as claimed?}{found_vial: You are absolutely certain that the contents of the vial are used to fuel the epidemic. As for what purpose? That remains to be seen.}
-A chilling suspicion takes root in your mind. Could it be that the healer himself is somehow linked to the plague and the cultist rumors? Is there something clandestine hidden beneath the surface of his benevolent facade? With renewed determination you decide to confront finally confront the healer.
+Вы знаходзіце хвіліну дзеля перадышкі, каб сабрацца з думамі, аддаляецеся ў ціхі куток вёскі, панадалей ад чужых вачэй, і скрупулёзна вывучаеце сабраныя на гэты момант доказы.
+Здаровыя жыхары вёскі, нібы не кранутыя чумой, працягваюць заставацца таямніцай. Іхняе моцнае здароўе, жывая энергія і невытлумачальны імунітэт ставяць у тупік розум. Яны - увасабленьне жыцця на фоне роспачы, што ахапіла вёску.
+Але іхняя сувязь з лекарам выклікае больш пытаньняў, чым адказаў. Калі лекар сапраўды клапоціцца пра вёску на працягу шматлікіх пакаленьняў, то ён павінен быць трухлявым, пажылым чалавекам, але гэта далёка не так. У апошні раз, калі вы сустракалі яго, ён выглядаў мужчынам у росквіце сілаў, які не глядзіць на плынь часу.
+Выяўленьне знака Нургла, выгравіраванага на паўразбуранай сьцяне, намякае на магчымую сувязь з чуткамі пра культыстаў. Наяўнасьць такога знака ў вёсцы кідае злавесны цень на яе і без таго змрочную атмасферу.
+Апроч таго, падазроная бутэлька, знойдзеная ў жыльлі лекара, не дае вам жыцьця. {not found_vial: Яе зьмесціва застаецца незразумелым, а тлумачэньні лекара выклікаюць сумневы ў яе сапраўдным прызначэньні. Ці можа яна быць узбуджальнікай заразы, ці гэты сапраўды нявінны сродак, як сьцвярджаецца?}{found_vial: Вы цалкам ўпэўнены, што зьмесьціва бутэлькі выкарыстоўваецца дзеля распальваньня эпідэміі. З якой мэтай? Гэта яшчэ трэба высьветліць.}
+У галаве зараджаецца падозраньне, што ледзяніць душу. Ці можа быць так, што сам лекар неяк зьвязаны з чумой і чуткамі пра культыстаў? Можа, пад яго зычлівым фасадам хаваецца нешта таемнае? З новай сілай вы вырашаеце нарэшце сустрэцца з лекарам твар у твар.
 ->ConfrontHealer
 
 ===ConfrontHealer===
-{came_from(-> GatherThoughts): Fueled by determination, you enter the healer's dwelling once more, your eyes sharp with newfound knowledge.} As you approach, the healer's eyes meet yours. There is a moment of silent acknowledgment — a realization that the truth has been uncovered.
-Sensing the weight of your suspicions, the healer's face contorts with a mix of fear and desperation. Without a word, he turns and dashes towards the far end of the room, making a desperate attempt to escape your scrutiny.
-"Wait!" you call out, giving chase as he reaches the back of the dwelling. In a swift motion, he reveals a hidden trap door, flinging it open and disappearing into the depths below. You don't hesitate, following closely behind, descending the narrow steps into the unknown darkness. -> choices
+{came_from(-> GatherThoughts): Набраўшыся рашучасьці, вы зноў уваходзіце ў жыльлё лекара з вострымі ад зноў здабытых ведаў вачамі.} Калі вы набліжаецеся, вочы лекара сустракаюцца з вашымі. Настае момант маўклівага прызнаньня - усведамленьня, што праўда адкрыта.
+Адчуўшы цяжар вашых падозраў, твар лекара перакручваецца ад страху і роспачы. Не кажучы ні слова, ён паварочваецца і кідаецца ў далёкі канец пакоя, робячы роспачную спробу схавацца ад вашага пільнага погляду.
+"Пачакайце!" - крычыце вы і кідаецеся ў пагоню, калі ён далазіць да задняй часткі жыльля. Хуткім рухам ён адкрывае патайныя дзьверы, расхінае іх і зьнікае ў глыбіні. Вы, не разважаючы, спускаецеся па вузкіх прыступках у непраглядную цемру. -> choices
     
     =choices
-    *[Without hesitation, you follow him, descending the narrow steps into the unknown darkness.] -> Descend
+    *[Бяз роздумаў, вы рушыце ўслед за ім, спускаецеся па вузкіх ступенях у непраглядную цемру.] -> Descend
     
 
 ===Descend===
 ~ OpenCultistLairMission("TOR_nurgle_lair_001")
 ...
-{MadeDealWithCultists && not DealtWithCultists: The cult leader's eyes gleam with a mixture of triumph and satisfaction as he senses your acquiescence. His chant takes on a hypnotic quality, resonating within your being as if weaving an irrevocable connection. The sensation that envelops you is strange and unsettling, as if an otherworldly force begins to weave itself into your very essence. }
-{MadeDealWithCultists && not DealtWithCultists: An ineffable transformation begins, like the unfolding of a dream woven from reality. A surge of energy courses through your veins, invigorating your body and banishing fatigue. Aches and wounds seem to mend, leaving behind a renewed sense of vitality.}
-{MadeDealWithCultists && not DealtWithCultists: With the Gift accepted, you depart the chamber, the weight of your decision hanging heavily upon you. The village recedes into the distance, the muted cries of its afflicted residents echoing in your ears as you walk away.}
-{MadeDealWithCultists && not DealtWithCultists: Your journey continues, haunted by the echoes of your decision. The Gift of Nurgle has granted you strength and vitality, but it has also bound you to a future uncertain and tinged with remorse.}
+{MadeDealWithCultists && not DealtWithCultists: Вочы лідара культу зіхацяць урачыстасьцю і задавальненьнем, калі ён адчувае вашую згоду. Яго напеў набывае гіпнатычную ўласьцівасць, рэзануючы ў вашай свядомасьці, нібы усталёўваючы з ім непарыўную сувязь. Адчуваньні, што ахапляюць вас, дзіўныя і трывожныя, быццам тагасьветная сіла пачынае ўплятацца ў вашую існасьць. }
+{MadeDealWithCultists && not DealtWithCultists: Пачынаецца неперадатнае ператварэньне, падобнае на разгортваньне мары, вытканай з рэальнасьці. Прыліў энергіі разьліваецца па венах, бадзёрыць цела і здымае стомленасьць. Болі і раны нібы зацягваюцца, пакідаючы пасьля сябе адчуваньне новай жыцьцёвай сілы.}
+{MadeDealWithCultists && not DealtWithCultists: Прыняўшы Дарунак, вы пакідаеце пакой з цяжарам прынятага разьвязку. Вёска зьнікае ўдалечыні, у вушах гучаць прыглушаныя крыкі яе жыхароў.}
+{MadeDealWithCultists && not DealtWithCultists: Вашы шлях працягваецца, і перасьледуе водгаласкамі прынятага вамі рашэньня. Дарунак Нургла даў вам сілу і жыцьцёвую энергію, але ён жа зьвязаў вас з будучымі, няпэўнымі і апанурымі мукамі сумленьня.}
 {not DealtWithCultists && not MadeDealWithCultists: Your strikes are parried and your defenses are rendered futile. The cult leader's malefic prowess is beyond anything you anticipated, and with a final, devastating blow, your strength fails you. Darkness claims your senses as consciousness fades into oblivion.}
 {not DealtWithCultists && not MadeDealWithCultists: Hours, or perhaps an eternity, later, you awaken amidst the clamor of the afflicted. Your body aches, broken and battered, the echoes of your defeat resonating through every fiber of your being. Disoriented and wounded, you find yourself among the very villagers you sought to save.}
 {not DealtWithCultists && not MadeDealWithCultists: Crawling weakly through the desolation, you navigate the landscape of suffering souls, each moan and gasp a testament to the plague's merciless grip. The realization of your failure weighs heavily upon you, the taste of defeat bitter on your tongue.}
