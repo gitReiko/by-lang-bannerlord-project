@@ -117,15 +117,15 @@ INCLUDE include.ink
     -> InvestigateVillagers.choices
 
 ===Woods===
-    Intrigued by the mention of strange lights in the woods, you decide to delve into the depths of the forest during the cloak of night. With your senses sharpened and your weapon at the ready, you navigate through the dense foliage.
+    Zaintryhavanyja zhadvańniem pra dziŭnyja ahni ŭ lesie, vy vyrašajecie pahłybicca ŭ hłyb lesu pad pokryvam nočy. Abvastryŭšy svaje pačućci i trymajučy zbroju napahatovie, vy pierasoŭvajeciesia praz hustoje liście.
     
-    As you make your way deeper into the woods, the glow of the lights becomes more intense and magical. It dances and flickers in patterns that seem orchestrated, almost intentional.
-    
-    To your surprise, you stumble upon several unusually large swarms of fireflies, their luminescent bodies creating a breathtaking spectacle. They flutter and twirl in mesmerizing unison, illuminating the surrounding trees with their enchanting glow.
-    
-    Realizing that these fireflies are the source of the mysterious lights, you watch in awe as they continue their nocturnal display. Though not the cultists you were seeking, their presence reminds you of the beauty and wonder that exists in the world.
-    
-    Feeling a sense of peace and tranquility, you take a moment to appreciate the natural marvel before continuing your investigation.
+    Pa miery pahłybleńnia ŭ les, źziańnie ahnioŭ robicca bolš intensiŭnym i čaroŭnym. Jano tancuje i mihoča ŭzorami, jakija zdajucca spłanavanymi, amal naŭmysnymi.
+
+    Da vašaha ździŭleńnia, vy natykajeciesia na niekalki niezvyčajna vialikich čarod śvietlačkoŭ, ichnija śvietłyja cieły stvarajuć zachaplalnaje hledzišča. Jany pyrchajuć i kruciacca ŭ začaravalnym unisonie, aśviatlajučy svaim čaroŭnym źziańniem navakolnyja drevy.
+
+    Razumiejučy, što hetyja śvietlački zjaŭlajucca krynicaj tajamničaha śviatła, vy z trapiatańniem nazirajecie, jak jany praciahvajuć svajo načnoje hledzišča. Choć heta i nia tyja kultysty, jakich vy šukali, ich najaŭnaść nahadvaje vam pra pryhažość i dzivy, što isnujuć u śviecie.
+   
+    Adčuvajučy ŭłahodžańnie i spakoj, vy znachodzicie chvilinku, kab acanić dziva pryrody, pierš čym praciahnuć daśledavańnie.
     ->InvestigateVillagers.choices
 
 ===InvestigateDisappearances===
@@ -166,7 +166,7 @@ INCLUDE include.ink
 
 ===OutOfOptions===
 
-After tirelessly pursuing various leads and options, your efforts have yielded little progress in solving the intricate web of mysteries that shroud the village. Frustration and weariness start to take their toll, leaving you at a crossroads, unsure of the best path forward.
+Paśla niastomnych pošukaŭ roznych začepak i varyjantaŭ vašyja vysiłki nie prynieśli vialikaha prahresu ŭ razhadcy zabłytanaha pavucińnia zahadak, što achutvajuć viosku. Rasčaravańnie i stomlenaść pačynajuć brać svajo, pakidajučy vas na rostani, uva niaŭpeŭnienaści ŭ vybary lepšaha šlachu napierad.
 
 With your mind weighed down by the weight of the unresolved enigmas, you find yourself standing before the village tavern. The warm glow of its windows and the inviting aroma of food beckon you inside. Perhaps a moment of respite, a chance to gather your thoughts and reassess your strategies, is what you need.
 

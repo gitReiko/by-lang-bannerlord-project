@@ -117,15 +117,15 @@ INCLUDE include.ink
     -> InvestigateVillagers.choices
 
 ===Woods===
-    Intrigued by the mention of strange lights in the woods, you decide to delve into the depths of the forest during the cloak of night. With your senses sharpened and your weapon at the ready, you navigate through the dense foliage.
+    Заінтрыгаваныя згадваньнем пра дзіўныя агні ў лесе, вы вырашаеце паглыбіцца ў глыб лесу пад покрывам ночы. Абвастрыўшы свае пачуцьці і трымаючы зброю напагатове, вы перасоўваецеся праз густое лісьце.
     
-    As you make your way deeper into the woods, the glow of the lights becomes more intense and magical. It dances and flickers in patterns that seem orchestrated, almost intentional.
-    
-    To your surprise, you stumble upon several unusually large swarms of fireflies, their luminescent bodies creating a breathtaking spectacle. They flutter and twirl in mesmerizing unison, illuminating the surrounding trees with their enchanting glow.
-    
-    Realizing that these fireflies are the source of the mysterious lights, you watch in awe as they continue their nocturnal display. Though not the cultists you were seeking, their presence reminds you of the beauty and wonder that exists in the world.
-    
-    Feeling a sense of peace and tranquility, you take a moment to appreciate the natural marvel before continuing your investigation.
+    Па меры паглыбленьня ў лес, зьзяньне агнёў робіцца больш інтэнсіўным і чароўным. Яно танцуе і мігоча ўзорамі, якія здаюцца спланаванымі, амаль наўмыснымі.
+
+    Да вашага зьдзіўленьня, вы натыкаецеся на некалькі незвычайна вялікіх чарод сьветлячкоў, іхнія сьветлыя целы ствараюць захапляльнае гледзішча. Яны пырхаюць і круцяцца ў зачаравальным унісоне, асьвятляючы сваім чароўным зьзяньнем навакольныя дрэвы.
+
+    Разумеючы, што гэтыя сьветлячкі з'яўляюцца крыніцай таямнічага сьвятла, вы з трапятаньнем назіраеце, як яны працягваюць сваё начное гледзішча. Хоць гэта і ня тыя культысты, якіх вы шукалі, іх наяўнасьць нагадвае вам пра прыгажосьць і дзівы, што існуюць у сьвеце.
+   
+    Адчуваючы ўлагоджаньне і спакой, вы знаходзіце хвілінку, каб ацаніць дзіва прыроды, перш чым працягнуць дасьледаваньне.
     ->InvestigateVillagers.choices
 
 ===InvestigateDisappearances===
@@ -166,7 +166,7 @@ INCLUDE include.ink
 
 ===OutOfOptions===
 
-After tirelessly pursuing various leads and options, your efforts have yielded little progress in solving the intricate web of mysteries that shroud the village. Frustration and weariness start to take their toll, leaving you at a crossroads, unsure of the best path forward.
+Пасьля нястомных пошукаў розных зачэпак і варыянтаў вашыя высілкі не прынесьлі вялікага прагрэсу ў разгадцы заблытанага павуціньня загадак, што ахутваюць вёску. Расчараваньне і стомленасьць пачынаюць браць сваё, пакідаючы вас на ростані, ува няўпэўненасьці ў выбары лепшага шляху наперад.
 
 With your mind weighed down by the weight of the unresolved enigmas, you find yourself standing before the village tavern. The warm glow of its windows and the inviting aroma of food beckon you inside. Perhaps a moment of respite, a chance to gather your thoughts and reassess your strategies, is what you need.
 
