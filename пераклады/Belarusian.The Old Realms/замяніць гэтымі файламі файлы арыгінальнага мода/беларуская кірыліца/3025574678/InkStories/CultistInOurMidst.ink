@@ -96,24 +96,24 @@ INCLUDE include.ink
 
     =succeed
     (SUCCESS)
-    The elder's face twitches, caught off guard by the bluntness of your allegations.
-    In a moment of vulnerability, the elder confesses that he has been receiving small sums of money left anonymously at his doorstep. The source of the money remains a mystery to him, but he admits that he has turned a blind eye to the strange events in exchange for these bribes. Shame fills his voice as he explains that his financial struggles and the allure of a better life for his family had clouded his judgment.
-    He seems sincere. You are convinced he truly doesn't know more about the origin of the bribe money.
-    Despite his lack of knowledge, you implore the elder to take responsibility for his actions and sever ties with the anonymous benefactor. You emphasize the importance of restoring the village's safety and well-being, urging him to become an ally in the fight against the cult.
-    *[Lie in wait for the next drop of bribe money in order to follow the person who delivers it.] -> wait
-    *[Find other ways to continue your investigation.] -> InvestigateVillagers.choices
+    Твар старэйшыны тузаецца, засьпеты зьнянацку шчырасьцю вашых абвінавачаньняў.
+    У хвіліну ўразьлівасьці старэйшына прызнаецца, што апошнім часам атрымвае невялікія сумы грошаў, ананімна пакінутыя ў парога яго хаты. Крыніца гэтых грошай застаецца дзеля яго таямніцай, але ён прызнаецца, што ў памен на гэтыя хабары заплюшчваў вочы на дзіўныя падзеі. Сорам напаўняе яго голас, калі ён тлумачыць, што фінансавыя цяжкасьці і спакуса лепшага жыцьця для яго сям'і засьцілі яго розум.
+    Ён здаецца шчырым. Вы перакананыя, што ён сапраўды ня ведае больш пра паходжанне грошаў, атрыманых у якасьці хабару.
+    Нягледзячы на няведаньне, вы пераконваеце старэйшыну ўзяць на сябе адказнасьць за свае дзеяньні і разарваць сувязь з ананімным дабрадзеем. Вы падкрэсьліваеце важнасьць аднаўленьня бяспекі і дабрабыту вёскі і заклікаеце яго стаць хаўруснікам у змаганьні з культам.
+    *[Схавацца ў чаканьні чарговага хабару, каб прасачыць за яе дастаўнікам.] -> wait
+    *[Знайсьці іншыя шляхі прадаўжэньня расьсьледаваньня.] -> InvestigateVillagers.choices
     
     =fail
     (FAIL)
-     The elder vehemently denies any such accusations. With an air of indignation, he defends himself, claiming that his relatively improved circumstances are a result of shrewd financial management and investments made outside the village. 
-     The elder skillfully deflects your allegations, attributing them to rumors and jealousy among the villagers who are envious of his modest success. 
-     Despite your suspicions, he manages to maintain an outward appearance of innocence, leaving you with lingering doubts about his true intentions. 
+     Старэйшына катэгарычна адмаўляе падобныя абвінавачваньні. Ён з абурэньнем бароніць сябе, сьцьвярджаючы, што яго адносна шчасьлівае становішча - гэта вынік разумнага кіраваньня фінансамі і інвестыцыямі, зробленымі за межамі вёскі.
+     Старэйшына ўмела адбівае вашыя абвінавачваньні, сьпісваючы іх на чуткі і зайздрасьць жыхароў вёскі да яго сьціплых посьпехаў. 
+     Нягледзячы на вашыя падозры, яму атрымоўваецца захоўваць вонкавую нявіннасьць, пакідаючы ў вас сумневы ў яго праўдзівых намерах.
      ->InvestigateVillagers.choices
     
     =wait
-    Determined to uncover the mystery behind the bribe money, you devise a plan to stake out the elder's home and wait for the next drop. Days turn into nights as you patiently remain hidden, keeping a vigilant watch for any signs of the mysterious deliverer. But as time goes by, no one arrives, and the nights remain undisturbed.
-    Growing frustrated and exhausted, you start to doubt the effectiveness of this approach. Perhaps the briber has become aware of your presence or has changed their method of delivery. The lack of any significant leads or developments weighs heavily on your determination.
-    You decide to abandon the stakeout, acknowledging that this particular lead has reached a dead end.
+    Вырашыўшы раскрыць таямніцу, што хаваецца за хабарам, вы распрацоўваеце план, як знайсьці хату старэйшыны і дачакацца наступнай перадачы. Дні зьмяняюцца начамі, а вы цярпліва хаваецеся, пільна сочачы за з'яўленнем таямнічага пасланца. Але час ідзе, ніхто не прыходзіць, і ночы застаюцца спакойнымі.
+    Расчараваўшыся і выдыхнуўшыся, вы пачынаеце сумнявацца ў эфектыўнасьці такога падыходу. Магчыма, хабарадаўнік даведаўся пра вашую наяўнасьць ці зьмяніў спосаб перадачы. Нястача хоць-якіх істотных зачэпак ці зрухаў пагаршае вашую рашучасьць.
+    Вы прыймаеце разьвязак адмовіцца ад сачэньня, прызнаўшы, што гэтая сьцежка зайшла ў тупік.
     -> InvestigateVillagers.choices
 
 ===Woods===
@@ -129,20 +129,20 @@ INCLUDE include.ink
     ->InvestigateVillagers.choices
 
 ===InvestigateDisappearances===
-    Your first course of action is to approach the relatives of the disappeared individuals. You lend a sympathetic ear, offering comfort and support while discreetly gathering information. Each tale is filled with anguish and confusion, with common threads of unexplained circumstances. Dark rumors circulate, whispering of an unseen force lurking within the shadows of the village.
-    Driven by a sense of urgency, you delve deeper into the matter, searching for clues and connections. You map out the locations where the disappearances occurred, marking them on a makeshift investigation board. Patterns emerge, indicating a concentration of incidents near the outskirts of the village and the surrounding woods.
+    Насамперш вы зьвяртаецеся да сваякоў зьніклых людзей. Вы спачувальна выслухваеце іх, прапануеце суцяшэньне і падтрымку, а таксама неўпрыкмет зьбіраеце інфармацыю. Кожная гісторыя поўная пакуты і разгубленасьці, у ёй маюцца агульныя ніткі невытлумачальных акалічнасьцяў. Ходзяць змрочныя чуткі пра нябачную сілу, што ўтойваецца ў цені вёскі.
+    Рухомыя пачуцьцём неадкладнай патрэбы, вы паглыбляецеся ў расследаваньне, шукаеце зачэпкі і сувязі. Вы адзначаеце месцы, дзе адбываліся зьнікненьні, на імправізаванай дошцы для расследаваньня. Выяўляюцца заканамернасьці, што паказваюць на канцэнтрацыю здарэньняў на ўскраіне вёскі і ў навакольных лясах.
     ->choices
     
     =search
-    With a determined focus on finding answers, you set out to investigate the homes of the disappeared individuals, hoping to uncover any clues that might shed light on their unsettling vanishing. As you enter each home, a sense of sadness and unease fills the air, reminding you of the lives that were abruptly interrupted.
-    Inside one of the homes, you come across signs of struggle—a knocked-over chair, a shattered vase, and belongings strewn about haphazardly. It's evident that something untoward occurred here, suggesting a forced departure rather than a voluntary one.
-    In another home, you discover personal belongings left behind — a cherished trinket, a half-finished letter, and a favorite book. These remnants of their lives hint at the suddenness and unexpected nature of their departure.
-    It becomes clear that the vanished individuals were victims, taken against their will.
-    {SymbolLeftBehind == 1: As you meticulously investigate the home with the signs of struggle, your sharp eye catches something amidst the chaos — an item left behind by the perpetrators. Carefully hidden beneath a toppled table, you discover a broken amulet with a torn chain, unmistakably belonging to the cult you have been seeking. -> identify_option}
-    {SymbolLeftBehind == 0: Despite your thorough investigation of the disappeared victims' homes, you find no further significant leads or breakthroughs. The signs of struggle and abandoned belongings only deepen the mystery, leaving you with more questions than answers. Frustration and a sense of helplessness start to settle in as you realize that the trail has gone cold. ->InvestigateVillagers.choices}
+    Вырашыўшы знайсьці адказы на пытаньні, вы адпраўляецеся дасьледаваць хаты зьніклых людзей у надзеі выявіць хоць нейкія доказы, якія маглі б праліць сьвятло на іхняе трывожнае зьнікненьне. Калі вы ўваходзіце ў кожную хату, вас ахапляе пачуцьцё журботы і трывогі, што напамінае пра жыцьцё, якое было раптам перапынена.
+    У адной хаце вы выяўляеце сьляды змаганьня - перакуленае крэсла, пабітую вазу, бязладна раскіданыя рэчы. Верагодна, тут адбылося штосьці дрэннае, што кажа пра вымушаны, а не самаахвотным сыход.
+    У іншай хаце вы выяўляеце пакінутыя асабістыя рэчы - запаветную цацанку, недапісаны ліст, любую кнігу. Гэтыя рэшткі іх жыцьця намякаюць на раптоўнасьць і нечаканасьць іх сыходу.
+    Робіцца ясна, што зьніклыя людзі былі ахвярамі, выкрадзенымі супраць іх волі.
+    {SymbolLeftBehind == 1: Дбайна дасьледуючы хату са сьлядамі змаганьня, вы заўважылі сярод хаосу штосьці, пакінутае злачынцамі. Асьцярожна схаваўшы яго пад перакуленым сталом, вы выяўляеце зламаны амулет з падраным ланцужком, без сумневу, прыналежны шуканаму культу. -> identify_option}
+    {SymbolLeftBehind == 0: Нягледзячы на стараннае абсьледаваньне хат зьніклых ахвяр, вы не знаходзіце ніякіх новых істотных зачэпак ці прарываў. Сьляды змаганьня і кінутыя рэчы толькі пагаршаюць загадку, пакідаючы больш пытанняў, чым адказаў. Расчараваньне і пачуцьцё бездапаможнасьці пачынаюць авалодваць вамі, калі вы разумееце, што сьлед згубіўся. ->InvestigateVillagers.choices}
     
     =identify_option
-    *[Identify the symbol. {print_player_attribute_chance("Intelligence",5)}] -> identify_check
+    *[Вызначыць знак {print_player_attribute_chance("Intelligence",5)}] -> identify_check
     
     =identify_check
     {perform_player_attribute_check("Intelligence", 5): -> succeed | -> fail}
@@ -150,18 +150,18 @@ INCLUDE include.ink
     =succeed
     (SUCCESS)
     ~ CultIsKnownToPlayer = true
-    You instantly recognize the distinct symbol of the {CultName}.
-    A chill runs down your spine as you recognize the significance of the item. It's a distinct piece of paraphernalia associated with the cult, confirming their direct involvement in the disappearances. 
+    Вы імгненна пазнаеце адметны знак {CultName}.
+    Па хрыбетніку прабягае халадок, калі вы ўсьведамляеце значэньне гэтага прадмета. Гэтая атрыбутыка пацьвярджае прамое дачыненьне культа да зьнікненьняў.
     ->InvestigateVillagers.choices
     
     =fail
     (FAIL)
-    Despite your thorough examination of the symbol, you are unable to identify its meaning or significance. 
-    You find no further significant leads or breakthroughs. The enigmatic symbol, signs of struggle and abandoned belongings only deepen the mystery, leaving you with more questions than answers. 
+    Нягледзячы на стараннае вывучэньне знака, вы ня можаце вызначыць яго сэнс ці значэньне. 
+    Вы не знаходзіце аніякіх новых істотных зачэпак ці прарываў. Загадкавы знак, сьляды змаганьня і кінутыя рэчы толькі паглыбляюць таямніцу, пакідаючы больш пытаньняў, чым адказаў. 
     ->InvestigateVillagers.choices
     
     =choices
-    *[Carefully search the homes of the disappeared.] -> search
+    *[Дбайна абшукаць хаты зьніклых.] -> search
 
 
 ===OutOfOptions===

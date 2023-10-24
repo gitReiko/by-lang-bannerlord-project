@@ -96,24 +96,24 @@ INCLUDE include.ink
 
     =succeed
     (SUCCESS)
-    The elders face twitches, caught off guard by the bluntness of your allegations.
-    In a moment of vulnerability, the elder confesses that he has been receiving small sums of money left anonymously at his doorstep. The source of the money remains a mystery to him, but he admits that he has turned a blind eye to the strange events in exchange for these bribes. Shame fills his voice as he explains that his financial struggles and the allure of a better life for his family had clouded his judgment.
-    He seems sincere. You are convinced he truly doesnt know more about the origin of the bribe money.
-    Despite his lack of knowledge, you implore the elder to take responsibility for his actions and sever ties with the anonymous benefactor. You emphasize the importance of restoring the villages safety and well-being, urging him to become an ally in the fight against the cult.
-    *[Lie in wait for the next drop of bribe money in order to follow the person who delivers it.] -> wait
-    *[Find other ways to continue your investigation.] -> InvestigateVillagers.choices
+    Tvar starejšyny tuzajecca, zaśpiety źnianacku ščyraściu vašych abvinavačańniaŭ.
+    U chvilinu ŭraźlivaści starejšyna pryznajecca, što apošnim časam atrymvaje nievialikija sumy hrošaŭ, ananimna pakinutyja ŭ paroha jaho chaty. Krynica hetych hrošaj zastajecca dziela jaho tajamnicaj, ale jon pryznajecca, što ŭ pamien na hetyja chabary zapluščvaŭ vočy na dziŭnyja padziei. Soram napaŭniaje jaho hołas, kali jon tłumačyć, što finansavyja ciažkaści i spakusa lepšaha žyćcia dla jaho siamji zaścili jaho rozum.
+    Jon zdajecca ščyrym. Vy pierakananyja, što jon sapraŭdy nia viedaje bolš pra pachodžannie hrošaŭ, atrymanych u jakaści chabaru.
+    Niahledziačy na niaviedańnie, vy pierakonvajecie starejšynu ŭziać na siabie adkaznaść za svaje dziejańni i razarvać suviaź z ananimnym dabradziejem. Vy padkreślivajecie važnaść adnaŭleńnia biaspieki i dabrabytu vioski i zaklikajecie jaho stać chaŭrusnikam u zmahańni z kultam.
+    *[Schavacca ŭ čakańni čarhovaha chabaru, kab prasačyć za jaje dastaŭnikam.] -> wait
+    *[Znajści inšyja šlachi pradaŭžeńnia raśśledavańnia.] -> InvestigateVillagers.choices
     
     =fail
     (FAIL)
-     The elder vehemently denies any such accusations. With an air of indignation, he defends himself, claiming that his relatively improved circumstances are a result of shrewd financial management and investments made outside the village. 
-     The elder skillfully deflects your allegations, attributing them to rumors and jealousy among the villagers who are envious of his modest success. 
-     Despite your suspicions, he manages to maintain an outward appearance of innocence, leaving you with lingering doubts about his true intentions. 
+     Starejšyna kateharyčna admaŭlaje padobnyja abvinavačvańni. Jon z abureńniem baronić siabie, śćviardžajučy, što jaho adnosna ščaślivaje stanovišča - heta vynik razumnaha kiravańnia finansami i inviestycyjami, zroblenymi za miežami vioski.
+     Starejšyna ŭmieła adbivaje vašyja abvinavačvańni, śpisvajučy ich na čutki i zajzdraść žycharoŭ vioski da jaho ścipłych pośpiechaŭ. 
+     Niahledziačy na vašyja padozry, jamu atrymoŭvajecca zachoŭvać vonkavuju niavinnaść, pakidajučy ŭ vas sumnievy ŭ jaho praŭdzivych namierach.
      ->InvestigateVillagers.choices
     
     =wait
-    Determined to uncover the mystery behind the bribe money, you devise a plan to stake out the elders home and wait for the next drop. Days turn into nights as you patiently remain hidden, keeping a vigilant watch for any signs of the mysterious deliverer. But as time goes by, no one arrives, and the nights remain undisturbed.
-    Growing frustrated and exhausted, you start to doubt the effectiveness of this approach. Perhaps the briber has become aware of your presence or has changed their method of delivery. The lack of any significant leads or developments weighs heavily on your determination.
-    You decide to abandon the stakeout, acknowledging that this particular lead has reached a dead end.
+    Vyrašyŭšy raskryć tajamnicu, što chavajecca za chabaram, vy raspracoŭvajecie płan, jak znajści chatu starejšyny i dačakacca nastupnaj pieradačy. Dni źmianiajucca načami, a vy ciarpliva chavajeciesia, pilna sočačy za zjaŭlenniem tajamničaha pasłanca. Ale čas idzie, nichto nie prychodzić, i nočy zastajucca spakojnymi.
+    Rasčaravaŭšysia i vydychnuŭšysia, vy pačynajecie sumniavacca ŭ efiektyŭnaści takoha padychodu. Mahčyma, chabaradaŭnik daviedaŭsia pra vašuju najaŭnaść ci źmianiŭ sposab pieradačy. Niastača choć-jakich istotnych začepak ci zruchaŭ paharšaje vašuju rašučaść.
+    Vy pryjmajecie raźviazak admovicca ad sačeńnia, pryznaŭšy, što hetaja ściežka zajšła ŭ tupik.
     -> InvestigateVillagers.choices
 
 ===Woods===
@@ -129,20 +129,20 @@ INCLUDE include.ink
     ->InvestigateVillagers.choices
 
 ===InvestigateDisappearances===
-    Your first course of action is to approach the relatives of the disappeared individuals. You lend a sympathetic ear, offering comfort and support while discreetly gathering information. Each tale is filled with anguish and confusion, with common threads of unexplained circumstances. Dark rumors circulate, whispering of an unseen force lurking within the shadows of the village.
-    Driven by a sense of urgency, you delve deeper into the matter, searching for clues and connections. You map out the locations where the disappearances occurred, marking them on a makeshift investigation board. Patterns emerge, indicating a concentration of incidents near the outskirts of the village and the surrounding woods.
+    Nasampierš vy źviartajeciesia da svajakoŭ źnikłych ludziej. Vy spačuvalna vysłuchvajecie ich, prapanujecie suciašeńnie i padtrymku, a taksama nieŭprykmiet źbirajecie infarmacyju. Kožnaja historyja poŭnaja pakuty i razhublenaści, u joj majucca ahulnyja nitki nievytłumačalnych akaličnaściaŭ. Chodziać zmročnyja čutki pra niabačnuju siłu, što ŭtojvajecca ŭ cieni vioski.
+    Ruchomyja pačućciom nieadkładnaj patreby, vy pahłyblajeciesia ŭ rassledavańnie, šukajecie začepki i suviazi. Vy adznačajecie miescy, dzie adbyvalisia źniknieńni, na impravizavanaj došcy dla rassledavańnia. Vyjaŭlajucca zakanamiernaści, što pakazvajuć na kancentracyju zdareńniaŭ na ŭskrainie vioski i ŭ navakolnych lasach.
     ->choices
     
     =search
-    With a determined focus on finding answers, you set out to investigate the homes of the disappeared individuals, hoping to uncover any clues that might shed light on their unsettling vanishing. As you enter each home, a sense of sadness and unease fills the air, reminding you of the lives that were abruptly interrupted.
-    Inside one of the homes, you come across signs of struggle—a knocked-over chair, a shattered vase, and belongings strewn about haphazardly. Its evident that something untoward occurred here, suggesting a forced departure rather than a voluntary one.
-    In another home, you discover personal belongings left behind — a cherished trinket, a half-finished letter, and a favorite book. These remnants of their lives hint at the suddenness and unexpected nature of their departure.
-    It becomes clear that the vanished individuals were victims, taken against their will.
-    {SymbolLeftBehind == 1: As you meticulously investigate the home with the signs of struggle, your sharp eye catches something amidst the chaos — an item left behind by the perpetrators. Carefully hidden beneath a toppled table, you discover a broken amulet with a torn chain, unmistakably belonging to the cult you have been seeking. -> identify_option}
-    {SymbolLeftBehind == 0: Despite your thorough investigation of the disappeared victims homes, you find no further significant leads or breakthroughs. The signs of struggle and abandoned belongings only deepen the mystery, leaving you with more questions than answers. Frustration and a sense of helplessness start to settle in as you realize that the trail has gone cold. ->InvestigateVillagers.choices}
+    Vyrašyŭšy znajści adkazy na pytańni, vy adpraŭlajeciesia daśledavać chaty źnikłych ludziej u nadziei vyjavić choć niejkija dokazy, jakija mahli b pralić śviatło na ichniaje tryvožnaje źniknieńnie. Kali vy ŭvachodzicie ŭ kožnuju chatu, vas achaplaje pačućcio žurboty i tryvohi, što napaminaje pra žyćcio, jakoje było raptam pierapyniena.
+    U adnoj chacie vy vyjaŭlajecie ślady zmahańnia - pierakulenaje kresła, pabituju vazu, biazładna raskidanyja rečy. Vierahodna, tut adbyłosia štości drennaje, što kaža pra vymušany, a nie samaachvotnym sychod.
+    U inšaj chacie vy vyjaŭlajecie pakinutyja asabistyja rečy - zapavietnuju cacanku, niedapisany list, lubuju knihu. Hetyja reštki ich žyćcia namiakajuć na raptoŭnaść i niečakanaść ich sychodu.
+    Robicca jasna, što źnikłyja ludzi byli achviarami, vykradzienymi suprać ich voli.
+    {SymbolLeftBehind == 1: Dbajna daśledujučy chatu sa śladami zmahańnia, vy zaŭvažyli siarod chaosu štości, pakinutaje złačyncami. Aściarožna schavaŭšy jaho pad pierakulenym stałom, vy vyjaŭlajecie złamany amulet z padranym łancužkom, biez sumnievu, prynaležny šukanamu kultu. -> identify_option}
+    {SymbolLeftBehind == 0: Niahledziačy na starannaje abśledavańnie chat źnikłych achviar, vy nie znachodzicie nijakich novych istotnych začepak ci praryvaŭ. Ślady zmahańnia i kinutyja rečy tolki paharšajuć zahadku, pakidajučy bolš pytanniaŭ, čym adkazaŭ. Rasčaravańnie i pačućcio biezdapamožnaści pačynajuć avałodvać vami, kali vy razumiejecie, što śled zhubiŭsia. ->InvestigateVillagers.choices}
     
     =identify_option
-    *[Identify the symbol. {print_player_attribute_chance("Intelligence",5)}] -> identify_check
+    *[Vyznačyć znak {print_player_attribute_chance("Intelligence",5)}] -> identify_check
     
     =identify_check
     {perform_player_attribute_check("Intelligence", 5): -> succeed | -> fail}
@@ -150,18 +150,18 @@ INCLUDE include.ink
     =succeed
     (SUCCESS)
     ~ CultIsKnownToPlayer = true
-    You instantly recognize the distinct symbol of the {CultName}.
-    A chill runs down your spine as you recognize the significance of the item. Its a distinct piece of paraphernalia associated with the cult, confirming their direct involvement in the disappearances. 
+    Vy imhnienna paznajecie admietny znak {CultName}.
+    Pa chrybietniku prabiahaje chaładok, kali vy ŭśviedamlajecie značeńnie hetaha pradmieta. Hetaja atrybutyka paćviardžaje pramoje dačynieńnie kulta da źniknieńniaŭ.
     ->InvestigateVillagers.choices
     
     =fail
     (FAIL)
-    Despite your thorough examination of the symbol, you are unable to identify its meaning or significance. 
-    You find no further significant leads or breakthroughs. The enigmatic symbol, signs of struggle and abandoned belongings only deepen the mystery, leaving you with more questions than answers. 
+    Niahledziačy na starannaje vyvučeńnie znaka, vy nia možacie vyznačyć jaho sens ci značeńnie. 
+    Vy nie znachodzicie anijakich novych istotnych začepak ci praryvaŭ. Zahadkavy znak, ślady zmahańnia i kinutyja rečy tolki pahłyblajuć tajamnicu, pakidajučy bolš pytańniaŭ, čym adkazaŭ. 
     ->InvestigateVillagers.choices
     
     =choices
-    *[Carefully search the homes of the disappeared.] -> search
+    *[Dbajna abšukać chaty źnikłych.] -> search
 
 
 ===OutOfOptions===
