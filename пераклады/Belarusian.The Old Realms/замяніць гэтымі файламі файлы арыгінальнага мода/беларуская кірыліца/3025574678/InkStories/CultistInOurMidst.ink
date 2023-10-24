@@ -22,48 +22,48 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    The journey to the village has been treacherous, winding through dense forests and foggy valleys. As you approach, you notice the hustle and bustle of villagers going about their daily lives. However, there's an undercurrent of unease in the air, hidden behind forced smiles and hushed whispers.
-    You leave your party camped outside the village and decide to begin your investigation discreetly on your own. Observing from the shadows, you notice a small group congregating near the village square, their demeanor suspiciously secretive. They exchange coded glances and speak in hushed tones.
+    Шлях да вёскі быў далёкім, праходзіў праз густыя лясы і імглістыя даліны. Па меры набліжэньня вы заўважаеце, што жыхары вёскі мітусяцца і займаюцца сваімі штодзённымі справамі. Аднак за ненатуральнымі ўсьмешкамі і ціхім шэптам адчуваецца нейкая трывога.
+    Вы пакідаеце сваю партыю ў лагеры за межамі вёскі і вырашаеце пачаць непрыметнае расьсьледаваньне самастойна. Назіраючы з ценю, вы заўважылі маленькую групу, што сабралася ля вясковага пляцу, паводзіны якой былі падазрона ўтойлівымі. Яны абменьваліся закадаванымі поглядамі і ціха размаўлялі.
     ->choices
 
     =choices
-    *[Approach the group and listen in on their conversation. {print_player_skill_chance("Roguery", NormalSkillCheckValue)}]
+    *[Падыйсьці да групы і прыслухацца да іх гутаркі. {print_player_skill_chance("Roguery", NormalSkillCheckValue)}]
         {perform_player_skill_check("Roguery", NormalSkillCheckValue): ->ListenToGroup.succeed | -> ListenToGroup.fail}
-    *[Gather information from the villagers without raising suspicion.] ->InvestigateVillagers
+    *[Сабраць інфармацыю ў жыхароў вёскі, не выклікаючы падозраў.] ->InvestigateVillagers
 
 
 === ListenToGroup ===
 
     =succeed
     (SUCCESS)
-    You stealthily approach the group, careful not to draw attention to yourself. Standing at a distance, you strain your ears to catch snippets of their conversation.
+    Вы неўпрыкмет набліжаецеся да групы, імкнучыся не прыцягваць да сябе ўвагі. Стоячы на адлегласьці, вы напружваеце слых, каб улавіць урыўкі іх гутаркі.
+
+    "...Рытуал выкліку павінен быць праведзены хуткім часам", - з трывогай шэпча адна з фігур. - "Нашая сіла дужэе з кожным днём".
     
-    "...the summoning ritual must be performed soon," whispers one figure anxiously. "Our power grows stronger every day."
-    
-    Another voice responds, "We must keep our true identities hidden. The Templar Order might be onto us. We don't want witch hunters all over the village, then all will be lost."
-    
-    "Let's meet at the Cradle tonight..."
-    
-    The group disperses, each member disappearing into the crowd. The villagers continue their daily routines, seemingly oblivious to the hidden darkness lurking within their midst. 
+    Іншы голас адказвае: "Мы павінны захоўваць нашыя сапраўдныя персоны ў таямніцы. Ордэн тампліераў можа сачыць за намі. Нам не патрэбныя паляўнічыя на вядзьмарак па ўсёй вёсцы, тады ўсё будзе страчана".
+
+    "Давайце сустрэнемся ў Калыскі сёначы..."
+
+    Група расьсейваецца, кожны з яе чальцоў зьнікае ў натоўпе. Жыхары вёскі працягваюць займацца сваімі штодзённымі справамі, не зважаючы на ўтоеную цемру.
     ->Start.choices
     
     =fail
     (FAIL)
-    You try to stealthily approach the group, careful not to draw attention to yourself, however stealth is not your strong suit and as you inch closer, a sudden creaking noise alerts them to your presence. 
-    They glance in your direction, their eyes narrowing with suspicion. They exchange a few quick words before disappearing into the crowd.
-    Your attempt to eavesdrop has failed, and you can't help but wonder if your element of suprise has just been compromised. 
+    Вы спрабуеце неўпрыкмет падысьці да групы, імкнучыся не прыцягваць да сябе ўвагі, аднак незаўважнасць ня з'яўляецца вашым моцным бокам, і калі вы падыходзіце бліжэй, раптоўнае рыпаньне папярэджвае групу пра вашую наяўнасьць.
+    Яны глядзяць у вашы бок, іх вочы звужаюцца з падозрам. Яны абменьваюцца некалькімі кароткімі фразамі, пасьля чаго зьнікаюць у натоўпе.
+    Вашая спроба падслухаць пацярпела няшчасьце, і вы ня можаце не задацца пытаннем, ці ня быў толькі што парушаны элемент нечаканасьці. 
     ->Start.choices
 
 
 === InvestigateVillagers ===
-    You realize that the cultists are adept at hiding their true identities. Finding out who they are is going to be no easy feat. You decide to interact with the villagers and gather more information.
-    Speaking to various individuals, you subtly inquire about recent strange occurrences, missing persons, or rumors of dark practices. Some villagers express unease, speaking of mysterious symbols etched in hidden corners, unexplained disappearances and strange lights appearing in the surrounding forest during the night.
+    Вы разумееце, што культысты ўмеюць хаваць сваю існасьць. Высьветліць, хто яны такія, будзе няпроста. Вы вырашаеце пагутарыць з жыхарамі вёскі і сабраць больш інфармацыі.
+    Зьвяртаючыся да розных людзей, вы далікатна распытваеце іх пра нядаўнія дзіўныя здарэньні, зьніклых людзей, чуткі пра цёмныя практыкі. Некаторыя жыхары вёскі выяўляюць турботу, расказваючы пра таямнічыя знакі, выгравіраваныя ў зацішных кутках, невытлумачальныя знікненьні і дзіўныя агні, што з'яўляюцца ўначы ў навакольным лесе.
     ->choices
 
     =choices
-    *[Seek out the village elder for questioning.] ->InterviewElder
-    *[Venture into the woods during the night to uncover the source of the strange lights.] ->Woods
-    *[Look into the disappearances by talking to the relatives of the disappeared.] ->InvestigateDisappearances
+    *[Зьвярнуцца да старэйшыны вёскі дзеля допыту.] ->InterviewElder
+    *[Адправіцца ўначы ў лес, каб выявіць крыніцу дзіўных агнёў.] ->Woods
+    *[Вывучыць факты зьнікненьня, пагаварыўшы са сваякамі зьніклых.] ->InvestigateDisappearances
     * -> OutOfOptions
 
 
@@ -71,26 +71,26 @@ INCLUDE include.ink
 {ElderState == 3: ->grumpy | ->normal}
 
     =normal
-    The elder, a man of some means compared to the modest state of the village, resides in a comfortable cottage near the center of the village.
-    Knocking on the wooden door, the elder welcomes you inside with a warm smile. The cottage exudes a sense of coziness, with a crackling fireplace casting a comforting glow across the room. You take a seat by a small wooden table, ready to discuss your concerns about the strange occurrences in the village.
-    {ElderState == 1:As you confront the elder about the potential presence of a cult in the village, he listens attentively but with a skeptical expression on his face. He dismisses the notion of a cult, finding it absurd and far-fetched. He believes that the recent troubles can be attributed to mere coincidences or isolated incidents.}
-    {ElderState == 1:"I understand your concerns," he says, his voice tinged with a touch of condescension. "But I assure you, there is no cult in our village. These strange occurrences can be explained by natural causes or the overactive imagination of some villagers."}
-    {ElderState == 1:Frustrated by the elder's denial, you realize that convincing him to take action against the cult will be an uphill battle. It's clear that alternative approaches need to be explored to address the growing threat.}
-    {ElderState == 2: During the conversation, you observe the surroundings, paying attention to the subtle indications of the elder's relatively elevated wealth. The silverware glimmers in the soft candlelight, the paintings on the walls reveal scenes of serene landscapes and the elder's clothing exhibits a higher level of craftsmanship compared to the average villager.}
-    {ElderState == 2:As the discussion progresses, the elder admits to the village's troubles, but finds the idea of a cult operating within the village simply absurd. However, you sense a flicker of unease in his eyes, a hint of guilt that betrays more than his words convey.}
+    Старэйшына, чалавек даволі заможны ў параўнаньні са сьціплым станам вёскі, жыве ўва ўтульнай хаце недалёка ад яе цэнтра.
+    Пагрукаўшыся ўва драўляныя дзьверы, старэйшына з цёплай усьмешкай запрашае вас у хату. У пабудове пануе атмасьфера ўтульнасьці, а камін, што патрэсквае, адкідвае ўтульнае сЬвятло на ўвесь пакой. Вы падсаджваецеся за невялікі драўляны стол, гатовыя расказаць пра свае боязі з нагоды дзіўных здарэньняў у вёсцы.
+    {ElderState == 1:Калі вы расказваеце старэйшыну пра магчымую наяўнасьць культу ў вёсцы, ён слухае вас уважліва, але са скептычным выразам твару. Ён адпрэчвае ідэю культу, лічачы яе абсурднай і надуманай. Ён лічыць, што ўсе апошнія непрыемнасьці льга патлумачыць простым супадзеньнем ці адзінкавымі выпадкамі.}
+    {ElderState == 1:"Я разумею вашыя боязі, - кажа ён з адценьнем спагаднасьці ў голасе. - "Але запэўніваю вас, у нашай вёсцы няма аніякага культу. Гэтыя дзіўныя з'явы могуць быць растлумачаны натуральнымі прычынамі ці занадта актыўным уяўленьнем некаторых жыхароў".}
+    {ElderState == 1:Расчараваны адмовай старэйшыны, вы разумееце, што пераканаць яго зрабіць захады супраць культу будзе нялёгка. Верагодна, для змаганьня з растучай пагрозай трэба шукаць альтэрнатыўныя падыходы.}
+    {ElderState == 2:Падчас гутаркі вы назіраеце за навакольлем, зважаючы на тонкія азнакі адносна высокага дастатку старэйшыны. Срэбны посуд мігоча ў мяккім сьвятле сьвечак, карціны на сьценах малююць ціхамірныя краявіды, а адзеньне старэйшыны адрозьніваецца больш высокім роўнем майстэрства ў параўнаньні са звычайнымі жыхарамі вёскі.}
+    {ElderState == 2:У ходзе гутаркі старэйшына прызнае, што вёска мае праблемы, але лічыць ідэю існаваньня культу ў вёсцы проста абсурднай. Аднак у яго вачах мільгае трывога, ноткі віны, якія выдаюць больш, чым словы.}
     ->choices
     
     =grumpy
-    The elder, a man known for his lackluster performance in maintaining order and resolving village issues, resides in a modest cottage at the heart of the village. As you approach, you notice signs of neglect in the surroundings—overgrown garden, peeling paint on the front door, and an overall air of disarray.
-    You knock on the wooden door, and the elder opens it with a slightly exasperated expression. "What do you want?" he grumbles, his tone reflecting a touch of annoyance. You explain the reason for your visit, expressing concerns about the strange occurrences in the village and the possible presence of a cult.
-    "You think there's a cult in our village?" he scoffs, his voice tinged with disbelief. "That's preposterous! We have enough problems with everyday life without such wild tales. Troubles? Yes, we have plenty. But a cult? No way."
-    As you press further, attempting to convince the elder of the seriousness of the situation, his temper flares up. "I have more pressing matters to attend to than listening to such nonsense!" he snaps, his frustration palpable. "If you want to investigate, go ahead. But don't come bothering me with your imaginary cults!"
-    With that, he slams the door in your face, the sound echoing through the quiet village streets.
-    Left with no choice, you must find alternative means to investigate without the elder's cooperation.
+    Старэйшына, вядомы сваёй няўмелай працай па падтрыманьні парадку і вырашэньню вясковых праблем, жыве ў сьціплай хатцы ў самым цэнтры вёскі. Набліжаючыся да яго, вы заўважаеце азнакі запусьценьня: зарослы сад, аблупленую фарбу на ўваходных дзьвярах і агульны непарадак.
+    Вы стукаеце ў драўляныя дзьверы, і стары адкрывае яе з трохі раздражнёным выразам твару. "Што вам патрэбна?" - бурчыць ён, у яго тоне адчуваецца раздражненьне. Вы тлумачыце прычыну свайго візіту, выяўляючы турботу з нагоды дзіўных з'яў у вёсцы і магчымай наяўнасьці культу.
+    "Вы думаеце, у нашай вёсцы маецца культ?" - кпіць ён, у яго голасе гучыць недавер. - "Гэта проста абсурд! У нас і без такіх дзікіх казак хапае праблем у штодзённым жыцьці. Праблем? Так, мы маем іх шмат. Але культ? Ня можа быць."
+    Калі вы спрабуеце пераканаць старэйшыну ў сур'ёзнасьці сітуацыі, ён выбухае. "Я маю важнейшыя справы за выслухоўваньне ўсякага глупства!" - гыркае ён, і яго расчараваньне робіцца адчувальным. - "Калі вы жадаеце правесьці расьсьледаванне, наперад. Але не чапляйцеся да мяне са сваімі ўяўнымі культамі!"
+    Пасьля гэтага ён зачыняе дзверы перад вашым носам, і гук рэхам разносіцца па ціхіх вясковых вуліцах.
+    Застаўшыся бяз выбару, вы павінны знайсьці альтэрнатыўныя шляхі расьсьледаваньня, не звяртаючыся па дапамогу старэйшыны.
     ->InvestigateVillagers.choices
     
     =choices
-    *{ElderState == 2}[Confront the elder about his apparent wealth accusing him of illicit activities. {print_player_skill_chance("Charm", HardSkillCheckValue)}]
+    *{ElderState == 2}[Абвінаваціць старэйшыну ў злачыннай дзейнасьці з-за яго відавочнага багацьця. {print_player_skill_chance("Charm", HardSkillCheckValue)}]
         {perform_player_skill_check("Charm", HardSkillCheckValue): -> InterviewElder.succeed | -> InterviewElder.fail}
     * -> InvestigateVillagers.choices
 

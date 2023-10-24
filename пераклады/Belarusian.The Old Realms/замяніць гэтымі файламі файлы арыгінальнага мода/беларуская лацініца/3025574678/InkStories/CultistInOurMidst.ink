@@ -22,48 +22,48 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    The journey to the village has been treacherous, winding through dense forests and foggy valleys. As you approach, you notice the hustle and bustle of villagers going about their daily lives. However, theres an undercurrent of unease in the air, hidden behind forced smiles and hushed whispers.
-    You leave your party camped outside the village and decide to begin your investigation discreetly on your own. Observing from the shadows, you notice a small group congregating near the village square, their demeanor suspiciously secretive. They exchange coded glances and speak in hushed tones.
+    Šlach da vioski byŭ dalokim, prachodziŭ praz hustyja lasy i imhlistyja daliny. Pa miery nabližeńnia vy zaŭvažajecie, što žychary vioski mitusiacca i zajmajucca svaimi štodzionnymi spravami. Adnak za nienaturalnymi ŭśmieškami i cichim šeptam adčuvajecca niejkaja tryvoha.
+    Vy pakidajecie svaju partyju ŭ łahiery za miežami vioski i vyrašajecie pačać nieprymietnaje raśśledavańnie samastojna. Nazirajučy z cieniu, vy zaŭvažyli maleńkuju hrupu, što sabrałasia la viaskovaha placu, pavodziny jakoj byli padazrona ŭtojlivymi. Jany abmieńvalisia zakadavanymi pohladami i cicha razmaŭlali.
     ->choices
 
     =choices
-    *[Approach the group and listen in on their conversation. {print_player_skill_chance("Roguery", NormalSkillCheckValue)}]
+    *[Padyjści da hrupy i prysłuchacca da ich hutarki. {print_player_skill_chance("Roguery", NormalSkillCheckValue)}]
         {perform_player_skill_check("Roguery", NormalSkillCheckValue): ->ListenToGroup.succeed | -> ListenToGroup.fail}
-    *[Gather information from the villagers without raising suspicion.] ->InvestigateVillagers
+    *[Sabrać infarmacyju ŭ žycharoŭ vioski, nie vyklikajučy padozraŭ.] ->InvestigateVillagers
 
 
 === ListenToGroup ===
 
     =succeed
     (SUCCESS)
-    You stealthily approach the group, careful not to draw attention to yourself. Standing at a distance, you strain your ears to catch snippets of their conversation.
+    Vy nieŭprykmiet nabližajeciesia da hrupy, imknučysia nie pryciahvać da siabie ŭvahi. Stojačy na adlehłaści, vy napružvajecie słych, kab ułavić uryŭki ich hutarki.
+
+    "...Rytuał vykliku pavinien być praviedzieny chutkim časam", - z tryvohaj šepča adna z fihur. - "Našaja siła dužeje z kožnym dniom".
     
-    "...the summoning ritual must be performed soon," whispers one figure anxiously. "Our power grows stronger every day."
-    
-    Another voice responds, "We must keep our true identities hidden. The Templar Order might be onto us. We dont want witch hunters all over the village, then all will be lost."
-    
-    "Lets meet at the Cradle tonight..."
-    
-    The group disperses, each member disappearing into the crowd. The villagers continue their daily routines, seemingly oblivious to the hidden darkness lurking within their midst. 
+    Inšy hołas adkazvaje: "My pavinny zachoŭvać našyja sapraŭdnyja piersony ŭ tajamnicy. Orden tamplijeraŭ moža sačyć za nami. Nam nie patrebnyja palaŭničyja na viadźmarak pa ŭsioj vioscy, tady ŭsio budzie stračana".
+
+    "Davajcie sustreniemsia ŭ Kałyski sionačy..."
+
+    Hrupa raśsiejvajecca, kožny z jaje čalcoŭ źnikaje ŭ natoŭpie. Žychary vioski praciahvajuć zajmacca svaimi štodzionnymi spravami, nie zvažajučy na ŭtojenuju ciemru.
     ->Start.choices
     
     =fail
     (FAIL)
-    You try to stealthily approach the group, careful not to draw attention to yourself, however stealth is not your strong suit and as you inch closer, a sudden creaking noise alerts them to your presence. 
-    They glance in your direction, their eyes narrowing with suspicion. They exchange a few quick words before disappearing into the crowd.
-    Your attempt to eavesdrop has failed, and you cant help but wonder if your element of suprise has just been compromised. 
+    Vy sprabujecie nieŭprykmiet padyści da hrupy, imknučysia nie pryciahvać da siabie ŭvahi, adnak niezaŭvažnasć nia zjaŭlajecca vašym mocnym bokam, i kali vy padychodzicie bližej, raptoŭnaje rypańnie papiaredžvaje hrupu pra vašuju najaŭnaść.
+    Jany hladziać u vašy bok, ich vočy zvužajucca z padozram. Jany abmieńvajucca niekalkimi karotkimi frazami, paśla čaho źnikajuć u natoŭpie.
+    Vašaja sproba padsłuchać paciarpieła niaščaście, i vy nia možacie nie zadacca pytanniem, ci nia byŭ tolki što parušany elemient niečakanaści. 
     ->Start.choices
 
 
 === InvestigateVillagers ===
-    You realize that the cultists are adept at hiding their true identities. Finding out who they are is going to be no easy feat. You decide to interact with the villagers and gather more information.
-    Speaking to various individuals, you subtly inquire about recent strange occurrences, missing persons, or rumors of dark practices. Some villagers express unease, speaking of mysterious symbols etched in hidden corners, unexplained disappearances and strange lights appearing in the surrounding forest during the night.
+    Vy razumiejecie, što kultysty ŭmiejuć chavać svaju isnaść. Vyśvietlić, chto jany takija, budzie niaprosta. Vy vyrašajecie pahutaryć z žycharami vioski i sabrać bolš infarmacyi.
+    Źviartajučysia da roznych ludziej, vy dalikatna raspytvajecie ich pra niadaŭnija dziŭnyja zdareńni, źnikłych ludziej, čutki pra ciomnyja praktyki. Niekatoryja žychary vioski vyjaŭlajuć turbotu, raskazvajučy pra tajamničyja znaki, vyhraviravanyja ŭ zacišnych kutkach, nievytłumačalnyja zniknieńni i dziŭnyja ahni, što zjaŭlajucca ŭnačy ŭ navakolnym lesie.
     ->choices
 
     =choices
-    *[Seek out the village elder for questioning.] ->InterviewElder
-    *[Venture into the woods during the night to uncover the source of the strange lights.] ->Woods
-    *[Look into the disappearances by talking to the relatives of the disappeared.] ->InvestigateDisappearances
+    *[Źviarnucca da starejšyny vioski dziela dopytu.] ->InterviewElder
+    *[Adpravicca ŭnačy ŭ les, kab vyjavić krynicu dziŭnych ahnioŭ.] ->Woods
+    *[Vyvučyć fakty źniknieńnia, pahavaryŭšy sa svajakami źnikłych.] ->InvestigateDisappearances
     * -> OutOfOptions
 
 
@@ -71,26 +71,26 @@ INCLUDE include.ink
 {ElderState == 3: ->grumpy | ->normal}
 
     =normal
-    The elder, a man of some means compared to the modest state of the village, resides in a comfortable cottage near the center of the village.
-    Knocking on the wooden door, the elder welcomes you inside with a warm smile. The cottage exudes a sense of coziness, with a crackling fireplace casting a comforting glow across the room. You take a seat by a small wooden table, ready to discuss your concerns about the strange occurrences in the village.
-    {ElderState == 1:As you confront the elder about the potential presence of a cult in the village, he listens attentively but with a skeptical expression on his face. He dismisses the notion of a cult, finding it absurd and far-fetched. He believes that the recent troubles can be attributed to mere coincidences or isolated incidents.}
-    {ElderState == 1:"I understand your concerns," he says, his voice tinged with a touch of condescension. "But I assure you, there is no cult in our village. These strange occurrences can be explained by natural causes or the overactive imagination of some villagers."}
-    {ElderState == 1:Frustrated by the elders denial, you realize that convincing him to take action against the cult will be an uphill battle. Its clear that alternative approaches need to be explored to address the growing threat.}
-    {ElderState == 2: During the conversation, you observe the surroundings, paying attention to the subtle indications of the elders relatively elevated wealth. The silverware glimmers in the soft candlelight, the paintings on the walls reveal scenes of serene landscapes and the elders clothing exhibits a higher level of craftsmanship compared to the average villager.}
-    {ElderState == 2:As the discussion progresses, the elder admits to the villages troubles, but finds the idea of a cult operating within the village simply absurd. However, you sense a flicker of unease in his eyes, a hint of guilt that betrays more than his words convey.}
+    Starejšyna, čałaviek davoli zamožny ŭ paraŭnańni sa ścipłym stanam vioski, žyvie ŭva ŭtulnaj chacie niedaloka ad jaje centra.
+    Pahrukaŭšysia ŭva draŭlanyja dźviery, starejšyna z ciopłaj uśmieškaj zaprašaje vas u chatu. U pabudovie panuje atmaśfiera ŭtulnaści, a kamin, što patreskvaje, adkidvaje ŭtulnaje śviatło na ŭvieś pakoj. Vy padsadžvajeciesia za nievialiki draŭlany stoł, hatovyja raskazać pra svaje bojazi z nahody dziŭnych zdareńniaŭ u vioscy.
+    {ElderState == 1:Kali vy raskazvajecie starejšynu pra mahčymuju najaŭnaść kultu ŭ vioscy, jon słuchaje vas uvažliva, ale sa skieptyčnym vyrazam tvaru. Jon adprečvaje ideju kultu, ličačy jaje absurdnaj i nadumanaj. Jon ličyć, što ŭsie apošnija niepryjemnaści lha patłumačyć prostym supadzieńniem ci adzinkavymi vypadkami.}
+    {ElderState == 1:"Ja razumieju vašyja bojazi, - kaža jon z adcieńniem spahadnaści ŭ hołasie. - "Ale zapeŭnivaju vas, u našaj vioscy niama anijakaha kultu. Hetyja dziŭnyja zjavy mohuć być rastłumačany naturalnymi pryčynami ci zanadta aktyŭnym ujaŭleńniem niekatorych žycharoŭ".}
+    {ElderState == 1:Rasčaravany admovaj starejšyny, vy razumiejecie, što pierakanać jaho zrabić zachady suprać kultu budzie nialohka. Vierahodna, dla zmahańnia z rastučaj pahrozaj treba šukać alternatyŭnyja padychody.}
+    {ElderState == 2:Padčas hutarki vy nazirajecie za navakollem, zvažajučy na tonkija aznaki adnosna vysokaha dastatku starejšyny. Srebny posud mihoča ŭ miakkim śviatle śviečak, karciny na ścienach malujuć cichamirnyja krajavidy, a adzieńnie starejšyny adroźnivajecca bolš vysokim roŭniem majsterstva ŭ paraŭnańni sa zvyčajnymi žycharami vioski.}
+    {ElderState == 2:U chodzie hutarki starejšyna pryznaje, što vioska maje prablemy, ale ličyć ideju isnavańnia kultu ŭ vioscy prosta absurdnaj. Adnak u jaho vačach milhaje tryvoha, notki viny, jakija vydajuć bolš, čym słovy.}
     ->choices
     
     =grumpy
-    The elder, a man known for his lackluster performance in maintaining order and resolving village issues, resides in a modest cottage at the heart of the village. As you approach, you notice signs of neglect in the surroundings—overgrown garden, peeling paint on the front door, and an overall air of disarray.
-    You knock on the wooden door, and the elder opens it with a slightly exasperated expression. "What do you want?" he grumbles, his tone reflecting a touch of annoyance. You explain the reason for your visit, expressing concerns about the strange occurrences in the village and the possible presence of a cult.
-    "You think theres a cult in our village?" he scoffs, his voice tinged with disbelief. "Thats preposterous! We have enough problems with everyday life without such wild tales. Troubles? Yes, we have plenty. But a cult? No way."
-    As you press further, attempting to convince the elder of the seriousness of the situation, his temper flares up. "I have more pressing matters to attend to than listening to such nonsense!" he snaps, his frustration palpable. "If you want to investigate, go ahead. But dont come bothering me with your imaginary cults!"
-    With that, he slams the door in your face, the sound echoing through the quiet village streets.
-    Left with no choice, you must find alternative means to investigate without the elders cooperation.
+    Starejšyna, viadomy svajoj niaŭmiełaj pracaj pa padtrymańni paradku i vyrašeńniu viaskovych prablem, žyvie ŭ ścipłaj chatcy ŭ samym centry vioski. Nabližajučysia da jaho, vy zaŭvažajecie aznaki zapuścieńnia: zarosły sad, abłuplenuju farbu na ŭvachodnych dźviarach i ahulny nieparadak.
+    Vy stukajecie ŭ draŭlanyja dźviery, i stary adkryvaje jaje z trochi razdražnionym vyrazam tvaru. "Što vam patrebna?" - burčyć jon, u jaho tonie adčuvajecca razdražnieńnie. Vy tłumačycie pryčynu svajho vizitu, vyjaŭlajučy turbotu z nahody dziŭnych zjaŭ u vioscy i mahčymaj najaŭnaści kultu.
+    "Vy dumajecie, u našaj vioscy majecca kult?" - kpić jon, u jaho hołasie hučyć niedavier. - "Heta prosta absurd! U nas i biez takich dzikich kazak chapaje prablem u štodzionnym žyćci. Prablem? Tak, my majem ich šmat. Ale kult? Nia moža być."
+    Kali vy sprabujecie pierakanać starejšynu ŭ surjoznaści situacyi, jon vybuchaje. "Ja maju važniejšyja spravy za vysłuchoŭvańnie ŭsiakaha hłupstva!" - hyrkaje jon, i jaho rasčaravańnie robicca adčuvalnym. - "Kali vy žadajecie pravieści raśśledavannie, napierad. Ale nie čaplajciesia da mianie sa svaimi ŭjaŭnymi kultami!"
+    Paśla hetaha jon začyniaje dzviery pierad vašym nosam, i huk recham raznosicca pa cichich viaskovych vulicach.
+    Zastaŭšysia biaz vybaru, vy pavinny znajści alternatyŭnyja šlachi raśśledavańnia, nie zviartajučysia pa dapamohu starejšyny.
     ->InvestigateVillagers.choices
     
     =choices
-    *{ElderState == 2}[Confront the elder about his apparent wealth accusing him of illicit activities. {print_player_skill_chance("Charm", HardSkillCheckValue)}]
+    *{ElderState == 2}[Abvinavacić starejšynu ŭ złačynnaj dziejnaści z-za jaho vidavočnaha bahaćcia. {print_player_skill_chance("Charm", HardSkillCheckValue)}]
         {perform_player_skill_check("Charm", HardSkillCheckValue): -> InterviewElder.succeed | -> InterviewElder.fail}
     * -> InvestigateVillagers.choices
 
