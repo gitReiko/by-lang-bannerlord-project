@@ -243,16 +243,16 @@ Ruchajučysia z naŭmysnaj asciarožnaściu, vy prabirajeciesia praz žycharoŭ 
 
 ===CultistsAct===
 ~ MassacreHappened = true
-The hidden cultists seize this moment to enact their plan. Strategically positioned near the edge of the gathering, they draw concealed daggers and converge with a sinister purpose. 
-Before anyone can react, the cultists spring into action, their blades gleaming in the daylight. Chaos ensues as they mercilessly cut down anyone in their path. Chaos reigns as horror-stricken cries fill the air as the village square transforms into a scene of nightmarish violence. The cultists chilling efficiency and the villagers shock paralyze any chance of immediate escape.
-Amidst the chaos and horror that engulfs the village square, your eyes catch something strange — patterns emerging within the flow of spilled blood on the cobblestones. The cultists daggers wielded with a calculated brutality create rivulets of crimson that seem to converge in deliberate paths.
-A cold shiver courses down your spine as you recognize the significance of these patterns — the cultists intent is far more insidious than a mere massacre. The blood they spill is not wasted; its directed towards a purpose. Their dark ritual aims to channel the spilled blood into the hidden depths beneath the village square, a macabre ceremony to appease their bloodthirsty deity.
+Kultysty, što zatailisia, vykarystoŭvajuć hety momant, kab ažyciavić svajho płana. Zaniaŭšy stratehična vyhadnyja pazicyi na ŭskrajku natoŭpu, jany dastajuć schavanyja kinžały i źbirajucca sa złaviesnaj metaj. 
+Pierš čym chto-niebudź paśpiavaje zreahavać, kultysty kidajucca ŭ boj, ichnija klinki zichaciać u dzionnym śviatle. Nastaje chaos: kultysty biaźlitasna siakuć usich, chto traplajecca im na šlachu. Viaskovy plac apanoŭvaje chaos, kryki žachu napaŭniajuć pavietra i pieratvarajucca ŭ scenu kašmarnaha hvałtu. Ahałamšalnaja efiektyŭnaść dziejańniaŭ kultystaŭ i šok žycharoŭ vioski paralizujuć usiakuju mahčymasć imhniennych uciokaŭ.
+Siarod chaosu i žachu, što achapiŭ viaskovy plac, vašy pohlad ułaŭlivaje štości dziŭnaje - uzory, što ŭźnikajuć u strumieniach raźlitaj na kamiani kryvi. Kinžały kultystaŭ, puščanyja ŭ chod z aščadnaj žorstkaściu, stvarajuć barvovyja raŭčuki, jakija, niby, sychodziacca pa pradumanych traektoryjach.
+Chałodnaja dryhota prabiahaje pa chrybietniku, kali vy ŭśviedamlajecie značeńnie hetych uzoraŭ - namiery kultystaŭ značna padstupniej za prostuju razaninu. Raźlitaja imi kroŭ nie prapadaje darma, jana nieabchodnaja dla dasiahnieńnia peŭnaj mety. Ich ciomny rytuał nakiravany na toje, kab pierasunuć pralituju kroŭ uva ŭtojenyja hłybini pad viaskovym placam, - zmročnaja cyrymonija zaklikana ŭłahodzić ich kryvažernuju boskaść.
 
-*[Rally some of the villagers to mount a defense with your leadership.] -> RallyVillagers
-*[Fearing for your own life, flee the scene of horror and abandon this futile quest.]
-    As the horrifying chaos of the massacre unfurls before you, your instincts take over, propelling you into action.
-    Adrenaline courses through your veins as you turn away from the scene of violence. The screams of the villagers echo in your ears, spurring you to move swiftly, desperately seeking an escape.
-    Leaving the village and its enigmas behind, you turn away from the chaos, the violence, and the darkness that have consumed your days.
+*[Abjadnać i ŭznačalić žycharoŭ vioski dziela abarony.] -> RallyVillagers
+*[Aścierahajučysia za svajo žyćcio, uciačy z miesca žachu i kinuć hetyja marnyja pošuki.]
+    Kali pierad vami razhortvajecca žachlivy chaos masavaha zabojstva, instynkty biaruć vierch i prymušajuć vas dziejać.
+    Adrenalin burlić u vašych žyłach, kali vy advaročvajeciesia ad miesca hvałtu. Kryki žycharoŭ vioski recham addajucca ŭ vušach, padachvočvajučy vas ruchacca chutčej i rospačna sprabavać vyratavacca.
+    Pakinuŭšy zzadu viosku i jaje zahadki, vy idziacie ad chaosu, hvałtu i ciemry, jakija pahłynuli vašyja dni.
     ->END
 
 ===RallyVillagers===

@@ -243,16 +243,16 @@ INCLUDE include.ink
 
 ===CultistsAct===
 ~ MassacreHappened = true
-The hidden cultists seize this moment to enact their plan. Strategically positioned near the edge of the gathering, they draw concealed daggers and converge with a sinister purpose. 
-Before anyone can react, the cultists spring into action, their blades gleaming in the daylight. Chaos ensues as they mercilessly cut down anyone in their path. Chaos reigns as horror-stricken cries fill the air as the village square transforms into a scene of nightmarish violence. The cultists' chilling efficiency and the villagers' shock paralyze any chance of immediate escape.
-Amidst the chaos and horror that engulfs the village square, your eyes catch something strange — patterns emerging within the flow of spilled blood on the cobblestones. The cultists' daggers wielded with a calculated brutality create rivulets of crimson that seem to converge in deliberate paths.
-A cold shiver courses down your spine as you recognize the significance of these patterns — the cultists' intent is far more insidious than a mere massacre. The blood they spill is not wasted; it's directed towards a purpose. Their dark ritual aims to channel the spilled blood into the hidden depths beneath the village square, a macabre ceremony to appease their bloodthirsty deity.
+Культысты, што затаіліся, выкарыстоўваюць гэты момант, каб ажыцявіць свайго плана. Заняўшы стратэгічна выгадныя пазіцыі на ўскрайку натоўпу, яны дастаюць схаваныя кінжалы і зьбіраюцца са злавеснай мэтай. 
+Перш чым хто-небудзь пасьпявае зрэагаваць, культысты кідаюцца ў бой, іхнія клінкі зіхацяць у дзённым сьвятле. Настае хаос: культысты бязьлітасна сякуць усіх, хто трапляецца ім на шляху. Вясковы пляц апаноўвае хаос, крыкі жаху напаўняюць паветра і ператвараюцца ў сцэну кашмарнага гвалту. Агаламшальная эфектыўнасьць дзеяньняў культыстаў і шок жыхароў вёскі паралізуюць усякую магчымасць імгненных уцёкаў.
+Сярод хаосу і жаху, што ахапіў вясковы пляц, вашы погляд улаўлівае штосьці дзіўнае - узоры, што ўзьнікаюць у струменях разьлітай на камяні крыві. Кінжалы культыстаў, пушчаныя ў ход з ашчаднай жорсткасьцю, ствараюць барвовыя раўчукі, якія, нібы, сыходзяцца па прадуманых траэкторыях.
+Халодная дрыгота прабягае па хрыбетніку, калі вы ўсьведамляеце значэньне гэтых узораў - намеры культыстаў значна падступней за простую разаніну. Разьлітая імі кроў не прападае дарма, яна неабходная для дасягненьня пэўнай мэты. Іх цёмны рытуал накіраваны на тое, каб перасунуць пралітую кроў ува ўтоеныя глыбіні пад вясковым пляцам, - змрочная цырымонія заклікана ўлагодзіць іх крыважэрную боскасьць.
 
-*[Rally some of the villagers to mount a defense with your leadership.] -> RallyVillagers
-*[Fearing for your own life, flee the scene of horror and abandon this futile quest.]
-    As the horrifying chaos of the massacre unfurls before you, your instincts take over, propelling you into action.
-    Adrenaline courses through your veins as you turn away from the scene of violence. The screams of the villagers echo in your ears, spurring you to move swiftly, desperately seeking an escape.
-    Leaving the village and its enigmas behind, you turn away from the chaos, the violence, and the darkness that have consumed your days.
+*[Аб'яднаць і ўзначаліць жыхароў вёскі дзеля абароны.] -> RallyVillagers
+*[Асьцерагаючыся за сваё жыцьцё, уцячы з месца жаху і кінуць гэтыя марныя пошукі.]
+    Калі перад вамі разгортваецца жахлівы хаос масавага забойства, інстынкты бяруць верх і прымушаюць вас дзеяць.
+    Адрэналін бурліць у вашых жылах, калі вы адварочваецеся ад месца гвалту. Крыкі жыхароў вёскі рэхам аддаюцца ў вушах, падахвочваючы вас рухацца хутчэй і роспачна спрабаваць выратавацца.
+    Пакінуўшы ззаду вёску і яе загадкі, вы ідзяце ад хаосу, гвалту і цемры, якія паглынулі вашыя дні.
     ->END
 
 ===RallyVillagers===
