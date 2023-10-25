@@ -168,18 +168,18 @@ INCLUDE include.ink
 
 Пасьля нястомных пошукаў розных зачэпак і варыянтаў вашыя высілкі не прынесьлі вялікага прагрэсу ў разгадцы заблытанага павуціньня загадак, што ахутваюць вёску. Расчараваньне і стомленасьць пачынаюць браць сваё, пакідаючы вас на ростані, ува няўпэўненасьці ў выбары лепшага шляху наперад.
 
-With your mind weighed down by the weight of the unresolved enigmas, you find yourself standing before the village tavern. The warm glow of its windows and the inviting aroma of food beckon you inside. Perhaps a moment of respite, a chance to gather your thoughts and reassess your strategies, is what you need.
+Абцяжараны грузам недазволеных загадак, вы стаіце ля вясковай карчмы. Цёплае сьвятло яе вокнаў і вабны водар ежы вабяць вас унутр. Магчымасьць перадыху, абдумваньня і перагляду сваёй стратэгіі - гэта тое, што вам патрэбна.
 
-As you sit in the tavern, contemplating your next move, a snippet of conversation from a nearby group catches your attention. The villagers are abuzz with talk of a gathering planned for the next day, a rare occasion when the entire village will come together to discuss recent events and concerns. 
+Пакуль вы сядзіце ў крачме і абдумваеце свае далейшыя дзеяньні, вашую ўвагу прыцягвае ўрывак гутаркі суседняй групы. Жыхары вёскі ажыўлена абмяркоўваюць сход, запланаваны на наступны дзень - рэдкі выпадак, калі ўся вёска збіраецца разам, каб абмеркаваць апошнія падзеі і праблемы. 
 
-Listening closely, you learn that the gathering will take place at the village square. The news piques your interest, as it presents a chance to observe the villagers' reactions, gauge their suspicions, and perhaps catch a glimpse of any cultists who might try to blend in with the crowd.
+Уважліва прыслухаўшыся, вы пазнаеце, што збор будзе праходзіць на вясковым пляцы. Гэтая навіна выклікае ў вас цікавасьць, бо з'яўляецца магчымасьць панаглядаць за рэакцыяй жыхароў, ацаніць іх падозры і, магчыма, заўважыць культыстаў, якія спрабуюць зьмяшацца з натоўпам.
 
-You can't help but wonder about the possibilities that such an event presents. The thought of the entire village congregating in one place, including potential cultists, triggers a series of calculations in your mind.
+Вы ня можаце не задумацца пра магчымасьці, якія адкрывае гэтая падзея. Думка пра тое, што ўся вёска сабярэцца ў адным месцы, уключаючы патэнцыйных культыстаў, выклікае ў галаве шэраг разьлікаў.
 
-Could the cultists be planning to make a move during this gathering? Would they take advantage of the crowd to advance their agenda, or would they simply observe from the shadows, disguising their true intentions?
+Ці могуць культысты планаваць нешта распачаць падчас гэтага збору? Ці скарыстаюцца яны натоўпам, каб прасунуць свае планы, ці проста будуць назіраць з ценю, хаваючы свае праўдзівыя намеры?
 
-*[Attend the gathering.] -> AttendGathering
-*[Give up the search. This investigation has already taken too much of your time.] -> VoluntaryEnd
+*[Удзельнічаць у зборы.] -> AttendGathering
+*[Адмовіцца ад пошукаў. Гэтае расьсьледаваньне і так адняло ў вас зашмат часу.] -> VoluntaryEnd
 
 === AttendGathering ===
 As the day of the village gathering arrives, a mix of anticipation and caution fills the air. You make your way to the village square, your senses sharpened and your awareness heightened. The bustling crowd, a sea of familiar faces, conceals the unknown. As you navigate through the villagers, you remain vigilant, your gaze scanning for any signs of the cult's presence.

@@ -168,18 +168,18 @@ INCLUDE include.ink
 
 Paśla niastomnych pošukaŭ roznych začepak i varyjantaŭ vašyja vysiłki nie prynieśli vialikaha prahresu ŭ razhadcy zabłytanaha pavucińnia zahadak, što achutvajuć viosku. Rasčaravańnie i stomlenaść pačynajuć brać svajo, pakidajučy vas na rostani, uva niaŭpeŭnienaści ŭ vybary lepšaha šlachu napierad.
 
-With your mind weighed down by the weight of the unresolved enigmas, you find yourself standing before the village tavern. The warm glow of its windows and the inviting aroma of food beckon you inside. Perhaps a moment of respite, a chance to gather your thoughts and reassess your strategies, is what you need.
+Abciažarany hruzam niedazvolenych zahadak, vy staicie la viaskovaj karčmy. Ciopłaje śviatło jaje voknaŭ i vabny vodar ježy vabiać vas unutr. Mahčymaść pieradychu, abdumvańnia i pierahladu svajoj stratehii - heta toje, što vam patrebna.
 
-As you sit in the tavern, contemplating your next move, a snippet of conversation from a nearby group catches your attention. The villagers are abuzz with talk of a gathering planned for the next day, a rare occasion when the entire village will come together to discuss recent events and concerns. 
+Pakul vy siadzicie ŭ kračmie i abdumvajecie svaje dalejšyja dziejańni, vašuju ŭvahu pryciahvaje ŭryvak hutarki susiedniaj hrupy. Žychary vioski ažyŭlena abmiarkoŭvajuć schod, zapłanavany na nastupny dzień - redki vypadak, kali ŭsia vioska zbirajecca razam, kab abmierkavać apošnija padziei i prablemy. 
 
-Listening closely, you learn that the gathering will take place at the village square. The news piques your interest, as it presents a chance to observe the villagers reactions, gauge their suspicions, and perhaps catch a glimpse of any cultists who might try to blend in with the crowd.
+Uvažliva prysłuchaŭšysia, vy paznajecie, što zbor budzie prachodzić na viaskovym placy. Hetaja navina vyklikaje ŭ vas cikavaść, bo zjaŭlajecca mahčymaść panahladać za reakcyjaj žycharoŭ, acanić ich padozry i, mahčyma, zaŭvažyć kultystaŭ, jakija sprabujuć źmiašacca z natoŭpam.
 
-You cant help but wonder about the possibilities that such an event presents. The thought of the entire village congregating in one place, including potential cultists, triggers a series of calculations in your mind.
+Vy nia možacie nie zadumacca pra mahčymaści, jakija adkryvaje hetaja padzieja. Dumka pra toje, što ŭsia vioska sabiarecca ŭ adnym miescy, uklučajučy patencyjnych kultystaŭ, vyklikaje ŭ hałavie šerah raźlikaŭ.
 
-Could the cultists be planning to make a move during this gathering? Would they take advantage of the crowd to advance their agenda, or would they simply observe from the shadows, disguising their true intentions?
+Ci mohuć kultysty płanavać niešta raspačać padčas hetaha zboru? Ci skarystajucca jany natoŭpam, kab prasunuć svaje płany, ci prosta buduć nazirać z cieniu, chavajučy svaje praŭdzivyja namiery?
 
-*[Attend the gathering.] -> AttendGathering
-*[Give up the search. This investigation has already taken too much of your time.] -> VoluntaryEnd
+*[Udzielničać u zbory.] -> AttendGathering
+*[Admovicca ad pošukaŭ. Hetaje raśśledavańnie i tak adniało ŭ vas zašmat času.] -> VoluntaryEnd
 
 === AttendGathering ===
 As the day of the village gathering arrives, a mix of anticipation and caution fills the air. You make your way to the village square, your senses sharpened and your awareness heightened. The bustling crowd, a sea of familiar faces, conceals the unknown. As you navigate through the villagers, you remain vigilant, your gaze scanning for any signs of the cults presence.
