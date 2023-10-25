@@ -182,16 +182,16 @@ Ci mohuć kultysty płanavać niešta raspačać padčas hetaha zboru? Ci skarys
 *[Admovicca ad pošukaŭ. Hetaje raśśledavańnie i tak adniało ŭ vas zašmat času.] -> VoluntaryEnd
 
 === AttendGathering ===
-As the day of the village gathering arrives, a mix of anticipation and caution fills the air. You make your way to the village square, your senses sharpened and your awareness heightened. The bustling crowd, a sea of familiar faces, conceals the unknown. As you navigate through the villagers, you remain vigilant, your gaze scanning for any signs of the cults presence.
+Kali nastaje dzień viaskovaha schodu, u pavietry łunaje pradčuvańnie i asciarožnaść. Vy nakiroŭvajeciesia na viaskovy plac, vašyja pačućci abvostranyč, a śviadomaść padvyšana. Šumny natoŭp, mora znajomych tvaraŭ, chavaje nieviadomaść. Aryjentujučysia siarod žycharoŭ vioski, vy zachoŭvajecie pilnaść, pohladam vyšukvajučy kožnyja aznaki najaŭnaści kultu.
 
-Suddenly, a subtle shift in the atmosphere catches your attention. An undercurrent of tension ripples through the crowd, and you notice several individuals who seem out of place—furtive glances, concealed expressions. Instinctively, your eyes narrow on their movements. Your suspicions are confirmed when you glimpse the glint of daggers, hidden within their clothing.
+Raptam ledź zaŭvažnaja źmiena atmaśfiery pryciahvaje vašuju ŭvahu. U natoŭpie ŭźnikaje napruha, i vy zaŭvažajecie niekalkich ludziej, jakija vyhladajuć nie ŭ svajoj talercy - naściarožanyja pohlady, utojenyja vyrazy tvaraŭ. Instynktyŭna vy zvužajecie vočy, sočačy za ich ruchami. Vašyja padozrańni paćviardžajucca, kali vy zaŭvažajecie blask kinžałaŭ, schavanych u ich adzieńni.
+  
+Serca paskorana zabiłasia, kali stała jasna, nakolki surjoznaja situacyja. Kultysty znachodziacca siarod žycharoŭ vioski, zamaskavanyja i ŭzbrojenyja. {CultIsKnownToPlayer: Viedy pra {CultName} havorać, što ichnija | Ichnija} namiery nia mirnyja; jany płanujuć udaryć; vypuścić chaos i hvałt.
 
-Your heart quickens as the gravity of the situation becomes clear. The cultists are among the villagers, concealed and armed. {CultIsKnownToPlayer: Knowing what you know about the {CultName} it becomes evident that their | Their} intent is not merely to observe; they plan to strike, unleashing chaos and violence.
+Što rabić?
 
-How do you proceed?
-
-*[Careful not to cause chaos, try to disarm the cultists one by one. {print_player_skill_chance("Roguery", HardSkillCheckValue)}] -> DisarmCultists
-*[Expose their true nature to the villagers, turning them against the cultists. {print_player_skill_chance("Charm", HardSkillCheckValue)}] -> ExposeCultists
+*[Pasprabavać aściarožna abiasškodzić kultystaŭ pa adnym, kab nie vyklikać chaos. {print_player_skill_chance("Roguery", HardSkillCheckValue)}] -> DisarmCultists
+*[Vyjavić sapraŭdnuju isnaść kultystaŭ pierad žycharami vioski, kab padbuchtoryć ich suprać kultystaŭ. {print_player_skill_chance("Charm", HardSkillCheckValue)}] -> ExposeCultists
 
 === ExposeCultists ===
 {perform_player_skill_check("Charm", HardSkillCheckValue): -> succeed | -> fail}
@@ -199,46 +199,47 @@ How do you proceed?
     =succeed
     ~ StruggleHappened = true
     (SUCCESS)
-    Summoning every ounce of determination, you raise your voice above the chaos, your words cutting through the fear and confusion with authority. Urgency infuses your voice as you expose the hidden threat of the cultists, their daggers concealed and their intent to unleash violence upon the unsuspecting villagers. 
-    
-    Shock and disbelief ripple through the crowd as they gaze upon their friends and neighbors, unmasked as agents of chaos.
-    
-    The villagers, enraged and betrayed, turn against the cultists, their trust shattered. The ensuing struggle is brief but fierce, the villagers driven by a shared goal — to protect their community and rid it of this malevolent presence.
-    
-    Among the chaos, a handful of cultists manage to break free from the villagers grasp, disappearing into the winding streets that surround the square.
-    
-    The rest are swiftly outnumbered and subdued. As the dust settles, a sense of triumph and relief washes over the square. 
+    Sabraŭšy ŭsie siły, vy ŭzvyšajecie svoj hołas nad chaosam. Vašyja słovy panujuć nad stracham i razhublenaściu. Terminovaść napaŭniaje vašy hołas, kali vy vykryvajecie ŭtojenuju pahrozu kultystaŭ, ichnija kinžały i namiery ŭčynić hvałt nad niavinnymi žycharami vioski.
+
+    Uzrušeńnie i niedavier achapiŭ natoŭp, kali jany ŭbačyli svaich siabroŭ i susiedziaŭ, vykrytych jak ahientaŭ chaosu.
+
+    Razjušanyja i zdradžanyja viaskoŭcy vystupajuć suprać kultystaŭ. Nastupaje chutkaje, ale biaźlitasnaje zmahańnie žycharoŭ vioski za ahulnuju metu - abaronu svajoj haramady i pazbaŭleńnie jaje ad hetaha zła.
+
+    Siarod chaosu žmieńcy kultystaŭ udajecca vydracca z ruk žycharoŭ i schavacca ŭ zavilistych vułačkach, što atačajuć plac.
+
+    Astatnija chutka apynajucca ŭ mienšaści i pryhniečanaści. Kali pył asiadaje, na placy panuje atmaśfiera tryumfu i palohki. 
     ->choices
 
     =fail
     (FAIL)
-    Amidst the village gathering, you step forward, heart pounding with the urgency of your message. Your voice carries above the chatter, capturing the attention of those around you. You unveil the hidden threat — the presence of cultists among them, armed and intent on a violent act to appease their dark deity. 
-    
-    But as your words hang in the air, disbelief and skepticism ripple through the crowd like a stone cast into a calm pond. Eyes narrow and brows furrow as the villagers exchange glances, some even chuckling at what they perceive as an outlandish tale. 
+    Pasiarod viaskovych schodu vy vychodzicie napierad, serca bjecca ad terminovaści vašaha paviedamleńnia. Vašy hołas raznosicca nad razmovami, prykoŭvajučy ŭvahu navakolnych. Vy adkryvajecie ŭtojenuju pahrozu - najaŭnaść siarod hramady kultystaŭ, uzbrojenych i hatovych ździejśnić hvałt, kab ułahodzić svaju ciomnuju boskaść.
+
+    Ale kali vašyja słovy zavisajuć u pavietry, niedavier i skieptycyzm prakatvajucca pa natoŭpie, jak kamień, kinuty ŭ spakojnuju sažałku. Vočy zvužajucca, brovy nachmurvajucca, žychary mianiajucca pohladami, niekatoryja navat paśmichajucca z taho, što im zdajecca dziŭnaj kazkaj. 
     ->CultistsAct
     
     =choices
-    *[Chase after the nearest escaping cultist.] ->ChaseCultist
+    *[Pieraśledvać najblizkaha uciakajučaha kultysta.] ->ChaseCultist
 
 ===DisarmCultists===
-Moving with a deliberate caution, you weave through the villagers, your movements calculated to avoid drawing attention. The cultists are strategically positioned near the edge of the crowd, and as you approach the first one, your heart pounds with a mix of fear and purpose.
+Ruchajučysia z naŭmysnaj asciarožnaściu, vy prabirajeciesia praz žycharoŭ vioski, ruchi raźličany tak, kab nie pryciahvać uvahi. Kultysty stratehična źmiescavany na ŭskrajku natoŭpu, i kali vy nabližajeciesia da pieršaha ź ich, vašaje serca bjecca ad strachu i žadańnia.
+
 {perform_player_skill_check("Roguery", HardSkillCheckValue): -> succeed | -> fail}
 
     =succeed
     (SUCCESS)
-    Your fingers deftly work as you reach the cultists side, your hand moving to disarm the hidden dagger. The blade is cool against your touch as you extract it from its concealed sheath, the cultist remaining blissfully unaware of your actions. 
-    Your movements are calculated, your senses attuned to every nuance. The weight of each blade taken away is both a victory and a somber reminder of the violence that could have been. 
-    Eventually some of your earlier victims realize that something is amiss. Their gaze narrows, a glint of suspicion sparking within their eyes. Panic flares within you as you realize that your actions have not gone entirely unnoticed.
-    The cultists exchange alarmed glances, their unspoken communication reveals a decision — they recognize the element of surprise they had hoped to wield has slipped away. They begin to disengage from their positions within the crowd and blend into the labyrinthine streets that surround the square.
+    Vašyja palcy sprytna pracujuć, kali vy dasiahajecie boku kultysta, ruka ruchajecca, kab abiasškodzić schavany kinžał. Lazo chaładnavataje navobmacak, kali vy zdabyvajecie jaho z nožnaŭ, a kultyst zastajecca ŭ nieviadomaści pra vašyja dziejańni.
+    Vašyja ruchi raźličany, pačućci naładžany na kožny niuans. Vaha kožnaha vyniesienaha klinka - heta i pieramoha, i zmročny napaminak pra toje, što hvałt moh zdarycca.
+    Urešcie niekatoryja z vašych achviar razumiejuć, što niešta nia tak. Ich pohlady zvužajucca, u vačach zjaŭlajecca blask padozraŭ. Panika achaplaje vas, kali vy razumiejecie, što vašyja dziejańni nie zastalisia niezaŭvažanymi.
+    Kultysty mianiajucca ŭstryvožanymi pohladami, u ich maŭklivym kamunikavańni prasočvajecca raźviazak - jany razumiejuć, što elemient niečakanaści, na jaki jany spadziavalisia, źnik. Jany pačynajuć pakidać svaje pazicyi ŭ natoŭpie i chavacca ŭ łabiryncie vulic, što atačajuć plac.
     ->choices
     
     =fail
     (FAIL)
-    In an instant, your heart skips a beat as the cultists gaze locks onto your actions. Panic flares in his eyes, followed by a swift reaction. With a sharp intake of breath, they attempt to wrench the dagger from your grasp. The element of surprise is lost, replaced by a struggle that draws the attention of nearby cultists.
+    U adno imhnieńnie duša mleje, kali pohlad kultysta fiksujecca na vašych dziejańniach. U jaho vačach vybuchaje panika, za jakoj idzie chutkaja reakcyja. Rezka ŭdychnuŭšy, vy sprabuje vydrać kinžał z jaho ruk. Elemient niečakanaści źnikaje, na zmienu jamu prychodzić zmahańnie, što pryvablivaje ŭvahu najblizkich kultystaŭ.
     ->CultistsAct
     
     =choices
-    *[Chase after the nearest escaping cultist.] ->ChaseCultist
+    *[Pieraśledvać najblizkaha uciakajučaha kultysta.] ->ChaseCultist
 
 ===CultistsAct===
 ~ MassacreHappened = true

@@ -182,16 +182,16 @@ INCLUDE include.ink
 *[Адмовіцца ад пошукаў. Гэтае расьсьледаваньне і так адняло ў вас зашмат часу.] -> VoluntaryEnd
 
 === AttendGathering ===
-As the day of the village gathering arrives, a mix of anticipation and caution fills the air. You make your way to the village square, your senses sharpened and your awareness heightened. The bustling crowd, a sea of familiar faces, conceals the unknown. As you navigate through the villagers, you remain vigilant, your gaze scanning for any signs of the cult's presence.
+Калі настае дзень вясковага сходу, у паветры лунае прадчуваньне і асцярожнасьць. Вы накіроўваецеся на вясковы пляц, вашыя пачуцьці абвостраныч, а сьвядомасьць падвышана. Шумны натоўп, мора знаёмых твараў, хавае невядомасьць. Арыентуючыся сярод жыхароў вёскі, вы захоўваеце пільнасьць, поглядам вышукваючы кожныя азнакі наяўнасьці культу.
 
-Suddenly, a subtle shift in the atmosphere catches your attention. An undercurrent of tension ripples through the crowd, and you notice several individuals who seem out of place—furtive glances, concealed expressions. Instinctively, your eyes narrow on their movements. Your suspicions are confirmed when you glimpse the glint of daggers, hidden within their clothing.
+Раптам ледзь заўважная зьмена атмасьферы прыцягвае вашую ўвагу. У натоўпе ўзьнікае напруга, і вы заўважаеце некалькіх людзей, якія выглядаюць не ў сваёй талерцы - насьцярожаныя погляды, утоеныя выразы твараў. Інстынктыўна вы звужаеце вочы, сочачы за іх рухамі. Вашыя падозраньні пацьвярджаюцца, калі вы заўважаеце бляск кінжалаў, схаваных у іх адзеньні.
+  
+Сэрца паскорана забілася, калі стала ясна, наколькі сур'ёзная сітуацыя. Культысты знаходзяцца сярод жыхароў вёскі, замаскаваныя і ўзброеныя. {CultIsKnownToPlayer: Веды пра {CultName} гавораць, што іхнія | Іхнія} намеры ня мірныя; яны плануюць ударыць; выпусьціць хаос і гвалт.
 
-Your heart quickens as the gravity of the situation becomes clear. The cultists are among the villagers, concealed and armed. {CultIsKnownToPlayer: Knowing what you know about the {CultName} it becomes evident that their | Their} intent is not merely to observe; they plan to strike, unleashing chaos and violence.
+Што рабіць?
 
-How do you proceed?
-
-*[Careful not to cause chaos, try to disarm the cultists one by one. {print_player_skill_chance("Roguery", HardSkillCheckValue)}] -> DisarmCultists
-*[Expose their true nature to the villagers, turning them against the cultists. {print_player_skill_chance("Charm", HardSkillCheckValue)}] -> ExposeCultists
+*[Паспрабаваць асьцярожна абясшкодзіць культыстаў па адным, каб не выклікаць хаос. {print_player_skill_chance("Roguery", HardSkillCheckValue)}] -> DisarmCultists
+*[Выявіць сапраўдную існасьць культыстаў перад жыхарамі вёскі, каб падбухторыць іх супраць культыстаў. {print_player_skill_chance("Charm", HardSkillCheckValue)}] -> ExposeCultists
 
 === ExposeCultists ===
 {perform_player_skill_check("Charm", HardSkillCheckValue): -> succeed | -> fail}
@@ -199,46 +199,47 @@ How do you proceed?
     =succeed
     ~ StruggleHappened = true
     (SUCCESS)
-    Summoning every ounce of determination, you raise your voice above the chaos, your words cutting through the fear and confusion with authority. Urgency infuses your voice as you expose the hidden threat of the cultists, their daggers concealed and their intent to unleash violence upon the unsuspecting villagers. 
-    
-    Shock and disbelief ripple through the crowd as they gaze upon their friends and neighbors, unmasked as agents of chaos.
-    
-    The villagers, enraged and betrayed, turn against the cultists, their trust shattered. The ensuing struggle is brief but fierce, the villagers driven by a shared goal — to protect their community and rid it of this malevolent presence.
-    
-    Among the chaos, a handful of cultists manage to break free from the villagers' grasp, disappearing into the winding streets that surround the square.
-    
-    The rest are swiftly outnumbered and subdued. As the dust settles, a sense of triumph and relief washes over the square. 
+    Сабраўшы ўсе сілы, вы ўзвышаеце свой голас над хаосам. Вашыя словы пануюць над страхам і разгубленасьцю. Тэрміновасьць напаўняе вашы голас, калі вы выкрываеце ўтоеную пагрозу культыстаў, іхнія кінжалы і намеры ўчыніць гвалт над нявіннымі жыхарамі вёскі.
+
+    Узрушэньне і недавер ахапіў натоўп, калі яны ўбачылі сваіх сяброў і суседзяў, выкрытых як агентаў хаосу.
+
+    Раз'юшаныя і здраджаныя вяскоўцы выступаюць супраць культыстаў. Наступае хуткае, але бязьлітаснае змаганьне жыхароў вёскі за агульную мэту - абарону сваёй гарамады і пазбаўленьне яе ад гэтага зла.
+
+    Сярод хаосу жменьцы культыстаў удаецца выдрацца з рук жыхароў і схавацца ў завілістых вулачках, што атачаюць пляц.
+
+    Астатнія хутка апынаюцца ў меншасьці і прыгнечанасьці. Калі пыл асядае, на пляцы пануе атмасьфера трыумфу і палёгкі. 
     ->choices
 
     =fail
     (FAIL)
-    Amidst the village gathering, you step forward, heart pounding with the urgency of your message. Your voice carries above the chatter, capturing the attention of those around you. You unveil the hidden threat — the presence of cultists among them, armed and intent on a violent act to appease their dark deity. 
-    
-    But as your words hang in the air, disbelief and skepticism ripple through the crowd like a stone cast into a calm pond. Eyes narrow and brows furrow as the villagers exchange glances, some even chuckling at what they perceive as an outlandish tale. 
+    Пасярод вясковых сходу вы выходзіце наперад, сэрца б'ецца ад тэрміновасьці вашага паведамленьня. Вашы голас разносіцца над размовамі, прыкоўваючы ўвагу навакольных. Вы адкрываеце ўтоеную пагрозу - наяўнасьць сярод грамады культыстаў, узброеных і гатовых зьдзейсьніць гвалт, каб улагодзіць сваю цёмную боскасьць.
+
+    Але калі вашыя словы завісаюць у паветры, недавер і скептыцызм пракатваюцца па натоўпе, як камень, кінуты ў спакойную сажалку. Вочы звужаюцца, бровы нахмурваюцца, жыхары мяняюцца поглядамі, некаторыя нават пасьміхаюцца з таго, што ім здаецца дзіўнай казкай. 
     ->CultistsAct
     
     =choices
-    *[Chase after the nearest escaping cultist.] ->ChaseCultist
+    *[Перасьледваць найблізкага уцякаючага культыста.] ->ChaseCultist
 
 ===DisarmCultists===
-Moving with a deliberate caution, you weave through the villagers, your movements calculated to avoid drawing attention. The cultists are strategically positioned near the edge of the crowd, and as you approach the first one, your heart pounds with a mix of fear and purpose.
+Рухаючыся з наўмыснай асцярожнасьцю, вы прабіраецеся праз жыхароў вёскі, рухі разьлічаны так, каб не прыцягваць увагі. Культысты стратэгічна зьмесцаваны на ўскрайку натоўпу, і калі вы набліжаецеся да першага зь іх, вашае сэрца б'ецца ад страху і жаданьня.
+
 {perform_player_skill_check("Roguery", HardSkillCheckValue): -> succeed | -> fail}
 
     =succeed
     (SUCCESS)
-    Your fingers deftly work as you reach the cultist's side, your hand moving to disarm the hidden dagger. The blade is cool against your touch as you extract it from its concealed sheath, the cultist remaining blissfully unaware of your actions. 
-    Your movements are calculated, your senses attuned to every nuance. The weight of each blade taken away is both a victory and a somber reminder of the violence that could have been. 
-    Eventually some of your earlier victims realize that something is amiss. Their gaze narrows, a glint of suspicion sparking within their eyes. Panic flares within you as you realize that your actions have not gone entirely unnoticed.
-    The cultists exchange alarmed glances, their unspoken communication reveals a decision — they recognize the element of surprise they had hoped to wield has slipped away. They begin to disengage from their positions within the crowd and blend into the labyrinthine streets that surround the square.
+    Вашыя пальцы спрытна працуюць, калі вы дасягаеце боку культыста, рука рухаецца, каб абясшкодзіць схаваны кінжал. Лязо халаднаватае навобмацак, калі вы здабываеце яго з ножнаў, а культыст застаецца ў невядомасьці пра вашыя дзеяньні.
+    Вашыя рухі разьлічаны, пачуцьці наладжаны на кожны нюанс. Вага кожнага вынесенага клінка - гэта і перамога, і змрочны напамінак пра тое, што гвалт мог здарыцца.
+    Урэшце некаторыя з вашых ахвяр разумеюць, што нешта ня так. Іх погляды звужаюцца, у вачах з'яўляецца бляск падозраў. Паніка ахапляе вас, калі вы разумееце, што вашыя дзеяньні не засталіся незаўважанымі.
+    Культысты мяняюцца ўстрывожанымі поглядамі, у іх маўклівым камунікаваньні прасочваецца разьвязак - яны разумеюць, што элемент нечаканасьці, на які яны спадзяваліся, зьнік. Яны пачынаюць пакідаць свае пазіцыі ў натоўпе і хавацца ў лабірынце вуліц, што атачаюць пляц.
     ->choices
     
     =fail
     (FAIL)
-    In an instant, your heart skips a beat as the cultist's gaze locks onto your actions. Panic flares in his eyes, followed by a swift reaction. With a sharp intake of breath, they attempt to wrench the dagger from your grasp. The element of surprise is lost, replaced by a struggle that draws the attention of nearby cultists.
+    У адно імгненьне душа млее, калі погляд культыста фіксуецца на вашых дзеяньнях. У яго вачах выбухае паніка, за якой ідзе хуткая рэакцыя. Рэзка ўдыхнуўшы, вы спрабуе выдраць кінжал з яго рук. Элемент нечаканасьці зьнікае, на змену яму прыходзіць змаганьне, што прываблівае ўвагу найблізкіх культыстаў.
     ->CultistsAct
     
     =choices
-    *[Chase after the nearest escaping cultist.] ->ChaseCultist
+    *[Перасьледваць найблізкага уцякаючага культыста.] ->ChaseCultist
 
 ===CultistsAct===
 ~ MassacreHappened = true
