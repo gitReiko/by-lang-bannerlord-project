@@ -44,20 +44,20 @@ INCLUDE include.ink
 
     "Davajcie sustreniemsia ŭ Kałyski sionačy..."
 
-    Hrupa raśsiejvajecca, kožny z jaje čalcoŭ źnikaje ŭ natoŭpie. Žychary vioski praciahvajuć zajmacca svaimi štodzionnymi spravami, nie zvažajučy na ŭtojenuju ciemru.
+    Hrupa raśsiejvajecca, kožny ź jaje čalcoŭ źnikaje ŭ natoŭpie. Žychary vioski praciahvajuć zajmacca svaimi štodzionnymi spravami, nie zvažajučy na ŭtojenuju ciemru.
     ->Start.choices
     
     =fail
     (FAIL)
-    Vy sprabujecie nieŭprykmiet padyści da hrupy, imknučysia nie pryciahvać da siabie ŭvahi, adnak niezaŭvažnasć nia zjaŭlajecca vašym mocnym bokam, i kali vy padychodzicie bližej, raptoŭnaje rypańnie papiaredžvaje hrupu pra vašuju najaŭnaść.
+    Vy sprabujecie nieŭprykmiet padyści da hrupy, imknučysia nie pryciahvać da siabie ŭvahi, adnak niezaŭvažnaść nia zjaŭlajecca vašym mocnym bokam, i kali vy padychodzicie bližej, raptoŭnaje rypańnie papiaredžvaje hrupu pra vašuju najaŭnaść.
     Jany hladziać u vašy bok, ich vočy zvužajucca z padozram. Jany abmieńvajucca niekalkimi karotkimi frazami, paśla čaho źnikajuć u natoŭpie.
-    Vašaja sproba padsłuchać paciarpieła niaščaście, i vy nia možacie nie zadacca pytanniem, ci nia byŭ tolki što parušany elemient niečakanaści. 
+    Vašaja sproba padsłuchać paciarpieła niaščaście, i vy nia možacie nie zadacca pytańniem, ci nia byŭ tolki što parušany elemient niečakanaści. 
     ->Start.choices
 
 
 === InvestigateVillagers ===
     Vy razumiejecie, što kultysty ŭmiejuć chavać svaju isnaść. Vyśvietlić, chto jany takija, budzie niaprosta. Vy vyrašajecie pahutaryć z žycharami vioski i sabrać bolš infarmacyi.
-    Źviartajučysia da roznych ludziej, vy dalikatna raspytvajecie ich pra niadaŭnija dziŭnyja zdareńni, źnikłych ludziej, čutki pra ciomnyja praktyki. Niekatoryja žychary vioski vyjaŭlajuć turbotu, raskazvajučy pra tajamničyja znaki, vyhraviravanyja ŭ zacišnych kutkach, nievytłumačalnyja zniknieńni i dziŭnyja ahni, što zjaŭlajucca ŭnačy ŭ navakolnym lesie.
+    Źviartajučysia da roznych ludziej, vy dalikatna raspytvajecie ich pra niadaŭnija dziŭnyja zdareńni, źnikłych ludziej, čutki pra ciomnyja praktyki. Niekatoryja žychary vioski vyjaŭlajuć turbotu, raskazvajučy pra tajamničyja znaki, vyhraviravanyja ŭ zacišnych kutkach, nievytłumačalnyja źniknieńni i dziŭnyja ahni, što zjaŭlajucca ŭnačy ŭ navakolnym lesie.
     ->choices
 
     =choices
@@ -84,9 +84,9 @@ INCLUDE include.ink
     Starejšyna, viadomy svajoj niaŭmiełaj pracaj pa padtrymańni paradku i vyrašeńniu viaskovych prablem, žyvie ŭ ścipłaj chatcy ŭ samym centry vioski. Nabližajučysia da jaho, vy zaŭvažajecie aznaki zapuścieńnia: zarosły sad, abłuplenuju farbu na ŭvachodnych dźviarach i ahulny nieparadak.
     Vy stukajecie ŭ draŭlanyja dźviery, i stary adkryvaje jaje z trochi razdražnionym vyrazam tvaru. "Što vam patrebna?" - burčyć jon, u jaho tonie adčuvajecca razdražnieńnie. Vy tłumačycie pryčynu svajho vizitu, vyjaŭlajučy turbotu z nahody dziŭnych zjaŭ u vioscy i mahčymaj najaŭnaści kultu.
     "Vy dumajecie, u našaj vioscy majecca kult?" - kpić jon, u jaho hołasie hučyć niedavier. - "Heta prosta absurd! U nas i biez takich dzikich kazak chapaje prablem u štodzionnym žyćci. Prablem? Tak, my majem ich šmat. Ale kult? Nia moža być."
-    Kali vy sprabujecie pierakanać starejšynu ŭ surjoznaści situacyi, jon vybuchaje. "Ja maju važniejšyja spravy za vysłuchoŭvańnie ŭsiakaha hłupstva!" - hyrkaje jon, i jaho rasčaravańnie robicca adčuvalnym. - "Kali vy žadajecie pravieści raśśledavannie, napierad. Ale nie čaplajciesia da mianie sa svaimi ŭjaŭnymi kultami!"
-    Paśla hetaha jon začyniaje dzviery pierad vašym nosam, i huk recham raznosicca pa cichich viaskovych vulicach.
-    Zastaŭšysia biaz vybaru, vy pavinny znajści alternatyŭnyja šlachi raśśledavańnia, nie zviartajučysia pa dapamohu starejšyny.
+    Kali vy sprabujecie pierakanać starejšynu ŭ surjoznaści situacyi, jon vybuchaje. "Ja maju važniejšyja spravy za vysłuchoŭvańnie ŭsiakaha hłupstva!" - hyrkaje jon, i jaho rasčaravańnie robicca adčuvalnym. - "Kali vy žadajecie pravieści raśśledavańnie, napierad. Ale nie čaplajciesia da mianie sa svaimi ŭjaŭnymi kultami!"
+    Paśla hetaha jon začyniaje dźviery pierad vašym nosam, i huk recham raznosicca pa cichich viaskovych vulicach.
+    Zastaŭšysia biaz vybaru, vy pavinny znajści alternatyŭnyja šlachi raśśledavańnia, nie źviartajučysia pa dapamohu starejšyny.
     ->InvestigateVillagers.choices
     
     =choices
@@ -98,8 +98,8 @@ INCLUDE include.ink
     (SUCCESS)
     Tvar starejšyny tuzajecca, zaśpiety źnianacku ščyraściu vašych abvinavačańniaŭ.
     U chvilinu ŭraźlivaści starejšyna pryznajecca, što apošnim časam atrymvaje nievialikija sumy hrošaŭ, ananimna pakinutyja ŭ paroha jaho chaty. Krynica hetych hrošaj zastajecca dziela jaho tajamnicaj, ale jon pryznajecca, što ŭ pamien na hetyja chabary zapluščvaŭ vočy na dziŭnyja padziei. Soram napaŭniaje jaho hołas, kali jon tłumačyć, što finansavyja ciažkaści i spakusa lepšaha žyćcia dla jaho siamji zaścili jaho rozum.
-    Jon zdajecca ščyrym. Vy pierakananyja, što jon sapraŭdy nia viedaje bolš pra pachodžannie hrošaŭ, atrymanych u jakaści chabaru.
-    Niahledziačy na niaviedańnie, vy pierakonvajecie starejšynu ŭziać na siabie adkaznaść za svaje dziejańni i razarvać suviaź z ananimnym dabradziejem. Vy padkreślivajecie važnaść adnaŭleńnia biaspieki i dabrabytu vioski i zaklikajecie jaho stać chaŭrusnikam u zmahańni z kultam.
+    Jon zdajecca ščyrym. Vy pierakananyja, što jon sapraŭdy nia viedaje bolš pra pachodžańnie hrošaŭ, atrymanych u jakaści chabaru.
+    Niahledziačy na niaviedańnie, vy pierakonvajecie starejšynu ŭziać na siabie adkaznaść za svaje dziejańni i razarvać suviaź z ananimnym dabradziejem. Vy padkreślivajecie važnaść adnaŭleńnia biaśpieki i dabrabytu vioski i zaklikajecie jaho stać chaŭruśnikam u zmahańni z kultam.
     *[Schavacca ŭ čakańni čarhovaha chabaru, kab prasačyć za jaje dastaŭnikam.] -> wait
     *[Znajści inšyja šlachi pradaŭžeńnia raśśledavańnia.] -> InvestigateVillagers.choices
     
@@ -111,7 +111,7 @@ INCLUDE include.ink
      ->InvestigateVillagers.choices
     
     =wait
-    Vyrašyŭšy raskryć tajamnicu, što chavajecca za chabaram, vy raspracoŭvajecie płan, jak znajści chatu starejšyny i dačakacca nastupnaj pieradačy. Dni źmianiajucca načami, a vy ciarpliva chavajeciesia, pilna sočačy za zjaŭlenniem tajamničaha pasłanca. Ale čas idzie, nichto nie prychodzić, i nočy zastajucca spakojnymi.
+    Vyrašyŭšy raskryć tajamnicu, što chavajecca za chabaram, vy raspracoŭvajecie płan, jak znajści chatu starejšyny i dačakacca nastupnaj pieradačy. Dni źmianiajucca načami, a vy ciarpliva chavajeciesia, pilna sočačy za zjaŭleńniem tajamničaha pasłanca. Ale čas idzie, nichto nie prychodzić, i nočy zastajucca spakojnymi.
     Rasčaravaŭšysia i vydychnuŭšysia, vy pačynajecie sumniavacca ŭ efiektyŭnaści takoha padychodu. Mahčyma, chabaradaŭnik daviedaŭsia pra vašuju najaŭnaść ci źmianiŭ sposab pieradačy. Niastača choć-jakich istotnych začepak ci zruchaŭ paharšaje vašuju rašučaść.
     Vy pryjmajecie raźviazak admovicca ad sačeńnia, pryznaŭšy, što hetaja ściežka zajšła ŭ tupik.
     -> InvestigateVillagers.choices
@@ -130,7 +130,7 @@ INCLUDE include.ink
 
 ===InvestigateDisappearances===
     Nasampierš vy źviartajeciesia da svajakoŭ źnikłych ludziej. Vy spačuvalna vysłuchvajecie ich, prapanujecie suciašeńnie i padtrymku, a taksama nieŭprykmiet źbirajecie infarmacyju. Kožnaja historyja poŭnaja pakuty i razhublenaści, u joj majucca ahulnyja nitki nievytłumačalnych akaličnaściaŭ. Chodziać zmročnyja čutki pra niabačnuju siłu, što ŭtojvajecca ŭ cieni vioski.
-    Ruchomyja pačućciom nieadkładnaj patreby, vy pahłyblajeciesia ŭ rassledavańnie, šukajecie začepki i suviazi. Vy adznačajecie miescy, dzie adbyvalisia źniknieńni, na impravizavanaj došcy dla rassledavańnia. Vyjaŭlajucca zakanamiernaści, što pakazvajuć na kancentracyju zdareńniaŭ na ŭskrainie vioski i ŭ navakolnych lasach.
+    Ruchomyja pačućciom nieadkładnaj patreby, vy pahłyblajeciesia ŭ raśśledavańnie, šukajecie začepki i suviazi. Vy adznačajecie miescy, dzie adbyvalisia źniknieńni, na impravizavanaj došcy dla raśśledavańnia. Vyjaŭlajucca zakanamiernaści, što pakazvajuć na kancentracyju zdareńniaŭ na ŭskrainie vioski i ŭ navakolnych lasach.
     ->choices
     
     =search
@@ -139,7 +139,7 @@ INCLUDE include.ink
     U inšaj chacie vy vyjaŭlajecie pakinutyja asabistyja rečy - zapavietnuju cacanku, niedapisany list, lubuju knihu. Hetyja reštki ich žyćcia namiakajuć na raptoŭnaść i niečakanaść ich sychodu.
     Robicca jasna, što źnikłyja ludzi byli achviarami, vykradzienymi suprać ich voli.
     {SymbolLeftBehind == 1: Dbajna daśledujučy chatu sa śladami zmahańnia, vy zaŭvažyli siarod chaosu štości, pakinutaje złačyncami. Aściarožna schavaŭšy jaho pad pierakulenym stałom, vy vyjaŭlajecie złamany amulet z padranym łancužkom, biez sumnievu, prynaležny šukanamu kultu. -> identify_option}
-    {SymbolLeftBehind == 0: Niahledziačy na starannaje abśledavańnie chat źnikłych achviar, vy nie znachodzicie nijakich novych istotnych začepak ci praryvaŭ. Ślady zmahańnia i kinutyja rečy tolki paharšajuć zahadku, pakidajučy bolš pytanniaŭ, čym adkazaŭ. Rasčaravańnie i pačućcio biezdapamožnaści pačynajuć avałodvać vami, kali vy razumiejecie, što śled zhubiŭsia. ->InvestigateVillagers.choices}
+    {SymbolLeftBehind == 0: Niahledziačy na starannaje abśledavańnie chat źnikłych achviar, vy nie znachodzicie nijakich novych istotnych začepak ci praryvaŭ. Ślady zmahańnia i kinutyja rečy tolki paharšajuć zahadku, pakidajučy bolš pytańniaŭ, čym adkazaŭ. Rasčaravańnie i pačućcio biezdapamožnaści pačynajuć avałodvać vami, kali vy razumiejecie, što śled zhubiŭsia. ->InvestigateVillagers.choices}
     
     =identify_option
     *[Vyznačyć znak {print_player_attribute_chance("Intelligence",5)}] -> identify_check
@@ -170,7 +170,7 @@ Paśla niastomnych pošukaŭ roznych začepak i varyjantaŭ vašyja vysiłki nie
 
 Abciažarany hruzam niedazvolenych zahadak, vy staicie la viaskovaj karčmy. Ciopłaje śviatło jaje voknaŭ i vabny vodar ježy vabiać vas unutr. Mahčymaść pieradychu, abdumvańnia i pierahladu svajoj stratehii - heta toje, što vam patrebna.
 
-Pakul vy siadzicie ŭ kračmie i abdumvajecie svaje dalejšyja dziejańni, vašuju ŭvahu pryciahvaje ŭryvak hutarki susiedniaj hrupy. Žychary vioski ažyŭlena abmiarkoŭvajuć schod, zapłanavany na nastupny dzień - redki vypadak, kali ŭsia vioska zbirajecca razam, kab abmierkavać apošnija padziei i prablemy. 
+Pakul vy siadzicie ŭ kračmie i abdumvajecie svaje dalejšyja dziejańni, vašuju ŭvahu pryciahvaje ŭryvak hutarki susiedniaj hrupy. Žychary vioski ažyŭlena abmiarkoŭvajuć schod, zapłanavany na nastupny dzień - redki vypadak, kali ŭsia vioska źbirajecca razam, kab abmierkavać apošnija padziei i prablemy. 
 
 Uvažliva prysłuchaŭšysia, vy paznajecie, što zbor budzie prachodzić na viaskovym placy. Hetaja navina vyklikaje ŭ vas cikavaść, bo zjaŭlajecca mahčymaść panahladać za reakcyjaj žycharoŭ, acanić ich padozry i, mahčyma, zaŭvažyć kultystaŭ, jakija sprabujuć źmiašacca z natoŭpam.
 
@@ -182,7 +182,7 @@ Ci mohuć kultysty płanavać niešta raspačać padčas hetaha zboru? Ci skarys
 *[Admovicca ad pošukaŭ. Hetaje raśśledavańnie i tak adniało ŭ vas zašmat času.] -> VoluntaryEnd
 
 === AttendGathering ===
-Kali nastaje dzień viaskovaha schodu, u pavietry łunaje pradčuvańnie i asciarožnaść. Vy nakiroŭvajeciesia na viaskovy plac, vašyja pačućci abvostranyč, a śviadomaść padvyšana. Šumny natoŭp, mora znajomych tvaraŭ, chavaje nieviadomaść. Aryjentujučysia siarod žycharoŭ vioski, vy zachoŭvajecie pilnaść, pohladam vyšukvajučy kožnyja aznaki najaŭnaści kultu.
+Kali nastaje dzień viaskovaha schodu, u pavietry łunaje pradčuvańnie i aściarožnaść. Vy nakiroŭvajeciesia na viaskovy plac, vašyja pačućci abvostranyč, a śviadomaść padvyšana. Šumny natoŭp, mora znajomych tvaraŭ, chavaje nieviadomaść. Aryjentujučysia siarod žycharoŭ vioski, vy zachoŭvajecie pilnaść, pohladam vyšukvajučy kožnyja aznaki najaŭnaści kultu.
 
 Raptam ledź zaŭvažnaja źmiena atmaśfiery pryciahvaje vašuju ŭvahu. U natoŭpie ŭźnikaje napruha, i vy zaŭvažajecie niekalkich ludziej, jakija vyhladajuć nie ŭ svajoj talercy - naściarožanyja pohlady, utojenyja vyrazy tvaraŭ. Instynktyŭna vy zvužajecie vočy, sočačy za ich ruchami. Vašyja padozrańni paćviardžajucca, kali vy zaŭvažajecie blask kinžałaŭ, schavanych u ich adzieńni.
   
@@ -221,7 +221,7 @@ Serca paskorana zabiłasia, kali stała jasna, nakolki surjoznaja situacyja. Kul
     *[Pieraśledvać najblizkaha uciakajučaha kultysta.] ->ChaseCultist
 
 ===DisarmCultists===
-Ruchajučysia z naŭmysnaj asciarožnaściu, vy prabirajeciesia praz žycharoŭ vioski, ruchi raźličany tak, kab nie pryciahvać uvahi. Kultysty stratehična źmiescavany na ŭskrajku natoŭpu, i kali vy nabližajeciesia da pieršaha ź ich, vašaje serca bjecca ad strachu i žadańnia.
+Ruchajučysia z naŭmysnaj aściarožnaściu, vy prabirajeciesia praz žycharoŭ vioski, ruchi raźličany tak, kab nie pryciahvać uvahi. Kultysty stratehična źmiescavany na ŭskrajku natoŭpu, i kali vy nabližajeciesia da pieršaha ź ich, vašaje serca bjecca ad strachu i žadańnia.
 
 {perform_player_skill_check("Roguery", HardSkillCheckValue): -> succeed | -> fail}
 
@@ -235,7 +235,7 @@ Ruchajučysia z naŭmysnaj asciarožnaściu, vy prabirajeciesia praz žycharoŭ 
     
     =fail
     (FAIL)
-    U adno imhnieńnie duša mleje, kali pohlad kultysta fiksujecca na vašych dziejańniach. U jaho vačach vybuchaje panika, za jakoj idzie chutkaja reakcyja. Rezka ŭdychnuŭšy, vy sprabuje vydrać kinžał z jaho ruk. Elemient niečakanaści źnikaje, na zmienu jamu prychodzić zmahańnie, što pryvablivaje ŭvahu najblizkich kultystaŭ.
+    U adno imhnieńnie duša mleje, kali pohlad kultysta fiksujecca na vašych dziejańniach. U jaho vačach vybuchaje panika, za jakoj idzie chutkaja reakcyja. Rezka ŭdychnuŭšy, vy sprabuje vydrać kinžał ź jaho ruk. Elemient niečakanaści źnikaje, na źmienu jamu prychodzić zmahańnie, što pryvablivaje ŭvahu najblizkich kultystaŭ.
     ->CultistsAct
     
     =choices
@@ -244,7 +244,7 @@ Ruchajučysia z naŭmysnaj asciarožnaściu, vy prabirajeciesia praz žycharoŭ 
 ===CultistsAct===
 ~ MassacreHappened = true
 Kultysty, što zatailisia, vykarystoŭvajuć hety momant, kab ažyciavić svajho płana. Zaniaŭšy stratehična vyhadnyja pazicyi na ŭskrajku natoŭpu, jany dastajuć schavanyja kinžały i źbirajucca sa złaviesnaj metaj. 
-Pierš čym chto-niebudź paśpiavaje zreahavać, kultysty kidajucca ŭ boj, ichnija klinki zichaciać u dzionnym śviatle. Nastaje chaos: kultysty biaźlitasna siakuć usich, chto traplajecca im na šlachu. Viaskovy plac apanoŭvaje chaos, kryki žachu napaŭniajuć pavietra i pieratvarajucca ŭ scenu kašmarnaha hvałtu. Ahałamšalnaja efiektyŭnaść dziejańniaŭ kultystaŭ i šok žycharoŭ vioski paralizujuć usiakuju mahčymasć imhniennych uciokaŭ.
+Pierš čym chto-niebudź paśpiavaje zreahavać, kultysty kidajucca ŭ boj, ichnija klinki zichaciać u dzionnym śviatle. Nastaje chaos: kultysty biaźlitasna siakuć usich, chto traplajecca im na šlachu. Viaskovy plac apanoŭvaje chaos, kryki žachu napaŭniajuć pavietra i pieratvarajucca ŭ scenu kašmarnaha hvałtu. Ahałamšalnaja efiektyŭnaść dziejańniaŭ kultystaŭ i šok žycharoŭ vioski paralizujuć usiakuju mahčymaść imhniennych uciokaŭ.
 Siarod chaosu i žachu, što achapiŭ viaskovy plac, vašy pohlad ułaŭlivaje štości dziŭnaje - uzory, što ŭźnikajuć u strumieniach raźlitaj na kamiani kryvi. Kinžały kultystaŭ, puščanyja ŭ chod z aščadnaj žorstkaściu, stvarajuć barvovyja raŭčuki, jakija, niby, sychodziacca pa pradumanych traektoryjach.
 Chałodnaja dryhota prabiahaje pa chrybietniku, kali vy ŭśviedamlajecie značeńnie hetych uzoraŭ - namiery kultystaŭ značna padstupniej za prostuju razaninu. Raźlitaja imi kroŭ nie prapadaje darma, jana nieabchodnaja dla dasiahnieńnia peŭnaj mety. Ich ciomny rytuał nakiravany na toje, kab pierasunuć pralituju kroŭ uva ŭtojenyja hłybini pad viaskovym placam, - zmročnaja cyrymonija zaklikana ŭłahodzić ich kryvažernuju boskaść.
 
@@ -256,43 +256,41 @@ Chałodnaja dryhota prabiahaje pa chrybietniku, kali vy ŭśviedamlajecie znače
     ->END
 
 ===RallyVillagers===
-Amidst the chaos of the village square, your determination ignites a spark of action within you. With a voice raised above the cacophony, you call out to those within earshot, your words carrying a sense of urgency and authority.
+Siarod chaosu, što panuje na viaskovym placy, vašaja rašučaść zapaliła ŭ vas iskru dziejańnia. Uzvysiŭšy hołas nad kakafonijaj, vy źviartajeciesia da tych, chto znachodzicca ŭ miežach čutnaści, i vašyja słovy niasuć u sabie pačućcio terminovaści i aŭtaryteta.
 
-"Villagers, stand together" - with a firm voice, you command the villagers to build barricades using nearby stands and tables and mount a defense against the cultists onslaught.
+"Viaskoŭcy, stańcie razam!" - ćviordym hołasam vy zahadvajecie žycharam vioski pabudavać barykady z najblizkich stojek i stałoŭ, i arhanizavać abaronu ad naporu kultystaŭ.
 
-The horrific scene at the village square transforms into one of organization and defiance as the villagers rally to your command. Their makeshift weapons, combined with the barriers theyve created, form a defensive line that stands as a formidable challenge to the cultists daggers. 
+Kali nastup kultystaŭ našturchvajecca na hetki niečakany supraciŭ, ich rašučaść pačynaje słabieć. Jany zamirajuć, strymanyja adzinym frontam žycharoŭ vioski i stratehičnaj pieravahaj, što jany atrymali. Jany ŭśviedamlajuć, što elemient niečakanaści byŭ pierapynieny, i na źmienu jamu pryjšła siła, jakoj jany nie čakali.
 
-As the cultists advance is met with this unexpected resistance, their determination begins to falter. They pause, held at bay by the villagers united front and the strategic advantage theyve taken. The realization dawns upon them that the element of surprise has been thwarted, replaced by a defiant strength that they hadnt anticipated.
-
-In a swift decision, the cultists begin to withdraw, their footsteps retreating as they fade into the background.
+Pryniaŭšy chutki nadum, kultysty pačynajuć adstupać, ichnija kroki addalajucca, źnikajučy na zadnim płanie.
 ->choices
 
     =choices
-    *[Chase after the nearest escaping cultist.] ->ChaseCultist
+    *[Pieraśledvać najblizkaha uciakajučaha kultysta.] ->ChaseCultist
     
 ===ChaseCultist===
-Driven by a relentless determination, you choose to give chase as the cultists retreat from the village square. The winding streets and narrow alleys become a blur as you navigate the labyrinthine paths, driven by a thirst for answers and justice.
-Your pursuit eventually leads you to a building that stands apart from the others — an abandoned and partly ruined structure marred by time and neglect. The entrance, concealed by a tattered curtain of vines, hints at the darkness that lies within. The cultists footsteps fade as they disappear through this ominous entrance.
-Sword in hand, you decide to enter after them.
+Ruchomyja niepachisnaj rašučaściu, vy vyrašajecie puścicca ŭ pahoniu, pakul kultysty adstupajuć z viaskovaha placa. Zavilistyja vulicy i vuzkija zavułki pieratvarajucca ŭ sucelnuju plamu, kali vy prabirajeciesia pa łabiryntach, ruchomyja smahaj adkazu i spraviadlivaści.
+U vyniku pošuki pryviali vas da budynka, što vyłučajecca siarod inšych - zakinuty i paŭrazburany, apanury časam i zapuścieńniem. Uvachod, utojeny rvanaj zasłonaj z lijan, namiakaje na panujučuju ŭnutry ciemru. Kroki kultystaŭ zacichajuć, kali jany źnikajuć u hetym złaviesnym ŭvachodzie.
+Z miačom u ruce vy vyrašajecie ŭvajści ŭśled za imi.
 ->EnterHideout
 
 ===VoluntaryEnd===
-    With a heavy sigh, you acknowledge that this puzzle has proven too much for you, robbing you of time and peace. You decide to leave the village to its fate. With a final glance you turn away, the weight of unanswered questions and unfulfilled justice a burden you reluctantly leave behind.
+    Z ciažkim uzdycham vy pryznajecie, što hetaja hałavałomka apynułasia dla vas zanadta składanaj, spažyła ŭašmat času i supakoju. Vy vyrašajecie pakinuć viosku na volu losu. Kinuŭšy apošni pahlad, vy idziacie, nie žadajučy rasstavacca z hruzam pytańniaŭ, što zastalisia biez adkazu, i niaździejśnienaj spraviadlivaści.
 ->END
 
 ===EnterHideout===
 ~ OpenCultistLairMission("TOR_cultist_lair_001")
 ...
-{DealtWithCultists: As the last cultist falls beneath the weight of your blade, a deafening silence descends upon the chamber. The air is thick with the scent of victory and the echoes of battle. You stand amidst the fallen cultists, the sword in your hand a testament to your unwavering determination and skill.}
-{DealtWithCultists && MassacreHappened: As you step out of the underground chamber, your heart sinks at the sight that awaits you in the village square. The once vibrant heart of the village now lies transformed into a scene of unspeakable horror. Bodies of villagers and cultists alike litter the ground, their lives snuffed out in the violent clash that has taken place.}
-{DealtWithCultists && MassacreHappened: Blood stains the cobblestones, turning the ground into a macabre canvas of tragedy. The air is thick with the scent of iron and the aftermath of battle, a stark contrast to the festivities that had filled the square only moments before. The debris of the confrontation, overturned stands and shattered tables, bears witness to the chaos that has unfolded.}
-{DealtWithCultists && MassacreHappened: The once-lively atmosphere is replaced by an eerie stillness, broken only by the distant sounds of sobbing and the soft cries of those who have survived. The villagers, who had rallied to your side in the face of the cultists threat, now grapple with the brutal reality that their efforts have come at a heavy cost.}
-{DealtWithCultists && not MassacreHappened && not StruggleHappened: You emerge from the hideout and step into the square, your heart is still racing from the confrontation with the cultists. }
-{DealtWithCultists && not MassacreHappened && not StruggleHappened: As you move through the crowd, you realize that your actions have gone unnoticed. The villagers laugh and chat, engrossed in their festivities, unaware of the sinister plot that had loomed over them.}
-{DealtWithCultists && not MassacreHappened && not StruggleHappened:You take a moment to appreciate the warmth and joy that fill the air. Children play, adults converse, and the camaraderie of the villagers is a testament to their shared bonds and resilience. The darkness that had sought to infiltrate their lives has been kept at bay, and your actions have played a crucial role in preserving their way of life.}
- {DealtWithCultists && not MassacreHappened: The cult has been eradicated, and the hidden threat has been extinguished, leaving behind a village that can continue to thrive in the light of a new day.}
- {not DealtWithCultists: As you lie defeated within the hidden chamber, your breath ragged and your body battered, the weight of your failure presses heavily upon you. The cold stone walls, which had borne witness to the battles violence, now seem to close in around you, a grim reminder of the darkness that has prevailed.}
- {not DealtWithCultists: Amidst the silence of your defeat, a distant sound reaches your ears — a chorus of hurried footsteps and raised voices. The troops of your party, who had been camped outside the village are now rushing to your aid.}
- {not DealtWithCultists: The cultists who had managed to overwhelm you, having exposed themselves, are no longer within your reach. They have slipped away, disappearing like smoke carried by the wind, leaving the village in their wake.}
- {not DealtWithCultists: The knowledge that the cultists will surely continue their reign of darkness in another unsuspecting village is a painful reality to accept.}
+{DealtWithCultists: Kali apošni kultyst valicca pad ciažaram vašaha klinka, u zale nastaje ahłušalnaja cišynia. U pavietry łunaje vodar pieramohi i vodhałaski bitvy. Vy staicie siarod zahinułych kultystaŭ, mieč u vašaj ruce - śviedčańnie vašaj niepachisnaj rašučaści i majsterstva.}
+{DealtWithCultists && MassacreHappened: Kali vy vychodzicie z padziemnaha pakoju, duša mleje ŭbačyŭšy toje, što čakaje vas na viaskovym placy. Niekali ažyŭlenaje serca vioski zaraz pieratvaryłasia ŭ scenu nievymoŭnaha žachu. Na ziamli lažać cieły jak žycharoŭ vioski, hetak i kultystaŭ, žyćcio jakich abarvałasia ŭ vyniku žorstkaha sutyknieńnia.}
+{DealtWithCultists && MassacreHappened: Kroŭ zalivaje kamiani, pieratvarajučy ziamlu ŭ zmročnaje pałatno trahiedyi. U pavietry łunaje pach žaleza i nastupstvaŭ bitvy, heta rezka kantrastuje sa śviatam, jakoje panavała na placy ŭsiaho niekalki chvilin tamu. Askiepki sutyknieńnia - pierakulenyja trybuny i pabityja stały - śviedčać pra razhornuty chaos.}
+{DealtWithCultists && MassacreHappened: Na źmienu niekali žyvoj atmaśfiery pryjšła žudasnaja cišynia, što parušajecca tolki addalenymi hukami rydańniaŭ i cichim płačam tych, chto vyžyŭ. Žychary vioski, jakija zhurtavalisia pierad tvaram pahrozy z boku kultystaŭ, zaraz stuknulisia z žorstkaj realnaściu: ichnija vysiłki dalisia im darahim koštam.}
+{DealtWithCultists && not MassacreHappened && not StruggleHappened: Kali vy vychodzicie z chovanki na plac, serca ŭsio jašče bjecca ad sutyknieńnia z kultystami. }
+{DealtWithCultists && not MassacreHappened && not StruggleHappened: Prabirajučysia praz natoŭp, vy razumiejecie, što vašyja dziejańni zastalisia niezaŭvažanymi. Žychary vioski śmiajucca i bałbočuć, zachoplenyja svaim śviatam, nie padazrajučy pra złaviesnuju zmovu, jakaja navisała nad imi.}
+{DealtWithCultists && not MassacreHappened && not StruggleHappened: Na imhnieńnie vy aceńvajecie ciapło i radaść, što napaŭniajuć pavietra. Dzieci hulajuć, stałyja havorać, a hramadstva žycharoŭ vioski śviedčyć pra ichnija ahulnyja suviazi i tryvałaść. Ciemra, što sprabavała prakraścisia ŭ ichniaje žyćcio, była strymana, i vašyja dziejańni zhulali vyrašalnuju rolu ŭ zachavańni ichniaha ładu žyćcia.}
+ {DealtWithCultists && not MassacreHappened: Kult byŭ źniščany, utojenaja pahroza likvidavana, paśla čaho zastałasia vioska, jakaja moža praciahvać kvitnieć u śviatle novaha dnia.}
+ {not DealtWithCultists: Kali vy lažycie ŭ patajemnym pakoi, staiŭšy dychańnie i zmučanaje cieła, ciažar parazy dušyć na vas. Chałodnyja kamiennyja ścieny, što byli śviedkami žorstkaj bitvy, zaraz, zdajecca, stulilisia vakoł vas, zmročna napaminajučy pra panujučuju tut ciemru.}
+ {not DealtWithCultists: Siarod cišyni parazy da vas danosicca daloki huk - chor paśpiešlivych krokaŭ i ŭźniosłych hałasoŭ. Vajary vašaj partyi, što stajali łahieram u vioski, śpiašajucca da vas na dapamohu.}
+ {not DealtWithCultists: Kultysty, jakim paščaściła ahałomšyć vas, vyjaviŭšy siabie, bolš nie znachodziacca ŭ miežach vašaj dasiahalnaści. Jany vyślizhvajuć, źnikajuć, jak dym, što znosicca vietram, pakidajučy za saboj viosku.}
+ {not DealtWithCultists: Uśviedamleńnie taho, što kultysty nieadmienna praciahnuć svajo panavańnie ciemry ŭ inšaj, ničoha nie padazrajučaj vioscy, - balučaja realnaść, ź jakoj davodzicca mirycca.}
 ->END
