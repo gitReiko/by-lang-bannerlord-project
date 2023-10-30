@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-<NPCCharacter id="village_woman_empire" default_group="Infantry" is_female="true" level="1" name="{=village_woman_empire.name}Empire Peasant" occupation="Villager" culture="Culture.empire" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+<NPCCharacter id="village_woman_spanish" default_group="Infantry" is_female="true" level="1" name="{=village_woman_spanish.name}Empire Peasant" occupation="Villager" culture="Culture.spanish" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.townswoman_empire"/>
+      <face_key_template value="BodyProperty.townswoman_spanish"/>
       <hair_tags>
         <hair_tag name="Bobbed"/>
         <hair_tag name="RestingOnShoulders"/>
@@ -76,9 +76,9 @@
   
   <!--caravan-->
   
-   <NPCCharacter id="caravan_master_empire" default_group="Infantry" level="26" name="{=caravan_master_empire.name}German Caravan Master" occupation="CaravanGuard" culture="Culture.empire">
+   <NPCCharacter id="caravan_master_spanish" default_group="Infantry" level="26" name="{=caravan_master_spanish.name}Spanish Caravan Master" occupation="CaravanGuard" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
       <skill id="Athletics" value="130"/>
@@ -127,9 +127,9 @@
   
   <!--armed trader-->
   
-   <NPCCharacter id="armed_trader_empire" default_group="Ranged" level="16" name="{=armed_trader_empire.name}German Armed Trader" occupation="CaravanGuard" culture="Culture.empire" is_basic_troop="true">
+   <NPCCharacter id="armed_trader_spanish" default_group="Ranged" level="16" name="{=armed_trader_spanish.name}Spanish Armed Trader" occupation="CaravanGuard" culture="Culture.spanish" is_basic_troop="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
       <skill id="Athletics" value="70"/>
@@ -184,9 +184,9 @@
   
   <!--caravan guard-->
   
-  <NPCCharacter id="caravan_guard_empire" default_group="HorseArcher" level="21" name="{=caravan_guard_empire.name}German Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.empire">
+  <NPCCharacter id="caravan_guard_spanish" default_group="HorseArcher" level="21" name="{=caravan_guard_spanish.name}Spanish Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
       <skill id="Athletics" value="40"/>
@@ -254,9 +254,9 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="veteran_caravan_guard_empire" default_group="Cavalry" level="26" name="{=veteran_caravan_guard_empire.name}German Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.empire">
+  <NPCCharacter id="veteran_caravan_guard_spanish" default_group="Cavalry" level="26" name="{=veteran_caravan_guard_spanish.name}Spanish Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
       <skill id="Athletics" value="80"/>
@@ -322,43 +322,42 @@
 
 <!--troops-->
 
- <NPCCharacter id="german_levy" default_group="Infantry" level="6" name="{=german_levy.name}German Herrbann" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="spanish_levy" default_group="Infantry" level="6" name="{=spanish_levy.name}Spanish Peones" occupation="Soldier" is_basic_troop="true" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
       <skill id="Athletics" value="20"/>
       <skill id="Riding" value="5"/>
       <skill id="OneHanded" value="20"/>
-      <skill id="TwoHanded" value="10"/>
+      <skill id="TwoHanded" value="20"/>
       <skill id="Polearm" value="20"/>
       <skill id="Bow" value="5"/>
       <skill id="Crossbow" value="5"/>
       <skill id="Throwing" value="5"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.german_militia_spearman"/>
-	  <upgrade_target id="NPCCharacter.german_militia_crossbowman"/>
-	  
+      <upgrade_target id="NPCCharacter.spanish_militia_spearman"/>
+      <upgrade_target id="NPCCharacter.spanish_militia_crossbowman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
 				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.fur_skirt_with_tunic"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<equipment slot="Body" id="Item.vlandia_bandit_b"/>
+				<equipment slot="Body" id="Item.half_apron"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_militia_spearman" default_group="Infantry" level="11" name="{=german_militia_spearman.name}German Militia Spearman" occupation="Soldier" culture="Culture.empire">
+ <NPCCharacter id="spanish_militia_spearman" default_group="Infantry" level="11" name="{=spanish_militia_spearman.name}Spanish Militia Spearman" occupation="Soldier" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
     <skill id="Athletics" value="40"/>
@@ -371,23 +370,28 @@
     <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.german_veteran_militia_spearman"/>
-	  <upgrade_target id="NPCCharacter.german_swabian_swordsman"/>
+      <upgrade_target id="NPCCharacter.spanish_veteran_militia_spearman"/>
+      <upgrade_target id="NPCCharacter.spanish_light_cavalry"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
-				<equipment slot="Head" id="Item.leather_cap"/>
-				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Item1" id="Item.curved_round_shield"/>
+				<equipment slot="Body" id="Item.padded_leather_overcoat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.curved_round_shield"/>
+				<equipment slot="Body" id="Item.padded_leather_overcoat"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
-    <NPCCharacter id="german_veteran_militia_spearman" default_group="Infantry" level="16" name="{=german_veteran_militia_spearman.name}German Veteran Militia Spearman" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="spanish_veteran_militia_spearman" default_group="Infantry" level="16" name="{=spanish_veteran_militia_spearman.name}Spanish Veteran Militia Spearman" occupation="Soldier" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
     <skill id="Athletics" value="70"/>
@@ -400,116 +404,25 @@
     <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.german_sergeant_spearman"/>
+      <upgrade_target id="NPCCharacter.spanish_bidet"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.southern_spear_4_t3"/>
-				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
-				<equipment slot="Head" id="Item.leather_cap"/>
-				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
-				<equipment slot="Body" id="Item.leather_tunic"/>
-				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-
-    <NPCCharacter id="german_sergeant_spearman" default_group="Infantry" level="21" name="{=german_sergeant_spearman.name}German Sergeant Spearman" occupation="Soldier" culture="Culture.empire">
-    <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
-    </face>
-    <skills>
-    <skill id="Athletics" value="100"/>
-    <skill id="Riding" value="15"/>
-    <skill id="OneHanded" value="100"/>
-    <skill id="TwoHanded" value="100"/>
-    <skill id="Polearm" value="100"/>
-    <skill id="Bow" value="45"/>
-    <skill id="Crossbow" value="45"/>
-    <skill id="Throwing" value="60"/>
-    </skills>
-    <upgrade_targets>
-
-    </upgrade_targets>
-    <Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
-				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
-				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
-				<equipment slot="Head" id="Item.desert_helmet"/>
-				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
-			</EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-  
-  <NPCCharacter id="german_militia_crossbowman" default_group="Ranged" level="11" name="{=german_militia_crossbowman.name}German Militia Crossbowman" occupation="Soldier" culture="Culture.empire">
-    <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
-    </face>
-    <skills>
-    <skill id="Athletics" value="40"/>
-    <skill id="Riding" value="5"/>
-    <skill id="OneHanded" value="40"/>
-    <skill id="TwoHanded" value="15"/>
-    <skill id="Polearm" value="20"/>
-    <skill id="Bow" value="40"/>
-    <skill id="Crossbow" value="40"/>
-    <skill id="Throwing" value="40"/>
-    </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.german_veteran_militia_crossbowman"/>
-    </upgrade_targets>
-    <Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_a"/>
-				<equipment slot="Item1" id="Item.bolt_a"/>
-				<equipment slot="Item2" id="Item.bolt_a"/>
-				<equipment slot="Item3" id="Item.pugio"/>
-				<equipment slot="Head" id="Item.leather_cap"/>
-				<equipment slot="Body" id="Item.bandit_gambeson"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-  
-  <NPCCharacter id="german_veteran_militia_crossbowman" default_group="Ranged" level="16" name="{=german_veteran_militia_crossbowman.name}German Veteran Miltia Crossbowman" occupation="Soldier" culture="Culture.empire">
-    <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
-    </face>
-    <skills>
-    <skill id="Athletics" value="70"/>
-    <skill id="Riding" value="10"/>
-    <skill id="OneHanded" value="70"/>
-    <skill id="TwoHanded" value="40"/>
-    <skill id="Polearm" value="30"/>
-    <skill id="Bow" value="100"/>
-    <skill id="Crossbow" value="100"/>
-    <skill id="Throwing" value="100"/>
-    </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.german_sergeant_crossbowman"/>
-    </upgrade_targets>
-    <Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_e"/>
-				<equipment slot="Item1" id="Item.bolt_a"/>
-				<equipment slot="Item2" id="Item.bolt_a"/>
-				<equipment slot="Item3" id="Item.pugio"/>
-				<equipment slot="Head" id="Item.leather_cap"/>
-				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Item0" id="Item.broad_falchion_sword_t3"/>
+				<equipment slot="Item1" id="Item.curved_round_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_5_t4"/>
+				<equipment slot="Head" id="Item.imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.green_hood"/>
+				<equipment slot="Body" id="Item.padded_leather_overcoat"/>
 				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_sergeant_crossbowman" default_group="Ranged" level="21" name="{=german_sergeant_crossbowman.name}German Sergeant Crossbowman" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="spanish_bidet" default_group="Infantry" level="21" name="{=spanish_bidet.name}Spanish Bidet" occupation="Soldier" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
     <skill id="Athletics" value="100"/>
@@ -522,121 +435,229 @@
     <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_d"/>
-				<equipment slot="Item1" id="Item.bolt_a"/>
-				<equipment slot="Item2" id="Item.bolt_a"/>
-				<equipment slot="Item3" id="Item.empire_noble_sword_1_t5"/>
-				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Body" id="Item.leather_tunic"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_swabian_swordsman" default_group="Infantry" level="16" name="{=german_swabian_swordsman.name}German Swabian Swordsman" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="spanish_militia_crossbowman" default_group="Ranged" level="11" name="{=spanish_militia_crossbowman.name}Spanish Militia Crossbowman" occupation="Soldier" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
-    <skill id="Athletics" value="70"/>
-    <skill id="Riding" value="10"/>
-    <skill id="OneHanded" value="100"/>
-    <skill id="TwoHanded" value="40"/>
-    <skill id="Polearm" value="40"/>
-    <skill id="Bow" value="30"/>
-    <skill id="Crossbow" value="30"/>
-    <skill id="Throwing" value="70"/>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.german_mounted_swabian_swordsman"/>
+	      <upgrade_target id="NPCCharacter.spanish_veteran_militia_crossbowman"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item3" id="Item.vlandia_2hsword_1_t5"/>
-				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
-				<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b"/>
-				<equipment slot="Body" id="Item.empire_horseman_armor"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Item0" id="Item.crossbow_a"/>
+				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Item3" id="Item.bolt_a"/>
+				<equipment slot="Body" id="Item.leather_tunic"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_mounted_swabian_swordsman" default_group="Cavalry" level="21" name="{=german_mounted_swabian_swordsman.name}German Mounted Swabian Swordsman" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.empire">
+  <NPCCharacter id="spanish_veteran_militia_crossbowman" default_group="Ranged" level="16" name="{=spanish_veteran_militia_crossbowman.name}Spanish Veteran Militia Crossbowman" occupation="Soldier" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
+    </skills>
+    <upgrade_targets>
+		      <upgrade_target id="NPCCharacter.spanish_ballestero"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Item3" id="Item.bolt_a"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.leather_tunic"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="spanish_ballestero" default_group="Ranged" level="21" name="{=spanish_ballestero.name}Spanish Ballestero" occupation="Soldier" culture="Culture.spanish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
     <skill id="Athletics" value="100"/>
     <skill id="Riding" value="15"/>
     <skill id="OneHanded" value="100"/>
-    <skill id="TwoHanded" value="100"/>
-    <skill id="Polearm" value="100"/>
-    <skill id="Bow" value="45"/>
-    <skill id="Crossbow" value="45"/>
-    <skill id="Throwing" value="60"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
-
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item3" id="Item.vlandia_2hsword_1_t5"/>
-				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
-				<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b"/>
-				<equipment slot="Body" id="Item.empire_horseman_armor"/>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item2" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item.bolt_a"/>
+				<equipment slot="Head" id="Item.imperial_mail_coif"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
 				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-				<equipment slot="Horse" id="Item.empire_horse"/>
-				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_mounted_sergeant" default_group="Cavalry" level="21" name="{=german_mounted_sergeant.name}German Mounted Sergeant" is_basic_troop="true" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="spanish_light_cavalry" default_group="Cavalry" level="16" name="{=spanish_light_cavalry.name}Spanish Light Cavalry" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="70"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="10"/>
+    <skill id="Throwing" value="10"/>
+    </skills>
+    <upgrade_targets>
+			      <upgrade_target id="NPCCharacter.spanish_jinite"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.curved_round_shield"/>
+				<equipment slot="Item2" id="Item.falchion_sword_t2"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.padded_leather_overcoat"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="spanish_jinite" default_group="Cavalry" level="21" name="{=spanish_jinite.name}Spanish Jinete" occupation="Soldier" culture="Culture.spanish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
     <skill id="Athletics" value="40"/>
     <skill id="Riding" value="110"/>
     <skill id="OneHanded" value="110"/>
-    <skill id="TwoHanded" value="160"/>
-    <skill id="Polearm" value="150"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="110"/>
     <skill id="Bow" value="40"/>
     <skill id="Crossbow" value="15"/>
-    <skill id="Throwing" value="15"/>
+    <skill id="Throwing" value="110"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.german_dienstleuten"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
-				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-				<equipment slot="Item2" id="Item.empire_mace_2_t4"/>
-				<equipment slot="Head" id="Item.desert_helmet"/>
-				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.large_adarga"/>
+				<equipment slot="Item2" id="Item.empire_sword_2_t3"/>
+				<equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.padded_leather_overcoat"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
-				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_dienstleuten" default_group="Cavalry" level="26" name="{=german_dienstleuten.name}German Dienstleuten" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="spanish_talayeros" default_group="Infantry" level="21" name="{=spanish_talayeros.name}Spanish Talayeros" is_basic_troop="true" occupation="Soldier" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
+    </skills>
+    <upgrade_targets>
+			<upgrade_target id="NPCCharacter.spanish_caballeros"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_5_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.leather_coat"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="spanish_caballeros" default_group="Cavalry" level="26" name="{=spanish_caballeros.name}Spanish Caballero" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.spanish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
     <skill id="Athletics" value="80"/>
@@ -649,27 +670,27 @@
     <skill id="Throwing" value="60"/>
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.german_noble_knight"/>
+			<upgrade_target id="NPCCharacter.spanish_noble_caballeros"/>
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.empire_polearm_1_t4"/>
-				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
-				<equipment slot="Item2" id="Item.empire_mace_4_t5"/>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.large_adarga"/>
+				<equipment slot="Item2" id="Item.broad_arming_sword_t4"/>
 				<equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
-				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
-				<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_noble_knight" default_group="Cavalry" level="31" name="{=german_noble_knight.name}German Noble Knight" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="spanish_noble_caballeros" default_group="Cavalry" level="31" name="{=spanish_noble_caballeros.name}Spanish Noble Caballero" occupation="Soldier" culture="Culture.spanish">
     <face>
-      <face_key_template value="BodyProperty.fighter_vlandia"/>
+      <face_key_template value="BodyProperty.fighter_spanish"/>
     </face>
     <skills>
     <skill id="Athletics" value="60"/>
@@ -687,12 +708,12 @@
     <Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.empire_polearm_1_t4"/>
-				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
 				<equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
-				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_closed"/>
 				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
-				<equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
-				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Body" id="Item.white_coat_over_mail"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
 				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
 				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>

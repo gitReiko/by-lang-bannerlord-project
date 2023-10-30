@@ -283,14 +283,30 @@
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics" value="40"/>
-    <skill id="Riding" value="110"/>
-    <skill id="OneHanded" value="110"/>
-    <skill id="TwoHanded" value="160"/>
-    <skill id="Polearm" value="150"/>
-    <skill id="Bow" value="40"/>
-    <skill id="Crossbow" value="15"/>
-    <skill id="Throwing" value="15"/>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
     </skills>
     <upgrade_targets>
 
@@ -306,26 +322,42 @@
 				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
 				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
 			</EquipmentRoster>
-	</Equipments>		
+	</Equipments>
   </NPCCharacter>
   
   
   
-  <NPCCharacter id="rus_hrid" default_group="Cavalry" level="21" name="{=rus_hrid.name}Rus Hrid" is_basic_troop="true" occupation="Soldier" culture="Culture.rus">
+  <NPCCharacter id="rus_hrid" default_group="Infantry" level="21" name="{=rus_hrid.name}Rus Hrid" is_basic_troop="true" occupation="Soldier" culture="Culture.rus">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-		<skill id="Athletics" value="40"/>
-		<skill id="Riding" value="110"/>
-		<skill id="OneHanded" value="110"/>
-		<skill id="TwoHanded" value="160"/>
-		<skill id="Polearm" value="150"/>
-		<skill id="Bow" value="40"/>
-		<skill id="Crossbow" value="15"/>
-		<skill id="Throwing" value="15"/>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
     </skills>
     <upgrade_targets>
 		      <upgrade_target id="NPCCharacter.rus_sotiennij"/>
@@ -340,10 +372,9 @@
 				<equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
 				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
-				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+
 			</EquipmentRoster>
-	</Equipments>		
+	</Equipments>
   </NPCCharacter>
   
    <NPCCharacter id="rus_sotiennij" default_group="Cavalry" level="26" name="{=rus_sotiennij.name}Rus Sotiennij" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.rus">

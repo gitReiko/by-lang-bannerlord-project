@@ -526,19 +526,35 @@
 		</Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="baltic_ukininkas" default_group="Cavalry" level="21" name="{=baltic_ukininkas.name}Baltic Ukininkas" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
+  <NPCCharacter id="baltic_ukininkas" default_group="Infantry" level="21" name="{=baltic_ukininkas.name}Baltic Ukininkas" occupation="Soldier" is_basic_troop="true" culture="Culture.goldenhorde">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-    <skill id="Athletics" value="40"/>
-    <skill id="Riding" value="110"/>
-    <skill id="OneHanded" value="110"/>
-    <skill id="TwoHanded" value="160"/>
-    <skill id="Polearm" value="150"/>
-    <skill id="Bow" value="40"/>
-    <skill id="Crossbow" value="15"/>
-    <skill id="Throwing" value="15"/>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.baltic_bajoras"/>
@@ -553,8 +569,6 @@
 				<equipment slot="Body" id="Item.studded_fur_armor"/>
 				<equipment slot="Gloves" id="Item.highland_gloves"/>
 				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
-				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
 			</EquipmentRoster>
 		</Equipments>
   </NPCCharacter> 

@@ -687,19 +687,35 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="irish_kern" default_group="Cavalry" level="21" name="{=irish_kern.name}Irish Kern" is_basic_troop="true" occupation="Soldier" culture="Culture.battania">
+  <NPCCharacter id="irish_kern" default_group="Infantry" level="21" name="{=irish_kern.name}Irish Kern" is_basic_troop="true" occupation="Soldier" culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <skills>
-    <skill id="Athletics" value="40"/>
-    <skill id="Riding" value="110"/>
-    <skill id="OneHanded" value="110"/>
-    <skill id="TwoHanded" value="160"/>
-    <skill id="Polearm" value="150"/>
-    <skill id="Bow" value="40"/>
-    <skill id="Crossbow" value="15"/>
-    <skill id="Throwing" value="15"/>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
     </skills>
     <upgrade_targets>
 			  <upgrade_target id="NPCCharacter.irish_ostmen"/>
@@ -714,8 +730,6 @@
 				<equipment slot="Body" id="Item.padded_leather_overcoat"/>
 				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
-				<equipment slot="Horse" id="Item.battania_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>

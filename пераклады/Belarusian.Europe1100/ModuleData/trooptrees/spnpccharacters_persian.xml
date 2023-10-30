@@ -589,19 +589,35 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="seljuk_ghulam_light_cavalry" default_group="Cavalry" level="21" name="{=seljuk_ghulam_light_cavalry.name}Seljuk Ghulam Light Cavalry" is_basic_troop="true" occupation="Soldier" culture="Culture.khuzait">
+  <NPCCharacter id="seljuk_ghulam_light_cavalry" default_group="Infantry" level="21" name="{=seljuk_ghulam_light_cavalry.name}Seljuk Ghulam" is_basic_troop="true" occupation="Soldier" culture="Culture.khuzait">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <skills>
-    <skill id="Athletics" value="40"/>
-    <skill id="Riding" value="110"/>
-    <skill id="OneHanded" value="110"/>
-    <skill id="TwoHanded" value="160"/>
-    <skill id="Polearm" value="150"/>
-    <skill id="Bow" value="40"/>
-    <skill id="Crossbow" value="15"/>
-    <skill id="Throwing" value="15"/>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
     </skills>
     <upgrade_targets>
 			      <upgrade_target id="NPCCharacter.seljuk_ghulam_heavy_cavalry"/>
@@ -617,8 +633,6 @@
 				<equipment slot="Body" id="Item.leather_lamellar_armor"/>
 				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<equipment slot="Horse" id="Item.khuzait_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter>

@@ -627,7 +627,7 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="english_squire" default_group="Cavalry" level="21" name="{=english_squire.name}English Squire" is_basic_troop="true" occupation="Soldier" culture="Culture.english">
+  <NPCCharacter id="english_squire" default_group="Infantry" level="21" name="{=english_squire.name}English Squire" is_basic_troop="true" occupation="Soldier" culture="Culture.english">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
@@ -652,8 +652,6 @@
 				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Body" id="Item.mail_shirt"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
-				<equipment slot="Horse" id="Item.battania_horse_tournament"/>
-				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
 			</EquipmentRoster>
     </Equipments>
   </NPCCharacter> 
