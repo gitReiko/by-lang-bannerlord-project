@@ -3967,7 +3967,6 @@
                 level="26"
                 name="{=E11FRt11}Frankish Chevalier a Pied"
                 occupation="Soldier"
-				upgrade_requires="ItemCategory.war_horse"
                 culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
@@ -4308,7 +4307,8 @@
                 level="31"
                 name="{=E11FRt11}Frankish Chevalier"
                 occupation="Soldier"
-                culture="Culture.vlandia">
+                upgrade_requires="ItemCategory.war_horse"
+				culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>

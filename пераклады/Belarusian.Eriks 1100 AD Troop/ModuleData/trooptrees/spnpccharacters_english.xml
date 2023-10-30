@@ -969,7 +969,7 @@
     </Equipments>
   </NPCCharacter> 
   
-  <NPCCharacter id="english_knight" default_group="Cavalry" level="31" name="{=english_knight.name}English Norman Knight" occupation="Soldier" culture="Culture.english">
+  <NPCCharacter id="english_knight" default_group="Cavalry" level="31" name="{=english_knight.name}English Norman Knight" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.english">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>

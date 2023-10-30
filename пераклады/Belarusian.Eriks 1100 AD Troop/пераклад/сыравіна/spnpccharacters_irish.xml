@@ -4128,7 +4128,6 @@
                 default_group="Infantry"
                 level="26"
                 name="{=E11IRt10}Irish Dismounted Knight"
-				upgrade_requires="ItemCategory.war_horse"
                 occupation="Soldier"
                 culture="Culture.battania">
     <face>
@@ -4432,7 +4431,8 @@
                 level="31"
                 name="{=E11IRt10}Irish Knight"
                 occupation="Soldier"
-                culture="Culture.battania">
+                upgrade_requires="ItemCategory.war_horse"
+				culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_battania" />
     </face>

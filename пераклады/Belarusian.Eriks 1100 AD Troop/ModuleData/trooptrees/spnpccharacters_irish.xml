@@ -534,7 +534,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="irish_ostmen" default_group="Infantry" level="26" name="{=irish_ostmen.name}Irish Dismounted Knight" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.battania">
+  <NPCCharacter id="irish_ostmen" default_group="Infantry" level="26" name="{=irish_ostmen.name}Irish Dismounted Knight" occupation="Soldier" culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
@@ -823,7 +823,7 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="irish_galloglaich" default_group="Cavalry" level="31" name="{=irish_galloglaich.name}Irish Knight" occupation="Soldier" culture="Culture.battania">
+   <NPCCharacter id="irish_galloglaich" default_group="Cavalry" level="31" name="{=irish_galloglaich.name}Irish Knight" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>

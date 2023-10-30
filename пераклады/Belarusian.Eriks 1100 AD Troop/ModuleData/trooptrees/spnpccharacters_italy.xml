@@ -556,7 +556,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_milites" default_group="Infantry" level="26" name="{=italian_milites.name}Italian Dismounted Knight" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.italian">
+  <NPCCharacter id="italian_milites" default_group="Infantry" level="26" name="{=italian_milites.name}Italian Dismounted Knight" occupation="Soldier" culture="Culture.italian">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -856,7 +856,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="italian_vavassores" default_group="Cavalry" level="31" name="{=italian_vavassores.name}Italian Knight" occupation="Soldier" culture="Culture.italian">
+  <NPCCharacter id="italian_vavassores" default_group="Cavalry" level="31" name="{=italian_vavassores.name}Italian Knight" occupation="Soldier" upgrade_requires="ItemCategory.war_horse"  culture="Culture.italian">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>

@@ -3560,7 +3560,6 @@
                 default_group="Infantry"
                 level="26"
                 name="{=E11ITt11}Italian Dismounted Knight"
-				upgrade_requires="ItemCategory.war_horse"
                 occupation="Soldier"
                 culture="Culture.italian">
     <face>
@@ -3875,7 +3874,8 @@
                 level="31"
                 name="{=E11ITt11}Italian Knight"
                 occupation="Soldier"
-                culture="Culture.italian">
+				upgrade_requires="ItemCategory.war_horse" 
+				culture="Culture.italian">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>

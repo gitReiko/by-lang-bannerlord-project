@@ -613,7 +613,7 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="frankish_banner_knight" default_group="Infantry" level="26" name="{=frankish_banner_knight.name}Frankish Chevalier a Pied" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.vlandia">
+   <NPCCharacter id="frankish_banner_knight" default_group="Infantry" level="26" name="{=frankish_banner_knight.name}Frankish Chevalier a Pied" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -940,7 +940,7 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="frankish_marshal" default_group="Cavalry" level="31" name="{=frankish_marshal.name}Frankish Chevalier" occupation="Soldier" culture="Culture.vlandia">
+   <NPCCharacter id="frankish_marshal" default_group="Cavalry" level="31" name="{=frankish_marshal.name}Frankish Chevalier" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>

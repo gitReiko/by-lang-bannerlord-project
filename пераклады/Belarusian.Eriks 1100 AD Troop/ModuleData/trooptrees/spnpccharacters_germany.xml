@@ -590,7 +590,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_dienstleuten" default_group="Infantry" level="26" name="{=german_dienstleuten.name}Imperial Abgesteigner Ritter" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="german_dienstleuten" default_group="Infantry" level="26" name="{=german_dienstleuten.name}Imperial Abgesteigner Ritter" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -897,7 +897,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="german_noble_knight" default_group="Cavalry" level="31" name="{=german_noble_knight.name}Imperial Ritter" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="german_noble_knight" default_group="Cavalry" level="31" name="{=german_noble_knight.name}Imperial Ritter" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
