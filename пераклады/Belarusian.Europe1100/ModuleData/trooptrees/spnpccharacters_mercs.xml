@@ -958,9 +958,10 @@
     </Equipments>
   </NPCCharacter>
   <!-- Embers of the Flame Troops - -->
-  <NPCCharacter id="embers_of_flame_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.byzantine" name="{=embers_of_flame_tier_1.name}Georgian Aznauri">
+  <NPCCharacter id="embers_of_flame_tier_1" default_group="Infantry" level="21" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia"
+                name="{=E11GEORG_tr1}Jomsviking Raider">
     <face>
-      <face_key_template value="BodyProperty.fighter_byzantine"/>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
     <skills>
     <skill id="Athletics" value="100"/>
@@ -977,85 +978,122 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.khuzait_sword_3_t3"/>
-				<equipment slot="Item1" id="Item.steel_round_shield"/>
-				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
-				<equipment slot="Item3" id="Item.khuzait_sword_3_t3"/>
-				<equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
-				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
-				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.nasal_helmet"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true"/>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="embers_of_flame_tier_2" default_group="Cavalry" level="26" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.byzantine" name="{=embers_of_flame_tier_2.name}Georgian Eristavi">
+  <NPCCharacter id="embers_of_flame_tier_2"
+                default_group="Infantry"
+                level="26"
+                occupation="Soldier"
+                culture="Culture.sturgia"
+                name="{=E11GEORG_tr2}Jomsviking Berserker">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire"/>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
     <skills>
-    <skill id="Athletics" value="80"/>
-    <skill id="Riding" value="130"/>
-    <skill id="OneHanded" value="130"/>
-    <skill id="TwoHanded" value="160"/>
-    <skill id="Polearm" value="160"/>
-    <skill id="Bow" value="60"/>
-    <skill id="Crossbow" value="20"/>
-    <skill id="Throwing" value="60"/>
+		<skill
+			id="Athletics"
+			value="130" />
+		<skill
+			id="Riding"
+			value="20" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="130" />
+		<skill
+			id="Polearm"
+			value="130" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="60" />
+		<skill
+			id="Throwing"
+			value="80" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.embers_of_flame_tier_3"/>
+      <upgrade_target id="NPCCharacter.embers_of_flame_tier_3" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.khuzait_sword_3_t3"/>
-				<equipment slot="Item1" id="Item.steel_round_shield"/>
-				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
-				<equipment slot="Item3" id="Item.khuzait_sword_3_t3"/>
+				<equipment slot="Item0" id="Item.execution_axe"/>
+				<equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item2" id="Item.heavy_round_shield"/>
 				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
-				<equipment slot="Cape" id="Item.mail_shoulders"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Cape" id="Item.wolf_shoulder"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
 				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+      <EquipmentSet id="empire_troop_civilian_template_t2"
+                    civilian="true" />
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="embers_of_flame_tier_3" default_group="Cavalry" level="31" occupation="Soldier" culture="Culture.byzantine" name="{=embers_of_flame_tier_3.name}Georgian Tavadi">
+  <NPCCharacter id="embers_of_flame_tier_3"
+                default_group="Infantry"
+                level="31"
+                occupation="Soldier"
+                culture="Culture.sturgia"
+                name="{=E11GEORG_tr3}Jomsviking Warlord">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire"/>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
     <skills>
-    <skill id="Athletics" value="60"/>
-    <skill id="Riding" value="200"/>
-    <skill id="OneHanded" value="200"/>
-    <skill id="TwoHanded" value="260"/>
-    <skill id="Polearm" value="260"/>
-    <skill id="Bow" value="60"/>
-    <skill id="Crossbow" value="25"/>
-    <skill id="Throwing" value="45"/>
+		<skill
+			id="Athletics"
+			value="170" />
+		<skill
+			id="Riding"
+			value="60" />
+		<skill
+			id="OneHanded"
+			value="220" />
+		<skill
+			id="TwoHanded"
+			value="260" />
+		<skill
+			id="Polearm"
+			value="260" />
+		<skill
+			id="Bow"
+			value="50" />
+		<skill
+			id="Crossbow"
+			value="25" />
+		<skill
+			id="Throwing"
+			value="40" />
     </skills>
-    <upgrade_targets/>
+    <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
-				<equipment slot="Item1" id="Item.noyans_shield"/>
-				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
-				<equipment slot="Item3" id="Item.khuzait_sword_3_t3"/>
-				<equipment slot="Head" id="Item.sturgian_battle_crown"/>
-				<equipment slot="Cape" id="Item.pauldron_cape_a"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Item0" id="Item.heavy_round_shield"/>
+				<equipment slot="Item1" id="Item.execution_axe"/>
+				<equipment slot="Item2" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.rough_bearskin"/>
+				<equipment slot="Body" id="Item.northern_coat_of_plates"/>
 				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
 				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
       </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+      <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
     </Equipments>
   </NPCCharacter>
   <!-- troop trees for mercenary nomad minor factions (4) -->
@@ -1699,7 +1737,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eastern_mercenary_t4" default_group="Infantry" level="21" name="{=eastern_mercenary_t4.name}Crusader Crossbowman" occupation="Mercenary" culture="Culture.vlandia">
+  <NPCCharacter id="eastern_mercenary_t4" default_group="Ranged" level="21" name="{=eastern_mercenary_t4.name}Crusader Crossbowman" occupation="Mercenary" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -1732,7 +1770,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="eastern_mercenary_t5" default_group="Infantry" level="26" name="{=eastern_mercenary_t5.name}Crusader Master Crossbowman" occupation="Mercenary" culture="Culture.vlandia">
+  <NPCCharacter id="eastern_mercenary_t5" default_group="Ranged" level="26" name="{=eastern_mercenary_t5.name}Crusader Master Crossbowman" occupation="Mercenary" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
