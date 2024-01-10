@@ -1,0 +1,323 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+  
+   <Culture id="portuguese"
+           name="{=E11SP_spcul_name}Portuguese"
+           is_main_culture="true"
+           color="0xff284E19"
+           color2="0xffD22D33"
+           elite_basic_troop="NPCCharacter.portuguese_escudeiro"
+           basic_troop="NPCCharacter.portuguese_levy"
+           melee_militia_troop="NPCCharacter.portuguese_militia_spearman"
+           ranged_militia_troop="NPCCharacter.portuguese_militia_crossbowman"
+           melee_elite_militia_troop="NPCCharacter.portuguese_veteran_militia_spearman"
+           ranged_elite_militia_troop="NPCCharacter.portuguese_veteran_militia_crossbowman"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_portuguese_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_portuguese_template"
+           caravan_party_template="PartyTemplate.caravan_template_portuguese"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_portuguese"
+           militia_party_template="PartyTemplate.militia_portuguese_template"
+           rebels_party_template="PartyTemplate.rebels_portuguese_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_portuguese"
+           prosperity_bonus="1"
+           encounter_background_mesh="encounter_empire"
+           faction_banner_key="11.4.124.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11SP_spcul_text}Anatomically modern humans first arrived in the Iberian Peninsula around 42,000 years ago. The ancient Iberian and Celtic tribes, along with other pre-Roman peoples, dwelled the territory maintaining contacts with foreign Mediterranean cultures. The Roman conquest and colonization of the peninsula (Hispania) ensued, bringing the Romanization of the population. Receding of Western Roman imperial authority ushered in the migration of different non-Roman peoples from Central and Northern Europe with the Visigoths as the dominant power in the peninsula by the fifth century. In the early eighth century, most of the peninsula was conquered by the Umayyad Caliphate, and during early Islamic rule, Al-Andalus became a dominant peninsular power centered in Córdoba. Several Christian kingdoms emerged in Northern Iberia, chief among them León, Castile, Aragon, Portugal, and Navarre made an intermittent southward military expansion, known as Reconquista, repelling the Islamic rule in Iberia, which culminated with the Christian seizure of the Emirate of Granada in 1492."
+           tournament_master="NPCCharacter.tournament_master_portuguese"
+           villager="NPCCharacter.villager_portuguese"
+           caravan_master="NPCCharacter.caravan_master_portuguese"
+           armed_trader="NPCCharacter.armed_trader_portuguese"
+           caravan_guard="NPCCharacter.caravan_guard_portuguese"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_portuguese"
+           duel_preset="NPCCharacter.portuguese_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_portuguese"
+           guard="NPCCharacter.guard_portuguese"
+           blacksmith="NPCCharacter.blacksmith_portuguese"
+           weaponsmith="NPCCharacter.weaponsmith_portuguese"
+           townswoman="NPCCharacter.townswoman_portuguese"
+           townswoman_infant="NPCCharacter.townswoman_infant_portuguese"
+           townswoman_child="NPCCharacter.townswoman_child_portuguese"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_portuguese"
+           townsman="NPCCharacter.townsman_portuguese"
+           townsman_infant="NPCCharacter.townsman_infant_portuguese"
+           townsman_child="NPCCharacter.townsman_child_portuguese"
+           village_woman="NPCCharacter.village_woman_portuguese"
+           villager_male_child="NPCCharacter.villager_child_portuguese"
+           villager_male_teenager="NPCCharacter.villager_teenager_portuguese"
+           villager_female_child="NPCCharacter.village_woman_child_portuguese"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_portuguese"
+           townsman_teenager="NPCCharacter.townsman_teenager_portuguese"
+           ransom_broker="NPCCharacter.ransom_broker_portuguese"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_portuguese"
+           merchant_notary="NPCCharacter.merchant_notary_portuguese"
+           artisan_notary="NPCCharacter.artisan_notary_portuguese"
+           preacher_notary="NPCCharacter.preacher_notary_portuguese"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_portuguese"
+           shop_worker="NPCCharacter.shop_worker_portuguese"
+           tavernkeeper="NPCCharacter.tavernkeeper_portuguese"
+           taverngamehost="NPCCharacter.taverngamehost_portuguese"
+           musician="NPCCharacter.musician_portuguese"
+           tavern_wench="NPCCharacter.tavern_wench_portuguese"
+           armorer="NPCCharacter.armorer_portuguese"
+           horseMerchant="NPCCharacter.horseMerchant_portuguese"
+           barber="NPCCharacter.barber_portuguese"
+           merchant="NPCCharacter.merchant_portuguese"
+           beggar="NPCCharacter.beggar_portuguese"
+           female_beggar="NPCCharacter.female_beggar_portuguese"
+           female_dancer="NPCCharacter.female_dancer_portuguese"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_portuguese"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_portuguese"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_portuguese"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_portuguese"
+           gear_dummy="NPCCharacter.gear_dummy_portuguese"
+           board_game_type="Tablut">
+    <vassal_reward_items>
+      <item id="Item.justicier_2hsword" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+<name name="{=3251A2B5}Afonso" />
+<name name="{=1D43A3A2}Sancho" />
+<name name="{=18A11710}Raimundo" />
+<name name="{=F8B26FCF}Garcia" />
+<name name="{=5D5FDD4B}Egas" />
+<name name="{=69CE9F5C}Martim" />
+<name name="{=F13D4042}Gil" />
+<name name="{=131EA2D0}Nuno" />
+<name name="{=EE95B152}Lourenço" />
+<name name="{=6C449B67}Gonçalo" />
+<name name="{=3C5678DE}Paio" />
+<name name="{=77C6E787}Aires" />
+<name name="{=904D6A9C}Fernão" />
+<name name="{=6C50F09D}Estêvão" />
+<name name="{=5838A2DC}Pedro" />
+<name name="{=9B09D865}João" />
+<name name="{=63A68FD1}Diogo" />
+<name name="{=2654EEB9}Vasco" />
+<name name="{=82F6CB6A}Rodrigo" />
+<name name="{=A32A1051}Rui" />
+<name name="{=25D08819}Álvaro" />
+<name name="{=B17254F1}Mem" />
+<name name="{=CD6B981F}Gomes" />
+<name name="{=C7B7ACE1}Soeiro" />
+<name name="{=A1554EC7}Vicente" />
+<name name="{=923C59AD}Geraldo" />
+<name name="{=E02AC325}Mendo" />
+<name name="{=37795CB9}Pero" />
+<name name="{=45563768}Estêvão" />
+<name name="{=D251452F}Egas" />
+<name name="{=D975A724}Vicente" />
+<name name="{=5F3701D7}Egas" />
+<name name="{=48ECC33B}Gonçalo" />
+<name name="{=FB5E9714}Lourenço" />
+<name name="{=9B84DCB7}Aires" />
+<name name="{=9607E124}Martim" />
+<name name="{=95218539}Gil" />
+<name name="{=6251C184}Lourenço" />
+    </male_names>
+    <female_names>
+<name name="{=84F1D059}Teresa" />
+<name name="{=81B26D03}Urraca" />
+<name name="{=6A2E1EFB}Sancha" />
+<name name="{=C98A5113}Mafalda" />
+<name name="{=8847558A}Aldara" />
+<name name="{=02B285A8}Elvira" />
+<name name="{=2CE8DC39}Estefânia" />
+<name name="{=5260D650}Urraca" />
+<name name="{=A5EDD2C3}Inês" />
+<name name="{=7EF12AA8}Maria" />
+<name name="{=9B01DF0D}Leonor" />
+<name name="{=A84D737C}Beatriz" />
+<name name="{=E9108CC7}Mécia" />
+<name name="{=A7EFBB2C}Elvira" />
+<name name="{=592E6B44}Mafalda" />
+<name name="{=0F18174E}Guiomar" />
+<name name="{=D9B54610}Sancha" />
+<name name="{=E32883EE}Aldora" />
+<name name="{=47FF232B}Urraca" />
+<name name="{=B6B4EA84}Ermesenda" />
+<name name="{=E1C1E4EA}Sancha" />
+<name name="{=21F5DAAD}Dulce" />
+<name name="{=C8C7B79F}Constança" />
+<name name="{=3B30B3BC}Mécia" />
+<name name="{=B0DEAD29}Maria" />
+<name name="{=DF904ACD}Leonor" />
+<name name="{=889C29E8}Teresa" />
+<name name="{=FB154AD7}Urraca" />
+<name name="{=4837092E}Elvira" />
+<name name="{=AAF5D3AB}Mafalda" />
+<name name="{=C8859B14}Sancha" />
+<name name="{=F5381FB9}Aldora" />
+<name name="{=B55AE10C}Guiomar" />
+<name name="{=CACC3182}Beatriz" />
+<name name="{=1C50ACDC}Inês" />
+<name name="{=4B24CCDD}Ermesenda" />
+<name name="{=69C28451}Dulce" />
+<name name="{=79903E45}Constança" />
+    </female_names>
+    <clan_names>
+<name name="{=C73F5827}Gonçalves" />
+<name name="{=AA9CC88D}Ribeiro" />
+<name name="{=7E40930F}Esteves" />
+<name name="{=681A7307}Eanes" />
+<name name="{=E4EFF2C7}Fernão" />
+<name name="{=35A5AFF3}Vicente" />
+<name name="{=92547524}Souto" />
+<name name="{=69B8BB0B}Saraiva" />
+<name name="{=9E0269D9}Teixeira" />
+<name name="{=5C1D25C5}Lamego" />
+    </clan_names>
+    <cultural_feats>
+<feat id="empire_decreased_garrison_wage" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_portuguese_0" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_1" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_2" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_3" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_4" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_5" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_6" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_7" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_8" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_9" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_10" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_11" />
+      <template name="NPCCharacter.spc_notable_portuguese_0" />
+      <template name="NPCCharacter.spc_notable_portuguese_0b" />
+      <template name="NPCCharacter.spc_notable_portuguese_1" />
+      <template name="NPCCharacter.spc_notable_portuguese_1b" />
+      <template name="NPCCharacter.spc_notable_portuguese_2" />
+      <template name="NPCCharacter.spc_notable_portuguese_2b" />
+      <template name="NPCCharacter.spc_notable_portuguese_3" />
+      <template name="NPCCharacter.spc_notable_portuguese_3b" />
+      <template name="NPCCharacter.spc_notable_portuguese_4" />
+      <template name="NPCCharacter.spc_notable_portuguese_4b" />
+      <template name="NPCCharacter.spc_notable_portuguese_5" />
+      <template name="NPCCharacter.spc_notable_portuguese_6" />
+      <template name="NPCCharacter.spc_notable_portuguese_7" />
+      <template name="NPCCharacter.spc_notable_portuguese_8" />
+      <template name="NPCCharacter.spc_notable_portuguese_9" />
+      <template name="NPCCharacter.spc_notable_portuguese_10" />
+      <template name="NPCCharacter.spc_notable_portuguese_11" />
+      <template name="NPCCharacter.spc_notable_portuguese_12" />
+      <template name="NPCCharacter.spc_notable_portuguese_13" />
+      <template name="NPCCharacter.spc_notable_portuguese_21" />
+      <template name="NPCCharacter.spc_notable_portuguese_22" />
+      <template name="NPCCharacter.spc_notable_portuguese_gl1" />
+      <template name="NPCCharacter.spc_notable_portuguese_gl4" />
+      <template name="NPCCharacter.spc_portuguese_headman_1" />
+      <template name="NPCCharacter.spc_portuguese_headman_2" />
+      <template name="NPCCharacter.spc_portuguese_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+ 
+  
+</SPCultures> 

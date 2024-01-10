@@ -1,0 +1,318 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+  
+  <Culture id="sicilian"
+           name="{=sicilian}Sicilian"
+           is_main_culture="true"
+           color="0xff830808"
+           color2="0xff830808"
+           elite_basic_troop="NPCCharacter.sicilian_norman_squire"
+           basic_troop="NPCCharacter.sicilian_levy"
+           melee_militia_troop="NPCCharacter.sicilian_militia_spearman"
+           ranged_militia_troop="NPCCharacter.sicilian_militia_archer"
+           melee_elite_militia_troop="NPCCharacter.sicilian_veteran_miltia_spearman"
+           ranged_elite_militia_troop="NPCCharacter.sicilian_veteran_militia_archer"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_sicilian_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_sicilian_template"
+           caravan_party_template="PartyTemplate.caravan_template_sicilian"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_sicilian"
+           militia_party_template="PartyTemplate.militia_sicilian_template"
+           rebels_party_template="PartyTemplate.rebels_sicilian_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_sicilian"
+           prosperity_bonus="1"
+           encounter_background_mesh="encounter_empire"
+           faction_banner_key="11.4.124.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11IT_spcul_text}In the 11th century, the mainland southern sicilian powers were hiring Norman mercenaries, who were Christian descendants of the Vikings; it was the Normans under Roger I (of the Hauteville dynasty) who conquered Sicily from the Muslims over a period of thirty years until finally controlling the entire island by 1091 as the County of Sicily. In 1130, Roger II founded the Norman Kingdom of Sicily as an independent state with its own Parliament, language, schooling, army and currency, while the Sicilian culture evolved distinct traditions, clothing, linguistic changes, cuisine and customs not found in mainland Italy."
+           tournament_master="NPCCharacter.tournament_master_sicilian"
+           villager="NPCCharacter.villager_sicilian"
+           caravan_master="NPCCharacter.caravan_master_sicilian"
+           armed_trader="NPCCharacter.armed_trader_sicilian"
+           caravan_guard="NPCCharacter.caravan_guard_sicilian"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_sicilian"
+           duel_preset="NPCCharacter.sicilian_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_sicilian"
+           guard="NPCCharacter.guard_sicilian"
+           blacksmith="NPCCharacter.blacksmith_sicilian"
+           weaponsmith="NPCCharacter.weaponsmith_sicilian"
+           townswoman="NPCCharacter.townswoman_sicilian"
+           townswoman_infant="NPCCharacter.townswoman_infant_sicilian"
+           townswoman_child="NPCCharacter.townswoman_child_sicilian"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_sicilian"
+           townsman="NPCCharacter.townsman_sicilian"
+           townsman_infant="NPCCharacter.townsman_infant_sicilian"
+           townsman_child="NPCCharacter.townsman_child_sicilian"
+           village_woman="NPCCharacter.village_woman_sicilian"
+           villager_male_child="NPCCharacter.villager_child_sicilian"
+           villager_male_teenager="NPCCharacter.villager_teenager_sicilian"
+           villager_female_child="NPCCharacter.village_woman_child_sicilian"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_sicilian"
+           townsman_teenager="NPCCharacter.townsman_teenager_sicilian"
+           ransom_broker="NPCCharacter.ransom_broker_sicilian"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_sicilian"
+           merchant_notary="NPCCharacter.merchant_notary_sicilian"
+           artisan_notary="NPCCharacter.artisan_notary_sicilian"
+           preacher_notary="NPCCharacter.preacher_notary_sicilian"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_sicilian"
+           shop_worker="NPCCharacter.shop_worker_sicilian"
+           tavernkeeper="NPCCharacter.tavernkeeper_sicilian"
+           taverngamehost="NPCCharacter.taverngamehost_sicilian"
+           musician="NPCCharacter.musician_sicilian"
+           tavern_wench="NPCCharacter.tavern_wench_sicilian"
+           armorer="NPCCharacter.armorer_sicilian"
+           horseMerchant="NPCCharacter.horseMerchant_sicilian"
+           barber="NPCCharacter.barber_sicilian"
+           merchant="NPCCharacter.merchant_sicilian"
+           beggar="NPCCharacter.beggar_sicilian"
+           female_beggar="NPCCharacter.female_beggar_sicilian"
+           female_dancer="NPCCharacter.female_dancer_sicilian"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_sicilian"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_sicilian"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_sicilian"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_sicilian"
+           gear_dummy="NPCCharacter.gear_dummy_sicilian"
+           board_game_type="Tablut">
+    <vassal_reward_items>
+      <item id="Item.justicier_2hsword" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+     <name name="{=F0D5E38D}Ruggero" />
+<name name="{=E0D9CA32}Federico" />
+<name name="{=65BCA50B}Enrico" />
+<name name="{=9F3FBCAC}Pietro" />
+<name name="{=0760B651}Salvatore" />
+<name name="{=49B968F4}Giuseppe" />
+<name name="{=132D53A4}Antonio" />
+<name name="{=DD31345A}Giovanni" />
+<name name="{=EAEA713D}Vincenzo" />
+<name name="{=975CEE3E}Ignazio" />
+<name name="{=B3462FFE}Francesco" />
+<name name="{=3D3629E4}Calogero" />
+<name name="{=6C41A833}Gaetano" />
+<name name="{=D8FAA981}Michele" />
+<name name="{=B8FA0B3E}Leonardo" />
+<name name="{=187F791B}Andrea" />
+<name name="{=7C536133}Luigi" />
+<name name="{=64279F53}Carmelo" />
+<name name="{=EC9A67AF}Benedetto" />
+<name name="{=80798BE0}Mario" />
+<name name="{=8D87553B}Domenico" />
+<name name="{=0E5C9F9D}Santo" />
+<name name="{=66638385}Raffaele" />
+<name name="{=2ABA7AF8}Nicola" />
+<name name="{=D5B04783}Paolo" />
+<name name="{=4BD5EFB1}Alfredo" />
+<name name="{=24CD77E7}Sebastiano" />
+<name name="{=F363BE08}Emilio" />
+<name name="{=C9026954}Giosuè" />
+<name name="{=EE8F818F}Luciano" />
+<name name="{=6C3462A3}Giorgio" />
+<name name="{=5AD96D05}Ignazio" />
+<name name="{=02C1CD11}Tommaso" />
+<name name="{=165FBEAA}Bernardo" />
+<name name="{=7DA9A49A}Fabio" />
+<name name="{=5DF10EC1}Gennaro" />
+<name name="{=F49AED14}Giovanni" />
+<name name="{=4172DCC5}Roberto" />
+    </male_names>
+    <female_names>
+      <name name="{=AB80AC6B}Rosa" />
+<name name="{=1A58A5BE}Maria" />
+<name name="{=70B5E17A}Anna" />
+<name name="{=2309B6CD}Giovanna" />
+<name name="{=048F8F17}Caterina" />
+<name name="{=381E7D32}Lucia" />
+<name name="{=D7690922}Antonia" />
+<name name="{=BA3F76D0}Giuseppa" />
+<name name="{=C1889980}Carmela" />
+<name name="{=568B5605}Francesca" />
+<name name="{=8DEE0C3A}Vincenza" />
+<name name="{=8644A2C2}Rosalia" />
+<name name="{=6C5DA467}Angela" />
+<name name="{=BA6307DB}Nunzia" />
+<name name="{=007CCECB}Rosaria" />
+<name name="{=9CCFBFB3}Salvatrice" />
+<name name="{=BB572564}Concetta" />
+<name name="{=6197D35E}Margherita" />
+<name name="{=92F7987E}Vita" />
+<name name="{=6FD622EC}Adele" />
+<name name="{=9A2ACF73}Beatrice" />
+<name name="{=0FC265D9}Adelaide" />
+<name name="{=5E3D19EE}Elena" />
+<name name="{=18719DCF}Isabella" />
+<name name="{=CAD77EF9}Eleonora" />
+<name name="{=4FA7AB36}Federica" />
+<name name="{=FA44C3B9}Immacolata" />
+<name name="{=C7E0F7EE}Fortunata" />
+<name name="{=33A079DE}Elisa" />
+<name name="{=AFB67015}Sara" />
+<name name="{=25FF6CB1}Martina" />
+<name name="{=D92D3802}Benedetta" />
+<name name="{=80C1FDB0}Valentina" />
+<name name="{=92A6D5F9}Valeria" />
+<name name="{=83364883}Luisa" />
+<name name="{=053DC18A}Paola" />
+<name name="{=39B91E10}Roberta" />
+<name name="{=28A59358}Silvia" />
+    </female_names>
+    <clan_names>
+<name name="{=5F2FF8BC}Alcamo" />
+<name name="{=915865E9}Chiaramonte" />
+<name name="{=AADDD3BD}Moncada" />
+<name name="{=845990A8}Lanza" />
+<name name="{=2E8C1EBB}Grifeo" />
+<name name="{=18F5E9D8}Paternò" />
+<name name="{=47CF835B}Ventimiglia" />
+<name name="{=13CD2B53}Palizzi" />
+<name name="{=C6AC81A1}Monreale" />
+<name name="{=D29432ED}Sciacca" />
+    </clan_names>
+    <cultural_feats>
+<feat id="vlandian_villages_production_bonus" />
+<feat id="vlandian_renown_mercenary_income" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_sicilian_0" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_1" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_2" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_3" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_4" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_5" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_6" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_7" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_8" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_9" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_10" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_11" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_12" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch1" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch2" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch3" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch4" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch5" />
+      <template name="NPCCharacter.spc_notable_sicilian_1" />
+      <template name="NPCCharacter.spc_notable_sicilian_1b" />
+      <template name="NPCCharacter.spc_notable_sicilian_2" />
+      <template name="NPCCharacter.spc_notable_sicilian_3" />
+      <template name="NPCCharacter.spc_sicilian_gangleader_1" />
+      <template name="NPCCharacter.spc_sicilian_gangleader_2" />
+      <template name="NPCCharacter.spc_sicilian_gangleader_3" />
+      <template name="NPCCharacter.spc_notable_sicilian_artisan_1" />
+      <template name="NPCCharacter.spc_notable_sicilian_artisan_2" />
+      <template name="NPCCharacter.spc_notable_sicilian_rural_1" />
+      <template name="NPCCharacter.spc_notable_sicilian_rural_2" />
+      <template name="NPCCharacter.spc_sicilian_headman_1" />
+      <template name="NPCCharacter.spc_sicilian_headman_2" />
+      <template name="NPCCharacter.spc_sicilian_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  
+  
+</SPCultures> 
