@@ -1807,5 +1807,268 @@
       <template name="NPCCharacter.sword_sisters_sister_t3" />
     </basic_mercenary_troops>
   </Culture>
+
+  <Culture id="welch"
+           name="{=E11WEL_spcul_name}Welch"
+           is_main_culture="true"
+           color="0xff34671e"
+           color2="0xff830808"
+           elite_basic_troop="NPCCharacter.welch_uchelwyr"
+           basic_troop="NPCCharacter.welch_gwas"
+           melee_militia_troop="NPCCharacter.welch_militia_spearman"
+           ranged_militia_troop="NPCCharacter.welch_militia_archer"
+           melee_elite_militia_troop="NPCCharacter.welch_veteran_militia_spearman"
+           ranged_elite_militia_troop="NPCCharacter.welch_veteran_militia_archer"
+           can_have_settlement="true"
+           town_edge_number="16"
+           militia_bonus="1"
+           villager_party_template="PartyTemplate.villager_welch_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_welch_template"
+           encounter_background_mesh="encounter_battania"
+           faction_banner_key="11.83.116.1413.1413.768.788.1.0.-90.140.121.116.559.602.759.753.1.0.0"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_welch"
+           caravan_party_template="PartyTemplate.caravan_template_welch"
+           militia_party_template="PartyTemplate.militia_welch_template"
+           rebels_party_template="PartyTemplate.rebels_welch_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_welch"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11WEL_spcul_text}A distinct Welsh culture emerged among the Celtic Britons after the Roman withdrawal from Britain in the 5th century, and Wales was briefly united under Gruffydd ap Llywelyn in 1055. After over 200 years of war, the conquest of Wales by King Edward I of England was completed by 1283, though Owain Glyndŵr led the Welsh Revolt against English rule in the early 15th century, and briefly re-established an independent Welsh state with its own national parliament. In the 16th century the whole of Wales was annexed by England and incorporated within the English legal system under the Laws in Wales Acts 1535 and 1542."
+           tournament_master="NPCCharacter.tournament_master_welch"
+           villager="NPCCharacter.villager_welch"
+           caravan_master="NPCCharacter.caravan_master_welch"
+           armed_trader="NPCCharacter.armed_trader_welch"
+           caravan_guard="NPCCharacter.caravan_guard_welch"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_welch"
+           duel_preset="NPCCharacter.welch_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_welch"
+           guard="NPCCharacter.guard_welch"
+           blacksmith="NPCCharacter.blacksmith_welch"
+           weaponsmith="NPCCharacter.weaponsmith_welch"
+           townswoman="NPCCharacter.townswoman_welch"
+           townswoman_infant="NPCCharacter.townswoman_infant_welch"
+           townswoman_child="NPCCharacter.townswoman_child_welch"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_welch"
+           townsman="NPCCharacter.townsman_welch"
+           townsman_infant="NPCCharacter.townsman_infant_welch"
+           townsman_child="NPCCharacter.townsman_child_welch"
+           townsman_teenager="NPCCharacter.townsman_teenager_welch"
+           village_woman="NPCCharacter.village_woman_welch"
+           villager_male_child="NPCCharacter.villager_child_welch"
+           villager_male_teenager="NPCCharacter.villager_teenager_welch"
+           villager_female_child="NPCCharacter.village_woman_child_welch"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_welch"
+           ransom_broker="NPCCharacter.ransom_broker_welch"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_welch"
+           merchant_notary="NPCCharacter.merchant_notary_welch"
+           artisan_notary="NPCCharacter.artisan_notary_welch"
+           preacher_notary="NPCCharacter.preacher_notary_welch"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_welch"
+           shop_worker="NPCCharacter.shop_worker_welch"
+           tavernkeeper="NPCCharacter.tavernkeeper_welch"
+           taverngamehost="NPCCharacter.taverngamehost_welch"
+           musician="NPCCharacter.musician_welch"
+           tavern_wench="NPCCharacter.tavern_wench_welch"
+           armorer="NPCCharacter.armorer_welch"
+           horseMerchant="NPCCharacter.horseMerchant_welch"
+           barber="NPCCharacter.barber_welch"
+           merchant="NPCCharacter.merchant_welch"
+           beggar="NPCCharacter.beggar_welch"
+           female_beggar="NPCCharacter.female_beggar_welch"
+           female_dancer="NPCCharacter.female_dancer_welch"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_welch"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_welch"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_welch"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_welch"
+           gear_dummy="NPCCharacter.gear_dummy_welch"
+           board_game_type="BaghChal">
+    <vassal_reward_items>
+      <item id="Item.reaper_falx" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.battania_sword_1_t2" />
+      <item id="Item.battania_sword_2_t3" />
+      <item id="Item.battania_sword_4_t4" />
+      <item id="Item.battania_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_cantons" />
+      <policy id="policy_lawspeakers" />
+    </default_policies>
+    <!--Welsh word order is like Arabic - Penmaenmawr/> head of the black stone-->
+    <!--diphthongs - ae Caer = 'kire'. Io is yo-->
+    <male_names>
+<name name="{=A65BC646}Rhys" />
+<name name="{=A7D3B4A4}Gruffudd" />
+<name name="{=7D90B4F1}Cadwgan" />
+<name name="{=3F2B0412}Owain" />
+<name name="{=A9D73BD0}Hywel" />
+<name name="{=63567115}Llywelyn" />
+<name name="{=83ABFA6B}Dafydd" />
+<name name="{=7B545779}Iorwerth" />
+<name name="{=0DA9336E}Bleddyn" />
+<name name="{=DFA6583C}Madog" />
+<name name="{=61B67848}Maredudd" />
+<name name="{=B70D4ED2}Einion" />
+<name name="{=551F719B}Gwilym" />
+<name name="{=5734C23A}Cynan" />
+<name name="{=4CDE586E}Gwalchmai" />
+<name name="{=E77E8A47}Caradog" />
+<name name="{=AB1BF443}Llewelyn" />
+<name name="{=E9F69E59}Meurig" />
+<name name="{=ECB03583}Ceredig" />
+<name name="{=72823B9D}Gwrgan" />
+<name name="{=C68BB841}Cadell" />
+<name name="{=65DCDD82}Ednyfed" />
+<name name="{=38A3CC1B}Gwion" />
+<name name="{=FC28B91E}Iago" />
+<name name="{=537FD021}Rhydderch" />
+<name name="{=CCFFAD31}Morgan" />
+<name name="{=201FF75F}Hywel" />
+<name name="{=E84CE0E9}Iestyn" />
+<name name="{=D4E2CB44}Cadwallon" />
+<name name="{=6F067FF3}Einion" />
+<name name="{=F68FFFB6}Rhodri" />
+<name name="{=F4624A06}Bleiddud" />
+<name name="{=B8046B67}Rhun" />
+<name name="{=D296EA45}Gwyn" />
+<name name="{=766439FE}Elidyr" />
+<name name="{=E8E748FB}Gwern" />
+<name name="{=8075ABB7}Ieuan" />
+<name name="{=BAD44C1C}Einion" />
+    </male_names>
+    <female_names>
+<name name="{=8DFB4FCE}Nest" />
+<name name="{=BCD37E58}Gwenllian" />
+<name name="{=199BAAF8}Angharad" />
+<name name="{=B43516B9}Morwenna" />
+<name name="{=7E7B8BB0}Rhiannon" />
+<name name="{=B3C674C2}Gwerful" />
+<name name="{=846264B1}Tangwystl" />
+<name name="{=88F9DEF8}Efa" />
+<name name="{=C67005D2}Gwenfrewi" />
+<name name="{=D4AFB24C}Tanglwys" />
+<name name="{=20810C61}Gwenwynwyn" />
+<name name="{=E9239C44}Morfudd" />
+<name name="{=2556E226}Dyddgu" />
+<name name="{=0BABB05D}Gwladus" />
+<name name="{=57673744}Nest ferch Cadell" />
+<name name="{=B5607940}Tangwystl" />
+<name name="{=642A77E1}Heledd" />
+<name name="{=D2310E3D}Elen" />
+<name name="{=DAA44375}Catrin" />
+<name name="{=100449DF}Maelona" />
+<name name="{=E7DDD647}Gwen" />
+<name name="{=7063C575}Gwellian" />
+<name name="{=F68BC9B4}Annes" />
+<name name="{=264A0258}Rhanullt" />
+<name name="{=8769DC33}Gwawr" />
+<name name="{=2FB483E8}Alis" />
+<name name="{=34A9C01B}Gwenlliw" />
+<name name="{=31AE368F}Nest ferch Hywel" />
+<name name="{=6B0A63BE}Lleucu" />
+<name name="{=2F7484C4}Annes" />
+<name name="{=FE6FCEBD}Gwladys" />
+<name name="{=80C8ED8D}Nest ferch Iorwerth" />
+    </female_names>
+    <clan_names>
+<name name="{=B81413FD}ap Rhys" />
+<name name="{=38DDCCE7}ap Gruffudd" />
+<name name="{=A844F876}ap Cadwgan" />
+<name name="{=9C1B2B89}ap Owain" />
+<name name="{=77B32CD0}ap Hywel" />
+<name name="{=9F524A49}ap Llywelyn" />
+<name name="{=B04670DD}ap Dafydd" />
+<name name="{=6872F363}ap Iorwerth" />
+<name name="{=27DE19B0}ap Bleddyn" />
+<name name="{=22A61290}ap Madog" />
+    </clan_names>
+    <cultural_feats>
+<feat id="battanian_forest_speed" />
+<feat id="battanian_militia_production" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="131" />
+      <icon id="132" />
+      <icon id="133" />
+      <icon id="134" />
+      <icon id="135" />
+      <icon id="136" />
+      <icon id="137" />
+      <icon id="145" />
+      <icon id="149" />
+      <icon id="151" />
+      <icon id="203" />
+      <icon id="406" />
+      <icon id="407" />
+      <icon id="408" />
+      <icon id="412" />
+      <icon id="413" />
+      <icon id="414" />
+      <icon id="415" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_welch_0" />
+      <template name="NPCCharacter.spc_wanderer_welch_1" />
+      <template name="NPCCharacter.spc_wanderer_welch_2" />
+      <template name="NPCCharacter.spc_wanderer_welch_3" />
+      <template name="NPCCharacter.spc_wanderer_welch_4" />
+      <template name="NPCCharacter.spc_wanderer_welch_5" />
+      <template name="NPCCharacter.spc_wanderer_welch_6" />
+      <template name="NPCCharacter.spc_wanderer_welch_7" />
+      <template name="NPCCharacter.spc_wanderer_welch_8" />
+      <template name="NPCCharacter.spc_wanderer_welch_9" />
+      <template name="NPCCharacter.spc_notable_welch_merchant_1" />
+      <template name="NPCCharacter.spc_notable_welch_0b" />
+      <template name="NPCCharacter.spc_notable_welch_0c" />
+      <template name="NPCCharacter.spc_notable_welch_0d" />
+      <template name="NPCCharacter.spc_notable_welch_0e" />
+      <template name="NPCCharacter.spc_notable_welch_1" />
+      <template name="NPCCharacter.spc_notable_welch_1b" />
+      <template name="NPCCharacter.spc_notable_welch_2" />
+      <template name="NPCCharacter.spc_notable_welch_3" />
+      <template name="NPCCharacter.spc_notable_welch_4" />
+      <template name="NPCCharacter.spc_notable_welch_5" />
+      <template name="NPCCharacter.spc_welch_rural_notable_1" />
+      <template name="NPCCharacter.spc_welch_rural_notable_2" />
+      <template name="NPCCharacter.spc_welch_artisan_1" />
+      <template name="NPCCharacter.spc_welch_artisan_2" />
+      <template name="NPCCharacter.spc_welch_artisan_3" />
+      <template name="NPCCharacter.spc_welch_headman_1" />
+      <template name="NPCCharacter.spc_welch_headman_2" />
+      <template name="NPCCharacter.spc_welch_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_wolfskins_leader_0" />
+      <template name="NPCCharacter.spc_wolfskins_leader_1" />
+      <template name="NPCCharacter.spc_wolfskins_leader_2" />
+      <template name="NPCCharacter.spc_wolfskins_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_wolfskins_leader_0" />
+      <template name="NPCCharacter.spc_wolfskins_leader_1" />
+      <template name="NPCCharacter.spc_wolfskins_leader_2" />
+      <template name="NPCCharacter.spc_wolfskins_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_battania_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v4" />
+      <template name="NPCCharacter.tournament_template_battania_two_participant_set_v5" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_battania_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
   
 </SPCultures> 
