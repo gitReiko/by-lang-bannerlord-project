@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="village_woman_welch" default_group="Infantry" is_female="true" level="1" name="{=village_woman_welch.name}Welch Peasant" occupation="Villager" culture="Culture.welch" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+  <NPCCharacter id="village_woman_welch" default_group="Infantry" is_female="true" level="1" name="{=village_woman_welch.name}Welsh Peasant" occupation="Villager" culture="Culture.welch" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="BodyProperty.townswoman_welch"/>
     </face>
@@ -84,7 +84,7 @@
   
   <!--caravan-->
   
-  <NPCCharacter id="caravan_master_welch" default_group="Infantry" level="26" name="{=caravan_master_welch.name}Welch Caravan Master" occupation="CaravanGuard" culture="Culture.welch">
+  <NPCCharacter id="caravan_master_welch" default_group="Infantry" level="26" name="{=caravan_master_welch.name}Welsh Caravan Master" occupation="CaravanGuard" culture="Culture.welch">
     <face>
       <face_key_template value="BodyProperty.fighter_welch"/>
     </face>
@@ -132,7 +132,7 @@
   
   <!--armed trader-->
   
-  <NPCCharacter id="armed_trader_welch" default_group="Ranged" level="16" name="{=armed_trader_welch.name}Welch Armed Trader" occupation="CaravanGuard" culture="Culture.welch" is_basic_troop="true">
+  <NPCCharacter id="armed_trader_welch" default_group="Ranged" level="16" name="{=armed_trader_welch.name}Welsh Armed Trader" occupation="CaravanGuard" culture="Culture.welch" is_basic_troop="true">
     <face>
       <face_key_template value="BodyProperty.fighter_welch"/>
     </face>
@@ -198,7 +198,7 @@
   
   <!--caravan guard-->
   
-   <NPCCharacter id="caravan_guard_welch" default_group="Cavalry" level="21" name="{=caravan_guard_welch.name}Welch Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.welch">
+   <NPCCharacter id="caravan_guard_welch" default_group="Cavalry" level="21" name="{=caravan_guard_welch.name}Welsh Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.welch">
     <face>
       <face_key_template value="BodyProperty.fighter_welch"/>
     </face>
@@ -241,7 +241,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="veteran_caravan_guard_welch" default_group="Cavalry" level="26" name="{=veteran_caravan_guard_welch.name}Welch Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.welch">
+  <NPCCharacter id="veteran_caravan_guard_welch" default_group="Cavalry" level="26" name="{=veteran_caravan_guard_welch.name}Welsh Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.welch">
     <face>
       <face_key_template value="BodyProperty.fighter_welch"/>
     </face>
@@ -286,7 +286,7 @@
 
 <!--troops-->
 
-	<NPCCharacter id="welch_gwas" default_group="Infantry" level="6" name="{=welch_gwas.name}Welch Gwas" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_gwas" default_group="Infantry" level="6" name="{=welch_gwas.name}Welsh Gwas" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -313,7 +313,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_militia_spearman" default_group="Infantry" level="11" name="{=welch_militia_spearman.name}Welch Militia Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_militia_spearman" default_group="Infantry" level="11" name="{=welch_militia_spearman.name}Welsh Militia Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -342,7 +342,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_veteran_militia_spearman" default_group="Infantry" level="16" name="{=welch_veteran_militia_spearman.name}Welch Veteran Militia Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_veteran_militia_spearman" default_group="Infantry" level="16" name="{=welch_veteran_militia_spearman.name}Welsh Veteran Militia Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -372,7 +372,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_cynan_spearman" default_group="Infantry" level="21" name="{=welch_cynan_spearman.name}Welch Cynan Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_cynan_spearman" default_group="Infantry" level="21" name="{=welch_cynan_spearman.name}Welsh Cynan Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -431,7 +431,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_mounted_skirmisher" default_group="Cavalry" level="21" name="{=welch_mounted_skirmisher.name}Welch Mounted Skirmisher" upgrade_requires="ItemCategory.horse" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_mounted_skirmisher" default_group="Cavalry" level="21" name="{=welch_mounted_skirmisher.name}Welsh Mounted Skirmisher" upgrade_requires="ItemCategory.horse" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -486,7 +486,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_militia_archer" default_group="Ranged" level="11" name="{=welch_militia_archer.name}Welch Militia Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_militia_archer" default_group="Ranged" level="11" name="{=welch_militia_archer.name}Welsh Militia Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -515,7 +515,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_veteran_militia_archer" default_group="Ranged" level="16" name="{=welch_veteran_militia_archer.name}Welch Veteran Militia Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_veteran_militia_archer" default_group="Ranged" level="16" name="{=welch_veteran_militia_archer.name}Welsh Veteran Militia Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -546,7 +546,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_gwentish_longbowman" default_group="Ranged" level="21" name="{=welch_gwentish_longbowman.name}Welch Gwentish Longbowman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_gwentish_longbowman" default_group="Ranged" level="21" name="{=welch_gwentish_longbowman.name}Welsh Gwentish Longbowman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -577,7 +577,7 @@
 	
 	<!--Elites-->
 	
-	<NPCCharacter id="welch_uchelwyr" default_group="Infantry" level="21" name="{=welch_uchelwyr.name}Welch Uchelwyr" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_uchelwyr" default_group="Infantry" level="21" name="{=welch_uchelwyr.name}Welsh Uchelwyr" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -607,7 +607,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_marchog" default_group="Cavalry" level="26" name="{=welch_marchog.name}Welch Marchog" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_marchog" default_group="Cavalry" level="26" name="{=welch_marchog.name}Welsh Marchog" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
@@ -640,7 +640,7 @@
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="welch_breyr" default_group="Cavalry" level="31" name="{=welch_breyr.name}Welch Breyr" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+	<NPCCharacter id="welch_breyr" default_group="Cavalry" level="31" name="{=welch_breyr.name}Welsh Breyr" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
 		<face>
 			<face_key_template value="BodyProperty.villager_welch"/>
 		</face>
