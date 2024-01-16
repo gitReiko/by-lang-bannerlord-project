@@ -1919,7 +1919,147 @@
             <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
 	</xsl:template>	
-	
 
+<!--Sami-->
+
+	<xsl:template match="NPCCharacter[@id='sami_nomad']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_spearman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_veteran_spearman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_elite_spearman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_master_spearman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_axeman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_elite_axeman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_master_axeman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_archer']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_veteran_archer']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_elite_archer']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_master_archer']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_hunter']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_elite_hunter']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_master_hunter']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_tribal_warrior']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_elite_tribal_warrior']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_mounted_spearman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+	
+	<xsl:template match="NPCCharacter[@id='sami_elite_mounted_spearman']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
+
+	<xsl:template match="NPCCharacter[@id='sami_chieftan']">
+		        <xsl:copy>
+            <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+	</xsl:template>	
 
 </xsl:stylesheet>

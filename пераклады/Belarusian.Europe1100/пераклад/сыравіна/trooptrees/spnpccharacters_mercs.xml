@@ -750,10 +750,10 @@
                 level="21"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr1}Welsh Spearman">
+                culture="Culture.english"
+                name="{=E11GWYNEDD_tr1}Routier Spearman">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_english" />
     </face>
     <skills>
     <skill id="Athletics"
@@ -778,22 +778,14 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.highland_spear_t2"/>
-				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
-				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
-				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-				<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-				<equipment slot="Item0" id="Item.highland_spear_t2"/>
-				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
-				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
-				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-				<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.sleeveless_padded_coat"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t1"
                     civilian="true" />
@@ -801,47 +793,53 @@
   </NPCCharacter>
   
   <NPCCharacter id="wolfskins_tier_2"
-                default_group="Cavalry"
+                default_group="Infantry"
                 level="26"
                 occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr2}Welsh Teulu"
-				upgrade_requires="ItemCategory.war_horse">
+                culture="Culture.english"
+                name="{=E11GWYNEDD_tr2}Routier Heavy Spearman">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_english" />
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+		<skill
+			id="Athletics"
+			value="130" />
+		<skill
+			id="Riding"
+			value="20" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="130" />
+		<skill
+			id="Polearm"
+			value="130" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="60" />
+		<skill
+			id="Throwing"
+			value="80" />
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.wolfskins_tier_3" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.highland_spear_t2"/>
-				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz"/>
-				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Horse" id="Item.noble_horse_battania"/>
-				<equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_noble_sword_4_t5"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.buckled_wildsman_armor"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t2"
                     civilian="true" />
@@ -849,45 +847,51 @@
   </NPCCharacter>
   
   <NPCCharacter id="wolfskins_tier_3"
-                default_group="Cavalry"
+                default_group="Infantry"
                 level="31"
                 occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr3}Welsh Uchelwr">
+                culture="Culture.english"
+                name="{=E11GWYNEDD_tr3}Routier Knight">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_english" />
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+		<skill
+			id="Athletics"
+			value="170" />
+		<skill
+			id="Riding"
+			value="60" />
+		<skill
+			id="OneHanded"
+			value="220" />
+		<skill
+			id="TwoHanded"
+			value="260" />
+		<skill
+			id="Polearm"
+			value="260" />
+		<skill
+			id="Bow"
+			value="50" />
+		<skill
+			id="Crossbow"
+			value="25" />
+		<skill
+			id="Throwing"
+			value="40" />
     </skills>
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.highland_spear_t2"/>
-				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz"/>
-				<equipment slot="Cape" id="Item.empire_cape_a"/>
-				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Horse" id="Item.noble_horse_battania"/>
-				<equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Head" id="Item.nasal_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.red_coat_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t3"
                     civilian="true" />
@@ -1847,10 +1851,10 @@
                 level="21"
                 occupation="Soldier"
                 is_basic_troop="true"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr1}Welsh Spearman">
+                culture="Culture.empire"
+                name="{=E11GWYNEDD_tr1}Brabancon Spearman">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <skills>
     <skill id="Athletics"
@@ -1875,22 +1879,14 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.highland_spear_t2"/>
-				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
-				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
-				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-				<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-				<equipment slot="Item0" id="Item.highland_spear_t2"/>
-				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
-				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
-				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-				<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.northern_leather_tabard"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t1"
                     civilian="true" />
@@ -1898,47 +1894,54 @@
   </NPCCharacter>
   
   <NPCCharacter id="forest_people_tier_2"
-                default_group="Cavalry"
+                default_group="Infantry"
                 level="26"
                 occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr2}Welsh Teulu"
-				upgrade_requires="ItemCategory.war_horse">
+                culture="Culture.empire"
+                name="{=E11GWYNEDD_tr2}Brabancon Heavy Spearman">
+
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <skills>
-    <skill id="Athletics"
-           value="80" />
-    <skill id="Riding"
-           value="130" />
-    <skill id="OneHanded"
-           value="130" />
-    <skill id="TwoHanded"
-           value="160" />
-    <skill id="Polearm"
-           value="160" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="20" />
-    <skill id="Throwing"
-           value="60" />
+		<skill
+			id="Athletics"
+			value="130" />
+		<skill
+			id="Riding"
+			value="20" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="130" />
+		<skill
+			id="Polearm"
+			value="130" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="60" />
+		<skill
+			id="Throwing"
+			value="80" />
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.forest_people_tier_3" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.highland_spear_t2"/>
-				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz"/>
-				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Horse" id="Item.noble_horse_battania"/>
-				<equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_noble_sword_4_t5"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail"/>
+				<equipment slot="Cape" id="Item.varangian_bra_royal"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t2"
                     civilian="true" />
@@ -1946,45 +1949,50 @@
   </NPCCharacter>
   
   <NPCCharacter id="forest_people_tier_3"
-                default_group="Cavalry"
+                default_group="Infantrry"
                 level="31"
                 occupation="Soldier"
-                culture="Culture.battania"
-                name="{=E11GWYNEDD_tr3}Welsh Uchelwr">
+                culture="Culture.empire"
+                name="{=E11GWYNEDD_tr3}Brabancon Knight">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+		<skill
+			id="Athletics"
+			value="170" />
+		<skill
+			id="Riding"
+			value="60" />
+		<skill
+			id="OneHanded"
+			value="220" />
+		<skill
+			id="TwoHanded"
+			value="260" />
+		<skill
+			id="Polearm"
+			value="260" />
+		<skill
+			id="Bow"
+			value="50" />
+		<skill
+			id="Crossbow"
+			value="25" />
+		<skill
+			id="Throwing"
+			value="40" />
     </skills>
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.highland_spear_t2"/>
-				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
-				<equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz"/>
-				<equipment slot="Cape" id="Item.empire_cape_a"/>
-				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Horse" id="Item.noble_horse_battania"/>
-				<equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t3"
                     civilian="true" />

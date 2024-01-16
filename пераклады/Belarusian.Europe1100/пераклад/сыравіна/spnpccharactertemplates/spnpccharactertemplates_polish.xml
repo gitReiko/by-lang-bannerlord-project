@@ -495,6 +495,34 @@
     </Equipments>
   </NPCCharacter>
   
+      <NPCCharacter id="fighter_polish"
+                default_group="Infantry"
+                level="1"
+                name="{=!}Empire Fighter"
+                occupation="Villager"
+                culture="Culture.polish"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_polish" />
+      <!--face_key value="0009013000000000000000000000000000000000000000000000000000000000000a00050000000000000000000000000000000000000000fffffffffc880000" max_value="001cffffc000390ffff88affaa9efffffffffffffff7ffffffff9ffffffffffa0007effff7ffffff000000000000000000000000000000000000000001509181" /-->
+      <!--<hair_tags>
+        <hair_tag name="ShortAndThin" />
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="HeavyShortBeard" />
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>-->
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="fighter_polish" />
+    </Equipments>
+  </NPCCharacter>
+  
    <NPCCharacter id="townswoman_polish"
                 default_group="Infantry"
                 is_female="true"

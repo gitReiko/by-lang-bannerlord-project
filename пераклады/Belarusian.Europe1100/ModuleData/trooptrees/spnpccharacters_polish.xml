@@ -367,7 +367,7 @@
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
 				<equipment slot="Item2" id="Item.throwing_stone"/>
 				<equipment slot="Body" id="Item.roughcloth_shortcoat"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -402,7 +402,8 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
 				<equipment slot="Item1" id="Item.battania_targe_b"/>
-				<equipment slot="Body" id="Item.long_fur_coat"/>
+				<equipment slot="Head" id="Item.headscarf_c"/>
+				<equipment slot="Body" id="Item.battania_civil_b"/>
 				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
@@ -431,10 +432,10 @@
 				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
 				<equipment slot="Item1" id="Item.battania_targe_b"/>
 				<equipment slot="Item2" id="Item.empire_throwingknife_t5"/>
-				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
 				<equipment slot="Cape" id="Item.battania_civil_cape"/>
 				<equipment slot="Body" id="Item.long_fur_coat"/>
-				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
 	</Equipments>		
@@ -460,7 +461,7 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
 				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
-				<equipment slot="Item2" id="Item.pugio"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_4_t4"/>
 				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Cape" id="Item.battania_civil_cape"/>
 				<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
@@ -518,12 +519,12 @@
     </upgrade_targets>
     <Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
 				<equipment slot="Item1" id="Item.sturgia_axe_3_t3"/>
 				<equipment slot="Item2" id="Item.range_arrows"/>
 				<equipment slot="Item3" id="Item.range_arrows"/>
 				<equipment slot="Head" id="Item.nordic_fur_cap"/>
-				<equipment slot="Body" id="Item.northern_padded_cloth"/>
+				<equipment slot="Body" id="Item.northern_leather_tabard"/>
 				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
@@ -581,11 +582,12 @@
     <Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
-				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
 				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
-				<equipment slot="Head" id="Item.desert_helmet"/>
-				<equipment slot="Body" id="Item.padded_short_coat"/>
-				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Head" id="Item.sturgian_crown"/>
+				<equipment slot="Cape" id="Item.varangian_bra_basic"/>
+				<equipment slot="Body" id="Item.woven_leather_coat"/>
+				<equipment slot="Gloves" id="Item.studded_vambraces"/>
 				<equipment slot="Leg" id="Item.wrapped_shoes"/>
 			</EquipmentRoster>
 	</Equipments>		
@@ -610,18 +612,18 @@
     <Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
-				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
 				<equipment slot="Item2" id="Item.sturgia_lance_1_t4"/>
-				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
 				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
-				<equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
-				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Body" id="Item.hauberk"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
 			</EquipmentRoster>
 	</Equipments>		
   </NPCCharacter>
   
-  <NPCCharacter id="polish_druzynnik" default_group="Ranged" level="21" name="{=polish_druzynnik.name}Polish Druzynnik" is_basic_troop="true" occupation="Soldier" culture="Culture.polish">
+  <NPCCharacter id="polish_druzynnik" default_group="Infantry" level="21" name="{=polish_druzynnik.name}Polish Druzynnik" is_basic_troop="true" occupation="Soldier" culture="Culture.polish">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -642,18 +644,17 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
 				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
-				<equipment slot="Item2" id="Item.crossbow_e"/>
-				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
 				<equipment slot="Head" id="Item.desert_helmet"/>
-				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
-				<equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
 				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
 				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
 			</EquipmentRoster>
 	</Equipments>	
   </NPCCharacter>
 
-  <NPCCharacter id="polish_szlachta" default_group="HorseArcher" level="26" name="{=polish_szlachta.name}Polish Szlachta" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.polish">
+  <NPCCharacter id="polish_szlachta" default_group="Cavalry" level="26" name="{=polish_szlachta.name}Polish Szlachta" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.polish">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -674,20 +675,20 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.northern_spear_4_t5"/>
 				<equipment slot="Item1" id="Item.sturgia_noble_sword_1_t5"/>
-				<equipment slot="Item2" id="Item.crossbow_g"/>
-				<equipment slot="Item3" id="Item.bolt_c"/>
-				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
+				<equipment slot="Item2" id="Item.wide_heater_shield"/>
+				<equipment slot="Item3" id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
 				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Gloves" id="Item.mail_mitten"/>
-				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
 				<equipment slot="Horse" id="Item.t2_sturgia_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
 			</EquipmentRoster>
 	</Equipments>		
   </NPCCharacter>
   
-   <NPCCharacter id="polish_rycerz" default_group="HorseArcher" level="31" name="{=polish_rycerz.name}Polish Rycerz" occupation="Soldier" culture="Culture.polish">
+   <NPCCharacter id="polish_rycerz" default_group="Cavalry" level="31" name="{=polish_rycerz.name}Polish Rycerz" occupation="Soldier" culture="Culture.polish">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -707,12 +708,12 @@
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
 				<equipment slot="Item1" id="Item.sturgia_noble_sword_1_t5"/>
-				<equipment slot="Item2" id="Item.crossbow_f"/>
-				<equipment slot="Item3" id="Item.bolt_c"/>
-				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
-				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
-				<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve"/>
-				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Item2" id="Item.wide_heater_shield"/>
+				<equipment slot="Item3" id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_b_open"/>
+				<equipment slot="Cape" id="Item.varangian_bra_royal"/>
+				<equipment slot="Body" id="Item.red_coat_over_mail"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
 				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
 				<equipment slot="Horse" id="Item.t2_sturgia_horse"/>
 				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>

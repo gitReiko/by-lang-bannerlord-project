@@ -616,16 +616,16 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="fighter_empire"
+      <NPCCharacter id="fighter_byzantine"
                 default_group="Infantry"
                 level="1"
-                name="{=!}Byzantine Fighter"
+                name="{=!}Fighter"
                 occupation="Villager"
                 culture="Culture.byzantine"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
                 is_template="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
+      <face_key_template value="BodyProperty.fighter_byzantine" />
       <!--face_key value="0009013000000000000000000000000000000000000000000000000000000000000a00050000000000000000000000000000000000000000fffffffffc880000" max_value="001cffffc000390ffff88affaa9efffffffffffffff7ffffffff9ffffffffffa0007effff7ffffff000000000000000000000000000000000000000001509181" /-->
       <!--<hair_tags>
         <hair_tag name="ShortAndThin" />
@@ -640,7 +640,7 @@
     <skills></skills>
     <upgrade_targets></upgrade_targets>
     <Equipments>
-      <EquipmentSet id="fighter_empire" />
+      <EquipmentSet id="fighter_byzantine" />
     </Equipments>
   </NPCCharacter>
   
