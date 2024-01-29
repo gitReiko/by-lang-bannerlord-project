@@ -535,7 +535,7 @@
   </NPCCharacter>
   
   <NPCCharacter id="company_of_the_boar_tier_3"
-                default_group="Cavalry"
+                default_group="Infantry"
                 level="31"
                 occupation="Soldier"
                 culture="Culture.italian"
@@ -544,22 +544,30 @@
       <face_key_template value="BodyProperty.fighter_italian" />
     </face>
     <skills>
-    <skill id="Athletics"
-           value="60" />
-    <skill id="Riding"
-           value="200" />
-    <skill id="OneHanded"
-           value="200" />
-    <skill id="TwoHanded"
-           value="260" />
-    <skill id="Polearm"
-           value="260" />
-    <skill id="Bow"
-           value="60" />
-    <skill id="Crossbow"
-           value="25" />
-    <skill id="Throwing"
-           value="45" />
+		<skill
+			id="Athletics"
+			value="170" />
+		<skill
+			id="Riding"
+			value="60" />
+		<skill
+			id="OneHanded"
+			value="220" />
+		<skill
+			id="TwoHanded"
+			value="260" />
+		<skill
+			id="Polearm"
+			value="260" />
+		<skill
+			id="Bow"
+			value="50" />
+		<skill
+			id="Crossbow"
+			value="25" />
+		<skill
+			id="Throwing"
+			value="40" />
     </skills>
     <upgrade_targets></upgrade_targets>
     <Equipments>
@@ -1949,7 +1957,7 @@
   </NPCCharacter>
   
   <NPCCharacter id="forest_people_tier_3"
-                default_group="Infantrry"
+                default_group="Infantry"
                 level="31"
                 occupation="Soldier"
                 culture="Culture.empire"
