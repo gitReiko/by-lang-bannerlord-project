@@ -47,6 +47,7 @@
     <string id="YWq9TxH52f" text="Ferry Point near {LOCATION_NAME}"/>
     <string id="XclQz3BtRR" text="(Flagship)"/>
     <string id="5YaAOJ0PP2" text="Select Destination"/>
+    <string id="w0WTztcCQu" text="Pick Fleet"/>
     <string id="ej04a9TtVs" text="Fleet must be in a settlement to be transported"/>
     <string id="rUqMQ8gz0n" text="Transport Fleet"/>
     <string id="SZvZZ97zge" text="Transport this fleet to {DESTINATION} for {COST}{GOLD_ICON}?"/>
@@ -77,13 +78,28 @@
     <string id="rHTm1pcQm6" text="Sell every ship in this fleet"/>
     <string id="MgilEO5siX" text="Must own this fleet in order to transport it"/>
     <string id="MlPRmr2q4y" text="Transport this fleet to another nearby port"/>
-    <string id="rhtpp56jy0" text=""/>
-    <string id="60WF4Z2GiH" text=""/>
-    <string id="GryXytYNDv" text=""/>
-    <string id="pb013KfMpT" text=""/>
-    <string id="w0WTztcCQu" text=""/>
-    <string id="TJ4yv7kykI" text=""/>
-    <string id="kIP6WlM2DJ" text=""/>
+    <string id="kIP6WlM2DJ" text="Zoom to fleet"/>
+    <string id="3M5noYRafn" text="No Ships"/>
+    <string id="nu1DITrz82" text="Create New Fleet"/>
+    <string id="SIJkrkRQBm" text="New Fleet Name"/>
+    <string id="l2MMiHGRLX" text="Sell {SHIP_NAME} for {SHIP_COST}{GOLD_ICON}?"/>
+    <string id="LBii9ihbib" text="Sell Ship"/>
+    <string id="SvBuOS6Z5C" text="Cannot rename a fleet you do not own"/>
+    <string id="8oPTiHbmtf" text="Merge Fleet"/>
+    <string id="V12FEmqDAP" text="Scrap Entire Fleet"/>
+    <string id="LGtV6wsMja" text="Scrap this fleet for component materials"/>
+    <string id="m1iLKuJnQX" text="Ship Management"/>
+    <string id="devhu4aWuB" text="Speed: "/>
+    <string id="28uJZundHo" text="Troop Capacity: "/>
+    <string id="FhXiIcQ98D" text="Crew Capacity: "/>
+    <string id="BwwCSCo28z" text="Cargo Capacity: "/>
+    <string id="3avYf6yuc8" text="Number of Ships: "/>
+    <string id="HElS7UbUp3" text="Slowest Ship: "/>
+    <string id="VoniXh0KGx" text="Class: "/>
+    <string id="8RV8xcCSsq" text="Maritime"/>
+    <string id="7wljAK5U7N" text="New Concepts"/>
+    <string id="eGXurK2QBr" text=""/>
+
     <!--#endRegion UI-->
 
     <!--#region Maritime Mechanic-->
@@ -136,7 +152,7 @@
     <string id="ivXfiOske9" text="Return to destination selection"/>
     <string id="KQWVBQ8oE3" text="You are surrounded by the sights and sounds of the ship-making process."/>
     <string id="RCrK6j86cV" text="[Cheat] Add random ship."/>
-    <string id="5b7r9SOqSQ" text="See the ships that are available for purchase."/>
+    <string id="5b7r9SOqSQ" text="See the ships for sale"/>
     <string id="LlfjyuSnsn" text="Here are the ships for sale in the harbor today."/>
     <string id="8hc9mPS9Mr" text="Class"/>
     <string id="CFL4v1v3XV" text="Crew Capacity"/>
@@ -157,6 +173,7 @@
     <string id="Dj96iVLElL" text="Manage the ships"/>
     <string id="V24R3feGz9" text="The ships in your fleet {FLEET_NAME}"/>
     <string id="UgIDUQ4o94" text="Return to select fleet"/>
+    <string id="TJ4yv7kykI" text="Return to manage fleet"/>
     <string id="3GcjXQvyPI" text="Transfer to another fleet"/>
     <string id="4Vm5F55ggE" text="Select the receiving fleet or create a new one"/>
     <string id="IXBdFAKDzw" text="Sell your ship {MANAGED_SHIP_NAME} for {SHIP_VALUE}{GOLD_ICON}?"/>
@@ -175,26 +192,26 @@
     <string id="NB28ZVMP4Y" text="Stay on land"/>
     <!--#endRegion Landing Area-->
 
-    <!--#region Landing Area-->
+    <!--#region Ferry Point Area-->
     <string id="G1RDhmezVl" text="The ferryman will take you across for {TRAVEL_COST}{GOLD_ICON}"/>
     <string id="mfSaooHMbp" text="Pay and cross"/>
     <string id="Eq3ojL7yBq" text="Not enough gold"/>
-    <!--#endRegion Landing Area-->
+    <!--#endRegion Ferry Point-->
 
 
     <!--#region Borrowed Ships-->
     <string id="HZnYOZEL1v" text="Your current fleet has been stored at {SETTLEMENT_NAME}"/>
     <string id="DpWY5omszx" text="Your current fleet has been stored at a Ferry Point near {SETTLEMENT_NAME}"/>
-    <string id="G1RDhmezVl" text="Return Borrowed Ships"/>
-    <string id="mfSaooHMbp" text="You have borrowed a fleet of ships in order to complete your quest for {QUEST_GIVER.LINK}. Once that quest is completed, you must return to land in order for the ships to make their way back to their owner."/>
-    <string id="Eq3ojL7yBq" text="You have borrowed a fleet of ships in order to follow the army of {QUEST_GIVER.LINK}. Once you have left the army, you must return to land in order for the ships to make their way back to their owner."/>
-    <string id="HZnYOZEL1v" text="You have completed your quest for {QUEST_GIVER.LINK}. Now the owner wants his boats back. Simply return to land within {DAYS_COUNT}."/>
+    <string id="60WF4Z2GiH" text="Return Borrowed Ships"/>
+    <string id="GryXytYNDv" text="You have borrowed a fleet of ships in order to complete your quest for {QUEST_GIVER.LINK}. Once that quest is completed, you must return to land in order for the ships to make their way back to their owner."/>
+    <string id="pb013KfMpT" text="You have borrowed a fleet of ships in order to follow the army of {QUEST_GIVER.LINK}. Once you have left the army, you must return to land in order for the ships to make their way back to their owner."/>
+    <string id="rhtpp56jy0" text="You have completed your quest for {QUEST_GIVER.LINK}. Now the owner wants his boats back. Simply return to land within {DAYS_COUNT}."/>
     <string id="k0I6ystnxl" text="You have left the army of {QUEST_GIVER.LINK} with the ships he lent you. Either return to land or rejoin the army within {DAYS_COUNT} days."/>
     <string id="EPbNTwZaiX" text="You have rejoined the army of {QUEST_GIVER.LINK} with the ships he lent you."/>
     <string id="7rOIhINhUX" text="You have successfully returned the ships you borrowed from {QUEST_GIVER.LINK}."/>
     <string id="EoG0sKAdtd" text="You have stolen the boats you borrowed from {QUEST_GIVER.LINK}. This has degraded his trust in you."/>
     <string id="D4fESsLIAH" text="You have lost the ships you borrowed from {QUEST_GIVER.LINK}. This has degraded his trust in you."/>
     <!--#endRegion Borrowed Ships-->
-    
+
   </strings>
 </base>

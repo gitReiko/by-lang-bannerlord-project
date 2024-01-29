@@ -47,6 +47,7 @@
     <string id="YWq9TxH52f" text="Пераправа каля {LOCATION_NAME}"/>
     <string id="XclQz3BtRR" text="(Флагман)"/>
     <string id="5YaAOJ0PP2" text="Абраць Пункт Прызначэньня"/>
+    <string id="w0WTztcCQu" text="Абраць Флот"/>
     <string id="ej04a9TtVs" text="Флот мусіць быць у селішчы для транспартаваньня"/>
     <string id="rUqMQ8gz0n" text="Транспартны Флот"/>
     <string id="SZvZZ97zge" text="Транспартаваць гэты флот у {DESTINATION} за {COST}{GOLD_ICON}?"/>
@@ -77,13 +78,28 @@
     <string id="rHTm1pcQm6" text="Прадаць усе караблі ў гэтым флоце"/>
     <string id="MgilEO5siX" text="Трэба валодаць гэтым флотам, каб транспартаваць яго"/>
     <string id="MlPRmr2q4y" text="Транспартаваць гэты флот у іншы суседні порт"/>
-    <string id="rhtpp56jy0" text=""/>
-    <string id="60WF4Z2GiH" text=""/>
-    <string id="GryXytYNDv" text=""/>
-    <string id="pb013KfMpT" text=""/>
-    <string id="w0WTztcCQu" text=""/>
-    <string id="TJ4yv7kykI" text=""/>
-    <string id="kIP6WlM2DJ" text=""/>
+    <string id="kIP6WlM2DJ" text="Сфакусавацца на флоце"/>
+    <string id="3M5noYRafn" text="Няма Караблёў"/>
+    <string id="nu1DITrz82" text="Стварыць Новы Флот"/>
+    <string id="SIJkrkRQBm" text="Назва Новага Флоту"/>
+    <string id="l2MMiHGRLX" text="Прадаць {SHIP_NAME} за {SHIP_COST}{GOLD_ICON}?"/>
+    <string id="LBii9ihbib" text="Прадаць Карабель"/>
+    <string id="SvBuOS6Z5C" text="Нельга пераназваць флот, якім вы не валодаеце"/>
+    <string id="8oPTiHbmtf" text="Аб'яднаць Флот"/>
+    <string id="V12FEmqDAP" text="Разабраць Увесь Флот"/>
+    <string id="LGtV6wsMja" text="Разабраць увесь флот на кампаненты"/>
+    <string id="m1iLKuJnQX" text="Кіраваньне Караблём"/>
+    <string id="devhu4aWuB" text="Хуткасьць: "/>
+    <string id="28uJZundHo" text="Ёміст. Ваяроў: "/>
+    <string id="FhXiIcQ98D" text="Ёміст. Каманд: "/>
+    <string id="BwwCSCo28z" text="Ёміст. Груза: "/>
+    <string id="3avYf6yuc8" text="Кол. Караб: "/>
+    <string id="HElS7UbUp3" text="Найпав. Караб: "/>
+    <string id="VoniXh0KGx" text="Клас: "/>
+    <string id="8RV8xcCSsq" text="Марскі Трансп."/>
+    <string id="7wljAK5U7N" text="Новыя Канцэпцыі"/>
+    <string id="eGXurK2QBr" text=""/>
+
     <!--#endRegion UI-->
 
     <!--#region Maritime Mechanic-->
@@ -136,7 +152,7 @@
     <string id="ivXfiOske9" text="Вярнуцца да абраньня пункта прызначэньня"/>
     <string id="KQWVBQ8oE3" text="Вы аточаны відамі і гукамі стварэньня караблёў."/>
     <string id="RCrK6j86cV" text="[Чыт] Дадаць выпадковы карабель."/>
-    <string id="5b7r9SOqSQ" text="Паглядзець караблі, якія льга купіць."/>
+    <string id="5b7r9SOqSQ" text="Паглядзець караблі на продаж"/>
     <string id="LlfjyuSnsn" text="Тут знаходзяцца караблі, якія цяпер прадаюцца ў порце."/>
     <string id="8hc9mPS9Mr" text="Клас"/>
     <string id="CFL4v1v3XV" text="Ёмістасць Экіпажа"/>
@@ -157,6 +173,7 @@
     <string id="Dj96iVLElL" text="Кіраваць караблямі"/>
     <string id="V24R3feGz9" text="Караблі вашага флоту {FLEET_NAME}"/>
     <string id="UgIDUQ4o94" text="Вярнуцца да абраньня флоту"/>
+    <string id="TJ4yv7kykI" text="Вярнуцца да кіраваньня флотам"/>
     <string id="3GcjXQvyPI" text="Перадаць у іншы флот"/>
     <string id="4Vm5F55ggE" text="Абраць прымаючы флот ці стварыць новы"/>
     <string id="IXBdFAKDzw" text="Прадаць свой карабель {MANAGED_SHIP_NAME} за {SHIP_VALUE}{GOLD_ICON}?"/>
@@ -175,20 +192,20 @@
     <string id="NB28ZVMP4Y" text="Застацца на зямлі"/>
     <!--#endRegion Landing Area-->
 
-    <!--#region Landing Area-->
+    <!--#region Ferry Point Area-->
     <string id="G1RDhmezVl" text="Пераправнік даставіць вас за {TRAVEL_COST}{GOLD_ICON}."/>
     <string id="mfSaooHMbp" text="Заплаціць і перасекчы"/>
     <string id="Eq3ojL7yBq" text="Бракуе золата"/>
-    <!--#endRegion Landing Area-->
+    <!--#endRegion Ferry Point-->
 
 
     <!--#region Borrowed Ships-->
     <string id="HZnYOZEL1v" text="Вашы цяперашні флот знаходзіцца ў {SETTLEMENT_NAME}"/>
     <string id="DpWY5omszx" text="Вашы цяперашні флот знаходзіцца на Пераправе каля {SETTLEMENT_NAME}"/>
-    <string id="G1RDhmezVl" text="Вярнуць Пазычанныя Караблі"/>
-    <string id="mfSaooHMbp" text="Вы пазычылі флот караблёў, каб выканаць квэст {QUEST_GIVER.LINK}. Пасьля завяршэньня гэтага квэста вы мусіце высадзіцца на зямлю, каб караблі вярнуліся да свайго ўласьніка."/>
-    <string id="Eq3ojL7yBq" text="Вы пазычылі флот караблёў, каб ісьці ўсьлед за войскам {QUEST_GIVER.LINK}. Пасьля таго як вы пакінеце войска, вы мусіце высадзіцца на зямлю, каб караблі змаглі вярнуцца да свайго ўласьніка."/>
-    <string id="HZnYOZEL1v" text="Вы выканалі квэст {QUEST_GIVER.LINK}. Зараз уласьнік жадае вярнуць свае караблі. Проста высадзіцеся на зямлю цягам {DAYS_COUNT}."/>
+    <string id="60WF4Z2GiH" text="Вярнуць Пазычанныя Караблі"/>
+    <string id="GryXytYNDv" text="Вы пазычылі флот караблёў, каб выканаць квэст {QUEST_GIVER.LINK}. Пасьля завяршэньня гэтага квэста вы мусіце высадзіцца на зямлю, каб караблі вярнуліся да свайго ўласьніка."/>
+    <string id="pb013KfMpT" text="Вы пазычылі флот караблёў, каб ісьці ўсьлед за войскам {QUEST_GIVER.LINK}. Пасьля таго як вы пакінеце войска, вы мусіце высадзіцца на зямлю, каб караблі змаглі вярнуцца да свайго ўласьніка."/>
+    <string id="rhtpp56jy0" text="Вы выканалі квэст {QUEST_GIVER.LINK}. Зараз уласьнік жадае вярнуць свае караблі. Проста высадзіцеся на зямлю цягам {DAYS_COUNT}."/>
     <string id="k0I6ystnxl" text="Вы пакінулі войска {QUEST_GIVER.LINK} з караблямі, якія {?QUEST_GIVER.GENDER}яна вам пазычыла{?}ён вам пазычыў{\?}. Або высадзіцеся на зямлю, або ўз'яднайцеся з войскам цягам {DAYS_COUNT} дзён."/>
     <string id="EPbNTwZaiX" text="Вы далучыліся да войска {QUEST_GIVER.LINK} з караблямі, якія {?QUEST_GIVER.GENDER}яна вам пазычыла{?}ён вам пазычыў{\?}."/>
     <string id="7rOIhINhUX" text="Вы пасьпяхова вярнулі караблі, пазычаныя ў {QUEST_GIVER.LINK}."/>
