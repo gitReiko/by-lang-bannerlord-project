@@ -1,7 +1,7 @@
 <?php
 
 // Config consts
-define ('ID_ATTRS', array('text'));
+define ('ID_ATTRS', array('name','short_name','title','ruler_title','text'));
 define ('ID_TEMPLATE', 'Reiko_ROT_String');
 define ('OVERRIDE_FORBIDDEN_ID', true);
 define ('FILE_NAME', 'input');
@@ -26,7 +26,11 @@ foreach($xml as $xmlChild)
         if(isset($xmlChild[$idAttr]))
         {
             $xmlChild[$idAttr] = trim($xmlChild[$idAttr]);
-            $newStringId.= '.'.$idAttr.'}';
+            
+            $idddd = explode('.', $newStringId);
+            $newStringId = $idddd[0].'.'.$idAttr.'}';
+
+            echo $newStringId.'<hr>';
 
             if(is_field_contains_forbidden_id($xmlChild[$idAttr]))
             {
