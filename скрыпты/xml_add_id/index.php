@@ -1,7 +1,7 @@
 <?php
 
 // Config consts
-define ('ID_ATTRS', array('name','short_name','title','ruler_title','text'));
+define ('ID_ATTRS', array('name'));
 define ('ID_TEMPLATE', 'Reiko_ROT_String');
 define ('OVERRIDE_FORBIDDEN_ID', true);
 define ('FILE_NAME', 'input');
@@ -27,8 +27,7 @@ foreach($xml as $xmlChild)
         {
             $xmlChild[$idAttr] = trim($xmlChild[$idAttr]);
             
-            $idddd = explode('.', $newStringId);
-            $newStringId = $idddd[0].'.'.$idAttr.'}';
+            $newStringId = $newStringId.'.'.$idAttr.'}';
 
             echo $newStringId.'<hr>';
 
