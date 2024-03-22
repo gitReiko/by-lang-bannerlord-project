@@ -30,6 +30,24 @@
 			</IncludedGameTypes>
 		</XmlNode>
 
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="rot_dragon_bandits"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Factions" path="rot_dragon_spclans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
 		<XmlNode>
 			<XmlName id="Items" path="rot_dragon_items"/>
 			<IncludedGameTypes>

@@ -19,6 +19,7 @@
   <string id="ROT00830" text="Freefolk Thenn Cannibal"/>
   <string id="ROTimpaler" text="Freefolk Thenn Impaler"/>
   <string id="ROT00831" text="Giant"/>
+  <string id="eldergiant" text="Elder Giant"/>
   <string id="ROT00832" text="Night's Watch Recruit"/>
   <string id="ROT00833" text="Night's Watch Ranger Recruit"/>
   <string id="ROT00834" text="Night's Watch Soldier"/>
@@ -65,7 +66,7 @@
   <string id="ROT00868" text="Riverlands Archer"/>
   <string id="ROT00869" text="Riverlands Elite Archer"/>
   <string id="ROT00870" text="Riverlands Ranger"/>
-  <string id="ROT00872" text="Riverlands Mounted Ranger"/>
+  <string id="ROT00872" text="Riverlands Pikeman"/>
   <string id="ROT00873" text="Riverlands Swordsman"/>
   <string id="ROT00874" text="Riverlands Elite Swordsman"/>
   <string id="ROT00875" text="Riverlands Swordmaster"/>
@@ -73,7 +74,7 @@
   <string id="ROTtulfoot" text="House Tully Footman"/>
   <string id="ROTtulsol" text="House Tully Soldier"/>
   <string id="ROTtularm" text="House Tully Man at Arms"/>
-  <string id="ROTrivguard" text="Riverlord House Guard"/>
+  <string id="tullyhouseguard" text="Tully House Guard"/>
   <string id="ROTtularch" text="House Tully Archer"/>
   <string id="ROTtullong" text="House Tully Longbowman"/>
   <string id="ROT00878" text="Dragonstone Recruit"/>
@@ -89,10 +90,17 @@
   <string id="ROT00886" text="Dragonstone Bowman"/>
   <string id="ROT00887" text="Dragonstone Archer"/>
   <string id="ROT00997" text="Dragonstone Elite Archer"/>
-  <string id="ROT00888" text="Dragonstone Squire"/>
+  <string id="ROT00888" text="Squire"/>
   <string id="ROT00889" text="Dragonstone Knight"/>
   <string id="ROT00890" text="Dragonstone Shock Knight"/>
   <string id="ROT00891" text="Queen's Man"/>
+  <string id="realmhknight" text="Realm Hedge Knight"/>
+  <string id="realmknight" text="Realm Knight"/>
+  <string id="realmpaladin" text="Realm Paladin"/>
+  <string id="velshipman" text="Velaryon Shipmate"/>
+  <string id="velsold" text="Velaryon Sailor"/>
+  <string id="velwar" text="Velaryon Marine"/>
+  <string id="velren" text="Velaryon Sea Guard"/>
   <string id="ROT00892" text="Stormlands Recruit"/>
   <string id="ROT00893" text="Stormlands Noble's Son"/>
   <string id="ROT00894" text="Stormlands Levy"/>
@@ -100,7 +108,7 @@
   <string id="ROT00896" text="Stormlands Maceman"/>
   <string id="ROT00897" text="Stormlands Elite Maceman"/>
   <string id="ROT00898" text="Stormlands Spearman"/>
-  <string id="ROT01005" text="Stormlands Houseguard"/>
+  <string id="ROT01005" text="Stormlands House Guard"/>
   <string id="ROT00899" text="Stormlands Horseman"/>
   <string id="ROT00900" text="Stormlands Bowman"/>
   <string id="ROT00901" text="Stormlands Archer"/>
@@ -118,6 +126,12 @@
   <string id="ROTbaratheonsoldier" text="House Baratheon Soldier"/>
   <string id="ROTbaratheonhammer" text="House Baratheon Hammerman"/>
   <string id="ROTbaratheonhouseguard" text="House Baratheon House Guard"/>
+  <string id="tarthmilitia" text="Tarth Militia"/>
+  <string id="tarthmanatarms" text="Tarth Man at Arms"/>
+  <string id="tarthsold" text="Tarth Soldier"/>
+  <string id="tarthhalb" text="Tarth Halberdier"/>
+  <string id="tarthrider" text="Tarth Rider"/>
+  <string id="tarthhorseman" text="Tarth Horseman"/>
   <string id="ROT00909" text="Reach Recruit"/>
   <string id="ROT00910" text="Reach Noble's Son"/>
   <string id="ROT00911" text="Reach Levy"/>
@@ -131,25 +145,31 @@
   <string id="ROT00917" text="Reach Elite Archer"/>
   <string id="ROT00918" text="Reach Master Archer"/>
   <string id="ROT00919" text="Reach Voulgier"/>
-  <string id="ROT00920" text="Reach Bow Knight"/>
+  <string id="ROT00920" text="Reach Hedge Knight"/>
   <string id="ROT00921" text="Reach Champion"/>
   <string id="ROT00922" text="Reach Flower Knight"/>
   <string id="ROTtyrellfootman" text="House Tyrell Footman"/>
   <string id="ROTtyrellsoldier" text="House Tyrell Soldier"/>
   <string id="ROTtyrellmanatarms" text="House Tyrell Man at Arms"/>
-  <string id="ROTtyrellhouseguard" text="House Tyrell House Guard"/>
+  <string id="ROTtyrellhouseguard" text="Tyrell House Guard"/>
   <string id="ROTtyrellknight" text="House Tyrell Knight"/>
   <string id="ROTtyrelllongbowman" text="House Tyrell Longbowman"/>
   <string id="highlevy" text="House Hightower Levy"/>
   <string id="highsoldier" text="House Hightower Soldier"/>
   <string id="highguard" text="House Hightower Guard"/>
   <string id="guardianold" text="Guardian of Oldtown"/>
+  <string id="tarlfoot" text="House Tarly Footman"/>
+  <string id="tarlsold" text="House Tarly Soldier"/>
+  <string id="tarlman" text="House Tarly Man at Arms"/>
+  <string id="tarlhouse" text="Tarly House Guard"/>
+  <string id="tarlcross" text="House Tarly Crossbowman"/>
+  <string id="tarlelcross" text="House Tarly Elite Crossbowman"/>
   <string id="ROT00923" text="Ghiscari Recruit"/>
   <string id="ROT00924" text="Ghiscari Former Slave"/>
   <string id="ROT00925" text="Ghiscari Footman"/>
   <string id="ROT00926" text="Ghiscari Warrior"/>
   <string id="ROT00927" text="Ghiscari Pikeman"/>
-  <string id="ROT00928" text=" Ghiscari Elite Pikeman"/>
+  <string id="ROT00928" text="Ghiscari Elite Pikeman"/>
   <string id="ROT00929" text="Ghiscari Soldier"/>
   <string id="ROT00930" text="Ghiscari Horseman"/>
   <string id="ROT00931" text="Ghiscari Cavalry"/>
@@ -172,10 +192,12 @@
   <string id="ROT00954" text="Karstark Shock Cavalry"/>
   <string id="ROT00947" text="Free Houses Bowman"/>
   <string id="ROT00948" text="Bolton Archer"/>
-  <string id="ROT00949" text="Bolton Elite Archer"/>
+  <string id="ROT00949" text="Bolton Veteran Archer"/>
+  <string id="bolhunt" text="Bolton Hunter"/>
   <string id="ROT00950" text="Frey Crossbowman"/>
   <string id="ROT00951" text="Frey Sharpshooter"/>
   <string id="ROT00952" text="Frey Assassin"/>
+  <string id="dreadpike" text="Dreadfort PIkeman"/>
   <string id="ROT00955" text="Bolton Cavalry"/>
   <string id="ROT00956" text="Free Houses Noble's Son"/>
   <string id="ROT00957" text="Crownlands Recruit"/>
@@ -191,13 +213,13 @@
   <string id="ROT00967" text="Gold Cloak Sniper"/>
   <string id="ROT00968" text="Crownlands Squire"/>
   <string id="ROT00969" text="Kingsguard Initiate"/>
-  <string id="ROT00970" text="Kingsguard Champion"/>
+  <string id="ROT00970" text="Kingsguard"/>
   <string id="ROT00971" text="Captain of the Kingsguard"/>
   <string id="ROT00972" text="Free Houses Militia"/>
   <string id="ROT00973" text="Bolton Swordsman"/>
   <string id="ROT00974" text="Bolton Torturer"/>
   <string id="ROT00975" text="Bolton Flayer"/>
-  <string id="ROT00976" text="Gold Cloak Officer"/>
+  <string id="ROT00976" text="Gold Cloak Halberdier"/>
   <string id="ROT01009" text="Stark Levy"/>
   <string id="ROT01011" text="Stark Bowman"/>
   <string id="ROT01012" text="Stark Longbowman"/>
@@ -207,6 +229,8 @@
   <string id="ROT01016" text="Stark House Guard"/>
   <string id="ROT01017" text="Stark Horseman"/>
   <string id="ROT01018" text="Stark Cavalry"/>
+  <string id="cerlevy" text="Cerwyn Levy"/>
+  <string id="cersoldier" text="Cerwyn Soldier"/>
   <string id="ROT01019" text="White Harbour Squire"/>
   <string id="ROT01020" text="White Harbour Knight"/>
   <string id="ROT01095" text="White Harbour Elite Knight"/>
@@ -223,12 +247,12 @@
   <string id="ROT01105" text="Lannister Knight"/>
   <string id="ROT03000" text="House Martell Levy"/>
   <string id="ROT03001" text="House Martell Man at Arms"/>
-  <string id="ROT03002" text="House Martell House Guard"/>
+  <string id="ROT03002" text="Martell House Guard"/>
   <string id="ROT03003" text="Water Gardens Sentinel"/>
   <string id="ROT03004" text="House Greyjoy Footman"/>
   <string id="ROT03005" text="House Greyjoy Soldier"/>
-  <string id="ROT03006" text="House Greyjoy House Guard"/>
-  <string id="ROT03007" text="House Greyjoy Finger Dancer"/>
+  <string id="ROT03006" text="Greyjoy House Guard"/>
+  <string id="ROT03007" text="Greyjoy Finger Dancer"/>
   <string id="ROTsarnorirecruit" text="Sarnori Recruit"/>
   <string id="ROTsarnorinoblesson" text="Sarnori Noble's Son"/>
   <string id="ROTsarnorifootman" text="Sarnori Footman"/>
@@ -248,7 +272,7 @@
   <string id="arrynmast" text="House Arryn Master Archer"/>
   <string id="ROTarrynhorseman" text="House Arryn Horseman"/>
   <string id="ROTarrynknight" text="House Arryn Knight"/>
-  <string id="ROTarrynhouseguard" text="House Arryn House Guard"/>
+  <string id="ROTarrynhouseguard" text="Arryn House Guard"/>
   <string id="roycefoot" text="House Royce Footman"/>
   <string id="roycesol" text="House Royce Soldier"/>
   <string id="roycewar" text="House Royce Warrior"/>
@@ -257,7 +281,7 @@
   <string id="ROTsarnorijavelinier" text="Sarnori Javelineer"/>
   <string id="ROTsarnorielitejavelinier" text="Sarnori Elite Javelinier"/>
   <string id="ROTsarnorimasterjavelinier" text="Sarnori Master Javelinier"/>
-  <string id="ROTrobberscout" text="Robber Scout"/>
+  <string id="ROTrobbersquire" text="Robber Squire"/>
   <string id="ROTrobberhorseman" text="Robber Horseman"/>
   <string id="ROTrobberknight" text="Robber Knight"/>
   <string id="ROTrobberknightboss" text="Robber Knight Boss"/>
@@ -267,6 +291,7 @@
   <string id="ROTnorvosspearman" text="Norvoshi Spearman"/>
   <string id="ROTnorvosaxeman" text="Norvoshi Axeman"/>
   <string id="ROTnorvosmasteraxeman" text="Norvoshi Master Axeman"/>
+  <string id="ROTnorvospike" text="Norvoshi Pikeman"/>
   <string id="ROTnorvoshorseman" text="Norvoshi Horseman"/>
   <string id="ROTnorvoscalvary" text="Norvoshi Cavalry"/>
   <string id="ROTnorvospriestguard" text="Norvoshi Priest Guard"/>
@@ -284,17 +309,17 @@
   <string id="ROT00379" text="Casterly Squire"/>
   <string id="ROT00382" text="Casterly Champion"/>
   <string id="ROTcasterlyguardian" text="Guardian of the Rock"/>
-  <string id="ROTcasterlypikeman" text="Casterly Rock Master Pikeman"/>
+  <string id="ROTcasterlypikeman" text="Casterly Master Pikeman"/>
   <string id="ROT003756" text="Casterly Crossbowman"/>
   <string id="ROT003777" text="Casterly Veteran Crossbowman"/>
   <string id="ROT98745" text="Casterly Master Crossbowman"/>
   <string id="ROT00280" text="House Mormont Woodswoman"/>
   <string id="ROThuntress" text="House Mormont Huntress"/>
   <string id="ROTelitehuntress" text="House Mormont Elite Huntress"/>
-  <string id="ROTelitemountedhuntress" text="House Mormont Elite Mounted Huntress"/>
+  <string id="ROTelitemountedhuntress" text="Mormont Elite Mounted Huntress"/>
   <string id="ROTyronlevy" text="House Yronwood Levy"/>
   <string id="ROTyronman" text="House Yronwood Man at Arms"/>
-  <string id="ROTyronguard" text="House Yronwood House Guard"/>
+  <string id="ROTyronguard" text="Yronwood House Guard"/>
   <string id="ROTboneway" text="Boneway Gaurdian"/>
   <string id="ROTtarglevy" text="Valyrian Levy"/>
   <string id="ROTtargbowman" text="Valyrian Bowman"/>
@@ -319,7 +344,7 @@
   <string id="ROT01880" text="Volantene Warrior"/>
   <string id="ROT01881" text="Volantine Elite Warrior"/>
   <string id="ROT01882" text="Volantene Rider"/>
-  <string id="ROT01883" text="Volantene Camel Cavalry"/>
+  <string id="ROT01883" text="Volantene Camelry"/>
   <string id="ROT01884" text="Volantene Bowman"/>
   <string id="ROT01885" text="Volantene Archer"/>
   <string id="ROT01886" text="Volantene Master Archer"/>
@@ -422,18 +447,60 @@
   <string id="ROTkingbandit" text="Kingswood Bandit"/>
   <string id="ROTkingbrig" text="Kingswood Brigand"/>
   <string id="ROTkingboss" text="Kingswood Boss"/>
-  <string id="ROTskagclansman" text="Skagosi Clansman"/>
-  <string id="ROTskagraider" text="Skagosi Raider"/>
-  <string id="ROTskagplunderer" text="Skagosi Plunderer"/>
-  <string id="ROTskagchief" text="Skagosi Chieftan"/>
   <string id="unsullied" text="Unsullied"/>
-  <string id="yiticriminal" text="Yi Ti Criminal"/>
-  <string id="yitiexile" text="Yiti Exile"/>
-  <string id="yitiexnob" text="Yi Ti Exiled Noble"/>
-  <string id="yitiroyal" text="Yi Ti Exiled Royalty"/>
-  <string id="ssoutrider" text="Silver Spyre Scout"/>
-  <string id="ssvoulgier" text="Silver Spyre Voulgier"/>
-  <string id="ssmvoulge" text="Silver Spyre Master Voulgier"/>
-  <string id="sseoutrider" text="Silver Spyre Elite Outrider"/>
+  <string id="lengcrim" text="Lengii Criminal"/>
+  <string id="lengslav" text="Lengii Slaver"/>
+  <string id="lengmslav" text="Lengii Mounted Slaver"/>
+  <string id="lengslavmas" text="Lengii Slave Master"/>
+  <string id="ssoutrider" text="Crownlands Scout"/>
+  <string id="ssvoulgier" text="Crownlands Voulgier"/>
+  <string id="ssmvoulge" text="Crownlands Master Voulgier"/>
+  <string id="sseoutrider" text="Crownlands Elite Outrider"/>
+  <string id="goldrec" text="Golden Company Recruit"/>
+  <string id="goldinfant" text="Golden Company Giltblade Warriors"/>
+  <string id="goldspear" text="Golden Company Aurum Spearbearers"/>
+  <string id="goldpike" text="Golden Company Gilt Pike Wardens"/>
+  <string id="goldcapt" text="Golden Company Captain"/>
+  <string id="goldrider" text="Golden Steed Riders"/>
+  <string id="goldhorse" text="Golden Company Gilded Lancer"/>
+  <string id="goldcross" text="Goldenmark Marksmen"/>
+  <string id="goldvetcross" text="Gleaming Shaft Marksmen"/>
+  <string id="goldmastcross" text="Gilded Bolt Rangers"/>
+  <string id="skagclan" text="Skagosi Lowborn"/>
+  <string id="skagfoot" text="Skagosi Footman"/>
+  <string id="skagsold" text="Skagosi Soldier"/>
+  <string id="skagspear" text="Skagosi Spearman"/>
+  <string id="skagmast" text="Skagosi Master Spearman"/>
+  <string id="skagsav" text="Skagosi Savage"/>
+  <string id="skagbarb" text="Skagosi Barbarian"/>
+  <string id="skagbow" text="Skagosi Bowman"/>
+  <string id="skagarch" text="Skagosi Archer"/>
+  <string id="skaghunt" text="Skagosi Huntsman"/>
+  <string id="skaghigh" text="Skagosi Highborn"/>
+  <string id="skagshep" text="Skagosi Sheppard"/>
+  <string id="skagrid" text="Skagosi Rider"/>
+  <string id="skagstone" text="Skagosi Stoneborn"/>
+  <string id="skagchamp" text="Skagosi Stoneborn Champion"/>
+  <string id="yitirec" text="Yi Ti Recruit"/>
+  <string id="yitifoot" text="Yi Ti Footman"/>
+  <string id="yitiinfan" text="Yi Ti Infantryman"/>
+  <string id="yitispear" text="Yi Ti Spearman"/>
+  <string id="yitisam" text="Yi Ti Samurai"/>
+  <string id="yitirider" text="Yi Ti Rider"/>
+  <string id="yitihorse" text="Yi Ti Glaiveman"/>
+  <string id="yitibow" text="Yi Ti Bowman"/>
+  <string id="yitiarch" text="Yi Ti Archer"/>
+  <string id="yitimark" text="Yi Ti Marksman"/>
+  <string id="summerrec" text="Summer Isles Recruit"/>
+  <string id="summerfoot" text="Summer Isles Footman"/>
+  <string id="summerinfan" text="Summer Isles Infantryman"/>
+  <string id="summerspear" text="Summer Isles Spearman"/>
+  <string id="summerpike" text="Summer Isles Spearmaster"/>
+  <string id="summerrider" text="Summer Isles Scout"/>
+  <string id="summerhorse" text="Summer Isles Horseman"/>
+  <string id="summerbow" text="Summer Isles Bowman"/>
+  <string id="summerarch" text="Summer Isles Archer"/>
+  <string id="summerlong" text="Summer Isles Longbowman"/>
+  <string id="summermaslong" text="Goldenheart Warrior"/>
  </strings>
 </base>
