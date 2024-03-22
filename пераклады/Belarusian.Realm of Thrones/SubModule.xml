@@ -22,6 +22,14 @@
 			<XmlName id="GameText" path="rot_content_module_strings"/>
 		</XmlNode>
 
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="rot_content_bandits"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
 		<XmlNode>
 			<XmlName id="Items" path="rot_dragon_items"/>
 			<IncludedGameTypes>
@@ -67,7 +75,7 @@
 		</XmlNode>
 
 		<XmlNode>                
-			<XmlName id="NPCCharacters" path="rot_content_units"/>
+			<XmlName id="NPCCharacters" path="rot_content_troops"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
