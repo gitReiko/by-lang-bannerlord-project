@@ -42,6 +42,16 @@
 		</IncludedGameTypes>
 	</XmlNode>
 
+	<XmlNode>
+		<XmlName id="Kingdoms" path="rot_content_kingdoms_xlst"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+			<GameType value = "EditorGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
 	<XmlNode>                
 		<XmlName id="NPCCharacters" path="rot_content_lords"/>
 		<IncludedGameTypes>
@@ -68,6 +78,14 @@
 
 	<XmlNode>                
 		<XmlName id="NPCCharacters" path="rot_content_trader_units"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	<XmlNode>                
+		<XmlName id="NPCCharacters" path="rot_content_trader_units_xlst"/>
 		<IncludedGameTypes>
 			<GameType value = "Campaign"/>
 			<GameType value = "CampaignStoryMode"/>

@@ -1,7 +1,7 @@
 <?php
 
 // Config consts
-define ('ID_ATTRS', array('name'));
+define ('ID_ATTRS', array('name','short_name','title','ruler_title','text'));
 define ('ID_TEMPLATE', 'Reiko_ROT_String');
 define ('OVERRIDE_FORBIDDEN_ID', true);
 define ('FILE_NAME', 'input');
@@ -19,15 +19,15 @@ $xml = simplexml_load_file(FILE_NAME.'.xml') or die('Error: Cannot open input.xm
 
 foreach($xml as $xmlChild)
 {
-    $newStringId = '{='.(string)$xmlChild['id'];
+    $stringStart = '{='.(string)$xmlChild['id'];
 
     foreach(ID_ATTRS as $idAttr)
     {
         if(isset($xmlChild[$idAttr]))
         {
             $xmlChild[$idAttr] = trim($xmlChild[$idAttr]);
-            
-            $newStringId = $newStringId.'.'.$idAttr.'}';
+
+            $newStringId = $stringStart.'.'.$idAttr.'}';
 
             echo $newStringId.'<hr>';
 
@@ -45,6 +45,8 @@ foreach($xml as $xmlChild)
                     $xmlChild[$idAttr] = add_string_id_to_string_without_id( $xmlChild[$idAttr], $newStringId);
                 }
             }
+
+            $newStringId = '';
         }
     }
 }
