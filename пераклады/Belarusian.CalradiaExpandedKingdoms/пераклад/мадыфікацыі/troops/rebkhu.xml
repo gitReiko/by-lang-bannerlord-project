@@ -1,0 +1,1954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="rebkhu_nomad" default_group="Infantry" level="6" name="{=npc.rebkhu_nomad}Khergit Nomad" occupation="Soldier" is_basic_troop="true" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="0" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_tribal_warrior" />
+      <upgrade_target id="NPCCharacter.rebkhu_footman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.southern_small_axe_t2" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.long_woolen_tunic" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Head" id="Item.decorated_nomad_cap" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_axe_1_t2" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_axe_1_t2" />
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_mace_1_t2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Head" id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_1_t2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.peaked_fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_1_t2" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t2" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.fur_hat" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_tribal_warrior" default_group="Ranged" level="11" name="{=npc.rebkhu_tribal_warrior}Khergit Tribal Levy" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_raider" />
+      <upgrade_target id="NPCCharacter.rebkhu_hunter" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.aserai_mace_2_t2" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Head" id="Item.fur_hood" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.southern_small_axe_t2" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Leg" id="Item.belted_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Head" id="Item.peaked_fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.aserai_mace_2_t2" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Head" id="Item.fur_hood" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.southern_small_axe_t2" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Leg" id="Item.belted_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Head" id="Item.peaked_fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.aserai_mace_2_t2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Head" id="Item.fur_hood" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.southern_small_axe_t2" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.belted_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Head" id="Item.peaked_fur_hood" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_raider" default_group="HorseArcher" level="16" name="{=npc.rebkhu_raider}Khergit Raider" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="60" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_mounted_skirmisher" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Head" id="Item.fur_hat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.aserai_mace_3_t3" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.peaked_fur_hood" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.fur_hat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Head" id="Item.peaked_fur_hood" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.peaked_fur_hood" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item3" id="Item.light_mace_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.fur_hat" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_mounted_skirmisher" default_group="HorseArcher" level="21" name="{=npc.rebkhu_mounted_skirmisher}Khergit Mounted Skirmisher" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="60" />
+      <skill id="Riding" value="150" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="45" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_impaler" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item3" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item3" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item3" id="Item.khuzait_mace_2_t4" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item3" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item3" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item3" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_impaler" default_group="HorseArcher" level="26" name="{=npc.rebkhu_impaler}Khergit Impaler" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="80" />
+      <skill id="Riding" value="200" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="180" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Body" id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head" id="Item.spiked_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.eastern_spear_5_t5" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Head" id="Item.spiked_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Body" id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.eastern_spear_5_t5" />
+        <equipment slot="Body" id="Item.eastern_plated_leather_vest" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Body" id="Item.studded_leather_over_aketon" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_hunter" default_group="Ranged" level="16" name="{=npc.rebkhu_hunter}Khergit Crossbowman" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="70" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Head" id="Item.peaked_fur_hood" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.light_mace_t3" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Head" id="Item.fur_hood" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.light_mace_t3" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.fur_hat" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.fur_hood" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.light_mace_t3" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_a" />
+        <equipment slot="Item1" id="Item.bolt_d" />
+        <equipment slot="Item2" id="Item.bolt_d" />
+        <equipment slot="Item3" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_archer" default_group="Ranged" level="21" name="{=npc.rebkhu_archer}Khergit Trained Crossbowman" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="60" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="110" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_marksman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_e" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.eastern_steel_mace_t4" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_b" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_e" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.eastern_steel_mace_t4" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_b" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_e" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.battle_axe_t4" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_b" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.battle_axe_t4" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_e" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_b" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_e" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.bolt_c" />
+        <equipment slot="Item3" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_marksman" default_group="Ranged" level="26" name="{=npc.rebkhu_marksman}Khergit Crossbow Marksman" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="80" />
+      <skill id="OneHanded" value="80" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="130" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="150" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_d" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.bolt_b" />
+        <equipment slot="Item3" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_c" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_d" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.bolt_b" />
+        <equipment slot="Item3" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_d" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.bolt_b" />
+        <equipment slot="Item3" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Body" id="Item.studded_leather_over_aketon" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_c_fur" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_d" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.bolt_b" />
+        <equipment slot="Item3" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_d" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.bolt_b" />
+        <equipment slot="Item3" id="Item.eastern_spear_5_t5" />
+        <equipment slot="Body" id="Item.studded_leather_over_aketon" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_c" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_d" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.bolt_b" />
+        <equipment slot="Item3" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Body" id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_footman" default_group="Infantry" level="11" name="{=npc.rebkhu_footman}Khergit Footman" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="5" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_horseman" />
+      <upgrade_target id="NPCCharacter.rebkhu_spearman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Head" id="Item.fur_hat" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Head" id="Item.fur_hat" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_mace_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1" id="Item.eastern_wicker_shield" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_horseman" default_group="Cavalry" level="16" name="{=npc.rebkhu_horseman}Khergit Horseman" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="30" />
+      <skill id="Riding" value="70" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_lancer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1" id="Item.bound_desert_round_shield" />
+        <equipment slot="Item2" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1" id="Item.bound_desert_round_shield" />
+        <equipment slot="Item2" id="Item.light_mace_t3" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item1" id="Item.desert_round_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1" id="Item.bound_desert_round_shield" />
+        <equipment slot="Item2" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1" id="Item.desert_round_shield" />
+        <equipment slot="Item2" id="Item.light_mace_t3" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item1" id="Item.bound_desert_round_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1" id="Item.desert_round_shield" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Head" id="Item.fur_hat" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1" id="Item.bound_desert_round_shield" />
+        <equipment slot="Item2" id="Item.steel_mace_t3" />
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item1" id="Item.desert_round_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Head" id="Item.fur_hood" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_lancer" default_group="Cavalry" level="21" name="{=npc.rebkhu_lancer}Khergit Lancer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="45" />
+      <skill id="Riding" value="130" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="130" />
+      <skill id="Bow" value="45" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_heavy_lancer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_mace_2_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_mace_2_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_mace_2_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_heavy_lancer" default_group="Cavalry" level="26" name="{=npc.rebkhu_heavy_lancer}Khergit Heavy Lancer" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="50" />
+      <skill id="Riding" value="210" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.studded_leather_over_aketon" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.eastern_plated_leather_vest" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.studded_leather_over_aketon" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.eastern_plated_leather_vest" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_spearman" default_group="Infantry" level="16" name="{=npc.rebkhu_spearman}Khergit Spearman" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_spear_infantry" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.light_mace_t3" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.steel_mace_t3" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.light_mace_t3" />
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.fur_hat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.light_mace_t3" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1" id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.fur_hood" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_spear_infantry" default_group="Infantry" level="21" name="{=npc.rebkhu_spear_infantry}Khergit Spear Infantry" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="60" />
+      <skill id="OneHanded" value="80" />
+      <skill id="TwoHanded" value="45" />
+      <skill id="Polearm" value="110" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_darkhan" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_2_t4" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_steel_mace_t4" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battle_axe_t4" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.steppe_helmet" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battle_axe_t4" />
+        <equipment slot="Item1" id="Item.footmans_wicker_shield" />
+        <equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_darkhan" default_group="Infantry" level="26" name="{=npc.rebkhu_darkhan}Khergit Darkhan" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="140" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="140" />
+      <skill id="Bow" value="80" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.eastern_plated_leather_vest" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.studded_leather_over_aketon" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.eastern_plated_leather_vest" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item0" id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_noble_son" default_group="Cavalry" level="11" name="{=npc.rebkhu_noble_son}Khergit Noble's Son" upgrade_requires="ItemCategory.horse" occupation="Soldier" is_basic_troop="true" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="5" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="60" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_noble_horseman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.simple_back_sword_t2" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Head" id="Item.sloven_hat_a" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.small_bit_axe_t2" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Head" id="Item.decorated_nomad_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body" id="Item.studded_leather_waistcoat" />
+        <equipment slot="Head" id="Item.nomad_cap" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_noble_horseman" default_group="Cavalry" level="16" name="{=npc.rebkhu_noble_horseman}Khergit Qanqli Horseman" occupation="Soldier" is_basic_troop="true" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="15" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_noble_lancer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item1" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_b" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Item1" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_d" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Item1" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_b" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steel_mace_t3" />
+        <equipment slot="Item1" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_d" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item1" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item1" id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Body" id="Item.reinforced_suede_armor" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_noble_lancer" default_group="Cavalry" level="21" name="{=npc.rebkhu_noble_lancer}Khergit Torguud Horseman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="15" />
+      <skill id="Riding" value="180" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="150" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_kheshig_lancer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.eastern_steel_mace_t4" />
+        <equipment slot="Item0" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Head" id="Item.sloven_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Item0" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Item0" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item0" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_c_fur" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.khuzait_mace_2_t4" />
+        <equipment slot="Item0" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Head" id="Item.sloven_helmet" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Item0" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.eastern_plated_leather_vest" />
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item0" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_c" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Item0" id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2" id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Body" id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_kheshig_lancer" default_group="Cavalry" level="26" name="{=npc.rebkhu_kheshig_lancer}Khergit Kheshig Lancer" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="230" />
+      <skill id="OneHanded" value="160" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="190" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rebkhu_khans_lancer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item1" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Item2" id="Item.noyans_shield" />
+        <equipment slot="Body" id="Item.stitched_leather_over_mail" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_j" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item1" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Item2" id="Item.noyans_shield" />
+        <equipment slot="Body" id="Item.stitched_leather_over_mail" />
+        <equipment slot="Head" id="Item.eastern_vendel_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item1" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item2" id="Item.noyans_shield" />
+        <equipment slot="Body" id="Item.eastern_lamellar_armor" />
+        <equipment slot="Head" id="Item.AR_khuzait_helmet_j" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item1" id="Item.khuzait_mace_4_t5" />
+        <equipment slot="Item2" id="Item.noyans_shield" />
+        <equipment slot="Body" id="Item.eastern_plated_leather" />
+        <equipment slot="Head" id="Item.spiked_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.brass_scale_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item1" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item2" id="Item.noyans_shield" />
+        <equipment slot="Body" id="Item.eastern_plated_leather" />
+        <equipment slot="Head" id="Item.spiked_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.noble_horse_eastern" />
+      <equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="rebkhu_khans_lancer" default_group="Cavalry" level="31" name="{=npc.rebkhu_khans_lancer}Khergit Xaan Lancer" occupation="Soldier" culture="Culture.rebkhu">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="280" />
+      <skill id="OneHanded" value="160" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="220" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
+        <equipment slot="Item1" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item2" id="Item.steel_round_shield" />
+        <equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+        <equipment slot="Head" id="Item.AR_khuzait_lord_helmet_b" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Cape" id="Item.brass_scale_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
+        <equipment slot="Item1" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item2" id="Item.steel_round_shield" />
+        <equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+        <equipment slot="Head" id="Item.spiked_helmet_with_facemask" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Cape" id="Item.brass_lamellar_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
+        <equipment slot="Item1" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item2" id="Item.steel_round_shield" />
+        <equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+        <equipment slot="Head" id="Item.AR_khuzait_lord_helmet_a" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
+        <equipment slot="Item1" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item2" id="Item.steel_round_shield" />
+        <equipment slot="Body" id="Item.stitched_leather_over_mail" />
+        <equipment slot="Head" id="Item.spiked_helmet_with_facemask" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Cape" id="Item.mail_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
+        <equipment slot="Item1" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item2" id="Item.steel_round_shield" />
+        <equipment slot="Body" id="Item.stitched_leather_over_mail" />
+        <equipment slot="Head" id="Item.AR_khuzait_lord_helmet_b" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Cape" id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
+        <equipment slot="Item1" id="Item.khuzait_lance_3_t5" />
+        <equipment slot="Item2" id="Item.steel_round_shield" />
+        <equipment slot="Body" id="Item.stitched_leather_over_mail" />
+        <equipment slot="Head" id="Item.eastern_vendel_helmet" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Cape" id="Item.bearskin" />
+      </EquipmentRoster>
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.noble_horse_eastern" />
+      <equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

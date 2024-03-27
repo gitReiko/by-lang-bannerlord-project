@@ -1,0 +1,2649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+   <NPCCharacter id="vagir_recruit" default_group="Infantry" level="6" name="{=npc.vagir_recruit}Vagir Tribesman" occupation="Soldier" is_basic_troop="true" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="5" />
+      <skill id="OneHanded" value="20" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="5" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_warrior" />
+      <upgrade_target id="NPCCharacter.vagir_levy_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_pitchfork_2_t1" />
+        <equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Cape" id="Item.battania_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Body" id="Item.fur_skirt_with_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Cape" id="Item.a_battania_cloak_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+        <equipment slot="Body" id="Item.ragged_robes" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Body" id="Item.tundra_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_mace_1_t2" />
+        <equipment slot="Body" id="Item.nordic_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+        <equipment slot="Head" id="Item.northern_fur_cap" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_mace_2_t2" />
+        <equipment slot="Body" id="Item.northern_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.roughhide_cap" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+        <equipment slot="Body" id="Item.roughcloth_shortcoat" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.nordic_leather_cap" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1" />
+        <equipment slot="Body" id="Item.heavy_nordic_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Cape" id="Item.battania_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.roughhide_cap" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.highland_cloth" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.battania_civil_hood" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+        <equipment slot="Head" id="Item.northern_fur_cap" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1" />
+        <equipment slot="Body" id="Item.peasant_costume" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.highland_cloth" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.battania_civil_hood" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.seax" />
+        <equipment slot="Body" id="Item.battania_civil_a" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.seax" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.roughhide_cap" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+        <equipment slot="Head" id="Item.sloven_hat_a" />
+        <equipment slot="Cape" id="Item.a_battania_cloak_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1" />
+        <equipment slot="Body" id="Item.fur_trimmed_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.fur_trimmed_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vagir_warrior" default_group="Infantry" level="11" name="{=npc.vagir_warrior}Vagir Warrior" occupation="Soldier" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_soldier" />
+      <upgrade_target id="NPCCharacter.vagir_axeman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.leather_studdedhelm" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_mace_1_t2" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Body" id="Item.nordic_sloven" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.leather_studdedhelm" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_1_t2" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Body" id="Item.fur_armor_with_strap" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.highland_spear_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+        <equipment slot="Body" id="Item.highland_cloth" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_1_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.leather_studdedhelm" />
+        <equipment slot="Body" id="Item.long_fur_coat" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_mace_1_t2" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Body" id="Item.fur_armor" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.highland_spear_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+        <equipment slot="Body" id="Item.nordic_tunic" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_mace_2_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.leather_studdedhelm" />
+        <equipment slot="Body" id="Item.nordic_padded_cloth" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_1_t2" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Body" id="Item.heavy_nordic_tunic" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.a_battania_cloak_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vagir_soldier" default_group="Infantry" level="16" name="{=npc.vagir_soldier}Vagir Trained Warrior" occupation="Soldier" culture="Culture.vagir" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_veteran_soldier" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+	    <equipment slot="Item1" id="Item.northern_round_shield" />
+	    <equipment slot="Item3" id="Item.woodland_axe_t3" />
+	    <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+	    <equipment slot="Cape" id="Item.scarf" />
+	    <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+	    <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+	    <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.northern_spear_2_t3" />
+	    <equipment slot="Item1" id="Item.battania_shield_targe_a" />
+	    <equipment slot="Item3" id="Item.battania_sword_2_t3" />
+	    <equipment slot="Head" id="Item.AR_battania_helmet_l" />
+	    <equipment slot="Body" id="Item.northern_leather_tabard" />
+	    <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+	    <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.northern_spear_2_t3" />
+	    <equipment slot="Item1" id="Item.northern_round_shield" />
+	    <equipment slot="Item3" id="Item.light_mace_t3" />
+	    <equipment slot="Head" id="Item.AR_battania_helmet_m" />
+	    <equipment slot="Cape" id="Item.a_battania_cloak_a" />
+	    <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+	    <equipment slot="Gloves" id="Item.leather_gloves" />
+	    <equipment slot="Leg" id="Item.leather_boots" />
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+	    <equipment slot="Item1" id="Item.northern_round_shield" />
+	    <equipment slot="Item3" id="Item.battania_sword_3_t3" />
+	    <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+	    <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+	    <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+	    <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+	    <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.northern_spear_2_t3" />
+	    <equipment slot="Item1" id="Item.battania_shield_targe_a" />
+	    <equipment slot="Item3" id="Item.sturgia_axe_3_t3" />
+	    <equipment slot="Head" id="Item.AR_battania_helmet_p" />
+	    <equipment slot="Body" id="Item.northern_leather_tabard" />
+	    <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+	    <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.northern_spear_2_t3" />
+	    <equipment slot="Item1" id="Item.northern_round_shield" />
+	    <equipment slot="Item3" id="Item.sturgia_axe_3_t3" />
+	    <equipment slot="Head" id="Item.AR_battania_helmet_q" />
+	    <equipment slot="Cape" id="Item.hood" />
+	    <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+	    <equipment slot="Gloves" id="Item.leather_gloves" />
+	    <equipment slot="Leg" id="Item.leather_boots" />
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+	    <equipment slot="Item1" id="Item.northern_round_shield" />
+	    <equipment slot="Item3" id="Item.woodland_axe_t3" />
+	    <equipment slot="Head" id="Item.sturgian_nasal_helmet_fur" />
+	    <equipment slot="Cape" id="Item.battania_cloak_b" />
+	    <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+	    <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+	    <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.northern_spear_2_t3" />
+	    <equipment slot="Item1" id="Item.battania_shield_targe_a" />
+	    <equipment slot="Item3" id="Item.sturgia_sword_3_t3" />
+	    <equipment slot="Head" id="Item.AR_battania_helmet_w" />
+	    <equipment slot="Body" id="Item.northern_leather_tabard" />
+	    <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+	    <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.northern_spear_2_t3" />
+	    <equipment slot="Item1" id="Item.northern_round_shield" />
+	    <equipment slot="Item3" id="Item.sturgia_sword_2_t3" />
+	    <equipment slot="Head" id="Item.AR_battania_helmet_w2" />
+	    <equipment slot="Cape" id="Item.battania_civil_cape" />
+	    <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+	    <equipment slot="Gloves" id="Item.leather_gloves" />
+	    <equipment slot="Leg" id="Item.leather_boots" />
+	  </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="vagir_veteran_soldier" default_group="Infantry" level="21" name="{=npc.vagir_veteran_soldier}Vagir Shield Bearer" occupation="Soldier" culture="Culture.vagir" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="110" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="140" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_expert_soldier" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.northern_spear_3_t4" />
+        <equipment slot="Head" id="Item.vaegir_helmet_open" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_shoulder_furr" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.vagir_throwing_spear_1_t3" />
+        <equipment slot="Head" id="Item.vaegir_helmet_open" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.northern_spear_3_t4" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_open" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.woodland_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.sturgian_helmet_open" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battle_axe_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.northern_spear_3_t4" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_mail" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battle_axe_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_t" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_x" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_d" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.woodland_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_x2" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_5_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_c_cpr" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+        <equipment slot="Cape" id="Item.a_battania_cloak_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.highland_throwing_spear_1_t3" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_c" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+        <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_a" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_5_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.highland_throwing_spear_1_t3" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_b" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.bearskin" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_5_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.highland_throwing_spear_1_t3" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.AR_sturgia_helmet_b" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vagir_expert_soldier" default_group="Infantry" level="26" name="{=npc.vagir_expert_soldier}Vagir Shield Guard" occupation="Soldier" culture="Culture.vagir" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="170" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="90" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+		  <equipment slot="Item0" id="Item.sturgia_sword_5_t5" />
+          <equipment slot="Item1" id="Item.ironrim_kite_shield" />
+          <equipment slot="Item2" id="Item.northern_throwing_spear_1_t4" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_f" />
+		  <equipment slot="Cape" id="Item.bearskin" />
+		  <equipment slot="Body" id="Item.tv_battania_armor_b" />
+		  <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		  <equipment slot="Leg" id="Item.leather_shoes" />
+	  </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_5_t5" />
+        <equipment slot="Item1" id="Item.reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_4_t5" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_q" />
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_d" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_5_t5" />
+        <equipment slot="Item1" id="Item.reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.northern_throwing_spear_1_t4" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_b" />
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_4_t5" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_c_brnz" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.northern_throwing_spear_1_t4" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_c_cpr" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_4_t5" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_c" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.rough_bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.highland_throwing_spear_1_t4" />
+        <equipment slot="Head" id="Item.vaegir_helmet_closed" />
+        <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_5_t5" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_4_t5" />
+        <equipment slot="Head" id="Item.nordic_helmet" />
+        <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.armored_bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_5_t5" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.highland_throwing_spear_1_t4" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_5_t5" />
+        <equipment slot="Item1" id="Item.ironrim_kite_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_4_t5" />
+        <equipment slot="Head" id="Item.sturgian_helmet_closed" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.mail_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_5_t5" />
+        <equipment slot="Item1" id="Item.ironrim_kite_shield" />
+        <equipment slot="Item2" id="Item.highland_throwing_spear_1_t4" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d" />
+        <equipment slot="Body" id="Item.battanian_scale_armor_b" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.ironrim_kite_shield" />
+        <equipment slot="Item2" id="Item.northern_spear_4_t5" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz" />
+        <equipment slot="Body" id="Item.battanian_scale_armor_b" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.ironrim_kite_shield" />
+        <equipment slot="Item2" id="Item.highland_throwing_spear_1_t4" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_a" />
+        <equipment slot="Body" id="Item.battanian_scale_armor_b" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="vagir_axeman" default_group="Infantry" level="16" name="{=npc.vagir_axeman}Vagir Axeman" occupation="Soldier" culture="Culture.vagir" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="90" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_guard" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_m" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_c" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_p" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_axe_t3" />
+        <equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_b" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_q" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_c" />
+        <equipment slot="Cape" id="Item.hood" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.sturgian_nasal_helmet_fur" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_axe_t3" />
+        <equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_b" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_c" />
+        <equipment slot="Cape" id="Item.a_battania_cloak_a" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_l" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_b" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_leather" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_axe_t3" />
+        <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vagir_guard" default_group="Infantry" level="21" name="{=npc.vagir_guard}Vagir Bardiche Guard" occupation="Soldier" culture="Culture.vagir" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="130" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_iron_guard" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+		<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_o" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Head" id="Item.sturgian_helmet_open" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+		<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_mail" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Cape" id="Item.bearskin" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_open" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+		<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_b" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_b" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Cape" id="Item.bearskin" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_m" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_b" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_l" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_n" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Cape" id="Item.bearskin" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Head" id="Item.vaegir_helmet_open" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Head" id="Item.AR_sturgia_helmet_b" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Cape" id="Item.bearskin" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  
+  <NPCCharacter id="vagir_iron_guard" default_group="Infantry" level="26" name="{=npc.vagir_iron_guard}Vagir Iron Guard" occupation="Soldier" culture="Culture.vagir" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="160" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="180" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	 <EquipmentRoster>
+		  <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		  <equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+		  <equipment slot="Head" id="Item.vaegir_helmet_closed" />
+		  <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+		  <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+		  <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		  <equipment slot="Leg" id="Item.leather_shoes" />
+	</EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		  <equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.vaegir_helmet_closed" />
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Leg" id="Item.northern_plated_boots" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.nordic_helmet" />
+        <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.bearskin" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+        <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.tv_vlandia_helmet_f" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_d" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_a" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.sturgian_helmet_closed" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.armored_bearskin" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.battanian_mail_scarf" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.tv_vlandia_helmet_f" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d" />
+        <equipment slot="Body" id="Item.western_scale_mail" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+		<equipment slot="Cape" id="Item.hood" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz" />
+        <equipment slot="Body" id="Item.western_scale_mail" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.AR_battanian_shoulder_a" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_b" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_a" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_b" />
+        <equipment slot="Body" id="Item.tv_battania_armor_b" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
+		<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_a" />
+        <equipment slot="Body" id="Item.tv_battania_armor_b" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  
+  <NPCCharacter id="vagir_levy_archer" default_group="Ranged" level="11" name="{=npc.vagir_levy_archer}Vagir Levy Archer" occupation="Soldier" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_archer" />
+      <upgrade_target id="NPCCharacter.vagir_outrider" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.sturgia_axe_2_t2" />
+        <equipment slot="Body" id="Item.nordic_sloven" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+        <equipment slot="Gloves" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.sturgia_axe_2_t2" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.hood" />
+        <equipment slot="Gloves" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Body" id="Item.northern_padded_gambeson" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.battania_mace_2_t2" />
+        <equipment slot="Head" id="Item.northern_fur_cap" />
+        <equipment slot="Body" id="Item.fur_armor_with_strap" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.battania_mace_1_t2" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+        <equipment slot="Body" id="Item.highland_cloth" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Head" id="Item.leather_studdedhelm" />
+        <equipment slot="Body" id="Item.long_fur_coat" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.northern_spear_1_t2" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Body" id="Item.fur_armor" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.highland_spear_t2" />
+        <equipment slot="Head" id="Item.battania_civil_hood" />
+        <equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.ragged_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item3" id="Item.battania_axe_1_t2" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Body" id="Item.fur_trimmed_tunic" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="vagir_archer" default_group="Ranged" level="16" name="{=npc.vagir_archer}Vagir Archer" occupation="Soldier" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="60" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="60" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_veteran_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_spear_2_t3" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.northern_padded_cloth" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.highland_spear_3_t3" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_leather" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_battle_axe_t3" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_w" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_c" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item3" id="Item.battania_sword_1_t2" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
+        <equipment slot="Body" id="Item.northern_padded_cloth" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+        <equipment slot="Cape" id="Item.battania_woodland_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_w2" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.light_mace_t3" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_c" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item3" id="Item.woodland_axe_t3" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_q" />
+        <equipment slot="Body" id="Item.northern_padded_cloth" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.woodland_axe_t3" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_p" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_axe_3_t3" />
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_m" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_c" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vagir_veteran_archer" default_group="Ranged" level="21" name="{=npc.vagir_veteran_archer}Vagir Veteran Archer" occupation="Soldier" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="80" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="80" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="100" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_luchnyk" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_spear_2_t3" />
+        <equipment slot="Item0" id="Item.lowland_longbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_sturgia_helmet_b" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+        <equipment slot="Cape" id="Item.armored_bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_axe_3_t3" />
+        <equipment slot="Item0" id="Item.nordic_shortbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_open" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.belted_leather_boots" />
+        <equipment slot="Gloves" id="Item.woven_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.light_mace_t3" />
+        <equipment slot="Item0" id="Item.composite_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_spear_2_t3" />
+        <equipment slot="Item0" id="Item.nordic_shortbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.sturgian_helmet_open" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_battle_axe_t3" />
+        <equipment slot="Item0" id="Item.lowland_longbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_mail" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.belted_leather_boots" />
+        <equipment slot="Gloves" id="Item.woven_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.steel_mace_t3" />
+        <equipment slot="Item0" id="Item.lowland_longbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_spear_2_t3" />
+        <equipment slot="Item0" id="Item.nordic_shortbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.sturgian_helmet_open" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.vlandia_axe_1_t3" />
+        <equipment slot="Item0" id="Item.nordic_shortbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_r" />
+        <equipment slot="Body" id="Item.nordic_lamellar_armor" />
+        <equipment slot="Leg" id="Item.belted_leather_boots" />
+        <equipment slot="Gloves" id="Item.woven_leather_bracers" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item0" id="Item.composite_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_v2" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape" id="Item.wrapped_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_spear_2_t3" />
+        <equipment slot="Item0" id="Item.lowland_longbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_v" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item0" id="Item.nordic_shortbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_k" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.belted_leather_boots" />
+        <equipment slot="Gloves" id="Item.woven_leather_bracers" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.steel_mace_t3" />
+        <equipment slot="Item0" id="Item.lowland_longbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_j" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_axe_3_t3" />
+        <equipment slot="Item0" id="Item.lowland_longbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_b" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.belted_leather_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item0" id="Item.composite_bow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_b_brnz" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_spear_2_t3" />
+        <equipment slot="Item0" id="Item.nordic_shortbow" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_m" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vagir_luchnyk" default_group="Ranged" level="26" name="{=npc.vagir_luchnyk}Vagir Luchnyk" occupation="Soldier" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="140" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_axe_5_t5" />
+        <equipment slot="Item0" id="Item.woodland_longbow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.battanian_mail_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.battania_sword_4_t4" />
+        <equipment slot="Item0" id="Item.steppe_war_bow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.vaegir_helmet_closed" />
+        <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_spear_4_t5" />
+        <equipment slot="Item0" id="Item.lowland_yew_bow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.nordic_helmet" />
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item3" id="Item.northern_spear_4_t5" />
+        <equipment slot="Item0" id="Item.woodland_longbow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.sturgian_helmet_closed" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.battania_sword_4_t4" />
+        <equipment slot="Item0" id="Item.steppe_war_bow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_e" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		<equipment slot="Cape" id="Item.armored_bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_sword_5_t4" />
+        <equipment slot="Item0" id="Item.lowland_yew_bow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_f" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item0" id="Item.woodland_longbow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_axe_5_t5" />
+        <equipment slot="Item0" id="Item.steppe_war_bow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		<equipment slot="Cape" id="Item.TV_wolf_pelt_d" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item3" id="Item.sturgia_axe_5_t5" />
+        <equipment slot="Item0" id="Item.lowland_yew_bow" />
+        <equipment slot="Item2" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Head" id="Item.vaegir_helmet_closed" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="vagir_outrider" default_group="HorseArcher" level="16" name="{=npc.vagir_outrider}Vagir Outrider" occupation="Soldier" culture="Culture.vagir" upgrade_requires="ItemCategory.horse">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="30" />
+      <skill id="Riding" value="90" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="60" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_horse_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.northern_spear_2_t3" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_w" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Cape" id="Item.a_battania_cloak_a" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.northern_battle_axe_t3" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_w2" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.steel_mace_t3" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_q" />
+        <equipment slot="Body" id="Item.northern_padded_gambeson" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.northern_spear_2_t3" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_leather" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.sturgia_axe_3_t3" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.woodland_axe_t3" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_l" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_d" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.highland_spear_3_t3" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_m" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_c" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.battania_sword_1_t2" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_p" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.sturgia_sword_1_t2" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sturgian_nasal_helmet_fur" />
+        <equipment slot="Body" id="Item.northern_padded_gambeson" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.northern_battle_axe_t3" />
+		<equipment slot="Item3" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.battania_fur_helmet" />
+        <equipment slot="Body" id="Item.northern_padded_gambeson" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.sturgia_horse" />
+      <equipment slot="HorseHarness" id="Item.northern_light_harness" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="vagir_horse_archer" default_group="HorseArcher" level="21" name="{=npc.vagir_horse_archer}Vagir Horse Archer" occupation="Soldier" culture="Culture.vagir" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="100" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_heavy_horse_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item3" id="Item.battania_axe_2_t4" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_n" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item3" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item3" id="Item.battle_axe_t4" />
+        <equipment slot="Head" id="Item.AR_sturgia_helmet_b" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+	        <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item3" id="Item.battania_axe_2_t4" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_mail" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item3" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Head" id="Item.nasalhelm_over_mail" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item3" id="Item.sturgia_sword_2_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_r" />
+        <equipment slot="Body" id="Item.nordic_lamellar_armor" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+	        <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Item3" id="Item.battania_sword_2_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_v" />
+        <equipment slot="Body" id="Item.nordic_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.northern_round_shield" />
+        <equipment slot="Item3" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_v2" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.northern_round_shield" />
+        <equipment slot="Item3" id="Item.northern_spear_3_t4" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_k" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.sturgia_horse" />
+      <equipment slot="HorseHarness" id="Item.northern_light_harness" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="vagir_heavy_horse_archer" default_group="HorseArcher" level="26" name="{=npc.vagir_heavy_horse_archer}Vagir Border Guard" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="150" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="140" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.composite_steppe_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.highland_scouts_shield" />
+        <equipment slot="Item3" id="Item.northern_spear_3_t4" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_open" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.battania_cloak_furr" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item3" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_mail" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.bearskin" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.composite_steppe_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.viking_round_shield" />
+        <equipment slot="Item3" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.composite_steppe_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.highland_scouts_shield" />
+        <equipment slot="Item3" id="Item.sturgia_axe_5_t5" />
+        <equipment slot="Head" id="Item.vaegir_helmet_open" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item3" id="Item.battania_axe_3_t5" />
+        <equipment slot="Head" id="Item.sturgian_helmet_open" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.armored_bearskin" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.composite_steppe_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.viking_round_shield" />
+        <equipment slot="Item3" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_e" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.composite_steppe_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.highland_scouts_shield" />
+        <equipment slot="Item3" id="Item.sturgia_sword_5_t4" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_f" />
+        <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_a" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item3" id="Item.battania_sword_4_t4" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.composite_steppe_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_c" />
+        <equipment slot="Item2" id="Item.viking_round_shield" />
+        <equipment slot="Item3" id="Item.battania_axe_3_t5" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.t2_sturgia_horse" />
+      <equipment slot="HorseHarness" id="Item.northern_ring_barding" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  
+  <NPCCharacter id="vagir_noble_recruit" default_group="Cavalry" level="11" name="{=npc.vagir_noble_recruit}Vagir Boyar Son" occupation="Soldier" is_basic_troop="true" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="90" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="100" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_noble_horseman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sloven_hat_a" />
+        <equipment slot="Body" id="Item.decorated_short_tunic" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+		<equipment slot="Cape" id="Item.battania_scarf_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.northern_fur_cap" />
+        <equipment slot="Body" id="Item.fur_trimmed_short_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.small_bit_axe_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.nordic_leather_cap" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sloven_hat_a" />
+        <equipment slot="Body" id="Item.decorated_short_tunic" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+		<equipment slot="Cape" id="Item.a_battania_cloak_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.northern_fur_cap" />
+        <equipment slot="Body" id="Item.highland_cloth" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.small_bit_axe_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.roughhide_cap" />
+        <equipment slot="Body" id="Item.kaftan" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Body" id="Item.battania_civil_c" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+		<equipment slot="Cape" id="Item.battania_cloak_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.sloven_hat" />
+        <equipment slot="Body" id="Item.heavy_nordic_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.small_bit_axe_t2" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Body" id="Item.fur_trimmed_tunic" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.sturgia_horse" />
+      <equipment slot="HorseHarness" id="Item.northern_noble_harness" />
+    </Equipments>
+  </NPCCharacter>
+ 
+  
+  <NPCCharacter id="vagir_noble_horseman" default_group="Cavalry" level="16" name="{=npc.vagir_noble_horseman}Vagir Noble Horseman" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="140" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_noble_cavalry" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+        <equipment slot="Item1" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item2" id="Item.simple_sparth_axe_t2" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_q" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Cape" id="Item.battania_shoulder_furr" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.large_franziskaa_axe_t3" />
+        <equipment slot="Item1" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item2" id="Item.simple_sparth_axe_t2" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_p" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_2_t3" />
+        <equipment slot="Item1" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item2" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Head" id="Item.northern_padded_gambeson" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_3_t3" />
+        <equipment slot="Item1" id="Item.battania_shield_targe_a" />
+        <equipment slot="Item2" id="Item.simple_sparth_axe_t2" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_l" />
+        <equipment slot="Body" id="Item.northern_leather_tabard" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Cape" id="Item.a_battania_cloak_a" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.woodland_axe_t3" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Item2" id="Item.simple_sparth_axe_t2" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_leather" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.woodland_axe_t3" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Item2" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Head" id="Item.sturgian_nasal_helmet_fur" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+        <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Item2" id="Item.simple_sparth_axe_t2" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_q" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+        <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+        <equipment slot="Item1" id="Item.northern_round_shield" />
+        <equipment slot="Item2" id="Item.simple_sparth_axe_t2" />
+        <equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
+        <equipment slot="Body" id="Item.northern_padded_gambeson" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_3_t3" />
+        <equipment slot="Item1" id="Item.northern_round_shield" />
+        <equipment slot="Item2" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_leather" />
+        <equipment slot="Body" id="Item.northern_padded_cloth" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Cape" id="Item.hood" />
+        <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.sturgia_horse" />
+      <equipment slot="HorseHarness" id="Item.northern_light_harness" />
+    </Equipments>
+  </NPCCharacter>
+ 
+  
+  <NPCCharacter id="vagir_noble_cavalry" default_group="Cavalry" level="21" name="{=npc.vagir_noble_cavalry}Vagir Noble Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="170" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_bardiche_cavalry" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.vaegir_helmet_open" />
+        <equipment slot="Cape" id="Item.battanian_mail_scarf" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_e" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.northern_axe_t3" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_open" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Cape" id="Item.battania_cloak_b" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.sturgian_helmet_open" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battle_axe_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.AR_sturgia_helmet_b" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_e" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.northern_axe_t3" />
+        <equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_mail" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_s" />
+        <equipment slot="Cape" id="Item.battanian_mail_scarf" />
+        <equipment slot="Body" id="Item.nordic_lamellar_armor" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_e" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.northern_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_n" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_o" />
+        <equipment slot="Body" id="Item.nordic_lamellar_vest" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_t" />
+        <equipment slot="Cape" id="Item.battania_shoulder_furr" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_e" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.northern_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_u" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg" id="Item.woven_leather_boots" />
+        <equipment slot="Cape" id="Item.bearskin" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_j" />
+        <equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a" />
+        <equipment slot="Item2" id="Item.bearded_axe_t3" />
+        <equipment slot="Head" id="Item.ao_eorling_riveted_nasal_helmet" />
+        <equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt" />
+        <equipment slot="Leg" id="Item.TV_battania_boots_e" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.t2_sturgia_horse" />
+      <equipment slot="HorseHarness" id="Item.northern_ring_barding" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="vagir_bardiche_cavalry" default_group="Cavalry" level="26" name="{=npc.vagir_bardiche_cavalry}Vagir Bogatyr" occupation="Soldier" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="80" />
+      <skill id="Riding" value="160" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="70" />
+      <skill id="Polearm" value="210" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vagir_druzina" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.northern_scouts_shield" />
+        <equipment slot="Head" id="Item.ao_eorling_guarded_noblemans_helmet" />
+	    <equipment slot="Cape" id="Item.bearskin" />
+	    <equipment slot="Body" id="Item.ao_battanian_bronze_scale_over_tunic_with_kilt" />
+	    <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+	    <equipment slot="Leg" id="Item.tv_empire_plate_c" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.northern_scouts_shield" />
+        <equipment slot="Head" id="Item.ao_eorling_heavy_guarded_noblemans_helmet" />
+	    <equipment slot="Cape" id="Item.bearskin" />
+	    <equipment slot="Body" id="Item.ao_battanian_bronze_scale_over_tunic_with_kilt" />
+	    <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+	    <equipment slot="Leg" id="Item.tv_empire_plate_c" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.ao_battanian_noblemans_guarded_helmet" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.battanian_mail_scarf" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.strapped_round_shield" />
+        <equipment slot="Head" id="Item.ao_battanian_noblemans_cone_helmet" />
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.northern_scouts_shield" />
+        <equipment slot="Head" id="Item.vaegir_helmet_closed" />
+	    <equipment slot="Cape" id="Item.tv_battania_cloak_a" />
+	    <equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+	    <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+	    <equipment slot="Leg" id="Item.tv_empire_plate_c" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+        <equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.tv_battania_cloak_b" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.strapped_round_shield" />
+        <equipment slot="Head" id="Item.sturgian_helmet_closed" />
+        <equipment slot="Body" id="Item.ranger_mail" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.northern_scouts_shield" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz" />
+	    <equipment slot="Cape" id="Item.armored_bearskin" />
+	    <equipment slot="Body" id="Item.tv_battania_armor_b" />
+	    <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+	    <equipment slot="Leg" id="Item.tv_empire_plate_c" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_a" />
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.strapped_round_shield" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_d" />
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.northern_scouts_shield" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_e" />
+	    <equipment slot="Cape" id="Item.TV_wolf_pelt_d" />
+	    <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+	    <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+	    <equipment slot="Leg" id="Item.tv_empire_plate_c" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_f_decorated" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_a" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.northern_scouts_shield" />
+        <equipment slot="Head" id="Item.AR_battania_helmet_f" />
+	    <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+	    <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+	    <equipment slot="Leg" id="Item.tv_empire_plate_c" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.ridged_northernhelm" />
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.t2_sturgia_horse" />
+      <equipment slot="HorseHarness" id="Item.northern_ring_barding" />
+    </Equipments>
+  </NPCCharacter>
+ 
+  
+  
+  <NPCCharacter id="vagir_druzina" default_group="Cavalry" level="31" name="{=npc.vagir_druzina}Vagir Druzhina" occupation="Soldier" culture="Culture.vagir">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="110" />
+      <skill id="Riding" value="200" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="100" />
+      <skill id="Polearm" value="250" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_full_mail" />
+        <equipment slot="Body" id="Item.tv_battania_armor_c" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.battanian_mail_scarf" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.lendman_helmet_over_full_mail" />
+        <equipment slot="Body" id="Item.kilt_over_plated_leather" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.bearskin" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.goggled_helmet_over_full_mail" />
+        <equipment slot="Body" id="Item.sturgian_fortified_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_a" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.AR_battania_lord_helmet_f" />
+        <equipment slot="Body" id="Item.tv_battania_armor_c" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.AR_battania_lord_helmet_h" />
+        <equipment slot="Body" id="Item.kilt_over_plated_leather" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.tv_battania_cloak_a" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.AR_battania_lord_helmet_i" />
+        <equipment slot="Body" id="Item.sturgian_fortified_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.armored_bearskin" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.AR_battania_lord_helmet_e" />
+        <equipment slot="Body" id="Item.tv_battania_armor_c" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+        <equipment slot="Cape" id="Item.rough_bearskin" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.AR_battania_lord_helmet_d" />
+        <equipment slot="Body" id="Item.kilt_over_plated_leather" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item2" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Head" id="Item.AR_battania_lord_helmet_g" />
+        <equipment slot="Body" id="Item.sturgian_fortified_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Cape" id="Item.tv_battania_cloak_b" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse" id="Item.noble_horse_northern" />
+      <equipment slot="HorseHarness" id="Item.northern_ring_barding" />
+    </Equipments>
+  </NPCCharacter>
+  
+</NPCCharacters>
