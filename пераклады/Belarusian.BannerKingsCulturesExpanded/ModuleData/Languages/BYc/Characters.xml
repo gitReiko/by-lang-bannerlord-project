@@ -208,8 +208,12 @@
   <string id="bk_nord_huskarl.name" text="Юмнэскі Хускарл"/>
   <string id="bk_nord_squire.name" text="Юмнэскі Вараг"/>
   <string id="bk_nord_mercenary.name" text="Юмнэскі Вараг-Найміт"/>
+  <string id="bk_nord_cavalry.name" text="Юмнэскі Рыддары"/>
   <string id="bk_nord_sergeant.name" text="Юмнэскі Дрэнгр"/>
+  <string id="bk_nord_sergeant_2h.name" text="Юмнэскі Сэггр"/>
+  <string id="bk_nord_sergeant_pike.name" text="Юмнэскі Сьпьютман"/>
   <string id="bk_nord_militiaman.name" text="Юмнэскі Рушэнны"/>
+  <string id="bk_nord_militiaman_2h.name" text="Юмнэскі Рушэнны Сэггр"/>
   <string id="bk_nord_levy.name" text="Юмнэскі Заклічнік"/>
   <string id="bk_nord_militiaman_archer.name" text="Юмнэскі Лучнік"/>
   <string id="bk_nord_levy_archer.name" text="Юмнэскі Заклічны Лучнік"/>
@@ -248,6 +252,17 @@
   <string id="bk_sturgian_tyalese_scout.name" text="Стургійскі Тайльскі Выведнік"/>
   <string id="bk_sturgian_militiaman_archer.name" text="Стургійскі Лучнік"/>
   <string id="bk_sturgian_levy_archer.name" text="Стургійскі Заклічны Лучнік"/>
+  <!--input/Characters/swadia.xml-->
+  <string id="bk_swadia_knight.name" text="Свадзійскі Хэррэ"/>
+  <string id="bk_swadia_squire.name" text="Свадзійскі Кнаппэ"/>
+  <string id="bk_swadia_burgman.name" text="Свадзійскі Буркма"/>
+  <string id="bk_swadia_sergeant.name" text="Свадзійскі Вэльтвайбэль"/>
+  <string id="bk_swadia_militiaman.name" text="Свадзійскі Рушэннв"/>
+  <string id="bk_swadia_sergeant_bill.name" text="Свадзійскі Сьпезма"/>
+  <string id="bk_swadia_militiaman_bill.name" text="Свадзійскі Рушэнны Сьпезма"/>
+  <string id="bk_swadia_levy.name" text="Свадзійскі Заклічны"/>
+  <string id="bk_swadia_militiaman_crossbow.name" text="Свадзійскі Рушэнны Арбалетнік"/>
+  <string id="bk_swadia_levy_crossbow.name" text="Свадзійскі Заклічны Арбалетнік"/>
   <!--input/Characters/vakken.xml-->
   <string id="bk_vakken_companion.name" text="Ваккенскі Сеўралайнэ"/>
   <string id="bk_vakken_squire.name" text="Ваккенскі Шляхетны"/>
@@ -259,21 +274,32 @@
   <!--input/Characters/vlandia.xml-->
   <string id="bk_brotherhood.name" text="Найміт-Братэрства"/>
   <string id="bk_golden_boar.name" text="Найміт Залатога Дзіка"/>
-  <string id="bk_vlandia_thingman.name" text="Ўілундзкі Рэчавы"/>
-  <string id="bk_vlandia_knight.name" text="Ўілундзкі Кніхт"/>
-  <string id="bk_vlandia_squire.name" text="Ўілундзкі Зброянос"/>
-  <string id="bk_vlandia_mercenary.name" text="Ўілундзкі Найміт"/>
-  <string id="bk_vlandia_jaculan_xbow.name" text="Ўілундзкі Джакуланскі Арбалетнік"/>
-  <string id="bk_vlandia_longbowman.name" text="Ўілундзкі Правендзкі Доўгалучнік"/>
-  <string id="bk_vlandia_pikeman.name" text="Ўілундзкі Пікінёр"/>
-  <string id="bk_vlandia_sergeant.name" text="Ўілундзкі Сяржант"/>
-  <string id="bk_vlandia_militiaman.name" text="Ўілундзкі Рушэнны"/>
-  <string id="bk_vlandia_billman.name" text="Ўілундзкі Більнік"/>
-  <string id="bk_vlandia_levy.name" text="Ўілундзкі Заклічнік"/>
-  <string id="bk_vlandia_militiaman_longbow.name" text="Ўілундзкі Рушэнны Доўгалучнік"/>
-  <string id="bk_vlandia_levy_longbow.name" text="Ўілундзкі Заклічны Доўгалучнік"/>
-  <string id="bk_vlandia_militiaman_crossbow.name" text="Ўілундзкі Рушэнны Арбалетнік"/>
-  <string id="bk_vlandia_levy_crossbow.name" text="Ўілундзкі Заклічны Арбалетнік"/>
+  <string id="bk_vlandia_thingman.name" text="Озрыканскі Рэчавы"/>
+  <string id="bk_vlandia_knight1.name" text="Озрыканскі Шэвальер"/>
+  <string id="bk_vlandia_squire.name" text="Озрыканскі Эскваэр"/>
+  <string id="bk_vlandia_mercenary.name" text="Озрыканскі Шэвачур-Найміт"/>
+  <string id="bk_vlandia_longbowman.name" text="Озрыканскі Вольналучнік"/>
+  <string id="bk_vlandia_sergeant_horseman.name" text="Озрыканскі Шэвачур"/>
+  <string id="bk_vlandia_militiaman_horseman.name" text="Озрыканскі Корур"/>
+  <string id="bk_vlandia_sergeant.name" text="Озрыканскі Сяржант"/>
+  <string id="bk_vlandia_militiaman.name" text="Озрыканскі Рушэнны"/>
+  <string id="bk_vlandia_sergeant_voulge.name" text="Озрыканскі Вульжар"/>
+  <string id="bk_vlandia_billman.name" text="Озрыканскі Рушэнны Вульжар"/>
+  <string id="bk_vlandia_levy.name" text="Озрыканскі Заклічны"/>
+  <string id="bk_vlandia_militiaman_longbow.name" text="Озрыканскі Рушэнны Доўгалучнік"/>
+  <string id="bk_vlandia_levy_longbow.name" text="Озрыканскі Заклічны Доўгалучнік"/>
+  <string id="bk_vlandia_militiaman_crossbow.name" text="Озрыканскі Рушэнны Арбалетнік"/>
+  <string id="bk_vlandia_levy_crossbow.name" text="Озрыканскі Заклічны Арбалетнік"/>
   <!--input/Characters/zendar.xml-->
+  <string id="bk_zendar_hoplite.name" text="Зэндарскі Гоплітас"/>
+  <string id="bk_zendar_squire.name" text="Зэндарскі Высоканароджаны"/>
+  <string id="bk_zendar_provocator.name" text="Зэндарскі Правакатарэс"/>
+  <string id="bk_zendar_hoplomarchos.name" text="Зэндарскі Гопламархас"/>
+  <string id="bk_zendar_eques.name" text="Зэндарскі Эквэс"/>
+  <string id="bk_zendar_militiaman.name" text="Зэндарскі Монамархас"/>
+  <string id="bk_zendar_levy.name" text="Зэндарскі Заклічны"/>
+  <string id="bk_zendar_crossbow.name" text="Зэндарскі Фулакс"/>
+  <string id="bk_zendar_militiaman_crossbow.name" text="Зэндарскі Рушэнны Гастрафетас"/>
+  <string id="bk_zendar_levy_crossbow.name" text="Зэндарскі Заклічны Гастрафетас"/>
 </strings>
 </base>

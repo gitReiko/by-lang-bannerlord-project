@@ -208,8 +208,12 @@
   <string id="bk_nord_huskarl.name" text="Jumneski Chuskarł"/>
   <string id="bk_nord_squire.name" text="Jumneski Varah"/>
   <string id="bk_nord_mercenary.name" text="Jumneski Varah-Najmit"/>
+  <string id="bk_nord_cavalry.name" text="Jumneski Ryddary"/>
   <string id="bk_nord_sergeant.name" text="Jumneski Drenhr"/>
+  <string id="bk_nord_sergeant_2h.name" text="Jumneski Sehhr"/>
+  <string id="bk_nord_sergeant_pike.name" text="Jumneski Śpjutman"/>
   <string id="bk_nord_militiaman.name" text="Jumneski Rušenny"/>
+  <string id="bk_nord_militiaman_2h.name" text="Jumneski Rušenny Sehhr"/>
   <string id="bk_nord_levy.name" text="Jumneski Zakličnik"/>
   <string id="bk_nord_militiaman_archer.name" text="Jumneski Łučnik"/>
   <string id="bk_nord_levy_archer.name" text="Jumneski Zakličny Łučnik"/>
@@ -248,6 +252,17 @@
   <string id="bk_sturgian_tyalese_scout.name" text="Sturhijski Tajlski Vyviednik"/>
   <string id="bk_sturgian_militiaman_archer.name" text="Sturhijski Łučnik"/>
   <string id="bk_sturgian_levy_archer.name" text="Sturhijski Zakličny Łučnik"/>
+  <!--input/Characters/swadia.xml-->
+  <string id="bk_swadia_knight.name" text="Svadzijski Cherre"/>
+  <string id="bk_swadia_squire.name" text="Svadzijski Knappe"/>
+  <string id="bk_swadia_burgman.name" text="Svadzijski Burkma"/>
+  <string id="bk_swadia_sergeant.name" text="Svadzijski Veltvajbel"/>
+  <string id="bk_swadia_militiaman.name" text="Svadzijski Rušennv"/>
+  <string id="bk_swadia_sergeant_bill.name" text="Svadzijski Śpiezma"/>
+  <string id="bk_swadia_militiaman_bill.name" text="Svadzijski Rušenny Śpiezma"/>
+  <string id="bk_swadia_levy.name" text="Svadzijski Zakličny"/>
+  <string id="bk_swadia_militiaman_crossbow.name" text="Svadzijski Rušenny Arbaletnik"/>
+  <string id="bk_swadia_levy_crossbow.name" text="Svadzijski Zakličny Arbaletnik"/>
   <!--input/Characters/vakken.xml-->
   <string id="bk_vakken_companion.name" text="Vakkienski Sieŭrałajne"/>
   <string id="bk_vakken_squire.name" text="Vakkienski Šlachietny"/>
@@ -259,21 +274,32 @@
   <!--input/Characters/vlandia.xml-->
   <string id="bk_brotherhood.name" text="Najmit-Braterstva"/>
   <string id="bk_golden_boar.name" text="Najmit Załatoha Dzika"/>
-  <string id="bk_vlandia_thingman.name" text="Ŭjiłundzki Rečavy"/>
-  <string id="bk_vlandia_knight.name" text="Ŭjiłundzki Knicht"/>
-  <string id="bk_vlandia_squire.name" text="Ŭjiłundzki Zbrojanos"/>
-  <string id="bk_vlandia_mercenary.name" text="Ŭjiłundzki Najmit"/>
-  <string id="bk_vlandia_jaculan_xbow.name" text="Ŭjiłundzki Džakułanski Arbaletnik"/>
-  <string id="bk_vlandia_longbowman.name" text="Ŭjiłundzki Praviendzki Doŭhałučnik"/>
-  <string id="bk_vlandia_pikeman.name" text="Ŭjiłundzki Pikinior"/>
-  <string id="bk_vlandia_sergeant.name" text="Ŭjiłundzki Siaržant"/>
-  <string id="bk_vlandia_militiaman.name" text="Ŭjiłundzki Rušenny"/>
-  <string id="bk_vlandia_billman.name" text="Ŭjiłundzki Bilnik"/>
-  <string id="bk_vlandia_levy.name" text="Ŭjiłundzki Zakličnik"/>
-  <string id="bk_vlandia_militiaman_longbow.name" text="Ŭjiłundzki Rušenny Doŭhałučnik"/>
-  <string id="bk_vlandia_levy_longbow.name" text="Ŭjiłundzki Zakličny Doŭhałučnik"/>
-  <string id="bk_vlandia_militiaman_crossbow.name" text="Ŭjiłundzki Rušenny Arbaletnik"/>
-  <string id="bk_vlandia_levy_crossbow.name" text="Ŭjiłundzki Zakličny Arbaletnik"/>
+  <string id="bk_vlandia_thingman.name" text="Ozrykanski Rečavy"/>
+  <string id="bk_vlandia_knight1.name" text="Ozrykanski Ševaljer"/>
+  <string id="bk_vlandia_squire.name" text="Ozrykanski Eskvaer"/>
+  <string id="bk_vlandia_mercenary.name" text="Ozrykanski Ševačur-Najmit"/>
+  <string id="bk_vlandia_longbowman.name" text="Ozrykanski Volnałučnik"/>
+  <string id="bk_vlandia_sergeant_horseman.name" text="Ozrykanski Ševačur"/>
+  <string id="bk_vlandia_militiaman_horseman.name" text="Ozrykanski Korur"/>
+  <string id="bk_vlandia_sergeant.name" text="Ozrykanski Siaržant"/>
+  <string id="bk_vlandia_militiaman.name" text="Ozrykanski Rušenny"/>
+  <string id="bk_vlandia_sergeant_voulge.name" text="Ozrykanski Vulžar"/>
+  <string id="bk_vlandia_billman.name" text="Ozrykanski Rušenny Vulžar"/>
+  <string id="bk_vlandia_levy.name" text="Ozrykanski Zakličny"/>
+  <string id="bk_vlandia_militiaman_longbow.name" text="Ozrykanski Rušenny Doŭhałučnik"/>
+  <string id="bk_vlandia_levy_longbow.name" text="Ozrykanski Zakličny Doŭhałučnik"/>
+  <string id="bk_vlandia_militiaman_crossbow.name" text="Ozrykanski Rušenny Arbaletnik"/>
+  <string id="bk_vlandia_levy_crossbow.name" text="Ozrykanski Zakličny Arbaletnik"/>
   <!--input/Characters/zendar.xml-->
+  <string id="bk_zendar_hoplite.name" text="Zendarski Hoplitas"/>
+  <string id="bk_zendar_squire.name" text="Zendarski Vysokanarodžany"/>
+  <string id="bk_zendar_provocator.name" text="Zendarski Pravakatares"/>
+  <string id="bk_zendar_hoplomarchos.name" text="Zendarski Hopłamarchas"/>
+  <string id="bk_zendar_eques.name" text="Zendarski Ekves"/>
+  <string id="bk_zendar_militiaman.name" text="Zendarski Monamarchas"/>
+  <string id="bk_zendar_levy.name" text="Zendarski Zakličny"/>
+  <string id="bk_zendar_crossbow.name" text="Zendarski Fułaks"/>
+  <string id="bk_zendar_militiaman_crossbow.name" text="Zendarski Rušenny Hastrafietas"/>
+  <string id="bk_zendar_levy_crossbow.name" text="Zendarski Zakličny Hastrafietas"/>
 </strings>
 </base>
