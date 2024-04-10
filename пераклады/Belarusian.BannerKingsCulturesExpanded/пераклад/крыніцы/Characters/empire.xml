@@ -2361,13 +2361,13 @@
                 occupation="Soldier"
                 culture="Culture.empire"
 				is_basic_troop="true"
-                skill_template="SkillSet.bk_militia_xbowman_skills">
+                skill_template="SkillSet.bk_levy_bowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <skills></skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.bk_levy_bowman_skills" />
+      <upgrade_target id="NPCCharacter.bk_imperial_militiaman_archer" />
     </upgrade_targets>
     <Equipments>
 		<EquipmentRoster>

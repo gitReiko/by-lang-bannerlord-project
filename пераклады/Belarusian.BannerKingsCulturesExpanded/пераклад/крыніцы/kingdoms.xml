@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Kingdoms>
+
   <Kingdom id="darshi" owner="Hero.bk_darshi_1_1" banner_key="26.191.8.1879.1948.768.746.0.0.0.10181.109.149.443.442.767.761.1.0.0" primary_banner_color="0xff793191" 
 		  secondary_banner_color="0xffFCDE90" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
 		  alternative_color2="FF660653" 
 		  culture="Culture.darshi" 
 		  settlement_banner_mesh="encounter_flag_f" 
 		  flag_mesh="info_screen_flags_b" 
-		  name="{=!}Darshianshahr" 
+		  name="{=!}Teyaghanshahr" 
 		  short_name="{=!}Darshi" 
-		  title="{=!}Darshianshahr"
+		  title="{=!}Teyaghanshahr"
 		  ruler_title="{=|}" 
 		  text="{=!}">
     <relationships>
@@ -32,6 +33,24 @@
 		  text="{=!}The realm of the Massa was stablished in the last decades. Originally a Wilunding nomadic tribe, the Massa came to the continent for the promises of land and wealth. Due to their destructive nature, constant attriction with other Wilunding tribes led to the Massa once again embarking on a journey for new lands. As the east was blocked off by the stone walls of the Calradoi, the Massa rode south, over the water, to a land of everlasting green unlike anything they had seen before.">
     <relationships>
       <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="lokti" owner="Hero.bk_lokti_1" 
+		  banner_key="1.14.2.1528.1528.764.844.1.0.269.10368.85.116.572.572.760.747.0.0.179.145.162.14.483.483.764.763.1.0.0" 
+		  primary_banner_color="0xff198304" 
+		  secondary_banner_color="0xff9E2007" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.lokti" 
+		  settlement_banner_mesh="encounter_flag_c" 
+		  flag_mesh="info_screen_flags_a" 
+		  name="{=!}Lokti" 
+		  short_name="{=!}Lokti" 
+		  title="{=!}Lokti Duchy"
+		  ruler_title="{=!}" 
+		  text="{=!}The realm of the Massa was stablished in the last decades. Originally a Wilunding nomadic tribe, the Massa came to the continent for the promises of land and wealth. Due to their destructive nature, constant attriction with other Wilunding tribes led to the Massa once again embarking on a journey for new lands. As the east was blocked off by the stone walls of the Calradoi, the Massa rode south, over the water, to a land of everlasting green unlike anything they had seen before.">
+    <relationships>
+      <relationship kingdom="Kingdom.vakken_barony_3" value="1" isAtWar="false" />
     </relationships>
   </Kingdom>
   
@@ -71,38 +90,22 @@
     </relationships>
   </Kingdom>
   
-  <Kingdom id="urik_thegndom" owner="Hero.bk_jumne_4" 
-		  banner_key="11.227.40.2000.2000.768.746.0.0.0.10087.127.116.402.403.755.755.1.0.0" 
+  
+  <Kingdom id="byal_thegndom" owner="Hero.bk_jumne_7" 
+		  banner_key="1.162.148.1528.1528.764.764.1.0.269.10084.143.96.483.483.764.764.0.0.0.437.84.116.246.243.755.755.0.0.0" 
 		  primary_banner_color="0xff1B5840" 
 		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
 		  alternative_color2="FF660653" 
 		  culture="Culture.nord" 
 		  settlement_banner_mesh="encounter_flag_a" 
 		  flag_mesh="info_screen_flags_b" 
-		  name="{=!}Thegndómr af Urikshal" 
-		  short_name="{=!}Thegndómr af Urikshal" 
-		  title="{=!}Thegndómr af Urikshal"
+		  name="{=!}Jarldómr af Byal" 
+		  short_name="{=!}Byal" 
+		  title="{=!}Jarldómr af Byal"
 		  ruler_title="{=!}" 
 		  text="{=!}">
   </Kingdom>
   
-  <Kingdom id="byal_thegndom" owner="Hero.bk_jumne_5" 
-		  banner_key="12.226.35.1528.1528.764.764.1.0.0.307.148.116.400.400.884.755.1.1.324.307.148.116.400.400.660.755.1.0.44.332.207.116.400.400.755.755.1.0.0" 
-		  primary_banner_color="0xff1B5840" 
-		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
-		  alternative_color2="FF660653" 
-		  culture="Culture.nord" 
-		  settlement_banner_mesh="encounter_flag_a" 
-		  flag_mesh="info_screen_flags_b" 
-		  name="{=!}Thegndómr af Byalakort" 
-		  short_name="{=!}Byalakort" 
-		  title="{=!}Thegndómr af Byalakort"
-		  ruler_title="{=!}" 
-		  text="{=!}">
-    <relationships>
-      <relationship kingdom="Kingdom.urik_thegndom" value="1" isAtWar="false" />
-    </relationships>
-  </Kingdom>
   
   <Kingdom id="ebor_jarldom" owner="Hero.bk_jumne_1" banner_key="9.96.176.2000.2000.768.746.0.0.0.307.31.116.402.403.595.755.1.0.0.307.31.116.400.400.755.849.1.0.0.307.31.116.399.398.903.755.1.0.0" 
 		  primary_banner_color="0xff1B5840" 
@@ -123,7 +126,7 @@
 		  primary_banner_color="0xff1B5840" 
 		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
 		  alternative_color2="FF660653" 
-		  culture="Culture.empire" 
+		  culture="Culture.zendar" 
 		  settlement_banner_mesh="encounter_flag_a" 
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Pólis tou Zendar" 
@@ -186,6 +189,24 @@
 		  ruler_title="{=!}" 
 		  text="{=!}">
     <relationships>
+      <relationship kingdom="Kingdom.sturgia" value="1" isAtWar="false" />
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="vakken_barony_4" owner="Hero.bk_vakken_4" 
+		  banner_key="22.224.35.1528.1528.764.764.1.0.0.133.162.35.483.483.764.737.1.0.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.vakken" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Vanninan Vapaaherrakunta" 
+		  short_name="{=!}Vanni" 
+		  title="{=!}Vanninan Vapaaherrakunta"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+	<relationships>
       <relationship kingdom="Kingdom.sturgia" value="1" isAtWar="false" />
     </relationships>
   </Kingdom>
