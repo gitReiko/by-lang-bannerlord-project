@@ -1,0 +1,1941 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<!--<<<<<<<<<<<<<<<<<Battanian Volunteer T1>>>>>>>>>>>>>>>>>>-->
+<!--battanian_shire_levy_hmacalradia-->
+	<NPCCharacter id="battanian_volunteer" default_group="Infantry" level="6" name="{=Battanian Shire Levy}Battanian Shire Levy" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_seasoned_shire_levy_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.battanian_hunter_hmacalradia"/>
+		</upgrade_targets>
+			<Equipments>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+	
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Head" id="Item.HT1_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_desert_leather_shoulderpad"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+				<equipment slot="Head" id="Item.HT1_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+				<equipment slot="Head" id="Item.HT1_roughhide_cap"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_roughhide_cap"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cape"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_vlandia_bandit_b"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT1_vlandia_bandit_b"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_nordic_sloven_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_nordic_sloven_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_chainmail"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_chainmail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<!--Boots Gloves-->
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Battanian Seasoned Shire Levy>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_seasoned_shire_levy_hmacalradia" default_group="Infantry" level="11" name="{=Battanian Seasoned Shire Levy}Battanian Seasoned Shire Levy" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_light_footman_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.battanian_footman_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.battanian_outrider_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.highland_pikeman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_chainmail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_chainmail"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_chainmail"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_chainmail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_layered_leather_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Cape" id="Item.CT1_desert_leather_shoulderpad"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_b"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_nordic_sloven_leather"/>
+				<equipment slot="Head" id="Item.HT1_leather_studdedhelm_over_thinhide"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_nordic_sloven_leather"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_leather_studdedhelm_over_thinhide"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<!--Boots Gloves-->
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Battanian Light Footman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_light_footman_hmacalradia" default_group="Infantry" level="16" name="{=Battanian Light Footman}Battanian Light Footman" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_kern_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+	
+				<equipment slot="Body" id="Item.BT1_kilt_over_plated_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.cleaver_2hsword_t3"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2"/>
+							<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Item2" id="Item.falchion_sword_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--<<<<<<<<<<<<<<<<<Battanian Kern Light Footman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_kern_hmacalradia" default_group="Infantry" level="21" name="{=Battanian Kern}Battanian Kern" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Item2" id="Item.battle_axe_t4"/>
+				<equipment slot="Head" id="Item.HT2_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.cleaver_2hsword_t3"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.HT2_nasal_cervelliere_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT2_kilt_over_plated_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.empire_polearm_1_t4"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.HT2_open_mail_coif"/>
+				<equipment slot="Body" id="Item.BT2_ranger_mail"/>
+			</EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+			<equipment slot="Gloves" id="Item.AT1_battania_noble_bracers"/>
+			<equipment slot="Leg" id="Item.LT1_wrapped_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Battania footman T3>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_footman_hmacalradia" default_group="Infantry" level="16" name="{=Battanian Footman}Battanian Footman" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_heavy_footman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Head" id="Item.HT2_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_chainmail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Item1" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Head" id="Item.HT2_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_chainmail"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST2_wide_heater_shield"/>
+				<equipment slot="Head" id="Item.HT2_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Item1" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Head" id="Item.HT2_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item1" id="Item.ST2_small_flat_heater_shield"/>
+				<equipment slot="Head" id="Item.HT2_leather_studdedhelm_over_thinhide"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.ST2_small_flat_heater_shield"/>
+				<equipment slot="Head" id="Item.HT2_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.HT2_segmented_cervelliere_over_mail"/>
+				<equipment slot="Cape" id="Item.CT1_desert_leather_shoulderpad"/>
+				<equipment slot="Body" id="Item.BT2_ranger_mail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cape"/>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT2_nasal_cervelliere_over_mail_coif"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT2_highland_gloves"/>
+			<equipment slot="Leg" id="Item.LT2_wrapped_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<HEAVY INFANTRY>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_heavy_footman_hmacalradia" default_group="Infantry" level="21" name="{=Battanian Heavy Footman}Battanian Heavy Footman" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="45"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.ST2_fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Head" id="Item.HT3_visored_helmet_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Head" id="Item.HT3_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battle_axe_t4"/>
+				<equipment slot="Item1" id="Item.ST2_wide_heater_shield"/>
+				<equipment slot="Head" id="Item.HT3_kettle_hat_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_rough_bearskin"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Head" id="Item.HT3_guards_kettle_over_mail_coif"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_b"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.ST2_tall_heater_shield"/>
+				<equipment slot="Head" id="Item.HT3_segmented_skullcap_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.BT3_battania_noble_armor"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Head" id="Item.HT3_kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap_cloak"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT3_reinforced_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.LT3_plated_strip_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<HIghland Pikeman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="highland_pikeman_hmacalradia" default_group="Infantry" level="16" name="{=Highland Pikeman}Highland Pikeman" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="35"/>
+			<skill id="Throwing" value="35"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_pikeman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+		
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_e"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+		
+				<equipment slot="Body" id="Item.BT1_kilt_over_plated_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_e"/>
+			</EquipmentRoster>
+			<equipment slot="Item0" id="Item.fine_pike_t4"/>
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Battanian Pikeman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_pikeman_hmacalradia" default_group="Infantry" level="21" name="{=Battanian Pikeman}Battanian Pikeman" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="35"/>
+			<skill id="Throwing" value="35"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_gallowglass_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+			
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT2_kettle_hat_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+			
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+				<equipment slot="Head" id="Item.HT2_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+			
+				<equipment slot="Body" id="Item.BT2_battania_noble_armor"/>
+				<equipment slot="Head" id="Item.HT2_segmented_skullcap_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+			
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT2_kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+		
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+				<equipment slot="Head" id="Item.HT2_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT2_battania_noble_bracers"/>
+			<equipment slot="Leg" id="Item.LT2_wrapped_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Battanian Gallowglass>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_gallowglass_hmacalradia" default_group="Infantry" level="26" name="{=Battanian Gallowglass}Battanian Gallowglass" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="45"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Body" id="Item.BT4_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT3_kettle_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_mail_shoulders"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Body" id="Item.BT4_battania_noble_armor"/>
+				<equipment slot="Head" id="Item.HT3_guards_kettle_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Body" id="Item.BT4_battanian_chainmail_armor_a"/>
+				<equipment slot="Head" id="Item.HT3_kettle_hat_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Body" id="Item.BT4_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT3_peaked_helmet_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_rough_bearskin"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Body" id="Item.BT4_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT3_kettle_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Body" id="Item.BT4_battanian_chainmail_armor_a"/>
+				<equipment slot="Head" id="Item.HT3_guards_kettle_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_mail_shoulders"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT3_reinforced_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.LT3_plated_strip_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\Ranged Trees////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<!--<<<<<<<<<<<<<<<<<Hunter t2>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_hunter_hmacalradia" default_group="Ranged" level="11" name="{=Battanian Hunter}Battanian Hunter" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="15"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_bowman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+				<equipment slot="Cape" id="Item.CT1_battania_woodland_cloak"/>
+			
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cape"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax"/>
+			<equipment slot="Item1" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<BOWMaN>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_bowman_hmacalradia" default_group="Ranged" level="16" name="{=Battanian bowman}Battanian Bowman" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_veteran_bowman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_segmented_skullcap_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_nasal_cervelliere_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.BT1_ranger_mail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Head" id="Item.HT1_kettle_hat_over_padded_cloth"/>
+				<equipment slot="Body" id="Item.BT1_sleeveless_padded_short_coat"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<VETERAN BOWMaN>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_veteran_bowman_hmacalradia" default_group="Ranged" level="21" name="{=Battanian Veteran Bowman}Battanian Veteran Bowman" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.pencampwr_longbowman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_segmented_skullcap_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_nasal_cervelliere_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT2_ranger_mail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Head" id="Item.HT1_kettle_hat_over_padded_cloth"/>
+				<equipment slot="Body" id="Item.BT2_sleeveless_padded_short_coat"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+			</EquipmentRoster>
+			<equipment slot="Item0" id="Item.woodland_longbow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Leg" id="Item.LT2_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<WELSH LONGBOWMaN>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="pencampwr_longbowman_hmacalradia" default_group="Ranged" level="26" name="{=Pencampwr Longbowman}Pencampwr Longbowman" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+			<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.HT1_battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.HT1_battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.HT1_battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.HT1_segmented_skullcap_over_padded_cloth"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_empire_warrior_padded_armor_a"/>
+			</EquipmentRoster>
+			
+			<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Leg" id="Item.LT2_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\Cavalry Base Trees///////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<!--<<<<<<<<<<<<<<<<<LIGHT CAVALRY>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_outrider_hmacalradia" default_group="Cavalry" level="16" name="{=Battanian Outrider}Battanian Outrider" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="50"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="35"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_teulu_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+				<equipment slot="Head" id="Item.HT2_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+				<equipment slot="Head" id="Item.HT2_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT2_kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT2_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+				<equipment slot="Head" id="Item.HT2_kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+
+			<equipment slot="Gloves" id="Item.AT2_highland_gloves"/>
+			<equipment slot="Leg" id="Item.LT2_wrapped_leather_boots"/>
+			<equipment slot="Horse" id="Item.battania_horse"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<HEAVY CAVALRY>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="battanian_teulu_hmacalradia" default_group="Cavalry" level="21" name="{=Battanian Teulu}Battanian Teulu" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.HT3_kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+				<equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.HT3_visored_helmet_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_rough_bearskin"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_a"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.steel_mace_t3"/>
+				<equipment slot="Item2" id="Item.ST2_small_flat_heater_shield"/>
+				<equipment slot="Head" id="Item.HT3_guards_kettle_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+				<equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.steel_mace_t3"/>
+				<equipment slot="Item2" id="Item.ST2_heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.HT3_guards_kettle_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+				<equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.battle_axe_t4"/>
+				<equipment slot="Item2" id="Item.ST2_bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.HT3_kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_b"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item2" id="Item.ST2_fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.HT3_segmented_skullcap_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.BT3_battania_noble_armor"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+
+			<equipment slot="Gloves" id="Item.AT3_reinforced_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.LT3_plated_strip_boots"/>
+			<equipment slot="Horse" id="Item.t2_battania_horse"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\NOBLE Trees////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<!--<<<<<<<<<<<<<<<<<HIghlander>>>>>>>>>>>>>>>>>>-->
+	<!--highlander_hmacalradia-->
+	<NPCCharacter id="battanian_highborn_youth" default_group="Infantry" level="11" name="{=Highlander}Highlander" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.highland_warrior_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.cleaver_sword_t3"/>
+				<equipment slot="Item0" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_e"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item0" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT1_kilt_over_plated_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_e"/>
+			</EquipmentRoster>
+			<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<HIghland warrior>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="highland_warrior_hmacalradia" default_group="Infantry" level="16" name="{=Highland Warrior}Highland Warrior" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="140"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.highland_chosen_warrior_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item1" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item0" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT1_kilt_over_plated_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.cleaver_sword_t3"/>
+				<equipment slot="Item0" id="Item.western_2hsword_t4"/>
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_e"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item0" id="Item.cleaver_2hsword_t3"/>
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item0" id="Item.western_2hsword_t4"/>
+				<equipment slot="Body" id="Item.BT1_battania_light_armor_e"/>
+			</EquipmentRoster>
+			<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<HIghland Chosen warrior>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="highland_chosen_warrior_hmacalradia" default_group="Infantry" level="21" name="{=Highland Chosen Warrior}Highland Chosen Warrior" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.highland_clan_chief_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.broad_falchion_sword_t3"/>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+				<equipment slot="Head" id="Item.HT2_open_mail_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.battle_axe_t4"/>
+				<equipment slot="Item0" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.battle_axe_t4"/>
+				<equipment slot="Item0" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Head" id="Item.HT2_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cape"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+			<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			<equipment slot="Gloves" id="Item.AT1_battania_noble_bracers"/>
+			<equipment slot="Leg" id="Item.LT1_wrapped_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Highland Clan Chief>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="highland_clan_chief_hmacalradia" default_group="Infantry" level="26" name="{=Highland Clan Chief}Highland Clan Chief" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="110"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.highland_champion_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item0" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_a"/>
+				<equipment slot="Head" id="Item.HT2_spangenhelm_with_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Head" id="Item.HT2_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item0" id="Item.ST2_battania_shield_targe_a"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT2_open_mail_coif"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.broad_falchion_sword_t3"/>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_b"/>
+				<equipment slot="Head" id="Item.HT2_mail_coif"/>
+			</EquipmentRoster>
+		
+			<equipment slot="Gloves" id="Item.AT2_battania_noble_bracers"/>
+			<equipment slot="Leg" id="Item.LT2_wrapped_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Highland Champion>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="highland_champion_hmacalradia" default_group="Infantry" level="31" name="{=Highland Champion}Highland Champion" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="110"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_rough_bearskin"/>
+				<equipment slot="Body" id="Item.BT3_battanian_scale_armor_b"/>
+				<equipment slot="Head" id="Item.HT3_cervelliere_over_arming_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.BT3_battanian_scale_armor_a"/>
+				<equipment slot="Head" id="Item.HT3_spangenhelm_with_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT3_mail_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT3_battanian_scale_armor_a"/>
+				<equipment slot="Head" id="Item.HT3_open_mail_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_b"/>
+				<equipment slot="Head" id="Item.HT3_segmented_cervelliere_over_mail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.BT3_battanian_chainmail_armor_a"/>
+				<equipment slot="Head" id="Item.HT3_segmented_cervelliere_over_mail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+				<equipment slot="Body" id="Item.BT3_battania_noble_armor"/>
+				<equipment slot="Head" id="Item.HT3_nasal_cervelliere_over_mail_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Cape" id="Item.CT1_battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.BT3_ranger_mail"/>
+				<equipment slot="Head" id="Item.HT3_peaked_helmet_over_mail"/>
+			</EquipmentRoster>
+			
+			<equipment slot="Gloves" id="Item.AT3_reinforced_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.LT3_plated_strip_boots"/>
+		</Equipments>
+	</NPCCharacter>
+
+  <NPCCharacter id="battanian_militia_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=b4QPaEnA}Battanian Militia Archer"
+                occupation="Soldier"
+                culture="Culture.battania"
+                skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+			<Equipments>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+	
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Head" id="Item.HT1_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+				<equipment slot="Head" id="Item.HT1_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+				<equipment slot="Head" id="Item.HT1_roughhide_cap"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Head" id="Item.HT1_roughhide_cap"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_vlandia_bandit_b"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_vlandia_bandit_b"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_nordic_sloven_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_nordic_sloven_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Body" id="Item.BT1_battania_woodland_chainmail"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_chainmail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+						<equipment slot="Item2" id="Item.seax"/>
+			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+			<equipment slot="Item1" id="Item.default_arrows"/>
+	
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battanian_militia_veteran_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=Battanian Trained Militia Archer}Battanian Trained Militia Archer"
+                occupation="Soldier"
+                culture="Culture.battania"
+                skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_segmented_skullcap_over_padded_cloth"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_empire_warrior_padded_armor_a"/>
+			</EquipmentRoster>
+
+			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+			<equipment slot="Item1" id="Item.default_arrows"/>
+			<equipment slot="Leg" id="Item.LT2_leather_cavalier_boots"/>
+		</Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battanian_militia_spearman"
+                default_group="Infantry"
+                level="11"
+                name="{=Battanian Militia}Battanian Militia"
+                occupation="Soldier"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+			<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+	
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Head" id="Item.HT1_thinhide_coif"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Head" id="Item.HT1_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_desert_leather_shoulderpad"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_outfit"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+				<equipment slot="Head" id="Item.HT1_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+				<equipment slot="Head" id="Item.HT1_roughhide_cap"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_roughhide_cap"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cape"/>
+				<equipment slot="Body" id="Item.BT1_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+				<equipment slot="Body" id="Item.BT1_sackcloth_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_vlandia_bandit_b"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_vlandia_bandit_b"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_nordic_sloven_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_nordic_sloven_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_chainmail"/>
+				<equipment slot="Cape" id="Item.CT1_wolf_shoulder"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_cloak"/>
+				<equipment slot="Body" id="Item.BT1_battania_woodland_chainmail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Cape" id="Item.CT1_green_hood"/>
+				<equipment slot="Body" id="Item.BT1_battanian_chainmail_armor_d"/>
+			</EquipmentRoster>
+			<!--Boots Gloves-->
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battanian_militia_veteran_spearman"
+                default_group="Infantry"
+                level="16"
+                name="{=Battanian Trained Militia}Battanian Trained Militia"
+                occupation="Soldier"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Body" id="Item.BT2_battanian_chainmail_armor_d"/>
+				<equipment slot="Head" id="Item.HT1_kettle_helmet_with_leather"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_small_flat_heater_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_worn_kite_shield"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Head" id="Item.HT1_cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_bound_kite_shield"/>
+				<equipment slot="Cape" id="Item.CT1_hood"/>
+				<equipment slot="Body" id="Item.BT2_layered_leather_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_battania_shield_targe_a"/>
+				<equipment slot="Cape" id="Item.CT1_desert_leather_shoulderpad"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_b"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_nordic_sloven_leather"/>
+				<equipment slot="Head" id="Item.HT1_leather_studdedhelm_over_thinhide"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_nordic_sloven_leather"/>
+				<equipment slot="Head" id="Item.HT1_imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_scarf_a"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_leather_studdedhelm_over_thinhide"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT2_battania_civil_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Cape" id="Item.CT1_battania_civil_cloak"/>
+				<equipment slot="Body" id="Item.BT2_battania_woodland_outfit"/>
+			</EquipmentRoster>
+			<!--Boots Gloves-->
+			<equipment slot="Leg" id="Item.LT1_eastern_leather_boots"/>
+		</Equipments>
+  </NPCCharacter>
+
+
+
+  <!-- Caladog fen Gruffendoc, ruthless -->
+  <NPCCharacter id="lord_5_1"
+                name="{=w51wGx4b}Caladog"
+                age="39"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="00054548800027875ca466a563442bd406899779a794573b86a7c473581ab487000e66550e46c99d000000000000000000000000000000000000000001f83180" /-->
+      <BodyProperties version="4"
+                      key="00054408800027875CA466A563442BD406899779A794573B86A7C473581AB487000546550E46C99D000000000000000000000000000000000000000000F03180" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="10" />
+      <Trait id="Commander"
+             value="8" />
+      <Trait id="Politician"
+             value="8" />
+      <Trait id="Manager"
+             value="4" />
+      <Trait id="Mercy"
+             value="-1" />
+      <Trait id="Honor"
+             value="-1" />
+      <Trait id="Valor"
+             value="1" />
+      <Trait id="Generosity"
+             value="1" />
+      <Trait id="Egalitarian"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_template_leader" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+
+</NPCCharacters>

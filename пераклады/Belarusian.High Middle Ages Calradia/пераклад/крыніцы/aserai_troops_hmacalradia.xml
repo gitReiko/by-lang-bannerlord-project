@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<!--<<<<<<<<<<<<<<<<<Aserai Tribesman T1>>>>>>>>>>>>>>>>>>-->
+<!--aserai_tribesman_hmacalradia-->
+	<NPCCharacter id="aserai_recruit" default_group="Infantry" level="6" name="{=Aserai Tribesman}Aserai Tribesman" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_trained_tribesman_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.bedouin_hunter_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT1_desert_helmet_with_mail"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT1_trailed_desert_helmet"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_loose_wrapped_desert_helmet"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_turban"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_adarga"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_hscarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT1_aketon"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT1_aketon"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_hscarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT1_long_woolen_tunic"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT1_long_woolen_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_desert_padded_cloth"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_desert_padded_cloth"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_aserai_robe_c_chain"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_aserai_armor_02"/>
+			</EquipmentRoster>
+			<!--Boots Gloves-->
+			<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Trained Tribesman T2>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_trained_tribesman_hmacalradia" default_group="Infantry" level="11" name="{=Aserai Trained Tribesman}Aserai Trained Tribesman" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_shieldbreaker_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.aserai_footman_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.aserai_outrider_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+				<equipment slot="Body" id="Item.BT2_aserai_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT1_turban"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_turban"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT2_layered_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_long_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_long_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<!--Boots Gloves-->
+			<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Light Footman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_shieldbreaker_hmacalradia" default_group="Infantry" level="16" name="{=Aserai Shieldbreaker}Aserai Shieldbreaker" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.war_razor_2hsword_t4"/>
+				<equipment slot="Head" id="Item.HT1_turban"/>
+				<equipment slot="Cape" id="Item.CT1_aserai_horseman_shoulder"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_wrapped_scarf"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT1_eastern_silk_clothing"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+			</EquipmentRoster>
+
+			<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Footman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_footman_hmacalradia" default_group="Infantry" level="16" name="{=Aserai Footman}Aserai Footman" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_pikeman_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.aserai_heavy_footman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT2_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Item1" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT2_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST2_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT2_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Item1" id="Item.ST2_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT2_loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Item1" id="Item.ST2_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT2_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.ST2_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+				<equipment slot="Head" id="Item.HT2_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT2_loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT2_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+		
+			<equipment slot="Leg" id="Item.LT2_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Pikeman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_pikeman_hmacalradia" default_group="Infantry" level="21" name="{=Aserai Pikeman}Aserai Pikeman" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="35"/>
+			<skill id="Throwing" value="35"/>
+		</skills>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+			
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT2_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+		
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT2_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+		
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT2_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+		
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT2_loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+		
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT2_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+		
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+				<equipment slot="Head" id="Item.HT2_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+	
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT2_loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+		
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT2_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+		
+			<equipment slot="Leg" id="Item.LT2_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Heavy Footman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_heavy_footman_hmacalradia" default_group="Infantry" level="21" name="{=Aserai Heavy Footman}Aserai Heavy Footman" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="45"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mubarizun_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Item2" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_robe_c_chain"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_robe_c_chain"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.ST2_desert_round_shield"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT3_aserai_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_over_mail_coif"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_d"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+
+				<equipment slot="Head" id="Item.HT3_emirs_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battle_axe_t4"/>
+				<equipment slot="Item2" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Head" id="Item.HT3_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_a"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT3_studded_vambraces"/>
+			<equipment slot="Leg" id="Item.LT3_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Mubarizun>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="mubarizun_hmacalradia" default_group="Infantry" level="26" name="{=Mubarizun}Mubarizun" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="45"/>
+			<skill id="OneHanded" value="135"/>
+			<skill id="TwoHanded" value="135"/>
+			<skill id="Polearm" value="135"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.ST2_large_adarga"/>
+				<equipment slot="Item2" id="Item.aserai_2haxe_1_t3"/>
+					<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.HT3_southern_noble_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT4_aserai_chain_plate_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Item2" id="Item.aserai_2haxe_1_t3"/>
+					<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.HT3_aserai_lord_helmet_a"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT4_northern_brass_lamellar_over_mail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.HT3_aserai_lord_helmet_a"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT4_northern_brass_lamellar_over_mail"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.ST2_desert_round_shield"/>
+				<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.HT3_southern_noble_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT4_aserai_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.HT3_aserai_lord_helmet_a"/>
+				<equipment slot="Body" id="Item.BT4_aserai_chain_plate_armor_d"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item2" id="Item.aserai_2haxe_1_t3"/>
+					<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.HT3_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT4_aserai_chain_plate_armor_a"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT3_plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.LT3_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\Ranged Trees////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<!--<<<<<<<<<<<<<<<<<Bedouin hunter>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="bedouin_hunter_hmacalradia" default_group="Ranged" level="11" name="{=Bedouin Hunter}Bedouin Hunter" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="15"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_bowman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT1_fur_coat_over_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT1_fur_armor_with_strap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_fur_waistcoat_over_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_burlap_waistcoat"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+				<equipment slot="Body" id="Item.BT1_ragged_robes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Head" id="Item.HT1_wrapped_headcloth"/>
+				<equipment slot="Body" id="Item.BT1_ragged_robes"/>
+			</EquipmentRoster>
+			<equipment slot="Item0" id="Item.nordic_shortbow"/>
+			<equipment slot="Item1" id="Item.default_arrows"/>
+			<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Bowman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_bowman_hmacalradia" default_group="Ranged" level="16" name="{=Aserai Bowman}Aserai Bowman" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="90"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_veteran_bowman_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.CT1_wrapped_scarf"/>
+				<equipment slot="Body" id="Item.BT1_eastern_plated_leather_vest"/>
+	
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_wrapped_scarf"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT1_eastern_silk_clothing"/>
+	
+			
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_wrapped_scarf"/>
+				<equipment slot="Body" id="Item.BT1_eastern_silk_clothing"/>
+	
+	
+			</EquipmentRoster>
+							<equipment slot="Item0" id="Item.default_arrows"/>
+				<equipment slot="Item1" id="Item.steppe_war_bow"/>
+							<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Veteran Bowman>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_veteran_bowman_hmacalradia" default_group="Ranged" level="21" name="{=Aserai Veteran Bowman}Aserai Veteran Bowman" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.palace_guard_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT1_loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_desert_fabric_shoulderpad"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT1_loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Leg" id="Item.LT2_leather_cavalier_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--\\\\\\\\\\\\\\\\\\\\\\\\Palace Guard////////////////////////////-->
+	<NPCCharacter id="palace_guard_hmacalradia" default_group="Ranged" level="26" name="{=Palace Guard}Palace Guard" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="45"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="135"/>
+			<skill id="Bow" value="110"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item3" id="Item.western_spear_5_t4"/>
+				<equipment slot="Head" id="Item.HT3_aserai_crown"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT3_aserai_archer_armor"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item3" id="Item.western_spear_5_t4"/>
+				<equipment slot="Head" id="Item.HT3_aserai_crown"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT3_aserai_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item3" id="Item.aserai_2haxe_1_t3"/>
+				<equipment slot="Head" id="Item.HT3_desert_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_a"/>
+			</EquipmentRoster>
+			<equipment slot="Item0" id="Item.steppe_war_bow"/>
+			<equipment slot="Item1" id="Item.bodkin_arrows_c"/>
+			<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+			<equipment slot="Gloves" id="Item.AT3_plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.LT3_woven_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\Cavalry Base Trees///////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<!--<<<<<<<<<<<<<<<<<Aserai Light Cavalry>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_outrider_hmacalradia" default_group="Cavalry" level="16" name="{=Aserai Outrider}Aserai Outrider" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="50"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="35"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_cameleer_hmacalradia"/>
+			<upgrade_target id="NPCCharacter.aserai_mamluke_cavalry_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT2_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT2_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+				<equipment slot="Head" id="Item.HT2_tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT2_loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT2_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+
+			<equipment slot="Leg" id="Item.LT2_leather_cavalier_boots"/>
+			<equipment slot="Horse" id="Item.aserai_horse"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Cameleer>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_cameleer_hmacalradia" default_group="Cavalry" level="21" name="{=Aserai Cameleer}Aserai Cameleer" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_robe_c_chain"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.steel_mace_t3"/>
+				<equipment slot="Item2" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_robe_c_chain"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.steel_mace_t3"/>
+				<equipment slot="Item2" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT3_aserai_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.battle_axe_t4"/>
+				<equipment slot="Item2" id="Item.ST2_large_adarga"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_over_mail_coif"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_d"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.ST2_desert_round_shield"/>
+				<equipment slot="Head" id="Item.HT3_emirs_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.HT3_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_a"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT3_studded_vambraces"/>
+			<equipment slot="Leg" id="Item.LT3_leather_cavalier_boots"/>
+						<equipment slot="Horse" id="Item.war_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Mamluke Cavalry>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_mamluke_cavalry_hmacalradia" default_group="HorseArcher" level="21" name="{=Aserai Mamluke Cavalry}Aserai Mamluke Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="75"/>
+			<skill id="Crossbow" value="75"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_robe_c_chain"/>
+					<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_robe_c_chain"/>
+					<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battle_axe_t4"/>
+				<equipment slot="Item1" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT3_aserai_armor_02"/>
+								<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.HT3_pointed_skullcap_over_mail_coif"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_d"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+						<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Head" id="Item.HT3_emirs_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_b"/>
+					<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battle_axe_t4"/>
+				<equipment slot="Item1" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Head" id="Item.HT3_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_a"/>
+								<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<equipment slot="Item3" id="Item.steppe_arrows"/>
+			<equipment slot="Item2" id="Item.composite_bow"/>
+			<equipment slot="Gloves" id="Item.AT3_studded_vambraces"/>
+			<equipment slot="Leg" id="Item.LT3_leather_cavalier_boots"/>
+			<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\NOBLE Tree////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<!--<<<<<<<<<<<<<<<<<Aserai Noble Son>>>>>>>>>>>>>>>>>>-->
+<!--aserai_nobles_son_hmacalradia-->
+	<NPCCharacter id="aserai_youth" default_group="Infantry" level="11" name="{=Aserai Noble's Son}Aserai Noble's Son" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_noble_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_archer_armor"/>
+				<equipment slot="Head" id="Item.HT1_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_eastern_silk_clothing"/>
+				<equipment slot="Head" id="Item.HT1_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+				<equipment slot="Head" id="Item.HT1_tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_archer_armor"/>
+				<equipment slot="Head" id="Item.HT1_desert_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+			</EquipmentRoster>
+		
+			<equipment slot="Leg" id="Item.LT1_woven_leather_boots"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Noble>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_noble_hmacalradia" default_group="Cavalry" level="16" name="{=Aserai Noble}Aserai Noble" occupation="Soldier" upgrade_requires="ItemCategory.horse" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="35"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_faris_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_archer_armor"/>
+				<equipment slot="Head" id="Item.HT2_aserai_crown"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST2_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_eastern_silk_clothing"/>
+				<equipment slot="Head" id="Item.HT2_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+				<equipment slot="Head" id="Item.HT2_tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_archer_armor"/>
+				<equipment slot="Head" id="Item.HT2_desert_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
+			</EquipmentRoster>
+			
+			<equipment slot="Leg" id="Item.LT2_woven_leather_boots"/>
+			<equipment slot="Horse" id="Item.aserai_horse"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai  Faris>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_faris_hmacalradia" default_group="Cavalry" level="21" name="{=Aserai Faris}Aserai Faris" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_veteran_faris_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT3_aserai_crown"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT3_aserai_archer_armor"/>
+				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.steel_mace_t3"/>
+				<equipment slot="Item2" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT3_aserai_crown"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT3_aserai_armor_02"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.battle_axe_t4"/>
+				<equipment slot="Item2" id="Item.ST2_large_adarga"/>
+				<equipment slot="Head" id="Item.HT3_desert_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_a"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.ST2_desert_round_shield"/>
+				<equipment slot="Head" id="Item.HT3_aserai_crown"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT3_aserai_armor_02"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.HT3_desert_mail_coif"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT3_aserai_chain_plate_armor_a"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT3_plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.LT3_woven_leather_boots"/>
+			<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Veteran Faris>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_veteran_faris_hmacalradia" default_group="Cavalry" level="26" name="{=Aserai Veteran Faris}Aserai Veteran Faris" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_vanguard_faris_hmacalradia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT3_aserai_lord_helmet_a"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT4_aserai_robe_c_chain"/>
+				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item2" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT3_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_leopard_pelt"/>
+				<equipment slot="Body" id="Item.BT4_aserai_robe_c_chain"/>
+				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item2" id="Item.ST2_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT3_southern_noble_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="Body" id="Item.BT4_aserai_armor_02"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.ST2_large_adarga"/>
+				<equipment slot="Head" id="Item.HT3_aserai_lord_helmet_a"/>
+				<equipment slot="Body" id="Item.BT4_aserai_chain_plate_armor_d"/>
+				<equipment slot="Cape" id="Item.CT1_empire_cape_a"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_5_t4"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.ST2_large_adarga"/>
+				<equipment slot="Head" id="Item.HT3_southern_noble_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.BT4_aserai_chain_plate_armor_b"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_5_t4"/>
+				<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.ST2_desert_round_shield"/>
+				<equipment slot="Head" id="Item.HT3_desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT4_aserai_chain_plate_armor_a"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT3_plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.LT3_leather_cavalier_boots"/>
+			<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--<<<<<<<<<<<<<<<<<Aserai Vanguard Faris>>>>>>>>>>>>>>>>>>-->
+	<NPCCharacter id="aserai_vanguard_faris_hmacalradia" default_group="Cavalry" level="31" name="{=Aserai Vanguard Faris}Aserai Vanguard Faris" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="10"/>
+			<skill id="Riding" value="180"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<Equipments>
+				<EquipmentRoster>
+						<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+			<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.HT3_southern_noble_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_desert_scale_shoulders"/>
+				<equipment slot="Body" id="Item.BT4_desert_scale_armor"/>
+				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+						<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+			<equipment slot="Item1" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.HT3_aserai_lord_helmet_a"/>
+				<equipment slot="Cape" id="Item.CT1_leopard_pelt"/>
+				<equipment slot="Body" id="Item.BT4_desert_scale_armor"/>
+				<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+			</EquipmentRoster>
+	
+			<EquipmentRoster>
+						<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+			<equipment slot="Item1" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Head" id="Item.HT3_southern_lord_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_a_aserai_scale_b_shoulder_a"/>
+				<equipment slot="Body" id="Item.BT4_desert_scale_armor"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+						<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+			<equipment slot="Item1" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Head" id="Item.HT3_aserai_lord_helmet_a"/>
+				<equipment slot="Cape" id="Item.CT1_desert_scale_shoulders"/>
+				<equipment slot="Body" id="Item.BT4_imperial_scale_armor"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+						<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+			<equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.HT3_aserai_lord_helmet_a"/>
+				<equipment slot="Cape" id="Item.CT1_leopard_pelt"/>
+				<equipment slot="Body" id="Item.BT4_imperial_scale_armor"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+						<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+			<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Head" id="Item.HT3_southern_noble_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_desert_scale_shoulders"/>
+				<equipment slot="Body" id="Item.BT4_desert_scale_armor"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<equipment slot="Gloves" id="Item.AT3_plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.LT3_lamellar_plate_boots"/>
+
+			<equipment slot="Horse" id="Item.noble_horse_southern"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+
+
+
+
+
+ <!-- #region Militia-->
+  <NPCCharacter id="aserai_militia_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=CPcJ2gRF}Aserai Militia Archer"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.HT1_trailed_desert_helmet"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_turban"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Body" id="Item.BT1_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_hscarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_desert_padded_cloth"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Body" id="Item.BT1_desert_padded_cloth"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_hscarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_long_woolen_tunic"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT1_long_woolen_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+	
+				<equipment slot="Body" id="Item.BT1_desert_padded_cloth"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Body" id="Item.BT1_desert_padded_cloth"/>
+			</EquipmentRoster>
+			<equipment slot="Item2" id="Item.seax"/>
+			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+			<equipment slot="Item1" id="Item.default_arrows"/>
+			<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_militia_veteran_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=Aserai Trained Militia Archer}Aserai Trained Militia Archer"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.CT1_wrapped_scarf"/>
+				<equipment slot="Body" id="Item.BT1_eastern_plated_leather_vest"/>
+	
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.CT1_wrapped_scarf"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item2" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Cape" id="Item.CT1_scarf"/>
+				<equipment slot="Body" id="Item.BT1_eastern_silk_clothing"/>
+	
+			
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Cape" id="Item.CT1_wrapped_scarf"/>
+				<equipment slot="Body" id="Item.BT1_eastern_silk_clothing"/>
+	
+	
+			</EquipmentRoster>
+							<equipment slot="Item0" id="Item.default_arrows"/>
+				<equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+							<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_militia_spearman"
+                default_group="Infantry"
+                level="11"
+                name="{=Aserai Militia}Aserai Militia"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_turban"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT1_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_studded_adarga"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_e_hscarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_hscarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_aketon"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Body" id="Item.BT1_aketon"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_aserai_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_hscarf_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT1_long_woolen_tunic"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT1_long_woolen_tunic"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_desert_padded_cloth"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_desert_padded_cloth"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_aserai_robe_c_chain"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Body" id="Item.BT1_aserai_armor_02"/>
+			</EquipmentRoster>
+			<!--Boots Gloves-->
+			<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_militia_veteran_spearman"
+                default_group="Infantry"
+                level="16"
+                name="{=Aserai Trained Militia}Aserai Trained Militia"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_robe_c_chain"/>
+				<equipment slot="Head" id="Item.HT1_tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+				<equipment slot="Body" id="Item.BT2_aserai_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_bound_adarga"/>
+				<equipment slot="Body" id="Item.BT2_aserai_chain_plate_armor_c"/>
+				<equipment slot="Head" id="Item.HT1_aserai_civil_c_head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.HT1_desert_helmet_with_mail"/>
+				<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.HT1_desert_helmet_with_mail"/>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_eastern_plated_leather_vest"/>
+				<equipment slot="Head" id="Item.HT1_turban"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_desert_round_shield"/>
+				<equipment slot="Body" id="Item.BT2_layered_robe"/>
+				<equipment slot="Head" id="Item.HT1_turban"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+				<equipment slot="Body" id="Item.BT2_layered_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_long_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_long_padded_robe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.ST1_large_adarga"/>
+				<equipment slot="Body" id="Item.BT2_long_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_short_padded_robe"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_civil_a"/>
+				<equipment slot="Head" id="Item.HT1_desert_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT2_aserai_civil_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+				<equipment slot="Body" id="Item.BT2_leather_strips_over_padded_robe"/>
+			</EquipmentRoster>
+			<!--Boots Gloves-->
+			<equipment slot="Leg" id="Item.LT1_leather_cavalier_boots"/>
+		</Equipments>
+  </NPCCharacter>
+
+
+
+
+  <!-- Unqid. Cautious, pragmatic, generous. A trader by temperament -->
+  <NPCCharacter id="lord_3_1"
+                name="{=r3oIoCr8}Unqid"
+                age="44"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4"
+                      key="0028280FD7FC23C299C2761C4AC1A5954778548899A66659788878746A9D9629000F16530FA7699C000000000000000000000000000000000000000000F47140" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="3" />
+      <Trait id="Commander"
+             value="7" />
+      <Trait id="Politician"
+             value="7" />
+      <Trait id="Manager"
+             value="7" />
+      <Trait id="Valor"
+             value="-1" />
+      <Trait id="Generosity"
+             value="1" />
+      <Trait id="Calculating"
+             value="1" />
+      <Trait id="Oligarchic"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_template_leader" />
+      <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>
