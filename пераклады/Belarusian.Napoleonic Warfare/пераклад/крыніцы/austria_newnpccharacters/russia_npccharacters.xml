@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old npc characters by adding nodes to this xml. For examples please refer to: SandBoxCore/ModuleData/spnpccharacters.xml, SandBox/ModuleData/lords.xml-->
+<NPCCharacters>
+	<NPCCharacter id="gap_russian_partizan"
+	              default_group="Infantry"
+	              level="2"
+	              name="Russian Partizan"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="45"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="60"/>
+			<skill id="TwoHanded"
+			       value="60"/>
+			<skill id="Polearm"
+			       value="60"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="60"/>
+			<skill id="Throwing"
+			       value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_russian_militia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			
+			
+			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			
+			
+			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			
+			
+			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			
+			
+			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			
+			
+			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			
+			
+			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			
+			
+			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			
+			
+			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.western_spear_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_partizan_3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_partizan_hat_3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_militia"
+	              default_group="Ranged"
+	              level="7"
+	              name="Russian Militia"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_russian_infantry"/>
+			<upgrade_target id="NPCCharacter.gap_russian_infantry_pavlovskiy"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_militia"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Cape"
+				           id="Item.gap_russian_equipment_rifle"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_cap_militia"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_caravanguy"
+	              default_group="Ranged"
+	              level="10"
+	              name="Russian Caravan Guard"
+	              occupation="CaravanGuard"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="110"/>
+			<skill id="TwoHanded"
+			       value="110"/>
+			<skill id="Polearm"
+			       value="110"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="110"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_recruit"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_infantry"
+	              default_group="Ranged"
+	              level="11"
+	              name="Russian Line Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_russian_guard"/>
+			<upgrade_target id="NPCCharacter.gap_russian_rifleman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_infantry"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_russian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_infantry_pavlovskiy"
+	              default_group="Ranged"
+	              level="11"
+	              name="Russian Pavlovskiy Line Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_russian_guard"/>
+			<upgrade_target id="NPCCharacter.gap_russian_rifleman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_pavlovskiy"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants_2"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_mitre_cap"/>
+				<equipment slot="Cape"
+				           id="Item.gap_russian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_guard"
+	              default_group="Ranged"
+	              level="21"
+	              name="Russian Guard"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_guard"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_musketeer_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_guard_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_russian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_rifleman"
+	              default_group="Ranged"
+	              level="19"
+	              name="Russian Rifleman"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              formation_position_preference="Back"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="75"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="115"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="160"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_jaeger_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_jaeger_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_rifleman"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_jaeger_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_shako_jaeger"/>
+				<equipment slot="Cape"
+				           id="Item.gap_russian_equipment_rifle"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_cavalry"
+	              default_group="Cavalry"
+	              level="10"
+	              name="Russian Cavalry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="45"/>
+			<skill id="Riding"
+			       value="100"/>
+			<skill id="OneHanded"
+			       value="105"/>
+			<skill id="TwoHanded"
+			       value="85"/>
+			<skill id="Polearm"
+			       value="85"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_russian_hussar"/>
+			<upgrade_target id="NPCCharacter.gap_russian_dragoon"/>
+			<upgrade_target id="NPCCharacter.gap_russian_cuirassier"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_recruit"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_dragoon_pants_filled"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_bicorne"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Horse"
+				           id="Item.medium_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_russian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_hussar"
+	              default_group="Cavalry"
+	              level="19"
+	              name="Russian Hussar"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="150"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_hussar"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_dragoon_pants_filled"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_guard_shako"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_hussar_equipment_russian"/>
+				<equipment slot="Horse"
+				           id="Item.hussar_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_russian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_dragoon"
+	              default_group="HorseArcher"
+	              level="21"
+	              name="Russian Dragoon"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="140"/>
+			<skill id="OneHanded"
+			       value="150"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="115"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_cavalry"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_straight_sword"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_infantry"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_dragoon_pants_filled"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_cavalry_helmet"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.medium_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_russian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_russian_cuirassier"
+	              default_group="Cavalry"
+	              level="24"
+	              name="Russian Chevalier"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="155"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_pallasch"/>
+				<equipment slot="Body"
+				           id="Item.gap_russian_coat_cuirassier"/>
+				<equipment slot="Leg"
+				           id="Item.gap_austrian_officer_boots"/>
+				<equipment slot="Head"
+				           id="Item.gap_russian_cavalry_helmet"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.cuirassier_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_russian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

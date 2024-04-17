@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+	<Item id="austrian_musket_bayonet_melee_ai"
+	      name="Infantry Musket (Bayonet - Melee) (AI)"
+	      body_name="bo_spear_b"
+	      mesh="newmusket_bayonet"
+	      weight="3.5"
+	      appearance="0.05"
+	      difficulty="0"
+	      Type="Polearm"
+	      holster_mesh="bl_invisible"
+	      holster_mesh_with_weapon="bl_invisible"
+	      item_holsters="musket_ai_holster:musket_ai_holster_2:musket_ai_holster_3:musket_ai_holster_4"
+	      value="1500"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm"
+			        weapon_balance="100"
+			        position="-0.02, 0.03, 0"
+			        rotation="2, 0, 180"
+			        thrust_speed="100"
+			        speed_rating="100"
+			        physics_material="metal_weapon"
+			        weapon_length="152"
+			        swing_damage="50"
+			        thrust_damage="50"
+			        center_of_mass="0,0,0.2"
+			        swing_damage_type="Pierce"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponmusket_block_thrust">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="false"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_bayonet_ai"
+	      name="Infantry Musket (Bayonet) (AI)"
+	      body_name="bo_spear_b"
+	      mesh="newmusket_bayonet"
+	      weight="3.5"
+	      appearance="0.05"
+	      difficulty="0"
+	      Type="Crossbow"
+	      holster_mesh="bl_invisible"
+	      holster_mesh_with_weapon="bl_invisible"
+	      item_holsters="musket_ai_holster:musket_ai_holster_2:musket_ai_holster_3:musket_ai_holster_4"
+	      AmmoOffset="0, 0, 0"
+	      value="1500"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="210"
+			        accuracy="70"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="85"
+			        weapon_length="120"
+			        ammo_limit="1"
+			        reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="musket"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,-0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="true"
+				             NotUsableWithOneHand="true"
+				             CantReloadOnHorseback="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_jaeger_ai"
+	      name="Rifle (AI)"
+	      body_name="bo_spear_b"
+	      mesh="newrifle"
+	      weight="3"
+	      appearance="0.5"
+	      difficulty="0"
+	      Type="Crossbow"
+	      holster_mesh="bl_invisible"
+	      holster_mesh_with_weapon="bl_invisible"
+	      item_holsters="musket_ai_holster:musket_ai_holster_2:musket_ai_holster_3:musket_ai_holster_4"
+	      AmmoOffset="0, 0, 0"
+	      value="5000"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="220"
+			        accuracy="92"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="85"
+			        weapon_length="79"
+			        ammo_limit="1"
+			        reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="rifle"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="false"
+				             UseHandAsThrowBase="true"
+				             CantReloadOnHorseback="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_jaeger_melee_ai"
+	      name="Rifle (Melee) (AI)"
+	      body_name="bo_spear_b"
+	      mesh="newrifle"
+	      weight="3"
+	      appearance="0.5"
+	      difficulty="0"
+	      Type="Polearm"
+	      holster_mesh="bl_invisible"
+	      holster_mesh_with_weapon="bl_invisible"
+	      item_holsters="musket_ai_holster:musket_ai_holster_2:musket_ai_holster_3:musket_ai_holster_4"
+	      value="1500"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedMace"
+			        weapon_balance="100"
+			        position="-0.03, 0, .47"
+			        rotation="183, 0, 90"
+			        thrust_speed="56"
+			        speed_rating="85"
+			        physics_material="wood_weapon"
+			        weapon_length="79"
+			        swing_damage="25"
+			        thrust_damage="15"
+			        swing_damage_type="Blunt"
+			        thrust_damage_type="Blunt"
+			        item_usage="customweaponzweihand_block_swing">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_ai"
+	      name="Musket"
+	      body_name="bo_spear_b"
+	      mesh="newmusket"
+	      weight="3"
+	      appearance="0.1"
+	      difficulty="0"
+	      Type="Crossbow"
+	      holster_mesh="bl_invisible"
+	      holster_mesh_with_weapon="bl_invisible"
+	      item_holsters="musket_ai_holster:musket_ai_holster_2:musket_ai_holster_3:musket_ai_holster_4"
+	      AmmoOffset="0, 0, 0"
+	      value="1250"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="210"
+			        accuracy="70"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="80"
+			        weapon_length="120"
+			        ammo_limit="1"
+			        reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="musket"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="false"
+				             UseHandAsThrowBase="true"
+				             CantReloadOnHorseback="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_melee_ai"
+	      name="Infantry Musket (Melee) (AI)"
+	      body_name="bo_spear_b"
+	      mesh="newmusket"
+	      weight="3"
+	      appearance="0.05"
+	      difficulty="0"
+	      Type="Polearm"
+	      holster_mesh="bl_invisible"
+	      holster_mesh_with_weapon="bl_invisible"
+	      item_holsters="musket_ai_holster:musket_ai_holster_2:musket_ai_holster_3:musket_ai_holster_4"
+	      value="1500"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedMace"
+			        weapon_balance="100"
+			        position="-0.03, 0, .77"
+			        rotation="183, 0, 90"
+			        thrust_speed="56"
+			        speed_rating="90"
+			        physics_material="wood_weapon"
+			        weapon_length="120"
+			        swing_damage="30"
+			        thrust_damage="17"
+			        swing_damage_type="Blunt"
+			        thrust_damage_type="Blunt"
+			        item_usage="customweaponzweihand_block_swing">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_light_ai"
+	      name="Infantry Musket"
+	      body_name="bo_spear_b"
+	      mesh="newmusket"
+	      weight="3"
+	      appearance="0.1"
+	      difficulty="0"
+	      Type="Crossbow"
+	      holster_mesh="bl_invisible"
+	      holster_mesh_with_weapon="bl_invisible"
+	      item_holsters="musket_ai_holster:musket_ai_holster_2:musket_ai_holster_3:musket_ai_holster_4"
+	      AmmoOffset="0, 0, 0"
+	      value="1250"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="210"
+			        accuracy="72"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="82"
+			        weapon_length="120"
+			        ammo_limit="1"
+			        reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="musket"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="false"
+				             UseHandAsThrowBase="true"
+				             CantReloadOnHorseback="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_light_melee_ai"
+	      name="Infantry Musket (Melee) (AI)"
+	      body_name="bo_spear_b"
+	      mesh="newmusket"
+	      weight="3"
+	      appearance="0.05"
+	      difficulty="0"
+	      Type="Polearm"
+	      holster_mesh="bl_invisible"
+	      holster_mesh_with_weapon="bl_invisible"
+	      item_holsters="musket_ai_holster:musket_ai_holster_2:musket_ai_holster_3:musket_ai_holster_4"
+	      value="1500"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedMace"
+			        weapon_balance="100"
+			        position="-0.03, 0, .77"
+			        rotation="183, 0, 90"
+			        thrust_speed="56"
+			        speed_rating="90"
+			        physics_material="wood_weapon"
+			        weapon_length="120"
+			        swing_damage="30"
+			        thrust_damage="17"
+			        swing_damage_type="Blunt"
+			        thrust_damage_type="Blunt"
+			        item_usage="customweaponzweihand_block_swing">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+</Items>

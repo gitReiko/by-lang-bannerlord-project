@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+	<Item id="gap_default_tricorne"
+	      name="Tricorne"
+	      subtype="head_armor"
+	      mesh="gap_british_tricorne"
+	      culture="Culture.neutral_culture"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_default_bicorne"
+	      name="Bicorne"
+	      subtype="head_armor"
+	      mesh="gap_bicorne_default"
+	      culture="Culture.neutral_culture"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_default_bicorne_officer"
+	      name="Officer Bicorne"
+	      subtype="head_armor"
+	      mesh="gap_bicorne_default_officer"
+	      culture="Culture.neutral_culture"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_bicorne_officer"
+	      name="Austrian Officer Bicorne"
+	      subtype="head_armor"
+	      mesh="gap_bicorne_austrian_officer"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_bicorne_general"
+	      name="Austrian General Bicorne"
+	      subtype="head_armor"
+	      mesh="gap_bicorne_austrian_general"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_shako"
+	      name="Austrian Shako"
+	      subtype="head_armor"
+	      mesh="gap_austrian_shako"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_shako_officer"
+	      name="Austrian Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_austrian_shako_officer"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_shako_insurrection"
+	      name="Austrian Insurrection Shako"
+	      subtype="head_armor"
+	      mesh="gap_austrian_shako_insurrection"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_shako_insurrection_officer"
+	      name="Austrian Insurrection Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_austrian_shako_insurrection_officer"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_hussar_shako"
+	      name="Hungarian Hussar Shako"
+	      subtype="head_armor"
+	      mesh="gap_austrian_hussar_shako"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_leibhussar_shako"
+	      name="Austrian Hussar Shako"
+	      subtype="head_armor"
+	      mesh="gap_austrian_leibhussar_shako"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_jaeger_hat"
+	      name="Austrian Jaeger Corsehut"
+	      subtype="head_armor"
+	      mesh="gap_austrian_jaeger_hat"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_jaeger_hat_officer"
+	      name="Austrian Jaeger Officer Corsehut"
+	      subtype="head_armor"
+	      mesh="gap_austrian_jaeger_hat_officer"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_grenadier_bearskin"
+	      name="Austrian Grenadier Bearskin"
+	      subtype="head_armor"
+	      mesh="gap_austrian_grenadier_bearskin"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_grenadier_bearskin_officer"
+	      name="Austrian Grenadier Officer Bearskin"
+	      subtype="head_armor"
+	      mesh="gap_austrian_grenadier_bearskin_officer"
+	      culture="Culture.vlandia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_infantry_helmet"
+	      name="Austrian Infantry Raupenhelm"
+	      subtype="head_armor"
+	      mesh="gap_infantry_helmet_austrian"
+	      culture="Culture.vlandia"
+	      weight="2"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_cavalry_helmet"
+	      name="Austrian Cavalry Raupenhelm"
+	      subtype="head_armor"
+	      mesh="gap_cavalry_helmet_austrian"
+	      culture="Culture.vlandia"
+	      weight="2"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_cavalry_helmet_officer"
+	      name="Austrian Officer Raupenhelm"
+	      subtype="head_armor"
+	      mesh="gap_cavalry_helmet_austrian_officer"
+	      culture="Culture.vlandia"
+	      weight="2"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_line_stovepipe"
+	      name="British Infantry Stovepipe"
+	      subtype="head_armor"
+	      mesh="gap_british_stovepipe_line"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_rifle_stovepipe"
+	      name="British Rifle Stovepipe"
+	      subtype="head_armor"
+	      mesh="gap_british_stovepipe_rifle"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_line_shako"
+	      name="British Infantry Shako"
+	      subtype="head_armor"
+	      mesh="british_line_shako_ranker"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_line_shako_officer"
+	      name="British Infantry Officer Shako"
+	      subtype="head_armor"
+	      mesh="british_line_shako_officer"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_kgl_shako"
+	      name="British KGL Shako"
+	      subtype="head_armor"
+	      mesh="british_kgl_shako_ranker"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_kgl_shako_officer"
+	      name="British KGL Officer Shako"
+	      subtype="head_armor"
+	      mesh="british_kgl_shako_officer"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_coldstream_shako"
+	      name="British Guard Shako"
+	      subtype="head_armor"
+	      mesh="british_coldstream_shako_ranker"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_coldstream_shako_officer"
+	      name="British Guard Officer Shako"
+	      subtype="head_armor"
+	      mesh="british_coldstream_shako_officer"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_hussar_colpack"
+	      name="British Hussar Colpack"
+	      subtype="head_armor"
+	      mesh="gap_british_hussar_colpack"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_cavalry_helmet_horseguard"
+	      name="British Horseguard Helmet"
+	      subtype="head_armor"
+	      mesh="gap_cavalry_helmet_british_horseguard"
+	      culture="Culture.battania"
+	      weight="2"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_bonnet"
+	      name="British Highland Bonnet"
+	      subtype="head_armor"
+	      mesh="highlander_bonnet"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_bonnet_hair"
+	      name="British Highland Bonnet(Hair)"
+	      subtype="head_armor"
+	      mesh="highlander_bonnet_hair"
+	      culture="Culture.battania"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_bicorne_officer"
+	      name="French Officer Bicorne"
+	      subtype="head_armor"
+	      mesh="gap_bicorne_french"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_youngguard"
+	      name="French Young Guard Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_youngguard"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_youngguard_officer"
+	      name="French Young Guard Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_youngguard_officer"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_guard_bearskin"
+	      name="French Guard Bearskin"
+	      subtype="head_armor"
+	      mesh="gap_french_guard_bearskin"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_guard_bearskin_officer"
+	      name="French Guard Officer Bearskin"
+	      subtype="head_armor"
+	      mesh="gap_french_guard_bearskin_officer"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_grenadier"
+	      name="French Grenadier Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_grenadier"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_line"
+	      name="French Line Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_line"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_voltigeur"
+	      name="French Voltigeur Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_voltigeur"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_vistula"
+	      name="French Vistula Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_vistula"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_lineofficer"
+	      name="French Line Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_officer"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_vistula_officer"
+	      name="French Vistula Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_vistula_officer"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_grenofficer"
+	      name="French Grenadier Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_officer_grenadier"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_voltofficer"
+	      name="French Voltigeur Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_officer_voltigeur"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_shako_hussar"
+	      name="French Hussar Shako"
+	      subtype="head_armor"
+	      mesh="gap_french_shako_hussar"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_carabineer_helmet"
+	      name="French Carabineer Helmet"
+	      subtype="head_armor"
+	      mesh="gap_cavalry_helmet_french_carabineer"
+	      culture="Culture.vlandia"
+	      weight="2"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_cuirassier_helmet"
+	      name="French Cuirassier Helmet"
+	      subtype="head_armor"
+	      mesh="gap_cavalry_helmet_french_cuirassier"
+	      culture="Culture.vlandia"
+	      weight="2"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_french_dragoon_helmet"
+	      name="French Dragoon Helmet"
+	      subtype="head_armor"
+	      mesh="gap_cavalry_helmet_french_dragoon"
+	      culture="Culture.vlandia"
+	      weight="2"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_italian_shako"
+	      name="Italian Infantry Shako"
+	      subtype="head_armor"
+	      mesh="gap_italian_shako"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_italian_shako_voltigeur"
+	      name="Italian Voltigeur Shako"
+	      subtype="head_armor"
+	      mesh="gap_italian_shako_voltigeur"
+	      culture="Culture.empire"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_prussian_cap_landwehr"
+	      name="Prussian Landwehr Cap"
+	      subtype="head_armor"
+	      mesh="prussian_landwehr_cap"
+	      culture="Culture.sturgia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_prussian_cap_freikrops"
+	      name="Prussian Freikorps Officer Cap"
+	      subtype="head_armor"
+	      mesh="prussian_freikorps_officer_cap"
+	      culture="Culture.sturgia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_prussian_shako"
+	      name="Prussian Infantry Shako"
+	      subtype="head_armor"
+	      mesh="gap_prussian_shako"
+	      culture="Culture.sturgia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_prussian_shako_2"
+	      name="Prussian Infantry Shako"
+	      subtype="head_armor"
+	      mesh="gap_prussian_shako_2"
+	      culture="Culture.sturgia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_prussian_shako_hussar"
+	      name="Prussian Hussar Shako"
+	      subtype="head_armor"
+	      mesh="gap_prussian_hussar_shako"
+	      culture="Culture.sturgia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_prussian_guard_shako"
+	      name="Prussian Guard Shako"
+	      subtype="head_armor"
+	      mesh="gap_prussian_shako_guard"
+	      culture="Culture.sturgia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_prussian_guard_shako_officer"
+	      name="Prussian Guard Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_prussian_shako_guard_officer"
+	      culture="Culture.sturgia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_cap_militia"
+	      name="Russian Militia Cap"
+	      subtype="head_armor"
+	      mesh="gap_russian_militia_cap"
+	      culture="Culture.sturgia"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_mitre_cap"
+	      name="Russian Pavlovskiy Mitre Cap"
+	      subtype="head_armor"
+	      mesh="gap_russian_mitre_cap"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_cavalry_helmet"
+	      name="Russian Chevalier Helmet"
+	      subtype="head_armor"
+	      mesh="gap_cavalry_helmet_russian"
+	      culture="Culture.khuzait"
+	      weight="2.1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_shako"
+	      name="Russian Infantry Shako"
+	      subtype="head_armor"
+	      mesh="gap_russian_shako"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_shako_jaeger"
+	      name="Russian Jaeger Shako"
+	      subtype="head_armor"
+	      mesh="gap_russian_shako_jaeger"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_shako_officer"
+	      name="Russian Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_russian_shako_officer"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_guard_shako"
+	      name="Russian Guard Shako"
+	      subtype="head_armor"
+	      mesh="gap_russian_guard_shako"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_guard_shako_officer"
+	      name="Russian Guard Officer Shako"
+	      subtype="head_armor"
+	      mesh="gap_russian_guard_shako_officer"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_partizan_hat_1"
+	      name="Russian Partizani Hat"
+	      subtype="head_armor"
+	      mesh="khuzait_helmet_o"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_partizan_hat_2"
+	      name="Russian Partizani Hat"
+	      mesh="sturgia_helmet_j"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type2"
+			       beard_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_partizan_hat_3"
+	      name="Russian Partizani Hat"
+	      subtype="head_armor"
+	      mesh="sturgia_leather_cap_a"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_ottoman_janissary_hat"
+	      name="Ottoman Janissary Hat"
+	      subtype="head_armor"
+	      mesh="gap_janissary_hat"
+	      culture="Culture.aserai"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_ottoman_janissary_hat_officer"
+	      name="Ottoman Janissary Officer Hat"
+	      subtype="head_armor"
+	      mesh="gap_janissary_hat_officer"
+	      culture="Culture.aserai"
+	      weight="1"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+</Items>

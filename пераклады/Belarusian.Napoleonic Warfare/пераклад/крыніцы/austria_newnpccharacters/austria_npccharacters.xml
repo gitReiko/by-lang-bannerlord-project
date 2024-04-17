@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old npc characters by adding nodes to this xml. For examples please refer to: SandBoxCore/ModuleData/spnpccharacters.xml, SandBox/ModuleData/lords.xml-->
+<NPCCharacters>
+	<NPCCharacter id="gap_austrian_militia"
+	              default_group="Ranged"
+	              level="5"
+	              name="Austrian Landwehr"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="TwoHanded"
+			       value="100"/>
+			<skill id="Polearm"
+			       value="100"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_austrian_infantry_1"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_infantry_4"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_infantry_14"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_infantry_59"/>
+			<upgrade_target id="NPCCharacter.gap_hungarian_infantry_2"/>
+			<upgrade_target id="NPCCharacter.gap_hungarian_infantry_19"/>
+			<upgrade_target id="NPCCharacter.gap_hungarian_infantry_60"/>
+			<upgrade_target id="NPCCharacter.gap_hungarian_infantry_62"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_skirmisher"/>
+			<upgrade_target id="NPCCharacter.gap_hungarian_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_surgeon"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_jaeger_hat"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_garrison"
+	              default_group="Ranged"
+	              level="7"
+	              name="Austrian Garrison"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="110"/>
+			<skill id="TwoHanded"
+			       value="110"/>
+			<skill id="Polearm"
+			       value="110"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry_1"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_infantry_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_elite_garrison"
+	              default_group="Ranged"
+	              level="11"
+	              name="Austrian Veteran Garrison"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="145"/>
+			<skill id="TwoHanded"
+			       value="145"/>
+			<skill id="Polearm"
+			       value="145"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="110"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry_1"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_infantry_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_caravanguy"
+	              default_group="Ranged"
+	              level="10"
+	              name="Austrian Caravan Guard"
+	              occupation="CaravanGuard"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="110"/>
+			<skill id="TwoHanded"
+			       value="110"/>
+			<skill id="Polearm"
+			       value="110"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="110"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_surgeon"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_infantry_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_skirmisher"
+	              default_group="Ranged"
+	              level="13"
+	              name="Austrian Skirmisher"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="115"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="145"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_austrian_rifleman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_light_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_recruit"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_jaeger_hat"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_skirmisher"
+	              default_group="Ranged"
+	              level="13"
+	              name="Hungarian Skirmisher"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="120"/>
+			<skill id="TwoHanded"
+			       value="120"/>
+			<skill id="Polearm"
+			       value="120"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="140"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_hungarian_insurrection"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_grenzer"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_grenzer_9"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_light_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_recruit"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako_insurrection"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_infantry_59"
+	              default_group="Ranged"
+	              level="11"
+	              name="Austrian Line Infantry (59)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_austrian_grenadier_59"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_grenadier_59"
+	              default_group="Ranged"
+	              level="21"
+	              name="Austrian Grenadier (59)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_grenadier_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_infantry_1"
+	              default_group="Ranged"
+	              level="11"
+	              name="Austrian Line Infantry (1)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_austrian_grenadier_1"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry_1"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_grenadier_1"
+	              default_group="Ranged"
+	              level="21"
+	              name="Austrian Grenadier (1)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry_1"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_grenadier_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_infantry_4"
+	              default_group="Ranged"
+	              level="11"
+	              name="Austrian Line Infantry (4)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_austrian_grenadier_4"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry_4"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_grenadier_4"
+	              default_group="Ranged"
+	              level="21"
+	              name="Austrian Grenadier (4)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry_4"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_grenadier_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_infantry_14"
+	              default_group="Ranged"
+	              level="11"
+	              name="Austrian Line Infantry (14)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_austrian_grenadier_14"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry_14"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_grenadier_14"
+	              default_group="Ranged"
+	              level="21"
+	              name="Austrian Grenadier (14)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_infantry_14"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_grenadier_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_infantry_2"
+	              default_group="Ranged"
+	              level="11"
+	              name="Hungarian Line Infantry (2)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_hungarian_grenadier_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_infantry_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_grenadier_2"
+	              default_group="Ranged"
+	              level="21"
+	              name="Hungarian Grenadier (2)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_infantry_2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_grenadier_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_infantry_19"
+	              default_group="Ranged"
+	              level="11"
+	              name="Hungarian Line Infantry (19)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_hungarian_grenadier_19"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_infantry_19"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_grenadier_19"
+	              default_group="Ranged"
+	              level="21"
+	              name="Hungarian Grenadier (19)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_infantry_19"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_grenadier_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_infantry_60"
+	              default_group="Ranged"
+	              level="11"
+	              name="Hungarian Line Infantry (60)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_hungarian_grenadier_60"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_infantry_60"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_grenadier_60"
+	              default_group="Ranged"
+	              level="21"
+	              name="Hungarian Grenadier (60)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_infantry_60"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_grenadier_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_infantry_62"
+	              default_group="Ranged"
+	              level="11"
+	              name="Hungarian Line Infantry (62)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_hungarian_grenadier_62"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_infantry_62"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_grenadier_62"
+	              default_group="Ranged"
+	              level="21"
+	              name="Hungarian Grenadier (62)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_infantry_62"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_grenadier_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_hungarian_insurrection"
+	              default_group="Ranged"
+	              level="18"
+	              name="Hungarian Insurrectionist"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="70"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="150"/>
+			<skill id="TwoHanded"
+			       value="150"/>
+			<skill id="Polearm"
+			       value="150"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="145"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_hungarian_coat_insurrection"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako_insurrection"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment_light"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gap_austrian_grenzer"
+	              default_group="Ranged"
+	              level="18"
+	              name="Hungarian Grenzer (3)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              formation_position_preference="Back"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="75"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="125"/>
+			<skill id="TwoHanded"
+			       value="125"/>
+			<skill id="Polearm"
+			       value="125"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="145"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_grenzer"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment_light"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_jaeger_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_jaeger_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_grenzer"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment_light"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_grenzer_9"
+	              default_group="Ranged"
+	              level="18"
+	              name="Hungarian Grenzer (9)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              formation_position_preference="Back"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="75"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="125"/>
+			<skill id="TwoHanded"
+			       value="125"/>
+			<skill id="Polearm"
+			       value="125"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="145"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_grenzer_9"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment_light"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_jaeger_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_jaeger_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_grenzer_9"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment_light"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_rifleman"
+	              default_group="Ranged"
+	              level="19"
+	              name="Austrian Jaeger"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              formation_position_preference="Back"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="75"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="115"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="160"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_jaeger_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_jaeger_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_jaeger"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian_jaeger"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_jaeger_hat"/>
+				<equipment slot="Cape"
+				           id="Item.gap_austrian_equipment_light"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_cavalry"
+	              default_group="Cavalry"
+	              level="10"
+	              name="Austrian Cavalry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Riding"
+			       value="70"/>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="TwoHanded"
+			       value="85"/>
+			<skill id="Polearm"
+			       value="85"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_austrian_leibhussar"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_hussar"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_chevauxleger"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_dragoon"/>
+			<upgrade_target id="NPCCharacter.gap_austrian_cuirassier"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_recruit"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_austrian_jaeger"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_bicorne"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Horse"
+				           id="Item.medium_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_austrian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_leibhussar"
+	              default_group="Cavalry"
+	              level="22"
+	              name="Austrian Hussar"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="155"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_leibhussar"/>
+				<equipment slot="Leg"
+				           id="Item.gap_austrian_hussar_boots"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_leibhussar_shako"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_hussar_equipment_austrian"/>
+				<equipment slot="Horse"
+				           id="Item.hussar_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_austrian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_hussar"
+	              default_group="Cavalry"
+	              level="20"
+	              name="Hungarian Hussar"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="140"/>
+			<skill id="OneHanded"
+			       value="150"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_hussar"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_hungarian"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_hussar_shako"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_hussar_equipment_austrian"/>
+				<equipment slot="Horse"
+				           id="Item.hussar_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_austrian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_chevauxleger"
+	              default_group="HorseArcher"
+	              level="20"
+	              name="Austrian Chevauxleger"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="120"/>
+			<skill id="OneHanded"
+			       value="145"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_cavalry"/>
+				<equipment slot="Item1"
+				           id="Item.gap_straight_sword"/>
+				<equipment slot="Item2"
+				           id="Item.cartridges"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_chevauxleger"/>
+				<equipment slot="Leg"
+				           id="Item.gap_austrian_officer_boots"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_cavalry_helmet"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.light_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_austrian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_dragoon"
+	              default_group="HorseArcher"
+	              level="21"
+	              name="Austrian Dragoon"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="135"/>
+			<skill id="OneHanded"
+			       value="150"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_cavalry"/>
+				<equipment slot="Item1"
+				           id="Item.gap_pallasch"/>
+				<equipment slot="Item2"
+				           id="Item.cartridges"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_dragoon"/>
+				<equipment slot="Leg"
+				           id="Item.gap_austrian_officer_boots"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_cavalry_helmet"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.medium_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_austrian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_austrian_cuirassier"
+	              default_group="Cavalry"
+	              level="25"
+	              name="Austrian Cuirassier"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_pallasch"/>
+				<equipment slot="Body"
+				           id="Item.gap_austrian_coat_cuirassier"/>
+				<equipment slot="Leg"
+				           id="Item.gap_austrian_officer_boots"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_cavalry_helmet"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.cuirassier_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_austrian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

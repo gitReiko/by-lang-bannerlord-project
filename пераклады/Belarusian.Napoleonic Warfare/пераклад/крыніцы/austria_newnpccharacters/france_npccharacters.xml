@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old npc characters by adding nodes to this xml. For examples please refer to: SandBoxCore/ModuleData/spnpccharacters.xml, SandBox/ModuleData/lords.xml-->
+<NPCCharacters>
+	<NPCCharacter id="gap_french_militia"
+	              default_group="Ranged"
+	              level="5"
+	              name="French National Guard"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="TwoHanded"
+			       value="100"/>
+			<skill id="Polearm"
+			       value="100"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_french_infantry"/>
+			<upgrade_target id="NPCCharacter.gap_french_infantry_grenadier"/>
+			<upgrade_target id="NPCCharacter.gap_french_infantry_vistula"/>
+			<upgrade_target id="NPCCharacter.gap_italian_infantry"/>
+			<upgrade_target id="NPCCharacter.gap_italian_infantry2"/>
+			<upgrade_target id="NPCCharacter.gap_italian_infantry3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_recruit"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_bicorne_officer"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_caravanguy"
+	              default_group="Ranged"
+	              level="10"
+	              name="French Caravan Guard"
+	              occupation="CaravanGuard"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="110"/>
+			<skill id="TwoHanded"
+			       value="110"/>
+			<skill id="Polearm"
+			       value="110"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="110"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_recruit"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_infantry"
+	              default_group="Ranged"
+	              level="11"
+	              name="French Line Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_french_guard"/>
+			<upgrade_target id="NPCCharacter.gap_french_youngguard"/>
+			<upgrade_target id="NPCCharacter.gap_french_voltigeur"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_infantry"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_shako_line"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_infantry_grenadier"
+	              default_group="Ranged"
+	              level="11"
+	              name="French Grenadier"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_french_guard"/>
+			<upgrade_target id="NPCCharacter.gap_french_youngguard"/>
+			<upgrade_target id="NPCCharacter.gap_french_voltigeur"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_grenadier"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_shako_grenadier"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_infantry_vistula"
+	              default_group="Ranged"
+	              level="11"
+	              name="French Vistula Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_french_guard"/>
+			<upgrade_target id="NPCCharacter.gap_french_youngguard"/>
+			<upgrade_target id="NPCCharacter.gap_french_voltigeur"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_infantry_vistula"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_vistula"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_shako_vistula"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_guard"
+	              default_group="Ranged"
+	              level="21"
+	              name="French Guard (Old)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_guard"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_guard"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_guard_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment_guard"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_youngguard"
+	              default_group="Ranged"
+	              level="20"
+	              name="French Guard (Young)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="155"/>
+			<skill id="TwoHanded"
+			       value="155"/>
+			<skill id="Polearm"
+			       value="155"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_guard"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_voltigeur"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_shako_youngguard"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment_guard"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_voltigeur"
+	              default_group="Ranged"
+	              level="18"
+	              name="French Voltigeur"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              formation_position_preference="Back"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="75"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="125"/>
+			<skill id="TwoHanded"
+			       value="125"/>
+			<skill id="Polearm"
+			       value="125"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="145"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_voltigeur"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_voltigeur"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_shako_voltigeur"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_light_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_light_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_voltigeur"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_voltigeur"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_shako_voltigeur"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_cavalry"
+	              default_group="Cavalry"
+	              level="10"
+	              name="French Cavalry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="45"/>
+			<skill id="Riding"
+			       value="100"/>
+			<skill id="OneHanded"
+			       value="115"/>
+			<skill id="TwoHanded"
+			       value="85"/>
+			<skill id="Polearm"
+			       value="85"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_french_hussar"/>
+			<upgrade_target id="NPCCharacter.gap_french_dragoon"/>
+			<upgrade_target id="NPCCharacter.gap_french_carabineer"/>
+			<upgrade_target id="NPCCharacter.gap_french_cuirassier"/>
+			<upgrade_target id="NPCCharacter.gap_french_cavguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_recruit"/>
+				<equipment slot="Leg"
+				           id="Item.gap_british_cavalry_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_bicorne"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Horse"
+				           id="Item.medium_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_french"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_hussar"
+	              default_group="Cavalry"
+	              level="19"
+	              name="French Hussar"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="140"/>
+			<skill id="OneHanded"
+			       value="150"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_hussar"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_dragoon_pants_filled"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_shako_hussar"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_hussar_equipment_french"/>
+				<equipment slot="Horse"
+				           id="Item.hussar_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_french"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_dragoon"
+	              default_group="HorseArcher"
+	              level="21"
+	              name="French Dragoon"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="150"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="115"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_cavalry"/>
+				<equipment slot="Item1"
+				           id="Item.gap_straight_sword"/>
+				<equipment slot="Item2"
+				           id="Item.cartridges"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_dragoon"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_dragoon_pants_filled"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_dragoon_helmet"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.medium_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_french"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_carabineer"
+	              default_group="Cavalry"
+	              level="23"
+	              name="French Carabineer"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="150"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_cuirassiersword"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_carabineer"/>
+				<equipment slot="Leg"
+				           id="Item.gap_russian_dragoon_pants_filled"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_carabineer_helmet"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.cuirassier_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_french"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_cuirassier"
+	              default_group="Cavalry"
+	              level="24"
+	              name="French Cuirassier"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_cuirassiersword"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_cuirassier"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_guard"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_cuirassier_helmet"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.cuirassier_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_french"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_french_cavguard"
+	              default_group="Cavalry"
+	              level="27"
+	              name="French Grenadier a Cheval"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="165"/>
+			<skill id="OneHanded"
+			       value="180"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="130"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_cuirassiersword"/>
+				<equipment slot="Body"
+				           id="Item.gap_french_coat_guard"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_guard"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_guard_bearskin"/>
+				<equipment slot="Gloves"
+				           id="Item.officer_gloves_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.cuirassier_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_french"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_italian_infantry"
+	              default_group="Ranged"
+	              level="11"
+	              name="Italian Line Infantry (1)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_italian_guard"/>
+			<upgrade_target id="NPCCharacter.gap_italian_voltigeur"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_italian_coat_line"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_italian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_italian_infantry2"
+	              default_group="Ranged"
+	              level="11"
+	              name="Italian Line Infantry (4)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_italian_guard"/>
+			<upgrade_target id="NPCCharacter.gap_italian_voltigeur"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_italian_coat_line2"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_italian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_italian_infantry3"
+	              default_group="Ranged"
+	              level="11"
+	              name="Italian Line Infantry (7)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_italian_guard"/>
+			<upgrade_target id="NPCCharacter.gap_italian_voltigeur"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_italian_coat_line3"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_italian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_italian_guard"
+	              default_group="Ranged"
+	              level="21"
+	              name="Italian Guard (Milan)"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_italian_coat_guard"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_italian_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_italian_voltigeur"
+	              default_group="Ranged"
+	              level="18"
+	              name="Italian Voltigeur"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              formation_position_preference="Back"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="75"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="125"/>
+			<skill id="TwoHanded"
+			       value="125"/>
+			<skill id="Polearm"
+			       value="125"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="145"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_italian_coat_voltigeur"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_italian_shako_voltigeur"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_light_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_light_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_italian_coat_voltigeur"/>
+				<equipment slot="Leg"
+				           id="Item.gap_infantry_pants_french_infantry"/>
+				<equipment slot="Head"
+				           id="Item.gap_italian_shako_voltigeur"/>
+				<equipment slot="Cape"
+				           id="Item.gap_french_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+	<Item id="gap_infantry_pants_austrian"
+	      name="Austrian Infantry Gaiters"
+	      mesh="gap_infantry_pants_austrian"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_hussar_boots"
+	      name="Austrian Hussar Boots"
+	      mesh="gap_austrian_hussar_boots"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_hungarian_hussar_boots"
+	      name="Hungarian Hussar Boots"
+	      mesh="gap_hungarian_hussar_boots"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_officer_boots"
+	      name="Austrian Officer Boots"
+	      mesh="gap_austrian_officer_boots"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.02"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_hungarian_officer_boots"
+	      name="Hungarian Officer Boots"
+	      mesh="gap_austrian_hungarian_officer_boots"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.02"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_jaeger_officer_boots"
+	      name="Austrian Jaeger Officer Boots"
+	      mesh="gap_austrian_jaeger_officer_boots"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.02"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_austrian_general_boots"
+	      name="Austrian General Boots"
+	      mesh="gap_austrian_general_boots"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.03"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_infantry_pants_hungarian"
+	      name="Hungarian Infantry Pants"
+	      mesh="gap_austrian_hungarian_pants"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_infantry_pants_austrian_jaeger"
+	      name="Austrian Jaeger Gaiters"
+	      mesh="gap_infantry_pants_austrian_jaeger"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_coldstream_pants"
+	      name="British Guard Gaiters"
+	      mesh="gap_british_coldstream_pants"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_highlander_pants"
+	      name="British Highlander Pants"
+	      mesh="gap_british_highlander_pants"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_highlander_kilt"
+	      name="British Highlander Kilt"
+	      mesh="gap_british_highlander_kilt"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_highlander_kilt_2"
+	      name="British Highlander Kilt"
+	      mesh="gap_british_highlander_kilt_2"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_infantry_pants"
+	      name="British Infantry Gaiters"
+	      mesh="gap_british_infantry_pants"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_rifleman_pants"
+	      name="British Rifleman Gaiters"
+	      mesh="gap_british_rifleman_pants"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_hussar_pants"
+	      name="British Hussar Pants"
+	      mesh="gap_british_hussar_pants"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_british_cavalry_pants"
+	      name="British Cavalry Pants"
+	      mesh="gap_british_cavalry_pants"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_infantry_pants_french_guard"
+	      name="French Guard Gaiters"
+	      mesh="gap_french_gaiters_grap"
+	      culture="Culture.empire"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_infantry_pants_french_infantry"
+	      name="French Infantry Boots"
+	      mesh="gap_infantry_pants_french_infantry"
+	      culture="Culture.empire"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_infantry_pants_french_vistula"
+	      name="French Infantry Gaiters"
+	      mesh="gap_infantry_pants_french_vistula"
+	      culture="Culture.empire"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_infantry_pants_french_voltigeur"
+	      name="French Voltigeur Gaiters"
+	      mesh="gap_infantry_pants_french_voltigeur"
+	      culture="Culture.empire"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_ottoman_trousers_white"
+	      name="Ottoman Trousers"
+	      mesh="gap_ottoman_trousers_white"
+	      culture="Culture.aserai"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_ottoman_trousers_blue"
+	      name="Ottoman Trousers"
+	      mesh="gap_ottoman_trousers_blue"
+	      culture="Culture.aserai"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_infantry_pants_prussian"
+	      name="Prussian Infantry Boots"
+	      mesh="gap_infantry_pants_prussian"
+	      culture="Culture.sturgia"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_infantry_pants_prussian_jaeger"
+	      name="Prussian Jaeger Gaiters"
+	      mesh="gap_infantry_pants_prussian_jaeger"
+	      culture="Culture.sturgia"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_prussian_hussar_pants"
+	      name="Prussian Cavalry Gaiters"
+	      mesh="gap_prussian_hussar_pants"
+	      culture="Culture.sturgia"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_dragoon_pants"
+	      name="Russian Dragoon Pants"
+	      mesh="gap_russian_dragoon_pants"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_dragoon_pants_filled"
+	      name="Russian Dragoon Pants"
+	      mesh="gap_russian_dragoon_pants_filled"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_jaeger_pants"
+	      name="Russian Jaeger Gaiters"
+	      mesh="gap_russian_jaeger_pants"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_musketeer_pants"
+	      name="Russian Musketeer Gaiters"
+	      mesh="gap_russian_musketeer_pants"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="gap_russian_musketeer_pants_2"
+	      name="Russian Musketeer Gaiters"
+	      mesh="gap_russian_musketeer_pants_2"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="0.01"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+</Items>

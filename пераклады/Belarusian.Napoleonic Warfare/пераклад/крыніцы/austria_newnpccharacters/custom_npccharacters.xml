@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old npc characters by adding nodes to this xml. For examples please refer to: SandBoxCore/ModuleData/spnpccharacters.xml, SandBox/ModuleData/lords.xml-->
+<NPCCharacters>
+<NPCCharacter id="gap_darth_redcoat"
+	              default_group="Ranged"
+	              level="13"
+	              name="British Redcoat Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_redcoat_black"/>
+				<equipment slot="Leg"
+				           id="Item.gap_british_infantry_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_tricorne"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_redcoat_white"/>
+				<equipment slot="Leg"
+				           id="Item.gap_british_infantry_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_tricorne"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_redcoat_coloured"/>
+				<equipment slot="Leg"
+				           id="Item.gap_british_infantry_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_tricorne"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+<NPCCharacter id="gap_darth_redcoat_bp"
+	              default_group="Ranged"
+	              level="13"
+	              name="British Redcoat Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_redcoat_black"/>
+				<equipment slot="Leg"
+				           id="Item.gap_british_infantry_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_tricorne"/>
+				<equipment slot="Cape"
+				           id="Item.gap_british_equipment"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_redcoat_white"/>
+				<equipment slot="Leg"
+				           id="Item.gap_british_infantry_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_tricorne"/>
+				<equipment slot="Cape"
+				           id="Item.gap_british_equipment"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_redcoat_coloured"/>
+				<equipment slot="Leg"
+				           id="Item.gap_british_infantry_pants"/>
+				<equipment slot="Head"
+				           id="Item.gap_default_tricorne"/>
+				<equipment slot="Cape"
+				           id="Item.gap_british_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_darth_infantry"
+	              default_group="Ranged"
+	              level="13"
+	              name="Personal Line Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="70"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_darth_guard"/>
+			<upgrade_target id="NPCCharacter.gap_darth_rifleman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_coat_infantry"/>
+				<equipment slot="Leg"
+				           id="Item.gap_austrian_general_boots"/>
+				<equipment slot="Head"
+				           id="Item.gap_austrian_hussar_shako"/>
+				<equipment slot="Cape"
+				           id="Item.gap_british_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_darth_guard"
+	              default_group="Ranged"
+	              level="23"
+	              name="Personal Guard"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="70"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_coat_infantry_officer"/>
+				<equipment slot="Leg"
+				           id="Item.gap_austrian_hungarian_hussar_boots"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_guard_bearskin"/>
+				<equipment slot="Cape"
+				           id="Item.gap_british_equipment"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_darth_rifleman"
+	              default_group="Ranged"
+	              level="23"
+	              name="Personal Rifleman"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              formation_position_preference="Back"
+	              culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="80"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="115"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="160"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_jaeger_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_jaeger_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_british_coat_hussar"/>
+				<equipment slot="Leg"
+				           id="Item.gap_austrian_hussar_boots"/>
+				<equipment slot="Head"
+				           id="Item.gap_french_shako_hussar"/>
+				<equipment slot="Cape"
+				           id="Item.gap_british_equipment_rifle"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

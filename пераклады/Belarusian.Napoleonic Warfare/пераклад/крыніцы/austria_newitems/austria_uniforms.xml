@@ -1,0 +1,2326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+	<Item id="gap_austrian_coat_recruit"
+	      name="Austrian Recruit Uniform"
+	      mesh="gap_recruit_austrian"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_surgeon"
+	      name="Austrian Surgeon Coat"
+	      mesh="gap_austrian_surgeon"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_greatcoat_officer"
+	      name="Austrian Officer Greatcoat"
+	      mesh="gap_austrian_greatcoat_officer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_infantry"
+	      name="Austrian Line Uniform (59)"
+	      mesh="gap_austrian_infantry"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_infantry_officer"
+	      name="Austrian Officer Uniform (59)"
+	      mesh="gap_austrian_officer_infantry"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_infantry_1"
+	      name="Austrian Line Uniform (1)"
+	      mesh="gap_austrian_infantry_1"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_infantry_officer_1"
+	      name="Austrian Officer Uniform (1)"
+	      mesh="gap_austrian_officer_infantry_1"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_infantry_4"
+	      name="Austrian Line Uniform (4)"
+	      mesh="gap_austrian_infantry_4"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_infantry_officer_4"
+	      name="Austrian Officer Uniform (4)"
+	      mesh="gap_austrian_officer_infantry_4"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_infantry_14"
+	      name="Austrian Line Uniform (14)"
+	      mesh="gap_austrian_infantry_14"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_infantry_officer_14"
+	      name="Austrian Officer Uniform (14)"
+	      mesh="gap_austrian_officer_infantry_14"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	
+	<Item id="gap_hungarian_coat_infantry_2"
+	      name="Hungarian Line Uniform (2)"
+	      mesh="gap_hungarian_infantry_2"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_infantry_officer_2"
+	      name="Hungarian Officer Uniform (2)"
+	      mesh="gap_hungarian_officer_infantry_2"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_infantry_19"
+	      name="Hungarian Line Uniform (19)"
+	      mesh="gap_hungarian_infantry_19"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_infantry_officer_19"
+	      name="Hungarian Officer Uniform (19)"
+	      mesh="gap_hungarian_officer_infantry_19"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_infantry_60"
+	      name="Hungarian Line Uniform (60)"
+	      mesh="gap_hungarian_infantry_60"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_infantry_officer_60"
+	      name="Hungarian Officer Uniform (60)"
+	      mesh="gap_hungarian_officer_infantry_60"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_infantry_62"
+	      name="Hungarian Line Uniform (62)"
+	      mesh="gap_hungarian_infantry_62"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_infantry_officer_62"
+	      name="Hungarian Officer Uniform (62)"
+	      mesh="gap_hungarian_officer_infantry_62"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_insurrection"
+	      name="Hungarian Insurrection Uniform"
+	      mesh="gap_hungarian_insurrection"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hungarian_coat_insurrection_officer"
+	      name="Hungarian Insurrection Officer Uniform"
+	      mesh="gap_hungarian_officer_insurrection"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_grenzer"
+	      name="Austrian Grenzer Uniform (3)"
+	      mesh="gap_austrian_grenzer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_grenzer_officer_3"
+	      name="Austrian Grenzer Officer Uniform (3)"
+	      mesh="gap_austrian_officer_grenzer_3"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_grenzer_9"
+	      name="Austrian Grenzer Uniform (9)"
+	      mesh="gap_austrian_grenzer_9"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_grenzer_officer_9"
+	      name="Austrian Grenzer Officer Uniform (9)"
+	      mesh="gap_austrian_officer_grenzer_9"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_jaeger"
+	      name="Austrian Jaeger Uniform (10)"
+	      mesh="gap_austrian_jaeger"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_jaeger_officer"
+	      name="Austrian Jaeger Officer Uniform"
+	      mesh="gap_austrian_officer_jaeger"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_hussar"
+	      name="Hungarian Hussar Uniform"
+	      mesh="gap_hussar_hungarian"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_leibhussar"
+	      name="Austrian Hussar Uniform"
+	      mesh="gap_hussar_austrian"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_chevauxleger"
+	      name="Austrian Chevauxleger Uniform"
+	      mesh="gap_austrian_chevauxleger"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_chevauxleger_officer"
+	      name="Austrian Chevauxleger Officer Uniform"
+	      mesh="gap_austrian_chevauxleger_officer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_dragoon"
+	      name="Austrian Dragoon Uniform"
+	      mesh="gap_austrian_dragoon"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_dragoon_officer"
+	      name="Austrian Dragoon Officer Uniform"
+	      mesh="gap_austrian_dragoon_officer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_cuirassier"
+	      name="Austrian Cuirassier Uniform"
+	      mesh="gap_austrian_cuirassier"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="16.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="38"
+			       arm_armor="8"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_cuirassier_officer"
+	      name="Austrian Cuirassier Officer Uniform"
+	      mesh="gap_austrian_cuirassier_officer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="16.0"
+	      difficulty="0"
+	      appearance="0.04"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45"
+			       arm_armor="8"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_coat_general"
+	      name="Austrian General Uniform"
+	      mesh="gap_austrian_general"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.1"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_recruit"
+	      name="British Recruit Uniform"
+	      mesh="gap_recruit_british"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_coldstream"
+	      name="British Guard Uniform"
+	      mesh="gap_british_coldstream"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_coldstream_officer"
+	      name="British Guard Officer Uniform"
+	      mesh="gap_british_guard_officer"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_dragoon"
+	      name="British Heavy Dragoon Uniform"
+	      mesh="gap_british_dragoon"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_blues"
+	      name="British Royal Horse Guard Uniform"
+	      mesh="gap_british_blues"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_redcoat_black"
+	      name="British Redcoat Black"
+	      mesh="gap_british_redcoat_black"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_redcoat_white"
+	      name="British Redcoat White"
+	      mesh="gap_british_redcoat_white"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_redcoat_coloured"
+	      name="British Redcoat Coloured"
+	      mesh="gap_british_redcoat_coloured"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_infantry"
+	      name="British Infantry Uniform"
+	      mesh="gap_british_infantry"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_infantry_officer"
+	      name="British Officer Uniform"
+	      mesh="gap_british_officer"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_kgl_officer"
+	      name="British KGL Officer Uniform"
+	      mesh="gap_british_kgl_officer"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_highlander"
+	      name="British Highlander Uniform"
+	      mesh="gap_british_highlander"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_highlander_officer"
+	      name="British Highlander Officer Uniform"
+	      mesh="gap_british_highlander_officer"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_light"
+	      name="British Light Uniform"
+	      mesh="gap_british_light"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_highland_light"
+	      name="British Highland Light Uniform"
+	      mesh="gap_british_highland_light"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_highland_light_officer"
+	      name="British Highland Light Officer Uniform"
+	      mesh="gap_british_highlander_light_officer"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_rifleman"
+	      name="British Rifleman Uniform"
+	      mesh="gap_british_rifleman"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_coat_hussar"
+	      name="British Hussar Uniform"
+	      mesh="gap_hussar_british"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_recruit"
+	      name="French Recruit Uniform"
+	      mesh="gap_french_natguard"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_carabineer"
+	      name="French Carabineer Cuirass"
+	      mesh="gap_french_carabineer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="24.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_cuirassier"
+	      name="French Cuirassier Cuirass"
+	      mesh="gap_french_cuirassier"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="24.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_dragoon"
+	      name="French Dragoon Uniform"
+	      mesh="gap_french_dragoon"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_guard"
+	      name="French Guard Uniform"
+	      mesh="gap_french_guard"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_infantry"
+	      name="French Infantry Uniform"
+	      mesh="gap_french_infantry"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_infantry_vistula"
+	      name="French Vistula Uniform"
+	      mesh="gap_french_infantry_vistula"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_grenadier"
+	      name="French Grenadier Uniform"
+	      mesh="gap_french_grenadier"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_voltigeur"
+	      name="French Voltigeur Uniform"
+	      mesh="gap_french_voltigeur"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_officer_guard"
+	      name="French Guard Officer Uniform"
+	      mesh="gap_french_officer_guard"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_officer_youngguard"
+	      name="French Young Guard Officer Uniform"
+	      mesh="gap_french_officer_youngguard"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_officer_line"
+	      name="French Infantry Officer Uniform"
+	      mesh="gap_french_officer_line"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_officer_grenadier"
+	      name="French Grenadier Officer Uniform"
+	      mesh="gap_french_officer_grenadier"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_officer_vistula"
+	      name="French Vistula Officer Uniform"
+	      mesh="gap_french_officer_vistula"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_officer_voltigeur"
+	      name="French Voltigeur Officer Uniform"
+	      mesh="gap_french_officer_voltigeur"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_coat_hussar"
+	      name="French Hussar Uniform"
+	      mesh="gap_hussar_french"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_italian_coat_line"
+	      name="Italian Infantry Uniform"
+	      mesh="gap_italian_line"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_italian_coat_line2"
+	      name="Italian Infantry Uniform"
+	      mesh="gap_italian_line2"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_italian_coat_line3"
+	      name="Italian Infantry Uniform"
+	      mesh="gap_italian_line3"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_italian_coat_guard"
+	      name="Italian Guard Uniform"
+	      mesh="gap_italian_guard"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_italian_coat_voltigeur"
+	      name="Italian Voltigeur Uniform"
+	      mesh="gap_italian_voltigeur"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_short_red"
+	      name="Ottoman Shortcoat Red"
+	      mesh="gap_ottoman_shortcoat_red"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_short_green"
+	      name="Ottoman Shortcoat Green"
+	      mesh="gap_ottoman_shortcoat_green"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_short_blue"
+	      name="Ottoman Shortcoat Blue"
+	      mesh="gap_ottoman_shortcoat_blue"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_shorttunic"
+	      name="Ottoman Infantry Tunic"
+	      mesh="gap_ottoman_shorttunic"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_officer"
+	      name="Ottoman Officer Tunic"
+	      mesh="gap_ottoman_officer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_great_white"
+	      name="Ottoman Greatcoat White"
+	      mesh="gap_ottoman_greatcoat_white"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_great_orange"
+	      name="Ottoman Greatcoat Orange"
+	      mesh="gap_ottoman_greatcoat_orange"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_great_brown"
+	      name="Ottoman Greatcoat Brown"
+	      mesh="gap_ottoman_greatcoat_brown"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_great_green"
+	      name="Ottoman Greatcoat Green"
+	      mesh="gap_ottoman_greatcoat_green"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_ottoman_coat_great_dark"
+	      name="Ottoman Greatcoat Dark"
+	      mesh="gap_ottoman_greatcoat_dark"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_recruit"
+	      name="Prussian Recruit Uniform"
+	      mesh="gap_recruit_prussian"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_guard"
+	      name="Prussian Guard Uniform"
+	      mesh="gap_prussian_guard"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_infantry"
+	      name="Prussian Brandenburg Uniform"
+	      mesh="gap_prussian_infantry"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_rhine"
+	      name="Prussian Rhine Uniform"
+	      mesh="gap_prussian_rhine"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_landwehr"
+	      name="Prussian Landwehr Uniform"
+	      mesh="gap_prussian_landwehr"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_freikorps"
+	      name="Prussian Freikorps Uniform"
+	      mesh="gap_prussian_freikorps"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="10.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_rifleman"
+	      name="Prussian Rifleman Uniform"
+	      mesh="gap_prussian_rifleman"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_hussar"
+	      name="Prussian Hussar Uniform"
+	      mesh="gap_hussar_prussian"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_dragoon"
+	      name="Prussian Dragoon Uniform"
+	      mesh="gap_prussian_dragoon"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_coat_cuirassier"
+	      name="Prussian Cuirassier Uniform"
+	      mesh="gap_prussian_cuirassier"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.02"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_recruit"
+	      name="Russian Recruit Uniform"
+	      mesh="gap_recruit_russian"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_partizan"
+	      name="Russian Partizan Coat"
+	      mesh="gap_russian_partizan"
+	      culture="Culture.khuzait"
+	      weight="10.0"
+	      appearance="1"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       leg_armor="5"
+			       arm_armor="5"
+			       has_gender_variations="true"
+			       covers_body="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_partizan_2"
+	      name="Russian Partizan Coat"
+	      mesh="gap_russian_partizan_2"
+	      culture="Culture.khuzait"
+	      weight="10.0"
+	      appearance="1"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       leg_armor="5"
+			       arm_armor="5"
+			       has_gender_variations="true"
+			       covers_body="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_partizan_3"
+	      name="Russian Partizan Coat"
+	      mesh="gap_russian_partizan_3"
+	      culture="Culture.khuzait"
+	      weight="10.0"
+	      appearance="1"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       leg_armor="5"
+			       arm_armor="5"
+			       has_gender_variations="true"
+			       covers_body="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_militia"
+	      name="Russian Militia Coat"
+	      mesh="gap_russian_militia"
+	      culture="Culture.khuzait"
+	      weight="10.0"
+	      appearance="1"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       leg_armor="10"
+			       arm_armor="5"
+			       has_gender_variations="true"
+			       covers_body="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_guard"
+	      name="Russian Guard Uniform"
+	      mesh="gap_russian_guard"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_infantry"
+	      name="Russian Infantry Uniform"
+	      mesh="gap_russian_infantry"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_pavlovskiy"
+	      name="Russian Pavlovskiy Uniform"
+	      mesh="gap_russian_pavlovskiy"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_rifleman"
+	      name="Russian Rifleman Uniform"
+	      mesh="gap_russian_rifleman"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_hussar"
+	      name="Russian Hussar Uniform"
+	      mesh="gap_hussar_russian"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="8.0"
+	      difficulty="0"
+	      appearance="0.01"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="3"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_coat_cuirassier"
+	      name="Russian Cuirassier Uniform"
+	      mesh="gap_russian_cuirassier"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="24.0"
+	      difficulty="0"
+	      appearance="0.03"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45"
+			       arm_armor="8"
+			       leg_armor="5"
+			       covers_body="true"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+</Items>

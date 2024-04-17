@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+<Item id="gap_saddle_austrian"
+        name="Austrian Saddle"
+        mesh="gap_horse_saddle_austrian"
+        weight="20"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="25"
+             mane_cover_type="none"
+             maneuver_bonus="0"
+             speed_bonus="0"
+             charge_bonus="0"
+             family_type="1"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+<Item id="gap_saddle_british"
+        name="British Saddle"
+        mesh="gap_horse_saddle_british"
+        weight="20"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="25"
+             mane_cover_type="none"
+             maneuver_bonus="0"
+             speed_bonus="0"
+             charge_bonus="0"
+             family_type="1"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+<Item id="gap_saddle_french"
+        name="French Saddle"
+        mesh="gap_horse_saddle_french"
+        weight="20"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="25"
+             mane_cover_type="none"
+             maneuver_bonus="0"
+             speed_bonus="0"
+             charge_bonus="0"
+             family_type="1"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+<Item id="gap_saddle_prussian"
+        name="Prussian Saddle"
+        mesh="gap_horse_saddle_prussian"
+        weight="20"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="25"
+             mane_cover_type="none"
+             maneuver_bonus="0"
+             speed_bonus="0"
+             charge_bonus="0"
+             family_type="1"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+<Item id="gap_saddle_russian"
+        name="Russian Saddle"
+        mesh="gap_horse_saddle_russian"
+        weight="20"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="25"
+             mane_cover_type="none"
+             maneuver_bonus="0"
+             speed_bonus="0"
+             charge_bonus="0"
+             family_type="1"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="officer_gloves_wool"
+        name="Officer Gloves (Wool)"
+        mesh="combat_gloves_grey"
+        culture="Culture.neutral_culture"
+        weight="0"
+        appearance="1"
+        Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="4"
+             covers_hands="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="officer_gloves_white"
+        name="Officer Gloves (White)"
+        mesh="combat_gloves_white"
+        culture="Culture.neutral_culture"
+        weight="0"
+        appearance="1"
+        Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="4"
+             covers_hands="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="officer_gloves_black"
+        name="Officer Gloves (Black)"
+        mesh="combat_gloves_black"
+        culture="Culture.neutral_culture"
+        weight="0"
+        appearance="1"
+        Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="4"
+             covers_hands="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+	<Item id="austrian_musket"
+	      name="Musket"
+	      body_name="bo_spear_b"
+	      mesh="newmusket"
+	      weight="3"
+	      appearance="0.1"
+	      difficulty="0"
+	      Type="Crossbow"
+	      item_holsters="crossbow_back"
+	      AmmoOffset="0, 0, 0"
+	      value="1250"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="210"
+			        accuracy="70"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="80"
+			        weapon_length="120"
+			        ammo_limit="1"
+					reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="musket"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="false"
+				             UseHandAsThrowBase="true"
+				             CantReloadOnHorseback="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+			<Weapon weapon_class="TwoHandedMace"
+			        weapon_balance="100"
+			        position="-0.03, 0, .77"
+			        rotation="183, 0, 90"
+			        thrust_speed="56"
+			        speed_rating="90"
+			        physics_material="wood_weapon"
+			        weapon_length="120"
+			        swing_damage="30"
+			        thrust_damage="17"
+			        swing_damage_type="Blunt"
+			        thrust_damage_type="Blunt"
+			        item_usage="customweaponzweihand_block_swing">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	
+	<Item id="austrian_musket_light"
+	      name="Infantry Musket"
+	      body_name="bo_spear_b"
+	      mesh="newmusket"
+	      weight="3"
+	      appearance="0.1"
+	      difficulty="0"
+	      Type="Crossbow"
+	      item_holsters="crossbow_back"
+	      AmmoOffset="0, 0, 0"
+	      value="1250"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="210"
+			        accuracy="72"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="82"
+			        weapon_length="120"
+			        ammo_limit="1"
+					reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="musket"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="false"
+				             UseHandAsThrowBase="true"
+				             CantReloadOnHorseback="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+			<Weapon weapon_class="TwoHandedMace"
+			        weapon_balance="100"
+			        position="-0.03, 0, .77"
+			        rotation="183, 0, 90"
+			        thrust_speed="56"
+			        speed_rating="90"
+			        physics_material="wood_weapon"
+			        weapon_length="120"
+			        swing_damage="30"
+			        thrust_damage="17"
+			        swing_damage_type="Blunt"
+			        thrust_damage_type="Blunt"
+			        item_usage="customweaponzweihand_block_swing">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_jaeger"
+	      name="Rifle"
+	      body_name="bo_spear_b"
+	      mesh="newrifle"
+	      weight="3"
+	      appearance="0.5"
+	      difficulty="0"
+	      Type="Crossbow"
+	      item_holsters="crossbow_back"
+	      AmmoOffset="0, 0, 0"
+	      value="5000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="220"
+			        accuracy="92"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="85"
+			        weapon_length="79"
+			        ammo_limit="1"
+					reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="rifle"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="false"
+				             UseHandAsThrowBase="true"
+				             CantReloadOnHorseback="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+			<Weapon weapon_class="TwoHandedMace"
+			        weapon_balance="100"
+			        position="-0.03, 0, .47"
+			        rotation="183, 0, 90"
+			        thrust_speed="56"
+			        speed_rating="85"
+			        physics_material="wood_weapon"
+			        weapon_length="79"
+			        swing_damage="25"
+			        thrust_damage="15"
+			        swing_damage_type="Blunt"
+			        thrust_damage_type="Blunt"
+			        item_usage="customweaponzweihand_block_swing">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_cavalry"
+	      name="Cavalry Musket"
+	      body_name="bo_spear_b"
+	      mesh="newmusket"
+	      weight="3"
+	      appearance="0.3"
+	      difficulty="0"
+	      Type="Crossbow"
+	      item_holsters="crossbow_back"
+	      AmmoOffset="0, 0, 0"
+	      value="3500"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="210"
+			        accuracy="70"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="85"
+			        weapon_length="120"
+			        ammo_limit="1"
+					reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="musket"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="false"
+				             UseHandAsThrowBase="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="austrian_musket_bayonet_melee"
+	      name="Infantry Musket (Bayonet - Melee)"
+	      body_name="bo_spear_b"
+	      mesh="newmusket_bayonet"
+	      weight="3.5"
+	      appearance="0.05"
+	      difficulty="0"
+	      Type="Polearm"
+	      item_holsters="crossbow_back"
+	      value="1500"
+	      is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm"
+			        weapon_balance="100"
+			        position="-0.02, 0.03, 0"
+			        rotation="2, 0, 180"
+			        thrust_speed="100"
+			        speed_rating="100"
+			        physics_material="metal_weapon"
+			        weapon_length="152"
+			        swing_damage="50"
+			        thrust_damage="50"
+			        center_of_mass="0,0,0.2"
+			        swing_damage_type="Pierce"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponmusket_block_thrust">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="false"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+
+	<Item id="austrian_musket_bayonet"
+	      name="Infantry Musket (Bayonet)"
+	      body_name="bo_spear_b"
+	      mesh="newmusket_bayonet"
+	      weight="3.5"
+	      appearance="0.05"
+	      difficulty="0"
+	      Type="Crossbow"
+	      item_holsters="crossbow_back"
+	      AmmoOffset="0, 0, 0"
+	      value="1500"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="0, -0.05, 0"
+			        rotation="1, 1, 10"
+			        missile_speed="210"
+			        accuracy="70"
+			        thrust_damage="180"
+			        thrust_speed="100"
+			        speed_rating="85"
+			        weapon_length="120"
+			        ammo_limit="1"
+					reload_phase_count="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="musket"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,-0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="true"
+				             NotUsableWithOneHand="true"
+				             CantReloadOnHorseback="true"
+				             TwoHandIdleOnMount="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+			<Weapon weapon_class="TwoHandedPolearm"
+			        weapon_balance="100"
+			        position="-0.02, 0.03, 0"
+			        rotation="2, 0, 180"
+			        thrust_speed="100"
+			        speed_rating="100"
+			        physics_material="metal_weapon"
+			        weapon_length="152"
+			        swing_damage="50"
+			        thrust_damage="50"
+			        center_of_mass="0,0,0.2"
+			        swing_damage_type="Pierce"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponmusket_block_thrust">
+				<WeaponFlags MeleeWeapon="true"
+				             PenaltyWithShield="false"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="bandit_pistol"
+	      name="Old Flintlock Pistol"
+	      body_name="bo_knife_a"
+	      mesh="new_flintlock_pistol"
+	      weight="1.5"
+	      appearance="0.4"
+	      difficulty="0"
+	      Type="Crossbow"
+	      item_holsters="dagger_right_hip"
+	      AmmoOffset="0, 0, 0"
+	      value="700"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="-0.01, -0.02, 0"
+			        rotation="15, 5, 25"
+			        missile_speed="190"
+			        accuracy="35"
+			        thrust_damage="150"
+			        thrust_speed="100"
+			        speed_rating="80"
+			        weapon_length="50"
+			        ammo_limit="1"
+					reload_phase_count="2"
+			        thrust_damage_type="Pierce"
+			        item_usage="pistol"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="true"
+				             UseHandAsThrowBase="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="normal_pistol"
+	      name="Flintlock Pistol"
+	      body_name="bo_knife_a"
+	      mesh="new_flintlock_pistol"
+	      weight="1.5"
+	      appearance="0.4"
+	      difficulty="0"
+	      Type="Crossbow"
+	      item_holsters="dagger_right_hip"
+	      AmmoOffset="0, 0, 0"
+	      value="700"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="-0.01, -0.02, 0"
+			        rotation="15, 5, 25"
+			        missile_speed="200"
+			        accuracy="40"
+			        thrust_damage="150"
+			        thrust_speed="100"
+			        speed_rating="80"
+			        weapon_length="50"
+			        ammo_limit="1"
+					reload_phase_count="2"
+			        thrust_damage_type="Pierce"
+			        item_usage="pistol"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="true"
+				             UseHandAsThrowBase="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="flintlock_pistol"
+	      name="Officer Flintlock Pistol"
+	      body_name="bo_knife_a"
+	      mesh="new_flintlock_pistol"
+	      weight="1.5"
+	      appearance="0.4"
+	      difficulty="0"
+	      Type="Crossbow"
+	      item_holsters="dagger_right_hip"
+	      AmmoOffset="0, 0, 0"
+	      value="700"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        position="-0.01, -0.02, 0"
+			        rotation="15, 5, 25"
+			        missile_speed="200"
+			        accuracy="45"
+			        thrust_damage="150"
+			        thrust_speed="100"
+			        speed_rating="80"
+			        weapon_length="50"
+			        ammo_limit="1"
+					reload_phase_count="2"
+			        thrust_damage_type="Pierce"
+			        item_usage="pistol"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.1">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="true"
+				             UseHandAsThrowBase="true"
+				             BonusAgainstShield="true"
+				             CanPenetrateShield="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="gap_scottish_sword"
+	      name="Scottish Basket-Hilt Broadsword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_scottish_sword"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="15000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="98"
+			        thrust_speed="97"
+			        speed_rating="97"
+			        physics_material="metal_weapon"
+			        weapon_length="105"
+			        swing_damage="52"
+			        thrust_damage="40"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_short_sabre"
+	      name="Standard-Pattern Infantry Sabre"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_short_sabre"
+	      weight="1"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="8000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="100"
+			        thrust_speed="97"
+			        speed_rating="99"
+			        physics_material="metal_weapon"
+			        weapon_length="80"
+			        swing_damage="40"
+			        thrust_damage="23"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_short_sword"
+	      name="Standard-Pattern Infantry Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_short_sword"
+	      weight="1"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="8000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="99"
+			        thrust_speed="97"
+			        speed_rating="99"
+			        physics_material="metal_weapon"
+			        weapon_length="76"
+			        swing_damage="38"
+			        thrust_damage="29"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_short_sword_guard"
+	      name="Standard-Pattern Guard Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_short_sword_guard"
+	      weight="1"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="8000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="99"
+			        thrust_speed="97"
+			        speed_rating="99"
+			        physics_material="metal_weapon"
+			        weapon_length="80"
+			        swing_damage="38"
+			        thrust_damage="30"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_infantry_sabre"
+	      name="Standard-Pattern Cavalry Sabre"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_infantry_sabre"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="8000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="99"
+			        thrust_speed="97"
+			        speed_rating="96"
+			        physics_material="metal_weapon"
+			        weapon_length="102"
+			        swing_damage="52"
+			        thrust_damage="39"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_officer_sword"
+	      name="Standard-Pattern Brass Officer Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_officer_sword"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="20000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="100"
+			        thrust_speed="99"
+			        speed_rating="97"
+			        physics_material="metal_weapon"
+			        weapon_length="98"
+			        swing_damage="55"
+			        thrust_damage="52"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_officer_sword_silver"
+	      name="Standard-Pattern Iron Officer Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_officer_sword"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="20000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="100"
+			        thrust_speed="99"
+			        speed_rating="97"
+			        physics_material="metal_weapon"
+			        weapon_length="98"
+			        swing_damage="55"
+			        thrust_damage="52"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_officer_sword_general"
+	      name="Fancy General Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_officer_sword_general"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="20000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="100"
+			        thrust_speed="99"
+			        speed_rating="98"
+			        physics_material="metal_weapon"
+			        weapon_length="98"
+			        swing_damage="56"
+			        thrust_damage="54"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_straight_sword"
+	      name="Standard-Pattern Cavalry Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_straight_sword"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="8000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="98"
+			        thrust_speed="97"
+			        speed_rating="96"
+			        physics_material="metal_weapon"
+			        weapon_length="104"
+			        swing_damage="58"
+			        thrust_damage="50"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_straight_sword_fancy"
+	      name="Fancy Cavalry Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_straight_sword_fancy"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="10000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="99"
+			        thrust_speed="97"
+			        speed_rating="96"
+			        physics_material="metal_weapon"
+			        weapon_length="104"
+			        swing_damage="58"
+			        thrust_damage="50"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_straight_sword_fancyofficer"
+	      name="Standard-Pattern Officer Cavalry Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_straight_sword_fancyofficer"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="20000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="100"
+			        thrust_speed="97"
+			        speed_rating="97"
+			        physics_material="metal_weapon"
+			        weapon_length="104"
+			        swing_damage="58"
+			        thrust_damage="51"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_infantry_sabre_brass"
+	      name="Fancy Cavalry Sabre"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_infantry_sabre_brass"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="9000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="99"
+			        thrust_speed="97"
+			        speed_rating="96"
+			        physics_material="metal_weapon"
+			        weapon_length="102"
+			        swing_damage="54"
+			        thrust_damage="40"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_infantry_sabre_officer"
+	      name="Standard-Pattern Cavalry Officer Sabre"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_infantry_sabre_officer"
+	      weight="1.5"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="19000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="100"
+			        thrust_speed="97"
+			        speed_rating="97"
+			        physics_material="metal_weapon"
+			        weapon_length="102"
+			        swing_damage="54"
+			        thrust_damage="41"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_infantry_sabre_frenchguard"
+	      name="French Grenadier Sabre"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_infantry_sabre_frenchguard"
+	      weight="1.5"
+          culture="Culture.empire"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="21000"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="100"
+			        thrust_speed="97"
+			        speed_rating="97"
+			        physics_material="metal_weapon"
+			        weapon_length="102"
+			        swing_damage="55"
+			        thrust_damage="41"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_cuirassiersword"
+	      name="Cuirassier Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_cuirassiersword"
+	      weight="3.0"
+          culture="Culture.empire"
+	      appearance="0.01"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="18500"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="96"
+			        thrust_speed="95"
+			        speed_rating="91"
+			        physics_material="metal_weapon"
+			        weapon_length="109"
+			        swing_damage="55"
+			        thrust_damage="54"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="gap_pallasch"
+	      name="Heavy Cavalry Sword"
+	      body_name="bo_sword_one_handed"
+	      mesh="gap_pallasch_sword"
+	      weight="3.0"
+          culture="Culture.neutral_culture"
+	      appearance="0.02"
+	      difficulty="0"
+	      Type="OneHandedWeapon"
+	      item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back"
+	      value="18500"
+	      is_merchandise="true">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+			        weapon_balance="97"
+			        thrust_speed="95"
+			        speed_rating="91"
+			        physics_material="metal_weapon"
+			        weapon_length="109"
+			        swing_damage="55"
+			        thrust_damage="54"
+			        center_of_mass="0,0,0.1"
+			        swing_damage_type="Cut"
+			        thrust_damage_type="Pierce"
+			        item_usage="customweaponeinhand_block_swing_thrust_officer">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+    <Flags Civilian="true" />
+	</Item>
+	<Item id="gap_colour_austrian"
+        name="Austrian Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_austria"
+        prefab="empire_tier_3_banner"
+        culture="Culture.vlandia"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="gap_colour_british_guard"
+        name="British Guard Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_british_guard"
+        prefab="empire_tier_3_banner"
+        culture="Culture.battania"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="gap_colour_british_line"
+        name="British Infantry Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_british_line"
+        prefab="empire_tier_3_banner"
+        culture="Culture.battania"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="gap_colour_french_guard"
+        name="French Guard Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_france_guard"
+        prefab="empire_tier_3_banner"
+        culture="Culture.empire"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="gap_colour_french_light"
+        name="French Voltigeur Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_france_light"
+        prefab="empire_tier_3_banner"
+        culture="Culture.empire"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="gap_colour_french_line"
+        name="French Infantry Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_france_line"
+        prefab="empire_tier_3_banner"
+        culture="Culture.empire"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="gap_colour_italy"
+        name="Italian Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_italy"
+        prefab="empire_tier_3_banner"
+        culture="Culture.empire"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="gap_colour_prussia"
+        name="Prussian Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_prussia"
+        prefab="empire_tier_3_banner"
+        culture="Culture.sturgia"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="gap_colour_russia"
+        name="Russian Colour"
+        is_merchandise="true"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="gap_colour_russia"
+        prefab="empire_tier_3_banner"
+        culture="Culture.khuzait"
+        weight="1"
+        Type="Banner"
+        using_tableau="false"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Banner banner_level="3"
+              weapon_class="Banner"
+              effect="DecreasedMoraleShock"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="150"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="banner"
+              physics_material="metal_weapon"
+              position="0.0, 0.0, -0.1"></Banner>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true"
+           CanBePickedUpFromCorpse="false" />
+  </Item>
+	<Item id="cuirassier_horse"
+        name="Cuirassier Horse{@Plural}Cuirassier Horses{\@}"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="noble_horse"
+        weight="550"
+        difficulty="60"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="67"
+             speed="45"
+             charge_damage="55"
+             body_length="108"
+             is_mountable="true"
+             extra_health="125"
+             skeleton_scale="vlandia_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_black_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cuirassier_officer_horse"
+        name="Cuirassier Officer Horse{@Plural}Cuirassier Officer Horses{\@}"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="noble_horse"
+        weight="550"
+        difficulty="60"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="67"
+             speed="45"
+             charge_damage="55"
+             body_length="108"
+             is_mountable="true"
+             extra_health="150"
+             skeleton_scale="vlandia_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_white_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="1.0" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="hussar_horse"
+        name="Hussar Horse{@Plural}Hussar Horses{\@}"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="noble_horse"
+        weight="500"
+        difficulty="60"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="70"
+             speed="54"
+             charge_damage="25"
+             body_length="102"
+             is_mountable="true"
+             extra_health="25"
+             skeleton_scale="vlandia_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_brown_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="light_horse"
+        name="Light Horse{@Plural}Light Horses{\@}"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="noble_horse"
+        weight="490"
+        difficulty="60"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="70"
+             speed="50"
+             charge_damage="25"
+             body_length="103"
+             is_mountable="true"
+             extra_health="25"
+             skeleton_scale="vlandia_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_brown_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+	<Item id="medium_horse"
+        name="Medium Horse{@Plural}Medium Horses{\@}"
+        mesh="horse_brown"
+        subtype="horse"
+        item_category="noble_horse"
+        weight="520"
+        difficulty="60"
+        appearance="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="70"
+             speed="47"
+             charge_damage="37"
+             body_length="105"
+             is_mountable="true"
+             extra_health="75"
+             skeleton_scale="vlandia_horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane_2"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_brown_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_black_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF010101"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+          <Material name="horse_grey_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="0.75" />
+              <MeshMultiplier mesh_multiplier="FF909090"
+                              percentage="0.25" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+	<CraftedItem id="austrian_uhlan_lance"
+	             name="Austrian Uhlan Lance"
+	             crafting_template="TwoHandedPolearm"
+                 is_merchandise="true"
+				 has_modifier="false">
+		<Pieces>
+      <Piece id="spear_blade_14"
+             Type="Blade" />
+      <Piece id="spear_banner_9"
+             Type="Guard" />
+      <Piece id="spear_handle_27"
+             Type="Handle" />
+      <Piece id="default_polearm_pommel"
+             Type="Pommel" />
+    </Pieces>
+	</CraftedItem>
+</Items>

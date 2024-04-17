@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old npc characters by adding nodes to this xml. For examples please refer to: SandBoxCore/ModuleData/spnpccharacters.xml, SandBox/ModuleData/lords.xml-->
+<NPCCharacters>
+	<NPCCharacter id="gap_ottoman_irregular"
+	              default_group="Infantry"
+	              level="2"
+	              name="Ottoman Bashi-Bazouk"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="60"/>
+			<skill id="Throwing"
+			       value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_ottoman_militia"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_short_blue"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.turban"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_guardmelee"
+	              default_group="Infantry"
+	              level="7"
+	              name="Ottoman Cemaat Janissary"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="70"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="140"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_ottoman_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_short_red"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.aserai_crown"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_militia"
+	              default_group="Ranged"
+	              level="6"
+	              name="Ottoman Azzar"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_ottoman_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_short_green"/>
+				<equipment slot="Cape"
+				           id="Item.scarf"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.desert_headdress"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_militia2"
+	              default_group="Ranged"
+	              level="6"
+	              name="Ottoman Auxiliary"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_ottoman_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_great_white"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.aserai_female_civil_hscarf_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_great_orange"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.tuareg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_short_sabre"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_great_dark"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.desert_cap"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_caravanguy"
+	              default_group="Ranged"
+	              level="10"
+	              name="Ottoman Caravan Guard"
+	              occupation="CaravanGuard"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="125"/>
+			<skill id="TwoHanded"
+			       value="110"/>
+			<skill id="Polearm"
+			       value="110"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="110"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_great_brown"/>
+				<equipment slot="Head"
+				           id="Item.tuareg"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_infantry"
+	              default_group="Ranged"
+	              level="11"
+	              name="Ottoman Nizam-I Cedit Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="140"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_ottoman_guard"/>
+			<upgrade_target id="NPCCharacter.gap_ottoman_light"/>
+			<upgrade_target id="NPCCharacter.gap_ottoman_rifleman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_shorttunic"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_blue"/>
+				<equipment slot="Head"
+				           id="Item.aserai_female_civil_hscarf_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_light"
+	              default_group="Ranged"
+	              level="17"
+	              name="Ottoman Nizam-I Cedit Light Infantry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="70"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="140"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="140"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_light"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_shorttunic"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_blue"/>
+				<equipment slot="Head"
+				           id="Item.aserai_female_civil_hscarf_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_guard"
+	              default_group="Ranged"
+	              level="21"
+	              name="Ottoman Guard"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="65"/>
+			<skill id="Riding"
+			       value="10"/>
+			<skill id="OneHanded"
+			       value="170"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="160"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="Crossbow"
+			       value="140"/>
+			<skill id="Throwing"
+			       value="75"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_bayonet_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_bayonet_melee_ai"/>
+				<equipment slot="Item2"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_shorttunic"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.gap_ottoman_janissary_hat"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_rifleman"
+	              default_group="Ranged"
+	              level="20"
+	              name="Ottoman Rifleman"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              formation_position_preference="Back"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="75"/>
+			<skill id="Riding"
+			       value="5"/>
+			<skill id="OneHanded"
+			       value="135"/>
+			<skill id="TwoHanded"
+			       value="135"/>
+			<skill id="Polearm"
+			       value="135"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="160"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_jaeger_ai"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.austrian_musket_jaeger_melee_ai"/>
+				<equipment slot="Item3"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_great_green"/>
+				<equipment slot="Cape"
+				           id="Item.gap_infantry_equipment_lite"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.gap_ottoman_janissary_hat"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_cavalry"
+	              default_group="Cavalry"
+	              level="10"
+	              name="Ottoman Horseman"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Riding"
+			       value="100"/>
+			<skill id="OneHanded"
+			       value="125"/>
+			<skill id="TwoHanded"
+			       value="110"/>
+			<skill id="Polearm"
+			       value="110"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gap_ottoman_hussar"/>
+			<upgrade_target id="NPCCharacter.gap_ottoman_dragoon"/>
+			<upgrade_target id="NPCCharacter.gap_ottoman_camel_dragoon"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_short_green"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.aserai_civil_c_head"/>
+				<equipment slot="Cape"
+				           id="Item.wrapped_scarf"/>
+				<equipment slot="Horse"
+				           id="Item.medium_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_russian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_hussar"
+	              default_group="Cavalry"
+	              level="23"
+	              name="Ottoman Siphai Cavalry"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="150"/>
+			<skill id="Polearm"
+			       value="150"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.eastern_silk_clothing"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Head"
+				           id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+				<equipment slot="Horse"
+				           id="Item.hussar_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_russian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="gap_ottoman_dragoon"
+	              default_group="HorseArcher"
+	              level="21"
+	              name="Ottoman Mounted Nizam-I Cedit"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="55"/>
+			<skill id="Riding"
+			       value="145"/>
+			<skill id="OneHanded"
+			       value="155"/>
+			<skill id="TwoHanded"
+			       value="125"/>
+			<skill id="Polearm"
+			       value="125"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_cavalry"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.gap_ottoman_coat_short_blue"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_blue"/>
+				<equipment slot="Head"
+				           id="Item.tuareg"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Horse"
+				           id="Item.medium_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.gap_saddle_russian"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gap_ottoman_camel_dragoon"
+	              default_group="HorseArcher"
+	              level="23"
+	              name="Ottoman Camel Gunner"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="160"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="150"/>
+			<skill id="Throwing"
+			       value="100"/>
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.austrian_musket_cavalry"/>
+				<equipment slot="Item1"
+				           id="Item.cartridges"/>
+				<equipment slot="Item2"
+				           id="Item.gap_infantry_sabre_brass"/>
+				<equipment slot="Body"
+				           id="Item.aserai_civil_a"/>
+				<equipment slot="Leg"
+				           id="Item.gap_ottoman_trousers_white"/>
+				<equipment slot="Cape"
+				           id="Item.gap_cavalry_equipment_lite"/>
+				<equipment slot="Head"
+				           id="Item.aserai_crown"/>
+				<equipment slot="Horse"
+				           id="Item.war_camel"/>
+				<equipment slot="HorseHarness"
+				           id="Item.camel_saddle"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

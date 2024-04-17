@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+	<Item id="gap_infantry_equipment_lite"
+	      name="Infantry Bandolier"
+	      mesh="gap_infantry_equipment_lite"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      appearance="0.01"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_cavalry_equipment_lite"
+	      name="Cavalry Bandolier"
+	      mesh="gap_cavalry_equipment_lite"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      appearance="0.01"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_general_band"
+	      name="Austrian General Band"
+	      mesh="gap_austrian_general_band"
+	      culture="Culture.neutral_culture"
+	      weight="0.3"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_surgeon_equipment"
+	      name="Austrian Surgeon Equipment"
+	      mesh="gap_austrian_surgeon_equipment"
+	      culture="Culture.neutral_culture"
+	      weight="1.25"
+	      appearance="0.01"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_officer_band"
+	      name="British Officer Band"
+	      mesh="gap_british_officer_band"
+	      culture="Culture.neutral_culture"
+	      weight="0.3"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_scottish_band"
+	      name="British Highlander Band"
+	      mesh="gap_british_scottish_band"
+	      culture="Culture.neutral_culture"
+	      weight="0.3"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hussar_equipment_austrian"
+	      name="Austrian Hussar Equipment"
+	      mesh="gap_hussar_accessoire_austria"
+	      culture="Culture.vlandia"
+	      weight="2"
+	      appearance="0.15"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hussar_equipment_british"
+	      name="British Hussar Equipment"
+	      mesh="gap_hussar_accessoire_britain"
+	      culture="Culture.battania"
+	      weight="2"
+	      appearance="0.15"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hussar_equipment_french"
+	      name="French Hussar Equipment"
+	      mesh="gap_hussar_accessoire_france"
+	      culture="Culture.empire"
+	      weight="2"
+	      appearance="0.15"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hussar_equipment_prussian"
+	      name="Prussian Hussar Equipment"
+	      mesh="gap_hussar_accessoire_prussia"
+	      culture="Culture.sturgia"
+	      weight="2"
+	      appearance="0.15"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_hussar_equipment_russian"
+	      name="Russian Hussar Equipment"
+	      mesh="gap_hussar_accessoire_russia"
+	      culture="Culture.khuzait"
+	      weight="2"
+	      appearance="0.15"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_equipment"
+	      name="Austrian Equipment"
+	      mesh="gap_austrian_equipment_infantry"
+	      culture="Culture.vlandia"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_austrian_equipment_light"
+	      name="Austrian Equipment (Black)"
+	      mesh="gap_austrian_equipment_light"
+	      culture="Culture.vlandia"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_equipment"
+	      name="British Equipment"
+	      mesh="gap_british_equipment_infantry"
+	      culture="Culture.battania"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_equipment_guard"
+	      name="British Equipment (Guard)"
+	      mesh="gap_british_equipment_Guard"
+	      culture="Culture.battania"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_british_equipment_rifle"
+	      name="British Equipment (Black)"
+	      mesh="gap_british_equipment_rifle"
+	      culture="Culture.battania"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_equipment"
+	      name="French Equipment"
+	      mesh="gap_french_equipment_black"
+	      culture="Culture.empire"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_equipment_guard"
+	      name="French Equipment (Guard)"
+	      mesh="gap_french_equipment_guard"
+	      culture="Culture.empire"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_equipment2"
+	      name="French Equipment"
+	      mesh="gap_french_equipment_beige"
+	      culture="Culture.empire"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_french_equipment3"
+	      name="French Equipment"
+	      mesh="gap_french_equipment_brown"
+	      culture="Culture.empire"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_equipment"
+	      name="Prussian Equipment"
+	      mesh="gap_prussian_equipment_infantry"
+	      culture="Culture.sturgia"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_prussian_equipment_rifle"
+	      name="Prussian Equipment (Black)"
+	      mesh="gap_prussian_equipment_light"
+	      culture="Culture.sturgia"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_equipment"
+	      name="Russian Equipment"
+	      mesh="gap_infantry_equipment_russian"
+	      culture="Culture.khuzait"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="gap_russian_equipment_rifle"
+	      name="Russian Equipment (Black)"
+	      mesh="gap_infantry_equipment_russian_rifle"
+	      culture="Culture.khuzait"
+	      weight="6"
+	      appearance="0.1"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="0"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="false"
+		       UseTeamColor="false"/>
+	</Item>
+</Items>
