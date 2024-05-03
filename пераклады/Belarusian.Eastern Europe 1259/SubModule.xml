@@ -2,7 +2,7 @@
 <Module>
 	<Name value = "Belarusian Eastern Europe 1259"/>
 	<Id value = "Belarusian Eastern Europe 1259"/>
-	<Version value = "v1.0.0"/>
+	<Version value = "v1.1.0"/>
 	<DefaultModule value="true"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
@@ -17,68 +17,6 @@
 	</DependedModules>
 	<SubModules/>
 	<Xmls>
-
-		<XmlNode>
-			<XmlName id="Items" path="items"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode> 
-
-		<XmlNode>
-			<XmlName id="Factions" path="clans"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-
-		<XmlNode>
-            <XmlName id="SPCultures" path="cultures"/>
-            <IncludedGameTypes>
-                <GameType value = "Campaign"/>
-                <GameType value = "CampaignStoryMode"/>
-                <GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
-            </IncludedGameTypes>
-        </XmlNode>
-
-		<XmlNode>
-			<XmlName id="Kingdoms" path="kingdoms"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="npc_lords"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-
-		<XmlNode>
-			<XmlName id="NPCCharacters" path="npc_troops"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-
-
 
 	</Xmls>
 </Module>
