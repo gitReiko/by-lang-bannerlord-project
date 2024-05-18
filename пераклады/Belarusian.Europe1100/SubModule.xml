@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Module>
-	<Name value = "Belarusian Europe 1100"/>
+	<Name value = "Belarusian Empires of Europe 1100"/>
 	<Id value = "Belarusian Europe 1100"/>
 	<Version value = "v1.2.9"/>
 	<DefaultModule value="true"/>
@@ -17,6 +17,14 @@
 	</DependedModules>
 	<SubModules/>
 	<Xmls>
+
+		<XmlNode>
+			<XmlName id="Settlements" path="water_settlements" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
 
 	</Xmls>
 </Module>
