@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
  <strings>
+  <!--input/module_strings/aestian.xml-->
+  <string id="aestianfather" text="Vello"/>
+  <string id="aestianmother" text="Lättelemb"/>
+  <string id="aestiandescription" text="Estonia in the 1100-1200 AD was characterized by a decentralized political landscape. The Estonian people, primarily of Finno-Ugric descent, inhabited a land of dense forests, fertile plains, and a coastline dotted with small ports. The society was organized into various tribes or clans, each led by chieftains or elders. These tribes engaged in agriculture, fishing, and trading activities, forming the backbone of the economy. The Estonians were skilled craftsmen, known for their expertise in metalwork, woodworking, and textile production. Despite their decentralized structure, the Estonian tribes often united under a common cause to defend against external threats. They faced frequent raids from neighboring powers, such as the Swedes, Danes, Russians and Germans, who sought to expand their influence into the Baltic region. By the late 12th century, the influence of Christianity began to permeate Estonia through trade and missionary activities. However, the conversion process was gradual and met with resistance from some pagan factions. Overall, Estonia in the 1100-1200 AD was a land of diverse cultures, where tribal identities intersected with emerging political dynamics, shaping the course of its history."/>
+  <string id="aestianrulertitle" text="{?RULER.GENDER}High Chieftess{?}High Chieftan{\?} {RULER.NAME}"/>
+  <string id="aestiannobletitle" text="{?RULER.GENDER}Chieftess{?}Chieftan{\?} {RULER.NAME}"/>
+  <string id="aestianofficial" text="chieftan"/>
+  <string id="aestianofficialf" text="chieftess"/>
+  <string id="aestianruler" text="High Chieftan"/>
+  <string id="aestianrulerf" text="High Chieftess"/>
+  <string id="aestianrulerterm" text="{?RULER.GENDER}High Chieftess{?}High Chieftan{\?} {RULER.NAME}"/>
+  <string id="aestianfactionadjective" text="Aestian"/>
+  <string id="aestianfactionshortterm" text="Aestia"/>
+  <string id="aestianfactionformalname" text="The Aestian Principality"/>
+  <string id="aestianfactioninformalname" text="the Aestian Principality"/>
+  <string id="aestiancultureadjective" text="Aestian"/>
+  <string id="aestiancultureneutralterm" text="Aestia"/>
+  <string id="aestianmembers" text="Aestia"/>
   <!--input/module_strings/jatvingian.xml-->
   <string id="jatvingianfather" text="Borut"/>
   <string id="jatvingianmother" text="Hanna"/>
-  <string id="jatvingiandescription" text="Jatvingians have been known since the 2nd century. The Jatvingians are probably descended from the Neuri. Described territory of the Neuri coincides with the Jatvingians toponymy and hydronymy. The Jatvingians culture is Western Baltic. Slavs archeologically come to the Jatvingians region since the 10th century. In the 12th century, the Jatvingians consist of various Baltic and Slavic tribes. Especially heavily Jatvingians are mixed with the Balto-Slavic Tribal Union of the Dregovichs. The absence of fortifications at neighboring settlements of different cultures indicates about peaceful coexistence. The Jatvingians are one of the largest tribes that formed the modern Belarusian ethnos. They had a great influence on Belarusian culture and created many features (dziekaniye and tsekaniye). The Jatvingians were also involved in the forming of the modern Polish and Lithuanian ethnoses."/>
+  <string id="jatvingiandescription" text="Jatvingians have been known since the 2nd century. The Jatvingians are probably descended from the Neuri. Described territory of the Neuri coincides with the Jatvingians toponymy and hydronymy. The Jatvingians culture is Western Baltic. Slavs archeologically come to the Jatvingians region in 10th century. In the 12th century, the Jatvingians consist of various Baltic and Slavic tribes. Especially heavily Jatvingians are mixed with the Dregovichs (Balto-Slavic Tribal Union). The absence of fortifications of neighboring settlements with different cultures indicates about peaceful coexistence. The Jatvingians are one of the largest tribes that formed the modern Belarusian ethnos. They greatly influenced on the forming of the Belarusian ethnos and created many ethnic specifics (dziekaniye and tsekaniye). The Jatvingians were also involved in the forming of the modern Polish and Lithuanian ethnoses."/>
   <string id="jatvingianrulertitle" text="{?RULER.GENDER}Knyazna{?}Knyaz{\?} {RULER.NAME}"/>
   <string id="jatvingiannobletitle" text="{?RULER.GENDER}Knyazna{?}Knyaz{\?} {RULER.NAME}"/>
   <string id="jatvingianofficial" text="knyaz"/>
@@ -22,7 +40,7 @@
   <!--input/module_strings/kryvich.xml-->
   <string id="kryvichfather" text="Ivaś"/>
   <string id="kryvichmother" text="Janka"/>
-  <string id="kryvichdescription" text="The Kryvichs are a large Eastern European tribal union. It consisted mainly of Slavic and Baltic tribes. It also had Finns and Normans components. Over time, the culture divided into three branches: Polatsk, Smolensk and Pskov. In the western part the Baltic-Slavic origin prevailed in the western part Baltic-Finnish. The tribe had a great influence on forming the modern Belarusian and Russian ethnoses."/>
+  <string id="kryvichdescription" text="Some researchers believe that the Kryvichs came from the lands of modern Poland or Germany. The Kryvichs left many archaeological monuments, such as the remnants of agricultural settlements with traces of ironworks, jeweler's art, blacksmith's work and other handicrafts; long burial mounds of the 6th to 9th centuries with cremated bodies; burial mounds of rich warriors with weapons; sets of distinctive jewelry. The Kryvichs are a largest Eastern European tribal union. It consisted mainly of Slavic and Baltic tribes. It also had Finns and Normans components. Over time, the culture divided into three branches: Polatsk, Smolensk and Pskov. In the second half of the 10th century the Kryvichs formed the Polatsk state, which existed for more than 500 years, from the second half of the 13th century as an autonomy within Lithuania. The Kryvichs greatly influenced on the forming of the Belarusian ethnos and the existence of the state. Nowadays Kryvichs are part of the Belarusian and Russian ethnoses."/>
   <string id="kryvichrulertitle" text="{?RULER.GENDER}Knyazna{?}Knyaz{\?} {RULER.NAME}"/>
   <string id="kryvichnobletitle" text="{?RULER.GENDER}Pasadnica{?}Pasadnik{\?} {RULER.NAME}"/>
   <string id="kryvichofficial" text="pasadnik"/>
@@ -37,10 +55,46 @@
   <string id="kryvichcultureadjective" text="Kryvian"/>
   <string id="kryvichcultureneutralterm" text="Kryvian"/>
   <string id="kryvichmembers" text="Kryvian"/>
+  <!--input/module_strings/latvian.xml-->
+  <string id="latvianfather" text="Dagnis"/>
+  <string id="latvianmother" text="Allune"/>
+  <string id="latviandescription" text="The generalized culture of the Baltic tribes that lived on the territory of modern Latvia: Curonians, Zemgalians (Semigallians), Selonians and Latgalians. The Curonians belong to the Western Balts, the other tribes to the Eastern Balts. By 1100 these tribes had formed many small principalities, which often formed alliances against strong enemies, for example in 1106 the Zemgalians defeated a large Polatsk army and stop Polatsk's expansion into the region for a long time. In 1202 the Livonian Brothers of the Sword was founded order in Riga, which in 1237 became part of the Teutonic Order. This state conquered and Christianized the Latvian Baltic tribes and Finnish tribe of Livonians. Teutonic state existed on the land of Latvia until 1561, later this state was divided into several vassal duchies, which existed almost until the beginning of the 19th century. During this time, the Latvian nation was formed from Baltic tribes, which now has an independent state."/>
+  <string id="latvianrulertitle" text="{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}"/>
+  <string id="latviannobletitle" text="{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}"/>
+  <string id="latvianofficial" text="prince"/>
+  <string id="latvianofficialf" text="princess"/>
+  <string id="latvianruler" text="Prince"/>
+  <string id="latvianrulerf" text="Princess"/>
+  <string id="latvianrulerterm" text="{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}"/>
+  <string id="latvianfactionadjective" text="Latvian"/>
+  <string id="latvianfactionshortterm" text="Latvia"/>
+  <string id="latvianfactionformalname" text="The Latvian Principality"/>
+  <string id="latvianfactioninformalname" text="the Latvian Principality"/>
+  <string id="latviancultureadjective" text="Latvian"/>
+  <string id="latviancultureneutralterm" text="Latvia"/>
+  <string id="latvianmembers" text="Latvia"/>
+  <!--input/module_strings/lithuanian.xml-->
+  <string id="goldenhordefather" text="Narimant"/>
+  <string id="goldenhordemother" text="Darota"/>
+  <string id="goldenhordedescription" text="Ethnic basis of Lithuania was formed in the 5th century from Eastern Lithuanian Burial Mound Culture which is located in present-day eastern Lithuania (Deltuva, Lietuva, Nalšia and Neris) and north-western Belarus (Nalša and Alša). The Žemaitian (Samogitian) ethnos is usually represented as a separate branch of the Lithuanian ethnos. All Žemaitian principalities are located in the territory of modern Lithuania (Karšuva, Knituva, Kulenė, Šaule, Upytė). Around the 7th century, the Lithuanian language separated from the Latvian. From the second half of the 13th century, the Lithuanian state slowly began to dominate the Baltic region. The creation of the state is a response to threats from the Golden Horde, Teutonic Order and Rus. Ethnically, the Lithuanian state has been a Balto-Slavic community since the 13th century and knew at least the Baltic and Ruthenian languages. Multilingualism persisted until about the 20th century and the centralization of the education system. After centralization of the education system, the non-border regions of Lithuania forgot the Ruthenian language, and the Belarusians forgot the Baltic language. After the creation of the Polish-Lithuanian Commonwealth, Lithuanian culture was strongly influenced by Poland. As a result, the Lithuanian nobility switched to the Polish language. In 1918, during World War I, the independent state of Lithuania was proclaimed. Intellectuals began to renaissance ethnic culture. Today Lithuania is an independent state."/>
+  <string id="goldenhorderulertitle" text="{?RULER.GENDER}Prince{?}Princess{\?} {RULER.NAME}"/>
+  <string id="goldenhordenobletitle" text="{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}"/>
+  <string id="goldenhordeofficial" text="a prince"/>
+  <string id="goldenhordeofficialf" text="a princess"/>
+  <string id="goldenhorderuler" text="Prince"/>
+  <string id="goldenhorderulerf" text="Princess"/>
+  <string id="goldenhorderulerterm" text="{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}"/>
+  <string id="goldenhordefactionadjective" text="Lithuanian"/>
+  <string id="goldenhordefactionshortterm" text="Lithuania"/>
+  <string id="goldenhordefactionformalname" text="The Lithuanian Principality"/>
+  <string id="goldenhordefactioninformalname" text="the Lithuanian Principality"/>
+  <string id="goldenhordecultureadjective" text="Lithuanian"/>
+  <string id="goldenhordecultureneutralterm" text="Lithuania"/>
+  <string id="goldenhordemembers" text="Lithuania"/>
   <!--input/module_strings/volhynian.xml-->
   <string id="volhynianfather" text="Danylo"/>
   <string id="volhynianmother" text="Maria"/>
-  <string id="volhyniandescription" text="On the territory of western Rus in the 7-8th century lived tribes of Volhynians and White Croats. In the 10th century, the Volhynia Principality would be formed in the region. In the 11th century, the Peremyshl and Terebovlia Principalities would separate from it, later they would form the Principality of  Galicia. In 1100 the locals are not yet considered as Rus, they pay tribute to Rus. But after the collapse of the Rus Proto-Empire in 1240 (invasion of Mongols) the state and its dynasty was saved in the western part. In 1253 Knyaz Danylo Romanovych of Galicia was crowned as King of Rus. The state Rus will exist till 1349 and will disappear together with death of the last member of a dynasty. The local population will form the Rusyns ethnos, which still exists today."/>
+  <string id="volhyniandescription" text="On the territory of modern Volhynia and Galicia in the 7-8th centuries lived the tribes of Volhynians and White Croats. In the 10th century, the region was united by the Volhynian Duchy, which was part of the Rus state. In the 11th century, the Principality of Galicia began to form on the territory of the White Croats. In 1100 the locals didn't consider themselves Ruthenians yet, they pay tribute to Rus. But after the invasion of the Golden Horde into Rus in 1240 and the collapse of this proto-empire. The ruling dynasty of Rus was able to survive on the territory of Volhynia and Galicia, then to create Ruthenian Kingdom. From this point on, the local population begins to consider themselves Ruthenians, until now. In 1349 Ruthenian Kingdom will stop to exist with death of the last member of a dynasty. In the following centuries the Ruthenians were part of different states. Nowadays the Ruthenians are part of the Ukrainian nation."/>
   <string id="volhynianrulertitle" text="{?RULER.GENDER}Knyazna{?}Knyaz{\?} {RULER.NAME}"/>
   <string id="volhyniannobletitle" text="{?RULER.GENDER}Pasadnica{?}Pasadnik{\?} {RULER.NAME}"/>
   <string id="volhynianofficial" text="pasadnik"/>
