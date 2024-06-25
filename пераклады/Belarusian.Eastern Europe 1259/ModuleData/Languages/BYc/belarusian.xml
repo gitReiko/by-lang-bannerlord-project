@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ 
+ 
+ 
  <strings>
+
+    <!-- If you want to translate this mod use this xml file as a template. --> 
+    <!-- Make sure to leave the parts {SOMETHING} as it is !!! dont change the brackets -->
+    <!-- Change the language tag above the the language you want to translate to -->
+    <!-- If you are done with the translation you may upload it to NexusMods as a new mod with the type "translation" -->
+    <!-- Make sure to tag the offical Improved Garrisons mod in the upload settings -->
+
+    <!-- For updates to the last template -->
+    <!-- I recommend using the tool Notepad++ with the compare plugin --> 
+    <!-- Open the tool and go to the "plugins" tab -->
+    <!-- Press on "plugins admin" and search for "compare" -->
+    <!-- After installation again press on plugins and use the compare plugin to compare the latest version you translated with the newest -->
+    <!-- This will highlight you all the removed, modified and added lines -->
+
+
+    <!-- 
+
+         ██████  ██████  ██████  ███████ 
+        ██      ██    ██ ██   ██ ██      
+        ██      ██    ██ ██████  █████   
+        ██      ██    ██ ██   ██ ██      
+         ██████  ██████  ██   ██ ███████ 
+    
+    -->
+
   <string id="EE000001" text="Крыжакі ў вашай партыі ня могуць прыняць вашае лідарства. Страты маралі: -"/>
   <string id="EE000002" text="Я жадаю перадаць вам рабоў."/>
   <string id="EE000003" text="Вы ня маеце палонных..."/>
@@ -12,9 +40,9 @@
   <string id="EE000009" text="35-45"/>
   <string id="EE000010" text="25-35"/>
   <string id="EE000011" text="18-25"/>
-  <string id="EE000012" text="Уласьнік гэтага горада забараняе вам рэкрутаваць тутэйшых ваяроў."/>
+  <string id="EE000012" text=""/>
   <string id="EE000013" text="Вы ня можаце рэкрутаваць у варожым горадзе."/>
-  <string id="EE000014" text="Уласьнік гэтага вёскі забараняе вам рэкрутаваць тутэйшых ваяроў."/>
+  <string id="EE000014" text=""/>
   <string id="EE000015" text="Вы ня можаце рэкрутаваць у варожай вёскі."/>
   <string id="EE000016" text="Фактар рэалізму"/>
   <string id="EE000017" text="Новая Гульня"/>
@@ -24,11 +52,73 @@
   <string id="EE000021" text="УВАГА: Мод NoRelation ужо інтаграваны ў EE1259. Вы можаце выдаліць яго з вашай чаргі зарузкі."/>
   <string id="EE000022" text="ПАМЫЛКА: Мод RBM уключаны, але LT_EE1259_RBM_Patch не. Уключыце LT_EE1259_RBM_Patch дзеля належнага досьведу."/>
   <string id="EE000023" text="ПАМЫЛКА: Мод RBM выключаны, але LT_EE1259_RBM_Patch так. Уключыце RBM дзеля належнага досьведу."/>
-  <string id="EE000024" text="Час сутыкненьня культур і багоў.{newline}Час лягендаў і выбітных лідараў...{newline}Час зьменаў...{newline}{newline}Выкуйце свой лёс у сьвеце дзе вашая наймагутная зброя{newline}ня толькі меч у руцэ{newline}але досьціп, адвага і наважнасьць, якімі вы валодаеце.{newline}{newline}Сардэчна запрашаем ува Усходнюю Еўропу 1259, вандроўца.{newline}Вашая лягенда пачынаецца тут."/>
+  <string id="EE000024" text="Час сутыкненьня культур і багоў.{newline}Час лягендаў і выбітных лідараў...{newline}Час зьменаў...{newline}{newline}Выкуй свой лёс у сьвеце дзе ваша наймагутная зброя{newline}ня толькі меч у руцэ{newline}але досьціп, адвага і наважнасьць, якімі вы валодаеце.{newline}{newline}Сардэчна запрашаем ува Усходнюю Еўропу 1259, вандроўца.{newline}Твая лягенда пачынаецца тут."/>
   <string id="EE000025" text="Пачаць"/>
-  <string id="EE000026" text="Уласьнік гэтага замка забараняе вам рэкрутаваць тутэйшых ваяроў."/>
+  <string id="EE000026" text="Уласьнік гэтага селішча забараняе вам рэкрутаваць тутэйшых ваяроў.{newline}{newline}Палепшыце адносіны з уласьнікам:{newline}{newline}* спадарожнічайце побач і дапамагайце ім у бітвах{newline}* давайце ім падарункі/золата ў меню бартару{newline}* выконвайце іхнія квэсты{newline}* даруйце ім ваяроў{newline}* даруйце ваяроў у гарнізоны селішчаў шляхціца"/>
   <string id="EE000027" text="Вы ня можаце рэкрутаваць у варожым замку."/>
   <string id="EE000028" text="Староста {SETTLEMENT} узяў {AMOUNT} адзінак зерня з запасаў Клеці."/>
+  <string id="EE000029" text="Каваль з {SETTLEMENT} бярэ {CRAFTING_RATE}{GOLD_ICON}/г за арэнду кузьні."/>
+    <string id="EE000030" text="Вы працавалі {CRAFTING_HOURS} гадзін у кузьні."/>
+    <string id="EE000031" text="Сплочана кавалю: {HOURLY_RATE}{GOLD_ICON}"/>
+    <string id="EE000032" text="Адпачываем цяпер..."/>
+    <string id="EE000033" text="Вы валодаеце кузьняй у {SETTLEMENT}. Вы маеце доступ да кузьні дзеля асабістага карыстаньня."/>
+    <string id="EE000034" text="УВАГА: Мод KillBanditsRaiseRelations ужо інтэграваны ў EE1259. Вы мусіце прыбраць яго з вашай чаргі загрузкі."/>
+    <string id="EE000035" text="Вы рыхтаваліся {ARENA_TRAINING_HOURS} гадзін на арэне."/>
+    <string id="EE000036" text="Адпачынак пасьля рыхтоўлі на арэне."/>
+    <string id="EE000037" text="Калі падумаць, дзень быў доўгім, і вам трэба адпачыць."/>
+    <string id="EE000038" text="Даведацца пра найблізкія турніры"/>
+    <string id="EE000039" text="Нічога не вядома пра турніры, што праходзяць у іншых гарадах."/>
+    <string id="EE000040" text="У гэты час турнір праходзіць у {TOWN}."/>
+    <string id="EE000041" text="Цяпер праходзяць турніры ў {TOWN1} і {TOWN2}."/>
+    <string id="EE000042" text="Распытаць навокал..."/>
+    <string id="EE000043" text="Назад"/>
+    <string id="EE000044" text="Турнір завершаны. Гэта была годная праява майстэрства і суперніцтва."/>
+    <string id="EE000045" text="Асэнсаваньне засвоеных заняткаў..."/>
+    <string id="EE000046" text="Адпачынак пасьля спаборніцтваў."/>
+    <string id="EE000047" text="Турнір скончыўся. Было прадэманстравана годнае майстэрства і спаборнасьць."/>
+    <string id="EE000048" text="Я жадаю дараваць вам ваяроў."/>
+    <string id="EE000049" text="Вы ня маеце ваяроў на дараваньне..."/>
+    <string id="EE000050" text="Я жадаю купіць выпіўку..."/>
+    <string id="EE000051" text="Так?"/>
+    <string id="EE000052" text="Дзеля ўсіх чальцоў маёй банды!"/>
+    <string id="EE000053" text="Дзеля ўсіх годных людзей гэтай файнай карчмы!"/>
+    <string id="EE000054" text="Увогуле, я сёе-тое ўспомніў. Мне трэба ісьці..."/>
+    <string id="EE000055" text="Шчыра вітаю цябе і тваіх ваяроў, {?PLAYER.GENDER}падарожніца{?}падарожнік{\?}! Па кубку за цябе, так? Выдатны пачатак вечарыны, тост за твае перамогі!"/>
+    <string id="EE000056" text="Дзевяць месяцаў! Вакол хаты, усе збіраюцца, каб выпіць за {?PLAYER.GENDER}нашую шчодркю вандроўніцу{?}нашага шчодрага вандроўцу{\?}!"/>
+    <string id="EE000057" text="Не гаварыце..."/>
+    <string id="EE000058" text="Party's morale increased to "/>
+    <string id="EE000059" text="You don't have enough gold...{newline}{newline}[Need {NEED_GOLD}{GOLD_ICON} for {TAVERN_PEOPLE_COUNT} tavern visitors]"/>
+    <string id="EE000060" text="Total cost will be {TOTAL_COST}{GOLD_ICON} for {TAVERN_PEOPLE_COUNT} tavern visitors.{newline}{newline}[This will increase your renown.]"/>
+    <string id="EE000061" text="You have no party..."/>
+    <string id="EE000062" text="You don't have enough gold...{newline}{newline}[Need {NEED_GOLD}{GOLD_ICON} for {PARTY_MEMBER_COUNT} party members]"/>
+    <string id="EE000063" text="Total cost will be {TOTAL_COST}{GOLD_ICON}for {PARTY_MEMBER_COUNT} party members{newline}{newline}[This will increase the party's morale.]"/>
+    <string id="EE000064" text="WARNING: RBM mod not found. The game without RBM will be unbalanced. It is strongly advised to use RBM mod with EE1259."/>
+    <string id="EE000065" text="WARNING: Diplomacy mod not found. It is strongly advised to use Diplomacy mod with EE1259."/>
+    <string id="EE000066" text=""/>
+    <string id="EE000067" text=""/>
+    <string id="EE000068" text=""/>
+    <string id="EE000069" text=""/>
+    <string id="EE000070" text=""/>
+    <string id="EE000071" text=""/>
+    <string id="EE000072" text=""/>
+    <string id="EE000073" text=""/>
+    <string id="EE000074" text=""/>
+    <string id="EE000075" text=""/>
+    <string id="EE000076" text=""/>
+    <string id="EE000077" text=""/>
+    <string id="EE000078" text=""/>
+    <string id="EE000079" text=""/>    
+
+
+    <!-- 
+
+        ██ ████████ ███████ ███    ███ ███████ 
+        ██    ██    ██      ████  ████ ██      
+        ██    ██    █████   ██ ████ ██ ███████ 
+        ██    ██    ██      ██  ██  ██      ██ 
+        ██    ██    ███████ ██      ██ ███████ 
+    
+    -->
   <string id="lt_mail_mitten_c.name" text="{.Mnozny}Кальчужныя Міценкі - Зіхатлівыя"/>
   <string id="lt_mail_chausses_a.name" text="{.Mnozny}Кальчужныя Чусізы - Зіхатлівыя"/>
   <string id="lt_mortas_crown_with_wimple.name" text="{.Zanocy}Карона з Вуальлю Морты"/>

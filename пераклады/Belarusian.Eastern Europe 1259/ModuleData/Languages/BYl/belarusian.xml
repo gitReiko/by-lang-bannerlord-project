@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ 
+ 
+ 
  <strings>
+
+    <!-- If you want to translate this mod use this xml file as a template. --> 
+    <!-- Make sure to leave the parts {SOMETHING} as it is !!! dont change the brackets -->
+    <!-- Change the language tag above the the language you want to translate to -->
+    <!-- If you are done with the translation you may upload it to NexusMods as a new mod with the type "translation" -->
+    <!-- Make sure to tag the offical Improved Garrisons mod in the upload settings -->
+
+    <!-- For updates to the last template -->
+    <!-- I recommend using the tool Notepad++ with the compare plugin --> 
+    <!-- Open the tool and go to the "plugins" tab -->
+    <!-- Press on "plugins admin" and search for "compare" -->
+    <!-- After installation again press on plugins and use the compare plugin to compare the latest version you translated with the newest -->
+    <!-- This will highlight you all the removed, modified and added lines -->
+
+
+    <!-- 
+
+         ██████  ██████  ██████  ███████ 
+        ██      ██    ██ ██   ██ ██      
+        ██      ██    ██ ██████  █████   
+        ██      ██    ██ ██   ██ ██      
+         ██████  ██████  ██   ██ ███████ 
+    
+    -->
+
   <string id="EE000001" text="Kryžaki ŭ vašaj partyi nia mohuć pryniać vašaje lidarstva. Straty marali: -"/>
   <string id="EE000002" text="Ja žadaju pieradać vam raboŭ."/>
   <string id="EE000003" text="Vy nia majecie pałonnych..."/>
@@ -12,9 +40,9 @@
   <string id="EE000009" text="35-45"/>
   <string id="EE000010" text="25-35"/>
   <string id="EE000011" text="18-25"/>
-  <string id="EE000012" text="Ułaśnik hetaha horada zabaraniaje vam rekrutavać tutejšych vajaroŭ."/>
+  <string id="EE000012" text=""/>
   <string id="EE000013" text="Vy nia možacie rekrutavać u varožym horadzie."/>
-  <string id="EE000014" text="Ułaśnik hetaha vioski zabaraniaje vam rekrutavać tutejšych vajaroŭ."/>
+  <string id="EE000014" text=""/>
   <string id="EE000015" text="Vy nia možacie rekrutavać u varožaj vioski."/>
   <string id="EE000016" text="Faktar realizmu"/>
   <string id="EE000017" text="Novaja Hulnia"/>
@@ -24,11 +52,73 @@
   <string id="EE000021" text="UVAHA: Mod NoRelation užo intahravany ŭ EE1259. Vy možacie vydalić jaho z vašaj čarhi zaruzki."/>
   <string id="EE000022" text="PAMYŁKA: Mod RBM uklučany, ale LT_EE1259_RBM_Patch nie. Uklučycie LT_EE1259_RBM_Patch dziela naležnaha dośviedu."/>
   <string id="EE000023" text="PAMYŁKA: Mod RBM vyklučany, ale LT_EE1259_RBM_Patch tak. Uklučycie RBM dziela naležnaha dośviedu."/>
-  <string id="EE000024" text="Čas sutyknieńnia kultur i bahoŭ.{newline}Čas lahiendaŭ i vybitnych lidaraŭ...{newline}Čas źmienaŭ...{newline}{newline}Vykujcie svoj los u śviecie dzie vašaja najmahutnaja zbroja{newline}nia tolki mieč u ruce{newline}ale dościp, advaha i navažnaść, jakimi vy vałodajecie.{newline}{newline}Sardečna zaprašajem uva Uschodniuju Jeŭropu 1259, vandroŭca.{newline}Vašaja lahienda pačynajecca tut."/>
+  <string id="EE000024" text="Čas sutyknieńnia kultur i bahoŭ.{newline}Čas lahiendaŭ i vybitnych lidaraŭ...{newline}Čas źmienaŭ...{newline}{newline}Vykuj svoj los u śviecie dzie vaša najmahutnaja zbroja{newline}nia tolki mieč u ruce{newline}ale dościp, advaha i navažnaść, jakimi vy vałodajecie.{newline}{newline}Sardečna zaprašajem uva Uschodniuju Jeŭropu 1259, vandroŭca.{newline}Tvaja lahienda pačynajecca tut."/>
   <string id="EE000025" text="Pačać"/>
-  <string id="EE000026" text="Ułaśnik hetaha zamka zabaraniaje vam rekrutavać tutejšych vajaroŭ."/>
+  <string id="EE000026" text="Ułaśnik hetaha sielišča zabaraniaje vam rekrutavać tutejšych vajaroŭ.{newline}{newline}Palepšycie adnosiny z ułaśnikam:{newline}{newline}* spadarožničajcie pobač i dapamahajcie im u bitvach{newline}* davajcie im padarunki/zołata ŭ mieniu bartaru{newline}* vykonvajcie ichnija kvesty{newline}* darujcie im vajaroŭ{newline}* darujcie vajaroŭ u harnizony sieliščaŭ šlachcica"/>
   <string id="EE000027" text="Vy nia možacie rekrutavać u varožym zamku."/>
   <string id="EE000028" text="Starosta {SETTLEMENT} uziaŭ {AMOUNT} adzinak ziernia z zapasaŭ Kleci."/>
+  <string id="EE000029" text="Kaval z {SETTLEMENT} biare {CRAFTING_RATE}{GOLD_ICON}/h za arendu kuźni."/>
+    <string id="EE000030" text="Vy pracavali {CRAFTING_HOURS} hadzin u kuźni."/>
+    <string id="EE000031" text="Spłočana kavalu: {HOURLY_RATE}{GOLD_ICON}"/>
+    <string id="EE000032" text="Adpačyvajem ciapier..."/>
+    <string id="EE000033" text="Vy vałodajecie kuźniaj u {SETTLEMENT}. Vy majecie dostup da kuźni dziela asabistaha karystańnia."/>
+    <string id="EE000034" text="UVAHA: Mod KillBanditsRaiseRelations užo intehravany ŭ EE1259. Vy musicie prybrać jaho z vašaj čarhi zahruzki."/>
+    <string id="EE000035" text="Vy rychtavalisia {ARENA_TRAINING_HOURS} hadzin na arenie."/>
+    <string id="EE000036" text="Adpačynak paśla rychtoŭli na arenie."/>
+    <string id="EE000037" text="Kali padumać, dzień byŭ doŭhim, i vam treba adpačyć."/>
+    <string id="EE000038" text="Daviedacca pra najblizkija turniry"/>
+    <string id="EE000039" text="Ničoha nie viadoma pra turniry, što prachodziać u inšych haradach."/>
+    <string id="EE000040" text="U hety čas turnir prachodzić u {TOWN}."/>
+    <string id="EE000041" text="Ciapier prachodziać turniry ŭ {TOWN1} i {TOWN2}."/>
+    <string id="EE000042" text="Raspytać navokał..."/>
+    <string id="EE000043" text="Nazad"/>
+    <string id="EE000044" text="Turnir zavieršany. Heta była hodnaja prajava majsterstva i supiernictva."/>
+    <string id="EE000045" text="Asensavańnie zasvojenych zaniatkaŭ..."/>
+    <string id="EE000046" text="Adpačynak paśla spabornictvaŭ."/>
+    <string id="EE000047" text="Turnir skončyŭsia. Było prademanstravana hodnaje majsterstva i spabornaść."/>
+    <string id="EE000048" text="Ja žadaju daravać vam vajaroŭ."/>
+    <string id="EE000049" text="Vy nia majecie vajaroŭ na daravańnie..."/>
+    <string id="EE000050" text="Ja žadaju kupić vypiŭku..."/>
+    <string id="EE000051" text="Tak?"/>
+    <string id="EE000052" text="Dziela ŭsich čalcoŭ majoj bandy!"/>
+    <string id="EE000053" text="Dziela ŭsich hodnych ludziej hetaj fajnaj karčmy!"/>
+    <string id="EE000054" text="Uvohule, ja sioje-toje ŭspomniŭ. Mnie treba iści..."/>
+    <string id="EE000055" text="Ščyra vitaju ciabie i tvaich vajaroŭ, {?PLAYER.GENDER}padarožnica{?}padarožnik{\?}! Pa kubku za ciabie, tak? Vydatny pačatak viečaryny, tost za tvaje pieramohi!"/>
+    <string id="EE000056" text="Dzieviać miesiacaŭ! Vakoł chaty, usie zbirajucca, kab vypić za {?PLAYER.GENDER}našuju ščodrkiu vandroŭnicu{?}našaha ščodraha vandroŭcu{\?}!"/>
+    <string id="EE000057" text="Nie havarycie..."/>
+    <string id="EE000058" text="Partys morale increased to "/>
+    <string id="EE000059" text="You dont have enough gold...{newline}{newline}[Need {NEED_GOLD}{GOLD_ICON} for {TAVERN_PEOPLE_COUNT} tavern visitors]"/>
+    <string id="EE000060" text="Total cost will be {TOTAL_COST}{GOLD_ICON} for {TAVERN_PEOPLE_COUNT} tavern visitors.{newline}{newline}[This will increase your renown.]"/>
+    <string id="EE000061" text="You have no party..."/>
+    <string id="EE000062" text="You dont have enough gold...{newline}{newline}[Need {NEED_GOLD}{GOLD_ICON} for {PARTY_MEMBER_COUNT} party members]"/>
+    <string id="EE000063" text="Total cost will be {TOTAL_COST}{GOLD_ICON}for {PARTY_MEMBER_COUNT} party members{newline}{newline}[This will increase the partys morale.]"/>
+    <string id="EE000064" text="WARNING: RBM mod not found. The game without RBM will be unbalanced. It is strongly advised to use RBM mod with EE1259."/>
+    <string id="EE000065" text="WARNING: Diplomacy mod not found. It is strongly advised to use Diplomacy mod with EE1259."/>
+    <string id="EE000066" text=""/>
+    <string id="EE000067" text=""/>
+    <string id="EE000068" text=""/>
+    <string id="EE000069" text=""/>
+    <string id="EE000070" text=""/>
+    <string id="EE000071" text=""/>
+    <string id="EE000072" text=""/>
+    <string id="EE000073" text=""/>
+    <string id="EE000074" text=""/>
+    <string id="EE000075" text=""/>
+    <string id="EE000076" text=""/>
+    <string id="EE000077" text=""/>
+    <string id="EE000078" text=""/>
+    <string id="EE000079" text=""/>    
+
+
+    <!-- 
+
+        ██ ████████ ███████ ███    ███ ███████ 
+        ██    ██    ██      ████  ████ ██      
+        ██    ██    █████   ██ ████ ██ ███████ 
+        ██    ██    ██      ██  ██  ██      ██ 
+        ██    ██    ███████ ██      ██ ███████ 
+    
+    -->
   <string id="lt_mail_mitten_c.name" text="{.Mnozny}Kalčužnyja Micienki - Zichatlivyja"/>
   <string id="lt_mail_chausses_a.name" text="{.Mnozny}Kalčužnyja Čusizy - Zichatlivyja"/>
   <string id="lt_mortas_crown_with_wimple.name" text="{.Zanocy}Karona z Vuallu Morty"/>
