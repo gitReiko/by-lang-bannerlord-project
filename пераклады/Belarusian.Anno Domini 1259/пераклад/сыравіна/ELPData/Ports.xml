@@ -43,12 +43,21 @@
           <Connection id="town_ES5" />
           <Connection id="town_ES7" />
           <Connection id="Ayyubid_town_A3" />
-		  <Connection id="town_pisa_1" />					   
         </Connections>
       </Port>
     </Components>
   </Settlement>
-
+  <Settlement id="port_of_town_SAM7" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="1036.32" posY="1619.07" gate_posX="1036.83" gate_posY="1618.50" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
+    <Components>
+      <Port id="comp_port_of_town_SAM7" port_of="town_SAM7" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
+        <Connections>
+          <Connection id="town_SAM1" />
+          <Connection id="town_SAM2" />
+          <Connection id="town_SAM3" />
+        </Connections>
+      </Port>
+    </Components>
+  </Settlement>
   <Settlement id="port_of_town_B3" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="173.38" posY="1148.97" gate_posX="174.08" gate_posY="1148.41" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
     <Components>
       <Port id="comp_port_of_town_B3" port_of="town_B3" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
@@ -81,7 +90,8 @@
         <Connections>
           <Connection id="town_V8" />
           <Connection id="town_EN2" />
-
+          <Connection id="town_SAM3" />
+          <Connection id="town_SAM4" />
         </Connections>
       </Port>
     </Components>
@@ -127,7 +137,17 @@
       </Port>
     </Components>
   </Settlement>
-
+  <Settlement id="port_of_town_SAM3" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="874.64" posY="1606.75" gate_posX="875.42" gate_posY="1606.97" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
+    <Components>
+      <Port id="comp_port_of_town_SAM3" port_of="town_SAM3" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
+        <Connections>
+          <Connection id="town_SAM7" />
+          <Connection id="town_SAM4" />
+          <Connection id="town_S1" />
+        </Connections>
+      </Port>
+    </Components>
+  </Settlement>
   <Settlement id="port_of_town_EN1" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="744.85" posY="1231.95" gate_posX="744.49" gate_posY="1233.23" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
     <Components>
       <Port id="comp_port_of_town_EN1" port_of="town_EN1" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
@@ -137,7 +157,9 @@
           <Connection id="town_S4" />
           <Connection id="town_KR5" />
           <Connection id="town_KR4" />
-
+          <Connection id="town_SAM5" />
+          <Connection id="town_SAM1" />
+          <Connection id="town_SAM2" />
         </Connections>
       </Port>
     </Components>
@@ -186,7 +208,7 @@
           <Connection id="town_EN1" />
           <Connection id="town_S4" />
           <Connection id="town_KR4" />
-
+          <Connection id="town_SAM1" />
         </Connections>
       </Port>
     </Components>
@@ -196,7 +218,6 @@
       <Port id="comp_port_of_town_ES1" port_of="town_ES1" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
         <Connections>
           <Connection id="town_ES2" />
-		  <Connection id="town_venice_1" />						 
         </Connections>
       </Port>
     </Components>
@@ -243,7 +264,6 @@
           <Connection id="Ayyubid_town_A3" />
           <Connection id="Ayyubid_town_A8" />
           <Connection id="Golden_town_K3" />
-		  <Connection id="Crusader_Castle_1" />							 
         </Connections>
       </Port>
     </Components>
@@ -279,7 +299,8 @@
           <Connection id="town_EN1" />
           <Connection id="town_KR5" />
           <Connection id="town_KR4" />
-
+          <Connection id="town_SAM5" />
+          <Connection id="town_SAM1" />
         </Connections>
       </Port>
     </Components>
@@ -382,12 +403,37 @@
           <Connection id="town_EN1" />
           <Connection id="town_KR5" />
           <Connection id="town_KR4" />
-
+          <Connection id="town_SAM5" />
+          <Connection id="town_SAM1" />
+          <Connection id="town_SAM2" />
         </Connections>
       </Port>
     </Components>
   </Settlement>
-
+  <Settlement id="port_of_town_SAM4" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="663.47" posY="1568.33" gate_posX="664.23" gate_posY="1569.48" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
+    <Components>
+      <Port id="comp_port_of_town_SAM4" port_of="town_SAM4" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
+        <Connections>
+          <Connection id="town_SAM3" />
+          <Connection id="town_S1" />
+        </Connections>
+      </Port>
+    </Components>
+  </Settlement>
+  <Settlement id="port_of_town_SAM2" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="825.41" posY="1488.16" gate_posX="824.53" gate_posY="1488.04" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
+    <Components>
+      <Port id="comp_port_of_town_SAM2" port_of="town_SAM2" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
+        <Connections>
+          <Connection id="town_SAM1" />
+          <Connection id="town_SAM7" />
+          <Connection id="town_SAM5" />
+          <Connection id="town_KR4" />
+          <Connection id="town_S4" />
+          <Connection id="town_EN1" />
+        </Connections>
+      </Port>
+    </Components>
+  </Settlement>
   <Settlement id="port_of_town_KR5" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="1005.32" posY="1267.38" gate_posX="1004.23" gate_posY="1267.81" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
     <Components>
       <Port id="comp_port_of_town_KR5" port_of="town_KR5" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
@@ -396,7 +442,7 @@
           <Connection id="town_S6" />
           <Connection id="town_S4" />
           <Connection id="town_EN1" />
-   
+          <Connection id="town_SAM1" />
         </Connections>
       </Port>
     </Components>
@@ -410,7 +456,9 @@
           <Connection id="town_S4" />
           <Connection id="town_EN1" />
           <Connection id="town_S7" />
-
+          <Connection id="town_SAM5" />
+          <Connection id="town_SAM1" />
+          <Connection id="town_SAM2" />
         </Connections>
       </Port>
     </Components>
@@ -446,7 +494,6 @@
           <Connection id="town_V7" />
           <Connection id="town_ES5" />
           <Connection id="town_ES7" />
-		  <Connection id="town_pisa_1" />						   
         </Connections>
       </Port>
     </Components>
@@ -506,14 +553,43 @@
       </Port>
     </Components>
   </Settlement>
-
+  <Settlement id="port_of_town_SAM5" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="1023.29" posY="1365.10" gate_posX="1023.34" gate_posY="1365.97" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
+    <Components>
+      <Port id="comp_port_of_town_SAM5" port_of="town_SAM5" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
+        <Connections>
+          <Connection id="town_KR4" />
+          <Connection id="town_SAM1" />
+          <Connection id="town_S4" />
+          <Connection id="town_EN1" />
+          <Connection id="town_S6" />
+          <Connection id="town_SAM2" />
+        </Connections>
+      </Port>
+    </Components>
+  </Settlement>
+  <Settlement id="port_of_town_SAM1" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="834.55" posY="1352.10" gate_posX="834.02" gate_posY="1353.18" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
+    <Components>
+      <Port id="comp_port_of_town_SAM1" port_of="town_SAM1" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
+        <Connections>
+          <Connection id="town_SAM5" />
+          <Connection id="town_KR5" />
+          <Connection id="town_KR4" />
+          <Connection id="town_EN1" />
+          <Connection id="town_S4" />
+          <Connection id="town_S7" />
+          <Connection id="town_S6" />
+          <Connection id="town_SAM2" />
+          <Connection id="town_SAM7" />
+        </Connections>
+      </Port>
+    </Components>
+  </Settlement>
   <Settlement id="port_of_town_ES2" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="600.08" posY="993.27" gate_posX="601.74" gate_posY="994.46" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
     <Components>
       <Port id="comp_port_of_town_ES2" port_of="town_ES2" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
         <Connections>
           <Connection id="town_ES1" />
           <Connection id="Byzantine_town_ES2" />
-		  <Connection id="town_venice_1" />							 
         </Connections>
       </Port>
     </Components>
@@ -536,7 +612,6 @@
           <Connection id="town_ES6" />
           <Connection id="town_ES5" />
           <Connection id="town_A4" />
-		  <Connection id="town_pisa_1" />						   
         </Connections>
       </Port>
     </Components>
@@ -560,8 +635,4 @@
       </Port>
     </Components>
   </Settlement>
-  
-
- 
 </Settlements>
-
