@@ -561,41 +561,7 @@
     </Components>
   </Settlement>
   
-  <!--custom ports-->
 
-  <Settlement id="port_of_town_pisa_1" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="550" posY="947" gate_posX="547.6512" gate_posY="948.0712" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
-    <Components>
-      <Port id="comp_port_of_town_pisa_1" port_of="town_pisa_1" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
-        <Connections>
-          <Connection id="town_ES6" />
-		  <Connection id="town_ES7" />
-		  <Connection id="town_ES3" />
-
-        </Connections>
-      </Port>
-    </Components>
-  </Settlement>
-   
-    <Settlement id="port_of_town_venice_1" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="665" posY="970" gate_posX="660.889" gate_posY="968.4893" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
-    <Components>
-      <Port id="comp_port_of_town_venice_1" port_of="town_venice_1" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
-        <Connections>
-          <Connection id="town_ES2" />
-		  <Connection id="town_ES1" />
-        </Connections>
-      </Port>
-    </Components>
-  </Settlement>
-  
-    <Settlement id="port_of_Crusader_Castle_1" name="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}" posX="1169.954" posY="676.9625" gate_posX="1169.954" gate_posY="676.9625" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
-    <Components>
-      <Port id="comp_port_of_Crusader_Castle_1" port_of="Crusader_Castle_1" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
-        <Connections>
-		  <Connection id="Byzantine_town_ES5" />
-        </Connections>
-      </Port>
-    </Components>
-  </Settlement>	
  
 </Settlements>
 
