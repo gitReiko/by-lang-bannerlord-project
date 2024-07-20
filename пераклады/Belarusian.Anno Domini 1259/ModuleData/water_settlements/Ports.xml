@@ -47,17 +47,6 @@
       </Port>
     </Components>
   </Settlement>
-  <Settlement id="port_of_town_SAM7" name="{=port_of_town_SAM7}Port of {SETTLEMENT_NAME}" posX="1036.32" posY="1619.07" gate_posX="1036.83" gate_posY="1618.50" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
-    <Components>
-      <Port id="comp_port_of_town_SAM7" port_of="town_SAM7" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
-        <Connections>
-          <Connection id="town_SAM1" />
-          <Connection id="town_SAM2" />
-          <Connection id="town_SAM3" />
-        </Connections>
-      </Port>
-    </Components>
-  </Settlement>
   <Settlement id="port_of_town_B3" name="{=port_of_town_B3}Port of {SETTLEMENT_NAME}" posX="173.38" posY="1148.97" gate_posX="174.08" gate_posY="1148.41" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
     <Components>
       <Port id="comp_port_of_town_B3" port_of="town_B3" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
@@ -90,8 +79,6 @@
         <Connections>
           <Connection id="town_V8" />
           <Connection id="town_EN2" />
-          <Connection id="town_SAM3" />
-          <Connection id="town_SAM4" />
         </Connections>
       </Port>
     </Components>
@@ -133,17 +120,6 @@
           <Connection id="town_EN2" />
           <Connection id="town_S2" />
           <Connection id="town_S7" />
-        </Connections>
-      </Port>
-    </Components>
-  </Settlement>
-  <Settlement id="port_of_town_SAM3" name="{=port_of_town_SAM3}Port of {SETTLEMENT_NAME}" posX="874.64" posY="1606.75" gate_posX="875.42" gate_posY="1606.97" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
-    <Components>
-      <Port id="comp_port_of_town_SAM3" port_of="town_SAM3" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
-        <Connections>
-          <Connection id="town_SAM7" />
-          <Connection id="town_SAM4" />
-          <Connection id="town_S1" />
         </Connections>
       </Port>
     </Components>
@@ -410,22 +386,11 @@
       </Port>
     </Components>
   </Settlement>
-  <Settlement id="port_of_town_SAM4" name="{=port_of_town_SAM4}Port of {SETTLEMENT_NAME}" posX="663.47" posY="1568.33" gate_posX="664.23" gate_posY="1569.48" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
-    <Components>
-      <Port id="comp_port_of_town_SAM4" port_of="town_SAM4" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
-        <Connections>
-          <Connection id="town_SAM3" />
-          <Connection id="town_S1" />
-        </Connections>
-      </Port>
-    </Components>
-  </Settlement>
   <Settlement id="port_of_town_SAM2" name="{=port_of_town_SAM2}Port of {SETTLEMENT_NAME}" posX="825.41" posY="1488.16" gate_posX="824.53" gate_posY="1488.04" culture="Culture.neutral_culture" prosperity="557" text="{=tZMsW93JKJ}Port of {SETTLEMENT_NAME}">
     <Components>
       <Port id="comp_port_of_town_SAM2" port_of="town_SAM2" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0">
         <Connections>
           <Connection id="town_SAM1" />
-          <Connection id="town_SAM7" />
           <Connection id="town_SAM5" />
           <Connection id="town_KR4" />
           <Connection id="town_S4" />
@@ -579,7 +544,6 @@
           <Connection id="town_S7" />
           <Connection id="town_S6" />
           <Connection id="town_SAM2" />
-          <Connection id="town_SAM7" />
         </Connections>
       </Port>
     </Components>
