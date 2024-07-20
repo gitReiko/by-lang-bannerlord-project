@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <!-- Kingdom of Scotland -->
+    <NPCCharacter id="scotland_archer_root0"
+                  default_group="Ranged"
+                  name="{=Scottish Levy Archer}Scottish Levy Archer"
+                  level="11"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="70"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="25"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_archer_root00"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Body" id="Item.highland_cloth"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_a"/>
+				<equipment slot="Cape" id="Item.hood"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Item2" id="Item.falchion_sword_t2"/>
+				<equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Body" id="Item.battania_civil_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+				<equipment slot="Cape" id="Item.green_hood"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
+				<equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_b"/>
+				<equipment slot="Cape" id="Item.battania_cloak"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Item2" id="Item.XIII_sword_2"/>
+				<equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
+				<equipment slot="Head" id="Item.battania_fur_cap"/>
+				<equipment slot="Body" id="Item.ao_battanian_woolen_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_c"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_l2"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Item2" id="Item.XIII_sword_2"/>
+				<equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
+				<equipment slot="Head" id="Item.battania_fur_cap"/>
+				<equipment slot="Body" id="Item.ao_battanian_woolen_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_c"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_l2"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_archer_root00"
+                  default_group="Ranged"
+                  name="{=Scottish Archer}Scottish Archer"
+                  level="16"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="80"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="100"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="25"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_archer_root000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zs"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
+				<equipment slot="Body" id="Item.battania_light_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_s"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+				<equipment slot="Cape" id="Item.green_hood"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zs"/>
+				<equipment slot="Item3" id="Item.battania_mace_1_t3"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c"/>
+				<equipment slot="Body" id="Item.AR_battania_armor_g"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_t"/>
+				<equipment slot="Cape" id="Item.hood"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.battania_targe_b"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_e"/>
+				<equipment slot="Body" id="Item.battania_light_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_s"/>
+				<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.battania_targe_b"/>
+				<equipment slot="Item3" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a"/>
+				<equipment slot="Body" id="Item.ao_battanian_gambeson"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.AR_shield_infantry_zt"/>
+				<equipment slot="Item3" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a"/>
+				<equipment slot="Body" id="Item.ao_battanian_gambeson"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_archer_root000"
+                  default_group="Ranged"
+                  name="{=Scottish Senior Archer}Scottish Senior Archer"
+                  level="21"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="10"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="140"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="50"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_archer_root0000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_padded_coif"/>
+				<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_padded_cloth"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.battania_targe_b"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c2"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.battania_targe_b"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c2"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_archer_root0000"
+                  default_group="Ranged"
+                  name="{=Scottish Expert Archer}Scottish Expert Archer"
+                  level="26"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="175"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="125"/>
+            <skill id="TwoHanded" value="10"/>
+            <skill id="Polearm" value="25"/>
+            <skill id="Bow" value="175"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="50"/>
+        </skills>
+		<upgrade_targets/>
+        <Equipments>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_yew_bow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item3" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.kilt_over_plated_leather"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_yew_bow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item3" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
+				<equipment slot="Body" id="Item.AP_leather_tabard_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_yew_bow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item3" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.kilt_over_plated_leather"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_yew_bow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item3" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.woodland_yew_bow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item3" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="scotland_basic_root"
+                  default_group="Infantry"
+                  level="6"
+                  name="{=Scottish Levied Peasant}Scottish Levied Peasant"
+                  occupation="Soldier"
+				  culture="Culture.scottish"
+				  is_basic_troop="true">
+        <face>
+			<face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="25"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="25"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_infantry_root0"/>
+			<upgrade_target id="NPCCharacter.scotland_infantry_root1"/>
+			<upgrade_target id="NPCCharacter.scotland_infantry_root2"/>
+			<upgrade_target id="NPCCharacter.scotland_archer_root0"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.battered_kite_shield"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.TV_battania_hood_a2"/>
+				<equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_b"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Body" id="Item.ao_battanian_woolen_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_zs"/>
+                <equipment slot="Body" id="Item.battania_civil_b"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_2_t2"/>
+				<equipment slot="Item1" id="Item.battered_kite_shield"/>
+				<equipment slot="Head" id="Item.aserai_civil_f_cape"/>
+				<equipment slot="Body" id="Item.battania_civil_a"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="scotland_infantry_root0"
+                  default_group="Infantry"
+                  name="{=Scottish Levy Pikeman}Scottish Levy Pikeman"
+                  level="11"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="25"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_infantry_root00"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.military_fork_pike_t3"/>
+                <equipment slot="Item1" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.battania_fur_cap"/>
+				<equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_pike_t2"/>
+                <equipment slot="Item1" id="Item.woodland_axe_t3"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_e"/>
+				<equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.military_fork_pike_t3"/>
+                <equipment slot="Item1" id="Item.celtic_dagger"/>
+				<equipment slot="Head" id="Item.battania_fur_cap"/>
+				<equipment slot="Body" id="Item.padded_leather_shirt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_pike_t2"/>
+                <equipment slot="Item1" id="Item.celtic_dagger"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_e"/>
+				<equipment slot="Body" id="Item.AR_battania_armor_g"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_a"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.simple_pike_t2"/>
+                <equipment slot="Item1" id="Item.celtic_dagger"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_e"/>
+				<equipment slot="Body" id="Item.AR_battania_armor_g"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_a"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_infantry_root00"
+                  default_group="Infantry"
+                  name="{=Scottish Pikeman}Scottish Pikeman"
+                  level="16"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="25"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_infantry_root000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
+				<equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.fine_pike_t4"/>
+                <equipment slot="Item1" id="Item.small_bit_axe_t2"/>
+                <equipment slot="Item2" id="Item.highland_scouts_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a"/>
+				<equipment slot="Body" id="Item.battania_woodland_outfit"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Item1" id="Item.celtic_dagger"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c2"/>
+				<equipment slot="Body" id="Item.padded_leather_shirt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.fine_pike_t4"/>
+                <equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+                <equipment slot="Item2" id="Item.highland_scouts_shield"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_laced_coif"/>
+				<equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.fine_pike_t4"/>
+                <equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_laced_coif"/>
+				<equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_infantry_root000"
+				  default_group="Infantry"
+				  name="{=Scottish Veteran Pikeman}Scottish Veteran Pikeman"
+				  level="21"
+				  occupation="Soldier"
+				  culture="Culture.scottish">
+		<face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.scotland_infantry_root0000"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.fine_pike_t4"/>
+				<equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+                <equipment slot="Item2" id="Item.highland_scouts_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a4"/>
+				<equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+                <equipment slot="Item2" id="Item.highland_scouts_shield"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.ao_battanian_iron_scale_over_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.fine_pike_t4"/>
+				<equipment slot="Item1" id="Item.battania_sword_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b4"/>
+				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item1" id="Item.battania_sword_1_t2"/>
+                <equipment slot="Item2" id="Item.highland_scouts_shield"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.fine_pike_t4"/>
+				<equipment slot="Item1" id="Item.battania_sword_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c4"/>
+				<equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt"/>
+				<equipment slot="Leg" id="Item.highland_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.fine_pike_t4"/>
+				<equipment slot="Item1" id="Item.battania_sword_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c4"/>
+				<equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt"/>
+				<equipment slot="Leg" id="Item.highland_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="scotland_infantry_root0000"
+				  default_group="Infantry"
+				  name="{=Scottish Heavy Pikeman}Scottish Heavy Pikeman"
+				  level="26"
+				  occupation="Soldier"
+				  culture="Culture.scottish">
+		<face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="160"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Item2" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.protofaceplate_1"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_e"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Item2" id="Item.highland_riders_shield"/>
+				<equipment slot="Item3" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_m"/>
+				<equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item3" id="Item.short_sword_t3"/>
+				<equipment slot="Head" id="Item.protofaceplate_1"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_j"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Item2" id="Item.highland_riders_shield"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.kettle_helmet_sturgia"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_q"/>
+				<equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+                <equipment slot="Item2" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Body" id="Item.plated_leather_coat"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Body" id="Item.plated_leather_coat"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+    <NPCCharacter id="scotland_infantry_root1"
+				  default_group="Infantry"
+				  name="{=Scottish Levy Billman}Scottish Levy Billman"
+				  level="11"
+				  occupation="Soldier"
+				  culture="Culture.scottish">
+		<face>
+			<face_key_template value="BodyProperty.fighter_scottish"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.scotland_infantry_root10"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2haxe_1_t4"/>
+                <equipment slot="Item1" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.padded_leather_cape"/>
+				<equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2_blunt"/>
+                <equipment slot="Item1" id="Item.celtic_dagger"/>
+				<equipment slot="Head" id="Item.AR_battania_helmet_w"/>
+				<equipment slot="Body" id="Item.padded_leather_shirt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2haxe_1_t4"/>
+                <equipment slot="Item1" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.ao_battanian_nasal_helmet"/>
+				<equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_g"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+                <equipment slot="Item1" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_e"/>
+				<equipment slot="Body" id="Item.AR_battania_armor_g"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_h"/>
+			</EquipmentRoster>
+            <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2haxe_1_t4"/>
+                <equipment slot="Item1" id="Item.celtic_dagger"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_e"/>
+				<equipment slot="Body" id="Item.AR_battania_armor_g"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_t"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="scotland_infantry_root10"
+				  default_group="Infantry"
+				  name="{=Scottish Billman}Scottish Billman"
+				  level="16"
+				  occupation="Soldier"
+				  culture="Culture.scottish">
+		<face>
+			<face_key_template value="BodyProperty.fighter_scottish"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="75"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.scotland_infantry_root100"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.falchion_sword_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b3"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a3"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2haxe_1_t4"/>
+				<equipment slot="Item1" id="Item.XIII_sword_24"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_a"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a2"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_a"/>
+			</EquipmentRoster>
+            <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a2"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="scotland_infantry_root100"
+				  default_group="Infantry"
+				  name="{=Scottish Veteran Billman}Scottish Veteran Billman"
+				  level="21"
+				  occupation="Soldier"
+				  culture="Culture.scottish">
+		<face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+		</face>
+		<skills>
+            <skill id="Athletics" value="125"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="75"/>
+			<skill id="TwoHanded" value="125"/>
+			<skill id="Polearm" value="125"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.scotland_infantry_root1000"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.XIII_sword_24"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b4"/>
+				<equipment slot="Body" id="Item.kilt_over_plated_leather"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.XIII_sword_24"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a4"/>
+				<equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_g"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c4"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_h"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.easter_polesword_t4"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail_coif"/>
+				<equipment slot="Body" id="Item.kilt_over_plated_leather"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.battania_mace_2_t2"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
+				<equipment slot="Leg" id="Item.highland_boots"/>
+			</EquipmentRoster>
+            <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a_shoulder"/>
+                <equipment slot="Item2" id="Item.XIII_sword_24"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
+				<equipment slot="Leg" id="Item.highland_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+    <NPCCharacter id="scotland_infantry_root1000"
+                  default_group="Infantry"
+                  level="21"
+                  name="{=Scottish Armoured Billman}Scottish Armoured Billman"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="50"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.AR_aserai_short_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_2"/>
+                <equipment slot="Item2" id="Item.woodland_throwing_axe_1_t1"/>
+                <equipment slot="Item3" id="Item.battania_targe_b"/>
+                <equipment slot="Head" id="Item.e_lkettle_1"/>
+                <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak"/>
+                <equipment slot="Body" id="Item.battania_female_civil_b"/>
+                <equipment slot="Leg" id="Item.simple_shoes"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.AR_aserai_short_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_1"/>
+                <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+                <equipment slot="Item3" id="Item.battania_targe_b_sparring"/>
+                <equipment slot="Head" id="Item.nasal_cervelliere_over_padded_cap"/>
+                <equipment slot="Cape" id="Item.battania_cloak"/>
+                <equipment slot="Body" id="Item.battania_civil_a"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.AR_aserai_short_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+                <equipment slot="Item2" id="Item.woodland_throwing_axe_1_t1"/>
+                <equipment slot="Item3" id="Item.battania_targe_b"/>
+                <equipment slot="Head" id="Item.cervelliere_over_padded_cap"/>
+                <equipment slot="Cape" id="Item.battania_cloak_b"/>
+                <equipment slot="Body" id="Item.battania_woodland_outfit"/>
+                <equipment slot="Leg" id="Item.simple_shoes"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.AR_aserai_short_spear_2_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_2"/>
+                <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+                <equipment slot="Item3" id="Item.battania_targe_b"/>
+                <equipment slot="Head" id="Item.e_lkettle_1"/>
+                <equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+                <equipment slot="Body" id="Item.battania_civil_a"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_w"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="scotland_infantry_root2"
+				  default_group="Infantry"
+				  name="Scottish Levy Infantry"
+				  level="11"
+				  occupation="Soldier"
+				  culture="Culture.scottish">
+		<face>
+			<face_key_template value="BodyProperty.fighter_scottish"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="25"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.scotland_infantry_root20"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+                <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.ao_battanian_segmented_helmet"/>
+				<equipment slot="Body" id="Item.ao_battanian_gambeson"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+				<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Cape" id="Item.battania_cloak"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Head" id="Item.battania_fur_cap"/>
+				<equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_25"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+                <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.ao_battanian_nasal_helmet"/>
+				<equipment slot="Body" id="Item.AR_battania_armor_g"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_t"/>
+			</EquipmentRoster>
+            <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.XIII_sword_25"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+				<equipment slot="Head" id="Item.ao_battanian_nasal_helmet"/>
+				<equipment slot="Body" id="Item.AR_battania_armor_g"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_t"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="scotland_infantry_root20"
+				  default_group="Infantry"
+				  name="Scottish Infantry"
+				  level="16"
+				  occupation="Soldier"
+				  culture="Culture.scottish">
+		<face>
+			<face_key_template value="BodyProperty.fighter_scottish"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="25"/>
+			<skill id="OneHanded" value="105"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.scotland_infantry_root200"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_17"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+                <equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c2"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.highland_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_battania_mace_3_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+                <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a3"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
+				<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+                <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.highland_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+			</EquipmentRoster>
+            <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
+				<equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.highland_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+    <NPCCharacter id="scotland_infantry_root200"
+                  default_group="Infantry"
+                  name="{=Scottish Lowlander}Scottish Lowlander"
+                  level="21"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="50"/>
+            <skill id="OneHanded" value="150"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="75"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_infantry_root2000"/>
+            <upgrade_target id="NPCCharacter.scotland_infantry_root2001"/>
+            <upgrade_target id="NPCCharacter.scotland_infantry_root2002"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.battle_axe_t4"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+                <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c4"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_d"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_battania_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+                <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a4"/>
+				<equipment slot="Body" id="Item.ranger_mail"/>
+				<equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.battle_axe_t4"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+                <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b4"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_d"/>
+				<equipment slot="Leg" id="Item.TV_battania_boots_g"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+                <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_b4"/>
+                <equipment slot="Body" id="Item.ringed_desert_armor"/>
+				<equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a4"/>
+				<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a4"/>
+				<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_infantry_root2000"
+                  default_group="Infantry"
+                  level="26"
+                  name="{=Scottish Armored Swordsman}Scottish Armored Swordsman"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="175"/>
+            <skill id="Riding" value="75"/>
+            <skill id="OneHanded" value="250"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_17"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Item3" id="Item.northern_round_shield"/>
+                <equipment slot="Head" id="Item.sta_kettle_p"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+                <equipment slot="Leg" id="Item.bootssta_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_17"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Item3" id="Item.northern_round_shield"/>
+                <equipment slot="Head" id="Item.AR_battania_helmet_g"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_l"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_h"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_15"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Item3" id="Item.northern_round_shield"/>
+                <equipment slot="Head" id="Item.orle_kettle1"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.el_hauberk_1"/>
+                <equipment slot="Leg" id="Item.hempcovered_boots_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_14"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Item3" id="Item.northern_round_shield"/>
+                <equipment slot="Head" id="Item.AR_battania_helmet_g"/>
+                <equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+                <equipment slot="Body" id="Item.hauberk"/>
+                <equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_14"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Item3" id="Item.northern_round_shield"/>
+                <equipment slot="Head" id="Item.bucketkettle_1"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.chainskirt_strap_1"/>
+                <equipment slot="Leg" id="Item.hempcovered_boots_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.XIII_sword_14"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Item3" id="Item.northern_round_shield"/>
+                <equipment slot="Head" id="Item.bucketkettle_1"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.chainskirt_strap_1"/>
+                <equipment slot="Leg" id="Item.hempcovered_boots_1"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_infantry_root2001"
+                  default_group="Infantry"
+                  level="26"
+                  name="{=Scottish Armored Axeman}Scottish Armored Axeman"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="160"/>
+            <skill id="TwoHanded" value="200"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.bearded_axe_t3"/>
+                <equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+                <equipment slot="Head" id="Item.sta_kettle_p"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+                <equipment slot="Leg" id="Item.poor_el_boots1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.northern_axe_t3"/>
+                <equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+                <equipment slot="Head" id="Item.orle_kettle1"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.norm_sleeved_hauberk_1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+                <equipment slot="Leg" id="Item.hempcovered_boots_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.hooked_axe_t4"/>
+                <equipment slot="Item1" id="Item.southern_throwing_axe_1_t4"/>
+                <equipment slot="Head" id="Item.bucketkettle_1"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.hauberk"/>
+                <equipment slot="Leg" id="Item.hempcovered_boots_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.bucketkettle_1"/>
+                <equipment slot="Cape" id="Item.el_cloak_1"/>
+                <equipment slot="Body" id="Item.chainskirt_strap_1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+                <equipment slot="Leg" id="Item.hempcovered_boots_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.sta_kettle_p"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+                <equipment slot="Body" id="Item.norm_sleeved_hauberk_1"/>
+                <equipment slot="Leg" id="Item.hempcovered_boots_1"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_infantry_root2002"
+                  default_group="Infantry"
+                  level="26"
+                  name="{=Scottish Highlander}Scottish Highlander"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="200"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="150"/>
+            <skill id="TwoHanded" value="250"/>
+            <skill id="Polearm" value="250"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="250"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2hsword_5_t4"/>
+                <equipment slot="Item2" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.e_lkettle_1"/>
+                <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak"/>
+                <equipment slot="Body" id="Item.highland_cloth"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_p"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2hsword_5_t4"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.e_lkettle_1"/>
+                <equipment slot="Cape" id="Item.battania_cloak"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_i"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_k"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2hsword_5_t5"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.e_lkettle_1"/>
+                <equipment slot="Cape" id="Item.battania_cloak_b"/>
+                <equipment slot="Body" id="Item.battania_woodland_outfit"/>
+                <equipment slot="Gloves" id="Item.TV_sturgia_gloves_b"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_q"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_2hsword_5_t5"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.e_lkettle_1"/>
+                <equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+                <equipment slot="Body" id="Item.battania_civil_b"/>
+                <equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.battania_2hsword_5_t5"/>
+                <equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.e_lkettle_1"/>
+                <equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+                <equipment slot="Body" id="Item.battania_civil_a"/>
+                <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="scotland_elite_root"
+                  default_group="Cavalry"
+                  name="{=Scottish Rider}Scottish Rider"
+                  level="16"
+                  occupation="Soldier"
+                  culture="Culture.scottish"
+                  is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="80"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="80"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="50"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_elite_root0"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.western_spear_1_t2"/>
+                <equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item2" id="Item.XIII_sword_4"/>
+                <equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
+                <equipment slot="Body" id="Item.woven_leather_coat"/>
+                <equipment slot="Leg" id="Item.highland_boots"/>
+                <equipment slot="Gloves" id="Item.highland_gloves"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.western_spear_1_t2"/>
+                <equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item2" id="Item.XIII_sword_5"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_c2"/>
+                <equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
+                <equipment slot="Leg" id="Item.highland_boots"/>
+                <equipment slot="Gloves" id="Item.highland_gloves"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.western_spear_1_t2"/>
+                <equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item2" id="Item.XIII_sword_30"/>
+                <equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_a2"/>
+                <equipment slot="Body" id="Item.woven_leather_coat"/>
+                <equipment slot="Leg" id="Item.highland_boots"/>
+                <equipment slot="Gloves" id="Item.highland_gloves"/>
+                <equipment slot="Cape" id="Item.battania_cloak_b"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.western_spear_1_t2"/>
+                <equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+                <equipment slot="Leg" id="Item.highland_boots"/>
+                <equipment slot="Gloves" id="Item.highland_gloves"/>
+                <equipment slot="Cape" id="Item.battania_cloak_b"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.western_spear_1_t2"/>
+                <equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
+                <equipment slot="Leg" id="Item.highland_boots"/>
+                <equipment slot="Gloves" id="Item.highland_gloves"/>
+                <equipment slot="Cape" id="Item.battania_cloak_b"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="scotland_elite_root0"
+                  default_group="Cavalry"
+                  name="{=Scottish Man-at-arms}Scottish Man-at-arms"
+                  upgrade_requires="ItemCategory.war_horse"
+                  level="21"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="100"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_elite_root00"/>
+            <upgrade_target id="NPCCharacter.scotland_elite_root01"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item2" id="Item.XIII_sword_33"/>
+                <equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_a4"/>
+                <equipment slot="Body" id="Item.kilt_over_plated_leather"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_t"/>
+                <equipment slot="Gloves" id="Item.battania_noble_bracers"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_b2"/>
+                <equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_c4"/>
+                <equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+                <equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item2" id="Item.XIII_sword_33"/>
+                <equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_a3"/>
+                <equipment slot="Body" id="Item.kilt_over_plated_leather"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_s"/>
+                <equipment slot="Gloves" id="Item.battania_noble_bracers"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_b1"/>
+                <equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_b4"/>
+                <equipment slot="Body" id="Item.battanian_chainmail_armor_d"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_u"/>
+                <equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_b1"/>
+                <equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+                <equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_b4"/>
+                <equipment slot="Body" id="Item.battanian_chainmail_armor_d"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_u"/>
+                <equipment slot="Gloves" id="Item.TV_battania_gloves_d"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_elite_root00"
+                  default_group="Cavalry"
+                  name="{=Scottish Squire}Scottish Squire"
+                  level="26"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="140"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="140"/>
+            <skill id="Polearm" value="140"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_elite_root000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+                <equipment slot="Item2" id="Item.reinforced_kite_shield"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.surcoat_4"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+                <equipment slot="Item2" id="Item.battania_axe_2_t4"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.el_surcoat_tab1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_heavy_11"/>
+                <equipment slot="Leg" id="Item.longboots_1"/>
+                <equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.XIII_sword_30"/>
+                <equipment slot="Item2" id="Item.reinforced_kite_shield"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.normknight_hauberk_1"/>
+                <equipment slot="Leg" id="Item.strapped_hosen_1"/>
+                <equipment slot="Horse" id="Item.t3_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.XIII_sword_33"/>
+                <equipment slot="Item2" id="Item.reinforced_kite_shield"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.serj_tab_gamb_2"/>
+                <equipment slot="Leg" id="Item.hempcovered_boots_1"/>
+                <equipment slot="Horse" id="Item.t3_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.XIII_sword_15"/>
+                <equipment slot="Item1" id="Item.AR_shield_infantry_zt"/>
+                <equipment slot="Item2" id="Item.XIII_sword_11"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.serj_tab_gamb_2"/>
+                <equipment slot="Leg" id="Item.strapped_hosen_1"/>
+                <equipment slot="Horse" id="Item.t3_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_elite_root000"
+                  default_group="Cavalry"
+                  name="{=Scottish Knight}Scottish Knight"
+                  level="31"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="160"/>
+            <skill id="Riding" value="180"/>
+            <skill id="OneHanded" value="220"/>
+            <skill id="TwoHanded" value="10"/>
+            <skill id="Polearm" value="220"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="125"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item1" id="Item.XIII_sword_15"/>
+                <equipment slot="Item2" id="Item.heater_shield_with_cutout_shoulder"/>
+                <equipment slot="Head" id="Item.maciejowski_helmet"/>
+                <equipment slot="Body" id="Item.surcoat_4"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Horse" id="Item.noble_horse_battania"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+                <equipment slot="Item2" id="Item.heater_shield_with_cutout_shoulder"/>
+                <equipment slot="Head" id="Item.maciejowski_helmet"/>
+                <equipment slot="Body" id="Item.mail_with_tabbard_scot2"/>
+                <equipment slot="Gloves" id="Item.mail_mitten"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Horse" id="Item.noble_horse_western"/>
+                <equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+                <equipment slot="Item2" id="Item.heater_shield_with_cutout_shoulder"/>
+                <equipment slot="Head" id="Item.maciejowski_helmet"/>
+                <equipment slot="Body" id="Item.el_surcoat_tab1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Horse" id="Item.noble_horse_western"/>
+                <equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+                <equipment slot="Item2" id="Item.heater_shield_with_cutout_shoulder"/>
+                <equipment slot="Head" id="Item.greathelmet_sta"/>
+                <equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+                <equipment slot="Gloves" id="Item.mail_mitten"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Horse" id="Item.noble_horse_western"/>
+                <equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item2" id="Item.battania_axe_2_t4"/>
+                <equipment slot="Item3" id="Item.heater_shield_with_cutout_shoulder"/>
+                <equipment slot="Head" id="Item.chap_kettle1"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+                <equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Horse" id="Item.noble_horse_battania"/>
+                <equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item1" id="Item.XIII_sword_15"/>
+                <equipment slot="Item3" id="Item.heater_shield_with_cutout_shoulder"/>
+                <equipment slot="Head" id="Item.nasal_conical_flattop1"/>
+                <equipment slot="Cape" id="Item.TV_battania_cloak_q2"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+                <equipment slot="Gloves" id="Item.AR_pict_glove_b"/>
+                <equipment slot="Leg" id="Item.mail_chausses"/>
+                <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item1" id="Item.XIII_sword_15"/>
+                <equipment slot="Item3" id="Item.heater_shield_with_cutout_shoulder"/>
+                <equipment slot="Head" id="Item.anachrism_facepalte_1"/>
+                <equipment slot="Body" id="Item.TV_vlandia_armor_g"/>
+                <equipment slot="Gloves" id="Item.mail_mitten"/>
+                <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+                <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+                <equipment slot="Item1" id="Item.XIII_sword_15"/>
+                <equipment slot="Item3" id="Item.heater_shield_with_cutout_shoulder"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+                <equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+                <equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+                <equipment slot="Cape" id="Item.TV_battania_cloak_q2"/>
+                <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+                <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="scotland_elite_root01"
+                  default_group="Cavalry"
+                  name="{=Scottish Light Horseman}Scottish Light Horseman"
+                  upgrade_requires="ItemCategory.war_horse"
+                  level="26"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="180"/>
+            <skill id="OneHanded" value="120"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="180"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.scotland_elite_root001"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_4"/>
+                <equipment slot="Item3" id="Item.light_horsemans_kite_shield"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_a2"/>
+                <equipment slot="Body" id="Item.battania_light_armor_b"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_g"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_33"/>
+                <equipment slot="Item3" id="Item.light_horsemans_kite_shield"/>
+                <equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
+                <equipment slot="Body" id="Item.battania_civil_a"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_h"/>
+                <equipment slot="Horse" id="Item.t2_sturgia_horse"/>
+                <equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_33"/>
+                <equipment slot="Item3" id="Item.light_horsemans_kite_shield"/>
+                <equipment slot="Head" id="Item.tv_vlandia_helmet_a2"/>
+                <equipment slot="Body" id="Item.battania_light_armor_a"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+                <equipment slot="Horse" id="Item.t2_battania_horse"/>
+                <equipment slot="HorseHarness" id="Item.light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_14"/>
+                <equipment slot="Item3" id="Item.light_horsemans_kite_shield"/>
+                <equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
+                <equipment slot="Body" id="Item.ao_battanian_iron_scale_over_tunic_with_kilt"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_i"/>
+                <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+                <equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+                <equipment slot="Item1" id="Item.XIII_sword_14"/>
+                <equipment slot="Item3" id="Item.light_horsemans_kite_shield"/>
+                <equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
+                <equipment slot="Body" id="Item.ao_battanian_iron_scale_over_tunic_with_kilt"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_i"/>
+                <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+                <equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="scotland_elite_root001"
+                  default_group="Cavalry"
+                  name="{=Scottish Hobelar}Scottish Hobelar"
+                  level="31"
+                  occupation="Soldier"
+                  culture="Culture.scottish">
+        <face>
+            <face_key_template value="BodyProperty.fighter_scottish"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="180"/>
+            <skill id="Riding" value="240"/>
+            <skill id="OneHanded" value="140"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="240"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+                <equipment slot="Item2" id="Item.battle_axe_t4"/>
+                <equipment slot="Head" id="Item.kettle_helmet_over_padded_cloth"/>
+                <equipment slot="Cape" id="Item.el_cloak_1"/>
+                <equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_e"/>
+                <equipment slot="Horse" id="Item.noble_horse_northern"/>
+                <equipment slot="HorseHarness" id="Item.light_harness"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+                <equipment slot="Item2" id="Item.XIII_sword_24"/>
+                <equipment slot="Head" id="Item.kettle_helmet_over_laced_coif"/>
+                <equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+                <equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
+                <equipment slot="Gloves" id="Item.highland_gloves"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+                <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_p"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+                <equipment slot="Item2" id="Item.sturgia_axe_4_t4"/>
+                 <equipment slot="Head" id="Item.strapped_kettle_1"/>
+                <equipment slot="Body" id="Item.battania_noble_armor"/>
+                <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                <equipment slot="Horse" id="Item.noble_horse_western"/>
+                <equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+                <equipment slot="Item3" id="Item.XIII_sword_24"/>
+                <equipment slot="Head" id="Item.strapped_kettle_1"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_n2"/>
+                <equipment slot="Gloves" id="Item.highland_gloves"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+                <equipment slot="Horse" id="Item.noble_horse_battania"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+                <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+                <equipment slot="Item2" id="Item.sturgia_axe_4_t4"/>
+                <equipment slot="Head" id="Item.strapped_kettle_1"/>
+                <equipment slot="Body" id="Item.AR_battania_armor_n2"/>
+                <equipment slot="Gloves" id="Item.highland_gloves"/>
+                <equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+                <equipment slot="Horse" id="Item.noble_horse_battania"/>
+                <equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>
