@@ -16,6 +16,25 @@
 		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.10"/>
 	</DependedModules>
 	<SubModules/>
-	<Xmls> 
+	<Xmls>
+
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="troops_fixes"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+                <GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Settlements" path="water_settlements" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+                <GameType value="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
 	</Xmls>
 </Module>
