@@ -124,8 +124,6 @@
   <string id="reiko_stargard.name" text="Замак Старгард"/>
   <string id="reiko_stargard.text" text="Замак Старгард"/>
   <string id="reiko_slawno.name" text="Замак Славно"/>
-  <string id="reiko_budapest.name" text="Фэхервар"/>
-  <string id="reiko_budapest.text" text="Фэхервар"/>
   <string id="reiko_pinsk.name" text="Замак Піньск"/>
   <string id="reiko_pinsk_vil_1.name" text="Клечьск"/>
   <string id="reiko_pinsk_vil_1.text" text="Клечьск"/>
@@ -146,6 +144,15 @@
   <string id="reiko_korsun_vil_1.name" text="Богуславль"/>
   <string id="reiko_korsun_vil_1.text" text="Богуславль"/>
   <string id="reiko_liubar.name" text="Замак Болохов"/>
+  <string id="reiko_turda.name" text="Замак Торда"/>
+  <string id="reiko_turda_vil_1.name" text="Акна"/>
+  <string id="reiko_turda_vil_1.text" text="Акна"/>
+  <string id="reiko_kraszna.name" text="Красна"/>
+  <string id="reiko_kraszna.text" text="Красна."/>
+  <string id="reiko_trencin.name" text="Замак Трэнчын"/>
+  <string id="reiko_trencin.text" text="Замак Трэнчын"/>
+  <string id="reiko_presov.name" text="Сарус"/>
+  <string id="reiko_presov.text" text="Сарус"/>
   <string id="reiko_pereiaslav.name" text="Перэяслав"/>
   <string id="reiko_pereiaslav.text" text="Перэяслав."/>
   <string id="reiko_pereiaslav_vil_1.name" text="Воронків"/>
@@ -259,20 +266,18 @@
   <string id="ECM_Settlements.Settlement.text.village_K2_4" text="Бельско"/>
   <string id="Settlements.Settlement.ECM.town_K6" text="Кракув"/>
   <string id="ECM_ygJkPxyc" text="Кракув"/>
-  <string id="Settlements.Settlement.ECM.village_K6_1" text="Попрад"/>
-  <string id="ECM_Settlements.Settlement.text.village_K6_1" text="Попрад"/>
-  <string id="Settlements.Settlement.ECM.village_K6_2" text="Беч"/>
-  <string id="ECM_Settlements.Settlement.text.village_K6_2" text="Беч"/>
-  <string id="Settlements.Settlement.ECM.village_K6_3" text="Велічка"/>
-  <string id="ECM_Settlements.Settlement.text.village_K6_3" text="Велічка"/>
-  <string id="Settlements.Settlement.ECM.town_K5" text="Загрэб"/>
-  <string id="ECM_SUnaVliN" text="Загрэб"/>
-  <string id="Settlements.Settlement.ECM.village_K5_2" text="Сомбатхэй"/>
-  <string id="ECM_Settlements.Settlement.text.village_K5_2" text="Сомбатхэй"/>
-  <string id="Settlements.Settlement.ECM.village_K5_3" text="Буда"/>
-  <string id="ECM_Settlements.Settlement.text.village_K5_3" text="Буда"/>
-  <string id="Settlements.Settlement.ECM.village_K5_4" text="Печ"/>
-  <string id="ECM_Settlements.Settlement.text.village_K5_4" text="Печ"/>
+  <string id="village_K6_1.name" text="Зобор"/>
+  <string id="village_K6_1.text" text="Зобор"/>
+  <string id="village_K6_2.name" text="Беч"/>
+  <string id="village_K6_2.text" text="Беч"/>
+  <string id="village_K6_3_ee.name" text="Велічка"/>
+  <string id="village_K6_3_ee.text" text="Велічка"/>
+  <string id="town_K5_ee.name" text="Загрэб"/>
+  <string id="town_K5_ee.text" text="Загрэб"/>
+  <string id="village_K5_2_ee.name" text="Сомбатэлі"/>
+  <string id="village_K5_2_ee.text" text="Сомбатэлі"/>
+  <string id="village_K5_4.name" text="Крыжэвцы"/>
+  <string id="village_K5_4.text" text="Крыжэвцы"/>
   <string id="castle_KR1_ee.name" text="Замак Жытомыр"/>
   <string id="castle_village_KR1_1_ee.name" text="Стрыльск"/>
   <string id="castle_village_KR1_1_ee.text" text="Стрыльск"/>
@@ -322,6 +327,39 @@
   <string id="ECM_Settlements.Settlement.text.village_KR7_1" text="Рыбрэка."/>
   <string id="Settlements.Settlement.ECM.KR.village_KR7_2" text="Бежацк"/>
   <string id="ECM_Settlements.Settlement.text.village_KR7_2" text="Бежацк."/>
+  <string id="castle_village_K8_1_ee.name" text="Колосвар"/>
+  <string id="castle_village_K8_1.text" text="Колосвар"/>
+  <string id="castle_village_K6_1_ee.name" text="Варад"/>
+  <string id="castle_village_K6_1_ee.text" text="Варад"/>
+  <string id="castle_K7_ee.name" text="Замак Нітра"/>
+  <string id="village_hungary_1.name" text="Фэхервар"/>
+  <string id="village_hungary_1.text" text="Фэхервар..."/>
+  <string id="Settlements.Settlement.ECM.village_K5_3" text="Везпрым"/>
+  <string id="ECM_Settlements.Settlement.text.village_K5_3" text="Везпрым..."/>
+  <string id="castle_village_K7_1_ee.name" text="Удвард"/>
+  <string id="castle_village_K7_1_ee.text" text="Удвард"/>
+  <string id="castle_K6_ee.name" text="Замак Сабольч"/>
+  <string id="castle_village_K6_2_ee.name" text="Сазд"/>
+  <string id="castle_village_K6_2_ee.text" text="Сазд"/>
+  <string id="Settlements.Settlement.ECM.town_hungary_1" text="Варконі"/>
+  <string id="ECM_79R6gi4ldb" text="Варконі"/>
+  <string id="Settlements.Settlement.ECM.castle_village_K7_2" text="Вац"/>
+  <string id="ECM_Settlements.Settlement.text.village_K6_4" text="Вац"/>
+  <string id="castle_K5_ee.name" text="Замак Чанад"/>
+  <string id="castle_village_K5_1_ee.name" text="Дэнч"/>
+  <string id="castle_village_K5_1_ee.text" text="Дэнч"/>
+  <string id="castle_village_K5_2.name" text="Бодрог"/>
+  <string id="castle_village_K5_2.text" text="Бодрог"/>
+  <string id="castle_K9_ee.name" text="Замак Тэмешвар"/>
+  <string id="castle_village_K9_1_ee.name" text="Крашшу"/>
+  <string id="castle_village_K9_1_ee.text" text="Крашшу"/>
+  <string id="castle_village_K9_2_ee.name" text="Арад"/>
+  <string id="castle_village_K9_2_ee.text" text="Арад"/>
+  <string id="Settlements.Settlement.ECM.castle_K1" text="Замак Бужым"/>
+  <string id="Settlements.Settlement.ECM.castle_village_K1_1" text="Кнін"/>
+  <string id="ECM_Settlements.Settlement.text.castle_village_K1_1" text="Кнін"/>
+  <string id="Settlements.Settlement.ECM.castle_village_K1_2" text="Яйцэ"/>
+  <string id="ECM_Settlements.Settlement.text.castle_village_K1_2" text="Яйцэ"/>
   <!--input/settlements/9_add_eastern_settlements_for_europe_1100.xml-->
   <string id="reiko_riga_vil_3.name" text="Царнікава"/>
   <string id="reiko_brest_vil_1.name" text="Ополе"/>
