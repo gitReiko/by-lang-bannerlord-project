@@ -999,7 +999,7 @@
   <string id="av14a64q" text="Думае"/>
   <string id="AV5xVGM5" text="Добра. Яны нам патрэбны як мага хутчэй.[if:convo_undecided_open][ib:closed2]"/>
   <string id="AvBNKK5y" text="Добра. Я адпраўлю аднаго кампаньёна выратаваць вашых сяброў."/>
-  <string id="avFXbBLV" text=""/>
+  <string id="avFXbBLV" text="Я ведаю як гэта бывае. Проста прынясі мне зброю.[if:convo_bored2]"/>
   <string id="avMQKUoJ" text="Вы змаглі выгнаць пастухоў са спрэчнай пашы. {?QUEST_GIVER.GENDER}Землеўласьніца, {QUEST_GIVER.LINK}, удзячная{?}Землеўласьнік, {QUEST_GIVER.LINK}, удзячны{\?} вам і адпраўляе {REWARD}{GOLD_ICON}."/>
   <string id="avOVHFgy" text="Я - сястра нашага ордэна."/>
   <string id="aVWb6aoQ" text="{VALUE}% атрыманьне адносінаў з супрацьлеглым полам."/>
@@ -1710,11 +1710,11 @@
   <string id="Eo958e7R" text="{VALUE}% прыбытак ад мыта ў кіраваным селішчы."/>
   <string id="EOaOlh39" text="У свой час. Давайце ня будзем занадта сьпяшацца."/>
   <string id="EOQcQa5l" text="Вынік"/>
-  <string id="eOSJHbBD" text=""/>
+  <string id="eOSJHbBD" text="Маё імя {CONVERSATION_HERO.FIRSTNAME}. Я {?CONVERSATION_HERO.GENDER}пражыла{?}пражыў{\?} тут усё сваё жыцьцё, {?CONVERSATION_HERO.GENDER}працавала{?}працаваў{\?} на зямлі, як і мае сваякі. Многія тутэйшыя, у {VILLAGE_NAME}, простыя земляробы і рамесьнікі. Яны любяць мяне, ім падабаецца, што я гавару ім."/>
   <string id="EP0gEG0L" text="выйграць гонку."/>
-  <string id="epcc2knY" text=""/>
+  <string id="epcc2knY" text="Дык, вы пасьпееце, так? Гэта ня будзе занадта складана для вас: сабраць {.%}{SELECTED_GOOD}{.%}, патрэбныя нам. Калі вы зможаце даставіць мне, а не гандляру, скажам {SELECTED_AMOUNT} {.%}{?SELECTED_AMOUNT &gt; 1}{PLURAL(SELECTED_GOOD)}{?}{SELECTED_GOOD}{\?}{.%}, я з радасьцю заплачу за тавар {REWARD_AMOUNT}{GOLD_ICON}. У выніку гандлярам прыйдзецца зьменшыць кошты.[if:convo_calm_friendly][ib:confident3]"/>
   <string id="ePD5Afvy" text="Хоць вы ўжо ня ў росквіце сілаў, але яшчэ маеце досыць часу, каб адправіцца ў апошнюю вялікую прыгоду. Валодая усім патрэбным досьведам для пераадоленьня ўсякіх перашкодаў."/>
-  <string id="EPhBiTxd" text=""/>
+  <string id="EPhBiTxd" text="Лінія бартару, вы не павінны яе бачыць."/>
   <string id="ePNba38W" text="Войскі выйграюць бітвы, але вёскі і гарады выйграюць войны."/>
   <string id="epnk9qIt" text="Мы выступаем супраць аб'явы вайны"/>
   <string id="Epwmv89M" text="{VALUE}% кіруемасьць зброі пешым."/>
@@ -1724,8 +1724,8 @@
   <string id="eQzskygV" text="{?QUEST_GIVER.GENDER}Яна{?}Ён{\?} зьдзейсьніць аплату {EXCHANGE_ITEM_COUNT} {?EXCHANGE_ITEM_COUNT&gt;1}адзінкай{?}адзінкамі{\?} {._}{EXCHANGE_ITEM}, калі задача будзе выканана."/>
   <string id="eR7P1cVA" text="{VILLAGE} Мае Патрэбу ў Рамесных Матэрыялах"/>
   <string id="ERh2DVEa" text=" • Страта росквіту: {PROSPERITY_LOST_AMOUNT}"/>
-  <string id="ErkaEHBp" text=""/>
-  <string id="ErKDfLWJ" text=""/>
+  <string id="ErkaEHBp" text="Калі падумаць, забудзьце."/>
+  <string id="ErKDfLWJ" text="Я маю больш сьпешныя справы. Я прыеду, калі змагу."/>
   <string id="erKuPRWA" text="Я маю план, як узьняцца ў гэтым сьвеце. Пакуль толькі пачынаю падымацца па лесьвіцы."/>
   <string id="EsF8sEaQ" text="І таму, што вы мой камандзір, я буду ісьці ўсьлед за вамі, куды б вы ні павялі."/>
   <string id="ESM0NhLy" text="{ARMY} было расфармавана з-за нястачы згуртаванасьці."/>
@@ -1747,9 +1747,9 @@
   <string id="EU3No7XM" text="{VALUE}% прабіваньне брані лукамі."/>
   <string id="EU4JjLqV" text="Медычны Намёт"/>
   <string id="EUbdov2r" text="Адвалі, {?PLAYER.GENDER}незнаёмка{?}незнаёмец{\?}. Вунь у тым яры хаваюцца і чакаюць нашага сігналу дзясяткі нашых."/>
-  <string id="EUBxMVXk" text=""/>
-  <string id="EuhvSsPZ" text=""/>
-  <string id="EUJaTe2v" text=""/>
+  <string id="EUBxMVXk" text="Маеце загады для вашага завулка, {?CONVERSATION_NPC.GENDER}спадарыня{?}спадар{\?}?"/>
+  <string id="EuhvSsPZ" text="Добра. Займі іх справай.[if:convo_normal]"/>
+  <string id="EUJaTe2v" text="Хто вы? Што вам трэба ад нас?"/>
   <string id="EUJlNTrf" text="{FIRSTNAME} {?FEMALE}Прыгажуньня{?}Прыгажун{\?}"/>
   <string id="EuwtMZGZ" text="Выказаць Літасьць {SHOW_MERCY_INFLUENCE_COST_TEXT}"/>
   <string id="EvAubSxs" text="Якія віды ваяроў яны рыхтуюць?"/>
@@ -1759,16 +1759,16 @@
   <string id="EVODEPGw" text="Пасьля пакутлівых дзён, праведзеных у палоне, вы знаходзіце шанец і зьбягаеце ад сваіх захопнікаў!"/>
   <string id="eVTnUmSB" text="Кошт Лаяльнасьці"/>
   <string id="EVxxKXmW" text="{newline} • Лаяльнасьць у {SETTLEMENT} : {LOYALTY_LOST_AMOUNT}"/>
-  <string id="eWGJmRMR" text=""/>
+  <string id="eWGJmRMR" text="Так, вядома. Тады пазьней."/>
   <string id="ewrkbwI9" text="Аліўкавы Сад"/>
-  <string id="ewVEM7Y0" text=""/>
+  <string id="ewVEM7Y0" text="Маё імя {CONVERSATION_HERO.FIRSTNAME}, з фракцыі {FACTION_DESCRIPTION}. Я прыйшоў сюды, бо многія заблудзіліся і слухаюць ілжывых прапаведнікаў, якія перакручваюць праўдзівы сэнс боскіх аб'явеньняў."/>
   <string id="EX5cZDLH" text="Шчыльныя Пабудовы"/>
   <string id="ex6ZhAAv" text="Вы далі кампаньёну {DENAR}{GOLD_ICON} для набыцьця {GRAIN_AMOUNT} мяхоў зерня для {ISSUE_OWNER.NAME}."/>
   <string id="eXaiRXF9" text="Чыт: Узяць у Аблогу Найблізкі Замак"/>
-  <string id="exbSCGzi" text=""/>
+  <string id="exbSCGzi" text="Прадметы Ўзнагароды"/>
   <string id="eXLxHSls" text="{?CHILD.GENDER}узначаліла{?}узначаліў{\?} людзей на варожай тэрыторыі."/>
   <string id="exmSGWUb" text="Палічу за лепшае быць вашым пасярэднікам у гэтай справе. Мне трэба захаваць свае грошы. Вы можаце загадаць сваім людзям падрыхтаваць статак."/>
-  <string id="ExRIMXDV" text=""/>
+  <string id="ExRIMXDV" text="Вашыя людзі не змаглі пазбавіцца ад кантрабандыстаў, як абяцалі {QUEST_GIVER.LINK}."/>
   <string id="EXwX0zrx" text="{?CHILD.GENDER}Юная жанчына сутыкнулася{?}Юны мужчына сутыкнуўся{\?} ў бітве з налётнікам з клана супернікаў, і {?CHILD.GENDER}нанесла{?}нанёс{\?} яму паразу, якую ён ня зможа забыць."/>
   <string id="EYQI9HJv" text="Я {?SPEAKER.GENDER}паклялася{?}пакляўся{\?} ў вернасьці {CURRENT_LIEGE.LINK}, але {?LORD.GENDER}яе{?}яго{\?} грэбаваньне да законаў гэтага гаспадарства прымушае мяне задумацца."/>
   <string id="eyZo8ZTk" text="Дазвольце мне аглядзець ваяроў партыі."/>
@@ -1776,13 +1776,13 @@
   <string id="EzbzOsJo" text="{?CHILD.GENDER}разьвіла{?}разьвіў{\?} свае сацыяльныя навыкі."/>
   <string id="ezClQMBj" text="Вашыя ворагі ўзялі вас у палон."/>
   <string id="ezfehKrT" text="у якасьці чалядніка."/>
-  <string id="eZYtkDff" text=""/>
+  <string id="eZYtkDff" text="Герой цяпер ува ўцёках."/>
   <string id="F16k4H7R" text="{QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}сказала{?}сказаў{\?} вам, што {?QUEST_GIVER.GENDER}яна{?}ён{\?} мае патрэбу ў {.%}{?(REQUESTED_ANIMAL_AMOUNT &gt; 1)}{PLURAL(SELECTED_ANIMAL)}{?}{SELECTED_ANIMAL}{\?}{.%} для {?QUEST_GIVER.GENDER}яе{?}яго{\?} вёскі. {?QUEST_GIVER.GENDER}Яна{?}Ён{\?} заплаціць вам {REWARD_GOLD}{GOLD_ICON} дэнараў, калі жывёлы будуць дастаўлены. Вы сказалі вашаму кампаньёну {COMPANION.LINK} і {ALTERNATIVE_TROOP_AMOUNT} ваярам даставіць {REQUESTED_ANIMAL_AMOUNT} {.%}{?(REQUESTED_ANIMAL_AMOUNT &gt; 1)}{PLURAL(SELECTED_ANIMAL)}{?}{SELECTED_ANIMAL}{\?}{.%} у {QUEST_GIVER.LINK}. Яны вярнуцца ў вашую партыю праз {RETURN_DAYS} дзён."/>
   <string id="F1CJo2wX" text="{VALUE}% ачкі ўдараў шчытоў."/>
   <string id="f1etg9oL" text="Прыдумаць нешта іншае."/>
   <string id="F1syZDs4" text="{newline}+{VALUE} да перавагаў {TRAIT_NAME_ONE} і {TRAIT_NAME_TWO}"/>
-  <string id="F2H2lZJ4" text=""/>
-  <string id="F2SzaTmk" text=""/>
+  <string id="F2H2lZJ4" text="{VALUE}% браня ўсіх экіпіяваных частак брані для пешых ваяроў вашай пабудовы."/>
+  <string id="F2SzaTmk" text="Ммм, шчодры дар у мой куфар, бясспрэчна, дапаможа справе... {BRIBE_MONEY}{GOLD_ICON} хопіць. Калі вы згодныя, то я прыму вашую прапанову."/>
   <string id="F41aPt80" text="Каралеўская Гвардыя"/>
   <string id="f4g7r0xF" text="Вораг не мае ўразьлівых месцаў."/>
   <string id="f4lnEplc" text="Легендарны Каваль"/>
