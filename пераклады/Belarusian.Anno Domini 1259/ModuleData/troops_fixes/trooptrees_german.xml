@@ -279,4 +279,324 @@
         </Equipments>
     </NPCCharacter>
 
+    <NPCCharacter id="hre_infantry_root2"
+                  default_group="Infantry"
+                  name="{=hre_infantry_root2.name}German Levy Infantry"
+                  level="11"
+                  occupation="Soldier"
+                  culture="Culture.germanic">
+        <face>
+            <face_key_template value="BodyProperty.fighter_vlandia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="80"/>
+            <skill id="TwoHanded" value="50"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="25"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.hre_infantry_root20"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+                <equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+                <equipment slot="Head" id="Item.sta_nasal_elwool"/>
+                <equipment slot="Body" id="Item.gambeson_levy1"/>
+                <equipment slot="Leg" id="Item.strapped_hosen_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+                <equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+                <equipment slot="Head" id="Item.lether_cercelliere_1"/>
+                <equipment slot="Body" id="Item.levy_gambeson_1"/>
+                <equipment slot="Leg" id="Item.poor_el_boots1"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_mace_2_t4"/>
+                <equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+                <equipment slot="Head" id="Item.flatkettle_1"/>
+                <equipment slot="Body" id="Item.gamb_tunic_1"/>
+                <equipment slot="Leg" id="Item.strapped_hosen_1"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+                <equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+                <equipment slot="Head" id="Item.cervelliere_padding_hood1"/>
+                <equipment slot="Body" id="Item.gambeson_levy1"/>
+                <equipment slot="Leg" id="Item.poor_el_boots1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="hre_infantry_root20"
+                  default_group="Infantry"
+                  name="{=hre_infantry_root20.name}German Infantry"
+                  level="16"
+                  occupation="Soldier"
+                  culture="Culture.germanic">
+        <face>
+            <face_key_template value="BodyProperty.fighter_vlandia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="77"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="23"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.hre_infantry_root200"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_17"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.aketon"/>
+                <equipment slot="Leg" id="Item.sturgia_boots_d"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_mace_4_t5"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.cervelliere_padding_hood1"/>
+                <equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+                <equipment slot="Leg" id="Item.strapped_hosen_1"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_mace_2_t4"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.aketon"/>
+                <equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.flatkettle_1"/>
+                <equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+                <equipment slot="Leg" id="Item.sturgia_boots_d"/>
+                <equipment slot="Cape" id="Item.shoulder_cloth1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="hre_infantry_root200"
+                  default_group="Infantry"
+                  name="{=hre_infantry_root200.name}German Senior Infantry"
+                  level="21"
+                  occupation="Soldier"
+                  culture="Culture.germanic">
+        <face>
+            <face_key_template value="BodyProperty.fighter_vlandia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="30"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="145"/>
+            <skill id="TwoHanded" value="149"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="23"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.hre_infantry_root2000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_33"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.t_shaped_1"/>
+                <equipment slot="Body" id="Item.surcoat_5"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_mace_4_t5"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.cercelliere_1"/>
+                <equipment slot="Body" id="Item.surcoat_1"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_b4"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.painted_es_naal1"/>
+                <equipment slot="Body" id="Item.surcoat_4"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_20"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.sta_nasal_el1"/>
+                <equipment slot="Body" id="Item.surcoat_3"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.empire_mace_4_t5"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.flatkettle_1"/>
+                <equipment slot="Body" id="Item.surcoat_4"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.mailgloves_1"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="hre_infantry_root2000"
+                  default_group="Infantry"
+                  name="{=hre_infantry_root2000.name}German Serjeant Infantry"
+                  level="26"
+                  occupation="Soldier"
+                  culture="Culture.germanic">
+        <face>
+            <face_key_template value="BodyProperty.fighter_vlandia"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="0"/>
+            <skill id="Riding" value="25"/>
+            <skill id="OneHanded" value="160"/>
+            <skill id="TwoHanded" value="176"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="25"/>
+            <skill id="Crossbow" value="25"/>
+            <skill id="Throwing" value="23"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_43"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+                <equipment slot="Body" id="Item.coat_of_plates1_c"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.mail_mitten"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.XIII_sword_b4"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.tv_vlandia_lord_helmet_a"/>
+                <equipment slot="Body" id="Item.coat_of_plates4_c"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.tv_vlandia_lord_helmet_b"/>
+                <equipment slot="Body" id="Item.TV_vlandia_armor_n"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.mail_mitten"/>
+            </EquipmentRoster>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+                <equipment slot="Item1" id="Item.flat_heater_shield"/>
+                <equipment slot="Head" id="Item.norm_potplate_1"/>
+                <equipment slot="Body" id="Item.padded_surcoat_1"/>
+                <equipment slot="Leg" id="Item.mailchasseus_1"/>
+                <equipment slot="Gloves" id="Item.mail_mitten"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                <equipment slot="Item2" id="Item.throwing_stone"/>
+                <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="hre_archer_root1000"
+				  default_group="Ranged"
+				  name="{=hre_archer_root1000.name}German Master Crossbowman"
+				  level="31"
+				  occupation="Soldier"
+				  culture="Culture.germanic">
+		<face>
+            <face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.XIII_sword_29"/>
+				<equipment slot="Head" id="Item.orle_kettle1"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_p"/>
+				<equipment slot="Leg" id="Item.longboots_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.XIII_sword_17"/>
+				<equipment slot="Head" id="Item.orle_kettle1"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_q"/>
+				<equipment slot="Leg" id="Item.longboots_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Head" id="Item.guards_kettle_over_mail_coif"/>
+				<equipment slot="Body" id="Item.padded_surcoat_1"/>
+				<equipment slot="Leg" id="Item.longboots_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.empire_mace_4_t5"/>
+				<equipment slot="Head" id="Item.guards_kettle_over_mail_coif"/>
+				<equipment slot="Body" id="Item.padded_surcoat_1"/>
+				<equipment slot="Leg" id="Item.longboots_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
 </NPCCharacters>
