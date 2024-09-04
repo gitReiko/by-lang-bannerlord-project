@@ -221,6 +221,14 @@
         <equipment slot="Body" id="Item.layered_leather_tunic" />
         <equipment slot="Leg" id="Item.wrapped_shoes" />
       </EquipmentRoster>
+		
+		<EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Item2" id="Item.western_spear_1_t2" />
+		<equipment slot="Head" id="Item.aserai_civil_f_cape" />
+        <equipment slot="Body" id="Item.layered_leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_shoes" />
+      </EquipmentRoster>
       
     </Equipments>
   </NPCCharacter>

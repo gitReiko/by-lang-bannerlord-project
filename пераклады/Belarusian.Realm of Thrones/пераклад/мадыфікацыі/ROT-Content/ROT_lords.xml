@@ -330,7 +330,7 @@
                 voice="curt"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -365,7 +365,7 @@
                 voice="earnest"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -404,7 +404,7 @@
                 age="46"
                 voice="curt"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 default_group="Cavalry"
                 face_mesh_cache="true">
@@ -446,7 +446,7 @@
                 voice="curt"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -477,7 +477,7 @@
                 age="47"
                 voice="curt"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -672,7 +672,7 @@
                 age="64"
                 voice="earnest"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 default_group="Cavalry"
                 face_mesh_cache="true">
@@ -731,7 +731,7 @@
                 age="32"
                 voice="earnest"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 default_group="Cavalry"
                 face_mesh_cache="true">
@@ -1331,7 +1331,7 @@
                 voice="curt"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -1363,43 +1363,7 @@
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="lord_1_177"
-                name="{=ROT00447}Steelshanks Walton"
-                age="39"
-                voice="curt"
-                is_hero="true"
-                culture="Culture.bolton"
-                occupation="Lord"
-                default_group="Cavalry"
-                face_mesh_cache="true">
-    <face>
-      <!--face_key value="0011ad2700000008975d98b886669678796aa5a76a87677859779a888658234a000000040797967900001105000030a30000001f000000000000000000040000" /-->
-      <BodyProperties version="4"
-                      age="39.7"
-                      weight="0.3"
-                      build="0.7"
-                      key="0005580F0000070279766A729553A380A35E866295A0967764487A498C8336860F7776350A4A5303A200000000000000000000000000003A000000003D5C2002" />
-    </face>
-    <Traits>
-      <Trait id="KnightFightingSkills"
-             value="7" />
-      <Trait id="Commander"
-             value="3" />
-      <Trait id="Politician"
-             value="2" />
-      <Trait id="Manager"
-             value="1" />
-      <Trait id="Calculating"
-             value="-1" />
-      <!---Opportunist -->
-    </Traits>
-    <Equipments>
-      <EquipmentRoster />
-      <EquipmentSet id="bol_bat_template_bolton" />
-      <EquipmentSet id="bol_civ_template_default"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
+  
   <!-- Hythea, wealthy and somewhat garish />-->
   <NPCCharacter id="lord_1_18"
                 name="{=ROT00448}Walda Frey"
@@ -1407,7 +1371,7 @@
                 voice="curt"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 default_group="Cavalry"
                 face_mesh_cache="true">
@@ -1754,7 +1718,7 @@
                 age="26"
                 voice="earnest"
                 is_hero="true"
-                culture="Culture.ghiscari"
+                culture="Culture.khuzait"
                 occupation="Lord"
                 default_group="Cavalry"
                 face_mesh_cache="true">
@@ -1875,7 +1839,7 @@
                 age="23"
                 voice="earnest"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 default_group="Cavalry"
                 face_mesh_cache="true">
@@ -1999,7 +1963,7 @@
                 age="44"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.empire"
+                culture="Culture.river"
                 occupation="Lord"
                 name="{=AdK4Ilzw}Aenys Frey"
                 face_mesh_cache="true">
@@ -2239,7 +2203,7 @@
                 default_group="Cavalry"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -2396,7 +2360,7 @@
                 default_group="Cavalry"
                 age="30"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.river"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -5398,7 +5362,7 @@
                 
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.dragonstone"
+                culture="Culture.lyseni"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -6250,7 +6214,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
     </Traits>
 	  <Equipments>
 		  <EquipmentRoster />
-		  <EquipmentSet id="stu_bat_template_greyjoy" />
+		  <EquipmentSet id="stu_bat_template_euron" />
 		  <EquipmentSet id="stu_civ_template_default"
 						civilian="true" />
 	  </Equipments>
@@ -6380,7 +6344,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 age="39"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.sturgia"
+                culture="Culture.aserai"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -6408,8 +6372,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="stu_bat_template_heavy" />
-      <EquipmentSet id="stu_civ_template_default"
+      <EquipmentSet id="ase_bat_template_medium" />
+      <EquipmentSet id="valyrian_civ_template_default"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -6420,7 +6384,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.sturgia"
+                culture="Culture.aserai"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -6440,12 +6404,12 @@ voice="Male, northern accent, older, authoritative and competent"-->
       <Trait id="Mercy"
              value="1" />
     </Traits>
-    <Equipments>
-      <EquipmentRoster />
-      <EquipmentSet id="stu_bat_template_heavy" />
-      <EquipmentSet id="stu_civ_template_default"
-                    civilian="true" />
-    </Equipments>
+	  <Equipments>
+		  <EquipmentRoster />
+		  <EquipmentSet id="ase_bat_template_medium" />
+		  <EquipmentSet id="valyrian_civ_template_default"
+						civilian="true" />
+	  </Equipments>
   </NPCCharacter>
   <NPCCharacter id="lord_2_14_2"
                 name="{=ROT00585}Allyria Dayne"
@@ -6454,7 +6418,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.sturgia"
+                culture="Culture.aserai"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -6472,12 +6436,12 @@ voice="Male, northern accent, older, authoritative and competent"-->
       <Trait id="Calculating"
              value="-1" />
     </Traits>
-    <Equipments>
-      <EquipmentRoster />
-      <EquipmentSet id="stu_bat_template_heavy" />
-      <EquipmentSet id="stu_civ_template_default"
-                    civilian="true" />
-    </Equipments>
+	  <Equipments>
+		  <EquipmentRoster />
+		  <EquipmentSet id="ase_bat_template_dayne2" />
+		  <EquipmentSet id="valyrian_civ_template_default"
+						civilian="true" />
+	  </Equipments>
   </NPCCharacter>
   <NPCCharacter id="lord_2_14_3"
                 name="{=ROT00586}Aurola"
@@ -6486,7 +6450,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.sturgia"
+                culture="Culture.aserai"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -6500,12 +6464,12 @@ voice="Male, northern accent, older, authoritative and competent"-->
     <Traits>
       <!-- TEENAGER, NO SKILLS OR TRAITS YET-->
     </Traits>
-    <Equipments>
-      <EquipmentRoster />
-      <EquipmentSet id="stu_bat_template_heavy" />
-      <EquipmentSet id="stu_civ_template_default"
-                    civilian="true" />
-    </Equipments>
+	  <Equipments>
+		  <EquipmentRoster />
+		  <EquipmentSet id="ase_bat_template_medium" />
+		  <EquipmentSet id="valyrian_civ_template_default"
+						civilian="true" />
+	  </Equipments>
   </NPCCharacter>
   <!-- Rategost, mystical. Cautious and kind. -->
   <NPCCharacter id="lord_2_15"
@@ -6719,7 +6683,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
     <Equipments>
       <EquipmentRoster />
       <EquipmentSet id="ase_bat_template_dayne" />
-      <EquipmentSet id="stu_civ_template_default"
+      <EquipmentSet id="valyrian_civ_template_flamboyant"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -6730,7 +6694,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 age="18"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.sturgia"
+                culture="Culture.aserai"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -6748,12 +6712,12 @@ voice="Male, northern accent, older, authoritative and competent"-->
       <Trait id="Mercy"
              value="1" />
     </Traits>
-    <Equipments>
-      <EquipmentRoster />
-      <EquipmentSet id="stu_bat_template_medium" />
-      <EquipmentSet id="stu_civ_template_default"
-                    civilian="true" />
-    </Equipments>
+	  <Equipments>
+		  <EquipmentRoster />
+		  <EquipmentSet id="ase_bat_template_medium" />
+		  <EquipmentSet id="valyrian_civ_template_default"
+						civilian="true" />
+	  </Equipments>
   </NPCCharacter>
   <!-- independent sturgian lord. Vyldur. Fairly gentle, as warlords go -->
   <NPCCharacter id="lord_2_17"
@@ -6834,7 +6798,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 voice="curt"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -6874,7 +6838,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -7122,8 +7086,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="ase_bat_template_medium" />
-      <EquipmentSet id="stu_civ_template_default"
+      <EquipmentSet id="ase_bat_template_dayne2" />
+      <EquipmentSet id="valyrian_civ_template_flamboyant"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -7134,7 +7098,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.sturgia"
+                culture="Culture.aserai"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -7152,12 +7116,12 @@ voice="Male, northern accent, older, authoritative and competent"-->
       <Trait id="Honor"
              value="1" />
     </Traits>
-    <Equipments>
-      <EquipmentRoster />
-      <EquipmentSet id="stu_bat_template_medium" />
-      <EquipmentSet id="stu_civ_template_default"
-                    civilian="true" />
-    </Equipments>
+	  <Equipments>
+		  <EquipmentRoster />
+		  <EquipmentSet id="ase_bat_template_medium" />
+		  <EquipmentSet id="valyrian_civ_template_default"
+						civilian="true" />
+	  </Equipments>
   </NPCCharacter>
   <!-- independent sturgian lord. Lashonek. Wise, pessimistic -->
   <NPCCharacter id="lord_2_22"
@@ -7247,7 +7211,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 voice="ironic"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -7287,7 +7251,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
@@ -8968,7 +8932,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
   </NPCCharacter>
   <!-- Ukhai, true believer in whatever cause he gravitates to, not much given to independent thought  -->
   <NPCCharacter id="lord_3_21"
-                name="{=ROT00655}Cletus Yronwood"
+                name="{=ROT00655}Archibald Yronwood"
                 age="24"
                 voice="earnest"
                 default_group="Cavalry"
@@ -9476,7 +9440,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
     <face>
       <!--face_key value="0002680080001002D976648B57748832537C826295113203DCB177278A846667007656030748B49500000000000000000000000000000000000000003EEC4003" /-->
       <BodyProperties version="4"
-                      key="0008700200143004C776648ED774B831537D866295113215DCBCAE0F8A844667019CA6140911B49E00000000000000000000000000000000000000003F3C1003" />
+                      key="0005640080881004DD59DBBA61424E3548C91684717423057A69403C8542418800767003070717360000037F0000000F00000037049140010000000056F04043" />
     </face>
     <Traits>
       <Trait id="Politician"
@@ -10898,7 +10862,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_bat_template_clegane" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -10934,7 +10898,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_bat_template_clegane" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -11850,49 +11814,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
   </NPCCharacter>
   <!-- lords 10-12 -  -->
 
-  <NPCCharacter id="lord_5_10"
-                name="{=ROT00733}Rodrik Cassel"
-                age="50"
-                voice="curt"
-                is_female="false"
-                culture="Culture.battania"
-                occupation="Lord"
-                default_group="Cavalry"
-                is_hero="true"
-                face_mesh_cache="true">
-    <face>
-      <!--face_key value="000264000000259177766434475F8CBAC342866245A096737441DA49838BF6A5007DD60307A7B7A500000000000000000000000000000000000000003CFC3002" /-->
-      <BodyProperties version="4"
-                      key="000264000000259177766434475F8CBAC342866245A096737441DA49838BF6A5007DD60307A7B7A500000000000000000000000000000000000000003CFC3002" />
-    </face>
-    <skills>
-      <!-- COMBATANT MALE -->
-    </skills>
-    <Traits>
-      <!-- COMBATANT MALE -->
-      <Trait id="BalancedFightingSkills"
-             value="7" />
-      <Trait id="Commander"
-             value="7" />
-      <Trait id="Politician"
-             value="6" />
-      <Trait id="Manager"
-             value="2" />
-      <Trait id="Mercy"
-             value="-1" />
-      <Trait id="Generosity"
-             value="-1" />
-      <Trait id="Valor"
-             value="1" />
-    </Traits>
-    <Equipments>
-      <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_heavy" />
-      <EquipmentSet id="bat_civ_template_default"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <!-- Alynneth, Heiress of clan 2, Ergeon's daughter. Mystic. -->
+  
   <NPCCharacter id="lord_5_11"
                 name="{=ROT00734}Alynneth"
                 age="19"
@@ -12022,12 +11944,12 @@ voice="Male, northern accent, older, authoritative and competent"-->
     <Traits>
       <!-- Teenager, no skills or traits -->
     </Traits>
-    <Equipments>
-      <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_sansa" />
-      <EquipmentSet id="bat_noncom_template_sansa"
-                    civilian="true" />
-    </Equipments>
+	  <Equipments>
+		  <EquipmentRoster />
+		  <EquipmentSet id="bat_bat_template_medium" />
+		  <EquipmentSet id="bat_civ_template_flamboyant"
+						civilian="true" />
+	  </Equipments>
   </NPCCharacter>
   <!-- Pryndor fen Uvain, fierce old warlord -->
   <NPCCharacter id="lord_5_15"
@@ -12261,7 +12183,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
       <BodyProperties version="4"
                       weight="0.9814"
                       build="0.9805"
-                      key="000500000000038D797664884754DCBAA35E866295A0967774414A498C83368600EEE6030EA7B7A500000000000000000000000000000000000000000BCC2002" />
+                      key="000510000000038D797664884754DCBAA35E866295A0967774414A498C83368600EEE6030EA7B7A500000000000000000000000000000000000000000BCC2002" />
     </face>
     <skills></skills>
     <Traits>
@@ -12286,7 +12208,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_heavy" />
+      <EquipmentSet id="bat_bat_template_umber" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -12573,7 +12495,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
              value="1" />
     </Traits>
     <Equipments>
-      <EquipmentSet id="bat_bat_template_heavy" />
+      <EquipmentSet id="bat_bat_template_umber" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -12953,7 +12875,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 voice="curt"
                 age="30"
                 is_female="false"
-                culture="Culture.ghiscari"
+                culture="Culture.tyroshi"
                 occupation="Lord"
                 default_group="Cavalry"
                 is_hero="true"
@@ -15151,7 +15073,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.ghiscari"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -15180,7 +15102,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
-			<EquipmentSet id="bat_bat_template_lyanna" />
+			<EquipmentSet id="bat_bat_template_jorah" />
 			<EquipmentSet id="bat_civ_template_flamboyant"
 						  civilian="true" />
 		</Equipments>
@@ -21980,7 +21902,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 voice="curt"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -22019,7 +21941,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 voice="curt"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -22059,7 +21981,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 default_group="Cavalry"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -22093,7 +22015,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 voice="softspoken"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -22132,7 +22054,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 default_group="Cavalry"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -22325,7 +22247,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 voice="curt"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -22364,7 +22286,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 voice="curt"
                 default_group="Cavalry"
                 is_hero="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -22404,7 +22326,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 default_group="Cavalry"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -22439,7 +22361,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
                 default_group="Cavalry"
                 is_hero="true"
                 is_female="true"
-                culture="Culture.bolton"
+                culture="Culture.battania"
                 occupation="Lord"
                 face_mesh_cache="true">
 		<face>
@@ -26427,45 +26349,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="ROTlord_242"
-                name="{=ROTallyriadayne}Allyria Dayne"
-                voice="softspoken"
-                age="38"
-                is_female="true"
-                is_hero="true"
-                culture="Culture.stormlands"
-                occupation="Lord"
-                default_group="Cavalry">
-		<face>
-			<!-- Face key needs redoing, repurposed from female-->
-			<BodyProperties version="4"
-							weight="0.6154"
-							build="0.5899"
-							key="0018600340B4000576A8374675C67CCE686928A94A9A8289764A9A9593A7698C0067C603065AAB5900000000000000000000000000000000000000003EC400C3" />
-		</face>
-		<Traits>
-			<Trait id="KnightFightingSkills"
-				   value="7" />
-			<Trait id="Commander"
-				   value="6" />
-			<Trait id="Politician"
-				   value="2" />
-			<Trait id="Manager"
-				   value="5" />
-			<!-- Amenon, Apys's dutiful lieutenant. -->
-			<Trait id="Valor"
-				   value="1" />
-			<Trait id="Generosity"
-				   value="1" />
-			<Trait id="Calculating"
-				   value="-1" />
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="sto_bat_template_lady" />
-			<EquipmentSet id="sto_noncom_template_default"
-						  civilian="true" />
-		</Equipments>
-	</NPCCharacter>
+	
 
 	<NPCCharacter id="ROTlord_243"
                 name="{=ROTeric}Eric Dondarrion"
@@ -26498,7 +26382,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				   value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sto_bat_template_medium" />
+			<EquipmentSet id="sto_bat_template_dondarrion" />
 			<EquipmentSet id="sto_civ_template_default"
 						  civilian="true" />
 		</Equipments>
@@ -26538,7 +26422,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				   value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sto_bat_template_medium" />
+			<EquipmentSet id="sto_bat_template_dondarrion" />
 			<EquipmentSet id="sto_civ_template_default"
 						  civilian="true" />
 		</Equipments>

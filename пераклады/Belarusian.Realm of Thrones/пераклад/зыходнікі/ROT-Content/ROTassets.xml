@@ -18,9 +18,9 @@
   <string id="ROT00020" text="Night's Watch Boots"/>
   <string id="ROT00022" text="Night's Watch Armor"/>
   <string id="ROT00024" text="Northern Heavy Helmet"/>
-  <string id="ROT00027" text="Bolton Armor"/>
+  <string id="ROT00027" text="Bolton Archer's Leathers"/>
   <string id="ROT00028" text="Karstark Armor"/>
-  <string id="ROT00029" text="Bolton Helmet"/>
+  <string id="ROT00029" text="Bolton Archer's Helmet"/>
   <string id="ROT00030" text="Danaerys Hair"/>
   <string id="ROT00031" text="Danaerys Dress"/>
   <string id="ROT00032" text="Danaerys Boots"/>
@@ -48,9 +48,10 @@
   <string id="ROT00062" text="Stormland's Cape"/>
   <string id="ROT00064" text="Free Folk Gloves"/>
   <string id="ROT00068" text="House Tyrell Armor"/>
-  <string id="ROT00069" text="Arthur Dayne Helmet"/>
+  <string id="ROT00069" text="Targaryen Kingsguard Helmet"/>
   <string id="ROT00070" text="Northern Pauldrons"/>
-  <string id="ROT00071" text="Arthur Dayne Armor"/>
+  <string id="ROT00071" text="Targaryen Kingsguard Armor"/>
+  <string id="targkingpaul" text="Targaryen Kingsguard Pauldrons"/>
   <string id="ROT00072" text="Kingsguard Boots"/>
   <string id="ROT00073" text="Kingsguard Armor"/>
   <string id="ROT00074" text="Kingsguard Helmet"/>
@@ -64,8 +65,6 @@
   <string id="slvkin4" text="Kingsguard Pauldrons with Cloak 2"/>
   <string id="slvkin5" text="Kingsguard Bracers 2"/>
   <string id="slvkin6" text="Kingsguard Pauldrons 2"/>
-  <string id="ROT00077" text="Goldcloak Helmet"/>
-  <string id="ROT00078" text="Goldcloak Mail"/>
   <string id="ROT00079" text="Stormlands Helmet"/>
   <string id="ROT00081" text="Stormlands Mail"/>
   <string id="ROT00082" text="Reach Archer's Helmet"/>
@@ -109,7 +108,7 @@
   <string id="ROT01876" text="Jon Snow Vambraces"/>
   <string id="ROT01877" text="House Hughes Vambraces"/>
   <string id="ROT03008" text="Bolton Boots"/>
-  <string id="ROT03009" text="Arthur Dayne Boots"/>
+  <string id="ROT03009" text="Targaryen Kingsguard Boots"/>
   <string id="ROT03011" text="Ironborn Armor"/>
   <string id="ROT03012" text="Greyjoy Armor"/>
   <string id="ROT03013" text="Ironborn Boots"/>
@@ -140,8 +139,6 @@
   <string id="ROTreachhelmet" text="Reach Helmet"/>
   <string id="ROTcerseicrown" text="Cersei's Crown"/>
   <string id="ROTcerseidress" text="Cersei's Dress"/>
-  <string id="ROTsansadress" text="Sansa's Dress"/>
-  <string id="ROTsansafur" text="Sansa's Fur"/>
   <string id="ROTmargaerydress" text="Margaery's Dress"/>
   <string id="ROTstormshoulders" text="Stormlands Shoulders"/>
   <string id="ROTstormshoulders2" text="Stormlands Shoulders 2"/>
@@ -176,7 +173,7 @@
   <string id="ROTriverlandsgambeson" text="Riverlands Gambeson"/>
   <string id="ROTbaratheonhelmet3" text="Baratheon Helmet 3"/>
   <string id="ROTvalsteel2" text="Valyrian Steel Sword type 2"/>
-  <string id="ROTladyforlorn" text="Lady Forlorn"/>
+  <string id="ROTladyforlorn" text="Tempest"/>
   <string id="ROTvalsteel3" text="Valyrian Steel Sword type 3"/>
   <string id="ROTvalsteel4" text="Valyrian Steel Sword type 4"/>
   <string id="ROTvalsteel5" text="Valyrian Steel Sword type 5"/>
@@ -276,16 +273,18 @@
   <string id="ROTbanditgarb" text="Bandit Garb"/>
   <string id="ROTbanditshoes" text="Bandit Shoes"/>
   <string id="ROTlanpaulcape" text="Lannister Noble Pauldrons with Cape"/>
+  <string id="ROTlanpaulcape2" text="Lannister Pauldrons with Cape"/>
   <string id="ROTww2sword" text="Widow's Wail"/>
   <string id="ROTbascinet" text="Open Bascinet"/>
   <string id="ROTtarglordgorget" text="Valyrian Gorget"/>
   <string id="ROTvalyrianhelm" text="Valyrian Helmet"/>
   <string id="ROTwestymil" text="Western Militia Armor"/>
-  <string id="ROTgoldarmor" text="Gold Cloak Armor"/>
-  <string id="ROTgoldpaul" text="Gold Cloak Pauldrons"/>
-  <string id="ROTgoldboots" text="Gold Cloak Boots"/>
-  <string id="ROTgoldbracers" text="Gold Cloak Bracers"/>
-  <string id="ROTgoldcloak" text="Gold Cloak"/>
+  <string id="clegarmor" text="House Clegane Armor"/>
+  <string id="cleghelm" text="House Clegane Helmet"/>
+  <string id="clegpaul" text="House Clegane Pauldrons"/>
+  <string id="clegboots" text="House Clegane Boots"/>
+  <string id="clegbracers" text="House Clegane Bracers"/>
+  <string id="armcloak" text="Arm Cloak"/>
   <string id="ROTbarcloak" text="Baratheon Cloak"/>
   <string id="ROTvalplate" text="Valyrian Plate Armor"/>
   <string id="ROTgoldpaulcape" text="Gold Cloak Pauldrons with Cloak"/>
@@ -301,6 +300,7 @@
   <string id="ROTbraavcur" text="Braavosi Curiass"/>
   <string id="ROTvolarmor" text="Volantene Heavy Armor"/>
   <string id="ROTvolpaul" text="Volantene Pauldrons"/>
+  <string id="ROTvolpaul2" text="Tigercloak Pauldrons"/>
   <string id="ROTvolhelm" text="Volantene Helmet"/>
   <string id="ROTvollighthelm" text="Volantene Light Helmet"/>
   <string id="ROTvollightarmor" text="Volantene Light Armor"/>
@@ -315,7 +315,7 @@
   <string id="ROTmorboots" text="Mormont Boots"/>
   <string id="ROTmorlord" text="Mormont Lord Helmet"/>
   <string id="ROTmorarmor" text="Mormont Armor"/>
-  <string id="ROTbolsallet" text="Bolton sallet"/>
+  <string id="ROTbolsallet" text="Bolton Sallet"/>
   <string id="ROTspikeshield" text="Spiked Shield"/>
   <string id="ROTkarcoif" text="Karstark Coif"/>
   <string id="ROTkarcoifdown" text="Karstark Coif Down"/>
@@ -447,7 +447,7 @@
   <string id="ROTcasterlybracglov" text="Casterly Rock Bracers with Gloves"/>
   <string id="ROTcasterlybootslt" text="Casterly Rock Boots Light"/>
   <string id="castarchhelm" text="Casterly Archer Helmet"/>
-  <string id="dayneglove" text="Dayne Gloves"/>
+  <string id="dayneglove" text="Targaryen Kingsguard Gloves"/>
   <string id="tarlyarmor" text="Tarly Lord Armor"/>
   <string id="poppy" text="Milk of the Poppy"/>
   <string id="viperspear" text="Red Viper Spear"/>
@@ -457,7 +457,7 @@
   <string id="mandpaul" text="Manderly Pauldrons"/>
   <string id="lanroyarmor" text="Lannister Royal Armor"/>
   <string id="lanroyboot" text="Lannister Royal Boots"/>
-  <string id="whytsword" text="House Whytcross Sword"/>
+  <string id="whytsword" text="Orphanmaker"/>
   <string id="katana" text="Yi Ti Katana"/>
   <string id="yitiarmor" text="Yi Ti Armor"/>
   <string id="yitishould" text="Yi Ti Shoulders"/>
@@ -606,5 +606,115 @@
   <string id="tyrhelm2" text="Tyroshi Helmet 2"/>
   <string id="tyrshoulder" text="Tyroshi Shoulders"/>
   <string id="tyrbracer" text="Tyroshi Bracers"/>
+  <string id="tyrarmor2" text="Tyroshi Lord Armor"/>
+  <string id="tyrarmor3" text="Tyroshi Lord Armor 2"/>
+  <string id="tyrboots" text="Tyroshi Boots"/>
+  <string id="tyrboots2" text="Tyroshi Lord Boots"/>
+  <string id="tyrbracer2" text="Tyroshi Lord Bracers"/>
+  <string id="tyrbracer3" text="Tyroshi Elite Bracers"/>
+  <string id="tyrbracer4" text="Tyroshi Steel Bracers"/>
+  <string id="tyrhelm3" text="Tyroshi Elite Helmet"/>
+  <string id="tyrhelm4" text="Tyroshi Steel Helmet"/>
+  <string id="tyrshoulder2" text="Tyroshi Elite Shoulders"/>
+  <string id="tyrshoulder3" text="Tyroshi Steel Shoulders"/>
+  <string id="gcgloves" text="Gold Cloak Gloves"/>
+  <string id="gccloak" text="Gold Cloak"/>
+  <string id="tyrellsword" text="Tyrell Sword"/>
+  <string id="lysarmor" text="Lyseni Armor"/>
+  <string id="lysboots" text="Lyseni Boots"/>
+  <string id="lysbracer" text="Lyseni Bracers"/>
+  <string id="lyshelm" text="Lyseni Archer's Helmet"/>
+  <string id="lyshelm2" text="Lyseni Feathered Helmet"/>
+  <string id="lyshelm3" text="Lyseni Helmet"/>
+  <string id="lyshelm4" text="Lyseni Crested Helmet"/>
+  <string id="lyshelm5" text="Lyseni Horned Helmet"/>
+  <string id="lyshelm6" text="Lyseni Lord Helmet"/>
+  <string id="tyraxe" text="Tyroshi Axe"/>
+  <string id="tyraxe2" text="Tyroshi Battle Axe"/>
+  <string id="tyraxe3" text="Tyroshi Elite Battle Axe"/>
+  <string id="tyrshield" text="Tyroshi Shield"/>
+  <string id="lysarmor2" text="Lyseni Elite Armor"/>
+  <string id="lysshoulder" text="Lyseni Elite Pauldrons"/>
+  <string id="lysshoulder2" text="Lyseni Pauldrons"/>
+  <string id="lysbracer2" text="Lyseni Elite Bracers"/>
+  <string id="umbcloak" text="Umber Lord Cloak"/>
+  <string id="umbcloak2" text="Umber Cloak"/>
+  <string id="umberhelm" text="Umber Helmet"/>
+  <string id="umberhelm2" text="Umber Helmet 2"/>
+  <string id="umbgloves" text="Umber Gloves"/>
+  <string id="umbboots" text="Umber Boots"/>
+  <string id="umbarmor" text="Umber Lord Armor"/>
+  <string id="dondcoif" text="Dondarrion Coif"/>
+  <string id="dondhelm" text="Dondarrion Helmet"/>
+  <string id="dondhelm2" text="Dondarrion Elite Helmet"/>
+  <string id="cersreddress" text="Cersei's Red Dress"/>
+  <string id="cersarmor" text="Cersei's Armored Dress"/>
+  <string id="dondplate" text="Dondarrion Plate"/>
+  <string id="dondplate2" text="Dondarrion Plate with Tabard"/>
+  <string id="dondpaul" text="Dondarrion Pauldrons"/>
+  <string id="mountarm" text="Mountain Armor"/>
+  <string id="mounthelm" text="Mountain Helmet"/>
+  <string id="mountpaul" text="Mountain Pauldrons"/>
+  <string id="moumtboots" text="Mountain Boots"/>
+  <string id="mountgloves" text="Mountain Gloves"/>
+  <string id="dondgloves" text="Dondarrion Plated Gloves"/>
+  <string id="dondring" text="Dondarrion Ringed Leather"/>
+  <string id="dondgloves2" text="Dondarrion Gloves"/>
+  <string id="dondhelm3" text="Dondarrion Archer's Helmet"/>
+  <string id="dondboots" text="Dondarrion Plated Boots"/>
+  <string id="dondboots2" text="Dondarrion Boots"/>
+  <string id="northleath" text="Northern Leather"/>
+  <string id="baraboots" text="Baratheon Boots"/>
+  <string id="draggloves" text="Dragonstone Plated Gloves"/>
+  <string id="dragplate" text="Dragonstone Plate"/>
+  <string id="dsshould" text="Dragonstone Shoulders"/>
+  <string id="dsshould2" text="Dragonstone Shoulders with Cape"/>
+  <string id="stormplate" text="Stormlands Plate"/>
+  <string id="barahould" text="Baratheon Shoulders"/>
+  <string id="baragloves" text="Baratheon Plated Gloves"/>
+  <string id="antlerhelm" text="Baratheon Antler Helmet"/>
+  <string id="ROTladyforlorn2" text="Lady Forlorn"/>
+  <string id="euronaxe" text="Euron's Axe"/>
+  <string id="lysshield" text="Lyseni Shield"/>
+  <string id="lysspear" text="Lyseni Spear"/>
+  <string id="sppoleham" text="Spiked Polehammer"/>
+  <string id="fury" text="Fury"/>
+  <string id="marchwh" text="Marches Warhammer"/>
+  <string id="lyssword" text="Lyseni Sword"/>
+  <string id="myrplate" text="Myrish Plate"/>
+  <string id="myrhelm" text="Myrish Elite Helmet"/>
+  <string id="myrgloves" text="Myrish Plated Gloves"/>
+  <string id="myrgloves2" text="Myrish Gloves"/>
+  <string id="myrhould" text="Myrish Pauldrons"/>
+  <string id="myrboots" text="Myrish Plated Boots"/>
+  <string id="myrboots2" text="Myrish Boots"/>
+  <string id="myrhould2" text="Myrish Shoulders"/>
+  <string id="dayneplate" text="Dayne Plate"/>
+  <string id="daynepaul" text="Dayne Pauldrons"/>
+  <string id="daynegloves" text="Dayne Plated Gloves"/>
+  <string id="daynehelm2" text="Dayne Elite Helmet"/>
+  <string id="dayneboots" text="Dayne Plated Boots"/>
+  <string id="dragon" text="Drogon"/>
+  <string id="dragon2" text="Rhaegal"/>
+  <string id="dragon3" text="Gold Dragon"/>
+  <string id="dragon4" text="Viserion"/>
+  <string id="dragon5" text="Sea Smoke"/>
+  <string id="dragon6" text="Draeghar"/>
+  <string id="dragon7" text="Flying Drogon"/>
+  <string id="dragon8" text="Flying Rhaegal"/>
+  <string id="dragon9" text="Flying Gold Dragon"/>
+  <string id="dragon10" text="Flying Viserion"/>
+  <string id="dragon11" text="Flying Sea Smoke"/>
+  <string id="dragon12" text="Flying Draeghar"/>
+  <string id="dragon13" text="Dragon"/>
+  <string id="kinghorsearmor" text="Horse Armor 1"/>
+  <string id="myrshield" text="Myrish Shield"/>
+  <string id="tarlypaul" text="Tarly Pauldrons"/>
+  <string id="bolshield" text="Bolton Kite Shield"/>
+  <string id="bolshield2" text="Bolton Oval Shield"/>
+  <string id="bolplate" text="Bolton Plate"/>
+  <string id="bolhelm2" text="Bolton Helmet"/>
+  <string id="bolgorget2" text="Bolton Gorget"/>
+  <string id="bolboots2" text="Bolton Leather Boots"/>
  </strings>
 </base>
