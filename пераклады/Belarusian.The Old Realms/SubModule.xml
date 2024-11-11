@@ -18,6 +18,23 @@
 	<SubModules/>
 	<Xmls> 
 
+		<XmlNode>
+			<XmlName id="SPCultures" path="tor_cultures" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Heroes" path="tor_heroes"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
 		<XmlNode>                
 			<XmlName id="Concepts" path="tor_concept_strings"/>
 			<IncludedGameTypes>
@@ -59,14 +76,6 @@
 			<IncludedGameTypes>
 				<GameType value="Campaign" />
 				<GameType value="CampaignStoryMode" />
-			</IncludedGameTypes>
-		</XmlNode>
-
-		<XmlNode>                
-			<XmlName id="NPCCharacters" path="tor_charactertemplates"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
