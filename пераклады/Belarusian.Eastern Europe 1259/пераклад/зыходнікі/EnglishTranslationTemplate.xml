@@ -139,7 +139,7 @@
     <string id="EE000108" text="Athletics skill has improved."/>
     <string id="EE000109" text="{WOOD_COUNT} Hardwood {WOOD_ICON}, {CLAY_COUNT} Clay {CLAY_ICON}, {TOOLS_COUNT} Tools {TOOLS_ICON} and {IRON_COUNT} Crude Iron {IRON_ICON}"/>
     <string id="EE000110" text="Not enough resources: need {WOOD_COUNT} Hardwood {WOOD_ICON}, {CLAY_COUNT} Clay {CLAY_ICON}, {TOOLS_COUNT} Tools {TOOLS_ICON} and {IRON_COUNT} Crude Iron {IRON_ICON}"/>
-    <string id="EE000111" text="I am ready to help you build current project ({PROJECT_NAME})"/>
+    <string id="EE000111" text="I am ready to help you build current project ({PROJECT_NAME}{PROJECT_PERCENT})"/>
     <string id="EE000112" text="Helping to build: {PROJECT_NAME}({PROGRESS} %) +{BRICKS}{BRICKS_ICON}"/>
     <string id="EE000113" text="Indeed, there is work to be done... There are various tasks around the castle that should not take long. We are always in need of skilled hands for repairs and maintenance. And if you truly wish to assist and have ample resources, your help would be greatly appreciated in expanding the castle grounds or fortifying our defenses. You could also lend a hand with the current construction projects within the walls."/>
     <string id="EE000114" text="You step into the bustling construction site within the grounds, where a new structure is already taking shape. Workers are busy hauling materials and assembling the framework, but much remains to be done. You join in, helping to reinforce the walls and support the ongoing work, ensuring everything is built sturdy and secure. As you contribute your skills, the project progresses swiftly, and the workers nod in appreciation for your assistance in this important addition to the settlement."/>
@@ -154,18 +154,18 @@
     <string id="EE000123" text="Let us work together to expand the settlement."/>
     <string id="EE000124" text="The job is complete and the castle's prosperity grows."/>
     <string id="EE000125" text="The job is complete and the town's prosperity grows."/>
-    <string id="EE000126" text=""/>
-    <string id="EE000127" text=""/>
-    <string id="EE000128" text=""/>
-    <string id="EE000129" text=""/>
-    <string id="EE000130" text=""/>
-    <string id="EE000131" text=""/>
-    <string id="EE000132" text=""/>
-    <string id="EE000133" text=""/>
-    <string id="EE000134" text=""/>
-    <string id="EE000135" text=""/>
-    <string id="EE000136" text=""/>
-    <string id="EE000137" text=""/>
+    <string id="EE000126" text="No companions in your party."/>
+    <string id="EE000127" text="Arena is closed because of the Tournament."/>
+    <string id="EE000128" text="Fast Forward: ON"/>
+    <string id="EE000129" text="Fast Forward: OFF"/>
+    <string id="EE000130" text="ERROR: MBSuperSpeed (Super Speed) is already integrated into EE1259. You should remove it from your load order."/>
+    <string id="EE000131" text="Could you introduce me to the other notable people here?"/>
+    <string id="EE000132" text="ATH: {ATH}, 1H: {ONEH}, 2H: {TWOH}, POL: {POL}, BOW: {BOW}, XBOW: {XBOW}, THROW: {THROW}"/>
+    <string id="EE000133" text="The party's morale is suffering due to the presence of women of questionable reputation."/>
+    <string id="EE000134" text="The party's morale is heightened by the presence of women offering additional comforts."/>
+    <string id="EE000135" text="Camp Followers"/>
+    <string id="EE000136" text="{HERO} joined {CLAN}"/>
+    <string id="EE000137" text="Can't help with this right now."/>
     <string id="EE000138" text=""/>
     <string id="EE000139" text=""/>      
 
@@ -666,7 +666,76 @@
     <string id="Settlements.Settlement.name.castle_PLC12" text="Krutahorje"/>
     <string id="Settlements.Settlement.name.village_castle_PLC12_1" text="Cieplien"/>
     <string id="Settlements.Settlement.name.village_castle_PLC12_2" text="Navasady"/>
-        
+
+    <string id="Settlements.Settlement.name.castle_NOV10" text="Koporye"/>
+    <string id="Settlements.Settlement.name.castle_NOV11" text="Vyborg"/>
+    <string id="Settlements.Settlement.name.castle_NOV12" text="Olonets"/>
+    <string id="Settlements.Settlement.name.castle_NOV13" text="Opechensky Posad"/>
+    <string id="Settlements.Settlement.name.castle_NOV14" text="Torzhok"/>
+    <string id="Settlements.Settlement.name.castle_NOV1" text="Kholm"/>
+    <string id="Settlements.Settlement.name.castle_NOV2" text="Luki"/>
+    <string id="Settlements.Settlement.name.castle_NOV3" text="Jemianiec"/>
+    <string id="Settlements.Settlement.name.castle_NOV4" text="Opochka"/>
+    <string id="Settlements.Settlement.name.castle_NOV5" text="Ostrov"/>
+    <string id="Settlements.Settlement.name.castle_NOV6" text="Izborsk"/>
+    <string id="Settlements.Settlement.name.castle_NOV7" text="Gdov"/>
+    <string id="Settlements.Settlement.name.castle_NOV8" text="Porkhov"/>
+    <string id="Settlements.Settlement.name.castle_NOV9" text="Rusa"/>
+    <string id="Settlements.Settlement.name.town_NOV1" text="Novgorod"/>
+    <string id="Settlements.Settlement.name.town_NOV2" text="Pleskov"/>
+    <string id="Settlements.Settlement.name.town_NOV3" text="Ladoga"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV10_1" text="Voronino"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV10_2" text="Kaybolovo"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV10_3" text="Sosnitsy"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV10_4" text="Sabsk"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV11_1" text="Korela"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV1_1" text="Demyan"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV12_1" text="Pogost v Tervinichah"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV12_2" text="Pogost na Spirkove"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV1_2" text="Lyubne"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV13_1" text="Nikandrovo"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV13_2" text="Yazhelbitsy"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV13_3" text="Valday"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV1_3" text="Moreva"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV14_1" text="Klichen"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV14_2" text="Zhabachev"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV14_3" text="Zagorode"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV14_4" text="Bezhetsk"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV1_4" text="Malyi Bokhot"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV2_1" text="Gorodishche na Lovati"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV2_2" text="Ostry"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV2_3" text="Polibino"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV3_1" text="Sebezh"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV3_2" text="Sutoki"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV3_3" text="Osyno"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV4_1" text="Litvinovo"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV4_2" text="Kolozhe"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV4_3" text="Voronets"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV5_1" text="Grivy"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV5_2" text="Mikhailovskoe"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV6_1" text="Kamno"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV6_2" text="Borokhnovo"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV7_1" text="Gorodishche u Gdova"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV8_1" text="Kotorsk"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV8_2" text="Zaoreshe"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV8_3" text="Golubkova"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV8_4" text="Gorodok na Shelone"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV9_1" text="Svinort"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV9_2" text="Kositskoe"/>
+    <string id="Settlements.Settlement.name.village_castle_NOV9_3" text="Sergov"/>
+    <string id="Settlements.Settlement.name.village_town_NOV1_1" text="Tesovo"/>
+    <string id="Settlements.Settlement.name.village_town_NOV1_2" text="Nadbele"/>
+    <string id="Settlements.Settlement.name.village_town_NOV1_3" text="Gorodok na Volkhove"/>
+    <string id="Settlements.Settlement.name.village_town_NOV1_4" text="Ust-Volma"/>
+    <string id="Settlements.Settlement.name.village_town_NOV2_1" text="Dubrovno"/>
+    <string id="Settlements.Settlement.name.village_town_NOV2_2" text="Isad-Gorodets"/>
+    <string id="Settlements.Settlement.name.village_town_NOV2_3" text="Mda"/>
+    <string id="Settlements.Settlement.name.village_town_NOV2_4" text="Storozhynets"/>
+    <string id="Settlements.Settlement.name.village_town_NOV3_1" text="Lyubshe"/>
+    <string id="Settlements.Settlement.name.village_town_NOV3_2" text="Gorodishche na Lave"/>
+    <string id="Settlements.Settlement.name.village_town_NOV3_3" text="Gorodishche na Volkhove"/>
+    <string id="Settlements.Settlement.name.village_town_NOV3_4" text="Gorodishche na Siase"/>
+
 
     <!-- 
 
@@ -862,13 +931,13 @@
     <string id="wand_balt_10_8" text="I’ve lived in the woods for as long as I can remember, surviving by stealing what I could. But that life wears you down, and I’m looking for a way out. Perhaps I’ll find it in the towns or on the roads."/>
     <!-- fresh male -->
     <string id="wand_balt_11_1" text="My story? You could say bad luck followed me like a hungry wolf."/>
-    <string id="wand_balt_11_1" text="My father was the best hunter in our village. He could track deer through the thickest forests and bring down wolves with a single arrow. I always thought I’d follow in his footsteps, but fate had other plans."/>
-    <string id="wand_balt_11_1" text="One winter, the game disappeared, as if the forest itself had swallowed them up. My father went out deeper into the woods, searching for anything that could fill our bellies. He never came back. They say the cold took him, or maybe worse."/>
-    <string id="wand_balt_11_1" text="Left with nothing but his old bow and a few arrows, I tried to make a living. But the forest is a cruel place for a boy alone. I lost more than I gained, and soon, hunger gnawed at me just as it had at my father."/>
-    <string id="wand_balt_11_1" text="It sounds like you've had to struggle for every scrap."/>
-    <string id="wand_balt_11_1" text="Bad luck or not, the forest doesn’t forgive mistakes."/>
-    <string id="wand_balt_11_1" text="I can’t keep living like this, chasing shadows and hoping for a break. I came to the town, thinking maybe there’s work here, something that doesn’t involve freezing to death alone in the woods."/>
-    <string id="wand_balt_11_1" text="I grew up as a hunter’s son, but the forest hasn’t been kind. My father is gone, and I’ve been struggling to survive on my own. Now I’m looking for another way, hoping the town might offer me a chance."/>
+    <string id="wand_balt_11_2" text="My father was the best hunter in our village. He could track deer through the thickest forests and bring down wolves with a single arrow. I always thought I’d follow in his footsteps, but fate had other plans."/>
+    <string id="wand_balt_11_3" text="One winter, the game disappeared, as if the forest itself had swallowed them up. My father went out deeper into the woods, searching for anything that could fill our bellies. He never came back. They say the cold took him, or maybe worse."/>
+    <string id="wand_balt_11_4" text="Left with nothing but his old bow and a few arrows, I tried to make a living. But the forest is a cruel place for a boy alone. I lost more than I gained, and soon, hunger gnawed at me just as it had at my father."/>
+    <string id="wand_balt_11_5" text="It sounds like you've had to struggle for every scrap."/>
+    <string id="wand_balt_11_6" text="Bad luck or not, the forest doesn’t forgive mistakes."/>
+    <string id="wand_balt_11_7" text="I can’t keep living like this, chasing shadows and hoping for a break. I came to the town, thinking maybe there’s work here, something that doesn’t involve freezing to death alone in the woods."/>
+    <string id="wand_balt_11_8" text="I grew up as a hunter’s son, but the forest hasn’t been kind. My father is gone, and I’ve been struggling to survive on my own. Now I’m looking for another way, hoping the town might offer me a chance."/>
 
     <!-- fresh female -->
     <string id="wand_crus_12_1" text="My story? It’s the tale of a young girl trying to survive in a world that cares little for the weak."/>
@@ -1134,6 +1203,8 @@
     <string id="steppe_raider" text="Steppe Raider"/>
     <string id="steppe_bandit_hero" text="Steppe Bandit Hero"/>
     <string id="camp_whore" text="Camp Whore"/>
+    <string id="camp_follower" text="Camp Follower"/>
+    <string id="Townswoman" text="Townswoman"/>
 
     <string id="danish_0.name" text="Danish Peasant (Bonde)"/>
     <string id="danish_1.name" text="Danish Militia Crossbowman (Lednings Armbrøstskytte)"/>
@@ -1207,16 +1278,6 @@
     <string id="clan_dest_3.name" text="Lode"/>
     <string id="clan_dest_4.name" text="Rosen"/>
 
-    <string id="Selonians" text="Selonians"/>
-    <string id="Selonians_description" text="The Chronicle of Henry of Livonia mentions the Selonians at the beginning of the 13th century, when they were conquered and christened. The author of the chronicle describes the Selonians as Lithuanian allies. Their lands were subjects of the principalities of Jersika and Koknese, which were vassals of the principality of Polotsk. The Southern lands however were ruled by Lithuanian lords."/>
-    <string id="Latgalians" text="Latgalians"/>
-    <string id="Latgalians_description" text="The Latgalians are an Eastern Baltic tribe whose origin is little known. In the 5th and 6th centuries, they lived in the west of the Aiviekste River, and later on in nearly all the territory of that region. In the first two decades of the 13th century, the Western Latgalians allied with German (mainly Saxon) crusaders. Their lands (the Eldership of Tālava, the Principality of Jersika and the Principality of Koknese) were incorporated into Livonia as vassal states. In the 11th century, Eastern Orthodoxy started to spread in Latgalian lands from Polotsk and Pskov. In the 12th century, Latgalian lands and their rulers paid tribute to the dukes of Polotsk. During the Livonian crusade in the 13th century, Latgalian elders switched from Eastern Orthodoxy to Roman Catholicism and became vassals of the Livonian Order."/>
-    <string id="Livonians" text="Livonians"/>
-    <string id="Livonians_description" text="The Livonians referred to themselves as rāndalist - 'coast dwellers' and supported themselves mainly by fishing, but also by agriculture and animal husbandry. Since they controlled an important trade route, the Daugava River, their culture was highly developed through trade with the Gotlanders, Rus and Finns, and, from the end of the first millennium AD onwards, with the Germans, Swedes and Danes. During the Livonian Crusade, once prosperous Livonia was devastated, and whole regions were almost completely depopulated. This vacuum was filled by Curonians, Semigallians, Latgallians and Selonians – who started to move into the area around 1220, and continued to do so for at least thirty years."/>
-    <string id="Oeselians" text="Oeselians"/>
-    <string id="Oeselians_description" text="On the eve of Northern Crusades, the people then residing in Saaremaa(Ösel) were described in the Livonian Rhymed Chronicle: The Oeselians, neighbors to the Kurs (Curonians), are surrounded by the sea and never fear strong armies as their strength is in their ships. In summers when they can travel across the sea they oppress the surrounding lands by raiding both Christians and pagans"/>
-
-
     <string id="Igorovychi" text="Igorovychi"/>
     <string id="Vysheslavychi" text="Vysheslavychi"/>
     <string id="Iaroslavychi" text="Iaroslavychi"/>
@@ -1247,11 +1308,39 @@
     <string id="clan_plc_6.name" text="Śvisłač Principality"/>
     <string id="clan_plc_7.name" text="Rahačoŭ Principality"/>
 
-    <!-- npc_heroes -->
+    <string id="clan_nov_1.name" text="Slaven Boyar Group"/>
+    <string id="clan_nov_1.text" text="The Slaven Boyar Group was one of the most influential factions in 13th-century Novgorod, representing the interests of the powerful boyar families from the Slavensky side of the city. Known for their political influence and economic power, the Slaven Boyars played a crucial role in Novgorod's veche (assembly), often advocating for policies that protected the city's autonomy and promoted trade. Their leaders, such as Mikhail Fyodorovich, held key positions, including posadnik (mayor), enabling them to shape Novgorodâ€™s governance and resist external pressures from neighboring princes and foreign powers."/>
+    <string id="clan_nov_2.name" text="Zagorodskaya 'Prussian' Boyar Group"/>
+    <string id="clan_nov_2.text" text="The Zagorodskaya 'Prussian' Boyar Group was a powerful faction within 13th-century Novgorod, associated with the Zagorodsky (Prussian) side of the city. Known for their ties to trade with the Baltic and Prussian regions, this group represented the interests of Novgorod's wealthy merchants and influential boyars who had connections beyond Novgorodâ€™s borders. Led by figures like Posadnik Gavrilo Alekseevich (Gabriel Gorislavich), the Prussian Boyar Group wielded considerable influence within the veche (assembly), shaping Novgorodâ€™s foreign trade policies and contributing to its defense and economic strength."/>
+    <string id="clan_nov_3.name" text="Nerev Boyar Group"/>
+    <string id="clan_nov_3.text" text="The Nerev Boyar Group was an influential faction in 13th-century Novgorod, representing the Nerevsky side of the city. This group was comprised of prominent boyar families dedicated to safeguarding Novgorodâ€™s autonomy and managing local governance through the veche (assembly). Known for their strong political voice, the Nerev Boyars were led by powerful figures like Tverdislav Mikhailovich, who played a key role in city politics and in defending Novgorodâ€™s interests against external threats. Their influence was crucial in balancing power among the various factions within Novgorodâ€™s unique republican structure."/>
+    <string id="clan_nov_4.name" text="Ludin Boyar Group"/>
+    <string id="clan_nov_4.text" text="The Ludin Boyar Group was a prominent faction in 13th-century Novgorod, representing the Ludin quarter and its influential merchant and boyar families. This group had strong ties to Novgorodâ€™s lucrative trade networks and often advocated for policies that promoted economic growth and protected the cityâ€™s vital commercial interests. Led by respected figures such as Anany Ivanovich, the Ludin Boyars held considerable sway in the veche (assembly), where their focus on trade made them powerful allies and occasional rivals to other boyar factions. Their influence helped shape Novgorodâ€™s economy and maintain its independence as a major trading hub in medieval Rus'."/>
+    <string id="clan_nov_5.name" text="Plotnik Boyar Group"/>
+    <string id="clan_nov_5.text" text="The Ladoga Boyar Group was a powerful faction associated with Ladoga, a strategically important town within the Novgorod Republic in the 13th century. Positioned along key trade routes connecting Novgorod to the Baltic Sea and surrounding regions, Ladoga was crucial for trade and defense. The Ladoga Boyar Group was led by a namestnik (deputy or governor) appointed by Novgorod, such as Vasily Borisovich, who oversaw the townâ€™s administration, defense, and tax collection. This group played a vital role in safeguarding Novgorod's northern interests and ensuring control over regional trade, balancing local autonomy with loyalty to the Novgorod veche (assembly)."/>
+    <string id="clan_nov_5.text" text="The Plotnik Boyar Group was a significant faction in 13th-century Novgorod, representing the Plotnik quarter known for its craftsmen, woodworkers, and builders. This group supported Novgorodâ€™s thriving artisan class and often pushed for policies that strengthened local industries and improved infrastructure. Led by figures like Dmitry Stepanovich, the Plotnik Boyars contributed to the cityâ€™s defenses and public works projects, ensuring Novgorod remained fortified and economically stable. Their presence in the veche (assembly) provided a voice for the working class and artisans, balancing the influence of trade-focused and politically oriented factions."/>
+    <string id="clan_nov_6.name" text="Ladoga Boyar Group"/>
+    <string id="clan_nov_7.name" text="Pskov Veche Council"/>
+    <string id="clan_nov_7.text" text="The Pskov Veche Council was the governing body of Pskov in the 13th century, providing a unique blend of local autonomy under the influence of the Novgorod Republic. The council was made up of prominent boyars and local leaders who represented the interests of Pskovâ€™s citizens in matters of trade, defense, and diplomacy. While Novgorod often sent figurehead rulers, such as Vasilii Aleksandrovich, the son of Alexander Nevsky, the real power lay with the Pskov Veche Council. This assembly safeguarded Pskovâ€™s independence within the framework of Novgorodâ€™s authority, making decisions to protect its economic and political interests in the face of regional challenges."/>
+    <string id="clan_nov_8.name" text="Luki Boyar Council"/>
+    <string id="clan_nov_8.text" text="The Luki Boyar Council was the governing body in Luki during the 13th century, a town under the Novgorod Republic's influence. Due to its strategic location along trade and military routes, the Luki Boyar Council was primarily focused on maintaining local defense and managing trade. The council was led by a namestnik (deputy or governor) appointed by Novgorod, such as Andrei Mikhailovich, who oversaw the townâ€™s affairs, ensuring loyalty to Novgorod while addressing local needs. This councilâ€™s leadership contributed to the stability and prosperity of Luki, balancing the interests of Novgorod with the town's unique regional significance."/>
+    <string id="clan_nov_9.name" text="Torzhok Ruling Boyars"/>
+    <string id="clan_nov_9.text" text="The Torzhok Ruling Boyars were the governing group in Torzhok during the 13th century, a vital trade town within the Novgorod Republic. Positioned along key trade routes between Novgorod and central Rus' territories, Torzhok served as a critical economic and defensive outpost. The ruling boyars, led by a namestnik (deputy) appointed by Novgorod, such as Ivan Svyatoslavich, managed trade, fortified defenses, and ensured local stability. While loyal to Novgorodâ€™s veche (assembly), the Torzhok Ruling Boyars wielded considerable autonomy, balancing local governance with the interests of the republic and maintaining Torzhokâ€™s role as a regional hub for commerce and protection."/>
 
-    <string id="lord_lit_1_1.text" text="King Mindaugas of Lithuania is the revered first king of Lithuania, known for his strategic acumen and diplomatic skill in uniting the Lithuanian tribes under a single banner in 1253. As of 1259, he continues to strengthen his realm through both alliances and conquests, working towards the consolidation of his kingdom and the expansion of its influence across Eastern Europe."/>
-    <string id="lord_lit_1_2.text" text="Morta is Queen of Lithuania upon her husband King Mindaugas's accession. She is Mindaugas' second wife. He killed her first husband Vismantas from the Bulaičiai family in the power struggle in 1251. Morta is a capable woman who advises her husband in political affairs and is a fierce defender of Western Christianity."/>
-    
+
+    <!-- minor clans -->
+    <string id="Selonians" text="Selonians"/>
+    <string id="Selonians_description" text="The Chronicle of Henry of Livonia mentions the Selonians at the beginning of the 13th century, when they were conquered and christened. The author of the chronicle describes the Selonians as Lithuanian allies. Their lands were subjects of the principalities of Jersika and Koknese, which were vassals of the principality of Polotsk. The Southern lands however were ruled by Lithuanian lords."/>
+    <string id="Latgalians" text="Latgalians"/>
+    <string id="Latgalians_description" text="The Latgalians are an Eastern Baltic tribe whose origin is little known. In the 5th and 6th centuries, they lived in the west of the Aiviekste River, and later on in nearly all the territory of that region. In the first two decades of the 13th century, the Western Latgalians allied with German (mainly Saxon) crusaders. Their lands (the Eldership of Tālava, the Principality of Jersika and the Principality of Koknese) were incorporated into Livonia as vassal states. In the 11th century, Eastern Orthodoxy started to spread in Latgalian lands from Polotsk and Pskov. In the 12th century, Latgalian lands and their rulers paid tribute to the dukes of Polotsk. During the Livonian crusade in the 13th century, Latgalian elders switched from Eastern Orthodoxy to Roman Catholicism and became vassals of the Livonian Order."/>
+    <string id="Livonians" text="Livonians"/>
+    <string id="Livonians_description" text="The Livonians referred to themselves as rāndalist - 'coast dwellers' and supported themselves mainly by fishing, but also by agriculture and animal husbandry. Since they controlled an important trade route, the Daugava River, their culture was highly developed through trade with the Gotlanders, Rus and Finns, and, from the end of the first millennium AD onwards, with the Germans, Swedes and Danes. During the Livonian Crusade, once prosperous Livonia was devastated, and whole regions were almost completely depopulated. This vacuum was filled by Curonians, Semigallians, Latgallians and Selonians – who started to move into the area around 1220, and continued to do so for at least thirty years."/>
+    <string id="Oeselians" text="Oeselians"/>
+    <string id="Oeselians_description" text="On the eve of Northern Crusades, the people then residing in Saaremaa(Ösel) were described in the Livonian Rhymed Chronicle: The Oeselians, neighbors to the Kurs (Curonians), are surrounded by the sea and never fear strong armies as their strength is in their ships. In summers when they can travel across the sea they oppress the surrounding lands by raiding both Christians and pagans"/>
+    <string id="Ushkuiniki_description" text="In the 13th century, the Ushkuiniki were a group of Russian river pirates and raiders primarily composed of Novgorodians. They were skilled in navigating the river systems of Northern and Eastern Europe, particularly using ushkuis—small, agile boats ideal for navigating rivers and shallow waters.{newline}{newline}The Ushkuiniki raided far beyond Novgorod's borders, targeting neighboring principalities, trade centers, and even foreign territories, including lands of the Volga Bulgars and territories along the White Sea. Their raids often served both economic and strategic purposes, supplying Novgorod with goods and wealth, while also extending its influence and control over the river trade routes.{newline}{newline}Unlike typical pirates, the Ushkuiniki sometimes operated with the tacit approval or outright support of Novgorod's authorities, who saw their raids as a way to expand trade dominance and keep regional rivals in check. They played a key role in establishing Novgorod's dominance over river trade and securing its economic interests during the 13th century."/>
+    <string id="Ushkuiniki" text="Ushkuiniki"/>
+
+ 
     
     <!-- 
 
@@ -1263,6 +1352,11 @@
 
     -->
 
+    <!-- npc_heroes -->
+
+    <string id="lord_lit_1_1.text" text="King Mindaugas of Lithuania is the revered first king of Lithuania, known for his strategic acumen and diplomatic skill in uniting the Lithuanian tribes under a single banner in 1253. As of 1259, he continues to strengthen his realm through both alliances and conquests, working towards the consolidation of his kingdom and the expansion of its influence across Eastern Europe."/>
+    <string id="lord_lit_1_2.text" text="Morta is Queen of Lithuania upon her husband King Mindaugas's accession. She is Mindaugas' second wife. He killed her first husband Vismantas from the Bulaičiai family in the power struggle in 1251. Morta is a capable woman who advises her husband in political affairs and is a fierce defender of Western Christianity."/>
+   
     <string id="dead_lord_lit_1_1.name" text="Ringaudas"/>
     <string id="dead_lord_lit_1_2.name" text="Vilija"/>
     <string id="dead_lord_lit_1_3.name" text="Lingailė"/>
@@ -1331,6 +1425,10 @@
     <string id="lord_prus_5_2.name" text="Girdavas"/>
     <string id="lord_prus_6_1.name" text="Glande"/>
     <string id="lord_prus_6_2.name" text="Swayno"/>
+    <string id="lord_prus_3_2.name" text="Gintara"/>
+    <string id="lord_prus_4_3.name" text="Gailida"/>
+    <string id="lord_prus_6_3.name" text="Vaidevutė"/>
+    <string id="lord_prus_6_4.name" text="Laimena"/>
 
     <string id="lord_balttr_1_2.name" text="Gedetas"/>
     <string id="lord_balttr_1_3.name" text="Kantigirdas"/>
@@ -1348,6 +1446,15 @@
     <string id="lord_balttr_3_2.name" text="Nameisis"/>
     <string id="lord_balttr_4_3.name" text="Indrė"/>
     <string id="lord_balttr_4_2.name" text="Lokero"/>
+    <string id="lord_balttr_1_10.name" text="Skaistė"/>
+    <string id="lord_balttr_1_11.name" text="Žymantė"/>
+    <string id="lord_balttr_1_12.name" text="Rūtailė"/>
+    <string id="lord_balttr_1_9.name" text="Liepa"/>
+    <string id="lord_balttr_2_6.name" text="Rugilė"/>
+    <string id="lord_balttr_2_7.name" text="Vingailė"/>
+    <string id="lord_balttr_2_8.name" text="Neringa"/>
+    <string id="lord_balttr_4_4.name" text="Vaiga"/>
+
 
     <string id="dead_lord_crus_1_1.name" text="Siegfried von Heldrungen"/>
     <string id="lord_crus_1_1.name" text="Anno von Sangerhausen"/>
@@ -1434,9 +1541,48 @@
     <string id="lord_plc_7_7.name" text="Uładzimir Barysavič"/>
     <string id="lord_plc_7_8.name" text="Yaroslava"/>
 
-    <!-- npc_civilians -->
+    <string id="lord_nov_1_1.name" text="Mikhail Fyodorovich"/>
+    <string id="lord_nov_1_2.name" text="Archbishop Dalmat"/>
+    <string id="lord_nov_1_3.name" text="Antonia"/>
+    <string id="lord_nov_1_4.name" text="Semen Mikhailovich"/>
+    <string id="lord_nov_1_5.name" text="Rozalia"/>
+    <string id="lord_nov_2_1.name" text="Posadnik Gavrilo Alekseevich"/>
+    <string id="lord_nov_2_2.name" text="Sbyslav Iakunovich"/>
+    <string id="lord_nov_2_3.name" text="Evgeniia"/>
+    <string id="lord_nov_2_4.name" text="Matfi Gavrilovich"/>
+    <string id="lord_nov_2_5.name" text="Kharitaniia"/>
+    <string id="lord_nov_3_1.name" text="Tverdislav Mikhailovich"/>
+    <string id="lord_nov_3_2.name" text="Elferii Sbyslavich"/>
+    <string id="lord_nov_3_3.name" text="Olisava"/>
+    <string id="lord_nov_3_4.name" text="Gravriia"/>
+    <string id="lord_nov_4_1.name" text="Anany Ivanovich"/>
+    <string id="lord_nov_4_2.name" text="Tysiatski Zhiroslav"/>
+    <string id="lord_nov_4_3.name" text="Feklusha"/>
+    <string id="lord_nov_4_4.name" text="Maria"/>
+    <string id="lord_nov_4_5.name" text="Pavsha Onaninich"/>
+    <string id="lord_nov_5_1.name" text="Dmitry Stepanovich"/>
+    <string id="lord_nov_5_2.name" text="Andreiko Klimovich"/>
+    <string id="lord_nov_5_3.name" text="Akulina"/>
+    <string id="lord_nov_5_4.name" text="Jaromir Dmitryevich"/>
+    <string id="lord_nov_6_1.name" text="Namestnik Vasily Borisovich"/>
+    <string id="lord_nov_6_2.name" text="Stepan Vladislavich"/>
+    <string id="lord_nov_6_3.name" text="Stanislava"/>
+    <string id="lord_nov_6_4.name" text="Galina"/>
+    <string id="lord_nov_6_5.name" text="Sidor Stepanich"/>
+    <string id="lord_nov_7_1.name" text="Vasilii Aleksandrovich"/>
+    <string id="lord_nov_7_2.name" text="Klimiat Pavlovic"/>
+    <string id="lord_nov_7_3.name" text="Praskovya"/>
+    <string id="lord_nov_7_4.name" text="Liuba"/>
+    <string id="lord_nov_8_1.name" text="Namestnik Andrei Mikhailovich"/>
+    <string id="lord_nov_8_2.name" text="Sbyslav Stepanich"/>
+    <string id="lord_nov_8_3.name" text="Deretka"/>
+    <string id="lord_nov_8_4.name" text="Stepan Adrejevich"/>
+    <string id="lord_nov_9_1.name" text="Namestnik Ivan Svyatoslavich"/>
+    <string id="lord_nov_9_2.name" text="Borislav Nekurishinich"/>
+    <string id="lord_nov_9_3.name" text="Vseslava"/>
+    <string id="lord_nov_9_4.name" text="Julita"/>
 
-    <string id="Townswoman" text="Townswoman"/>
+
 
 
     <!-- 
@@ -1475,6 +1621,11 @@
     <string id="kingdom.polack.text" text="From the second half of the 11th century vasal-union relations began to form between Połack and Lithuania. The reason for consolidation was a common enemy – Kievan Rus. Initially Połack played a leading role. But as time went on, Lithuania took that place. In 1259, thanks to a dynastic marriage, the Lithuanian prince Tautvilas ruled in Połack. The Połack principalities became vassal princedoms, fought with Lithuania against common enemies: Golden Horde and Teutonic Order, but were not yet part of Lithuania. They had high autonomy, and many Połack princes fought for the main throne, Połack, among themselves and external enemies, including Lithuania."/>
     <string id="kingdom.polack.title" text="Połack Principalities"/>
 
+    <string id="kingdom.novgorod.name" text="Novgorod Republic"/>
+    <string id="kingdom.novgorod.ruler_title" text="Posadnik"/>
+    <string id="kingdom.novgorod.short_name" text="Novgorod Republic"/>
+    <string id="kingdom.novgorod.text" text="The Novgorod Republic in the 13th century was a unique and powerful medieval state in northern Rus', known for its republican-style governance and economic prosperity. Unlike other principalities, Novgorod operated under a decentralized system, with real power held by the veche (popular assembly), representing the interests of local boyars, merchants, and citizens. Key offices, including the posadnik (mayor), tysyatsky (military leader), and archbishop, managed the cityâ€™s administration, defense, and church affairs.{newline}{newline}Novgorod maintained semi-autonomy within the broader Rus' political sphere, balancing relations with the Grand Princes of Vladimir and the Mongol Empire. Known as a major trading hub, Novgorodâ€™s wealth and influence came from its extensive connections with the Baltic Sea, the Hanseatic League, and Eastern markets. Its strategic location allowed Novgorod to flourish, blending self-governance, economic strength, and diplomatic skill to navigate the challenges of the 13th century."/>
+    <string id="kingdom.novgorod.title" text="Novgorod Republic"/>
 
 
     <!--
