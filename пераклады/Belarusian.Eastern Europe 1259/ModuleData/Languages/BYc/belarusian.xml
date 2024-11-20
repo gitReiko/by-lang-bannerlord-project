@@ -111,7 +111,7 @@
   <string id="EE000108" text="Навык Атлетыка палепшаны."/>
   <string id="EE000109" text="{WOOD_COUNT} Цьвёрдай Драўніны {WOOD_ICON}, {CLAY_COUNT} Гліны {CLAY_ICON}, {TOOLS_COUNT} Інструмантаў {TOOLS_ICON} і {IRON_COUNT} Сыравіннага Жалеза {IRON_ICON}"/>
   <string id="EE000110" text="Бракуе рэсурсаў: патрабуецца {WOOD_COUNT} Цьвёрдай Драўніны {WOOD_ICON}, {CLAY_COUNT} Гліны {CLAY_ICON}, {TOOLS_COUNT} Інструмантаў {TOOLS_ICON} і {IRON_COUNT} Сыравіннага Жалеза {IRON_ICON}"/>
-  <string id="EE000111" text="Я {?PLAYER.GENDER}гатовая{?}гатовы{\?} дапамагчы вам ажыцявіць цяперашні праэкт ({PROJECT_NAME})"/>
+  <string id="EE000111" text="Я {?PLAYER.GENDER}гатовая{?}гатовы{\?} дапамагчы вам ажыцявіць цяперашні праэкт ({PROJECT_NAME}{PROJECT_PERCENT})"/>
   <string id="EE000112" text="Дапамога ў будаўніцтве: {PROJECT_NAME}({PROGRESS} %) +{BRICKS}{BRICKS_ICON}"/>
   <string id="EE000113" text="Сапраўды, маецца праца... У замку існуюць розныя справы, якія ня зоймуць шмат часу. Нам заўжды патрабуюцца ўмелыя рукі дзеля рамонту і абслугоўваньня. А калі вы сапраўды жадаеце дапамагчы і валодаеце значнымі сродкамі, то вашая дапамога будзе вельмі патрэбная ў пашырэньні тэрыторыі замка альбо ўмацаваньня нашай абароны. Вы таксама можаце дапамагчы завяршыць цяперашнія праэкту замку."/>
   <string id="EE000114" text="Вы ўваходзіце на ажыўленую будаўнічую пляцоўку, дзе ўжо пачынае вымалёўвацца новы будынак. Будаўнічыя перацягваюць матэрыялы і зьбіраюць каркас, але многае яшчэ трэба зрабіць. Вы далучаецеся да іх, дапамагаеце мацаваць сьцены ды падтрымліваеце цяперашнюю працу, бо ўсё неабходна пабудаваць трывала і надзейна. Дзякуючы вашым навыкам праэкт хутка прасоўваецца наперад, а працоўныя ківаюць у знак падзякі за вашую дапамогу ў гэтым важным дадатку да селішча."/>
@@ -126,18 +126,18 @@
   <string id="EE000123" text="Давайце працаваць разам на пашырэньне селішча."/>
   <string id="EE000124" text="Праца выканана і росквіт замку ўзрос."/>
   <string id="EE000125" text="Праца выканана і росквіт гораду ўзрос."/>
-  <string id="EE000126" text=""/>
-  <string id="EE000127" text=""/>
-  <string id="EE000128" text=""/>
-  <string id="EE000129" text=""/>
-  <string id="EE000130" text=""/>
-  <string id="EE000131" text=""/>
-  <string id="EE000132" text=""/>
-  <string id="EE000133" text=""/>
-  <string id="EE000134" text=""/>
-  <string id="EE000135" text=""/>
-  <string id="EE000136" text=""/>
-  <string id="EE000137" text=""/>
+  <string id="EE000126" text="У вашай партыі няма кампаньёнаў."/>
+  <string id="EE000127" text="Арэна закрыта з-за правядзеньня турніру."/>
+  <string id="EE000128" text="Хуткі Час: Уключаны"/>
+  <string id="EE000129" text="Хуткі Час: Выключаны"/>
+  <string id="EE000130" text="Памылка MBSuperSpeed (Супер Хуткасьць) ужо інтэграваны ў EE1259. Вы мусіце выдаліць яго са сваёй чаргі загрузкі."/>
+  <string id="EE000131" text="Можаце пазнаёміць мяне зь іншымі тутэйшымі шляхетнымі людзьмі?"/>
+  <string id="EE000132" text="АТЛ: {ATH}, 1Р: {ONEH}, 2Р: {TWOH}, ТРО: {POL}, ЛУК: {BOW}, АРБ: {XBOW}, КІД: {THROW}"/>
+  <string id="EE000133" text="Мараль партыі церпіць з-за прысутнасьці жанчын са сумнеўнай рэпутацыяй."/>
+  <string id="EE000134" text="Мараль партыі паляпшаецца з-за прысутнасьці жанчын, што прапаноўваюць дадатковы камфорт."/>
+  <string id="EE000135" text="Чальцы Лагеру"/>
+  <string id="EE000136" text="{HERO} далучаецца да {CLAN}"/>
+  <string id="EE000137" text="Ня можа дапамагчы з гэтым наўпрост зараз."/>
   <string id="EE000138" text=""/>
   <string id="EE000139" text=""/>
   <string id="lt_mail_mitten_c.name" text="{.Mnozny}Кальчужныя Міценкі - Зіхатлівыя"/>
@@ -601,6 +601,76 @@
   <string id="Settlements.Settlement.name.castle_PLC12" text="Крутагор'е"/>
   <string id="Settlements.Settlement.name.village_castle_PLC12_1" text="Цеплень"/>
   <string id="Settlements.Settlement.name.village_castle_PLC12_2" text="Навасады"/>
+
+  <string id="Settlements.Settlement.name.castle_NOV10" text="Капор'е"/>
+  <string id="Settlements.Settlement.name.castle_NOV11" text="Выбарг"/>
+  <string id="Settlements.Settlement.name.castle_NOV12" text="Алонец"/>
+  <string id="Settlements.Settlement.name.castle_NOV13" text="Апечынскі Пасад"/>
+  <string id="Settlements.Settlement.name.castle_NOV14" text="Таржок"/>
+  <string id="Settlements.Settlement.name.castle_NOV1" text="Хольм-Ноўгародзкі"/>
+  <string id="Settlements.Settlement.name.castle_NOV2" text="Лукі"/>
+  <string id="Settlements.Settlement.name.castle_NOV3" text="Емянец"/>
+  <string id="Settlements.Settlement.name.castle_NOV4" text="Опачка"/>
+  <string id="Settlements.Settlement.name.castle_NOV5" text="Остраў"/>
+  <string id="Settlements.Settlement.name.castle_NOV6" text="Ізборск"/>
+  <string id="Settlements.Settlement.name.castle_NOV7" text="Гдоў"/>
+  <string id="Settlements.Settlement.name.castle_NOV8" text="Порхаў"/>
+  <string id="Settlements.Settlement.name.castle_NOV9" text="Руса"/>
+  <string id="Settlements.Settlement.name.town_NOV1" text="Ноўгарад"/>
+  <string id="Settlements.Settlement.name.town_NOV2" text="Плескоў"/>
+  <string id="Settlements.Settlement.name.town_NOV3" text="Ладага"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV10_1" text="Вароніна"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV10_2" text="Кайболава"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV10_3" text="Сосьніцы"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV10_4" text="Сабск"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV11_1" text="Карэла"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV1_1" text="Дзем'ян"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV12_1" text="Пагост у Цервінічах"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV12_2" text="Пагост на Сьпіркаве"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV1_2" text="Любнэ"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV13_1" text="Нікандрава"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV13_2" text="Яжэльбіцы"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV13_3" text="Валдай"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV1_3" text="Морэва"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV14_1" text="Клічэнь"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV14_2" text="Жабачэў"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV14_3" text="Загародзе"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV14_4" text="Бежацк"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV1_4" text="Малы Бохат"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV2_1" text="Гарадзішча на Ловаці"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV2_2" text="Остры"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV2_3" text="Полібіна"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV3_1" text="Себеж"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV3_2" text="Сутокі"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV3_3" text="Осіна"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV4_1" text="Літвінова"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV4_2" text="Каложэ"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV4_3" text="Варонец"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV5_1" text="Грывы"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV5_2" text="Міхайлаўскае"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV6_1" text="Камна"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV6_2" text="Борахнава"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV7_1" text="Гарадзішча ў Гдова"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV8_1" text="Каторск"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV8_2" text="Заарэш'е"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV8_3" text="Галубкова"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV8_4" text="Гарадок на Шэлоне"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV9_1" text="Сьвінорт"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV9_2" text="Косіцкае"/>
+  <string id="Settlements.Settlement.name.village_castle_NOV9_3" text="Сергаў"/>
+  <string id="Settlements.Settlement.name.village_town_NOV1_1" text="Цесова"/>
+  <string id="Settlements.Settlement.name.village_town_NOV1_2" text="Надбельле"/>
+  <string id="Settlements.Settlement.name.village_town_NOV1_3" text="Гарадок на Волхаве"/>
+  <string id="Settlements.Settlement.name.village_town_NOV1_4" text="Усьць-Волма"/>
+  <string id="Settlements.Settlement.name.village_town_NOV2_1" text="Дуброўна"/>
+  <string id="Settlements.Settlement.name.village_town_NOV2_2" text="Ісад-Гарадец"/>
+  <string id="Settlements.Settlement.name.village_town_NOV2_3" text="Мда"/>
+  <string id="Settlements.Settlement.name.village_town_NOV2_4" text="Сторажынец"/>
+  <string id="Settlements.Settlement.name.village_town_NOV3_1" text="Любшэ"/>
+  <string id="Settlements.Settlement.name.village_town_NOV3_2" text="Гарадзішча на Лаве"/>
+  <string id="Settlements.Settlement.name.village_town_NOV3_3" text="Гарадзішча на Волхаве"/>
+  <string id="Settlements.Settlement.name.village_town_NOV3_4" text="Гарадзішча на Сясе"/>
+
   <string id="balticfather" text="Вайтас"/>
   <string id="balticmother" text="Лайма"/>
   <string id="balts" text="Балтыйская"/>
