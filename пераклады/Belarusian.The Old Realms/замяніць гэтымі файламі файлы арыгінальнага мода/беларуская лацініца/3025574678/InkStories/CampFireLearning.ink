@@ -294,9 +294,9 @@ Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych hasp
 ===Craftsman===
     Padčas siabroŭskaj hutarki ŭ vohnišča hrupa sałdataŭ mianiałasia apoviedami pra dzivy ramiesnaha i inžyniernaha majsterstvaŭ. U ich hałasach hučała pačućcio hłybokaj pašany i zachapleńnia, kali jany raskazvali pra vyčyny majstroŭ-ramieśnikaŭ i hienijalnych inžynieraŭ.
 
-"Słuchajcie ŭvažliva, tavaryšy - zaklikaŭ adzin z sałdataŭ: mała chto viedaje pra hetaje, ale mnie paščaściła vučycca inžyniernaj spravie ŭ hnoma. Vaładarstvy hnomaŭ - śviedčańnie kavalskaha majsterstva..."
+"Słuchajcie ŭvažliva, tavaryšy - zaklikaŭ adzin z sałdataŭ: mała chto viedaje pra hetaje, ale mnie paščaściła vučycca inžyniernaj spravie ŭ dvarfa. Vaładarstvy dvarfaŭ - śviedčańnie kavalskaha majsterstva..."
 
-Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynachodlivaściu, jakaja ruchała hetymi vyčynami. Abmiarkoŭvajučy kavalskuju dy inžyniernuju spravy i dzivy, narodžanyja ŭ hałovach majstroŭ i hnomaŭ, sałdaty znoŭ znajšli razumieńnie hetych žyćciova važnych prafiesijaŭ.
+Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynachodlivaściu, jakaja ruchała hetymi vyčynami. Abmiarkoŭvajučy kavalskuju dy inžyniernuju spravy i dzivy, narodžanyja ŭ hałovach majstroŭ i dvarfaŭ, sałdaty znoŭ znajšli razumieńnie hetych žyćciova važnych prafiesijaŭ.
     
     //Give Xp
             ~ GiveSkillExperience("Smithing",1500)
