@@ -234,7 +234,7 @@ INCLUDE include.ink
                         {MedicineSkillCheckTest: ->Success | ->Fail}
                         
                 *{LoreOfLifeInParty}[Лячыць яго магіяй {SpellcraftSkillCheckText}]
-                    Заклінальнік вашай партыі заклікае Вятры Гірана, каб загаіць раны чалавека.
+                    Заклінальнік вашай партыі заклікае Вятры Гайрана, каб загаіць раны чалавека.
                         {SpellcraftSkillCheckTest: ->Success | ->Fail}
                     
         =Success

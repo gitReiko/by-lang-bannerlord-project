@@ -189,7 +189,7 @@
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                           Маг з вашай партыі заклікае Вецер Гірана на дапамогу вашым людзям у пошуках.
+                           Маг з вашай партыі заклікае Вецер Гайрана на дапамогу вашым людзям у пошуках.
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR
@@ -202,7 +202,7 @@
                 //Bonus Attempts from Lore of Beasts
                     {LoreOfBeastsInParty:
                         -true: 
-                            Маг з вашай партыі заклікае Вецер Гірана на дапамогу вашым людзям у пошуках (+1 спроба).
+                            Маг з вашай партыі заклікае Вецер Гайрана на дапамогу вашым людзям у пошуках (+1 спроба).
                             ~ HuntLoops = HuntLoops + 1
                         -false:
                         -else: ERROR
