@@ -74,7 +74,7 @@ INCLUDE include.ink
                 -0: 
                     ~InjuryText3 = "уздымаецца"
                 -1: 
-                    ~InjuryText3 = "са складанасьцю ўздымаецца"
+                    ~InjuryText3 = "ледзь уздымаецца"
                 -2: 
                     ~InjuryText3 = "ляжыць і спрабуе не памерці"
             }
