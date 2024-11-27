@@ -177,24 +177,24 @@
 
 ===Start===
 
-    Padčas padarožža vy natykajeciesia na łahodnuju scenu, ad jakoj pierachaplaje dychańnie. Pierad vami raskinułasia cudoŭnaja sažałka, utojenaja pierlina siarod dzikaj pryrody. Vada spakojnaja i prazrystaja, u joj adlustroŭvajecca błakitnaje nieba. Pyšnaja raslinnaść atačaje sažałku, stvarajučy atmasfieru spakoju.
-    {IsNight(): Srebnaja miesiačnaje śviatło | Załacistaje soniečnaje śviatło} pradzirajecca skroź drevy, adkidvajučy vodbliski na pavierchniu vady. U pavietry łunaje dalikatny vodar pryrody, jaki supakojvaje stomlenyja pačućci. Ptuški napiavajuć miełodyi i stvarajuć łahodnuju atmasfieru.
+    Padčas padarožža vy natykajeciesia na łahodnuju scenu, ad jakoj pierachaplaje dychańnie. Pierad vami raskinułasia cudoŭnaja sažałka, utojenaja pierlina siarod dzikaj pryrody. Vada spakojnaja i prazrystaja, u joj adlustroŭvajecca błakitnaje nieba. Pyšnaja raslinnaść atačaje sažałku, stvarajučy atmasfieru spakoju. #STR_Start1
+    {IsNight(): Srebnaja miesiačnaje śviatło | Załacistaje soniečnaje śviatło} pradzirajecca skroź drevy, adkidvajučy vodbliski na pavierchniu vady. U pavietry łunaje dalikatny vodar pryrody, jaki supakojvaje stomlenyja pačućci. Ptuški napiavajuć miełodyi i stvarajuć łahodnuju atmasfieru. #STR_Start2
 
-    Pakul vy staicie, začaravanyja hetym hledziščam, vas dahaniajuć vašyja ludzi. Ich tvary, zmučanyja stomlenaściu, azarajucca ździŭleńniem i palohkaj. Navat zazvyčaj strymany čalec vašaj hrupy zdoleŭ uśmichnucca.
+    Pakul vy staicie, začaravanyja hetym hledziščam, vas dahaniajuć vašyja ludzi. Ich tvary, zmučanyja stomlenaściu, azarajucca ździŭleńniem i palohkaj. Navat zazvyčaj strymany čalec vašaj hrupy zdoleŭ uśmichnucca. #STR_Start3
 
-    Pamahaty pakłaŭ na vašaje plačo ruku, u jaho hołasie prahučała redkaja nota lohkaści: "Maleńki adpačynak la sažałki. Što skažaš?".
+    Pamahaty pakłaŭ na vašaje plačo ruku, u jaho hołasie prahučała redkaja nota lohkaści: "Maleńki adpačynak la sažałki. Što skažaš?". #STR_Start4
         ->choice1
         
     =choice1
-        Što budzie rabić vašaja partyja?
+        Što budzie rabić vašaja partyja? #STR_Start4
             *[Narychtoŭvać dzikija raśliny (Šmatlikija sproby z {LoreOfLifeInParty: 50% šancam (Palepšana Viedami Žyćcia)| 25% šancam} paśpiachovaha zboru roznych dzikich raślin)] 
                 
-                Vy zahadali svajoj partyi źbirać dzikija raśliny.
+                Vy zahadali svajoj partyi źbirać dzikija raśliny. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            Mah z vašaj partyi zaklikaje Viecier Hirana na dapamohu vašym ludziam u pošukach.
+                            Mah z vašaj partyi zaklikaje Viecier Hajrana na dapamohu vašym ludziam u pošukach. #STR_ForageLoreOfLife1
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR
@@ -204,22 +204,22 @@
 
             *[Łavić rybu (Šmatlikija sproby złavić rybu (50% šaniec pośpiechu))] 
             
-            Vy zahadali svaim ludziam rybačyć.
+            Vy zahadali svaim ludziam rybačyć. #STR_Fish1
                 
                 ->FishLoop
                 
             *[Adpačyvać (Usie kampańjony i paranienyja vajary vylečvajucca {PartyMedicineCheckText})]
                 
-                Vy namahajeciesia dać svaim ludziam adpačyć, spadziajučysia, što karotki pieradych dapamoža im ačuniać.
+                Vy namahajeciesia dać svaim ludziam adpačyć, spadziajučysia, što karotki pieradych dapamoža im ačuniać. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
+                        Vašaja partyja skarystałasia adpačynkam, kab pakłapacicca pra ranienych. #STR_RestMedicineSuccess
                         ~ HealPartyToFull()
                     -false:
+                        U toj momant, kali vajary pačynajuć dahladać za paranienymi, ziamla pad nahami raptam uzdryhvaje, i pavietra napaŭniajecca rykam. U sažałku abrušvajecca vał ziamli i kamianioŭ, što ŭtvaryŭsia ŭ vyniku apoŭznia na bierazie. Vada ŭzdymajecca i pahłynaje častku razmytaj joju ziamli. #STR_RestMedicineFail
                     -else: "ERROR"
                 }
-                
-                {PartyMedicineCheckTest: Vašaja partyja skarystałasia adpačynkam, kab pakłapacicca pra ranienych.| U toj momant, kali vajary pačynajuć dahladać za paranienymi, ziamla pad nahami raptam uzdryhvaje, i pavietra napaŭniajecca rykam. U sažałku abrušvajecca vał ziamli i kamianioŭ, što ŭtvaryŭsia ŭ vyniku apoŭznia na bierazie. Vada ŭzdymajecca i pahłynaje častku razmytaj joju ziamli.}
                 
                 ->Leave
                 
