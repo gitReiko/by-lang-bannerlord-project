@@ -73,6 +73,7 @@
                         ~ MeleeWeaponText = "Tronkavaj Zbroi"
                 }
 
+
         //Ranged
             VAR RangedWeaponRandom = 0
                 ~ RangedWeaponRandom = RANDOM(1,4)
@@ -167,7 +168,8 @@
 
 ===Start===
 
-Z nadychodam ciemry vy i vašyja paplečniki ŭładkoŭvajuć łahier. Nanač vy bačycie, što vašyja ludzi padzialilisia na dźvie hrupy. Zdajecca, adna raskazvaje vajskovyja historyi, inšaja prosta razmaŭlaje. -> choice1
+Z nadychodam ciemry vy i vašyja paplečniki ŭładkoŭvajuć łahier. Nanač vy bačycie, što vašyja ludzi padzialilisia na dźvie hrupy. Zdajecca, adna raskazvaje vajskovyja historyi, inšaja prosta razmaŭlaje. #STR_Start1
+-> choice1
 
     =choice1
         Što vy budziecie rabić? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
@@ -181,11 +183,11 @@ Z nadychodam ciemry vy i vašyja paplečniki ŭładkoŭvajuć łahier. Nanač vy
                 ->END
 
 ===TheHunt===
-    Siarod patreskvańnia vohnišča zadychany hołas sałdata raskazvaŭ pra ŭtojlivaść i pieraśled. Mihatlivaje połymia, zdavałasia, adlustroŭvała pradčuvańnie ŭ vačach jaho spadarožnikaŭ, što schililisia pasłuchać.
+    Siarod patreskvańnia vohnišča zadychany hołas sałdata raskazvaŭ pra ŭtojlivaść i pieraśled. Mihatlivaje połymia, zdavałasia, adlustroŭvała pradčuvańnie ŭ vačach jaho spadarožnikaŭ, što schililisia pasłuchać. #STR_TheHunt1
 
-"Pasłuchajcie, chłopcy i dzieŭki - pačaŭ sałdat: dazvolcie mnie raskazać vam pra našaje apošniaje palavańnie. Stajała bieźmiesiacovaja noč, našyja kroki vyznačalisia cieniami i šołacham liścia. Našyja vyviedniki prabiralisia praz zaraśniki, zorka sočačy za minataŭram..."
+"Pasłuchajcie, chłopcy i dzieŭki - pačaŭ sałdat: dazvolcie mnie raskazać vam pra našaje apošniaje palavańnie. Stajała bieźmiesiacovaja noč, našyja kroki vyznačalisia cieniami i šołacham liścia. Našyja vyviedniki prabiralisia praz zaraśniki, zorka sočačy za minataŭram..." #STR_TheHunt2
 
-Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ryzyku pahoni i napruhu, što pavisła ŭ pavietry. Słovy apaviadańnika malavali jarkuju karcinu chitraści i stratehii, i naprykancy apovieda sałdaty stali pa-novamu razumieć, što takoje vyviedka i majsterstva palavańnia.
+Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ryzyku pahoni i napruhu, što pavisła ŭ pavietry. Słovy apaviadańnika malavali jarkuju karcinu chitraści i stratehii, i naprykancy apovieda sałdaty stali pa-novamu razumieć, što takoje vyviedka i majsterstva palavańnia. #STR_TheHunt3
     
     //Give Xp
         ~ GiveSkillExperience("Scouting",1000)
@@ -204,11 +206,11 @@ Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ry
     -> END
 
 ===TheAmbush===
-    Siarod tresku vuhloŭ prahučaŭ hołas sałdata z hareznym blaskam u vačach. Ciopły vodblisk vohnišča aśviatlaŭ nieciarplivyja tvary jaho tavaryšaŭ, jakija sieli pasłuchać apovied.
+    Siarod tresku vuhloŭ prahučaŭ hołas sałdata z hareznym blaskam u vačach. Ciopły vodblisk vohnišča aśviatlaŭ nieciarplivyja tvary jaho tavaryšaŭ, jakija sieli pasłuchać apovied. #STR_TheAmbush1
 
-"Źbirajciesia, chłopcy, - skazaŭ sałdat z uchmyłkaj: i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Našy płan byŭ chitry, ruchi imklivyja. My nanieśli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..."
+"Źbirajciesia, chłopcy, - skazaŭ sałdat z uchmyłkaj: i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Našy płan byŭ chitry, ruchi imklivyja. My nanieśli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..." #STR_TheAmbush1
 
-Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. Śmiech i ŭchvalnyja kivy supravadžali kancoŭku apovieda, pakidajučy ŭ sałdataŭ hłybiejšaje razumieńnie taktyki i mocy dobra zładžanaj zasady.
+Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. Śmiech i ŭchvalnyja kivy supravadžali kancoŭku apovieda, pakidajučy ŭ sałdataŭ hłybiejšaje razumieńnie taktyki i mocy dobra zładžanaj zasady. #STR_TheAmbush3
     
         //Give Xp
             ~ GiveSkillExperience("Leadership",1000)
@@ -217,11 +219,11 @@ Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. 
     -> END
 
 ===TheCharge===
-    Ciopłyja abdymki vohnišča adkidvali skoki cieniaŭ na tvary navakolnych vajaroŭ. Ich uvaha była prykuta, kali ŭ pavietry zahučaŭ hołas zahartavanaha ŭ bajach vajara.
+    Ciopłyja abdymki vohnišča adkidvali skoki cieniaŭ na tvary navakolnych vajaroŭ. Ich uvaha była prykuta, kali ŭ pavietry zahučaŭ hołas zahartavanaha ŭ bajach vajara. #STR_Charge1
 
-"Słuchajcie ŭvažliva, siabry maje - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Heta byŭ dzień, abłaskany pramieniami zychodziačaha sonca. Našyja koni byli ŭ nieciarpieńni, ich kapyty hrukali ab ziamlu. Z hrymotnym pokličam my rynulisia ŭ boj..."
+"Słuchajcie ŭvažliva, siabry maje - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Heta byŭ dzień, abłaskany pramieniami zychodziačaha sonca. Našyja koni byli ŭ nieciarpieńni, ich kapyty hrukali ab ziamlu. Z hrymotnym pokličam my rynulisia ŭ boj..." #STR_Charge2
 
-Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapyty. Historyja malaŭničuju karcinu jadnańnia i advahi, prymušajučy sałdataŭ hłybiej razumieć asablivaści konnaj jazdy, abychodžańnia sa zbrojaj i siłu zładžanaj kamandy.
+Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapyty. Historyja malaŭničuju karcinu jadnańnia i advahi, prymušajučy sałdataŭ hłybiej razumieć asablivaści konnaj jazdy, abychodžańnia sa zbrojaj i siłu zładžanaj kamandy. #STR_Charge3
     
     //Give Xp
         ~ GiveSkillExperience("Riding",1000)
@@ -230,11 +232,11 @@ Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapy
     -> END 
 
 ===HoldingTheLine===
-    Siarod miakkaha patreskvańnia vohnišča hołas sałdata hučaŭ navažna. Vodbliski połymia, zdavałasia, adlustroŭvali rašučaść u vačach jaho tavaryšaŭ.
+    Siarod miakkaha patreskvańnia vohnišča hołas sałdata hučaŭ navažna. Vodbliski połymia, zdavałasia, adlustroŭvali rašučaść u vačach jaho tavaryšaŭ. #STR_HoldingTheLine1
 
-"Słuchajcie ŭvažliva, siabry maje - z niepachisnaj pierakananaściu pramoviŭ sałdat: apovied pra našu apošniuju bitvu. Heta byŭ momant nieparušnaha jadnańnia, my budavali tryvały šerah, začyniŭšysia ščytami dla nadziejnaj abarony. Kali armija niežyci nastavała, my stajali navažna..."
+"Słuchajcie ŭvažliva, siabry maje - z niepachisnaj pierakananaściu pramoviŭ sałdat: apovied pra našu apošniuju bitvu. Heta byŭ momant nieparušnaha jadnańnia, my budavali tryvały šerah, začyniŭšysia ščytami dla nadziejnaj abarony. Kali armija niežyci nastavała, my stajali navažna..." #STR_HoldingTheLine2
 
-Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać poruč z vajarami hetaj historyi. Słovy apaviadańnika padkreślili važnaść lidarstva i taktyki, što dazvoliła sałdatam hłybiej zrazumieć majsterstva abarony.
+Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać poruč z vajarami hetaj historyi. Słovy apaviadańnika padkreślili važnaść lidarstva i taktyki, što dazvoliła sałdatam hłybiej zrazumieć majsterstva abarony. #STR_HoldingTheLine3
     
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
@@ -252,11 +254,11 @@ Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać
     -> END
 
 ===TheBrawl===
-    U mihatlivym śviatle vohnišča hołas sałdata raskazvaŭ pra tavarystva i siabroŭskaje supiernictva. Śmiech źmiešvaŭsia z treskam połymia, kali jaho tavaryšy nachilalisia, žadajučy pačuć apovied.
+    U mihatlivym śviatle vohnišča hołas sałdata raskazvaŭ pra tavarystva i siabroŭskaje supiernictva. Śmiech źmiešvaŭsia z treskam połymia, kali jaho tavaryšy nachilalisia, žadajučy pačuć apovied. #STR_TheBrawl1
 
-"Voch, siabry - uśmichnuŭsia sałdat: dazvolcie raskazać vam toje-sioje pra zdareńnie na apošnich rychtoŭlach! Heta była noč viesiałości, što pieratvaryłasia ŭ zapalnaje spabornictva. My hulliva praviarali svaje siły, kožny ŭdar i adbićcio byli tancam majsterstva..."
+"Voch, siabry - uśmichnuŭsia sałdat: dazvolcie raskazać vam toje-sioje pra zdareńnie na apošnich rychtoŭlach! Heta była noč viesiałości, što pieratvaryłasia ŭ zapalnaje spabornictva. My hulliva praviarali svaje siły, kožny ŭdar i adbićcio byli tancam majsterstva..." #STR_TheBrawl2
 
-Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy pra siabroŭskija dvuboi. Słovy apaviadańnika padkreślivali viazi tavarystva i praktykavańni ručnoha boju, pakidajučy ŭ sałdataŭ adčuvańnie ahulnaha dośviedu.
+Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy pra siabroŭskija dvuboi. Słovy apaviadańnika padkreślivali viazi tavarystva i praktykavańni ručnoha boju, pakidajučy ŭ sałdataŭ adčuvańnie ahulnaha dośviedu. #STR_TheBrawl3
     
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
@@ -265,11 +267,11 @@ Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy 
     -> END
 
 ===TheShootout===
-    U ciopłych abdymkach vohnišča hołas sałdata ŭzvysiŭsia ad pradčuvańnia. U vačach jaho spadarožnikaŭ skakali ahieńčyki, kali jany raźmiaścilisia, kab pasłuchać apovied.
+    U ciopłych abdymkach vohnišča hołas sałdata ŭzvysiŭsia ad pradčuvańnia. U vačach jaho spadarožnikaŭ skakali ahieńčyki, kali jany raźmiaścilisia, kab pasłuchać apovied. #STR_TheShootout1
 
-"Słuchajcie ŭvažliva, paplečniki - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Ujavicie sabie nieba, zaciahnutaje chmarami, na jakim razhortvajecca demanstracyja strałkovaha majsterstva: moj połk naceliŭsia na nadychodziačych pačvar. Łuki, arbalety, kidalnyja nažy, parachavaja zbroja..."
+"Słuchajcie ŭvažliva, paplečniki - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Ujavicie sabie nieba, zaciahnutaje chmarami, na jakim razhortvajecca demanstracyja strałkovaha majsterstva: moj połk naceliŭsia na nadychodziačych pačvar. Łuki, arbalety, kidalnyja nažy, parachavaja zbroja..." #STR_TheShootout2
 
-Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snaradaŭ i streł u pavietry. Słovy apaviadańnika padkreślili ŭsie tonkaści boju na dystancyi i dazvolili sałdatam hłybiej zrazumieć usialakija navyki vałodańnia dystancyjnaj zbrojaj.
+Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snaradaŭ i streł u pavietry. Słovy apaviadańnika padkreślili ŭsie tonkaści boju na dystancyi i dazvolili sałdatam hłybiej zrazumieć usialakija navyki vałodańnia dystancyjnaj zbrojaj. #STR_TheShootout3
     
     //Give Xp
             ~ GiveSkillExperience("Bow",750)
@@ -279,11 +281,11 @@ Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snar
     -> END
 
 ===GreatRulers===
-    U ciopłym śviatle vohnišča hrupa vajaroŭ zachoplena raskazvała pra vialikich haspadaroŭ Staroha Śvieta. U ich hałasach hučała zachapleńnie i pavaha, a ŭ apoviedach pieraplatalisia ŭroki lidarstva i haspadarskaha majsterstva.
+    U ciopłym śviatle vohnišča hrupa vajaroŭ zachoplena raskazvała pra vialikich haspadaroŭ Staroha Śvieta. U ich hałasach hučała zachapleńnie i pavaha, a ŭ apoviedach pieraplatalisia ŭroki lidarstva i haspadarskaha majsterstva. #STR_GreatRulers1
 
-Adzin z vajaroŭ pačaŭ z hłybokaj pašanaj u hołasie: "Davajcie pahavorym pra lehiendarnych haspadaroŭ, što stvaryli našyja ziemli. Nakolki ja čuŭ, vialiki Karł Franc, zdajecca, padtrymlivaŭ svaju reputacyju, bo dla panavańnia nad krainaj, patrebna šmat rečaŭ..."
+Adzin z vajaroŭ pačaŭ z hłybokaj pašanaj u hołasie: "Davajcie pahavorym pra lehiendarnych haspadaroŭ, što stvaryli našyja ziemli. Nakolki ja čuŭ, vialiki Karł Franc, zdajecca, padtrymlivaŭ svaju reputacyju, bo dla panavańnia nad krainaj, patrebna šmat rečaŭ..." #STR_GreatRulers2
 
-Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych haspadaroŭ vybitnymi - majsterstvy zahadvańnia i lidarstva, charyzma, što jadnała paddanych. Uroki ŭkaranilisia ŭ ich śviadomaści i pryviali da hłybiejšaha razumieńnia adkaznaści, jakuju niasie z saboj ułada.
+Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych haspadaroŭ vybitnymi - majsterstvy zahadvańnia i lidarstva, charyzma, što jadnała paddanych. Uroki ŭkaranilisia ŭ ich śviadomaści i pryviali da hłybiejšaha razumieńnia adkaznaści, jakuju niasie z saboj ułada. #STR_GreatRulers3
     
     //Give Xp
             ~ GiveSkillExperience("Steward",1000)
@@ -292,11 +294,11 @@ Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych hasp
     -> END
 
 ===Craftsman===
-    Padčas siabroŭskaj hutarki ŭ vohnišča hrupa sałdataŭ mianiałasia apoviedami pra dzivy ramiesnaha i inžyniernaha majsterstvaŭ. U ich hałasach hučała pačućcio hłybokaj pašany i zachapleńnia, kali jany raskazvali pra vyčyny majstroŭ-ramieśnikaŭ i hienijalnych inžynieraŭ.
+    Padčas siabroŭskaj hutarki ŭ vohnišča hrupa sałdataŭ mianiałasia apoviedami pra dzivy ramiesnaha i inžyniernaha majsterstvaŭ. U ich hałasach hučała pačućcio hłybokaj pašany i zachapleńnia, kali jany raskazvali pra vyčyny majstroŭ-ramieśnikaŭ i hienijalnych inžynieraŭ. #STR_Craftsman1
 
-"Słuchajcie ŭvažliva, tavaryšy - zaklikaŭ adzin z sałdataŭ: mała chto viedaje pra hetaje, ale mnie paščaściła vučycca inžyniernaj spravie ŭ dvarfa. Vaładarstvy dvarfaŭ - śviedčańnie kavalskaha majsterstva..."
+"Słuchajcie ŭvažliva, tavaryšy - zaklikaŭ adzin z sałdataŭ: mała chto viedaje pra hetaje, ale mnie paščaściła vučycca inžyniernaj spravie ŭ dvarfa. Vaładarstvy dvarfaŭ - śviedčańnie kavalskaha majsterstva..." #STR_Craftsman2
 
-Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynachodlivaściu, jakaja ruchała hetymi vyčynami. Abmiarkoŭvajučy kavalskuju dy inžyniernuju spravy i dzivy, narodžanyja ŭ hałovach majstroŭ i dvarfaŭ, sałdaty znoŭ znajšli razumieńnie hetych žyćciova važnych prafiesijaŭ.
+Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynachodlivaściu, jakaja ruchała hetymi vyčynami. Abmiarkoŭvajučy kavalskuju dy inžyniernuju spravy i dzivy, narodžanyja ŭ hałovach majstroŭ i dvarfaŭ, sałdaty znoŭ znajšli razumieńnie hetych žyćciova važnych prafiesijaŭ. #STR_Craftsman3
     
     //Give Xp
             ~ GiveSkillExperience("Smithing",1500)
@@ -304,11 +306,11 @@ Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynach
     -> END
 
 ===Negotiation===
-    U mihatlivym śviatle vohnišča hrupa sałdataŭ raskazvała adzin adnamu historyi pra pieramovy i handal. Śmiech źmiešvaŭsia ź ich hałasami, kali jany raskazvali jak pra ŭdałyja pieramovy, hetak i pra paciešnyja vypadki, kali spravy išli drenna.
+    U mihatlivym śviatle vohnišča hrupa sałdataŭ raskazvała adzin adnamu historyi pra pieramovy i handal. Śmiech źmiešvaŭsia ź ich hałasami, kali jany raskazvali jak pra ŭdałyja pieramovy, hetak i pra paciešnyja vypadki, kali spravy išli drenna. #STR_Negotiation1
 
-"Voch, tavaryšy - uśmichnuŭsia adzin z sałdataŭ: dazvolcie mnie padzialicca z vami majsterstvam pieramovaŭ i tancam handlu. Ad handlu z chitrymi paŭroślikami da sustrečy z praniklivymi handlarami Maryjenburha - šlach da sumlennaj uhody vysłany dościpam i chitraściu..."
+"Voch, tavaryšy - uśmichnuŭsia adzin z sałdataŭ: dazvolcie mnie padzialicca z vami majsterstvam pieramovaŭ i tancam handlu. Ad handlu z chitrymi paŭroślikami da sustrečy z praniklivymi handlarami Maryjenburha - šlach da sumlennaj uhody vysłany dościpam i chitraściu..." #STR_Negotiation2
 
-Sałdaty nachilalisia, zachoplenyja apoviedami pra dościp i błaźnierstva, jakija razhortvalisia na šumnych kirmašach i bazarach Staroha Śvieta. Jany razvažali pra tonki bałans čaraŭ, handlovaj chvatki i vypadkovych promachaŭ, jakija byli ŭłaścivyja hetamu kraju, što dazvoliła im hłybiej zrazumieć majsterstva viadzieńnia pieramovaŭ.
+Sałdaty nachilalisia, zachoplenyja apoviedami pra dościp i błaźnierstva, jakija razhortvalisia na šumnych kirmašach i bazarach Staroha Śvieta. Jany razvažali pra tonki bałans čaraŭ, handlovaj chvatki i vypadkovych promachaŭ, jakija byli ŭłaścivyja hetamu kraju, što dazvoliła im hłybiej zrazumieć majsterstva viadzieńnia pieramovaŭ. #STR_Negotiation3
     
     //Give Xp
             ~ GiveSkillExperience("Charm",1000)
@@ -317,11 +319,11 @@ Sałdaty nachilalisia, zachoplenyja apoviedami pra dościp i błaźnierstva, jak
     -> END
 
 ===Traveling===
-   U treskie vohnišča hrupa sałdataŭ raskazvała pra svaje padarožžy i konnyja pachody. U ich hałasach hučali notki pryhodaŭ i tavarystva, kali jany raskazvali pra padarožžy pa padstupnych łandšaftach i sustrečach z nasielnikami Staroha Śvieta.
+   U treskie vohnišča hrupa sałdataŭ raskazvała pra svaje padarožžy i konnyja pachody. U ich hałasach hučali notki pryhodaŭ i tavarystva, kali jany raskazvali pra padarožžy pa padstupnych łandšaftach i sustrečach z nasielnikami Staroha Śvieta. #STR_Traveling1
 
-"Zachavać zdaroŭje bajavoha kania - zajaviŭ adzin z sałdataŭ: heta asobnaje zadańnie. Suviaź pamiž vieršnikam i kaniom - heta suviaź, nie padobnaja ni na jakuju inšuju..."
+"Zachavać zdaroŭje bajavoha kania - zajaviŭ adzin z sałdataŭ: heta asobnaje zadańnie. Suviaź pamiž vieršnikam i kaniom - heta suviaź, nie padobnaja ni na jakuju inšuju..." #STR_Traveling2
 
-Pa miery apaviadańnia pra pryhody, sałdaty pieranosilisia ŭ dalokija krainy i dzikuju pryrodu. Jany razvažali pra majsterstva konnaj jazdy i pra nieparyŭnuju suviaź pamiž vieršnikam i jaho žyviołaj, što dazvoliła im hłybiej acanić konnaje majsterstva padarožžaŭ.
+Pa miery apaviadańnia pra pryhody, sałdaty pieranosilisia ŭ dalokija krainy i dzikuju pryrodu. Jany razvažali pra majsterstva konnaj jazdy i pra nieparyŭnuju suviaź pamiž vieršnikam i jaho žyviołaj, što dazvoliła im hłybiej acanić konnaje majsterstva padarožžaŭ. #STR_Traveling3
     
     //Give Xp
             ~ GiveSkillExperience("Riding",1500)
@@ -329,11 +331,11 @@ Pa miery apaviadańnia pra pryhody, sałdaty pieranosilisia ŭ dalokija krainy i
     -> END
     
 ===Survival===
-    U miakkim treskie vohnišča hrupa sałdataŭ padzialiłasia svaim dośviedam vyžyvańnia ŭva ŭmovach dzikaj pryrody. Ich hałasy nieśli ŭ sabie hruz dośviedu, raskazvajučy pra znachodlivaść i ciahavitaść pierad tvaram pryrodnych vyprabavańniaŭ.
+    U miakkim treskie vohnišča hrupa sałdataŭ padzialiłasia svaim dośviedam vyžyvańnia ŭva ŭmovach dzikaj pryrody. Ich hałasy nieśli ŭ sabie hruz dośviedu, raskazvajučy pra znachodlivaść i ciahavitaść pierad tvaram pryrodnych vyprabavańniaŭ. #STR_Survival1
 
-"Słuchajcie ŭvažliva - pačaŭ adzin z sałdataŭ, jaho hołas byŭ roŭnym i ŭpeŭnienym: ja raskažu vam pra toje, jak słušna vyžyvać u samoj huščy dzikich lasoŭ. Ad zdabyčy pražytka da navihacyi ŭ hustych lasach i padstupnych bałotach - hałoŭnaje zrazumieć rytmy ziamli..."
+"Słuchajcie ŭvažliva - pačaŭ adzin z sałdataŭ, jaho hołas byŭ roŭnym i ŭpeŭnienym: ja raskažu vam pra toje, jak słušna vyžyvać u samoj huščy dzikich lasoŭ. Ad zdabyčy pražytka da navihacyi ŭ hustych lasach i padstupnych bałotach - hałoŭnaje zrazumieć rytmy ziamli..." #STR_Survival2
 
-Pa chodzie apovieda sałdaty akunalisia ŭ majsterstva vyžyvańnia, vučylisia čytać znaki pryrody i prystasoŭvacca da jaje vymohaŭ. U apoviedach admiennaja ŭvaha nadavałasia navykam miedycyny, vyviedki dy atletyki, i sałdaty znoŭ znachodzili pavahu da niaŭmolnaha i ŭ toj ža čas cudoŭnamu śvietu za miežami cyvilizacyi.
+Pa chodzie apovieda sałdaty akunalisia ŭ majsterstva vyžyvańnia, vučylisia čytać znaki pryrody i prystasoŭvacca da jaje vymohaŭ. U apoviedach admiennaja ŭvaha nadavałasia navykam miedycyny, vyviedki dy atletyki, i sałdaty znoŭ znachodzili pavahu da niaŭmolnaha i ŭ toj ža čas cudoŭnamu śvietu za miežami cyvilizacyi. #STR_Survival3
     
     //Give Xp
             ~ GiveSkillExperience("Medicine",1000)

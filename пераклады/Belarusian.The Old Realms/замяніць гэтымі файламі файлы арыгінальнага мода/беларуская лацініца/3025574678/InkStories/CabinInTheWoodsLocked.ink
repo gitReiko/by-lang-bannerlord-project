@@ -64,6 +64,8 @@ INCLUDE include.ink
             - LockQuality == 3:
                 ~ LockText = "nadziejny"
         }
+
+    ~ SetTextVariable("LockText",LockQuality)
             
     VAR DoorQuality = 0
         ~ DoorQuality = RANDOM(1,3)
@@ -81,6 +83,7 @@ INCLUDE include.ink
                 ~ DoorText = "nadziejnaja"
         }
 
+    ~ SetTextVariable("DoorText",DoorQuality)
     //Reward
         VAR RewardRoll = 0
            ~ RewardRoll = RANDOM(0,2)
@@ -94,6 +97,8 @@ INCLUDE include.ink
                 - RewardRoll == 2:
                     ~ RewardText = "500 zołata"
             }
+
+    ~ SetTextVariable("RewardText",RewardRoll)
             
  //Variable Update: Update any variables before story start
     ~ PartyRogueryCheckText = print_party_skill_chance("Roguery", LockDifficulty)
@@ -112,14 +117,14 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    Padčas padarožža vy natykajeciesia na chałupu ŭ lesie.
+    Padčas padarožža vy natykajeciesia na chałupu ŭ lesie. #STR_Start1
     
     *[Padajści da chałupy]->Approach
     *[Praciahnuć svajo padarožža (Syści)]Vy vyrašyli, što pakul lepiej praciahnuć svajo padarožža.->END
     
 ===Approach===
 
-Kala chałupy vy bačycie, što jana nadziejna zabita. Adzinaja dźvier u chałupie, zdajecca, nahłucha začyniena. Paśla ahladu dźviery vy vyjavili, što jana {DoorText}, a jaje zamok {LockText}.->choice1
+Kala chałupy vy bačycie, što jana nadziejna zabita. Adzinaja dźvier u chałupie, zdajecca, nahłucha začyniena. Paśla ahladu dźviery vy vyjavili, što jana {DoorText}, a jaje zamok {LockText}. #STR_Approach1 ->choice1
 
     =choice1
     Što vaša partyja musić zrabić?
@@ -149,7 +154,7 @@ Kala chałupy vy bačycie, što jana nadziejna zabita. Adzinaja dźvier u chału
 
 ===Inside===
 
-Vaša partyja traplaje ŭ chałupu i vyjaŭlaje, što niechta ci niešta zachoŭvaje tut zapasy.->choice2
+Vaša partyja traplaje ŭ chałupu i vyjaŭlaje, što niechta ci niešta zachoŭvaje tut zapasy. #STR_Inside1 ->choice2
 
     =choice2
         *[Zabrać ({RewardText})]
