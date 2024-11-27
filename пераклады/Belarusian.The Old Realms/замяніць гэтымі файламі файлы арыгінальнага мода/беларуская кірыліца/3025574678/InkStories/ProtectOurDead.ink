@@ -29,18 +29,19 @@ VAR RaiseDeadSkillCheckTest = false
 ->START
 
 ===START===
-At the end of the days march, your men are setting up camp. You know sunset will come soon, and these lands are dangerous, especially at night. #STR_Start1
-Suddenly, one of your men shouts a warning. Glancing up, you see a local villager approaching. He appears to be unarmed. #illustration: stranger #STR_Start2
-The man explains that a recently arrived necromancer has started raising the dead from the village cemetery. Although the village is quite poor, he says they will pay a modest reward to anyone who slays the necromancer. #STR_Start3 
+Напрыканцы шматдзённага маршу вашыя людзі разьбіваюць лагер. Вы ведаеце, што хутка наступіць заход, ды гэтыя землі небясьпечныя, асабліва ўначы. #STR_Start1
+Раптоўна вашы чалавек выкрыквае папярэджваньне. Падняўшы вочы, вы бачыце набліжэньне мясцовага жыхара. Здаецца, ён няўзброены. 
+#illustration: stranger #STR_Start2
+Мужчына тлумачыць, што нядаўна сюды прыйшоў некрамант і пачаў уздымаць мерцьвякоў з сялянскіх могілкаў. Хаця вёска даволі бедная, ён кажа, што яны заплацяць сьціплую ўзнагароду таму, хто заб'е некраманта. #STR_Start3 
 -> choices
 
     =choices
-    *[We will kill this necromancer for you.] ->accept
-    *[This is an outrage, those skeletons should belong to me!] ->accept
-    *[Perhaps another time. We have more urgent matters to attend to.] -> deny
+    *[Мы заб'ём гэтага некраманта для вас.] ->accept
+    *[Гэта абуральна, гэныя касьцякі мусяць належаць мне!] ->accept
+    *[Магчыма, іншым разам. Мы маем больш тэрміновыя справы.] -> deny
     
     =accept
-    The village explains that the necromancer comes every night with a few skeletons. With this knowledge, you make a plan to ambush him in the graveyard.  #STR_Accept1
+    У вёсцы тлумачаць, што некрамант прыходзіць штоноч з некалькімі касьцякамі. Валодаючы ведамі, вы распрацоўваеце план засады на могілках.  #STR_Accept1
     
     ->enterArena
     
@@ -50,24 +51,24 @@ The man explains that a recently arrived necromancer has started raising the dea
     =enterArena
     //~ OpenGraveyardMission()
     ...
-    {PlayerWin: As the necromancer falls, you give thanks to insert_deity_name. #STR_PlayerWin1}
+    {PlayerWin: Калі некрамант церпіць паразу, вы дзякуеце insert_deity_name. #STR_PlayerWin1}
 
     ->BattleResult
     
 ===BattleResult===
-        *[Return to the village and claim the reward {GiveGold(500)}{GiveSkillExperience("Faith",1000)}]
+        *[Вярнуцца ў вёску і атрымаць узнагароду {GiveGold(500)}{GiveSkillExperience("Faith",1000)}]
 		-> END
 		
         //Necromancer option
-        *{PartyCanRaiseDead}[Attempt to bind the defeated skeletons to your will, {print_party_skill_chance("Spellcraft", 25)}]
+        *{PartyCanRaiseDead}[Паспрабаваць падначаліць пераможаных касьцякоў сваёй волі, {print_party_skill_chance("Spellcraft", 25)}]
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
         =raiseSucceed
-        Having successfully raised the dead, you search the necromancer for anything of value. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerSuccess
+        Пасьпяхова ўскрэсіўшы мерцьвякоў, вы абшукваеце некраманта, каб знайсьці штосьці каштоўнае. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerSuccess
             
             ~ChangePartyTroopCount("tor_vc_skeleton",8)
             -> END
         
         =raiseFail
-        You may have failed to raise the dead, but at least the necromancer left a useful staff behind. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerFail
+        Магчыма, вам не ўдалося ўскрэсіць мерцьвякоў, але, прынамсі, некрамант пакінуў пасьля сябе карысны посах. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerFail
             -> END
