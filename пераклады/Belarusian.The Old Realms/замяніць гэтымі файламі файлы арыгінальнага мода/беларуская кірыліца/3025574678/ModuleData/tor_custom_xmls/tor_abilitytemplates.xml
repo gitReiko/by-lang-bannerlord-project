@@ -33,7 +33,7 @@
                      MaxDistance="100"
                      CrosshairType="SingleTarget"
                      AbilityTargetType="EnemiesInAOE"
-                     TooltipDescription="Кідае ў ворага магічны болт. Снарад трапляе ў цэль і пры кантакце наносіць 40 шкоды ў радыусе 3 метраў.">
+                     TooltipDescription="Кідае ў ворага магічны болт. Снарад трапляе ў цэль і пасьля кантакту наносіць 40 шкоды ў радыусе 3 метраў.">
         <LightColorRGB x="0"
                        y="204"
                        z="255"
@@ -443,7 +443,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=cinder_blast_description_str}Кідае ў ворага аскепкі застыглай лавы і наносіць сярэднюю шкоды пры кантакце.">
+                     TooltipDescription="{=cinder_blast_description_str}Кідае ў ворага аскепкі застыглай лавы і наносіць сярэднюю шкоды пасьля кантакту.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -732,7 +732,7 @@
     </AbilityTemplate>
     <!-- Lore of Heavens -->
     <AbilityTemplate StringID="LightningBolt"
-                     Name="{=lightning_bolt_label_str}Lightning Bolt"
+                     Name="{=lightning_bolt_label_str}Маланкавы Болт"
                      SpriteName="lightningbolt_icon"
                      CoolDown="15"
                      WindsOfMagicCost="8"
@@ -762,7 +762,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfHeavens"
-                     TooltipDescription="{=lightning_bolt_description_str}Hurl an electric bolt at the enemy that does medium damage on impact.">
+                     TooltipDescription="{=lightning_bolt_description_str}Кідае ў ворагаў электрычны болт, які наносіць сярэднюю шкоду пасьля кантакту.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -775,7 +775,7 @@
         <TriggeredEffect>lightningbolt_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="WindBlast"
-                     Name="{=wind_blast_label_str}Wind Blast"
+                     Name="{=wind_blast_label_str}Ветраны Выбух"
                      SpriteName="wind_blast_icon"
                      CoolDown="30"
                      WindsOfMagicCost="8"
@@ -808,7 +808,7 @@
                      TargetCapturingRadius="4"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfHeavens"
-                     TooltipDescription="{=wind_blast_description_str}A gust of wind knocks down victims and applies minor damage.">
+                     TooltipDescription="{=wind_blast_description_str}Парыў ветра, які зьбівае ахвяр з ног і наносіць маленькую шкоду.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -821,7 +821,7 @@
         <TriggeredEffect>windblast_burst</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="ChainLightning"
-                     Name="{=chain_lightning_label_str}Chain Lightning"
+                     Name="{=chain_lightning_label_str}Ланцуговая Маланка"
                      SpriteName="chainlightning_icon"
                      CoolDown="45"
                      WindsOfMagicCost="25"
@@ -857,7 +857,7 @@
                      VisualsRotationVelocity="4"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfHeavens"
-                     TooltipDescription="{=chain_lightning_description_str}A ball of lightning that zaps enemies in its area for medium damage.">
+                     TooltipDescription="{=chain_lightning_description_str}Шаравая маланка, якая наносіць ворагам сярэднюю шкоду ў вобласьці трапленьня.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -870,7 +870,7 @@
         <TriggeredEffect>lightning_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="HarmonicConvergence"
-                     Name="{=harmonic_convergence_label_str}Harmonic Convergence"
+                     Name="{=harmonic_convergence_label_str}Гарманічная Канвергенцыя"
                      SpriteName="harmonicconvergence_icon"
                      CoolDown="90"
                      WindsOfMagicCost="24"
@@ -902,7 +902,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfHeavens"
-                     TooltipDescription="{=harmonic_convergence_description_str}Divining favorable signs, the caster guides the minds of his fellow warriors. Allies in a 10 meter radius gain 50% physical resistance for 50 seconds.">
+                     TooltipDescription="{=harmonic_convergence_description_str}Разгадваючы спрыяльныя знакі, заклінальнік накіроўвае думкі сваіх таварышаў па зброі. Хаўрусьнікі ў радыусе 10 метраў атрымліваюць 50% фізычны супраціў на 50 сякундаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -915,7 +915,7 @@
         <TriggeredEffect>physical_resistance_50</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Blizzard"
-                     Name="{=blizzard_label_str}Iceshard Blizzard"
+                     Name="{=blizzard_label_str}Завіруха Ільдзяных Аскепкаў"
                      SpriteName="iceshardblizzard_icon"
                      CoolDown="30"
                      WindsOfMagicCost="22"
@@ -948,7 +948,7 @@
                      TargetCapturingRadius="2"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfHeavens"
-                     TooltipDescription="{=blizzard_description_str}Stormy clouds loom over the area showering those below with sharp shards of ice.">
+                     TooltipDescription="{=blizzard_description_str}Штармавыя воблакі навісаюць над вобласьцю і асыпаюць яе вострымі ільдзянымі аскепкамі.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -961,7 +961,7 @@
         <TriggeredEffect>blizzard_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="CometOfCasandora"
-                     Name="{=comet_of_casandora_label_str}Comet of Casandora"
+                     Name="{=comet_of_casandora_label_str}Камета Касандоры"
                      SpriteName="comet_icon"
                      CoolDown="90"
                      WindsOfMagicCost="40"
@@ -997,7 +997,7 @@
                      VisualsRotationVelocity="1"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfHeavens"
-                     TooltipDescription="{=comet_of_casandora_description_str}A large meteor strikes the area killing all below in a giant shockwave.">
+                     TooltipDescription="{=comet_of_casandora_description_str}Пасьля падзеньня буйнага метэора ўдарная хваля забівае ўсё, ува што трапляе.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1010,7 +1010,7 @@
         <TriggeredEffect>comet_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Thunderbolt"
-                     Name="{=thunderbolt_label_str}Urannon's Thunderbolt"
+                     Name="{=thunderbolt_label_str}Маланка Ураннона"
                      SpriteName="thunderbolt_icon"
                      CoolDown="40"
                      WindsOfMagicCost="22"
@@ -1043,7 +1043,7 @@
                      TargetCapturingRadius="2"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfHeavens"
-                     TooltipDescription="{=thunderbolt_description_str}A single large bolt of lightning crashes down from the skies with a sizeable electric charge.">
+                     TooltipDescription="{=thunderbolt_description_str}Адзін вялікі маланкавы болт, які зрынаецца з нябёсаў і валодае значным электрычным зарадам.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1056,7 +1056,7 @@
         <TriggeredEffect>thunderbolt_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="CurseOfMidnightWind"
-                     Name="{=curse_of_midnight_wind_label_str}Curse of the Midnight Wind"
+                     Name="{=curse_of_midnight_wind_label_str}Праклён Паўночнага Ветру"
                      SpriteName="curse_of_the_midnight_wind_icon"
                      CoolDown="60"
                      WindsOfMagicCost="20"
@@ -1088,7 +1088,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfHeavens"
-                     TooltipDescription="{=curse_of_midnight_wind_description_str}The wizard speaks an ancient three-word hex, cursing the enemies and iposing a 40% penalty to movement and attack speed, as well as damage dealt.">
+                     TooltipDescription="{=curse_of_midnight_wind_description_str}Чараўнік прамаўляе старажытны трохслоўны гекс, праклінае ворагаў і накладвае 40% штраф да хуткасьці руху і атакі, а таксама да шкоды, што наносіцца.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1102,7 +1102,7 @@
     </AbilityTemplate>
     <!-- Lore of Light -->
     <AbilityTemplate StringID="ShemGaze"
-                     Name="{=shem_gaze_label_str}Shem's Burning Gaze"
+                     Name="{=shem_gaze_label_str}Пяклівы Позірк Шэма"
                      SpriteName="shemsburninggaze_icon"
                      CoolDown="20"
                      WindsOfMagicCost="8"
@@ -1132,7 +1132,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfLight"
-                     TooltipDescription="{=shem_gaze_description_str}A bolt of cleansing energy fly from the caster's hands, searing evil wherever it strikes.">
+                     TooltipDescription="{=shem_gaze_description_str}З рук заклінальніка вылятае болт ачышчальнай энэргіі, які спальвае зло ўсюды, куды трапляе.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1145,7 +1145,7 @@
         <TriggeredEffect>shemgaze_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="HealingLight"
-                     Name="{=healing_light_label_str}Healing Light"
+                     Name="{=healing_light_label_str}Лекавальнае Сьвятло"
                      SpriteName="healinglight_icon"
                      CoolDown="60"
                      WindsOfMagicCost="20"
@@ -1177,7 +1177,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfLight"
-                     TooltipDescription="{=healing_light_description_str}Allies in the area of effect regenerate health over time.">
+                     TooltipDescription="{=healing_light_description_str}Хаўрусьнікі ў вобласьці дзеяньня эфекту аднаўляюць здароўе з цягам часу.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1190,7 +1190,7 @@
         <TriggeredEffect>apply_healing_statuseffect</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="PhaProtection"
-                     Name="{=pha_protection_label_str}Pha's Protection"
+                     Name="{=pha_protection_label_str}Абарона Фа"
                      SpriteName="phasprotection_icon"
                      CoolDown="90"
                      WindsOfMagicCost="20"
@@ -1222,7 +1222,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfLight"
-                     TooltipDescription="{=pha_protection_description_str}The wizard calls upon the beneficent Guardian of Light to protect his allies from harm. Grants 50% physical resistance for a duration 50 seconds.">
+                     TooltipDescription="{=pha_protection_description_str}Чараўнік заклікае прыхільнага Захоўніка Сьвятла бараніць сваіх хаўруснікаў ад бядотаў. Дае 50% фізычны супраціў на 50 сякундаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1235,7 +1235,7 @@
         <TriggeredEffect>physical_resistance_50</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="DeathlyShards"
-                     Name="{=deathly_shards_label_str}Deathly Shards"
+                     Name="{=deathly_shards_label_str}Сьмяротныя Аскепкі"
                      SpriteName="deadlyshards_icon"
                      CoolDown="30"
                      WindsOfMagicCost="15"
@@ -1265,7 +1265,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfLight"
-                     TooltipDescription="{=deathly_shards_description_str}Sharp shards of light fly towards the target piercing through the toughest armor.">
+                     TooltipDescription="{=deathly_shards_description_str}Вострыя аскепкі сьвятла ляцяць да мэты і прабіваюць найтрывалую браню.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1278,7 +1278,7 @@
         <TriggeredEffect>shard_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="RadiancePillar"
-                     Name="{=radiance_pillar_label_str}Pillar of Radiance"
+                     Name="{=radiance_pillar_label_str}Слуп Зьзяньня"
                      SpriteName="pillarofradiance_icon"
                      CoolDown="60"
                      WindsOfMagicCost="35"
@@ -1311,7 +1311,7 @@
                      TargetCapturingRadius="2"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfLight"
-                     TooltipDescription="{=radiance_pillar_description_str}A large pillar of light applies high damage to those caught in the beam.">
+                     TooltipDescription="{=radiance_pillar_description_str}Буйны слуп сьвятла наносіць вялікую шкоду тым, што трапляе пад яго прамень.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1324,7 +1324,7 @@
         <TriggeredEffect>pillar_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="RadiantGaze"
-                     Name="{=radiant_gaze_label_str}Radiant Gaze"
+                     Name="{=radiant_gaze_label_str}Зьзяючы Позірк"
                      SpriteName="radiantgaze_icon"
                      CoolDown="75"
                      WindsOfMagicCost="45"
@@ -1357,7 +1357,7 @@
                      TargetCapturingRadius="3"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfLight"
-                     TooltipDescription="{=radiant_gaze_description_str}Columns of light rise from the ground in a path.">
+                     TooltipDescription="{=radiant_gaze_description_str}З зямлі падымаюцца слупы сьвятла ў форме сьцежкі.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1370,7 +1370,7 @@
         <TriggeredEffect>wind_of_death_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="NetOfAmyntok"
-                     Name="{=net_of_amyntok_label_str}Net of Amyntok"
+                     Name="{=net_of_amyntok_label_str}Сетка Амынтока"
                      SpriteName="netofamyntok_icon"
                      CoolDown="65"
                      WindsOfMagicCost="20"
@@ -1402,7 +1402,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfLight"
-                     TooltipDescription="{=net_of_amyntok_description_str}The wizard conjures an arcane net in the selected area. Any foe caught in the spell is halted for 25 seconds.">
+                     TooltipDescription="{=net_of_amyntok_description_str}Чараўнік стварае арканную сетку ў абранай вобласьці. Усякі вораг, што трапляе пад дзеяньне заклёна, спыняецца на 25 сякундаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1415,7 +1415,7 @@
         <TriggeredEffect>net_of_amyntok_hex</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="BironasTimewarp"
-                     Name="{=bironas_timewarp_label_str}Birona's Timewarp"
+                     Name="{=bironas_timewarp_label_str}Скрыўленьне Часу Біроны"
                      SpriteName="bironastimewarp_icon"
                      CoolDown="60"
                      WindsOfMagicCost="15"
@@ -1447,7 +1447,7 @@
                      CrosshairType="Self"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfLight"
-                     TooltipDescription="{=bironas_timewarp_description_str}Slows down time, while units around you move unhindered.">
+                     TooltipDescription="{=bironas_timewarp_description_str}Запавольвае час, тым часам як атачальныя вас істоты рухаюцца бесперашкодна.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
