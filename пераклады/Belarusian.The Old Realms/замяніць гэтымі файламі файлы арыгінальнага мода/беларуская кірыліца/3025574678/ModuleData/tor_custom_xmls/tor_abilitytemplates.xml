@@ -1461,7 +1461,7 @@
     </AbilityTemplate>
     <!-- Necromancy -->
     <AbilityTemplate StringID="NagashGaze"
-                     Name="{=nagash_gaze_label_str}Gaze of Nagash"
+                     Name="{=nagash_gaze_label_str}Позірк Нагаша"
                      SpriteName="gazeofnagash_icon"
                      CoolDown="12"
                      WindsOfMagicCost="7"
@@ -1491,7 +1491,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="2"
                      BelongsToLoreID="Necromancy"
-                     TooltipDescription="{=nagash_gaze_description_str}A bolt of Dhar flies from the caster's eyes, and what flesh it touches blackens and withers, peeling away completely to reveal bleached white bone beneath.">
+                     TooltipDescription="{=nagash_gaze_description_str}Болт дхара вылятае з вочаў заклінальніка, і ўся плоць, да якой ён дакрынаецца, чарнее і вяне, цалкам адслойваецца і агаляе пад сабой белую костку.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1504,7 +1504,7 @@
         <TriggeredEffect>nagashgaze_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="SummonSkeleton"
-                     Name="{=summon_skeleton_label_str}Raise the Dead"
+                     Name="{=summon_skeleton_label_str}Уздым Мёртвых"
                      SpriteName="summonskeleton_icon"
                      CoolDown="30"
                      WindsOfMagicCost="15"
@@ -1537,7 +1537,7 @@
                      TargetCapturingRadius="5"
                      SpellTier="2"
                      BelongsToLoreID="Necromancy"
-                     TooltipDescription="{=summon_skeleton_description_str}Raises old bones from the ground for the Necromancer to command. Summon 25 Skeleton Warriors.">
+                     TooltipDescription="{=summon_skeleton_description_str}Падымае з зямлі старыя косткі, якімі можа камандаваць Некрамант. Выклічце 25 Касьцякоў-Ваяроў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1550,7 +1550,7 @@
         <TriggeredEffect>summon_skeleton</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Shadowblood"
-                     Name="{=shadowblood_label_str}Shadowblood"
+                     Name="{=shadowblood_label_str}Ценевая Кроў"
                      SpriteName="shadowblood_icon"
                      CoolDown="15"
                      WindsOfMagicCost="8"
@@ -1581,7 +1581,7 @@
                      AbilityTargetType="EnemiesInAOE"
                      SpellTier="2"
                      BelongsToLoreID="Necromancy"
-                     TooltipDescription="{=shadowblood_description_str}Shadowy orbs of blood follow the target staining the ground beneath every step of the way. Deals damage in a medium area.">
+                     TooltipDescription="{=shadowblood_description_str}Ценевыя згусткі крыві ляцяць да цэлі, акрапляючы зямлю пад нагамі падчас кожнага кроку. Наносіць шкоду ў сярэдняй вобласьці.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1597,7 +1597,7 @@
                           DisableDistance="10" />
     </AbilityTemplate>
     <AbilityTemplate StringID="Morkharn"
-                     Name="{=morkharn_label_str}Morkharn - Breath of Darkness"
+                     Name="{=morkharn_label_str}Морхарн - Подых Цемры"
                      SpriteName="breathofdarkness_icon"
                      CoolDown="60"
                      WindsOfMagicCost="12"
@@ -1629,7 +1629,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="Necromancy"
-                     TooltipDescription="{=morkharn_description_str}The wizard draws tendrils of the Wind of Death to restore his minions and fill them with unholy vigour. Heals allies over time in a radius.">
+                     TooltipDescription="{=morkharn_description_str}Чараўнік прыцягвае да сябе струмені Ветру Сьмерці, каб аднавіць сваіх паслугачоў і напоўніць іх паганай бадзёрасьцю. Лечыць хаўруснікаў у радыусе дзеяньня.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1642,7 +1642,7 @@
         <TriggeredEffect>breath_of_darkness</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="VanHelsDanseMacabre"
-                     Name="{=vanhelsdansemacabre_label_str}Vanhel's Danse Macabre"
+                     Name="{=vanhelsdansemacabre_label_str}Дансэ Макабрэ Ванхэля"
                      SpriteName="vanhels_dance_macabre_icon"
                      CoolDown="40"
                      WindsOfMagicCost="20"
@@ -1674,7 +1674,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="Necromancy"
-                     TooltipDescription="{=vanhelsdansemacabre_description_str}The animated dead are normally ungainly and cumbersome; this spell, however, gives them grace and speed - and makes them all the more deadly as a result.">
+                     TooltipDescription="{=vanhelsdansemacabre_description_str}Ажылыя мерцьвякі звычайна непаваротлівыя і грувасткія, але гэты заклён надае ім грацыю і хуткасьць - і ад гэтага яны робяцца яшчэ больш сьмяротнымі.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1687,7 +1687,7 @@
         <TriggeredEffect>apply_vanhelsdansemacabre</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="WindOfDeath"
-                     Name="{=wind_of_death_label_str}Wind of Death"
+                     Name="{=wind_of_death_label_str}Вецер Сьмерці"
                      SpriteName="windofdeath_icon"
                      CoolDown="65"
                      WindsOfMagicCost="35"
@@ -1720,7 +1720,7 @@
                      TargetCapturingRadius="3"
                      SpellTier="4"
                      BelongsToLoreID="Necromancy"
-                     TooltipDescription="{=wind_of_death_description_str}Invoke the spirits of the dead to consume the souls of the living. Applies medium damage while moving along its path.">
+                     TooltipDescription="{=wind_of_death_description_str}Заклікае мёртвых духаў дзеля паглынаньня душаў жывых. Наносіць высокую шкоду падчас руху па накірунку.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1733,7 +1733,7 @@
         <TriggeredEffect>wind_of_death_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="GraveCall"
-                     Name="{=grave_call_label_str}Grave Call"
+                     Name="{=grave_call_label_str}Магільны Покліч"
                      SpriteName="gravecall_icon"
                      CoolDown="60"
                      WindsOfMagicCost="25"
@@ -1766,7 +1766,7 @@
                      TargetCapturingRadius="5"
                      SpellTier="4"
                      BelongsToLoreID="Necromancy"
-                     TooltipDescription="{=grave_call_description_str}Drawing forth the dark energy coursing through the land, the necromancer searches long dead bodies to answer his summons. Raise 25 Grave Guard.">
+                     TooltipDescription="{=grave_call_description_str}Прыцягваючы цёмную энергію, што праймае зямлю, Некрамант шукае доўгія мёртвыя целы, каб адказаць на свой заклік. Уздымае 25 Вартаўнікоў Магілаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1779,7 +1779,7 @@
         <TriggeredEffect>summon_gravecall</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="CurseOfYears"
-                     Name="{=curse_of_years_label_str}Curse of Years"
+                     Name="{=curse_of_years_label_str}Праклён Гадоў"
                      SpriteName="curseofyears_icon"
                      CoolDown="60"
                      WindsOfMagicCost="20"
@@ -1811,7 +1811,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="Necromancy"
-                     TooltipDescription="{=curse_of_years_description_str}The necromancer utters an ancient curse, which causes the foe to age at a horrific rate. Reduces enemy attack and movement speed by 50% for a duration of 30 seconds.">
+                     TooltipDescription="{=curse_of_years_description_str}Заклінальнік вымаўляе старажытны праклён, які прымушае ворагаў старэць з жахлівай хуткасьцю. Зьніжае варожую хуткасьць атакі і руху на 50% на 30 сякундаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1825,7 +1825,7 @@
     </AbilityTemplate>
     <!-- Dark Magic -->
     <AbilityTemplate StringID="Chillwind"
-                     Name="{=chillwind_label_str}Chillwind"
+                     Name="{=chillwind_label_str}Ільдзяны Вецер"
                      SpriteName="chillwind_icon"
                      CoolDown="20"
                      WindsOfMagicCost="10"
@@ -1858,7 +1858,7 @@
                      TargetCapturingRadius="4"
                      SpellTier="2"
                      BelongsToLoreID="DarkMagic"
-                     TooltipDescription="{=chillwind_description_str}The caster assails the enemy with a freezing gale.">
+                     TooltipDescription="{=chillwind_description_str}Заклінальнік атакуе ворага ільдзяным штормам.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1871,7 +1871,7 @@
         <TriggeredEffect>chillwind_burst</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="DoomBolt"
-                     Name="{=doom_bolt_label_str}Doom Bolt"
+                     Name="{=doom_bolt_label_str}Згубны Болт"
                      SpriteName="doombolt_icon"
                      CoolDown="80"
                      WindsOfMagicCost="40"
@@ -1907,7 +1907,7 @@
                      VisualsRotationVelocity="1"
                      SpellTier="4"
                      BelongsToLoreID="DarkMagic"
-                     TooltipDescription="{=doom_bolt_description_str}The wizard rips open the sky and calls down a bolt burning with dark flames on the foe.">
+                     TooltipDescription="{=doom_bolt_description_str}Чараўнік разьдзірае нябёсы і абрынае на ворага болт, які гарыць цёмным полымям.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1920,7 +1920,7 @@
         <TriggeredEffect>doom_bolt_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="DeathSpasm"
-                     Name="{=death_spasm_label_str}Death Spasm"
+                     Name="{=death_spasm_label_str}Сьмяротная Спазма"
                      SpriteName="deathspasm_icon"
                      CoolDown="15"
                      WindsOfMagicCost="12"
@@ -1950,7 +1950,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="2"
                      BelongsToLoreID="DarkMagic"
-                     TooltipDescription="{=death_spasm_description_str}A crackling black bolt of energy that explodes in a fireball and sets victims on fire.">
+                     TooltipDescription="{=death_spasm_description_str}Траскучы чорны болт энэргіі, які выбухае вогненым шарам і падпальвае ахвяру.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -1963,7 +1963,7 @@
         <TriggeredEffect>deathspasm_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="SoulRain"
-                     Name="{=soul_rain_label_str}Soul Rain"
+                     Name="{=soul_rain_label_str}Дождж Душаў"
                      SpriteName="soulrain_icon"
                      CoolDown="50"
                      WindsOfMagicCost="22"
@@ -1996,7 +1996,7 @@
                      TargetCapturingRadius="3"
                      SpellTier="3"
                      BelongsToLoreID="DarkMagic"
-                     TooltipDescription="{=soul_rain_description_str}A black cloud looms over the targeted area striking those below with arcane lightning bolts.">
+                     TooltipDescription="{=soul_rain_description_str}Чорная хмара навісае над вобласьцю, і паражае тых, хто знаходзіцца ўнізе, арканнымі маланкамі.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2009,7 +2009,7 @@
         <TriggeredEffect>soulrain_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="PowerOfDarkness"
-                     Name="{=power_of_darkness_label_str}Power of Darkness"
+                     Name="{=power_of_darkness_label_str}Моц Цемры"
                      SpriteName="powerofdarkness_icon"
                      CoolDown="70"
                      WindsOfMagicCost="18"
@@ -2041,7 +2041,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="DarkMagic"
-                     TooltipDescription="{=power_of_darkness_description_str}The caster draws unstable power from the Realm of Chaos to empower his allies. Grants 20% physical bonus damage for a duration of 35 seconds.">
+                     TooltipDescription="{=power_of_darkness_description_str}Заклінальнік чэрпае нестабільную сілу з Панства Хаосу, каб надаць дужасьць сваім хаўруснікам. Дае 20% бонус да фізічнай шкоды на 35 сякундаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2054,7 +2054,7 @@
         <TriggeredEffect>power_of_darkness_bonus</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="ScreamingSkull"
-                     Name="{=screaming_skull_label_str}Screaming Skull"
+                     Name="{=screaming_skull_label_str}Лямантуючы Чэрап"
                      SpriteName="screamingskull_icon"
                      CoolDown="65"
                      WindsOfMagicCost="30"
@@ -2087,7 +2087,7 @@
                      TargetCapturingRadius="4"
                      SpellTier="3"
                      BelongsToLoreID="DarkMagic"
-                     TooltipDescription="{=screaming_skull_description_str}Conjures a screaming skull dripping with acid that moves forward damaging everything in its path.">
+                     TooltipDescription="{=screaming_skull_description_str}Стварае чэрап, які крычыць, капае кіслатой і рухаецца наперад, пашкоджваючы ўсё на сваім шляху.">
         <LightColorRGB x="52"
                        y="235"
                        z="88"
@@ -2101,7 +2101,7 @@
         <TriggeredEffect>screaming_skull_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="BlackHorror"
-                     Name="{=black_horror_label_str}Arnzipal's Black Horror"
+                     Name="{=black_horror_label_str}Чорная Жудасьць Арнзіпала"
                      SpriteName="arzipalsblackhorror_icon"
                      CoolDown="70"
                      WindsOfMagicCost="35"
@@ -2137,7 +2137,7 @@
                      VisualsRotationVelocity="0"
                      SpellTier="4"
                      BelongsToLoreID="DarkMagic"
-                     TooltipDescription="{=black_horror_description_str}The caster tears down the walls between realities, and a black cloud of roiling energy sweeps across the battlefield. As the darkness travels, slimy tentacles lash out from its depths, draggin unfortunate victims screaming to an unknown fate.">
+                     TooltipDescription="{=black_horror_description_str}Заклінальнік разбурае сьцены паміж сусьветамі, і чорнае воблака бурлівай энэргіі праносіцца па полю боя. Па меры распаўсюджваньня цемры, зь яе глыбінь вылазяць сьлізкія тэнтаклі і зацягваюць няшчасных ахвяраў з крыкамі насустрач невядомай доле.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2150,7 +2150,7 @@
         <TriggeredEffect>witheringwave_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="SoulStealer"
-                     Name="{=soul_stealer_label_str}Soul Stealer"
+                     Name="{=soul_stealer_label_str}Выкрадальнік Душаў"
                      SpriteName="soulstealer_icon"
                      CoolDown="80"
                      WindsOfMagicCost="35"
@@ -2182,7 +2182,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="4"
                      BelongsToLoreID="DarkMagic"
-                     TooltipDescription="{=soul_stealer_description_str}Enemies affected experience a soul draining damage over time effect, causing them to take 12 damage every second for a duration of 12 seconds.">
+                     TooltipDescription="{=soul_stealer_description_str}Ворагі ў вобласьці дзеяньня зазнаюць шкоду выцягваньня душы. Яны атрымліваюць 12 шкоды кожную сякунду цягам 12 сякундаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
