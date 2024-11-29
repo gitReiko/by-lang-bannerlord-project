@@ -2,7 +2,7 @@
 <AbilityTemplates>
     <!-- Minor magic -->
     <AbilityTemplate StringID="Dart"
-                     Name="{=dart_label_str}Magic Bolt"
+                     Name="{=dart_label_str}Магічны Болт"
                      SpriteName="dart_icon"
                      CoolDown="10"
                      WindsOfMagicCost="4"
@@ -33,7 +33,7 @@
                      MaxDistance="100"
                      CrosshairType="SingleTarget"
                      AbilityTargetType="EnemiesInAOE"
-                     TooltipDescription="Hurl a magical bolt at the enemy. The missile homes in on the target and does 40 damage in a 3 meter radius on contact.">
+                     TooltipDescription="Кідае ў ворага магічны болт. Снарад трапляе ў цэль і пры кантакце наносіць 40 шкоды ў радыусе 3 метраў.">
         <LightColorRGB x="0"
                        y="204"
                        z="255"
@@ -49,7 +49,7 @@
                           DisableDistance="10" />
     </AbilityTemplate>
     <AbilityTemplate StringID="WardOfArrows"
-                     Name="{=ward_of_arrows_label_str}Ward of Arrows"
+                     Name="{=ward_of_arrows_label_str}Ахова ад Стрэлаў"
                      SpriteName="ward_of_arrows_icon"
                      CoolDown="10"
                      WindsOfMagicCost="3"
@@ -80,7 +80,7 @@
                      TargetCapturingRadius="1"
                      SpellTier="1"
                      BelongsToLoreID="MinorMagic"
-                     TooltipDescription="{=ward_of_arrows_description_str}Adds 40% physical resistance against ranged damage for 15 seconds to the caster.">
+                     TooltipDescription="{=ward_of_arrows_description_str}Дадае заклінальніку 40% фізычнага супраціву ад шкоды далёкага бою на 15 сякунд.">
         <LightColorRGB x="255"
                        y="255"
                        z="255"
@@ -94,7 +94,7 @@
         <TriggeredEffect>ward_of_arrows</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="MinorHeal"
-                     Name="{=minor_heal_label_str}Petty Heal"
+                     Name="{=minor_heal_label_str}Малое Лячэньне"
                      SpriteName="petty_healing_icon"
                      CoolDown="75"
                      WindsOfMagicCost="10"
@@ -125,7 +125,7 @@
                      TargetCapturingRadius="1"
                      SpellTier="1"
                      BelongsToLoreID="MinorMagic"
-                     TooltipDescription="{=minor_heal_description_str}Heals the caster for 3 health every second for 7 seconds.">
+                     TooltipDescription="{=minor_heal_description_str}Лечыць заклінальніку 3 здароўя кожныя 7 сякундаў.">
         <LightColorRGB x="255"
                        y="255"
                        z="255"
@@ -139,7 +139,7 @@
         <TriggeredEffect>apply_minor_healing_statuseffect</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="FoetidCloud"
-                     Name="{=foetid_cloud_label_str}Foetid Cloud"
+                     Name="{=foetid_cloud_label_str}Смуроднае Воблака"
                      SpriteName="foetid_cloud_icon"
                      CoolDown="10"
                      WindsOfMagicCost="4"
@@ -172,7 +172,7 @@
                      TargetCapturingRadius="2"
                      SpellTier="1"
                      BelongsToLoreID="MinorMagic"
-                     TooltipDescription="{=foetid_cloud_description_str}A sickly short ranged poisonous gas cloud.">
+                     TooltipDescription="{=foetid_cloud_description_str}Хваробнае атрутнае газавае воблака маленькага радыуса дзеяньня.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -185,7 +185,7 @@
         <TriggeredEffect>foetid_cloud_burst</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="EnchantWeapon"
-                     Name="{=enchant_weapon_label_str}Enchant Weapon"
+                     Name="{=enchant_weapon_label_str}Зачараваньне Зброі"
                      SpriteName="enchant_weapon_icon"
                      CoolDown="10"
                      WindsOfMagicCost="6"
@@ -217,7 +217,7 @@
                      CrosshairType="SingleTarget"
                      SpellTier="1"
                      BelongsToLoreID="MinorMagic"
-                     TooltipDescription="{=enchant_weapon_description_str}Buff a target ally's weapon to do additional magic damage.">
+                     TooltipDescription="{=enchant_weapon_description_str}Бафае мэтавую хаўрусную зброю. Яна наносіць дадатковую магічную шкоду.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -230,7 +230,7 @@
         <TriggeredEffect>enchant_weapon</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="AuraOfResistance"
-                     Name="{=aura_of_resistance_label_str}Aura of Resistance"
+                     Name="{=aura_of_resistance_label_str}Аура Ўстойлівасьці"
                      SpriteName="resistanceaura_icon"
                      CoolDown="10"
                      WindsOfMagicCost="6"
@@ -262,7 +262,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="1"
                      BelongsToLoreID="MinorMagic"
-                     TooltipDescription="{=aura_of_resistance_description_str}Allies in a 3 meter radius gain 20% physical resistance for 15 seconds.">
+                     TooltipDescription="{=aura_of_resistance_description_str}Хаўрусьнікі ў радыусе 3 метраў атрымліваюць 20% фізічны супраціў на 15 сякундаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -275,7 +275,7 @@
         <TriggeredEffect>physical_resistance_20</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="StrengthOfCombat"
-                     Name="{=strength_of_combat_label_str}Strength Of Combat"
+                     Name="{=strength_of_combat_label_str}Баявая Моц"
                      SpriteName="healingprayer_icon"
                      CoolDown="10"
                      WindsOfMagicCost="3"
@@ -306,7 +306,7 @@
                      TargetCapturingRadius="1"
                      SpellTier="1"
                      BelongsToLoreID="MinorMagic"
-                     TooltipDescription="{=strength_of_combat_description_str}Adds 20% physical damage bonus for 15 seconds to the caster.">
+                     TooltipDescription="{=strength_of_combat_description_str}Дае 20% бонуснай фізычнай шкоды заклінальніку на 15 сякундаў.">
         <LightColorRGB x="255"
                        y="255"
                        z="255"
@@ -320,7 +320,7 @@
         <TriggeredEffect>physical_bonus_20</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="DustStorm"
-                     Name="{=dust_storm_label_str}Dust Storm"
+                     Name="{=dust_storm_label_str}Пылавы Шторм"
                      SpriteName="dust_storm_icon"
                      CoolDown="10"
                      WindsOfMagicCost="6"
@@ -356,7 +356,7 @@
                      VisualsRotationVelocity="0"
                      SpellTier="1"
                      BelongsToLoreID="MinorMagic"
-                     TooltipDescription="{=dust_storm_description_str}Dry winds from the desert knock down victims and apply minor damage.">
+                     TooltipDescription="{=dust_storm_description_str}Сухі пустэльны вецер зьбівае ахвяраў з ногаў і наносіць маленькую шкоду.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -370,7 +370,7 @@
     </AbilityTemplate>
     <!-- Lore of Fire -->
     <AbilityTemplate StringID="Fireball"
-                     Name="{=fireball_label_str}Fireball"
+                     Name="{=fireball_label_str}Вогнены Шар"
                      SpriteName="fireball_icon"
                      CoolDown="25"
                      WindsOfMagicCost="15"
@@ -400,7 +400,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=fireball_description_str}There is nothing quite as welcoming as a fireball to the face. Deals 70 damage in a 6 meter radius and burns the foes for 5 seconds.">
+                     TooltipDescription="{=fireball_description_str}Нішто ня цешыць так, як вогнены шар у твар. Наносіць 70 шкоды ў радыусе 6 метраў і падпальвае ворагаў на 5 сякундаў.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -413,7 +413,7 @@
         <TriggeredEffect>fireball_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="CinderBlast"
-                     Name="{=cinder_blast_label_str}Cinder Blast"
+                     Name="{=cinder_blast_label_str}Лававы Выбух"
                      SpriteName="cinderblast_icon"
                      CoolDown="12"
                      WindsOfMagicCost="7"
@@ -443,7 +443,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=cinder_blast_description_str}Hurl fragments of solidified lava at the enemy dealing medium damage on contact.">
+                     TooltipDescription="{=cinder_blast_description_str}Кідае ў ворага аскепкі застыглай лавы і наносіць сярэднюю шкоды пры кантакце.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -456,7 +456,7 @@
         <TriggeredEffect>cinderblast_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="BoltOfAqshy"
-                     Name="{=bolt_of_aqshy_label_str}Bolt of Aqshy"
+                     Name="{=bolt_of_aqshy_label_str}Болт Экшы"
                      SpriteName="boltofashqy_icon"
                      CoolDown="12"
                      WindsOfMagicCost="8"
@@ -486,7 +486,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=bolt_of_aqshy_description_str}A fast moving flaming bolt that does medium damage on impact.">
+                     TooltipDescription="{=bolt_of_aqshy_description_str}Хуткі вогнены болт, які наносіць сярэднюю шкоду пасьля ўдару.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -499,7 +499,7 @@
         <TriggeredEffect>boltofaqshy_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Sear"
-                     Name="{=sear_label_str}Sear"
+                     Name="{=sear_label_str}Апяканьне"
                      SpriteName="sear_icon"
                      CoolDown="20"
                      WindsOfMagicCost="10"
@@ -532,7 +532,7 @@
                      TargetCapturingRadius="2"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=sear_description_str}Blast the enemy with a short ranged searing flame attack that does medium damage.">
+                     TooltipDescription="{=sear_description_str}Падрывае ворага атакай апякальнага полымя кароткага радыуса дзеяньня і наносіць сярэднюю шкоду.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -545,7 +545,7 @@
         <TriggeredEffect>sear_burst</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="CascadingFireCloak"
-                     Name="{=cascading_fire_cloak_label_str}Cascading Fire-Cloak"
+                     Name="{=cascading_fire_cloak_label_str}Каскадны Вогнены Плашч"
                      SpriteName="cascadingfirecloak_icon"
                      CoolDown="75"
                      WindsOfMagicCost="16"
@@ -578,7 +578,7 @@
                      TargetCapturingRadius="1"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=cascading_fire_cloak_description_str}The caster wraps himself in a cloak of magical flame that shields him from physical (20%) and fire (70%) damage for 30 seconds. The cloak also reflects a portion of damage taken in melee.">
+                     TooltipDescription="{=cascading_fire_cloak_description_str}Заклінальнік ахутвае сабе плашчом магічнага полымя, які абараняе яго ад фізычнай (20%) і вогненай (70%) шкоды цягам 30 сякундаў. Плашч таксама адлюстроўвае частку шкоды, што атрымліваецца ў блізкім баі.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -591,7 +591,7 @@
         <TriggeredEffect>apply_fire_cloak_augment</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="FlamingSwords"
-                     Name="{=flaming_swords_label_str}Flaming Sword of Rhuin"
+                     Name="{=flaming_swords_label_str}Палымяны Меч Руіна"
                      SpriteName="swordsofrhuin_icon"
                      CoolDown="90"
                      WindsOfMagicCost="18"
@@ -623,7 +623,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=flaming_swords_description_str}Buff the weapons of allies in a 15 meter radius with the Flaming trait for 45 seconds. The weapons burst into fire and burn every enemy they strike.">
+                     TooltipDescription="{=flaming_swords_description_str}Бафае зброю хаўрусьнікаў у радыусе 15 метраў асаблівасьцю Гарэньне на 45 сякундаў. Зброя гарыць полымям і абпальвае ўсіх ворагаў, у якіх трапляе.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -636,7 +636,7 @@
         <TriggeredEffect>apply_flaming_sword_trait</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="BurningHead"
-                     Name="{=burning_head_label_str}The Burning Head"
+                     Name="{=burning_head_label_str}Палымяная Галава"
                      SpriteName="burninghead_icon"
                      CoolDown="70"
                      WindsOfMagicCost="45"
@@ -669,7 +669,7 @@
                      TargetCapturingRadius="3"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=burning_head_description_str}Conjure a large burning skull that moves forward burning everything in its path.">
+                     TooltipDescription="{=burning_head_description_str}Стварае вялікі пылаючы чэрап, які рушыць наперад, спальваячы ўсё на сваім пуці.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -682,7 +682,7 @@
         <TriggeredEffect>burning_head_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="FlameStorm"
-                     Name="{=flame_storm_label_str}Fire Tornado"
+                     Name="{=flame_storm_label_str}Вогненае Тарнада"
                      SpriteName="flamingstorm_icon"
                      CoolDown="70"
                      WindsOfMagicCost="35"
@@ -718,7 +718,7 @@
                      VisualsRotationVelocity="20"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfFire"
-                     TooltipDescription="{=flame_storm_description_str}A randomly moving pillar of searing flame is summoned on the battlefield. Flesh and skin melt, while bones turn to ash.">
+                     TooltipDescription="{=flame_storm_description_str}Выклікае на поле бою выпадкова рушачы слуп апякальнага полымя. Цела і скура плавяцца, а косткі ператвараюцца ў попел.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
