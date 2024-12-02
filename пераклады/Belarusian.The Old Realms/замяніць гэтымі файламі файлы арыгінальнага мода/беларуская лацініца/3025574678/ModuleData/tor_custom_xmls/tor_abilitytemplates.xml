@@ -2196,7 +2196,7 @@
     </AbilityTemplate>
     <!-- High Magic -->
     <AbilityTemplate StringID="Apotheosis"
-                     Name="{=apotheosis_label_str}Apotheosis"
+                     Name="{=apotheosis_label_str}Apateoza"
                      SpriteName="apoteosis_icon"
                      CoolDown="25"
                      WindsOfMagicCost="8"
@@ -2228,7 +2228,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="2"
                      BelongsToLoreID="HighMagic"
-                     TooltipDescription="{=apotheosis_description_str}The wizard infuses and invigorates his allies with pure magical energies.">
+                     TooltipDescription="{=apotheosis_description_str}Čaraŭnik napaŭniaje i natchniaje svaich chaŭruśnikaŭ čystaj mahičnaj enierhijaj.">
         <LightColorRGB x="255"
                        y="255"
                        z="255"
@@ -2242,7 +2242,7 @@
         <TriggeredEffect>apotheosis_heal</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="FieryConvocation"
-                     Name="{=fiery_convocation_label_str}Fiery Convocation"
+                     Name="{=fiery_convocation_label_str}Pałymiany Sklik"
                      SpriteName="fiery_convocation_icon"
                      CoolDown="70"
                      WindsOfMagicCost="35"
@@ -2274,7 +2274,7 @@
                      CrosshairType="SingleTarget"
                      SpellTier="4"
                      BelongsToLoreID="HighMagic"
-                     TooltipDescription="{=fiery_convocation_description_str}Utter one secret word, and your foes shall burst with fire and flame. Deals large damage as well as damage over time in the area.">
+                     TooltipDescription="{=fiery_convocation_description_str}Vymavicie adno tajemnaje słova, i vašyja vorahi vybuchnuć ahniom i połymiem. Nanosić vialikuju škodu, a taksama škodu pa vobłaści z ciaham času.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2287,7 +2287,7 @@
         <TriggeredEffect>fiery_convocation</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="SoulQuench"
-                     Name="{=soul_quench_label_str}Soul Quench"
+                     Name="{=soul_quench_label_str}Spatoleńnie Dušy"
                      SpriteName="soul_quench_icon"
                      CoolDown="30"
                      WindsOfMagicCost="15"
@@ -2317,7 +2317,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="3"
                      BelongsToLoreID="HighMagic"
-                     TooltipDescription="{=soul_quench_description_str}A brilliant sphere of light emerges from the wizards fingertips. Enemies affected suffer medium damage.">
+                     TooltipDescription="{=soul_quench_description_str}Z končykaŭ palcaŭ čaraŭnika vyryvajecca zihotkaja śfiera śviatła. Zakranutyja vorahi atrymlivajuć siaredniuju škodu.">
         <LightColorRGB x="245"
                        y="247"
                        z="129"
@@ -2330,7 +2330,7 @@
         <TriggeredEffect>soul_quench_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="CourageOfAenarion"
-                     Name="{=courage_of_aenarion_label_str}Courage of Aenarion"
+                     Name="{=courage_of_aenarion_label_str}Advaha Aenaryona"
                      SpriteName="courage_of_aenarion_icon"
                      CoolDown="60"
                      WindsOfMagicCost="18"
@@ -2362,7 +2362,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="2"
                      BelongsToLoreID="HighMagic"
-                     TooltipDescription="{=courage_of_aenarion_description_str}The Elf mage channels all eight Winds of Magic and invokes the name of Aenarion, the first of Phoenix Kings. Allies around the wizard strike with greater frequency.">
+                     TooltipDescription="{=courage_of_aenarion_description_str}Elf-mah nakiroŭvaje ŭsie vosiem Viatroŭ Mahii i zaklikaje imia Aenaryona, pieršaha z Karaloŭ-Fieniksaŭ. Chaŭruśniki vakoł maha nanosiać udary z bolšaj častatoj.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2375,7 +2375,7 @@
         <TriggeredEffect>courage_of_aenarion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="CurseOfArrowAttraction"
-                     Name="{=curse_of_arrowattraction_label_str}Curse of Arrow Attraction"
+                     Name="{=curse_of_arrowattraction_label_str}Praklon Pryciahnieńnia Strełaŭ"
                      SpriteName="curse_of_arrowattraction_icon"
                      CoolDown="30"
                      WindsOfMagicCost="13"
@@ -2407,7 +2407,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="HighMagic"
-                     TooltipDescription="{=curse_of_arrowattraction_description_str}The Mage places a curse in the area - the air around enemies distorts and guides allied projectiles with astounding accuracy.">
+                     TooltipDescription="{=curse_of_arrowattraction_description_str}Mah nakładvaje praklon na vobłaść - pavietra vakoł vorahaŭ skažajecca i nakiroŭvaje chaŭrusnyja snarady z nadzvyčajnaj trapnaściu.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2420,7 +2420,7 @@
         <TriggeredEffect>curse_of_arrows</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Tempest"
-                     Name="{=tempest_label_str}Tempest"
+                     Name="{=tempest_label_str}Bura"
                      SpriteName="tempest_icon"
                      CoolDown="60"
                      WindsOfMagicCost="35"
@@ -2456,7 +2456,7 @@
                      VisualsRotationVelocity="30"
                      SpellTier="4"
                      BelongsToLoreID="HighMagic"
-                     TooltipDescription="{=tempest_description_str}Conjures a brilliant vortex of shimmering light containing all eight colors of Winds of Magic.">
+                     TooltipDescription="{=tempest_description_str}Stvaraje pyšnuju vichuru mihatlivaha śviatła, jakaja maje ŭsie vosiem koleraŭ Viatroŭ Mahii.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2469,7 +2469,7 @@
         <TriggeredEffect>witheringwave_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="ShieldOfSaphery"
-                     Name="{=shield_of_saphery_label_str}Shield of Saphery"
+                     Name="{=shield_of_saphery_label_str}Ščyt Safiery"
                      SpriteName="shield_of_saphery_icon"
                      CoolDown="30"
                      WindsOfMagicCost="17"
@@ -2501,7 +2501,7 @@
                      TargetCapturingRadius="4"
                      SpellTier="3"
                      BelongsToLoreID="HighMagic"
-                     TooltipDescription="{=shield_of_saphery_description_str}The caster summons an ethereal dome to protect his allies from ranged fire.">
+                     TooltipDescription="{=shield_of_saphery_description_str}Zaklinalnik zaklikaje eterny kupał, kab abaranić svaich chaŭrusnikaŭ ad atak dalokaha boju.">
         <LightColorRGB x="255"
                        y="255"
                        z="255"
