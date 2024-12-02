@@ -3192,7 +3192,7 @@
     </AbilityTemplate>
     <!-- Lore of Metal-->
     <AbilityTemplate StringID="QuicksilverSwords"
-                     Name="{=quicksilver_swords_label_str}Quicksilver Swords"
+                     Name="{=quicksilver_swords_label_str}Rtutnyja Miečy"
                      SpriteName="quicksilversword_icon"
                      CoolDown="70"
                      WindsOfMagicCost="20"
@@ -3224,7 +3224,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfMetal"
-                     TooltipDescription="{=quicksilver_swords_label_str}Infuses weapons of allies with gleaming energies - Even a rusty sword turns deadly with the help of a Metal Wizard. Friendly units deal 20% magic and fire damage for a duration of 60 seconds.">
+                     TooltipDescription="{=quicksilver_swords_label_str}Napaŭniaje zbroju chaŭruśnikaŭ zichatlivaj enierhijaj - navat iržavy mieč robicca śmiarotnym z dapamohaj Mietaličnaha Čaraŭnika. Chaŭrusnyja adzinki nanosiać 20% bonusnaja mahičnaj i ahniavoj škody ciaham 60 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -3237,7 +3237,7 @@
         <TriggeredEffect>apply_quicksilver_sword_trait</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="GleamingArrow"
-                     Name="{=gleaming_arrow_label_str}Gleaming Arrow"
+                     Name="{=gleaming_arrow_label_str}Zichatlivaja Strała"
                      SpriteName="gleamingarrow_icon"
                      CoolDown="10"
                      WindsOfMagicCost="4"
@@ -3268,7 +3268,7 @@
                      MaxDistance="100"
                      CrosshairType="SingleTarget"
                      AbilityTargetType="SingleEnemy"
-                     TooltipDescription="{=gleaming_arrow_description_str}The Gold Wizard fires a projectile of golden energy out of his forehead. The missile homes in on the target and deals 100 physical damage.">
+                     TooltipDescription="{=gleaming_arrow_description_str}Załaty Čaraŭnik vypuskaje sa svajho łba pramień załatoj enierhii. Pramień traplaje ŭ cel i nanosić 100 fizičnaj škody.">
         <LightColorRGB x="255"
                        y="200"
                        z="0"
@@ -3284,7 +3284,7 @@
                           DisableDistance="10" />
     </AbilityTemplate>
     <AbilityTemplate StringID="MeteroicIronclad"
-                     Name="{=meteoric_ironclad_label_str}Meteoric Ironclad"
+                     Name="{=meteoric_ironclad_label_str}Mietearytnaja Žaleznaja Brania"
                      SpriteName="meteriorironclad_icon"
                      CoolDown="60"
                      WindsOfMagicCost="20"
@@ -3316,7 +3316,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfMetal"
-                     TooltipDescription="{=meteoric_ironclad_description_str}Allies are protected by an enchantment of iron and silver. Provides 60% physical resistance for a duration of 45 seconds">
+                     TooltipDescription="{=meteoric_ironclad_description_str}Chaŭruśniki abaronieny zahavoram žaleza i srebra. Zabiaśpiečvaje 60% fizičnaha supracivu ciaham 45 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -3329,7 +3329,7 @@
         <TriggeredEffect>meteoric_ironclad</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="PlagueOfRust"
-                     Name="{=plague_of_rust_label_str}Plague Of Rust"
+                     Name="{=plague_of_rust_label_str}Iržavaja Čuma"
                      SpriteName="plagueofrust_icon"
                      CoolDown="90"
                      WindsOfMagicCost="16"
@@ -3361,7 +3361,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfMetal"
-                     TooltipDescription="{=plague_of_rust_description_str}At a flick of the casters wrist, the armor of foes is consumed by rust. Imposes a 70% physical resistance penalty for a duration of 120 seconds.">
+                     TooltipDescription="{=plague_of_rust_description_str}Paśla ruchu ruki zaklinalnika, varožyja daśpiechi razjadaje irža. Nakładaje 70% štraf da fizičnaha supracivu na 120 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -3417,7 +3417,7 @@
 		<TriggeredEffect>windblast_burst</TriggeredEffect>
 	</AbilityTemplate> -->
     <AbilityTemplate StringID="GehennasGoldenGlobe"
-                     Name="{=gehennas_golden_globe_label_str}Gehennas Golden Globe"
+                     Name="{=gehennas_golden_globe_label_str}Załaty Hłobus Hiechennasa"
                      SpriteName="gehennasgoldenglobe_icon"
                      CoolDown="20"
                      WindsOfMagicCost="12"
@@ -3447,7 +3447,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfMetal"
-                     TooltipDescription="{=gehennas_golden_globe_description_str}A glittering globe of energy engulfs and burns foes alive. Those unfortunate enough to survive are also slowed down for a short duration.">
+                     TooltipDescription="{=gehennas_golden_globe_description_str}Zichatlivy šar enierhii pahłynaje i spalvaje vorahaŭ žyŭcom. Tyja, kamu paščaściła vyžyć, taksama zapavolvajucca na karotki čas.">
         <LightColorRGB x="245"
                        y="247"
                        z="129"
@@ -3460,7 +3460,7 @@
         <TriggeredEffect>golden_globe_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="FinalTransmutation"
-                     Name="{=final_transmutation_label_str}Final Transmutation"
+                     Name="{=final_transmutation_label_str}Kančatkovaja Transmutacyja"
                      SpriteName="finaltransmutation_icon"
                      CoolDown="100"
                      WindsOfMagicCost="45"
@@ -3492,7 +3492,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfMetal"
-                     TooltipDescription="{=final_transmutation_description_str}By weaving the brilliant Wind of Chamon, the wizard attempts to transmute his foes into statues of pure gold. Deals continuous damage and greatly slows down enemies.">
+                     TooltipDescription="{=final_transmutation_description_str}Splatajučy bliskučy Viecier Šamona, čaraŭnik sprabuje pieratvaryć svaich vorahaŭ u statui z čystaha zołata. Nanosić praciahłuju škodu i mocna zapavolvaje vorahaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -3505,7 +3505,7 @@
         <TriggeredEffect>final_transmutation</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="GehennasGoldenHounds"
-                     Name="{=gehennas_golden_hounds_label_str}Gehennas Golden Hounds"
+                     Name="{=gehennas_golden_hounds_label_str}Załatyja Hančaki Hiechennasa"
                      SpriteName="gehennasgoldenhounds_icon"
                      CoolDown="60"
                      WindsOfMagicCost="30"
@@ -3541,7 +3541,7 @@
                      VisualsRotationVelocity="10"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfMetal"
-                     TooltipDescription="{=gehennas_golden_hounds_description_str}The wizard calls forth a pair of massive golden hounds that travel in a circular motion.">
+                     TooltipDescription="{=gehennas_golden_hounds_description_str}Čaraŭnik vyklikaje paru bujnych załatych hančakoŭ, jakija ruchajucca pa kole.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -3555,7 +3555,7 @@
     </AbilityTemplate>
     <!-- Artillery -->
     <AbilityTemplate StringID="MortarSpawner"
-                     Name="{=mortar_spawner_label_str}Place Mortar"
+                     Name="{=mortar_spawner_label_str}Raźmiaścić Marciru"
                      SpriteName="placeartillery_icon"
                      CoolDown="1"
                      WindsOfMagicCost="0"
@@ -3598,7 +3598,7 @@
         <TriggeredEffect>place_mortar</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="GreatCannonSpawner"
-                     Name="{=great_cannon_spawner_label_str}Place Great Cannon"
+                     Name="{=great_cannon_spawner_label_str}Raźmiaścić Vialikuju Harmatu"
                      SpriteName="placeartillery_icon"
                      CoolDown="1"
                      WindsOfMagicCost="0"
@@ -3641,7 +3641,7 @@
         <TriggeredEffect>place_greatcannon</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="FieldTrebuchetSpawner"
-                     Name="{=field_trebuchet_spawner_label_str}Place Field Trebuchet"
+                     Name="{=field_trebuchet_spawner_label_str}Raźmiaścić Palavy Trebušet"
                      SpriteName="placeartillery_icon"
                      CoolDown="1"
                      WindsOfMagicCost="0"
@@ -3685,7 +3685,7 @@
     </AbilityTemplate>
     <!-- Career Abilities -->
     <AbilityTemplate StringID="ShadowStep"
-                     Name="{=shadowstep_label_str}Mist Form"
+                     Name="{=shadowstep_label_str}Imhlistaja Forma"
                      SpriteName="mistform_icon"
                      CoolDown="5"
                      WindsOfMagicCost="0"
@@ -3729,7 +3729,7 @@
         <TriggeredEffect>apply_mistwalk</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="RighteousFury"
-                     Name="{=righteous_fury_label_str}Righteous Fury"
+                     Name="{=righteous_fury_label_str}Praviednaja Lutaść"
                      SpriteName="righteousfury_icon"
                      CoolDown="15"
                      WindsOfMagicCost="0"
@@ -3771,7 +3771,7 @@
         <TriggeredEffect>apply_righteous_fury</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Accusation"
-                     Name="{=accusation_str}Accusation"
+                     Name="{=accusation_str}Abvinavačvańnie"
                      SpriteName="accusation_icon"
                      CoolDown="5"
                      WindsOfMagicCost="0"
@@ -3814,7 +3814,7 @@
         <TriggeredEffect>apply_accusation</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="RedFury"
-                     Name="{=red_fury_label_str}Red Fury"
+                     Name="{=red_fury_label_str}Čyrvonaja Lutaść"
                      SpriteName="redfury_icon"
                      CoolDown="10"
                      WindsOfMagicCost="0"
@@ -3856,7 +3856,7 @@
         <TriggeredEffect>apply_red_fury</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="LetThemHaveIt"
-                     Name="{=red_fury_label_str}Let Them Have It"
+                     Name="{=red_fury_label_str}Dazvolcie Im Mieć Heta"
                      SpriteName="redfury_icon"
                      CoolDown="15"
                      WindsOfMagicCost="0"
@@ -3897,7 +3897,7 @@
         <TriggeredEffect>apply_let_them_have_it</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="AxeOfUlric"
-                     Name="{=red_fury_label_str}Axe of Ulric"
+                     Name="{=red_fury_label_str}Siakiera Ulryka"
                      SpriteName="axe_of_ulric_icon"
                      CoolDown="15"
                      WindsOfMagicCost="0"
@@ -3939,7 +3939,7 @@
         <TriggeredEffect>ulric_smash</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="KnightlyCharge"
-                     Name="{=knightly_charge_label_str}Knightly Charge"
+                     Name="{=knightly_charge_label_str}Rycarski Nacisk"
                      SpriteName="knightlycharge_icon"
                      CoolDown="60"
                      WindsOfMagicCost="0"
@@ -3981,7 +3981,7 @@
         <TriggeredEffect>apply_knightly_charge</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="GreaterHarbinger"
-                     Name="Greater Harbinger"
+                     Name="Vialiki Pradvieśnik"
                      SpriteName="theharbinger_icon"
                      CoolDown="5"
                      BaseMisCastChance="0.3"
@@ -4012,7 +4012,7 @@
                      MaxDistance="60"
                      TargetCapturingRadius="1"
                      SpellTier="2"
-                     TooltipDescription="Summon a champion on the target location.">
+                     TooltipDescription="Zaklikaje čempijona na metavaje miesca.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -4025,7 +4025,7 @@
         <TriggeredEffect>summon_champion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="MindControl"
-                     Name="{=mindcontrol_label_str}Mind Control"
+                     Name="{=mindcontrol_label_str}Kantrol Rozumu"
                      SpriteName="fellfangcontrol_icon"
                      CoolDown="40"
                      WindsOfMagicCost="8"
@@ -4056,7 +4056,7 @@
                      CrosshairType="TargetedAOE"
                      AbilityTargetType="EnemiesInAOE"
                      SpellTier="2"
-                     TooltipDescription="{=shadowblood_description_str}Shadowy orbs of blood fly towards the target staining the ground beneath every step of the way.">
+                     TooltipDescription="{=shadowblood_description_str}Cieniavyja zhustki kryvi laciać da mety, afarboŭvajučy ziamlu pad nahami paśla kožnaha kroku.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -4069,7 +4069,7 @@
         <TriggeredEffect>apply_mindcontrol</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="BlastOfAgony"
-                     Name="Blast of Agony"
+                     Name="Vybuch Ahonii"
                      SpriteName="blastofagony_icon"
                      CoolDown="10"
                      WindsOfMagicCost="0"
@@ -4099,7 +4099,7 @@
                      CrosshairType="Missile"
                      AbilityTargetType="WorldPosition"
                      SpellTier="3"
-                     TooltipDescription="{=fireball_description_str}Launch a devastating blast of agony.">
+                     TooltipDescription="{=fireball_description_str}Zapuskaje razburalny vybuch ahonii.">
         <LightColorRGB x="177"
                        y="0"
                        z="255"
@@ -4112,7 +4112,7 @@
         <TriggeredEffect>apply_blastofagony</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="ArcaneConduit"
-                     Name="{=red_fury_label_str}Arcane Conduit"
+                     Name="{=red_fury_label_str}Arkanny Kanał"
                      SpriteName="arcaneconduit_icon"
                      CoolDown="120"
                      WindsOfMagicCost="0"
@@ -4154,7 +4154,7 @@
         <TriggeredEffect>apply_arcaneconduit</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="ArrowOfKurnous"
-                     Name="Arrow of Kurnous"
+                     Name="Strała Kurnoŭsa"
                      SpriteName="arrowofkurnous_icon"
                      CoolDown="10"
                      WindsOfMagicCost="0"
@@ -4184,7 +4184,7 @@
                      CrosshairType="SingleTarget"
                      AbilityTargetType="EnemiesInAOE"
                      SpellTier="3"
-                     TooltipDescription="{=fireball_description_str}Launch a devastating homing arrow.">
+                     TooltipDescription="{=fireball_description_str}Zapuskaje razburalnuju samanavodnuju strału.">
         <LightColorRGB x="52"
                        y="235"
                        z="88"
@@ -4200,7 +4200,7 @@
                           DisableDistance="2" />
     </AbilityTemplate>
     <AbilityTemplate StringID="WrathOfTheWood"
-                     Name="Wrath of the Wood"
+                     Name="Hnieŭ Lesu"
                      SpriteName="wraith_of_the_forest_icon"
                      CoolDown="5"
                      BaseMisCastChance="0.3"
@@ -4231,7 +4231,7 @@
                      MaxDistance="60"
                      TargetCapturingRadius="1"
                      SpellTier="2"
-                     TooltipDescription="Summon dryads on the target location.">
+                     TooltipDescription="Vyklikaje dryjadaŭ na metavaje miesca.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -4244,7 +4244,7 @@
         <TriggeredEffect>summon_dryads</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="FeyPaths"
-                     Name="Fey Paths"
+                     Name="Šlachi Fej"
                      SpriteName="feypaths_icon"
                      CoolDown="5"
                      BaseMisCastChance="0.3"
@@ -4275,7 +4275,7 @@
                      MaxDistance="60"
                      TargetCapturingRadius="1"
                      SpellTier="2"
-                     TooltipDescription="The Damsel wanders on the fey paths. Instantly teleports the player to the targeted ground position. Charges with dealt or healed damage by magic.">
+                     TooltipDescription="Cnatliŭka błukaje pa šlachach fej. Imhnienna telepartuje hulca ŭ metavaje miesca na ziamli. Zaradžajecca mahijaj, jakaja nanosić ci vylečvaje škodu.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -4288,7 +4288,7 @@
     </AbilityTemplate>
     <!-- Shallya Prayers (NPC ONLY) -->
     <AbilityTemplate StringID="BlessingOfShallya"
-                     Name="{=regrowth_label_str}Regrowth"
+                     Name="{=regrowth_label_str}Adrastańnie"
                      SpriteName="regrowth_icon"
                      CoolDown="60"
                      WindsOfMagicCost="0"
@@ -4320,7 +4320,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="ShallyaPrayers"
-                     TooltipDescription="{=regrowth_description_str}Invoking the name of Duthandor, lord of the ancient wildshrines, the wizard mends wounds and broken bones of his comrades. Allies in a 3 meter radius gain 5 HP per second for 12 seconds.">
+                     TooltipDescription="{=regrowth_description_str}Zaklikajučy imia Dutandora, vaładara staražytnych dzikich śviatyniaŭ, čaraŭnik zahojvaje rany i łomić kostki svaich paplečnikaŭ. Chaŭruśniki ŭ radyusie 3 mietraŭ adnaŭlajuć 5 očkoŭ zdaroŭja kožnuju siakundu. Ciaham 12 siakundaŭ.">
         <LightColorRGB x="255"
                        y="255"
                        z="255"
@@ -4335,7 +4335,7 @@
     </AbilityTemplate>
     <!-- Sigmarite Prayers -->
     <AbilityTemplate StringID="CometOfSigmar"
-                     Name="{=comet_of_sigmar_label_str}Comet of Sigmar"
+                     Name="{=comet_of_sigmar_label_str}Kamieta Zihmara"
                      SpriteName="comet_of_sigmar_icon"
                      CoolDown="30"
                      WindsOfMagicCost="0"
@@ -4365,7 +4365,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="3"
                      BelongsToLoreID="SigmaritePrayers"
-                     TooltipDescription="{=comet_of_sigmar_description_str}You throw a fiery missile that takes the form of Sigmars famed twin-tailed comet. A comet of Sigmar is a holy missile dealing 30 damage. It can knock units down, or throw them off horse. Only affects enemies">
+                     TooltipDescription="{=comet_of_sigmar_description_str}Vy kidajecie vohnieny snarad, jaki maje formu znakamitaj dźviuchchvostaj kamiety Zihmara. Kamieta Zihmara - heta śviaty snarad, jaki nanosić 30 škody. Jana moža źbivać z nohaŭ ci kania. Dziejničaje tolki na vorahaŭ.">
         <LightColorRGB x="245"
                        y="247"
                        z="129"
@@ -4378,7 +4378,7 @@
         <TriggeredEffect>comet_of_sigmar_explosion</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="HealingHand"
-                     Name="{=healing_hand_label_str}Healing Hand"
+                     Name="{=healing_hand_label_str}Zahojvajučaja Ruka"
                      SpriteName="healinghand_icon"
                      DoNotAlignParticleEffectPrefab="true"
                      CoolDown="50"
@@ -4408,7 +4408,7 @@
                      AbilityTargetType="GroundAtPosition"
                      CrosshairType="TargetedAOE"
                      TargetCapturingRadius="5"
-					 TooltipDescription="{=healing_hand_description_str}Allies in a 5 meter radius gain 5 Healthpoints every 2 seconds  for 9 seconds.">
+					 TooltipDescription="{=healing_hand_description_str}Chaŭruśniki ŭ radyusie 5 mietraŭ atrymlivajuć pa 5 ačkoŭ zdaroŭja kožnyja 2 siakundy ciaham 9 siakundaŭ.">
                      BelongsToLoreID="SigmaritePrayers">
         <LightColorRGB x="255"
                        y="255"
@@ -4423,7 +4423,7 @@
         <TriggeredEffect>healing_hand_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="ArmourOfRighteousness"
-                     Name="{=armor_of_righteousness_label_str}Armour of Righteousness"
+                     Name="{=armor_of_righteousness_label_str}Brania Praviednaści"
                      SpriteName="armorofrighteousness_icon"
                      CoolDown="70"
                      WindsOfMagicCost="0"
@@ -4455,7 +4455,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="1"
                      BelongsToLoreID="SigmaritePrayers"
-                     TooltipDescription="{=armor_of_righteousness_description_str}Allies in a 3 meter radius gain 35% physical resistance for 8 seconds.">
+                     TooltipDescription="{=armor_of_righteousness_description_str}Chaŭruśniki ŭ radyusie 3 mietraŭ atrymlivajuć 35% fizyčnaha supracivu na 8 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -4468,7 +4468,7 @@
         <TriggeredEffect>armour_of_the_righteous</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Vanquish"
-                     Name="{=vanquish_label_str}Vanquish"
+                     Name="{=vanquish_label_str}Zavajoŭnik"
                      SpriteName="vanquish_icon"
                      CoolDown="100"
                      WindsOfMagicCost="0"
@@ -4500,7 +4500,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="SigmaritePrayers"
-                     TooltipDescription="{=vanquish_description_str}Buff the weapons of allies in a 5 meter radius with the Flaming trait for 20 seconds. The weapons burst into fire and burn every enemy they strike.">
+                     TooltipDescription="{=vanquish_description_str}Bafaje zbroju chaŭruśnikaŭ u radyusie 5 mietraŭ asablivaściu Hareńnie na 20 siakundaŭ. Zbroja haryć połymiem i spalvaje ŭsich vorahaŭ, u jakich traplaje.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -4513,7 +4513,7 @@
         <TriggeredEffect>apply_holy_sword_trait</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="UlricsGift"
-                     Name="{=armor_of_righteousness_label_str}Ulrics Gift"
+                     Name="{=armor_of_righteousness_label_str}Darunak Ulryka"
                      SpriteName="ulrics_gift_icon"
                      CoolDown="70"
                      WindsOfMagicCost="0"
@@ -4545,7 +4545,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="2"
                      BelongsToLoreID="UlricanPrayers"
-                     TooltipDescription="{=armor_of_righteousness_description_str}The wolf-priest lets out a mighty howl and dedicates the kill to Ulric. Gain +30% movement and attack speed for 25 seconds.">
+                     TooltipDescription="{=armor_of_righteousness_description_str}Voŭčy śviatar mahutna vyje i pryśviačaje zabojstva Ulryku. Atrymlivaje da +30 % chutkaści ruchu i ataki na 25 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -4558,7 +4558,7 @@
         <TriggeredEffect>ulrics_gift</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="HeartOfTheWolf"
-                     Name="{=armor_of_righteousness_label_str}Heart of The Wolf"
+                     Name="{=armor_of_righteousness_label_str}Serca Voŭka"
                      SpriteName="heart_of_wolf_icon"
                      CoolDown="70"
                      WindsOfMagicCost="0"
@@ -4590,7 +4590,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="UlricanPrayers"
-                     TooltipDescription="{=armor_of_righteousness_description_str}The priests allies are driven into a zealous frenzy. Friendly troops in a 10 meter radius gain +35% physical damage as well as Unbreakable and Unstoppable for 20 seconds.">
+                     TooltipDescription="{=armor_of_righteousness_description_str}Chaŭruśniki śviatara prychodziać u zaŭziataje šalenstva. Chaŭruśniki ŭ radyusie 10 mietraŭ atrymlivajuć +35% fizičnaj škody, a taksama robiacca Niazłomnymi i Niastrymnymi na 20 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -4603,7 +4603,7 @@
         <TriggeredEffect>heart_of_the_wolf</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="IceStorm"
-                     Name="{=armor_of_righteousness_label_str}Ice Storm"
+                     Name="{=armor_of_righteousness_label_str}Ildziany Štorm"
                      SpriteName="ice_storm_icon"
                      CoolDown="70"
                      WindsOfMagicCost="0"
@@ -4635,7 +4635,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="UlricanPrayers"
-                     TooltipDescription="{=armor_of_righteousness_description_str}The wolf-priest summons an icy hailstorm within an area. Enemies suffer a -50% movement and attack speed penalty as well as damage over time.">
+                     TooltipDescription="{=armor_of_righteousness_description_str}Vaŭčy śviatar vyklikaje ildziany štarmavy hrad u miežach vobłaści. Vorahi atrymlivajuć štraf da chutkaści ruchu i ataki ŭ pamiery -50%, a taksama škodu z ciaham času.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
