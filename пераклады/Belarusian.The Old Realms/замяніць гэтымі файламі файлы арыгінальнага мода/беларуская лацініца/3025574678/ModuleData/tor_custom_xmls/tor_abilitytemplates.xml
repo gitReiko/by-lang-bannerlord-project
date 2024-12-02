@@ -2516,7 +2516,7 @@
     </AbilityTemplate>
     <!-- Lore of Life-->
     <AbilityTemplate StringID="DwellersBelow"
-                     Name="{=dwellers_below_label_str}Dwelllers Below"
+                     Name="{=dwellers_below_label_str}Žychary Nizu"
                      SpriteName="dwellersbelow_icon"
                      CoolDown="70"
                      WindsOfMagicCost="35"
@@ -2548,7 +2548,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfLife"
-                     TooltipDescription="{=dwellers_below_description_str}Tendrils emerge from the ground reaching out and attacking enemies in the area. Knocks down, dismounts and slows (80%) enemies, while dealing 10 damage per second for 15 seconds.">
+                     TooltipDescription="{=dwellers_below_description_str}Z ziamli vyryvajucca ščupalcy, jakija atakujuć susiednich vorahaŭ. Jany źbivajuć z nohaŭ i skidvajuć z koniej vorahaŭ, zapavolvajuć na 80% i nanosiać 10 škody kožnuju siakundu ciaham 15 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2561,7 +2561,7 @@
         <TriggeredEffect>dwellers_below_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="TheGreenEye"
-                     Name="{=the_green_eye_label_str}The Green Eye"
+                     Name="{=the_green_eye_label_str}The Zialonaje Voka"
                      SpriteName="greeneye_icon"
                      CoolDown="12"
                      WindsOfMagicCost="5"
@@ -2591,7 +2591,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfLife"
-                     TooltipDescription="{=the_green_eye_description_str}Caster merges their eyes, firing a single fast, penetrating projectile in the aimed direction.">
+                     TooltipDescription="{=the_green_eye_description_str}Zaklinalnik jadnaje svaje vočy i vypuskaje adzin chutki pradziralny snarad u nakirunku celi.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2604,7 +2604,7 @@
         <TriggeredEffect>green_eye_end</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Barkskin"
-                     Name="{=barkskin_label_str}Barkskin"
+                     Name="{=barkskin_label_str}Dubovaja Skura"
                      SpriteName="barkskin_icon"
                      CoolDown="100"
                      WindsOfMagicCost="25"
@@ -2636,7 +2636,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfLife"
-                     TooltipDescription="{=barkskin_description_str}Hardens the skin of targets, making them tougher, providing 50% physical resistance for 80 secouds">
+                     TooltipDescription="{=barkskin_description_str}Zaćvierdžvaje skuru metaŭ, robić jaje tryvalejšaj, zabiaśpiečvaje 50% fizičnaha supracivu na 80 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2649,7 +2649,7 @@
         <TriggeredEffect>bark_skin</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="SummerHeat"
-                     Name="{=summer_heat_label_str}Summer Heat"
+                     Name="{=summer_heat_label_str}Letniaja Śpioka"
                      SpriteName="summerheat_icon"
                      CoolDown="40"
                      WindsOfMagicCost="12"
@@ -2681,7 +2681,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfLife"
-                     TooltipDescription="{=summer_heat_description_str}A small area radiates unbearable heat, causing fatigue, impairing movement speed by 50%, and making the enemies slightly vulnerable to fire damage for 15 seconds.">
+                     TooltipDescription="{=summer_heat_description_str}Apramieńvaje maleńkuju vobłaść, vyklikaje stomlenaść, paharšaje ruch na 50%, i robić vorahaŭ uraźlivymi da vohnienaj škody na 15 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2694,7 +2694,7 @@
         <TriggeredEffect>summer_heat</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="Regrowth"
-                     Name="{=regrowth_label_str}Regrowth"
+                     Name="{=regrowth_label_str}Adrastańnie"
                      SpriteName="regrowth_icon"
                      CoolDown="25"
                      WindsOfMagicCost="8"
@@ -2726,7 +2726,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfLife"
-                     TooltipDescription="{=regrowth_description_str}Invoking the name of Duthandor, lord of the ancient wildshrines, the wizard mends wounds and broken bones of his comrades. Allies in a 3 meter radius gain 5 HP per second for 12 seconds.">
+                     TooltipDescription="{=regrowth_description_str}Zaklikajučy imia Dutandora, vaładara staražytnych dzikich śviatyniaŭ, čaraŭnik zahojvaje rany i łomić kostki svaich paplečnikaŭ. Chaŭruśniki ŭ radyusie 3 mietraŭ adnaŭlajuć 5 očkoŭ zdaroŭja kožnuju siakundu. Ciaham 12 siakundaŭ.">
         <LightColorRGB x="255"
                        y="255"
                        z="255"
@@ -2740,7 +2740,7 @@
         <TriggeredEffect>regrowth_heal</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="DrainLife"
-                     Name="{=drain_life_label_str}Drain Life"
+                     Name="{=drain_life_label_str}Vysmoktvańnie Žyćcia"
                      SpriteName="drainlife_icon"
                      CoolDown="35"
                      WindsOfMagicCost="18"
@@ -2772,7 +2772,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfLife"
-                     TooltipDescription="{=drain_life_description_str}Sucks the moisture and fluids from the foe, dealing 5 damage per second for total duration of 10 seconds.">
+                     TooltipDescription="{=drain_life_description_str}Vysmoktvaje esencyju žyćcia z voraha, nanosie jamu 5 škody kožnuju siakundu ciaham 10 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2785,7 +2785,7 @@
         <TriggeredEffect>drain_life</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="StormOfRenewal"
-                     Name="{=storm_of_renewal_label_str}Storm of Renewal"
+                     Name="{=storm_of_renewal_label_str}Štorm Adnaŭleńnia"
                      SpriteName="stormofrenewal_icon"
                      CoolDown="50"
                      WindsOfMagicCost="20"
@@ -2817,7 +2817,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfLife"
-                     TooltipDescription="{=storm_of_renewal_description_str}Raw energy flows across the battlefield, renewing lost vigour and mending wounds. Heals 30 hitpoints flat, and 10 hitpoints of all friendly targets inside the area for 12 seconds.">
+                     TooltipDescription="{=storm_of_renewal_description_str}Syravinnaja enerhija strumienicca pa poli boju, adnaŭlaje stračanuju badzioraść i zahojvaje rany. Vylečvaje 30 ačkoŭ udaru, 10 ačkoŭ udaru ŭsim chaŭrusnym celam unutry vobłaści ciaham 12 siakundaŭ.">
         <LightColorRGB x="50"
                        y="255"
                        z="50"
@@ -2831,7 +2831,7 @@
         <TriggeredEffect>storm_of_renewal</TriggeredEffect>
     </AbilityTemplate>
 	<AbilityTemplate StringID="ShieldOfThorns"
-                     Name="{=barkskin_label_str}Shield of Thorns"
+                     Name="{=barkskin_label_str}Ciarnovy Ščyt"
                      SpriteName="shield_of_thorns_icon"
                      CoolDown="70"
                      WindsOfMagicCost="16"
@@ -2863,7 +2863,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfLife"
-                     TooltipDescription="{=shieldofthorns_description_str}Prickly gorse protects allies in the radius. Reflects 25% of incoming melee damage.">
+                     TooltipDescription="{=shieldofthorns_description_str}Kalučyja chmyźniaki baroniać chaŭruśnikaŭ u radyusie dziejańnia. Adlustroŭvaje 25% škody blizkaha boju.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2877,7 +2877,7 @@
     </AbilityTemplate>
     <!-- Lore of Beasts-->
     <AbilityTemplate StringID="AmberSpear"
-                     Name="{=amber_spear_label_str}Amber Spear"
+                     Name="{=amber_spear_label_str}Burštynavaja Dzida"
                      SpriteName="amberspear_icon"
                      CoolDown="4"
                      WindsOfMagicCost="3"
@@ -2907,7 +2907,7 @@
                      AbilityTargetType="WorldPosition"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfBeasts"
-                     TooltipDescription="{=amber_spear_description_str}The caster throws a javelin like amber spear in the targeted direction that penetrates multiple targets.">
+                     TooltipDescription="{=amber_spear_description_str}Zaklinalnik kidaje ŭ cel drotyk, padobny na burštynavuju dzidu, jaki prabivaje niekalki celaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2920,7 +2920,7 @@
         <TriggeredEffect>amber_spear</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="TanglingThorn"
-                     Name="{=tangling_thorn_label_str}Tangling Thorn"
+                     Name="{=tangling_thorn_label_str}Zabłytanyja Chmyźniaki"
                      SpriteName="tanglingthorn_icon"
                      CoolDown="40"
                      WindsOfMagicCost="12"
@@ -2952,7 +2952,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfBeasts"
-                     TooltipDescription="{=tangling_thorn_description_str}Roots erupt from the ground preventing all enemies from moving for a duration of 10 seconds.">
+                     TooltipDescription="{=tangling_thorn_description_str}Karani vydzirajucca z ziamli, i pazbaŭlajuć usich vorahaŭ mahčymaści ruchacca na 10 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -2965,7 +2965,7 @@
         <TriggeredEffect>tangling_thorn</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="PannsImpenetrablePelt"
-                     Name="{=panns_impenetrable_pelt_label_str}Panns Impenetrable Pelt"
+                     Name="{=panns_impenetrable_pelt_label_str}Nieprabojnaja Skura Panna"
                      SpriteName="pannsimpenetrablepelt_icon"
                      CoolDown="60"
                      WindsOfMagicCost="16"
@@ -2996,7 +2996,7 @@
                      TargetCapturingRadius="1"
                      SpellTier="2"
                      BelongsToLoreID="LoreOfBeasts"
-                     TooltipDescription="{=panns_impenetrable_pelt_description_str}A magical skin surrounds the wizard, protecting him from physical damage (40%) for a duration of 40 seconds.">
+                     TooltipDescription="{=panns_impenetrable_pelt_description_str}Mahičnaja skura achutvaje čaraŭnika i abaraniaje jaho ad fizyčnaj škody (40%) na 40 siakundaŭ.">
         <LightColorRGB x="255"
                        y="255"
                        z="255"
@@ -3010,7 +3010,7 @@
         <TriggeredEffect>pans_pelt</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="HailStorm"
-                     Name="{=hail_storm_label_str}Hail Storm"
+                     Name="{=hail_storm_label_str}Štarmavy Hrad"
                      SpriteName="hailstorm_icon"
                      CoolDown="45"
                      WindsOfMagicCost="18"
@@ -3043,7 +3043,7 @@
                      TargetCapturingRadius="3"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfBeasts"
-                     TooltipDescription="{=hail_storm_description_str}A storm of stones falls down on the foe, dealing physical damage in a radius.">
+                     TooltipDescription="{=hail_storm_description_str}Kamienny štorm zrynajecca na vašych vorahaŭ i nanosić im fizičnuju škodu.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -3056,7 +3056,7 @@
         <TriggeredEffect>phys_tick</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="FlockOfDoom"
-                     Name="{=flock_of_doom_label_str}Flock Of Doom"
+                     Name="{=flock_of_doom_label_str}Statak Zhuby"
                      SpriteName="flockofdoom_icon"
                      CoolDown="35"
                      WindsOfMagicCost="26"
@@ -3088,7 +3088,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="3"
                      BelongsToLoreID="LoreOfBeasts"
-                     TooltipDescription="{=flock_of_doom_description_str}Summons a nightmare of crows in the targeted area. Affected enemies suffer light damage over time and their physical resistance is reduced by 20% for 10 seconds.">
+                     TooltipDescription="{=flock_of_doom_description_str}Zaklikaje kašmar krumkačoŭ u metavaj vobłaści. Vorahi, što patrapili ŭ hetuju vobłaść, atrymlivajuć škodu ciaham 10 siakundaŭ, a ich fizyčny supraciŭ źnižajecca na 20%.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -3101,7 +3101,7 @@
         <TriggeredEffect>flock_of_doom</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="TheBeastUnleashed"
-                     Name="{=the_beast_unleashed_label_str}The Beast Unleashed"
+                     Name="{=the_beast_unleashed_label_str}Vyzvaleny Źvier"
                      SpriteName="beastunleashed_icon"
                      CoolDown="60"
                      WindsOfMagicCost="20"
@@ -3133,7 +3133,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfBeasts"
-                     TooltipDescription="{=the_beast_unleashed_description_str}Unleashes the primal savagery of the casters allies, driving them into a frenzy. Grants a 25% physical damage and attack speed bonus for a duration of 60 seconds.">
+                     TooltipDescription="{=the_beast_unleashed_description_str}Zaklinalnik vyklikaje pieršabytnuju dzikaść chaŭruśnikaŭ i davodzić ich da šalenstva. Daje 25% bonusnaj fizičnaj škody i chutkaści ataki na 60 siakundaŭ.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
@@ -3146,7 +3146,7 @@
         <TriggeredEffect>beast_unleashed</TriggeredEffect>
     </AbilityTemplate>
     <AbilityTemplate StringID="CurseOfAnraheir"
-                     Name="{=curse_of_anraheir_label_str}Curse Of Anraheir"
+                     Name="{=curse_of_anraheir_label_str}Praklon Anrachajra"
                      SpriteName="curseofanraheir_icon"
                      CoolDown="90"
                      WindsOfMagicCost="32"
@@ -3178,7 +3178,7 @@
                      CrosshairType="TargetedAOE"
                      SpellTier="4"
                      BelongsToLoreID="LoreOfBeasts"
-                     TooltipDescription="{=curse_of_anraheir_description_str}Woodland sprites hinder all enemies caught in the area for 15 seconds, reducing movement (35%) and attack speed (50%) as well as causing 3 damage per second.">
+                     TooltipDescription="{=curse_of_anraheir_description_str}Lasnyja sprajty pieraškadžajuć usim voraham, što trapili ŭ vobłaść dziejańnia, ciaham 15 siakundaŭ, źnižajuć chutkaść ruchu (35%) i chutkaść ataki (50%) dy nanosiać 3 škody kožnuju siakundu.">
         <LightColorRGB x="255"
                        y="170"
                        z="0"
