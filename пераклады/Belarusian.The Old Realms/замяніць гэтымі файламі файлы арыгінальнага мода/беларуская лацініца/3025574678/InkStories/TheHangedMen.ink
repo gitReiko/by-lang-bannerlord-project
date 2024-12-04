@@ -1,5 +1,5 @@
 //Global story tags
-# title: Šybielniki
+# title: The Hanged Men
 # frequency: Common
 # development: false
 # illustration: hangedman
@@ -62,14 +62,15 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    Vy natykajeciesia na dreva, na jakim visiać try čałavieki z miačom, uvatknutym u ziamlu pad imi. Padydučy bližej, vy bačycie, što na drevie vydrapana słova "Zdradniki", a mieč vykarystoŭvajecca dla paznačeńnia mahiły. #STR_Start1 ->choice1
+    Vy natykajeciesia na dreva, na jakim visiać try čałavieki z miačom, uvatknutym u ziamlu pad imi. Padydučy bližej, vy bačycie, što na drevie vydrapana słova "Zdradniki", a mieč vykarystoŭvajecca dla paznačeńnia mahiły. #STR_Start1
+    ->choice1
 
     //What to do with the hanging bodies
     =choice1
         Što vaša partyja budzie rabić z paviešanymi ciełami? #STR_Start2
         
             *[Ničoha]
-                Vy vyrašajecie ničoha nie rabić z paviešanymi ciełami. #STR_DoNothing
+                Vy vyrašajecie ničoha nie rabić z paviešanymi ciełami.  #STR_DoNothing
                 ->Grave
         
             *[Pachavać paviešanyja cieły (Litaść+)]
@@ -93,12 +94,10 @@ INCLUDE include.ink
                         ~ ChangePartyTroopCount("tor_vc_skeleton",3)
                         ~ SkeletonSuccess = true
                 }
-                {SkeletonSuccess: Vašaja partyja paśpiachova ažyŭlaje cieły ŭ jakaści kaściakoŭ. ->Grave | Vašaja partyja niaŭdała sprabuje ažyvić cieły ŭ jakaści kaściakoŭ.->choice1} #STR_Loot
-
+                {SkeletonSuccess: Vašaja partyja paśpiachova ažyŭlaje cieły ŭ jakaści kaściakoŭ. ->Grave | Vašaja partyja niaŭdała sprabuje ažyvić cieły ŭ jakaści kaściakoŭ. ->choice1} #STR_Loot
 
 ===Grave===
     //Needed for intermission text 
-    =Grave
         Vyrašyŭšy, što rabić z paviešanymi ciełami, vy zaŭvažajecie mahiłu, paznačanuju miačom. #STR_Grave
         ->choice2
         
@@ -162,12 +161,12 @@ INCLUDE include.ink
                             ~ HaveSword = false
                         -false:
                     }
-               
-                {CryptGuardSuccess: Vašaja partyja paśpiachova ažyŭlaje cieła ŭ jakaści pryvida. {TookSword: Pryvid uzdymajecca i praciahvaje ruku, niby prosiačy viarnuć jamu mieč. Vy viartajecie jamu zbroju.} Jon dałučajecca da astatnich vašych siłaŭ. ->Leave | Vašaja partyja niaŭdała sprabuje ažyvić cieła ŭ jakaści pryvida.->choice2} #STR_DigResurrect
+
+                {CryptGuardSuccess: Vašaja partyja paśpiachova ažyŭlaje cieła ŭ jakaści pryvida. Pryvid uzdymajecca {TookSword: i praciahvaje ruku, niby prosiačy viarnuć jamu mieč. Vy viartajecie jamu zbroju.} Potym jon dałučajecca da astatnich vajaroŭ. ->Leave | partyja niaŭdała sprabuje ažyvić cieła ŭ jakaści pryvida. ->choice2} #STR_DigResurrect
             ->Leave
 
 ===Leave===
-    Pryniaŭšy raźviazak, vy rušycie dalej. #STR_Leave1
+    Paśla pryniaćcia raźviazka vy rušycie dalej. #STR_Leave1
     {HaveSword: 
         ~GiveItem("vlandia_sword_1_t2",1)
     }

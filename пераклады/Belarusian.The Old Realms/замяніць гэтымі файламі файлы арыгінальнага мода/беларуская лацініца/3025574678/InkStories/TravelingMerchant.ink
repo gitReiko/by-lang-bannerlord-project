@@ -1,5 +1,5 @@
 //Global story tags
-# title: Vandroŭny Handlar
+# title: Traveling Merchant
 # frequency: Abundant
 # development: false
 # illustration: trader
@@ -18,7 +18,8 @@ Kali vy nabližajeciesia, da vas padychodzić vandroŭny handlar. Vietła ŭśmi
         ~ OpenInventoryAsTrade()
     ->AfterShopping
     *[Praciahnuć svajo padarožža (Pakinuć)] 
-    Vy vyrašyli, što pakul lepiej ruchacca dalej.->END #STR_Leave
+        Vy vyrašyli, što pakul lepiej ruchacca dalej. #STR_Leave
+        ->END
 
 ===AfterShopping===
 Vy zaviaršajecie znajomstva sa skarbami handlara, i jon, pavažna schiliŭšy hałavu, pakazvaje vam svaju ŭdziačnaść za zacikaŭlenaść i zrobleny vybar. #STR_AfterShopping

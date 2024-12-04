@@ -1,5 +1,5 @@
 //Global story tags
-# title: Вандроўны Гандляр
+# title: Traveling Merchant
 # frequency: Abundant
 # development: false
 # illustration: trader
@@ -18,7 +18,8 @@ INCLUDE include.ink
         ~ OpenInventoryAsTrade()
     ->AfterShopping
     *[Працягнуць сваё падарожжа (Пакінуць)] 
-    Вы вырашылі, што пакуль лепей рухацца далей.->END #STR_Leave
+        Вы вырашылі, што пакуль лепей рухацца далей. #STR_Leave
+        ->END
 
 ===AfterShopping===
 Вы завяршаеце знаёмства са скарбамі гандляра, і ён, паважна схіліўшы галаву, паказвае вам сваю ўдзячнасьць за зацікаўленасьць і зроблены выбар. #STR_AfterShopping
