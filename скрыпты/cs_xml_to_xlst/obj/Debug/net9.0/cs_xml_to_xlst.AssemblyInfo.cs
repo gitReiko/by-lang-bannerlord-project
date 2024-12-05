@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cs_xml_to_xlst")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+920f91c412bc69640956c1e05b85bc6f58f1c87e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b95da5dd370f1d8e932b6e82bdcafb02626480b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("cs_xml_to_xlst")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cs_xml_to_xlst")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
