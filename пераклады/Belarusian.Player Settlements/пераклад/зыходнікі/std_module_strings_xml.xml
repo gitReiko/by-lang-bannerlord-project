@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
-    <tags>
-        <tag language="English" />
-    </tags>
+
+
+
     <strings>
-        <string id="player_settlement_n_01" text="Player Settlement" />
-        <string id="player_settlement_n_02" text=" (auto)" />
-        <string id="player_settlement_n_03" text="Create a new save when building. By default, the current active save will be overwritten instead.  [ Default: OFF ]" />
-        <string id="player_settlement_n_04" text="Create new save on build" />
-        <string id="player_settlement_n_05" text="Always hides the build panel until requirements are met for at least one build option. \nWhen using dialogue options, only available options will show, otherwise the unavailable ones will have hints describing why they are not available.  [ Default: OFF ]" />
-        <string id="player_settlement_n_06" text="Always Hide Until Ready" />
-        <string id="player_settlement_n_07" text="Always hides the build panel. Building can only be started by discussing with a companion (if enabled).  [ Default: OFF ]" />
-        <string id="player_settlement_n_08" text="Immersive Mode" />
-        <string id="player_settlement_n_09" text="Removes the build conversation options. Building can only be started using the build panel (if enabled).  [ Default: OFF ]" />
-        <string id="player_settlement_n_10" text="No Conversation Options" />
-        <string id="player_settlement_n_11" text="Allows choosing the position and rotation to place the settlement. When disabled will use the player party current position.  [ Default: ON ]" />
-        <string id="player_settlement_n_12" text="Enable Settlement Placement" />
-        <string id="player_settlement_n_13" text="Speed at which mouse movement rotates settlement. \nSettlement rotation applies when 'Alt' is held.  [ Default: 50% ]" />
-        <string id="player_settlement_n_14" text="Mouse Rotation Speed" />
-        <string id="player_settlement_n_15" text="Speed at which rotation keys affect settlement when rotating. \nDefault game rotation keys are 'Q' and 'E', unless remapped. \nSettlement rotation applies when 'Alt' is held. [ Default: 100% ]" />
-        <string id="player_settlement_n_16" text="Key Rotation Speed" />
-        <string id="player_settlement_n_17" text="Will limit settlement options to selected culture only. \nOtherwise will allow settlement options for all cultures. \nCycle visually between options by holding 'Shift' and using cycle keys. \nDefault cycle keys are 'Q' and 'E', unless remapped.  [ Default: ON ]" />
-        <string id="player_settlement_n_18" text="Selected Culture Only" />
-        <string id="player_settlement_n_19" text="Speed at which settlements will visually cycle during placement while holding 'Shift' and a cycle key, or speed at which settlements will scale while holding 'Ctrl' and a scale key. \nCycle visually between options by holding 'Shift' and using cycle keys. \nScale by holding 'Ctrl' and using scale keys. \nDefault cycle and scale keys are 'Q' and 'E', unless remapped.  [ Default: 50% ]" />
-        <string id="player_settlement_n_20" text="Settlement Cycle Speed" />
-        <string id="player_settlement_n_21" text="Enables Player Settlement mod and adds the option map screen.  [ Default: ON ]" />
-        <string id="player_settlement_n_22" text="Requires clan to be specified tier before being allowed to create a settlement.  [ Default: ON ]" />
-        <string id="player_settlement_n_23" text="Require Clan Tier" />
-        <string id="player_settlement_n_24" text="Specified tier required before being allowed to create a settlement.  [ Default: 4 ]" />
-        <string id="player_settlement_n_25" text="Required Clan Tier" />
-        <string id="player_settlement_n_26" text="Requires a specified cost in local currency to build new town.  [ Default: ON ]" />
-        <string id="player_settlement_n_27" text="Require Town Cost" />
-        <string id="player_settlement_n_28" text="Specified cost in local currency to build new town.  [ Default: 10 000 ]" />
-        <string id="player_settlement_n_29" text="Required Town Cost" />
-        <string id="player_settlement_n_30" text="Skip required build duration and instantly completes town construction.  [ Default: OFF ]" />
-        <string id="player_settlement_n_31" text="Instant Build" />
-        <string id="player_settlement_n_32" text="Specified days before town is done being built.  [ Default: 7 ]" />
-        <string id="player_settlement_n_34" text="Will use the player culture for the town. By default when this is OFF, the town culture can be chosen.  [ Default: OFF ]" />
-        <string id="player_settlement_n_35" text="Use Player Culture" />
-        <string id="player_settlement_n_36" text="Requires a specified cost in local currency to build new village.  [ Default: ON ]" />
-        <string id="player_settlement_n_37" text="Require Village Cost" />
-        <string id="player_settlement_n_38" text="Specified cost in local currency to build new village.  [ Default: 3 000 ]" />
-        <string id="player_settlement_n_39" text="Required Village Cost" />
-        <string id="player_settlement_n_40" text="Will automatically determine the type of village, which determines its primary product. By default when this is OFF, the type can be chosen.  [ Default: OFF ]" />
-        <string id="player_settlement_n_41" text="Auto Allocate Village Type" />
-        <string id="player_settlement_n_42" text="Will automatically determine the bound town/castle for the village. By default when this is OFF, the bound settlement can be chosen.  [ Default: OFF ]" />
-        <string id="player_settlement_n_43" text="Auto Determine Village Bound Settlement" />
-        <string id="player_settlement_n_44" text="Requires a specified cost in local currency to build new castle.  [ Default: ON ]" />
-        <string id="player_settlement_n_45" text="Require Castle Cost" />
-        <string id="player_settlement_n_46" text="Specified cost in local currency to build new castle.  [ Default: 7 500 ]" />
-        <string id="player_settlement_n_47" text="Required Castle Cost" />
-        <string id="player_settlement_n_48" text="Maximum number of player built towns allowed. At least one town is required.  [ Default: 10 ]" />
-        <string id="player_settlement_n_49" text="Maximum Allowed Towns" />
-        <string id="player_settlement_n_50" text="Maximum number of player built villages per town allowed.  [ Default: 5 ]" />
-        <string id="player_settlement_n_51" text="Maximum Allowed Villages Per Town" />
-        <string id="player_settlement_n_52" text="Maximum number of player built castles allowed. At least one town is required first.  [ Default: 15 ]" />
-        <string id="player_settlement_n_53" text="Maximum Allowed Castles" />
-        <string id="player_settlement_n_54" text="Maximum number of player built villages per castle allowed.  [ Default: 4 ]" />
-        <string id="player_settlement_n_55" text="Maximum Allowed Villages Per Castle" />
+        <string id="player_settlement_n_01" text="Sielišča Hulca" />
+        <string id="player_settlement_n_02" text=" (aŭta)" />
+        <string id="player_settlement_n_03" text="Stvaryć novaje zachavańnie paśla budaŭnictva. Pa standartu, budzie ažyciaŭlacca pierazapis ciapierašniaha aktyŭnaha zachavańnia zamiž stvareńnia novaha.  [ Standart: Vyklučana ]" />
+        <string id="player_settlement_n_04" text="Stvarać novaje zachavańnie paśla budaŭnictva" />
+        <string id="player_settlement_n_05" text="Zaŭždy chavaje panel budaŭnictva, da momantu vykanańnia patrabavańniaŭ dziela choć-jakoha budaŭnictva. {newline}Padčas vykarystańnia interfiejsu tolki dastupnyja opcyja buduć pakazany, u advarotnym vypadku niedastupnaje budzie mieć padkazki, jakija tłumačać nahody niedastupnaści.  [ Standart: Vyklučana ]" />
+        <string id="player_settlement_n_06" text="Zaŭždy Chavać da Dastupnaści" />
+        <string id="player_settlement_n_07" text="Zaŭždy chavaje panel budaŭnictva. Budoŭlu lha pačać tolki padčas razmovy z kampańjonam (kali ŭklučana).  [ Standart: Vyklučana ]" />
+        <string id="player_settlement_n_08" text="Režym Uciahvańnia" />
+        <string id="player_settlement_n_09" text="Prybiraje opcyju budaŭnictva praz razmovu. Budoŭlu lha pačać tolki praz panel budaŭnictva (kali ŭklučana).  [ Standart: Vyklučana ]" />
+        <string id="player_settlement_n_10" text="Adklučyć Budoŭlu praz Razmovu" />
+        <string id="player_settlement_n_11" text="Dazvalaje abrać pazicyju i pavarot dla miescavańnia sielišča. Kali adklučana, budzie ŭžyvacca ciapierašniaja pazicyja partyi hulca.  [ Standart: Uklučana ]" />
+        <string id="player_settlement_n_12" text="Uklučyć Miescavańnie Sielišča" />
+        <string id="player_settlement_n_13" text="Vieličynia ruchu myšy, jakaja pavaročvaje sielišča. {newline}Pavarot sielišča ŭžyvajecca, kali ŭtrymoŭvajecca Alt.  [ Standart: 50% ]" />
+        <string id="player_settlement_n_14" text="Chutkaść Pavarotu praz Myš" />
+        <string id="player_settlement_n_15" text="Vieličynia pavarotu z dapamohaj kłavišaŭ, jakaja pavaročvaje sielišča. {newline}Pa standartu pavaročvańnie hulni ažyciaŭlajecca praz kłavišy Q i E (jany mohuć być pieravyznačany). {newline}Pavaročvańnie sieliščaŭ ažyciaŭlajecca praz utrymańnie kłavišy Alt.  [ Standart: 100% ]" />
+        <string id="player_settlement_n_16" text="Chutkaść Pavarotu praz Kłavišy" />
+        <string id="player_settlement_n_17" text="Abmiežavańnie vizualnych varyjantaŭ sielišča tolki abranaj kulturaj. {newline}U advarotnym vypadku buduć dastupnyja opcyi sielišča dla ŭsich kulturaŭ. {newline}Źmianieńnie vizuału sielišča lha ažyciaŭlać praz utrymańnie kłavišu Shift i vykarystańnie kłavišaŭ pavarotu. {newline}Pa standartu źmianieńnie vizuału ažyciaŭlajecca praz kłavišy Q i E (jany mohuć być pieravyznačany).  [ Standart: Uklučana ]" />
+        <string id="player_settlement_n_18" text="Tolki Abranaja Kultura" />
+        <string id="player_settlement_n_19" text="Vieličynia, ź jakoj budzie źmianiacca vizuał sielišča padčas raźmiaščeńnia (padčas utrymańnia Shift i kłavišaŭ cykłu), albo chutkaść, ź jakoj sieliščy buduć vizualna maštabavacca (padčas utrymańnia Ctrl i kłavišaŭ cykłu). {newline}Źmianiajcie vizuał praz utrymańnie Shift i vykarystańnie kłavišaŭ cykłu. {newline}Źmianiacie maštab praz utrymańnie Ctrl i vykarystańnie kłavišaŭ maštabu. {newline}Pa standartu pavaročvańnie i maštabavańnie ažyciaŭlajecca praz kłavišy Q i E (jany mohuć być pieravyznačany).  [ Standart: 50% ]" />
+        <string id="player_settlement_n_20" text="Chutkaść Cyklijavańnia Sieliščaŭ" />
+        <string id="player_settlement_n_21" text="Uklučaje mod Sieliščy Hulca i dadaje opcyju na ekran mapy.  [ Standart: Uklučana ]" />
+        <string id="player_settlement_n_22" text="Patrabavać peŭny rovień kłanu dziela mahčymaści budaŭnictva sieliščaŭ.  [ Standart: Uklučana ]" />
+        <string id="player_settlement_n_23" text="Patrabavać Rovień Kłanu" />
+        <string id="player_settlement_n_24" text="Vyznačaje rovień, patrebny dla mahčymaści budaŭnictva sielišča.  [ Standart: 4 ]" />
+        <string id="player_settlement_n_25" text="Patrebny Rovień Kłanu" />
+        <string id="player_settlement_n_26" text="Patrabavać peŭny košt u miascovaj valucie dla budaŭnictva novaha horada.  [ Standart: Uklučana ]" />
+        <string id="player_settlement_n_27" text="Patrabavać Košt na Horad" />
+        <string id="player_settlement_n_28" text="Vyznačany košt u miascovaj valucie dla budaŭnictva novaha horada.  [ Standart: 10 000 ]" />
+        <string id="player_settlement_n_29" text="Patrebny Košt na Horad" />
+        <string id="player_settlement_n_30" text="Minaje patrebny čas na budaŭnictva i imhnienna zaviaršaje budoŭlu horada.  [ Standart: Vyklučana ]" />
+        <string id="player_settlement_n_31" text="Imhniennaja Budoŭla" />
+        <string id="player_settlement_n_32" text="Vyznačaje kolkaść dzion patrebnych dla budaŭnictva horada.  [ Standart: 7 ]" />
+        <string id="player_settlement_n_34" text="Budzie vykarystoŭvać kulturu hulca dla horada. Pa standartu, kali hetaja nałada vyklučana, kultura horada moža być abrana.  [ Standart: Vyklučana ]" />
+        <string id="player_settlement_n_35" text="Vykarystoŭvać Kulturu Hulca" />
+        <string id="player_settlement_n_36" text="Patrabavać peŭny košt u miascovaj valucie dla budaŭnictva novaj vioski.  [ Standart: Uklučana ]" />
+        <string id="player_settlement_n_37" text="Patrabavać Košt na Viosku" />
+        <string id="player_settlement_n_38" text="Vyznačany košt u miascovaj valucie dla budaŭnictva novaj vioski.  [ Standart: 3 000 ]" />
+        <string id="player_settlement_n_39" text="Patrebny Košt na Viosku" />
+        <string id="player_settlement_n_40" text="Budzie aŭtamatyčna vyznačać typ vioski, jaki vyznačyć jaje asnoŭnuju pradukcyju. Pa standartu, kali hetaja nałada vyklučana, typ lha abrać.  [ Standart: Vyklučana ]" />
+        <string id="player_settlement_n_41" text="Aŭtavyznačeńnie Typu Vioski" />
+        <string id="player_settlement_n_42" text="Budzie aŭtamatyčna vyznačać źviazany horad/zamak dla vioski. Pa standartu, kali hetaja nałada vyklučana, lha abrać źviazanaje sielišča.  [ Standart: Vyklučana ]" />
+        <string id="player_settlement_n_43" text="Aŭtavyznačeńnie Źviazanaha z Vioskaj Sielišča" />
+        <string id="player_settlement_n_44" text="Patrabavać peŭny košt u miascovaj valucie dla budaŭnictva novaha zamka. [ Standart: Uklučana ]" />
+        <string id="player_settlement_n_45" text="Patrabavać Košt na Zamak" />
+        <string id="player_settlement_n_46" text="Vyznačany košt u miascovaj valucie dla budaŭnictva novaha zamku.  [ Standart: 7 500 ]" />
+        <string id="player_settlement_n_47" text="Patrebny Košt na Zamak" />
+        <string id="player_settlement_n_48" text="Maksimalnaja dazvolenaja kolkaść pabudavanych haradoŭ. Minimum adzin horad.  [ Standart: 10 ]" />
+        <string id="player_settlement_n_49" text="Maksimum Dazvolenych Haradoŭ" />
+        <string id="player_settlement_n_50" text="Maksimalnaja dazvolenaja kolkaść pabudavanych viosak dla kožnaha horada.  [ Standart: 5 ]" />
+        <string id="player_settlement_n_51" text="Maksimum Dazvolenych Viosak na Horad" />
+        <string id="player_settlement_n_52" text="Maksimalnaja dazvolenaja kolkaść pabudavanych zamkaŭ. Minimum adzin zamak.  [ Standart: 15 ]" />
+        <string id="player_settlement_n_53" text="Maksimum Dazvolenych Zamkaŭ" />
+        <string id="player_settlement_n_54" text="Maksimalnaja dazvolenaja kolkaść pabudavanych viosak dla kožnaha zamka.  [ Standart: 4 ]" />
+        <string id="player_settlement_n_55" text="Maksimum Dazvolenych Viosak na Zamak" />
         <string id="player_settlement_n_56" text="Will require in progress construction to finish before being allowed to build next settlement. By default when this is OFF, multiple settlement construction can be done at once.  [ Default: OFF ]" />
         <string id="player_settlement_n_57" text="Single Construction At a Time" />
         <string id="player_settlement_n_58" text="Will add an initial garrison for new towns and castles.  [ Default: ON ]" />
@@ -75,7 +75,7 @@
         <string id="player_settlement_n_70" text="Settlement Placement" />
       
         <!-- V6 Settings -->
-        <string id="player_settlement_n_71" text="Will disable automatic hints shown during settlement placement. Hints can still be shown by pressing the help key, by default 'F1' unless remapped.  [ Default: OFF ]" />
+        <string id="player_settlement_n_71" text="Will disable automatic hints shown during settlement placement. Hints can still be shown by pressing the help key, by default F1 unless remapped.  [ Default: OFF ]" />
         <string id="player_settlement_n_72" text="Disable Automatic Hints" />
 
         <!-- Keybindings -->
@@ -116,18 +116,18 @@
         <string id="player_settlement_n_107" text="Rotate Forward" />
         <string id="player_settlement_n_108" text="During player settlement placement when building, will rotate the model forwards." />
         <string id="player_settlement_n_109" text="Alternate Rotation Axis" />
-        <string id="player_settlement_n_110" text="During player settlement placement when building, will switch to alternate rotation mode when held together with the 'Rotation Modifier'. This changes the axis of rotation when using forwards and backwards rotation keys." />
+        <string id="player_settlement_n_110" text="During player settlement placement when building, will switch to alternate rotation mode when held together with the Rotation Modifier. This changes the axis of rotation when using forwards and backwards rotation keys." />
 
-        <string id="player_settlement_n_111" text="Specified days before castle is done being built.  [ Default: 7 ]" />
-        <string id="player_settlement_n_112" text="Specified days before village is done being built.  [ Default: 3 ]" />
+        <string id="player_settlement_n_111" text="Vyznačaje kolkaść dzion patrebnych dla budaŭnictva zamka.  [ Standart: 7 ]" />
+        <string id="player_settlement_n_112" text="Vyznačaje kolkaść dzion patrebnych dla budaŭnictva vioski horada.  [ Standart: 3 ]" />
         <string id="player_settlement_n_113" text="Build Duration Days (Town)" />
         <string id="player_settlement_n_114" text="Build Duration Days (Castle)" />
         <string id="player_settlement_n_115" text="Build Duration Days (Village)" />
         <string id="player_settlement_n_116" text="Hint Duration" />
         <string id="player_settlement_n_117" text="Duration to display hints (in seconds). This is in addition to the base time that the game applies by default. [ Default: 3 ]" />
-        <string id="player_settlement_n_118" text="Specified days before town is done being rebuilt.  [ Default: 5 ]" />
-        <string id="player_settlement_n_119" text="Specified days before castle is done being rebuilt.  [ Default: 4 ]" />
-        <string id="player_settlement_n_120" text="Specified days before village is done being rebuilt.  [ Default: 2 ]" />
+        <string id="player_settlement_n_118" text="Vyznačaje kolkaść dzion patrebnych dla pierabudovy horada.  [ Standart: 5 ]" />
+        <string id="player_settlement_n_119" text="Vyznačaje kolkaść dzion patrebnych dla pierabudovy zamka.  [ Standart: 4 ]" />
+        <string id="player_settlement_n_120" text="Vyznačaje kolkaść dzion patrebnych dla pierabudovy vioski.  [ Standart: 2 ]" />
         <string id="player_settlement_n_121" text="Rebuild Duration Days (Town)" />
         <string id="player_settlement_n_122" text="Rebuild Duration Days (Castle)" />
         <string id="player_settlement_n_123" text="Rebuild Duration Days (Village)" />
@@ -142,6 +142,6 @@
         <string id="player_settlement_n_131" text="Delete Selection" />
         <string id="player_settlement_n_132" text="During player settlement placement when building in deep edit mode, will delete the selected model." />
         <string id="player_settlement_n_133" text="Un-Delete Mode" />
-        <string id="player_settlement_n_134" text="During player settlement placement when building in deep edit mode, when held, the 'Delete Selection' button will instead undo the previous delete." />
+        <string id="player_settlement_n_134" text="During player settlement placement when building in deep edit mode, when held, the Delete Selection button will instead undo the previous delete." />
     </strings>
 </base>
