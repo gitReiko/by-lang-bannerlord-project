@@ -1,0 +1,399 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output omit-xml-declaration="yes"/>
+    <xsl:template match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+
+    </xsl:template>
+
+
+
+    <xsl:template match="Settlement[@id='eoe_we_commoncasque_1']/@name">
+        <xsl:attribute name="name">{=eoe_we_commoncasque_1.name}[EOE UNI HELMET] Common Casque, Chinstrap</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoc_we_militianasal_1']/@name">
+        <xsl:attribute name="name">{=eoc_we_militianasal_1.name}[EOE UNI HELMET] Bayeux Nasal, Chinstrap</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_sta_skullcap_1']/@name">
+        <xsl:attribute name="name">{=eoe_sta_skullcap_1.name}[EOE UNI HELMET] Western Skullcap, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_skullcap_gambeson1']/@name">
+        <xsl:attribute name="name">{=eoe_skullcap_gambeson1.name}[EOE UNI HELMET] Western Skullcap, Gambeson Hood</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_ar_flutskull1']/@name">
+        <xsl:attribute name="name">{=eoe_ar_flutskull1.name}[EOE UNI HELMET] Fluted Skullcap with Turban, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_scarfednasal1']/@name">
+        <xsl:attribute name="name">{=eoe_scarfednasal1.name}[EOE UNI HELMET] Nasal, Closed Scarf</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_stakettle_1']/@name">
+        <xsl:attribute name="name">{=eoe_stakettle_1.name}[EOE UNI HELMET] Western Kettle, Chinstrap</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_stakettle_light']/@name">
+        <xsl:attribute name="name">{=eoe_stakettle_light.name}[EOE WESTERN HELMET] Western Kettle, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_stakettle_mail']/@name">
+        <xsl:attribute name="name">{=eoe_stakettle_mail.name}[EOE WESTERN HELMET] Western Kettle, Cloth Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_villagerhood1']/@name">
+        <xsl:attribute name="name">{=eoe_villagerhood1.name}[EOE WESTERN HEADWEAR] Villagers Tailed Hood</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_weflutenasal']/@name">
+        <xsl:attribute name="name">{=eoe_weflutenasal.name}[EOE WESTERN HELMET] Fluted Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_weflutenasalpa1']/@name">
+        <xsl:attribute name="name">{=eoe_weflutenasalpa1.name}[EOE WESTERN HELMET] Painted Fluted Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_saxonnasal1']/@name">
+        <xsl:attribute name="name">{=eoe_saxonnasal1.name}[EOE WESTERN HELMET] Western Spangenhelmet, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_eng_flutednasal1']/@name">
+        <xsl:attribute name="name">{=eoe_eng_flutednasal1.name}[EOE PRETEXTURED WESTERN HELMET] Western Nasal with Veil Coif, Red and Yellow</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_wepaintedphryg_1']/@name">
+        <xsl:attribute name="name">{=eoe_wepaintedphryg_1.name}[EOE PRETEXTURED WESTERN HELMET] Western Phrygian Nasal with Veil Coif, Red and White Stripe</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_tshapenasal1']/@name">
+        <xsl:attribute name="name">{=eoe_tshapenasal1.name}[EOE WESTERN HELMET] Western T-Shaped Nasal with Veil Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_bayeuxphrygian_1']/@name">
+        <xsl:attribute name="name">{=eoe_bayeuxphrygian_1.name}[EOE WESTERN HELMET] Bayeux Phrygian Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_wesegnasal1']/@name">
+        <xsl:attribute name="name">{=eoe_wesegnasal1.name}[EOE WESTERN HELMET] Western Segmented Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_wesegnasal1circlet']/@name">
+        <xsl:attribute name="name">{=eoe_wesegnasal1circlet.name}[EOE WESTERN HELMET] Western Segmented Nasal with Western Circlet, Decorated Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoc_phrygiancap_1']/@name">
+        <xsl:attribute name="name">{=eoc_phrygiancap_1.name}[EOE WESTERN HEADWEAR] Phrygian Hat</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_western_circlet_1']/@name">
+        <xsl:attribute name="name">{=eoe_western_circlet_1.name}[EOE WESTERN HEADWEAR] Western Circlet</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_western_circlet_1mail']/@name">
+        <xsl:attribute name="name">{=eoe_western_circlet_1mail.name}[EOE WESTERN HEADWEAR] Western Circlet, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_sta_mailcoif1']/@name">
+        <xsl:attribute name="name">{=eoe_sta_mailcoif1.name}[EOE UNIVERSAL HEADWEAR] Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoc_vla_verdenhelmet_1']/@name">
+        <xsl:attribute name="name">{=eoc_vla_verdenhelmet_1.name}[EOE WESTERN HELMET] German Early Kettle, Chinstrap</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoc_w_segmental_nasal_1']/@name">
+        <xsl:attribute name="name">{=eoc_w_segmental_nasal_1.name}[EOE WESTERN HELMET] Early Spangenhelmet, Chinstrap</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoc_w_sta_nasal_1']/@name">
+        <xsl:attribute name="name">{=eoc_w_sta_nasal_1.name}[EOE WESTERN HELMET] Western Nasal, Chinstrap</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_baynasal_p3']/@name">
+        <xsl:attribute name="name">{=eoe_we_baynasal_p3.name}[EOE WESTERN HELMET] Painted Western Nasal, Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_baynasal_p1']/@name">
+        <xsl:attribute name="name">{=eoe_we_baynasal_p1.name}[EOE WESTERN HELMET] Painted Western Nasal 1, Open Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_baynasal_p2']/@name">
+        <xsl:attribute name="name">{=eoe_we_baynasal_p2.name}[EOE WESTERN HELMET] Painted Western Nasal 2, Open Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_baynasal_cross1']/@name">
+        <xsl:attribute name="name">{=eoe_we_baynasal_cross1.name}[EOE WESTERN HELMET] Western Nasal with Cross, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_baynasal_1']/@name">
+        <xsl:attribute name="name">{=eoe_we_baynasal_1.name}[EOE WESTERN HELMET] Western Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_wenceshlav_helmet2']/@name">
+        <xsl:attribute name="name">{=eoe_wenceshlav_helmet2.name}[EOE WESTERN HELMET] Wencheslav Helmet, Mail and Chinstrap</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_stanasal_bib1']/@name">
+        <xsl:attribute name="name">{=eoe_stanasal_bib1.name}[EOE WESTERN HELMET] Western Nasal, Bibbed Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_stanasal1']/@name">
+        <xsl:attribute name="name">{=eoe_we_stanasal1.name}[EOE WESTERN HELMET] Western Nasal, Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_stanasal2']/@name">
+        <xsl:attribute name="name">{=eoe_we_stanasal2.name}[EOE WESTERN HELMET] Western Nasal, Open Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_stanasal3']/@name">
+        <xsl:attribute name="name">{=eoe_we_stanasal3.name}[EOE WESTERN HELMET] Western Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_wenceshlav_helmet1']/@name">
+        <xsl:attribute name="name">{=eoe_wenceshlav_helmet1.name}[EOE WESTERN HELMET] Decorated Wencheslav Nasal, Open Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_phrygian_1']/@name">
+        <xsl:attribute name="name">{=eoe_we_phrygian_1.name}[EOE WESTERN HELMET] Western Phrygian Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_norman_noblehelmet_1']/@name">
+        <xsl:attribute name="name">{=eoe_norman_noblehelmet_1.name}[EOE WESTERN HELMET] Brass Norman Segmented Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_norm_nobhelm1']/@name">
+        <xsl:attribute name="name">{=eoe_norm_nobhelm1.name}[EOE WESTERN HELMET] Norman Noble Nasal, Open Bib Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_coppergate_mail1']/@name">
+        <xsl:attribute name="name">{=eoe_coppergate_mail1.name}[EOE ANGLO HELMET] Coppergate Helmet, Mail</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_coppergate_1']/@name">
+        <xsl:attribute name="name">{=eoe_coppergate_1.name}[EOE ANGLO HELMET] Coppergate Helmet, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_unifaceplate_el1']/@name">
+        <xsl:attribute name="name">{=eoe_unifaceplate_el1.name}[EOE WESTERN HELMET] Early Faceplate 1, Opened Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_unifaceplate_el2']/@name">
+        <xsl:attribute name="name">{=eoe_unifaceplate_el2.name}[EOE WESTERN HELMET] Early Faceplate 2, Opened Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_p_normnasal_1']/@name">
+        <xsl:attribute name="name">{=eoe_p_normnasal_1.name}[EOE WESTERN HELMET] Painted Norman Segmented Nasal, Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_west_conicalnasal_1']/@name">
+        <xsl:attribute name="name">{=eoe_west_conicalnasal_1.name}[EOE WESTERN HELMET] Western Conical Nasal, Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_we_italonorman_1']/@name">
+        <xsl:attribute name="name">{=eoe_we_italonorman_1.name}[EOE WESTERN HELMET] Italo-Norman Faceplate, Opened Veiled Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_iberian_stafaceplate']/@name">
+        <xsl:attribute name="name">{=eoe_iberian_stafaceplate.name}[EOE WESTERN HELMET] Iberian Faceplate, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_west_elgrthlm1']/@name">
+        <xsl:attribute name="name">{=eoe_west_elgrthlm1.name}[EOE WESTERN HELMET] Western Early Greathelmet, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_crusader_faceplate_1']/@name">
+        <xsl:attribute name="name">{=eoe_crusader_faceplate_1.name}[EOE WESTERN HELMET] Crusader Faceplate, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_maciekowski_greathelmet_1']/@name">
+        <xsl:attribute name="name">{=eoe_maciekowski_greathelmet_1.name}[EOE WESTERN HELMET] Maciekowski Greathelmet, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_maciekowski_greathelmet_2']/@name">
+        <xsl:attribute name="name">{=eoe_maciekowski_greathelmet_2.name}[EOE WESTERN HELMET] Brass Maciekowski Greathelmet, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_crusadergreathelmet1']/@name">
+        <xsl:attribute name="name">{=eoe_crusadergreathelmet1.name}[EOE WESTERN HELMET] Bolzano Greathelmet, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_preibercerv_1']/@name">
+        <xsl:attribute name="name">{=eoe_preibercerv_1.name}[EOE PRETEXTURED HELMET] Iberian Nasal, Veiled Mail Coif 1</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_iberian_cerv_1']/@name">
+        <xsl:attribute name="name">{=eoe_iberian_cerv_1.name}[EOE IBERIA HELMET] Iberian Painted Nasal 1, Veiled Mail Coif 1</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_iberian_cerv_2']/@name">
+        <xsl:attribute name="name">{=eoe_iberian_cerv_2.name}[EOE IBERIA HELMET] Iberian Painted Nasal 2, Veiled Mail Coif 1</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_gjermundbu_sta1']/@name">
+        <xsl:attribute name="name">{=eoe_gjermundbu_sta1.name}[EOE NORTHERN HELMET] Gjermundbu Helmet, Mail and Chinstrap</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_gjermundbu_1']/@name">
+        <xsl:attribute name="name">{=eoe_gjermundbu_1.name}[EOE NORTHERN HELMET] Gjermundbu Helmet, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_northern_google1']/@name">
+        <xsl:attribute name="name">{=eoe_northern_google1.name}[EOE NORTHERN HELMET] Noble Googled Helmet, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='ta_vendelhelmet_1']/@name">
+        <xsl:attribute name="name">{=ta_vendelhelmet_1.name}[EOE NORTHERN HELMET] Decorated Noble Helmet, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_stacasque_1']/@name">
+        <xsl:attribute name="name">{=eoe_stacasque_1.name}[EOE BYZANTINE HELMET] Roman Casque, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_byzphrygian_sta_1']/@name">
+        <xsl:attribute name="name">{=eoe_byzphrygian_sta_1.name}[EOE BYZANTINE HELMET] Roman Phrygian Helmet, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_byzantinenasal1']/@name">
+        <xsl:attribute name="name">{=eoe_byzantinenasal1.name}[EOE BYZANTINE HELMET] Roman Nasal 1, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_phrygnasal1']/@name">
+        <xsl:attribute name="name">{=eoe_phrygnasal1.name}[EOE BYZANTINE HELMET] Phrygian Nasal, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_paintphrygnasal1']/@name">
+        <xsl:attribute name="name">{=eoe_paintphrygnasal1.name}[EOE BYZANTINE HELMET] Chi Roh Painted Phrygian Nasal, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_byznasal1']/@name">
+        <xsl:attribute name="name">{=eoe_byznasal1.name}[EOE BYZANTINE HELMET] Roman Nasal 2, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_byz_phrygian1']/@name">
+        <xsl:attribute name="name">{=eoe_byz_phrygian1.name}[EOE BYZANTINE HELMET] Roman Phrygian Nasal, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_varang_stakettle']/@name">
+        <xsl:attribute name="name">{=eoe_varang_stakettle.name}[EOE BYZANTINE HELMET] Roman Varangian Kettle, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_decorbyz_kettle1']/@name">
+        <xsl:attribute name="name">{=eoe_decorbyz_kettle1.name}[EOE BYZANTINE HELMET] Painted Nobles Roman Kettle, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_byzkettle_p1']/@name">
+        <xsl:attribute name="name">{=eoe_byzkettle_p1.name}[EOE BYZANTINE HELMET] Painted Nobles Roman Kettle, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_noblecasque_byz1']/@name">
+        <xsl:attribute name="name">{=eoe_noblecasque_byz1.name}[EOE BYZANTINE HELMET] Brass Noble Decorated Casque, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_plume_byz_nob1']/@name">
+        <xsl:attribute name="name">{=eoe_plume_byz_nob1.name}[EOE BYZANTINE HELMET] Brass Noble Decorated Kettle, Plume</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_uniturban1']/@name">
+        <xsl:attribute name="name">{=eoe_uniturban1.name}[EOE UNIVERSAL HEADWEAR] Turban</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_kairouan_com1']/@name">
+        <xsl:attribute name="name">{=eoe_kairouan_com1.name}[EOE MENA HELMET] Kairouan Helmet, Tagelmust Turban</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_tagelmust_1']/@name">
+        <xsl:attribute name="name">{=eoe_tagelmust_1.name}[EOE MENA HEADWEAR] Open Common Tagelmust 1</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_e_turban1']/@name">
+        <xsl:attribute name="name">{=eoe_e_turban1.name}[EOE MENA HEADWEAR] Closed Turban 1</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_e_turban2']/@name">
+        <xsl:attribute name="name">{=eoe_e_turban2.name}[EOE MENA HEADWEAR] Closed Turban 2</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_e_turban3']/@name">
+        <xsl:attribute name="name">{=eoe_e_turban3.name}[EOE MENA HEADWEAR] Closed Turban 3</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_e_turban4']/@name">
+        <xsl:attribute name="name">{=eoe_e_turban4.name}[EOE MENA HEADWEAR] Closed Turban 4</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_ar_turbancasque_1']/@name">
+        <xsl:attribute name="name">{=eoe_ar_turbancasque_1.name}[EOE MENA HELMET] Common Casque, Turban</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_eastnasal_casque_1']/@name">
+        <xsl:attribute name="name">{=eoe_eastnasal_casque_1.name}[EOE MENA HELMET] Common Casque, Facecover Turban</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_ar_fchelm_1']/@name">
+        <xsl:attribute name="name">{=eoe_ar_fchelm_1.name}[EOE MENA HELMET] Decorated Helmet 1, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_ar_fcdecor_1']/@name">
+        <xsl:attribute name="name">{=eoe_ar_fcdecor_1.name}[EOE MENA HELMET] Decorated Helmet 2, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_ar_clothdec_helm1']/@name">
+        <xsl:attribute name="name">{=eoe_ar_clothdec_helm1.name}[EOE MENA HELMET] Noble Decorated Helmet 1, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_ar_clothdec_helm2']/@name">
+        <xsl:attribute name="name">{=eoe_ar_clothdec_helm2.name}[EOE MENA HELMET] Noble Decorated Helmet 2, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_seljukwarmask1']/@name">
+        <xsl:attribute name="name">{=eoe_seljukwarmask1.name}[EOE MENA HELMET] Seljuk Faceplate 1, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_slovencap_1']/@name">
+        <xsl:attribute name="name">{=eoe_slovencap_1.name}[EOE UNIVERSAL HEADWEAR] Fur Sloven Cap 1</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_lithuanianfaceplate_1']/@name">
+        <xsl:attribute name="name">{=eoe_lithuanianfaceplate_1.name}[EOE EAST EUROPE HELMET] Vilnius Faceplate, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_plumed_helm1']/@name">
+        <xsl:attribute name="name">{=eoe_plumed_helm1.name}[EOE RUS HELMET] Rus Brass Decorated Faceplate, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_rus_brassmask1']/@name">
+        <xsl:attribute name="name">{=eoe_rus_brassmask1.name}[EOE RUS HELMET] Rus Brass Faceplate, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_rusmask_1']/@name">
+        <xsl:attribute name="name">{=eoe_rusmask_1.name}[EOE RUS HELMET] Rus Faceplate, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_rus_officer_npl1']/@name">
+        <xsl:attribute name="name">{=eoe_rus_officer_npl1.name}[EOE RUS HELMET] Decorated Officers Nasal, Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_rusnasal_1']/@name">
+        <xsl:attribute name="name">{=eoe_rusnasal_1.name}[EOE RUS HELMET] Rus Nasal, Full Mail Coif</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_rusnasal_11']/@name">
+        <xsl:attribute name="name">{=eoe_rusnasal_11.name}[EOE RUS HELMET] Rus Nasal, Mail Hood</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_baldwin_mask1']/@name">
+        <xsl:attribute name="name">{=eoe_baldwin_mask1.name}[EOE NICHE HEADWEAR] Baldwin's Mask, War</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="Settlement[@id='eoe_baldwin_mask2']/@name">
+        <xsl:attribute name="name">{=eoe_baldwin_mask2.name}[EOE NICHE HEADWEAR] Baldwin's Mask, Civil</xsl:attribute>
+    </xsl:template>
+
+
+
+
+</xsl:stylesheet>
