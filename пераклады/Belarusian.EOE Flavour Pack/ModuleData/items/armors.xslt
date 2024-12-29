@@ -9,563 +9,563 @@
 
 
 
-    <xsl:template match="Settlement[@id='eoe_west_gambeson1']/@name">
+    <xsl:template match="Item[@id='eoe_west_gambeson1']/@name">
         <xsl:attribute name="name">{=eoe_west_gambeson1.name}[EOE UNIVERSAL CLOTHING] Quilted Gambeson, Hemp</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_padding_tunic_1']/@name">
+    <xsl:template match="Item[@id='eoc_padding_tunic_1']/@name">
         <xsl:attribute name="name">{=eoc_padding_tunic_1.name}[EOE UNIVERSAL CLOTHING] Padded Tunic 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_padding_tunic_2']/@name">
+    <xsl:template match="Item[@id='eoc_padding_tunic_2']/@name">
         <xsl:attribute name="name">{=eoc_padding_tunic_2.name}[EOE UNIVERSAL CLOTHING] Padded Tunic 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_padding_tunic_3']/@name">
+    <xsl:template match="Item[@id='eoc_padding_tunic_3']/@name">
         <xsl:attribute name="name">{=eoc_padding_tunic_3.name}[EOE UNIVERSAL CLOTHING] Padded Tunic 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_padding_tunic_4']/@name">
+    <xsl:template match="Item[@id='eoc_padding_tunic_4']/@name">
         <xsl:attribute name="name">{=eoc_padding_tunic_4.name}[EOE UNIVERSAL CLOTHING] Padded Tunic 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_vl_paddedtunic_1']/@name">
+    <xsl:template match="Item[@id='eoc_vl_paddedtunic_1']/@name">
         <xsl:attribute name="name">{=eoc_vl_paddedtunic_1.name}[EOE UNIVERSAL CLOTHING] Padded Vest 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_vla_p_tunic_1']/@name">
+    <xsl:template match="Item[@id='eoc_vla_p_tunic_1']/@name">
         <xsl:attribute name="name">{=eoc_vla_p_tunic_1.name}[EOE WESTERN CLOTHING] Western Tunic, Blue and Red</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_vla_p_tunic_2']/@name">
+    <xsl:template match="Item[@id='eoc_vla_p_tunic_2']/@name">
         <xsl:attribute name="name">{=eoc_vla_p_tunic_2.name}[EOE WESTERN CLOTHING] Western Tunic, Hemp and Green</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_vla_p_tunic_3']/@name">
+    <xsl:template match="Item[@id='eoc_vla_p_tunic_3']/@name">
         <xsl:attribute name="name">{=eoc_vla_p_tunic_3.name}[EOE WESTERN CLOTHING] Western Tunic, Red and Blue</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_we_tunic_p_1']/@name">
+    <xsl:template match="Item[@id='eoc_we_tunic_p_1']/@name">
         <xsl:attribute name="name">{=eoc_we_tunic_p_1.name}[EOE WESTERN CLOTHING] Western Common Tunic, Red and Hemp</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_we_tunic_p_2']/@name">
+    <xsl:template match="Item[@id='eoc_we_tunic_p_2']/@name">
         <xsl:attribute name="name">{=eoc_we_tunic_p_2.name}[EOE WESTERN CLOTHING] Western Common Tunic, White and Green</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_we_tunic_p_3']/@name">
+    <xsl:template match="Item[@id='eoc_we_tunic_p_3']/@name">
         <xsl:attribute name="name">{=eoc_we_tunic_p_3.name}[EOE WESTERN CLOTHING] Western Common Tunic, Blue and Red</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic1']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic1']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic1.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic2']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic2']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic2.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic3']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic3']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic3.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic4']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic4']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic4.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic5']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic5']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic5.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 5</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic6']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic6']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic6.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 6</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic7']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic7']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic7.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 7</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic8']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic8']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic8.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 8</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic9']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic9']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic9.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 9</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunic10']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunic10']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunic10.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Decorative 10</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_commontunictc1']/@name">
+    <xsl:template match="Item[@id='eoe_we_commontunictc1']/@name">
         <xsl:attribute name="name">{=eoe_we_commontunictc1.name}[EOE WESTERN CLOTHING] Western Commoner Tunic, Team Colour</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_we_tunic_l_1']/@name">
+    <xsl:template match="Item[@id='eoc_we_tunic_l_1']/@name">
         <xsl:attribute name="name">{=eoc_we_tunic_l_1.name}[EOE WESTERN CLOTHING] Western Decorated Tunic, Red</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoc_we_tunic_l_2']/@name">
+    <xsl:template match="Item[@id='eoc_we_tunic_l_2']/@name">
         <xsl:attribute name="name">{=eoc_we_tunic_l_2.name}[EOE WESTERN CLOTHING] Western Decorated Tunic, Blue</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_1']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_1']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_1.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_10']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_10']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_10.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 10</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_2']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_2']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_2.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_3']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_3']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_3.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_4']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_4']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_4.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_5']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_5']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_5.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 5</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_6']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_6']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_6.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 6</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_7']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_7']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_7.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 7</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_8']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_8']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_8.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 8</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pretex_west_nobility_9']/@name">
+    <xsl:template match="Item[@id='eoe_pretex_west_nobility_9']/@name">
         <xsl:attribute name="name">{=eoe_pretex_west_nobility_9.name}[EOE WESTERN CLOTHING] Western Nobility Tunic 9</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_highnobility_1']/@name">
+    <xsl:template match="Item[@id='eoe_we_highnobility_1']/@name">
         <xsl:attribute name="name">{=eoe_we_highnobility_1.name}[EOE WESTERN CLOTHING] Western High Nobility Tunic 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_highnobility_2']/@name">
+    <xsl:template match="Item[@id='eoe_we_highnobility_2']/@name">
         <xsl:attribute name="name">{=eoe_we_highnobility_2.name}[EOE WESTERN CLOTHING] Western High Nobility Tunic 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_highnobility_3']/@name">
+    <xsl:template match="Item[@id='eoe_we_highnobility_3']/@name">
         <xsl:attribute name="name">{=eoe_we_highnobility_3.name}[EOE WESTERN CLOTHING] Western High Nobility Tunic 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_highnobility_4']/@name">
+    <xsl:template match="Item[@id='eoe_we_highnobility_4']/@name">
         <xsl:attribute name="name">{=eoe_we_highnobility_4.name}[EOE WESTERN CLOTHING] Western High Nobility Tunic 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_klappenrock_decor_pre1']/@name">
+    <xsl:template match="Item[@id='eoe_klappenrock_decor_pre1']/@name">
         <xsl:attribute name="name">{=eoe_klappenrock_decor_pre1.name}[EOE NORDIC ARMOR] Klappenrock over Mail, Decorated 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_anglosax_hauberk1']/@name">
+    <xsl:template match="Item[@id='eoe_anglosax_hauberk1']/@name">
         <xsl:attribute name="name">{=eoe_anglosax_hauberk1.name}[EOE WESTERN ARMOR] Anglo Saxon Hauberk 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_normanhauberk1']/@name">
+    <xsl:template match="Item[@id='eoe_normanhauberk1']/@name">
         <xsl:attribute name="name">{=eoe_normanhauberk1.name}[EOE WESTERN ARMOR] Norman Haubergeon</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_newhauberk_1']/@name">
+    <xsl:template match="Item[@id='eoe_newhauberk_1']/@name">
         <xsl:attribute name="name">{=eoe_newhauberk_1.name}[EOE UNIVERSAL ARMOR] Western Noble Hauberk 1, Decorated</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_newhaub_nob1']/@name">
+    <xsl:template match="Item[@id='eoe_newhaub_nob1']/@name">
         <xsl:attribute name="name">{=eoe_newhaub_nob1.name}[EOE UNIVERSAL ARMOR] Western Noble Hauberk 2, Decorated</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_newhaub_nob2']/@name">
+    <xsl:template match="Item[@id='eoe_newhaub_nob2']/@name">
         <xsl:attribute name="name">{=eoe_newhaub_nob2.name}[EOE UNIVERSAL ARMOR] Western Noble Hauberk 3, Decorated</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_newhaub_nob3']/@name">
+    <xsl:template match="Item[@id='eoe_newhaub_nob3']/@name">
         <xsl:attribute name="name">{=eoe_newhaub_nob3.name}[EOE UNIVERSAL ARMOR] Western Noble Hauberk 4, Decorated</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_sleeved_hauberk_1']/@name">
+    <xsl:template match="Item[@id='eoe_sleeved_hauberk_1']/@name">
         <xsl:attribute name="name">{=eoe_sleeved_hauberk_1.name}[EOE UNIVERSAL ARMOR] Noble Hauberk, Strapped</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_com_dechaub1']/@name">
+    <xsl:template match="Item[@id='eoe_we_com_dechaub1']/@name">
         <xsl:attribute name="name">{=eoe_we_com_dechaub1.name}[EOE UNIVERSAL ARMOR] Western Square Chainmail, Commoner</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_nob_dechaub1']/@name">
+    <xsl:template match="Item[@id='eoe_we_nob_dechaub1']/@name">
         <xsl:attribute name="name">{=eoe_we_nob_dechaub1.name}[EOE UNIVERSAL ARMOR] Western Square Chainmail, Noble 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_noble_surcoat_pre1']/@name">
+    <xsl:template match="Item[@id='eoe_we_noble_surcoat_pre1']/@name">
         <xsl:attribute name="name">{=eoe_we_noble_surcoat_pre1.name}[EOE WESTERN ARMOR] Western Noble Surcoat, Ailette 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_noble_surcoat_pre2']/@name">
+    <xsl:template match="Item[@id='eoe_we_noble_surcoat_pre2']/@name">
         <xsl:attribute name="name">{=eoe_we_noble_surcoat_pre2.name}[EOE WESTERN ARMOR] Western Noble Surcoat, Ailette 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_noble_surcoat_pre3']/@name">
+    <xsl:template match="Item[@id='eoe_we_noble_surcoat_pre3']/@name">
         <xsl:attribute name="name">{=eoe_we_noble_surcoat_pre3.name}[EOE WESTERN ARMOR] Western Noble Surcoat, Ailette 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_noble_surcoat_pre4']/@name">
+    <xsl:template match="Item[@id='eoe_we_noble_surcoat_pre4']/@name">
         <xsl:attribute name="name">{=eoe_we_noble_surcoat_pre4.name}[EOE WESTERN ARMOR] Western Noble Surcoat, Ailette 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_noble_surcoat_pre1t']/@name">
+    <xsl:template match="Item[@id='eoe_we_noble_surcoat_pre1t']/@name">
         <xsl:attribute name="name">{=eoe_we_noble_surcoat_pre1t.name}[EOE WESTERN ARMOR] Western Noble Surcoat 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_noble_surcoat_pre2t']/@name">
+    <xsl:template match="Item[@id='eoe_we_noble_surcoat_pre2t']/@name">
         <xsl:attribute name="name">{=eoe_we_noble_surcoat_pre2t.name}[EOE WESTERN ARMOR] Western Noble Surcoat 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_noble_surcoat_pre3t']/@name">
+    <xsl:template match="Item[@id='eoe_we_noble_surcoat_pre3t']/@name">
         <xsl:attribute name="name">{=eoe_we_noble_surcoat_pre3t.name}[EOE WESTERN ARMOR] Western Noble Surcoat 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_we_noble_surcoat_pre4t']/@name">
+    <xsl:template match="Item[@id='eoe_we_noble_surcoat_pre4t']/@name">
         <xsl:attribute name="name">{=eoe_we_noble_surcoat_pre4t.name}[EOE WESTERN ARMOR] Western Noble Surcoat 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_western_surcoat_1']/@name">
+    <xsl:template match="Item[@id='eoe_western_surcoat_1']/@name">
         <xsl:attribute name="name">{=eoe_western_surcoat_1.name}[EOE WESTERN SURCOAT] Western Surcoat 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_western_surcoat_2']/@name">
+    <xsl:template match="Item[@id='eoe_western_surcoat_2']/@name">
         <xsl:attribute name="name">{=eoe_western_surcoat_2.name}[EOE WESTERN SURCOAT] Western Surcoat 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_western_surcoat_3']/@name">
+    <xsl:template match="Item[@id='eoe_western_surcoat_3']/@name">
         <xsl:attribute name="name">{=eoe_western_surcoat_3.name}[EOE WESTERN SURCOAT] Western Surcoat 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_western_surcoat_4']/@name">
+    <xsl:template match="Item[@id='eoe_western_surcoat_4']/@name">
         <xsl:attribute name="name">{=eoe_western_surcoat_4.name}[EOE WESTERN SURCOAT] Western Surcoat 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_western_surcoat_5']/@name">
+    <xsl:template match="Item[@id='eoe_western_surcoat_5']/@name">
         <xsl:attribute name="name">{=eoe_western_surcoat_5.name}[EOE WESTERN SURCOAT] Western Surcoat 5</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_western_surcoat_6']/@name">
+    <xsl:template match="Item[@id='eoe_western_surcoat_6']/@name">
         <xsl:attribute name="name">{=eoe_western_surcoat_6.name}[EOE WESTERN SURCOAT] Western Surcoat 6</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_western_surcoat_7']/@name">
+    <xsl:template match="Item[@id='eoe_western_surcoat_7']/@name">
         <xsl:attribute name="name">{=eoe_western_surcoat_7.name}[EOE WESTERN SURCOAT] Western Surcoat 7</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_western_surcoat_8']/@name">
+    <xsl:template match="Item[@id='eoe_western_surcoat_8']/@name">
         <xsl:attribute name="name">{=eoe_western_surcoat_8.name}[EOE WESTERN SURCOAT] Western Surcoat 8</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_norman_surcoat_pre1']/@name">
+    <xsl:template match="Item[@id='eoe_norman_surcoat_pre1']/@name">
         <xsl:attribute name="name">{=eoe_norman_surcoat_pre1.name}[EOE IBERIA ARMOR] Norman Chevalier Surcoat 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_bayeux_coat_1']/@name">
+    <xsl:template match="Item[@id='eoe_bayeux_coat_1']/@name">
         <xsl:attribute name="name">{=eoe_bayeux_coat_1.name}[EOE WESTERN COAT] Bayeux Vair Coat 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_bayeux_coat_2']/@name">
+    <xsl:template match="Item[@id='eoe_bayeux_coat_2']/@name">
         <xsl:attribute name="name">{=eoe_bayeux_coat_2.name}[EOE WESTERN COAT] Bayeux Vair Coat 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_bayeux_coat_3']/@name">
+    <xsl:template match="Item[@id='eoe_bayeux_coat_3']/@name">
         <xsl:attribute name="name">{=eoe_bayeux_coat_3.name}[EOE WESTERN COAT] Bayeux Vair Coat 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_bayeux_coat_4']/@name">
+    <xsl:template match="Item[@id='eoe_bayeux_coat_4']/@name">
         <xsl:attribute name="name">{=eoe_bayeux_coat_4.name}[EOE WESTERN COAT] Bayeux Vair Coat 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_vair_coat_1']/@name">
+    <xsl:template match="Item[@id='eoe_vair_coat_1']/@name">
         <xsl:attribute name="name">{=eoe_vair_coat_1.name}[EOE WESTERN COAT] Bayeux Squirrel Fur Vair Coat</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pre_poor_hauberk1']/@name">
+    <xsl:template match="Item[@id='eoe_pre_poor_hauberk1']/@name">
         <xsl:attribute name="name">{=eoe_pre_poor_hauberk1.name}[EOE UNIVERSAL ARMOR] Villagers Mail Hauberk, Hemp</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pre_poor_hauberk2']/@name">
+    <xsl:template match="Item[@id='eoe_pre_poor_hauberk2']/@name">
         <xsl:attribute name="name">{=eoe_pre_poor_hauberk2.name}[EOE UNIVERSAL ARMOR] Villagers Mail Hauberk, Dark</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_common_hauberk_1']/@name">
+    <xsl:template match="Item[@id='eoe_common_hauberk_1']/@name">
         <xsl:attribute name="name">{=eoe_common_hauberk_1.name}[EOE UNIVERSAL ARMOR] Common Mail Hauberk, Split</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_hauberk_1']/@name">
+    <xsl:template match="Item[@id='eoe_hauberk_1']/@name">
         <xsl:attribute name="name">{=eoe_hauberk_1.name}[EOE UNIVERSAL ARMOR] Mail Hauberk, Strapped</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_hauberk_2']/@name">
+    <xsl:template match="Item[@id='eoe_hauberk_2']/@name">
         <xsl:attribute name="name">{=eoe_hauberk_2.name}[EOE UNIVERSAL ARMOR] Mail Hauberk, Strapped</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_hauberk_3']/@name">
+    <xsl:template match="Item[@id='eoe_hauberk_3']/@name">
         <xsl:attribute name="name">{=eoe_hauberk_3.name}[EOE UNIVERSAL ARMOR] Mail Hauberk, Strapped</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_hauberk_4']/@name">
+    <xsl:template match="Item[@id='eoe_hauberk_4']/@name">
         <xsl:attribute name="name">{=eoe_hauberk_4.name}[EOE UNIVERSAL ARMOR] Mail Hauberk, Strapped</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_unilam_hvy1']/@name">
+    <xsl:template match="Item[@id='eoe_unilam_hvy1']/@name">
         <xsl:attribute name="name">{=eoe_unilam_hvy1.name}[EOE UNIVERSAL ARMOR] Mailtunic with Heavy Lamellar and Pauldrons</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_uni_heavyleather_1']/@name">
+    <xsl:template match="Item[@id='eoe_uni_heavyleather_1']/@name">
         <xsl:attribute name="name">{=eoe_uni_heavyleather_1.name}[EOE UNIVERSAL ARMOR] Mailtunic with Heavy Lamellar</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_birka__tunic_1']/@name">
+    <xsl:template match="Item[@id='eoe_birka__tunic_1']/@name">
         <xsl:attribute name="name">{=eoe_birka__tunic_1.name}[EOE UNIVERSAL ARMOR] Northern Lamellar Armor, Mail</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoei_heavyleather_1']/@name">
+    <xsl:template match="Item[@id='eoei_heavyleather_1']/@name">
         <xsl:attribute name="name">{=eoei_heavyleather_1.name}[EOE UNIVERSAL ARMOR] Heavy Leather Armor, Tunic</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_mail_lam1']/@name">
+    <xsl:template match="Item[@id='eoe_byz_mail_lam1']/@name">
         <xsl:attribute name="name">{=eoe_byz_mail_lam1.name}[EOE UNIVERSAL ARMOR] Lamellar Armor, Mail</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_mail_long']/@name">
+    <xsl:template match="Item[@id='eoe_mail_long']/@name">
         <xsl:attribute name="name">{=eoe_mail_long.name}[EOE UNIVERSAL ARMOR] Western Chainmail</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_uni_el_hauberk1']/@name">
+    <xsl:template match="Item[@id='eoe_uni_el_hauberk1']/@name">
         <xsl:attribute name="name">{=eoe_uni_el_hauberk1.name}[EOE UNIVERSAL ARMOR] Western Short Chainmail, White Plaque Belt</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_eng_heavyhauberk1']/@name">
+    <xsl:template match="Item[@id='eoe_eng_heavyhauberk1']/@name">
         <xsl:attribute name="name">{=eoe_eng_heavyhauberk1.name}[EOE UNIVERSAL ARMOR] Western Heavy Chainmail Hauberk</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byzquilted_bra_pre3']/@name">
+    <xsl:template match="Item[@id='eoe_byzquilted_bra_pre3']/@name">
         <xsl:attribute name="name">{=eoe_byzquilted_bra_pre3.name}[EOE BYZANTINE ARMOR] Mail Hauberk with Roman Bra</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byzquilted_bra_pre1']/@name">
+    <xsl:template match="Item[@id='eoe_byzquilted_bra_pre1']/@name">
         <xsl:attribute name="name">{=eoe_byzquilted_bra_pre1.name}[EOE BYZANTINE CLOTHING] Quilted Padding with Roman Bra 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byzquilted_bra_pre2']/@name">
+    <xsl:template match="Item[@id='eoe_byzquilted_bra_pre2']/@name">
         <xsl:attribute name="name">{=eoe_byzquilted_bra_pre2.name}[EOE BYZANTINE CLOTHING] Quilted Padding with Roman Bra 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pret_noblebyz_coat_1']/@name">
+    <xsl:template match="Item[@id='eoe_pret_noblebyz_coat_1']/@name">
         <xsl:attribute name="name">{=eoe_pret_noblebyz_coat_1.name}[EOE BYZANTINE ARMOR] Noble Quilted Sleeved Coat 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pret_noblebyz_coat_2']/@name">
+    <xsl:template match="Item[@id='eoe_pret_noblebyz_coat_2']/@name">
         <xsl:attribute name="name">{=eoe_pret_noblebyz_coat_2.name}[EOE BYZANTINE ARMOR] Noble Quilted Sleeved Coat 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pret_noblebyz_coat_3']/@name">
+    <xsl:template match="Item[@id='eoe_pret_noblebyz_coat_3']/@name">
         <xsl:attribute name="name">{=eoe_pret_noblebyz_coat_3.name}[EOE BYZANTINE ARMOR] Noble Quilted Sleeved Coat 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_pret_noblebyz_coat_1lamellar']/@name">
+    <xsl:template match="Item[@id='eoe_pret_noblebyz_coat_1lamellar']/@name">
         <xsl:attribute name="name">{=eoe_pret_noblebyz_coat_1lamellar.name}[EOE BYZANTINE ARMOR] Noble Quilted Sleeved Coat 1, Lamellar</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_sleevedpadding_1']/@name">
+    <xsl:template match="Item[@id='eoe_byz_sleevedpadding_1']/@name">
         <xsl:attribute name="name">{=eoe_byz_sleevedpadding_1.name}[EOE BYZANTINE ARMOR] Quilted Sleeved Coat</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_fleurlamellar_cloth1']/@name">
+    <xsl:template match="Item[@id='eoe_byz_fleurlamellar_cloth1']/@name">
         <xsl:attribute name="name">{=eoe_byz_fleurlamellar_cloth1.name}[EOE BYZANTINE ARMOR] Klivanion Lamellar, Scaramangion 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_fleurlamellar_cloth2']/@name">
+    <xsl:template match="Item[@id='eoe_byz_fleurlamellar_cloth2']/@name">
         <xsl:attribute name="name">{=eoe_byz_fleurlamellar_cloth2.name}[EOE BYZANTINE ARMOR] Klivanion Lamellar, Scaramangion 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_fleurlamellar_1']/@name">
+    <xsl:template match="Item[@id='eoe_byz_fleurlamellar_1']/@name">
         <xsl:attribute name="name">{=eoe_byz_fleurlamellar_1.name}[EOE BYZANTINE ARMOR] Noble Klivanion Lamellar, Mail</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_decorbra_1']/@name">
+    <xsl:template match="Item[@id='eoe_byz_decorbra_1']/@name">
         <xsl:attribute name="name">{=eoe_byz_decorbra_1.name}[EOE BYZANTINE ARMOR] Klivanion Lamellar, Decorated Bra 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_decorbra_2']/@name">
+    <xsl:template match="Item[@id='eoe_byz_decorbra_2']/@name">
         <xsl:attribute name="name">{=eoe_byz_decorbra_2.name}[EOE BYZANTINE ARMOR] Klivanion Lamellar, Decorated Bra 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_heavyofficer_byz1']/@name">
+    <xsl:template match="Item[@id='eoe_heavyofficer_byz1']/@name">
         <xsl:attribute name="name">{=eoe_heavyofficer_byz1.name}[EOE BYZANTINE ARMOR] Heavy Officer Klivanion Armor 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_heavyofficer_byz2']/@name">
+    <xsl:template match="Item[@id='eoe_heavyofficer_byz2']/@name">
         <xsl:attribute name="name">{=eoe_heavyofficer_byz2.name}[EOE BYZANTINE ARMOR] Heavy Officer Klivanion Armor 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byzantine_plated_coat_1']/@name">
+    <xsl:template match="Item[@id='eoe_byzantine_plated_coat_1']/@name">
         <xsl:attribute name="name">{=eoe_byzantine_plated_coat_1.name}[EOE BYZANTINE ARMOR] Quilted Coat, Lamellar</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_heavyarmor_1']/@name">
+    <xsl:template match="Item[@id='eoe_byz_heavyarmor_1']/@name">
         <xsl:attribute name="name">{=eoe_byz_heavyarmor_1.name}[EOE BYZANTINE ARMOR] Heavy Roman Officer Lamellar Armor 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_decorbyz_lam_1']/@name">
+    <xsl:template match="Item[@id='eoe_decorbyz_lam_1']/@name">
         <xsl:attribute name="name">{=eoe_decorbyz_lam_1.name}[EOE BYZANTINE ARMOR] Heavy Roman Officer Lamellar Armor 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_varangoi_armor1']/@name">
+    <xsl:template match="Item[@id='eoe_varangoi_armor1']/@name">
         <xsl:attribute name="name">{=eoe_varangoi_armor1.name}[EOE BYZANTINE ARMOR] Varangoi Lamellar Armor, Mail</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_decor_officer_armor1']/@name">
+    <xsl:template match="Item[@id='eoe_byz_decor_officer_armor1']/@name">
         <xsl:attribute name="name">{=eoe_byz_decor_officer_armor1.name}[EOE BYZANTINE ARMOR] Noble Decorated Lamellar Armor 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_byz_decor_officer_armor1mail']/@name">
+    <xsl:template match="Item[@id='eoe_byz_decor_officer_armor1mail']/@name">
         <xsl:attribute name="name">{=eoe_byz_decor_officer_armor1mail.name}[EOE BYZANTINE ARMOR] Noble Decorated Lamellar Armor, Mail</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eooe_rus_lightlam_pre1']/@name">
+    <xsl:template match="Item[@id='eooe_rus_lightlam_pre1']/@name">
         <xsl:attribute name="name">{=eooe_rus_lightlam_pre1.name}[EOE RUS ARMOR] Rus Tunic with Lamellar</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_rusnorth_pre1']/@name">
+    <xsl:template match="Item[@id='eoe_rusnorth_pre1']/@name">
         <xsl:attribute name="name">{=eoe_rusnorth_pre1.name}[EOE RUS CLOTHING] Rus Common Kaftkan 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_rusnorth_pre2']/@name">
+    <xsl:template match="Item[@id='eoe_rusnorth_pre2']/@name">
         <xsl:attribute name="name">{=eoe_rusnorth_pre2.name}[EOE RUS CLOTHING] Rus Common Kaftkan 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_rusnorth_pre3']/@name">
+    <xsl:template match="Item[@id='eoe_rusnorth_pre3']/@name">
         <xsl:attribute name="name">{=eoe_rusnorth_pre3.name}[EOE RUS CLOTHING] Rus Common Kaftkan 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_rusnorth_pre4']/@name">
+    <xsl:template match="Item[@id='eoe_rusnorth_pre4']/@name">
         <xsl:attribute name="name">{=eoe_rusnorth_pre4.name}[EOE RUS CLOTHING] Rus Noble Kaftkan 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_rusnorth_pre5']/@name">
+    <xsl:template match="Item[@id='eoe_rusnorth_pre5']/@name">
         <xsl:attribute name="name">{=eoe_rusnorth_pre5.name}[EOE RUS CLOTHING] Rus Noble Kaftkan 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_rusnorth_pre6']/@name">
+    <xsl:template match="Item[@id='eoe_rusnorth_pre6']/@name">
         <xsl:attribute name="name">{=eoe_rusnorth_pre6.name}[EOE RUS CLOTHING] Rus Noble Kaftkan 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_rusnorth_pre7']/@name">
+    <xsl:template match="Item[@id='eoe_rusnorth_pre7']/@name">
         <xsl:attribute name="name">{=eoe_rusnorth_pre7.name}[EOE RUS CLOTHING] Rus Common Kaftkan 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_iberiansurcoat_pre1']/@name">
+    <xsl:template match="Item[@id='eoe_iberiansurcoat_pre1']/@name">
         <xsl:attribute name="name">{=eoe_iberiansurcoat_pre1.name}[EOE IBERIA ARMOR] Iberian Sleeved Surcoat 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_iberiansurcoat_pre2']/@name">
+    <xsl:template match="Item[@id='eoe_iberiansurcoat_pre2']/@name">
         <xsl:attribute name="name">{=eoe_iberiansurcoat_pre2.name}[EOE IBERIA ARMOR] Iberian Sleeved Surcoat 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_iberiansurcoat_1']/@name">
+    <xsl:template match="Item[@id='eoe_iberiansurcoat_1']/@name">
         <xsl:attribute name="name">{=eoe_iberiansurcoat_1.name}[EOE IBERIA ARMOR] Iberian Surcoat 1, Faction Colour</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_iberiansurcoat_2']/@name">
+    <xsl:template match="Item[@id='eoe_iberiansurcoat_2']/@name">
         <xsl:attribute name="name">{=eoe_iberiansurcoat_2.name}[EOE IBERIA ARMOR] Iberian Surcoat 2, Faction Colour</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_iberiansurcoat_3']/@name">
+    <xsl:template match="Item[@id='eoe_iberiansurcoat_3']/@name">
         <xsl:attribute name="name">{=eoe_iberiansurcoat_3.name}[EOE IBERIA ARMOR] Iberian Surcoat 3, Faction Colour</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_iberiansurcoat_4']/@name">
+    <xsl:template match="Item[@id='eoe_iberiansurcoat_4']/@name">
         <xsl:attribute name="name">{=eoe_iberiansurcoat_4.name}[EOE IBERIA ARMOR] Iberian Surcoat 4, Faction Colour</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_iberiansurcoat_5']/@name">
+    <xsl:template match="Item[@id='eoe_iberiansurcoat_5']/@name">
         <xsl:attribute name="name">{=eoe_iberiansurcoat_5.name}[EOE IBERIA ARMOR] Iberian Surcoat 5, Faction Colour</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_iberiansurcoat_6']/@name">
+    <xsl:template match="Item[@id='eoe_iberiansurcoat_6']/@name">
         <xsl:attribute name="name">{=eoe_iberiansurcoat_6.name}[EOE IBERIA ARMOR] Iberian Surcoat 6, Faction Colour</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_arab_lightarmor_1']/@name">
+    <xsl:template match="Item[@id='eoe_arab_lightarmor_1']/@name">
         <xsl:attribute name="name">{=eoe_arab_lightarmor_1.name}[EOE MENA ARMOR] Leather Cuirass over Tunic</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_seljukhvy_armor1']/@name">
+    <xsl:template match="Item[@id='eoe_seljukhvy_armor1']/@name">
         <xsl:attribute name="name">{=eoe_seljukhvy_armor1.name}[EOE MENA ARMOR] Seljuk Heavy Lamellar and Pauldrons 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_arab_leatharmor1']/@name">
+    <xsl:template match="Item[@id='eoe_arab_leatharmor1']/@name">
         <xsl:attribute name="name">{=eoe_arab_leatharmor1.name}[EOE MENA ARMOR] Sleeved Tunic with Leather Cuirass, Cloth 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_arab_lightarmor_pre1']/@name">
+    <xsl:template match="Item[@id='eoe_arab_lightarmor_pre1']/@name">
         <xsl:attribute name="name">{=eoe_arab_lightarmor_pre1.name}[EOE MENA ARMOR] Light Cuirass, Cloth 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_arab_lightarmor_pre2']/@name">
+    <xsl:template match="Item[@id='eoe_arab_lightarmor_pre2']/@name">
         <xsl:attribute name="name">{=eoe_arab_lightarmor_pre2.name}[EOE MENA ARMOR] Light Cuirass, Cloth 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_arab_lightarmor_pre3']/@name">
+    <xsl:template match="Item[@id='eoe_arab_lightarmor_pre3']/@name">
         <xsl:attribute name="name">{=eoe_arab_lightarmor_pre3.name}[EOE MENA ARMOR] Light Cuirass, Cloth 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_arab_lightarmor_pre4']/@name">
+    <xsl:template match="Item[@id='eoe_arab_lightarmor_pre4']/@name">
         <xsl:attribute name="name">{=eoe_arab_lightarmor_pre4.name}[EOE MENA ARMOR] Light Cuirass, Cloth 41</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_muslim_heavylam_1']/@name">
+    <xsl:template match="Item[@id='eoe_muslim_heavylam_1']/@name">
         <xsl:attribute name="name">{=eoe_muslim_heavylam_1.name}[EOE MENA ARMOR] Decorated Ayyubid Noble Lamellar 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_heraldic_surcoat_1']/@name">
+    <xsl:template match="Item[@id='eoe_heraldic_surcoat_1']/@name">
         <xsl:attribute name="name">{=eoe_heraldic_surcoat_1.name}[EOE HERALDIC ARMOR] Surcoat over Mail, Tableau Clan Banner</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_tab_nobsurcoat_ail1t']/@name">
+    <xsl:template match="Item[@id='eoe_tab_nobsurcoat_ail1t']/@name">
         <xsl:attribute name="name">{=eoe_tab_nobsurcoat_ail1t.name}[EOE HERALDIC ARMOR] Noblemans Surcoat over Mail, Tableau Clan Banner</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_tab_nobsurcoat_ail1']/@name">
+    <xsl:template match="Item[@id='eoe_tab_nobsurcoat_ail1']/@name">
         <xsl:attribute name="name">{=eoe_tab_nobsurcoat_ail1.name}[EOE HERALDIC ARMOR] Noblemans Surcoat over Mail with Ailettes, Tableau Clan Banner</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_crusadersurcoat1']/@name">
+    <xsl:template match="Item[@id='eoe_crusadersurcoat1']/@name">
         <xsl:attribute name="name">{=eoe_crusadersurcoat1.name}[EOE CRUSADER ARMOR] Surcoat over Mail, Crusader 1</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_crusadersurcoat2']/@name">
+    <xsl:template match="Item[@id='eoe_crusadersurcoat2']/@name">
         <xsl:attribute name="name">{=eoe_crusadersurcoat2.name}[EOE CRUSADER ARMOR] Surcoat over Mail, Crusader 2</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_crusadersurcoat3']/@name">
+    <xsl:template match="Item[@id='eoe_crusadersurcoat3']/@name">
         <xsl:attribute name="name">{=eoe_crusadersurcoat3.name}[EOE CRUSADER ARMOR] Surcoat over Mail, Crusader 3</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_crusadersurcoat4']/@name">
+    <xsl:template match="Item[@id='eoe_crusadersurcoat4']/@name">
         <xsl:attribute name="name">{=eoe_crusadersurcoat4.name}[EOE CRUSADER ARMOR] Surcoat over Mail, Crusader 4</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_crusadersurcoat5']/@name">
+    <xsl:template match="Item[@id='eoe_crusadersurcoat5']/@name">
         <xsl:attribute name="name">{=eoe_crusadersurcoat5.name}[EOE CRUSADER ARMOR] Surcoat over Mail, Crusader 5</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_crusadersurcoat6']/@name">
+    <xsl:template match="Item[@id='eoe_crusadersurcoat6']/@name">
         <xsl:attribute name="name">{=eoe_crusadersurcoat6.name}[EOE CRUSADER ARMOR] Surcoat over Mail, Crusader 6</xsl:attribute>
     </xsl:template>
 

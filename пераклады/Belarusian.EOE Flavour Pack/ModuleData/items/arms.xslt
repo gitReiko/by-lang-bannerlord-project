@@ -9,15 +9,15 @@
 
 
 
-    <xsl:template match="Settlement[@id='eoe_leathergloves1']/@name">
+    <xsl:template match="Item[@id='eoe_leathergloves1']/@name">
         <xsl:attribute name="name">{=eoe_leathergloves1.name}[EOE ARM ARMOR] Leather Gloves</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_mailgoves_1']/@name">
+    <xsl:template match="Item[@id='eoe_mailgoves_1']/@name">
         <xsl:attribute name="name">{=eoe_mailgoves_1.name}[EOE ARM ARMOR] Mail Gloves</xsl:attribute>
     </xsl:template>
 
-    <xsl:template match="Settlement[@id='eoe_splinted_gloves_1']/@name">
+    <xsl:template match="Item[@id='eoe_splinted_gloves_1']/@name">
         <xsl:attribute name="name">{=eoe_splinted_gloves_1.name}[EOE ARM ARMOR] Nordic Splinted Gloves</xsl:attribute>
     </xsl:template>
 

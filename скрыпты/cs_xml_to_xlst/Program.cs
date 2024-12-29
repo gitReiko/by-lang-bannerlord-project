@@ -11,7 +11,7 @@ namespace xml_to_xlst
 
         public static string transType = "Settlement";
 
-        public const string XLST_FILE = "output.xlst";
+        public const string XLST_FILE = "output.xslt";
 
         public const string XML_FILE = "output.xml";
 
