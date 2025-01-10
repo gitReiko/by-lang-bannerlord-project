@@ -112,19 +112,19 @@
         <clan_names>
 		  <name name="Асраловінг" />
 		  <name name="Барановінг" />
-		  <name name="Фал'ёровінг" />
-		  <name name="Гэндзіровінг" />
+		  <name name="Фалёровінг" />
+		  <name name="Гендзіровінг" />
 		  <name name="Іскановінг" />
-		  <name name="Марыговінг" />
+		  <name name="Марэговінг" />
 		  <name name="Суратовінг" />
 		  <name name="Вышовінг" />
-		  <name name="Ёрчовінг" />
+		  <name name="Ерчовінг" />
 		  <name name="Жановінг" />
-		  <name name="Даловінг" />
+		  <name name="Дагловінг" />
 		  <name name="Валковінг" />
 		  <name name="Крысковінг" />
 		  <name name="Лафтовінг" />
-		  <name name="Зэлэнковінг" />
+		  <name name="Зеленковінг" />
 		  <name name="Краговінг" />
 		  <name name="Дурновінг" />
 		  <name name="Валловінг" />
@@ -133,29 +133,29 @@
 		  <name name="Яновінг" />
 		  <name name="Карсановінг" />
 		  <name name="Ліндовінг" />
-		  <name name="Малэнковінг" />
+		  <name name="Маленковінг" />
 		  <name name="Страндовінг" />
 		  <name name="Мітровінг" />
 		  <name name="Нактовінг" />
-		  <name name="Пэтровінг" />
+		  <name name="Петровінг" />
 		  <name name="Куровінг" />
-		  <name name="Рыварчовінг" />
-		  <name name="Нэловінг" />
+		  <name name="Рывачевінг" />
+		  <name name="Неловінг" />
 		  <name name="Рэдогвінг" />
 		  <name name="Ізьміровінг" />
-		  <name name="Мазэровінг" />
-		  <name name="Мэчывінг" />
+		  <name name="Мазеровінг" />
+		  <name name="Мечывінг" />
 		  <name name="Харысовінг" />
 		  <name name="Друлівінг" />
 		  <name name="Рудіновінг" />
-		  <name name="Мэрыговінг" />
-		  <name name="Кавэловінг" />
-		  <name name="Гасьцьявінг" />
+		  <name name="Мерыговінг" />
+		  <name name="Кавеловінг" />
+		  <name name="Гасьцявінг" />
 		  <name name="Сурдановінг" />
 		  <name name="Хрусовінг" />
 		  <name name="Тэлраговінг" />
-		  <name name="Мэнчыновінг" />
-		  <name name="Ўладовінг" />
+		  <name name="Менчыновінг" />
+		  <name name="Валадовінг" />
         </clan_names>
     </xsl:template>
 	

@@ -112,19 +112,19 @@
         <clan_names>
 		  <name name="Asrałovinh" />
 		  <name name="Baranovinh" />
-		  <name name="Faljorovinh" />
-		  <name name="Hendzirovinh" />
+		  <name name="Falorovinh" />
+		  <name name="Hiendzirovinh" />
 		  <name name="Iskanovinh" />
-		  <name name="Maryhovinh" />
+		  <name name="Marehovinh" />
 		  <name name="Suratovinh" />
 		  <name name="Vyšovinh" />
-		  <name name="Jorčovinh" />
+		  <name name="Jerčovinh" />
 		  <name name="Žanovinh" />
-		  <name name="Dałovinh" />
+		  <name name="Dahłovinh" />
 		  <name name="Vałkovinh" />
 		  <name name="Kryskovinh" />
 		  <name name="Łaftovinh" />
-		  <name name="Zełenkovinh" />
+		  <name name="Zielenkovinh" />
 		  <name name="Krahovinh" />
 		  <name name="Durnovinh" />
 		  <name name="Vałłovinh" />
@@ -133,29 +133,29 @@
 		  <name name="Janovinh" />
 		  <name name="Karsanovinh" />
 		  <name name="Lindovinh" />
-		  <name name="Małenkovinh" />
+		  <name name="Malenkovinh" />
 		  <name name="Strandovinh" />
 		  <name name="Mitrovinh" />
 		  <name name="Naktovinh" />
-		  <name name="Petrovinh" />
+		  <name name="Pietrovinh" />
 		  <name name="Kurovinh" />
-		  <name name="Ryvarčovinh" />
-		  <name name="Nełovinh" />
+		  <name name="Ryvačievinh" />
+		  <name name="Niełovinh" />
 		  <name name="Redohvinh" />
 		  <name name="Iźmirovinh" />
-		  <name name="Mazerovinh" />
-		  <name name="Mečyvinh" />
+		  <name name="Mazierovinh" />
+		  <name name="Miečyvinh" />
 		  <name name="Charysovinh" />
 		  <name name="Drulivinh" />
 		  <name name="Rudinovinh" />
-		  <name name="Meryhovinh" />
-		  <name name="Kavełovinh" />
-		  <name name="Haśćjavinh" />
+		  <name name="Mieryhovinh" />
+		  <name name="Kaviełovinh" />
+		  <name name="Haściavinh" />
 		  <name name="Surdanovinh" />
 		  <name name="Chrusovinh" />
 		  <name name="Tełrahovinh" />
-		  <name name="Menčynovinh" />
-		  <name name="Ŭładovinh" />
+		  <name name="Mienčynovinh" />
+		  <name name="Vaładovinh" />
         </clan_names>
     </xsl:template>
 	
