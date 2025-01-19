@@ -3,7 +3,7 @@
 
  <!--tavern-->
 
-<NPCCharacter id="tavernkeeper_aserai"
+<NPCCharacter id="tavernkeeper_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 name="{=CsjtWt1g}Tavern Keeper"
@@ -11,41 +11,32 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Head"
-                   id="Item.tuareg" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.turban" />
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
-        <equipment slot="Body"
-                   id="Item.cloth_apron" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.turban" />
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.half_apron" />
-        <equipment slot="Head"
-                   id="Item.desert_cap" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Body" id="Item.thick_sleeved_robe" />
+        <equipment slot="Head" id="Item.turban" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
   
   <!--taverngame-->
   
-  <NPCCharacter id="taverngamehost_aserai"
+  <NPCCharacter id="taverngamehost_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 name="{=twCIejxn}Game Host"
@@ -53,7 +44,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
@@ -66,30 +57,19 @@
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Head"
-                   id="Item.nordic_fur_cap" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_e" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_hscarf_b" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.turban" />
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.aserai_civil_d" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Body" id="Item.aserai_civil_d" />
+        <equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Head"
-                   id="Item.tied_head_wrapping" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_b" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Head" id="Item.tied_head_wrapping" />
+        <equipment slot="Body" id="Item.aserai_civil_b" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_wanderer_equipment_template_empire" />
     </Equipments>
@@ -97,7 +77,7 @@
   
   <!--musician-->
   
-  <NPCCharacter id="musician_aserai"
+  <NPCCharacter id="musician_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 name="{=zfCoeglY}Musician"
@@ -105,7 +85,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
@@ -115,7 +95,7 @@
         <equipment slot="Body"
                    id="Item.aserai_civil_d" />
         <equipment slot="Leg"
-                   id="Item.strapped_shoes" />
+                   id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head"
@@ -123,7 +103,7 @@
         <equipment slot="Body"
                    id="Item.aserai_civil_b" />
         <equipment slot="Leg"
-                   id="Item.wrapped_shoes" />
+                   id="Item.eastern_leather_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
@@ -131,7 +111,7 @@
         <equipment slot="Head"
                    id="Item.desert_headdress" />
         <equipment slot="Leg"
-                   id="Item.strapped_leather_boots" />
+                   id="Item.eastern_leather_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
@@ -139,7 +119,7 @@
         <equipment slot="Head"
                    id="Item.desert_headdress" />
         <equipment slot="Leg"
-                   id="Item.strapped_shoes" />
+                   id="Item.eastern_leather_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_wanderer_equipment_template_empire" />
     </Equipments>
@@ -147,7 +127,7 @@
   
   <!--tavernwench-->
   
-  <NPCCharacter id="tavern_wench_aserai"
+  <NPCCharacter id="tavern_wench_ayyubid"
                 default_group="Infantry"
                 name="{=z6RMWTaA}Tavern Maid"
                 is_female="true"
@@ -156,7 +136,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.townswoman_aserai" />
+      <face_key_template value="BodyProperty.townswoman_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
@@ -169,18 +149,17 @@
                    id="Item.ladys_shoe" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.aserai_tunic_waistcoat" />
-        <equipment slot="Leg"
-                   id="Item.ladys_shoe" />
+        <equipment slot="Head" id="Item.desert_headdress" />
+		 <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
   
   <!--armorer-->
   
-   <NPCCharacter id="armorer_aserai"
+   <NPCCharacter id="armorer_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Armorer"
@@ -188,53 +167,37 @@
                 name="{=jx8ohENz}Armorer"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.leather_cap" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.byz_lam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.tuareg" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_c_head" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.scarf_nasal_1"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
   
   <!--horsemerchant-->
   
-  <NPCCharacter id="horseMerchant_aserai"
+  <NPCCharacter id="horseMerchant_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="HorseTrader"
@@ -242,47 +205,45 @@
                 name="{=79ElOr2x}Horse Trader"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Head"
-                   id="Item.tuareg" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_f" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.aserai_civil_f"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Head"
-                   id="Item.tuareg" />
-        <equipment slot="Body"
-                   id="Item.merchants_fur_coat" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Body"
-                   id="Item.layered_robe" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.closed_head_scarf"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+      </EquipmentRoster>
+
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
   
   <!--merchant-->
   
-   <NPCCharacter id="merchant_aserai"
+   <NPCCharacter id="merchant_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="GoodsTrader"
@@ -290,67 +251,51 @@
                 name="{=thbcgVVO}Trader"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_d_hscarf" />
-        <equipment slot="Body"
-                   id="Item.merchants_fur_coat" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.woven_turban"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_d" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_d_hscarf" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_b" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_b" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_d_hscarf" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_c_head" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_e" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.woven_turban"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
   
   <!--beggar-->
   
-  <NPCCharacter id="beggar_aserai"
+  <NPCCharacter id="beggar_ayyubid"
                 default_group="Infantry"
                 name="{=malebeggar}Beggar"
                 occupation="Townsfolk"
@@ -390,11 +335,11 @@
         <equipment slot="Body"
                    id="Item.bandit_envelope_dress_v2" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="female_beggar_aserai"
+  <NPCCharacter id="female_beggar_ayyubid"
                 default_group="Infantry"
                 is_female="true"
                 level="1"
@@ -403,32 +348,33 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.townswoman_aserai" />
+      <face_key_template value="BodyProperty.townswoman_ayyubid" />
     </face>
     <skills></skills>
     <!-- Uses village hair -->
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Body"
                    id="Item.torn_bandit_clothes" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Body"
                    id="Item.plain_dress" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Head"
-                   id="Item.aserai_villager_female_headdress" />
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
         <equipment slot="Body"
                    id="Item.bandit_envelope_dress_v2" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
   
   <!--dancer-->
   
-  <NPCCharacter id="female_dancer_aserai"
+  <NPCCharacter id="female_dancer_ayyubid"
                 default_group="Infantry"
                 name="{=X3KYysuv}Dancer"
                 is_female="true"
@@ -437,33 +383,33 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.townswoman_aserai" />
+      <face_key_template value="BodyProperty.townswoman_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.aserai_female_civil_a" />
-        <equipment slot="Leg"
-                   id="Item.ladys_shoe" />
-        <equipment slot="Head"
-                   id="Item.desert_headdress" />
+      <equipment slot="Head"
+                 id="Item.tight_head_scarf" />
+      <equipment slot="Body"
+                 id="Item.aserai_female_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.fine_southern_dress" />
-        <equipment slot="Head"
-                   id="Item.aserai_female_civil_hscarf_b" />
-        <equipment slot="Leg"
-                   id="Item.ladys_shoe" />
+      <equipment slot="Head"
+                 id="Item.tight_head_scarf" />
+      <equipment slot="Body"
+                 id="Item.aserai_female_civil_b" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
   
   <!--tournament-->
   
-   <NPCCharacter id="tournament_master_aserai"
+   <NPCCharacter id="tournament_master_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="ArenaMaster"
@@ -471,28 +417,24 @@
                 name="{=IHKXNP9H}Tournament Master"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
-        <equipment slot="Body"
-                   id="Item.aserai_archer_armor" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_d_hscarf" />
-        <equipment slot="Leg"
-                   id="Item.strapped_leather_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
   
   <!--villagers-->
   
-   <NPCCharacter id="villager_infant_aserai"
+   <NPCCharacter id="villager_infant_ayyubid"
                 name="{=maleinfant}Infant"
                 age="3"
                 is_female="false"
@@ -502,7 +444,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -514,7 +456,7 @@
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="villager_child_aserai"
+  <NPCCharacter id="villager_child_ayyubid"
                 name="{=malechild}Child"
                 age="6"
                 is_female="false"
@@ -524,7 +466,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -560,7 +502,7 @@
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="villager_teenager_aserai"
+  <NPCCharacter id="villager_teenager_ayyubid"
                 name="{=maleteenager}Teenager"
                 age="14"
                 is_female="false"
@@ -570,7 +512,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -579,7 +521,7 @@
         <equipment slot="Leg"
                    id="Item.southern_moccasins" />
         <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
+                   id="Item.tight_head_scarf" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
@@ -587,7 +529,7 @@
         <equipment slot="Leg"
                    id="Item.southern_moccasins" />
         <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
+                   id="Item.tight_head_scarf" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
@@ -595,15 +537,14 @@
         <equipment slot="Leg"
                    id="Item.empire_horseman_boots" />
         <equipment slot="Head"
-                   id="Item.aserai_civil_d_hscarf" />
-        <equipment slot="Gloves"
-                   id="Item.guarded_padded_vambrace" />
+                   id="Item.tight_head_scarf" />
+
       </EquipmentRoster>
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="village_woman_infant_aserai"
+  <NPCCharacter id="village_woman_infant_ayyubid"
                 name="{=femaleinfant}Infant"
                 age="3"
                 is_female="true"
@@ -613,7 +554,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.townswoman_aserai" />
+      <face_key_template value="BodyProperty.townswoman_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -622,10 +563,10 @@
         <equipment slot="Leg"
                    id="Item.southern_moccasins" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="village_woman_child_aserai"
+  <NPCCharacter id="village_woman_child_ayyubid"
                 name="{=femalechild}Child"
                 age="6"
                 is_female="true"
@@ -635,7 +576,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.townswoman_aserai" />
+      <face_key_template value="BodyProperty.townswoman_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -660,18 +601,20 @@
         <equipment slot="Leg"
                    id="Item.fine_town_boots" />
         <equipment slot="Head"
-                   id="Item.aserai_civil_d_hscarf" />
+                   id="Item.tight_head_scarf" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
-                   id="Item.peasant_costume" />
+                   id="Item.aserai_civil_a" />
         <equipment slot="Leg"
-                   id="Item.southern_moccasins" />
+                   id="Item.fine_town_boots" />
+        <equipment slot="Head"
+                   id="Item.aserai_civil_d_hscarf" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="village_woman_teenager_aserai"
+  <NPCCharacter id="village_woman_teenager_ayyubid"
                 name="{=femaleteenager}Teenager"
                 age="14"
                 is_female="true"
@@ -681,7 +624,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.townswoman_aserai" />
+      <face_key_template value="BodyProperty.townswoman_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -690,7 +633,7 @@
         <equipment slot="Leg"
                    id="Item.southern_moccasins" />
         <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
+                   id="Item.tight_head_scarf" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
@@ -698,7 +641,7 @@
         <equipment slot="Leg"
                    id="Item.southern_moccasins" />
         <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
+                   id="Item.tight_head_scarf" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
@@ -706,46 +649,52 @@
         <equipment slot="Leg"
                    id="Item.empire_horseman_boots" />
         <equipment slot="Head"
-                   id="Item.aserai_civil_d_hscarf" />
-        <equipment slot="Gloves"
-                   id="Item.guarded_padded_vambrace" />
+                   id="Item.tight_head_scarf" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="village_woman_aserai"
+  <NPCCharacter id="village_woman_ayyubid"
                 default_group="Infantry"
                 is_female="true"
                 level="1"
-                name="{=E11FAt01}Aserai Peasant"
+                name="{=E11FAt01}Ayyubid Peasant"
                 occupation="Villager"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.townswoman_aserai" />
+      <face_key_template value="BodyProperty.townswoman_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.fine_southern_dress" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+      <equipment slot="Head"
+                 id="Item.tight_head_scarf" />
+      <equipment slot="Body"
+                 id="Item.aserai_female_civil_a" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_shoes" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
+      <equipment slot="Head"
+                 id="Item.tight_head_scarf" />
+	   <equipment slot="Body"
                    id="Item.aserai_villager_female_dress" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
+	   <equipment slot="Body"
                    id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
+	   <equipment slot="Body"
                    id="Item.aserai_female_civil_a" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
@@ -753,13 +702,15 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
                    id="Item.aserai_female_civil_b" />
-        <equipment slot="Cape"
-                   id="Item.female_scarf" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
+		<equipment slot="Body"
                    id="Item.fine_southern_dress" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
@@ -768,7 +719,7 @@
         <equipment slot="Body"
                    id="Item.aserai_villager_female_dress" />
         <equipment slot="Head"
-                   id="Item.desert_headdress" />
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
@@ -776,7 +727,7 @@
         <equipment slot="Body"
                    id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Head"
-                   id="Item.aserai_villager_female_headdress" />
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
@@ -784,33 +735,31 @@
         <equipment slot="Body"
                    id="Item.aserai_female_civil_a" />
         <equipment slot="Head"
-                   id="Item.aserai_female_civil_hscarf_b" />
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
                    id="Item.aserai_female_civil_b" />
-        <equipment slot="Cape"
-                   id="Item.female_scarf" />
         <equipment slot="Head"
-                   id="Item.aserai_female_civil_hscarf" />
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
-                   id="Item.fine_southern_dress" />
-        <equipment slot="Cape"
-                   id="Item.female_scarf" />
+                   id="Item.aserai_female_civil_b" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
                    id="Item.aserai_villager_female_dress" />
-        <equipment slot="Cape"
-                   id="Item.female_scarf" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
@@ -819,22 +768,22 @@
                    id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
-        <equipment slot="Cape"
-                   id="Item.female_scarf" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
                    id="Item.aserai_female_civil_a" />
-        <equipment slot="Cape"
-                   id="Item.female_scarf" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Body"
                    id="Item.aserai_female_civil_b" />
-        <equipment slot="Cape"
-                   id="Item.female_scarf" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
@@ -843,14 +792,14 @@
   
   <!--caravan-->
   
-  <NPCCharacter id="caravan_master_aserai"
+  <NPCCharacter id="caravan_master_ayyubid"
                 default_group="Infantry"
                 level="26"
-                name="{=E11FAt02}Arab Caravan Master"
+                name="{=caravan_master_ayyubid}Arab Caravan Master"
                 occupation="CaravanGuard"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -873,64 +822,51 @@
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Head" id="Item.desert_mail_coif"/>
-				<equipment slot="Body" id="Item.chain_hauberk_1"/>
-				<equipment slot="Leg" id="Item.bootssta_1"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.el_chasseus_1"/>
 				<equipment slot="Cape" id="Item.scarf" />
-
-
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Head" id="Item.woven_turban"/>
-				<equipment slot="Body" id="Item.chain_hauberk_1"/>
-				<equipment slot="Leg" id="Item.bootssta_1"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.el_chasseus_1"/>
 				<equipment slot="Cape" id="Item.scarf" />
-
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Cape" id="Item.cape_heavy_11"/>
-				<equipment slot="Body" id="Item.chain_hauberk_1"/>
-				<equipment slot="Leg" id="Item.bootssta_1"/>
-				
-
-
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.el_chasseus_1"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_sword_3_t3" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_c_head" />
-        <equipment slot="Body"
-                   id="Item.aserai_archer_armor" />
-        <equipment slot="Gloves"
-                   id="Item.buttoned_leather_bracers" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.el_chasseus_1"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
   <!--armed trader-->
   
-  <NPCCharacter id="armed_trader_aserai"
+  <NPCCharacter id="armed_trader_ayyubid"
                 default_group="Ranged"
                 level="16"
-                name="{=E11FAt03}Arab Armed Trader"
+                name="{=armed_trader_ayyubid}Arab Armed Trader"
                 occupation="CaravanGuard"
                 culture="Culture.ayyubid"
                 is_basic_troop="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -999,27 +935,28 @@
 		</EquipmentRoster>
 
       <EquipmentRoster civilian="true">
-        <equipment slot="Item2"
-                   id="Item.aserai_sword_1_t2" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_c" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Head" id="Item.closed_head_scarf"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   
   <!--caravan guard-->
   
-  <NPCCharacter id="caravan_guard_aserai"
+  <NPCCharacter id="caravan_guard_ayyubid"
                 default_group="Cavalry"
                 level="21"
-                name="{=E11FAt04}Arab Caravan Guard"
+                name="{=caravan_guard_ayyubid}Arab Caravan Guard"
                 upgrade_requires="ItemCategory.horse"
                 occupation="CaravanGuard"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -1058,7 +995,7 @@
 				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
 				<equipment slot="Head" id="Item.closed_desert_helmet"/>
 				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Body" id="Item.aserai_civil_f"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<equipment slot="Horse" id="Item.aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
@@ -1069,7 +1006,7 @@
 				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
 				<equipment slot="Head" id="Item.closed_desert_helmet"/>
 				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 				<equipment slot="Horse" id="Item.aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
@@ -1086,53 +1023,39 @@
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_2haxe_2_t4" />
-        <equipment slot="Item1"
-                   id="Item.aserai_sword_3_t3" />
-        <equipment slot="Item2"
-                   id="Item.bound_adarga" />
-        <equipment slot="Head"
-                   id="Item.woven_turban" />
-        <equipment slot="Body"
-                   id="Item.leather_strips_over_padded_robe" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
-        <equipment slot="Gloves"
-                   id="Item.studded_vambraces" />
+				<equipment slot="Item0" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.closed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_2haxe_2_t4" />
-        <equipment slot="Item1"
-                   id="Item.aserai_sword_3_t3" />
-        <equipment slot="Item2"
-                   id="Item.bound_adarga" />
-        <equipment slot="Head"
-                   id="Item.tied_head_wrapping" />
-        <equipment slot="Body"
-                   id="Item.short_padded_robe" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
-        <equipment slot="Gloves"
-                   id="Item.studded_vambraces" />
-      </EquipmentRoster>
-      <equipment slot="Horse"
-                 id="Item.aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.desert_cloth_harness" />
-    </Equipments>
+				<equipment slot="Item0" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.closed_head_scarf"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+       </EquipmentRoster>
+	   </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="veteran_caravan_guard_aserai"
+  <NPCCharacter id="veteran_caravan_guard_ayyubid"
                 default_group="HorseArcher"
                 level="26"
-                name="{=E11FAt05}Arab Veteran Caravan Guard"
+                name="{=veteran_caravan_guard_ayyubid}Arab Veteran Caravan Guard"
                 upgrade_requires="ItemCategory.war_horse"
                 occupation="CaravanGuard"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -1154,101 +1077,91 @@
     </skills>
     <upgrade_targets></upgrade_targets>
     <Equipments>
-      <EquipmentRoster>
-				<equipment slot="Item0" id="Item.southern_spear_3_t4"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
-				<equipment slot="Head" id="Item.tight_head_scarf"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.aserai_civil_f"/>
+     			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.southern_spear_3_t4"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
-				<equipment slot="Head" id="Item.closed_desert_helmet"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.southern_spear_3_t4"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
-				<equipment slot="Head" id="Item.closed_desert_helmet"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.open_desert_helmet"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.southern_spear_3_t4"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
-				<equipment slot="Head" id="Item.closed_head_scarf"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.desert_robe"/>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.steppe_war_bow" />
-        <equipment slot="Item1"
-                   id="Item.default_arrows" />
-        <equipment slot="Item2"
-                   id="Item.aserai_sword_5_t4" />
-        <equipment slot="Item3"
-                   id="Item.bound_desert_round_shield" />
-        <equipment slot="Head"
-                   id="Item.loose_wrapped_desert_helmet" />
-        <equipment slot="Body"
-                   id="Item.stitched_leather_over_mail" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.steppe_war_bow" />
-        <equipment slot="Item1"
-                   id="Item.default_arrows" />
-        <equipment slot="Item2"
-                   id="Item.aserai_sword_5_t4" />
-        <equipment slot="Item3"
-                   id="Item.large_adarga" />
-        <equipment slot="Head"
-                   id="Item.desert_helmet_with_mail" />
-        <equipment slot="Body"
-                   id="Item.stitched_leather_over_mail" />
-        <equipment slot="Leg"
-                   id="Item.khuzait_curved_boots" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <equipment slot="Horse"
-                 id="Item.t2_aserai_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.desert_cloth_harness" />
-    </Equipments>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.emirs_helmet"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+       </EquipmentRoster>
+	   </Equipments>
   </NPCCharacter>
   
  
   
   <!--practice dummy-->
   
-  <NPCCharacter id="gear_practice_dummy_aserai"
+  <NPCCharacter id="gear_practice_dummy_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Special"
                 culture="Culture.ayyubid"
-                name="{=!}Aserai Gear Dummy"
+                name="{=!}Ayyubid Gear Dummy"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="BodyProperty.guard" />
@@ -1295,16 +1208,16 @@
         <equipment slot="Leg"
                    id="Item.wrapped_shoes" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="weapon_practice_stage_1_aserai"
+  <NPCCharacter id="weapon_practice_stage_1_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Special"
                 culture="Culture.ayyubid"
-                name="{=!}Aserai Weapon Dummy"
+                name="{=!}Ayyubid Weapon Dummy"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="BodyProperty.guard" />
@@ -1329,7 +1242,7 @@
         <equipment slot="Item0"
                    id="Item.aserai_sword_2_t2" />
         <equipment slot="Item1"
-                   id="Item.bound_horsemans_kite_shield" />
+                   id="Item.eoe_arabic_shield_1" />
         <equipment slot="Item2"
                    id="Item.desert_throwing_knife" />
       </EquipmentRoster>
@@ -1381,16 +1294,16 @@
         <equipment slot="Item1"
                    id="Item.eastern_javelin_1_t2" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="weapon_practice_stage_2_aserai"
+  <NPCCharacter id="weapon_practice_stage_2_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Special"
                 culture="Culture.ayyubid"
-                name="{=!}Aserai Weapon Dummy"
+                name="{=!}Ayyubid Weapon Dummy"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="BodyProperty.guard" />
@@ -1415,7 +1328,7 @@
         <equipment slot="Item0"
                    id="Item.aserai_sword_3_t3" />
         <equipment slot="Item1"
-                   id="Item.bound_horsemans_kite_shield" />
+                   id="Item.eoe_arabic_shield_1" />
         <equipment slot="Item2"
                    id="Item.desert_throwing_knife" />
       </EquipmentRoster>
@@ -1467,16 +1380,16 @@
         <equipment slot="Item1"
                    id="Item.eastern_javelin_1_t2" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="weapon_practice_stage_3_aserai"
+  <NPCCharacter id="weapon_practice_stage_3_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Special"
                 culture="Culture.ayyubid"
-                name="{=!}Aserai Weapon Dummy"
+                name="{=!}Ayyubid Weapon Dummy"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
       <face_key_template value="BodyProperty.guard" />
@@ -1501,7 +1414,7 @@
         <equipment slot="Item0"
                    id="Item.aserai_sword_5_t4" />
         <equipment slot="Item1"
-                   id="Item.bound_horsemans_kite_shield" />
+                   id="Item.eoe_arabic_shield_1" />
         <equipment slot="Item2"
                    id="Item.desert_throwing_knife" />
       </EquipmentRoster>
@@ -1565,14 +1478,14 @@
         <equipment slot="Item1"
                    id="Item.desert_throwing_knife" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
   
   <!--chracter creation-->
   
-  <NPCCharacter id="player_char_creation_aserai"
+  <NPCCharacter id="player_char_creation_ayyubid"
                 name="{=!}with two-handed swords"
                 default_group="Infantry"
                 is_hero="false"
@@ -1580,7 +1493,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills>
       <skill id="OneHanded"
@@ -1630,64 +1543,64 @@
 
 <!--shopkeeper-->
 
-<NPCCharacter id="shop_worker_aserai"
+<NPCCharacter id="shop_worker_ayyubid"
                 default_group="Infantry"
                 name="{=275LD0Gh}Shop Worker"
                 occupation="ShopWorker"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Head"
-                   id="Item.aserai_civil_c_head" />
+                   id="Item.turban" />
         <equipment slot="Body"
-                   id="Item.cloth_apron" />
+                   id="Item.layered_robe" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
         <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
+                   id="Item.aserai_sword_1_t2" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head"
                    id="Item.aserai_civil_c_head" />
         <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
+                   id="Item.aserai_sword_1_t2" />
         <equipment slot="Body"
-                   id="Item.half_apron" />
+                   id="Item.aserai_civil_f" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
-                   id="Item.cloth_apron" />
+                   id="Item.long_desert_robe" />
         <equipment slot="Head"
                    id="Item.aserai_civil_e_hscarf" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
         <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
+                   id="Item.aserai_sword_1_t2" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
-                   id="Item.half_apron" />
+                   id="Item.aserai_civil_e" />
         <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
+                   id="Item.turban" />
         <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
+                   id="Item.aserai_sword_1_t2" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
 
 <!--town children-->
 
-<NPCCharacter id="townsman_infant_aserai"
+<NPCCharacter id="townsman_infant_ayyubid"
                 name="{=maleinfant}Infant"
                 age="3"
                 is_female="false"
@@ -1697,7 +1610,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -1709,7 +1622,7 @@
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="townsman_child_aserai"
+  <NPCCharacter id="townsman_child_ayyubid"
                 name="{=malechild}Child"
                 age="6"
                 is_female="false"
@@ -1719,7 +1632,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -1749,7 +1662,7 @@
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="townsman_teenager_aserai"
+  <NPCCharacter id="townsman_teenager_ayyubid"
                 name="{=maleteenager}Teenager"
                 age="14"
                 is_female="false"
@@ -1758,7 +1671,7 @@
                 occupation="Townsfolk"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -1778,26 +1691,25 @@
                    id="Item.aserai_civil_e_hscarf" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
+		<equipment slot="Head" id="Item.turban"/>
+		<equipment slot="Body"
                    id="Item.aserai_civil_a" />
         <equipment slot="Leg"
                    id="Item.empire_horseman_boots" />
         <equipment slot="Head"
                    id="Item.aserai_civil_d_hscarf" />
-        <equipment slot="Gloves"
-                   id="Item.guarded_padded_vambrace" />
       </EquipmentRoster>
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="townsman_aserai"
+  <NPCCharacter id="townsman_ayyubid"
                 default_group="Infantry"
                 name="{=muu5cofb}Townsman"
                 occupation="Townsfolk"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
@@ -1883,7 +1795,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Item0"
-                   id="Item.short_sword_t3" />
+                   id="Item.aserai_sword_1_t2" />
         <equipment slot="Head"
                    id="Item.turban" />
         <equipment slot="Cape"
@@ -1898,14 +1810,14 @@
 
 <!--rural-->
 
-<NPCCharacter id="rural_notable_notary_aserai"
+<NPCCharacter id="rural_notable_notary_ayyubid"
                 default_group="Infantry"
                 name="{=AlmaRAib}Rural Notable Notary"
                 occupation="Townsfolk"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
@@ -1989,20 +1901,20 @@
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
 
 <!--preacher-->
 
-<NPCCharacter id="preacher_notary_aserai"
+<NPCCharacter id="preacher_notary_ayyubid"
                 default_group="Infantry"
                 name="{=bLMGbLF8}Preacher Notary"
                 occupation="Townsfolk"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
@@ -2086,20 +1998,20 @@
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
 
 <!--artisan-->
 
-<NPCCharacter id="artisan_notary_aserai"
+<NPCCharacter id="artisan_notary_ayyubid"
                 default_group="Infantry"
                 name="{=ECxiXTbF}Artisan Notary"
                 occupation="Townsfolk"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
@@ -2183,20 +2095,20 @@
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
 
 <!--merchant-->
 
-<NPCCharacter id="merchant_notary_aserai"
+<NPCCharacter id="merchant_notary_ayyubid"
                 default_group="Infantry"
                 name="{=reoVAtrE}Merchant Notary"
                 occupation="Townsfolk"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
@@ -2213,8 +2125,6 @@
                    id="Item.peasant_hatchet_1_t1" />
         <equipment slot="Head"
                    id="Item.aserai_civil_c_head" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
         <equipment slot="Body"
                    id="Item.aserai_civil_c" />
         <equipment slot="Leg"
@@ -2258,7 +2168,7 @@
         <equipment slot="Head"
                    id="Item.aserai_civil_hscarf_b" />
         <equipment slot="Body"
-                   id="Item.aserai_archer_armor" />
+                   id="Item.layered_robe" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
@@ -2273,20 +2183,18 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head"
                    id="Item.turban" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
         <equipment slot="Body"
                    id="Item.tassled_southern_robes" />
         <equipment slot="Leg"
                    id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
 
 <!--bodyguard-->
 
-<NPCCharacter id="gangleader_bodyguard_aserai"
+<NPCCharacter id="gangleader_bodyguard_ayyubid"
                 default_group="Infantry"
                 name="{=LNNXiPyV}Gang Leader Bodyguard"
                 occupation="Townsfolk"
@@ -2294,51 +2202,45 @@
                 skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
                 level="16">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Item0"
-                   id="Item.aserai_axe_1_t2" />
+                   id="Item.aserai_sword_2_t2" />
         <equipment slot="Head"
-                   id="Item.tuareg" />
+                   id="Item.tied_head_wrapping" />
         <equipment slot="Body"
                    id="Item.desert_robe" />
         <equipment slot="Leg"
-                   id="Item.strapped_leather_boots" />
+                   id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Item0"
-                   id="Item.aserai_axe_2_t2" />
+                   id="Item.aserai_sword_2_t2" />
         <equipment slot="Head"
                    id="Item.tuareg" />
         <equipment slot="Body"
                    id="Item.thick_sleeved_robe" />
         <equipment slot="Leg"
-                   id="Item.wrapped_shoes" />
+                   id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
+        <equipment slot="Head"
+                   id="Item.tied_head_wrapping" />
+	  <equipment slot="Item0"
                    id="Item.aserai_mace_2_t2" />
         <equipment slot="Body"
                    id="Item.layered_robe" />
         <equipment slot="Leg"
-                   id="Item.strapped_leather_boots" />
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_sword_1_t2" />
-        <equipment slot="Body"
-                   id="Item.short_padded_robe" />
-        <equipment slot="Leg"
-                   id="Item.leather_shoes" />
+                   id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Item0"
                    id="Item.aserai_sword_1_t2" />
         <equipment slot="Head"
-                   id="Item.tuareg" />
+                   id="Item.tied_head_wrapping" />
         <equipment slot="Body"
                    id="Item.desert_robe" />
         <equipment slot="Leg"
@@ -2352,28 +2254,22 @@
         <equipment slot="Body"
                    id="Item.thick_sleeved_robe" />
         <equipment slot="Leg"
-                   id="Item.wrapped_shoes" />
+                   id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster>
         <equipment slot="Item0"
                    id="Item.aserai_sword_2_t2" />
-        <equipment slot="Body"
+         <equipment slot="Head"
+                   id="Item.tied_head_wrapping" />
+		 <equipment slot="Body"
                    id="Item.layered_robe" />
         <equipment slot="Leg"
-                   id="Item.strapped_leather_boots" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.aserai_sword_2_t2" />
-        <equipment slot="Body"
-                   id="Item.short_padded_robe" />
-        <equipment slot="Leg"
-                   id="Item.leather_shoes" />
+                   id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
 
- <NPCCharacter id="ransom_broker_aserai"
+ <NPCCharacter id="ransom_broker_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 name="{=W2WXkiAh}Ransom Broker"
@@ -2381,57 +2277,36 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.simple_sabre_sword_t2" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_a" />
-        <equipment slot="Leg"
-                   id="Item.wrapped_shoes" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.el_chasseus_1"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.simple_sabre_sword_t2" />
-        <equipment slot="Head"
-                   id="Item.tuareg" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_e" />
-        <equipment slot="Leg"
-                   id="Item.strapped_leather_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.byz_lam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.simple_sabre_sword_t2" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_c" />
-        <equipment slot="Leg"
-                   id="Item.strapped_leather_boots" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_e_hscarf" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.simple_sabre_sword_t2" />
-        <equipment slot="Body"
-                   id="Item.aserai_civil_e" />
-        <equipment slot="Leg"
-                   id="Item.leather_shoes" />
-        <equipment slot="Head"
-                   id="Item.aserai_civil_c_head" />
-      </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
 
 <!--townspeaople-->
 
-<NPCCharacter id="townswoman_infant_aserai"
+<NPCCharacter id="townswoman_infant_ayyubid"
                 name="{=femaleinfant}Infant"
                 age="3"
                 is_female="true"
@@ -2441,7 +2316,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -2453,7 +2328,7 @@
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="townswoman_child_aserai"
+  <NPCCharacter id="townswoman_child_ayyubid"
                 name="{=femalechild}Child"
                 age="6"
                 is_female="true"
@@ -2463,7 +2338,7 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -2477,7 +2352,7 @@
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="townswoman_teenager_aserai"
+  <NPCCharacter id="townswoman_teenager_ayyubid"
                 name="{=femaleteenager}Teenager"
                 age="14"
                 is_female="true"
@@ -2487,14 +2362,14 @@
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
                    id="Item.aserai_female_civil_a" />
         <equipment slot="Head"
-                   id="Item.aserai_female_civil_hscarf" />
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.southern_moccasins" />
       </EquipmentRoster>
@@ -2502,17 +2377,17 @@
         <equipment slot="Body"
                    id="Item.aserai_female_civil_b" />
         <equipment slot="Head"
-                   id="Item.aserai_female_civil_hscarf_b" />
+                   id="Item.tight_head_scarf" />
         <equipment slot="Leg"
                    id="Item.southern_moccasins" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body"
-                   id="Item.fine_southern_dress" />
+                   id="Item.aserai_female_civil_b" />
         <equipment slot="Leg"
                    id="Item.southern_moccasins" />
         <equipment slot="Head"
-                   id="Item.desert_headdress" />
+                   id="Item.tight_head_scarf" />
       </EquipmentRoster>
       <EquipmentSet id="ase_bat_template_medium" />
     </Equipments>
@@ -2520,7 +2395,7 @@
 
 <!--barber-->
 
- <NPCCharacter id="barber_aserai"
+ <NPCCharacter id="barber_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Townsfolk"
@@ -2528,45 +2403,34 @@
                 name="{=WH7EGGIg}Barber"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Leg"
-                   id="Item.battania_leather_boots" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.desert_cap" />
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.desert_cap" />
-        <equipment slot="Leg"
-                   id="Item.leather_boots" />
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.aserai_civil_f"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Leg"
-                   id="Item.leather_shoes" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
-    </Equipments>
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
+	  </Equipments>
   </NPCCharacter>
 
  <!--Weaponsmith-->
  
-  <NPCCharacter id="weaponsmith_aserai"
+  <NPCCharacter id="weaponsmith_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Weaponsmith"
@@ -2574,51 +2438,36 @@
                 name="{=UaN2lfwi}Weaponsmith"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_sword_4_t4" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Leg"
-                   id="Item.battania_leather_boots" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.desert_cap" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.byz_lam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_sword_5_t4" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.desert_cap" />
-        <equipment slot="Leg"
-                   id="Item.leather_boots" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_sword_6_t4" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Leg"
-                   id="Item.leather_shoes" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
 
 <!--blacksmith-->
 
-<NPCCharacter id="blacksmith_aserai"
+<NPCCharacter id="blacksmith_ayyubid"
                 default_group="Infantry"
                 is_hero="false"
                 occupation="Blacksmith"
@@ -2626,41 +2475,29 @@
                 name="{=bNnQt4jN}Blacksmith"
                 skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
     <face>
-      <face_key_template value="BodyProperty.villager_aserai" />
+      <face_key_template value="BodyProperty.villager_ayyubid" />
     </face>
     <skills></skills>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_sword_3_t3" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Leg"
-                   id="Item.battania_leather_boots" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.desert_cap" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.aserai_civil_f"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.aserai_sword_3_t3" />
-        <equipment slot="Body"
-                   id="Item.leather_apron" />
-        <equipment slot="Leg"
-                   id="Item.leather_boots" />
-        <equipment slot="Gloves"
-                   id="Item.leather_gloves" />
-        <equipment slot="Head"
-                   id="Item.desert_cap" />
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid" />
     </Equipments>
   </NPCCharacter>
 
 <!--prison guard-->
 
-<NPCCharacter id="prison_guard_aserai"
+<NPCCharacter id="prison_guard_ayyubid"
                 default_group="Infantry"
                 level="21"
                 culture="Culture.ayyubid"
@@ -2693,8 +2530,8 @@
 				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>	
 				<equipment slot="Cape" id="Item.scarf"/>
 				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.northern_spear_2_t3" />
@@ -2702,17 +2539,8 @@
 				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>			
 				<equipment slot="Head" id="Item.desert_mail_coif"/>
 				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.northern_spear_2_t3" />
-				<equipment slot="Item1" id="Item.tribal_steppe_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>			
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.desert_cap"/>
-				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.northern_spear_2_t3" />
@@ -2720,8 +2548,8 @@
 				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>		
 				<equipment slot="Cape" id="Item.scarf"/>
 				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
       <EquipmentRoster>
 				<equipment slot="Item0" id="Item.northern_spear_2_t3" />
@@ -2729,23 +2557,13 @@
 				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>			
 				<equipment slot="Head" id="Item.desert_mail_coif"/>
 				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-				<equipment slot="Item0" id="Item.northern_spear_2_t3" />
-				<equipment slot="Item1" id="Item.tribal_steppe_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>			
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.desert_cap"/>
-				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-
+				<equipment slot="Body" id="Item.we_e_reinf_chainmail_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
 
- <NPCCharacter id="aserai_duel_preset"
+ <NPCCharacter id="ayyubid_duel_preset"
                 default_group="Infantry"
                 level="1"
                 occupation="Townsfolk"
@@ -2808,19 +2626,19 @@
         <equipment slot="Item0"
                    id="Item.eastern_spear_4_t4" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="tournament_template_aserai_one_participant_set_v1"
+  <NPCCharacter id="tournament_template_ayyubid_one_participant_set_v1"
                 default_group="Infantry"
                 level="6"
-                name="{=!}tournament_template_aserai_one_participant_set_v1"
+                name="{=!}tournament_template_ayyubid_one_participant_set_v1"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills></skills>
     <upgrade_targets></upgrade_targets>
@@ -2833,18 +2651,18 @@
         <equipment slot="Item2"
                    id="Item.eastern_javelin_1_t2_blunt" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai_civilian"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid_civilian"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="tournament_template_aserai_two_participant_set_v1"
+  <NPCCharacter id="tournament_template_ayyubid_two_participant_set_v1"
                 default_group="Infantry"
                 level="6"
-                name="{=!}tournament_template_aserai_two_participant_set_v1"
+                name="{=!}tournament_template_ayyubid_two_participant_set_v1"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills></skills>
     <upgrade_targets></upgrade_targets>
@@ -2861,18 +2679,18 @@
         <equipment slot="Item1"
                    id="Item.bound_desert_round_sparring_shield" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai_civilian"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid_civilian"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="tournament_template_aserai_two_participant_set_v2"
+  <NPCCharacter id="tournament_template_ayyubid_two_participant_set_v2"
                 default_group="Infantry"
                 level="6"
-                name="{=!}tournament_template_aserai_two_participant_set_v2"
+                name="{=!}tournament_template_ayyubid_two_participant_set_v2"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills></skills>
     <upgrade_targets></upgrade_targets>
@@ -2891,18 +2709,18 @@
         <equipment slot="Item2"
                    id="Item.aserai_axe_2_t2_blunt" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai_civilian"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid_civilian"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="tournament_template_aserai_two_participant_set_v3"
+  <NPCCharacter id="tournament_template_ayyubid_two_participant_set_v3"
                 default_group="Infantry"
                 level="6"
-                name="{=!}tournament_template_aserai_two_participant_set_v3"
+                name="{=!}tournament_template_ayyubid_two_participant_set_v3"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills></skills>
     <upgrade_targets></upgrade_targets>
@@ -2929,14 +2747,14 @@
         <equipment slot="HorseHarness"
                    id="Item.light_harness" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai_civilian"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid_civilian"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="tournament_template_aserai_four_participant_set_v1"
+  <NPCCharacter id="tournament_template_ayyubid_four_participant_set_v1"
                 default_group="Infantry"
                 level="6"
-                name="{=!}tournament_template_aserai_four_participant_set_v1"
+                name="{=!}tournament_template_ayyubid_four_participant_set_v1"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
     <face>
@@ -2971,18 +2789,18 @@
         <equipment slot="Item2"
                    id="Item.aserai_axe_2_t2_blunt" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai_civilian"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid_civilian"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="tournament_template_aserai_four_participant_set_v2"
+  <NPCCharacter id="tournament_template_ayyubid_four_participant_set_v2"
                 default_group="Infantry"
                 level="6"
-                name="{=!}tournament_template_aserai_four_participant_set_v2"
+                name="{=!}tournament_template_ayyubid_four_participant_set_v2"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills></skills>
     <upgrade_targets></upgrade_targets>
@@ -3021,18 +2839,18 @@
         <equipment slot="HorseHarness"
                    id="Item.light_harness" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai_civilian"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid_civilian"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="tournament_template_aserai_four_participant_set_v3"
+  <NPCCharacter id="tournament_template_ayyubid_four_participant_set_v3"
                 default_group="Infantry"
                 level="6"
-                name="{=!}tournament_template_aserai_four_participant_set_v3"
+                name="{=!}tournament_template_ayyubid_four_participant_set_v3"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills></skills>
     <upgrade_targets></upgrade_targets>
@@ -3073,18 +2891,18 @@
         <equipment slot="HorseHarness"
                    id="Item.light_harness" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai_civilian"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid_civilian"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="tournament_template_aserai_four_participant_set_v4"
+  <NPCCharacter id="tournament_template_ayyubid_four_participant_set_v4"
                 default_group="Infantry"
                 level="6"
-                name="{=!}tournament_template_aserai_four_participant_set_v4"
+                name="{=!}tournament_template_ayyubid_four_participant_set_v4"
                 culture="Culture.ayyubid"
                 skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills></skills>
     <upgrade_targets></upgrade_targets>
@@ -3133,7 +2951,7 @@
         <equipment slot="HorseHarness"
                    id="Item.light_harness" />
       </EquipmentRoster>
-      <EquipmentSet id="npc_wanderer_equipment_template_aserai_civilian"
+      <EquipmentSet id="npc_wanderer_equipment_template_ayyubid_civilian"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -3143,12 +2961,12 @@
   <NPCCharacter id="fatimid_levy"
                 default_group="Infantry"
                 level="6"
-                name="{=E11FAt10}Fatimid Levy"
+                name="{=fatimid_levy}Fatimid Levy"
                 occupation="Soldier"
                 is_basic_troop="true"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
       <skill id="Athletics"
@@ -3176,73 +2994,72 @@
    
       			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.light_mace_t3"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
 				<equipment slot="Body" id="Item.aserai_civil_e"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.light_mace_t3"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
+				<equipment slot="Head" id="Item.aserai_civil_c_head"/>
 				<equipment slot="Body" id="Item.aserai_civil_b"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.light_mace_t3"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
 				<equipment slot="Head" id="Item.tuareg"/>
 				<equipment slot="Body" id="Item.tassled_southern_robes"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.light_mace_t3"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
 				<equipment slot="Cape" id="Item.scarf"/>
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
-			      			<EquipmentRoster>
+			 <EquipmentRoster>
 				<equipment slot="Item0" id="Item.light_mace_t3"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
 				<equipment slot="Body" id="Item.aserai_civil_e"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.light_mace_t3"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<equipment slot="Body" id="Item.aserai_civil_b"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
 				<equipment slot="Head" id="Item.tuareg"/>
 				<equipment slot="Body" id="Item.tassled_southern_robes"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
 				<equipment slot="Cape" id="Item.scarf"/>
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
-    </Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+			</Equipments>
   </NPCCharacter>
   
   <NPCCharacter id="fatimid_militia_spearman"
                 default_group="Infantry"
                 level="11"
-                name="{=E11FAt10}Fatimid Militia Spearman"
+                name="{=fatimid_militia_spearman.name}Fatimid Militia Spearman"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
     <skill id="Athletics"
@@ -3286,7 +3103,7 @@
 
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>	
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
@@ -3294,7 +3111,7 @@
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>	
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
@@ -3319,7 +3136,7 @@
 
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>	
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
@@ -3327,23 +3144,31 @@
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>	
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<equipment slot="Body" id="Item.long_woolen_tunic"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
-    </Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.light_mace_t3"/>	
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+			</Equipments>
   </NPCCharacter>
   
   <NPCCharacter id="fatimid_veteran_militia_spearman"
                 default_group="Infantry"
                 level="16"
-                name="{=E11FAt10}Fatimid Veteran Militia Spearman"
+                name="{=fatimid_veteran_militia_spearman.name}Fatimid Veteran Militia Spearman"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
     <skill id="Athletics"
@@ -3379,7 +3204,7 @@
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>	
 				<equipment slot="Cape" id="Item.scarf"/>
 				<equipment slot="Head" id="Item.desert_cap"/>
@@ -3388,7 +3213,7 @@
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>	
 				<equipment slot="Head" id="Item.desert_cap"/>
 				<equipment slot="Cape" id="Item.scarf"/>
@@ -3405,17 +3230,25 @@
 				<equipment slot="Body" id="Item.aserai_civil_e"/>
 				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
 			</EquipmentRoster>
-    </Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.light_mace_t3"/>	
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+			</Equipments>
   </NPCCharacter>
   
    <NPCCharacter id="fatimid_ghazi_swordsman"
                 default_group="Infantry"
                 level="21"
-                name="{=E11FAt10}Fatimid Ghazi Spearman"
+                name="{=fatimid_ghazi_swordsman.name}Fatimid Ghazi Spearman"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
     <skill id="Athletics"
@@ -3438,146 +3271,67 @@
     <upgrade_targets>
     </upgrade_targets>
     <Equipments>
-							<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.scarf_nasal_1"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-			</EquipmentRoster>
-
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.cape_heavy_11"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-			</EquipmentRoster>
-						<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.cape_heavy_11"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-			</EquipmentRoster>
-
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.scarf_nasal_1"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-			</EquipmentRoster>
-						<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.open_desert_helmet"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-			</EquipmentRoster>
-
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.closed_desert_helmet"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-			</EquipmentRoster>
-						<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.scarf_nasal_1"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.scarf_nasal_1"/>
-				<equipment slot="Body" id="Item.esmail_tunic1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 			</EquipmentRoster>
-
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
+			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.cape_heavy_11"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.esmail_tunic1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 			</EquipmentRoster>
-						<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.cape_heavy_11"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Body" id="Item.esmail_tunic1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-			</EquipmentRoster>
-
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.scarf_nasal_1"/>
-				<equipment slot="Body" id="Item.esmail_tunic1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 			</EquipmentRoster>
-						<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.open_desert_helmet"/>
-				<equipment slot="Body" id="Item.esmail_tunic1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 			</EquipmentRoster>
-
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.closed_desert_helmet"/>
-				<equipment slot="Body" id="Item.esmail_tunic1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 			</EquipmentRoster>
-						<EquipmentRoster>
-				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Head" id="Item.scarf_nasal_1"/>
-				<equipment slot="Body" id="Item.esmail_tunic1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-			</EquipmentRoster>
-
-    </Equipments>
+			</Equipments>
   </NPCCharacter>
 
 <NPCCharacter id="fatimid_militia_archer"
                 default_group="Ranged"
                 level="11"
-                name="{=E11FAt10}Fatimid Sudanese Ghulam Archers"
+                name="{=fatimid_militia_archer.name}Fatimid Sudanese Ghulam Archer"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
@@ -3610,7 +3364,7 @@
 
 	        <EquipmentRoster>
 				<equipment slot="Item0" id="Item.composite_bow"/>
-				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>
 				<equipment slot="Head" id="Item.woven_turban"/>
 				<equipment slot="Body" id="Item.desert_robe"/>
@@ -3618,25 +3372,30 @@
       </EquipmentRoster>
 	        <EquipmentRoster>
 				<equipment slot="Item0" id="Item.composite_bow"/>
-				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>
 				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
 				<equipment slot="Body" id="Item.layered_robe"/>
          </EquipmentRoster>
 		 <EquipmentRoster>
 				<equipment slot="Item0" id="Item.composite_bow"/>
-				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
 				<equipment slot="Item2" id="Item.light_mace_t3"/>
 				<equipment slot="Head" id="Item.woven_turban"/>
 				<equipment slot="Body" id="Item.long_desert_robe"/>
       </EquipmentRoster>
-    </Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
+				<equipment slot="Head" id="Item.woven_turban"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
+      </EquipmentRoster>
+	  </Equipments>
   </NPCCharacter>
   
   <NPCCharacter id="fatimid_veteran_militia_archer"
                 default_group="Infantry"
                 level="16"
-                name="{=E11FAt10}Fatimid Sudanese Ghulam Guard"
+                name="{=fatimid_veteran_militia_archer.name}Fatimid Sudanese Ghulam Guard"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
@@ -3666,7 +3425,7 @@
     <Equipments>
 	  <EquipmentRoster>
 				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
 				<equipment slot="Cape" id="Item.scarf"/>
 				<equipment slot="Head" id="Item.woven_turban"/>
@@ -3675,7 +3434,7 @@
       </EquipmentRoster>
 	        <EquipmentRoster>
 				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
 				<equipment slot="Cape" id="Item.scarf"/>
 				<equipment slot="Head" id="Item.desert_cap"/>
@@ -3683,7 +3442,7 @@
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
 				<equipment slot="Head" id="Item.woven_turban"/>
 				<equipment slot="Body" id="Item.aserai_civil_f"/>
@@ -3691,23 +3450,29 @@
       </EquipmentRoster>
 	        <EquipmentRoster>
 				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
 				<equipment slot="Cape" id="Item.scarf"/>
 				<equipment slot="Head" id="Item.woven_turban"/>
 				<equipment slot="Body" id="Item.layered_robe"/>
       </EquipmentRoster>
-    </Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.woven_turban"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+      </EquipmentRoster>
+	  </Equipments>
   </NPCCharacter>
   
   <NPCCharacter id="fatimid_ghazi_archer"
                 default_group="Ranged"
                 level="21"
-                name="{=E11FAt10}Fatimid Ghazi Archer"
+                name="{=fatimid_ghazi_archer.name}Fatimid Ghazi Archer"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
     <skill id="Athletics"
@@ -3721,7 +3486,7 @@
     <skill id="Polearm"
            value="60" />
     <skill id="Bow"
-           value="100" />
+           value="90" />
     <skill id="Crossbow"
            value="100" />
     <skill id="Throwing"
@@ -3730,82 +3495,72 @@
     <upgrade_targets>
     </upgrade_targets>
     <Equipments>
-
-					<EquipmentRoster>
+			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.tribal_bow"/>
 				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.desert_mail_coif"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.tribal_bow"/>
 				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.desert_cap"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 			</EquipmentRoster>
-
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
+			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.tribal_bow"/>
 				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.open_desert_helmet"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 			</EquipmentRoster>
-
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.tribal_bow"/>
 				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.scarf_nasal_1"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 			</EquipmentRoster>
-						<EquipmentRoster>
+ 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.tribal_bow"/>
 				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.desert_mail_coif"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.chainskirt_strap_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 			</EquipmentRoster>
-
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.tribal_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.chainskirt_strap_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 			</EquipmentRoster>
-    </Equipments>
+			</Equipments>
   </NPCCharacter>
   
    <NPCCharacter id="fatimid_bedouin_horse_archer"
                 default_group="HorseArcher"
                 level="16"
-                name="{=E11FAt10}Fatimid Bedouin Horse Archers"
+                name="{=fatimid_bedouin_horse_archer.name}Fatimid Bedouin Horse Archers"
                 occupation="Soldier"
 				upgrade_requires="ItemCategory.horse"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_ayyubid" />
     </face>
     <skills>
     <skill id="Athletics"
@@ -3925,13 +3680,20 @@
 				<equipment slot="Horse" id="Item.aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
       </EquipmentRoster>
-    </Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Head" id="Item.closed_head_scarf"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+      </EquipmentRoster>
+	  </Equipments>
   </NPCCharacter>
   
   <NPCCharacter id="fatimid_veteran_bedouin_horse_archer"
                 default_group="Cavalry"
                 level="21"
-                name="{=E11FAt10}Fatimid Sudanese Ghulam"
+                name="{=fatimid_veteran_bedouin_horse_archer.name}Fatimid Sudanese Ghulam"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
@@ -4004,18 +3766,25 @@
 				<equipment slot="Horse" id="Item.aserai_horse"/>
 				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 			</EquipmentRoster>
-    </Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.desert_mail_coif"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+			</Equipments>
   </NPCCharacter>
   
    <NPCCharacter id="fatimid_mamluk"
                 default_group="HorseArcher"
                 level="21"
-                name="{=E11FAt10}Fatimid Mamluk Horse Archer"
+                name="{=fatimid_mamluk.name}Fatimid Mamluk Horse Archer"
 				is_basic_troop="true"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
-      <face_key_template value="BodyProperty.fighter_aserai" />
+      <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
     <skills>
     <skill id="Athletics"
@@ -4039,61 +3808,85 @@
 			<upgrade_target id="NPCCharacter.fatimid_veteran_mamluk" />
     </upgrade_targets>
     <Equipments>
-     			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Head" id="Item.emirs_helmet"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+			</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.open_desert_helmet"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
-				<equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.emirs_helmet"/>
-				<equipment slot="Body" id="Item.desert_padded_cloth"/>
-				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-      </EquipmentRoster>
-    </Equipments>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+			</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
+			</EquipmentRoster>
+	  </Equipments>
   </NPCCharacter>
   
    <NPCCharacter id="fatimid_veteran_mamluk"
                 default_group="Cavalry"
                 level="26"
-                name="{=E11FAt10}Fatimid Junior Ghulam Cavalry"
+                name="{=fatimid_veteran_mamluk.name}Fatimid Junior Ghulam Cavalry"
                 occupation="Soldier"
 				upgrade_requires="ItemCategory.war_horse"
                 culture="Culture.ayyubid">
@@ -4122,101 +3915,79 @@
 				<upgrade_target id="NPCCharacter.fatimid_hujariyya" />
     </upgrade_targets>
     <Equipments>
-				<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.desert_mail_coif"/>
-				<equipment slot="Body" id="Item.byz_lam_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.nordic_helmet"/>
-				<equipment slot="Body" id="Item.byz_lam_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.eoe_ar_turbancasque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+			</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
+				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.desert_mail_coif"/>
-				<equipment slot="Body" id="Item.byz_lam_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.eoe_ar_turbancasque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.byz_lam_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.eoe_kairouan_com1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
-							<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.nordic_helmet"/>
-				<equipment slot="Body" id="Item.byz_lam_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.noble_as_helmet1"/>
-				<equipment slot="Body" id="Item.byz_lam_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_arab_lightarmor_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Head" id="Item.scarf_nasal_1"/>
-				<equipment slot="Body" id="Item.byz_lam_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
-				<equipment slot="Item2" id="Item.ridged_sabre_sword_t4"/>
-				<equipment slot="Head" id="Item.desert_helmet_with_mail"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.byz_lam_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
-				<equipment slot="Horse" id="Item.t2_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-			</EquipmentRoster>
-    </Equipments>
+			</Equipments>
   </NPCCharacter>
 
 <NPCCharacter id="fatimid_hujariyya"
                 default_group="Cavalry"
                 level="31"
-                name="{=E11FAt10}Fatimid Senior Ghulam Cavalry"
+                name="{=fatimid_hujariyya.name}Fatimid Senior Ghulam Cavalry"
                 occupation="Soldier"
                 culture="Culture.ayyubid">
     <face>
@@ -4224,7 +3995,7 @@
     </face>
     <skills>
     <skill id="Athletics"
-           value="60" />
+           value="80" />
     <skill id="Riding"
            value="200" />
     <skill id="OneHanded"
@@ -4244,93 +4015,102 @@
     </upgrade_targets>
     <Equipments>
      			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Head" id="Item.imperial_goggled_helmet"/>
-				<equipment slot="Gloves" id="Item.mailgloves_1"/>
-				<equipment slot="Body" id="Item.byz_noble_armor1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Head" id="Item.eoe_ar_turbancasque_1"/>
+				<equipment slot="Gloves" id="Item.eoe_splinted_greaves_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_arab_decorpants1"/>
 				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.eoe_mailcapar_6"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Head" id="Item.imperial_goggled_helmet"/>
-				<equipment slot="Body" id="Item.byz_noble_armor1"/>
-				<equipment slot="Gloves" id="Item.mailgloves_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Head" id="Item.eoe_ar_turbancasque_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Gloves" id="Item.eoe_splinted_greaves_1"/>
+				<equipment slot="Leg" id="Item.eoe_arab_decorpants1"/>
 				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.eoe_mailcapar_6"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Head" id="Item.imperial_goggled_helmet"/>
-				<equipment slot="Body" id="Item.byz_noble_armor1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Head" id="Item.eoe_ar_turbancasque_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_arab_decorpants1"/>
 				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.eoe_mailcapar_6"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Gloves" id="Item.mailgloves_1"/>
-				<equipment slot="Head" id="Item.imperial_goggled_helmet"/>
-				<equipment slot="Body" id="Item.byz_noble_armor1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Gloves" id="Item.eoe_splinted_greaves_1"/>
+				<equipment slot="Head" id="Item.eoe_ar_turbancasque_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_arab_decorpants1"/>
 				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.eoe_mailcapar_6"/>
 			</EquipmentRoster>
 			     			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Head" id="Item.imperial_goggled_helmet"/>
-				<equipment slot="Gloves" id="Item.mailgloves_1"/>
-				<equipment slot="Body" id="Item.byz_noble_armor1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Gloves" id="Item.eoe_splinted_greaves_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.eoe_mailcapar_6"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Head" id="Item.imperial_goggled_helmet"/>
-				<equipment slot="Body" id="Item.byz_noble_armor1"/>
-				<equipment slot="Gloves" id="Item.mailgloves_1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Gloves" id="Item.eoe_splinted_greaves_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.eoe_mailcapar_6"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Head" id="Item.imperial_goggled_helmet"/>
-				<equipment slot="Body" id="Item.byz_noble_armor1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots1"/>
 				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.eoe_mailcapar_6"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
-				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item0" id="Item.eoe_pennant_spear_1"/>
+				<equipment slot="Item1" id="Item.eoe_arabic_shield_1"/>
 				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Cape" id="Item.cape_heavy_11"/>
-				<equipment slot="Gloves" id="Item.mailgloves_1"/>
-				<equipment slot="Head" id="Item.imperial_goggled_helmet"/>
-				<equipment slot="Body" id="Item.byz_noble_armor1"/>
-				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Gloves" id="Item.eoe_splinted_greaves_1"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_ea_leatherboots2"/>
 				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				<equipment slot="HorseHarness" id="Item.eoe_mailcapar_6"/>
 			</EquipmentRoster>
-    </Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Gloves" id="Item.eoe_splinted_greaves_1"/>
+				<equipment slot="Head" id="Item.eoe_eastnasal_casque_1"/>
+				<equipment slot="Body" id="Item.eoe_muslim_heavylam_1"/>
+				<equipment slot="Leg" id="Item.eoe_arab_decorpants1"/>
+			</EquipmentRoster>
+			</Equipments>
   </NPCCharacter>
+
+
+
 
 </NPCCharacters>
