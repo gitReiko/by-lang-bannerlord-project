@@ -1,0 +1,3576 @@
+<NPCCharacters>
+	<!--civilians-->
+	<NPCCharacter id="tavernkeeper_kryvich" default_group="Infantry" is_hero="false" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+      </EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--taverngame-->
+	<NPCCharacter id="taverngamehost_kryvich" default_group="Infantry" is_hero="false" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+      </EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--musician-->
+	<NPCCharacter id="musician_kryvich" default_group="Infantry" is_hero="false" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_empire"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--tavernwench-->
+	<NPCCharacter id="tavern_wench_kryvich" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" is_hero="false" occupation="TavernWench" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.wanderer_female_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--armorer-->
+	<NPCCharacter id="armorer_kryvich" default_group="Infantry" is_hero="false" occupation="Armorer" culture="Culture.kryvich" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Cape" id="Item.eoe_wecommonercape_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_1"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--horsemerchant-->
+	<NPCCharacter id="horseMerchant_kryvich" default_group="Infantry" is_hero="false" occupation="HorseTrader" culture="Culture.kryvich" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--merchant-->
+	<NPCCharacter id="merchant_kryvich" default_group="Infantry" is_hero="false" occupation="GoodsTrader" culture="Culture.kryvich" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_we_unicloak_11"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic5"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_stripe1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic7"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic8"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic9"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--beggar-->
+	<NPCCharacter id="beggar_kryvich" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="000507400600141300000000000000100000000000000000000000000000000000010bacf10000000000000000000000000000000000000000000000000000c1" max_value="001cffffd50034d4fffffffffff0fffffffffffffffffffffffffeffffffffff00010baff1ffffff000000000000000000000000000000000000000000008101" /-->
+			<BodyProperties version="4" age="91.47" weight="0" build="0.1767" key="0005040006001413000000000000001000000000000000000000000000000000000A0BAB010000000000000000000000000000000000000000000000000000C1"/>
+			<BodyPropertiesMax version="4" age="48.73" weight="0.357" build="0.3767" key="001CFC0FD50034D4FFFFFFFFFFF5FFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFF000A5BA601FFFFFF000000000000000000000000000000000000000000788101"/>
+		</face>
+		<skills/>
+		<!-- Uses village hair -->
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.torn_bandit_clothes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Body" id="Item.torn_bandit_clothes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="female_beggar_kryvich" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.wanderer_female_kryvian"/>
+		</face>
+		<skills/>
+		<!-- Uses village hair -->
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.torn_bandit_clothes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.plain_dress"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--sturgia-->
+	<NPCCharacter id="female_dancer_kryvich" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" is_hero="false" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.wanderer_female_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--tournament-->
+	<NPCCharacter id="tournament_master_kryvich" default_group="Infantry" is_hero="false" occupation="ArenaMaster" culture="Culture.kryvich" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Cape" id="Item.eoe_decorativewe_cape1"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--villagers-->
+	<NPCCharacter id="villager_infant_kryvich" name="{=maleinfant}Infant" age="3" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_3"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="villager_child_kryvich" name="{=malechild}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="villager_teenager_kryvich" name="{=maleteenager}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="village_woman_infant_kryvich" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.wanderer_female_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="village_woman_child_kryvich" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.wanderer_female_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="village_woman_teenager_kryvich" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.wanderer_female_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.northern_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="village_woman_kryvich" default_group="Infantry" is_female="true" level="1" name="{=village_woman_kryvich.erik.name}Kryvian Peasant" occupation="Villager" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.wanderer_female_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--practice dummy-->
+	<NPCCharacter id="gear_practice_dummy_kryvich" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kryvich" name="{=!}Sturgia Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.northern_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_1_kryvich" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kryvich" name="{=!}Sturgia Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_2_kryvich" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kryvich" name="{=!}Sturgia Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_3_kryvich" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.kryvich" name="{=!}Sturgia Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--character creation-->
+	<NPCCharacter id="player_char_creation_kryvich" name="{=!}with two-handed swords" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.empire" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="20"/>
+			<skill id="Riding" value="0"/>
+			<skill id="Athletics" value="15"/>
+			<skill id="Trade" value="5"/>
+			<skill id="Scouting" value="5"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.bastard_sword_t2"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--shopkeeper-->
+	<NPCCharacter id="shop_worker_kryvich" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--town children-->
+	<NPCCharacter id="townsman_infant_kryvich" name="{=maleinfant}Infant" age="3" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townsman_child_kryvich" name="{=malechild}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townsman_teenager_kryvich" name="{=maleteenager}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_2"/>
+				<equipment slot="Cape" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townsman_kryvich" default_group="Infantry" name="{=muu5cofb}Townsman" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic9"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre7"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre5"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic7"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic8"/>
+				<equipment slot="Cape" id="Item.eoe_com_cloak_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre7"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--rural-->
+	<NPCCharacter id="rural_notable_notary_kryvich" default_group="Infantry" name="{=AlmaRAib}Rural Notable Notary" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre5"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre7"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic9"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic8"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic7"/>
+				<equipment slot="Cape" id="Item.eoe_we_unicloak_11"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--preacher-->
+	<NPCCharacter id="preacher_notary_kryvich" default_group="Infantry" name="{=bLMGbLF8}Preacher Notary" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre5"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre7"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic9"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic8"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic7"/>
+				<equipment slot="Cape" id="Item.eoe_we_unicloak_11"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--artisan-->
+	<NPCCharacter id="artisan_notary_kryvich" default_group="Infantry" name="{=ECxiXTbF}Artisan Notary" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre5"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre7"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic9"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic8"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic7"/>
+				<equipment slot="Cape" id="Item.eoe_we_unicloak_11"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--merchant-->
+	<NPCCharacter id="merchant_notary_kryvich" default_group="Infantry" name="{=reoVAtrE}Merchant Notary" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre5"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre7"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic9"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic8"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic7"/>
+				<equipment slot="Cape" id="Item.eoe_we_unicloak_11"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic6"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--bodyguard-->
+	<NPCCharacter id="gangleader_bodyguard_kryvich" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" level="16">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Cape" id="Item.eoe_we_unicloak_11"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Cape" id="Item.eoe_we_unicloak_11"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_2"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunictc1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="ransom_broker_kryvich" default_group="Infantry" is_hero="false" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--townspeople-->
+	<NPCCharacter id="townswoman_infant_kryvich" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townswoman_child_kryvich" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townswoman_teenager_kryvich" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--barber-->
+	<NPCCharacter id="barber_kryvich" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.kryvich" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_we_commontunic10"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--weaponsmith-->
+	<NPCCharacter id="weaponsmith_kryvich" default_group="Infantry" is_hero="false" occupation="Weaponsmith" culture="Culture.kryvich" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_vl_paddedtunic_1"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_1"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--blacksmith-->
+	<NPCCharacter id="blacksmith_kryvich" default_group="Infantry" is_hero="false" occupation="Blacksmith" culture="Culture.kryvich" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_vl_paddedtunic_1"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_klappenrock_decor_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_villagerhood1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_1"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Gloves" id="Item.eoe_leathergloves1"/>
+				<equipment slot="Leg" id="Item.eoe_byz_leggings2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--prison guard-->
+	<NPCCharacter id="prison_guard_kryvich" default_group="Infantry" level="4" culture="Culture.kryvich" occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<!---<equipment slot="Leg" id="Item.cape" />-->
+		<upgrade_targets/>
+		<Equipments>
+      <EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Body" id="Item.eoe_mail_long"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Cape" id="Item.eoe_com_cloak_1"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_unicloak_1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_sta1"/>
+				<equipment slot="Body" id="Item.eoe_mail_long"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk" culture="Culture.kryvich" name="{=!}Sturgia preset" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0000027000000000471000080010891070070207000001030000001110100000000507aaf5700001000000000000000000000000000000000000000001680000" max_value="00118b6a00002914eff88effeef9fffbfecfff888ee3feeff7efffcefffffeff000e97adfeffffef000000000000000000000000000000000000000001f08140" /-->
+			<BodyProperties version="4" age="35.97" weight="0.1971" build="0.4077" key="0000000000000000471000080013891070070207000001030000001110100000000B37A405700001000000000000000000000000000000000000000000780000"/>
+			<BodyPropertiesMax version="4" age="95.35" weight="0.4413" build="0.7077" key="0010880C40002914EFF88EFFEEF7FFFBFECFFF888EE3FEEFF7EFFFCEFFFFFEFF0A7B77AB07FFFFEF000000000000000000000000000000000000000000F09140"/>
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="0" /> #OLD_SKILL# -->
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sparth_axe_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_kryvich_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_kryvich_one_participant_set_v1" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_kryvich_one_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_kryvich_one_participant_set_v2" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1_blunt"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_kryvich_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_kryvich_two_participant_set_v1" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item1" id="Item.tournament_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_kryvich_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_kryvich_two_participant_set_v2" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+				<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1_blunt"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_kryvich_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_kryvich_two_participant_set_v3" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_kryvich_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_kryvich_four_participant_set_v1" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item1" id="Item.tournament_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_kryvich_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_kryvich_four_participant_set_v2" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item1" id="Item.tournament_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_kryvich_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_kryvich_four_participant_set_v3" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item1" id="Item.tournament_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item1" id="Item.tournament_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="guard_kryvich" default_group="Infantry" level="4" occupation="Soldier" culture="Culture.kryvich" name="{=guardnoun}Guard" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<Traits/>
+		<!---<equipment slot="Leg" id="Item.cape" />-->
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.northern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet"/>
+				<equipment slot="Body" id="Item.nordic_hauberk"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.northern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet"/>
+				<equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_sturgia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--troops-->
+	<NPCCharacter id="villager_kryvich" default_group="Infantry" level="1" name="{=villager_kryvich.erik.name}Kryvian Peasant" occupation="Villager" culture="Culture.kryvich" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_levy"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre3" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy2" />
+
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoc_vla_p_tunic_2" />
+        <equipment slot="Cape"
+                   id="Item.eoe_wecommonercape_1" />
+				   <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy2" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoc_vla_p_tunic_3" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy2" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy2" />
+        <equipment slot="Cape"
+                   id="Item.eoe_wecommonercape_1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre4" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoc_we_tunic_p_3" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+        <equipment slot="Cape"
+                   id="Item.eoe_furcloak2" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre7" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre2" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+        <equipment slot="Cape"
+                   id="Item.eoe_unicloak_1" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+	   <equipment slot="Body"
+                   id="Item.eoe_we_commontunictc1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre3" />
+        <equipment slot="Cape"
+                   id="Item.eoe_baltofinnic2" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_2haxe_1_t1" />
+		<equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre4" />
+        <equipment slot="Cape"
+                   id="Item.eoe_baltofinnic1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+		<equipment slot="Body"
+                   id="Item.eoe_we_commontunictc1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body"
+                   id="Item.eoc_we_tunic_p_1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy2" />
+        <equipment slot="Cape"
+                   id="Item.eoe_furcloak1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+         <equipment slot="Cape"
+                   id="Item.eoe_wecommonercape_1" />
+				   <equipment slot="Body"
+                   id="Item.eoc_vla_p_tunic_1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.eoc_we_tunic_p_2" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Body"
+                   id="Item.eoe_rusnorth_pre2" />
+        <equipment slot="Leg"
+                   id="Item.eoe_northern_baggy2" />
+        <equipment slot="Cape"
+                   id="Item.eoe_wecommonercape_1" />
+        <equipment slot="Head"
+                   id="Item.eoe_slovencap_1" />
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--caravans-->
+	<NPCCharacter id="caravan_master_kryvich" default_group="Infantry" level="26" name="{=caravan_master_kryvich.erik.name}Kryvian Caravan Master" occupation="CaravanGuard" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.decorated_short_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.decorated_short_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="caravan_guard_kryvich" default_group="Cavalry" level="21" name="{=caravan_guard_kryvich.erik.name}Kryvian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="15"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.veteran_caravan_guard_kryvich"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield2"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield2"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_vl_paddedtunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield5"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield6"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_vl_paddedtunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_sta1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_sta1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="veteran_caravan_guard_kryvich" default_group="Cavalry" level="26" name="{=veteran_caravan_guard_kryvich.erik.name}Kryvian Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield8"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy3"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield9"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy3"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield10"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Head" id="Item.eoc_w_sta_nasal_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield2"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield5"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield6"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield7"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield8"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield9"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield10"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+      <equipment slot="Horse"
+                 id="Item.sturgia_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.steppe_fur_harness" />
+    </Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="armed_trader_kryvich" default_group="Ranged" level="16" name="{=armed_trader_kryvich.erik.name}Kryvian Armed Trader" occupation="CaravanGuard" culture="Culture.kryvich" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre4"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre5"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre6"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre7"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_rusnorth_pre7"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="kryvich_levy" default_group="Infantry" level="6" name="{=kryvich_levy.erik.name}Kryvian Levy" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_armed_levy"/>
+			<upgrade_target id="NPCCharacter.kryvich_archer_levy"/>
+			<upgrade_target id="NPCCharacter.kryvich_scout"/>
+		</upgrade_targets>
+		<Equipments>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+¨			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_1"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_1"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_3"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_scout" default_group="Cavalry" level="11" name="{=kryvich_scout.erik.name}Kryvian Scout" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Riding" value="50"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="65"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_light_vershnik"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield2"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield2"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_vl_paddedtunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield5"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield6"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_vl_paddedtunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_sta1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_sta1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_armed_levy" default_group="Infantry" level="11" name="{=kryvich_armed_levy.erik.name}Kryvian Armed Levy" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="45"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_palkavy"/>
+		</upgrade_targets>
+		<Equipments>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield5"/>	
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield6"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_archer_levy" default_group="Ranged" level="11" name="{=kryvich_archer_levy.erik.name}Kryvian Archer Levy" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="25"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_palkavy_archer"/>
+		</upgrade_targets>
+		<Equipments>
+		<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			    <EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+      </EquipmentRoster>
+	  	<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+      </EquipmentRoster>
+ 	  	<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+      </EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+ 			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+      </EquipmentRoster>	
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_palkavy_archer" default_group="Ranged" level="16" name="{=kryvich_palkavy_archer.erik.name}Kryvian Palkavy Archer" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="85"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="125"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="25"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_palkavy_archer_veteran"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_l_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_3"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_we_tunic_p_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_vla_p_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_palkavy_archer_veteran" default_group="Ranged" level="21" name="{=kryvich_palkavy_archer_veteran.erik.name}Kryvian Palkavy Archer Veteran" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="75"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_2_t3"/>
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_palkavy" default_group="Infantry" level="16" name="{=kryvich_palkavy.erik.name}Kryvian Palkavy" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="75"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="75"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="75"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="35"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_palkavy_veteran"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield5"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield6"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+		<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield7"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_rusnasal_11"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield8"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eooe_rus_lightlam_pre1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_light_vershnik" default_group="Cavalry" level="16" name="{=kryvich_light_vershnik.erik.name}Kryvian Light Vershnik" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="75"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_vershnik"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield10"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+				</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield9"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+				</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield8"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+				</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield7"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+				</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_vershnik" default_group="Cavalry" level="21" name="{=kryvich_vershnik.erik.name}Kryvian Vershnik" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="75"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="175"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield10"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy3"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield9"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy3"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield8"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Head" id="Item.eoc_w_sta_nasal_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield7"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield6"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield5"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield9"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield2"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_3"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield10"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield9"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.eoe_cross1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_palkavy_veteran" default_group="Infantry" level="21" name="{=kryvich_palkavy_veteran.erik.name}Kryvian Palkavy Veteran" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="25"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="35"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="75"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield10"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield9"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield8"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_3"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				<equipment slot="Cape" id="Item.eoe_commoncloak1"/>
+				</EquipmentRoster>
+ 			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield7"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+				</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.eoe_slovencap_1"/>
+				<equipment slot="Body" id="Item.eoc_padding_tunic_4"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_druzinnik_son" default_group="Infantry" level="21" name="{=kryvich_druzinnik_son.erik.name}Kryvian Druzynnik Son" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="25"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="35"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="75"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_younger_pancyrny_druzynnik"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield2"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_pre_poor_hauberk1"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_pre_poor_hauberk1"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Head" id="Item.eoc_w_sta_nasal_1"/>
+				<equipment slot="Body" id="Item.eoe_pre_poor_hauberk2"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield5"/>
+				<equipment slot="Head" id="Item.eoc_w_sta_nasal_1"/>
+				<equipment slot="Body" id="Item.eoe_pre_poor_hauberk2"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield6"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_younger_pancyrny_druzynnik" default_group="Infantry" level="26" name="{=kryvich_younger_pancyrny_druzynnik.erik.name}Kryvian Younger Pancyrny Druzynnik" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="225"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="175"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kryvich_older_pancyrny_druzynnik"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield5"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_pre_poor_hauberk1"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield6"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_pre_poor_hauberk1"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield4"/>
+				<equipment slot="Head" id="Item.eoc_w_sta_nasal_1"/>
+				<equipment slot="Body" id="Item.eoe_pre_poor_hauberk2"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield3"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic2"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield2"/>
+				<equipment slot="Head" id="Item.eoc_w_sta_nasal_1"/>
+				<equipment slot="Body" id="Item.eoe_pre_poor_hauberk2"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_uniroundshield1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_common_hauberk_1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_west_gambeson1"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak2"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kryvich_older_pancyrny_druzynnik" default_group="Infantry" level="31" name="{=kryvich_older_pancyrny_druzynnik.erik.name}Kryvian Older Pancyrny Druzynnik" occupation="Soldier" culture="Culture.kryvich">
+		<face>
+			<face_key_template value="BodyProperty.villager_kryvian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="50"/>
+			<skill id="OneHanded" value="225"/>
+			<skill id="TwoHanded" value="125"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="75"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_almondshield_1"/>
+				<equipment slot="Head" id="Item.eoe_gjermundbu_sta1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_1"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_almondshield_1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_2"/>
+				<equipment slot="Cape" id="Item.eoe_baltofinnic1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_almondshield_1"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_3"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_almondshield_1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak1"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_almondshield_1"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_3"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak2"/>
+				<equipment slot="Leg" id="Item.eoe_northern_baggy2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.eoe_almondshield_1"/>
+				<equipment slot="Head" id="Item.eoe_wenceshlav_helmet2"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Cape" id="Item.eoe_furcloak2"/>
+				<equipment slot="Leg" id="Item.eoe_strapped_pants_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ota_n_simplevikhelmet1"/>
+				<equipment slot="Body" id="Item.eoe_hauberk_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_b"/>
+				<equipment slot="Leg" id="Item.eoc_wrapped_boots_levy1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>
