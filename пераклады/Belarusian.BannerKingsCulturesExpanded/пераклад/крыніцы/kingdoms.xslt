@@ -85,11 +85,11 @@
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='khuzait']/@name">
-        <xsl:attribute name="name">Khaganlik Devseglar</xsl:attribute>
+        <xsl:attribute name="name">Devseglar Khaganlik</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='khuzait']/@short_name">
-        <xsl:attribute name="short_name">Khaganlik Devseglar</xsl:attribute>
+        <xsl:attribute name="short_name">Devseglar Khaganlik</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='khuzait']/@ruler_title">

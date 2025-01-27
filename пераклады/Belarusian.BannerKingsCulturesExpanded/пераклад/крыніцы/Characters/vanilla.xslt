@@ -5,6 +5,63 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+	
+	<xsl:template match='NPCCharacter[@id="spc_ghilman_leader_0"]'>
+        <xsl:copy>
+            <xsl:attribute name="culture">Culture.darshi</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+	
+	<xsl:template match='NPCCharacter[@id="spc_ghilman_leader_1"]'>
+        <xsl:copy>
+            <xsl:attribute name="culture">Culture.darshi</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+
+	<xsl:template match='NPCCharacter[@id="spc_ghilman_leader_2"]'>
+        <xsl:copy>
+            <xsl:attribute name="culture">Culture.darshi</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+
+	<xsl:template match='NPCCharacter[@id="spc_ghilman_leader_3"]'>
+        <xsl:copy>
+            <xsl:attribute name="culture">Culture.darshi</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+	
+	<xsl:template match='NPCCharacter[@id="spc_jawwal_leader_0"]'>
+        <xsl:copy>
+            <xsl:attribute name="culture">Culture.jarjara</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+	
+	<xsl:template match='NPCCharacter[@id="spc_jawwal_leader_1"]'>
+        <xsl:copy>
+            <xsl:attribute name="culture">Culture.jarjara</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+	
+	<xsl:template match='NPCCharacter[@id="spc_jawwal_leader_2"]'>
+        <xsl:copy>
+            <xsl:attribute name="culture">Culture.jarjara</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+	
+	<xsl:template match='NPCCharacter[@id="spc_jawwal_leader_3"]'>
+        <xsl:copy>
+            <xsl:attribute name="culture">Culture.jarjara</xsl:attribute> 
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+	
 
     <!-- This only hides all vanilla troops -->
 	

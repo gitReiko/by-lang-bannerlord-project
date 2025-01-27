@@ -207,18 +207,58 @@
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
     <skills>
-      <skill id="Athletics" value="100" />
-      <skill id="Riding" value="30" />
-      <skill id="OneHanded" value="110" />
-      <skill id="TwoHanded" value="40" />
-      <skill id="Polearm" value="80" />
-      <skill id="Bow" value="45" />
-      <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="60" />
+      <skill id="Athletics" value="120"/>
+	  <skill id="Riding" value="0"/>
+	  <skill id="OneHanded" value="120"/>
+	  <skill id="TwoHanded" value="140"/>
+	  <skill id="Polearm" value="90"/>
+	  <skill id="Bow" value="0"/>
+	  <skill id="Crossbow" value="0"/>
+	  <skill id="Throwing" value="90"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
     <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_f" />
+			<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.sturgia_boots_b" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_nord_helmet_s" />
+			<equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.sturgia_boots_b" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.DZ_sturgia_helmet_a" />
+			<equipment slot="Body" id="Item.decorated_nordic_hauberk" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.sturgia_boots_b" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_nord_helmet_k" />
+			<equipment slot="Body" id="Item.nordic_hauberk" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.sturgia_boots_b" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tv_vlandia_helmet_f" />
 			<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
@@ -239,14 +279,14 @@
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
     <skills>
-      <skill id="Athletics" value="100" />
-      <skill id="Riding" value="30" />
+      <skill id="Athletics" value="30" />
+      <skill id="Riding" value="100" />
       <skill id="OneHanded" value="110" />
       <skill id="TwoHanded" value="40" />
-      <skill id="Polearm" value="80" />
+      <skill id="Polearm" value="100" />
       <skill id="Bow" value="45" />
       <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="60" />
+      <skill id="Throwing" value="50" />
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -334,6 +374,7 @@
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
+  
    
   <NPCCharacter id="bk_nord_sergeant" default_group="Infantry" level="21" name="{=!}Jumne Drengr" occupation="Soldier" culture="Culture.nord">
     <face>
@@ -350,7 +391,8 @@
       <skill id="Throwing" value="60" />
     </skills>
     <upgrade_targets>
-    </upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_nord_mercenary" />
+	</upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.TV_nord_helmet_w3" />
@@ -438,7 +480,8 @@
       <skill id="Throwing" value="60" />
     </skills>
     <upgrade_targets>
-    </upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_nord_mercenary" />
+	</upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nasalhelm_over_mail" />

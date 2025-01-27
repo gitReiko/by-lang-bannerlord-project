@@ -66,4 +66,44 @@
     </xsl:template>
 	
 	
+	<xsl:template match="Faction[@id='clan_aserai_3']/@culture">
+        <xsl:attribute name="culture">Culture.sarranid</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Faction[@id='clan_aserai_3']/@super_faction">
+        <xsl:attribute name="super_faction">Kingdom.sarranid</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Faction[@id='clan_aserai_2']/@culture">
+        <xsl:attribute name="culture">Culture.sarranid</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Faction[@id='clan_aserai_2']/@super_faction">
+        <xsl:attribute name="super_faction">Kingdom.sarranid</xsl:attribute>
+    </xsl:template>
+
+	<xsl:template match="Faction[@id='clan_aserai_2']/@banner_key">
+        <xsl:attribute name="banner_key">11.200.166.1528.1528.764.764.1.0.89.223.121.110.333.334.760.821.0.1.0.426.31.116.260.260.757.577.0.0.89</xsl:attribute>
+    </xsl:template>
+	
+	
+	<xsl:template match="Faction[@id='clan_aserai_8']/@culture">
+        <xsl:attribute name="culture">Culture.sarranid</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Faction[@id='clan_aserai_8']/@super_faction">
+        <xsl:attribute name="super_faction">Kingdom.sarranid</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Faction[@id='jawwal']/@culture">
+        <xsl:attribute name="culture">Culture.jarjara</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Faction[@id='company_of_the_boar']/@culture">
+        <xsl:attribute name="culture">Culture.rhodok</xsl:attribute>
+    </xsl:template>
+	
+
+	
+
 </xsl:stylesheet>

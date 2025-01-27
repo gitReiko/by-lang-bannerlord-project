@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="bk_bragantia_knight" default_group="Infantry" level="31" name="{=bk_bragantia_knight.name}Biscanjan Mesnadeiro" occupation="Soldier" culture="Culture.bragantia">
+  <NPCCharacter id="bk_bragantia_knight" default_group="Infantry" level="31" name="{=bk_bragantia_knight.name}Biscanjano Mesnadeiro" occupation="Soldier" culture="Culture.bragantia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -83,7 +83,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_bragantia_squire" default_group="Infantry" level="26" name="{=bk_bragantia_squire.name}Biscanjan Escudeiro" occupation="Soldier" is_basic_troop="true" culture="Culture.bragantia">
+  <NPCCharacter id="bk_bragantia_squire" default_group="Infantry" level="26" name="{=bk_bragantia_squire.name}Biscanjano Escudeiro" occupation="Soldier" is_basic_troop="true" culture="Culture.bragantia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -156,8 +156,213 @@
 	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
+
+  <NPCCharacter id="bk_bragantia_company_merc" default_group="Infantry" level="21" name="{=bk_bragantia_company_merc.name}Biscanjano Companneiro" occupation="Mercenary" culture="Culture.bragantia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="200"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="160"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_j"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k2"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_a2"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_k"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_2_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k2"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.pointed_falchion_sword_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
+			<equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_t"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k2"/>
+			<equipment slot="Body" id="Item.gambeson_b"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_b2"/>
+			<equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_javelin_double_western"/>
+			<equipment slot="Item3" id="Item.bk_javelin_double_western"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_bragantia_mercenary" default_group="Infantry" level="26" name="{=bk_bragantia_mercenary.name}Biscanjano Mercenary Mesnandeiro" occupation="Mercenary" culture="Culture.bragantia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="80"/>
+      <skill id="TwoHanded" value="150"/>
+      <skill id="Polearm" value="50"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="90"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k3"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_q2"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<equipment slot="Item1" id="Item.horsemans_heater_shield_shoulder"/>
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_t3"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_o"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<equipment slot="Item1" id="Item.horsemans_heater_shield_shoulder"/>
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k3"/>
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<equipment slot="Item1" id="Item.horsemans_heater_shield_shoulder"/>
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k3"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_r"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<equipment slot="Item1" id="Item.horsemans_heater_shield_shoulder"/>
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_i3"/>
+			<equipment slot="Body" id="Item.mercenary_mail_armor"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<equipment slot="Item1" id="Item.horsemans_heater_shield_shoulder"/>
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_i3"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<equipment slot="Item1" id="Item.horsemans_heater_shield_shoulder"/>
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_t3"/>
+			<equipment slot="Body" id="Item.vlandia_chainmail"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_2haxe_4_t5"/>
+			<equipment slot="Item1" id="Item.horsemans_heater_shield_shoulder"/>
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+
  
-  <NPCCharacter id="bk_bragantia_sergeant" default_group="Infantry" level="21" name="{=bk_bragantia_sergeant.name}Biscanjan Lanceiro" occupation="Soldier" culture="Culture.bragantia">
+  <NPCCharacter id="bk_bragantia_sergeant" default_group="Infantry" level="21" name="{=bk_bragantia_sergeant.name}Biscanjano Lanceiro" occupation="Soldier" culture="Culture.bragantia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -242,7 +447,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_bragantia_militiaman" default_group="Infantry" level="16" name="{=bk_bragantia_militiaman.name}Biscanjan Militiaman" occupation="Soldier" culture="Culture.bragantia" skill_template="SkillSet.bk_militia_melee_skills">
+  <NPCCharacter id="bk_bragantia_militiaman" default_group="Infantry" level="16" name="{=bk_bragantia_militiaman.name}Biscanjano Militiaman" occupation="Soldier" culture="Culture.bragantia" skill_template="SkillSet.bk_militia_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -320,7 +525,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_bragantia_levy" default_group="Infantry" level="11" name="{=bk_bragantia_levy.name}Biscanjan Levy" occupation="Soldier" culture="Culture.bragantia" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
+  <NPCCharacter id="bk_bragantia_levy" default_group="Infantry" level="11" name="{=bk_bragantia_levy.name}Biscanjano Levy" occupation="Soldier" culture="Culture.bragantia" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -507,7 +712,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_bragantia_levy_crossbow" default_group="Ranged" level="11" name="{=bk_bragantia_levy_crossbow.name}Biscanjan Levy Crossbowman" occupation="Soldier" culture="Culture.bragantia" is_basic_troop="true" skill_template="SkillSet.bk_levy_xbowman_skills">
+  <NPCCharacter id="bk_bragantia_levy_crossbow" default_group="Ranged" level="11" name="{=bk_bragantia_levy_crossbow.name}Biscanjano Levy Crossbowman" occupation="Soldier" culture="Culture.bragantia" is_basic_troop="true" skill_template="SkillSet.bk_levy_xbowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>

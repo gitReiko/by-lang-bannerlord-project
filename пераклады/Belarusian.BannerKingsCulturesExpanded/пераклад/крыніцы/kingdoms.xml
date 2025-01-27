@@ -18,6 +18,58 @@
     </relationships>
   </Kingdom>
   
+  <Kingdom id="jarjara_1" owner="Hero.lord_jarjara_1_1" 
+		  banner_key="11.224.126.1528.1528.764.764.1.0.0.428.31.116.400.400.755.755.0.0.0.207.207.116.220.222.755.696.1.0.0" 
+		  primary_banner_color="0xff198304" 
+		  secondary_banner_color="0xff9E2007" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.jarjara" 
+		  settlement_banner_mesh="encounter_flag_c" 
+		  flag_mesh="info_screen_flags_a" 
+		  name="{=!}Sharqiyy Jarjara" 
+		  short_name="{=!}Eastern Jarjara" 
+		  title="{=!Sharqiyy }Jarjara"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+    <relationships>
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="jarjara_2" owner="Hero.lord_jarjara_5_1" 
+		  banner_key="35.119.22.1528.1528.764.764.1.0.0.521.171.171.483.483.764.764.0.0.0.309.99.162.200.201.755.755.0.0.0.309.99.116.199.201.755.755.0.1.0" 
+		  primary_banner_color="0xff198304" 
+		  secondary_banner_color="0xff9E2007" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.jarjara" 
+		  settlement_banner_mesh="encounter_flag_c" 
+		  flag_mesh="info_screen_flags_a" 
+		  name="{=!}Garbiyy Jarjara" 
+		  short_name="{=!}Western Jarjara" 
+		  title="{=!}Garbiyy Jarjara"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+    <relationships>
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="sarranid" owner="Hero.lord_3_3" 
+		  banner_key="11.200.166.1528.1528.764.764.1.0.89.223.121.110.333.334.760.821.0.1.0.426.31.116.260.260.757.577.0.0.89" 
+		  primary_banner_color="0xff198304" 
+		  secondary_banner_color="0xff9E2007" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.aserai" 
+		  settlement_banner_mesh="encounter_flag_c" 
+		  flag_mesh="info_screen_flags_a" 
+		  name="{=!}Sarrani Imaara" 
+		  short_name="{=!}Sarrani" 
+		  title="{=!}Sarrani Imaara"
+		  ruler_title="{=!}" 
+		  text="{=!}The Banu Sarran stands at the crossroads of a great cultural shift. Originally a clan of Nahasawi badw, that is, desert roamers, the Sarran were granted lordship over Razih, the largest town under the original sultanate within its green eastern lands. A shadow of its former self, it was in Razih that they found the old tapestries and adornments of the Vine Goddess left by the Kannan from which they have adopted the vines of their own banner. It was under the influence of the Sarran that this region, from the Jabal Ashabi, the mountains of the masters, to the Nah al-Kals, the lime river, became a melting pot of traditions - a newly born population of settled roamers adopting manners of the neighbouring and courtly Darshi, while following the economical tradition left by the Kannan.">
+    <relationships>
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+    </relationships>
+  </Kingdom>
+  
   <Kingdom id="massa" owner="Hero.bk_massa_1" 
 		  banner_key="5.142.215.1528.1528.764.764.1.0.0.10226.171.116.481.441.765.687.1.1.0.148.116.142.400.400.761.988.1.0.0" 
 		  primary_banner_color="0xff198304" 
@@ -26,7 +78,7 @@
 		  culture="Culture.massa" 
 		  settlement_banner_mesh="encounter_flag_c" 
 		  flag_mesh="info_screen_flags_a" 
-		  name="{=!}Massa" 
+		  name="{=!}Masso Ufarreiki" 
 		  short_name="{=!}Massa" 
 		  title="{=!}Masso Ufarreiki"
 		  ruler_title="{=!}" 
@@ -44,11 +96,11 @@
 		  culture="Culture.lokti" 
 		  settlement_banner_mesh="encounter_flag_c" 
 		  flag_mesh="info_screen_flags_a" 
-		  name="{=!}Lokti" 
+		  name="{=!}Loktiu Kunigyste" 
 		  short_name="{=!}Lokti" 
-		  title="{=!}Lokti Duchy"
+		  title="{=!}Loktiu Kunigyste"
 		  ruler_title="{=!}" 
-		  text="{=!}The realm of the Massa was stablished in the last decades. Originally a Wilunding nomadic tribe, the Massa came to the continent for the promises of land and wealth. Due to their destructive nature, constant attriction with other Wilunding tribes led to the Massa once again embarking on a journey for new lands. As the east was blocked off by the stone walls of the Calradoi, the Massa rode south, over the water, to a land of everlasting green unlike anything they had seen before.">
+		  text="{=!}The Lokti.">
     <relationships>
       <relationship kingdom="Kingdom.vakken_barony_3" value="1" isAtWar="false" />
     </relationships>
@@ -62,11 +114,11 @@
 		  culture="Culture.bragantia" 
 		  settlement_banner_mesh="encounter_flag_c" 
 		  flag_mesh="info_screen_flags_a" 
-		  name="{=!}Bragantja" 
+		  name="{=!}Condato de Bragantja" 
 		  short_name="{=!}Bragantja" 
-		  title="{=!}Condado de Bragantja"
+		  title="{=!}Condato de Bragantja"
 		  ruler_title="{=!}" 
-		  text="{=!}">
+		  text="{=!}The Biscan isles have long since been inhabited by the Calradoi. Long ago, Calradios himself passed through the isles, coming from the southwest alongside his exiles, in search of Calradia. Being close to Charasea, it did not take long for the Calradoi to colonize them. Though with time the islanders developed some distinct traditions and beliefs (such as their distinct cattle culture), they were integral part of the empire up to its dissolution. In the chaos delivered by the Wilunding to the empire's westernmost section, followed by the crisis of the internecine, the isles became detached from the empire, and instead fended for themselves. Inevitably, some of the Wilunding came to them - a group of the Massa. Yet, these Massa settled peacefully within the Biscan isles - rather than bringing fire and destruction as the Massa are known for, their presence bolstered the isles defenses against others who might try to overtake the Biscan isles.">
     <relationships>
       <relationship kingdom="Kingdom.massa" value="1" isAtWar="false" />
     </relationships>
@@ -80,9 +132,9 @@
 		  culture="Culture.kannic" 
 		  settlement_banner_mesh="encounter_flag_c" 
 		  flag_mesh="info_screen_flags_a" 
-		  name="{=!}Kannic" 
+		  name="{=!}Kannan Shararst" 
 		  short_name="{=!}Kannic" 
-		  title="{=!}Kannic Politeia"
+		  title="{=!}Kannan Shararst"
 		  ruler_title="{=!}" 
 		  text="{=!}The Kannic have ruled over the shores of the Perassic and Jade seas long before the advent of the Nahawasi confederation. Their ships, adorned with the vines of their Goddess, at first held hegemon over the seas. With the rise of the Calradoi, their trading ships were replaced by war triremes, and for centuries both forces fought over absolute control of trade routes. Weakened by the might of the Calradoi, the Kannic lost control over their colonies, now city-states independent of a larger Kannic politeia. The Nahawasi, with the support of the Calradoi, overthrew many such colonies, taking that which they could not build themselves. Today, the Eshorid remain the strongest bastion of the Kannic legacy, and lay claim to the entire southern coast as rightful domain of the Kannic.">
     <relationships>
@@ -218,9 +270,9 @@
 		  culture="Culture.siri" 
 		  settlement_banner_mesh="encounter_flag_a" 
 		  flag_mesh="info_screen_flags_b" 
-		  name="{=!}Siri Queendom" 
+		  name="{=!}Siri Urkane" 
 		  short_name="{=!}Siri" 
-		  title="{=!}Siri Queendom"
+		  title="{=!}Siri Urkane"
 		  ruler_title="{=!}" 
 		  text="{=!}">
   </Kingdom>

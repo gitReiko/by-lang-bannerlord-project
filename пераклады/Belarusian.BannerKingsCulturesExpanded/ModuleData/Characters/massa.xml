@@ -25,8 +25,8 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.AR_sling_b"/>
-		  <equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+		  <equipment slot="Item2" id="Item.AR_sling_b"/>
+		  <equipment slot="Item3" id="Item.AR_sling_bullets_c"/>
 		  <equipment slot="Horse" id="Item.vlandia_horse"/>
 		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 		</EquipmentRoster>
@@ -38,8 +38,8 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.AR_sling_b"/>
-		  <equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+		  <equipment slot="Item2" id="Item.AR_sling_b"/>
+		  <equipment slot="Item3" id="Item.AR_sling_bullets_c"/>
 		  <equipment slot="Horse" id="Item.vlandia_horse"/>
 		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 		</EquipmentRoster>
@@ -51,8 +51,8 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.AR_sling_b"/>
-		  <equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+		  <equipment slot="Item2" id="Item.AR_sling_b"/>
+		  <equipment slot="Item3" id="Item.AR_sling_bullets_c"/>
 		  <equipment slot="Horse" id="Item.vlandia_horse"/>
 		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 		</EquipmentRoster>
@@ -64,8 +64,8 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.AR_sling_b"/>
-		  <equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+		  <equipment slot="Item2" id="Item.AR_sling_b"/>
+		  <equipment slot="Item3" id="Item.AR_sling_bullets_c"/>
 		  <equipment slot="Horse" id="Item.vlandia_horse"/>
 		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 		</EquipmentRoster>
@@ -76,8 +76,8 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.AR_sling_b"/>
-		  <equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+		  <equipment slot="Item2" id="Item.AR_sling_b"/>
+		  <equipment slot="Item3" id="Item.AR_sling_bullets_c"/>
 		  <equipment slot="Horse" id="Item.vlandia_horse"/>
 		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 		</EquipmentRoster>
@@ -89,8 +89,8 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.AR_sling_b"/>
-		  <equipment slot="Item1" id="Item.AR_sling_bullets_c"/>
+		  <equipment slot="Item2" id="Item.AR_sling_b"/>
+		  <equipment slot="Item3" id="Item.AR_sling_bullets_c"/>
 		  <equipment slot="Horse" id="Item.vlandia_horse"/>
 		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
 		</EquipmentRoster>
@@ -280,6 +280,104 @@
 	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
+  
+  <NPCCharacter id="bk_massa_mercenary" default_group="Infantry" level="26" name="{=bk_massa_mercenary.name}Massa Mercenary" occupation="Mercenary" culture="Culture.massa">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.TV_khuzait_helmet_w"/>
+		  <equipment slot="Cape" id="Item.TV_sturgia_shoulders_g"/>
+		  <equipment slot="Body" id="Item.DZ_sturgia_armor_a"/>
+		  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
+		  <equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+		  <equipment slot="Item2" id="Item.vlandic_arrows"/>
+		  <equipment slot="Item3" id="Item.vlandic_arrows"/>
+		  <equipment slot="Horse" id="Item.vlandia_horse"/>
+		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.AR_goth_helmet_f"/>
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+		  <equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy"/>
+		  <equipment slot="Gloves" id="Item.AR_sturgia_gloves_c"/>
+		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
+		  <equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+		  <equipment slot="Item2" id="Item.vlandic_arrows"/>
+		  <equipment slot="Item3" id="Item.vlandic_arrows"/>
+		  <equipment slot="Horse" id="Item.vlandia_horse"/>
+		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.AR_goth_helmet_d"/>
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
+		  <equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+		  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
+		  <equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+		  <equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
+		  <equipment slot="Item2" id="Item.vlandic_arrows"/>
+		  <equipment slot="Item3" id="Item.vlandic_arrows"/>
+		  <equipment slot="Horse" id="Item.vlandia_horse"/>
+		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.TV_khuzait_helmet_v"/>
+		  <equipment slot="Cape" id="Item.hood"/>
+		  <equipment slot="Body" id="Item.mercenary_mail_armor"/>
+		  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
+		  <equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+		  <equipment slot="Item1" id="Item.vlandia_sword_4_t4"/>
+		  <equipment slot="Item2" id="Item.vlandic_arrows"/>
+		  <equipment slot="Item3" id="Item.vlandic_arrows"/>
+		  <equipment slot="Horse" id="Item.vlandia_horse"/>
+		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.AR_goth_helmet_f"/>
+		  <equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+		  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
+		  <equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+		  <equipment slot="Item1" id="Item.vlandia_sword_4_t4"/>
+		  <equipment slot="Item2" id="Item.vlandic_arrows"/>
+		  <equipment slot="Item3" id="Item.vlandic_arrows"/>
+		  <equipment slot="Horse" id="Item.vlandia_horse"/>
+		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.AR_goth_helmet_f"/>
+		  <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+		  <equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+		  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
+		  <equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+		  <equipment slot="Item1" id="Item.vlandia_mace_2_t4"/>
+		  <equipment slot="Item2" id="Item.vlandic_arrows"/>
+		  <equipment slot="Item3" id="Item.vlandic_arrows"/>
+		  <equipment slot="Horse" id="Item.vlandia_horse"/>
+		  <equipment slot="HorseHarness" id="Item.AR_horse_armor_s"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
 	
 
   <NPCCharacter id="bk_massa_sergeant" default_group="Infantry" level="21" name="{=bk_massa_sergeant.name}Massa Gadrauhts" occupation="Soldier" culture="Culture.massa">
@@ -306,7 +404,7 @@
 		  <equipment slot="Gloves" id="Item.AR_sturgia_gloves_c"/>
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
-		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+		  <equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
 		  <equipment slot="Item2" id="Item.bk_javelin_double_western"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -316,7 +414,7 @@
 		  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
-		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+		  <equipment slot="Item1" id="Item.vlandia_sword_4_t4"/>
 		  <equipment slot="Item2" id="Item.bk_javelin_double_western"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -326,7 +424,7 @@
 		  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
 		  <equipment slot="Leg" id="Item.plated_strip_boots"/>
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
-		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+		  <equipment slot="Item1" id="Item.vlandia_mace_2_t4"/>
 		  <equipment slot="Item2" id="Item.bk_javelin_double_western"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -375,7 +473,7 @@
 		  <equipment slot="Head" id="Item.AR_goth_helmet_e"/>
 		  <equipment slot="Body" id="Item.sturgian_lamellar_gambeson"/>
 		  <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-		  <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+		  <equipment slot="Item0" id="Item.morningstar_mace_t3"/>
 		  <equipment slot="Item1" id="Item.bk_javelin_double_western"/>
 		  <equipment slot="Item2" id="Item.AR_shield_infantry_d"/>
 		</EquipmentRoster>
@@ -384,7 +482,7 @@
 		  <equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
 		  <equipment slot="Body" id="Item.gambeson_b"/>
 		  <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-		  <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+		  <equipment slot="Item0" id="Item.morningstar_mace_t3"/>
 		  <equipment slot="Item1" id="Item.bk_javelin_double_western"/>
 		  <equipment slot="Item2" id="Item.AR_shield_infantry_d"/>
 		</EquipmentRoster>
@@ -393,7 +491,7 @@
 		  <equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
 		  <equipment slot="Body" id="Item.AR_vlandia_armor_j"/>
 	  	  <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-		  <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+		  <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
 		  <equipment slot="Item1" id="Item.bk_javelin_double_western"/>
 		  <equipment slot="Item2" id="Item.AR_shield_infantry_d"/>
 		</EquipmentRoster>
@@ -702,7 +800,7 @@
 		  <equipment slot="Head" id="Item.AR_goth_helmet_e"/>
 		  <equipment slot="Body" id="Item.aketon"/>
 		  <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-		  <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+		  <equipment slot="Item0" id="Item.morningstar_mace_t3"/>
 		  <equipment slot="Item1" id="Item.AR_sling_b"/>
 		  <equipment slot="Item2" id="Item.AR_sling_bullets_b1"/>
 		  <equipment slot="Item3" id="Item.AR_sling_bullets_b1"/>
@@ -712,7 +810,7 @@
 		  <equipment slot="Cape" id="Item.hood"/>
 		  <equipment slot="Body" id="Item.leather_coat"/>
 	  	  <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-		  <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+		  <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
 		  <equipment slot="Item1" id="Item.AR_sling_b"/>
 		  <equipment slot="Item2" id="Item.AR_sling_bullets_b1"/>
 		  <equipment slot="Item3" id="Item.AR_sling_bullets_b1"/>
@@ -721,7 +819,7 @@
 		  <equipment slot="Head" id="Item.AR_goth_helmet_d"/>
 		  <equipment slot="Body" id="Item.leather_scale_armor"/>
 	  	  <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
-		  <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+		  <equipment slot="Item0" id="Item.morningstar_mace_t3"/>
 		  <equipment slot="Item1" id="Item.AR_sling_b"/>
 		  <equipment slot="Item2" id="Item.AR_sling_bullets_b1"/>
 		  <equipment slot="Item3" id="Item.AR_sling_bullets_b1"/>

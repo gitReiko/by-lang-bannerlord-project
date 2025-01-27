@@ -2,8 +2,149 @@
 <NPCCharacters>
 
 
+  <NPCCharacter id="bk_warden_mercenary" default_group="Cavalry" level="21" name="{=bk_warden_mercenary.name}Warden Mercenary" occupation="Mercenary" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="90"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+		  <equipment slot="Body" id="Item.AR_empire_horseman_armor_c"/>
+		  <equipment slot="Leg" id="Item.eastern_leather_boots"/>
+		  <equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
+		  <Equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2"/>
+		  <equipment slot="Item2" id="Item.AR_shield_infantry_a"/>
+		  <equipment slot="Item3" id="Item.battle_axe_t4"/>
+		  <equipment slot="Horse" id="Item.empire_horse"/>
+		  <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
+		  <equipment slot="Cape" id="Item.ao_focale"/>
+		  <equipment slot="Body" id="Item.AR_empire_scout_armor_c"/>
+		  <equipment slot="Leg" id="Item.eastern_leather_boots"/>
+		  <equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
+		  <Equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2"/>
+		  <equipment slot="Item2" id="Item.AR_shield_infantry_a"/>
+		  <equipment slot="Item3" id="Item.battle_axe_t4"/>
+		  <equipment slot="Horse" id="Item.empire_horse"/>
+		  <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.AR_roman_helmet_b_plumed"/>
+		  <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+		  <equipment slot="Body" id="Item.AR_empire_scout_armor_a"/>
+		  <equipment slot="Leg" id="Item.eastern_leather_boots"/>
+		  <equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
+		  <Equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2"/>
+		  <equipment slot="Item2" id="Item.AR_shield_infantry_a"/>
+		  <equipment slot="Item3" id="Item.battle_axe_t4"/>
+		  <equipment slot="Horse" id="Item.empire_horse"/>
+		  <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.AR_roman_helmet_b_plumed_b"/>
+		  <equipment slot="Body" id="Item.AR_empire_armor_a"/>
+		  <equipment slot="Leg" id="Item.eastern_leather_boots"/>
+		  <equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
+		  <Equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2"/>
+		  <equipment slot="Item2" id="Item.AR_shield_infantry_a"/>
+		  <equipment slot="Item3" id="Item.battle_axe_t4"/>
+		  <equipment slot="Horse" id="Item.empire_horse"/>
+		  <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_b"/>
+		  <equipment slot="Body" id="Item.AR_empire_horseman_armor_c"/>
+		  <equipment slot="Leg" id="Item.eastern_leather_boots"/>
+		  <equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
+		  <Equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2"/>
+		  <equipment slot="Item2" id="Item.AR_shield_infantry_a"/>
+		  <equipment slot="Item3" id="Item.battle_axe_t4"/>
+		  <equipment slot="Horse" id="Item.empire_horse"/>
+		  <equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+<!--
+<EquipmentRoster>
+  <equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+  <equipment slot="Head" id="Item.AR_intercisa_helmet_d" />
+  <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+  <equipment slot="Body" id="Item.AR_empire_scout_armor_d" />
+  <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+  <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+  <equipment slot="Horse" id="Item.empire_horse_tournament" />
+  <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
+</EquipmentRoster>
 
-  <NPCCharacter id="bk_imperial_liminatei_battania" default_group="Ranged" level="16" name="{=bk_imperial_liminatei_battania.name}Calradoi Limitaneus Battaniensis" occupation="Soldier" culture="Culture.empire">
+<EquipmentRoster>
+  <equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+  <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_c" />
+  <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+  <equipment slot="Body" id="Item.AR_empire_scout_armor_d" />
+  <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+  <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+  <equipment slot="Horse" id="Item.empire_horse_tournament" />
+  <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
+</EquipmentRoster>
+
+<EquipmentRoster>
+  <equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+  <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_c" />
+  <equipment slot="Cape" id="Item.AR_wolf_shoulder_d" />
+  <equipment slot="Body" id="Item.AR_empire_scout_armor_b" />
+  <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+  <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+  <equipment slot="Horse" id="Item.empire_horse_tournament" />
+  <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
+</EquipmentRoster>
+
+<EquipmentRoster>
+  <equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+  <equipment slot="Head" id="Item.TV_empire_lord_helmet_d" />
+  <equipment slot="Cape" id="Item.AR_imperial_shoulders_o" />
+  <equipment slot="Body" id="Item.AR_empire_horseman_armor_d" />
+  <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+  <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+  <equipment slot="Horse" id="Item.empire_horse_tournament" />
+  <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
+</EquipmentRoster>
+
+<EquipmentRoster>
+  <equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+  <equipment slot="Head" id="Item.AR_roman_helmet_b_plumed_b" />
+  <equipment slot="Cape" id="Item.AR_wolf_shoulder_e" />
+  <equipment slot="Body" id="Item.empire_horseman_armor" />
+  <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+  <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+  <equipment slot="Horse" id="Item.empire_horse_tournament" />
+  <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
+</EquipmentRoster>
+
+-->
+  
+
+
+
+
+  <NPCCharacter id="bk_imperial_liminatei_battania" default_group="Ranged" level="16" name="{=bk_imperial_liminatei_battania.name}Calradicós Limitaneos Battaniensis" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -69,7 +210,7 @@
 		  <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-		  <equipment slot="Head" id="Item.TV_empire_lord_helmet_d"/>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 		  <equipment slot="Cape" id="Item.ao_focale"/>
 		  <equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 		  <equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -79,7 +220,7 @@
 		  <equipment slot="Item3" id="Item.imperial_axe_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-		  <equipment slot="Head" id="Item.TV_empire_lord_helmet_d"/>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 		  <equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
 		  <equipment slot="Body" id="Item.footmans_tunic"/>
 		  <equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -92,7 +233,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_liminatei_aserai" default_group="Infantry" level="16" name="{=bk_imperial_liminatei_aserai.name}Calradoi Limitaneus Australis" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_liminatei_aserai" default_group="Infantry" level="16" name="{=bk_imperial_liminatei_aserai.name}Calradicós Limitaneos Australis" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -120,7 +261,7 @@
 		  <equipment slot="Item3" id="Item.AR_aserai_short_spear_2_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-		  <equipment slot="Head" id="Item.AR_empire_lord_helmet_g"/>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 		  <equipment slot="Cape" id="Item.ao_focale"/>
 		  <equipment slot="Body" id="Item.AR_aserai_armor_p"/>
 		  <equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -149,7 +290,7 @@
 		  <equipment slot="Item3" id="Item.AR_aserai_short_spear_2_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-		  <equipment slot="Head" id="Item.AR_empire_lord_helmet_g"/>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 		  <equipment slot="Cape" id="Item.ao_focale"/>
 		  <equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 		  <equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -162,7 +303,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_liminatei_sturgia" default_group="Infantry" level="16" name="{=bk_imperial_liminatei_sturgia.name}Calradoi Limitaneus Sturgiensis" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_liminatei_sturgia" default_group="Infantry" level="16" name="{=bk_imperial_liminatei_sturgia.name}Calradicós Limitaneos Sturgiensis" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -190,7 +331,7 @@
 		  <equipment slot="Item3" id="Item.northern_spear_2_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-		  <equipment slot="Head" id="Item.AR_empire_lord_helmet_g"/>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 		  <equipment slot="Cape" id="Item.ao_focale"/>
 		  <equipment slot="Body" id="Item.nordic_padded_cloth"/>
 		  <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
@@ -219,7 +360,7 @@
 		  <equipment slot="Item3" id="Item.northern_spear_2_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-		  <equipment slot="Head" id="Item.AR_empire_lord_helmet_g"/>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 		  <equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
 		  <equipment slot="Body" id="Item.footmans_tunic"/>
 		  <equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
@@ -242,7 +383,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_liminatei_khuzait" default_group="Cavalry" level="16" name="{=bk_imperial_liminatei_khuzait.name}Calradoi Limitaneus Orientalis" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_liminatei_khuzait" default_group="Cavalry" level="16" name="{=bk_imperial_liminatei_khuzait.name}Calradicós Limitaneos Orientalis" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -271,7 +412,7 @@
 		  <equipment slot="Item3" id="Item.empire_lance_1_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-		  <equipment slot="Head" id="Item.AR_empire_lord_helmet_g"/>
+		  <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 		  <equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
 		  <equipment slot="Body" id="Item.steppe_armor"/>
 		  <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
@@ -879,7 +1020,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_imperial_cataphract" default_group="Cavalry" level="31" name="{=bk_imperial_cataphract.name}Calradoi Kataphraktos" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_cataphract" default_group="Cavalry" level="31" name="{=bk_imperial_cataphract.name}Calradicós Kataphraktos" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1000,7 +1141,7 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_imperial_squire" default_group="Cavalry" level="26" name="{=bk_imperial_squire.name}Calradoi Equites" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_squire" default_group="Cavalry" level="26" name="{=bk_imperial_squire.name}Calradicós Eques" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1109,7 +1250,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_mercenary" default_group="HorseArcher" level="26" name="{=bk_imperial_mercenary.name}Calradoi Bucellarius Hippotoxotes" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_mercenary" default_group="HorseArcher" level="26" name="{=bk_imperial_mercenary.name}Calradicós Bucellarios Hippotoxotes" occupation="Mercenary" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1177,7 +1318,7 @@
 		<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
       </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_lord_helmet_g"/>
+        <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 	    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
 	    <equipment slot="Body" id="Item.empire_horseman_armor"/>
 	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
@@ -1216,7 +1357,7 @@
 		<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
       </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_lord_helmet_g"/>
+        <equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 	    <equipment slot="Cape" id="Item.ao_focale"/>
 	    <equipment slot="Body" id="Item.AR_empire_scale_armor_b"/>
 	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
@@ -1233,7 +1374,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_imperial_eques" default_group="Cavalry" level="21" name="{=bk_imperial_eques.name}Calradoi Koursores" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_eques" default_group="Cavalry" level="21" name="{=bk_imperial_eques.name}Calradicós Koursores" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1247,8 +1388,9 @@
       <skill id="Crossbow" value="30"/>
       <skill id="Throwing" value="80"/>
     </skills>
-    <upgrade_targets>
-    </upgrade_targets>
+    <upgrade_targets> 
+		<upgrade_target id="NPCCharacter.bk_imperial_mercenary"/>
+	</upgrade_targets>
     <Equipments>
 	    <EquipmentRoster>
 			<equipment slot="Head" id="Item.TV_empire_lord_helmet_f"/>
@@ -1274,7 +1416,7 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d"/>
+			<equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
 			<equipment slot="Body" id="Item.AR_vlandia_armor_o"/>
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
@@ -1359,7 +1501,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_hippotoxotes" default_group="HorseArcher" level="21" name="{=bk_imperial_hippotoxotes.name}Calradoi Hippotoxotes" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_hippotoxotes" default_group="HorseArcher" level="21" name="{=bk_imperial_hippotoxotes.name}Calradicós Hippotoxotes" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1369,12 +1511,13 @@
       <skill id="OneHanded" value="70"/>
       <skill id="TwoHanded" value="20"/>
       <skill id="Polearm" value="50"/>
-      <skill id="Bow" value="140"/>
+      <skill id="Bow" value="120"/>
       <skill id="Crossbow" value="20"/>
       <skill id="Throwing" value="40"/>
     </skills>
-    <upgrade_targets>
-    </upgrade_targets>
+    <upgrade_targets> 
+		<upgrade_target id="NPCCharacter.bk_imperial_mercenary"/>
+	</upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed_b"/>
@@ -1390,7 +1533,7 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg"/>
 		</EquipmentRoster>
 	    <EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_empire_lord_helmet_f"/>
+			<equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 			<equipment slot="Body" id="Item.AR_empire_armor_c"/>
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
 			<equipment slot="Leg" id="Item.empire_horseman_boots"/>
@@ -1402,7 +1545,7 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg"/>
 		</EquipmentRoster>	
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d"/>
+			<equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
 			<equipment slot="Body" id="Item.AR_vlandia_armor_o"/>
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
@@ -1494,7 +1637,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_imperial_menavlion" default_group="Infantry" level="21" name="{=bk_imperial_menavlion.name}Calradoi Menavlatos" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_menavlion" default_group="Infantry" level="21" name="{=bk_imperial_menavlion.name}Calradicós Menavlatos" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1512,7 +1655,7 @@
     </upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d"/>
+			<equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
 			<equipment slot="Body" id="Item.AR_vlandia_armor_o"/>
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
@@ -1522,7 +1665,7 @@
 			<equipment slot="Item3" id="Item.empire_polearm_1_t4"/>
 		</EquipmentRoster>
 	    <EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d"/>
+			<equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 			<equipment slot="Cape" id="Item.varangian_bra_basic"/> 
 			<equipment slot="Body" id="Item.AR_empire_armor_j"/>
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
@@ -1602,8 +1745,10 @@
 	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
+  
 
-  <NPCCharacter id="bk_imperial_sergeant" default_group="Infantry" level="21" name="{=bk_imperial_sergeant.name}Calradoi Skoutatos" occupation="Soldier" culture="Culture.empire">
+
+  <NPCCharacter id="bk_imperial_sergeant" default_group="Infantry" level="21" name="{=bk_imperial_sergeant.name}Calradicós Skoutatos" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1621,7 +1766,7 @@
     </upgrade_targets>
     <Equipments>
 	    <EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d"/>
+			<equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 			<equipment slot="Cape" id="Item.varangian_bra_basic"/> 
 			<equipment slot="Body" id="Item.AR_empire_armor_j"/>
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
@@ -1629,7 +1774,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy"/>
 			<equipment slot="Item2" id="Item.empire_sword_4_t4"/>
-			<equipment slot="Item3" id="Item.AR_imperial_spear_t4"/>
+			<equipment slot="Item3" id="Item.bk_empire_spear_t4"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed_b"/>
@@ -1640,10 +1785,10 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy"/>
 			<equipment slot="Item2" id="Item.empire_sword_4_t4"/>
-			<equipment slot="Item3" id="Item.AR_imperial_spear_t4"/>
+			<equipment slot="Item3" id="Item.bk_empire_spear_t4"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d"/>
+			<equipment slot="Head" id="Item.TV_pict_helmet_n"/>
 			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
 			<equipment slot="Body" id="Item.AR_vlandia_armor_o"/>
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
@@ -1651,7 +1796,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy"/>
 			<equipment slot="Item2" id="Item.empire_sword_4_t4"/>
-			<equipment slot="Item3" id="Item.AR_imperial_spear_t4"/>
+			<equipment slot="Item3" id="Item.bk_empire_spear_t4"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed"/>
@@ -1662,7 +1807,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy"/>
 			<equipment slot="Item2" id="Item.empire_sword_4_t4"/>
-			<equipment slot="Item3" id="Item.AR_imperial_spear_t4"/>
+			<equipment slot="Item3" id="Item.bk_empire_spear_t4"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.plumed_helmet"/>
@@ -1673,7 +1818,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy"/>
 			<equipment slot="Item2" id="Item.empire_sword_4_t4"/>
-			<equipment slot="Item3" id="Item.AR_imperial_spear_t4"/>
+			<equipment slot="Item3" id="Item.bk_empire_spear_t4"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_gladiator_helmet_d"/>
@@ -1722,7 +1867,7 @@
   </NPCCharacter>
   
 
-   <NPCCharacter id="bk_imperial_sergeant_republic" default_group="Infantry" level="21" name="{=bk_imperial_sergeant_republic.name}Calradoi Republican Legionarius" occupation="Soldier" culture="Culture.empire">
+   <NPCCharacter id="bk_imperial_sergeant_republic" default_group="Infantry" level="21" name="{=bk_imperial_sergeant_republic.name}Calradicós Republican Legionarios" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1831,7 +1976,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_imperial_militiaman_republic" default_group="Infantry" level="16" name="{=bk_imperial_militiaman_republic.name}Calradoi Republican Militiaman" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_melee_skills">
+  <NPCCharacter id="bk_imperial_militiaman_republic" default_group="Infantry" level="16" name="{=bk_imperial_militiaman_republic.name}Calradicós Republican Militiaman" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -1929,7 +2074,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_militiaman" default_group="Infantry" level="16" name="{=bk_imperial_militiaman.name}Calradoi Militiaman" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_melee_skills">
+  <NPCCharacter id="bk_imperial_militiaman" default_group="Infantry" level="16" name="{=bk_imperial_militiaman.name}Calradicós Militiaman" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -2037,7 +2182,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_peltast" default_group="Infantry" level="16" name="{=bk_imperial_peltast.name}Calradoi Peltast" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_skirmisher_skills">
+  <NPCCharacter id="bk_imperial_peltast" default_group="Infantry" level="16" name="{=bk_imperial_peltast.name}Calradicós Peltast" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_skirmisher_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -2124,7 +2269,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_levy" default_group="Infantry" level="11" name="{=bk_imperial_levy.name}Calradoi Levy" occupation="Soldier" culture="Culture.empire" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
+  <NPCCharacter id="bk_imperial_levy" default_group="Infantry" level="11" name="{=bk_imperial_levy.name}Calradicós Levy" occupation="Soldier" culture="Culture.empire" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -2195,7 +2340,7 @@
   </NPCCharacter>
   
   
-  <NPCCharacter id="bk_imperial_militiaman_archer" default_group="Ranged" level="16" name="{=bk_imperial_militiaman_archer.name}Calradoi Militiaman Archer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_bowman_skills">
+  <NPCCharacter id="bk_imperial_militiaman_archer" default_group="Ranged" level="16" name="{=bk_imperial_militiaman_archer.name}Calradicós Militiaman Archer" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_bowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -2290,7 +2435,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_levy_archer" default_group="Ranged" level="11" name="{=bk_imperial_levy_archer.name}Calradoi Levy Archer" occupation="Soldier" culture="Culture.empire" is_basic_troop="true" skill_template="SkillSet.bk_levy_bowman_skills">
+  <NPCCharacter id="bk_imperial_levy_archer" default_group="Ranged" level="11" name="{=bk_imperial_levy_archer.name}Calradicós Levy Archer" occupation="Soldier" culture="Culture.empire" is_basic_troop="true" skill_template="SkillSet.bk_levy_bowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -2366,7 +2511,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_militiaman_crossbow" default_group="Ranged" level="16" name="{=bk_imperial_militiaman_crossbow.name}Calradoi Militiaman Gastraphetos" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_xbowman_skills">
+  <NPCCharacter id="bk_imperial_militiaman_crossbow" default_group="Ranged" level="16" name="{=bk_imperial_militiaman_crossbow.name}Calradicós Militiaman Gastraphetos" occupation="Soldier" culture="Culture.empire" skill_template="SkillSet.bk_militia_xbowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>
@@ -2461,7 +2606,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_levy_crossbow" default_group="Ranged" level="11" name="{=bk_imperial_levy_crossbow.name}Calradoi Levy Gastraphetos" occupation="Soldier" culture="Culture.empire" is_basic_troop="true" skill_template="SkillSet.bk_levy_xbowman_skills">
+  <NPCCharacter id="bk_imperial_levy_crossbow" default_group="Ranged" level="11" name="{=bk_imperial_levy_crossbow.name}Calradicós Levy Gastraphetos" occupation="Soldier" culture="Culture.empire" is_basic_troop="true" skill_template="SkillSet.bk_levy_xbowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire"/>
     </face>

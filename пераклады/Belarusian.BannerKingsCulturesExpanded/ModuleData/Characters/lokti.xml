@@ -1,7 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="bk_lokti_companion" default_group="Cavalry" level="31" name="{=bk_lokti_companion.name}Lokti Palydovas" occupation="Soldier" culture="Culture.lokti">
+
+
+  <!--<NPCCharacter id="bk_lokti_mercenary" default_group="Cavalry" level="26" name="{=!}Loktiu Kilnus" occupation="Mercenary" is_basic_troop="true" culture="Culture.lokti">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="30" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="140" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="140" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_feathered_helmet_with_mail" />
+			<equipment slot="Cape" id="Item.bearskin" />
+			<equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.battle_axe_t4" />
+			<equipment slot="Item2" id="Item.sturgia_lance_1_t4" />
+			<equipment slot="Horse" id="Item.sturgia_horse" />
+			<equipment slot="HorseHarness" id="Item.bandit_saddle_highland" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.vaegir_helmet_closed" />
+			<equipment slot="Cape" id="Item.lamellar_shoulder_scarf" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.sturgia_lance_1_t4" />
+			<equipment slot="Horse" id="Item.sturgia_horse" />
+			<equipment slot="HorseHarness" id="Item.bandit_saddle_highland" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_sturgia_helmet_k2" />
+			<equipment slot="Body" id="Item.DZ_sturgia_armor_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_sword_5_t4" />
+			<equipment slot="Item2" id="Item.sturgia_lance_1_t4" />
+			<equipment slot="Horse" id="Item.sturgia_horse" />
+			<equipment slot="HorseHarness" id="Item.bandit_saddle_highland" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.vaegir_helmet_closed" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_f" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_sword_4_t4" />
+			<equipment slot="Item2" id="Item.sturgia_lance_1_t4" />
+			<equipment slot="Horse" id="Item.sturgia_horse" />
+			<equipment slot="HorseHarness" id="Item.bandit_saddle_highland" />
+		</EquipmentRoster>
+	  <EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>-->
+
+
+  <NPCCharacter id="bk_lokti_companion" default_group="Cavalry" level="31" name="{=bk_lokti_companion.name}Loktiu Palydovas" occupation="Soldier" culture="Culture.lokti">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -9,11 +81,11 @@
       <skill id="Athletics" value="30"/>
       <skill id="Riding" value="180"/>
       <skill id="OneHanded" value="150"/>
-      <skill id="TwoHanded" value="40"/>
-      <skill id="Polearm" value="150"/>
-      <skill id="Bow" value="170"/>
+      <skill id="TwoHanded" value="200"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Bow" value="40"/>
       <skill id="Crossbow" value="40"/>
-      <skill id="Throwing" value="40"/>
+      <skill id="Throwing" value="110"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -101,7 +173,7 @@
 
   
 
-  <NPCCharacter id="bk_lokti_squire" default_group="HorseArcher" level="26" name="{=bk_lokti_squire.name}Lokti Highborn" occupation="Soldier" is_basic_troop="true" culture="Culture.lokti">
+  <NPCCharacter id="bk_lokti_squire" default_group="HorseArcher" level="26" name="{=bk_lokti_squire.name}Loktiu Kilnus" occupation="Soldier" is_basic_troop="true" culture="Culture.lokti">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -189,19 +261,19 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_lokti_mercenary" default_group="Infantry" level="26" name="{=bk_lokti_mercenary.name}Lokti Mercenary Varcheg" occupation="Soldier" culture="Culture.lokti">
+  <NPCCharacter id="bk_lokti_mercenary" default_group="Infantry" level="26" name="{=bk_lokti_mercenary.name}Loktiu Mercenary Kirvis" occupation="Mercenary" culture="Culture.lokti">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
     <skills>
-      <skill id="Athletics" value="130"/>
+      <skill id="Athletics" value="140"/>
       <skill id="Riding" value="30"/>
-      <skill id="OneHanded" value="150"/>
-      <skill id="TwoHanded" value="40"/>
-      <skill id="Polearm" value="110"/>
+      <skill id="OneHanded" value="80"/>
+      <skill id="TwoHanded" value="150"/>
+      <skill id="Polearm" value="40"/>
       <skill id="Bow" value="45"/>
       <skill id="Crossbow" value="15"/>
-      <skill id="Throwing" value="80"/>
+      <skill id="Throwing" value="100"/>
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -209,23 +281,45 @@
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.vaegir_helmet_closed"/>
 			<equipment slot="Cape" id="Item.lamellar_shoulder_scarf"/>
-			<equipment slot="Body" id="Item.TV_sturgia_armor_e2"/>
+			<equipment slot="Body" id="Item.TV_sturgia_armor_a"/>
 			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
-			<equipment slot="Item0" id="Item.western_kite_shield"/>
-			<equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
-			<equipment slot="Item2" id="Item.wide_leaf_spear_t4"/>
-			<equipment slot="Item3" id="Item.northern_throwing_axe_1_t1"/>
+			<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+			<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_feathered_helmet_with_mail"/>
+			<equipment slot="Cape" id="Item.bearskin"/>
+			<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+			<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+			<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_sturgia_helmet_k2"/>
+			<equipment slot="Body" id="Item.DZ_sturgia_armor_a"/>
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+			<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+			<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.vaegir_helmet_closed"/>
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
+			<equipment slot="Body" id="Item.TV_sturgia_armor_f"/>
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+			<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+			<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1"/>
 		</EquipmentRoster>
 		<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
   
+ 
   
-  
-  
-  
-  <NPCCharacter id="bk_lokti_cavalry" default_group="Cavalry" level="21" name="{=bk_lokti_cavalry.name}Lokti Remisnyky Cavalry" occupation="Soldier" culture="Culture.lokti">
+  <NPCCharacter id="bk_lokti_cavalry_mercenary" default_group="Cavalry" level="21" name="{=bk_lokti_cavalry_mercenary.name}Loktiu Mercenary Lankininkas" occupation="Soldier" culture="Culture.lokti">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -240,6 +334,109 @@
       <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_vlandian_nasal_helmet_with_mail_coif"/>
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i"/>
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
+			<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.sturgia_sword_5_t4"/>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zi"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_khuzait_helmet_t"/>
+			<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i"/>
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+			<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nasal_helmet_over_mail_coif"/>
+			<equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i"/>
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
+			<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zi"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nasal_helmet_over_mail"/>
+			<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i"/>
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
+			<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.sturgia_sword_5_t4"/>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.DZ_sturgia_helmet_d"/>
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zi"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.DZ_sturgia_helmet_c"/>
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i"/>
+			<equipment slot="Cape" id="Item.scarf"/>
+			<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.sturgia_sword_4_t4"/>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+		</EquipmentRoster>
+		<EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+ 
+  
+  
+  
+  <NPCCharacter id="bk_lokti_cavalry" default_group="Cavalry" level="21" name="{=bk_lokti_cavalry.name}Loktiu Raitelis" occupation="Soldier" culture="Culture.lokti">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="100"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="110"/>
+      <skill id="Bow" value="45"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="20"/>
+    </skills>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.bk_lokti_cavalry_mercenary"/>
     </upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
@@ -321,7 +518,7 @@
   
   
 
-  <NPCCharacter id="bk_lokti_sergeant" default_group="Infantry" level="21" name="{=bk_lokti_sergeant.name}Lokti Voyak" occupation="Soldier" culture="Culture.lokti">
+  <NPCCharacter id="bk_lokti_sergeant" default_group="Infantry" level="21" name="{=bk_lokti_sergeant.name}Loktiu Karys" occupation="Soldier" culture="Culture.lokti">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -404,7 +601,7 @@
   
 
   
-  <NPCCharacter id="bk_lokti_sergeant_bardiche" default_group="Infantry" level="21" name="{=bk_lokti_sergeant_bardiche.name}Lokti Voyak" occupation="Soldier" culture="Culture.lokti">
+  <NPCCharacter id="bk_lokti_sergeant_bardiche" default_group="Infantry" level="21" name="{=bk_lokti_sergeant_bardiche.name}Loktiu Kirvis" occupation="Soldier" culture="Culture.lokti">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -419,6 +616,7 @@
       <skill id="Throwing" value="70"/>
     </skills>
     <upgrade_targets>
+		<upgrade_target id="NPCCharacter.bk_lokti_mercenary"/>
     </upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
@@ -480,7 +678,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_lokti_militiaman" default_group="Infantry" level="16" name="{=bk_lokti_militiaman.name}Lokti Militiaman" occupation="Soldier" culture="Culture.lokti" skill_template="SkillSet.bk_militia_melee_skills">
+  <NPCCharacter id="bk_lokti_militiaman" default_group="Infantry" level="16" name="{=bk_lokti_militiaman.name}Loktiu Militiaman" occupation="Soldier" culture="Culture.lokti" skill_template="SkillSet.bk_militia_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -569,7 +767,7 @@
   </NPCCharacter>
 
   
-  <NPCCharacter id="bk_lokti_militiaman_bardiche" default_group="Infantry" level="16" name="{=bk_lokti_militiaman_bardiche.name}Lokti Bardiche Militiaman" occupation="Soldier" culture="Culture.lokti" skill_template="SkillSet.bk_militia_melee_2h_skills">
+  <NPCCharacter id="bk_lokti_militiaman_bardiche" default_group="Infantry" level="16" name="{=bk_lokti_militiaman_bardiche.name}Loktiu Kirvis Militiaman" occupation="Soldier" culture="Culture.lokti" skill_template="SkillSet.bk_militia_melee_2h_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -650,7 +848,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_lokti_skirmisher" default_group="Infantry" level="16" name="{=bk_lokti_skirmisher.name}Lokti Forester" occupation="Soldier" culture="Culture.lokti" skill_template="SkillSet.bk_militia_skirmisher_skills">
+  <NPCCharacter id="bk_lokti_skirmisher" default_group="Infantry" level="16" name="{=bk_lokti_skirmisher.name}Loktiu Medzhiotojas" occupation="Soldier" culture="Culture.lokti" skill_template="SkillSet.bk_militia_skirmisher_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -741,7 +939,7 @@
   </NPCCharacter>
 
   
-  <NPCCharacter id="bk_lokti_levy" default_group="Infantry" level="11" name="{=bk_lokti_levy.name}Lokti Levy" occupation="Soldier" culture="Culture.lokti" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
+  <NPCCharacter id="bk_lokti_levy" default_group="Infantry" level="11" name="{=bk_lokti_levy.name}Loktiu Levy" occupation="Soldier" culture="Culture.lokti" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -876,7 +1074,7 @@
 
   
   
-  <NPCCharacter id="bk_lokti_militiaman_archer" default_group="Ranged" level="16" name="{=bk_lokti_militiaman_archer.name}Lokti Archer" occupation="Soldier" culture="Culture.lokti" skill_template="SkillSet.bk_militia_bowman_skills">
+  <NPCCharacter id="bk_lokti_militiaman_archer" default_group="Ranged" level="16" name="{=bk_lokti_militiaman_archer.name}Loktiu Lankininkas" occupation="Soldier" culture="Culture.lokti" skill_template="SkillSet.bk_militia_bowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>
@@ -887,17 +1085,6 @@
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_vaegir_helmet_b"/>
 			<equipment slot="Body" id="Item.light_tunic"/>
-			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
-			<equipment slot="Leg" id="Item.leather_shoes"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.large_franziskaa_axe_t3"/>
-			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows"/>
-			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows"/>
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_vaegir_helmet_b"/>
-			<equipment slot="Cape" id="Item.scarf"/>
-			<equipment slot="Body" id="Item.heavy_fur_trimmed_short_tunic"/>
 			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
 			<equipment slot="Leg" id="Item.leather_shoes"/>
 			<equipment slot="Item0" id="Item.steppe_bow"/>
@@ -1003,7 +1190,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_lokti_levy_archer" default_group="Ranged" level="11" name="{=bk_lokti_levy_archer.name}Lokti Levy Archer" occupation="Soldier" culture="Culture.lokti" is_basic_troop="true" skill_template="SkillSet.bk_levy_bowman_skills">
+  <NPCCharacter id="bk_lokti_levy_archer" default_group="Ranged" level="11" name="{=bk_lokti_levy_archer.name}Loktiu Levy Lankininkas" occupation="Soldier" culture="Culture.lokti" is_basic_troop="true" skill_template="SkillSet.bk_levy_bowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia"/>
     </face>

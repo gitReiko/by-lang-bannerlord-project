@@ -1,118 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="bk_furq_cavalry" default_group="HorseArcher" level="21" name="{=bk_furq_cavalry.name}Furqanan Rider" occupation="Soldier" culture="Culture.darshi" skill_template="SkillSet.bk_militia_melee_skills">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <skills>
-      <skill id="Athletics" value="20"/>
-      <skill id="Riding" value="110"/>
-      <skill id="OneHanded" value="110"/>
-      <skill id="TwoHanded" value="20"/>
-      <skill id="Polearm" value="60"/>
-      <skill id="Bow" value="130"/>
-      <skill id="Crossbow" value="10"/>
-      <skill id="Throwing" value="20"/>
-    </skills>
-    <upgrade_targets>
-	</upgrade_targets>
-    <Equipments>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_aserai_helmet_q"/>
-			<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
-			<equipment slot="Body" id="Item.linothorax_8"/>
-			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
-			<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.AR_shield_infantry_n2"/>
-		    <equipment slot="Item3" id="Item.aserai_sword_5_t4"/> 
-			<equipment slot="Horse" id="Item.aserai_horse"/>
-		    <equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_aserai_helmet_q"/>
-			<equipment slot="Cape" id="Item.linothorax_shoulders_7"/>
-			<equipment slot="Body" id="Item.linothorax_8"/>
-			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
-			<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.AR_shield_infantry_n2"/>
-		    <equipment slot="Item3" id="Item.aserai_sword_5_t4"/> 
-			<equipment slot="Horse" id="Item.aserai_horse"/>
-		    <equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_g"/>
-			<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
-			<equipment slot="Body" id="Item.linothorax_7"/>
-			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
-			<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.AR_shield_infantry_n2"/>
-		    <equipment slot="Item3" id="Item.aserai_sword_4_t4"/> 
-			<equipment slot="Horse" id="Item.aserai_horse"/>
-		    <equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_aserai_helmet_l"/>
-			<equipment slot="Cape" id="Item.linothorax_shoulders_1"/>
-			<equipment slot="Body" id="Item.linothorax_7"/>
-			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
-			<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.AR_shield_infantry_n2"/>
-		    <equipment slot="Item3" id="Item.bk_darshi_sword_t4"/> 
-			<equipment slot="Horse" id="Item.aserai_horse"/>
-		    <equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_aserai_helmet_l2"/>
-			<equipment slot="Cape" id="Item.linothorax_shoulders_2"/>
-			<equipment slot="Body" id="Item.linothorax_9"/>
-			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
-			<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.AR_shield_infantry_n2"/>
-		    <equipment slot="Item3" id="Item.AR_darshi_axe_t4"/> 
-			<equipment slot="Horse" id="Item.aserai_horse"/>
-		    <equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_aserai_helmet_p"/>
-			<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
-			<equipment slot="Body" id="Item.linothorax_6"/>
-			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
-			<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.AR_shield_infantry_n2"/>
-		    <equipment slot="Item3" id="Item.AR_darshi_axe_t4"/> 
-			<equipment slot="Horse" id="Item.aserai_horse"/>
-		    <equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_aserai_helmet_p"/>
-			<equipment slot="Body" id="Item.linothorax_9"/>
-			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
-			<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.AR_shield_infantry_n2"/>
-		    <equipment slot="Item3" id="Item.AR_darshi_axe_t4"/> 
-			<equipment slot="Horse" id="Item.aserai_horse"/>
-		    <equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
-		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
-    </Equipments>
-  </NPCCharacter>
 
 
-  <NPCCharacter id="bk_ghilman" default_group="HorseArcher" level="21" name="{=bk_ghilman.name}Ghilman Mercenary" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="bk_ghilman" default_group="HorseArcher" level="21" name="{=bk_ghilman.name}Ghilman Mercenary" occupation="Mercenary" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -224,8 +114,95 @@
 		<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_immortal" default_group="Infantry" level="31" name="{=bk_immortal.name}Darshian Anoshag" occupation="Soldier" culture="Culture.darshi">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="40"/>
+      <skill id="OneHanded" value="200"/>
+      <skill id="TwoHanded" value="50"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="50"/>
+      <skill id="Throwing" value="150"/>
+    </skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.bk_southern_javelins"/>
+		  <equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+		  <equipment slot="Item2" id="Item.AR_darshi_mace_5_t5"/>
+		  <equipment slot="Item3" id="Item.AR_darshi_spear_5_t4"/>
+		  <equipment slot="Head" id="Item.AR_aserai_lord_helmet_e"/>
+		  <equipment slot="Cape" id="Item.tv_aserai_cloak_b"/>
+		  <equipment slot="Body" id="Item.AR_aserai_armor_u2"/>
+		  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+		  <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.bk_southern_javelins"/>
+		  <equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+		  <equipment slot="Item2" id="Item.AR_darshi_mace_5_t5"/>
+		  <equipment slot="Item3" id="Item.AR_darshi_spear_5_t4"/>
+		  <equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_c"/>
+		  <equipment slot="Cape" id="Item.tv_aserai_cloak_c"/>
+		  <equipment slot="Body" id="Item.AR_aserai_armor_v2"/>
+		  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+		  <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.bk_southern_javelins"/>
+		  <equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+		  <equipment slot="Item2" id="Item.AR_darshi_mace_6_t5"/>
+		  <equipment slot="Item3" id="Item.AR_darshi_spear_5_t4"/>
+		  <equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_d"/>
+		  <equipment slot="Cape" id="Item.tv_aserai_cloak_a"/>
+		  <equipment slot="Body" id="Item.AR_aserai_armor_v"/>
+		  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+		  <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.bk_southern_javelins"/>
+		  <equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+		  <equipment slot="Item2" id="Item.AR_darshi_mace_6_t5"/>
+		  <equipment slot="Item3" id="Item.AR_darshi_spear_5_t4"/>
+		  <equipment slot="Head" id="Item.AR_aserai_helmet_r"/>
+		  <equipment slot="Body" id="Item.tv_empire_armor_s2"/>
+		  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+		  <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.bk_southern_javelins"/>
+		  <equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+		  <equipment slot="Item2" id="Item.AR_darshi_axe_t5"/>
+		  <equipment slot="Item3" id="Item.AR_darshi_spear_5_t4"/>
+		  <equipment slot="Head" id="Item.AR_aserai_helmet_z"/>
+		  <equipment slot="Body" id="Item.tv_empire_armor_s"/>
+		  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+		  <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.bk_southern_javelins"/>
+		  <equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+		  <equipment slot="Item2" id="Item.AR_darshi_axe_t5"/>
+		  <equipment slot="Item3" id="Item.AR_darshi_spear_5_t4"/>
+		  <equipment slot="Head" id="Item.AR_aserai_helmet_zd"/>
+		  <equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+		  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+		  <equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+   </NPCCharacter>
+   
+  
 
-  <NPCCharacter id="bk_darshiaswar" default_group="Cavalry" level="31" name="{=bk_darshiaswar.name}Darshi Grivanpar" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshiaswar" default_group="Cavalry" level="31" name="{=bk_darshiaswar.name}Darshian Grivanpar" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -323,7 +300,7 @@
    </NPCCharacter>
 
 
-   <NPCCharacter id="bk_darshiaswar_ranged" default_group="HorseArcher" level="31" name="{=bk_darshiaswar_ranged.name}Darshi Asbar" occupation="Soldier" culture="Culture.darshi">
+   <NPCCharacter id="bk_darshiaswar_ranged" default_group="HorseArcher" level="31" name="{=bk_darshiaswar_ranged.name}Darshian Asbar" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -420,7 +397,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_darshi_squire" default_group="Cavalry" level="26" name="{=bk_darshi_squire.name}Darshi Highborn" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshi_squire" default_group="Cavalry" level="26" name="{=bk_darshi_squire.name}Darshian Highborn" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -530,8 +507,174 @@
     </Equipments>
   </NPCCharacter>
   
+  <NPCCharacter id="bk_darshi_mace_mercenary" default_group="Ranged" level="26" name="{=bk_darshi_mace_mercenary.name}Darshian Sray Mercenary" occupation="Mercenary" culture="Culture.darshi">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="160"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="130"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="20"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+		    <equipment slot="Item1" id="Item.AR_darshi_2h_mace_t5"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_y2"/>
+			<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+			<equipment slot="Body" id="Item.linothorax_8"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item1" id="Item.AR_darshi_2h_mace_t5"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_q"/>
+			<equipment slot="Cape" id="Item.linothorax_shoulders_7"/>
+			<equipment slot="Body" id="Item.linothorax_5"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item1" id="Item.AR_darshi_2h_mace_t5"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_x"/>
+			<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
+			<equipment slot="Body" id="Item.linothorax_4"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item1" id="Item.AR_darshi_2h_mace_t5"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_p"/>
+			<equipment slot="Body" id="Item.linothorax_2"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item1" id="Item.AR_darshi_2h_mace_t5"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_y2"/>
+			<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+			<equipment slot="Body" id="Item.linothorax_1"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item1" id="Item.AR_darshi_2h_mace_t5"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_y"/>
+			<equipment slot="Body" id="Item.linothorax_8"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
 
-  <NPCCharacter id="bk_darshi_camel_lancer" default_group="Cavalry" level="21" name="{=bk_darshi_camel_lancer.name}Darshi Shutur Aswar" occupation="Soldier" culture="Culture.darshi">
+		
+  <NPCCharacter id="bk_darshi_camel_mercenary" default_group="HorseArcher" level="26" name="{=bk_darshi_camel_mercenary.name}Darshian Shutur Mercenary" occupation="Mercenary" culture="Culture.darshi" upgrade_requires="ItemCategory.camel">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="90"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="140"/>
+      <skill id="Bow" value="140"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="20"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_aserai_lance_2_t4"/>
+		    <equipment slot="Item1" id="Item.bk_darshi_sword_t4"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_y2"/>
+			<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+			<equipment slot="Body" id="Item.linothorax_8"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			<equipment slot="Horse" id="Item.camel"/>
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_aserai_lance_2_t4"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_mace_4_t4"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_q"/>
+			<equipment slot="Cape" id="Item.linothorax_shoulders_7"/>
+			<equipment slot="Body" id="Item.linothorax_5"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			<equipment slot="Horse" id="Item.camel"/>
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_aserai_lance_2_t4"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_mace_4_t4"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_x"/>
+			<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
+			<equipment slot="Body" id="Item.linothorax_4"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			<equipment slot="Horse" id="Item.camel"/>
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_aserai_lance_2_t4"/>
+		    <equipment slot="Item1" id="Item.bk_darshi_sword_t4"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_p"/>
+			<equipment slot="Body" id="Item.linothorax_2"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			<equipment slot="Horse" id="Item.camel"/>
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_aserai_lance_2_t4"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_y2"/>
+			<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+			<equipment slot="Body" id="Item.linothorax_1"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			<equipment slot="Horse" id="Item.camel"/>
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_aserai_lance_2_t4"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_axe_t4"/>   
+			<equipment slot="Item2" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_y"/>
+			<equipment slot="Body" id="Item.linothorax_8"/>
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			<equipment slot="Horse" id="Item.camel"/>
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g"/>
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_darshi_camel_lancer" default_group="Cavalry" level="21" name="{=bk_darshi_camel_lancer.name}Darshian Shutur Aswar" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -546,6 +689,7 @@
       <skill id="Throwing" value="20"/>
     </skills>
     <upgrade_targets>
+		<upgrade_target id="NPCCharacter.bk_darshi_camel_mercenary"/>
     </upgrade_targets>
     <Equipments>
 	  <EquipmentRoster>
@@ -617,7 +761,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_darshi_camel_rider" default_group="Cavalry" level="16" name="{=bk_darshi_camel_rider.name}Darshi Shutur Pishtaz" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshi_camel_rider" default_group="Cavalry" level="16" name="{=bk_darshi_camel_rider.name}Darshian Shutur Pishtaz" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -753,7 +897,7 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_darshi_dehqan" default_group="HorseArcher" level="21" name="{=bk_darshi_dehqan.name}Darshi Dehqan" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshi_dehqan" default_group="HorseArcher" level="21" name="{=bk_darshi_dehqan.name}Darshian Dehqan" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -845,7 +989,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_darshi_horse_archer" default_group="HorseArcher" level="21" name="{=bk_darshi_horse_archer.name}Darshi Kamansawar" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshi_horse_archer" default_group="HorseArcher" level="21" name="{=bk_darshi_horse_archer.name}Darshian Kamansawar" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -867,9 +1011,9 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_za"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -880,9 +1024,9 @@
 			<equipment slot="Body" id="Item.tv_empire_armor_q"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -893,9 +1037,9 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_q"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -905,9 +1049,9 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -918,9 +1062,9 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_s"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -931,9 +1075,9 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_zb"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -944,9 +1088,9 @@
 			<equipment slot="Body" id="Item.long_padded_robe"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -956,9 +1100,9 @@
 			<equipment slot="Body" id="Item.tv_empire_armor_t"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -969,9 +1113,9 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_p"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -982,9 +1126,9 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_k"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.steppe_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item2" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item3" id="Item.AR_darshi_axe_t3"/> 
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 			<equipment slot="HorseHarness" id="Item.bandit_saddle_desert"/>
@@ -993,7 +1137,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_darshi_scout" default_group="Infantry" level="16" name="{=bk_darshi_scout.name}Darshi Pishtaz" occupation="Soldier" culture="Culture.darshi" is_basic_troop="true" skill_template="SkillSet.bk_militia_horse_archer_skills">
+  <NPCCharacter id="bk_darshi_scout" default_group="Infantry" level="16" name="{=bk_darshi_scout.name}Darshian Pishtaz" occupation="Soldier" culture="Culture.darshi" is_basic_troop="true" skill_template="SkillSet.bk_militia_horse_archer_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1009,9 +1153,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1021,9 +1165,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1033,9 +1177,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1045,9 +1189,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1058,9 +1202,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1070,9 +1214,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1083,9 +1227,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1095,9 +1239,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1107,9 +1251,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1120,9 +1264,9 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.AR_darshi_axe_t3"/>
-		    <equipment slot="Item1" id="Item.mountain_hunting_bow"/>
-		    <equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item1" id="Item.composite_bow"/>
+		    <equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Horse" id="Item.aserai_horse"/>
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 		</EquipmentRoster>
@@ -1131,7 +1275,7 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_darshi_sergeant" default_group="Infantry" level="21" name="{=bk_darshi_sergeant.name}Darshi Gond" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshi_sergeant" default_group="Infantry" level="21" name="{=bk_darshi_sergeant.name}Darshian Gond" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1204,7 +1348,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_darshi_militiaman" default_group="Infantry" level="16" name="{=bk_darshi_militiaman.name}Darshi Militiaman" occupation="Soldier" culture="Culture.darshi" skill_template="SkillSet.bk_militia_melee_skills">
+  <NPCCharacter id="bk_darshi_militiaman" default_group="Infantry" level="16" name="{=bk_darshi_militiaman.name}Darshian Militiaman" occupation="Soldier" culture="Culture.darshi" skill_template="SkillSet.bk_militia_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1315,7 +1459,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_darshi_sparabara_sergeant" default_group="Infantry" level="21" name="{=bk_darshi_sparabara_sergeant.name}Darshi Sparabara Gond" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshi_sparabara_sergeant" default_group="Infantry" level="21" name="{=bk_darshi_sparabara_sergeant.name}Darshian Sparabara Gond" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1335,7 +1479,7 @@
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_5_t4"/>
-		    <equipment slot="Item2" id="Item.highland_ranger_bow"/>
+		    <equipment slot="Item2" id="Item.composite_bow"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Head" id="Item.cts_persian_cloth_e"/>
 			<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
@@ -1345,7 +1489,7 @@
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_5_t4"/>
-		    <equipment slot="Item2" id="Item.highland_ranger_bow"/>
+		    <equipment slot="Item2" id="Item.composite_bow"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Head" id="Item.cts_persian_cloth_a"/>
 			<equipment slot="Cape" id="Item.linothorax_shoulders_7"/>
@@ -1355,7 +1499,7 @@
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_5_t4"/>
-		    <equipment slot="Item2" id="Item.highland_ranger_bow"/>
+		    <equipment slot="Item2" id="Item.composite_bow"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/> 
 			<equipment slot="Head" id="Item.cts_persian_cloth_d"/>
 			<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
@@ -1365,7 +1509,7 @@
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_4_t4"/>
-		    <equipment slot="Item2" id="Item.highland_ranger_bow"/>
+		    <equipment slot="Item2" id="Item.composite_bow"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Head" id="Item.cts_persian_cloth_c"/>
 			<equipment slot="Body" id="Item.linothorax_2"/>
@@ -1374,7 +1518,7 @@
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_4_t4"/>
-		    <equipment slot="Item2" id="Item.highland_ranger_bow"/>
+		    <equipment slot="Item2" id="Item.composite_bow"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Head" id="Item.cts_persian_cloth_b"/>
 			<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
@@ -1384,7 +1528,7 @@
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_4_t4"/>
-		    <equipment slot="Item2" id="Item.highland_ranger_bow"/>
+		    <equipment slot="Item2" id="Item.composite_bow"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Head" id="Item.cts_persian_cloth_f"/>
 			<equipment slot="Body" id="Item.linothorax_8"/>
@@ -1394,7 +1538,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_darshi_sparabara" default_group="Infantry" level="16" name="{=bk_darshi_sparabara.name}Darshi Sparabara" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshi_sparabara" default_group="Infantry" level="16" name="{=bk_darshi_sparabara.name}Darshian Sparabara" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1419,8 +1563,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_a"/>
@@ -1429,8 +1573,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_d"/>
@@ -1439,8 +1583,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_b"/>
@@ -1449,8 +1593,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_f"/>
@@ -1460,8 +1604,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_e"/>
@@ -1470,8 +1614,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_e"/>
@@ -1481,8 +1625,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_d"/>
@@ -1491,8 +1635,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/> 
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/> 
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_c"/>
@@ -1501,8 +1645,8 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_c"/>
@@ -1512,15 +1656,15 @@
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
 			<equipment slot="Item0" id="Item.stronger_eastern_wicker_shield"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_spear_3_t3"/>
-		    <equipment slot="Item2" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+		    <equipment slot="Item2" id="Item.steppe_bow"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		</EquipmentRoster>
 		<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
 
   
-  <NPCCharacter id="bk_darshi_takabara" default_group="Infantry" level="16" name="{=bk_darshi_takabara.name}Darshi Takabara" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="bk_darshi_takabara" default_group="Infantry" level="16" name="{=bk_darshi_takabara.name}Darshian Takabara" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1635,7 +1779,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_darshi_levy" default_group="Infantry" level="11" name="{=bk_darshi_levy.name}Darshi Paighan" occupation="Soldier" culture="Culture.darshi" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
+  <NPCCharacter id="bk_darshi_levy" default_group="Infantry" level="11" name="{=bk_darshi_levy.name}Darshian Paighan" occupation="Soldier" culture="Culture.darshi" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1651,7 +1795,7 @@
 			<equipment slot="Body" id="Item.cts_persian_tunic_a5"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a4"/>
 			<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
-			<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+			<equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
 		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -1660,7 +1804,7 @@
 			<equipment slot="Body" id="Item.cts_persian_tunic_b"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a1"/>
 			<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
-			<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+			<equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
 		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -1668,14 +1812,14 @@
 			<equipment slot="Body" id="Item.cts_persian_tunic_b2"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a6"/>
 			<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
-			<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+			<equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
 		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.cts_persian_tunic_b5"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a2"/>
 			<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
-		    <equipment slot="Item1" id="Item.aserai_sword_1_t2"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_mace_1_t2"/>
 			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -1683,7 +1827,7 @@
 			<equipment slot="Body" id="Item.cts_persian_tunic_a4"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b1"/>
 			<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
-		    <equipment slot="Item1" id="Item.aserai_sword_2_t2"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_mace_1_t2"/>
 		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -1705,7 +1849,8 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_darshi_sergeant_archer" default_group="Ranged" level="21" name="{=bk_darshi_sergeant_archer.name}Darshi Kamandar" occupation="Soldier" culture="Culture.darshi">
+
+  <NPCCharacter id="bk_darshi_sergeant_archer" default_group="Ranged" level="21" name="{=bk_darshi_sergeant_archer.name}Darshian Kamandar" occupation="Soldier" culture="Culture.darshi">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1720,6 +1865,7 @@
       <skill id="Throwing" value="40"/>
     </skills>
     <upgrade_targets>
+		<upgrade_target id="NPCCharacter.bk_darshi_mace_mercenary"/>
 	</upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
@@ -1727,9 +1873,9 @@
 			<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_d"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item2" id="Item.AR_darshi_mace_3_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -1738,9 +1884,9 @@
 			<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_b"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b2"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item2" id="Item.AR_darshi_axe_t4"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
@@ -1748,16 +1894,16 @@
 			<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_a"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a1"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
-			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.vlandic_arrows"/>
+			<equipment slot="Item3" id="Item.vlandic_arrows"/>
 		    <equipment slot="Item2" id="Item.AR_darshi_axe_t4"/>
 		</EquipmentRoster>
 		<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_darshi_militiaman_archer" default_group="Ranged" level="16" name="{=bk_darshi_militiaman_archer.name}Darshi Militiaman Archer" occupation="Soldier" culture="Culture.darshi" skill_template="SkillSet.bk_militia_bowman_skills">
+  <NPCCharacter id="bk_darshi_militiaman_archer" default_group="Ranged" level="16" name="{=bk_darshi_militiaman_archer.name}Darshian Militiaman Archer" occupation="Soldier" culture="Culture.darshi" skill_template="SkillSet.bk_militia_bowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1771,7 +1917,7 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_za"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a1"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 		    <equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
@@ -1782,7 +1928,7 @@
 			<equipment slot="Body" id="Item.tv_empire_armor_q"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a2"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 		    <equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
@@ -1793,7 +1939,7 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_q"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a6"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 		    <equipment slot="Item2" id="Item.AR_darshi_axe_t3"/>
@@ -1803,10 +1949,10 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b1"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-		    <equipment slot="Item2" id="Item.AR_darshi_mace_1_t2"/>
+		    <equipment slot="Item2" id="Item.AR_darshi_mace_3_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_f"/>
@@ -1814,10 +1960,10 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_s"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b2"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-		    <equipment slot="Item2" id="Item.AR_darshi_mace_1_t2"/>
+		    <equipment slot="Item2" id="Item.AR_darshi_mace_3_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_e"/>
@@ -1825,10 +1971,10 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_zb"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b5"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-		    <equipment slot="Item2" id="Item.AR_darshi_mace_1_t2"/>
+		    <equipment slot="Item2" id="Item.AR_darshi_mace_3_t3"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_e"/>
@@ -1836,7 +1982,7 @@
 			<equipment slot="Body" id="Item.long_padded_robe"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b6"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 		    <equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
@@ -1846,7 +1992,7 @@
 			<equipment slot="Body" id="Item.tv_empire_armor_t"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 		    <equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
@@ -1857,7 +2003,7 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_p"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b4"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 		    <equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
@@ -1868,7 +2014,7 @@
 			<equipment slot="Body" id="Item.AR_aserai_armor_k"/>
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a4"/>
-			<equipment slot="Item0" id="Item.highland_ranger_bow"/>
+			<equipment slot="Item0" id="Item.composite_bow"/>
 			<equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
 		    <equipment slot="Item2" id="Item.aserai_sword_3_t3"/>
@@ -1878,7 +2024,7 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_darshi_levy_archer" default_group="Ranged" level="11" name="{=bk_darshi_levy_archer.name}Darshi Paighan Archer" occupation="Soldier" culture="Culture.darshi" is_basic_troop="true" skill_template="SkillSet.bk_levy_bowman_skills">
+  <NPCCharacter id="bk_darshi_levy_archer" default_group="Ranged" level="11" name="{=bk_darshi_levy_archer.name}Darshian Paighan Archer" occupation="Soldier" culture="Culture.darshi" is_basic_troop="true" skill_template="SkillSet.bk_levy_bowman_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -1891,81 +2037,81 @@
 			<equipment slot="Head" id="Item.cts_persian_cloth_c"/>
 			<equipment slot="Body" id="Item.cts_persian_tunic_a"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b2"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
-		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_mace_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_c"/>
 			<equipment slot="Cape" id="Item.wrapped_scarf"/>
 			<equipment slot="Body" id="Item.cts_persian_tunic_a3"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b6"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
-		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_mace_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_d"/>
 			<equipment slot="Body" id="Item.cts_persian_tunic_a1"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b5"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
-		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
+		    <equipment slot="Item1" id="Item.AR_darshi_mace_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.cts_persian_tunic_b1"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a6"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
-		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
+		    <equipment slot="Item1" id="Item.aserai_sword_1_t2"/>
 		</EquipmentRoster>	
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_e"/>
 			<equipment slot="Body" id="Item.cts_persian_tunic_b"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
-		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
+		    <equipment slot="Item1" id="Item.aserai_sword_1_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_f"/>
 			<equipment slot="Body" id="Item.cts_persian_tunic_b5"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a2"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_b"/>
 			<equipment slot="Body" id="Item.cts_persian_tunic_b2"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b1"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_c"/>
 			<equipment slot="Body" id="Item.cts_persian_tunic_a5"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_b3"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.cts_persian_cloth_a"/>
 			<equipment slot="Body" id="Item.cts_persian_tunic_a4"/>
 			<equipment slot="Leg" id="Item.cts_persian_pants_a1"/>
-			<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-			<equipment slot="Item2" id="Item.steppe_arrows"/>
-			<equipment slot="Item3" id="Item.steppe_arrows"/>
+			<equipment slot="Item0" id="Item.steppe_bow"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Item3" id="Item.default_arrows"/>
 		    <equipment slot="Item1" id="Item.AR_darshi_axe_t2"/>
 		</EquipmentRoster>
 		<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>

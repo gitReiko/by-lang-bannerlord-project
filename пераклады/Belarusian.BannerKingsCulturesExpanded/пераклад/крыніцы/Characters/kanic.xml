@@ -1,7 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="bk_kanic_sacred_band_cavalry" default_group="Cavalry" level="31" name="{=!}Kannic Sacred Cavalry" occupation="Soldier" culture="Culture.kannic">
+  <NPCCharacter id="bk_sacred_mercenary" default_group="Infantry" level="21" name="{=!}Qesher Mercenary" occupation="Mercenary" culture="Culture.kannic" is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="140" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="150" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_c" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_6" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.AR_vlandia_boots_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_c" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_9" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.AR_vlandia_boots_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_c" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_12" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.mercenary_mail_armor" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.AR_vlandia_boots_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_c" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_10" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.AR_vlandia_armor_o" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.AR_vlandia_boots_b" />
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+
+  <NPCCharacter id="bk_kanic_sacred_band_cavalry" default_group="Cavalry" level="31" name="{=!}Kannan Sacred Cavalry" occupation="Soldier" culture="Culture.kannic">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -90,12 +154,12 @@
 			<equipment slot="Horse" id="Item.t2_aserai_horse" />
 		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_kanic_highborn" default_group="Cavalry" level="21" name="{=!}Kannic Citizen Cavalry" occupation="Soldier" culture="Culture.kannic" is_basic_troop="true">
+  <NPCCharacter id="bk_kanic_highborn" default_group="Cavalry" level="26" name="{=!}Kannan Citizen Cavalry" occupation="Soldier" culture="Culture.kannic" is_basic_troop="true">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -173,7 +237,7 @@
 			<equipment slot="Horse" id="Item.t2_aserai_horse" />
 		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -182,7 +246,7 @@
   <NPCCharacter id="bk_kanic_horseman"
                 default_group="Cavalry"
                 level="21"
-                name="{=!}Kannic Horseman"
+                name="{=!}Kannan Horseman"
                 occupation="Soldier"
                 culture="Culture.kannic">
     <face>
@@ -293,7 +357,7 @@
 			<equipment slot="Horse" id="Item.aserai_horse" />
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -301,7 +365,7 @@
    <NPCCharacter id="bk_kanic_rider"
                 default_group="Cavalry"
                 level="16"
-                name="{=!}Kannic Rider"
+                name="{=!}Kannan Rider"
                 occupation="Soldier"
                 culture="Culture.kannic"
 				is_basic_troop="true">
@@ -412,13 +476,13 @@
 			<equipment slot="Horse" id="Item.aserai_horse" />
 		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t2"
+		<EquipmentSet id="empire_troop_civilian_template_t2"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
   
   
-  <NPCCharacter id="bk_kanic_sacred_band" default_group="Infantry" level="31" name="{=!}Kannic Sacred Hoplite" occupation="Soldier" culture="Culture.kannic">
+  <NPCCharacter id="bk_kanic_sacred_band" default_group="Infantry" level="31" name="{=!}Kannan Sacred Hoplite" occupation="Soldier" culture="Culture.kannic">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -498,13 +562,13 @@
 			<equipment slot="Leg" id="Item.bronze_greaves_dual_2" />
 			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_kanic_citizen" default_group="Infantry" level="26" name="{=!}Kannic Citizen Hoplite" occupation="Soldier" culture="Culture.kannic" is_basic_troop="true">
+  <NPCCharacter id="bk_kanic_citizen" default_group="Infantry" level="26" name="{=!}Kannan Citizen Hoplite" occupation="Soldier" culture="Culture.kannic" is_basic_troop="true">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -603,12 +667,125 @@
 			<equipment slot="Body" id="Item.linothorax_4" />
 			<equipment slot="Leg" id="Item.bronze_greave_1" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_kanic_mercenary" default_group="Infantry" level="26" name="{=!}Kannan Mercenary" occupation="Mercenary" culture="Culture.kannic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_oval_shield1" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_4" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_a1" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_shield_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_4" />
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_oval_shield" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_10" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
+			<equipment slot="Body" id="Item.cts_fenician_lino_a" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_oval_shield2" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_3" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.cts_fenician_lino_b" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_shield_a2" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_2" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_a" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_shield_a1" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_3" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_3" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_b" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_shield_a2" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_2" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_1" />
+			<equipment slot="Body" id="Item.linothorax_3" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_oval_shield1" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_4" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
+			<equipment slot="Body" id="Item.cts_fenician_lino" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_shield_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_kannic_sergeant" default_group="Infantry" level="21" name="{=!}Kannic Sailor" occupation="Soldier" culture="Culture.kannic">
+  <NPCCharacter id="bk_kannic_sergeant" default_group="Infantry" level="21" name="{=!}Kannan Sailor" occupation="Soldier" culture="Culture.kannic">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -617,17 +794,18 @@
       <skill id="Riding" value="20" />
       <skill id="OneHanded" value="130" />
       <skill id="TwoHanded" value="40" />
-      <skill id="Polearm" value="60" />
+      <skill id="Polearm" value="100" />
       <skill id="Bow" value="30" />
       <skill id="Crossbow" value="30" />
-      <skill id="Throwing" value="90" />
+      <skill id="Throwing" value="50" />
     </skills>
     <upgrade_targets>
+		<upgrade_target id="NPCCharacter.bk_kanic_mercenary" />
     </upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a1" />
-		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
 		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
 			<equipment slot="Head" id="Item.phrygian_1" />
 			<equipment slot="Body" id="Item.linothorax_3" />
@@ -636,7 +814,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
-		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
 		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
 			<equipment slot="Head" id="Item.cts_carthage_montferier" />
 			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
@@ -646,7 +824,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.cts_carthage_republic_shield2" />
-		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
 		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
 			<equipment slot="Head" id="Item.cts_carthage_montferier" />
 			<equipment slot="Body" id="Item.linothorax_4" />
@@ -655,7 +833,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a3" />
-		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
 		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
 			<equipment slot="Head" id="Item.cts_carthaginian_pylos" />
 			<equipment slot="Body" id="Item.cts_carthage_lino_a" />
@@ -664,7 +842,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.cts_carthage_republic_shield1" />
-		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
 		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
 			<equipment slot="Head" id="Item.cts_carthage_montferier" />
 			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
@@ -674,7 +852,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.cts_carthage_republic_shield" />
-		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
 		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
 			<equipment slot="Head" id="Item.cts_carthage_montferier" />
 			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
@@ -684,7 +862,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a" />
-		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" /> 
 		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
 			<equipment slot="Head" id="Item.phrygian_10" />
 			<equipment slot="Body" id="Item.linothorax_6" />
@@ -693,7 +871,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.cts_carthage_republic_shield3" />
-		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
 		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
 			<equipment slot="Head" id="Item.phrygian_2" />
 			<equipment slot="Cape" id="Item.linothorax_shoulders_3" />
@@ -701,7 +879,7 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
 			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -709,7 +887,7 @@
   <NPCCharacter id="bk_kannic_militiaman"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Kannic Militiaman"
+                name="{=!}Kannan Militiaman"
                 occupation="Soldier"
                 culture="Culture.kannic"
                 skill_template="SkillSet.bk_militia_melee_skills">
@@ -793,12 +971,12 @@
 			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
 		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_kannic_sergeant_pike" default_group="Infantry" level="21" name="{=!}Kannic Sarissaphoros" occupation="Soldier" culture="Culture.kannic">
+  <NPCCharacter id="bk_kannic_sergeant_pike" default_group="Infantry" level="21" name="{=!}Kannan Sarissaphoros" occupation="Soldier" culture="Culture.kannic">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -883,7 +1061,7 @@
 			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
 			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -891,7 +1069,7 @@
   <NPCCharacter id="bk_kannic_militiaman_pike"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Kannic Militiaman Phalangite"
+                name="{=!}Kannan Militiaman Phalangite"
                 occupation="Soldier"
                 culture="Culture.kannic"
                 skill_template="SkillSet.bk_militia_melee_skills">
@@ -966,7 +1144,7 @@
 			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
 			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -975,7 +1153,7 @@
   <NPCCharacter id="bk_kannic_levy"
                 default_group="Infantry"
                 level="11"
-                name="{=!}Kannic Levy"
+                name="{=!}Kannan Levy"
                 occupation="Soldier"
                 culture="Culture.kannic"
 				is_basic_troop="true"
@@ -1052,7 +1230,7 @@
 			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
 		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t2"
+		<EquipmentSet id="empire_troop_civilian_template_t2"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -1060,7 +1238,7 @@
   <NPCCharacter id="bk_kannic_militiaman_archer"
                 default_group="Ranged"
                 level="16"
-                name="{=!}Kannic Militiaman Archer"
+                name="{=!}Kannan Militiaman Archer"
                 occupation="Soldier"
                 culture="Culture.kannic"
                 skill_template="SkillSet.bk_militia_bowman_skills">
@@ -1292,7 +1470,7 @@
 			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
 		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t3"
+		<EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
@@ -1300,7 +1478,7 @@
   <NPCCharacter id="bk_kannic_levy_archer"
                 default_group="Ranged"
                 level="11"
-                name="{=!}Kannic Levy Archer"
+                name="{=!}Kannan Levy Archer"
                 occupation="Soldier"
                 culture="Culture.kannic"
 				is_basic_troop="true"
@@ -1385,7 +1563,7 @@
 			<equipment slot="Item3" id="Item.steppe_arrows" />
 			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
 		</EquipmentRoster>
-		<EquipmentSet id="aserai_troop_civilian_template_t2"
+		<EquipmentSet id="empire_troop_civilian_template_t2"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
