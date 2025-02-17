@@ -56,7 +56,7 @@
   <string id="EE000025" text="Пачаць"/>
   <string id="EE000026" text="Уласьнік гэтага селішча забараняе вам рэкрутаваць тутэйшых ваяроў.{newline}{newline}Палепшыце адносіны з уласьнікам:{newline}{newline}* спадарожнічайце побач і дапамагайце ім у бітвах{newline}* давайце ім падарункі/золата ў меню бартару{newline}* выконвайце іхнія квэсты{newline}* даруйце ім ваяроў{newline}* даруйце ваяроў у гарнізоны селішчаў шляхціца{newline}* галасуйце на карысьць гэтага шляхціча"/>
   <string id="EE000027" text="Вы ня можаце рэкрутаваць у варожым замку."/>
-  <string id="EE000028" text="Староста {SETTLEMENT} узяў {AMOUNT} адзінак зерня з запасаў Клеці."/>
+  <string id="EE000028" text="Староста {SETTLEMENT} узяў {AMOUNT} ежы са Складу ў Клець."/>
   <string id="EE000029" text="Каваль з {SETTLEMENT} бярэ {CRAFTING_RATE}{GOLD_ICON}/г за арэнду кузьні."/>
   <string id="EE000030" text="Вы працавалі {CRAFTING_HOURS} гадзін у кузьні."/>
   <string id="EE000031" text="Сплочана кавалю: {HOURLY_RATE}{GOLD_ICON}"/>
@@ -129,11 +129,11 @@
   <string id="EE000098" text="Вы аглядаеце селішча і адзначаеце ўсё, што трэба выправіць - заўжды штосьці знаходзіцца. Пачынаеце з крывога штыкетніка ці трухлявай сьцяны, замяняеце сапсаваныя матэрыялы і заштукоўваеце шчыліны дзеля бясьпекі. Потым правіце пашкоджаны дах, падкладаеце новыя матэрыялы і мацуеце пабудову дзеля супраціву жорсткаму надвор'ю. З кожным рамонтам селішча пачуваецца больш надзейным, ды й жыхары выяўляюць сваю ўдзячнасьць, бо іхнія пабудовы сталі бясьпечнейшымі дзякуючы вашым майстравітым рукам."/>
   <string id="EE000099" text="Я {?PLAYER.GENDER}зрабіла{?}зрабіў{\?} справу. Час сыходзіць."/>
   <string id="EE000100" text="Праца выканана. Вясковыя дымы павялічыліся."/>
-  <string id="EE000101" text="Ваяры працуюць на будоўлі, мараль зьніжана: -{MORALE_CHANGE}"/>
+  <string id="EE000101" text="Ваярам не падабаецца гэтая праца, мараль зьніжана: -{MORALE_CHANGE}"/>
   <string id="EE000102" text="Навыкі Атлетыка і Інжынерыя палепшаны."/>
   <string id="EE000103" text="Партыя атрымала {AMOUNT} {ITEM_NAME}{ITEM_ICON}"/>
   <string id="EE000104" text="Вашыя каровы ({AMOUNT}) вельмі прадукцыйныя."/>
-  <string id="EE000105" text="{AMOUNT} {ITEM_NAME}{ITEM_ICON} выдалены"/>
+  <string id="EE000105" text="{AMOUNT} {ITEM_NAME}{ITEM_ICON} выдалена з Партыі"/>
   <string id="EE000106" text="Праца выканана!"/>
   <string id="EE000107" text="Спачатку вы падмятаеце сьцежкі, прыбіраеце пыл і лісьце, каб вёска выглядала ахайна. Потым вы адпраўляецеся на палі, дзе дапамагаеце зьбіраць сасьпелы ўраджай, акуратна захоўваеце яго і даглядаеце жывёлаў, кормячы яе ды забясьпечваеце бясьпеку загонаў. Потым вы зьдзяйсьняеце некалькі паходаў да студні, набіраеце ваду дзеля напаўненьня бондаў штодзённага выкарыстаньня. І нарэшце, вы акуратна складваеце дровы каля хатак, рыхтуючыся да хуткіх халодных начэй."/>
   <string id="EE000108" text="Навык Атлетыка палепшаны."/>
@@ -166,8 +166,169 @@
   <string id="EE000135" text="Лагерныя Пасьлядоўнікі"/>
   <string id="EE000136" text="{HERO} далучаецца да {CLAN}"/>
   <string id="EE000137" text="Ня можа дапамагчы з гэтым наўпрост зараз."/>
-  <string id="EE000138" text=""/>
-  <string id="EE000139" text=""/>
+  <string id="EE000138" text="{AMOUNT} {ITEM_NAME}{ITEM_ICON} прыбрана са Складу"/>
+  <string id="EE000139" text="Староста {SETTLEMENT} зарэзаў некалькі жывёлаў і аднёс {AMOUNT} мяса ў Клець."/>
+  <string id="EE000140" text="Што тычыцца абавязкаў кватэрмайстара..."/>
+  <string id="EE000141" text="Мае цяперашнія дзеяньні:{newline}{newline}{ACTIONS}"/> 
+  <string id="EE000142" text="Працягвай."/>
+  <string id="EE000143" text="Зразумела, нешта яшчэ?"/> 
+  <string id="EE000144" text="Набывай ежу для партыі, каб мараль была высокай."/>
+  <string id="EE000145" text="Больш ня купляй ежу самастойна."/> 
+  <string id="EE000146" text="Забівай жывёлаў зь інвентара, каб падтрымліваць хуткасьць партыі."/>
+  <string id="EE000147" text="Спыні забіваць жывёлаў зь інвентара."/> 
+  <string id="EE000148" text="Я ня буду асабіста набываць ежу."/>
+  <string id="EE000149" text="Я буду набываць ежу дзеля высокай маралі партыі."/> 
+  <string id="EE000150" text="Я ня буду забіваць жывёлаў зь інвентару нашай партыі."/>
+  <string id="EE000151" text="Я буду забіваць жывёлаў, каб пазьбегнуць запавольваньня партыі."/> 
+  <string id="EE000152" text="Вяртайся раніцай."/>
+  <string id="EE000153" text="Сьвятар {NAME}"/>
+  <string id="EE000154" text="Крывэ {NAME}"/>
+  <string id="EE000155" text="Я маю пытаньні пра веру. Льга задаць?"/>
+  <string id="EE000156" text="Вядома, маё дзіцё. Што бянтэжыць тваё сэрца?"/>
+  <string id="EE000157" text="Пытай, мой абавязак - настаўляць тых, хто жадае ведаць праўду."/>
+  <string id="EE000158" text="Кажы вольна, я паспрабую адказаць з мудрасьцю і верай."/>
+  <string id="EE000159" text="Веру нельга ставіць пад пытаньне. Што вас бянтэжыць у ёй?"/>
+  <string id="EE000160" text="Калі тваё сэрца шчырае, я адкажу. Пра што жадаеце даведацца?"/>
+  <string id="EE000161" text="Чаму настаўляеце?"/> 
+  <string id="EE000162" text="I preach the ancient wisdom of our fathers, the sacred connection between the living world and the spirits that dwell within it. Our path is not simply a religion, but a way of life that honors the great powers of nature - the thunder of Perkūnas, the nurturing earth of Žemyna, the wisdom of Medeinė who watches over the forests.{newline}We teach that every tree has a spirit, every river a guardian, every stone a memory. Our people do not worship in closed halls of stone, but under the open sky, where the wind carries the breath of our ancestors. We respect the cycles of life - the birth of spring, the abundance of summer, the harvest of autumn, and the quiet sleep of winter."/>
+  <string id="EE000163" text="I preach the eternal word of God, the path of salvation through Jesus Christ. Our mission is to spread the Gospel, to bring light to those living in darkness, and to guide souls toward divine grace and eternal life.{newline}We teach that mankind is born in sin, but through Christ's mercy, we can be redeemed. Every soul is precious in God's eyes, and our purpose is to bring people closer to Him through faith, prayer, and adherence to the holy scriptures."/>
+  <string id="EE000164" text="I preach the fullness of divine truth, preserved unchanged since the Apostles. Our faith is not merely a doctrine, but a living tradition that connects us directly to Christ. We do not seek to interpret scriptures through modern lenses, but to live as closely as possible to the original teachings.{newline}Our worship is a mystical journey where heaven and earth meet. Every liturgy is a sacred moment where the Eucharist becomes the body and blood of Christ. We do not simply remember - we participate in the eternal sacrifice. Our churches are gateways between the visible and invisible worlds."/>
+  <string id="EE000165" text="Our preaching is about balance. Balance between humans and nature, between the seen and unseen worlds. We remind our people that we are not masters of the earth, but part of its great web. We seek harmony through ritual, through offerings, through understanding the subtle threads that connect all living things.{newline}When we make sacrifice, it is not out of fear, but out of respect and gratitude. When we pray, we do not beg, but communicate. Our gods are not distant rulers, but companions on our journey, as close as the ground beneath our feet and the sky above our heads."/>
+  <string id="EE000166" text="Our preaching focuses on love, forgiveness, and the promise of salvation. We call upon sinners to repent, to turn away from worldly temptations, and to embrace the holy sacraments. Baptism, confession, and the Eucharist are powerful channels of divine grace.{newline}We are soldiers of God, fighting against spiritual darkness. Our ultimate goal is not comfort in this temporary world, but eternal salvation in the presence of God. Every sermon, every prayer is a step toward that divine promise."/>
+  <string id="EE000167" text="We teach salvation as a profound journey of theosis - becoming like God through divine grace. Prayer is not just speaking, but a deep spiritual practice of transformation. Our icons are windows into divine reality, channels of God's uncreated light.{newline}Our tradition is rich with mysticism - we seek to experience God directly, not just understand Him intellectually. We preserve the ancient wisdom, unbroken and pure, a living path of spiritual growth."/>
+  <string id="EE000168" text="What are your thoughts about Baltic Paganism?"/>
+  <string id="EE000169" text="How do you view the beliefs and practices of Catholicism?"/>
+  <string id="EE000170" text="Can you share your thoughts on the Orthodoxy?"/>
+  <string id="EE000171" text="Baltic Paganism is the worship of false gods, idols, and spirits that deceive the soul and lead men away from the true path of salvation. These practices are rooted in darkness and ignorance, keeping people from the light of Christ and eternal life. It is our sacred duty to bring these people to the one true God, for only through Christ can their souls be saved."/> 
+  <string id="EE000172" text="Paganism is a rebellion against God and His Church. The Lord has sent His servants to bring you out of the darkness and into the light of salvation. To resist this is to resist God's will. Accept baptism and the teachings of Christ, and you will find peace and forgiveness. Persist in pagan ways, and you risk both your soul and the judgment of those sent by God to bring order to these lands."/>
+  <string id="EE000173" text="Baltic Paganism seeks to explain the mysteries of the world, but it falls short of the full truth. You honor the forces of nature, but do you not wonder who created these forces? Who gave life to the forests, strength to the winds, and light to the sun? It is the Lord God, the Creator of Heaven and Earth. To worship nature is to worship the creation rather than the Creator. Turn your hearts to Him, and you will find eternal truth and salvation."/>
+  <string id="EE000174" text="Baltic paganism binds its followers to darkness and falsehood. By worshiping false gods, they turn away from the one true God and risk their souls to eternal damnation. The time will come when every knee shall bow and every tongue confess the Lord Jesus Christ."/>
+  <string id="EE000175" text="Your devotion to the forces of nature shows that you seek the divine, but you are like a traveler lost in the forest, seeing only the shadows of the truth. The spirits and gods you worship are but creations of the one true God, who sent His Son, Jesus Christ, to bring salvation to all people. Turn to Him, for He is the Creator of all that you hold sacred."/>
+  <string id="EE000176" text="Christianity is the path of foreigners who seek to change what the gods of our ancestors have ordained. They bring new gods and claim them higher than ours, yet our gods have stood with us in the forests, in the fields, and in battle since the dawn of time. Why should we abandon them for distant promises?"/>
+  <string id="EE000177" text="Catholicism shares the light of Christ, but it has strayed from the unity of the true Church. By elevating the Pope above all bishops and changing the sacred Creed, they have created divisions in Christendom. Yet, they remain our brothers in faith, and we must pray for their return to the path of the Apostles, so that the Church may once again be united as one body in Christ."/>
+  <string id="EE000178" text="The Orthodox seem much like the Catholics, though their prayers and ways differ. They carry their icons and bow to their god, but do they not see the spirits that dwell in the earth beneath their feet? Perhaps their god is wise, but wisdom comes also from honoring the land and the spirits that have guided us for generations."/>
+  <string id="EE000179" text="The Orthodox Church has allowed pride and worldly politics to divide it from the unity of Christ’s Church. Its leaders, especially in Constantinople, have placed earthly power above divine authority, rejecting the Holy Father in Rome. This schism weakens all Christendom, and we must strive to bring the Orthodox back into communion with the Church to stand united against threats to the faith."/>
+  <string id="EE000180" text="That is all for now."/>
+  <string id="EE000181" text="Thank you for your answer."/>
+  <string id="EE000182" text="It is my honor to share what I know. May your journey be filled with wisdom."/>
+  <string id="EE000183" text="Very well. I am here if you have more questions in the future."/>
+  <string id="EE000184" text="The unexpected skirmish from the {CASTLE_NAME} garrison's guerrilla forces scattered the party's formation and disrupted their supply lines, leaving the group vulnerable and disoriented in the aftermath."/>
+  <string id="EE000185" text="Enemy territory"/>
+  <string id="EE000186" text="{TROOPS_KILLED} troops were killed and {TROOPS_WOUNDED} were wounded."/>
+  <string id="EE000187" text="The party lost {FOOD_LOST} units of food and {HORSE_ICON}{HORSES_LOST} horses."/>
+  <string id="EE000188" text="Troop morale has declined in the party."/>
+  <string id="EE000189" text="Troop morale and army cohesion have deteriorated."/>
+  <string id="EE000190" text=""/>
+  <string id="EE000191" text=""/>
+  <string id="EE000192" text=""/>
+  <string id="EE000193" text=""/>
+  <string id="EE000194" text=""/>
+  <string id="EE000195" text=""/>
+  <string id="EE000196" text=""/>
+  <string id="EE000197" text=""/>
+  <string id="EE000198" text=""/>
+  <string id="EE000199" text=""/>
+  <string id="EE000200" text=""/>
+  <string id="EE000201" text=""/>
+  <string id="EE000202" text=""/>
+  <string id="EE000203" text=""/>
+  <string id="EE000204" text=""/>
+  <string id="EE000205" text=""/>
+  <string id="EE000206" text=""/>
+  <string id="EE000207" text=""/>
+  <string id="EE000208" text=""/>
+  <string id="EE000209" text=""/>
+  <string id="EE000210" text=""/>
+  <string id="EE000211" text=""/>
+  <string id="EE000212" text=""/>
+  <string id="EE000213" text=""/>
+  <string id="EE000214" text=""/>
+  <string id="EE000215" text=""/>
+  <string id="EE000216" text=""/>
+  <string id="EE000217" text=""/>
+  <string id="EE000218" text=""/>
+  <string id="EE000219" text=""/>
+  <string id="EE000220" text=""/>
+  <string id="EE000221" text=""/>
+  <string id="EE000222" text=""/>
+  <string id="EE000223" text=""/>
+  <string id="EE000224" text=""/>
+  <string id="EE000225" text=""/>
+  <string id="EE000226" text=""/>
+  <string id="EE000227" text=""/>
+  <string id="EE000228" text=""/>
+  <string id="EE000229" text=""/>
+  <string id="EE000230" text=""/>
+  <string id="EE000231" text=""/>
+  <string id="EE000232" text=""/>
+  <string id="EE000233" text=""/>
+  <string id="EE000234" text=""/>
+  <string id="EE000235" text=""/>
+  <string id="EE000236" text=""/>
+  <string id="EE000237" text=""/>
+  <string id="EE000238" text=""/>
+  <string id="EE000239" text=""/>
+  <string id="EE000240" text=""/>
+  <string id="EE000241" text=""/>
+  <string id="EE000242" text=""/>
+  <string id="EE000243" text=""/>
+  <string id="EE000244" text=""/>
+  <string id="EE000245" text=""/>
+  <string id="EE000246" text=""/>
+  <string id="EE000247" text=""/>
+  <string id="EE000248" text=""/>
+  <string id="EE000249" text=""/>
+  <string id="EE000250" text=""/>
+  <string id="EE000251" text=""/>
+  <string id="EE000252" text=""/>
+  <string id="EE000253" text=""/>
+  <string id="EE000254" text=""/>
+  <string id="EE000255" text=""/>
+  <string id="EE000256" text=""/>
+  <string id="EE000257" text=""/>
+  <string id="EE000258" text=""/>
+  <string id="EE000259" text=""/>
+  <string id="EE000260" text=""/>
+  <string id="EE000261" text=""/>
+  <string id="EE000262" text=""/>
+  <string id="EE000263" text=""/>
+  <string id="EE000264" text=""/>
+  <string id="EE000265" text=""/>
+  <string id="EE000266" text=""/>
+  <string id="EE000267" text=""/>
+  <string id="EE000268" text=""/>
+  <string id="EE000269" text=""/>
+  <string id="EE000270" text=""/>
+  <string id="EE000271" text=""/>
+  <string id="EE000272" text=""/>
+  <string id="EE000273" text=""/>
+  <string id="EE000274" text=""/>
+  <string id="EE000275" text=""/>
+  <string id="EE000276" text=""/>
+  <string id="EE000277" text=""/>
+  <string id="EE000278" text=""/>
+  <string id="EE000279" text=""/>
+  <string id="EE000280" text=""/>
+  <string id="EE000281" text=""/>
+  <string id="EE000282" text=""/>
+  <string id="EE000283" text=""/>
+  <string id="EE000284" text=""/>
+  <string id="EE000285" text=""/>
+  <string id="EE000286" text=""/>
+  <string id="EE000287" text=""/>
+  <string id="EE000288" text=""/>
+  <string id="EE000289" text=""/>
+  <string id="EE000290" text=""/>
+  <string id="EE000291" text=""/>
+  <string id="EE000292" text=""/>
+  <string id="EE000293" text=""/>
+  <string id="EE000294" text=""/>
+  <string id="EE000295" text=""/>
+  <string id="EE000296" text=""/>
+  <string id="EE000297" text=""/>
+  <string id="EE000298" text=""/>
+  <string id="EE000299" text=""/>
+  <string id="EE000300" text=""/>
 
 
     <!-- 
