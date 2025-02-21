@@ -56,7 +56,7 @@
     <string id="EE000025" text="Start"/>
     <string id="EE000026" text="The owner of this settlement does not allow you to recruit troops here.{newline}{newline}Increase relations with the owner:{newline}{newline}* follow them and help them in the battles{newline}* give them presents/gold in the barter menu{newline}* do missions for them{newline}* give them troops{newline}* donate troops to lord settlement's garrison{newline}* vote for this lord"/>
     <string id="EE000027" text="You can't recruit in the enemy's castle."/>
-    <string id="EE000028" text="Governor of {SETTLEMENT} took {AMOUNT} grain from the Stash to the Granary."/>
+    <string id="EE000028" text="Governor of {SETTLEMENT} took {AMOUNT} food from the Stash to the Granary."/>
     <string id="EE000029" text="The blacksmith in {SETTLEMENT} charges {CRAFTING_RATE}{GOLD_ICON}/h for renting a forge."/>
     <string id="EE000030" text="You worked {CRAFTING_HOURS} hours in the smith."/>
     <string id="EE000031" text="Paid to blacksmith: {HOURLY_RATE}{GOLD_ICON}"/>
@@ -129,11 +129,11 @@
     <string id="EE000098" text="You scan the settlement, noting what needs fixing—there’s always something. You start with a sagging fence or weakened wall, replacing worn materials and securing gaps to maintain safety. Next, you repair a damaged roof, weaving in new materials and reinforcing the structure to withstand harsh weather. With each repair, the settlement feels more secure, and the residents show their appreciation as their homes and buildings are made safer by your skilled hands."/>
     <string id="EE000099" text="I'm done with this. I'm out."/>
     <string id="EE000100" text="The job is complete and the village hearths grow."/>
-    <string id="EE000101" text="Soldiers this building work, and morale suffers: -{MORALE_CHANGE}"/>
+    <string id="EE000101" text="Soldiers dislike this work, and morale suffers: -{MORALE_CHANGE}"/>
     <string id="EE000102" text="Athletics and Engineering skills have improved."/>
     <string id="EE000103" text="Party got {AMOUNT} {ITEM_NAME}{ITEM_ICON}"/>
     <string id="EE000104" text="Your {AMOUNT} cows were very productive."/>
-    <string id="EE000105" text="{AMOUNT} {ITEM_NAME}{ITEM_ICON} removed"/>
+    <string id="EE000105" text="{AMOUNT} {ITEM_NAME}{ITEM_ICON} removed from Party"/>
     <string id="EE000106" text="The work is complete!"/>
     <string id="EE000107" text="You begin by sweeping the paths, clearing away dust and leaves to make the village look tidy. Next, you head to the fields, where you help gather ripe crops, carefully bundling them for storage, and tend to the animals by feeding them and ensuring their pens are secure. Afterward, you make several trips to the well, fetching water to fill the barrels for daily use. Finally, you stack firewood neatly beside the cottages, preparing for the colder nights ahead."/>
     <string id="EE000108" text="Athletics skill has improved."/>
@@ -166,8 +166,180 @@
     <string id="EE000135" text="Camp Followers"/>
     <string id="EE000136" text="{HERO} joined {CLAN}"/>
     <string id="EE000137" text="Can't help with this right now."/>
-    <string id="EE000138" text=""/>
-    <string id="EE000139" text=""/>      
+    <string id="EE000138" text="{AMOUNT} {ITEM_NAME}{ITEM_ICON} removed from Stash"/>
+    <string id="EE000139" text="Governor of {SETTLEMENT} slaughtered some animals and took {AMOUNT} meat to the Granary."/>      
+    <string id="EE000140" text="Regarding quartermaster duties..."/>
+    <string id="EE000141" text="My current actions:{newline}{newline}{ACTIONS}"/> 
+    <string id="EE000142" text="Carry on."/>
+    <string id="EE000143" text="Understood, anything else?"/> 
+    <string id="EE000144" text="Buy food for the party to keep its morale high."/>
+    <string id="EE000145" text="Stop buying food on your own."/> 
+    <string id="EE000146" text="Slaughter animals in the inventory to maintain the party's speed."/>
+    <string id="EE000147" text="Stop slaughtering animals in the inventory."/> 
+    <string id="EE000148" text="I will not personally acquire food."/>
+    <string id="EE000149" text="I will buy food to maintain party morale."/> 
+    <string id="EE000150" text="I will not slaughter animals from our party's inventory."/>
+    <string id="EE000151" text="I will slaughter animals to prevent the party from slowing down."/> 
+    <string id="EE000152" text="Come back in the morning."/>
+    <string id="EE000153" text="Priest {NAME}"/>
+    <string id="EE000154" text="Krivis {NAME}"/>
+    <string id="EE000155" text="I have questions about your faith. May I ask them?"/>
+    <string id="EE000156" text="Of course, my child. What troubles your heart?"/>
+    <string id="EE000157" text="You may ask, for it is my duty to guide those who wish to learn the truth."/>
+    <string id="EE000158" text="Speak freely, and I shall do my best to answer with wisdom and faith."/>
+    <string id="EE000159" text="Faith is not to be questioned lightly. What troubles you about it?"/>
+    <string id="EE000160" text="If your heart is sincere, I will answer. What do you seek to know?"/>
+    <string id="EE000161" text="What are you preaching?"/> 
+    <string id="EE000162" text="I preach the ancient wisdom of our fathers, the sacred connection between the living world and the spirits that dwell within it. Our path is not simply a religion, but a way of life that honors the great powers of nature - the thunder of Perkūnas, the nurturing earth of Žemyna, the wisdom of Medeinė who watches over the forests.\r\nWe teach that every tree has a spirit, every river a guardian, every stone a memory. Our people do not worship in closed halls of stone, but under the open sky, where the wind carries the breath of our ancestors. We respect the cycles of life - the birth of spring, the abundance of summer, the harvest of autumn, and the quiet sleep of winter."/>
+    <string id="EE000163" text="I preach the eternal word of God, the path of salvation through Jesus Christ. Our mission is to spread the Gospel, to bring light to those living in darkness, and to guide souls toward divine grace and eternal life.\r\nWe teach that mankind is born in sin, but through Christ's mercy, we can be redeemed. Every soul is precious in God's eyes, and our purpose is to bring people closer to Him through faith, prayer, and adherence to the holy scriptures."/>
+    <string id="EE000164" text="I preach the fullness of divine truth, preserved unchanged since the Apostles. Our faith is not merely a doctrine, but a living tradition that connects us directly to Christ. We do not seek to interpret scriptures through modern lenses, but to live as closely as possible to the original teachings.\r\nOur worship is a mystical journey where heaven and earth meet. Every liturgy is a sacred moment where the Eucharist becomes the body and blood of Christ. We do not simply remember - we participate in the eternal sacrifice. Our churches are gateways between the visible and invisible worlds."/>
+    <string id="EE000165" text="Our preaching is about balance. Balance between humans and nature, between the seen and unseen worlds. We remind our people that we are not masters of the earth, but part of its great web. We seek harmony through ritual, through offerings, through understanding the subtle threads that connect all living things.\r\nWhen we make sacrifice, it is not out of fear, but out of respect and gratitude. When we pray, we do not beg, but communicate. Our gods are not distant rulers, but companions on our journey, as close as the ground beneath our feet and the sky above our heads."/>
+    <string id="EE000166" text="Our preaching focuses on love, forgiveness, and the promise of salvation. We call upon sinners to repent, to turn away from worldly temptations, and to embrace the holy sacraments. Baptism, confession, and the Eucharist are powerful channels of divine grace.\r\nWe are soldiers of God, fighting against spiritual darkness. Our ultimate goal is not comfort in this temporary world, but eternal salvation in the presence of God. Every sermon, every prayer is a step toward that divine promise."/>
+    <string id="EE000167" text="We teach salvation as a profound journey of theosis - becoming like God through divine grace. Prayer is not just speaking, but a deep spiritual practice of transformation. Our icons are windows into divine reality, channels of God's uncreated light.\r\nOur tradition is rich with mysticism - we seek to experience God directly, not just understand Him intellectually. We preserve the ancient wisdom, unbroken and pure, a living path of spiritual growth."/>
+    <string id="EE000168" text="What are your thoughts about Baltic Paganism?"/>
+    <string id="EE000169" text="How do you view the beliefs and practices of Catholicism?"/>
+    <string id="EE000170" text="Can you share your thoughts on the Orthodoxy?"/>
+    <string id="EE000171" text="Baltic Paganism is the worship of false gods, idols, and spirits that deceive the soul and lead men away from the true path of salvation. These practices are rooted in darkness and ignorance, keeping people from the light of Christ and eternal life. It is our sacred duty to bring these people to the one true God, for only through Christ can their souls be saved."/> 
+    <string id="EE000172" text="Paganism is a rebellion against God and His Church. The Lord has sent His servants to bring you out of the darkness and into the light of salvation. To resist this is to resist God's will. Accept baptism and the teachings of Christ, and you will find peace and forgiveness. Persist in pagan ways, and you risk both your soul and the judgment of those sent by God to bring order to these lands."/>
+    <string id="EE000173" text="Baltic Paganism seeks to explain the mysteries of the world, but it falls short of the full truth. You honor the forces of nature, but do you not wonder who created these forces? Who gave life to the forests, strength to the winds, and light to the sun? It is the Lord God, the Creator of Heaven and Earth. To worship nature is to worship the creation rather than the Creator. Turn your hearts to Him, and you will find eternal truth and salvation."/>
+    <string id="EE000174" text="Baltic paganism binds its followers to darkness and falsehood. By worshiping false gods, they turn away from the one true God and risk their souls to eternal damnation. The time will come when every knee shall bow and every tongue confess the Lord Jesus Christ."/>
+    <string id="EE000175" text="Your devotion to the forces of nature shows that you seek the divine, but you are like a traveler lost in the forest, seeing only the shadows of the truth. The spirits and gods you worship are but creations of the one true God, who sent His Son, Jesus Christ, to bring salvation to all people. Turn to Him, for He is the Creator of all that you hold sacred."/>
+    <string id="EE000176" text="Christianity is the path of foreigners who seek to change what the gods of our ancestors have ordained. They bring new gods and claim them higher than ours, yet our gods have stood with us in the forests, in the fields, and in battle since the dawn of time. Why should we abandon them for distant promises?"/>
+    <string id="EE000177" text="Catholicism shares the light of Christ, but it has strayed from the unity of the true Church. By elevating the Pope above all bishops and changing the sacred Creed, they have created divisions in Christendom. Yet, they remain our brothers in faith, and we must pray for their return to the path of the Apostles, so that the Church may once again be united as one body in Christ."/>
+    <string id="EE000178" text="The Orthodox seem much like the Catholics, though their prayers and ways differ. They carry their icons and bow to their god, but do they not see the spirits that dwell in the earth beneath their feet? Perhaps their god is wise, but wisdom comes also from honoring the land and the spirits that have guided us for generations."/>
+    <string id="EE000179" text="The Orthodox Church has allowed pride and worldly politics to divide it from the unity of Christ’s Church. Its leaders, especially in Constantinople, have placed earthly power above divine authority, rejecting the Holy Father in Rome. This schism weakens all Christendom, and we must strive to bring the Orthodox back into communion with the Church to stand united against threats to the faith."/>
+    <string id="EE000180" text="That is all for now."/>
+    <string id="EE000181" text="Thank you for your answer."/>
+    <string id="EE000182" text="It is my honor to share what I know. May your journey be filled with wisdom."/>
+    <string id="EE000183" text="Very well. I am here if you have more questions in the future."/>
+    <string id="EE000184" text="The unexpected skirmish from the {CASTLE_NAME} garrison's guerrilla forces scattered the party's formation and disrupted their supply lines, leaving the group vulnerable and disoriented in the aftermath."/>
+    <string id="EE000185" text="Enemy territory"/>
+    <string id="EE000186" text="{TROOPS_KILLED} troops were killed and {TROOPS_WOUNDED} were wounded."/>
+    <string id="EE000187" text="The party lost {FOOD_LOST} units of food and {HORSE_ICON}{HORSES_LOST} horses."/>
+    <string id="EE000188" text="Troop morale has declined in the party."/>
+    <string id="EE000189" text="Troop morale and army cohesion have deteriorated."/>
+    <string id="EE000190" text=""/>
+    <string id="EE000191" text=""/>
+    <string id="EE000192" text=""/>
+    <string id="EE000193" text=""/>
+    <string id="EE000194" text=""/>
+    <string id="EE000195" text=""/>
+    <string id="EE000196" text=""/>
+    <string id="EE000197" text=""/>
+    <string id="EE000198" text=""/>
+    <string id="EE000199" text=""/>
+    <string id="EE000200" text=""/>
+    <string id="EE000201" text=""/>
+    <string id="EE000202" text=""/>
+    <string id="EE000203" text=""/>
+    <string id="EE000204" text=""/>
+    <string id="EE000205" text=""/>
+    <string id="EE000206" text=""/>
+    <string id="EE000207" text=""/>
+    <string id="EE000208" text=""/>
+    <string id="EE000209" text=""/>
+    <string id="EE000210" text=""/>
+    <string id="EE000211" text=""/>
+    <string id="EE000212" text=""/>
+    <string id="EE000213" text=""/>
+    <string id="EE000214" text=""/>
+    <string id="EE000215" text=""/>
+    <string id="EE000216" text=""/>
+    <string id="EE000217" text=""/>
+    <string id="EE000218" text=""/>
+    <string id="EE000219" text=""/>
+    <string id="EE000220" text=""/>
+    <string id="EE000221" text=""/>
+    <string id="EE000222" text=""/>
+    <string id="EE000223" text=""/>
+    <string id="EE000224" text=""/>
+    <string id="EE000225" text=""/>
+    <string id="EE000226" text=""/>
+    <string id="EE000227" text=""/>
+    <string id="EE000228" text=""/>
+    <string id="EE000229" text=""/>
+    <string id="EE000230" text=""/>
+    <string id="EE000231" text=""/>
+    <string id="EE000232" text=""/>
+    <string id="EE000233" text=""/>
+    <string id="EE000234" text=""/>
+    <string id="EE000235" text=""/>
+    <string id="EE000236" text=""/>
+    <string id="EE000237" text=""/>
+    <string id="EE000238" text=""/>
+    <string id="EE000239" text=""/>
+    <string id="EE000240" text=""/>
+    <string id="EE000241" text=""/>
+    <string id="EE000242" text=""/>
+    <string id="EE000243" text=""/>
+    <string id="EE000244" text=""/>
+    <string id="EE000245" text=""/>
+    <string id="EE000246" text=""/>
+    <string id="EE000247" text=""/>
+    <string id="EE000248" text=""/>
+    <string id="EE000249" text=""/>
+    <string id="EE000250" text=""/>
+    <string id="EE000251" text=""/>
+    <string id="EE000252" text=""/>
+    <string id="EE000253" text=""/>
+    <string id="EE000254" text=""/>
+    <string id="EE000255" text=""/>
+    <string id="EE000256" text=""/>
+    <string id="EE000257" text=""/>
+    <string id="EE000258" text=""/>
+    <string id="EE000259" text=""/>
+    <string id="EE000260" text=""/>
+    <string id="EE000261" text=""/>
+    <string id="EE000262" text=""/>
+    <string id="EE000263" text=""/>
+    <string id="EE000264" text=""/>
+    <string id="EE000265" text=""/>
+    <string id="EE000266" text=""/>
+    <string id="EE000267" text=""/>
+    <string id="EE000268" text=""/>
+    <string id="EE000269" text=""/>
+    <string id="EE000270" text=""/>
+    <string id="EE000271" text=""/>
+    <string id="EE000272" text=""/>
+    <string id="EE000273" text=""/>
+    <string id="EE000274" text=""/>
+    <string id="EE000275" text=""/>
+    <string id="EE000276" text=""/>
+    <string id="EE000277" text=""/>
+    <string id="EE000278" text=""/>
+    <string id="EE000279" text=""/>
+    <string id="EE000280" text=""/>
+    <string id="EE000281" text=""/>
+    <string id="EE000282" text=""/>
+    <string id="EE000283" text=""/>
+    <string id="EE000284" text=""/>
+    <string id="EE000285" text=""/>
+    <string id="EE000286" text=""/>
+    <string id="EE000287" text=""/>
+    <string id="EE000288" text=""/>
+    <string id="EE000289" text=""/>
+    <string id="EE000290" text=""/>
+    <string id="EE000291" text=""/>
+    <string id="EE000292" text=""/>
+    <string id="EE000293" text=""/>
+    <string id="EE000294" text=""/>
+    <string id="EE000295" text=""/>
+    <string id="EE000296" text=""/>
+    <string id="EE000297" text=""/>
+    <string id="EE000298" text=""/>
+    <string id="EE000299" text=""/>
+    <string id="EE000300" text=""/>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- 
@@ -595,6 +767,14 @@
     <string id="Settlements.Settlement.name.village_castle_CR23_1" text="Sõtke"/>    
     <string id="Settlements.Settlement.name.castle_CR24" text="Treiden"/>
     <string id="Settlements.Settlement.name.village_castle_CR24_1" text="Kremon"/>
+    <string id="village_castle_CR10_3" text="Dignaja"/>
+    <string id="village_castle_CR14_2" text="Lasin"/>
+    <string id="village_castle_CR24_2" text="Lemsahl"/>
+    <string id="village_castle_CR5_2" text="Vecpiebalga"/>
+    <string id="village_castle_CR9_3" text="Varka"/>
+    <string id="village_town_CR2_2" text="Kowalewo"/>
+    <string id="village_town_CR2_3" text="Unislaw"/>
+    <string id="village_town_CR4_3" text="Mooste"/>
 
     <string id="Settlements.Settlement.name.town_DES1" text="Reval"/>
     <string id="Settlements.Settlement.name.village_town_DES1_1" text="Hüüru"/>       
@@ -735,6 +915,63 @@
     <string id="Settlements.Settlement.name.village_town_NOV3_2" text="Gorodishche na Lave"/>
     <string id="Settlements.Settlement.name.village_town_NOV3_3" text="Gorodishche na Volkhove"/>
     <string id="Settlements.Settlement.name.village_town_NOV3_4" text="Gorodishche na Siase"/>
+
+    <string id="town_POL1" text="Gdansk"/>
+    <string id="town_POL1.text" text="In the 13th century, Gdańsk stood as a prosperous Baltic port city and trading center under the rule of Pomeranian dukes, with its wooden and earthen fortifications protecting the bustling settlement. The city's strategic location at the mouth of the Vistula River made it a crucial meeting point for merchants from across the Baltic and Central Europe, where Slavic traders mingled with German merchants and other seafarers in its growing harbor district."/>
+    <string id="town_POL2" text="Plotsk"/>
+    <string id="town_POL2_text" text="In the 13th century, Plock served as one of the most significant centers of Masovia, functioning both as a major ecclesiastical seat with its impressive cathedral and as a crucial political center for the Masovian dukes. The city's strategic location on the high bank of the Vistula River enhanced its importance as a trade hub, while its strong fortifications, including a castle on the hill, helped protect it during the tumultuous period of feudal divisions in medieval Poland."/>
+    <string id="castle_POL1" text="Slawno"/>
+    <string id="castle_POL2" text="Starogard"/>
+    <string id="castle_POL3" text="Swiece"/>
+    <string id="castle_POL4" text="Szczytno"/>
+    <string id="castle_POL5" text="Ciechanow"/>
+    <string id="castle_POL6" text="Wizna"/>
+    <string id="castle_POL7" text="Jazdow"/>
+    <string id="castle_POL8" text="Czersk"/>
+    <string id="castle_POL9" text="Dobrzyn"/>
+    <string id="village_castle_POL1_1" text="Darlowo"/>
+    <string id="village_castle_POL1_2" text="Stolp"/>
+    <string id="village_castle_POL1_3" text="Bytow"/>
+    <string id="village_castle_POL2_1" text="Koscierzyna"/>
+    <string id="village_castle_POL2_2" text="Tczew"/>
+    <string id="village_castle_POL2_3" text="Gniew"/>
+    <string id="village_castle_POL3_1" text="Tuchola"/>
+    <string id="village_castle_POL3_2" text="Czersk"/>
+    <string id="village_castle_POL3_3" text="Nowe"/>
+    <string id="village_castle_POL4_1" text="Bialy Bor"/>
+    <string id="village_castle_POL4_2" text="Czluchow"/>
+    <string id="village_castle_POL4_3" text="Raciaz"/>
+    <string id="village_castle_POL5_1" text="Pultusk"/>
+    <string id="village_castle_POL5_2" text="Unierzyz"/>
+    <string id="village_castle_POL5_3" text="Szrensk"/>
+    <string id="village_castle_POL5_4" text="Grzebsk"/>
+    <string id="village_castle_POL6_1" text="Lomza"/>
+    <string id="village_castle_POL6_2" text="Pienki"/>
+    <string id="village_castle_POL6_3" text="Ostroleka"/>
+    <string id="village_castle_POL6_4" text="Swieck"/>
+    <string id="village_castle_POL7_1" text="Sochaczew"/>
+    <string id="village_castle_POL7_2" text="Zakroczym"/>
+    <string id="village_castle_POL7_3" text="Serock"/>
+    <string id="village_castle_POL7_4" text="Liw"/>
+    <string id="village_castle_POL8_1" text="Warka"/>
+    <string id="village_castle_POL8_2" text="Grodziec"/>
+    <string id="village_castle_POL8_3" text="Rawa"/>
+    <string id="village_castle_POL9_1" text="Rawa"/>
+    <string id="village_castle_POL9_2" text="Raciazek"/>
+    <string id="village_castle_POL9_3" text="Michalowo"/>
+    <string id="village_town_POL1_1" text="Puck"/>
+    <string id="village_town_POL1_2" text="Oliwa"/>
+    <string id="village_town_POL1_3" text="Lebork"/>
+    <string id="village_town_POL1_4" text="Zukowo"/>
+    <string id="village_town_POL2_1" text="Gostynin"/>
+    <string id="village_town_POL2_2" text="Lowicz"/>
+    <string id="village_town_POL2_3" text="Wyszogrod"/>
+    <string id="village_town_POL2_4" text="Sierpsk"/>
+
+
+
+    <string id="hideout" text="Hideout"/>
+
 
 
     <!-- 
@@ -1205,6 +1442,8 @@
     <string id="camp_whore" text="Camp Whore"/>
     <string id="camp_follower" text="Camp Follower"/>
     <string id="Townswoman" text="Townswoman"/>
+    <string id="Deacon" text="Deacon"/> <!-- priest's helper in orthodox rus -->
+    <string id="AlkasWarden" text="Alkas Warden"/> <!-- priest's helper for baltic's pagan preacher -->
 
     <string id="danish_0.name" text="Danish Peasant (Bonde)"/>
     <string id="danish_1.name" text="Danish Militia Crossbowman (Lednings Armbrøstskytte)"/>
@@ -1234,6 +1473,60 @@
     <string id="estonian_6.name" text="Estonian Bowman (Vibumees)"/>
     <string id="estonian_7.name" text="Estonian Hunter (Kütt)"/>
 
+    <string id="mongol_10" text="Mongol Archer"/>
+    <string id="mongol_11" text="Mongol Spear Infantry"/>
+    <string id="mongol_12" text="Mongol Horse Archer"/>
+    <string id="mongol_13" text="Mongol Lancer"/>
+    <string id="mongol_14" text="Mongol Torguud"/>
+    <string id="mongol_15" text="Mongol Marksman"/>
+    <string id="mongol_16" text="Mongol Darkhan"/>
+    <string id="mongol_17" text="Mongol Heavy Horse Archer"/>
+    <string id="mongol_18" text="Mongol Heavy Lancer"/>
+    <string id="mongol_19" text="Mongol Kheshig"/>
+    <string id="mongol_1" text="Mongol Nomad"/>
+    <string id="mongol_20" text="Mongol Khan's Guard"/>
+    <string id="mongol_2" text="Mongol Footman"/>
+    <string id="mongol_3" text="Mongol Tribal Warrior"/>
+    <string id="mongol_4" text="Mongol Noble's Son"/>
+    <string id="mongol_5" text="Mongol Hunter"/>
+    <string id="mongol_6" text="Mongol Warrior"/>
+    <string id="mongol_7" text="Mongol Raider"/>
+    <string id="mongol_8" text="Mongol Horseman"/>
+    <string id="mongol_9" text="Mongol Qanqli"/>
+
+    <string id="polish_0" text="Polish Peasant (Chłop)"/>
+    <string id="polish_10" text="Polish Trained Light Cavalry"/>
+    <string id="polish_11" text="Polish Veteran Light Cavalry"/>
+    <string id="polish_12" text="Polish Crossbowman"/>
+    <string id="polish_13" text="Polish Trained Crossbowman"/>
+    <string id="polish_14" text="Polish Veteran Crossbowman"/>
+    <string id="polish_15" text="Polish Regular Footman"/>
+    <string id="polish_16" text="Polish Swordsman"/>
+    <string id="polish_17" text="Polish Veteran Spearman (Drużyna Piesza)"/>
+    <string id="polish_18" text="Polish Guisarmer"/>
+    <string id="polish_19" text="Polish Voulgier"/>
+    <string id="polish_1" text="Polish Levy"/>
+    <string id="polish_20" text="Polish Regular Axeman"/>
+    <string id="polish_21" text="Polish Regular Spearman"/>
+    <string id="polish_22" text="Polish Squire"/>
+    <string id="polish_23" text="Polish Lesser Lay-Knight"/>
+    <string id="polish_24" text="Polish Lay-Knight"/>
+    <string id="polish_25" text="Polish Knight"/>
+    <string id="polish_26" text="Polish Commander"/>
+    <string id="polish_2" text="Polish Pilgrim (Kreuzpilger)"/>
+    <string id="polish_3" text="Polish Warrior"/>
+    <string id="polish_4" text="Polish Bowman"/>
+    <string id="polish_5" text="Polish Militia Crossbowman (Kusznik)"/>
+    <string id="polish_6" text="Polish Spearman"/>
+    <string id="polish_7" text="Polish Axeman"/>
+    <string id="polish_8" text="Polish Horse Skirmisher"/>
+    <string id="polish_9" text="Polish Light Cavalry"/>
+    <string id="polish_armed_trader" text="Polish Armed Trader"/>
+
+    <string id="mercenary_1" text="Chernye Klobuki Lancer"/>
+    <string id="mercenary_2" text="Chernye Klobuki Horse Archer"/>
+    <string id="lt_mercenary_3" text="Bohemian Spearman"/>
+    <string id="lt_mercenary_4" text="Bohemian Infantry"/>
 
 
     <!-- 
@@ -1317,15 +1610,30 @@
     <string id="clan_nov_4.name" text="Ludin Boyar Group"/>
     <string id="clan_nov_4.text" text="The Ludin Boyar Group was a prominent faction in 13th-century Novgorod, representing the Ludin quarter and its influential merchant and boyar families. This group had strong ties to Novgorodâ€™s lucrative trade networks and often advocated for policies that promoted economic growth and protected the cityâ€™s vital commercial interests. Led by respected figures such as Anany Ivanovich, the Ludin Boyars held considerable sway in the veche (assembly), where their focus on trade made them powerful allies and occasional rivals to other boyar factions. Their influence helped shape Novgorodâ€™s economy and maintain its independence as a major trading hub in medieval Rus'."/>
     <string id="clan_nov_5.name" text="Plotnik Boyar Group"/>
-    <string id="clan_nov_5.text" text="The Ladoga Boyar Group was a powerful faction associated with Ladoga, a strategically important town within the Novgorod Republic in the 13th century. Positioned along key trade routes connecting Novgorod to the Baltic Sea and surrounding regions, Ladoga was crucial for trade and defense. The Ladoga Boyar Group was led by a namestnik (deputy or governor) appointed by Novgorod, such as Vasily Borisovich, who oversaw the townâ€™s administration, defense, and tax collection. This group played a vital role in safeguarding Novgorod's northern interests and ensuring control over regional trade, balancing local autonomy with loyalty to the Novgorod veche (assembly)."/>
     <string id="clan_nov_5.text" text="The Plotnik Boyar Group was a significant faction in 13th-century Novgorod, representing the Plotnik quarter known for its craftsmen, woodworkers, and builders. This group supported Novgorodâ€™s thriving artisan class and often pushed for policies that strengthened local industries and improved infrastructure. Led by figures like Dmitry Stepanovich, the Plotnik Boyars contributed to the cityâ€™s defenses and public works projects, ensuring Novgorod remained fortified and economically stable. Their presence in the veche (assembly) provided a voice for the working class and artisans, balancing the influence of trade-focused and politically oriented factions."/>
     <string id="clan_nov_6.name" text="Ladoga Boyar Group"/>
+    <string id="clan_nov_6.text" text="The Ladoga Boyar Group was a powerful faction associated with Ladoga, a strategically important town within the Novgorod Republic in the 13th century. Positioned along key trade routes connecting Novgorod to the Baltic Sea and surrounding regions, Ladoga was crucial for trade and defense. The Ladoga Boyar Group was led by a namestnik (deputy or governor) appointed by Novgorod, such as Vasily Borisovich, who oversaw the townâ€™s administration, defense, and tax collection. This group played a vital role in safeguarding Novgorod's northern interests and ensuring control over regional trade, balancing local autonomy with loyalty to the Novgorod veche (assembly)."/>   
     <string id="clan_nov_7.name" text="Pskov Veche Council"/>
     <string id="clan_nov_7.text" text="The Pskov Veche Council was the governing body of Pskov in the 13th century, providing a unique blend of local autonomy under the influence of the Novgorod Republic. The council was made up of prominent boyars and local leaders who represented the interests of Pskovâ€™s citizens in matters of trade, defense, and diplomacy. While Novgorod often sent figurehead rulers, such as Vasilii Aleksandrovich, the son of Alexander Nevsky, the real power lay with the Pskov Veche Council. This assembly safeguarded Pskovâ€™s independence within the framework of Novgorodâ€™s authority, making decisions to protect its economic and political interests in the face of regional challenges."/>
     <string id="clan_nov_8.name" text="Luki Boyar Council"/>
     <string id="clan_nov_8.text" text="The Luki Boyar Council was the governing body in Luki during the 13th century, a town under the Novgorod Republic's influence. Due to its strategic location along trade and military routes, the Luki Boyar Council was primarily focused on maintaining local defense and managing trade. The council was led by a namestnik (deputy or governor) appointed by Novgorod, such as Andrei Mikhailovich, who oversaw the townâ€™s affairs, ensuring loyalty to Novgorod while addressing local needs. This councilâ€™s leadership contributed to the stability and prosperity of Luki, balancing the interests of Novgorod with the town's unique regional significance."/>
     <string id="clan_nov_9.name" text="Torzhok Ruling Boyars"/>
     <string id="clan_nov_9.text" text="The Torzhok Ruling Boyars were the governing group in Torzhok during the 13th century, a vital trade town within the Novgorod Republic. Positioned along key trade routes between Novgorod and central Rus' territories, Torzhok served as a critical economic and defensive outpost. The ruling boyars, led by a namestnik (deputy) appointed by Novgorod, such as Ivan Svyatoslavich, managed trade, fortified defenses, and ensured local stability. While loyal to Novgorodâ€™s veche (assembly), the Torzhok Ruling Boyars wielded considerable autonomy, balancing local governance with the interests of the republic and maintaining Torzhokâ€™s role as a regional hub for commerce and protection."/>
+
+    <string id="clan_pol_1.desc" text="The Sobiesławice clan, also known as the House of Sobiesław (Samborides), was the ruling dynasty of Pomerelia (Eastern Pomerania, including Gdańsk) in the mid-13th century. The dynasty maintained independence from Polish Piast rulers, engaged in conflicts with the Teutonic Order and Greater Poland, and governed through a network of fortified settlements and coastal trade hubs."/>
+    <string id="clan_pol_1" text="Sobiesławice"/>
+    <string id="clan_pol_2.desc" text="The Święcowie clan (House of Święca) was one of the most influential noble families in Pomerelia in the mid-13th century, holding key administrative positions under the Samboride rulers. Initially loyal to Duke Świętopełk II, they later aligned with Sambor II and the Teutonic Order, playing a crucial role in the region's shifting power dynamics."/>
+    <string id="clan_pol_2" text="Święcowie"/>
+    <string id="clan_pol_3.desc" text="The Ogończyk clan was a prominent Polish noble family in the mid-13th century, with strong ties to Pomerelia and Kuyavia, often serving as knights and castellans under the Piast and Samboride rulers. Known for their military service and land holdings, they played a role in regional conflicts, sometimes aligning with the Piasts of Greater Poland against Pomerelian independence."/>
+    <string id="clan_pol_3" text="Ogończyk"/>
+    <string id="clan_pol_4.desc" text="The Piasts of Masovia were a powerful ruling dynasty in the mid-13th century, governing the Duchy of Masovia under Duke Siemowit I. They focused on expanding their territory, securing Masovia’s borders against the Yotvingians and Lithuanians, and maintaining autonomy from the Polish Crown, while also engaging in alliances and conflicts with neighboring Piast rulers."/>
+    <string id="clan_pol_4" text="Piasts of Masovia"/>
+    <string id="clan_pol_5.desc" text="The Piasts of Kuyavia were a ruling branch of the Piast dynasty, governing Kuyavia in the mid-13th century under Duke Casimir I of Kuyavia. They were involved in dynastic struggles with the Piasts of Greater Poland and Masovia, while also facing external threats from the Teutonic Order and Prussian tribes, shaping the region’s political landscape."/>
+    <string id="clan_pol_5" text="Piasts of Kuyavia"/>
+    <string id="clan_pol_6.desc" text="The Kurowie clan was an influential noble family in Masovia in the mid-13th century, known for their land holdings and service to the Piast dukes. They played key roles in local governance and military affairs, with ties to the Masovian ducal court."/>
+    <string id="clan_pol_6" text="Kurowie"/>
+    <string id="clan_pol_7.desc" text="The Kossakowski clan was an emerging noble family in Masovia in the mid-13th century, with roots in Ciechanów County and connections to local Piast rulers. They later became influential landowners and military leaders, playing a role in the political affairs of Masovia and the Grand Duchy of Lithuania."/>
+    <string id="clan_pol_7" text="Kossakowski"/>
 
 
     <!-- minor clans -->
@@ -1582,6 +1890,24 @@
     <string id="lord_nov_9_3.name" text="Vseslava"/>
     <string id="lord_nov_9_4.name" text="Julita"/>
 
+    <string id="lord_pol_1_1.name" text="Świętopełk II the Great"/>
+    <string id="lord_pol_1_2.name" text="Mściwój II"/>
+    <string id="lord_pol_1_4.name" text="Judyta of Wettin"/>
+    <string id="lord_pol_1_6.name" text="Ermengarda von Schwerin"/>
+    <string id="lord_pol_1_7.name" text="Wartislaw II"/>
+    <string id="lord_pol_2_1.name" text="Święca The Elder"/>
+    <string id="lord_pol_3_1.name" text="Jaksa Ogończyk"/>
+    <string id="lord_pol_3_2.name" text="Dobrawa of Kujawy"/>
+    <string id="lord_pol_3_3.name" text="Jarost Jaksa"/>
+    <string id="lord_pol_3_4.name" text="Zbysława Ogończyk"/>
+    <string id="lord_pol_4_1.name" text="Siemowit I"/>
+    <string id="lord_pol_4_2.name" text="Pereyaslava of Halych"/>
+    <string id="lord_pol_4_3.name" text="Konrad II"/>
+    <string id="lord_pol_4_4.name" text="Bolesław II"/>
+    <string id="lord_pol_5_1.name" text="Casimir I"/>
+    <string id="lord_pol_5_2.name" text="Leszek II the Black"/>
+    <string id="lord_pol_5_4.name" text="Euphrosyne of Opole"/>
+    <string id="lord_pol_7_1.name" text="Wawrzyniec Korwin"/>
 
 
 
@@ -1627,6 +1953,18 @@
     <string id="kingdom.novgorod.text" text="The Novgorod Republic in the 13th century was a unique and powerful medieval state in northern Rus', known for its republican-style governance and economic prosperity. Unlike other principalities, Novgorod operated under a decentralized system, with real power held by the veche (popular assembly), representing the interests of local boyars, merchants, and citizens. Key offices, including the posadnik (mayor), tysyatsky (military leader), and archbishop, managed the cityâ€™s administration, defense, and church affairs.{newline}{newline}Novgorod maintained semi-autonomy within the broader Rus' political sphere, balancing relations with the Grand Princes of Vladimir and the Mongol Empire. Known as a major trading hub, Novgorodâ€™s wealth and influence came from its extensive connections with the Baltic Sea, the Hanseatic League, and Eastern markets. Its strategic location allowed Novgorod to flourish, blending self-governance, economic strength, and diplomatic skill to navigate the challenges of the 13th century."/>
     <string id="kingdom.novgorod.title" text="Novgorod Republic"/>
 
+    <string id="kingdom.masovia.name" text="Dutchy of Masovia"/>
+    <string id="kingdom.masovia.ruler_title" text="Duke"/>
+    <string id="kingdom.masovia.short_name" text="Dutchy of Masovia"/>
+    <string id="kingdom.masovia.text" text="In the mid-13th century, Masovia was ruled by Duke Siemowit I of the Piast dynasty, who sought to defend and expand his duchy amid conflicts with neighboring Polish and Baltic powers. The region faced frequent raids from the Yotvingians and Lithuanians, while Masovian nobles played a key role in the political struggles between the Piasts of Greater Poland and Kuyavia."/>
+    <string id="kingdom.masovia.title" text="Dutchy of Masovia"/>
+
+    <string id="kingdom.pomerania.name" text="Dutchy of Pomerania"/>
+    <string id="kingdom.pomerania.ruler_title" text="Duke"/>
+    <string id="kingdom.pomerania.short_name" text="Dutchy of Pomerania"/>
+    <string id="kingdom.pomerania.text" text="In the mid-13th century, Pomerania was divided between Western Pomerania (Duchy of Pomerania, ruled by the Griffins) and Eastern Pomerania (Pomerelia, ruled by the Sobiesławice dynasty). While Western Pomerania remained loosely tied to the Holy Roman Empire, Pomerelia was engaged in power struggles with the Piasts of Poland, the Teutonic Order, and local noble clans over control of Gdańsk and strategic trade routes."/>
+    <string id="kingdom.pomerania.title" text="Dutchy of Pomerania"/>
+
 
     <!--
 
@@ -1657,21 +1995,28 @@
 
     <string id="rus_desc" text="Rus' culture, notable in Eastern Europe, blends Slavic traditions with influences from neighboring regions. It encompasses city-states like Kiev, Novgorod, and Vladimir, each governed by a prince. The society is hierarchically structured with princes, nobles, free peasants, and servants. Predominantly Eastern Orthodox since Prince Vladimir's Christianization in 988, Rus' culture aligns closely with Byzantium, contrasting with Western Catholic and Baltic pagan customs."/>
 
+    <string id="Afram" text="Afram"/>
+    <string id="Agadon" text="Agadon"/>
     <string id="Aleks" text="Aleks"/>
+    <string id="Aleksander" text="Aleksander"/>
     <string id="Aleksandr" text="Aleksandr"/>
     <string id="Aleksandre" text="Aleksandre"/>
     <string id="Aleksei" text="Aleksei"/>
     <string id="Alexander" text="Alexander"/>
+    <string id="Anany" text="Anany"/>
     <string id="An’drei" text="An’drei"/>
     <string id="Andrei" text="Andrei"/>
     <string id="Andreiko" text="Andreiko"/>
     <string id="Andrej" text="Andrej"/>
+    <string id="Anfal" text="Anfal"/>
     <string id="Anikej" text="Anikej"/>
+    <string id="Avram" text="Avram"/>
     <string id="Bogdan" text="Bogdan"/>
     <string id="Bogomil" text="Bogomil"/>
     <string id="Bojan" text="Bojan"/>
     <string id="Boleslav" text="Boleslav"/>
     <string id="Boris" text="Boris"/>
+    <string id="Borislav" text="Borislav"/>
     <string id="Borys" text="Borys"/>
     <string id="Bozhidar" text="Bozhidar"/>
     <string id="Bus" text="Bus"/>
@@ -1692,6 +2037,7 @@
     <string id="Dobrynka" text="Dobrynka"/>
     <string id="Domash" text="Domash"/>
     <string id="Dragomir" text="Dragomir"/>
+    <string id="Elferii" text="Elferii"/>
     <string id="Esif" text="Esif"/>
     <string id="Esip" text="Esip"/>
     <string id="Esip’ko" text="Esip’ko"/>
@@ -1717,6 +2063,7 @@
     <string id="Gavrilo" text="Gavrilo"/>
     <string id="Georgii" text="Georgii"/>
     <string id="Georgy" text="Georgy"/>
+    <string id="Gerasim" text="Gerasim"/>
     <string id="Gjurgi" text="Gjurgi"/>
     <string id="Gleb" text="Gleb"/>
     <string id="Glib" text="Glib"/>
@@ -1734,6 +2081,7 @@
     <string id="Grisha" text="Grisha"/>
     <string id="Grishka" text="Grishka"/>
     <string id="Gritka" text="Gritka"/>
+    <string id="Gyurgi" text="Gyurgi"/>
     <string id="Gyuriata" text="Gyuriata"/>
     <string id="Iakov" text="Iakov"/>
     <string id="Iaropolk" text="Iaropolk"/>
@@ -1759,6 +2107,7 @@
     <string id="Ivann" text="Ivann"/>
     <string id="Ivash" text="Ivash"/>
     <string id="Ivashko" text="Ivashko"/>
+    <string id="Ivor" text="Ivor"/>
     <string id="Iziaslav" text="Iziaslav"/>
     <string id="Jakov" text="Jakov"/>
     <string id="Jakove" text="Jakove"/>
@@ -1780,6 +2129,11 @@
     <string id="Jurjata" text="Jurjata"/>
     <string id="Jur’ka" text="Jur’ka"/>
     <string id="Kerbet" text="Kerbet"/>
+    <string id="Kiril" text="Kiril"/>
+    <string id="Klim" text="Klim"/>
+    <string id="Kliment" text="Kliment"/>
+    <string id="Klimiat" text="Klimiat"/>
+    <string id="Kondratii" text="Kondratii"/>
     <string id="Kostiantyn" text="Kostiantyn"/>
     <string id="Kozma" text="Kozma"/>
     <string id="Krechet" text="Krechet"/>
@@ -1819,10 +2173,12 @@
     <string id="Mikitka" text="Mikitka"/>
     <string id="Miksha" text="Miksha"/>
     <string id="Miroslav" text="Miroslav"/>
+    <string id="Mish" text="Mish"/>
     <string id="Misha" text="Misha"/>
     <string id="Mishko" text="Mishko"/>
     <string id="Mishuta" text="Mishuta"/>
     <string id="Mitja" text="Mitja"/>
+    <string id="Mitrofan" text="Mitrofan"/>
     <string id="Mixail" text="Mixail"/>
     <string id="Moliava" text="Moliava"/>
     <string id="Mstislav" text="Mstislav"/>
@@ -1833,6 +2189,7 @@
     <string id="Nevzor" text="Nevzor"/>
     <string id="Nikita" text="Nikita"/>
     <string id="Nikon" text="Nikon"/>
+    <string id="Okun'" text="Okun'"/>
     <string id="Okun’" text="Okun’"/>
     <string id="Olbeg" text="Olbeg"/>
     <string id="Olech" text="Olech"/>
@@ -1863,6 +2220,7 @@
     <string id="Povosha" text="Povosha"/>
     <string id="Pretych" text="Pretych"/>
     <string id="Prohor" text="Prohor"/>
+    <string id="Prokop" text="Prokop"/>
     <string id="Putiaita" text="Putiaita"/>
     <string id="Radim" text="Radim"/>
     <string id="Radoslav" text="Radoslav"/>
@@ -1874,6 +2232,7 @@
     <string id="Rostislav" text="Rostislav"/>
     <string id="Rostyslav" text="Rostyslav"/>
     <string id="Ryuryk" text="Ryuryk"/>
+    <string id="Sbyslav" text="Sbyslav"/>
     <string id="Semen" text="Semen"/>
     <string id="Semene" text="Semene"/>
     <string id="Semenec" text="Semenec"/>
@@ -1889,6 +2248,7 @@
     <string id="Smene" text="Smene"/>
     <string id="Smenko" text="Smenko"/>
     <string id="Spiridon" text="Spiridon"/>
+    <string id="Stanimir" text="Stanimir"/>
     <string id="Stanislav" text="Stanislav"/>
     <string id="Stapan" text="Stapan"/>
     <string id="Stefan" text="Stefan"/>
@@ -1898,6 +2258,7 @@
     <string id="Stepanec’" text="Stepanec’"/>
     <string id="Stepanko" text="Stepanko"/>
     <string id="Stepano" text="Stepano"/>
+    <string id="Stiopka" text="Stiopka"/>
     <string id="Sudyslav" text="Sudyslav"/>
     <string id="Svantevit" text="Svantevit"/>
     <string id="Sventopolk" text="Sventopolk"/>
@@ -1925,6 +2286,7 @@
     <string id="Velimir" text="Velimir"/>
     <string id="Viacheslav" text="Viacheslav"/>
     <string id="Višen’" text="Višen’"/>
+    <string id="Vishen'" text="Vishen'"/>
     <string id="Vladimir" text="Vladimir"/>
     <string id="Vladyslav" text="Vladyslav"/>
     <string id="Vlastimil" text="Vlastimil"/>
@@ -1936,9 +2298,11 @@
     <string id="Yaroslav" text="Yaroslav"/>
     <string id="Yuryi" text="Yuryi"/>
     <string id="Zaxarii" text="Zaxarii"/>
+    <string id="Zhiroh" text="Zhiroh"/>
+    <string id="Zhirokhno" text="Zhirokhno"/>
+    <string id="Zhiroslav" text="Zhiroslav"/>
     <string id="Zlatan" text="Zlatan"/>
     <string id="Zvonimir" text="Zvonimir"/>
-
 
     <string id="Agafia" text="Agafia"/>
     <string id="Agata" text="Agata"/>
@@ -1979,6 +2343,7 @@
     <string id="Evpraksia" text="Evpraksia"/>
     <string id="Fedora" text="Fedora"/>
     <string id="Fekla" text="Fekla"/>
+    <string id="Feklusha" text="Feklusha"/>
     <string id="Fenja" text="Fenja"/>
     <string id="Feodora" text="Feodora"/>
     <string id="Feodosiia" text="Feodosiia"/>
@@ -2028,6 +2393,7 @@
     <string id="Mariana" text="Mariana"/>
     <string id="Marija" text="Marija"/>
     <string id="Marina" text="Marina"/>
+    <string id="Matriona" text="Matriona"/>
     <string id="Melaniia" text="Melaniia"/>
     <string id="Milena" text="Milena"/>
     <string id="Milka" text="Milka"/>
@@ -2048,6 +2414,7 @@
     <string id="Pelageja" text="Pelageja"/>
     <string id="Peredeslava" text="Peredeslava"/>
     <string id="Pokinar’ja" text="Pokinar’ja"/>
+    <string id="Praskovya" text="Praskovya"/>
     <string id="Prebrana" text="Prebrana"/>
     <string id="Predslava" text="Predslava"/>
     <string id="Priamyslava" text="Priamyslava"/>
@@ -2060,6 +2427,7 @@
     <string id="Sofiia" text="Sofiia"/>
     <string id="Stanislava" text="Stanislava"/>
     <string id="Svetlana" text="Svetlana"/>
+    <string id="Taisa" text="Taisa"/>
     <string id="Tatiana" text="Tatiana"/>
     <string id="Tatijana" text="Tatijana"/>
     <string id="Tetiana" text="Tetiana"/>
@@ -2915,12 +3283,16 @@
     <string id="Algirdas" text="Algirdas"/>
     <string id="Algis" text="Algis"/>
     <string id="Algminas" text="Algminas"/>
+    <string id="Aliminas" text="Aliminas"/>
     <string id="Alkius" text="Alkius"/>
+    <string id="Alkys" text="Alkys"/>
     <string id="Almantas" text="Almantas"/>
     <string id="Almenas" text="Almenas"/>
     <string id="Alminas" text="Alminas"/>
+    <string id="Alpis" text="Alpis"/>
     <string id="Alšis" text="Alšis"/>
     <string id="Alvydas" text="Alvydas"/>
+    <string id="Andis" text="Andis"/>
     <string id="Apsingis" text="Apsingis"/>
     <string id="Aras" text="Aras"/>
     <string id="Arimantas" text="Arimantas"/>
@@ -2953,6 +3325,7 @@
     <string id="Barsa" text="Barsa"/>
     <string id="Bartas" text="Bartas"/>
     <string id="Barutis" text="Barutis"/>
+    <string id="Barza" text="Barza"/>
     <string id="Barzys" text="Barzys"/>
     <string id="Beitas" text="Beitas"/>
     <string id="Bikšis" text="Bikšis"/>
@@ -2960,10 +3333,13 @@
     <string id="Bilšys" text="Bilšys"/>
     <string id="Boruta" text="Boruta"/>
     <string id="Būga" text="Būga"/>
+    <string id="Bulis" text="Bulis"/>
+    <string id="Bulys" text="Bulys"/>
     <string id="Bunius" text="Bunius"/>
     <string id="Bunys" text="Bunys"/>
     <string id="Butautas" text="Butautas"/>
     <string id="Buteikis" text="Buteikis"/>
+    <string id="Butigeidis" text="Butigeidis"/>
     <string id="Butvilas" text="Butvilas"/>
     <string id="Butvydas" text="Butvydas"/>
     <string id="Bytautas" text="Bytautas"/>
@@ -2975,12 +3351,14 @@
     <string id="Dangirutis" text="Dangirutis"/>
     <string id="Dangis" text="Dangis"/>
     <string id="Dargaudas" text="Dargaudas"/>
+    <string id="Dargis" text="Dargis"/>
     <string id="Darvydas" text="Darvydas"/>
     <string id="Dauga" text="Dauga"/>
     <string id="Daugerutis" text="Daugerutis"/>
     <string id="Daugėrutis" text="Daugėrutis"/>
     <string id="Daugijotas" text="Daugijotas"/>
     <string id="Daugirdas" text="Daugirdas"/>
+    <string id="Daugirutis" text="Daugirutis"/>
     <string id="Daujotas" text="Daujotas"/>
     <string id="Daumantas" text="Daumantas"/>
     <string id="Dausprungas" text="Dausprungas"/>
@@ -3019,11 +3397,16 @@
     <string id="Galiguntas" text="Galiguntas"/>
     <string id="Galmantas" text="Galmantas"/>
     <string id="Gantas" text="Gantas"/>
+    <string id="Gatartas" text="Gatartas"/>
     <string id="Gaudižadas" text="Gaudižadas"/>
+    <string id="Gaudižodas" text="Gaudižodas"/>
     <string id="Gaudvydas" text="Gaudvydas"/>
     <string id="Gaujotas" text="Gaujotas"/>
     <string id="Gėdas" text="Gėdas"/>
+    <string id="Gedgaudas" text="Gedgaudas"/>
     <string id="Gediminas" text="Gediminas"/>
+    <string id="Gedivilas" text="Gedivilas"/>
+    <string id="Gedivydas" text="Gedivydas"/>
     <string id="Gedutis" text="Gedutis"/>
     <string id="Gedvilas" text="Gedvilas"/>
     <string id="Gedvydas" text="Gedvydas"/>
@@ -3034,18 +3417,26 @@
     <string id="Gerdvilas" text="Gerdvilas"/>
     <string id="Gerimantas" text="Gerimantas"/>
     <string id="Gerstukas" text="Gerstukas"/>
+    <string id="Gertautas" text="Gertautas"/>
     <string id="Gerutis" text="Gerutis"/>
+    <string id="Gesbutas" text="Gesbutas"/>
     <string id="Giedrius" text="Giedrius"/>
     <string id="Giedrutis" text="Giedrutis"/>
     <string id="Gimbutas" text="Gimbutas"/>
     <string id="Ginas" text="Ginas"/>
     <string id="Gineitis" text="Gineitis"/>
     <string id="Gingeika" text="Gingeika"/>
+    <string id="Gingeikis" text="Gingeikis"/>
     <string id="Gintaras" text="Gintaras"/>
     <string id="Gintas" text="Gintas"/>
     <string id="Gintautas" text="Gintautas"/>
+    <string id="Ginteikis" text="Ginteikis"/>
+    <string id="Gintenis" text="Gintenis"/>
+    <string id="Gintibutas" text="Gintibutas"/>
     <string id="Gintila" text="Gintila"/>
     <string id="Girdelis" text="Girdelis"/>
+    <string id="Girdenis" text="Girdenis"/>
+    <string id="Girdivilas" text="Girdivilas"/>
     <string id="Girėnas" text="Girėnas"/>
     <string id="Girius" text="Girius"/>
     <string id="Girmantas" text="Girmantas"/>
@@ -3060,11 +3451,14 @@
     <string id="Grumpis" text="Grumpis"/>
     <string id="Gytenis" text="Gytenis"/>
     <string id="Gytis" text="Gytis"/>
+    <string id="Imantas" text="Imantas"/>
     <string id="Irmantas" text="Irmantas"/>
     <string id="Izitas" text="Izitas"/>
     <string id="Jamantas" text="Jamantas"/>
     <string id="Jaunius" text="Jaunius"/>
     <string id="Jaunutis" text="Jaunutis"/>
+    <string id="Jautakas" text="Jautakas"/>
+    <string id="Jesbutas" text="Jesbutas"/>
     <string id="Jezbutis" text="Jezbutis"/>
     <string id="Jogaila" text="Jogaila"/>
     <string id="Jomantas" text="Jomantas"/>
@@ -3078,8 +3472,10 @@
     <string id="Juodikis" text="Juodikis"/>
     <string id="Juodkys" text="Juodkys"/>
     <string id="Jūris" text="Jūris"/>
+    <string id="Kantas" text="Kantas"/>
     <string id="Karigaila" text="Karigaila"/>
     <string id="Kastytis" text="Kastytis"/>
+    <string id="Kaupas" text="Kaupas"/>
     <string id="Kelpša" text="Kelpša"/>
     <string id="Kenius" text="Kenius"/>
     <string id="Kentra" text="Kentra"/>
@@ -3095,8 +3491,12 @@
     <string id="Kitenis" text="Kitenis"/>
     <string id="Klekis" text="Klekis"/>
     <string id="Knystautas" text="Knystautas"/>
+    <string id="Komantas" text="Komantas"/>
     <string id="Komatas" text="Komatas"/>
     <string id="Koris" text="Koris"/>
+    <string id="Krutila" text="Krutila"/>
+    <string id="Kulis" text="Kulis"/>
+    <string id="Kundra" text="Kundra"/>
     <string id="Kuntas" text="Kuntas"/>
     <string id="Laimantas" text="Laimantas"/>
     <string id="Laimas" text="Laimas"/>
@@ -3105,15 +3505,19 @@
     <string id="Laimutis" text="Laimutis"/>
     <string id="Laisvūnas" text="Laisvūnas"/>
     <string id="Laisvydas" text="Laisvydas"/>
+    <string id="Lauksnamas" text="Lauksnamas"/>
     <string id="Lengvenis" text="Lengvenis"/>
     <string id="Liesis" text="Liesis"/>
     <string id="Ligeikis" text="Ligeikis"/>
     <string id="Ligitas" text="Ligitas"/>
     <string id="Linas" text="Linas"/>
     <string id="Linvydas" text="Linvydas"/>
+    <string id="Liugaila" text="Liugaila"/>
     <string id="Liulys" text="Liulys"/>
+    <string id="Liumbis" text="Liumbis"/>
     <string id="Liumbys" text="Liumbys"/>
     <string id="Lizdeika" text="Lizdeika"/>
+    <string id="Lokertas" text="Lokertas"/>
     <string id="Lugaila" text="Lugaila"/>
     <string id="Lygeikis" text="Lygeikis"/>
     <string id="Mandvila" text="Mandvila"/>
@@ -3128,6 +3532,7 @@
     <string id="Manvydas" text="Manvydas"/>
     <string id="Margiris" text="Margiris"/>
     <string id="Mažeika" text="Mažeika"/>
+    <string id="Mažeikis" text="Mažeikis"/>
     <string id="Mažonas" text="Mažonas"/>
     <string id="Mažvydas" text="Mažvydas"/>
     <string id="Merūnas" text="Merūnas"/>
@@ -3161,6 +3566,7 @@
     <string id="Parbus" text="Parbus"/>
     <string id="Parnus" text="Parnus"/>
     <string id="Parnušis" text="Parnušis"/>
+    <string id="Pelušis" text="Pelušis"/>
     <string id="Pelūzė" text="Pelūzė"/>
     <string id="Pestila" text="Pestila"/>
     <string id="Plikienis" text="Plikienis"/>
@@ -3171,6 +3577,7 @@
     <string id="Prutenis" text="Prutenis"/>
     <string id="Pukeikis" text="Pukeikis"/>
     <string id="Pūkeikis" text="Pūkeikis"/>
+    <string id="Pulka" text="Pulka"/>
     <string id="Puteikis" text="Puteikis"/>
     <string id="Radvilas" text="Radvilas"/>
     <string id="Raigardas" text="Raigardas"/>
@@ -3179,8 +3586,10 @@
     <string id="Ramojus" text="Ramojus"/>
     <string id="Ramūnas" text="Ramūnas"/>
     <string id="Ramutis" text="Ramutis"/>
+    <string id="Repeikis" text="Repeikis"/>
     <string id="Replys" text="Replys"/>
     <string id="Rėva" text="Rėva"/>
+    <string id="Riauba" text="Riauba"/>
     <string id="Rimantas" text="Rimantas"/>
     <string id="Rimas" text="Rimas"/>
     <string id="Rimdaudas" text="Rimdaudas"/>
@@ -3196,34 +3605,48 @@
     <string id="Ruklys" text="Ruklys"/>
     <string id="Rumuntas" text="Rumuntas"/>
     <string id="Rupeikis" text="Rupeikis"/>
+    <string id="Ruška" text="Ruška"/>
     <string id="Ruškys" text="Ruškys"/>
     <string id="Rūtenis" text="Rūtenis"/>
     <string id="Rymūnas" text="Rymūnas"/>
     <string id="Ryplys" text="Ryplys"/>
     <string id="Rytis" text="Rytis"/>
+    <string id="Salys" text="Salys"/>
     <string id="Sangėla" text="Sangėla"/>
-    <string id="Sareika" text="Sareika"/>    
+    <string id="Sangus" text="Sangus"/>
+    <string id="Sareika" text="Sareika"/>
     <string id="Saugirdas" text="Saugirdas"/>
     <string id="Saulius" text="Saulius"/>
+    <string id="Siputis" text="Siputis"/>
+    <string id="Sirgėlis" text="Sirgėlis"/>
     <string id="Sirputas" text="Sirputas"/>
     <string id="Sirputis" text="Sirputis"/>
+    <string id="Sirvydas" text="Sirvydas"/>
+    <string id="Šiukštys" text="Šiukštys"/>
     <string id="Šiurpa" text="Šiurpa"/>
+    <string id="Skabė" text="Skabė"/>
     <string id="Skabis" text="Skabis"/>
     <string id="Skabys" text="Skabys"/>
     <string id="Skaidrius" text="Skaidrius"/>
     <string id="Skaidrys" text="Skaidrys"/>
+    <string id="Skalmantas" text="Skalmantas"/>
+    <string id="Skarijotas" text="Skarijotas"/>
     <string id="Skirmantas" text="Skirmantas"/>
     <string id="Skolmantas" text="Skolmantas"/>
     <string id="Skomantas" text="Skomantas"/>
+    <string id="Skurvydas" text="Skurvydas"/>
     <string id="Šniukšta" text="Šniukšta"/>
     <string id="Sprudeikis" text="Sprudeikis"/>
     <string id="Spudas" text="Spudas"/>
     <string id="Spūdas" text="Spūdas"/>
     <string id="Stakys" text="Stakys"/>
+    <string id="Starkus" text="Starkus"/>
     <string id="Stegutas" text="Stegutas"/>
     <string id="Stekintas" text="Stekintas"/>
     <string id="Stekšys" text="Stekšys"/>
+    <string id="Strangulis" text="Strangulis"/>
     <string id="Stumandas" text="Stumandas"/>
+    <string id="Stumantas" text="Stumantas"/>
     <string id="Sudargas" text="Sudargas"/>
     <string id="Sudimantas" text="Sudimantas"/>
     <string id="Sudintas" text="Sudintas"/>
@@ -3249,16 +3672,20 @@
     <string id="Tautvydas" text="Tautvydas"/>
     <string id="Teisutis" text="Teisutis"/>
     <string id="Timantas" text="Timantas"/>
+    <string id="Tiudjominas" text="Tiudjominas"/>
     <string id="Tolvaikis" text="Tolvaikis"/>
     <string id="Tolvaišis" text="Tolvaišis"/>
     <string id="Traidenis" text="Traidenis"/>
     <string id="Treniota" text="Treniota"/>
+    <string id="Tuskys" text="Tuskys"/>
     <string id="Tušys" text="Tušys"/>
     <string id="Tykintis" text="Tykintis"/>
     <string id="Ūdenis" text="Ūdenis"/>
+    <string id="Ūdrys" text="Ūdrys"/>
     <string id="Ugnius" text="Ugnius"/>
     <string id="Ulvaras" text="Ulvaras"/>
     <string id="Utenis" text="Utenis"/>
+    <string id="Utris" text="Utris"/>
     <string id="Uvis" text="Uvis"/>
     <string id="Uzinas" text="Uzinas"/>
     <string id="Vaidas" text="Vaidas"/>
@@ -3268,7 +3695,10 @@
     <string id="Vaigirdas" text="Vaigirdas"/>
     <string id="Vainius" text="Vainius"/>
     <string id="Vainoras" text="Vainoras"/>
+    <string id="Vaišalgas" text="Vaišalgas"/>
     <string id="Vaišelga" text="Vaišelga"/>
+    <string id="Vaisgėlis" text="Vaisgėlis"/>
+    <string id="Vaišnys" text="Vaišnys"/>
     <string id="Vaištaras" text="Vaištaras"/>
     <string id="Vaišvila" text="Vaišvila"/>
     <string id="Vaišvilkas" text="Vaišvilkas"/>
@@ -3278,13 +3708,17 @@
     <string id="Valdimantas" text="Valdimantas"/>
     <string id="Valmantas" text="Valmantas"/>
     <string id="Valys" text="Valys"/>
+    <string id="Vanibutas" text="Vanibutas"/>
     <string id="Vasaris" text="Vasaris"/>
+    <string id="Važeika" text="Važeika"/>
     <string id="Važeikis" text="Važeikis"/>
+    <string id="Vėgis" text="Vėgis"/>
     <string id="Veinoras" text="Veinoras"/>
     <string id="Velžys" text="Velžys"/>
     <string id="Vembutas" text="Vembutas"/>
     <string id="Vidas" text="Vidas"/>
     <string id="Vidgaudas" text="Vidgaudas"/>
+    <string id="Vidgautas" text="Vidgautas"/>
     <string id="Vidmantas" text="Vidmantas"/>
     <string id="Vidminas" text="Vidminas"/>
     <string id="Vidutis" text="Vidutis"/>
@@ -3301,6 +3735,7 @@
     <string id="Visgalis" text="Visgalis"/>
     <string id="Visgintas" text="Visgintas"/>
     <string id="Visgirdas" text="Visgirdas"/>
+    <string id="Višlis" text="Višlis"/>
     <string id="Višlys" text="Višlys"/>
     <string id="Vismantas" text="Vismantas"/>
     <string id="Visvaldas" text="Visvaldas"/>
@@ -3320,6 +3755,8 @@
     <string id="Vyžeitis" text="Vyžeitis"/>
     <string id="Žadvilas" text="Žadvilas"/>
     <string id="Žalčius" text="Žalčius"/>
+    <string id="Zangis" text="Zangis"/>
+    <string id="Zembrus" text="Zembrus"/>
     <string id="Zerstakis" text="Zerstakis"/>
     <string id="Zervis" text="Zervis"/>
     <string id="Zilgalvis" text="Zilgalvis"/>
@@ -3327,14 +3764,18 @@
     <string id="Živinbutas" text="Živinbutas"/>
     <string id="Žnibčius" text="Žnibčius"/>
     <string id="Žvelgaitis" text="Žvelgaitis"/>
+    <string id="Žvelgotė" text="Žvelgotė"/>
     <string id="Žybartas" text="Žybartas"/>
     <string id="Žyneikis" text="Žyneikis"/>
     <string id="Žytautas" text="Žytautas"/>
 
+    <string id="Agilė" text="Agilė"/>
+    <string id="Agnė" text="Agnė"/>
     <string id="Aida" text="Aida"/>
     <string id="Ainė" text="Ainė"/>
     <string id="Aistė" text="Aistė"/>
     <string id="Alanta" text="Alanta"/>
+    <string id="Alantė" text="Alantė"/>
     <string id="Aldanė" text="Aldanė"/>
     <string id="Aldona" text="Aldona"/>
     <string id="Algė" text="Algė"/>
@@ -3363,10 +3804,12 @@
     <string id="Austa" text="Austa"/>
     <string id="Austė" text="Austė"/>
     <string id="Austėja" text="Austėja"/>
+    <string id="Austra" text="Austra"/>
     <string id="Banga" text="Banga"/>
     <string id="Banguolė" text="Banguolė"/>
     <string id="Birutė" text="Birutė"/>
     <string id="Bruknė" text="Bruknė"/>
+    <string id="Dagnė" text="Dagnė"/>
     <string id="Daina" text="Daina"/>
     <string id="Dainė" text="Dainė"/>
     <string id="Dainora" text="Dainora"/>
@@ -3398,6 +3841,7 @@
     <string id="Gaila" text="Gaila"/>
     <string id="Gailė" text="Gailė"/>
     <string id="Gailenė" text="Gailenė"/>
+    <string id="Gailida" text="Gailida"/>
     <string id="Gailutė" text="Gailutė"/>
     <string id="Gaiva" text="Gaiva"/>
     <string id="Gaivilė" text="Gaivilė"/>
@@ -3410,6 +3854,7 @@
     <string id="Giedrutė" text="Giedrutė"/>
     <string id="Gilija" text="Gilija"/>
     <string id="Ginta" text="Ginta"/>
+    <string id="Gintara" text="Gintara"/>
     <string id="Gintarė" text="Gintarė"/>
     <string id="Gintautė" text="Gintautė"/>
     <string id="Gintė" text="Gintė"/>
@@ -3443,6 +3888,7 @@
     <string id="Komata" text="Komata"/>
     <string id="Laima" text="Laima"/>
     <string id="Laimė" text="Laimė"/>
+    <string id="Laimena" text="Laimena"/>
     <string id="Laimutė" text="Laimutė"/>
     <string id="Laisvė" text="Laisvė"/>
     <string id="Laisvūnė" text="Laisvūnė"/>
@@ -3492,6 +3938,7 @@
     <string id="Rugilė" text="Rugilė"/>
     <string id="Rusnė" text="Rusnė"/>
     <string id="Rūta" text="Rūta"/>
+    <string id="Rūtailė" text="Rūtailė"/>
     <string id="Rūtenė" text="Rūtenė"/>
     <string id="Rytė" text="Rytė"/>
     <string id="Saulė" text="Saulė"/>
@@ -3515,6 +3962,7 @@
     <string id="Ulė" text="Ulė"/>
     <string id="Upė" text="Upė"/>
     <string id="Vaida" text="Vaida"/>
+    <string id="Vaidevute" text="Vaidevute"/>
     <string id="Vaidilė" text="Vaidilė"/>
     <string id="Vaidilutė" text="Vaidilutė"/>
     <string id="Vaidota" text="Vaidota"/>
@@ -3535,6 +3983,7 @@
     <string id="Viltė" text="Viltė"/>
     <string id="Viltėja" text="Viltėja"/>
     <string id="Viltenė" text="Viltenė"/>
+    <string id="Vingailė" text="Vingailė"/>
     <string id="Vingė" text="Vingė"/>
     <string id="Virga" text="Virga"/>
     <string id="Visagina" text="Visagina"/>
@@ -3549,8 +3998,13 @@
     <string id="Vytė" text="Vytė"/>
     <string id="Vytėnė" text="Vytėnė"/>
     <string id="Žavinta" text="Žavinta"/>
+    <string id="Žeimena" text="Žeimena"/>
+    <string id="Žeimenė" text="Žeimenė"/>
     <string id="Žemyna" text="Žemyna"/>
+    <string id="Žieda" text="Žieda"/>
     <string id="Žiedė" text="Žiedė"/>
+    <string id="Živilė" text="Živilė"/>
+    <string id="Žymantė" text="Žymantė"/>
 
     <string id="Bobausis" text="Bobausis"/>
     <string id="Dundulis" text="Dundulis"/>
@@ -5440,6 +5894,851 @@
     <string id="Øfura" text="Øfura"/>
     <string id="Øllegård" text="Øllegård"/>
     <string id="Øthgerth" text="Øthgerth"/>
+
+    <!--
+
+    ██████   ██████  ██      ██ ███████ ██   ██      ██████ ██    ██ ██      ████████ ██    ██ ██████  ███████ 
+    ██   ██ ██    ██ ██      ██ ██      ██   ██     ██      ██    ██ ██         ██    ██    ██ ██   ██ ██      
+    ██████  ██    ██ ██      ██ ███████ ███████     ██      ██    ██ ██         ██    ██    ██ ██████  █████   
+    ██      ██    ██ ██      ██      ██ ██   ██     ██      ██    ██ ██         ██    ██    ██ ██   ██ ██      
+    ██       ██████  ███████ ██ ███████ ██   ██      ██████  ██████  ███████    ██     ██████  ██   ██ ███████ 
+                                                                                                            
+    -->
+
+    <string id="Adulf" text="Adulf"/>
+    <string id="Aleksander" text="Aleksander"/>
+    <string id="Andrzej" text="Andrzej"/>
+    <string id="Arbort" text="Arbort"/>
+    <string id="Archambałt" text="Archambałt"/>
+    <string id="Arnko" text="Arnko"/>
+    <string id="Arnolf" text="Arnolf"/>
+    <string id="Artald" text="Artald"/>
+    <string id="Artold" text="Artold"/>
+    <string id="Balich" text="Balich"/>
+    <string id="Balwin" text="Balwin"/>
+    <string id="Bartusz" text="Bartusz"/>
+    <string id="Bartysz" text="Bartysz"/>
+    <string id="Bawon" text="Bawon"/>
+    <string id="Będzieciech" text="Będzieciech"/>
+    <string id="Berlwin" text="Berlwin"/>
+    <string id="Bernasz" text="Bernasz"/>
+    <string id="Bezprym" text="Bezprym"/>
+    <string id="Bezprzem" text="Bezprzem"/>
+    <string id="Biernardyn" text="Biernardyn"/>
+    <string id="Biezprzem" text="Biezprzem"/>
+    <string id="Bodżęta" text="Bodżęta"/>
+    <string id="Bogdan" text="Bogdan"/>
+    <string id="Bogodar" text="Bogodar"/>
+    <string id="Boguchwał" text="Boguchwał"/>
+    <string id="Bogumił" text="Bogumił"/>
+    <string id="Bogusław" text="Bogusław"/>
+    <string id="Bolemir" text="Bolemir"/>
+    <string id="Bolesław" text="Bolesław"/>
+    <string id="Borzywoj" text="Borzywoj"/>
+    <string id="Bosław" text="Bosław"/>
+    <string id="Bożebor" text="Bożebor"/>
+    <string id="Bożydar" text="Bożydar"/>
+    <string id="Bracsław" text="Bracsław"/>
+    <string id="Bronimir" text="Bronimir"/>
+    <string id="Bronisąd" text="Bronisąd"/>
+    <string id="Bronisław" text="Bronisław"/>
+    <string id="BroniszChalimir" text="BroniszChalimir"/>
+    <string id="Chalisław" text="Chalisław"/>
+    <string id="Chocian" text="Chocian"/>
+    <string id="Chociebąd" text="Chociebąd"/>
+    <string id="Chociebor" text="Chociebor"/>
+    <string id="Chociesław" text="Chociesław"/>
+    <string id="Chwalibog" text="Chwalibog"/>
+    <string id="Cieszmir" text="Cieszmir"/>
+    <string id="Cieszymír" text="Cieszymír"/>
+    <string id="Cieszysław" text="Cieszysław"/>
+    <string id="Cypryjan" text="Cypryjan"/>
+    <string id="Czcibor" text="Czcibor"/>
+    <string id="Czcisław" text="Czcisław"/>
+    <string id="Częstowoj" text="Częstowoj"/>
+    <string id="Dobiegniew" text="Dobiegniew"/>
+    <string id="Dobiemir" text="Dobiemir"/>
+    <string id="Dobiesław" text="Dobiesław"/>
+    <string id="Dobiesz" text="Dobiesz"/>
+    <string id="Dobran" text="Dobran"/>
+    <string id="Dobrogost" text="Dobrogost"/>
+    <string id="Dobroj" text="Dobroj"/>
+    <string id="Dobromir" text="Dobromir"/>
+    <string id="Dobrosław" text="Dobrosław"/>
+    <string id="Domarad" text="Domarad"/>
+    <string id="Domarat" text="Domarat"/>
+    <string id="Drogoradz" text="Drogoradz"/>
+    <string id="Drużyjan" text="Drużyjan"/>
+    <string id="Dulcyn" text="Dulcyn"/>
+    <string id="Dypołt" text="Dypołt"/>
+    <string id="Dziećmar" text="Dziećmar"/>
+    <string id="Dziedrzych" text="Dziedrzych"/>
+    <string id="Dzierżykraj" text="Dzierżykraj"/>
+    <string id="Elpin" text="Elpin"/>
+    <string id="Falibog" text="Falibog"/>
+    <string id="Falimir" text="Falimir"/>
+    <string id="Falisław" text="Falisław"/>
+    <string id="Fiebron" text="Fiebron"/>
+    <string id="Fiebrosław" text="Fiebrosław"/>
+    <string id="Gaszko" text="Gaszko"/>
+    <string id="Gierołt" text="Gierołt"/>
+    <string id="Ginter" text="Ginter"/>
+    <string id="Gizo" text="Gizo"/>
+    <string id="Gniewomir" text="Gniewomir"/>
+    <string id="Gniewosz" text="Gniewosz"/>
+    <string id="Godzimir" text="Godzimir"/>
+    <string id="Gościmiar" text="Gościmiar"/>
+    <string id="Gościmir" text="Gościmir"/>
+    <string id="Gościsław" text="Gościsław"/>
+    <string id="Gościwit" text="Gościwit"/>
+    <string id="Gresmar" text="Gresmar"/>
+    <string id="Gresmir" text="Gresmir"/>
+    <string id="Grzymek" text="Grzymek"/>
+    <string id="Guncerz" text="Guncerz"/>
+    <string id="Hekosz" text="Hekosz"/>
+    <string id="Herbort" text="Herbort"/>
+    <string id="Hirzyk" text="Hirzyk"/>
+    <string id="Hodysław" text="Hodysław"/>
+    <string id="Hunold" text="Hunold"/>
+    <string id="Imbrych" text="Imbrych"/>
+    <string id="Irzyk" text="Irzyk"/>
+    <string id="Iwik" text="Iwik"/>
+    <string id="Jaczewoj" text="Jaczewoj"/>
+    <string id="Jagel" text="Jagel"/>
+    <string id="Jakert" text="Jakert"/>
+    <string id="Jakow" text="Jakow"/>
+    <string id="Jaksa" text="Jaksa"/>
+    <string id="Jaktor" text="Jaktor"/>
+    <string id="Jakub" text="Jakub"/>
+    <string id="Jakubko" text="Jakubko"/>
+    <string id="Jakusz" text="Jakusz"/>
+    <string id="Jakuszek" text="Jakuszek"/>
+    <string id="Jałbrzyk" text="Jałbrzyk"/>
+    <string id="Jamrych" text="Jamrych"/>
+    <string id="Jaracz" text="Jaracz"/>
+    <string id="Jarand" text="Jarand"/>
+    <string id="Jarogniew" text="Jarogniew"/>
+    <string id="Jaromir" text="Jaromir"/>
+    <string id="Jarosław" text="Jarosław"/>
+    <string id="Jawor" text="Jawor"/>
+    <string id="Jektor" text="Jektor"/>
+    <string id="Jekub" text="Jekub"/>
+    <string id="Jen" text="Jen"/>
+    <string id="Jenrych" text="Jenrych"/>
+    <string id="Jeracz" text="Jeracz"/>
+    <string id="Jerzman" text="Jerzman"/>
+    <string id="Jiko" text="Jiko"/>
+    <string id="Jirzy" text="Jirzy"/>
+    <string id="Joan" text="Joan"/>
+    <string id="Jokob" text="Jokob"/>
+    <string id="Jokub" text="Jokub"/>
+    <string id="Jolda" text="Jolda"/>
+    <string id="Jon" text="Jon"/>
+    <string id="Jozap" text="Jozap"/>
+    <string id="Jurand" text="Jurand"/>
+    <string id="Jurk" text="Jurk"/>
+    <string id="Jurko" text="Jurko"/>
+    <string id="Jurzy" text="Jurzy"/>
+    <string id="Jurzyk" text="Jurzyk"/>
+    <string id="Jutrogost" text="Jutrogost"/>
+    <string id="Kasz" text="Kasz"/>
+    <string id="Kazimiar" text="Kazimiar"/>
+    <string id="Kazimier" text="Kazimier"/>
+    <string id="Kazimierz" text="Kazimierz"/>
+    <string id="Kazimirz" text="Kazimirz"/>
+    <string id="Kaźmir" text="Kaźmir"/>
+    <string id="Kaźmisz" text="Kaźmisz"/>
+    <string id="Ketyl" text="Ketyl"/>
+    <string id="Kiba" text="Kiba"/>
+    <string id="Klemens" text="Klemens"/>
+    <string id="Kochan" text="Kochan"/>
+    <string id="Kornosz" text="Kornosz"/>
+    <string id="Krystyn" text="Krystyn"/>
+    <string id="Krzesim" text="Krzesim"/>
+    <string id="Krzesimir" text="Krzesimir"/>
+    <string id="Krzesisław" text="Krzesisław"/>
+    <string id="Krzesław" text="Krzesław"/>
+    <string id="Krzeszel" text="Krzeszel"/>
+    <string id="Krzeszko" text="Krzeszko"/>
+    <string id="Krzyszpin" text="Krzyszpin"/>
+    <string id="Kupryjan" text="Kupryjan"/>
+    <string id="Kur" text="Kur"/>
+    <string id="Kurz" text="Kurz"/>
+    <string id="Kusz" text="Kusz"/>
+    <string id="Kuszęt" text="Kuszęt"/>
+    <string id="Kwalimir" text="Kwalimir"/>
+    <string id="Kwalisław" text="Kwalisław"/>
+    <string id="Larysz" text="Larysz"/>
+    <string id="Lasota" text="Lasota"/>
+    <string id="Lechosław" text="Lechosław"/>
+    <string id="Lenard" text="Lenard"/>
+    <string id="Lenart" text="Lenart"/>
+    <string id="Lenert" text="Lenert"/>
+    <string id="Leszek" text="Leszek"/>
+    <string id="Lorant" text="Lorant"/>
+    <string id="Ludomił" text="Ludomił"/>
+    <string id="Lutomir" text="Lutomir"/>
+    <string id="Maciej" text="Maciej"/>
+    <string id="Małomir" text="Małomir"/>
+    <string id="Manomir" text="Manomir"/>
+    <string id="Marcisław" text="Marcisław"/>
+    <string id="Marczin" text="Marczin"/>
+    <string id="Marczko" text="Marczko"/>
+    <string id="Marczurko" text="Marczurko"/>
+    <string id="Marczyk" text="Marczyk"/>
+    <string id="Marek" text="Marek"/>
+    <string id="Margusz" text="Margusz"/>
+    <string id="Markiel" text="Markiel"/>
+    <string id="Markusław" text="Markusław"/>
+    <string id="Markusz" text="Markusz"/>
+    <string id="Mathaeus" text="Mathaeus"/>
+    <string id="Matoz" text="Matoz"/>
+    <string id="Matusz" text="Matusz"/>
+    <string id="Matyja" text="Matyja"/>
+    <string id="Matyjasz" text="Matyjasz"/>
+    <string id="Matys" text="Matys"/>
+    <string id="Mecislaw" text="Mecislaw"/>
+    <string id="Meingod" text="Meingod"/>
+    <string id="Menko" text="Menko"/>
+    <string id="Merkusz" text="Merkusz"/>
+    <string id="Micek" text="Micek"/>
+    <string id="Miecisław" text="Miecisław"/>
+    <string id="Mieczysław" text="Mieczysław"/>
+    <string id="Mielenty" text="Mielenty"/>
+    <string id="Mieszko" text="Mieszko"/>
+    <string id="Mik" text="Mik"/>
+    <string id="Mikołaj" text="Mikołaj"/>
+    <string id="Mikuła" text="Mikuła"/>
+    <string id="Miłobąd" text="Miłobąd"/>
+    <string id="Miłogost" text="Miłogost"/>
+    <string id="Miłomir" text="Miłomir"/>
+    <string id="Miłosław" text="Miłosław"/>
+    <string id="Miłowan" text="Miłowan"/>
+    <string id="Miłowit" text="Miłowit"/>
+    <string id="Mirosław" text="Mirosław"/>
+    <string id="Mojmir" text="Mojmir"/>
+    <string id="Mojsław" text="Mojsław"/>
+    <string id="Mroczek " text="Mroczek "/>
+    <string id="Mroczysław" text="Mroczysław"/>
+    <string id="Mściwoj" text="Mściwoj"/>
+    <string id="Mściwój" text="Mściwój"/>
+    <string id="Mszczuj" text="Mszczuj"/>
+    <string id="Nelko" text="Nelko"/>
+    <string id="Nemoy" text="Nemoy"/>
+    <string id="Niedźwiedź" text="Niedźwiedź"/>
+    <string id="Niegan" text="Niegan"/>
+    <string id="Niego" text="Niego"/>
+    <string id="Nierod" text="Nierod"/>
+    <string id="Nieznamir" text="Nieznamir"/>
+    <string id="Ninogniew" text="Ninogniew"/>
+    <string id="Odolf" text="Odolf"/>
+    <string id="Oldrzyk" text="Oldrzyk"/>
+    <string id="Oliwir" text="Oliwir"/>
+    <string id="Olrzyk" text="Olrzyk"/>
+    <string id="Olwer" text="Olwer"/>
+    <string id="Onold" text="Onold"/>
+    <string id="Oracy" text="Oracy"/>
+    <string id="Ostrogniew" text="Ostrogniew"/>
+    <string id="Otton" text="Otton"/>
+    <string id="Pabian" text="Pabian"/>
+    <string id="Pachnik" text="Pachnik"/>
+    <string id="Paszko" text="Paszko"/>
+    <string id="Pawał" text="Pawał"/>
+    <string id="Paweł" text="Paweł"/>
+    <string id="Pawil" text="Pawil"/>
+    <string id="Pawlik" text="Pawlik"/>
+    <string id="Pawoł" text="Pawoł"/>
+    <string id="Pazt" text="Pazt"/>
+    <string id="Piast" text="Piast"/>
+    <string id="Piechno" text="Piechno"/>
+    <string id="Pieszko" text="Pieszko"/>
+    <string id="Pietran" text="Pietran"/>
+    <string id="Pietrasz" text="Pietrasz"/>
+    <string id="Pietrek" text="Pietrek"/>
+    <string id="Pietrusz" text="Pietrusz"/>
+    <string id="Pietrzej" text="Pietrzej"/>
+    <string id="Pietrzyk" text="Pietrzyk"/>
+    <string id="Pietyr" text="Pietyr"/>
+    <string id="Piotr" text="Piotr"/>
+    <string id="Piotrak" text="Piotrak"/>
+    <string id="Piotran" text="Piotran"/>
+    <string id="Piotrasz" text="Piotrasz"/>
+    <string id="Piotro" text="Piotro"/>
+    <string id="Piotrzej" text="Piotrzej"/>
+    <string id="Piotyr" text="Piotyr"/>
+    <string id="Poniat" text="Poniat"/>
+    <string id="Poznan" text="Poznan"/>
+    <string id="Przedbor" text="Przedbor"/>
+    <string id="Przedpełk" text="Przedpełk"/>
+    <string id="Przedsław" text="Przedsław"/>
+    <string id="Przemir" text="Przemir"/>
+    <string id="Przemko" text="Przemko"/>
+    <string id="Przemysł" text="Przemysł"/>
+    <string id="Przemysław" text="Przemysław"/>
+    <string id="Przezprzem" text="Przezprzem"/>
+    <string id="Przybywoj" text="Przybywoj"/>
+    <string id="Racibor" text="Racibor"/>
+    <string id="Radbod" text="Radbod"/>
+    <string id="Radogost" text="Radogost"/>
+    <string id="Radomił" text="Radomił"/>
+    <string id="Radomir" text="Radomir"/>
+    <string id="Radosław" text="Radosław"/>
+    <string id="Radzibor" text="Radzibor"/>
+    <string id="Radzim" text="Radzim"/>
+    <string id="Radzimir" text="Radzimir"/>
+    <string id="Radzisław" text="Radzisław"/>
+    <string id="Ranald" text="Ranald"/>
+    <string id="Roman" text="Roman"/>
+    <string id="Roszko" text="Roszko"/>
+    <string id="Rurant" text="Rurant"/>
+    <string id="Sadok" text="Sadok"/>
+    <string id="Sambor" text="Sambor"/>
+    <string id="Sędzimir" text="Sędzimir"/>
+    <string id="Sędziwoj" text="Sędziwoj"/>
+    <string id="Sędziwój" text="Sędziwój"/>
+    <string id="Siemieng" text="Siemieng"/>
+    <string id="Siemirad" text="Siemirad"/>
+    <string id="Siemosław" text="Siemosław"/>
+    <string id="Siemowit" text="Siemowit"/>
+    <string id="Sławibor" text="Sławibor"/>
+    <string id="Sławmir" text="Sławmir"/>
+    <string id="Sławomir" text="Sławomir"/>
+    <string id="Spicimir" text="Spicimir"/>
+    <string id="Spycimir" text="Spycimir"/>
+    <string id="Stanibor" text="Stanibor"/>
+    <string id="Stanigost" text="Stanigost"/>
+    <string id="Stanimir" text="Stanimir"/>
+    <string id="Stanisław" text="Stanisław"/>
+    <string id="Stasław" text="Stasław"/>
+    <string id="Stoigniew" text="Stoigniew"/>
+    <string id="Stronisław" text="Stronisław"/>
+    <string id="Strzedziwoj" text="Strzedziwoj"/>
+    <string id="Suchan" text="Suchan"/>
+    <string id="Suchto" text="Suchto"/>
+    <string id="Suledo" text="Suledo"/>
+    <string id="Sulej" text="Sulej"/>
+    <string id="Sulen" text="Sulen"/>
+    <string id="Sulibor" text="Sulibor"/>
+    <string id="Sulibrat" text="Sulibrat"/>
+    <string id="Sulich" text="Sulich"/>
+    <string id="Sulidziad" text="Sulidziad"/>
+    <string id="Suligost" text="Suligost"/>
+    <string id="Sulik" text="Sulik"/>
+    <string id="Sulisław" text="Sulisław"/>
+    <string id="Sulist" text="Sulist"/>
+    <string id="Sulistryj" text="Sulistryj"/>
+    <string id="Suliszek" text="Suliszek"/>
+    <string id="Suliwoj" text="Suliwoj"/>
+    <string id="Suliwuj" text="Suliwuj"/>
+    <string id="Sulko" text="Sulko"/>
+    <string id="Suszej" text="Suszej"/>
+    <string id="Suszyk" text="Suszyk"/>
+    <string id="Świebron" text="Świebron"/>
+    <string id="Święca" text="Święca"/>
+    <string id="Świętobor" text="Świętobor"/>
+    <string id="Świętomir" text="Świętomir"/>
+    <string id="Świętopełk" text="Świętopełk"/>
+    <string id="Świętopełk " text="Świętopełk "/>
+    <string id="Świętosław" text="Świętosław"/>
+    <string id="Sychno" text="Sychno"/>
+    <string id="Syszko" text="Syszko"/>
+    <string id="Szwieciech" text="Szwieciech"/>
+    <string id="Tadeusz" text="Tadeusz"/>
+    <string id="Tasław" text="Tasław"/>
+    <string id="Tebrich" text="Tebrich"/>
+    <string id="Tomasz" text="Tomasz"/>
+    <string id="Tomir" text="Tomir"/>
+    <string id="Tomisław" text="Tomisław"/>
+    <string id="Trojden" text="Trojden"/>
+    <string id="Trzebiesław" text="Trzebiesław"/>
+    <string id="Trzebimir" text="Trzebimir"/>
+    <string id="Turold" text="Turold"/>
+    <string id="Tworzyjan" text="Tworzyjan"/>
+    <string id="Tyba" text="Tyba"/>
+    <string id="Tybald" text="Tybald"/>
+    <string id="Tylo" text="Tylo"/>
+    <string id="Ubysław" text="Ubysław"/>
+    <string id="Unisław" text="Unisław"/>
+    <string id="Wacław" text="Wacław"/>
+    <string id="Walcerz" text="Walcerz"/>
+    <string id="Warcislaw" text="Warcislaw"/>
+    <string id="Warcisław" text="Warcisław"/>
+    <string id="Wasyl" text="Wasyl"/>
+    <string id="Więcesław" text="Więcesław"/>
+    <string id="Wielisław" text="Wielisław"/>
+    <string id="Wieńczysław" text="Wieńczysław"/>
+    <string id="Wilkomir" text="Wilkomir"/>
+    <string id="Winebald" text="Winebald"/>
+    <string id="Wisław" text="Wisław"/>
+    <string id="Wit" text="Wit"/>
+    <string id="Witołt" text="Witołt"/>
+    <string id="Witomir" text="Witomir"/>
+    <string id="Witosław" text="Witosław"/>
+    <string id="Witowd" text="Witowd"/>
+    <string id="Władysław" text="Władysław"/>
+    <string id="Włodzimierz" text="Włodzimierz"/>
+    <string id="Włodzimir" text="Włodzimir"/>
+    <string id="Włodzisław" text="Włodzisław"/>
+    <string id="Włościbor" text="Włościbor"/>
+    <string id="Wojciech" text="Wojciech"/>
+    <string id="Wszebąd" text="Wszebąd"/>
+    <string id="Wszebor" text="Wszebor"/>
+    <string id="Wszemir" text="Wszemir"/>
+    <string id="Zawisza" text="Zawisza"/>
+    <string id="Zbigniew" text="Zbigniew"/>
+    <string id="Zbijlud" text="Zbijlud"/>
+    <string id="Zbilut" text="Zbilut"/>
+    <string id="Zbrosław" text="Zbrosław"/>
+    <string id="Zbylut" text="Zbylut"/>
+    <string id="Zbywoj" text="Zbywoj"/>
+    <string id="Zdzisław" text="Zdzisław"/>
+    <string id="Żelisław" text="Żelisław"/>
+    <string id="Ziemisław" text="Ziemisław"/>
+    <string id="Ziemomysł" text="Ziemomysł"/>
+    <string id="Ziemowit" text="Ziemowit"/>
+    <string id="Zybert" text="Zybert"/>
+    <string id="Zyndram" text="Zyndram"/>
+
+    <string id="Abramka" text="Abramka"/>
+    <string id="Adelajda" text="Adelajda"/>
+    <string id="Adwiga" text="Adwiga"/>
+    <string id="Agafia" text="Agafia"/>
+    <string id="Agnieszka" text="Agnieszka"/>
+    <string id="Anastazja" text="Anastazja"/>
+    <string id="Andruta" text="Andruta"/>
+    <string id="Anna" text="Anna"/>
+    <string id="Astreta" text="Astreta"/>
+    <string id="Benedykta" text="Benedykta"/>
+    <string id="Bertrada" text="Bertrada"/>
+    <string id="Bertylda" text="Bertylda"/>
+    <string id="Biechna" text="Biechna"/>
+    <string id="Bieniaszka" text="Bieniaszka"/>
+    <string id="Bieńka" text="Bieńka"/>
+    <string id="Biezdziadka" text="Biezdziadka"/>
+    <string id="Bogna" text="Bogna"/>
+    <string id="Boguchna" text="Boguchna"/>
+    <string id="Bogusława" text="Bogusława"/>
+    <string id="Bogusza" text="Bogusza"/>
+    <string id="Boguszka" text="Boguszka"/>
+    <string id="Bolka" text="Bolka"/>
+    <string id="Bonfilia" text="Bonfilia"/>
+    <string id="Bożechna" text="Bożechna"/>
+    <string id="Bożena" text="Bożena"/>
+    <string id="Breta" text="Breta"/>
+    <string id="Bretka" text="Bretka"/>
+    <string id="Bronisława" text="Bronisława"/>
+    <string id="Bryda" text="Bryda"/>
+    <string id="Burneta" text="Burneta"/>
+    <string id="Catarzina" text="Catarzina"/>
+    <string id="Chomka" text="Chomka"/>
+    <string id="Chryścijanica" text="Chryścijanica"/>
+    <string id="Chrzczonka" text="Chrzczonka"/>
+    <string id="Chwalimira" text="Chwalimira"/>
+    <string id="Chweidzia" text="Chweidzia"/>
+    <string id="Ciecirada" text="Ciecirada"/>
+    <string id="Ciesława" text="Ciesława"/>
+    <string id="Cieszymira" text="Cieszymira"/>
+    <string id="Cirzpisława" text="Cirzpisława"/>
+    <string id="Cudka" text="Cudka"/>
+    <string id="Cymbarka" text="Cymbarka"/>
+    <string id="Czębira" text="Czębira"/>
+    <string id="Częstochna" text="Częstochna"/>
+    <string id="Częstowojna" text="Częstowojna"/>
+    <string id="Dąbrówka" text="Dąbrówka"/>
+    <string id="Dadzboga" text="Dadzboga"/>
+    <string id="Damroka" text="Damroka"/>
+    <string id="Dobala" text="Dobala"/>
+    <string id="Dobiechna" text="Dobiechna"/>
+    <string id="Dobiegniewa" text="Dobiegniewa"/>
+    <string id="Dobiesława" text="Dobiesława"/>
+    <string id="Dobka" text="Dobka"/>
+    <string id="Dobra" text="Dobra"/>
+    <string id="Dobrawa" text="Dobrawa"/>
+    <string id="Dobrocha" text="Dobrocha"/>
+    <string id="Dobrogniewa" text="Dobrogniewa"/>
+    <string id="Dobromiła" text="Dobromiła"/>
+    <string id="Dobroniega" text="Dobroniega"/>
+    <string id="Dobrosława" text="Dobrosława"/>
+    <string id="Dobrosta" text="Dobrosta"/>
+    <string id="Dobroszka" text="Dobroszka"/>
+    <string id="Dobrożyźń" text="Dobrożyźń"/>
+    <string id="Dochna" text="Dochna"/>
+    <string id="Doda" text="Doda"/>
+    <string id="Domaczaja" text="Domaczaja"/>
+    <string id="Domaradka" text="Domaradka"/>
+    <string id="Domaradza" text="Domaradza"/>
+    <string id="Domosława" text="Domosława"/>
+    <string id="Drużyjanna" text="Drużyjanna"/>
+    <string id="Dubrawka" text="Dubrawka"/>
+    <string id="Dubrowka" text="Dubrowka"/>
+    <string id="Dula" text="Dula"/>
+    <string id="Dulka" text="Dulka"/>
+    <string id="Dulna" text="Dulna"/>
+    <string id="Dziersława" text="Dziersława"/>
+    <string id="Edwiga" text="Edwiga"/>
+    <string id="Elżbieta" text="Elżbieta"/>
+    <string id="Emnilda" text="Emnilda"/>
+    <string id="Enfleda" text="Enfleda"/>
+    <string id="Ermegarda" text="Ermegarda"/>
+    <string id="Ermentruda" text="Ermentruda"/>
+    <string id="Ermusza" text="Ermusza"/>
+    <string id="Etelburga" text="Etelburga"/>
+    <string id="Eufemia" text="Eufemia"/>
+    <string id="Eufrozyna " text="Eufrozyna "/>
+    <string id="Euphemia" text="Euphemia"/>
+    <string id="Fawila" text="Fawila"/>
+    <string id="Feberka" text="Feberka"/>
+    <string id="Febrocha" text="Febrocha"/>
+    <string id="Fejenna" text="Fejenna"/>
+    <string id="Felicyja" text="Felicyja"/>
+    <string id="Felina" text="Felina"/>
+    <string id="Fenenna" text="Fenenna"/>
+    <string id="Fiebronija" text="Fiebronija"/>
+    <string id="Fiedzia" text="Fiedzia"/>
+    <string id="Filicyja" text="Filicyja"/>
+    <string id="Filka" text="Filka"/>
+    <string id="Floryjana" text="Floryjana"/>
+    <string id="Floszka" text="Floszka"/>
+    <string id="Formoza" text="Formoza"/>
+    <string id="Fredeswinda" text="Fredeswinda"/>
+    <string id="Gertruda" text="Gertruda"/>
+    <string id="Giela" text="Giela"/>
+    <string id="Gierka" text="Gierka"/>
+    <string id="Gieruchna" text="Gieruchna"/>
+    <string id="Gierusza" text="Gierusza"/>
+    <string id="Girtrud" text="Girtrud"/>
+    <string id="Gniewomira" text="Gniewomira"/>
+    <string id="Gniewosądka" text="Gniewosądka"/>
+    <string id="Gniewosława" text="Gniewosława"/>
+    <string id="Gochna" text="Gochna"/>
+    <string id="Godzisława" text="Godzisława"/>
+    <string id="Gościsława" text="Gościsława"/>
+    <string id="Goszka" text="Goszka"/>
+    <string id="Gryfina" text="Gryfina"/>
+    <string id="Grymilda" text="Grymilda"/>
+    <string id="Grzymisława" text="Grzymisława"/>
+    <string id="Hedvigis" text="Hedvigis"/>
+    <string id="Hedwiga" text="Hedwiga"/>
+    <string id="Hektorka" text="Hektorka"/>
+    <string id="Helena" text="Helena"/>
+    <string id="Helina" text="Helina"/>
+    <string id="Helwiga" text="Helwiga"/>
+    <string id="Helzbieta" text="Helzbieta"/>
+    <string id="Holuba" text="Holuba"/>
+    <string id="Hordzia" text="Hordzia"/>
+    <string id="Hożanka" text="Hożanka"/>
+    <string id="Hrydzia" text="Hrydzia"/>
+    <string id="Ida" text="Ida"/>
+    <string id="Imka" text="Imka"/>
+    <string id="Imma" text="Imma"/>
+    <string id="Izalda" text="Izalda"/>
+    <string id="Jacinia" text="Jacinia"/>
+    <string id="Jadwiga" text="Jadwiga"/>
+    <string id="Jafra" text="Jafra"/>
+    <string id="Jagnieszka" text="Jagnieszka"/>
+    <string id="Janczysława" text="Janczysława"/>
+    <string id="Janna" text="Janna"/>
+    <string id="Jarosława" text="Jarosława"/>
+    <string id="Jedwiga" text="Jedwiga"/>
+    <string id="Jena" text="Jena"/>
+    <string id="Jenna" text="Jenna"/>
+    <string id="Jimka" text="Jimka"/>
+    <string id="Jolenta" text="Jolenta"/>
+    <string id="Julianna" text="Julianna"/>
+    <string id="Justyna" text="Justyna"/>
+    <string id="Kaja" text="Kaja"/>
+    <string id="Katarzena" text="Katarzena"/>
+    <string id="Katarzyna" text="Katarzyna"/>
+    <string id="Katarzyna " text="Katarzyna "/>
+    <string id="Katerzyna" text="Katerzyna"/>
+    <string id="Katuszka" text="Katuszka"/>
+    <string id="Kazimiera" text="Kazimiera"/>
+    <string id="Kazimira" text="Kazimira"/>
+    <string id="Konstancja" text="Konstancja"/>
+    <string id="Krystyjana" text="Krystyjana"/>
+    <string id="Krzczona" text="Krzczona"/>
+    <string id="Krzechna" text="Krzechna"/>
+    <string id="Krzesława" text="Krzesława"/>
+    <string id="Krzystyjana" text="Krzystyjana"/>
+    <string id="Krzysztyjana" text="Krzysztyjana"/>
+    <string id="Kunegunda" text="Kunegunda"/>
+    <string id="Łabędz" text="Łabędz"/>
+    <string id="Locha" text="Locha"/>
+    <string id="Łucja" text="Łucja"/>
+    <string id="Ludgarda" text="Ludgarda"/>
+    <string id="Ludmiła" text="Ludmiła"/>
+    <string id="Małgorzata" text="Małgorzata"/>
+    <string id="Malgorzatha" text="Malgorzatha"/>
+    <string id="Małomira" text="Małomira"/>
+    <string id="Margorzata" text="Margorzata"/>
+    <string id="Margorzatha" text="Margorzatha"/>
+    <string id="Marka" text="Marka"/>
+    <string id="Marocha" text="Marocha"/>
+    <string id="Marsza" text="Marsza"/>
+    <string id="Marszka" text="Marszka"/>
+    <string id="Marucha" text="Marucha"/>
+    <string id="Marusza" text="Marusza"/>
+    <string id="Maruszka" text="Maruszka"/>
+    <string id="Marzena" text="Marzena"/>
+    <string id="Mastka" text="Mastka"/>
+    <string id="Maszota" text="Maszota"/>
+    <string id="Michałowa" text="Michałowa"/>
+    <string id="Milena" text="Milena"/>
+    <string id="Miłobęda" text="Miłobęda"/>
+    <string id="Miłochna" text="Miłochna"/>
+    <string id="Miłosława" text="Miłosława"/>
+    <string id="Mirosława" text="Mirosława"/>
+    <string id="Modliboga" text="Modliboga"/>
+    <string id="Mścisława" text="Mścisława"/>
+    <string id="Mszczuja" text="Mszczuja"/>
+    <string id="Najmiła" text="Najmiła"/>
+    <string id="Nascia" text="Nascia"/>
+    <string id="Nastazyja" text="Nastazyja"/>
+    <string id="Nawoja" text="Nawoja"/>
+    <string id="Nawojka" text="Nawojka"/>
+    <string id="Niegodoma" text="Niegodoma"/>
+    <string id="Niemira" text="Niemira"/>
+    <string id="Nieradka" text="Nieradka"/>
+    <string id="Niestanka" text="Niestanka"/>
+    <string id="Nieznana" text="Nieznana"/>
+    <string id="Nutka" text="Nutka"/>
+    <string id="Ofka" text="Ofka"/>
+    <string id="Olimpia" text="Olimpia"/>
+    <string id="Olisava" text="Olisava"/>
+    <string id="Osiwka" text="Osiwka"/>
+    <string id="Oszka" text="Oszka"/>
+    <string id="Otylia" text="Otylia"/>
+    <string id="Owdocia" text="Owdocia"/>
+    <string id="Ożanka" text="Ożanka"/>
+    <string id="Pachna" text="Pachna"/>
+    <string id="Pelagia" text="Pelagia"/>
+    <string id="Piechna" text="Piechna"/>
+    <string id="Piotrusza" text="Piotrusza"/>
+    <string id="Połomka" text="Połomka"/>
+    <string id="Potencyjana" text="Potencyjana"/>
+    <string id="Przeczka" text="Przeczka"/>
+    <string id="Przedbora" text="Przedbora"/>
+    <string id="Przedsława" text="Przedsława"/>
+    <string id="Przemysława" text="Przemysława"/>
+    <string id="Przezprawa" text="Przezprawa"/>
+    <string id="Przybysława" text="Przybysława"/>
+    <string id="Pszczoła" text="Pszczoła"/>
+    <string id="Racisława" text="Racisława"/>
+    <string id="Radochna" text="Radochna"/>
+    <string id="Radomiła" text="Radomiła"/>
+    <string id="Radosława" text="Radosława"/>
+    <string id="Regina" text="Regina"/>
+    <string id="Richeza" text="Richeza"/>
+    <string id="Rikitsa" text="Rikitsa"/>
+    <string id="Rozalia" text="Rozalia"/>
+    <string id="Rozamunda" text="Rozamunda"/>
+    <string id="Ruchna" text="Ruchna"/>
+    <string id="Rycheza" text="Rycheza"/>
+    <string id="Ryngałła" text="Ryngałła"/>
+    <string id="Rzepicha" text="Rzepicha"/>
+    <string id="Rzepka" text="Rzepka"/>
+    <string id="Salomea" text="Salomea"/>
+    <string id="Salomea " text="Salomea "/>
+    <string id="Sambiria" text="Sambiria"/>
+    <string id="Samobora" text="Samobora"/>
+    <string id="Sanza" text="Sanza"/>
+    <string id="Sasinka" text="Sasinka"/>
+    <string id="Sędzisława" text="Sędzisława"/>
+    <string id="Siemomysła" text="Siemomysła"/>
+    <string id="Siemosława" text="Siemosława"/>
+    <string id="Sirosława" text="Sirosława"/>
+    <string id="Skarbimira" text="Skarbimira"/>
+    <string id="Sława" text="Sława"/>
+    <string id="Sławka" text="Sławka"/>
+    <string id="Sławna" text="Sławna"/>
+    <string id="Sławnica" text="Sławnica"/>
+    <string id="Sławocha" text="Sławocha"/>
+    <string id="Sławomira" text="Sławomira"/>
+    <string id="Sławomirza" text="Sławomirza"/>
+    <string id="Sobiesława" text="Sobiesława"/>
+    <string id="Sopianka" text="Sopianka"/>
+    <string id="Spycimira" text="Spycimira"/>
+    <string id="Stanisława" text="Stanisława"/>
+    <string id="Sulichna" text="Sulichna"/>
+    <string id="Suligniewa" text="Suligniewa"/>
+    <string id="Sulisława" text="Sulisława"/>
+    <string id="Swatanna" text="Swatanna"/>
+    <string id="Święcisława" text="Święcisława"/>
+    <string id="Świętoborza" text="Świętoborza"/>
+    <string id="Świętochna" text="Świętochna"/>
+    <string id="Świętomira" text="Świętomira"/>
+    <string id="Świętosława" text="Świętosława"/>
+    <string id="Świętożyźń" text="Świętożyźń"/>
+    <string id="Swinisława" text="Swinisława"/>
+    <string id="Syszczyna" text="Syszczyna"/>
+    <string id="Tacyjana" text="Tacyjana"/>
+    <string id="Tajka" text="Tajka"/>
+    <string id="Tatja" text="Tatja"/>
+    <string id="Tęgomira" text="Tęgomira"/>
+    <string id="Tekla" text="Tekla"/>
+    <string id="Tetyjana" text="Tetyjana"/>
+    <string id="Tomira" text="Tomira"/>
+    <string id="Trzebiesława" text="Trzebiesława"/>
+    <string id="Tworka" text="Tworka"/>
+    <string id="Tymka" text="Tymka"/>
+    <string id="Tyszka" text="Tyszka"/>
+    <string id="Unisława" text="Unisława"/>
+    <string id="Urszula" text="Urszula"/>
+    <string id="Wacława" text="Wacława"/>
+    <string id="Wasylisa" text="Wasylisa"/>
+    <string id="Węda" text="Węda"/>
+    <string id="Wencesława" text="Wencesława"/>
+    <string id="Weronya" text="Weronya"/>
+    <string id="Więcesława" text="Więcesława"/>
+    <string id="Więcsława" text="Więcsława"/>
+    <string id="Wielisława" text="Wielisława"/>
+    <string id="Wieńczysława" text="Wieńczysława"/>
+    <string id="Wierzchosława" text="Wierzchosława"/>
+    <string id="Wiktorzyjana" text="Wiktorzyjana"/>
+    <string id="Wilburga" text="Wilburga"/>
+    <string id="Wilczysława" text="Wilczysława"/>
+    <string id="Wilkomira" text="Wilkomira"/>
+    <string id="Wiltruda" text="Wiltruda"/>
+    <string id="Wincenta" text="Wincenta"/>
+    <string id="Winibalda" text="Winibalda"/>
+    <string id="Wirszula" text="Wirszula"/>
+    <string id="Wirzchosława" text="Wirzchosława"/>
+    <string id="Wisława" text="Wisława"/>
+    <string id="Witburga" text="Witburga"/>
+    <string id="Witomira" text="Witomira"/>
+    <string id="Witosława" text="Witosława"/>
+    <string id="Władysława" text="Władysława"/>
+    <string id="Włodzisława" text="Włodzisława"/>
+    <string id="Wojciecha" text="Wojciecha"/>
+    <string id="Wojsława" text="Wojsława"/>
+    <string id="Wrocisława" text="Wrocisława"/>
+    <string id="Wysława" text="Wysława"/>
+    <string id="Wyszesława" text="Wyszesława"/>
+    <string id="Zanka" text="Zanka"/>
+    <string id="Zańka" text="Zańka"/>
+    <string id="Zanna" text="Zanna"/>
+    <string id="Żanna" text="Żanna"/>
+    <string id="Zawisza" text="Zawisza"/>
+    <string id="Zbrosława" text="Zbrosława"/>
+    <string id="Zbygniewa" text="Zbygniewa"/>
+    <string id="Zbysława" text="Zbysława"/>
+    <string id="Zdzieborza" text="Zdzieborza"/>
+    <string id="Zdzisława" text="Zdzisława"/>
+    <string id="Żegota" text="Żegota"/>
+    <string id="Żelisława" text="Żelisława"/>
+    <string id="Żelizława" text="Żelizława"/>
+    <string id="Ziemisława" text="Ziemisława"/>
+    <string id="Ziemomira" text="Ziemomira"/>
+    <string id="Zofeja" text="Zofeja"/>
+    <string id="Zofia" text="Zofia"/>
+    <string id="Zuchna" text="Zuchna"/>
+    <string id="Żużanna" text="Żużanna"/>
+    <string id="Zużka" text="Zużka"/>
+    <string id="Zwnisława" text="Zwnisława"/>
+    <string id="Żyrosława" text="Żyrosława"/>
+    <string id="Żywia" text="Żywia"/>
+
+
+    <!--
+
+    ██    ██ ███    ██ ███████  ██████  ██████  ████████ ███████ ██████  
+    ██    ██ ████   ██ ██      ██    ██ ██   ██    ██    ██      ██   ██ 
+    ██    ██ ██ ██  ██ ███████ ██    ██ ██████     ██    █████   ██   ██ 
+    ██    ██ ██  ██ ██      ██ ██    ██ ██   ██    ██    ██      ██   ██ 
+     ██████  ██   ████ ███████  ██████  ██   ██    ██    ███████ ██████  
+                                                                        
+    -->
+
+    <string id="polishfactionformalname" text="Polish"/>
+    <string id="polishruler" text="Duke"/>
+    <string id="CuronianRaiders" text="Curonian Raiders"/>
+    <string id="dead_lord_pol_1_1.name" text="Mestwin I"/>
+    <string id="dead_lord_pol_4_1.name" text="Konrad I"/>
+    <string id="holy_place_alkas" text="Alkas (Sacred Grove)"/>
+    <string id="holy_place_chapel" text="Chapel"/>
+    <string id="holy_place_church" text="Church"/>
+    <string id="lt_catholic_cross_bronze" text="Catholic Cross - Bronze"/>
+    <string id="lt_catholic_cross_gold" text="Catholic Cross - Gold"/>
+    <string id="lt_catholic_cross_iron" text="Catholic Cross - Iron"/>
+    <string id="lt_catholic_cross_silver" text="Catholic Cross - Silver"/>
+    <string id="lt_ingot_brass" text="Brass Ingot"/>
+    <string id="lt_ingot_bronze" text="Bronze Ingot"/>
+    <string id="lt_ingot_copper" text="Copper Ingot"/>
+    <string id="lt_ingot_gold" text="Gold Ingot"/>
+    <string id="lt_ingot_silver" text="Silver Ingot"/>
+    <string id="lt_orthodox_cross_bronze" text="Orthodox Cross - Bronze"/>
+    <string id="lt_orthodox_cross_gold" text="Orthodox Cross - Gold"/>
+    <string id="lt_orthodox_cross_iron" text="Orthodox Cross - Iron"/>
+    <string id="lt_orthodox_cross_silver" text="Orthodox Cross - Silver"/>
+    <string id="Mongol" text="Mongol"/>
+    <string id="MongolRaiders" text="Mongol Raiders"/>
+    <string id="Nadruvians_description" text="In the 13th century, the Nadruvians were a Baltic tribe inhabiting the region of Nadruva, characterized by a decentralized tribal society, steadfast pagan traditions, and determined resistance against crusader incursions."/>
+    <string id="Nadruvians" text="Nadruvians"/>
+    <string id="OeselianRaiders" text="Oeselian Raiders"/>
+    <string id="polish_caravan_guard" text="Polish Caravan Guard"/>
+    <string id="polish_caravan_master" text="Polish Caravan Master"/>
+    <string id="polishcultureadjective" text="Polish"/>
+    <string id="polishcultureneutralterm" text="Polish"/>
+    <string id="polishdescription" text="Polish culture in the 13th century combined Christian religious traditions with Slavic customs, centered around wooden and stone churches, castles, and monasteries. Due to the feudal fragmentation (period of division into duchies), Poland was politically divided among Piast dynasty princes, yet maintained cultural unity through shared religious practices and traditions."/>
+    <string id="polishfactionadjective" text="Polish"/>
+    <string id="polishfactioninformalname" text="the Polish"/>
+    <string id="polishfactionshortterm" text="Polish"/>
+    <string id="polishmembers" text="Polish"/>
+    <string id="polishmother" text="Agnieszka"/>
+    <string id="polishnobletitle" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+    <string id="polishofficialf" text="lady"/>
+    <string id="polishofficial" text="lord"/>
+    <string id="polish_player_clan10.name" text="Poraj"/>
+    <string id="polish_player_clan1.name" text="Odrowąż"/>
+    <string id="polish_player_clan2.name" text="Gryfici"/>
+    <string id="polish_player_clan3.name" text="Łabędź"/>
+    <string id="polish_player_clan4.name" text="Topór"/>
+    <string id="polish_player_clan5.name" text="Awdaniec"/>
+    <string id="polish_player_clan6.name" text="Bogoria"/>
+    <string id="polish_player_clan7.name" text="Jastrzębiec"/>
+    <string id="polish_player_clan8.name" text="Habdank"/>
+    <string id="polish_player_clan9.name" text="Lis"/>
+    <string id="polish" text="polish"/>
+    <string id="polish" text="Polish"/>
+    <string id="polishrfather" text="Zbigniew"/>
+    <string id="polishrulerf" text="Duchess"/>
+    <string id="polishrulerterm" text="{RULER.NAME} {?RULER.GENDER}Dutchess{?}Duke{\?}"/>
+    <string id="polishrulertitle" text="{?RULER.GENDER}Dutchess{?}Duke{\?} {RULER.NAME}"/>
+    <string id="polish_veteran_caravan_guard" text="Polish Veteran Caravan Guard"/>
+    <string id="str_liege_title_female.polish" text="Dutchess"/>
+    <string id="str_liege_title.polish" text="Duke"/>
+    <string id="UshkuinikiRaiders" text="Ushkuiniki Raiders"/>
+    <string id="wanderer0_polish" text="{FIRSTNAME} Cechowy Buntownik"/>
+    <string id="wanderer10_polish" text="{FIRSTNAME} Skalany"/>
+    <string id="wanderer11_polish" text="{FIRSTNAME} Niepokorna"/>
+    <string id="wanderer12_polish" text="{FIRSTNAME} Wędrowna"/>
+    <string id="wanderer13_polish" text="{FIRSTNAME} Włóczny"/>
+    <string id="wanderer1_polish" text="{FIRSTNAME} Chełpliwy"/>
+    <string id="wanderer2_polish" text="{FIRSTNAME} Szlachcic Kupecki"/>
+    <string id="wanderer3_polish" text="{FIRSTNAME} Wieczny Chorąży"/>
+    <string id="wanderer4_polish" text="{FIRSTNAME} Zbój Sprawiedliwy"/>
+    <string id="wanderer5_polish" text="{FIRSTNAME} Milcznik"/>
+    <string id="wanderer6_polish" text="{FIRSTNAME} Odstępca"/>
+    <string id="wanderer7_polish" text="{FIRSTNAME} Najemna"/>
+    <string id="wanderer8_polish" text="{FIRSTNAME} Bezdomna"/>
+    <string id="wanderer9_polish" text="{FIRSTNAME} Mściwa"/>
+    <string id="wand_polish_12_1" text="My story? It’s the weight of a spindle in my hands and the feeling of raw wool between my fingers."/>
+    <string id="wand_polish_12_2" text="I was born to a weaver’s family, where every day was spent at the loom. From the moment I could sit upright, my mother taught me to spin wool, to dye it, to weave it into cloth that would be sold at the market. It was honest work, but it left little room for dreams."/>
+    <string id="wand_polish_12_3" text="The loom bound my fate as surely as it wove the threads of fabric. I watched my older sisters marry men chosen for them, men who cared little for love and more for the dowries our father promised. I knew my turn would come soon, my future already decided before I could speak against it."/>
+    <string id="wand_polish_12_4" text="I refused to be traded like a bolt of cloth. On the night before my betrothal, I took my mother’s cloak and what little coin I had and fled. I didn’t know where I was going—only that I needed to go somewhere beyond the loom, beyond the small room where I had spent my whole life."/>
+    <string id="wand_polish_12_5" text="A life of weaving and duty… it’s not surprising you sought something more."/>
+    <string id="wand_polish_12_6" text="Running from a fate you never chose… that takes courage."/>
+    <string id="wand_polish_12_7" text="I couldn’t stay. My hands ached for something other than the feel of wool and thread. Now I wander, searching for a life where I can make my own choices, where I am more than just another daughter to be wed off."/>
+    <string id="wand_polish_12_8" text="I was raised as a weaver’s daughter, expected to marry and continue the cycle. But I wanted more. I left, searching for a life beyond the loom and the threads of fate woven for me."/>
+    <string id="wand_polish_13_1" text="My story? It’s the weight of the plow on my shoulders and the endless stretch of fields under the sky."/>
+    <string id="wand_polish_13_2" text="I was born in a small village nestled between the forests and fields. My father was a farmer, and from the moment I could walk, I was put to work in the fields. The land was both our livelihood and our curse—droughts, storms, and the lord’s taxes left us with barely enough to survive."/>
+    <string id="wand_polish_13_3" text="The village was my whole world, but I always felt the pull of the road. Traders came with stories of distant towns, knights passing through spoke of wars and glory. I dreamt of seeing Kraków, of walking through its grand streets instead of the same muddy paths I’d known all my life."/>
+    <string id="wand_polish_13_4" text="When my father died, there was nothing keeping me there. The land would go to my older brother, and I refused to spend my days toiling under another’s orders. I took what little I had and left, hoping to find a new life beyond the fields."/>
+    <string id="wand_polish_13_5" text="The land can be harsh, but it’s all many people have ever known."/>
+    <string id="wand_polish_13_6" text="Leaving behind the life of a farmer isn’t easy, but the road holds its own challenges."/>
+    <string id="wand_polish_13_7" text="I left behind the farm, the village, and the weight of my father’s expectations. Now I wander, searching for a place where I can be more than just another son of the soil."/>
+    <string id="wand_polish_13_8" text="I was raised on a farm, where every day was a battle against the earth and the seasons. But I wanted more than that life. Now, I travel in search of a future beyond the fields."/>
+
 
 
   </strings>
