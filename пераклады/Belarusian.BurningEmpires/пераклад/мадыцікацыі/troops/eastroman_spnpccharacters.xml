@@ -1,0 +1,5422 @@
+<NPCCharacters>
+  <NPCCharacter
+    id="tournament_master_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="ArenaMaster"
+    culture="Culture.aserai"
+    name="{=IHKXNP9H}Tournament Master"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.imperial_robes" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_master_aserai"
+                default_group="Infantry"
+                level="26"
+                name="{=be_wr_caravan_master_eastroman}East Roman Caravan Master"
+                occupation="CaravanGuard"
+				is_hidden_encyclopedia="true"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level26_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Throwing"
+             value="80" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Item1"
+                 id="Item.be_gar_shield_banner" />
+      <equipment slot="Body"
+                 id="Item.be_roman_subarmalis_sleeved_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_cloak_blue" />
+      </EquipmentRoster>
+
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Item1"
+                 id="Item.be_gar_shield_banner" />
+      <equipment slot="Body"
+                 id="Item.be_roman_subarmalis_sleeved_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_cloak_brown" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="armed_trader_aserai"
+                default_group="Ranged"
+                level="16"
+                name="{=be_wr_armed_trader_eastroman}East Roman Armed Trader"
+                occupation="CaravanGuard"
+				is_hidden_encyclopedia="true"
+                culture="Culture.aserai"
+                is_basic_troop="true"
+                skill_template="SkillSet.ranged_skirmisher_level6_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="70" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <equipment slot="Body"
+                 id="Item.be_roman_tunic_tiro_low_blue" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes_black" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_cloak_dyed" />
+      </EquipmentRoster>
+
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Head"
+                 id="Item.be_roman_hat_pannonian_1" />
+      <equipment slot="Body"
+                 id="Item.be_roman_tunic_tiro_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_cloak_blue" />
+      </EquipmentRoster>
+
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Head"
+                 id="Item.merchants_hat" />
+      <equipment slot="Body"
+                 id="Item.be_roman_tunic_tiro_dyed2" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes_black" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_cloak_black" />
+      </EquipmentRoster>
+
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.glen_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.default_arrows" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Head"
+                 id="Item.be_roman_hat_pannonian_1_black" />
+      <equipment slot="Body"
+                 id="Item.be_roman_tunic_tiro_low_grey" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_cloak_dyed2" />
+      </EquipmentRoster>
+    </Equipments>
+
+  </NPCCharacter>
+  <NPCCharacter id="caravan_guard_aserai"
+                default_group="Cavalry"
+                level="21"
+                name="{=be_wr_caravan_guard_eastroman}East Roman Caravan Guard"
+                upgrade_requires="ItemCategory.horse"
+                occupation="CaravanGuard"
+				is_hidden_encyclopedia="true"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="90" />
+      <skill id="OneHanded"
+             value="170" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.eastern_spear_2_t3" />
+      <equipment slot="Item1"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_shield_small" />
+      <equipment slot="Head"
+                 id="Item.be_roman_helm_intercisa_ii" />
+      <equipment slot="Body"
+                 id="Item.be_roman_armor_mail_shins" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes_black" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_scarf_long_red" />
+      </EquipmentRoster>
+
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.western_spear_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_shield_small" />
+      <equipment slot="Head"
+                 id="Item.be_ghor_el_haditha_helmet" />
+      <equipment slot="Body"
+                 id="Item.be_roman_mail_short_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes_black" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_scarf_long_red" />
+      </EquipmentRoster>
+
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.eastern_spear_2_t3" />
+      <equipment slot="Item1"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_shield_small" />
+      <equipment slot="Head"
+                 id="Item.be_roman_helm_florence" />
+      <equipment slot="Body"
+                 id="Item.be_roman_armor_mail_shins" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes_black" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_scarf_long_red" />
+      </EquipmentRoster>
+
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.western_spear_3_t3" />
+      <equipment slot="Item1"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_shield_small" />
+      <equipment slot="Head"
+                 id="Item.be_roman_helm_intercisa_fin_iron_b" />
+      <equipment slot="Body"
+                 id="Item.be_roman_mail_short_dyed2" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes_black" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_scarf_long_red" />
+      </EquipmentRoster>
+
+    <equipment slot="Horse"
+               id="Item.empire_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.be_roman_horse_harness_light_blue" />
+    </Equipments>
+
+  </NPCCharacter>
+  <NPCCharacter id="veteran_caravan_guard_aserai"
+                default_group="Cavalry"
+                level="26"
+                name="{=be_wr_veteran_caravan_guard_eastroman}East Roman Veteran Caravan Guard"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="CaravanGuard"
+				is_hidden_encyclopedia="true"
+                culture="Culture.aserai"
+                skill_template="SkillSet.cavalry_lightcavalry_heavycavalry_level26_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="80" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.western_spear_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_shield_small" />
+      <equipment slot="Head"
+                 id="Item.be_roman_helm_intercisa_fin_brass" />
+      <equipment slot="Body"
+                 id="Item.be_roman_armor_mail_greaves" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_scarf_long_red" />
+      </EquipmentRoster>
+
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.western_spear_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.be_roman_semispatha_1" />
+      <equipment slot="Item2"
+                 id="Item.be_roman_shield_small" />
+      <equipment slot="Head"
+                 id="Item.be_roman_helm_intercisa_fin_steel" />
+      <equipment slot="Body"
+                 id="Item.be_roman_mail_short_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_roman_scarf_long_red" />
+      </EquipmentRoster>
+
+    <equipment slot="Horse"
+               id="Item.empire_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.be_roman_horse_harness_light_blue" />
+
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="villager_aserai"
+    default_group="Infantry"
+    level="1"
+    name="{=eastromanpeasantman}East Roman Peasant"
+    occupation="Villager"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties
+        version="4"
+        age="25.57"
+        weight="0.3164"
+        build="0.2485"
+        key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" />
+      <BodyPropertiesMax
+        version="4"
+        age="69.94"
+        weight="0.9923"
+        build="0.7052"
+        key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target
+        id="NPCCharacter.be_wr_recruit" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_7" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_2" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_6" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_4" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_polearm_1_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_4" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_hatchet_1_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_7" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_polearm_1_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_2" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_pitchfork_2_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_pitchfork_1_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_6" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_2haxe_1_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_5" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_polearm_1_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_polearm_1_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_4" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Item1"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="aserai_duel_preset"
+    default_group="Infantry"
+    level="1"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    name="{=*}East Roman Tribesman"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--face_key value="000b025b40000000700000000000080003000000000000080000000008070000000007a9f0000000000000000000000000000000000000000000000000f00000" max_value="0011f37fc00033cffff88efffff88ffffffffffffff7ffffffffffffffffffff000787adf7ffffff000000000000000000000000000000000000000001988140" /-->
+      <BodyProperties
+        version="4"
+        age="37.08"
+        weight="0.008"
+        build="0.4325"
+        key="000B000B40000000700000000006080003000000000000080000000008070000000667A406000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax
+        version="4"
+        age="77.59"
+        weight="0.5213"
+        build="0.6"
+        key="0010F00FC00033CFFFF88EFFFFF88FFFFFFFFFFFFFF7FFFFFFFFFFFFFFFFFFFF0870878907FFFFFF00000000000000000000000000000000000000006AF09105" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="0" /> #OLD_SKILL# -->
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.fortified_kite_shield" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_4_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.fortified_kite_shield" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_3_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.fortified_kite_shield" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.battle_axe_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.fortified_kite_shield" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.western_2hsword_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.western_spear_3_t3" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="prison_guard_aserai"
+    default_group="Infantry"
+    level="21"
+    culture="Culture.aserai"
+    occupation="PrisonGuard"
+    name="{=XgjXfmM1}Prison Guard"
+    skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill
+        id="OneHanded"
+        value="50" />
+      <skill
+        id="TwoHanded"
+        value="50" />
+      <skill
+        id="Polearm"
+        value="50" />
+      <skill
+        id="Crossbow"
+        value="50" />
+      <skill
+        id="Bow"
+        value="50" />
+      <skill
+        id="Throwing"
+        value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Head"
+          id="Item.tall_helmet" />
+        <equipment
+          slot="Body"
+          id="Item.mail_shirt" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Head"
+          id="Item.helmet_with_faceguard" />
+        <equipment
+          slot="Body"
+          id="Item.imperial_mail_vest" />
+        <equipment
+          slot="Leg"
+          id="Item.mail_chausses" />
+        <equipment
+          slot="Gloves"
+          id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Body"
+          id="Item.imperial_mail_over_stripped_leather" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_mail_chausses" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Head"
+          id="Item.tall_helmet" />
+        <equipment
+          slot="Body"
+          id="Item.mail_shirt" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Head"
+          id="Item.helmet_with_faceguard" />
+        <equipment
+          slot="Body"
+          id="Item.imperial_mail_vest" />
+        <equipment
+          slot="Leg"
+          id="Item.mail_chausses" />
+        <equipment
+          slot="Gloves"
+          id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Body"
+          id="Item.imperial_mail_over_stripped_leather" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_mail_chausses" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="guard_aserai"
+    default_group="Infantry"
+    level="21"
+    occupation="Soldier"
+    culture="Culture.aserai"
+    name="{=guardnoun}Guard"
+    skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill
+        id="OneHanded"
+        value="50" />
+      <skill
+        id="TwoHanded"
+        value="50" />
+      <skill
+        id="Polearm"
+        value="50" />
+      <skill
+        id="Crossbow"
+        value="50" />
+      <skill
+        id="Bow"
+        value="50" />
+      <skill
+        id="Throwing"
+        value="50" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Head"
+          id="Item.ironlame_spiked_kettle_over_mail" />
+        <equipment
+          slot="Body"
+          id="Item.legionary_mail" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.studded_imperial_neckguard" />
+        <equipment
+          slot="Gloves"
+          id="Item.lordly_padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Head"
+          id="Item.leatherlame_roundkettle" />
+        <equipment
+          slot="Body"
+          id="Item.padded_cloth_with_strips" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Gloves"
+          id="Item.padded_mitten" />
+        <equipment
+          slot="Cape"
+          id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Head"
+          id="Item.leatherlame_nasalhelm_over_imperial_leather" />
+        <equipment
+          slot="Cape"
+          id="Item.empire_warrior_padded_armor_shoulder" />
+        <equipment
+          slot="Body"
+          id="Item.empire_warrior_padded_armor_g" />
+        <equipment
+          slot="Leg"
+          id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="blacksmith_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Blacksmith"
+    culture="Culture.aserai"
+    name="{=bNnQt4jN}Blacksmith"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_2_t3" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_2_t3" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_2_t3" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="weaponsmith_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Weaponsmith"
+    culture="Culture.aserai"
+    name="{=UaN2lfwi}Weaponsmith"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_4_t4" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.battania_leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_5_t4" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_5_t4" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townswoman_infant_aserai"
+    name="{=femaleinfant}Infant"
+    age="3"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townswoman_child_aserai"
+    name="{=femalechild}Child"
+    age="6"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townswoman_teenager_aserai"
+    name="{=femaleteenager}Teenager"
+    age="14"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.headscarf" />
+        <equipment
+          slot="Body"
+          id="Item.empire_dress_b" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.head_wrapped" />
+        <equipment
+          slot="Body"
+          id="Item.vlandian_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townswoman_aserai"
+    default_group="Infantry"
+    is_female="true"
+    level="1"
+    name="{=*}East Roman Townswoman"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties
+        version="4"
+        age="22.05"
+        weight="0.2918"
+        build="0.2886"
+        key="0000600990000001227101022221000240008203101023225532432173535432004446030401121200000000000000000000000000000000000000000A940001" />
+      <BodyPropertiesMax
+        version="4"
+        age="58.36"
+        weight="0.7701"
+        build="0.838"
+        key="0020F80FD2B4300FFE7EFEEEEDFFFFEFEFFE9EEFEFF8FFEEFFFFEFEE8FFEFFFE05CDC6570CFEFFFF0000000000000000000000000000000000000000698C90C4" />
+      <!--hair_tags>
+        <hair_tag name="Bobbed" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="AboveShoulderLength" />
+      </hair_tags-->
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.vlandian_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress_b" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.plain_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.dress_with_overall" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.laced_dress" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.vlandian_dress" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress_b" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.plain_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.dress_with_overall" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.laced_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.laced_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townsman_infant_aserai"
+    name="{=maleinfant}Infant"
+    age="3"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townsman_child_aserai"
+    name="{=malechild}Child"
+    age="6"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.tunic_with_rolled_cloth" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_leather_water_flask" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townsman_teenager_aserai"
+    name="{=maleteenager}Teenager"
+    age="14"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.bandit_leather_water_flask" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.tunic_with_rolled_cloth" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townsman_aserai"
+    default_group="Infantry"
+    name="{=muu5cofb}Townsman"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+      <hair_tags>
+        <hair_tag
+          name="Bald" />
+        <hair_tag
+          name="ShortAndThin" />
+        <hair_tag
+          name="Tousled" />
+        <hair_tag
+          name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag
+          name="Cleanshaven" />
+        <beard_tag
+          name="LightShortBeard" />
+        <beard_tag
+          name="HeavyShortBeard" />
+        <beard_tag
+          name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_7" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_2" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_hatchet_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_6" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_4" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="village_woman_infant_aserai"
+    name="{=femaleinfant}Infant"
+    age="3"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.bandit_leather_water_flask" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="village_woman_child_aserai"
+    name="{=femalechild}Child"
+    age="6"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.bandit_leather_water_flask" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.peasant_costume" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="village_woman_teenager_aserai"
+    name="{=femaleteenager}Teenager"
+    age="14"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.bandit_leather_water_flask" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.tunic_with_rolled_cloth" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="village_woman_aserai"
+    default_group="Infantry"
+    is_female="true"
+    level="1"
+    name="{=eastromanpeasantwoman}East Roman Peasant"
+    occupation="Villager"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+      <hair_tags>
+        <hair_tag
+          name="Bobbed" />
+        <hair_tag
+          name="RestingOnShoulders" />
+        <hair_tag
+          name="ShoulderLengthTied" />
+        <hair_tag
+          name="AboveShoulderLength" />
+      </hair_tags>
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.vlandian_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress_b" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.plain_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.dress_with_overall" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.laced_dress" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.vlandian_dress" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.empire_dress_b" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.plain_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.dress_with_overall" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.laced_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.laced_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="villager_infant_aserai"
+    name="{=maleinfant}Infant"
+    age="3"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.bandit_leather_water_flask" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="villager_child_aserai"
+    name="{=malechild}Child"
+    age="6"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.bandit_leather_water_flask" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.peasant_costume" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="villager_teenager_aserai"
+    name="{=maleteenager}Teenager"
+    age="14"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.bandit_leather_water_flask" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.tunic_with_rolled_cloth" />
+        <equipment
+          slot="Leg"
+          id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="ransom_broker_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    name="{=W2WXkiAh}Ransom Broker"
+    occupation="RansomBroker"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.falchion_sword_t2" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.falchion_sword_t2" />
+        <equipment
+          slot="Head"
+          id="Item.leather_cap" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.falchion_sword_t2" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="gangleader_bodyguard_aserai"
+    default_group="Infantry"
+    name="{=LNNXiPyV}Gang Leader Bodyguard"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+    level="16">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+        <equipment
+          slot="Head"
+          id="Item.pilgrim_hood" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_gambeson" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_fur_a" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_envelope_dress_v1" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.small_spurred_axe_t2" />
+        <equipment
+          slot="Head"
+          id="Item.pilgrim_hood" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_gambeson" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_fur_a" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_1_t2" />
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_1_t2" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_envelope_dress_v1" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="merchant_notary_aserai"
+    default_group="Infantry"
+    name="{=reoVAtrE}Merchant Notary"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_7" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_2" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_6" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_4" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="artisan_notary_aserai"
+    default_group="Infantry"
+    name="{=ECxiXTbF}Artisan Notary"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_7" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_2" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_6" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_4" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="preacher_notary_aserai"
+    default_group="Infantry"
+    name="{=bLMGbLF8}Preacher Notary"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_7" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_2" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_6" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_4" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="rural_notable_notary_aserai"
+    default_group="Infantry"
+    name="{=AlmaRAib}Rural Notable Notary"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_7" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_2" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_hatchet_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_6" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_4" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="shop_worker_aserai"
+    default_group="Infantry"
+    name="{=275LD0Gh}Shop Worker"
+    occupation="ShopWorker"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.cloth_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.leather_cap" />
+        <equipment
+          slot="Body"
+          id="Item.half_apron" />
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="tavernkeeper_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    name="{=CsjtWt1g}Tavern Keeper"
+    occupation="Tavernkeeper"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.cloth_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.half_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="taverngamehost_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    name="{=twCIejxn}Game Host"
+    occupation="TavernGameHost"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_6" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="musician_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    name="{=zfCoeglY}Musician"
+    occupation="Musician"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--<face_key value="00059d38807c20cf78ba8459c846834d6d64fb7da990a87bc7a77e9868ab45c4000e68a5059e8885000000000000000000000000000000000000000000f80041" />-->
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="merchant_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="GoodsTrader"
+    culture="Culture.aserai"
+    name="{=thbcgVVO}Trader"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.cloth_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.merchants_fur_coat" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.merchants_fur_coat" />
+        <equipment
+          slot="Leg"
+          id="Item.ragged_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="horseMerchant_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="HorseTrader"
+    culture="Culture.aserai"
+    name="{=79ElOr2x}Horse Trader"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.cloth_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.merchants_fur_coat" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.merchants_fur_coat" />
+        <equipment
+          slot="Head"
+          id="Item.merchants_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="armorer_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Armorer"
+    culture="Culture.aserai"
+    name="{=jx8ohENz}Armorer"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Leg"
+          id="Item.battania_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.wrapped_headcloth" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="tavern_wench_aserai"
+    default_group="Infantry"
+    name="{=z6RMWTaA}Tavern Maid"
+    is_female="true"
+    is_hero="false"
+    occupation="TavernWench"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--<face_key value="00160512c08410019e59c3c61b67a4a95aedc746c7ba8735428988f85749aa9700000854078a69860000000000000000000000000000000000000000017c0140" />-->
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.cut_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.cut_dress_with_pouch" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="barber_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    name="{=WH7EGGIg}Barber"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.battania_leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="female_dancer_aserai"
+    default_group="Infantry"
+    name="{=X3KYysuv}Dancer"
+    is_female="true"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.cut_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+        <equipment
+          slot="Head"
+          id="Item.head_wrapped" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.cut_dress_with_pouch" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="female_beggar_aserai"
+    default_group="Infantry"
+    is_female="true"
+    level="1"
+    name="{=femalebeggar}Beggar"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <skills></skills>
+    <!-- Uses village hair -->
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.plain_dress" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.aserai_villager_female_headdress" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_envelope_dress_v2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="beggar_aserai"
+    default_group="Infantry"
+    name="{=malebeggar}Beggar"
+    occupation="Townsfolk"
+    culture="Culture.aserai"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties
+        version="4"
+        age="49.19"
+        weight="0.1661"
+        build="0.0462"
+        key="000504000600141300000000000200100000000000000000000000000000000000012BA6010000000000000000000000000000000000000000000000000000C1" />
+      <BodyPropertiesMax
+        version="4"
+        age="74.26"
+        weight="0.6145"
+        build="0.6767"
+        key="001CFC0FD50034D4FFFFFFFFFFF9FFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFF000A9BA90AFFFFFF000000000000000000000000000000000000000000F08101" />
+    </face>
+    <skills></skills>
+    <!-- Uses village hair -->
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.aserai_villager_female_headdress" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_envelope_dress_v1" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.aserai_villager_female_headdress" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_envelope_dress_v2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="weapon_practice_stage_1_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.aserai"
+    name="{=!}East Roman Weapon Dummy">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+        <equipment
+          slot="Item2"
+          id="Item.hunting_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_1_t2" />
+        <equipment
+          slot="Item2"
+          id="Item.hunting_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+        <equipment
+          slot="Item2"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Item2"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+        <equipment
+          slot="Item2"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_roman_semispatha_1" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.imperial_spear_t2" />
+        <equipment
+          slot="Item1"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_1_t2" />
+        <equipment
+          slot="Item1"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_1_t2" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+        <equipment
+          slot="Item2"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="weapon_practice_stage_2_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.aserai"
+    name="{=!}East Roman Weapon Dummy">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_3_t3" />
+        <equipment
+          slot="Item2"
+          id="Item.hunting_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.tournament_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.light_mace_t3" />
+        <equipment
+          slot="Item2"
+          id="Item.hunting_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_3_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_3_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.western_spear_3_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.western_spear_3_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.light_mace_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.light_mace_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.western_javelin_1_t2" />
+        <equipment
+          slot="Item2"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.light_mace_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_3_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.western_javelin_1_t2" />
+        <equipment
+          slot="Item2"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_1_t2" />
+        <equipment
+          slot="Item1"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="weapon_practice_stage_3_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.aserai"
+    name="{=!}East Roman Weapon Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_5_t4" />
+        <equipment
+          slot="Item2"
+          id="Item.hunting_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_2_t4" />
+        <equipment
+          slot="Item2"
+          id="Item.hunting_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.tournament_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_5_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.western_spear_4_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.western_spear_4_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_2_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.be_roman_shield_round" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_sword_5_t4" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.empire_mace_2_t4" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.hooked_axe_t4" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.hooked_axe_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.hooked_axe_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.western_javelin_1_t2" />
+        <equipment
+          slot="Item2"
+          id="Item.western_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="gear_practice_dummy_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.aserai"
+    name="{=!}East Roman Gear Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_7" />
+        <equipment
+          slot="Leg"
+          id="Item.empire_horseman_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.woven_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_3" />
+        <equipment
+          slot="Leg"
+          id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.tunic_with_rolled_cloth" />
+        <equipment
+          slot="Leg"
+          id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.footmans_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_romecoptic_dyed_3" />
+        <equipment
+          slot="Leg"
+          id="Item.empire_horseman_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.woven_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="gear_dummy_aserai"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.aserai"
+    name="{=!}East Roman Gear Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+    is_obsolete="true">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Head"
+          id="Item.roundkettle_over_imperial_leather" />
+        <equipment
+          slot="Body"
+          id="Item.imperial_padded_cloth" />
+        <equipment
+          slot="Leg"
+          id="Item.wrapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_wanderer_aserai_0"
+    name="{=bvjFhiDr}{FIRSTNAME} the Scholar"
+    voice="curt"
+    age="29"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_0" faction="Kingdom.empire"  is_template="true" /> -->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="BalancedFightingSkills"
+        value="2" />
+      <Trait
+        id="EngineerSkills"
+        value="6" />
+      <Trait
+        id="Mercy"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Very boastful -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_1"
+    name="{=xTQPfmS9}{FIRSTNAME} the Bull"
+    voice="earnest"
+    age="29"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_1" faction="Kingdom.empire"  is_template="true" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="HuscarlFightingSkills"
+        value="4" />
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Family lost military land grant, must work for merchants -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_2"
+    name="{=Ivx4uJVp}{FIRSTNAME} the Silent"
+    voice="softspoken"
+    age="26"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_2" faction="Kingdom.empire"  is_template="true" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="KnightFightingSkills"
+        value="4" />
+      <Trait
+        id="Commander"
+        value="6" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--  Die-hard legionary -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_3"
+    name="{=1OZBZZCi}{FIRSTNAME} the Boar"
+    voice="ironic"
+    age="40"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_3" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="HopliteFightingSkills"
+        value="5" />
+      <Trait
+        id="SergeantCommandSkills"
+        value="3" />
+      <Trait
+        id="EngineerSkills"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Bandit who found bandits too sociopathic -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_4"
+    name="{=t9e34kgH}{FIRSTNAME} the Robber"
+    voice="ironic"
+    age="22"
+    default_group="Infantry"
+    is_hero="false"
+    is_template="true"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_4" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="PeltastFightingSkills"
+        value="3" />
+      <Trait
+        id="RogueSkills"
+        value="6" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Mercy"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- the butcher, doesn't give much away about himself -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_5"
+    name="{=pZSAdyC0}{FIRSTNAME} the Butcher"
+    voice="curt"
+    age="30"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_5" faction="Kingdom.empire" is_template="true" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="PeltastFightingSkills"
+        value="4" />
+      <Trait
+        id="RogueSkills"
+        value="6" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- maquisard, ex-messianic rebel turned mafiosi -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_6"
+    name="{=OArAImbM}{FIRSTNAME} of the Hills"
+    voice="curt"
+    age="22"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_6" faction="Kingdom.empire" is_template="true" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="ArcherFIghtingSkills"
+        value="3" />
+      <Trait
+        id="ScoutSkills"
+        value="4" />
+      <Trait
+        id="RogueSkills"
+        value="2" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- posed as man to join army. needed the money -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_7"
+    name="{=28tWEFNi}{FIRSTNAME} the Wanderer"
+    voice="ironic"
+    age="24"
+    is_template="true"
+    default_group="Infantry"
+    is_female="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_7" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="HopliteFightingSkills"
+        value="3" />
+      <Trait
+        id="Blacksmith"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- merchant-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_8"
+    name="{=PQkMcfAW}{FIRSTNAME} the Exile"
+    voice="curt"
+    age="23"
+    default_group="Infantry"
+    is_template="true"
+    is_female="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_8" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="CrossbowmanStyle"
+        value="3" />
+      <Trait
+        id="RogueSkills"
+        value="4" />
+      <Trait
+        id="Trader"
+        value="8" />
+      <Trait
+        id="Manager"
+        value="4" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_9"
+    name="{=7apnGFz7}{FIRSTNAME} the Black"
+    voice="curt"
+    age="21"
+    default_group="Infantry"
+    is_template="true"
+    is_female="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_9" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="BalancedFightingSkills"
+        value="3" />
+      <Trait
+        id="RogueSkills"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- extra imperials -->
+  <!--  Doctor, forced to torture -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_10"
+    name="{=cud22JY1}{FIRSTNAME} the Surgeon"
+    voice="ironic"
+    is_template="true"
+    age="31"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_10" faction="Kingdom.empire" is_template="true" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="BalancedFightingSkills"
+        value="3" />
+      <Trait
+        id="Surgeon"
+        value="7" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--upper-class dispossessed, refused a bad marriage -->
+  <NPCCharacter
+    id="spc_wanderer_aserai_11"
+    name="{=e84pvBYI}{FIRSTNAME} the Dispossessed"
+    voice="earnest"
+    age="28"
+    default_group="Infantry"
+    is_template="true"
+    is_female="true"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <Traits>
+      <!--<Trait id="LordIsNemesis" value="1" />-->
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="CavalryFightingSkills"
+        value="4" />
+      <Trait
+        id="Manager"
+        value="7" />
+      <Trait
+        id="Politician"
+        value="6" />
+      <Trait
+        id="Honor"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_0"
+    name="{=!}Cautious aserai merchant"
+    is_template="true"
+    voice="ironic"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_0" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_0b"
+    name="{=!}{FIRSTNAME} the Vintner"
+    is_template="true"
+    voice="ironic"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_0b" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_1"
+    name="{=!}East Roman merchant 3, ruthless"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_1b"
+    name="{=!}Cold aserai merchant"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_2"
+    name="{=!}{FIRSTNAME} the Saltpanner"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_2b"
+    name="{=!}East Roman merchant 6, cautious"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Can be acater -->
+  <NPCCharacter
+    id="spc_notable_aserai_3"
+    name="{=!}East Roman merchant 7, selfmade"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_3b"
+    name="{=!}East Roman merchant 8, jocular"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_4"
+    name="{=!}East Roman merchant 9, heiress"
+    voice="curt"
+    is_template="true"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_4b"
+    name="{=!}East Roman merchant 10, devious"
+    voice="ironic"
+    is_template="true"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Manager"
+        value="10" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_5"
+    name="{=!}Messianic East Roman preacher"
+    voice="earnest"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Preacher">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_5" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_6"
+    name="{=!}Puritan East Roman preacher"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Preacher">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_6" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_7"
+    name="{=!}Female East Roman mystic"
+    voice="earnest"
+    is_template="true"
+    default_group="Infantry"
+    is_female="true"
+    culture="Culture.aserai"
+    occupation="Preacher">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="0" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_8"
+    name="{=!}East Roman gruff labor leader"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_female="false"
+    culture="Culture.aserai"
+    occupation="Artisan">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_9"
+    name="{=!}East Roman outgoing labor leader"
+    voice="earnest"
+    is_template="true"
+    default_group="Infantry"
+    is_female="false"
+    culture="Culture.aserai"
+    occupation="Artisan">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_9" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_10"
+    name="{=!}Ironic East Roman gang leader"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="GangLeader">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_10" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_11"
+    name="{=!}Intimidating male East Roman gang leader"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="GangLeader">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_11" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_12"
+    name="{=!}Female East Roman gang leader"
+    voice="ironic"
+    is_template="true"
+    is_female="true"
+    culture="Culture.aserai"
+    occupation="GangLeader"
+    default_group="Infantry">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_12" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_13"
+    name="{=!}Menacing female East Roman gang leader"
+    voice="softspoken"
+    is_template="true"
+    is_female="true"
+    culture="Culture.aserai"
+    occupation="GangLeader"
+    default_group="Infantry">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_13" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_21"
+    name="{=!}East Roman gruff rural notable"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    culture="Culture.aserai"
+    occupation="RuralNotable">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+      <!--<hair_tags>
+        <hair_tag name ="Tousled"/>
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name ="Cleanshaven"/>
+        <beard_tag name ="LightShortBeard"/>
+        <beard_tag name ="HeavyShortBeard"/>
+      </beard_tags>-->
+    </face>
+    <!--<Hero id="spc_notable_empire_21" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_22"
+    name="{=!}East Roman rural notable agreeable"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    culture="Culture.aserai"
+    occupation="RuralNotable">
+    <face>
+      <face_key_template
+        value="BodyProperty.townsman_empire" />
+      <!--<hair_tags>
+        <hair_tag name ="Tousled"/>
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name ="Cleanshaven"/>
+        <beard_tag name ="HeavyShortBeard"/>
+      </beard_tags>-->
+    </face>
+    <!--<Hero id="spc_notable_empire_22" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_gl1"
+    name="{=!}Protective East Roman male gang leader"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="GangLeader">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_10" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_aserai_gl4"
+    name="{=!}Bestial male East Roman gang leader"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="GangLeader">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_11" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_aserai_headman_1"
+    name="{=!}East Roman rebellious headman"
+    voice="earnest"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Headman">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_4" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_aserai_headman_2"
+    name="{=!}East Roman conservative headman"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Headman">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_4" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_aserai_headman_3"
+    name="{=!}East Roman devious headman"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Headman">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_empire" />
+    </face>
+    <!--<Hero id="spc_notable_empire_4" faction="Kingdom.empire" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="RomanHair"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_aserai"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_ghilman_leader_0"
+    name="{=*}of the East Romans"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Lord">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="Valor"
+        value="+1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Commander"
+        value="12" />
+      <Trait
+        id="BalancedFightingSkills"
+        value="5" />
+      <Trait
+        id="KnightFightingSkills"
+        value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+      <EquipmentSet
+        id="ase_civ_template_default"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Cheerful -->
+  <NPCCharacter
+    id="spc_ghilman_leader_1"
+    name="{=*}of the East Romans"
+    voice="earnest"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Lord">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="Valor"
+        value="+1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="+1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+      <Trait
+        id="Commander"
+        value="12" />
+      <Trait
+        id="BalancedFightingSkills"
+        value="4" />
+      <Trait
+        id="KnightFightingSkills"
+        value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+      <EquipmentSet
+        id="ase_civ_template_default"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Exploitative -->
+  <NPCCharacter
+    id="spc_ghilman_leader_2"
+    name="{=*}of the East Romans"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Lord">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Commander"
+        value="12" />
+      <Trait
+        id="BalancedFightingSkills"
+        value="4" />
+      <Trait
+        id="KnightFightingSkills"
+        value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+      <EquipmentSet
+        id="ase_civ_template_default"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Dutiful -->
+  <NPCCharacter
+    id="spc_ghilman_leader_3"
+    name="{=*}of the East Romans"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.aserai"
+    occupation="Lord">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+      <Trait
+        id="Commander"
+        value="12" />
+      <Trait
+        id="BalancedFightingSkills"
+        value="4" />
+      <Trait
+        id="KnightFightingSkills"
+        value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="ase_bat_template_medium" />
+      <EquipmentSet
+        id="ase_civ_template_default"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

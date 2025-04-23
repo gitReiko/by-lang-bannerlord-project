@@ -1,0 +1,6339 @@
+<NPCCharacters>
+  <NPCCharacter
+    id="tournament_master_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="ArenaMaster"
+    culture="Culture.sarmatian"
+    name="{=IHKXNP9H}Tournament Master"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="caravan_master_sarmatian"
+    default_group="Infantry"
+    level="26"
+    name="{=*}Sarmatian Caravan Master"
+    occupation="CaravanGuard"
+	is_hidden_encyclopedia="true"
+    culture="Culture.sarmatian">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill
+        id="Athletics"
+        value="130" />
+      <skill
+        id="Riding"
+        value="130" />
+      <skill
+        id="OneHanded"
+        value="160" />
+      <skill
+        id="TwoHanded"
+        value="80" />
+      <skill
+        id="Polearm"
+        value="60" />
+      <skill
+        id="Bow"
+        value="80" />
+      <skill
+        id="Crossbow"
+        value="20" />
+      <skill
+        id="Throwing"
+        value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_3" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_yellow" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_3" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_dyed" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_3" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_dyed2" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_3" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_brown" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="armed_trader_sarmatian"
+    default_group="Ranged"
+    level="16"
+    name="{=*}Sarmatian Armed Trader"
+    occupation="CaravanGuard"
+	is_hidden_encyclopedia="true"
+    culture="Culture.sarmatian"
+    is_basic_troop="true">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill
+        id="Athletics"
+        value="130" />
+      <skill
+        id="Riding"
+        value="130" />
+      <skill
+        id="OneHanded"
+        value="160" />
+      <skill
+        id="TwoHanded"
+        value="80" />
+      <skill
+        id="Polearm"
+        value="60" />
+      <skill
+        id="Bow"
+        value="80" />
+      <skill
+        id="Crossbow"
+        value="20" />
+      <skill
+        id="Throwing"
+        value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_composite_steppe_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_range_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_semispatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_composite_steppe_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_range_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_semispatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_brown" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_composite_steppe_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_range_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_semispatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_composite_steppe_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_range_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_semispatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.steppe_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.range_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_spatha_1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_black" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="caravan_guard_sarmatian"
+    default_group="Cavalry"
+    level="21"
+    name="{=*}Sarmatian Caravan Guard"
+    upgrade_requires="ItemCategory.horse"
+    occupation="CaravanGuard"
+	is_hidden_encyclopedia="true"
+    culture="Culture.sarmatian">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill
+        id="Athletics"
+        value="40" />
+      <skill
+        id="Riding"
+        value="130" />
+      <skill
+        id="OneHanded"
+        value="90" />
+      <skill
+        id="TwoHanded"
+        value="150" />
+      <skill
+        id="Polearm"
+        value="150" />
+      <skill
+        id="Bow"
+        value="40" />
+      <skill
+        id="Crossbow"
+        value="15" />
+      <skill
+        id="Throwing"
+        value="15" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spear_2" />
+        <equipment
+          slot="Item1"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Item2"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_cjiaba_sarmatian_hat2" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick_dyed" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_blue" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spear_2" />
+        <equipment
+          slot="Item1"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Item2"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_cjiaba_sarmatian_hat" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spear_2" />
+        <equipment
+          slot="Item1"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Item2"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_cjiaba_sarmatian_hat2" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick_dyed" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_red" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spear_2" />
+        <equipment
+          slot="Item1"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Item2"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_cjiaba_sarmatian_hat" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_black" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spear_2" />
+        <equipment
+          slot="Item1"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Item2"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_cjiaba_sarmatian_hat" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick_dyed" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots2" />
+      </EquipmentRoster>
+      <equipment
+        slot="Horse"
+        id="Item.khuzait_horse" />
+      <equipment
+        slot="HorseHarness"
+        id="Item.steppe_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="veteran_caravan_guard_sarmatian"
+    default_group="HorseArcher"
+    level="26"
+    name="{=*}Sarmatian Veteran Caravan Guard"
+    occupation="CaravanGuard"
+	is_hidden_encyclopedia="true"
+    culture="Culture.sarmatian">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill
+        id="Athletics"
+        value="70" />
+      <skill
+        id="Riding"
+        value="140" />
+      <skill
+        id="OneHanded"
+        value="120" />
+      <skill
+        id="TwoHanded"
+        value="70" />
+      <skill
+        id="Polearm"
+        value="80" />
+      <skill
+        id="Bow"
+        value="130" />
+      <skill
+        id="Crossbow"
+        value="20" />
+      <skill
+        id="Throwing"
+        value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_steppe_war_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_default_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_mace_3" />
+        <equipment
+          slot="Item3"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_roman_helmet_a_fur_a" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_green" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_steppe_war_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_default_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_mace_3" />
+        <equipment
+          slot="Item3"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_roman_helmet_a_fur_a" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor_bronze" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_red" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_steppe_war_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_default_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_mace_3" />
+        <equipment
+          slot="Item3"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_breda" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_steppe_war_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_default_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_mace_3" />
+        <equipment
+          slot="Item3"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_breda" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor_bronze" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_steppe_war_bow" />
+        <equipment
+          slot="Item1"
+          id="Item.be_default_arrows" />
+        <equipment
+          slot="Item2"
+          id="Item.be_sarmatian_mace_3" />
+        <equipment
+          slot="Item3"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Head"
+          id="Item.be_breda_iron" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor_bronze" />
+        <equipment
+          slot="Leg"
+          id="Item.be_cjiaba_sarmatian_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.be_roman_cloak_yellow" />
+      </EquipmentRoster>
+      <equipment
+        slot="Horse"
+        id="Item.khuzait_horse" />
+      <equipment
+        slot="HorseHarness"
+        id="Item.steppe_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="villager_sarmatian"
+    default_group="Infantry"
+    level="1"
+    name="{=sarmatianpeasantman}Sarmatian Peasant"
+    occupation="Villager"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties
+        version="4"
+        age="22.49"
+        weight="0.0417"
+        build="0.0324"
+        key="000DC40D800005C6507011122CB700080603060883A8010100000000800001000000100300001000000000000000000000000000000000000000000006000000" />
+      <BodyPropertiesMax
+        version="4"
+        age="66.85"
+        weight="0.9182"
+        build="0.5231"
+        key="001EFC0FC00038D4FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA0698E06809FFFFFF000000000000000000000000000000000000000079209100" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target
+        id="NPCCharacter.be_sarmatian_plainsman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick_dyed" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick_dyed" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_kaftan_thick_dyed" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Item1"
+          id="Item.peasant_polearm_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Item1"
+          id="Item.peasant_polearm_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Item1"
+          id="Item.peasant_2haxe_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan1" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Item1"
+          id="Item.peasant_2haxe_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Item1"
+          id="Item.peasant_2haxe_1_t1" />
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.throwing_stone" />
+        <equipment
+          slot="Item1"
+          id="Item.peasant_2haxe_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="sarmatian_duel_preset"
+    default_group="Infantry"
+    level="1"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    name="{=!}Sarmatian preset"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--face_key value="00115ede407c0000080000066770700600000000605f000000000000000000000005088bf5000000000000000000000000000000000000000000000000700080" max_value="0022f76fc0002914fff88ffffffbffafff7fff6ffffffefffffffffff6fffff60007b45df7ffffff0000000000000000000000000000000000000000013c8144" /-->
+      <BodyProperties
+        version="4"
+        age="49.84"
+        weight="0.2948"
+        build="0.317"
+        key="00115C0E407C0000080000066774700600000000605F000000000000000000000005488605000000000000000000000000000000000000000000000000780080" />
+      <BodyPropertiesMax
+        version="4"
+        age="96.46"
+        weight="0.7855"
+        build="0.5355"
+        key="0020F40FC0002914FFFAAFFFFFFCFFAFFF7FFFBFFFFFFEFFFFFFFFFFF6FFFFF60B78C4BB07FFFFFF000000000000000000000000000000000000000000F49105" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="0" /> #OLD_SKILL# -->
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.morningstar_mace_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.leather_round_shield" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_sword_2_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.leather_round_shield" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.bearded_axe_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.ridged_2hsword_t4" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_polearm_1_t4" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="prison_guard_sarmatian"
+    default_group="Infantry"
+    level="4"
+    culture="Culture.sarmatian"
+    occupation="PrisonGuard"
+    name="{=XgjXfmM1}Prison Guard"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill
+        id="OneHanded"
+        value="50" />
+      <skill
+        id="TwoHanded"
+        value="50" />
+      <skill
+        id="Polearm"
+        value="50" />
+      <skill
+        id="Crossbow"
+        value="50" />
+      <skill
+        id="Bow"
+        value="50" />
+      <skill
+        id="Throwing"
+        value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item1"
+          id="Item.eastern_spear_2_t3" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor" />
+        <equipment
+          slot="Head"
+          id="Item.be_kishpek_simple" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item1"
+          id="Item.eastern_spear_2_t3" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor" />
+        <equipment
+          slot="Head"
+          id="Item.be_kishpek_simple" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="guard_sarmatian"
+    default_group="Infantry"
+    level="4"
+    occupation="Soldier"
+    culture="Culture.sarmatian"
+    name="{=guardnoun}Guard"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill
+        id="OneHanded"
+        value="50" />
+      <skill
+        id="TwoHanded"
+        value="50" />
+      <skill
+        id="Polearm"
+        value="50" />
+      <skill
+        id="Crossbow"
+        value="50" />
+      <skill
+        id="Bow"
+        value="50" />
+      <skill
+        id="Throwing"
+        value="50" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item1"
+          id="Item.eastern_spear_3_t3" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_kishpek_simple" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item1"
+          id="Item.eastern_spear_3_t3" />
+        <equipment
+          slot="Body"
+          id="Item.be_cjiaba_sarmatian_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_kishpek_simple" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="blacksmith_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Blacksmith"
+    culture="Culture.sarmatian"
+    name="{=bNnQt4jN}Blacksmith"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="weaponsmith_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Weaponsmith"
+    culture="Culture.sarmatian"
+    name="{=UaN2lfwi}Weaponsmith"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.broad_ild_sword_t3" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Leg"
+          id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.broad_ild_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.broad_ild_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townswoman_sarmatian"
+    default_group="Infantry"
+    is_female="true"
+    level="1"
+    name="{=*}Sarmatian Townswoman"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties
+        version="4"
+        age="22.27"
+        weight="0.1744"
+        build="0.267"
+        key="000AA80C5000000C001111007770015240060118859910010505500060011010000436030011001000000000000000000000000000000000000000001C040003" />
+      <BodyPropertiesMax
+        version="4"
+        age="69.17"
+        weight="0.9738"
+        build="0.8133"
+        key="001EFC0FD3143010EDEFFFEFFFFFFFEFEF7FFFEFEFFFDDDEEEFFFFFFAEDDCEC9079CF6780996FBEF00000000000000000000000000000000000000006B2C40C4" />
+      <!--hair_tags>
+        <hair_tag name="Ukrainian" />
+        <hair_tag name="BraidedInBack" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="TiedInBack" />
+        <hair_tag name="BraidedAboveEars" />
+      </hair_tags-->
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townswoman_infant_sarmatian"
+    name="{=femaleinfant}Infant"
+    age="3"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="sarmatian_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townswoman_child_sarmatian"
+    name="{=femalechild}Child"
+    age="6"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="sarmatian_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townswoman_teenager_sarmatian"
+    name="{=femaleteenager}Teenager"
+    age="14"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.upturned_fur_cap" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="sarmatian_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townsman_sarmatian"
+    default_group="Infantry"
+    name="{=muu5cofb}Townsman"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townsman_infant_sarmatian"
+    name="{=maleinfant}Infant"
+    age="3"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="sarmatian_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townsman_child_sarmatian"
+    name="{=malechild}Child"
+    age="6"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="sarmatian_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="townsman_teenager_sarmatian"
+    name="{=maleteenager}Teenager"
+    age="14"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.eastern_cap" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="sarmatian_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="village_woman_sarmatian"
+    default_group="Infantry"
+    is_female="true"
+    level="1"
+    name="{=sarmatianpeasantwoman}Sarmatian Peasant"
+    occupation="Villager"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Cape"
+          id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress_b" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="villager_child_sarmatian"
+    name="{=malechild}Child"
+    age="6"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="sarmatian_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="villager_teenager_sarmatian"
+    name="{=maleteenager}Teenager"
+    age="14"
+    is_female="false"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.eastern_cap" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="sarmatian_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="village_woman_infant_sarmatian"
+    name="{=femaleinfant}Infant"
+    age="3"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="village_woman_child_sarmatian"
+    name="{=femalechild}Child"
+    age="6"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="village_woman_teenager_sarmatian"
+    name="{=femaleteenager}Teenager"
+    age="14"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Villager"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.eastern_cap" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.eastern_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="ransom_broker_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    name="{=W2WXkiAh}Ransom Broker"
+    occupation="RansomBroker"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Body"
+          id="Item.khuzait_fortified_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="gangleader_bodyguard_sarmatian"
+    default_group="Infantry"
+    name="{=LNNXiPyV}Gang Leader Bodyguard"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+    level="16">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Head"
+          id="Item.eastern_cap" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_2" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_mace_1_t2" />
+        <equipment
+          slot="Body"
+          id="Item.tied_cloth_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_mace_1_t2" />
+        <equipment
+          slot="Body"
+          id="Item.hemp_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_mace_1_t2" />
+        <equipment
+          slot="Head"
+          id="Item.eastern_cap" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_mace_1_t2" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_mace_1_t2" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_mace_1_t2" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_mace_1_t2" />
+        <equipment
+          slot="Body"
+          id="Item.tied_cloth_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_mace_1_t2" />
+        <equipment
+          slot="Body"
+          id="Item.hemp_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="merchant_notary_sarmatian"
+    default_group="Infantry"
+    name="{=reoVAtrE}Merchant Notary"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_hatchet_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+    <NPCCharacter
+    id="artisan_notary_sarmatian"
+    default_group="Infantry"
+    name="{=ECxiXTbF}Artisan Notary"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Item0"
+          id="Item.peasant_hatchet_1_t1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="preacher_notary_sarmatian"
+    default_group="Infantry"
+    name="{=bLMGbLF8}Preacher Notary"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="rural_notable_notary_sarmatian"
+    default_group="Infantry"
+    name="{=AlmaRAib}Rural Notable Notary"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_hatchet_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.strapped_leather_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="shop_worker_sarmatian"
+    default_group="Infantry"
+    name="{=275LD0Gh}Shop Worker"
+    occupation="ShopWorker"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.cloth_apron" />
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.half_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.cloth_apron" />
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.half_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="tavernkeeper_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    name="{=CsjtWt1g}Tavern Keeper"
+    occupation="Tavernkeeper"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.cloth_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.half_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="taverngamehost_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    name="{=twCIejxn}Game Host"
+    occupation="TavernGameHost"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="musician_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    name="{=zfCoeglY}Musician"
+    occupation="Musician"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="merchant_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="GoodsTrader"
+    culture="Culture.sarmatian"
+    name="{=kPCcelVX}Trader "
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Body"
+          id="Item.merchants_fur_coat" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.merchants_fur_coat" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.merchants_fur_coat" />
+        <equipment
+          slot="Leg"
+          id="Item.ragged_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="horseMerchant_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="HorseTrader"
+    culture="Culture.sarmatian"
+    name="{=79ElOr2x}Horse Trader"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Body"
+          id="Item.merchants_fur_coat" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="armorer_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Armorer"
+    culture="Culture.sarmatian"
+    name="{=jx8ohENz}Armorer"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Cape"
+          id="Item.scarf" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Item0"
+          id="Item.short_sword_t3" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="tavern_wench_sarmatian"
+    default_group="Infantry"
+    name="{=z6RMWTaA}Tavern Maid"
+    is_female="true"
+    is_hero="false"
+    occupation="TavernWench"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--<face_key value="0016fd3fc0bc100ba85b849797f8e40ba37965b6f4ff0f6c47ecc4a5410794100006865505829038000000000000000000000000000000000000000001780000" />-->
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="barber_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    name="{=WH7EGGIg}Barber"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_b" />
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Leg"
+          id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.leather_apron" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_shoes" />
+        <equipment
+          slot="Gloves"
+          id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="female_dancer_sarmatian"
+    default_group="Infantry"
+    name="{=X3KYysuv}Dancer"
+    is_female="true"
+    is_hero="false"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.steppe_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.khuzait_dress" />
+        <equipment
+          slot="Leg"
+          id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="female_beggar_sarmatian"
+    default_group="Infantry"
+    is_female="true"
+    level="1"
+    name="{=femalebeggar}Beggar"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <skills></skills>
+    <!-- Uses village hair -->
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.plain_dress" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.aserai_villager_female_headdress" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_envelope_dress_v2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="beggar_sarmatian"
+    default_group="Infantry"
+    name="{=malebeggar}Beggar"
+    occupation="Townsfolk"
+    culture="Culture.sarmatian"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--face_key value="000507400600141300000000000000100000000000000000000000000000000000010bacf10000000000000000000000000000000000000000000000000000c1" max_value="001cffffd50034d4fffffffffff0fffffffffffffffffffffffffeffffffffff00010baff1ffffff000000000000000000000000000000000000000000008101" /-->
+      <BodyProperties
+        version="4"
+        age="75.93"
+        weight="0.1323"
+        build="0.1794"
+        key="000504000600141300000000000900100000000000000000000000000000000000039BA9030000000000000000000000000000000000000000000000007800C1" />
+      <BodyPropertiesMax
+        version="4"
+        age="116.44"
+        weight="0.3564"
+        build="0.2794"
+        key="001CFC0FD50034D4FFFFFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFF0003EBAE01FFFFFF000000000000000000000000000000000000000000008101" />
+    </face>
+    <skills></skills>
+    <!-- Uses village hair -->
+    <Equipments>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.be_schytian_hat_bb" />
+        <equipment
+          slot="Body"
+          id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster
+        civilian="true">
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.bandit_envelope_dress_v2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="weapon_practice_stage_1_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.sarmatian"
+    name="{=!}Sarmatian Gear Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_1" />
+        <equipment
+          slot="Item1"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_2_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_1" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_2_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.be_sarmatian_spatha_1" />
+        <equipment
+          slot="Item2"
+          id="Item.steppe_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.eastern_spear_1_t2" />
+        <equipment
+          slot="Item1"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="weapon_practice_stage_2_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.sarmatian"
+    name="{=!}Sarmatian Weapon Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.eastern_spear_2_t3" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.eastern_spear_2_t3" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.eastern_spear_2_t3" />
+        <equipment
+          slot="Item2"
+          id="Item.steppe_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_sword_2_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_sword_2_t3" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_sword_2_t3" />
+        <equipment
+          slot="Item2"
+          id="Item.steppe_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.eastern_spear_2_t3" />
+        <equipment
+          slot="Item1"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="weapon_practice_stage_3_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.sarmatian"
+    name="{=!}Sarmatian Weapon Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_polearm_1_t4" />
+        <equipment
+          slot="Item2"
+          id="Item.steppe_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_polearm_1_t4" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_polearm_1_t4" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_polearm_1_t4" />
+        <equipment
+          slot="Item2"
+          id="Item.steppe_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_sword_5_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_sword_5_t4" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_sword_5_t4" />
+        <equipment
+          slot="Item2"
+          id="Item.steppe_bow" />
+        <equipment
+          slot="Item3"
+          id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.eastern_spear_4_t4" />
+        <equipment
+          slot="Item1"
+          id="Item.be_scythian_shield_small_a" />
+        <equipment
+          slot="Item2"
+          id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="gear_practice_dummy_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.sarmatian"
+    name="{=!}Sarmatian Gear Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hat" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Head"
+          id="Item.fur_hood" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+        <equipment
+          slot="Gloves"
+          id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Body"
+          id="Item.tied_cloth_tunic" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="gear_dummy_sarmatian"
+    default_group="Infantry"
+    is_hero="false"
+    occupation="Special"
+    culture="Culture.sarmatian"
+    name="{=!}Sarmatian Gear Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+    is_obsolete="true">
+    <face>
+      <face_key_template
+        value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.peasant_sickle_1_t1" />
+        <equipment
+          slot="Head"
+          id="Item.nomad_helmet" />
+        <equipment
+          slot="Body"
+          id="Item.steppe_armor" />
+        <equipment
+          slot="Leg"
+          id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_0"
+    name="{=sdzaip5J}{FIRSTNAME} the Knowing"
+    voice="softspoken"
+    age="29"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_0" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="CrossbowmanStyle"
+        value="2" />
+      <Trait
+        id="EngineerSkills"
+        value="7" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+      <Trait
+        id="Mercy"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- the hawk, curt voice. Rural clan nemesis. Easily insulted, killed a man's brother over a girl -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_1"
+    name="{=j2nVPqIX}{FIRSTNAME} the Hawk"
+    voice="curt"
+    age="27"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_1" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="HorseArcherFightingSkills"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- the fatherless, backed out of a family feud -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_2"
+    name="{=agS5lIg7}{FIRSTNAME} the Fatherless"
+    voice="earnest"
+    age="22"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_2" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="HorseArcherFightingSkills"
+        value="3" />
+      <Trait
+        id="Politician"
+        value="8" />
+      <Trait
+        id="Manager"
+        value="6" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ironeye, professional soldier. infantryman -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_3"
+    name="{=QWbgE4bw}{FIRSTNAME} Ironeye"
+    voice="curt"
+    age="32"
+    default_group="Infantry"
+    is_hero="false"
+    is_template="true"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_3" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="HopliteFightingSkills"
+        value="5" />
+      <Trait
+        id="SergeantCommandSkills"
+        value="5" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!--the proud, turned on protectors. lord as nemesis -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_4"
+    name="{=ykTARD4b}{FIRSTNAME} the Outcast"
+    voice="ironic"
+    age="22"
+    default_group="Infantry"
+    is_hero="false"
+    is_template="true"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_4" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="HorseArcherFightingSkills"
+        value="3" />
+      <Trait
+        id="Commander"
+        value="6" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- 'the mad' soft voice, sinister? Pickpocket. Have gang leader as nemesis? -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_5"
+    name="{=q5QjQyde}{FIRSTNAME} the Mad"
+    voice="softspoken"
+    age="21"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_5" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+      <Trait
+        id="PeltastFightingSkills"
+        value="3" />
+      <Trait
+        id="RogueSkills"
+        value="6" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!--the grey falcon, lone survivor of a hunted steppe clan -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_6"
+    name="{=seS9ZZUW}{FIRSTNAME} the Grey Falcon"
+    voice="curt"
+    age="20"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_6" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="HorseArcherFightingSkills"
+        value="3" />
+      <Trait
+        id="ScoutSkills"
+        value="5" />
+      <Trait
+        id="Commander"
+        value="3" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!--the she-wolf - taken by empire, slave in arena. CHANGED TO AT-START-->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_7"
+    name="{=3wzexaA7}{FIRSTNAME} the She-Wolf"
+    voice="curt"
+    age="28"
+    is_female="true"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_7" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="HuscarlFightingSkills"
+        value="5" />
+      <Trait
+        id="SergeantCommandSkills"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- lone daughter of mother -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_8"
+    name="{=OIXub6bS}{FIRSTNAME} the Alone"
+    voice="curt"
+    age="29"
+    is_female="true"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_8" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="ArcherFIghtingSkills"
+        value="3" />
+      <Trait
+        id="ScoutSkills"
+        value="5" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- tomboy daughter of caravan guard -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_9"
+    name="{=KY2zbWkj}{FIRSTNAME} the Swift"
+    voice="ironic"
+    age="21"
+    is_female="true"
+    is_hero="false"
+    default_group="Infantry"
+    is_template="true"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_9" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait
+        id="ArcherFIghtingSkills"
+        value="3" />
+      <Trait
+        id="RogueSkills"
+        value="4" />
+      <Trait
+        id="Trader"
+        value="8" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- former 'horsethief' -->
+  <NPCCharacter
+    id="spc_wanderer_sarmatian_10"
+    name="{=CQOlMayc}{FIRSTNAME} the Ragged"
+    voice="earnest"
+    default_group="Infantry"
+    is_template="true"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Wanderer">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_karakhuzaits_10" faction="Faction.karakhuzaits" clan="Clan.karakhuzaits"/>-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="SpawnAsPrisoner" value="1" />-->
+      <Trait
+        id="HopliteFightingSkills"
+        value="4" />
+      <Trait
+        id="Trader"
+        value="5" />
+      <Trait
+        id="Blacksmith"
+        value="3" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment
+          slot="Item0"
+          id="Item.khuzait_sword_4_t4" />
+        <equipment
+          slot="Head"
+          id="Item.decorated_nomad_cap" />
+        <equipment
+          slot="Body"
+          id="Item.ragged_robes" />
+        <equipment
+          slot="Leg"
+          id="Item.ragged_boots" />
+      </EquipmentRoster>
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_companion_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_merchant_1"
+    name="{=!}Cautious Sarmatian merchant"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_merchant_1" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_0b"
+    name="{=!}{FIRSTNAME} the Broker"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Merchant"
+    skill_template="SkillSet.spc_notable_khuzait_0b">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_0b" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_1"
+    name="{=!}{FIRSTNAME} the Dyer"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_1" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_1b"
+    name="{=!}{FIRSTNAME} the Horsetrader"
+    is_template="true"
+    voice="ironic"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_1b" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_1c"
+    name="{=!}{FIRSTNAME} the Wineseller"
+    is_template="true"
+    voice="ironic"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_1c" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_2"
+    name="{=!}{FIRSTNAME} the Freedwoman"
+    is_template="true"
+    voice="ironic"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_2" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_2b"
+    name="{=!}{FIRSTNAME} the Silkseller"
+    voice="ironic"
+    is_template="true"
+    is_female="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Merchant">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_2b" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait
+        id="Commander"
+        value="4" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_3"
+    name="{=!}Sarmatian shaman"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Preacher">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_3" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait
+        id="Honor"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_notable_sarmatian_4"
+    name="{=!}Female preacher"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_female="true"
+    culture="Culture.sarmatian"
+    occupation="Preacher">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait
+        id="Honor"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_gangleader_1"
+    name="{=!}Female gang leader"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_female="true"
+    culture="Culture.sarmatian"
+    occupation="GangLeader">
+    <face>
+      <face_key_template
+        value="BodyProperty.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_5" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_gangleader_2"
+    name="{=!}Standard male gang leader"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="GangLeader">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_6" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_gangleader_3"
+    name="{=!}Standard male gang leader"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="GangLeader">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_6" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+      <Trait
+        id="Mercy"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_artisan_1"
+    name="{=!}sarmatian rebellious artisan"
+    voice="earnest"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Artisan">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="SteppeHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_artisan_2"
+    name="{=!}sarmatian conservative artisan"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Artisan">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="SteppeHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_artisan_3"
+    name="{=!}sarmatian devious artisan"
+    voice="ironic"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Artisan">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="SteppeHair"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_rural_notable_1"
+    name="{=!}Sarmatian craft rural notable"
+    is_template="true"
+    voice="ironic"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="RuralNotable">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_khuzait_rural_notable_1" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait
+        id="Calculating"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_rural_notable_2"
+    name="{=!}Sarmatian proud rural notable"
+    voice="earnest"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="RuralNotable">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_khuzait_rural_notable_2" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_headman_1"
+    name="{=!}sarmatian rebellious headman"
+    voice="earnest"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Headman">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="SteppeHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_headman_2"
+    name="{=!}sarmatian conservative headman"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Headman">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="SteppeHair"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_headman_3"
+    name="{=!}sarmatian devious headman"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Headman">
+    <face>
+      <face_key_template
+        value="BodyProperty.villager_battania" />
+    </face>
+    <!--<Hero id="spc_notable_khuzait_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="SteppeHair"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Honor"
+        value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet
+        id="npc_armed_wanderer_equipment_template_sarmatian" />
+      <EquipmentSet
+        id="npc_wanderer_equipment_template_sarmatian"
+        civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_leader_0"
+    name="{=*}of the Sarmatians"
+    voice="curt"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Lord">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_karakhuzaits_leader_0" faction="Faction.karakhuzaits" clan="Clan.karakhuzaits"/>-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="Honor"
+        value="1" />
+      <Trait
+        id="Valor"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="-1" />
+      <Trait
+        id="Commander"
+        value="12" />
+      <Trait
+        id="HorseArcherFightingSkills"
+        value="7" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.be_sarmatian_axe_3" />
+        <equipment slot="Item1" id="Item.be_sarmatian_swordspear_1" />
+        <equipment slot="Item2" id="Item.be_steppe_war_bow" />
+        <equipment slot="Item3" id="Item.be_heavy_steppe_arrows" />
+        <equipment slot="Head" id="Item.be_breda_closed" />
+        <equipment slot="Body" id="Item.be_cjiaba_sarmatian_armor2_bronze" />
+        <equipment slot="Cape" id="Item.be_roman_cloak_dyed" />
+        <equipment slot="Leg" id="Item.be_roman_blackshoe_manica_gold" />
+        <equipment slot="Horse" id="Item.steppe_war_horse" />
+        <equipment slot="HorseHarness" id="Item.be_horse_armor_b" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.be_sarmatian_spatha_3" />
+        <equipment slot="Body" id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment slot="Cape" id="Item.be_roman_cloak_dyed" />
+        <equipment slot="Leg" id="Item.be_cjiaba_sarmatian_boots2" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter
+    id="spc_sarmatian_leader_1"
+    name="{=*}of the Sarmatians"
+    voice="softspoken"
+    is_template="true"
+    default_group="Infantry"
+    is_hero="false"
+    culture="Culture.sarmatian"
+    occupation="Lord">
+    <face>
+      <face_key_template
+        value="BodyProperty.fighter_battania" />
+    </face>
+    <!--<Hero id="spc_karakhuzaits_leader_1" faction="Faction.karakhuzaits" clan="Clan.karakhuzaits"/>-->
+    <skills></skills>
+    <Traits>
+      <Trait
+        id="Mercy"
+        value="-1" />
+      <Trait
+        id="Generosity"
+        value="1" />
+      <Trait
+        id="Calculating"
+        value="1" />
+      <Trait
+        id="Commander"
+        value="12" />
+      <Trait
+        id="KnightFightingSkills"
+        value="6" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.be_sarmatian_spatha_3" />
+        <equipment slot="Item1" id="Item.be_sarmatian_lance_2" />
+        <equipment slot="Item2" id="Item.be_scythian_shield_small_a" />
+        <equipment slot="Head" id="Item.be_breda_closed" />
+        <equipment slot="Body" id="Item.be_cjiaba_sarmatian_armor2_bronze" />
+        <equipment slot="Cape" id="Item.be_roman_cloak_dyed" />
+        <equipment slot="Leg" id="Item.be_roman_blackshoe_manica_gold" />
+        <equipment slot="Horse" id="Item.steppe_war_horse" />
+        <equipment slot="HorseHarness" id="Item.be_horse_armor_b" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.be_sarmatian_spatha_3" />
+        <equipment slot="Body" id="Item.be_cjiaba_sarmat_kaftan2" />
+        <equipment slot="Cape" id="Item.be_roman_cloak_dyed" />
+        <equipment slot="Leg" id="Item.be_cjiaba_sarmatian_boots2" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

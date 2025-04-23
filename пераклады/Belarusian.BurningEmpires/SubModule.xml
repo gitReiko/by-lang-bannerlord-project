@@ -36,5 +36,31 @@
 		</IncludedGameTypes>
 	</XmlNode>
 
+	<XmlNode>
+		<XmlName id="Factions" path="be_clans"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+			<GameType value = "EditorGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	<XmlNode>                
+		<XmlName id="NPCCharacters" path="troops"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	<XmlNode>                
+		<XmlName id="NPCCharacters" path="be_lords"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
 	</Xmls>
 </Module>
