@@ -65,14 +65,6 @@
   <string id="armed_trader_alemannic" text="Alemannic Armed Trader"/>
   <string id="ECM_caravan_guard_alemannic" text="Alemannic Caravan Guard"/>
   <string id="ECM_veteran_caravan_guard_alemannic" text="Alemannic Veteran Caravan Guard"/>
-  <!--input/troops/angle_spnpccharacters.xml-->
-  <string id="ECM_townswoman_angle" text="Angle Townswoman"/>
-  <string id="ECM_anglepeasantman" text="Angle Peasant"/>
-  <string id="ECM_anglepeasantwoman" text="Angle Peasant"/>
-  <string id="ECM_caravan_master_angle" text="Angle Caravan Master"/>
-  <string id="armed_trader_angle" text="Angle Armed Trader"/>
-  <string id="ECM_caravan_guard_angle" text="Angle Caravan Guard"/>
-  <string id="ECM_veteran_caravan_guard_angle" text="Angle Veteran Caravan Guard"/>
   <!--input/troops/be_bandits.xml-->
   <string id="urUwa4bf" text="Latro"/>
   <string id="C8DE6L73" text="Deserter"/>
@@ -82,7 +74,7 @@
   <string id="9laVlEH9" text="Hillman"/>
   <string id="ZKdiaaFo" text="Brigand"/>
   <string id="P6Md9DpR" text="Highwayman"/>
-  <string id="HadsURl8" text="Poacher"/>
+  <string id="HadsURl8" text="Forest Poacher"/>
   <string id="freebootertroop" text="Forest Bandit"/>
   <string id="sFgODQ1q" text="Forest Bandit Chief"/>
   <string id="uOAnHN47" text="Bedouin Rover"/>
@@ -106,6 +98,10 @@
   <string id="be_bandit_isaurian_raider" text="Isaurian Raider"/>
   <string id="be_bandit_isaurian_plunderer" text="Isaurian Plunderer"/>
   <string id="be_bandit_isaurian_boss" text="Isaurian Ravager"/>
+  <string id="be_mercenary_carpian_chieftain" text="Carpian Chieftain"/>
+  <string id="be_sarmatian_chieftain" text="Sarmatian Chieftain"/>
+  <string id="be_alanian_chieftain" text="Alanian Chieftain"/>
+  <string id="be_hunnic_aniliki" text="Hunnic Anilik"/>
   <!--input/troops/be_troops_alamannic.xml-->
   <string id="be_alamannic_swordsman" text="Alemannic Swordsman"/>
   <string id="be_alamannic_veteran_swordsman" text="Alemannic Veteran Swordsman"/>
@@ -135,12 +131,6 @@
   <string id="be_alanian_dismounted_guard" text="Alanian Dismounted Guard"/>
   <string id="be_alanian_karaves_guard" text="Alanian Kararves Guard"/>
   <string id="be_alanian_trained_charger" text="Alanian Trained Charger"/>
-  <!--input/troops/be_troops_angle.xml-->
-  <string id="be_angle_hirdman" text="Angle Hirdman"/>
-  <string id="be_angle_veteran_hirdman" text="Angle Veteran Hirdman"/>
-  <string id="be_angle_noble_hirdman" text="Angle Noble Hirdman"/>
-  <string id="be_angle_huscarl" text="Angle Huscarl"/>
-  <string id="be_angle_elite_huscarl" text="Angle Elite Huscarl"/>
   <!--input/troops/be_troops_bosporan.xml-->
   <string id="be_bosporan_militia_archer" text="Bosporan Militia Archer"/>
   <string id="be_bosporan_militia_veteran_archer" text="Bosporan Militia Veteran Archer"/>
@@ -219,6 +209,7 @@
   <string id="be_er_elite_cav_5" text="East Roman Eques Catafractarius"/>
   <string id="be_er_elite_cav_6" text="East Roman Eques Scholarius"/>
   <string id="be_er_elite_candidatus" text="East Roman Candidatus"/>
+  <string id="be_wr_elite_draconarius" text="East Roman Draconarius"/>
   <!--input/troops/be_troops_frankish.xml-->
   <string id="be_frankish_heerbann" text="Frankish Heerbann"/>
   <string id="be_frankish_heerbann_veteran" text="Frankish Heerbann Veteran"/>
@@ -260,10 +251,10 @@
   <string id="be_gothic_elite_spadigg" text="Gothic Elite Spadigg"/>
   <string id="be_gothic_chosen_gadrauht" text="Gothic Chosen Gadrauht"/>
   <!--input/troops/be_troops_hun.xml-->
-  <string id="be_hunnic_militia_archer" text="Hunnic Militia Archer"/>
-  <string id="be_hunnic_militia_veteran_archer" text="Hunnic Militia Veteran Archer"/>
-  <string id="be_hunnic_militia_spearman" text="Hunnic Militia Spearman"/>
-  <string id="be_hunnic_militia_veteran_spearman" text="Hunnic Militia Veteran Spearman"/>
+  <string id="be_hunnic_militia_archer" text="Hunnic Archer"/>
+  <string id="be_hunnic_militia_veteran_archer" text="Hunnic Veteran Archer"/>
+  <string id="be_hunnic_militia_spearman" text="Hunnic Spearman"/>
+  <string id="be_hunnic_militia_veteran_spearman" text="Hunnic Veteran Spearman"/>
   <string id="be_hunnic_saban" text="Hunnic Saban"/>
   <string id="be_hunnic_baganin" text="Hunnic Baganin"/>
   <string id="be_hunnic_shad_baganin" text="Hunnic Shad Baganin"/>
@@ -304,9 +295,6 @@
   <string id="be_mercenary_foederatus" text="Foederatus"/>
   <string id="be_mercenary_foederatus_footman" text="Foederatus Footman"/>
   <string id="be_mercenary_foederatus_veteran" text="Foederatus Veteran"/>
-  <string id="be_mercenary_berserker" text="Germanic Berserker"/>
-  <string id="be_mercenary_trained_berserker" text="Germanic Trained Berserker"/>
-  <string id="be_mercenary_armoured_berserker" text="Germanic Armoured Berserker"/>
   <string id="be_mercenary_horse_cutter" text="Germanic Horse Cutter"/>
   <string id="be_mercenary_horse_slayer" text="Germanic Horse Slayer"/>
   <string id="be_mercenary_horse_butcher" text="Germanic Horse Butcher"/>
@@ -321,6 +309,24 @@
   <string id="be_mercenary_sarmatian_huntress" text="Sarmatian Huntress"/>
   <string id="be_mercenary_sarmatian_horsemaiden" text="Sarmatian Horsemaiden"/>
   <string id="be_mercenary_sarmatian_noblewoman" text="Sarmatian Noblewoman"/>
+  <string id="be_mercenary_sabir_horseman" text="Sabir Horseman"/>
+  <string id="be_mercenary_sabir_reaver" text="Sabir Reaver"/>
+  <string id="be_mercenary_sabir_heavy_reaver" text="Sabir Heavy Reaver"/>
+  <string id="be_mercenary_sabir_horsewoman" text="Sabir Horsewoman"/>
+  <string id="be_mercenary_sabir_female_warrior" text="Sabir Female Warrior"/>
+  <string id="be_mercenary_sabir_female_veteran" text="Sabir Female Veteran"/>
+  <!--input/troops/be_troops_nordic.xml-->
+  <string id="be_nordic_militia_archer" text="Nordic Militia Archer"/>
+  <string id="be_nordic_militia_veteran_archer" text="Nordic Militia Veteran Archer"/>
+  <string id="be_nordic_militia_spearman" text="Nordic Militia Spearman"/>
+  <string id="be_nordic_militia_veteran_spearman" text="Nordic Militia Veteran Spearman"/>
+  <string id="be_nordic_berserker" text="Nordic Berserker"/>
+  <string id="be_nordic_armoured_berserker" text="Nordic Armoured Berserker"/>
+  <string id="be_nordic_hirdman" text="Nordic Hirdman"/>
+  <string id="be_nordic_veteran_hirdman" text="Nordic Veteran Hirdman"/>
+  <string id="be_nordic_noble_hirdman" text="Nordic Noble Hirdman"/>
+  <string id="be_nordic_huscarl" text="Nordic Huscarl"/>
+  <string id="be_nordic_elite_huscarl" text="Nordic Elite Huscarl"/>
   <!--input/troops/be_troops_pictish.xml-->
   <string id="be_pictish_highland_swordsman" text="Pictish Highland Swordsman"/>
   <string id="be_pictish_highland_veteran" text="Pictish Highland Veteran"/>
@@ -334,15 +340,10 @@
   <string id="be_quadian_noble_horseman" text="Quadian Noble Horseman"/>
   <string id="be_quadian_royal_horseman" text="Quadian Royal Horseman"/>
   <!--input/troops/be_troops_roman.xml-->
-  <string id="be_wr_caravan_master_eastroman" text="Roman Caravan Master"/>
   <string id="be_wr_militia_archer" text="Roman Limitaneus Venator"/>
   <string id="be_wr_militia_veteran_archer" text="Roman Limitaneus Sagittarius"/>
   <string id="be_wr_militia_spearman" text="Roman Miles Limitaneus"/>
   <string id="be_wr_militia_veteran_spearman" text="Roman Miles Limitaneus Veteranus"/>
-  <string id="be_wr_caravan_master_empire" text="Roman Caravan Master"/>
-  <string id="be_wr_caravan_guard_empire" text="Roman Caravan Guard"/>
-  <string id="be_wr_veteran_caravan_guard_empire" text="Roman Veteran Caravan Guard"/>
-  <string id="be_wr_armed_trader_empire" text="Roman Armed Trader"/>
   <string id="be_wr_recruit" text="Roman Tiro"/>
   <string id="be_wr_infantry_2" text="Roman Pedes"/>
   <string id="be_wr_infantry_3" text="Roman Pseudocomitatensis"/>
@@ -459,6 +460,7 @@
   <string id="ECM_caravan_guard_burgundian" text="Burgundian Caravan Guard"/>
   <string id="ECM_veteran_caravan_guard_burgundian" text="Burgundian Veteran Caravan Guard"/>
   <!--input/troops/eastroman_spnpccharacters.xml-->
+  <string id="be_wr_caravan_master_eastroman" text="East Roman Caravan Master"/>
   <string id="be_wr_armed_trader_eastroman" text="East Roman Armed Trader"/>
   <string id="be_wr_caravan_guard_eastroman" text="East Roman Caravan Guard"/>
   <string id="be_wr_veteran_caravan_guard_eastroman" text="East Roman Veteran Caravan Guard"/>
@@ -481,7 +483,7 @@
   <string id="ECM_caravan_guard_gothic" text="Gothic Caravan Guard"/>
   <string id="ECM_veteran_caravan_guard_gothic" text="Gothic Veteran Caravan Guard"/>
   <!--input/troops/hunnic_spnpccharacters.xml-->
-  <string id="hunnicpeasantman" text="Hunnic Peasant"/>
+  <string id="hunnicpeasantman" text="Hunnic Herdsman"/>
   <string id="hunnicpeasantwoman" text="Hunnic Peasant"/>
   <!--input/troops/langobard_spnpccharacters.xml-->
   <string id="ECM_townswoman_langobard" text="Langobard Townswoman"/>
@@ -499,6 +501,14 @@
   <string id="armed_trader_marcomannic" text="Marcomannic Armed Trader"/>
   <string id="ECM_caravan_guard_marcomannic" text="Marcomannic Caravan Guard"/>
   <string id="ECM_veteran_caravan_guard_marcomannic" text="Marcomannic Veteran Caravan Guard"/>
+  <!--input/troops/nordic_spnpccharacters.xml-->
+  <string id="ECM_townswoman_angle" text="Nordic Townswoman"/>
+  <string id="ECM_anglepeasantman" text="Nordic Peasant"/>
+  <string id="ECM_anglepeasantwoman" text="Nordic Peasant"/>
+  <string id="ECM_caravan_master_angle" text="Nordic Caravan Master"/>
+  <string id="armed_trader_angle" text="Nordic Armed Trader"/>
+  <string id="ECM_caravan_guard_angle" text="Nordic Caravan Guard"/>
+  <string id="ECM_veteran_caravan_guard_angle" text="Nordic Veteran Caravan Guard"/>
   <!--input/troops/pictish_spnpccharacters.xml-->
   <string id="battaniapeasantwoman" text="Pictish Peasant"/>
   <string id="G8mawcBV" text="{FIRSTNAME} the Healer"/>
