@@ -2,6 +2,8 @@
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
  <strings>
   <!--input/spitems/celtic_body_items.xml-->
+  <string id="be_battania_dress_a" text="{.Nijaki}Kielckaje Tartanavaje Adzieńnie"/>
+  <string id="be_battania_dress_c" text="{.Nijaki}Kielckaje Lasnoje Adzieńnie"/>
   <string id="be_celtic_tunic_a" text="{.Zanocy}Kielckaja Rudaja Karotkaja Tartanavaja Tunika"/>
   <string id="be_celtic_tunic_a1" text="{.Zanocy}Kielckaja Žoŭtaja Karotkaja Tartanavaja Tunika"/>
   <string id="be_celtic_tunic_a2" text="{.Zanocy}Kielckaja Čyrvonaja Karotkaja Tartanavaja Tunika"/>
@@ -73,7 +75,21 @@
   <string id="be_tarasovo_dec_bronze" text="{.Muzcynski}Uschodni Bronzavy Tarasaŭski Šałom"/>
   <string id="be_tarasovo_a" text="{.Muzcynski}Uschodni Tarasaŭski Šałom"/>
   <string id="be_tarasovo_a_cap" text="{.Muzcynski}Uschodni Tarasaŭski Kaŭpak"/>
+  <string id="be_hunic_helmet_iron" text="{.Muzcynski}Uschodni Žalezny Bandchielm"/>
+  <string id="be_hunic_helmet_bronze" text="{.Muzcynski}Uschodni Bronzavy Bandchielm"/>
   <!--input/spitems/german_body_items.xml-->
+  <string id="be_plain_dress" text="{.Nijaki}Hiermanskaja Prostaje Adzieńnie"/>
+  <string id="be_tartan_skirt" text="{.Mnozny}Hiermanskija Tartanavyja Štany"/>
+  <string id="be_savage_armor" text="{.Mnozny}Hiermanskija Štany Biersierka"/>
+  <string id="be_fur_skirt" text="{.Mnozny}Hiermanskija Štany z Futram"/>
+  <string id="be_fur_skirt_with_tunic" text="{.Zanocy}Hiermanskaja Tunika z Futram"/>
+  <string id="be_fur_waistcoat_over_tunic" text="{.Zanocy}Hiermanskaja Tunika z Futravym Palito"/>
+  <string id="be_fur_coat_over_tunic" text="{.Nijaki}Hiermanskaje Futravaje Palito"/>
+  <string id="be_hemp_tunic" text="{.Zanocy}Hiermanskaja Kanaplanaja Tunika"/>
+  <string id="be_tundra_tunic" text="{.Zanocy}Hiermanskaja Tunika z Pasam"/>
+  <string id="be_tied_cloth_tunic" text="{.Zanocy}Hiermanskaja Źviazanaja Tunika"/>
+  <string id="be_tunic_with_rolled_cloth" text="{.Zanocy}Hiermanskaja Tunika sa Skručanaj Tkaninaj"/>
+  <string id="be_mail_shirt" text="{.Zanocy}Hiermanskaja Kalčužnaja Kašula"/>
   <string id="be_germ_tun_stripeblue" text="{.Zanocy}Hiermanskaja Klecistaja Tunika"/>
   <string id="be_germ_tun_stripered" text="{.Zanocy}Hiermanskaja Pałasataja Tunika"/>
   <string id="be_german_bluedot" text="{.Zanocy}Hiermanskaja Błakitnaja Kropkavaja Tunika"/>
@@ -99,13 +115,19 @@
   <string id="be_thorsberg_safran_b" text="{.Zanocy}Hiermanskaja Afarbovanaja Šlachietnaja Tunika"/>
   <string id="be_german_doubletunic_1" text="{.Zanocy}Hiermanskaja Šmatpłastovaja Tunika"/>
   <string id="be_german_doubletunic_1_dyed" text="{.Zanocy}Hiermanskaja Afarbovanaja Šmatpłastovaja Tunika"/>
-  <string id="dz_vlandia_armor_a" text="{.Zanocy}Hiermanskaja Tunika z Kaftanam"/>
   <string id="be_german_maille_beater" text="{.Zanocy}Hiermanskaja Błakitnaja Dekaravanaja Kalčuha biez Rukavoŭ"/>
   <string id="be_german_maille_beater_red" text="{.Zanocy}Hiermanskaja Čyrvonaja Dekaravanaja Kalčuha biez Rukavoŭ"/>
   <string id="be_german_maille_beater_green" text="{.Zanocy}Hiermanskaja Zialonaja Kalčuha biez Rukavoŭ"/>
   <string id="be_german_maille_beater_brown" text="{.Zanocy}Hiermanskaja Rudaja Kalčuha biez Rukavoŭ"/>
   <string id="be_german_maille_beater_dyed" text="{.Zanocy}Hiermanskaja Kalčuha biez Rukavoŭ"/>
   <string id="be_german_maille_beater_dyed2" text="{.Zanocy}Hiermanskaja Dekaravanaja Kalčuha biez Rukavoŭ"/>
+  <string id="be_germ_body_mail_dyed" text="{.Zanocy}Hiermanskaja Kalčuha z Karotkimi Rukavami i Afarbovanaj Tunikaj"/>
+  <string id="be_germ_body_mail_dyed2" text="{.Zanocy}Hiermanskaja Kalčuha z Karotkimi Rukavami i Afarbovanaj Tunikaj"/>
+  <string id="be_germ_body_mail_green" text="{.Zanocy}Hiermanskaja Kalčuha z Karotkimi Rukavami i Zialonaj Tunikaj"/>
+  <string id="be_germ_body_mail_blue" text="{.Zanocy}Hiermanskaja Kalčuha z Karotkimi Rukavami i Błakitnaj Tunikaj"/>
+  <string id="be_germ_body_mail_red" text="{.Zanocy}Hiermanskaja Kalčuha z Karotkimi Rukavami i Čyrvonaj Tunikaj"/>
+  <string id="be_germ_body_mail_long_gray" text="{.Zanocy}Hiermanskaja Uzmocnienaja Kalčuha z Afarbovanaj Tunikaj"/>
+  <string id="be_germ_body_mail_long_noble" text="{.Zanocy}Hiermanskaja Šlachietnaja Kalčuha z Afarbovanaj Tunikaj"/>
   <string id="be_german_maille_long" text="{.Zanocy}Hiermanskaja Dekaravanaja Doŭhaja Kalčuha z Čyrvonaj Tunikaj"/>
   <string id="be_german_maille_long_blue" text="{.Zanocy}Hiermanskaja Dekaravanaja Doŭhaja Kalčuha z Błakitnaj Tunikaj"/>
   <string id="be_german_maille_long_green" text="{.Zanocy}Hiermanskaja Dekaravanaja Doŭhaja Kalčuha z Zialonaj Tunikaj"/>
@@ -116,6 +138,10 @@
   <string id="be_german_maille_long_3_dyed" text="{.Zanocy}Hiermanskaja Dekaravanaja Doŭhaja Kalčuha z Afarbovanaj Tunikaj"/>
   <string id="be_german_maille_long_2_dyed" text="{.Zanocy}Hiermanskaja Doŭhaja Kalčuha z Afarbovanaj Tunikaj"/>
   <!--input/spitems/german_head_items.xml-->
+  <string id="be_bandit_cap" text="{.Zanocy}Hiermanskaja Bandyckaja Šapka"/>
+  <string id="be_roughhide_cap" text="{.Zanocy}Hiermanskaja Šapka z Syraviny"/>
+  <string id="be_german_hood_a" text="{.Muzcynski}Hiermanski Afarbavany Kaptur"/>
+  <string id="be_german_hood_b" text="{.Muzcynski}Hiermanski Afarbavany Kaptur"/>
   <string id="be_germ_leathercap" text="{.Zanocy}Hiermanskaja Skuranaja Šapka"/>
   <string id="be_germ_leathercap2" text="{.Zanocy}Hiermanskaja Rudaja Skuranaja Šapka"/>
   <string id="be_germ_leathercap3" text="{.Zanocy}Hiermanskaja Ciomnaja Rudaja Skuranaja Šapka"/>
@@ -146,14 +172,17 @@
   <string id="be_german_fernpass_bronze_tail" text="{.Muzcynski}Hiermanski Pazałočany Fiernpaski Šałom"/>
   <string id="be_german_fernpass_iron_tail" text="{.Muzcynski}Hiermanski Fiernpaski Šałom z Konnym Vołasam"/>
   <string id="be_augsburg_1_helmet" text="{.Muzcynski}Hiermanski Bronzavy Aŭhsburski Šałom 1"/>
-  <string id="be_augsburg_1_helmet_iron" text="{.Muzcynski}Hiermanski Žalezny Aŭhsburski Šałom 1"/>
-  <string id="be_augsburg_1_helmet_iron_masked" text="{.Muzcynski}Hiermanski Žalezny Aŭhsburski Šałom z Maskaj 1"/>
+  <string id="be_augsburg_1_helmet_iron" text="{.Muzcynski}Hiermanski Stary Aŭhsburski Šałom 1"/>
+  <string id="be_augsburg_1_helmet_steel" text="{.Muzcynski}Hiermanski Aŭhsburski Šałom 1"/>
+  <string id="be_augsburg_1_helmet_iron_masked" text="{.Muzcynski}Hiermanski Aŭhsburski Šałom z Maskaj 1"/>
   <string id="be_augsburg_2_helmet_boar" text="{.Muzcynski}Hiermanski Aŭhsburski Šałom z Klajnotam Dzika 2"/>
   <string id="be_koblenz1" text="{.Muzcynski}Hiermanski Koblencki Šałom"/>
   <string id="be_koblenz2" text="{.Muzcynski}Hiermanski Bronzavy Koblencki Šałom"/>
   <string id="be_heteny_a" text="{.Muzcynski}Hiermanski Chietenski Šałom"/>
   <string id="be_jarak" text="{.Muzcynski}Hiermanski Jaraski Šałom"/>
   <string id="be_concesti" text="{.Muzcynski}Hiermanski Stary Končeski Šałom"/>
+  <string id="be_concesti_iron" text="{.Muzcynski}Hiermanski Stary Žalezny Končeski Šałom"/>
+  <string id="be_concesti_c" text="{.Muzcynski}Hiermanski Žalezny Končeski Šałom"/>
   <string id="be_concesti_b" text="{.Muzcynski}Hiermanski Končeski Šałom"/>
   <string id="be_concesti_b_feathers" text="{.Muzcynski}Hiermanski Končeski Šałom z Piorami"/>
   <string id="be_deurne_helmet" text="{.Muzcynski}Hiermanski Dziorneski Šałom"/>
@@ -181,15 +210,14 @@
   <string id="be_german_face_mask" text="{.Muzcynski}Hiermanski Dekaravany Šałom z Maskaj"/>
   <string id="be_german_face_mask_iron" text="{.Muzcynski}Hiermanski Šałom z Maskaj"/>
   <!--input/spitems/german_leg_items.xml-->
-  <string id="be_german_tiroshoe_legwrap_brown" text="{.Mnozny}Hiermanskija Rudyja Nažnyja Abkrutki"/>
   <string id="be_german_lengeneer_orange" text="{.Mnozny}Hiermanskija Lehiniry"/>
-  <string id="be_german_campagi_legwrapbrown" text="{.Mnozny}Hiermanskija Kampaskija Rudyja Nažnyja Abkrutki"/>
   <string id="be_german_campagi" text="{.Mnozny}Hiermanskija Kampahi"/>
-  <string id="be_german_campagi_orange" text="{.Mnozny}Hiermanskija Kampaskija Pamiarancavyja Nažnyja Abkrutki"/>
   <string id="be_german_campagi_red" text="{.Mnozny}Hiermanskija Čyrvonyja Kampahi"/>
+  <string id="be_german_campagi_legwrapbrown" text="{.Mnozny}Hiermanskija Kampaskija Rudyja Nažnyja Abkrutki"/>
+  <string id="be_german_campagi_orange" text="{.Mnozny}Hiermanskija Kampaskija Pamiarancavyja Nažnyja Abkrutki"/>
+  <string id="be_german_tiroshoe_legwrap_brown" text="{.Mnozny}Hiermanskija Rudyja Nažnyja Abkrutki"/>
   <string id="be_campagimanica_1" text="{.Mnozny}Hiermanskija Kampahi z Łamielarnaj Achovaj"/>
   <!--input/spitems/german_shield_items.xml-->
-  <string id="cla_scythian_shield_small_a" text="{.Muzcynski}Sarmacki Plecieny Ščyt"/>
   <string id="thorsberg_shield_wood" text="{.Muzcynski}Hiermanski Draŭlany Torśbierski Ščyt"/>
   <string id="thorsberg_shield_white_old" text="{.Muzcynski}Hiermanski Stary Bieły Torśbierski Ščyt"/>
   <string id="thorsberg_shield_white" text="{.Muzcynski}Hiermanski Bieły Torśbierski Ščyt"/>
@@ -213,6 +241,8 @@
   <string id="be_cjiaba_gommern_shield" text="{.Muzcynski}Hiermanski Hommiernski Ščyt"/>
   <string id="be_cjiaba_gommern_shield_colored" text="{.Muzcynski}Hiermanski Afarbavany Hommiernski Ščyt"/>
   <string id="be_cjiaba_gommern_shield_colored2" text="{.Muzcynski}Hiermanski Afarbavany Hommiernski Ščyt"/>
+  <string id="be_dac_nord_shield_e" text="{.Muzcynski}Hiermanski Čyrvony Illerupski Ščyt"/>
+  <string id="be_dac_nord_shield_f" text="{.Muzcynski}Hiermanski Afarbavany Illerupski Ščyt"/>
   <string id="thorsberg_shield_small_wood" text="{.Muzcynski}Hiermanski Maleńki Draŭlany Torśbierski Ščyt"/>
   <string id="thorsberg_shield_small_1" text="{.Muzcynski}Hiermanski Maleńki Afarbavany Torśbierski Ščyt"/>
   <string id="thorsberg_shield_small_2" text="{.Muzcynski}Hiermanski Maleńki Afarbavany Torśbierski Ščyt"/>
@@ -234,6 +264,8 @@
   <string id="be_pelerina_dac_c" text="{.Zanocy}Hiermanskaja Čornaja Nakidka"/>
   <string id="be_pelerina_dac_c1" text="{.Zanocy}Hiermanskaja Uzorystaja Błakitnaja Nakidka"/>
   <string id="be_pelerina_dac_dyed" text="{.Zanocy}Hiermanskaja Afarbovanaja Nakidka"/>
+  <string id="be_goth_cape_levente_a2" text="{.Nijaki}Hiermanskaje Čyrvonaje Pokryva"/>
+  <string id="be_goth_cape_levente_b2" text="{.Nijaki}Hiermanskaje Afarbovanaje Pokryva"/>
   <string id="be_helm_cape_wolf_black" text="{.Muzcynski}Hiermanski Čorny Futra Voŭka"/>
   <string id="be_helm_cape_wolf_brown" text="{.Muzcynski}Hiermanski Rudy Futra Voŭka"/>
   <string id="be_helm_cape_wolf_gray" text="{.Muzcynski}Hiermanski Šery Futra Voŭka"/>
@@ -243,12 +275,14 @@
   <string id="be_german_dagger_1" text="{.Muzcynski}Hiermanski Kinžał"/>
   <string id="be_german_dagger_2" text="{.Muzcynski}Hiermanski Sijaks"/>
   <string id="be_german_semispatha_1" text="{.Zanocy}Hiermanskaja Paŭspata"/>
+  <string id="be_german_spatha_feltwell" text="{.Zanocy}Hiermanskaja Fełtvełskaja Spata"/>
   <string id="be_german_spatha_1" text="{.Zanocy}Hiermanskaja Prostaja Spata"/>
   <string id="be_german_spatha_2" text="{.Zanocy}Hiermanskaja Spata"/>
   <string id="be_german_spatha_3" text="{.Zanocy}Hiermanskaja Šlachietnaja Spata"/>
   <string id="be_german_spear_1" text="{.Nijaki}Hiermanskaje Karotkaje Kapjo"/>
   <string id="be_german_spear_2" text="{.Nijaki}Hiermanskaje Kapjo"/>
   <string id="be_german_spear_3" text="{.Nijaki}Hiermanskaje Vydatnaje Kapjo"/>
+  <string id="be_german_pike_1" text="{.Nijaki}Hiermanskaje Doŭhaje Kapjo"/>
   <string id="be_german_angon_1" text="{.Muzcynski}Hiermanski Anhon"/>
   <string id="be_german_lance_1" text="{.Zanocy}Hiermanskaja Dzida Vieršnika"/>
   <string id="be_german_axe_1" text="{.Muzcynski}Hiermanski Tapor"/>
@@ -266,29 +300,39 @@
   <string id="be_german_falx" text="{.Zanocy}Hiermanski Falks"/>
   <string id="be_german_sica" text="{.Zanocy}Hiermanskaja Sika"/>
   <!--input/spitems/hunnic_body_items.xml-->
+  <string id="be_khuzait_dress" text="{.Nijaki}Hunskaje Stepavaje Adzieńnie"/>
+  <string id="be_khuzait_dress_b" text="{.Nijaki}Hunskaje Futravaje Adzieńnie"/>
+  <string id="be_steppe_dress" text="{.Nijaki}Hunskaje Šlachietnaje Adzieńnie"/>
   <string id="be_hun_beater_4" text="{.Muzcynski}Hunski Žakiet biez Rukavoŭ"/>
   <string id="be_hun_beater_3" text="{.Muzcynski}Hunski Futravy Žakiet biez Rukavoŭ"/>
   <string id="be_hun_beater_dark_3" text="{.Muzcynski}Hunski Čorny Futravy Žakiet biez Rukavoŭ"/>
   <string id="be_hun_sleeved_1" text="{.Muzcynski}Hunski Žakiet z Rukavami"/>
   <string id="be_hun_sleeved_dark" text="{.Muzcynski}Hunski Ciomny Žakiet z Rukavami"/>
-  <string id="be_hun_sleeved_2" text="{.Muzcynski}Hunski Čorny Futravy Žakiet"/>
+  <string id="be_hun_sleeved_2" text="{.Muzcynski}Hunski Rudy Futravy Žakiet"/>
   <string id="be_hun_sleeved_dark_2" text="{.Muzcynski}Hunski Čorny Futravy Žakiet"/>
   <string id="be_mongol_kaftan_a" text="{.Muzcynski}Hunski Rudy Kaftan"/>
   <string id="be_mongol_kaftan_a1" text="{.Muzcynski}Hunski Afarbovany Kaftan"/>
   <string id="be_mongol_kaftan_a2" text="{.Muzcynski}Hunski Čorny Kaftan"/>
   <string id="be_mongol_kaftan_a3" text="{.Muzcynski}Hunski Ciomny Rudy Kaftan"/>
   <string id="be_cjiaba_hun_kaftan" text="{.Muzcynski}Hunski Šlachietny Tłusty Kaftan"/>
+  <string id="be_cjiaba_hun_kaftan2" text="{.Muzcynski}Hunski Šlachietny Tłusty Kaftan"/>
   <string id="be_cjiaba_hun_kaftan_fur" text="{.Muzcynski}Hunski Afarbovany Tłusty Kaftan z Futram"/>
   <string id="be_cjiaba_hun_kaftan_fur2" text="{.Muzcynski}Hunski Tłusty Kaftan z Futram"/>
-  <string id="be_hunic_leather_a9" text="{.Zanocy}Hunskaja Skuranaja Brania"/>
+  <string id="be_hunic_leather_a9" text="{.Zanocy}Hunskaja Skuranaja Łuskataja Brania"/>
+  <string id="be_hunic_lamelar_leather" text="{.Zanocy}Hunskaja Skuranaja Łamielarnaja Brania"/>
+  <string id="be_hunic_lamelar_leather_b" text="{.Zanocy}Hunskaja Ciomnaja Skuranaja Łamielarnaja Brania"/>
   <string id="be_hunic_chainmail_a" text="{.Zanocy}Hunskaja Łancuhovaja Kalčuha"/>
-  <string id="be_hunic_lamelar_a" text="{.Zanocy}Hunskaja Łamielarnaja Brania"/>
-  <string id="be_cjiaba_hun_armor" text="{.Zanocy}Hunskaja Kalčuha nad Kaftanam"/>
-  <string id="be_cjiaba_hun_armor_fur" text="{.Zanocy}Hunskaja Kalčuha nad Afarbovanym Kaftanam"/>
-  <string id="be_lamellar_scorilo_a" text="{.Zanocy}Hunskaja Łamielarnaja Brania z Achovaj Ruk"/>
-  <string id="be_lamellar_scorilo_b" text="{.Zanocy}Hunskaja Dekaravanaja Łamielarnaja Brania z Achovaj Ruk"/>
+  <string id="be_cjiaba_hun_armor" text="{.Zanocy}Hunskaja Kalčuha nad Šlachietnym Kaftanam"/>
+  <string id="be_cjiaba_hun_armor_fur" text="{.Zanocy}Hunskaja Kalčuha nad Kaftanam"/>
+  <string id="be_hunic_lamelar_a" text="{.Zanocy}Hunskaja Žaleznaja Łamielarnaja Brania"/>
+  <string id="be_hunic_lamelar_b" text="{.Zanocy}Hunskaja Uzorystaja Łamielarnaja Brania"/>
+  <string id="be_hunic_lamelar_c" text="{.Zanocy}Hunskaja Łamielarnaja Brania z Tamhaj"/>
   <string id="be_lamellar_scorilo_c" text="{.Zanocy}Hunskaja Łamielarnaja Brania"/>
   <string id="be_lamellar_scorilo_d" text="{.Zanocy}Hunskaja Łamielarnaja Brania z Naplečnymi Płaścinami"/>
+  <string id="be_lamellar_scorilo_a" text="{.Zanocy}Hunskaja Upryhožanaja Łamielarnaja Brania z Achovaj Ruk"/>
+  <string id="be_lamellar_scorilo_b" text="{.Zanocy}Hunskaja Łamielarnaja Brania z Achovaj Ruk"/>
+  <string id="be_lamellar_scorilo_heavy" text="{.Zanocy}Hunskaja Haspadarskaja Łamielarnaja Brania"/>
+  <string id="be_lamellar_scorilo_heavy_b" text="{.Zanocy}Hunskaja Upryhožanaja Heavy Łamielarnaja Brania"/>
   <!--input/spitems/hunnic_head_items.xml-->
   <string id="be_hun_cap" text="{.Zanocy}Hunskaja Stepavaja Šapka"/>
   <string id="be_hun_cap_1" text="{.Zanocy}Hunskaja Stepavaja Šapka"/>
@@ -309,7 +353,7 @@
   <string id="be_cjiaba_hun_helmet_fur_tied" text="{.Muzcynski}Hunski Łamielarny Šałom z Futram"/>
   <string id="be_cjiaba_hun_helmet_fur_tied2" text="{.Muzcynski}Hunski Łamielarny Šałom z Futram"/>
   <string id="be_cjiaba_hun_kalkhni_fur_tied" text="{.Muzcynski}Hunski Łamielarny Šałom z Futram"/>
-  <string id="cts_hunic_helmet" text="{.Muzcynski}Hunski Apierany Turajeŭski Šałom"/>
+  <string id="be_hunic_helmet" text="{.Muzcynski}Hunski Apierany Turajeŭski Šałom"/>
   <string id="be_kalkhni_b" text="{.Muzcynski}Hunski Kałchniski Šałom B"/>
   <string id="be_kalkhni_a" text="{.Muzcynski}Hunski Kałchniski Šałom A"/>
   <string id="be_khalkini" text="{.Muzcynski}Hunski Kałchniski Šałom z Rudym Chvastom Kania"/>
@@ -333,6 +377,9 @@
   <string id="be_hun_cape_levente_a" text="{.Nijaki}Hunskaje Čyrvonaje Pokryva z Futram"/>
   <string id="be_hun_cape_levente_a1" text="{.Nijaki}Hunskaje Čornaje Pokryva z Futram"/>
   <string id="be_hun_cape_levente_a2" text="{.Nijaki}Hunskaje Čyrvonaje Pokryva"/>
+  <string id="be_hun_cape_levente_b" text="{.Nijaki}Hunskaje Afarbavanaje Pokryva z Futram"/>
+  <string id="be_hun_cape_levente_b1" text="{.Nijaki}Hunskaje Afarbavanaje Ciomnaje Pokryva z Futram"/>
+  <string id="be_hun_cape_levente_b2" text="{.Nijaki}Hunskaje Afarbavanaje Pokryva"/>
   <!--input/spitems/hunnic_weapon_items.xml-->
   <string id="be_hunnic_dagger_1" text="{.Muzcynski}Hunski Kinžał"/>
   <string id="be_hunnic_semispatha_1" text="{.Zanocy}Hunskaja Paŭspata"/>
@@ -351,6 +398,11 @@
   <string id="be_roman_manica_iron" text="{.Zanocy}Rymskaja Žaleznaja Manika"/>
   <string id="be_roman_manica_gold" text="{.Zanocy}Rymskaja Bronzavaja Manika"/>
   <!--input/spitems/roman_body_items.xml-->
+  <string id="be_empire_dress" text="{.Nijaki}Rymskaje Adzieńnie Pany"/>
+  <string id="be_empire_dress_b" text="{.Nijaki}Rymskaje Čyrvonaje Adzieńnie"/>
+  <string id="be_corset_dress" text="{.Nijaki}Rymskaje Adzieńnie"/>
+  <string id="be_woman_dress" text="{.Nijaki}Rymskaje Adzieńnie z Fartucham"/>
+  <string id="be_noble_woman_dress" text="{.Nijaki}Rymskaje Šlachietnaje Adzieńnie"/>
   <string id="be_romecoptic_dyed_7" text="{.Zanocy}Rymskaja Afarbovanaja Prostaja Kopckaja Tunika"/>
   <string id="be_romecoptic_dyed_6" text="{.Zanocy}Rymskaja Afarbovanaja Prostaja Kopckaja Tunika"/>
   <string id="be_romecoptic_dyed_5" text="{.Zanocy}Rymskaja Afarbovanaja Prostaja Kopckaja Tunika"/>
@@ -390,20 +442,28 @@
   <string id="be_roman_armor_mail_greaves_dark" text="{.Zanocy}Rymskaja Karotkaja Łancuhovaja Kalčuha z Rukavami i Rudymi Štanami"/>
   <string id="be_roman_mail_short_dyed" text="{.Zanocy}Rymskaja Karotkaja Łancuhovaja Kalčuha z Rukavami i Afarbovanaj Tunikaj"/>
   <string id="be_roman_mail_short_dyed2" text="{.Zanocy}Rymskaja Karotkaja Łancuhovaja Kalčuha z Rukavami i Afarbovanaj Tunikaj"/>
+  <string id="be_roman_armor_mail_sleeved" text="{.Zanocy}Rymskaja Łancuhovaja Kalčuha z Rukavami"/>
+  <string id="be_roman_armor_mail_sleeved_dyed" text="{.Zanocy}Rymskaja Łancuhovaja Kalčuha z Rukavami z Afarbavaj Tunikaj"/>
+  <string id="be_roman_squamata_noptyerges_goldv2" text="{.Zanocy}Rymskaja Staraja Skvamata z Afarbavaj Tunikaj"/>
   <string id="be_roman_squamata_noptyerges_gold" text="{.Zanocy}Rymskaja Bronzavaja Skvamata"/>
   <string id="be_roman_squamata_noptyerges" text="{.Zanocy}Rymskaja Žaleznaja Skvamata"/>
   <string id="be_roman_squamata_noptyerges_gold_dyed" text="{.Zanocy}Rymskaja Bronzavaja Skvamata z Afarbovanaj Tunikaj"/>
   <string id="be_roman_squamata_noptyerges_dyed" text="{.Zanocy}Rymskaja Žaleznaja Skvamata z Afarbovanaj Tunikaj"/>
+  <string id="be_roman_squamata_coptic_whitestraps" text="{.Zanocy}Rymskaja Stalovaja Skvamata"/>
   <string id="be_roman_squamata_undecor" text="{.Zanocy}Rymskaja Žalezny Skvamata z Pteruhami"/>
   <string id="be_roman_squamata_squamata_elite_stillicho" text="{.Zanocy}Rymskaja Šlachietnaja Załataja Skvamata"/>
-  <string id="be_roman_squamata_coptic_whitestraps" text="{.Zanocy}Rymskaja Šlachietnaja Stalovaja Skvamata"/>
-  <string id="be_roman_armor_mail_sleeved" text="{.Zanocy}Rymskaja Łancuhovaja Kalčuha z Rukavami"/>
-  <string id="be_roman_armor_mail_sleeved_dyed" text="{.Zanocy}Rymskaja Łancuhovaja Kalčuha z Rukavami i Afarbovanaj Tunikaj"/>
+  <string id="be_roman_squamata_squamata_elite_steel" text="{.Zanocy}Rymskaja Šlachietnaja Stalovaja Skvamata"/>
   <string id="be_roman_armor_squamata_full_gold" text="{.Zanocy}Rymskaja Ciažkaja Bronzavy Skvamata"/>
   <string id="be_roman_armor_squamata_full_gray" text="{.Zanocy}Rymskaja Ciažkaja Stalovaja Skvamata"/>
   <string id="be_rome_muscles" text="{.Zanocy}Rymskaja Muskułata z Biełymi Pteruhami"/>
   <string id="be_rome_muscles_red" text="{.Zanocy}Rymskaja Muskułata z Čyrvonymi Pteruhami"/>
+  <string id="be_rome_muscles_blue" text="{.Zanocy}Rymskaja Muskułata z Błakitnymi Pteruhami"/>
+  <string id="be_rome_muscles_yellow" text="{.Zanocy}Rymskaja Muskułata z Žoŭtymi Pteruhami"/>
+  <string id="be_rome_muscles_purple" text="{.Zanocy}Rymskaja Haspadarskaja Muskułata z Fijaletavymi Pteruhami"/>
   <!--input/spitems/roman_head_items.xml-->
+  <string id="be_merchants_hat" text="{.Zanocy}Rymskaja Prostaja Panonskaja Šapka"/>
+  <string id="be_empire_battle_crown_west" text="{.Muzcynski}Rymski Apierany Uschodni Šałom"/>
+  <string id="be_empire_battle_crown_north" text="{.Muzcynski}Rymski Apierany Zachodni Šałom"/>
   <string id="be_roman_hat_pannonian_1" text="{.Zanocy}Rymskaja Panonskaja Šapka"/>
   <string id="be_roman_hat_pannonian_1_black" text="{.Zanocy}Rymskaja Čornaja Panonskaja Šapka"/>
   <string id="be_roman_hat_pannonian_2" text="{.Zanocy}Rymskaja Vysokaja Panonskaja Šapka"/>
@@ -435,7 +495,10 @@
   <string id="be_roman_helm_intercisa_crest_iron_hair" text="{.Zanocy}Rymskaja Žaleznaja Intercysa z Klajnotam i Piarom"/>
   <string id="be_roman_helm_intercisa_crest_masked" text="{.Zanocy}Rymski Intercysa z Maskaj i Piarom"/>
   <string id="be_roman_helm_berkasovo" text="{.Muzcynski}Rymski Bierkasaŭski Šałom"/>
-  <string id="be_roman_helm_budapest_lord" text="{.Muzcynski}Rymski Budapiešcki Šałom"/>
+  <string id="be_roman_helm_budapest" text="{.Muzcynski}Rymski Budapiešcki Šałom"/>
+  <string id="be_roman_helm_budapest_lord" text="{.Muzcynski}Rymski Budapiešcki Šałom z Piarom"/>
+  <string id="be_roman_helm_budapest_lord_white" text="{.Muzcynski}Rymski Budapiešcki Šałom z Biełym Piarom"/>
+  <string id="be_roman_helm_budapest_lord_black" text="{.Muzcynski}Rymski Budapiešcki Šałom z Čornym Piarom"/>
   <string id="be_roman_pfrondorf_gulag" text="{.Muzcynski}Rymski Šlachietny Šałom z Maskaj"/>
   <string id="be_elitecav" text="{.Muzcynski}Rymski Elitny Šałom"/>
   <string id="be_elitecav_simple" text="{.Muzcynski}Rymski Elitny Šałom"/>
@@ -447,6 +510,10 @@
   <string id="be_roman_shoes" text="{.Mnozny}Rymskija Rudyja Tufli"/>
   <string id="be_roman_shoes_black" text="{.Mnozny}Rymskija Čornyja Tufli"/>
   <!--input/spitems/roman_shield_items.xml-->
+  <string id="be_roman_draco_1" text="{.Nijaki}Rymskaje Drako"/>
+  <string id="be_garrett_parma_leather_1" text="{.Zanocy}Rymskaja Čyrvonaja Parmuła"/>
+  <string id="be_garrett_parma_leather_2" text="{.Zanocy}Rymskaja Zialonaja Parmuła"/>
+  <string id="be_garrett_parma_leather_3" text="{.Zanocy}Rymskaja Afarbavanaja Parmuła"/>
   <string id="be_roman_shield_jannis" text="{.Muzcynski}Rymski Elitny Kruhły Ščyt"/>
   <string id="be_roman_shield_round" text="{.Muzcynski}Rymski Kruhły Ščyt"/>
   <string id="be_roman_shield_small" text="{.Muzcynski}Rymski Maleńki Ščyt"/>
