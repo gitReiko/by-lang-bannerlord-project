@@ -2514,11 +2514,2081 @@
     </Equipments>
   </NPCCharacter>
  
+<NPCCharacter id="be_germanic_recruit" default_group="Infantry" level="6" name="{=germanic_recruit}Germanic Recruit" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_spearman"/>
+			<upgrade_target id="NPCCharacter.be_germanic_hurler"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_1" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_colored" />	
+      <equipment slot="Body"
+                 id="Item.be_germ_tun_stripeblue" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_mace_1" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_wood" />	
+      <equipment slot="Body"
+                 id="Item.be_germ_tun_stripered" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_1" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_white_old" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_1" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_white_old" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_germanic_spearman" default_group="Infantry" level="11" name="{=germanic_spearman}Germanic Spearman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_trained_spearman"/>
+			<upgrade_target id="NPCCharacter.be_germanic_axeman"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_colored" />				 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap3" />
+      <equipment slot="Body"
+                 id="Item.be_germ_tun_stripeblue" />
+      <equipment slot="Leg"
+                 id="Item.be_german_lengeneer_orange" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_white_old" />				 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap2" />						 
+      <equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_3" />						 
+      <equipment slot="Head"
+                 id="Item.be_battanian_skull_cap" />
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_3" />						 
+      <equipment slot="Head"
+                 id="Item.be_battanian_skull_cap" />
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_germanic_trained_spearman" default_group="Infantry" level="16" name="{=germanic_trained_spearman}Germanic Trained Spearman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_horseman"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_colored" />				 
+      <equipment slot="Head"
+                 id="Item.be_german_heddern_nocheeks" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_b" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_4" />		
+      <equipment slot="Head"
+                 id="Item.be_german_helm_intercisa_wolf" />				 
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_green" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_b" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_augsberg_nada" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_brown" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_augsberg_nada" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_brown" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_germanic_axeman" default_group="Infantry" level="16" name="{=germanic_axeman}Germanic Axeman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_degn"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_colored" />				 
+      <equipment slot="Head"
+                 id="Item.be_german_helm_intercisa_weasel" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_brown" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_b" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_4" />		
+      <equipment slot="Head"
+                 id="Item.be_german_helm_intercisa_wolf" />				 
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_green" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_battanian_skull_cap" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_b" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_battanian_skull_cap" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_b" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_germanic_degn" default_group="Infantry" level="21" name="{=be_germanic_degn}Germanic Degn" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_veteran_degn"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_colored" />				 
+      <equipment slot="Head"
+                 id="Item.be_jarak" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_2_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_brown" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_6" />			
+      <equipment slot="Head"
+                 id="Item.be_germ_augsberg_cheeks" />				 
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_lightbrown" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_7" />						 
+      <equipment slot="Head"
+                 id="Item.be_berkasovo_2_helmet_iron" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_lightblue" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_dyed" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_7" />						 
+      <equipment slot="Head"
+                 id="Item.be_berkasovo_2_helmet_iron" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_lightblue" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_dyed" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_germanic_veteran_degn" default_group="Infantry" level="26" name="{=be_germanic_veteran_degn}Germanic Veteran Degn" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_throwing_axe_1" />
+      <equipment slot="Item2"
+                 id="Item.be_cjiaba_gommern_shield_colored" />
+      <equipment slot="Head"
+                 id="Item.be_berkasovo_2_helmet_iron" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_dyed" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_throwing_axe_1" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_decor_red" />		
+      <equipment slot="Head"
+                 id="Item.be_deurne_helmet_iron" />				 
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_2_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_brown" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_throwing_axe_1" />
+      <equipment slot="Item2"
+                 id="Item.be_cjiaba_gommern_shield" />			 
+      <equipment slot="Head"
+                 id="Item.be_germ_fern_e" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_orange" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_red" />	 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_throwing_axe_1" />
+      <equipment slot="Item2"
+                 id="Item.be_cjiaba_gommern_shield" />			 
+      <equipment slot="Head"
+                 id="Item.be_germ_fern_e" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_orange" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_red" />	 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_germanic_horseman" default_group="Cavalry" level="21" name="{=germanic_horseman}Germanic Horseman" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_veteran_horseman"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_lance_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_2" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_colored" />						 
+      <equipment slot="Head"
+                 id="Item.be_concesti" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_brown" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_yellow" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_lance_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_2" />						 
+      <equipment slot="Head"
+                 id="Item.be_jarak" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_lance_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_2" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_3" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_fern_b" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_green" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_blue" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_lance_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_2" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_3" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_fern_b" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_green" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_blue" />				 
+      </EquipmentRoster>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.be_german_horse_harness_light"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="be_germanic_veteran_horseman" default_group="Cavalry" level="26" name="{=germanic_veteran_horseman}Germanic Veteran Horseman" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_lance_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_colored" />						 
+      <equipment slot="Head"
+                 id="Item.be_augsburg_2_helmet" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_lightblue" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_lance_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_4" />						 
+      <equipment slot="Head"
+                 id="Item.be_deurne_helmet" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_yellow" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_red" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_lance_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_5" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_fern_d" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_3_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_brown" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_lance_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_5" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_fern_d" />
+      <equipment slot="Body"
+                 id="Item.be_german_maille_long_3_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_safran_cloak_a_brown" />				 
+      </EquipmentRoster>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.be_german_horse_harness_medium"/>
+		</Equipments>
+	</NPCCharacter>
 
 
+	<NPCCharacter id="be_germanic_hurler" default_group="Ranged" level="11" name="{=germanic_hurler}Germanic Hurler" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_slinger"/>
+			<upgrade_target id="NPCCharacter.be_germanic_hunter"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_1" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_mace_2" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed2" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.battania_scarf_a" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_1" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_semispatha_1" />	
+      <equipment slot="Body"
+                 id="Item.be_german_bluedot" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_1" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_mace_2" />	
+      <equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.battania_scarf_a" />						 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_sling_1" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_mace_2" />	
+      <equipment slot="Body"
+                 id="Item.tied_cloth_tunic" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.battania_scarf_a" />						 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
 
+	<NPCCharacter id="be_germanic_slinger" default_group="Ranged" level="16" name="{=germanic_slinger}Germanic Slinger" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_scout"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_2" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_semispatha_1" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_colored" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap2" />				 
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_helm_cape_wolf_brown" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_2" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_semispatha_1" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_white_old" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap" />		
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_helm_cape_wolf_gray" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_2" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_mace_1" />		
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_wood" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap2" />		
+      <equipment slot="Body"
+                 id="Item.be_germ_tun_stripered" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_helm_cape_wolf_brown" />						 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_sling_2" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_mace_1" />		
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_wood" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap2" />		
+      <equipment slot="Body"
+                 id="Item.be_germ_tun_stripered" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_helm_cape_wolf_brown" />						 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
+	<NPCCharacter id="be_germanic_scout" default_group="Cavalry" level="21" name="{=germanic_scout}Germanic Scout" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_spatha_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_colored" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap" />		
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_brown" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_helm_cape_wolf_gray" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_spatha_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_colored" />				 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap3" />		
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_dyed2" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_helm_cape_wolf_brown" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_spatha_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap3" />		
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_helm_cape_wolf_black" />						 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_spatha_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap3" />		
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_helm_cape_wolf_black" />						 
+      </EquipmentRoster>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.be_german_horse_harness_light"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="be_germanic_hunter" default_group="Ranged" level="16" name="{=germanic_hunter}Germanic Hunter" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_germanic_archer"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_short_bow" />
+      <equipment slot="Item2"
+                 id="Item.be_vlandic_arrows" />	
+      <equipment slot="Item3"
+                 id="Item.be_vlandic_arrows" />
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap" />				 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_short_hunting_bow" />
+      <equipment slot="Item2"
+                 id="Item.be_vlandic_arrows" />	
+      <equipment slot="Item3"
+                 id="Item.be_vlandic_arrows" />
+      <equipment slot="Head"
+                 id="Item.roughhide_cap" />							 
+      <equipment slot="Body"
+                 id="Item.be_germ_tun_stripered" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_shoes" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_short_bow" />
+      <equipment slot="Item2"
+                 id="Item.be_vlandic_arrows" />	
+      <equipment slot="Item3"
+                 id="Item.be_vlandic_arrows" />
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap3" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_b" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_short_bow" />
+      <equipment slot="Item2"
+                 id="Item.be_vlandic_arrows" />	
+      <equipment slot="Item3"
+                 id="Item.be_vlandic_arrows" />
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap3" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_b" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="be_germanic_archer" default_group="Ranged" level="21" name="{=germanic_archer}Germanic Archer" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item1"
+                 id="Item.be_ranger_bow" />
+      <equipment slot="Item2"
+                 id="Item.be_bodkin_arrows_c" />	
+      <equipment slot="Item3"
+                 id="Item.be_bodkin_arrows_c" />
+      <equipment slot="Head"
+                 id="Item.be_german_helm_intercisa_weasel" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_green" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_axe_2" />
+      <equipment slot="Item1"
+                 id="Item.be_longbow" />
+      <equipment slot="Item2"
+                 id="Item.be_bodkin_arrows_c" />	
+      <equipment slot="Item3"
+                 id="Item.be_bodkin_arrows_c" />
+      <equipment slot="Head"
+                 id="Item.be_germ_fern_b" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.battania_cloak_b" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spatha_2" />
+      <equipment slot="Item1"
+                 id="Item.be_ranger_bow" />
+      <equipment slot="Item2"
+                 id="Item.be_bodkin_arrows_c" />	
+      <equipment slot="Item3"
+                 id="Item.be_bodkin_arrows_c" />					 
+      <equipment slot="Head"
+                 id="Item.be_german_helm_intercisa_wolf" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.battania_scarf_a" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spatha_2" />
+      <equipment slot="Item1"
+                 id="Item.be_ranger_bow" />
+      <equipment slot="Item2"
+                 id="Item.be_bodkin_arrows_c" />	
+      <equipment slot="Item3"
+                 id="Item.be_bodkin_arrows_c" />					 
+      <equipment slot="Head"
+                 id="Item.be_german_helm_intercisa_wolf" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_maille_beater_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.battania_scarf_a" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+<NPCCharacter id="be_nordic_thrall_huntsman" default_group="Ranged" level="11" name="{=be_nordic_thrall_huntsman}Nordic Thrall Huntsman" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_nordic_javelinman"/>
+			<upgrade_target id="NPCCharacter.be_nordic_slinger"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_1" />
+      <equipment slot="Item2"
+                 id="Item.be_german_javelin_1" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_dagger_1" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Head"
+                 id="Item.be_german_hood_a" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_1" />
+      <equipment slot="Item2"
+                 id="Item.be_german_javelin_1" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_dagger_2" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed2" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Head"
+                 id="Item.be_german_hood_b" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_1" />
+      <equipment slot="Item2"
+                 id="Item.be_german_javelin_1" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_dagger_1" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Head"
+                 id="Item.be_german_hood_a" />						 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_1" />
+      <equipment slot="Item2"
+                 id="Item.be_german_javelin_1" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_dagger_1" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed2" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Head"
+                 id="Item.be_german_hood_a" />						 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_javelinman" default_group="Ranged" level="16" name="{=be_nordic_javelinman}Nordic Javelinman" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_nordic_heavy_javelinman"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_axe_1" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_colored" />						 
+      <equipment slot="Head"
+                 id="Item.be_german_hood_b" />				 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_semispatha_1" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_german_hood_a" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_mace_1" />		
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_2" />						 
+      <equipment slot="Head"
+                 id="Item.be_german_hood_b" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />					 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_mace_1" />		
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_2" />						 
+      <equipment slot="Head"
+                 id="Item.be_german_hood_b" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_heavy_javelinman" default_group="Ranged" level="21" name="{=be_nordic_heavy_javelinman}Nordic Heavy Javelinman" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_spatha_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_colored" />						 
+      <equipment slot="Head"
+                 id="Item.be_german_heddern_nocheeks" />		
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_dyed2" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_spatha_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_1" />				 
+      <equipment slot="Head"
+                 id="Item.be_germ_augsberg_cheeks" />		
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_spatha_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_battanian_skull_cap" />		
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_blue" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />						 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item1"
+                 id="Item.be_german_javelin_2" />
+      <equipment slot="Item2"
+                 id="Item.be_german_spatha_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_thorsberg_shield_small_1" />						 
+      <equipment slot="Head"
+                 id="Item.be_german_heddern_nocheeks" />		
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />						 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_slinger" default_group="Ranged" level="16" name="{=be_nordic_slinger}Nordic Slinger" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_nordic_veteran_slinger"/>
+			<upgrade_target id="NPCCharacter.be_nordic_bowman"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_2" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_axe_1" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap" />				 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_2" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_axe_1" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap2" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_2" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones" />		
+      <equipment slot="Item3"
+                 id="Item.be_german_axe_1" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />					 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_sling_2" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones" />		
+      <equipment slot="Item3"
+                 id="Item.be_german_axe_1" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_veteran_slinger" default_group="Ranged" level="21" name="{=be_nordic_veteran_slinger}Nordic Veteran Slinger" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_3" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones_2" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_axe_2" />						 
+      <equipment slot="Head"
+                 id="Item.be_augsburg_1_helmet_iron" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_3" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones_2" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_axe_2" />				 
+      <equipment slot="Head"
+                 id="Item.be_germ_augsberg_cheeks" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />						 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_sling_3" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones_2" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_axe_2" />						 
+      <equipment slot="Head"
+                 id="Item.be_augsburg_1_helmet_steel" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />						 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_sling_3" />
+      <equipment slot="Item1"
+                 id="Item.be_sling_stones_2" />
+      <equipment slot="Item2"
+                 id="Item.be_sling_stones_2" />	
+      <equipment slot="Item3"
+                 id="Item.be_german_axe_2" />						 
+      <equipment slot="Head"
+                 id="Item.be_augsburg_1_helmet_steel" />		
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />						 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_bowman" default_group="Ranged" level="21" name="{=be_nordic_bowman}Nordic Bowman" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_mace_3" />
+      <equipment slot="Item1"
+                 id="Item.be_composite_shortbow" />
+      <equipment slot="Item2"
+                 id="Item.be_piercing_arrows" />	
+      <equipment slot="Item3"
+                 id="Item.be_piercing_arrows" />
+      <equipment slot="Head"
+                 id="Item.be_german_hood_b" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />		 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spatha_2" />
+      <equipment slot="Item1"
+                 id="Item.be_short_bow" />
+      <equipment slot="Item2"
+                 id="Item.be_piercing_arrows" />	
+      <equipment slot="Item3"
+                 id="Item.be_piercing_arrows" />
+      <equipment slot="Head"
+                 id="Item.be_german_hood_a" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" /> 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_mace_3" />
+      <equipment slot="Item1"
+                 id="Item.be_longbow" />
+      <equipment slot="Item2"
+                 id="Item.be_piercing_arrows" />	
+      <equipment slot="Item3"
+                 id="Item.be_piercing_arrows" />					 
+      <equipment slot="Head"
+                 id="Item.be_german_hood_b" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />			 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spatha_2" />
+      <equipment slot="Item1"
+                 id="Item.be_composite_shortbow" />
+      <equipment slot="Item2"
+                 id="Item.be_piercing_arrows" />	
+      <equipment slot="Item3"
+                 id="Item.be_piercing_arrows" />					 
+      <equipment slot="Head"
+                 id="Item.be_german_hood_b" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_doubletunic_1" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />	 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="be_nordic_thrall" default_group="Infantry" level="6" name="{=be_nordic_thrall}Nordic Thrall" occupation="Soldier" is_basic_troop="true" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_nordic_thrall_footman"/>
+			<upgrade_target id="NPCCharacter.be_nordic_thrall_huntsman"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_dagger_2" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_2" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_dagger_1" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_1" />	
+      <equipment slot="Body"
+                 id="Item.be_germ_tun_stripered" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_dagger_2" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_colored" />
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_german_dagger_1" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_2" />	
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_2_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_thrall_footman" default_group="Infantry" level="11" name="{=be_nordic_thrall_footman}Nordic Thrall Footman" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_nordic_footman"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_3" />				 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap" />
+      <equipment slot="Body"
+                 id="Item.be_german_bluedot" />
+      <equipment slot="Leg"
+                 id="Item.be_german_lengeneer_orange" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_4" />				 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap2" />						 
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_colored" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap3" />
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_blue" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_1" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_3" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_leathercap" />
+      <equipment slot="Body"
+                 id="Item.be_german_tunic_1_blue" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_footman" default_group="Infantry" level="16" name="{=be_nordic_footman}Nordic Footman" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_nordic_seasoned_footman"/>
+			<upgrade_target id="NPCCharacter.be_nordic_berserker"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_3" />				 
+      <equipment slot="Head"
+                 id="Item.be_berkasovo_2_helmet_cap" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_4" />		
+      <equipment slot="Head"
+                 id="Item.be_germ_augsbergbare" />				 
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_dyed2" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_colored" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_augsberg_nada" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_blue" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_2" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_3" />						 
+      <equipment slot="Head"
+                 id="Item.be_germ_augsberg_nada" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_dyed" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_seasoned_footman" default_group="Infantry" level="21" name="{=be_nordic_seasoned_footman}Nordic Seasoned Footman" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.be_nordic_hearthguard"/>
+			<upgrade_target id="NPCCharacter.be_nordic_cavalryman"/>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_10" />				 
+      <equipment slot="Head"
+                 id="Item.be_augsburg_2_helmet_iron" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_8" />		
+      <equipment slot="Head"
+                 id="Item.be_berkasovo_2_helmet_iron" />				 
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_german_campagi_legwrapbrown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_3" />						 
+      <equipment slot="Head"
+                 id="Item.be_augsburg_1_helmet_steel" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_thorsberg_shield_germanic_10" />
+      <equipment slot="Head"
+                 id="Item.be_augsburg_1_helmet_steel" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_german_tiroshoe_legwrap_brown" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_hearthguard" default_group="Infantry" level="26" name="{=be_nordic_hearthguard}Nordic Hearthguard" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_germanic_8" />
+      <equipment slot="Head"
+                 id="Item.be_augsburg_2_helmet_boar" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_noble" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_german_thick_dyed_cape" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_germanic_10" />
+      <equipment slot="Head"
+                 id="Item.be_germ_augsberg_nose_cheek" />				 
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_german_thick_dyed_cape" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_nydam" />			 
+      <equipment slot="Head"
+                 id="Item.be_empire_lord_helmet_g" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_noble" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_german_thick_dyed_cape" />	 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_germanic_10" />		
+      <equipment slot="Head"
+                 id="Item.be_augsburg_2_helmet_boar" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoe_greaves" />
+      <equipment slot="Cape"
+                 id="Item.be_german_thick_dyed_cape" />	 
+      </EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="be_nordic_cavalryman" default_group="Cavalry" level="26" name="{=be_nordic_cavalryman}Nordic Cavalryman" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.angle">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_5" />						 
+      <equipment slot="Head"
+                 id="Item.be_augsburg_1_helmet_steel" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_spatha_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_nydam" />						 
+      <equipment slot="Head"
+                 id="Item.be_empire_lord_helmet_g" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_2" />						 
+      <equipment slot="Head"
+                 id="Item.be_german_face_mask_iron" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+      <equipment slot="Item0"
+                 id="Item.be_german_spear_3" />
+      <equipment slot="Item1"
+                 id="Item.be_german_axe_3" />
+      <equipment slot="Item2"
+                 id="Item.be_thorsberg_shield_small_5" />						 
+      <equipment slot="Head"
+                 id="Item.be_augsburg_1_helmet_steel" />
+      <equipment slot="Body"
+                 id="Item.be_germ_body_mail_long_gray" />
+      <equipment slot="Leg"
+                 id="Item.be_roman_brownshoeshin_gulag" />
+      <equipment slot="Cape"
+                 id="Item.be_german_hood_a2" />				 
+      </EquipmentRoster>
+			<equipment slot="Horse" id="Item.sturgia_horse"/>
+			<equipment slot="HorseHarness" id="Item.be_german_horse_harness_medium"/>
+		</Equipments>
+	</NPCCharacter>
 
 
 
