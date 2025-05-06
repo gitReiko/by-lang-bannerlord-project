@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
  <strings>
-  <string id="town_azak_name" text="Azak"/>
-  <string id="town_azak_text" text="Azak text..."/>
+  <!--input/settlements/settlements.xml-->
+  <string id="town_azak_name" text="Azoŭ"/>
+  <string id="town_azak_text" text="Azoŭ text..."/>
   <string id="a0MVffcN" text="Hłuchaja Vulica"/>
   <string id="LWHIVshb" text="Vysieka"/>
   <string id="Rr1cy5Sk" text="Nabiarežnaja"/>
@@ -190,11 +191,9 @@
   <string id="town_reims_chalons_text" text="Šałun text..."/>
   <string id="town_reims_quentin_name" text="Sen-Kontan"/>
   <string id="town_reims_quentin_text" text="Sen-Kontan text..."/>
-  <string id="castle_antwerp_name" text="Zamak Chet Ściin"/>
-  <string id="castle_antwerp_brussels_name" text="Brusel"/>
-  <string id="castle_antwerp_brussels_text" text="Brusel text..."/>
-  <string id="castle_antwerp_ghent_name" text="Hent"/>
-  <string id="castle_antwerp_ghent_text" text="Hent text..."/>
+  <string id="castle_antwerp_name" text="Zamak Chejsvajk"/>
+  <string id="castle_antwerp_maastricht_name" text="Maastrycht"/>
+  <string id="castle_antwerp_maastricht_text" text="Maastrycht text..."/>
   <string id="castle_talmont_name" text="Zamak Talmun"/>
   <string id="castle_talmont_bressuire_name" text="Breśsiuir"/>
   <string id="castle_talmont_bressuire_text" text="Breśsiuir text..."/>
@@ -225,6 +224,9 @@
   <string id="town_auch_aire_text" text="Er text..."/>
   <string id="town_auch_pau_name" text="Pu"/>
   <string id="town_auch_pau_text" text="Pu text..."/>
+  <string id="castle_bayonne_name" text="Zamak Bajon"/>
+  <string id="castle_bayonne_dax_name" text="Dyžon"/>
+  <string id="castle_bayonne_dax_text" text="Dyžon text..."/>
   <string id="town_toulouse_name" text="Tułuz"/>
   <string id="town_toulouse_text" text="Tułuz text..."/>
   <string id="town_toulouse_carcassonne_name" text="Karkasson"/>
@@ -258,10 +260,6 @@
   <string id="town_marseilles_sisteron_text" text="Sisterun text..."/>
   <string id="town_marseilles_tropez_name" text="Sen-Trope"/>
   <string id="town_marseilles_tropez_text" text="Sen-Trope text..."/>
-  <string id="town_marseilles_montpellier_name" text="Munpulje"/>
-  <string id="town_marseilles_montpellier_text" text="Munpulje text..."/>
-  <string id="town_marseilles_ales_name" text="Ales"/>
-  <string id="town_marseilles_ales_text" text="Ales text..."/>
   <string id="town_metz_name" text="Miec"/>
   <string id="town_metz_text" text="Miec text..."/>
   <string id="town_metz_trier_name" text="Tryr"/>
@@ -759,7 +757,8 @@
   <string id="town_hamedan_zizar_text" text="Zizar text..."/>
   <string id="town_hamedan_baneh_name" text="Bachar"/>
   <string id="town_hamedan_baneh_text" text="Bachar text..."/>
-  <string id="castle_rey_name" text="Zamak Rej"/>
+  <string id="town_rey_name" text="Tehieran"/>
+  <string id="town_rey_text" text="Tehieran text..."/>
   <string id="castle_rey_saavakineh_name" text="Saavakinech"/>
   <string id="castle_rey_saavakineh_text" text="Saavakinech text..."/>
   <string id="castle_rey_qazvin_name" text="Kaźvin"/>
@@ -1004,7 +1003,8 @@
   <string id="castle_larissa_name" text="Zamak Łarysa"/>
   <string id="castle_larissa_demetrias_name" text="Dziemietryas"/>
   <string id="castle_larissa_demetrias_text" text="Dziemietryas text..."/>
-  <string id="castle_athens_name" text="Zamak Afiny"/>
+  <string id="town_athens_name" text="Afiny"/>
+  <string id="town_athens_text" text="Afiny text..."/>
   <string id="castle_athens_calchis_name" text="Chałkida"/>
   <string id="castle_athens_calchis_text" text="Chałkida text..."/>
   <string id="town_corinth_name" text="Karynf"/>
@@ -1062,8 +1062,8 @@
   <string id="town_pula_trieste_text" text="Tryest text..."/>
   <string id="town_pula_trsat_name" text="Trsat"/>
   <string id="town_pula_trsat_text" text="Trsat text..."/>
-  <string id="town_sisak_name" text="Sisak"/>
-  <string id="town_sisak_text" text="Sisak text..."/>
+  <string id="town_sisak_name" text="Zahrab"/>
+  <string id="town_sisak_text" text="Zahrab text..."/>
   <string id="town_sisak_vinica_name" text="Vinica"/>
   <string id="town_sisak_vinica_text" text="Vinica text..."/>
   <string id="town_sisak_gradec_name" text="Hradiec"/>
@@ -1357,7 +1357,7 @@
   <string id="town_ribe_starup_text" text="Starup text..."/>
   <string id="town_ribe_ringkobing_name" text="Rynkopin"/>
   <string id="town_ribe_ringkobing_text" text="Rynkopin text..."/>
-  <string id="castle_viborg_name" text="Zamak Vipo"/>
+  <string id="castle_viborg_name" text="Farteca Vibarh"/>
   <string id="castle_viborg_ry_name" text="Ry"/>
   <string id="castle_viborg_ry_text" text="Ry text..."/>
   <string id="town_aalborg_name" text="Olborh"/>
@@ -1384,7 +1384,7 @@
   <string id="town_lund_simrishamn_text" text="Simryschamn text..."/>
   <string id="town_lund_aakirkeby_name" text="Okirkiebiu"/>
   <string id="town_lund_aakirkeby_text" text="Okirkiebiu text..."/>
-  <string id="castle_helsingborg_name" text="Zamak Chełsinborh"/>
+  <string id="castle_helsingborg_name" text="Farteca Chełsinborh"/>
   <string id="castle_helsingborg_vae_name" text="Vaj"/>
   <string id="castle_helsingborg_vae_text" text="Vaj text..."/>
   <string id="castle_helsingborg_halmstad_name" text="Chalmstad"/>
@@ -1423,8 +1423,8 @@
   <string id="town_linkoping_odeshog_text" text="Edeśchioh text..."/>
   <string id="town_linkoping_soderkoping_name" text="Sioderšopin"/>
   <string id="town_linkoping_soderkoping_text" text="Sioderšopin text..."/>
-  <string id="town_sigtuna_name" text="Sihtuna"/>
-  <string id="town_sigtuna_text" text="Sihtuna text..."/>
+  <string id="town_sigtuna_name" text="Stakholm"/>
+  <string id="town_sigtuna_text" text="Stakholm text..."/>
   <string id="town_sigtuna_sodertalje_name" text="Siodertelje"/>
   <string id="town_sigtuna_sodertalje_text" text="Siodertelje text..."/>
   <string id="town_sigtuna_vasteras_name" text="Vesteros"/>
@@ -1450,12 +1450,12 @@
   <string id="town_stavanger_landa_text" text="Łanda text..."/>
   <string id="town_stavanger_soknardal_name" text="Soknardał"/>
   <string id="town_stavanger_soknardal_text" text="Soknardał text..."/>
-  <string id="town_stavanger_vestragdir_name" text="Vestr-Ahdzir"/>
-  <string id="town_stavanger_vestragdir_text" text="Vestr-Ahdzir text..."/>
+  <string id="town_stavanger_vestragdir_name" text="Lindesnes"/>
+  <string id="town_stavanger_vestragdir_text" text="Lindesnes text..."/>
   <string id="town_arendal_name" text="Arendal"/>
   <string id="town_arendal_text" text="Arendal text..."/>
-  <string id="town_arendal_austragdir_name" text="Aŭstr-Ahdzir"/>
-  <string id="town_arendal_austragdir_text" text="Aŭstr-Ahdzir text..."/>
+  <string id="town_arendal_austragdir_name" text="Hrymstad"/>
+  <string id="town_arendal_austragdir_text" text="Hrymstad text..."/>
   <string id="town_arendal_risor_name" text="Rysor"/>
   <string id="town_arendal_risor_text" text="Rysor text..."/>
   <string id="town_oslo_name" text="Osła"/>
@@ -1510,10 +1510,10 @@
   <string id="town_twangste_labiala_text" text="Łabiaŭ"/>
   <string id="town_twangste_tummonis_name" text="Ordensburh"/>
   <string id="town_twangste_tummonis_text" text="Ordensburh"/>
-  <string id="castle_rezel_name" text="Zamak Rešal"/>
+  <string id="castle_rezel_name" text="Farteca Rešal"/>
   <string id="castle_rezel_girdawe_name" text="Hierdaŭen"/>
   <string id="castle_rezel_girdawe_text" text="Hierdaŭen"/>
-  <string id="castle_nida_name" text="Zamak Nida"/>
+  <string id="castle_nida_name" text="Farteca Nida"/>
   <string id="castle_nida_gudde_name" text="Hutenštat"/>
   <string id="castle_nida_gudde_text" text="Hutenštat"/>
   <string id="castle_chelmno_name" text="Zamak Chełmno"/>
@@ -1557,10 +1557,10 @@
   <string id="castle_wlocwalek_name" text="Zamak Vłocłaviek"/>
   <string id="castle_wlocwalek_konin_name" text="Konin"/>
   <string id="castle_wlocwalek_konin_text" text="Konin text..."/>
-  <string id="castle_kaarma_name" text="Zamak Arensburh"/>
+  <string id="castle_kaarma_name" text="Farteca Arensburh"/>
   <string id="castle_kaarma_kaina_name" text="Kiejna"/>
   <string id="castle_kaarma_kaina_text" text="Kiejna"/>
-  <string id="castle_varbola_name" text="Zamak Piarnaŭ"/>
+  <string id="castle_varbola_name" text="Farteca Piarnaŭ"/>
   <string id="castle_varbola_virtsu_name" text="Vierder"/>
   <string id="castle_varbola_virtsu_text" text="Vierder"/>
   <string id="town_iru_name" text="Reval"/>
@@ -1568,10 +1568,10 @@
   <string id="town_iru_haapsalu_text" text="Chapsal"/>
   <string id="town_iru_paide_name" text="Vittenštajn"/>
   <string id="town_iru_paide_text" text="Vittenštajn"/>
-  <string id="castle_rakvere_name" text="Zamak Viesenbierh"/>
+  <string id="castle_rakvere_name" text="Farteca Viesenbierh"/>
   <string id="castle_rakvere_kukruse_name" text="Kukarus"/>
   <string id="castle_rakvere_kukruse_text" text="Kukarus"/>
-  <string id="castle_tartu_name" text="Zamak Dorpat"/>
+  <string id="castle_tartu_name" text="Farteca Dorpat"/>
   <string id="castle_tartu_viljandi_name" text="Fellin"/>
   <string id="castle_tartu_viljandi_text" text="Fellin"/>
   <string id="town_valmiera_name" text="Volmar"/>
@@ -1586,7 +1586,7 @@
   <string id="town_riga_limbazi_text" text="Lemsachł"/>
   <string id="town_riga_lielvarde_name" text="Lennevarden"/>
   <string id="town_riga_lielvarde_text" text="Lennevarden"/>
-  <string id="castle_aluksne_name" text="Zamak Maryjenburh"/>
+  <string id="castle_aluksne_name" text="Farteca Maryjenburh"/>
   <string id="castle_aluksne_rezekne_name" text="Roziten"/>
   <string id="castle_aluksne_rezekne_text" text="Roziten"/>
   <string id="town_ventspils_name" text="Vindaŭ"/>
@@ -1595,22 +1595,22 @@
   <string id="town_ventspils_talsi_text" text="Talsen"/>
   <string id="town_ventspils_kuldiga_name" text="Holdzinhien"/>
   <string id="town_ventspils_kuldiga_text" text="Holdzinhien"/>
-  <string id="castle_grobin_name" text="Zamak Hrobinia"/>
+  <string id="castle_grobin_name" text="Farteca Hrobinia"/>
   <string id="castle_grobin_impilla_name" text="Impiłła"/>
   <string id="castle_grobin_impilla_text" text="Impiłła text..."/>
   <string id="castle_klaipeda_name" text="Zamak Miemiel"/>
   <string id="castle_klaipeda_veivirzenai_name" text="Viviršen"/>
   <string id="castle_klaipeda_veivirzenai_text" text="Viviršen"/>
-  <string id="castle_dubysa_name" text="Zamak Dubisa"/>
+  <string id="castle_dubysa_name" text="Farteca Dubisa"/>
   <string id="castle_dubysa_rutve_name" text="Rutve"/>
   <string id="castle_dubysa_rutve_text" text="Rutve text..."/>
-  <string id="castle_dubene_name" text="Zamak Dobieśbierh"/>
+  <string id="castle_dubene_name" text="Farteca Dobieśbierh"/>
   <string id="castle_dubene_zagare_name" text="Šaharen"/>
   <string id="castle_dubene_zagare_text" text="Šaharen"/>
-  <string id="castle_jelgava_name" text="Zamak Mitaŭ"/>
+  <string id="castle_jelgava_name" text="Farteca Mitaŭ"/>
   <string id="castle_jelgava_tukums_name" text="Tukum"/>
   <string id="castle_jelgava_tukums_text" text="Tukum text..."/>
-  <string id="castle_upyte_name" text="Zamak Upite"/>
+  <string id="castle_upyte_name" text="Farteca Upite"/>
   <string id="castle_upyte_pernarava_name" text="Piernarava"/>
   <string id="castle_upyte_pernarava_text" text="Piernarava text..."/>
   <string id="town_raseiniai_name" text="Rasiejniaj"/>
@@ -1619,10 +1619,10 @@
   <string id="town_raseiniai_kolainiai_text" text="Kołajniaj text..."/>
   <string id="town_raseiniai_vilkija_name" text="Vilkija"/>
   <string id="town_raseiniai_vilkija_text" text="Vilkija text..."/>
-  <string id="castle_kaunas_name" text="Zamak Kaŭnas"/>
+  <string id="castle_kaunas_name" text="Farteca Kaŭnas"/>
   <string id="castle_kaunas_streva_name" text="Streva"/>
   <string id="castle_kaunas_streva_text" text="Streva text..."/>
-  <string id="castle_vecumnieki_name" text="Zamak Nieŭhut"/>
+  <string id="castle_vecumnieki_name" text="Farteca Nieŭhut"/>
   <string id="castle_vecumnieki_paswalys_name" text="Pasvol"/>
   <string id="castle_vecumnieki_paswalys_text" text="Pasvol"/>
   <string id="town_jersika_name" text="Kokienchuzen"/>
@@ -1631,7 +1631,7 @@
   <string id="town_jersika_nereta_text" text="Nierft"/>
   <string id="town_jersika_daugavpils_name" text="Noviene"/>
   <string id="town_jersika_daugavpils_text" text="Noviene"/>
-  <string id="castle_utena_name" text="Zamak Uciana"/>
+  <string id="castle_utena_name" text="Farteca Uciana"/>
   <string id="castle_utena_svir_name" text="Śvir"/>
   <string id="castle_utena_svir_text" text="Śvir text..."/>
   <string id="castle_braslau_name" text="Zamak Brasłaŭ"/>
@@ -1652,13 +1652,13 @@
   <string id="castle_larnaka_name" text="Zamak Łarnaka"/>
   <string id="castle_larnaka_constantia_name" text="Konstatyja"/>
   <string id="castle_larnaka_constantia_text" text="Konstatyja text..."/>
-  <string id="castle_vaukavysk_name" text="Zamak Vaŭkavysk"/>
+  <string id="castle_vaukavysk_name" text="Farteca Vaŭkavysk"/>
   <string id="castle_vaukavysk_svislac_hrodzienskaja_name" text="Śvisłač-Hrodzienskaja"/>
   <string id="castle_vaukavysk_svislac_hrodzienskaja_text" text="Śvisłač-Hrodzienskaja text..."/>
-  <string id="castle_hrodna_name" text="Zamak Hrodna"/>
+  <string id="castle_hrodna_name" text="Farteca Hrodna"/>
   <string id="castle_hrodna_astryna_name" text="Astryna"/>
   <string id="castle_hrodna_astryna_text" text="Astryna text..."/>
-  <string id="castle_kirsnava_name" text="Zamak Łaździjaj"/>
+  <string id="castle_kirsnava_name" text="Farteca Łaździjaj"/>
   <string id="castle_kirsnava_rychtyn_name" text="Rychtyn"/>
   <string id="castle_kirsnava_rychtyn_text" text="Rychtyn text..."/>
   <string id="town_kernave_name" text="Vilnius"/>
@@ -1728,7 +1728,7 @@
   <string id="town_szabolcs_tokaj_text" text="Tokaj text..."/>
   <string id="town_szabolcs_borsod_name" text="Boršad"/>
   <string id="town_szabolcs_borsod_text" text="Boršad text..."/>
-  <string id="castle_borsova_name" text="Zamak Baršova"/>
+  <string id="castle_borsova_name" text="Farteca Baršova"/>
   <string id="castle_borsova_szatamar_name" text="Satamar"/>
   <string id="castle_kraszna_name" text="Zamak Krasna"/>
   <string id="castle_kraszna_doboka_name" text="Daboka"/>
@@ -1773,7 +1773,7 @@
   <string id="town_pitesti_corabla_text" text="Korabła text..."/>
   <string id="town_pitesti_craiova_name" text="Krajova"/>
   <string id="town_pitesti_craiova_text" text="Krajova text..."/>
-  <string id="castle_zvenyhorod_name" text="Zamak Lviv"/>
+  <string id="castle_zvenyhorod_name" text="Farteca Lviv"/>
   <string id="castle_zvenyhorod_stryi_name" text="Stryj"/>
   <string id="castle_zvenyhorod_stryi_text" text="Stryj text..."/>
   <string id="town_halych_name" text="Hałyč"/>
@@ -1790,12 +1790,12 @@
   <string id="town_shumsk_mykhniv_text" text="Mychniv text..."/>
   <string id="town_shumsk_hrytsiv_name" text="Hryciv"/>
   <string id="town_shumsk_hrytsiv_text" text="Hryciv text..."/>
-  <string id="castle_terebovila_name" text="Zamak Cierabovla"/>
+  <string id="castle_terebovila_name" text="Farteca Cierabovla"/>
   <string id="castle_terebovila_kamianets_podilskyi_name" text="Kamianiec-Padolski"/>
   <string id="castle_terebovila_kamianets_podilskyi_text" text="Kamianiec-Padolski text..."/>
   <string id="castle_terebovila_lomachyntsi_name" text="Łomačynci"/>
   <string id="castle_terebovila_lomachyntsi_text" text="Łomačynci text..."/>
-  <string id="castle_busk_name" text="Zamak Busk"/>
+  <string id="castle_busk_name" text="Farteca Busk"/>
   <string id="castle_busk_belz_name" text="Bielz"/>
   <string id="castle_busk_belz_text" text="Bielz text..."/>
   <string id="town_peremyshl_name" text="Pšemyśl"/>
@@ -1815,10 +1815,10 @@
   <string id="town_volodymyr_ratne_text" text="Ratne text..."/>
   <string id="town_volodymyr_szczebrzeszyn_name" text="Ščebžešyn"/>
   <string id="town_volodymyr_szczebrzeszyn_text" text="Ščebžešyn text..."/>
-  <string id="castle_lutsk_name" text="Zamak Łuck"/>
+  <string id="castle_lutsk_name" text="Farteca Łuck"/>
   <string id="castle_lutsk_peresopnytsia_name" text="Pierasopnycia"/>
   <string id="castle_lutsk_peresopnytsia_text" text="Pierasopnycia text..."/>
-  <string id="castle_dorogobuzh_name" text="Zamak Darahabuž"/>
+  <string id="castle_dorogobuzh_name" text="Farteca Darahabuž"/>
   <string id="castle_dorogobuzh_korets_name" text="Karec"/>
   <string id="castle_dorogobuzh_korets_text" text="Karec text..."/>
   <string id="town_brest_name" text="Bieraście"/>
@@ -1827,7 +1827,7 @@
   <string id="town_brest_kobrin_text" text="Kobryn text..."/>
   <string id="town_brest_dziencloly_name" text="Dženčyoły"/>
   <string id="town_brest_dziencloly_text" text="Dženčyoły text..."/>
-  <string id="castle_dubrovytsia_name" text="Zamak Dubrovycia"/>
+  <string id="castle_dubrovytsia_name" text="Farteca Dubrovycia"/>
   <string id="castle_dubrovytsia_stepan_name" text="Ściepań"/>
   <string id="castle_dubrovytsia_stepan_text" text="Ściepań text..."/>
   <string id="town_korosten_name" text="Koraścień"/>
@@ -1844,10 +1844,10 @@
   <string id="town_turau_haradok_text" text="Davyd-Haradok text..."/>
   <string id="town_turau_stolin_name" text="Stolin"/>
   <string id="town_turau_stolin_text" text="Stolin text..."/>
-  <string id="castle_mazyr_name" text="Zamak Mazyr"/>
+  <string id="castle_mazyr_name" text="Farteca Mazyr"/>
   <string id="castle_mazyr_pietrykau_name" text="Pietrykaŭ"/>
   <string id="castle_mazyr_pietrykau_text" text="Pietrykaŭ text..."/>
-  <string id="castle_sluck_name" text="Zamak Słuck"/>
+  <string id="castle_sluck_name" text="Farteca Słuck"/>
   <string id="castle_sluck_nleck_name" text="Kleck"/>
   <string id="castle_sluck_nleck_text" text="Kleck text..."/>
   <string id="town_miensk_name" text="Miensk"/>
@@ -1856,22 +1856,22 @@
   <string id="town_miensk_svislac_text" text="Śvisłač-Mienskaja text..."/>
   <string id="town_miensk_barysau_name" text="Barysaŭ"/>
   <string id="town_miensk_barysau_text" text="Barysaŭ text..."/>
-  <string id="castle_zaslauje_name" text="Zamak Zasłaŭje"/>
+  <string id="castle_zaslauje_name" text="Farteca Zasłaŭje"/>
   <string id="castle_zaslauje_lahojsk_name" text="Łahojsk"/>
   <string id="castle_zaslauje_lahojsk_text" text="Łahojsk text..."/>
-  <string id="castle_pinsk_name" text="Zamak Pinsk"/>
+  <string id="castle_pinsk_name" text="Farteca Pinsk"/>
   <string id="castle_pinsk_neblia_name" text="Niebla"/>
   <string id="castle_pinsk_neblia_text" text="Niebla text..."/>
-  <string id="castle_medzhybizh_name" text="Zamak Miedžybiž"/>
+  <string id="castle_medzhybizh_name" text="Farteca Miedžybiž"/>
   <string id="castle_medzhybizh_miropil_name" text="Miropal"/>
   <string id="castle_medzhybizh_miropil_text" text="Miropal text..."/>
-  <string id="castle_mahilou_name" text="Zamak Mahiloŭ"/>
+  <string id="castle_mahilou_name" text="Farteca Mahiloŭ"/>
   <string id="castle_mahilou_rahacou_name" text="Rahačoŭ"/>
   <string id="castle_mahilou_rahacou_text" text="Rahačoŭ text..."/>
-  <string id="castle_lukoml_name" text="Zamak Łukoml"/>
+  <string id="castle_lukoml_name" text="Farteca Łukoml"/>
   <string id="castle_lukoml_kamajsk_name" text="Kamajsk"/>
   <string id="castle_lukoml_kamajsk_text" text="Kamajsk text..."/>
-  <string id="castle_orsa_name" text="Zamak Orša"/>
+  <string id="castle_orsa_name" text="Farteca Orša"/>
   <string id="castle_orsa_druck_name" text="Druck"/>
   <string id="castle_orsa_druck_text" text="Druck text..."/>
   <string id="town_polack_name" text="Połack"/>
@@ -1922,10 +1922,10 @@
   <string id="town_tyver_volokolamsk_text" text="Vołakałamsk text..."/>
   <string id="town_tyver_klimovo_name" text="Klimova"/>
   <string id="town_tyver_klimovo_text" text="Klimova text..."/>
-  <string id="castle_torzok_name" text="Zamak Taržok"/>
+  <string id="castle_torzok_name" text="Farteca Taržok"/>
   <string id="castle_torzok_volochek_name" text="Vołačiek"/>
   <string id="castle_torzok_volochek_text" text="Vołačiek text..."/>
-  <string id="castle_velikiye_name" text="Zamak Vialikija Łuki"/>
+  <string id="castle_velikiye_name" text="Farteca Vialikija Łuki"/>
   <string id="castle_velikiye_jemianiek_name" text="Jemianiec"/>
   <string id="castle_velikiye_jemianiek_text" text="Jemianiec text..."/>
   <string id="town_pskov_name" text="Pskov"/>
@@ -1936,7 +1936,7 @@
   <string id="town_pskov_izborsk_text" text="Izborsk text..."/>
   <string id="town_pskov_mikhailovskoe_name" text="Michajłavskaje"/>
   <string id="town_pskov_mikhailovskoe_text" text="Michajłavskaje text..."/>
-  <string id="castle_toropets_name" text="Zamak Taropiec"/>
+  <string id="castle_toropets_name" text="Farteca Taropiec"/>
   <string id="castle_toropets_velinskoe_name" text="Vielinskaje"/>
   <string id="castle_toropets_velinskoe_text" text="Vielinskaje text..."/>
   <string id="castle_toropets_peschakhi_name" text="Pieščachi"/>
@@ -1949,7 +1949,7 @@
   <string id="town_zubstov_karmanovo_text" text="Karmanova text..."/>
   <string id="town_zubstov_eltsy_name" text="Jelcy"/>
   <string id="town_zubstov_eltsy_text" text="Jelcy text..."/>
-  <string id="castle_verzhavsk_name" text="Zamak Vieržavsk"/>
+  <string id="castle_verzhavsk_name" text="Farteca Vieržavsk"/>
   <string id="castle_verzhavsk_velisto_name" text="Vielista"/>
   <string id="castle_verzhavsk_velisto_text" text="Vielista text..."/>
   <string id="castle_viazma_name" text="Zamak Viaźma"/>
@@ -2012,16 +2012,16 @@
   <string id="town_pereiaslav_pryluky_text" text="Pryłuki text..."/>
   <string id="town_pereiaslav_zolotonosha_name" text="Zołatanoša"/>
   <string id="town_pereiaslav_zolotonosha_text" text="Zołatanoša text..."/>
-  <string id="castle_oster_name" text="Zamak Oster"/>
+  <string id="castle_oster_name" text="Farteca Oster"/>
   <string id="castle_oster_nizhyn_name" text="Nižyn"/>
   <string id="castle_oster_nizhyn_text" text="Nižyn text..."/>
-  <string id="castle_kaniv_name" text="Zamak Kaniv"/>
+  <string id="castle_kaniv_name" text="Farteca Kaniv"/>
   <string id="castle_kaniv_rosava_name" text="Rosava"/>
   <string id="castle_kaniv_rosava_text" text="Rosava text..."/>
-  <string id="castle_lubny_name" text="Zamak Łubny"/>
+  <string id="castle_lubny_name" text="Farteca Łubny"/>
   <string id="castle_lubny_myrhorod_name" text="Myrharad"/>
   <string id="castle_lubny_myrhorod_text" text="Myrharad text..."/>
-  <string id="castle_korsun_name" text="Zamak Korsuń"/>
+  <string id="castle_korsun_name" text="Farteca Korsuń"/>
   <string id="castle_korsun_sakhnivka_name" text="Sachnivka"/>
   <string id="castle_korsun_sakhnivka_text" text="Sachnivka text..."/>
   <string id="castle_khadjibey_name" text="Zamak Chadžybiej"/>
@@ -2035,10 +2035,10 @@
   <string id="town_mauricastro_causeni_text" text="Stryj text..."/>
   <string id="town_mauricastro_orhei_name" text="Orchiej"/>
   <string id="town_mauricastro_orhei_text" text="Orchiej text..."/>
-  <string id="castle_starodub_name" text="Zamak Staradub"/>
+  <string id="castle_starodub_name" text="Farteca Staradub"/>
   <string id="castle_starodub_chocimsk_name" text="Chocimsk"/>
   <string id="castle_starodub_chocimsk_text" text="Chocimsk text..."/>
-  <string id="castle_roslavl_name" text="Zamak Rosłavl"/>
+  <string id="castle_roslavl_name" text="Farteca Rosłavl"/>
   <string id="castle_roslavl_nikiforovskoe_name" text="Nikiforavskaje"/>
   <string id="castle_roslavl_nikiforovskoe_text" text="Nikiforavskaje text..."/>
   <string id="town_trubchevsk_name" text="Trubčevsk"/>
@@ -2049,22 +2049,22 @@
   <string id="town_trubchevsk_vshchizh_text" text="Vščyž text..."/>
   <string id="town_trubchevsk_radogoshch_name" text="Radahošč"/>
   <string id="town_trubchevsk_radogoshch_text" text="Radahošč text..."/>
-  <string id="castle_siverskyi_name" text="Zamak Noŭharad-Sievierski"/>
+  <string id="castle_siverskyi_name" text="Farteca Noŭharad-Sievierski"/>
   <string id="castle_siverskyi_spaske_name" text="Spaskie"/>
   <string id="castle_siverskyi_spaske_text" text="Spaskie text..."/>
   <string id="castle_putyvl_name" text="Zamak Putyvl"/>
   <string id="castle_putyvl_kurhan_name" text="Kurhan"/>
   <string id="castle_putyvl_kurhan_text" text="Kurhan text..."/>
-  <string id="castle_protolcha_name" text="Zamak Pratołča"/>
+  <string id="castle_protolcha_name" text="Zaporiźka Sič"/>
   <string id="castle_protolcha_saksagan_name" text="Saksahan"/>
   <string id="castle_protolcha_saksagan_text" text="Saksahan text..."/>
-  <string id="castle_peresichen_name" text="Zamak Pieresičeń"/>
+  <string id="castle_peresichen_name" text="Farteca Kodak"/>
   <string id="castle_peresichen_terny_name" text="Cierny"/>
   <string id="castle_peresichen_terny_text" text="Cierny text..."/>
-  <string id="castle_ltava_name" text="Zamak Pałtava"/>
+  <string id="castle_ltava_name" text="Farteca Pałtava"/>
   <string id="castle_ltava_kyshenki_name" text="Kyšenki"/>
   <string id="castle_ltava_kyshenki_text" text="Kyšenki text..."/>
-  <string id="castle_biryn_name" text="Zamak Biryn"/>
+  <string id="castle_biryn_name" text="Farteca Biryn"/>
   <string id="castle_biryn_zholvazh_name" text="Žołvaž"/>
   <string id="castle_biryn_zholvazh_text" text="Žołvaž text..."/>
   <string id="town_khotomyshl_name" text="Chatomyšl"/>
@@ -2081,13 +2081,13 @@
   <string id="town_rylsk_lgov_text" text="Lhov text..."/>
   <string id="town_rylsk_sevsk_name" text="Sievsk"/>
   <string id="town_rylsk_sevsk_text" text="Sievsk text..."/>
-  <string id="castle_kursk_name" text="Zamak Kursk"/>
+  <string id="castle_kursk_name" text="Farteca Kursk"/>
   <string id="castle_kursk_lipina_name" text="Lipina"/>
   <string id="castle_kursk_lipina_text" text="Lipina text..."/>
-  <string id="castle_kromy_name" text="Zamak Kromy"/>
+  <string id="castle_kromy_name" text="Farteca Kromy"/>
   <string id="castle_kromy_tagino_name" text="Tahina"/>
   <string id="castle_kromy_tagino_text" text="Tahina text..."/>
-  <string id="castle_bryansk_name" text="Zamak Bransk"/>
+  <string id="castle_bryansk_name" text="Farteca Bransk"/>
   <string id="castle_bryansk_karachev_name" text="Karačiev"/>
   <string id="castle_bryansk_karachev_text" text="Karačiev text..."/>
   <string id="town_novosil_name" text="Novasił"/>
@@ -2104,13 +2104,13 @@
   <string id="town_serensk_lenivets_text" text="Leniviec text..."/>
   <string id="town_serensk_mosalsk_name" text="Mosalsk"/>
   <string id="town_serensk_mosalsk_text" text="Mosalsk text..."/>
-  <string id="castle_tula_name" text="Zamak Tuła"/>
+  <string id="castle_tula_name" text="Farteca Tuła"/>
   <string id="castle_tula_senevo_name" text="Sienieva"/>
   <string id="castle_tula_senevo_text" text="Sienieva text..."/>
-  <string id="castle_tarusa_name" text="Zamak Tarusa"/>
+  <string id="castle_tarusa_name" text="Farteca Tarusa"/>
   <string id="castle_tarusa_khatun_name" text="Chatuń"/>
   <string id="castle_tarusa_khatun_text" text="Chatuń text..."/>
-  <string id="castle_kordno_name" text="Zamak Kałuha"/>
+  <string id="castle_kordno_name" text="Farteca Kałuha"/>
   <string id="castle_kordno_berezovo_name" text="Bierozava"/>
   <string id="castle_kordno_berezovo_text" text="Bierozava text..."/>
   <string id="town_zvenigorod_name" text="Maskva"/>
@@ -2153,16 +2153,16 @@
   <string id="town_murom_arkhangel_text" text="Archanhieł text..."/>
   <string id="town_murom_iaropolch_name" text="Jarapołč"/>
   <string id="town_murom_iaropolch_text" text="Jarapołč text..."/>
-  <string id="castle_suzdal_name" text="Zamak Suzdal"/>
+  <string id="castle_suzdal_name" text="Farteca Suzdal"/>
   <string id="castle_suzdal_starodub_name" text="Staradub na Klaźmie"/>
   <string id="castle_suzdal_starodub_text" text="Staradub na Klaźmie text..."/>
-  <string id="castle_ples_name" text="Zamak Ples"/>
+  <string id="castle_ples_name" text="Farteca Ples"/>
   <string id="castle_ples_iurevets_name" text="Juraviec"/>
   <string id="castle_ples_iurevets_text" text="Juraviec text..."/>
-  <string id="castle_nizhnii_name" text="Zamak Nižni Noŭharad"/>
+  <string id="castle_nizhnii_name" text="Farteca Nižni Noŭharad"/>
   <string id="castle_nizhnii_radilov_name" text="Radziłov"/>
   <string id="castle_nizhnii_radilov_text" text="Radziłov text..."/>
-  <string id="castle_kadom_name" text="Zamak Kadom"/>
+  <string id="castle_kadom_name" text="Farteca Kadom"/>
   <string id="castle_kadom_temgenevo_name" text="Ciemhienieva"/>
   <string id="castle_kadom_temgenevo_text" text="Ciemhienieva text..."/>
   <string id="town_riazan_name" text="Razań"/>
@@ -2181,10 +2181,10 @@
   <string id="town_pronsk_kniazho_text" text="Kniažno text..."/>
   <string id="town_pronsk_dorozen_name" text="Doražeń"/>
   <string id="town_pronsk_dorozen_text" text="Doražeń text..."/>
-  <string id="castle_rostislavl_name" text="Zamak Rościsłavl"/>
+  <string id="castle_rostislavl_name" text="Farteca Rościsłavl"/>
   <string id="castle_rostislavl_sverilesk_name" text="Śvierylesk"/>
   <string id="castle_rostislavl_sverilesk_text" text="Śvierylesk text..."/>
-  <string id="castle_bratslav_name" text="Zamak Bracłav"/>
+  <string id="castle_bratslav_name" text="Farteca Bracłav"/>
   <string id="castle_bratslav_ivanhorod_name" text="Ivanhorad"/>
   <string id="castle_bratslav_ivanhorod_text" text="Ivanhorad text..."/>
   <string id="town_oleshky_name" text="Oleškivska Sič"/>
@@ -2198,13 +2198,13 @@
   <string id="castle_dohan_name" text="Zamak Hazi Kirman"/>
   <string id="castle_dohan_ingulets_name" text="Inhulec"/>
   <string id="castle_dohan_ingulets_text" text="Inhulec text..."/>
-  <string id="castle_leanum_name" text="Zamak Nieancichos"/>
+  <string id="castle_leanum_name" text="Zamak Čieniškie"/>
   <string id="castle_leanum_serohozy_name" text="Sierahožy"/>
   <string id="castle_leanum_serohozy_text" text="Sierahožy text..."/>
   <string id="castle_leanum_kizal_name" text="Kyzył Jar"/>
   <string id="castle_leanum_kizal_text" text="Kyzył Jar text..."/>
-  <string id="town_pantikapaion_name" text="Pancikapijon"/>
-  <string id="town_pantikapaion_text" text="Pancikapijon text..."/>
+  <string id="town_pantikapaion_name" text="Jeni-Kale"/>
+  <string id="town_pantikapaion_text" text="Jeni-Kale text..."/>
   <string id="town_pantikapaion_kafa_name" text="Kafa"/>
   <string id="town_pantikapaion_kafa_text" text="Kafa text..."/>
   <string id="town_pantikapaion_chersonesus_name" text="Chiersones"/>
@@ -2223,8 +2223,8 @@
   <string id="town_yelets_voronezh_text" text="Varoniež text..."/>
   <string id="town_yelets_lipetsk_name" text="Lipieck"/>
   <string id="town_yelets_lipetsk_text" text="Lipieck text..."/>
-  <string id="town_tmutarakan_name" text="Ćmutarakań"/>
-  <string id="town_tmutarakan_text" text="Ćmutarakań text..."/>
+  <string id="town_tmutarakan_name" text="Chanu-Kale"/>
+  <string id="town_tmutarakan_text" text="Chanu-Kale text..."/>
   <string id="town_tmutarakan_bata_name" text="Bata"/>
   <string id="town_tmutarakan_bata_text" text="Bata text..."/>
   <string id="town_tmutarakan_dzhubga_name" text="Džubha"/>
