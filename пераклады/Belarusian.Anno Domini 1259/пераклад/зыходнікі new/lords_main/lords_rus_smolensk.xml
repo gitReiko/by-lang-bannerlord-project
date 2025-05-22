@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- Principality of Smolensk -->
+	<NPCCharacter id="dead_lord_smolensk_1" name="{=lord_smolensk_1}Mstislav Davidovich" age="52" voice="curt" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000AC001170000E68844A7B5955A69256989B97A185847C36C937ABA3698C8C01977613097BD71A000000000000000000000000000000000000000061341003"/>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_smolensk_2" name="{=lord_smolensk_2}Helena of Polowcen" age="50" voice="softspoken" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000AC001170000E68844A7B5955A69256989B97A185847C36C937ABA3698C8C01977613097BD71A000000000000000000000000000000000000000061341003"/>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_smolensk_1a" name="{=lord_smolensk_3}Rostislav II Mstislavich" voice="curt" age="38" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="111"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="122"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="118"/>
+			<skill id="Riding" value="153"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="146"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="19"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_1b" name="{=lord_smolensk_4}Yulia" voice="ironic" age="29" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="89"/>
+			<skill id="Medicine" value="33"/>
+			<skill id="Leadership" value="71"/>
+			<skill id="Steward" value="42"/>
+			<skill id="Trade" value="34"/>
+			<skill id="Charm" value="166"/>
+			<skill id="Roguery" value="137"/>
+			<skill id="Scouting" value="196"/>
+			<skill id="Crafting" value="148"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_smolensk_2a" name="{=lord_smolensk_5}Gleb I Rostislavich" voice="curt" age="47" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="0000000000002009795B596379B69167A35E866295A0967774414A498C83368600C976030CA7B7A500000000000000000000000000000000000000004B842002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="181"/>
+			<skill id="Scouting" value="158"/>
+			<skill id="Tactics" value="134"/>
+			<skill id="Athletics" value="28"/>
+			<skill id="Riding" value="153"/>
+			<skill id="Throwing" value="30"/>
+			<skill id="Crossbow" value="41"/>
+			<skill id="Bow" value="84"/>
+			<skill id="Polearm" value="84"/>
+			<skill id="TwoHanded" value="175"/>
+			<skill id="OneHanded" value="78"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_2b" name="{=lord_smolensk_6}Cvetoslava" voice="softspoken" age="39" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="89"/>
+			<skill id="Medicine" value="33"/>
+			<skill id="Leadership" value="71"/>
+			<skill id="Steward" value="42"/>
+			<skill id="Trade" value="34"/>
+			<skill id="Charm" value="166"/>
+			<skill id="Roguery" value="137"/>
+			<skill id="Scouting" value="196"/>
+			<skill id="Crafting" value="148"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_2c" name="{=lord_smolensk_7}Knyaz Sviatoslav Glebovich" voice="earnest" age="20" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000500000000100F79B3595A684A88BBA35E866295A0967774414A498C8336860089760308A7B7A500000000000000000000000000000000000000004B0C2003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="59"/>
+			<skill id="Medicine" value="10"/>
+			<skill id="Leadership" value="90"/>
+			<skill id="Steward" value="185"/>
+			<skill id="Trade" value="104"/>
+			<skill id="Charm" value="144"/>
+			<skill id="Roguery" value="61"/>
+			<skill id="Scouting" value="36"/>
+			<skill id="Crafting" value="147"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_2d" name="{=lord_smolensk_8}Knyaz Roman Glebovich" voice="earnest" age="18" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000000002797A2785686678B9A35E866295A0967774414A498C8336860097760309A7B7A500000000000000000000000000000000000000003D3C2002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="53"/>
+			<skill id="Scouting" value="60"/>
+			<skill id="Tactics" value="115"/>
+			<skill id="Athletics" value="78"/>
+			<skill id="Riding" value="30"/>
+			<skill id="Throwing" value="177"/>
+			<skill id="Crossbow" value="41"/>
+			<skill id="Bow" value="47"/>
+			<skill id="Polearm" value="17"/>
+			<skill id="TwoHanded" value="82"/>
+			<skill id="OneHanded" value="150"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_smolensk_3a" name="{=lord_smolensk_9}Mikhail I Rostislavich" voice="softspoken" age="39" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000100F795B596379B69167A35E866295A0967774414A498C8336860079760307A7B7A500000000000000000000000000000000000000004AE42003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="7"/>
+			<skill id="Medicine" value="153"/>
+			<skill id="Leadership" value="135"/>
+			<skill id="Steward" value="158"/>
+			<skill id="Trade" value="62"/>
+			<skill id="Charm" value="46"/>
+			<skill id="Roguery" value="198"/>
+			<skill id="Scouting" value="156"/>
+			<skill id="Crafting" value="92"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_3b" name="{=lord_smolensk_10}Daryna" voice="earnest" age="37" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="89"/>
+			<skill id="Medicine" value="33"/>
+			<skill id="Leadership" value="71"/>
+			<skill id="Steward" value="42"/>
+			<skill id="Trade" value="34"/>
+			<skill id="Charm" value="166"/>
+			<skill id="Roguery" value="137"/>
+			<skill id="Scouting" value="196"/>
+			<skill id="Crafting" value="148"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_3c" name="{=lord_smolensk_11}Knyaz Andrei Michailovich" voice="curt" age="39" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000100F795B596379B69167A35E866295A0967774414A498C8336860079760307A7B7A500000000000000000000000000000000000000004AE42003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="7"/>
+			<skill id="Medicine" value="153"/>
+			<skill id="Leadership" value="135"/>
+			<skill id="Steward" value="158"/>
+			<skill id="Trade" value="62"/>
+			<skill id="Charm" value="46"/>
+			<skill id="Roguery" value="198"/>
+			<skill id="Scouting" value="156"/>
+			<skill id="Crafting" value="92"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_smolensk_4a" name="{=lord_smolensk_12}Fedor Rostislavich the Black" voice="softspoken" age="24" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000314B79554C96489B6E95A35E866295A0967774414A498C8336860079760307A7B7A500000000000000000000000000000000000000004AFC2002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="32"/>
+			<skill id="Scouting" value="102"/>
+			<skill id="Tactics" value="50"/>
+			<skill id="Athletics" value="199"/>
+			<skill id="Riding" value="146"/>
+			<skill id="Throwing" value="173"/>
+			<skill id="Crossbow" value="119"/>
+			<skill id="Bow" value="165"/>
+			<skill id="Polearm" value="56"/>
+			<skill id="TwoHanded" value="103"/>
+			<skill id="OneHanded" value="71"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="-2"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4b" name="{=lord_smolensk_13}Anastasia Vasilevna" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.6176" build="0.5826" key="000000000000101079ADD3B877596D69A35E866295A0967774414A498C8336860059960305A7B7A500000000000000000000000000000000000000004AB42003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="26"/>
+			<skill id="Medicine" value="21"/>
+			<skill id="Leadership" value="24"/>
+			<skill id="Steward" value="17"/>
+			<skill id="Trade" value="71"/>
+			<skill id="Charm" value="31"/>
+			<skill id="Roguery" value="31"/>
+			<skill id="Scouting" value="21"/>
+			<skill id="Crafting" value="25"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4c" name="{=lord_smolensk_14}Anna Mengu-Timuraevna" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.6176" build="0.5826" key="000000000000141B7917B67C7449BB27A35E866295A0967774414A498C83368600A996030AA7B7A500000000000000000000000000000000000000004B5C2002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="184"/>
+			<skill id="Scouting" value="142"/>
+			<skill id="Tactics" value="99"/>
+			<skill id="Athletics" value="63"/>
+			<skill id="Riding" value="140"/>
+			<skill id="Throwing" value="55"/>
+			<skill id="Crossbow" value="138"/>
+			<skill id="Bow" value="64"/>
+			<skill id="Polearm" value="22"/>
+			<skill id="TwoHanded" value="146"/>
+			<skill id="OneHanded" value="63"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4d" name="{=lord_smolensk_15}Knyaz Michail Fedorovich" voice="ironic" age="17" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.7986" build="0.5826" key="000000000000055B7987BCC5B9597664A35E866295A0967774414A498C8336860089C60308A7B7A500000000000000000000000000000000000000004B142002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="121"/>
+			<skill id="Scouting" value="25"/>
+			<skill id="Tactics" value="71"/>
+			<skill id="Athletics" value="45"/>
+			<skill id="Riding" value="63"/>
+			<skill id="Throwing" value="70"/>
+			<skill id="Crossbow" value="12"/>
+			<skill id="Bow" value="95"/>
+			<skill id="Polearm" value="114"/>
+			<skill id="TwoHanded" value="162"/>
+			<skill id="OneHanded" value="77"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-2"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4e" name="{=lord_smolensk_16}Knyaz David Fedorovich" voice="softspoken" age="16" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.2612" build="0.5826" key="000000000000200779775A45A5C64489A35E866295A0967774414A498C8336860049460304A7B7A500000000000000000000000000000000000000004A7C2003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="82"/>
+			<skill id="Medicine" value="7"/>
+			<skill id="Leadership" value="66"/>
+			<skill id="Steward" value="16"/>
+			<skill id="Trade" value="118"/>
+			<skill id="Charm" value="193"/>
+			<skill id="Roguery" value="37"/>
+			<skill id="Scouting" value="196"/>
+			<skill id="Crafting" value="130"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4f" name="{=lord_smolensk_17}Konstantin Jaroslavskij Fedorovich" voice="ironic" age="14" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.655" build="0.2938" key="000200000000000879B3595A684A88BBA35E866295A0967774414A498C8336860044A60304A7B7A500000000000000000000000000000000000000003C842002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="94"/>
+			<skill id="Scouting" value="103"/>
+			<skill id="Tactics" value="32"/>
+			<skill id="Athletics" value="18"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Throwing" value="42"/>
+			<skill id="Crossbow" value="46"/>
+			<skill id="Bow" value="133"/>
+			<skill id="Polearm" value="198"/>
+			<skill id="TwoHanded" value="141"/>
+			<skill id="OneHanded" value="126"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_smolensk_5a" name="{=lord_smolensk_18}Konstantin Rostislavich" voice="curt" age="23" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000330879554C96489B6E95A35E866295A0967774414A498C8336860079760307A7B7A500000000000000000000000000000000000000004AFC2002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="92"/>
+			<skill id="Scouting" value="122"/>
+			<skill id="Tactics" value="14"/>
+			<skill id="Athletics" value="79"/>
+			<skill id="Riding" value="17"/>
+			<skill id="Throwing" value="34"/>
+			<skill id="Crossbow" value="154"/>
+			<skill id="Bow" value="172"/>
+			<skill id="Polearm" value="1"/>
+			<skill id="TwoHanded" value="138"/>
+			<skill id="OneHanded" value="141"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="2"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_5b" name="{=lord_smolensk_19}Evdokia Aleksandrovna" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000244D79AD99995768656CA35E866295A0967774414A498C83368600A976030AA7B7A500000000000000000000000000000000000000004B442002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="52"/>
+			<skill id="Scouting" value="158"/>
+			<skill id="Tactics" value="92"/>
+			<skill id="Athletics" value="44"/>
+			<skill id="Riding" value="116"/>
+			<skill id="Throwing" value="13"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Bow" value="11"/>
+			<skill id="Polearm" value="31"/>
+			<skill id="TwoHanded" value="65"/>
+			<skill id="OneHanded" value="21"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="2"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>

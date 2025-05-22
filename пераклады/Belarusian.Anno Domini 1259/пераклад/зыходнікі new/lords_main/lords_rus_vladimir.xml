@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- Principality of Vladimir -->
+	<NPCCharacter id="dead_lord_vladimir_1" name="{=vladimir_deadlord_1}Yaroslav I Vsevolodovich" age="72" voice="curt" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="94.63" weight="0.0386" build="0.6595" key="0005D80340B4204539458875BC7963818984C566754954793379647517868B8D085A1882077C77B500000000000000000000000000000000000000003AB01080"/>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_vladimir_2" name="{=vladimir_deadlord_2}Feodosia Mstislavovna" age="70" voice="softspoken" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="94.63" weight="0.0386" build="0.6595" key="0005D80340B4204539458875BC7963818984C566754954793379647517868B8D085A1882077C77B500000000000000000000000000000000000000003AB01080"/>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_vladimir_1a" name="{=lord_vladimir_1}Knyaz Yaroslav Yaroslavich" voice="softspoken" age="38" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="111"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="122"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="118"/>
+			<skill id="Riding" value="153"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="146"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="19"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_1b" name="{=lord_vladimir_2}Boleslava Svyatoslavna" voice="earnest" age="37" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="89"/>
+			<skill id="Medicine" value="33"/>
+			<skill id="Leadership" value="71"/>
+			<skill id="Steward" value="42"/>
+			<skill id="Trade" value="34"/>
+			<skill id="Charm" value="166"/>
+			<skill id="Roguery" value="137"/>
+			<skill id="Scouting" value="196"/>
+			<skill id="Crafting" value="148"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_vladimir_1c" name="{=lord_vladimir_3}Yurij Yaroslavich" voice="softspoken" age="20" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000000002797A2785686678B9A35E866295A0967774414A498C8336860097760309A7B7A500000000000000000000000000000000000000003D3C2002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="53"/>
+			<skill id="Scouting" value="60"/>
+			<skill id="Tactics" value="115"/>
+			<skill id="Athletics" value="78"/>
+			<skill id="Riding" value="30"/>
+			<skill id="Throwing" value="177"/>
+			<skill id="Crossbow" value="41"/>
+			<skill id="Bow" value="47"/>
+			<skill id="Polearm" value="17"/>
+			<skill id="TwoHanded" value="82"/>
+			<skill id="OneHanded" value="150"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_1d" name="{=lord_vladimir_4}Oleg Yaroslavich" voice="softspoken" age="15" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="0"/>
+			<skill id="Medicine" value="70"/>
+			<skill id="Leadership" value="48"/>
+			<skill id="Steward" value="98"/>
+			<skill id="Trade" value="176"/>
+			<skill id="Charm" value="35"/>
+			<skill id="Roguery" value="117"/>
+			<skill id="Scouting" value="151"/>
+			<skill id="Crafting" value="173"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_1e" name="{=lord_vladimir_5}Olga Yaroslavna" voice="softspoken" age="35" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.655" build="0.2938" key="000200000000000879B3595A684A88BBA35E866295A0967774414A498C8336860044A60304A7B7A500000000000000000000000000000000000000003C842002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="94"/>
+			<skill id="Scouting" value="103"/>
+			<skill id="Tactics" value="32"/>
+			<skill id="Athletics" value="18"/>
+			<skill id="Riding" value="10"/>
+			<skill id="Throwing" value="42"/>
+			<skill id="Crossbow" value="46"/>
+			<skill id="Bow" value="133"/>
+			<skill id="Polearm" value="198"/>
+			<skill id="TwoHanded" value="141"/>
+			<skill id="OneHanded" value="126"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_1f" name="{=lord_vladimir_6}Volyna Yaropolkina" voice="softspoken" age="30" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000500000000100F79B3595A684A88BBA35E866295A0967774414A498C8336860089760308A7B7A500000000000000000000000000000000000000004B0C2003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="59"/>
+			<skill id="Medicine" value="10"/>
+			<skill id="Leadership" value="90"/>
+			<skill id="Steward" value="185"/>
+			<skill id="Trade" value="104"/>
+			<skill id="Charm" value="144"/>
+			<skill id="Roguery" value="61"/>
+			<skill id="Scouting" value="36"/>
+			<skill id="Crafting" value="147"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_vladimir_2a" name="{=lord_vladimir_7}Mikhail Yaroslavich Khorobrit" voice="ironic" age="49" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.5" build="0.5" key="00020C08C00030427C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000003AF47002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="82"/>
+			<skill id="Scouting" value="153"/>
+			<skill id="Tactics" value="168"/>
+			<skill id="Athletics" value="49"/>
+			<skill id="Riding" value="118"/>
+			<skill id="Throwing" value="107"/>
+			<skill id="Crossbow" value="157"/>
+			<skill id="Bow" value="84"/>
+			<skill id="Polearm" value="111"/>
+			<skill id="TwoHanded" value="54"/>
+			<skill id="OneHanded" value="3"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_2b" name="{=lord_vladimir_8}Helena Vasiliyevna" voice="earnest" age="45" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.5" build="0.5" key="00000C00000030027C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000003AF44003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="99"/>
+			<skill id="Medicine" value="47"/>
+			<skill id="Leadership" value="49"/>
+			<skill id="Steward" value="3"/>
+			<skill id="Trade" value="16"/>
+			<skill id="Charm" value="58"/>
+			<skill id="Roguery" value="95"/>
+			<skill id="Scouting" value="32"/>
+			<skill id="Crafting" value="94"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_2c" name="{=lord_vladimir_9}Boris Mikhailovich" voice="curt" age="21" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C04C00010437C926B628456A5677577866254C69643C4B647398C95A0370047960304A7497300000000000000000000000000000000000000003A847002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="38"/>
+			<skill id="Scouting" value="190"/>
+			<skill id="Tactics" value="5"/>
+			<skill id="Athletics" value="63"/>
+			<skill id="Riding" value="9"/>
+			<skill id="Throwing" value="157"/>
+			<skill id="Crossbow" value="17"/>
+			<skill id="Bow" value="186"/>
+			<skill id="Polearm" value="47"/>
+			<skill id="TwoHanded" value="188"/>
+			<skill id="OneHanded" value="49"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="-2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_2d" name="{=lord_vladimir_10}Katerina Mikhailova" voice="softspoken" age="19" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.5" build="0.5" key="00000C00000030027C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000003AF44003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="99"/>
+			<skill id="Medicine" value="47"/>
+			<skill id="Leadership" value="49"/>
+			<skill id="Steward" value="3"/>
+			<skill id="Trade" value="16"/>
+			<skill id="Charm" value="58"/>
+			<skill id="Roguery" value="95"/>
+			<skill id="Scouting" value="32"/>
+			<skill id="Crafting" value="94"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_vladimir_3a" name="{=lord_vladimir_11}Dmitrij Alexandrovich" voice="curt" age="30" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C0B800020467CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B647002"/>
+		</face>
+		<skills>
+			<skill id="Leadership" value="106"/>
+			<skill id="Scouting" value="125"/>
+			<skill id="Tactics" value="92"/>
+			<skill id="Athletics" value="48"/>
+			<skill id="Riding" value="184"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Crossbow" value="113"/>
+			<skill id="Bow" value="101"/>
+			<skill id="Polearm" value="75"/>
+			<skill id="TwoHanded" value="81"/>
+			<skill id="OneHanded" value="103"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_3b" name="{=lord_vladimir_12}Svetoslava" voice="softspoken" age="25" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C0D000030017CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B644003"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="82"/>
+			<skill id="Medicine" value="4"/>
+			<skill id="Leadership" value="30"/>
+			<skill id="Steward" value="17"/>
+			<skill id="Trade" value="43"/>
+			<skill id="Charm" value="68"/>
+			<skill id="Roguery" value="100"/>
+			<skill id="Scouting" value="81"/>
+			<skill id="Crafting" value="89"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_3c" name="{=lord_vladimir_13}Ivan Dmitriyovich" voice="earnest" age="6" is_female="false" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.5671" build="0.5625" key="00000C04000033457CA164644577A4A77577866254C69643C4B647398C95A0370088960308A7497300000000000000000000000000000000000000003B047002"/>
+		</face>
+		<skills>
+
+		</skills>
+		<Traits>
+
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vladimir_3d" name="{=lord_vladimir_14}Natasha Dmitriyevna" voice="ironic" age="4" is_female="true" is_hero="true" culture="Culture.rus" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.5671" build="0.5625" key="00000C04000033457CA164644577A4A77577866254C69643C4B647398C95A0370088960308A7497300000000000000000000000000000000000000003B047002"/>
+		</face>
+		<skills>
+
+		</skills>
+		<Traits>
+
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>
