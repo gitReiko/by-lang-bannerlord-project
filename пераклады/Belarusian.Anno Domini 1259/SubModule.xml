@@ -26,14 +26,6 @@
 			</IncludedGameTypes>
 		</XmlNode>
 
-		<XmlNode>
-			<XmlName id="Settlements" path="water_settlements" />
-			<IncludedGameTypes>
-				<GameType value="Campaign" />
-				<GameType value="CampaignStoryMode" />
-			</IncludedGameTypes>
-		</XmlNode>
-
 		<!-- new -->
 
 		<XmlNode>
@@ -54,6 +46,14 @@
 
 		<XmlNode>
 			<XmlName id="Items" path="items_swadian"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="items_templar"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
