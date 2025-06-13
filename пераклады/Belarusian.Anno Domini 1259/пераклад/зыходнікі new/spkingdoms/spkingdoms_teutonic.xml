@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+    <Kingdom id="teutonic"
+             owner="Hero.lord_teutonic_1a"
+             banner_key="11.128.128.2000.2000.764.764.1.0.180.505.128.116.2000.2000.764.764.1.0.180.505.116.116.175.2000.764.764.1.0.180.505.116.116.175.2000.764.764.1.0.90.505.116.116.175.561.764.764.1.0.180"
+             primary_banner_color="0xffFFFFFF"
+             secondary_banner_color="0xff000000"
+             label_color="FFFFFFFF"
+             color="FFFFFFFF"
+             color2="FF000000"
+             alternative_color="FF000000"
+             alternative_color2="FFFFFFFF"
+             culture="Culture.teutonic"
+             settlement_banner_mesh="encounter_flag_a"
+             flag_mesh="info_screen_flags_a"
+             name="{=teutonic_kingdom_name}Teutonic Order"
+             short_name="{=teutonic_kingdom_short_name}Teutonic Order"
+             title="{=teutonic_kingdom_title}Teutonic Order"
+             ruler_title="{=teutonic_ruler_title}Grand Master"
+             text="{=teutonic_kingdom_text}The Teutonic Order is a Catholic religious institution founded as a military society 1190 in Acre. The Order of Brothers of the German House of Saint Mary in Jerusalem was formed to aid Christians on their pilgrimages to the Holy Land and to establish hospitals. Its members have commonly been known as the Teutonic Knights.">
+        <relationships>
+            <relationship kingdom="Kingdom.crusaderstates" value="50" isAtWar="false"/>
+            <relationship kingdom="Kingdom.holy" value="30" isAtWar="false"/>
+            <relationship kingdom="Kingdom.papal" value="50" isAtWar="false"/>
+            <relationship kingdom="Kingdom.poland" value="-10" isAtWar="false"/>
+            <relationship kingdom="Kingdom.lithuania" value="-25" isAtWar="false"/>
+            <relationship kingdom="Kingdom.rus" value="-10" isAtWar="false"/>
+        </relationships>
+        <policies>
+            <policy id="policy_imperial_towns"/>
+            <policy id="policy_sacred_majesty"/>
+            <policy id="policy_war_tax"/>
+            <policy id="policy_road_tolls"/>
+        </policies>
+    </Kingdom>
+</Kingdoms>

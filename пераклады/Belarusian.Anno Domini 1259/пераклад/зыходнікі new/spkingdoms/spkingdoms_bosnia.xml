@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+    <Kingdom id="bosnia"
+             owner="Hero.lord_bosnia_1a"
+             banner_key="11.12.143.1821.1750.764.764.0.0.0.503.100.35.1.1.764.764.0.0.0.505.35.35.150.550.764.764.0.0.0.505.35.35.150.550.764.764.0.0.90"
+             primary_banner_color="0xffF8C201"
+             secondary_banner_color="0xffDA241C"
+             label_color="FFF8C201"
+             color="FFF8C201"
+             color2="FFDA241C"
+             alternative_color="FFDA241C"
+             alternative_color2="FFF8C201"
+             culture="Culture.bosnia"
+             settlement_banner_mesh="encounter_flag_a"
+             flag_mesh="info_screen_flags_a"
+             name="{=bosnia_kingdom_name}Banate of Bosnia"
+             short_name="{=bosnia_kingdom_short_name}Bosnia"
+             title="{=bosnia_kingdom_title}Banate of Bosnia"
+             ruler_title="{=bosnia_ruler_title}Ban"
+             text="{=bosnia_kingdom_text}text.....">
+        <relationships>
+            <relationship kingdom="Kingdom.hungary" value="15" isAtWar="false"/>
+            <relationship kingdom="Kingdom.serbia" value="5" isAtWar="false"/>
+            <relationship kingdom="Kingdom.empire" value="-10" isAtWar="false"/>
+            <relationship kingdom="Kingdom.bohemia" value="1" isAtWar="false"/>
+            <relationship kingdom="Kingdom.papal" value="2" isAtWar="false"/>
+        </relationships>
+        <policies>
+            <policy id="policy_feudal_inheritance"/>
+            <policy id="policy_serfdom"/>
+            <policy id="policy_noble_retinues"/>
+            <policy id="policy_hunting_rights"/>
+        </policies>
+    </Kingdom>
+</Kingdoms>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

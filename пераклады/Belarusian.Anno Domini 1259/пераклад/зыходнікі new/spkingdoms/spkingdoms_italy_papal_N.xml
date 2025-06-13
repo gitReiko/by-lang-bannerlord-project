@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+    <Kingdom id="papal"
+             owner="Hero.lord_papal_1a"
+             banner_key="11.110.116.1600.1600.764.764.1.0.0.103216.116.116.609.609.763.763.0.0.0.103216.116.116.648.648.763.763.0.0.0.506.116.116.243.226.764.603.0.0.0.103216.144.116.609.609.763.752.0.0.0"
+             primary_banner_color="0xffFFFFFF"
+             secondary_banner_color="0xffFF0000"
+             label_color="FFFFFFFF"
+             color="FFFFFFFF"
+             color2="FFFF0000"
+             alternative_color="FFFF0000"
+             alternative_color2="FFFFFFFF"
+             culture="Culture.empire"
+             settlement_banner_mesh="encounter_flag_a"
+             flag_mesh="info_screen_flags_b"
+             name="{=papalFactionName}Papal States"
+             short_name="{=papalFactionShortName}Papal States"
+             title="{=papalFactionTitle}Papal States"
+             ruler_title="{=papalFactionRulerTitle}Pope"
+             text="{=papalFactionText}The Papal States, established in the 8th century, were territories in central Italy governed directly by the pope, serving as the temporal counterpart to his spiritual authority. During the 11th and 12th centuries, the Papal States expanded both territorially and politically, often becoming embroiled in conflicts with neighboring powers.">
+        <relationships>
+            <relationship kingdom="Kingdom.teutonic" value="50" isAtWar="false"/>
+            <relationship kingdom="Kingdom.crusaderstates" value="50" isAtWar="false"/>
+            <relationship kingdom="Kingdom.mamluk" value="-25" isAtWar="false"/>
+            <relationship kingdom="Kingdom.armenia" value="10" isAtWar="false"/>
+            <relationship kingdom="Kingdom.england" value="25" isAtWar="false"/>
+            <relationship kingdom="Kingdom.holy" value="25" isAtWar="false"/>
+            <relationship kingdom="Kingdom.empire_s" value="15" isAtWar="false"/>
+            <relationship kingdom="Kingdom.vlandia" value="20" isAtWar="false"/>
+            <relationship kingdom="Kingdom.milan" value="5" isAtWar="false"/>
+            <relationship kingdom="Kingdom.verona" value="1" isAtWar="false"/>
+            <relationship kingdom="Kingdom.pisa" value="5" isAtWar="false"/>
+            <relationship kingdom="Kingdom.empire_w" value="10" isAtWar="false"/>
+            <relationship kingdom="Kingdom.hungary" value="10" isAtWar="false"/>
+            <relationship kingdom="Kingdom.bohemia" value="10" isAtWar="false"/>
+            <relationship kingdom="Kingdom.serbia" value="2" isAtWar="false"/>
+            <relationship kingdom="Kingdom.bosnia" value="2" isAtWar="false"/>
+            <relationship kingdom="Kingdom.poland" value="1" isAtWar="false"/>
+            <relationship kingdom="Kingdom.brittany" value="5" isAtWar="false"/>
+        </relationships>
+        <policies>
+            <policy id="policy_royal_privilege"/>
+            <policy id="policy_senate"/>
+            <policy id="policy_magistrates"/>
+            <policy id="policy_land_tax"/>
+            <policy id="policy_state_monopolies"/>
+            <policy id="policy_royal_guard"/>
+        </policies>
+    </Kingdom>
+</Kingdoms>

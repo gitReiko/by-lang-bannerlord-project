@@ -72,5 +72,13 @@
 		<XmlName id="GameText" path="module_strings" />
 	</XmlNode>
 
+	<XmlNode>                
+		<XmlName id="Kingdoms" path="spkingdoms"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
 	</Xmls>
 </Module>
