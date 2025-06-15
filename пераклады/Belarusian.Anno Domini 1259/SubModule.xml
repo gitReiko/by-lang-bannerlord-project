@@ -18,16 +18,6 @@
 	<SubModules/>
 	<Xmls>
 
-		<XmlNode>                
-			<XmlName id="NPCCharacters" path="troops_fixes"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-                <GameType value="CustomGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-
-		<!-- new -->
-
 		<XmlNode>
 			<XmlName id="Items" path="items_ad_1259"/>
 			<IncludedGameTypes>
@@ -77,6 +67,14 @@
 		<IncludedGameTypes>
 			<GameType value = "Campaign"/>
 			<GameType value = "CampaignStoryMode"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	<XmlNode>                
+		<XmlName id="NPCCharacters" path="trooptrees"/>
+		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CustomGame"/>
 		</IncludedGameTypes>
 	</XmlNode>
 

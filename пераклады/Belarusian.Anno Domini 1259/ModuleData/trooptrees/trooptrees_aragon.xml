@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
     <!-- ARAGON infantry -->
-    <NPCCharacter id="aragon_infantry_root" default_group="Infantry" name="Aragonese Levied Peasant" level="6" occupation="Soldier" culture="Culture.aragonese"
-                  is_basic_troop="true">
+    <NPCCharacter id="aragon_infantry_root" default_group="Infantry" name="{=aragon_infantry_root.name}Aragonese Levied Peasant" level="6" occupation="Soldier" culture="Culture.aragonese" is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -26,7 +25,7 @@
             <EquipmentSet id="aragon_infantry_root_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_infantry_root0" default_group="Infantry" name="Aragonese Levy Spearman" level="11" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_infantry_root0" default_group="Infantry" name="{=aragon_infantry_root0.name}Aragonese Levy Spearman" level="11" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -48,7 +47,7 @@
             <EquipmentSet id="aragon_infantry_root0_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_infantry_root00" default_group="Infantry" name="Aragonese Spearman" level="16" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_infantry_root00" default_group="Infantry" name="{=aragon_infantry_root00.name}Aragonese Spearman" level="16" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -70,7 +69,7 @@
             <EquipmentSet id="aragon_infantry_root00_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_infantry_root000" default_group="Infantry" name="Aragonese Senior Spearman" level="21" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_infantry_root000" default_group="Infantry" name="{=aragon_infantry_root000.name}Aragonese Senior Spearman" level="21" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -92,7 +91,7 @@
             <EquipmentSet id="aragon_infantry_root000_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_infantry_root0000" default_group="Infantry" name="Aragonese Sergeant Spearman" level="26" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_infantry_root0000" default_group="Infantry" name="{=aragon_infantry_root0000.name}Aragonese Sergeant Spearman" level="26" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -112,7 +111,7 @@
             <EquipmentSet id="aragon_infantry_root0000_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_infantry_root1" default_group="Infantry" name="Aragonese Levy Infantry" level="11" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_infantry_root1" default_group="Infantry" name="{=aragon_infantry_root1.name}Aragonese Levy Infantry" level="11" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -134,7 +133,7 @@
             <EquipmentSet id="aragon_infantry_root1_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_infantry_root10" default_group="Infantry" name="Aragonese Infantry" level="16" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_infantry_root10" default_group="Infantry" name="{=aragon_infantry_root10.name}Aragonese Infantry" level="16" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -156,7 +155,7 @@
             <EquipmentSet id="aragon_infantry_root10_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_infantry_root100" default_group="Infantry" name="Aragonese Senior Infantry" level="21" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_infantry_root100" default_group="Infantry" name="{=aragon_infantry_root100.name}Aragonese Senior Infantry" level="21" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -178,7 +177,7 @@
             <EquipmentSet id="aragon_infantry_root100_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_infantry_root1000" default_group="Infantry" name="Aragonese Heavy Infantry" level="26" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_infantry_root1000" default_group="Infantry" name="{=aragon_infantry_root1000.name}Aragonese Heavy Infantry" level="26" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -199,7 +198,7 @@
         </Equipments>
     </NPCCharacter>
     <!-- Crown of Aragon archer-->
-    <NPCCharacter id="aragon_archer_root" default_group="Ranged" name="Aragonese Levy Crossbowman" level="11" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_archer_root" default_group="Ranged" name="{=aragon_archer_root.name}Aragonese Levy Crossbowman" level="11" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -222,7 +221,7 @@
             <EquipmentSet id="aragon_archer_root_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_archer_root0" default_group="Infantry" name="Aragonese Skirmisher" level="16" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_archer_root0" default_group="Infantry" name="{=aragon_archer_root0.name}Aragonese Skirmisher" level="16" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -244,7 +243,7 @@
             <EquipmentSet id="aragon_archer_root0_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_archer_root00" default_group="Infantry" name="Aragonese Senior Skirmisher" level="21" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_archer_root00" default_group="Infantry" name="{=aragon_archer_root00.name}Aragonese Senior Skirmisher" level="21" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -266,7 +265,7 @@
             <EquipmentSet id="aragon_archer_root00_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_archer_root000" default_group="Infantry" name="Aragonese Veteran Skirmisher" level="26" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_archer_root000" default_group="Infantry" name="{=aragon_archer_root000.name}Aragonese Veteran Skirmisher" level="26" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -286,7 +285,7 @@
             <EquipmentSet id="aragon_archer_root000_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_archer_root1" default_group="Ranged" name="Aragonese Crossbowman" level="16" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_archer_root1" default_group="Ranged" name="{=aragon_archer_root1.name}Aragonese Crossbowman" level="16" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -308,7 +307,7 @@
             <EquipmentSet id="aragon_archer_root1_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_archer_root10" default_group="Ranged" name="Aragonese Senior Crossbowman" level="21" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_archer_root10" default_group="Ranged" name="{=aragon_archer_root10.name}Aragonese Senior Crossbowman" level="21" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -330,7 +329,7 @@
             <EquipmentSet id="aragon_archer_root10_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_archer_root100" default_group="Ranged" name="Aragonese Veteran Crossbowman" level="26" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_archer_root100" default_group="Ranged" name="{=aragon_archer_root100.name}Aragonese Veteran Crossbowman" level="26" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -351,8 +350,7 @@
         </Equipments>
     </NPCCharacter>
     <!-- Aragon NOBLE CAVALRY TROOPS -->
-    <NPCCharacter id="aragon_elite_root" default_group="Cavalry" name="Aragonese Horseman" level="16" occupation="Soldier" culture="Culture.aragonese"
-                  is_basic_troop="true">
+    <NPCCharacter id="aragon_elite_root" default_group="Cavalry" name="{=aragon_elite_root.name}Aragonese Horseman" level="16" occupation="Soldier" culture="Culture.aragonese" is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -374,7 +372,7 @@
             <EquipmentSet id="aragon_elite_root_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_elite_root0" default_group="Cavalry" name="Aragonese Squire" level="21" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_elite_root0" default_group="Cavalry" name="{=aragon_elite_root0.name}Aragonese Squire" level="21" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -396,7 +394,7 @@
             <EquipmentSet id="aragon_elite_root0_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_elite_root00" default_group="Cavalry" name="Aragonese Lesser Knight" level="26" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_elite_root00" default_group="Cavalry" name="{=aragon_elite_root00.name}Aragonese Lesser Knight" level="26" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>
@@ -418,7 +416,7 @@
             <EquipmentSet id="aragon_elite_root00_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="aragon_elite_root000" default_group="Cavalry" name="Aragonese Knight" level="31" occupation="Soldier" culture="Culture.aragonese">
+    <NPCCharacter id="aragon_elite_root000" default_group="Cavalry" name="{=aragon_elite_root000.name}Aragonese Knight" level="31" occupation="Soldier" culture="Culture.aragonese">
         <face>
             <face_key_template value="BodyProperty.fighter_empire"/>
         </face>

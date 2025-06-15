@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
     <!--REGULAR TROOPS -->
-    <NPCCharacter id="teutonic_infantry_root" default_group="Infantry" name="Teutonic Order Levied Peasant" level="6" occupation="Soldier" culture="Culture.teutonic"
-                  is_basic_troop="true">
+    <NPCCharacter id="teutonic_infantry_root" default_group="Infantry" name="{=teutonic_infantry_root.name}Teutonic Order Levied Peasant" level="6" occupation="Soldier" culture="Culture.teutonic" is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -27,7 +26,7 @@
             <EquipmentSet id="teutonic_infantry_root_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root0" default_group="Infantry" name="Teutonic Order Levy Spearman" level="11" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root0" default_group="Infantry" name="{=teutonic_infantry_root0.name}Teutonic Order Levy Spearman" level="11" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -49,7 +48,7 @@
             <EquipmentSet id="teutonic_infantry_root0_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root00" default_group="Infantry" name="Teutonic Order Spearman" level="16" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root00" default_group="Infantry" name="{=teutonic_infantry_root00.name}Teutonic Order Spearman" level="16" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -71,8 +70,7 @@
             <EquipmentSet id="teutonic_infantry_root00_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root000" default_group="Infantry" name="Teutonic Order Senior Spearman" level="21" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root000" default_group="Infantry" name="{=teutonic_infantry_root000.name}Teutonic Order Senior Spearman" level="21" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -94,8 +92,7 @@
             <EquipmentSet id="teutonic_infantry_root000_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root0000" default_group="Infantry" name="Teutonic Order Sergeant Spearman" level="26" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root0000" default_group="Infantry" name="{=teutonic_infantry_root0000.name}Teutonic Order Sergeant Spearman" level="26" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -115,7 +112,7 @@
             <EquipmentSet id="teutonic_infantry_root0000_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root1" default_group="Infantry" name="Teutonic Order Levy Guisarmer" level="11" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root1" default_group="Infantry" name="{=teutonic_infantry_root1.name}Teutonic Order Levy Guisarmer" level="11" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -137,7 +134,7 @@
             <EquipmentSet id="teutonic_infantry_root1_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root10" default_group="Infantry" name="Teutonic Order Guisarmer" level="16" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root10" default_group="Infantry" name="{=teutonic_infantry_root10.name}Teutonic Order Guisarmer" level="16" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -159,8 +156,7 @@
             <EquipmentSet id="teutonic_infantry_root10_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root100" default_group="Infantry" name="Teutonic Order Senior Guisarmer" level="21" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root100" default_group="Infantry" name="{=teutonic_infantry_root100.name}Teutonic Order Senior Guisarmer" level="21" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -180,7 +176,7 @@
             <EquipmentSet id="teutonic_infantry_root100_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root2" default_group="Infantry" name="Teutonic Order Levy Infantry" level="11" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root2" default_group="Infantry" name="{=teutonic_infantry_root2.name}Teutonic Order Levy Infantry" level="11" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -202,7 +198,7 @@
             <EquipmentSet id="teutonic_infantry_root2_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root20" default_group="Infantry" name="Teutonic Order Infantry" level="16" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root20" default_group="Infantry" name="{=teutonic_infantry_root20.name}Teutonic Order Infantry" level="16" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -224,8 +220,7 @@
             <EquipmentSet id="teutonic_infantry_root20_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root200" default_group="Infantry" name="Teutonic Order Senior Infantry" level="21" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root200" default_group="Infantry" name="{=teutonic_infantry_root200.name}Teutonic Order Senior Infantry" level="21" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -247,8 +242,7 @@
             <EquipmentSet id="teutonic_infantry_root200_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_infantry_root2000" default_group="Infantry" name="Teutonic Order Heavy Infantry" level="26" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_infantry_root2000" default_group="Infantry" name="{=teutonic_infantry_root2000.name}Teutonic Order Heavy Infantry" level="26" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -269,7 +263,7 @@
         </Equipments>
     </NPCCharacter>
     <!--ARCHER TROOPS -->
-    <NPCCharacter id="teutonic_archer_root" default_group="Ranged" name="Teutonic Order Levy Archer" level="11" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_archer_root" default_group="Ranged" name="{=teutonic_archer_root.name}Teutonic Order Levy Archer" level="11" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -292,7 +286,7 @@
             <EquipmentSet id="teutonic_archer_root_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_archer_root0" default_group="Ranged" name="Teutonic Order Archer" level="16" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_archer_root0" default_group="Ranged" name="{=teutonic_archer_root0.name}Teutonic Order Archer" level="16" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -314,7 +308,7 @@
             <EquipmentSet id="teutonic_archer_root0_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_archer_root00" default_group="Ranged" name="Teutonic Order Senior Archer" level="21" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_archer_root00" default_group="Ranged" name="{=teutonic_archer_root00.name}Teutonic Order Senior Archer" level="21" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -336,7 +330,7 @@
             <EquipmentSet id="teutonic_archer_root00_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_archer_root000" default_group="Ranged" name="Teutonic Order Longbowman" level="26" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_archer_root000" default_group="Ranged" name="{=teutonic_archer_root000.name}Teutonic Order Longbowman" level="26" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -356,7 +350,7 @@
             <EquipmentSet id="teutonic_archer_root000_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_archer_root1" default_group="Ranged" name="Teutonic Order Crossbowman" level="16" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_archer_root1" default_group="Ranged" name="{=teutonic_archer_root1.name}Teutonic Order Crossbowman" level="16" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -378,7 +372,7 @@
             <EquipmentSet id="teutonic_archer_root1_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_archer_root10" default_group="Ranged" name="Teutonic Order Senior Crossbowman" level="21" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_archer_root10" default_group="Ranged" name="{=teutonic_archer_root10.name}Teutonic Order Senior Crossbowman" level="21" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -400,8 +394,7 @@
             <EquipmentSet id="teutonic_archer_root10_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_archer_root100" default_group="Ranged" name="Teutonic Order Veteran Crossbowman" level="26" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_archer_root100" default_group="Ranged" name="{=teutonic_archer_root100.name}Teutonic Order Veteran Crossbowman" level="26" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -423,8 +416,7 @@
             <EquipmentSet id="teutonic_archer_root100_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_archer_root1000" default_group="Ranged" name="Teutonic Order Master Crossbowman" level="31" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_archer_root1000" default_group="Ranged" name="{=teutonic_archer_root1000.name}Teutonic Order Master Crossbowman" level="31" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -445,8 +437,7 @@
         </Equipments>
     </NPCCharacter>
     <!--ELITE TROOPS -->
-    <NPCCharacter id="teutonic_elite_root" default_group="Cavalry" name="Teutonic Order Horseman" level="16" occupation="Soldier" culture="Culture.teutonic"
-                  is_basic_troop="true">
+    <NPCCharacter id="teutonic_elite_root" default_group="Cavalry" name="{=teutonic_elite_root.name}Teutonic Order Horseman" level="16" occupation="Soldier" culture="Culture.teutonic" is_basic_troop="true">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -470,7 +461,7 @@
             <EquipmentSet id="teutonic_elite_root_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_elite_root1" default_group="Cavalry" name="Teutonic Order Squire" level="21" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_elite_root1" default_group="Cavalry" name="{=teutonic_elite_root1.name}Teutonic Order Squire" level="21" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -492,8 +483,7 @@
             <EquipmentSet id="teutonic_elite_root1_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_elite_root2" default_group="HorseArcher" name="Teutonic Order Mounted Crossbowman" level="21" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_elite_root2" default_group="HorseArcher" name="{=teutonic_elite_root2.name}Teutonic Order Mounted Crossbowman" level="21" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -515,7 +505,7 @@
             <EquipmentSet id="teutonic_elite_root2_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_elite_root0" default_group="Cavalry" name="Teutonic Order Konstafler" level="21" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_elite_root0" default_group="Cavalry" name="{=teutonic_elite_root0.name}Teutonic Order Konstafler" level="21" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -577,8 +567,7 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_elite_root20" default_group="HorseArcher" name="Teutonic Order Senior Mounted Crossbowman" level="26" occupation="Soldier"
-                  culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_elite_root20" default_group="HorseArcher" name="{=teutonic_elite_root20.name}Teutonic Order Senior Mounted Crossbowman" level="26" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -598,7 +587,7 @@
             <EquipmentSet id="teutonic_elite_root20_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_elite_root10" default_group="Cavalry" name="Teutonic Order Lesser Knight" level="26" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_elite_root10" default_group="Cavalry" name="{=teutonic_elite_root10.name}Teutonic Order Lesser Knight" level="26" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -620,7 +609,7 @@
             <EquipmentSet id="teutonic_elite_root10_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_elite_root00" default_group="Cavalry" name="Teutonic Order Lesser Dienstmann" level="26" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_elite_root00" default_group="Cavalry" name="{=teutonic_elite_root00.name}Teutonic Order Lesser Dienstmann" level="26" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -642,7 +631,7 @@
             <EquipmentSet id="teutonic_elite_root00_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_elite_root000" default_group="Cavalry" name="Order Ministeriales" level="31" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_elite_root000" default_group="Cavalry" name="{=teutonic_elite_root000.name}Order Ministeriales" level="31" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
@@ -662,7 +651,7 @@
             <EquipmentSet id="teutonic_elite_root000_civ" civilian="true"/>
         </Equipments>
     </NPCCharacter>
-    <NPCCharacter id="teutonic_elite_root100" default_group="Cavalry" name="Teutonic Knight" level="31" occupation="Soldier" culture="Culture.teutonic">
+    <NPCCharacter id="teutonic_elite_root100" default_group="Cavalry" name="{=teutonic_elite_root100.name}Teutonic Knight" level="31" occupation="Soldier" culture="Culture.teutonic">
         <face>
             <face_key_template value="BodyProperty.fighter_teutonic"/>
         </face>
