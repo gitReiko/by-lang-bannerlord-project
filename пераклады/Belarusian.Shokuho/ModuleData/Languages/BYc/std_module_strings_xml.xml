@@ -1,286 +1,223 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
-  <tags>
-    <tag language="English" />
-  </tags>
-  <strings>
-    <string id="MYz8nKqq" text="Diplomacy" />
-    <string id="hPERH3u4" text="Loaded Diplomacy" />
-
-    <string id="TS1iV2pO" text="Not enough influence!" />
-    <string id="XQFxDr11" text="There is an active quest preventing it!" />
-    <string id="ONNcmltF" text="This war hasn't gone on long enough to consider peace! It has only been {ELAPSED_DAYS} days out of a required {REQUIRED_DAYS} days." />
-    <string id="GuPOCNNZ" text="The truce was concluded too recently to consider breaking it now! It has only been {ELAPSED_DAYS} days out of a required {REQUIRED_DAYS} days." />
-
-    <string id="v0cDMIcl" text="Cannot declare war on this kingdom. " />
-    <string id="Pqk3WuGz" text="Cannot make peace with this kingdom. " />
-    <string id="9aaZ8Ed4" text="Cannot declare war, kingdom leaders are friends." />
-    <string id="Zimavbgw" text="Cannot declare war, kingdom leaders personal relations are excellent." />
-    <string id="pXD8Uf2e" text="Cannot declare war, kingdom leader clans have close family marriages." />
-      
-    <string id="zv12jjyW" text="Messenger Sent" />
-    <string id="uy86VZX2" text="Messenger Arrived" />
-
-    <string id="JmgAuONd" text="Oh no. The messenger was ambushed and eaten by a Grue while trying to reach {HERO_NAME}!" />
-    <string id="YnRmSele" text="The messenger from {FACTION1_NAME} has arrived at {ADDRESSEE_TEXT}.{BRIBE_TEXT}" />
-    <string id="qNWMZP0z" text="The messenger from {FACTION1_NAME} will arrive at {ADDRESSEE_TEXT} within {TRAVEL_TIME} days." />
-    <string id="nYrezEOX" text="Messenger killed" />
-    <string id="A5lug0JY" text="Your messenger was ambushed and killed by highwaymen while trying to reach {HERO NAME}!" />
-    <string id="vGyBQeEk" text="{HERO_NAME}{?HAS_FACTION} of {FACTION2_NAME}{?}{\?}" />
-    <string id="sQxAljGF" text="{NEW_LINE} {NEW_LINE}Unfortunately, the messenger is denied access to the keep, but can try to bribe the guards. It would cost {?IS_FEMALE}her{?}him{\?} {GOLD_COST}{GOLD_ICON} and you will have to cover the expenses{?CAN_AFFORD}.{?}, which you can't afford at the moment.{\?}" />
-
-    <string id="bLR91Eob" text="{REASON}The messenger won't be able to reach the addressee." />
-    <string id="hPra5uwZ" text="The messenger either does not understand or does not like your joke and refuses the task." />
-    <string id="1mlXBnSs" text="You know too little of {HERO_NAME} to point them out for a messenger." />
-
-    <string id="vhsHDMil" text="{HERO_NAME} is dead. " />
-    <string id="CusN2JMb" text="{HERO_NAME} is imprisoned {?IS_MOBILE}by{?}in{\?} {DETENTION_PLACE}. " />
-    <string id="1BISlFYx" text="{HERO_NAME} is fugitive and doesn't want to be found. " />
-    <string id="ze8KJ1oL" text="{HERO_NAME} has just been released from custody and is not yet ready to make appointments. " />
-    <string id="N5T6IXWJ" text="{HERO_NAME} is traveling incognito. " />
-    <string id="3lknR86H" text="{HERO_NAME} is too inexperienced to participate in formal meetings. " />
-
-    <string id="BkGSVccZ" text="Peace Proposal" />
-    <string id="3fTqLwkC" text="Accept" />
-    <string id="dRoMejb0" text="Decline" />
-
-    <string id="cXfcwzPp" text="Send Messenger" />
-
-    <string id="N06wk0dB" text="Settlement Captured" />
-    <string id="Zy0yjTha" text="As the capturer of {SETTLEMENT_NAME}, you have the right of first refusal. Would you like to claim this fief?" />
-
-    <string id="IWZ91JVk" text="Not enough gold!" />
-
-    <string id="LpoyhORp" text="Grant Fief" />
-    <string id="h3b1S5Wq" text="Grant Fief to {CLAN_NAME}" />
-    <string id="jznJfkfU" text="Fief Granted" />
-    <string id="cXbgaPSm" text="{SETTLEMENT_NAME} was granted to {CLAN_NAME}."/>
-
-    <string id="FqeN0fmR" text="You cannot grant fiefs to your own clan." />
-    <string id="zdSYUnZQ" text="You are not the leader of your kingdom." />
-    <string id="D61vzEC7" text="You don't have any fiefs to grant." />
-    <string id="98hwXUTp" text="Grant fiefs to clans in your kingdom" />
-    <string id="Q7jRqnez" text="You cannot grant fiefs to mercenary clans." />
-
-    <string id="DrnXprup" text="You have been at war too recently to consider an alliance. It has only been {ELAPSED_DAYS} days out of a required {REQUIRED_DAYS} days." />
-    <string id="KHJyWj9H" text="Cannot be in an alliance." />
-    <string id="UQZmdLzc" text="Cannot be at war." />
-    <string id="qIa19an4" text="Alliance Formed" />
-    <string id="3pbwc8sh" text="Alliance Proposal"/>
-    <string id="QbOqatd7" text="{KINGDOM} is proposing an alliance with {PLAYER_KINGDOM}." />
-
-    <string id="384jX28Q" text="{KINGDOM} is breaking the alliance with {PLAYER_KINGDOM}."/>
-    <string id="D1ZQKZr1" text="Alliance Broken" />
-
-    <string id="0WPWbx70" text="Form Alliance" />
-    <string id="K4GraLTn" text="Break Alliance" />
-
-    <string id="VvTTrRpl" text="This faction is not interested in forming an alliance with you." />
-    <string id="wst0lArp" text="This alliance hasn't gone on long enough to consider breaking it! It has only been {ELAPSED_DAYS} days out of a required {REQUIRED_DAYS} days." />
-
-    <string id="KqfNSsBE" text="Allies" />
-    <string id="Dirltd6Z" text="Alliances are disabled." />
-
-    <string id="Q8ItogIP" text="Propose directly to {ENEMY_LEADER}{WAR_REPARATIONS_AND_TRIBUTE}{FIEFS_TO_RETURN}" />
-    <string id="BC7823G2" text="{?REPARATIONS_PAY}, paying {REPARATIONS} war reparations{?TRIBUTE_PAY} and {TRIBUTE} tribute/day.{?}{?TRIBUTE_GET}, but receiving {TRIBUTE} tribute/day.{?}{\?}{\?}{?}{?REPARATIONS_GET}, receiving {REPARATIONS} war reparations{?TRIBUTE_PAY}, but paying {TRIBUTE} tribute/day.{?}{?TRIBUTE_GET} and {TRIBUTE} tribute/day.{?}{\?}{\?}{?}{?TRIBUTE_PAY}, paying {TRIBUTE} tribute/day.{?}{?TRIBUTE_GET}, receiving {TRIBUTE} tribute/day.{?}.{\?}{\?}{\?}{\?}" />
-    <string id="9CvcPwJA" text="{?FIEFS_ANY} You may have to return some of the captured fiefs back!{?}{\?}" />
-
-    <!--Millions and thousands-->
-    <string id="6xcW68Tw" text="{VALUE}M" />
-    <string id="oD4fZ2tY" text="{VALUE}K" />
-
-    <string id="XlL50Ha9" text="Can't make peace with a kingdom during an active player siege." />
-
-    <string id="bCOCjOQM" text="Relat." />
-    <string id="RxawrCjg" text="Relationship Gain with Grantee"/>
-
-    <string id="fXcEtO29" text="Cannot have an active non-aggression pact." />
-
-    <string id="zpNalMeA" text ="Alliances" />
-    <string id="y5tXjbLK" text ="Wars" />
-    <string id="noWHMN1W" text ="Non-Aggression Pacts" />
-
-    <string id="yj4XFa5T" text="Non-Aggression Pact Proposal"/>
-    <string id="gyLjlpJB" text="{KINGDOM} is proposing a non-aggression pact with {PLAYER_KINGDOM}."/>
-
-    <string id="9pY0NQrk" text="Form Pact"/>
-    <string id="9zlQNtlX" text="Form a non-aggression pact lasting {DAYS} days."/>
-
-    <string id="1occw3EF" text="Stats"/>
-    <string id="OvbY5qxL" text="Overview"/>
-
-    <string id="UDC8eW7s" text="{ALLIED_KINGDOM} is joining their ally, {KINGDOM}, in the war against {ENEMY_KINGDOM}."/>
-
-    <string id="pdI7Tjtj" text="Non-Aggression Pact Expired"/>
-    <string id="uWY09LJb" text="The non-aggression pact between {KINGDOM} and {OTHER_KINGDOM} has expired."/>
-
-    <string id="dUCOV7km" text="Corruption (too many fiefs)"/>
-    <string id="koTNaZUX" text="Influence Decay (too much influence)"/>
-    <string id="uZc8Hg01" text="Maximum Influence Loss"/>
-
-    <string id="kMjfN2fB" text="Cancel Messenger"/>
-
-    <string id="q5qphBwi" text="Weak Faction"/>
-    <string id="sygtLRqA" text="Relationship"/>
-
-    <string id="cmOSpfyW" text="Alliance with {ALLIED_KINGDOM}"/>
-    <string id="RqQ4oqvl"  text="War with {ENEMY_KINGDOM}"/>
-    <string id="t6YhBLj7" text="Non-Aggression Pact with {KINGDOM}" />
-    <string id="BjkwaNot" text="Marriage with leading clan of {KINGDOM}" />
-
-    <string id="M4SGjzQP" text="This faction is not interested in forming a non-aggression pact with you."/>
-
-    <string id="Gzq6VHPt" text="Donate Gold"/>
-    <string id="N7goPgiq" text="Usurp Throne"/>
-    <string id="WVe7QwhW" text="Usurp the throne of this kingdom\nClan Support: {SUPPORTING_TIERS} / {OPPOSING_TIERS}"/>
-
-    <string id="CxdpR6w4" text="Expansionism"/>
-
-    <string id="ARNRwPrY" text="Coalition Formed"/>
-	  <!--Japan was changed from calradia here. other translations were not changed. this is from the diplomacy mod-->
-    <string id="qbLPBlIv" text="Japan grows wary of the inexorable expansion of the {EXPANSIONIST_KINGDOM}. A coalition led by the {COALITION_KINGDOM} has been formed to fight them!"/>
-
-    <string id="vB3RrMNf" text="The {KINGDOM} has formed a non-aggression pact with the {OTHER_KINGDOM}." />
-    <string id="PdN5g5ub" text="{KINGDOM} has formed an alliance with {OTHER_KINGDOM}!" />
-    <string id="5r6fsHgm" text="Current Score"/>
-    <string id="XIBUWDlT" text="Required Score"/>
-
-    <string id="5znwaUVC" text="Days Remaining: {DAYS_LEFT}"/>
-
-    <string id="Euy6Mwcq" text="You must progress further in the main quest to unlock this action. You can disable storyline protection in the mod options."/>
-    <string id="fQxiCdBA" text="Main Storyline"/>
-    <string id="3wXqST66" text="By usurping this throne, you are committing to {STANCE} the empire in the main storyline."/>
-    <string id="yAFwbD9B" text="unifying"/>
-    <string id="IGJVx5XI" text="destroying"/>
-
-    <string id="lQAaLeSy" text="You don't have the authority to perform this action."/>
-
-    <string id="7QvXkcxH" text="Donate gold to clans in your kingdom"/>
-    <string id="e7uxH1jc" text="Gold Cost: {GOLD_COST}"/>
-    <string id="4lG3JG2e" text="Relation Gain: {RELATION_GAIN}+"/>
-
-    <string id="Q2vXbwvC" text="Diplomacy"/>
-    
-    <!--
-    ||||||||||||||||||||||||||| Mod Options |||||||||||||||||||||||||||
-    -->
-
-    <string id="sBw5Qzq3" text="Kingdom Diplomacy" />
-    <string id="tis8Ddzn" text="Allow Player To Claim Player-Taken Settlements" />
-    <string id="TfxLCxcD" text="Gives the player the option to claim a settlement that they have taken rather than let it go to an election." />
-    <string id="8VKC3jtN" text="Enable Fiefless Kingdom Elimination" />
-    <string id="TlymwwPZ" text="If enabled, kingdoms without any fiefs are destroyed when they sign a peace treaty ending the last ongoing war they participate in. Default value is enabled." />
-    <string id="w8Hi9jJf" text="Delay Fiefless Kingdom Elimination" />
-    <string id="GDctI4Kd" text="If enabled, kingdoms without any fiefs will only be destroyed when they sign a peace treaty ending the last ongoing war they are involved in, not immediately after they lose their last fief. Default value is enabled." />      
-    <string id="ZRlNvsev" text="Minimum War Duration in Days" />
-    <string id="vuFT5ns8" text="The minimum duration (in days) that a war can last before proposing peace. Default value is 21 (quarter of a standard game year)." />
-    <string id="4MzQHMVj" text="Declare War Cooldown in Days" />
-    <string id="q2duqN8d" text="The minimum duration (in days) before re-declaring war on the same kingdom after making peace. Default value is 21 (quarter of a standard game year)." />
-    <string id="2XC8QHkl" text="Enable Alliances" />
-    <string id="5YJBZx28" text="If disabled, this disables the ability to form alliances for both player and AI kingdoms. Default value is enabled." />
-    <string id="H6XMjwpF" text="Minimum Alliance Duration in Days" />
-    <string id="RrsWhIWi" text="The minimum duration (in days) that an alliance will last before it can be broken. Default value is 42 (half of a standard game year)." />
-    <string id="5a829TiT" text="Alliance Tendency" />
-    <string id="7nSjs8UL" text="Score modifier affecting the tendency of kingdoms to form alliances. Increasing the modifier makes alliances more desirable to AI kingdoms. Default value is 0." />
-    <string id="V35hUfcc" text="Non-Aggression Pact Duration in Days"/>
-    <string id="KXLGZEPh" text="The duration (in days) that a non-aggression pact will last. Default value is 84 (one standard game year)."/>
-    <string id="G8BhBnRG" text="Non-Aggression Pact Tendency" />
-    <string id="907ER5u9" text="Score modifier affecting the tendency of kingdoms to form non-aggression pacts. Increasing the modifier makes non-aggression pacts more desirable to AI kingdoms. Default value is 0." />
-    <string id="6m1SspFW" text="Enable Player Kingdom Diplomacy Control" />
-    <string id="N5EouSSj" text="Gives the player full control over declaring war and making peace in the kingdom they belong to, even if they are just a vassal and not the leader of the kingdom. Default value is disabled." />
-    <string id="lhysZl9j" text="Action Tendency" />
-    <string id="dRyU9E7Z" text="No Wars Between Friends" />
-    <string id="XyXJSTKr" text="If active, kingdom leaders that are friends will not start wars with each other. Default value is enabled." />
-    <string id="pWoKQ6HO" text="No Wars If Good Relations" />
-    <string id="bOuGhbPt" text="If active, wars between leaders of kingdoms will not be allowed if relations are above war start relations. Default value is enabled." />
-    <string id="x0Aoiomr" text="No Wars Good Relations Threshold" />
-    <string id="aH6rpjt6" text="The relation value of kingdom leaders after which kingdoms will not start wars with each other. Default value is 30." />
-    <string id="jwNKk8P7" text="No Wars When Married" />
-    <string id="xcMzKH48" text="If active, kingdom leader clans that have a marriage between each other will not start wars. Default value is active." />
-    <string id="xcMzKH48" text="If active, kingdom leader clans that have a marriage between each other will not start wars. Default value is active." />
-    <string id="xXKKRp99" text="Leader Clan Family Marriage Affects Alliance" />
-    <string id="BGS6mUID" text="If active, will grant a bonus to alliance tendency when leader clans have a family marriage between them. Default value is active." />
-      
-    <string id="ldLFTs92" text="Costs" />      
-    <string id="Ckd1Lsoa" text="Gold Costs" />
-    <string id="t4hNAoD7" text="Enable Scaling Gold Costs" />
-    <string id="5MMIDE5A" text="If enabled, this will scale gold costs of diplomatic actions and war reparations based on your kingdom size. Otherwise, the generic multipliers of 100 for diplomatic actions and 1000 for war reparations will apply. The default value is enabled." />
-    <string id="vD270X6H" text="Scaling Gold Cost Multiplier" />
-    <string id="Gd52NzBP" text="Multiplier for the scaling gold costs. Default value is 5." />
-    <string id="HFtZsD6v" text="Scaling War Reparations Gold Cost Multiplier" />
-    <string id="MIhbrqbr" text="Multiplier for the scaling of war reparations gold costs. Default value is 50." />
-    <string id="Cr6a5Jap" text="Defeated War Reparations Gold Cost" />
-    <string id="NH4GNKva" text="The base cost in gold for losing a war of attrition against another kingdom. Affected by scaling and with scaling disabled will be multiplied by a thousand. The default value is 200." />
-
-    <string id="SEViwYTl" text="Influence Costs" />
-    <string id="WbOKuWbQ" text="Enable Influence Costs" />
-    <string id="K2vLGalN" text="If disabled, this removes influence costs for war and peace declaration actions. Default value is enabled." />
-    <string id="9PlT57Nl" text="Influence Costs/Scaling" />
-    <string id="P1g6Ht1e" text="Enable Scaling Influence Costs" />
-    <string id="xfVFBxfj" text="If enabled, this will scale influence costs based on your kingdom size. Otherwise, flat influence costs are used. Default value is enabled." />
-    <string id="TvAYJv5Q" text="Scaling Influence Cost Multiplier" />
-    <string id="AQ5gRYN6" text="Multiplier for the scaling influence costs. Default value is 5." />
-    <string id="BazjeCZw" text="Influence Costs/Flat" />
-    <string id="OnTeAgin" text="Flat Declare War Influence Cost" />
-    <string id="O5XvybTI" text="Influence cost for declaring war on another kingdom. Default value is 500." />
-    <string id="iNsXQD2q" text="Flat Make Peace Influence Cost" />
-    <string id="WB5zdvdT" text="Influence cost for making peace with another kingdom. Default value is 500." />
-
-    <string id="nueOs6m9" text="Messengers" />
-    <string id="nwTyegdV" text="Enable Messengers Accidents" />
-    <string id="T7yybpw3" text="If enabled, adds a small chance of failure for messengers. The longer the journey, the higher the chance of an accident on the road. Default value is enabled." />
-    <string id="ysYCYvwT" text="Restrict Messengers Sending" />
-    <string id="5O87pSL3" text="If enabled, you can only send a messenger to people you have met or at least likely to know of. Otherwise, you can send a messenger to a person regardless your knowledge of addressee. Default value is enabled." />
-    <string id="nnXi6MmH" text="Messenger Travel Time in Days" />
-    <string id="zkvCGLuK" text="The maximum amount of time (in days) it could take the messenger to reach the addressee. Directly affects the travelling speed of the messengers. The default value is 3." />
-    <string id="nMwWHj4h" text="Send Messenger Gold Cost" />
-    <string id="ehMf7xvE" text="Gold cost for sending a messenger to another character. Default value is 100." />
-
-    <string id="OfEMJWiR" text="Relation" />
-    <string id="6l9QNMrB" text="Grant Fief Postiive Relation Multiplier" />
-    <string id="FQaghHo7" text="Multiplier for the relation gain when granting fiefs. Default value is 1." />
-    <string id="9qKclHq3" text="Grant Fief Relation Penalty" />
-    <string id="fgc8Dvg0" text="The relation penalty assessed when granting a fief to another clan. Default value is -2."/>
-
-    <string id="8ZPKToTq" text="Influence Balancing"/>
-    <string id="4jlYRUdZ" text="Enable Influence Balancing"/>
-    <string id="tOMN9DQD" text="Controls whether Influence Decay and Corruption calculations are active. May need to be disabled for mod compatibility."/>
-
-    <string id="vzKRX2JA" text="Influence Decay"/>
-    <string id="szYr4OTG" text="Enable Influence Decay" />
-    <string id="rKS9z4Sz" text="Enables influence decay, which gradually decays influence each day. Default value is enabled."/>
-
-    <string id="pVE1yNlm" text="Influence Decay Threshold"/>
-    <string id="MnLk08uW" text="The amount of influence exempt from influence decay. Default value is 1000."/>
-    <string id="WTeM4Rba" text="Maximum Influence Loss per Day"/>
-    <string id="CGixJ6ng" text="The maximum amount of daily influence loss. Default value is 20."/>
-    <string id="yob5ZHtz" text="Influence Decay Percentage per Day"/>
-    <string id="IYFl4kJx" text="The percentage of influence that decays away per day. Default value is 2.0." />
-
-    <string id="e5fHDXgl" text="Corruption" />
-    <string id="KWAH0S4h" text="Enable Corruption" />
-    <string id="trgnZ0pn" text="Enables corruption, which gradually decays a clan's influence each day when holding too many fiefs. Default value is enabled."/>
-
-    <string id="ZqQaUIil" text="Expansionism"/>
-    <string id="2raR1ZHv" text="Coalitions"/>
-    <string id="Pr4dcRKm" text="Minimum Expansionism Per Fief"/>
-    <string id="9qcAWjI7" text="The minimum amount of expansionism a fief contributes. Default value is 3."/>
-    <string id="MnhMW8iq" text="Expansionism Per Siege"/>
-    <string id="lCbie62E" text="Expanionism added per successful siege. Default value is 20."/>
-    <string id="mEXGC0h3" text="Expansionism Decay Per Day"/>
-    <string id="kgPeQvqE" text="The amount of expansionism that decays each day. Default value is 1."/>
-    <string id="ZIf1tRII" text="Enable Coalitions"/>
-    <string id="8v8q0OGu" text="Enables coalitions, which allow factions to band together against a strong, expansionist faction. Default value is enabled."/>
-    <string id="1kSd88X5" text="Expansionism Threshold"/>
-    <string id="EUnASoee" text="The amount of expansionism a faction requires before a coalition is formed against it. Default value is 100."/>
-    <string id="zwbL9BHe" text="Coalition Chance Percentage per Day"/>
-    <string id="9ugCWA3v" text="The percentage change of a coalition forming against a faction over the expansionism threshold. Default value is 5."/>
-
-    <string id="lsyl0VSX" text ="Storyline Protection"/>
-    <string id="EVrErrTR" text="When enabled, prevents the player from breaking the main storyline. Disable when using mods like &quot;Just Let Me Play&quot;. Default value is enabled." />
-
-    <string id="f6n2UAEC" text="Unfinished Features" />
-    <string id="HSoZfvXH" text="Enable Usurp Throne Feature" />
-    <string id="ZIAo4er4" text="When enabled, this allows the player to usurp the throne of a kingdom. This feature is unbalanced and is pending a rework and thus not recommended. Default value is false." />
-  </strings>
+ <strings>
+  <string id="MYz8nKqq" text="Дыпламатыя"/>
+  <string id="hPERH3u4" text="Дыпламатыя загружана"/>
+  <string id="TS1iV2pO" text="Бракуе ўплыву!"/>
+  <string id="XQFxDr11" text="Існуе актыўны квэст, які перашкаджае гэтаму!"/>
+  <string id="ONNcmltF" text="Гэтая вайна доўжыцца недастаткова доўга, каб весьці перамовы! Прайшло толькі {ELAPSED_DAYS} дзён з патрэбных {REQUIRED_DAYS}."/>
+  <string id="GuPOCNNZ" text="Мір быў складзены занадта нядаўна, каб разглядаць магчымасьць яго парушэньня цяпер! Прайшло толькі {ELAPSED_DAYS} дзён з патрэбных {REQUIRED_DAYS}."/>
+  <string id="v0cDMIcl" text="Нельга абвясьціць вайну гэтаму гаспадарству. "/>
+  <string id="Pqk3WuGz" text="Нельга абвясьціць мір з гэтым гаспадарствам. "/>
+  <string id="9aaZ8Ed4" text="Нельга абвясьціць вайну, лідары гаспадарстваў сябры."/>
+  <string id="Zimavbgw" text="Нельга абвясьціць вайну, лідары гаспадарстваў маюць выдатныя адносіны."/>
+  <string id="pXD8Uf2e" text="Нельга абвясьціць вайну, пануючыя кланы гаспадарстваў маюць між сабой шлюбы."/>
+  <string id="zv12jjyW" text="Пасланьнік Адпраўлены"/>
+  <string id="uy86VZX2" text="Пасланьнік Прыбыў"/>
+  <string id="JmgAuONd" text="Якое няшчасьце. Пасланьнік трапіў у засаду і быў з'еты Жоравамі падчас спробы дабрацца да {HERO_NAME}!"/>
+  <string id="YnRmSele" text="Пасланьнік ад {FACTION1_NAME} прыбыў да {ADDRESSEE_TEXT}.{BRIBE_TEXT}."/>
+  <string id="qNWMZP0z" text="Пасланьнік ад {FACTION1_NAME} прыбудзе да {ADDRESSEE_TEXT} цягам {TRAVEL_TIME} дзён."/>
+  <string id="nYrezEOX" text="Пасланьнік забіты"/>
+  <string id="A5lug0JY" text="Вашы пасланьнік трапіў у засаду і быў забіты грабежнікамі падчас спробы дабрацца да {HERO_NAME}!"/>
+  <string id="vGyBQeEk" text="{HERO_NAME}{?HAS_FACTION} з {FACTION2_NAME}{?}{\?}"/>
+  <string id="sQxAljGF" text="{NEW_LINE} {NEW_LINE}На жаль, пасланьніку забаранілі ўваход ў замак, але ён можа паспрабаваць падкупіць вартаўнікоў. Гэта будзе каштаваць {?IS_FEMALE}ёй{?}яму{\?} {GOLD_COST}{GOLD_ICON} і вам давядзецца пакрыць выдаткі {?CAN_AFFORD}.{?}, якія вы ня можаце зараз сабе дазволіць.{\?}"/>
+  <string id="bLR91Eob" text="{REASON}Пасланьнік ня зможа дабрацца да адрасата."/>
+  <string id="hPra5uwZ" text="Пасланьнік альбо не разумее, альбо яму не падабаецца вашы жарт, таму ён адмаўляецца ад заданьня."/>
+  <string id="1mlXBnSs" text="Вы занадта дрэнна ведаеце {HERO_NAME}, каб растлумачыць пасланьніку."/>
+  <string id="vhsHDMil" text="{HERO_NAME} {?HERO_NAME.GENDER}памёрла{?}памёр{\?}. "/>
+  <string id="CusN2JMb" text="{HERO_NAME} {?HERO_NAME.GENDER}запалонена{?}запалонены{\?} {?IS_MOBILE}{?}у{\?} {DETENTION_PLACE}. "/>
+  <string id="1BISlFYx" text="{HERO_NAME} {?HERO_NAME.GENDER}зьбегла і не жадае, каб яе адшукалі.{?}зьбег і не жадае, каб яго адшукалі.{\?}. "/>
+  <string id="ze8KJ1oL" text="{HERO_NAME} толькі {?HERO_NAME.GENDER}вызвалілася{?}вызваліўся{\?} з палону і пакуль не {?HERO_NAME.GENDER}гатовая{?}гатовы{\?} сустракацца. "/>
+  <string id="N5T6IXWJ" text="{HERO_NAME} вандруе інкогніта. "/>
+  <string id="3lknR86H" text="{HERO_NAME} занадта {?HERO_NAME.GENDER}недасьведчаная{?}недасьведчаны{\?}, каб браць удзел у афіцыйных сустрэчах. "/>
+  <string id="BkGSVccZ" text="Прапанова Міру"/>
+  <string id="3fTqLwkC" text="Прыняць"/>
+  <string id="dRoMejb0" text="Адхіліць"/>
+  <string id="cXfcwzPp" text="Адправіць Пасланьніка"/>
+  <string id="N06wk0dB" text="Селішча Захоплена"/>
+  <string id="Zy0yjTha" text="Вы захапілі {SETTLEMENT_NAME}, таму маеце права першай адмовы. Жадаеце валадарыць над гэтай воласьцю?"/>
+  <string id="IWZ91JVk" text="Бракуе золата!"/>
+  <string id="LpoyhORp" text="Падарыць Воласьць"/>
+  <string id="h3b1S5Wq" text="Падарыць Воласьць Клану {CLAN_NAME}"/>
+  <string id="jznJfkfU" text="Воласьць Даравана"/>
+  <string id="cXbgaPSm" text="Воласьць {SETTLEMENT_NAME} была даравана клану {CLAN_NAME}."/>
+  <string id="FqeN0fmR" text="Вы ня можаце дарыць воласьці свайму ўласнаму клану."/>
+  <string id="zdSYUnZQ" text="Вы ня з'яўляецеся лідарам вашага гаспадарства."/>
+  <string id="D61vzEC7" text="Вы ня маеце воласьцяў, якія льга дараваць."/>
+  <string id="98hwXUTp" text="Дараваньне воласьцяў кланам вашага гаспадарства"/>
+  <string id="Q7jRqnez" text="Вы ня можаце дарыць воласьці кланам наймітаў."/>
+  <string id="DrnXprup" text="Вы ваявалі занадта нядаўна, каб разглядаць хаўрус. Прайшло толькі {ELAPSED_DAYS} дзён з {REQUIRED_DAYS} патрэбных."/>
+  <string id="KHJyWj9H" text="Нельга стварыць хаўрус."/>
+  <string id="UQZmdLzc" text="Нельга ваяваць."/>
+  <string id="qIa19an4" text="Хаўрус Сфармаваны"/>
+  <string id="3pbwc8sh" text="Прапанова Хаўрусу"/>
+  <string id="QbOqatd7" text="Гаспадарства {KINGDOM} прапаноўвае хаўрус з гаспадарствам {PLAYER_KINGDOM}."/>
+  <string id="384jX28Q" text="Гаспадарства {KINGDOM} разрывае хаўрус з гаспадарствам {PLAYER_KINGDOM}."/>
+  <string id="D1ZQKZr1" text="Хаўрус Разарваны"/>
+  <string id="0WPWbx70" text="Сфармаваць Хаўрус"/>
+  <string id="K4GraLTn" text="Разарваць Хаўрус"/>
+  <string id="VvTTrRpl" text="Гэтая фракцыя не зацікаўлена ў фармаваньні хаўрусу з вамі."/>
+  <string id="wst0lArp" text="Гэты хаўрус не праіснаваў задоўга, каб разглядаць магчымасьць яго разрыву! Прайшло толькі {ELAPSED_DAYS} дзён з {REQUIRED_DAYS} патрэбных."/>
+  <string id="KqfNSsBE" text="Хаўрусы"/>
+  <string id="Dirltd6Z" text="Хаўрусы адключаны."/>
+  <string id="Q8ItogIP" text="Прапанаваць непасрэдна {ENEMY_LEADER}{WAR_REPARATIONS_AND_TRIBUTE}{FIEFS_TO_RETURN}"/>
+  <string id="BC7823G2" text="{?REPARATIONS_PAY}, выплачвае {REPARATIONS} вайсковых рэпарацыяў{?TRIBUTE_PAY} і {TRIBUTE} даніны/штодзень.{?}{?TRIBUTE_GET}, але атрымлівае {TRIBUTE} даніны/штодзень.{?}{\?}{\?}{?}{?REPARATIONS_GET}, атрымлівае {REPARATIONS} вайсковых рэпарацыяў{?TRIBUTE_PAY}, але выплачвае {TRIBUTE} даніны/штодзень.{?}{?TRIBUTE_GET} і {TRIBUTE} даніны/штодзень.{?}{\?}{\?}{?}{?TRIBUTE_PAY}, выплачвае {TRIBUTE} даніны/штодзень.{?}{?TRIBUTE_GET}, атрымлівае {TRIBUTE} даніны/штодзень.{?}.{\?}{\?}{\?}{\?}"/>
+  <string id="9CvcPwJA" text="{?FIEFS_ANY} Магчыма, вам давядзецца вярнуць частку захопленых воласьцяў назад!{?}{\?}"/>
+  <string id="6xcW68Tw" text="{VALUE}М"/>
+  <string id="oD4fZ2tY" text="{VALUE}Т"/>
+  <string id="XlL50Ha9" text="Нельга абвясьціць мір з гаспадарствам, калі гулец вядзе аблогу."/>
+  <string id="bCOCjOQM" text="Аднос."/>
+  <string id="RxawrCjg" text="Здабыцьцё Адносінаў з Атрымальнікам"/>
+  <string id="fXcEtO29" text="Нельга мець актыўны пакт пра ненапад."/>
+  <string id="zpNalMeA" text="Хаўрус"/>
+  <string id="y5tXjbLK" text="Вайна"/>
+  <string id="noWHMN1W" text="Пакт пра Ненапад"/>
+  <string id="yj4XFa5T" text="Прапанова Пакту пра Ненапад"/>
+  <string id="gyLjlpJB" text="Гаспадарства {KINGDOM} прапаноўвае пакт пра ненапад з гаспадарствам {PLAYER_KINGDOM}."/>
+  <string id="9pY0NQrk" text="Скласьці Пакт"/>
+  <string id="9zlQNtlX" text="Скласьці пакт пра ненапад на 90 дзён."/>
+  <string id="1occw3EF" text="Статыстыка"/>
+  <string id="OvbY5qxL" text="Агляд"/>
+  <string id="UDC8eW7s" text="Гаспадарства {ALLIED_KINGDOM} далучаецца да сваіх хаўрусьнікаў, гаспадарства {KINGDOM}, у вайне супраць гаспадарства {ENEMY_KINGDOM}."/>
+  <string id="pdI7Tjtj" text="Пакт пра Ненапад Пратэрмінаваны"/>
+  <string id="uWY09LJb" text="Пакт пра ненапад паміж гаспадарствамі {KINGDOM} і {OTHER_KINGDOM} пратэрмінаваны."/>
+  <string id="dUCOV7km" text="Карупцыя (зашмат воласьцяў)"/>
+  <string id="koTNaZUX" text="Заняпад Уплыву (зашмат уплыву)"/>
+  <string id="uZc8Hg01" text="Максімальная Страта Ўплыву"/>
+  <string id="kMjfN2fB" text="Скасаваць Пасланьніка"/>
+  <string id="q5qphBwi" text="Слабая Фракцыя"/>
+  <string id="sygtLRqA" text="Адносіны"/>
+  <string id="cmOSpfyW" text="Хаўрус з {ALLIED_KINGDOM}"/>
+  <string id="RqQ4oqvl" text="Вайна з {ENEMY_KINGDOM}"/>
+  <string id="t6YhBLj7" text="Пакт пра Ненапад з {KINGDOM}"/>
+  <string id="BjkwaNot" text="Шлюб з пануючым кланам {KINGDOM}"/>
+  <string id="M4SGjzQP" text="Гэтая фракцыя не зацікаўлена ў фармаваньні з вамі пакта пра ненапад."/>
+  <string id="Gzq6VHPt" text="Падарыць Золата"/>
+  <string id="N7goPgiq" text="Узурпаваць Трон"/>
+  <string id="WVe7QwhW" text="Узурпаваць трон гэтага гаспадарства{newline}Падтрымка Клана: {SUPPORTING_TIERS} / {OPPOSING_TIERS}"/>
+  <string id="CxdpR6w4" text="Экспансіянізм"/>
+  <string id="ARNRwPrY" text="Кааліцыя Сфармавана"/>
+  <string id="qbLPBlIv" text="Японія ўсё больш асьцерагаецца бязьлітаснага расшырэньня гаспадарства {EXPANSIONIST_KINGDOM}. Для змаганьня зь ім была сфармавана кааліцыя на чале з гаспадарствам {COALITION_KINGDOM}!"/>
+  <string id="vB3RrMNf" text="Гаспадарства {KINGDOM} сфармавала a пакт пра ненапад з гаспадарствам {OTHER_KINGDOM}."/>
+  <string id="PdN5g5ub" text="{KINGDOM} фармую хаўрус з {OTHER_KINGDOM}!"/>
+  <string id="5r6fsHgm" text="Зараз Ачкоў"/>
+  <string id="XIBUWDlT" text="Патрабуецца Ачкоў"/>
+  <string id="5znwaUVC" text="Дзён Засталося: {DAYS_LEFT}"/>
+  <string id="Euy6Mwcq" text="Каб разблакаваць гэтае дзеяньне, вы мусіце прасунуцца далей па галоўным квэсьце. Вы можаце адключыць абарону сюжэтнай лініі ў наладах мода."/>
+  <string id="fQxiCdBA" text="Галоўная Сюжэтная Лінія"/>
+  <string id="3wXqST66" text="Узурпаваўшы гэты трон, вы бярэце на сябе абавязак {STANCE} Імперыі ў галоўнай сюжэтнай лініі."/>
+  <string id="yAFwbD9B" text="аб'яднаць"/>
+  <string id="IGJVx5XI" text="зьнішчыць"/>
+  <string id="lQAaLeSy" text="Вам бракуе аўтарытэта, каб выканаць гэтае дзеяньне."/>
+  <string id="7QvXkcxH" text="Падарыць золата кланам вашага гаспадарства"/>
+  <string id="e7uxH1jc" text="Кошт Золата: {GOLD_COST}"/>
+  <string id="4lG3JG2e" text="Здабыцьцё Адносінаў: {RELATION_GAIN}+"/>
+  <string id="Q2vXbwvC" text="Дыпламатыя"/>
+  <string id="sBw5Qzq3" text="Дыпламатыя Гаспадарства"/>
+  <string id="tis8Ddzn" text="Дазволіць Гульцу Атрымліваць Захопленыя Ім Селішчы"/>
+  <string id="TfxLCxcD" text="Дае гульцу магчымасьць атрымліваць захопленыя ім селішчы, замест вызначэньня ўласьніка селішча шляхам галасаваньня."/>
+  <string id="8VKC3jtN" text="Уключыць Зьнішчэньне Гаспадарстваў Бяз Воласьцяў"/>
+  <string id="TlymwwPZ" text="Калі ўключана, гаспадарствы бяз воласьцяў зьнішчаюцца падчас падпісаньня мірнай дамовы, якая завяршае апошнюю вайну, у якой яны ўдзельнічаюць. Прадвызначанае значэньне - ўключана."/>
+  <string id="w8Hi9jJf" text="Адтэрмінованае Зьнішчэньне Гаспадарстваў бяз Воласьцяў"/>
+  <string id="GDctI4Kd" text="Калі ўключана, гаспадарства бяз воласьцяў будзе зьнішчана толькі пасьля складаньня мірнай дамовы, што завершыць апошнюю вайну, а не адразу пасьля страты апошняй воласьці. Прадвызначана: уключана."/>
+  <string id="ZRlNvsev" text="Мінімальная Працягласьць Вайны ў Днях"/>
+  <string id="vuFT5ns8" text="Мінімальная працягласьць (у днях), якую можа доўжыцца вайна да прапановы міру. Прадвызначанае значэньне - 21 (чвэрць стандартнага гульнявога года)."/>
+  <string id="4MzQHMVj" text="Перазарадка Аб'явы Вайны ў Днях"/>
+  <string id="q2duqN8d" text="Мінімальная працягласьць (у днях) да паўторнага абвяшчаньня вайны таму ж гаспадарству пасьля прапановы міру. Прадвызначанае значэньне - 21 (чвэрць стандартнага гульнявога года)."/>
+  <string id="2XC8QHkl" text="Уключыць Хаўрусы"/>
+  <string id="5YJBZx28" text="Адключэньне, адключае магчымасьць ствараць хаўрусы як для гаспадарстваў гульца, гэтак і для гаспадарстваў ШІ. Прадвызначанае значэньне - уключана."/>
+  <string id="H6XMjwpF" text="Мінімальная Працягласьць Хаўрусу ў Днях"/>
+  <string id="RrsWhIWi" text="Мінімальная працягласьць (у днях), цягам якой можа існаваць хаўрус да таго як ён будзе разарваны. Прадвызначанае значэньне - 42 (палова стандартнага гульнявога года)."/>
+  <string id="5a829TiT" text="Схільнасьць да Хаўрусаў"/>
+  <string id="7nSjs8UL" text="Мадыфікатар ачкоў, што ўплывае на схільнасьць гаспадарстваў да стварэньня хаўрусаў. Павелічэньне мадыфікатара робіць хаўрусы больш пажаданымі для гаспадарстваў ШІ. Прадвызначанае значэньне = 0."/>
+  <string id="V35hUfcc" text="Працягласьць Пакта пра Ненапад у Днях"/>
+  <string id="KXLGZEPh" text="Мінімальная працягласьць (у днях), цягам якой можа існаваць пакт пра ненапад. Прадвызначанае значэньне - 84 (адзін стандартны гульнявы год)."/>
+  <string id="G8BhBnRG" text="Схільнасьць да Пакту пра Ненапад"/>
+  <string id="907ER5u9" text="Мадыфікатар ачкоў, што ўплывае на схільнасьць гаспадарстваў да фармаваньня пактаў пра ненапад. Павелічэньне мадыфікатара робіць пакты пра ненапад больш пажаданымі для гаспадарстваў ШІ. Прадвызначанае значэньне - 0."/>
+  <string id="6m1SspFW" text="Уключыць Кантроль Гульца над Дыпламатыяй Гаспадарства"/>
+  <string id="N5EouSSj" text="Дае гульцу поўны кантроль над аб'явамі вайны і міру гаспадарства, якому належыць гулец, нават калі гулец з'яўляецца васалам, а ня лідарам гаспадарства. Прадвызначанае значэньне - адключана."/>
+  <string id="lhysZl9j" text="Схільнасьць да Дзеяньняў"/>
+  <string id="dRyU9E7Z" text="Бяз Войнаў Паміж Сябрамі"/>
+  <string id="XyXJSTKr" text="Калі ўключана, лідары гаспадарстваў, што сябруюць, ня будуць ваяваць між сабой. Прадвызначанае значэньне - уключана." />
+  <string id="pWoKQ6HO" text="Бяз Войнаў, Калі Добрыя Адносіны" />
+  <string id="bOuGhbPt" text="Калі ўключана, лідарам гаспадарстваў будзе забаронена пачынаць войны пакуль адносіны вышэйшыя за мяжу пачынаньня вайны. Прадвызначанае значэньне - уключана." />
+  <string id="x0Aoiomr" text="Мяжа Пачынаньня Вайны" />
+  <string id="aH6rpjt6" text="Значэньне адносінаў паміж лідарамі гаспадарстваў, пасьля якой гаспадарствы ня змогуць пачаць вайну між сабой. Прадвызначанае значэньне - 30." />
+  <string id="jwNKk8P7" text="Бяз Войнаў, Калі Маюцца Шлюбы" />
+  <string id="xcMzKH48" text="Калі ўключана, пануючыя кланы гаспадарстваў, якія маюць сумесныя шлюбы, ня змогуць пачаць войну між сабой. Прадвызначанае значэньне - уключана." />
+  <string id="xcMzKH48" text="Калі ўключана, пануючыя кланы гаспадарстваў, якія маюць сумесныя шлюбы, ня змогуць пачаць войну між сабой. Прадвызначанае значэньне - уключана." />
+  <string id="xXKKRp99" text="Уплыў Шлюбу Між Пануючымі Кланамі на Хаўрус" />
+  <string id="BGS6mUID" text="Калі ўключана, будзе даваць бонус да хаўрусніцтва, калі пануючыя кланы маюць шлюб між сабой. Прадвызначанае значэньне - уключана." />
+  <string id="ldLFTs92" text="Кошты"/>
+  <string id="Ckd1Lsoa" text="Кошты Золата"/>
+  <string id="t4hNAoD7" text="Уключыць Маштабаваньне Коштаў Золата"/>
+  <string id="5MMIDE5A" text="Калі гэта функцыя ўключана, то кошт дыпламатычных дзеяньняў і вайсковых рэпарацыяў будзе залежаць ад памеру вашага гаспадарства. У адваротным выпадку будуць ужывацца агульныя множнікі 100 для дыпламатычных дзеяньняў і 1000 для вайсковых рэпарацыяў. Прадвызначанае значэньне - уключана."/>
+  <string id="vD270X6H" text="Множнік Маштабаваньня Коштаў Золата"/>
+  <string id="Gd52NzBP" text="Множнік для маштабаваньня коштаў золата. Прадвызначанае значэньне - 5."/>
+  <string id="HFtZsD6v" text="Множнік Маштабаваньня Коштаў Золата за Вайсковыя Рэпарацыі"/>
+  <string id="MIhbrqbr" text="Множнік для маштабаваньня коштаў золата за вайсковыя рэпарацыі. Прадвызначанае значэньне - 50."/>
+  <string id="Cr6a5Jap" text="Кошт Золата Вайсковых Рэпарацыяў за Паразу"/>
+  <string id="NH4GNKva" text="Базавы кошт у золаце за паразу ў вайне на стомленасьць супраць іншага гаспадарства. Уплывае на маштабаваньне і пры адключаным маштабаваньні памнажаецца на тысячу. Прадвызначанае значэньне - 200."/>
+  <string id="SEViwYTl" text="Кошт Уплыву"/>
+  <string id="WbOKuWbQ" text="Уключыць Кошты Ўплыву"/>
+  <string id="K2vLGalN" text="Калі адключана, здымае ўсе кошты ўплыву на дзеяньні аб'явы вайны і міру. Прадвызначанае значэньне - уключана."/>
+  <string id="9PlT57Nl" text="Кошт/Маштаб Уплыву"/>
+  <string id="P1g6Ht1e" text="Уключыць Маштабаваньне Коштаў Уплыву"/>
+  <string id="xfVFBxfj" text="Калі ўключана, кошты ўплыву будуць маштабавацца на аснове памеру гаспадарства. Іначай кошт уплыву будзе фіксаваны. Прадвызначанае значэньне - уключана."/>
+  <string id="TvAYJv5Q" text="Множнік Маштабаваньня Кошту Ўплыву"/>
+  <string id="AQ5gRYN6" text="Множнік маштабаваньня кошту ўплыву. Прадвызначанае значэньне - 5."/>
+  <string id="BazjeCZw" text="Кошт/Фіксацыя Ўплыву"/>
+  <string id="OnTeAgin" text="Фіксаваны Кошт Уплыву на Аб'яву Вайны"/>
+  <string id="O5XvybTI" text="Кошт уплыву за аб'яву вайны іншаму гаспадарству. Прадвызначанае значэньне - 500."/>
+  <string id="iNsXQD2q" text="Фіксаваны Кошт Уплыву на Аб'яву Міру"/>
+  <string id="WB5zdvdT" text="Кошт уплыву за аб'яву міру іншаму гаспадарству. Прадвызначанае значэньне - 500."/>
+  <string id="nueOs6m9" text="Пасланьнікі"/>
+  <string id="nwTyegdV" text="Уключыць Выпадкі з Пасланьнікамі"/>
+  <string id="T7yybpw3" text="Калі ўключана, дадае маленькі шанец няшчасьця для пасланьнікаў. Чым даўжэй падарожжа, тым вышэй шанец выпадка ў дарозе. Прадвызначанае значэньне - уключана."/>
+  <string id="ysYCYvwT" text="Абмежаваць Адпраўленьне Пасланьнікаў"/>
+  <string id="5O87pSL3" text="Калі гэтая налада ўключана, вы можаце адпраўляць паведамленьні толькі знаёмым людзям ці, прынамсі, тым каго можаце ведаць. У адваротным выпадку вы можаце адправіць паведамленьне чалавеку незалежна ад таго, ведаеце вы адрасата ці не. Прадвызначанае значэньне - уключана."/>
+  <string id="nnXi6MmH" text="Час Падарожжа Пасланьніка ў Днях"/>
+  <string id="zkvCGLuK" text="Максімальная колькасьць часу (у днях), якая можа спатрэбіцца пасланьніку на вандроўку да адрасата. Непасрэдна ўплывае на хуткасьць перасоўваньня пасланьнікаў. Прадвызначанае значэньне - 3."/>
+  <string id="nMwWHj4h" text="Кошт Золата за Адпраўленьне Пасланьніка"/>
+  <string id="ehMf7xvE" text="Кошт золата за адпраўленьне пасланьніка да іншага персанажа. Прадвызначанае значэньне - 100."/>
+  <string id="OfEMJWiR" text="Адносіны"/>
+  <string id="6l9QNMrB" text="Множнік Станоўчых Адносінаў за Дарэньне Воласьцяў"/>
+  <string id="FQaghHo7" text="Множнік атрыманых адносінаў за дарэньне воласьцяў. Прадвызначанае значэньне - 1."/>
+  <string id="9qKclHq3" text="Штраф Адносінаў за Дарэньне Воласьцяў"/>
+  <string id="fgc8Dvg0" text="Штраф да адносінаў, што атрымліваецца падчас дарэньня воласьці іншаму клану. Прадвызначанае значэньне - 2."/>
+  <string id="8ZPKToTq" text="Балансаваньне Ўплыву"/>
+  <string id="4jlYRUdZ" text="Уключыць Балансаваньне Ўплыву"/>
+  <string id="tOMN9DQD" text="Кантралюе ўключанасьць разьлікаў Заняпаду і Карупцыі Ўплыву. Можа быць адключаны для сумяшчальнасьці з модамі."/>
+  <string id="vzKRX2JA" text="Заняпад Уплыву"/>
+  <string id="szYr4OTG" text="Уключыць Заняпад Уплыву"/>
+  <string id="rKS9z4Sz" text="Уключае паступовы штодзённы заняпад уплыву. Прадвызначанае значэньне - уключана."/>
+  <string id="pVE1yNlm" text="Парог Заняпаду Уплыву"/>
+  <string id="MnLk08uW" text="Колькасьць уплыву пасьля якога пачынаецца заняпад уплыву. Прадвызначанае значэньне - 1000."/>
+  <string id="WTeM4Rba" text="Максімальная Штодзённая Страта Уплыву"/>
+  <string id="CGixJ6ng" text="Максімальная колькасьць штодзённых страт уплыву. Прадвызначанае значэньне - 20."/>
+  <string id="yob5ZHtz" text="Адсотак Штодзённага Заняпаду Уплыву"/>
+  <string id="IYFl4kJx" text="Адсотак, на які ўплыў штодня зьмяншаецца. Прадвызначанае значэньне - 2.0."/>
+  <string id="e5fHDXgl" text="Карупцыя"/>
+  <string id="KWAH0S4h" text="Уключыць Карупцыю"/>
+  <string id="trgnZ0pn" text="Уключае карупцыю, якая паступова зьмяншае ўплыў клана кожны дзень, калі клан мае зашмат воласьцяў. Прадвызначанае значэньне - уключана."/>
+  <string id="ZqQaUIil" text="Экспансіянізм"/>
+  <string id="2raR1ZHv" text="Кааліцыі"/>
+  <string id="Pr4dcRKm" text="Мінімальны Экспансіянізм за Воласьць"/>
+  <string id="9qcAWjI7" text="Мінімальная колькасьць экспансіянізму, якая дае воласьць. Прадвызначанае значэньне - 3."/>
+  <string id="MnhMW8iq" text="Экспансіянізм за Аблогу"/>
+  <string id="lCbie62E" text="Экспансіянізм, што дадаецца за кожную пасьпяховую аблогу. Прадвызначанае значэньне - 20."/>
+  <string id="mEXGC0h3" text="Штодзённы Заняпад Экспансіянізму"/>
+  <string id="kgPeQvqE" text="Колькасьць штодзённага заняпаду экспансіянізму. Прадвызначанае значэньне - 1."/>
+  <string id="ZIf1tRII" text="Уключыць Кааліцыі"/>
+  <string id="8v8q0OGu" text="Уключае кааліцыі, магчымасьць фракцый яднацца разам супраць моцнай экспансіянісцкай фракцыі. Прадвызначанае значэньне - уключана."/>
+  <string id="1kSd88X5" text="Парог Экспансіянізму"/>
+  <string id="EUnASoee" text="Колькасьць экспансіянізму фракцыі, пасьля якога супраць яе будзе сфармавана кааліцыя. Прадвызначанае значэньне - 100."/>
+  <string id="zwbL9BHe" text="Штодзённы Адсотак Шанцу Кааліцыі"/>
+  <string id="9ugCWA3v" text="Шанец, у адсотках, фармаваньні кааліцыі супраць фракцыі пасьля перавышэньня парога экспансіянізму. Прадвызначанае значэньне - 5."/>
+  <string id="lsyl0VSX" text="Абарона Сюжэтнай Лініі"/>
+  <string id="EVrErrTR" text="Калі ўключана, не дазваляе гульцу парушыць асноўную сюжэтную лінію. Адключыце пры выкарыстаньні такіх модаў, як &quot;Проста Дай Мне Пагуляць&quot;. Прадвызначанае значэньне - уключана."/>
+  <string id="f6n2UAEC" text="Незавершаныя Магчымасьці"/>
+  <string id="HSoZfvXH" text="Уключыць Функцыю Узурпаваць Трон"/>
+  <string id="ZIAo4er4" text="Калі гэтая функцыя ўключана, яна дазваляе гульцу ўзурпаваць трон гаспадарства. Гэтая функцыя не збалансаваная і знаходзіцца на стадыі дапрацоўкі, таму не рэкамендуецца. Прадвызначанае значэньне - не."/>
+ </strings>
 </base>
