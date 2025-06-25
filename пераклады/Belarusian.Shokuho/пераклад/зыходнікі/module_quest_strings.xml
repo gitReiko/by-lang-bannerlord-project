@@ -1,64 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
-	<tags>
-		<tag language="English" />
-	</tags>
+
+
+
 	<strings>
 		<!--Mounting Unrest Quest-->
-		<string id="gWVQ6xGp" text="{ISSUE_GIVER.LINK}, a lord from the {ISSUE_GIVER_KINGDOM} kingdom, told you of a unrest in {TARGET_VILLAGE_SETTLEMENT}. If the unrest is not dealt with, it could turn into a full rebellion. {ISSUE_GIVER.LINK} hasn't been able to visit the village in some time, and they aren't sure why the village is suddenly protesting. They want you to investigate the unrest and deal with it. You decided to leave {COMPANION.LINK} with some men for {RETURN_DAYS} days to find the cause of the unrest and deal with it. They should return with the reward of {REWARD_GOLD}{GOLD_ICON} denars as promised by {ISSUE_GIVER.LINK} after {RETURN_DAYS} days." />
-		<string id="kRCOi41c" text="Yes... I do have a problem. One of my fiefs has become unruly recently. I haven't had a chance to investigate myself. Would you be willing to look into it for me?[ib:closed][if:convo_dismayed]"/>
+		<string id="gWVQ6xGp" text="{ISSUE_GIVER.LINK}, a lord from the {ISSUE_GIVER_KINGDOM} kingdom, told you of a unrest in {TARGET_VILLAGE_SETTLEMENT}. If the unrest is not dealt with, it could turn into a full rebellion. {ISSUE_GIVER.LINK} hasnt been able to visit the village in some time, and they arent sure why the village is suddenly protesting. They want you to investigate the unrest and deal with it. You decided to leave {COMPANION.LINK} with some men for {RETURN_DAYS} days to find the cause of the unrest and deal with it. They should return with the reward of {REWARD_GOLD}{GOLD_ICON} denars as promised by {ISSUE_GIVER.LINK} after {RETURN_DAYS} days." />
+		<string id="kRCOi41c" text="Yes... I do have a problem. One of my fiefs has become unruly recently. I havent had a chance to investigate myself. Would you be willing to look into it for me?[ib:closed][if:convo_dismayed]"/>
 		<string id="Vwwa2Zdl" text="Of course. Tell me more."/>
-		<string id="3Owhuhtq" text="The village of {TARGET_VILLAGE}, which I am ruler of, has become disobedient. I’ve received word that some of them refuse to work and have attacked government officials. I can’t think of any reason why the peasants would suddenly throw a fit. Nothing has changed in years for their situation. The wellbeing of the village has not been harmed, and even the taxes haven’t been changed. I am too busy to visit the village myself, but if you can investigate this unrest and quell it before it gets too out of hand, I will reward you handsomely.[ib:closed][if:convo_normal]"/>
-		<string id="CUcHaFDK" text="You must visit the village and find out what's going on, or if you have a companion you trust, you can leave them and {ALTERNATIVE_TROOP_COUNT} men to deal with the unrest. That should be enough.[ib:closed][if:convo_pondering]"/>
+		<string id="3Owhuhtq" text="The village of {TARGET_VILLAGE}, which I am ruler of, has become disobedient. Ive received word that some of them refuse to work and have attacked government officials. I cant think of any reason why the peasants would suddenly throw a fit. Nothing has changed in years for their situation. The wellbeing of the village has not been harmed, and even the taxes havent been changed. I am too busy to visit the village myself, but if you can investigate this unrest and quell it before it gets too out of hand, I will reward you handsomely.[ib:closed][if:convo_normal]"/>
+		<string id="CUcHaFDK" text="You must visit the village and find out whats going on, or if you have a companion you trust, you can leave them and {ALTERNATIVE_TROOP_COUNT} men to deal with the unrest. That should be enough.[ib:closed][if:convo_pondering]"/>
 		<string id="cGerAWzT" text="What exactly do you want me to do?"/>
-		<string id="fO8pXizf" text="Don't worry, I will look into this unrest."/>
+		<string id="fO8pXizf" text="Dont worry, I will look into this unrest."/>
 		<string id="Iofcob8x" text="Mounting Unrest"/>
-		<string id="afU86C84" text="{QUEST_GIVER.LINK} has been informed of a potential rebellion in {TARGET_VILLAGE}. They aren’t sure what the cause is, and they want someone to investigate and quell the rebellion, by force if necessary."/>
+		<string id="afU86C84" text="{QUEST_GIVER.LINK} has been informed of a potential rebellion in {TARGET_VILLAGE}. They arent sure what the cause is, and they want someone to investigate and quell the rebellion, by force if necessary."/>
 		<string id="hmgYwC33" text="I will have one of my companions and {REQUIRED_TROOP_AMOUNT} of my men deal with the unrest for {RETURN_DAYS} days."/>
-		<string id="vzHFeH3N" text="I have no doubt that {TARGET_VILLAGE}'s unrest will be dealt with[ib:closed][if:convo_grateful]. Thank you, {PLAYER}, for helping to ending this."/>
-		<string id="8fRihO7c" text="Thank you {PLAYER.LINK}. [if:convo_pondering]I am sure your men will deal with the unrest. {TARGET_VILLAGE} will be pacficied. I have to add, I'm ready to pay you {REWARD_GOLD}{GOLD_ICON} for your trouble."/>
-		<string id="WFY3W5Ci" text="I hear there's a brewing rebellion in {TARGET_VILLAGE}. {QUEST_GIVER.LINK} needs to do something quick if they want to quell it.[if: convo_predatory]"/>
+		<string id="vzHFeH3N" text="I have no doubt that {TARGET_VILLAGE}s unrest will be dealt with[ib:closed][if:convo_grateful]. Thank you, {PLAYER}, for helping to ending this."/>
+		<string id="8fRihO7c" text="Thank you {PLAYER.LINK}. [if:convo_pondering]I am sure your men will deal with the unrest. {TARGET_VILLAGE} will be pacficied. I have to add, Im ready to pay you {REWARD_GOLD}{GOLD_ICON} for your trouble."/>
+		<string id="WFY3W5Ci" text="I hear theres a brewing rebellion in {TARGET_VILLAGE}. {QUEST_GIVER.LINK} needs to do something quick if they want to quell it.[if: convo_predatory]"/>
 		<string id="3WLPxVG2" text="Your companion {COMPANION.LINK} and your men returns with the news of their success. Apparently a corrupt tax collector was stealing gold from the villagers. {COMPANION.LINK} dealt with them easily, ending the unrest, and the village was grateful. {QUEST_GIVER.LINK} is grateful and sends {?QUEST_GIVER.GENDER}her{?}his{\\?} regards with a purse full of {REWARD}{GOLD_ICON} denars."/>
-		<string id="jNv5vhPZ" text="{QUEST_GIVER.LINK} has tasked you with handling the mounting unrest coming out of {TARGET_VILLAGE}. {QUEST_GIVER.LINK} hasn’t been able to visit the village in some time, and isn’t sure why the village is suddenly protesting. They want you to investigate the cause of the unrest and stop a potential rebellion before it starts. You should speak with some of the villagers to uncover the cause."/>
-		<string id="97SdUgUS" text="After speaking with the villagers, You've discovered that the recent cause of unrest is due to an increase in taxes. This is strange because {QUEST_GIVER.LINK} said the taxes had not changed in years. You should confront the tax collector who is somewhere in {TARGET_VILLAGE}."/>
+		<string id="jNv5vhPZ" text="{QUEST_GIVER.LINK} has tasked you with handling the mounting unrest coming out of {TARGET_VILLAGE}. {QUEST_GIVER.LINK} hasnt been able to visit the village in some time, and isnt sure why the village is suddenly protesting. They want you to investigate the cause of the unrest and stop a potential rebellion before it starts. You should speak with some of the villagers to uncover the cause."/>
+		<string id="97SdUgUS" text="After speaking with the villagers, Youve discovered that the recent cause of unrest is due to an increase in taxes. This is strange because {QUEST_GIVER.LINK} said the taxes had not changed in years. You should confront the tax collector who is somewhere in {TARGET_VILLAGE}."/>
 		<string id="SufCob5o" text="You have arrested the corrupt tax collector after a brief fight with his body guards. This should quell the unrest. You should deliver him to {QUEST_GIVER.LINK} to collect your reward."/>
-		<string id="qcBL1jw9" text="You tried to fight the tax collector's bodyguards, but you were overcome. They left you alive, but they are now long gone. You failed to deliver justice for the village, but at least the problem is solved."/>
+		<string id="qcBL1jw9" text="You tried to fight the tax collectors bodyguards, but you were overcome. They left you alive, but they are now long gone. You failed to deliver justice for the village, but at least the problem is solved."/>
 		<string id="mN1AzXUZ" text="After forcibly engaging the unruly peasants, You have successfully quelled the unrest in {TARGET_VILLAGE}. You should visit {QUEST_GIVER.LINK} to receive your reward."/>
 		<string id="DeYSkwFR" text="You were attacked by the villagers after they saw you accepting a bribe. You were overcome, and now the village is pratically in a full blown rebellion. Your actions made the unrest worse, and {QUEST_GIVER.LINK} is furious!"/>
 		<string id="9zl7sjhB" text="The tax collector was released before you could turn them in to {QUEST_GIVER.LINK}. You will not be able to deliver justice for {TARGET_VILLAGE}, but at least the situation is resolved."/>
 		<string id="UnzuSUHt" text="You failed to quell the unrest in the village in time. The situation in {TARGET_VILLAGE} has gotten much worse. {QUEST_GIVER.LINK} will remember how you betrayed their trust."/>
 		<string id="q48cqKw8" text="you quelled the unrest in the village, but failed to report to {QUEST_GIVER.LINK} in time. The situation in {TARGET_VILLAGE} is resolved, but you forfeited your reward from {QUEST_GIVER.LINK}."/>
-		<string id="rFtfAkrt" text="{QUEST_GIVER.LINK}'s village {TARGET_SETTLEMENT} was raided. Your agreement with {QUEST_GIVER.LINK} is canceled."/>
+		<string id="rFtfAkrt" text="{QUEST_GIVER.LINK}s village {TARGET_SETTLEMENT} was raided. Your agreement with {QUEST_GIVER.LINK} is canceled."/>
 		<string id="8AliA9ZG" text="{COMPANION.LINK} is no longer a member of your clan. Your agreement with {QUEST_GIVER.LINK} was terminated."/>
 		<string id="6kyuZIds" text="You have successfully quelled the mounting unrest in {TARGET_VILLAGE}. {QUEST_GIVER.LINK} is grateful for your service and offers you a purse full of {REWARD_GOLD}{GOLD_ICON} denars for your trouble."/>
-		<string id="HhW8tsvQ" text="Go to {TARGET_VILLAGE}, talk to the villagers, and learn of their plight. Try to solve this peacefully if you can, but if necessary, I give you permission to smack some sense into these ingrates. Once this threat of rebellion is gone for good, I’ll pay you for your service.[ib:closed][if:convo_relaxed_happy]"/>
+		<string id="HhW8tsvQ" text="Go to {TARGET_VILLAGE}, talk to the villagers, and learn of their plight. Try to solve this peacefully if you can, but if necessary, I give you permission to smack some sense into these ingrates. Once this threat of rebellion is gone for good, Ill pay you for your service.[ib:closed][if:convo_relaxed_happy]"/>
 		<string id="XU47BJDk" text="Have you visited {TARGET_VILLAGE} yet and spoken with the people?[ib:closed][if:convo_innocent_smile]"/>
-		<string id="nEyWtePc" text="I’ve been sent by {QUEST_GIVER.NAME} to help calm the unrest in this village. What can you tell me about what’s happening?"/>
+		<string id="nEyWtePc" text="Ive been sent by {QUEST_GIVER.NAME} to help calm the unrest in this village. What can you tell me about whats happening?"/>
 		<string id="65QbGjNc" text="{QUEST_GIVER.NAME} seemed to think this unrest was random. Tell me, who do you deliver your taxes to?"/>
-		<string id="pPJvI9IV" text="That wretched tax collector is who. He sits in the village behind his fancy desk like an ogre, surrounded by his henchmen. I don't know why he's even still here. He's already stolen everything we have.[ib:closed2][if:convo_very_stern]"/>
+		<string id="pPJvI9IV" text="That wretched tax collector is who. He sits in the village behind his fancy desk like an ogre, surrounded by his henchmen. I dont know why hes even still here. Hes already stolen everything we have.[ib:closed2][if:convo_very_stern]"/>
 		<string id="SSxorbTz" text="Hmm...perhaps I should pay a visit to this tax collector. Thank you for the information."/>
 		<string id="3fDsNjP1" text="Can I help you?[ib:confident][if:convo_confused_annoyed]"/>
 		<string id="weB8ylYp" text="I was sent to investigate and quell the unrest in this village. The villagers claim they are irritated because of increased taxes. Do you know anything about this?"/>
-		<string id="oE3YqB5P" text="Bah! The villagers are a bunch of crybabies. They hide gold when they should be paying what they owe. The increase in taxes is necessary for the good of the realm. They’ve been ordered directly by lord {QUEST_GIVER.NAME}. I’m sorry but it’s out of my hands. I’m simply following the wishes of my lord.[ib:nervous2][if:convo_annoyed]"/>
-		<string id="NtRvacoB" text="That’s interesting, because according to {QUEST_GIVER.NAME} there hasn’t been any change in taxes in years. I wonder if you might be the cause of the increase in taxes yourself."/>
+		<string id="oE3YqB5P" text="Bah! The villagers are a bunch of crybabies. They hide gold when they should be paying what they owe. The increase in taxes is necessary for the good of the realm. Theyve been ordered directly by lord {QUEST_GIVER.NAME}. Im sorry but its out of my hands. Im simply following the wishes of my lord.[ib:nervous2][if:convo_annoyed]"/>
+		<string id="NtRvacoB" text="Thats interesting, because according to {QUEST_GIVER.NAME} there hasnt been any change in taxes in years. I wonder if you might be the cause of the increase in taxes yourself."/>
 		<string id="PyQOxf1i" text="How about I lower taxes to a more...reasonable level, and we just forget this conversation ever happened? I have a bag of gold with your name on it if you agree.[ib:nervous][if:convo_nervous]"/>
-		<string id="2uwp9t2G" text="Very well. I’ll tell {QUEST_GIVER.NAME} everything here is perfectly normal, and the unrest should die down on its own."/>
+		<string id="2uwp9t2G" text="Very well. Ill tell {QUEST_GIVER.NAME} everything here is perfectly normal, and the unrest should die down on its own."/>
 		<string id="5FyXxNFR" text="Thank you, give my regards to {QUEST_GIVER.NAME}.[ib:normal][if:happy]"/>
-		<string id="4N0ohBqT" text="Sorry, but unlike you I’m not so corrupt. You’re under arrest. I will deliver you to {QUEST_GIVER.NAME}."/>
-		<string id="p9ZnHAYA" text="Another soul lost to bandits...what a shame. Roads just aren’t safe these days. Men, deal with this fool![ib: aggressive][if:convo_evil_smile]"/>
-		<string id="mjYugaG9" text="I saw you take that money! You’re just as corrupt as that tax collector. This is the last straw. We’re not getting taxed any more without a fight.[rb:very_negative][ib: aggressive][if:convo_furious]"/>
+		<string id="4N0ohBqT" text="Sorry, but unlike you Im not so corrupt. Youre under arrest. I will deliver you to {QUEST_GIVER.NAME}."/>
+		<string id="p9ZnHAYA" text="Another soul lost to bandits...what a shame. Roads just arent safe these days. Men, deal with this fool![ib: aggressive][if:convo_evil_smile]"/>
+		<string id="mjYugaG9" text="I saw you take that money! Youre just as corrupt as that tax collector. This is the last straw. Were not getting taxed any more without a fight.[rb:very_negative][ib: aggressive][if:convo_furious]"/>
 		<string id="Rz3VkuWM" text="Wait! This is just a big misunderstanding!"/>
-		<string id="Ads3am6y" text="I'll show you peasants how to behave!"/>
+		<string id="Ads3am6y" text="Ill show you peasants how to behave!"/>
 		<string id="PAcXCOtD" text="Tax Collector"/>
 		<string id="zSHTiacb" text="Tax Collector Bodyguard"/>
-		<string id="UqZ9mzlb" text="Wait! Please! I surrender, don’t hurt me.[ib:weary][if:convo_terrified]"/>
+		<string id="UqZ9mzlb" text="Wait! Please! I surrender, dont hurt me.[ib:weary][if:convo_terrified]"/>
 		<string id="OlOD8Wht" text="Have you come to mock me?"/>
 		<string id="i6XV2iAl" text="Welcome back. Any news on the village?[ib:confident3][if:convo_focused_happy]"/>
-		<string id="dplfenu8" text="I’ve brought the source of your unrest. It was a corrupt tax collector who had been extrajudicially increasing taxes and lining his own pockets. He attacked me with his bodyguards when I refused his bribe."/>
-		<string id="Q55tkPzP" text="Oh my! I had no idea this was happening. I’ll make sure justice is done to this scoundrel. Who knew a corrupt tax collector would be able to cause so much unrest! Thank you for dealing with this peacefully. As promised, here’s your reward. I hope it is sufficient.[rb:unsure][ib:nervous2][if:convo_confused_normal]"/>
-		<string id="GGvP5Xxi" text="{PLAYER.NAME}! I’ve just received news of your work in {TARGET_VILLAGE}.Shame you were forced to confront the peasants with force, but at least they’ve learned their place. Thank you. I hope this reward is more than sufficient.[ib:closed2]"/>
+		<string id="dplfenu8" text="Ive brought the source of your unrest. It was a corrupt tax collector who had been extrajudicially increasing taxes and lining his own pockets. He attacked me with his bodyguards when I refused his bribe."/>
+		<string id="Q55tkPzP" text="Oh my! I had no idea this was happening. Ill make sure justice is done to this scoundrel. Who knew a corrupt tax collector would be able to cause so much unrest! Thank you for dealing with this peacefully. As promised, heres your reward. I hope it is sufficient.[rb:unsure][ib:nervous2][if:convo_confused_normal]"/>
+		<string id="GGvP5Xxi" text="{PLAYER.NAME}! Ive just received news of your work in {TARGET_VILLAGE}.Shame you were forced to confront the peasants with force, but at least theyve learned their place. Thank you. I hope this reward is more than sufficient.[ib:closed2]"/>
 		<!--Troublesome Missionary-->
 		<string id="PkDjGPsT" text="Yes...A Christian has been causing trouble in the village. Would you be willing to help deal with him?[ib:closed][if:convo_dismayed]"/>
-		<string id="7947txPh" text="A Christian has been present in {TARGET_VILLAGE} for a few weeks. He keeps raving about eternal damnation or some nonsense. He has constantly insulted and mocked our ways. A few days ago, one of our statues of Buddha was torn down in the night, and I think he did it. The people are angry and scared of his presence and want him gone. I unfortunately don’t have the authority to do it myself, so I’m offering payment for you to deal with them quitely.[ib:closed][if:convo_normal]"/>
+		<string id="7947txPh" text="A Christian has been present in {TARGET_VILLAGE} for a few weeks. He keeps raving about eternal damnation or some nonsense. He has constantly insulted and mocked our ways. A few days ago, one of our statues of Buddha was torn down in the night, and I think he did it. The people are angry and scared of his presence and want him gone. I unfortunately dont have the authority to do it myself, so Im offering payment for you to deal with them quitely.[ib:closed][if:convo_normal]"/>
 		<string id="5x0uA6dW" text="Very well. I will deal with this Christian."/>
 		<string id="kYi2MMBU" text="Thank you my lord. The people will be very happy to hear this.[ib:confident3][if:convo_focused_happy]"/>
 		<string id="qNbfIlIj" text="{QUEST_GIVER.LINK} told you of a Christian causing trouble in {QUEST_SETTLEMENT}. You used your authority to exile them."/>
@@ -66,7 +67,7 @@
 		<string id="zAgmSWNa" text="As the lord of this village, I hereby order the Christian exiled. Tell the Christian to leave immediately or face my wrath!"/>
 		<string id="2LDxpFrj" text="Troublesome Missionary"/>
 		<string id="Qr7MPLMy" text="{QUEST_GIVER.LINK} told you of a Christian in {TARGET_VILLAGE} causing trouble. They want someone to get rid of them, by force if necessary."/>
-		<string id="fdYMED5X" text="I heard there's a Christian in {TARGET_VILLAGE} causing trouble. {QUEST_GIVER.LINK} is looking for a way to deal with them."/>
+		<string id="fdYMED5X" text="I heard theres a Christian in {TARGET_VILLAGE} causing trouble. {QUEST_GIVER.LINK} is looking for a way to deal with them."/>
 		<string id="f8Zu1hHN" text="{QUEST_GIVER.LINK} asked you to deal with a Christian causing trouble in {TARGET_VILLAGE}. {QUEST_GIVER.LINK} claims the Christian has been disrespecting them and making people upset. They want you to get rid of the Christian. You should speak with them. They are in the same village of {TARGET_VILLAGE}."/>
 		<string id="hTTGQJ2s" text="You decided to kill the Christian to solve the problem. Not exactly the most diplomatic solution, but it gets the job done. You should speak with {QUEST_GIVER.LINK} to receive your reward."/>
 		<string id="pZlerOJp" text="After meeting with the missionary, he has agreed to leave {TARGET_VILLAGE} if you protect him and escort him to a port. He has joined your party, and has agreed to offer you compensation when you reach a port."/>
@@ -79,40 +80,40 @@
 		<string id="SNreUESe" text="You failed to deal with the missionary in time. {QUEST_GIVER.LINK} will remember how you betrayed their trust."/>
 		<string id="HVk4GxTA" text="You have successfully escorted the missionary to a port and received a reward. Now that the missionary has been dealt with, you should now go to {QUEST_GIVER.LINK} in {TARGET_VILLAGE} to receive your original reward."/>
 		<string id="nhvDkbeE" text="Missionary"/>
-		<string id="GmBJXheK" text="Saeki Genichiro's Party"/>
-		<string id="asO5RY1z" text="Go find the Christian and deal with them. I don't care how, just get rid of them. They're somewhere here in the village. Once they're gone I'll pay you.[ib:closed][if:convo_relaxed_happy]"/>
+		<string id="GmBJXheK" text="Saeki Genichiros Party"/>
+		<string id="asO5RY1z" text="Go find the Christian and deal with them. I dont care how, just get rid of them. Theyre somewhere here in the village. Once theyre gone Ill pay you.[ib:closed][if:convo_relaxed_happy]"/>
 		<string id="VzrPtR8U" text="Have you dealt with the Christian yet?[ib:closed][if:convo_innocent_smile]"/>
 		<string id="qEguDhTw" text="Hello! Would you like to hear about Jesus Christ?[ib:normal][if:convo_relaxed_happy]"/>
-		<string id="GecA0bgv" text="I hear you've been causing trouble in this village. The people don't want you here. You need to leave."/>
-		<string id="RN2733sp" text="What do you mean? I'm peacefully spreading the good news of Jesus to the ignorant pagans of this land. Worshipping false idols is a sin. Sin leads to eternal punishment. I'm trying to save these backwards heathens from that.[ib:closed2][if:convo_confused_annoyed]"/>
-		<string id="jJR5isL0" text="You're frightening the villagers with this nonsense. You're insulting the people you came to help. You have no respect for us, and if you keep this up, you're gonna anger the wrong person, and you won't live long enough to save anyone."/>
-		<string id="ZqNnwEmg" text="Alright, it’s been obvious the people here haven’t been very receptive to the love of Jesus Christ. I’ll leave, but only if you escort me to a port so I can gain passage off this dreadful country. I can pay you for your troubles.[ib:normal][if:convo_dismayed]"/>
+		<string id="GecA0bgv" text="I hear youve been causing trouble in this village. The people dont want you here. You need to leave."/>
+		<string id="RN2733sp" text="What do you mean? Im peacefully spreading the good news of Jesus to the ignorant pagans of this land. Worshipping false idols is a sin. Sin leads to eternal punishment. Im trying to save these backwards heathens from that.[ib:closed2][if:convo_confused_annoyed]"/>
+		<string id="jJR5isL0" text="Youre frightening the villagers with this nonsense. Youre insulting the people you came to help. You have no respect for us, and if you keep this up, youre gonna anger the wrong person, and you wont live long enough to save anyone."/>
+		<string id="ZqNnwEmg" text="Alright, its been obvious the people here havent been very receptive to the love of Jesus Christ. Ill leave, but only if you escort me to a port so I can gain passage off this dreadful country. I can pay you for your troubles.[ib:normal][if:convo_dismayed]"/>
 		<string id="CCe8RCWX" text="Very well, I will escort you to a port, but you need to promise to not come back here."/>
-		<string id="OPB076yM" text="I promise. Thank you, let's leave immediately.[ib:normal][if:happy]"/>
-		<string id="aXgET9i8" text="No thanks, I’ll just deal with you now. (Attack)"/>
+		<string id="OPB076yM" text="I promise. Thank you, lets leave immediately.[ib:normal][if:happy]"/>
+		<string id="aXgET9i8" text="No thanks, Ill just deal with you now. (Attack)"/>
 		<string id="y0JnxdaC" text="Wait, what?[ib:confused][if:convo_terrified]"/>
 		<string id="gfAJ0pQR" text="Hello again."/>
-		<string id="DxM9qazH" text="I've dealt with the missionary. You won’t be hearing from him again."/>
-		<string id="0f3cSijR" text="Yes, I know. The whole village saw you murder him. Not exactly what I had in mind, but it works. Here's your payment as promised.[ib:normal][if:convo_relaxed_happy]"/>
+		<string id="DxM9qazH" text="Ive dealt with the missionary. You wont be hearing from him again."/>
+		<string id="0f3cSijR" text="Yes, I know. The whole village saw you murder him. Not exactly what I had in mind, but it works. Heres your payment as promised.[ib:normal][if:convo_relaxed_happy]"/>
 		<string id="pFi1pBYB" text="Thank you. This news puts a lot of people here at ease. Here is your reward.[ib:normal][if:convo_innocent_smile]"/>
-		<string id="zeIpBe0D" text="You there! We know you’re harboring a Christian. Hand him over and nobody gets hurt.[ib: aggressive][if:convo_very_stern]"/>
+		<string id="zeIpBe0D" text="You there! We know youre harboring a Christian. Hand him over and nobody gets hurt.[ib: aggressive][if:convo_very_stern]"/>
 		<string id="lLTBtJFY" text="Who are you, and what do you want with him?"/>
 		<string id="yzgfbSIR" text="My name is Saeki Genichiro. I am a samurai in the service of {VILLAGE_LORD.LINK}. That Christian insulted my lord, calling him a demon. He deserves death. Now I ask again. Hand him over.[ib: aggressive][if:convo_very_stern]"/>
-		<string id="h1PtudTo" text="I don’t want any trouble. You can have him."/>
-		<string id="xwdBaHP7" text="Wise decision. Don't worry, he won't suffer.[ib: closed][if:convo_very_stern]"/>
+		<string id="h1PtudTo" text="I dont want any trouble. You can have him."/>
+		<string id="xwdBaHP7" text="Wise decision. Dont worry, he wont suffer.[ib: closed][if:convo_very_stern]"/>
 		<string id="SQOGC3eu" text="This Christian is under my protection. I will not give him up without a fight."/>
 		<string id="38wQiiSV" text="So be it. Prepare yourselves.[ib: aggressive][if:convo_very_stern]"/>				
 		<string id="Nk2MB78E" text="Thank you stranger. Please accept this gold. You could have given me up to those samurai or killed me back at the village, but I can tell you are an honorable man. May God bless you in your journeys.[ib:confident3][if:convo_focused_happy]"/>
 		<!--Suspcious Merchant-->
-		<string id="xiIAY3Ai" text="{ISSUE_GIVER.LINK} told you about a suspicious merchant operating outside {ISSUE_GIVER_SETTLEMENT}. They are selling goods at much lower prices, undercutting the merchant's business. They want you to investigate this merchant, and if possible, determine how they are able to make profit as such low prices. You decided to leave {COMPANION.LINK} with some men for {RETURN_DAYS} days to investigate the merchant. They should return with the reward of {REWARD_GOLD}{GOLD_ICON} denars as promised by {ISSUE_GIVER.LINK} after {RETURN_DAYS} days."/>
+		<string id="xiIAY3Ai" text="{ISSUE_GIVER.LINK} told you about a suspicious merchant operating outside {ISSUE_GIVER_SETTLEMENT}. They are selling goods at much lower prices, undercutting the merchants business. They want you to investigate this merchant, and if possible, determine how they are able to make profit as such low prices. You decided to leave {COMPANION.LINK} with some men for {RETURN_DAYS} days to investigate the merchant. They should return with the reward of {REWARD_GOLD}{GOLD_ICON} denars as promised by {ISSUE_GIVER.LINK} after {RETURN_DAYS} days."/>
 		<string id="kV39O9Sp" text="Unfortunately yes. A group outside the city have been reported selling goods at extremely low prices. Their prices are so low that no one is buying my goods, and many of the merchants here are suffering.[ib:nervous2][if:convo_dismayed]"/>
-		<string id="sTbGAAa1" text="The group showed up a few weeks ago. They have been selling goods for far cheaper than any reasonable merchant could have acquired them for, causing a mild rush of citizens to purchase goods from them instead of from the reputable merchants of {ISSUE_GIVER_SETTLEMENT}. If this keeps up, I'll go out of business. I want you to investigate the group, and try to find who their supplier is.[ib:nervous2][if:convo_dismayed]"/>
+		<string id="sTbGAAa1" text="The group showed up a few weeks ago. They have been selling goods for far cheaper than any reasonable merchant could have acquired them for, causing a mild rush of citizens to purchase goods from them instead of from the reputable merchants of {ISSUE_GIVER_SETTLEMENT}. If this keeps up, Ill go out of business. I want you to investigate the group, and try to find who their supplier is.[ib:nervous2][if:convo_dismayed]"/>
 		<string id="GCD9cq7V" text="You can investigate the group yourself, or maybe you can leave one of your companions and {ALTERNATIVE_TROOP_COUNT} men with them to investigate.[ib:nervous2][if:convo_dismayed]"/>
-		<string id="5GB05CrH" text="I'll look into this merchant."/>
-		<string id="yFs222Pn" text="{QUEST_GIVER} has told you of a group selling goods at very low prices. They want you to investigate the group and find out how they’re able to profit."/>
+		<string id="5GB05CrH" text="Ill look into this merchant."/>
+		<string id="yFs222Pn" text="{QUEST_GIVER} has told you of a group selling goods at very low prices. They want you to investigate the group and find out how theyre able to profit."/>
 		<string id="PiSC3ZdT" text="I will have one of my companions and {REQUIRED_TROOP_AMOUNT} of my men investigate the merchant for {RETURN_DAYS} days."/>
-		<string id="2sEpr2It" text="Thank you {PLAYER.NAME}. I'm sure your companion will be able to uncover their secrets."/>
-		<string id="J3TiRA1i" text="Thank you {PLAYER.NAME}. I'm ready to pay you {REWARD_GOLD}{GOLD_ICON} denars for your trouble."/>
+		<string id="2sEpr2It" text="Thank you {PLAYER.NAME}. Im sure your companion will be able to uncover their secrets."/>
+		<string id="J3TiRA1i" text="Thank you {PLAYER.NAME}. Im ready to pay you {REWARD_GOLD}{GOLD_ICON} denars for your trouble."/>
 		<string id="fJ1Y8vXy" text="I hear the merchants in {ISSUE_GIVER_SETTLEMENT} are having trouble with some competition. {QUEST_GIVER.LINK} is looking for someone to help."/>
 		<string id="FAD2tERq" text="Your companion {COMPANION.LINK} and your men returns with the news of their success. Apparently the merchant was no merchant at all, but actually bandits selling stolen goods. {COMPANION.LINK} dealt with them permanently. {QUEST_GIVER.LINK} is grateful and sends {?QUEST_GIVER.GENDER}her{?}his{\\?} regards with a purse full of {REWARD}{GOLD_ICON} denars."/>
 		<string id="qUiYwHWg" text="Suspicious Merchant"/>
@@ -121,94 +122,94 @@
 		<string id="KZZJ4LNd" text="After discovering the goods were likely stolen, the suspicious merchant and his thugs attacked you. You were unable to defeat them in combat. However, you did manage to drive them away, completing your original task. You should now report to {QUEST_GIVER.LINK} in {QUEST_GIVER_SETTLEMENT} to claim your reward."/>
 		<string id="OSQeWc0S" text="You have dealt with the supiscious merchant. {QUEST_GIVER.LINK} thanks you, and gave you {REWARD_GOLD}{GOLD_ICON} denars for your trouble."/>
 		<string id="ul56QMKV" text="You failed to deal with the suspicious merchant in time. {QUEST_GIVER.LINK} will remember how you betrayed their trust."/>
-		<string id="KmJI5o7G" text="Excellent. Go find the group and try to figure out why they are set up outside the city. I have a feeling it's because they didn't acquire their goods legimately. Once you give me what information on them you can, I’ll reward you handsomely.[ib:hip][if:convo_mocking_aristocratic]"/>
+		<string id="KmJI5o7G" text="Excellent. Go find the group and try to figure out why they are set up outside the city. I have a feeling its because they didnt acquire their goods legimately. Once you give me what information on them you can, Ill reward you handsomely.[ib:hip][if:convo_mocking_aristocratic]"/>
 		<string id="4tdObswz" text="Have you investigated that merchant yet?[ib:hip][if:convo_mocking_aristocratic]"/>
-		<string id="1Q3NBA6b" text="Suspicious Merchant's Party"/>
+		<string id="1Q3NBA6b" text="Suspicious Merchants Party"/>
 		<string id="IcTzfAYC" text="Hello there, looking to buy? Lowest prices around.[ib:hip2][if:convo_nonchalant]"/>
 		<string id="fwVqd12d" text="Goodbye."/>
-		<string id="JWcnkxBz" text="Let's see what you have. (Trade)"/>
+		<string id="JWcnkxBz" text="Lets see what you have. (Trade)"/>
 		<string id="s4SHrjzy" text="Thank you, come again.[ib:confident3][if:convo_nonchalant]"/>
 		<string id="mDU7Qfnh" text="These goods are quite cheap. May I ask where you acquired them?"/>
-		<string id="LxuAUBPM" text="Sorry, a good merchant never reveals his secrets. Let's just say, our suppliers can't resist our offers.[ib:warrior2][if:convo_stern]"/>
+		<string id="LxuAUBPM" text="Sorry, a good merchant never reveals his secrets. Lets just say, our suppliers cant resist our offers.[ib:warrior2][if:convo_stern]"/>
 		<string id="WZazV9Sb" text="Right...I also noticed your foodstuff is not being stored properly. It will rot if not sealed."/>
 		<string id="dcWP5LdR" text="Eh? You calling me a lousy merchant?[ib:aggressive2][if:convo_insulted]"/>
-		<string id="kUnon1O2" text="I'm not sure you are a merchant. You're dressed and armed more like a bandit. Plus, you're operating outside the city which is a little suspicious."/>
-		<string id="mKW0SDgT" text="Look pal, you can either finish that train of thought, or you can buy some cheap goods and not ask any more questions. What'll it be?[ib:warrior][if:convo_furious]"/>
-		<string id="mGsuGFXn" text="These goods are clearly stolen. You're coming with me to answer for you crimes."/>
-		<string id="vO6b8x18" text="Not without a fight I'm not.[rb:very_negative][ib:warrior][if:convo_furious]"/>
-		<string id="6lY2xJgr" text="Alright, I don't want any trouble. Goodbye."/>
+		<string id="kUnon1O2" text="Im not sure you are a merchant. Youre dressed and armed more like a bandit. Plus, youre operating outside the city which is a little suspicious."/>
+		<string id="mKW0SDgT" text="Look pal, you can either finish that train of thought, or you can buy some cheap goods and not ask any more questions. Whatll it be?[ib:warrior][if:convo_furious]"/>
+		<string id="mGsuGFXn" text="These goods are clearly stolen. Youre coming with me to answer for you crimes."/>
+		<string id="vO6b8x18" text="Not without a fight Im not.[rb:very_negative][ib:warrior][if:convo_furious]"/>
+		<string id="6lY2xJgr" text="Alright, I dont want any trouble. Goodbye."/>
 		<string id="OxEd66eX" text="Smart lad.[ib:confident3][if:convo_nonchalant]"/>
 		<string id="OAEabkxr" text="Welcome back, did you find out anything about those merchants?[ib:hip][if:convo_mocking_aristocratic]"/>
-		<string id="iq3SbYxM" text="I've come to the conclusion they are bandits selling stolen goods. They have many armed men. If you wish to get rid of them, you will need a sizeable force."/>
+		<string id="iq3SbYxM" text="Ive come to the conclusion they are bandits selling stolen goods. They have many armed men. If you wish to get rid of them, you will need a sizeable force."/>
 		<string id="EUkuRdtx" text="Ah, I had a gut feeling that was true, but needed to verify it. Thank you for looking into this. As promised, here is your reward.[ib:nervous2][if:convo_dismayed]"/>
 		<string id="e9fk8gIr" text="Yes, they are selling stolen goods. They attacked me when I confronted them. Unfortunately I failed to defeat them, and they left the area."/>
-		<string id="zxxpajGk" text="Oh my. I didn't expect you to actually try to engage them. Well at least they're gone now. As promised, here is your reward.[ib:nervous2][if:convo_shocked]"/>
+		<string id="zxxpajGk" text="Oh my. I didnt expect you to actually try to engage them. Well at least theyre gone now. As promised, here is your reward.[ib:nervous2][if:convo_shocked]"/>
 		<string id="NrakA9cE" text="Yes, they are selling stolen goods. They attacked me when I confronted them. I defeated them and took them prisoner."/>
-		<string id="Gj5pe97b" text="Oh my. I didn't expect you engage them, let alone defeat them! I'll give you a bonus for dealing with them directly. As promised, here is your reward.[rb:very_positive][ib:hip][if:convo_mocking_aristocratic]"/>
+		<string id="Gj5pe97b" text="Oh my. I didnt expect you engage them, let alone defeat them! Ill give you a bonus for dealing with them directly. As promised, here is your reward.[rb:very_positive][ib:hip][if:convo_mocking_aristocratic]"/>
 		<!--Blood Is Sharper Than Swords-->
 		<string id="aUVW1xBv" text="Blood Is Sharper Than Swords"/>
-		<string id="lbewmj9z" text="{ISSUE_GIVER.LINK}, a notable from {ISSUE_GIVER_SETTLEMENT}, has tasked you with shadowing their son while he is travelling to another city to sell weapons. Once he arrives, You'll have to follow him closely to see whether he is pocketing some of the profits. If so, {ISSUE_GIVER} wants you to bring their son back. You decided to leave {COMPANION.LINK} with some men for {RETURN_DAYS} days to follow him and uncover the truth. They should return with the reward of {REWARD_GOLD}{GOLD_ICON} denars as promised by {ISSUE_GIVER.LINK} after {RETURN_DAYS} days."/>
+		<string id="lbewmj9z" text="{ISSUE_GIVER.LINK}, a notable from {ISSUE_GIVER_SETTLEMENT}, has tasked you with shadowing their son while he is travelling to another city to sell weapons. Once he arrives, Youll have to follow him closely to see whether he is pocketing some of the profits. If so, {ISSUE_GIVER} wants you to bring their son back. You decided to leave {COMPANION.LINK} with some men for {RETURN_DAYS} days to follow him and uncover the truth. They should return with the reward of {REWARD_GOLD}{GOLD_ICON} denars as promised by {ISSUE_GIVER.LINK} after {RETURN_DAYS} days."/>
 		<string id="Scda2scH" text="Yes, Interested in some detective work?[ib:convo_calm_friendly]"/>
-		<string id="tOrxgXyG" text="I’m a weaponsmith by trade, specializing in katanas. Once a week, after I’ve finished a batch of swords, my son takes them to a nearby city to sell them. However, the money I’ve been receiving has been lower than normal. I believe he might be stealing some of the money for himself."/>
-		<string id="6MqUUc9g" text="I want you to follow him, keeping a low profile, and watch him to make sure he’s not misappropriating the funds for himself. If it turns out he is, please don’t hurt him, just bring him back to me. He’s still family after all. If you have a companion you trust, you can leave them and {ALTERNATIVE_TROOP_COUNT} men to shadow him."/>
-		<string id="k17PWttK" text="Don't worry, I will make sure your son is not misbehaving."/>
+		<string id="tOrxgXyG" text="Im a weaponsmith by trade, specializing in katanas. Once a week, after Ive finished a batch of swords, my son takes them to a nearby city to sell them. However, the money Ive been receiving has been lower than normal. I believe he might be stealing some of the money for himself."/>
+		<string id="6MqUUc9g" text="I want you to follow him, keeping a low profile, and watch him to make sure hes not misappropriating the funds for himself. If it turns out he is, please dont hurt him, just bring him back to me. Hes still family after all. If you have a companion you trust, you can leave them and {ALTERNATIVE_TROOP_COUNT} men to shadow him."/>
+		<string id="k17PWttK" text="Dont worry, I will make sure your son is not misbehaving."/>
 		<string id="KfzA7Mea" text="{QUEST_GIVER.LINK} suspects their son of pocketing some of the profits when he goes to sell weapons to another city. He wants someone to follow him and find out if its true."/>
 		<string id="CcODtA5H" text="I will have one of my companions and {REQUIRED_TROOP_AMOUNT} of my men investigate your son and follow them for {RETURN_DAYS} days."/>
-		<string id="NYenP9uy" text="I'm relieved you've agreed to help. This has been weighing on me heavily. I hope my son is innocent, but I must know the truth. My son will soon leave the city. You should wait till he leaves then follow him. I'd recommend not to get distracted and to solve this quickly, as he will copmlete his journey in about a week. Thank you, {PLAYER}, for looking into this."/>
-		<string id="bMblwh9S" text="I heard a rumor that {QUEST_GIVER}'s son is stealing from the family business. Not exactly a good look."/>
+		<string id="NYenP9uy" text="Im relieved youve agreed to help. This has been weighing on me heavily. I hope my son is innocent, but I must know the truth. My son will soon leave the city. You should wait till he leaves then follow him. Id recommend not to get distracted and to solve this quickly, as he will copmlete his journey in about a week. Thank you, {PLAYER}, for looking into this."/>
+		<string id="bMblwh9S" text="I heard a rumor that {QUEST_GIVER}s son is stealing from the family business. Not exactly a good look."/>
 		<string id="qKfx0pLN" text="Your companion {COMPANION.LINK} and your men return with the news of their success. {COMPANION.LINK} followed {QUEST_GIVER.LINK} to a spot near the city, where they observed him selling weapons to bandits. {COMPANION.LINK} dealt with the bandits, arrested the son, and delivered him back to {QUEST_GIVER.LINK}. {QUEST_GIVER.LINK} is grateful and sends {?QUEST_GIVER.GENDER}her{?}his{\\?} regards with a purse full of {REWARD}{GOLD_ICON} denars."/>
-		<string id="YBdamcPg" text="{QUEST_GIVER.LINK}, a notable from {ISSUE_GIVER_SETTLEMENT}, has tasked you with shadowing their son while he is travelling to {TARGET_SETTLEMENT} to sell weapons. Once he arrives, You'll have to follow him closely to see whether he is pocketing some of the profits. If so, {ISSUE_GIVER.LINK} wants you to bring their son back. The merchant's son will soon leave {ISSUE_GIVER_SETTLEMENT}. You should wait there until they leave."/>
-		<string id="Y865EnP5" text="{QUEST_GIVER.LINK}’s son has left {ISSUE_GIVER_SETTLEMENT}. You should begin following him."/>
-		<string id="DaZ5qdy8" text="You have observed {QUEST_GIVER.LINK}’s son meeting with some bandits. You should hurry to confront him in the act."/>
-		<string id="yFjgpP0U" text="You have accepted a bribe from {QUEST_GIVER.LINK}’s son. You should return to {QUEST_GIVER.LINK} and lie to them that their son is not misusing their weapons."/>
-		<string id="wDz6LO0q" text="You have taken all the goods for yourself, effectively stealing from {QUEST_GIVER.LINK}. There's no way you can accomplish {QUEST_GIVER.LINK}’s task after this."/>
-		<string id="cOh52YUQ" text="You have confronted the merchant’s son, defeated the bandits, and should now deliver him to {QUEST_GIVER.LINK}."/>
-		<string id="3HIqsiS7" text="You ran away from a fight with the bandits when challenged. You can't complete {QUEST_GIVER.LINK}'s task now."/>
-		<string id="YdpcSqw6" text="You have successfully delivered the merchant’s son to {QUEST_GIVER.LINK} after catching him misusing the goods and have received your reward."/>
-		<string id="xQb7X0x4" text="You have lost the son as your prisoner, and can no longer complete {QUEST_GIVER.LINK}'s task."/>
-		<string id="yrapqRit" text="You defeated the bandits after demanding their goods. Their goods are yours, but you can no longer complete {QUEST_GIVER.LINK}'s task, as you have stolen their entire shipment."/>
-		<string id="33B0X4Vi" text="You failed to defeat the bandits. Luckily they left you alive. It is impossible to complete {QUEST_GIVER.LINK}'s task now."/>
-		<string id="Sy4UDOCk" text="Thank you. He’s leaving today so keep on the lookout for him. And remember, do not hurt him.[if:convo_focused_happy]"/>
-		<string id="kaqYRNb9" text="Have you followed my son and uncovered if he's pocketing extra money? [ib:closed][if:convo_innocent_smile]"/>
+		<string id="YBdamcPg" text="{QUEST_GIVER.LINK}, a notable from {ISSUE_GIVER_SETTLEMENT}, has tasked you with shadowing their son while he is travelling to {TARGET_SETTLEMENT} to sell weapons. Once he arrives, Youll have to follow him closely to see whether he is pocketing some of the profits. If so, {ISSUE_GIVER.LINK} wants you to bring their son back. The merchants son will soon leave {ISSUE_GIVER_SETTLEMENT}. You should wait there until they leave."/>
+		<string id="Y865EnP5" text="{QUEST_GIVER.LINK}s son has left {ISSUE_GIVER_SETTLEMENT}. You should begin following him."/>
+		<string id="DaZ5qdy8" text="You have observed {QUEST_GIVER.LINK}s son meeting with some bandits. You should hurry to confront him in the act."/>
+		<string id="yFjgpP0U" text="You have accepted a bribe from {QUEST_GIVER.LINK}s son. You should return to {QUEST_GIVER.LINK} and lie to them that their son is not misusing their weapons."/>
+		<string id="wDz6LO0q" text="You have taken all the goods for yourself, effectively stealing from {QUEST_GIVER.LINK}. Theres no way you can accomplish {QUEST_GIVER.LINK}s task after this."/>
+		<string id="cOh52YUQ" text="You have confronted the merchants son, defeated the bandits, and should now deliver him to {QUEST_GIVER.LINK}."/>
+		<string id="3HIqsiS7" text="You ran away from a fight with the bandits when challenged. You cant complete {QUEST_GIVER.LINK}s task now."/>
+		<string id="YdpcSqw6" text="You have successfully delivered the merchants son to {QUEST_GIVER.LINK} after catching him misusing the goods and have received your reward."/>
+		<string id="xQb7X0x4" text="You have lost the son as your prisoner, and can no longer complete {QUEST_GIVER.LINK}s task."/>
+		<string id="yrapqRit" text="You defeated the bandits after demanding their goods. Their goods are yours, but you can no longer complete {QUEST_GIVER.LINK}s task, as you have stolen their entire shipment."/>
+		<string id="33B0X4Vi" text="You failed to defeat the bandits. Luckily they left you alive. It is impossible to complete {QUEST_GIVER.LINK}s task now."/>
+		<string id="Sy4UDOCk" text="Thank you. Hes leaving today so keep on the lookout for him. And remember, do not hurt him.[if:convo_focused_happy]"/>
+		<string id="kaqYRNb9" text="Have you followed my son and uncovered if hes pocketing extra money? [ib:closed][if:convo_innocent_smile]"/>
 		<string id="K5OZ8bNc" text="I will follow them right away"/>
 		<string id="WwzSY2T7" text="Can I help you?"/>
 		<string id="JKRwgBV1" text="No, sorry. Goodbye."/>
 		<string id="dy8yTB9S" text="Who let the wannabe ronin in here?[ib:closed2][if:convo_predatory]"/>
 		<string id="dMjOvZSc" text="Can I help you?[ib:nervous][if:convo_nervous]"/>
-		<string id="BMdt4vXL" text="My name is {PLAYER.NAME}, I was sent by {QUEST_GIVER.LINK} to follow you, and to make sure you weren't pocketing any of the money made from selling your father's swords. From the looks of this, it appears you're doing much worse than that."/>
+		<string id="BMdt4vXL" text="My name is {PLAYER.NAME}, I was sent by {QUEST_GIVER.LINK} to follow you, and to make sure you werent pocketing any of the money made from selling your fathers swords. From the looks of this, it appears youre doing much worse than that."/>
 		<string id="wuzYXZpK" text="What? My father sent you? No...This is all just a big misunderstanding. These are just my business associates. This is a simple business transaction. Just ordinary business here, nothing suspicious at all.[ib:normal2][if:convo_shocked]"/>
-		<string id="jUFAoFsl" text="You insult the wannabe ronin. They clearly don’t believe you. How about you confess your dishonor like a man?[ib:closed2][if:convo_predatory]"/>
-		<string id="WFzSDQlu" text="It was not supposed to go like this. Alright fine. What if I offer you a handcrafted sword from my father, a renowned swordsmith? It’s worth more than whatever reward you’re expecting to get from bringing me back.[ib:normal2][if:convo_calm_friendly]"/>
-		<string id="03QWXapc" text="Hmm, alright, I’ll take your sword, and I'll tell your father there's nothing going on."/>
-		<string id="aQ79mJ3i" text="Thank you stranger. I'll never do this again I swear. I owe you a great deal.[ib:closed2][if:convo_focused_happy]"/>
-		<string id="fbQ9iHqP" text="One measly sword? You insult me. You'll give me your entire shipment if you want to ensure your freedom."/>
-		<string id="RtZ2ZdjW" text="The whole shipment!? Are you out of your mind? There’s no way I can do that. One sword is my final offer. Take it or leave it.[rb:negative][ib:closed2][if:convo_very_stern]"/>
-		<string id="2VaIdV0V" text="Alright, give me the sword, and I'll tell your father there's nothing going on."/>
-		<string id="rgkY2ONa" text="Thank you stranger. I'll never do this again I swear. I owe you a great deal.[ib:closed2][if:convo_focused_happy]"/>
-		<string id="uqE6185I" text="Your offer isn’t good enough. I’m taking this shipment for myself."/>
+		<string id="jUFAoFsl" text="You insult the wannabe ronin. They clearly dont believe you. How about you confess your dishonor like a man?[ib:closed2][if:convo_predatory]"/>
+		<string id="WFzSDQlu" text="It was not supposed to go like this. Alright fine. What if I offer you a handcrafted sword from my father, a renowned swordsmith? Its worth more than whatever reward youre expecting to get from bringing me back.[ib:normal2][if:convo_calm_friendly]"/>
+		<string id="03QWXapc" text="Hmm, alright, Ill take your sword, and Ill tell your father theres nothing going on."/>
+		<string id="aQ79mJ3i" text="Thank you stranger. Ill never do this again I swear. I owe you a great deal.[ib:closed2][if:convo_focused_happy]"/>
+		<string id="fbQ9iHqP" text="One measly sword? You insult me. Youll give me your entire shipment if you want to ensure your freedom."/>
+		<string id="RtZ2ZdjW" text="The whole shipment!? Are you out of your mind? Theres no way I can do that. One sword is my final offer. Take it or leave it.[rb:negative][ib:closed2][if:convo_very_stern]"/>
+		<string id="2VaIdV0V" text="Alright, give me the sword, and Ill tell your father theres nothing going on."/>
+		<string id="rgkY2ONa" text="Thank you stranger. Ill never do this again I swear. I owe you a great deal.[ib:closed2][if:convo_focused_happy]"/>
+		<string id="uqE6185I" text="Your offer isnt good enough. Im taking this shipment for myself."/>
 		<string id="PZVuyq6n" text="Help me and you can have half the swords![ib:normal][if:terrified]"/>
-		<string id="m6hKrxzX" text="Hmm, not a bad trade. Alright ronin, let’s dance.[ib:warrior][if:convo_evil_smile]"/>
-		<string id="BeCaKuHe" text="Let's go (starts combat)"/>
-		<string id="p5XDtNUT" text="Wait, I don’t want to fight, I’m leaving."/>
-		<string id="yaN5XZg3" text="The whole shipment? Ah, fine, I guess I don’t have a choice. Take it and get out of my sight.[ib:normal2][if:convo_dismayed]"/>
+		<string id="m6hKrxzX" text="Hmm, not a bad trade. Alright ronin, lets dance.[ib:warrior][if:convo_evil_smile]"/>
+		<string id="BeCaKuHe" text="Lets go (starts combat)"/>
+		<string id="p5XDtNUT" text="Wait, I dont want to fight, Im leaving."/>
+		<string id="yaN5XZg3" text="The whole shipment? Ah, fine, I guess I dont have a choice. Take it and get out of my sight.[ib:normal2][if:convo_dismayed]"/>
 		<string id="amcL2IfC" text="Well this is awkward. I was expecting those weapons for myself. Would you be willing to trade them for some goods? Very good quality. Very cheap.[ib:closed2][if:convo_undecided_open]"/>
 		<string id="zH2iCirT" text="Sure, sounds like a good deal."/>
 		<string id="LM52yf4S" text="Pleasure doing business with you."/>
 		<string id="7Mpn28Wk" text="No thanks, not interested."/>
-		<string id="dZvId7Eb" text="I don’t think you understand. We needs those weapons. One way or another we’re getting them.[ib:warrior][if:convo_evil_smile]"/>
-		<string id="Kcjfkl1u" text="No need for violence, I'll trade."/>
-		<string id="YRbnlLvr" text="I’d like to see you try. (starts combat)"/>
-		<string id="qHklHJpQ" text="No. I will not accept your pitiful bribe. You're coming with me."/>
+		<string id="dZvId7Eb" text="I dont think you understand. We needs those weapons. One way or another were getting them.[ib:warrior][if:convo_evil_smile]"/>
+		<string id="Kcjfkl1u" text="No need for violence, Ill trade."/>
+		<string id="YRbnlLvr" text="Id like to see you try. (starts combat)"/>
+		<string id="qHklHJpQ" text="No. I will not accept your pitiful bribe. Youre coming with me."/>
 		<string id="SrdUhhC0" text="Help me and you can have the swords![ib:normal][if:terrified]"/>
-		<string id="yGJf5A2s" text="Hmm, not a bad trade. Alright ronin, let’s dance.[ib:warrior][if:convo_evil_smile]"/>
+		<string id="yGJf5A2s" text="Hmm, not a bad trade. Alright ronin, lets dance.[ib:warrior][if:convo_evil_smile]"/>
 		<string id="Dr2oViaJ" text="You will regret this. (starts combat)"/>
-		<string id="M0NcJRId" text="Have you followed my son and uncovered if he's pocketing extra money? [ib:closed][if:convo_innocent_smile]"/>
+		<string id="M0NcJRId" text="Have you followed my son and uncovered if hes pocketing extra money? [ib:closed][if:convo_innocent_smile]"/>
 		<string id="iJ3EniNf" text="I have. Your son is not stealing from you. I found no evidence of theft."/>
-		<string id="wGxgwRpC" text="Thank you {PLAYER.NAME}. That is a huge relief. I was worried my son was acting dishonorably. Now I have to figure out why my profits are so low. Maybe I'll sell the goods myself next time. As promised, here is your reward.[ib:convo_focused_happy][if:demure]"/>
+		<string id="wGxgwRpC" text="Thank you {PLAYER.NAME}. That is a huge relief. I was worried my son was acting dishonorably. Now I have to figure out why my profits are so low. Maybe Ill sell the goods myself next time. As promised, here is your reward.[ib:convo_focused_happy][if:demure]"/>
 		<string id="3rOxJ4V5" text="I have. Your son was doing more than stealing from you. He was trading your weapons to bandits for higher profits."/>
 		<string id="4KPNZgqN" text="What?! Is this true son?[rb:negative][if:shocked]"/>
-		<string id="rHtnyNKQ" text="I'm sorry father. I messed up.[ib:nervous][if:convo_dismayed]"/>
-		<string id="Xj3LIDNx" text="I'll deal with you later. Thank you for looking into this {PLAYER.NAME}. I never would of imagined this happening. Here is your reward, and as a bonus, I wish to offer you one of my blades. May it serve you well.[if:convo_annoyed][ib:normal]"/>
+		<string id="rHtnyNKQ" text="Im sorry father. I messed up.[ib:nervous][if:convo_dismayed]"/>
+		<string id="Xj3LIDNx" text="Ill deal with you later. Thank you for looking into this {PLAYER.NAME}. I never would of imagined this happening. Here is your reward, and as a bonus, I wish to offer you one of my blades. May it serve you well.[if:convo_annoyed][ib:normal]"/>
 		<string id="LL9mKB8z" text="Goodbye."/>		
 		<!--Enlistment Return Quest-->
 		<string id="kIwtc7L5" text="Return to Service"/>
@@ -225,7 +226,7 @@
 		<string id="v0iPrx2R" text="I see. Very well."/>
 		<string id="blje1Pio" text="Sorry, my Lord, not yet."/>
 		<string id="oR75nxjv" text="Very well. Is there anything else?"/>
-		<string id="nRgYiOnP" text="Ah, you've sent a messenger. Are you planning on rejoining the army soon?"/>
+		<string id="nRgYiOnP" text="Ah, youve sent a messenger. Are you planning on rejoining the army soon?"/>
 		<string id="IZtVHl3X" text="Yes, my Lord, I will join soon."/>
 		<string id="sw0MHFXb" text="Good. Do hurry back. Is there anything else?"/>
 		<string id="8XOFcuyQ" text="You have enlisted with another lord. It is impossible to complete this task."/>
@@ -240,10 +241,10 @@
 		<string id="ZznLYgGF" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
 		<string id="bwIEyySk" text="{PLAYER.NAME}, I have received reports of bandits preying on our trade. I need you to go deal with them and restore order. I will give you command of a detachment to hunt them down. You can keep whatever loot you find."/>
 		<string id="KhwFlAPn" text="Of course, my liege. I will bring justice to those criminals."/>
-		<string id="acgNZOSH" text="Good. Rejoin my command when you've dealt with enough."/>
-		<string id="Cfjz05Dg" text="I am afraid I won’t be able to fulfill this task right now, my liege. I must refuse."/>
-		<string id="Vc2BSHix" text="You refuse to defend your liege’s holdings from criminals? You are a disgrace, {PLAYER.NAME}. I will remember this."/>
-		<string id="nuDB0mhX" text="{PLAYER.NAME}. You still haven't defeated enough bandits. Get back out there and finish the job."/>
+		<string id="acgNZOSH" text="Good. Rejoin my command when youve dealt with enough."/>
+		<string id="Cfjz05Dg" text="I am afraid I wont be able to fulfill this task right now, my liege. I must refuse."/>
+		<string id="Vc2BSHix" text="You refuse to defend your lieges holdings from criminals? You are a disgrace, {PLAYER.NAME}. I will remember this."/>
+		<string id="nuDB0mhX" text="{PLAYER.NAME}. You still havent defeated enough bandits. Get back out there and finish the job."/>
 		<string id="Zw9GTd1F" text="Yes my liege. I will leave immediately."/>
 		<string id="xzVyRl0W" text="Sorry my liege. I am unable to fulfill this task. I ask to return to your service as normal."/>
 		<string id="5kOFPReX" text="I am disappointed {PLAYER.NAME}. Return to your post."/>
@@ -260,12 +261,12 @@
 		<string id="AnI1I58N" text="You failed to defeat enough enemies in time. You should report back to {QUEST_GIVER.LINK} soon or be branded a deserter."/>
 		<string id="bVnWYBFh" text="{QUEST_GIVER.LINK} has passed away. It is impossible to complete their task now."/>
 		<string id="RbnHEbv9" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
-		<string id="9H2A2LIX" text="{PLAYER.NAME}, we need to cut the supply lines of our enemies. I'm giving you some soldiers. Use them to ravage the countryside to stop anyone who can assist the enemy armies. Caravans, peasants, patrols, and even lords if you think you can handle it, are all fair game. After you've dealt a significant enough blow, return to me."/>
+		<string id="9H2A2LIX" text="{PLAYER.NAME}, we need to cut the supply lines of our enemies. Im giving you some soldiers. Use them to ravage the countryside to stop anyone who can assist the enemy armies. Caravans, peasants, patrols, and even lords if you think you can handle it, are all fair game. After youve dealt a significant enough blow, return to me."/>
 		<string id="sVgpcr9p" text="I will do as you ask, my lord."/>
 		<string id="LGNUe7E5" text="Good. When the enemy is starving it will be much easier to defeat them. Good luck."/>
-		<string id="kbLr4gtK" text="I am afraid I won’t be able to fulfill this task right now, my liege. I must refuse."/>
-		<string id="M6qSAy7M" text="Wars are won with logistics. If you can't help me destroy them, what use are you to me? Get out of my sight."/>
-		<string id="I7WbY5xM" text="{PLAYER.NAME}. You still haven't defeated enough enemies. Get back out there and finish the job."/>
+		<string id="kbLr4gtK" text="I am afraid I wont be able to fulfill this task right now, my liege. I must refuse."/>
+		<string id="M6qSAy7M" text="Wars are won with logistics. If you cant help me destroy them, what use are you to me? Get out of my sight."/>
+		<string id="I7WbY5xM" text="{PLAYER.NAME}. You still havent defeated enough enemies. Get back out there and finish the job."/>
 		<string id="6JuwkUei" text="Yes my liege. I will leave immediately."/>
 		<string id="PxUheTgF" text="Sorry my liege. I am unable to fulfill this task. I ask to return to your service as normal."/>
 		<string id="NgIV3Llt" text="I am disappointed {PLAYER.NAME}. Return to your post."/>
@@ -285,21 +286,21 @@
 		<string id="SClOyn37" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
 		<string id="sSj418Lf" text="{PLAYER.NAME}, I have commissioned some supplies from {SETTLEMENT}. I need you to go to {SUPPLIER} to collect them and bring them back. They are already paid for. Our army relies on these goods, so return quickly with them."/>
 		<string id="s7Up8STL" text="I will, my liege. Those supplies will be quickly gathered."/>
-		<string id="o9sPImCQ" text="Good. Rejoin my command when you've gathered the supplies."/>
-		<string id="GpITkybX" text="I am afraid I won’t be able to fulfill this task right now, my liege. I must refuse."/>
-		<string id="88k37t3g" text="When you and your comrades are eating grass remember it’s your fault, {PLAYER.NAME}. Get out of here now. I will remember this."/>
+		<string id="o9sPImCQ" text="Good. Rejoin my command when youve gathered the supplies."/>
+		<string id="GpITkybX" text="I am afraid I wont be able to fulfill this task right now, my liege. I must refuse."/>
+		<string id="88k37t3g" text="When you and your comrades are eating grass remember its your fault, {PLAYER.NAME}. Get out of here now. I will remember this."/>
 		<string id="IPa3Gi3U" text="{PLAYER.NAME}. Where are the goods I told you to get? Get back out there and finish the job."/>
 		<string id="NTo36tTm" text="Yes my liege. I will leave immediately."/>
 		<string id="ppFA5g2t" text="Can I help you?"/>
-		<string id="2gA013a5" text="I'm here on behalf of my lord, {QUESTGIVER}. I am here to collect supplies."/>
+		<string id="2gA013a5" text="Im here on behalf of my lord, {QUESTGIVER}. I am here to collect supplies."/>
 		<string id="aAayf1hv" text="Ah. Here you are. Make sure they get there safely."/>
 		<string id="Mb3WpzeM" text="I will. Thank you."/>
 		<string id="vM2sXWiy" text="Army supplies added to inventory."/>
 		<string id="P5iTBbQZ" text="Welcome back {PLAYER.NAME}. These goods will help our forces. You have my thanks. Return to your post as normal."/>
 		<string id="iDQAOuoL" text="Yes, my liege."/>
 		<string id="JLbIFa14" text="Very good."/>
-		<string id="2gA013a5" text="I'm here on behalf of my lord, {QUESTGIVER}. I am here to collect supplies."/>
-		<string id="2gA013a5" text="I'm here on behalf of my lord, {QUESTGIVER}. I am here to collect supplies."/>
+		<string id="2gA013a5" text="Im here on behalf of my lord, {QUESTGIVER}. I am here to collect supplies."/>
+		<string id="2gA013a5" text="Im here on behalf of my lord, {QUESTGIVER}. I am here to collect supplies."/>
 		<!--Enlistment Scouting Quest-->
 		<string id="jdWIUkf6" text="{SETTLEMENT_NAME} has been scouted."/>
 		<string id="HtNnpNHN" text="Scout Enemy Fortifications"/>
@@ -308,15 +309,15 @@
 		<string id="EHE2tMGK" text="You managed to scout the enemy settlements. You should now report back to {QUEST_GIVER.LINK}."/>
 		<string id="8xPHq2zO" text="The kingdoms are now at peace. There is no longer a need to scout the settlements. You should return to {QUEST_GIVER.LINK}."/>
 		<string id="iwv8vrZ2" text="You have completed your task and rejoined the retinue of {QUEST_GIVER.LINK}."/>
-		<string id="Pejjm33R" text="You couldn’t gather the required information on the enemy settlements in time. You should report back to {QUEST_GIVER.LINK} soon or be branded a deserter."/>
+		<string id="Pejjm33R" text="You couldnt gather the required information on the enemy settlements in time. You should report back to {QUEST_GIVER.LINK} soon or be branded a deserter."/>
 		<string id="CoFymBgs" text="{QUEST_GIVER.LINK} has passed away. It is impossible to complete their task now."/>
 		<string id="XVK6f6pC" text="You have chosen not to accept this task with {QUEST_GIVER.LINK}, and have returned to service as normal."/>
 		<string id="mBIF6j58" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
-		<string id="7HXJrbry" text="Greeting {PLAYER.NAME}. We will soon march into enemy territory, but I can’t lead my men into an unknown situation. I need you to lead a forward detachment and scout the settlements of {NEARBY_SETTLEMENT_LIST} and observe the defenses. Your priority is to gather intel, so be careful to avoid engagements unless you’re absolutely sure to win. When you’re done, report back to me so I can plan our next move accordingly."/>
+		<string id="7HXJrbry" text="Greeting {PLAYER.NAME}. We will soon march into enemy territory, but I cant lead my men into an unknown situation. I need you to lead a forward detachment and scout the settlements of {NEARBY_SETTLEMENT_LIST} and observe the defenses. Your priority is to gather intel, so be careful to avoid engagements unless youre absolutely sure to win. When youre done, report back to me so I can plan our next move accordingly."/>
 		<string id="SaIwJGc1" text="As you command, my liege. I will proceed with caution and discretion and come back with the information you requested."/>
-		<string id="XkGXqEP8" text="I am afraid I won’t be able to fulfill this task right now, my liege. I must refuse."/>
+		<string id="XkGXqEP8" text="I am afraid I wont be able to fulfill this task right now, my liege. I must refuse."/>
 		<string id="lgvi2XMo" text="I am very disappointed {PLAYER.NAME}. Remove yourself from my sight if you are not going to do your duty."/>
-		<string id="6MUpScVu" text="{PLAYER.NAME}. You still haven't scouted the settlements. Get back out there and finish the job."/>
+		<string id="6MUpScVu" text="{PLAYER.NAME}. You still havent scouted the settlements. Get back out there and finish the job."/>
 		<string id="7rFV1AXy" text="Yes my liege. I will leave immediately."/>
 		<string id="KnmQJUX9" text="Welcome back {PLAYER.NAME}. This scouting report will help us greatly in the war effort. You have my thanks. Return to your post as normal."/>
 		<string id="XkGXqEP8" text="Good. Hurry now. I will be awaiting your return."/>
@@ -332,11 +333,11 @@
 		<string id="VeJDKO0L" text="Greetings {PLAYER.NAME}, I take it you got my letter? Do you wish to accept the responsibility of vassalage?"/>
 		<string id="p7T50UeO" text="Yes my lord, I wish to serve you."/>
 		<string id="apROvwGB" text="Excellent. Allow me to administer the oath."/>
-		<string id="ulSdUcco" text="I'm sorry, my lord. I cannot accept."/>
+		<string id="ulSdUcco" text="Im sorry, my lord. I cannot accept."/>
 		<string id="OlqoDrg2" text="Really? Are you sure? I will not offer you this again."/>
 		<string id="pQSrqebu" text="On Second though, I would like to become a vassal."/>
-		<string id="w7JTMZLz" text="I'm sorry, but I must refuse."/>
-		<string id="idMUC8Vx" text="Very well. I hope you don't regret this. May your sword strike true."/>
+		<string id="w7JTMZLz" text="Im sorry, but I must refuse."/>
+		<string id="idMUC8Vx" text="Very well. I hope you dont regret this. May your sword strike true."/>
 		<!--misc-->
 		<string id="ctB8EbvQ" text="Thanks to your actions, the security of all towns under your liege has slightly increased."/>
 		<string id="WXMAztHl" text="Thanks to your actions, your army is a more cohesive."/>
