@@ -212,46 +212,46 @@
 		<string id="Xj3LIDNx" text="Я разьбяруся з табой пазьней. Дзякуй, што разабраліся ў гэтай справе, {PLAYER.NAME}. Нават думак не было, што такое можа здарыцца. Вось вашая ўзнагарода, і ў якасьці бонусу я хачу падарыць вам адзін са сваіх мячоў. Няхай ён добра служыць.[if:convo_annoyed][ib:normal]"/>
 		<string id="LL9mKB8z" text="Бывайце."/>		
 		<!--Enlistment Return Quest-->
-		<string id="kIwtc7L5" text="Return to Service"/>
-		<string id="2GgCPzl1" text="You should return to {QUEST_GIVER.LINK} to continue your duties. If you take too long, you may be considered deserting. They should be near {SETTLEMENT}."/>
-		<string id="pkjUJHxj" text="You have rejoined the retinue of {QUEST_GIVER.LINK}."/>
-		<string id="pZFNfg5M" text="You have failed to rejoin the retinue of {QUEST_GIVER.LINK}. If you attempt to enlist with them now, they will not remember you."/>
-		<string id="KQih2txj" text="{QUEST_GIVER.LINK} has passed away. It is impossible to join their retinue now."/>
-		<string id="kJ6oEmZo" text="You have chosen not to reenlist with {QUEST_GIVER.LINK}."/>
-		<string id="jL5aRBiC" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
-		<string id="Y7nOJ6EI" text="Ah, you managed to return. Do you wish to rejoin the army?"/>
-		<string id="uWTSvMoT" text="Yes, my Lord, I wish to rejoin your retinue."/>
-		<string id="6alhsU3o" text="Very well. Welcome back."/>
-		<string id="7aPl5EDa" text="I wish to end my service to you, my Lord."/>
-		<string id="v0iPrx2R" text="I see. Very well."/>
-		<string id="blje1Pio" text="Sorry, my Lord, not yet."/>
-		<string id="oR75nxjv" text="Very well. Is there anything else?"/>
-		<string id="nRgYiOnP" text="Ah, you've sent a messenger. Are you planning on rejoining the army soon?"/>
-		<string id="IZtVHl3X" text="Yes, my Lord, I will join soon."/>
-		<string id="sw0MHFXb" text="Good. Do hurry back. Is there anything else?"/>
-		<string id="8XOFcuyQ" text="You have enlisted with another lord. It is impossible to complete this task."/>
+		<string id="kIwtc7L5" text="Вярніцеся да Абавязкаў"/>
+		<string id="2GgCPzl1" text="Вы мусіце вярнуцца да {QUEST_GIVER.LINK}, каб працягнуць выкананнье сваіх абавязкаў. Калі вы затрымаецеся, вас могуць палічыць {?PLAYER.GENDER}дэзертыркай{?}дэзертырам{\?}. Яны мусяць быць каля {SETTLEMENT}."/>
+		<string id="pkjUJHxj" text="Вы далучыліся да сьвіты {QUEST_GIVER.LINK}."/>
+		<string id="pZFNfg5M" text="Вам не ўдалося далучыцца да сьвіты {QUEST_GIVER.LINK}. Калі вы паспрабуеце далучыцца да {?QUEST_GIVER.GENDER}яе{?}яго{\?} цяпер, {?QUEST_GIVER.GENDER}яна{?}ён{\?} вас не ўспомніць."/>
+		<string id="KQih2txj" text="{QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}сканала{?}сканаў{\?}. Далучыцца да {?QUEST_GIVER.GENDER}яе{?}яго{\?} сьвіты болей немагчыма."/>
+		<string id="kJ6oEmZo" text="Вы вырашылі не працаваць {?PLAYER.GENDER}найміткай{?}наймітам{\?} {QUEST_GIVER.LINK}."/>
+		<string id="jL5aRBiC" text="Вы ваюеце з {FACTION}. Выканаць гэтае заданьне болей немагчыма."/>
+		<string id="Y7nOJ6EI" text="А, вы змаглі вярнуцца. Жадаеце далучыцца да войска?"/>
+		<string id="uWTSvMoT" text="Так, шляхетнасьць, я хачу далучыцца да вашай сьвіты."/>
+		<string id="6alhsU3o" text="Цудоўна. З вяртаньнем."/>
+		<string id="7aPl5EDa" text="Я жадаю скончыць найміцтва, ваша панства."/>
+		<string id="v0iPrx2R" text="Бачу. Добра."/>
+		<string id="blje1Pio" text="Прабачце, шялхетнасьць, пакуль не."/>
+		<string id="oR75nxjv" text="Выдатна. Нешта яшчэ?"/>
+		<string id="nRgYiOnP" text="А, вы даслалі паведамленьне. Плануеце вярнуцца ў войска хуткім часам?"/>
+		<string id="IZtVHl3X" text="Так, спадарства, я хутка далучуся."/>
+		<string id="sw0MHFXb" text="Добра. Пасьпяшайцеся вярнуцца. Нешта яшчэ?"/>
+		<string id="8XOFcuyQ" text="Вы сталі {?PLAYER.GENDER}найміткай{?}наймітам{\?} іншага шляхціча. Выканаць гэтае заданьне болей немагчыма."/>
 		<!--Enlistment Attack Bandits Quest-->
-		<string id="9upW0V7c" text="Attack Bandits"/>
-		<string id="0n0JMtrv" text="{QUEST_GIVER.LINK} asked you to defeat 50 bandits, preferably near {FACTION} territory. You were given some troops to deal with the threat."/>
-		<string id="M5grPMkq" text="You have defeated the required number of bandits. You should return to {QUEST_GIVER.LINK}"/>
-		<string id="xMzsI2uR" text="You have chosen not to accept this task with {QUEST_GIVER.LINK}, and have returned to service as normal."/>
-		<string id="getpz5eJ" text="You have completed your task and rejoined the retinue of {QUEST_GIVER.LINK}."/>
-		<string id="pElHMgDI" text="You failed to defeat enough bandits in time. You should report back to {QUEST_GIVER.LINK} soon or be branded a deserter."/>
-		<string id="VseBADjY" text="{QUEST_GIVER.LINK} has passed away. It is impossible to complete their task now."/>
-		<string id="ZznLYgGF" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
-		<string id="bwIEyySk" text="{PLAYER.NAME}, I have received reports of bandits preying on our trade. I need you to go deal with them and restore order. I will give you command of a detachment to hunt them down. You can keep whatever loot you find."/>
-		<string id="KhwFlAPn" text="Of course, my liege. I will bring justice to those criminals."/>
-		<string id="acgNZOSH" text="Good. Rejoin my command when you've dealt with enough."/>
-		<string id="Cfjz05Dg" text="I am afraid I won’t be able to fulfill this task right now, my liege. I must refuse."/>
-		<string id="Vc2BSHix" text="You refuse to defend your liege’s holdings from criminals? You are a disgrace, {PLAYER.NAME}. I will remember this."/>
-		<string id="nuDB0mhX" text="{PLAYER.NAME}. You still haven't defeated enough bandits. Get back out there and finish the job."/>
-		<string id="Zw9GTd1F" text="Yes my liege. I will leave immediately."/>
-		<string id="xzVyRl0W" text="Sorry my liege. I am unable to fulfill this task. I ask to return to your service as normal."/>
-		<string id="5kOFPReX" text="I am disappointed {PLAYER.NAME}. Return to your post."/>
-		<string id="oPlk0BTQ" text="Welcome back {PLAYER.NAME}. The bandits you defeated will increase the security of the realm. You have my thanks. Return to your post as normal."/>
-		<string id="8KkRGENz" text="Yes, my liege."/>
-		<string id="T2hy95Dq" text="Very good."/>
-		<string id="oYRzT2Rb" text="Defeated Bandits"/>
+		<string id="9upW0V7c" text="Напад на Бандытаў"/>
+		<string id="0n0JMtrv" text="{QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}папрасіла{?}папрасіў{\?} вас перамагчы 50 бандытаў, пажадана на зямлі {FACTION}. Вам далі некалькі ваяроў, каб каб зладзіць з пагрозай."/>
+		<string id="M5grPMkq" text="Вы перамаглі неабходную колькасьць бандытаў. Вам варта вярнуцца да {QUEST_GIVER.LINK}."/>
+		<string id="xMzsI2uR" text="Вы вырашылі не прыймаць гэтае заданьне ад {QUEST_GIVER.LINK} і вярнуліся на звычайную службу."/>
+		<string id="getpz5eJ" text="Вы выканалі заданьне і далучыліся да сьвіты {QUEST_GIVER.LINK}."/>
+		<string id="pElHMgDI" text="Вы не змаглі ў час перамагчы дастатковую колькасьць бандытаў. Вам варта хутчэй вярнуцца да {QUEST_GIVER.LINK}, іначай вас будуць лічыць {?PLAYER.GENDER}дэзертыркай{?}дэзертырам{\?}."/>
+		<string id="VseBADjY" text="{QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}сканала{?}сканаў{\?}. Далучыцца да {?QUEST_GIVER.GENDER}яе{?}яго{\?} сьвіты болей немагчыма."/>
+		<string id="ZznLYgGF" text="Вы ваюеце з {FACTION}. Выканаць гэтае заданьне болей немагчыма."/>
+		<string id="bwIEyySk" text="{PLAYER.NAME}, я маю паведамленьне пра бандытаў, што палююць на нашых гандляроў. Мне трэба, каб вы зладзілі зь імі і аднавілі парадак. Вы атрымаеце атрад на высочваньне бандытаў. Знойдзеную здабычу можаце пакінуць сабе."/>
+		<string id="KhwFlAPn" text="Вядома, спадарства. Я гэтыя злачынцы знойдуць сваё правасудзьдзе."/>
+		<string id="acgNZOSH" text="Добра. Далучайцеся да майго камандаваньня, калі разьбярэцеся з дастатковай колькасьцю."/>
+		<string id="Cfjz05Dg" text="На жаль, я не магу выканаць гэтае заданьне цяпер, ваша шляхетнасьць. Я вымушаны адмовіцца."/>
+		<string id="Vc2BSHix" text="Вы адмаўляецеся бараніць трыманьні свайго спадара ад злачынцаў? Ганьба, {PLAYER.NAME}. Я запомню гэта."/>
+		<string id="nuDB0mhX" text="{PLAYER.NAME}. Вы дагэтуль не перамаглі дастатковую колькасьць бандытаў. Вярніцеся і завяршыце працу."/>
+		<string id="Zw9GTd1F" text="Так, ваша шляхетнасьць. Я рушу неадкладна."/>
+		<string id="xzVyRl0W" text="Прабачце, спадарства. Я не магу выканаць гэтае заданьне. Калі ласка, дазвольце вярнуцца да звычайных абавязкаў."/>
+		<string id="5kOFPReX" text="Расчаравальна, {PLAYER.NAME}. Вяртайцеся да сваёй пасады."/>
+		<string id="oPlk0BTQ" text="З вяртаньнем {PLAYER.NAME}. Пераможаныя вамі бандыты павялічаць бясьпеку гаспадарства. Прыйміце маю падзяку. Ды вяртайцеся на сваю звычайную пасаду."/>
+		<string id="8KkRGENz" text="Так, ваша панства."/>
+		<string id="T2hy95Dq" text="Цудаўна."/>
+		<string id="oYRzT2Rb" text="Пераможаныя Бандыты"/>
 		<!--Enlistment Attack Enemies Quest-->
 		<string id="SfOl8dMQ" text="Attack the enemies of {FACTION}"/>
 		<string id="Bkmk6Ese" text="{QUEST_GIVER.LINK} asked you to defeat at least {NUMOFENEMIES} of the enemies of {FACTION}. This includes caravans, villagers, mercenaries, and lords."/>
@@ -259,8 +259,8 @@
 		<string id="l4IkN1uX" text="You have chosen not to accept this task with {QUEST_GIVER.LINK}, and have returned to service as normal."/>
 		<string id="dcKtpIUb" text="You have completed your task and rejoined the retinue of {QUEST_GIVER.LINK}."/>
 		<string id="AnI1I58N" text="You failed to defeat enough enemies in time. You should report back to {QUEST_GIVER.LINK} soon or be branded a deserter."/>
-		<string id="bVnWYBFh" text="{QUEST_GIVER.LINK} has passed away. It is impossible to complete their task now."/>
-		<string id="RbnHEbv9" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
+		<string id="bVnWYBFh" text="{QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}сканала{?}сканаў{\?}. Далучыцца да {?QUEST_GIVER.GENDER}яе{?}яго{\?} сьвіты болей немагчыма."/>
+		<string id="RbnHEbv9" text="Вы ваюеце з {FACTION}. Выканаць гэтае заданьне болей немагчыма."/>
 		<string id="9H2A2LIX" text="{PLAYER.NAME}, we need to cut the supply lines of our enemies. I'm giving you some soldiers. Use them to ravage the countryside to stop anyone who can assist the enemy armies. Caravans, peasants, patrols, and even lords if you think you can handle it, are all fair game. After you've dealt a significant enough blow, return to me."/>
 		<string id="sVgpcr9p" text="I will do as you ask, my lord."/>
 		<string id="LGNUe7E5" text="Good. When the enemy is starving it will be much easier to defeat them. Good luck."/>
@@ -279,11 +279,11 @@
 		<string id="jPtZyWt0" text="{QUEST_GIVER.LINK} asked you deliver supplies from {SETTLEMENT} to their army. You should speak with {SUPPLIER} to get them."/>
 		<string id="jCHcftog" text="You have gathered the supplies from {SUPPLIER}. You should return to {QUEST_GIVER.LINK}."/>
 		<string id="ecpqfoFZ" text="{SETTLEMENT} has been captured by the {SETTLEMENT_NEW_OWNER}. It is impossible to get the supplies now. You should return to {QUEST_GIVER.LINK}."/>
-		<string id="TuEz6PNT" text="{QUEST_GIVER.LINK} has passed away. It is impossible to complete their task now."/>
+		<string id="TuEz6PNT" text="{QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}сканала{?}сканаў{\?}. Далучыцца да {?QUEST_GIVER.GENDER}яе{?}яго{\?} сьвіты болей немагчыма."/>
 		<string id="7155nD47" text="You have chosen not to accept this task with {QUEST_GIVER.LINK}, and have returned to service as normal."/>
 		<string id="v9MlDIu0" text="You have completed your task and rejoined the retinue of {QUEST_GIVER.LINK}."/>
 		<string id="E0OOYY8S" text="You failed to deliver the supplies in time. You should report back to {QUEST_GIVER.LINK} soon or be branded a deserter."/>
-		<string id="SClOyn37" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
+		<string id="SClOyn37" text="Вы ваюеце з {FACTION}. Выканаць гэтае заданьне болей немагчыма."/>
 		<string id="sSj418Lf" text="{PLAYER.NAME}, I have commissioned some supplies from {SETTLEMENT}. I need you to go to {SUPPLIER} to collect them and bring them back. They are already paid for. Our army relies on these goods, so return quickly with them."/>
 		<string id="s7Up8STL" text="I will, my liege. Those supplies will be quickly gathered."/>
 		<string id="o9sPImCQ" text="Good. Rejoin my command when you've gathered the supplies."/>
@@ -310,9 +310,9 @@
 		<string id="8xPHq2zO" text="The kingdoms are now at peace. There is no longer a need to scout the settlements. You should return to {QUEST_GIVER.LINK}."/>
 		<string id="iwv8vrZ2" text="You have completed your task and rejoined the retinue of {QUEST_GIVER.LINK}."/>
 		<string id="Pejjm33R" text="You couldn’t gather the required information on the enemy settlements in time. You should report back to {QUEST_GIVER.LINK} soon or be branded a deserter."/>
-		<string id="CoFymBgs" text="{QUEST_GIVER.LINK} has passed away. It is impossible to complete their task now."/>
+		<string id="CoFymBgs" text="{QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}сканала{?}сканаў{\?}. Далучыцца да {?QUEST_GIVER.GENDER}яе{?}яго{\?} сьвіты болей немагчыма."/>
 		<string id="XVK6f6pC" text="You have chosen not to accept this task with {QUEST_GIVER.LINK}, and have returned to service as normal."/>
-		<string id="mBIF6j58" text="You are now at war with {FACTION}. It is impossible to complete this task."/>
+		<string id="mBIF6j58" text="Вы ваюеце з {FACTION}. Выканаць гэтае заданьне болей немагчыма."/>
 		<string id="7HXJrbry" text="Greeting {PLAYER.NAME}. We will soon march into enemy territory, but I can’t lead my men into an unknown situation. I need you to lead a forward detachment and scout the settlements of {NEARBY_SETTLEMENT_LIST} and observe the defenses. Your priority is to gather intel, so be careful to avoid engagements unless you’re absolutely sure to win. When you’re done, report back to me so I can plan our next move accordingly."/>
 		<string id="SaIwJGc1" text="As you command, my liege. I will proceed with caution and discretion and come back with the information you requested."/>
 		<string id="XkGXqEP8" text="I am afraid I won’t be able to fulfill this task right now, my liege. I must refuse."/>
