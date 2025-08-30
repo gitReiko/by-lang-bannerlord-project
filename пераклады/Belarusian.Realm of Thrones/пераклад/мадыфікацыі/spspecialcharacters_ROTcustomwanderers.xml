@@ -1185,8 +1185,8 @@
       <Trait id="Valor" value="1"/>
     </Traits>
 	  <Equipments>
-		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
-		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+		  <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_aserai" />
 	  </Equipments>
   </NPCCharacter>
 
@@ -2256,71 +2256,7 @@
 						   id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 		</Equipments>
-	</NPCCharacter>
-	
-	<NPCCharacter id="ROTwanderer43" name="Ragnar Lothbrok" age="31" voice="curt"  culture="Culture.sturgia"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
-		<face>
-			<BodyProperties version="4" age="31" weight="0.3" build="0.5" key="000B00044F1403CA88708696A82400D327FD836AED771F1B48C827367DC26CC201F04614FF8AEA2D000000000000000000000000000000000000000007FC4002"/>
-			<BodyPropertiesMax version="4" age="31" weight="0.3" build="0.5" key="000B00044F1403CA88708696A82400D327FD836AED771F1B48C827367DC26CC201F04614FF8AEA2D000000000000000000000000000000000000000007FC4002"/>
-		</face>
-		<skills>
-			<skill id="OneHanded" value="120"/>
-			<skill id="TwoHanded" value="80"/>
-			<skill id="Polearm" value="80"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="20"/>
-			<skill id="Riding" value="80"/>
-			<skill id="Athletics" value="100"/>
-			<skill id="Crafting" value="20"/>
-			<skill id="Tactics" value="20"/>
-			<skill id="Roguery" value="20"/>
-			<skill id="Charm" value="20"/>
-			<skill id="Leadership" value="120"/>
-			<skill id="Trade" value="20"/>
-			<skill id="Steward" value="120"/>
-			<skill id="Medicine" value="40"/>
-			<skill id="Engineering" value="20"/>
-			<skill id="Scouting" value="40"/>
-		</skills>
-		<Traits>
-			<Trait id="Calculating" value="2"/>
-			<Trait id="Generosity" value="0"/>
-			<Trait id="Honor" value="2"/>
-			<Trait id="Mercy" value="-2"/>
-			<Trait id="Valor" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentRoster>
-
-				<equipment slot="Item0"
-						   id="Item.sturgia_axe_4_t4" />
-
-				<equipment slot="Item1"
-						   id="Item.leather_round_shield" />
-				<equipment slot="Body"
-					   id="Item.sturgian_chainmale_longsleeve" />
-				<equipment slot="Head"
-					   id="Item.sturgian_helmet_closed" />
-				<equipment slot="Gloves"
-					   id="Item.northern_plated_gloves" />
-
-				<equipment slot="Leg"
-					   id="Item.strapped_mail_chausses" />
-
-
-
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0"
-						   id="Item.iron_spatha_sword_t2" />
-				<equipment slot="Body"
-						   id="Item.nordic_padded_cloth" />
-				<equipment slot="Leg"
-						   id="Item.leather_boots" />
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
+	</NPCCharacter>	
 
 	<NPCCharacter id="ROTwanderer44" name="Black Knight" age="27" voice="curt"  culture="Culture.battania"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
 		<face>
@@ -2382,133 +2318,7 @@
 						   id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 		</Equipments>
-	</NPCCharacter>
-
-	<NPCCharacter id="ROTwanderer46" name="Karhunpoeka" age="40" voice="curt"  culture="Culture.freefolk"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
-		<face>
-			<BodyProperties version="4" age="22" weight="0.99" build="0.94" key="00130C0998FC3A143B4656AB58789A8B15D816356DF9767CC69894367D6CA3BD030EF035003214B671EFFF460F000EEA00000037049140350000000004006005"/>
-			<BodyPropertiesMax version="4" age="22" weight="0.99" build="0.94" key="00130C0998FC3A143B4656AB58789A8B15D816356DF9767CC69894367D6CA3BD030EF035003214B671EFFF460F000EEA00000037049140350000000004006005"/>
-		</face>
-		<skills>
-			<skill id="OneHanded" value="80"/>
-			<skill id="TwoHanded" value="120"/>
-			<skill id="Polearm" value="80"/>
-			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="120"/>
-			<skill id="Riding" value="80"/>
-			<skill id="Athletics" value="120"/>
-			<skill id="Crafting" value="20"/>
-			<skill id="Tactics" value="20"/>
-			<skill id="Roguery" value="20"/>
-			<skill id="Charm" value="20"/>
-			<skill id="Leadership" value="40"/>
-			<skill id="Trade" value="20"/>
-			<skill id="Steward" value="40"/>
-			<skill id="Medicine" value="50"/>
-			<skill id="Engineering" value="20"/>
-			<skill id="Scouting" value="20"/>
-		</skills>
-		<Traits>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Generosity" value="0"/>
-			<Trait id="Honor" value="0"/>
-			<Trait id="Mercy" value="0"/>
-			<Trait id="Valor" value="1"/>
-		</Traits>
-		<Equipments>
-			<EquipmentRoster>
-
-				<equipment slot="Item0"
-						   id="Item.sledgehammer" />
-
-
-				<equipment slot="Body"
-					   id="Item.wildling_medium_armor" />
-				<equipment slot="Head"
-					   id="Item.battania_fur_helmet" />
-				<equipment slot="Gloves"
-					   id="Item.wild_gloves" />
-				<equipment slot="Leg"
-					   id="Item.thenn_boots" />
-
-
-
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0"
-						   id="Item.battania_2hsword_1_t2" />
-				<equipment slot="Body"
-						   id="Item.wildling_light_armor" />
-				<equipment slot="Leg"
-						   id="Item.wildling_boots" />
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-
-	<NPCCharacter id="ROTwanderer48" name="Serena Valkyr" age="18" voice="curt" is_female="true" culture="Culture.freefolk"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
-		<face>
-			<BodyProperties version="4" age="22" weight="0.5" build="0.3" key="001860020014300693A66893863BA7677C87958896D86623992988988D35BB8400798003076EBA650000037F0000000F00000037049140010000000044F00083"/>
-			<BodyPropertiesMax version="4" age="22" weight="0.5" build="0.3" key="001860020014300693A66893863BA7677C87958896D86623992988988D35BB8400798003076EBA650000037F0000000F00000037049140010000000044F00083"/>
-		</face>
-		<skills>
-			<skill id="OneHanded" value="120"/>
-			<skill id="TwoHanded" value="120"/>
-			<skill id="Polearm" value="80"/>
-			<skill id="Bow" value="120"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="20"/>
-			<skill id="Riding" value="80"/>
-			<skill id="Athletics" value="100"/>
-			<skill id="Crafting" value="20"/>
-			<skill id="Tactics" value="20"/>
-			<skill id="Roguery" value="20"/>
-			<skill id="Charm" value="20"/>
-			<skill id="Leadership" value="40"/>
-			<skill id="Trade" value="20"/>
-			<skill id="Steward" value="40"/>
-			<skill id="Medicine" value="120"/>
-			<skill id="Engineering" value="20"/>
-			<skill id="Scouting" value="20"/>
-		</skills>
-		<Traits>
-			<Trait id="Calculating" value="0"/>
-			<Trait id="Generosity" value="0"/>
-			<Trait id="Honor" value="0"/>
-			<Trait id="Mercy" value="0"/>
-			<Trait id="Valor" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentRoster>
-
-				<equipment slot="Item0"
-						   id="Item.woodland_yew_bow" />
-				<equipment slot="Item1"
-						   id="Item.bodkin_arrows_a" />
-				<equipment slot="Item2"
-						   id="Item.battania_2hsword_2_t3" />
-				<equipment slot="Item3"
-						   id="Item.wildling_shield2" />
-				<equipment slot="Body"
-					   id="Item.whitewalker_armor" />
-				
-				
-				<equipment slot="Leg"
-					   id="Item.nightking_boots" />
-
-
-
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0"
-						   id="Item.battania_2hsword_1_t2" />
-				<equipment slot="Body"
-						   id="Item.wildling_light_armor" />
-				<equipment slot="Leg"
-						   id="Item.wildling_boots" />
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
+	</NPCCharacter>	
 
 	<NPCCharacter id="ROTwanderer52" name="Ser Beric Karstark" age="42" voice="curt"  culture="Culture.battania"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
 		<face>
@@ -2570,75 +2380,7 @@
 						   id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
 		</Equipments>
-	</NPCCharacter>
-
-	<NPCCharacter id="ROTwanderer53" name="Fyrion Kysst" age="22" voice="curt"  culture="Culture.valyrian"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
-		<face>
-			<BodyProperties version="4" age="22" weight="0.1" build="0.9" key="0010040019FC13499686766B47868D4979CB5AAAA5A9FA33578969C6ABC2653800CE16030C69E7450000000000000000000000000000000000000000158C1042"/>
-			<BodyPropertiesMax version="4" age="22" weight="0.1" build="0.9" key="0010040019FC13499686766B47868D4979CB5AAAA5A9FA33578969C6ABC2653800CE16030C69E7450000000000000000000000000000000000000000158C1042"/>
-		</face>
-		<skills>
-			<skill id="OneHanded" value="120"/>
-			<skill id="TwoHanded" value="80"/>
-			<skill id="Polearm" value="80"/>
-			<skill id="Bow" value="120"/>
-			<skill id="Crossbow" value="20"/>
-			<skill id="Throwing" value="20"/>
-			<skill id="Riding" value="80"/>
-			<skill id="Athletics" value="120"/>
-			<skill id="Crafting" value="20"/>
-			<skill id="Tactics" value="20"/>
-			<skill id="Roguery" value="120"/>
-			<skill id="Charm" value="20"/>
-			<skill id="Leadership" value="40"/>
-			<skill id="Trade" value="20"/>
-			<skill id="Steward" value="40"/>
-			<skill id="Medicine" value="50"/>
-			<skill id="Engineering" value="20"/>
-			<skill id="Scouting" value="20"/>
-		</skills>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Generosity" value="0"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Mercy" value="0"/>
-			<Trait id="Valor" value="0"/>
-		</Traits>
-		<Equipments>
-			<EquipmentRoster>
-
-				<equipment slot="Item0"
-						   id="Item.woodland_yew_bow" />
-				<equipment slot="Item1"
-						   id="Item.bodkin_arrows_a" />
-				<equipment slot="Item2"
-						   id="Item.battania_2hsword_2_t3" />
-				<equipment slot="Item3"
-						   id="Item.bound_desert_round_shield" />
-
-				<equipment slot="Body"
-					   id="Item.ranger_armor" />
-				<equipment slot="Head"
-					   id="Item.ranger_hood" />
-				<equipment slot="Cape"
-					   id="Item.ranger_shoulders" />
-
-				<equipment slot="Leg"
-					   id="Item.ranger_boots" />
-
-
-
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0"
-						   id="Item.vlandia_sword_3_t4" />
-				<equipment slot="Body"
-						   id="Item.valyrian_surcoat" />
-				<equipment slot="Leg"
-						   id="Item.leather_cavalier_boots" />
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
+	</NPCCharacter>	
 
 	<NPCCharacter id="ROTwanderer54" name="Ser Kemal" age="28" voice="curt"  culture="Culture.valyrian"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
 		<face>
@@ -2769,6 +2511,59 @@
 				<equipment slot="Leg"
 						   id="Item.leather_cavalier_boots" />
 			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer56" name="Shadow Shwani" age="30" voice="curt" culture="Culture.aserai"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.4" build="0.86" key="003F0000102C24DC7971201F00A1DCBAC34E866255A096777441DA498386B112015D56140521200100000000000000000000000000000000000000003C9C0002"/>
+			<BodyPropertiesMax version="4" age="30" weight="0.4" build="0.86" key="003F0000102C24DC7971201F00A1DCBAC34E866255A096777441DA498386B112015D56140521200100000000000000000000000000000000000000003C9C0002"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="120"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="20"/>
+			<skill id="Leadership" value="120"/>
+			<skill id="Trade" value="20"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="20"/>
+			<skill id="Scouting" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.katana" />
+				<equipment slot="Body"
+					   id="Item.dorne_armor2" />
+				<equipment slot="Gloves"
+					   id="Item.renly_gloves" />
+				<equipment slot="Head"
+					   id="Item.samurai_helmet3" />
+				<equipment slot="Leg"
+					   id="Item.renly_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
