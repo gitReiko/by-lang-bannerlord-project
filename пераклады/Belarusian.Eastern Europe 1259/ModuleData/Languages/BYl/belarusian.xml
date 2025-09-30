@@ -146,7 +146,7 @@
   <string id="EE000115" text="Maral partyi zanizkaja. (Need {MORALE_ICON}{NEED_MORALE}+). Vajary admaŭlajucca vykonvać hetuju pracu."/>
   <string id="EE000116" text="Vy prybyvajecie ŭ sielišča i chutka nakiroŭvajeciesia na placoŭku, dzie patrabujucca novyja pabudovy dziela rosłaha nasielnictva. Padmurak užo zakładzieny, ale jašče šmat pracy napieradzie. Vy pačynajecie z ustaloŭki draŭlanych karkasnych belek i sočycie za tym, kab kožnaja ź ich była tryvała i nadziejna zamacavana. Kali ścieny pačynajuć padymacca, vy staranna padhaniajecie biarviony adzin da adnaho, stvarajučy nadziejnuju aporu dziela dachu. Paśla tryvałaj ustaloŭki pabudovy, vy dapamahajecie zamacavać dach, sałamiany ci čarapičny, zabiaśpiečvajecie jaho ščylnaje prylahańnie, kab spynić stychii. Z kožnym krokam novaja pabudova zdabyvaje formu, i žychary vykazvajuć svaju padziaku, bo ichniaja hramada raście, prapanoŭvajučy prytułak niastačnym."/>
   <string id="EE000117" text="Nieviadoma"/>
-  <string id="EE000118" text="Relihija:"/>
+  <string id="EE000118" text="Relihija"/>
   <string id="EE000119" text="Prychilnik {RELIGION}{LEVEL}"/>
   <string id="EE000120" text="Addany prychilnik {RELIGION}{LEVEL}"/>
   <string id="EE000121" text="Nabožny prychilnik {RELIGION}{LEVEL}"/>
@@ -228,7 +228,7 @@
   <string id="EE000197" text="Vy naviedali śviatoje miesca. Atmaśfiera hłybokaj pašany tut naviavaje chviliny spakojnaha razvažańnia i suzirańnia."/>
   <string id="EE000198" text="{HERO_NAME} ciapier šanuje {FAITH_NAME}!"/>
   <string id="EE000199" text="Relihijnaja napruha"/>
-  <string id="EE000200" text="Maral partyi cierpić z-za relihijnych adroźnieńniaŭ pamiž jaje čalcami."/>
+  <string id="EE000200" text="Relihijnyja adroźnieńni pamiž vašymi kampańjonami źnižajuć maral partyi."/>
   <string id="EE000201" text="Manholskaja Arda"/>
   <string id="EE000202" text="Siarod žycharoŭ {SETTLEMENT} chodziać čutki, što Manholskaja Arda naceliłasia na {KINGDOM}."/>
   <string id="EE000203" text="Ludzi vydychnuli z palohkaj, kali Manholskaja Arda, nasyciŭšysia rabavańniami, adstupiła ŭ svaje biaźmiežnyja stepy."/>
@@ -401,34 +401,134 @@
   <string id="EE000370" text="Bitva hetak niezbałansavana, što lha paźbiehnuć frantavych linijaŭ."/>
   <string id="EE000371" text="Vaš abaviazak patrabuje, kab vy bilisia."/>
   <string id="EE000372" text="Uniknuć frantavych linijaŭ"/>
-  <string id="EE000373" text=""/>
-  <string id="EE000374" text=""/>
-  <string id="EE000375" text=""/>
-  <string id="EE000376" text=""/>
-  <string id="EE000377" text=""/>
-  <string id="EE000378" text=""/>
-  <string id="EE000379" text=""/>
-  <string id="EE000380" text=""/>
-  <string id="EE000381" text=""/>
-  <string id="EE000382" text=""/>
-  <string id="EE000383" text=""/>
-  <string id="EE000384" text=""/>
-  <string id="EE000385" text=""/>
-  <string id="EE000386" text=""/>
-  <string id="EE000387" text=""/>
-  <string id="EE000388" text=""/>
-  <string id="EE000389" text=""/>
-  <string id="EE000390" text=""/>
-  <string id="EE000391" text=""/>
-  <string id="EE000392" text=""/>
-  <string id="EE000393" text=""/>
-  <string id="EE000394" text=""/>
-  <string id="EE000395" text=""/>
-  <string id="EE000396" text=""/>
-  <string id="EE000397" text=""/>
-  <string id="EE000398" text=""/>
-  <string id="EE000399" text=""/>
-  <string id="EE000400" text=""/>
+  <string id="EE000373" text="Nieviadomaje miesca..."/>
+  <string id="EE000374" text="Niejkaja vioska..."/>
+  <string id="EE000375" text="Niejki zamak..."/>
+  <string id="EE000376" text="Niejki horad..."/>
+  <string id="EE000377" text="Nałady RBM"/>
+  <string id="EE000378" text="Možacie raspavieści mnie pra blizkija sieliščy?"/>
+  <string id="EE000379" text="Pablizu niama sieliščaŭ..."/>
+  <string id="EE000380" text="Dazvolcie mnie adznačyć ich na vašaj mapie: {SETTLEMENTS}."/>
+  <string id="EE000381" text="Usio zanadta pjanyja, kab pamiatać, chto zapłaciŭ za napoi."/>
+  <string id="EE000382" text="Ja nie mahu tabie dapamahčy. Našy haspadarstvy vajujuć, i ja nia budu mieć spravu z voraham."/>
+  <string id="EE000383" text="My nia vielmi dobra znajomyja, i ja nia maju nahodaŭ dapamahać vam..."/>
+  <string id="EE000384" text="Malicca"/>
+  <string id="EE000385" text="Padčas źniavoleńnia vy hublajecie Atletyku i Charyzmu, ale možacie atrymać Machlarstva."/>
+  <string id="EE000386" text="Miascovyja Ziamianie{newline}{NAME}"/>
+  <string id="EE000387" text="Id sooner see your corpse on the field than offer you aid. We are at war — begone from my sight!"/>
+  <string id="EE000388" text="I have no regard for you, and I will not waste my time on you."/>
+  <string id="EE000389" text="Ha. You think thats funny? Get out of my sight before I lose my temper."/>
+  <string id="EE000390" text="{CLAN} is an ancient and honorable clan, and we hold these lands in high esteem. We tend to the folk of these settlements as kin, and each is a proud part of our heritage. Let me mark our clans domain on your map: {SETTLEMENTS}."/>
+  <string id="EE000391" text="Could you tell me about your clans domain and the settlements it holds?"/>
+  <string id="EE000392" text="Received new military service equipment."/>
+  <string id="EE000393" text="My lord, I have questions regarding my military service."/>
+  <string id="EE000394" text="Make it quick, Ive matters to attend to."/>
+  <string id="EE000395" text="How many days remain in my term of service?"/>
+  <string id="EE000396" text="{DAYS_LEFT} days remain before your contract expires. Until then, you are bound to my service."/>
+  <string id="EE000397" text="How do I earn coin while in service?"/>
+  <string id="EE000398" text="You are paid {DAILY_PAY}{GOLD_ICON} a day. Want more? Gain experience, rise in rank, and your wage will increase. Still not enough? Slay your enemies — take their loot and sell it to merchants for extra coin."/>
+  <string id="EE000399" text="How may I equip myself for battle?"/>
+  <string id="EE000400" text="Keep what you take from fallen foes, or buy what you can from the market. Each time you rise in rank, I will grant you new equipment or weapons."/>
+  <string id="EE000401" text="How can I end my service?"/>
+  <string id="EE000402" text="You may request release at any time. Should you choose desertion, know that we shall be mortal enemies, and when next we meet, your life will be forfeit."/>
+  <string id="EE000403" text="What is the benefit of serving in an army?"/>
+  <string id="EE000404" text="As a soldier, you are fed, paid, and armed. You need not worry about where to go or what battle to fight — your lord decides that for you. You will be dragged across the realm, taking part in great battles from the very start, without the burden of planning your own campaign. There is no need to manage companions, pay their wages, or keep them fed; no need to trade, run errands, or build your own warband. Your duty is simple — fight, survive, and take what loot you can from fallen foes. It is the easiest way to see the war, earn coin, and gain relations, without the cares of command weighing on your mind."/>
+  <string id="EE000405" text="That is all, my lord."/>
+  <string id="EE000406" text="If it please you, Ill not wander the towns and castles — Id sooner keep watch and be ready to march."/>
+  <string id="EE000407" text="My lord, might I have leave, when we pause at any town or castle, to wander a while within its bounds?"/>
+  <string id="EE000408" text="Aye, you may — but be quick about it, we shant tarry long."/>
+  <string id="EE000409" text="Very well. Tend to your gear and keep yourself prepared."/>
+  <string id="EE000410" text="You must be jesting. Why would I take an enemy into my ranks?"/>
+  <string id="EE000411" text="Youre already under a mercenary contract. I cant take you into my personal warband."/>
+  <string id="EE000412" text="It would be against our laws to enlist a vassal of another realm."/>
+  <string id="EE000413" text="Military Service Equipment"/>
+  <string id="EE000414" text="Tip: Hold CTRL+X to accelerate time and quickly pass uneventful moments."/>
+  <string id="EE000415" text="Amid another creed, your heart wavers and your devotion shifts toward their faith."/>
+  <string id="EE000416" text=""/>
+  <string id="EE000417" text=""/>
+  <string id="EE000418" text=""/>
+  <string id="EE000419" text=""/>
+  <string id="EE000420" text=""/>
+  <string id="EE000421" text=""/>
+  <string id="EE000422" text=""/>
+  <string id="EE000423" text=""/>
+  <string id="EE000424" text=""/>
+  <string id="EE000425" text=""/>
+  <string id="EE000426" text=""/>
+  <string id="EE000427" text=""/>
+  <string id="EE000428" text=""/>
+  <string id="EE000429" text=""/>
+  <string id="EE000430" text=""/>
+  <string id="EE000431" text=""/>
+  <string id="EE000432" text=""/>
+  <string id="EE000433" text=""/>
+  <string id="EE000434" text=""/>
+  <string id="EE000435" text=""/>
+  <string id="EE000436" text=""/>
+  <string id="EE000437" text=""/>
+  <string id="EE000438" text=""/>
+  <string id="EE000439" text=""/>
+  <string id="EE000440" text=""/>
+  <string id="EE000441" text=""/>
+  <string id="EE000442" text=""/>
+  <string id="EE000443" text=""/>
+  <string id="EE000444" text=""/>
+  <string id="EE000445" text=""/>
+  <string id="EE000446" text=""/>
+  <string id="EE000447" text=""/>
+  <string id="EE000448" text=""/>
+  <string id="EE000449" text=""/>
+  <string id="EE000450" text=""/>
+  <string id="EE000451" text=""/>
+  <string id="EE000452" text=""/>
+  <string id="EE000453" text=""/>
+  <string id="EE000454" text=""/>
+  <string id="EE000455" text=""/>
+  <string id="EE000456" text=""/>
+  <string id="EE000457" text=""/>
+  <string id="EE000458" text=""/>
+  <string id="EE000459" text=""/>
+  <string id="EE000460" text=""/>
+  <string id="EE000461" text=""/>
+  <string id="EE000462" text=""/>
+  <string id="EE000463" text=""/>
+  <string id="EE000464" text=""/>
+  <string id="EE000465" text=""/>
+  <string id="EE000466" text=""/>
+  <string id="EE000467" text=""/>
+  <string id="EE000468" text=""/>
+  <string id="EE000469" text=""/>
+  <string id="EE000470" text=""/>
+  <string id="EE000471" text=""/>
+  <string id="EE000472" text=""/>
+  <string id="EE000473" text=""/>
+  <string id="EE000474" text=""/>
+  <string id="EE000475" text=""/>
+  <string id="EE000476" text=""/>
+  <string id="EE000477" text=""/>
+  <string id="EE000478" text=""/>
+  <string id="EE000479" text=""/>
+  <string id="EE000480" text=""/>
+  <string id="EE000481" text=""/>
+  <string id="EE000482" text=""/>
+  <string id="EE000483" text=""/>
+  <string id="EE000484" text=""/>
+  <string id="EE000485" text=""/>
+  <string id="EE000486" text=""/>
+  <string id="EE000487" text=""/>
+  <string id="EE000488" text=""/>
+  <string id="EE000489" text=""/>
+  <string id="EE000490" text=""/>
+  <string id="EE000491" text=""/>
+  <string id="EE000492" text=""/>
+  <string id="EE000493" text=""/>
+  <string id="EE000494" text=""/>
+  <string id="EE000495" text=""/>
+  <string id="EE000496" text=""/>
+  <string id="EE000497" text=""/>
+  <string id="EE000498" text=""/>
+  <string id="EE000499" text=""/>
+  <string id="EE000500" text=""/>
 
 
     <!-- 
