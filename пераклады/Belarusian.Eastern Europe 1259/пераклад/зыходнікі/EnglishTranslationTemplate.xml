@@ -146,7 +146,7 @@
     <string id="EE000115" text="The party's morale is too low. (Need {MORALE_ICON}{NEED_MORALE}+). The troops refuse to take on this task."/>
     <string id="EE000116" text="You arrive at the settlement and are quickly directed to the site where new structures are needed to accommodate the growing population. The foundation has been laid, but much work remains. You begin by setting the wooden beams for the framework, ensuring each one is sturdy and well-placed. As the walls rise, you carefully fit the timber together, building strong support for the roof. Once the structure is sound, you assist in securing the roof, whether it be thatched with straw or covered in tiles, ensuring it is tightly woven to keep the elements out. With each step, the new buildings take shape, and the people show their gratitude as their community grows, offering shelter and space to those in need."/>
     <string id="EE000117" text="Unknown"/>
-    <string id="EE000118" text="Religion:"/>
+    <string id="EE000118" text="Religion"/>
     <string id="EE000119" text="Follower of {RELIGION}{LEVEL}"/>
     <string id="EE000120" text="Faithful follower of {RELIGION}{LEVEL}"/>
     <string id="EE000121" text="Devout follower of {RELIGION}{LEVEL}"/>
@@ -228,7 +228,7 @@
     <string id="EE000197" text="You visited the holy place. The atmosphere of reverence here brings a moment of quiet reflection and contemplation."/>
     <string id="EE000198" text="{HERO_NAME} is now a follower of {FAITH_NAME}!"/>
     <string id="EE000199" text="Religious tensions"/>
-    <string id="EE000200" text="Party morale is suffering because of religious differences among its members."/>
+    <string id="EE000200" text="Religious differences among your companions are lowering party morale."/>
     <string id="EE000201" text="Mongol Horde"/>
     <string id="EE000202" text="Rumors spread among the people of {SETTLEMENT} that a Mongol Horde has set its sights on the {KINGDOM}."/>
     <string id="EE000203" text="The people exhaled with relief as the Mongol Horde, sated from pillaging, retreated to their sweeping steppes."/>
@@ -401,34 +401,134 @@
     <string id="EE000370" text="The battle is so unbalanced that you can avoid the front lines."/>
     <string id="EE000371" text="Your duty requires you to fight."/>
     <string id="EE000372" text="Avoid the front lines"/>
-    <string id="EE000373" text=""/>
-    <string id="EE000374" text=""/>
-    <string id="EE000375" text=""/>
-    <string id="EE000376" text=""/>
-    <string id="EE000377" text=""/>
-    <string id="EE000378" text=""/>
-    <string id="EE000379" text=""/>
-    <string id="EE000380" text=""/>
-    <string id="EE000381" text=""/>
-    <string id="EE000382" text=""/>
-    <string id="EE000383" text=""/>
-    <string id="EE000384" text=""/>
-    <string id="EE000385" text=""/>
-    <string id="EE000386" text=""/>
-    <string id="EE000387" text=""/>
-    <string id="EE000388" text=""/>
-    <string id="EE000389" text=""/>
-    <string id="EE000390" text=""/>
-    <string id="EE000391" text=""/>
-    <string id="EE000392" text=""/>
-    <string id="EE000393" text=""/>
-    <string id="EE000394" text=""/>
-    <string id="EE000395" text=""/>
-    <string id="EE000396" text=""/>
-    <string id="EE000397" text=""/>
-    <string id="EE000398" text=""/>
-    <string id="EE000399" text=""/>
-    <string id="EE000400" text=""/>
+    <string id="EE000373" text="Unknown place..."/>
+    <string id="EE000374" text="Some village..."/>
+    <string id="EE000375" text="Some castle..."/>
+    <string id="EE000376" text="Some town..."/>
+    <string id="EE000377" text="RBM Configuration"/>
+    <string id="EE000378" text="Can you tell me about the nearby settlements?"/>
+    <string id="EE000379" text="There are no settlements nearby..."/>
+    <string id="EE000380" text="Let me mark them on your map: {SETTLEMENTS}."/>
+    <string id="EE000381" text="Everyone's too drunk to remember who paid for the drinks."/>
+    <string id="EE000382" text="I cannot help you. Our factions are at war, and I will not deal with the enemy."/>
+    <string id="EE000383" text="We are not well-acquainted, and I have no reason to aid you..."/>
+    <string id="EE000384" text="Pray"/>
+    <string id="EE000385" text="While imprisoned you lose Athletics and Charm, but could gain Roguery."/>
+    <string id="EE000386" text="Local Notable{newline}{NAME}"/>
+    <string id="EE000387" text="I’d sooner see your corpse on the field than offer you aid. We are at war — begone from my sight!"/>
+    <string id="EE000388" text="I have no regard for you, and I will not waste my time on you."/>
+    <string id="EE000389" text="Ha. You think that’s funny? Get out of my sight before I lose my temper."/>
+    <string id="EE000390" text="{CLAN} is an ancient and honorable clan, and we hold these lands in high esteem. We tend to the folk of these settlements as kin, and each is a proud part of our heritage. Let me mark our clan's domain on your map: {SETTLEMENTS}."/>
+    <string id="EE000391" text="Could you tell me about your clan’s domain and the settlements it holds?"/>
+    <string id="EE000392" text="Received new military service equipment."/>
+    <string id="EE000393" text="My lord, I have questions regarding my military service."/>
+    <string id="EE000394" text="Make it quick, I’ve matters to attend to."/>
+    <string id="EE000395" text="How many days remain in my term of service?"/>
+    <string id="EE000396" text="{DAYS_LEFT} days remain before your contract expires. Until then, you are bound to my service."/>
+    <string id="EE000397" text="How do I earn coin while in service?"/>
+    <string id="EE000398" text="You are paid {DAILY_PAY}{GOLD_ICON} a day. Want more? Gain experience, rise in rank, and your wage will increase. Still not enough? Slay your enemies — take their loot and sell it to merchants for extra coin."/>
+    <string id="EE000399" text="How may I equip myself for battle?"/>
+    <string id="EE000400" text="Keep what you take from fallen foes, or buy what you can from the market. Each time you rise in rank, I will grant you new equipment or weapons."/>
+    <string id="EE000401" text="How can I end my service?"/>
+    <string id="EE000402" text="You may request release at any time. Should you choose desertion, know that we shall be mortal enemies, and when next we meet, your life will be forfeit."/>
+    <string id="EE000403" text="What is the benefit of serving in an army?"/>
+    <string id="EE000404" text="As a soldier, you are fed, paid, and armed. You need not worry about where to go or what battle to fight — your lord decides that for you. You will be dragged across the realm, taking part in great battles from the very start, without the burden of planning your own campaign. There is no need to manage companions, pay their wages, or keep them fed; no need to trade, run errands, or build your own warband. Your duty is simple — fight, survive, and take what loot you can from fallen foes. It is the easiest way to see the war, earn coin, and gain relations, without the cares of command weighing on your mind."/>
+    <string id="EE000405" text="That is all, my lord."/>
+    <string id="EE000406" text="If it please you, I’ll not wander the towns and castles — I’d sooner keep watch and be ready to march."/>
+    <string id="EE000407" text="My lord, might I have leave, when we pause at any town or castle, to wander a while within its bounds?"/>
+    <string id="EE000408" text="Aye, you may — but be quick about it, we shan’t tarry long."/>
+    <string id="EE000409" text="Very well. Tend to your gear and keep yourself prepared."/>
+    <string id="EE000410" text="You must be jesting. Why would I take an enemy into my ranks?"/>
+    <string id="EE000411" text="You’re already under a mercenary contract. I can’t take you into my personal warband."/>
+    <string id="EE000412" text="It would be against our laws to enlist a vassal of another realm."/>
+    <string id="EE000413" text="Military Service Equipment"/>
+    <string id="EE000414" text="Tip: Hold CTRL+X to accelerate time and quickly pass uneventful moments."/>
+    <string id="EE000415" text="Amid another creed, your heart wavers and your devotion shifts toward their faith."/>
+    <string id="EE000416" text=""/>
+    <string id="EE000417" text=""/>
+    <string id="EE000418" text=""/>
+    <string id="EE000419" text=""/>
+    <string id="EE000420" text=""/>
+    <string id="EE000421" text=""/>
+    <string id="EE000422" text=""/>
+    <string id="EE000423" text=""/>
+    <string id="EE000424" text=""/>
+    <string id="EE000425" text=""/>
+    <string id="EE000426" text=""/>
+    <string id="EE000427" text=""/>
+    <string id="EE000428" text=""/>
+    <string id="EE000429" text=""/>
+    <string id="EE000430" text=""/>
+    <string id="EE000431" text=""/>
+    <string id="EE000432" text=""/>
+    <string id="EE000433" text=""/>
+    <string id="EE000434" text=""/>
+    <string id="EE000435" text=""/>
+    <string id="EE000436" text=""/>
+    <string id="EE000437" text=""/>
+    <string id="EE000438" text=""/>
+    <string id="EE000439" text=""/>
+    <string id="EE000440" text=""/>
+    <string id="EE000441" text=""/>
+    <string id="EE000442" text=""/>
+    <string id="EE000443" text=""/>
+    <string id="EE000444" text=""/>
+    <string id="EE000445" text=""/>
+    <string id="EE000446" text=""/>
+    <string id="EE000447" text=""/>
+    <string id="EE000448" text=""/>
+    <string id="EE000449" text=""/>
+    <string id="EE000450" text=""/>
+    <string id="EE000451" text=""/>
+    <string id="EE000452" text=""/>
+    <string id="EE000453" text=""/>
+    <string id="EE000454" text=""/>
+    <string id="EE000455" text=""/>
+    <string id="EE000456" text=""/>
+    <string id="EE000457" text=""/>
+    <string id="EE000458" text=""/>
+    <string id="EE000459" text=""/>
+    <string id="EE000460" text=""/>
+    <string id="EE000461" text=""/>
+    <string id="EE000462" text=""/>
+    <string id="EE000463" text=""/>
+    <string id="EE000464" text=""/>
+    <string id="EE000465" text=""/>
+    <string id="EE000466" text=""/>
+    <string id="EE000467" text=""/>
+    <string id="EE000468" text=""/>
+    <string id="EE000469" text=""/>
+    <string id="EE000470" text=""/>
+    <string id="EE000471" text=""/>
+    <string id="EE000472" text=""/>
+    <string id="EE000473" text=""/>
+    <string id="EE000474" text=""/>
+    <string id="EE000475" text=""/>
+    <string id="EE000476" text=""/>
+    <string id="EE000477" text=""/>
+    <string id="EE000478" text=""/>
+    <string id="EE000479" text=""/>
+    <string id="EE000480" text=""/>
+    <string id="EE000481" text=""/>
+    <string id="EE000482" text=""/>
+    <string id="EE000483" text=""/>
+    <string id="EE000484" text=""/>
+    <string id="EE000485" text=""/>
+    <string id="EE000486" text=""/>
+    <string id="EE000487" text=""/>
+    <string id="EE000488" text=""/>
+    <string id="EE000489" text=""/>
+    <string id="EE000490" text=""/>
+    <string id="EE000491" text=""/>
+    <string id="EE000492" text=""/>
+    <string id="EE000493" text=""/>
+    <string id="EE000494" text=""/>
+    <string id="EE000495" text=""/>
+    <string id="EE000496" text=""/>
+    <string id="EE000497" text=""/>
+    <string id="EE000498" text=""/>
+    <string id="EE000499" text=""/>
+    <string id="EE000500" text=""/>
 
 
 
@@ -777,6 +877,156 @@
     <string id="lt_rus_scarf_b5" text="Rus Scarf"/>
     <string id="lt_rus_scarf_b_tc" text="Rus Scarf"/>
     <string id="lt_teuton_monk_hat" text="Teuton Monk Barett"/>
+
+    <string id="lt_baltic_javelin_type1a" text="Baltic Javelin [Akstis Type 1a X-XIII]"/>
+    <string id="lt_baltic_javelin_type1b" text="Baltic Javelin [Akstis Type 1b X-XIII]"/>
+    <string id="lt_baltic_javelin_type2" text="Baltic Javelin [Akstis Type 2 XII-XIII]"/>
+    <string id="lt_baltic_javelin_type3" text="Baltic Javelin [Akstis Type 3 XI-XIII]"/>
+    <string id="lt_baltic_lance" text="Baltic Lance"/>
+    <string id="lt_baltic_noble_palanga_1h_sword" text="Baltic Noble Palanga Sword [IX-XI]"/>
+    <string id="lt_baltic_palanga_1h_sword" text="Baltic Palanga Sword [IX-XI]"/>
+    <string id="lt_baltic_tribal_1h_axe" text="Baltic Tribal Axe"/>
+    <string id="lt_baltic_war_knife" text="Baltic War Knife"/>
+    <string id="lt_cuman_saber_1h" text="Cuman Saber"/>
+    <string id="lt_curonian_1h_sword" text="Curonian Sword"/>
+    <string id="lt_curved_falchion_1h" text="Curved Falchion"/>
+    <string id="lt_curved_knife" text="Curved Knife"/>
+    <string id="lt_danish_2h_sword" text="Danish Two-Handed Sword"/>
+    <string id="lt_decorated_european_dagger" text="Decorated European Dagger"/>
+    <string id="lt_fine_dagger" text="Fine Dagger"/>
+    <string id="lt_fur_mantle1" text="Fur Mantle"/>
+    <string id="lt_fur_mantle2" text="Fur Mantle"/>
+    <string id="lt_fur_mantle3" text="Fur Mantle"/>
+    <string id="lt_fur_mantle4" text="Fur Mantle"/>
+    <string id="lt_fur_mantle_baltic1" text="Fur Mantle - Baltic"/>
+    <string id="lt_fur_mantle_baltic2" text="Fur Mantle - Baltic"/>
+    <string id="lt_fur_mantle_baltic3" text="Fur Mantle - Baltic"/>
+    <string id="lt_fur_mantle_baltic4" text="Fur Mantle - Baltic"/>
+    <string id="lt_fur_mantle_with_mail_baltic1" text="Fur Mantle with Mail - Baltic"/>
+    <string id="lt_fur_mantle_with_mail_baltic2" text="Fur Mantle with Mail - Baltic"/>
+    <string id="lt_fur_mantle_with_mail_baltic3" text="Fur Mantle with Mail - Baltic"/>
+    <string id="lt_fur_mantle_with_mail_baltic4" text="Fur Mantle with Mail - Baltic"/>
+    <string id="lt_hook_falchion_1h" text="Hook Falchion"/>
+    <string id="lt_hook_falchion_2h" text="Two-Handed Hook Falchion"/>
+    <string id="lt_infantry_pike" text="Infantry Pike"/>
+    <string id="lt_javelin_head_type_1a" text="Javelin Head [Type 1a]"/>
+    <string id="lt_javelin_head_type_1a_rus" text="Javelin Head [Type 1a]"/>
+    <string id="lt_javelin_head_type_1b" text="Javelin Head [Type 1b]"/>
+    <string id="lt_javelin_head_type_2" text="Javelin Head [Type 2]"/>
+    <string id="lt_javelin_head_type_3" text="Javelin Head [Type 3]"/>
+    <string id="lt_maciejowski_chopper_2h_sword" text="Maciejowski Chopper"/>
+    <string id="lt_mongol_fine_saber_1h" text="Mongol Fine Saber"/>
+    <string id="lt_mongol_lance" text="Mongol Lance"/>
+    <string id="lt_mongol_saber_1h" text="Mongol Saber"/>
+    <string id="lt_morning_star_1h" text="Morning Star"/>
+    <string id="lt_noble_knife" text="Noble Knife"/>
+    <string id="lt_norse_1h_axe" text="Norse Axe"/>
+    <string id="lt_norse_2h_axe" text="Norse Two-Handed Axe"/>
+    <string id="lt_norse_spear" text="Norse Spear"/>
+    <string id="lt_norse_type_m_1h_sword" text="Norse Type M Sword"/>
+    <string id="lt_norse_type_q_1h_sword" text="Norse Type Q Sword"/>
+    <string id="lt_norse_type_x_1h_sword" text="Norse Type X Sword"/>
+    <string id="lt_oeselian_1h_sword" text="Oeselian Sword"/>
+    <string id="lt_piercing_dagger" text="Piercing Dagger"/>
+    <string id="lt_pointed_falchion_1h" text="Pointed Falchion"/>
+    <string id="lt_polish_bulawa_1h" text="Polish Bulawa"/>
+    <string id="lt_polish_kalich_1h" text="Polish Kalich"/>
+    <string id="lt_rus_2h_axe" text="Rus Two-Handed Axe"/>
+    <string id="lt_rus_bardiche_2h" text="Rus Bardiche"/>
+    <string id="lt_rus_cherkassy_1h_axe" text="Rus Cherkassy Axe"/>
+    <string id="lt_rus_chernaya_mogila_1h_sword" text="Rus Chernaya Mogila Sword"/>
+    <string id="lt_rus_dagger" text="Rus Dagger"/>
+    <string id="lt_rus_gnezdovo_1h_sword" text="Rus Gnezdovo Sword"/>
+    <string id="lt_rus_javelin_type1a" text="Rus Javelin [Sulitsa Type 1a X-XIII]"/>
+    <string id="lt_rus_javelin_type1b" text="Rus Javelin [Sulitsa Type 1b X-XIII]"/>
+    <string id="lt_rus_javelin_type2" text="Rus Javelin [Sulitsa Type 2 XII-XIII]"/>
+    <string id="lt_rus_javelin_type3" text="Rus Javelin [Sulitsa Type 3 XI-XIII]"/>
+    <string id="lt_rus_khortysia_1h_sword" text="Rus Khortytsia Sword [X]"/>
+    <string id="lt_rus_kismena_1h_axe" text="Rus Kisnema Axe"/>
+    <string id="lt_rus_lance" text="Rus Lance"/>
+    <string id="lt_rus_novgorod_1h_sword" text="Rus Novgorod Sword"/>
+    <string id="lt_rus_pernach_1h" text="Rus Pernach"/>
+    <string id="lt_rus_polovtsian_1h_saber" text="Rus Polovtsian Saber [X-XIII]"/>
+    <string id="lt_rus_shepetovski_noble_1h_sword" text="Rus Shepetovski Noble Sword"/>
+    <string id="lt_rus_shestovicy_1h_sword" text="Rus Shestovicy Sword"/>
+    <string id="lt_rus_spear" text="Rus Spear"/>
+    <string id="lt_sickle" text="Sickle"/>
+    <string id="lt_simple_knife" text="Simple Knife"/>
+    <string id="lt_squire_dagger" text="Squire Dagger"/>
+    <string id="lt_tavastian_1h_sword" text="Tavastian Sword"/>
+    <string id="lt_thich_falchion_1h" text="Thick Falchion"/>
+    <string id="lt_throwing_spear" text="Throwing Spear"/>
+    <string id="lt_western_1h_axe" text="Western Axe"/>
+    <string id="lt_western_2h_axe" text="Western Two-Handed Axe"/>
+    <string id="lt_western_2h_sword" text="Western Two-Handed Sword"/>
+    <string id="lt_western_bastard_2h_sword" text="Western Bastard Sword"/>
+    <string id="lt_western_bilhook_2h" text="Western Bilhook"/>
+    <string id="lt_western_dagger" text="Western Dagger"/>
+    <string id="lt_western_lance" text="Western Lance"/>
+    <string id="lt_western_mace_1h" text="Western Mace"/>
+    <string id="lt_western_mace_2h" text="Western Two-Handed Mace"/>
+    <string id="lt_western_messer_1h" text="Western Messer"/>
+    <string id="lt_western_noble_1h_sword" text="Western Noble Sword"/>
+    <string id="lt_western_spear" text="Western Spear"/>
+    <string id="lt_western_type_x_1h_sword" text="Western Type X Sword"/>
+    <string id="lt_western_type_xa_1h_sword" text="Western Type XA Sword"/>
+    <string id="lt_western_type_xi_1h_sword" text="Western Type XI Sword"/>
+    <string id="lt_western_type_xii_1h_sword" text="Western Type XII Sword"/>
+    <string id="lt_western_type_xiii_1h_sword" text="Western Type XIII Sword"/>
+    <string id="lt_western_type_xiiib_1h_sword" text="Western Type XIIIB Sword"/>
+    <string id="lt_western_type_xii_ouse_1h_sword" text="Western Type XII Ouse Sword"/>
+    <string id="lt_western_type_xi_stmaurice_1h_sword" text="Western Type XI St.Maurice Sword [XI-XII]"/>
+    <string id="lt_western_type_xiv_1h_sword" text="Western Type XIV Sword"/>
+    <string id="lt_woodsman_2h_axe" text="Woodsman Axe"/>
+    <string id="lt_baltic_cavalry_spear_type3" text="Baltic Cavalry Spear [Ietis Type 3 IX-XIII]"/>
+    <string id="lt_baltic_cavalry_spear_type4" text="Baltic Cavalry Spear [Ietis Type 4 XII-XIII]"/>
+    <string id="lt_baltic_cavalry_spear_type5" text="Baltic Cavalry Spear [Ietis Type 5 XII-XIII]"/>
+    <string id="lt_baltic_spear_type3" text="Baltic Spear [Ietis Type 3 IX-XIII]"/>
+    <string id="lt_baltic_spear_type4" text="Baltic Spear [Ietis Type 4 XII-XIII]"/>
+    <string id="lt_baltic_spear_type5" text="Baltic Spear [Ietis Type 5 XII-XIII]"/>
+    <string id="lt_baltic_spear_type7" text="Baltic Spear [Ietis Type 7 XII-XIII]"/>
+    <string id="lt_rogatina_hardened_ash_shaft" text="Rogatina Hardened Ash Shaft"/>
+    <string id="lt_rus_cavalry_spear_type3" text="Rus Cavalry Spear [Kopie Type 3 IX-XIII]"/>
+    <string id="lt_rus_cavalry_spear_type4" text="Rus Cavalry Spear [Kopie Type 4 XII-XIII]"/>
+    <string id="lt_rus_cavalry_spear_type5" text="Rus Cavalry Spear [Kopie Type 5 XII-XIII]"/>
+    <string id="lt_rus_spear_type3" text="Rus Spear [Kopie Type 3 IX-XIII]"/>
+    <string id="lt_rus_spear_type4a_hunting_rogatina" text="Rus Hunting Boar Spear [Rogatina Type 4A XII-XIII]"/>
+    <string id="lt_rus_spear_type4a_war_rogatina" text="Rus War Boar Spear [Rogatina Type 4A XII-XIII]"/>
+    <string id="lt_rus_spear_type4" text="Rus Spear [Kopie Type 4 XII-XIII]"/>
+    <string id="lt_rus_spear_type5" text="Rus Spear [Kopie Type 5 XII-XIII]"/>
+    <string id="lt_rus_spear_type7" text="Rus Spear [Kopie Type 7 XII-XIII]"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus10" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus11" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus12" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus1" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus2" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus3" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus4" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus5" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus6" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus7" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus8" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_a_rus9" text="Rus Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus10" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus11" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus12" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus1" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus2" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus3" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus4" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus5" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus6" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus7" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus8" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_shield_vlandia_cavalary_b_rus9" text="Rus Iron Rimmed Kite Shield"/>
+    <string id="lt_spear_head_type_3_baltic" text="Baltic Spear Head [Type 3 IX-XIII]"/>
+    <string id="lt_spear_head_type_3_rus" text="Rus Spear Head [Type 3 IX-XIII]"/>
+    <string id="lt_spear_head_type_4_baltic" text="Baltic Spear Head [Type 4 XII-XIII]"/>
+    <string id="lt_spear_head_type_4_rus" text="Rus Spear Head [Type 4 XII-XIII]"/>
+    <string id="lt_spear_head_type_5_baltic" text="Baltic Spear Head [Type 5 XII-XIII]"/>
+    <string id="lt_spear_head_type_5_rus" text="Rus Spear Head [Type 5 XII-XIII]"/>
+    <string id="lt_spear_head_type_7_baltic" text="Baltic Spear Head [Type 7 XII-XIII]"/>
+    <string id="lt_spear_head_type_7_rus" text="Rus Spear Head [Type 7 XII-XIII]"/>
 
 
     <!-- 
@@ -1347,8 +1597,90 @@
     <string id="str_liege_title.danish" text="Viceroy"/>
     <string id="str_liege_title_female.danish" text="Vicereine"/>
 
+    <string id="ushkuiniki_raiderscultureadjective" text="Ushkuiniki"/>
+    <string id="ushkuiniki_raiderscultureneutralterm" text="Ushkuiniki"/>
+    <string id="ushkuiniki_raidersdescription" text="The Ushkuiniki were Novgorodian freebooters and raiders who used shallow-draft riverboats called ushkuis. Active from the 12th to 15th centuries, they raided along the Volga, Kama, and into the White Sea, mixing piracy with trade. They represented the adventurous and warlike element of Novgorodian Rus society, combining Slavic traditions, Orthodox faith, and a semi-outlaw lifestyle."/>
+    <string id="ushkuiniki_raidersfactionadjective" text="Ushkuiniki"/>
+    <string id="ushkuiniki_raidersfactionformalname" text="Ushkuiniki"/>
+    <string id="ushkuiniki_raidersfactioninformalname" text="Ushkuiniki"/>
+    <string id="ushkuiniki_raidersfactionshortterm" text="Ushkuiniki"/>
+    <string id="ushkuiniki_raidersfather" text="Fedor"/>
+    <string id="ushkuiniki_raidersmembers" text="Ushkuiniki"/>
+    <string id="ushkuiniki_raidersmother" text="Anastasia"/>
+    <string id="ushkuiniki_raidersnobletitle" text="{?RULER.GENDER}Lady{?}Raider{\?} {RULER.NAME}"/>
+    <string id="ushkuiniki_raidersofficial" text="ataman"/>
+    <string id="ushkuiniki_raidersofficialf" text="matron"/>
+    <string id="ushkuiniki_raidersruler" text="Ataman"/>
+    <string id="ushkuiniki_raidersrulerf" text="Matron"/>
+    <string id="ushkuiniki_raidersrulerterm" text="{RULER.NAME} {?RULER.GENDER}Matron{?}Ataman{\?}"/>
+    <string id="ushkuiniki_raidersrulertitle" text="{?RULER.GENDER}Matron{?}Ataman{\?} {RULER.NAME}"/>
+    <string id="ushkuiniki_raiders" text="ushkuiniki_raiders"/>
 
+    <string id="oeselian_raiderscultureadjective" text="Oeselian"/>
+    <string id="oeselian_raiderscultureneutralterm" text="Oeselian"/>
+    <string id="oeselian_raidersdescription" text="The Oeselians (inhabitants of Saaremaa Island in present-day Estonia) were a powerful seafaring and raiding Baltic-Finnic tribe of the 13th century. Famous for their ships and piracy across the Baltic Sea, they combined farming and fishing with a fierce warrior culture and pagan religious practices. They were among the last northern tribes to resist Christianization, defending their strongholds and sacred groves against crusaders."/>
+    <string id="oeselian_raidersfactionadjective" text="Oeselian"/>
+    <string id="oeselian_raidersfactionformalname" text="Oeselians"/>
+    <string id="oeselian_raidersfactioninformalname" text="Oeselians"/>
+    <string id="oeselian_raidersfactionshortterm" text="Oeselian"/>
+    <string id="oeselian_raidersfather" text="Tõnis"/>
+    <string id="oeselian_raidersmembers" text="Oeselians"/>
+    <string id="oeselian_raidersmother" text="Leelo"/>
+    <string id="oeselian_raidersnobletitle" text="{?RULER.GENDER}Lady{?}Warrior{\?} {RULER.NAME}"/>
+    <string id="oeselian_raiders" text="oeselian_raiders"/>
+    <string id="oeselian_raidersofficial" text="elder"/>
+    <string id="oeselian_raidersofficialf" text="priestess"/>
+    <string id="oeselian_raidersruler" text="Elder"/>
+    <string id="oeselian_raidersrulerf" text="Priestess"/>
+    <string id="oeselian_raidersrulerterm" text="{RULER.NAME} {?RULER.GENDER}Priestess{?}Elder{\?}"/>
+    <string id="oeselian_raidersrulertitle" text="{?RULER.GENDER}Priestess{?}Elder{\?} {RULER.NAME}"/>
 
+    <string id="mongol_raiderscultureadjective" text="Mongol"/>
+    <string id="mongol_raiderscultureneutralterm" text="Mongol"/>
+    <string id="mongol_raidersdescription" text="The Mongols of the 13th century were nomadic steppe warriors who forged one of the largest empires in history. Living in yurts and moving with their herds, they combined exceptional horsemanship and archery with a strict clan hierarchy. Known for their swift raids and disciplined armies, they followed Tengriist traditions alongside shamanic rituals, with authority centered on khans and tribal leaders."/>
+    <string id="mongol_raidersfactionadjective" text="Mongol"/>
+    <string id="mongol_raidersfactionformalname" text="Mongols"/>
+    <string id="mongol_raidersfactioninformalname" text="Mongols"/>
+    <string id="mongol_raidersfactionshortterm" text="Mongol"/>
+    <string id="mongol_raidersfather" text="Batu"/>
+    <string id="mongol_raidersmembers" text="Mongols"/>
+    <string id="mongol_raiders" text="mongol_raiders"/>
+    <string id="mongol_raidersmother" text="Saruul"/>
+    <string id="mongol_raidersnobletitle" text="{?RULER.GENDER}Lady{?}Noyan{\?} {RULER.NAME}"/>
+    <string id="mongol_raidersofficialf" text="khatun"/>
+    <string id="mongol_raidersofficial" text="noyan"/>
+    <string id="mongol_raidersrulerf" text="Khatun"/>
+    <string id="mongol_raidersruler" text="Khan"/>
+    <string id="mongol_raidersrulerterm" text="{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}"/>
+    <string id="mongol_raidersrulertitle" text="{?RULER.GENDER}Khatun{?}Khan{\?} {RULER.NAME}"/>
+
+    <string id="curonian_raiderscultureadjective" text="Curonian"/>
+    <string id="curonian_raiderscultureneutralterm" text="Curonian"/>
+    <string id="curonian_raiders" text="curonian_raiders"/>
+    <string id="curonian_raidersdescription" text="Curonian culture of the 13th century represented the seafaring Baltic tribes (Kurši). Known as fierce warriors, traders, and raiders along the Baltic Sea, they combined maritime traditions with pagan religious practices and strong clan-based social structures. Their settlements included coastal hillforts, wooden homesteads, and sacred groves where rituals were performed."/>
+    <string id="curonian_raidersfactionadjective" text="Curonian"/>
+    <string id="curonian_raidersfactionformalname" text="Curonians"/>
+    <string id="curonian_raidersfactioninformalname" text="Curonians"/>
+    <string id="curonian_raidersfactionshortterm" text="Curonian"/>
+    <string id="curonian_raidersmembers" text="Curonians"/>
+    <string id="curonian_raidersmother" text="Eglė"/>
+    <string id="curonian_raidersnobletitle" text="{?RULER.GENDER}Lady{?}Warrior{\?} {RULER.NAME}"/>
+    <string id="curonian_raidersofficial" text="chieftain"/>
+    <string id="curonian_raidersofficialf" text="priestess"/>
+    <string id="curonian_raidersrfather" text="Zygfryds"/>
+    <string id="curonian_raidersruler" text="Chieftain"/>
+    <string id="curonian_raidersrulerf" text="Priestess"/>
+    <string id="curonian_raidersrulerterm" text="{RULER.NAME} {?RULER.GENDER}Priestess{?}Chieftain{\?}"/>
+    <string id="curonian_raidersrulertitle" text="{?RULER.GENDER}Priestess{?}Chieftain{\?} {RULER.NAME}"/>
+
+    <string id="str_liege_title.curonian_raiders" text="Chieftain"/>
+    <string id="str_liege_title_female.curonian_raiders" text="Priestess"/>
+    <string id="str_liege_title_female.mongol_raiders" text="Khatun"/>
+    <string id="str_liege_title_female.oeselian_raiders" text="Priestess"/>
+    <string id="str_liege_title_female.ushkuiniki_raiders" text="Matron"/>
+    <string id="str_liege_title.mongol_raiders" text="Khan"/>
+    <string id="str_liege_title.oeselian_raiders" text="Elder"/>
+    <string id="str_liege_title.ushkuiniki_raiders" text="Ataman"/>
 
 
 
@@ -1780,6 +2112,17 @@
     <string id="mercenary_2" text="Chernye Klobuki Horse Archer"/>
     <string id="lt_mercenary_3" text="Bohemian Spearman"/>
     <string id="lt_mercenary_4" text="Bohemian Infantry"/>
+
+    <string id="eastern_mercenary_t5" text="Veteran Mercenary Maceman"/>
+    <string id="western_crossbow_t4" text="Hired Crossbowman"/>
+    <string id="western_crossbow_t5" text="Veteran Hired Crossbowman"/>
+    <string id="western_mercenary" text="Hired Spearman"/>
+    <string id="western_mercenary_t4" text="Trained Hired Spearman"/>
+    <string id="western_mercenary_t5" text="Veteran Hired Spearman"/>
+    <string id="oeselian_leader_template_0" text="The Oeselian"/>
+    <string id="oeselian_leader_template_1" text="The Oeselian"/>
+    <string id="oeselian_leader_template_2" text="The Oeselian"/>
+    <string id="oeselian_leader_template_3" text="The Oeselian"/>
 
 
     <!-- 
