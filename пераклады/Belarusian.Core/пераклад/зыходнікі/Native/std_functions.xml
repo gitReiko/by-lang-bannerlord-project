@@ -5,6 +5,7 @@
   </tags>
    <functions>
 	<function functionName="MAX" functionBody="{?$0&gt;$1}{$0}{?}{$1}{\?}"/>
+	<function functionName="ABS" functionBody="{?$0&gt;0}{$0}{?}{0 - $0}{\?}"/>
 	<function functionName="POW2" functionBody="{?$0==0}1{?}{2*POW2($0 - 1)}{\?}"/>
 	<function functionName="FIB" functionBody="{?$0 &lt; 2}1{?}{FIB($0 - 1)+FIB($0 - 2)}{\?}"/>
 	<function functionName="ADDITION" functionBody="$0+$1"/>
