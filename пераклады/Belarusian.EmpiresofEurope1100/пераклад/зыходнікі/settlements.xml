@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
  <strings>
-  <!--input/settlements/settlements.xml-->
   <string id="town_azak_name" text="Azak"/>
   <string id="town_azak_text" text="Azak text..."/>
   <string id="a0MVffcN" text="Backstreet"/>
@@ -113,6 +112,14 @@
   <string id="castle_dunvegan_stornoway_text" text="Stornoway text..."/>
   <string id="castle_dunvegan_balivanich_name" text="Balivanich"/>
   <string id="castle_dunvegan_balivanich_text" text="Balivanich text..."/>
+  <string id="town_kirkwall.name" text="Kirkwall"/>
+  <string id="town_kirkwall.text" text="Kirkwall text..."/>
+  <string id="town_kirkwall_stromness.name" text="Stromness"/>
+  <string id="town_kirkwall_stromness.text" text="Stromness text..."/>
+  <string id="town_kirkwall_torshaven.name" text="Torshavn"/>
+  <string id="town_kirkwall_torshaven.text" text="Torshavn text..."/>
+  <string id="town_kirkwall_levenwick.name" text="Levenwick"/>
+  <string id="town_kirkwall_levenwick.text" text="Levenwick text..."/>
   <string id="town_dublin_name" text="Dublin"/>
   <string id="town_dublin_text" text="Dublin text..."/>
   <string id="town_dublin_trim_name" text="Trim"/>
@@ -144,6 +151,9 @@
   <string id="castle_kinbane_name" text="Kinbane Castle"/>
   <string id="castle_kinbane_derry_name" text="Derry"/>
   <string id="castle_kinbane_derry_text" text="Derry text..."/>
+  <string id="castle_holmwick.name" text="Holmwick Castle"/>
+  <string id="castle_holmwick_ramsey.name" text="Ramsey"/>
+  <string id="castle_holmwick_ramseytext" text="Ramsey text..."/>
   <string id="castle_bertheaume_name" text="Bertheaume Castle"/>
   <string id="castle_bertheaume_brest_name" text="Brest"/>
   <string id="castle_bertheaume_brest_text" text="Brest text..."/>
@@ -155,6 +165,7 @@
   <string id="town_nantes_name" text="Nantes"/>
   <string id="town_nantes_text" text="Nantes text..."/>
   <string id="town_nantes_laval_name" text="Laval"/>
+  <string id="town_nantes_laval.text" text="Laval text..."/>
   <string id="town_nantes_clisson_name" text="Clisson"/>
   <string id="town_nantes_clisson_text" text="Clisson text..."/>
   <string id="town_tours_name" text="Tours"/>
@@ -366,6 +377,8 @@
   <string id="town_santiago_lugo_text" text="Lugo text..."/>
   <string id="town_santiago_crunia_name" text="Crunia"/>
   <string id="town_santiago_crunia_text" text="Crunia text..."/>
+  <string id="town_santiago_ourense_name" text="Ourense"/>
+  <string id="town_santiago_ourense_text" text="Ourense text..."/>
   <string id="town_oporto_name" text="Porto"/>
   <string id="town_oporto_text" text="Porto text..."/>
   <string id="town_oporto_braga_name" text="Braga"/>
@@ -779,7 +792,8 @@
   <string id="town_hamedan_zizar_text" text="Zizar text..."/>
   <string id="town_hamedan_baneh_name" text="Bahar"/>
   <string id="town_hamedan_baneh_text" text="Bahar text..."/>
-  <string id="castle_rey_name" text="Rey Castle"/>
+  <string id="town_rey.name" text="Rey"/>
+  <string id="town_rey.text" text="Rey text..."/>
   <string id="castle_rey_saavakineh_name" text="Saavakineh"/>
   <string id="castle_rey_saavakineh_text" text="Saavakineh text..."/>
   <string id="castle_rey_qazvin_name" text="Qazvin"/>
@@ -1024,7 +1038,8 @@
   <string id="castle_larissa_name" text="Larissa Castle"/>
   <string id="castle_larissa_demetrias_name" text="Demetrias"/>
   <string id="castle_larissa_demetrias_text" text="Demetrias text..."/>
-  <string id="castle_athens_name" text="Athens Castle"/>
+  <string id="town_athens.name" text="Athens"/>
+  <string id="town_athens.text" text="Athens text..."/>
   <string id="castle_athens_calchis_name" text="Calchis"/>
   <string id="castle_athens_calchis_text" text="Calchis text..."/>
   <string id="town_corinth_name" text="Corinth"/>
@@ -1514,6 +1529,7 @@
   <string id="castle_glagow_krozno_name" text="Krosno Odrzanskie"/>
   <string id="castle_glagow_krozno_text" text="Krozno Odrzanskie text..."/>
   <string id="town_poznan_name" text="Poznan"/>
+  <string id="town_poznan.text" text="Szczecin text..."/>
   <string id="town_poznan_czarnkow_name" text="Czarnkow"/>
   <string id="town_poznan_czarnkow_text" text="Czarnkow text..."/>
   <string id="town_poznan_gniezno_name" text="Gniezno"/>
@@ -1521,11 +1537,13 @@
   <string id="town_poznan_naklo_name" text="Naklo"/>
   <string id="town_poznan_naklo_text" text="Naklo text..."/>
   <string id="town_elbag_name" text="Truso"/>
+  <string id="town_elbag.text" text="Truso text..."/>
   <string id="town_elbag_susse_name" text="Susse"/>
   <string id="town_elbag_susse_text" text="Susse text..."/>
   <string id="town_elbag_brus_name" text="Brus"/>
   <string id="town_elbag_brus_text" text="Brus text..."/>
   <string id="town_twangste_name" text="Twangste"/>
+  <string id="town_twangste.text" text="Twangste text..."/>
   <string id="town_twangste_labiala_name" text="Labiawa"/>
   <string id="town_twangste_labiala_text" text="Labiawa text..."/>
   <string id="town_twangste_tummonis_name" text="Tummonis"/>
@@ -1916,8 +1934,6 @@
   <string id="town_kaibolovo_sabsk_text" text="Sabsk text..."/>
   <string id="town_kaibolovo_gdov_name" text="Gdov"/>
   <string id="town_kaibolovo_gdov_text" text="Gdov text..."/>
-  <string id="town_kaibolovo_voronino_name" text="Voronino"/>
-  <string id="town_kaibolovo_voronino_text" text="Voronino text..."/>
   <string id="town_novgorod_name" text="Novgorod"/>
   <string id="town_novgorod_text" text="Novgorod text..."/>
   <string id="town_novgorod_rusa_name" text="Rusa"/>
@@ -2307,6 +2323,8 @@
   <string id="castle_kexholm_name" text="Kakisalmi Castle"/>
   <string id="castle_kexholm_matoski_name" text="Matoski"/>
   <string id="castle_kexholm_matoski_text" text="Matoski text..."/>
+  <string id="castle_landskrona.name" text="Landskrona Fortress"/>
+  <string id="castle_landskrona_nyen.name" text="Nyen"/>
   <string id="town_tervu_name" text="Tervu"/>
   <string id="town_tervu_text" text="Tervu text..."/>
   <string id="town_tervu_lahdenpohja_name" text="Lahdenpohja"/>
@@ -2344,7 +2362,6 @@
   <string id="Settlements.Settlement.hideout_ireland_2.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_ireland_3.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_ireland_4.name" text="Hideout"/>
-  <string id="Settlements.Settlement.hideout_ireland_5.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_ireland_6.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_ireland_7.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_ireland_8.name" text="Hideout"/>
@@ -2559,7 +2576,7 @@
   <string id="Settlements.Settlement.hideout_turk_15.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_turk_16.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_turk_17.name" text="Hideout"/>
-  <string id="Settlements.Settlement.hideout_turk_18.name" text="Hideout"/>
+  <string id="Settlements.Settlement.hideout_turk_18.name" text="Old Roman Fort"/>
   <string id="Settlements.Settlement.hideout_turk_19.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_turk_20.name" text="Hideout"/>
   <string id="Settlements.Settlement.hideout_turk_21.name" text="Hideout"/>
