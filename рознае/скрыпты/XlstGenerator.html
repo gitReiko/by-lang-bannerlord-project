@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XML → XSLT Generator</title>
+  <style>
+    body { font-family: Arial; display: flex; gap: 10px; padding: 10px; }
+    textarea { width: 45%; height: 90vh; font-family: monospace; }
+    button { height: 40px; }
+  </style>
+</head>
+<body>
+
+<textarea id="input" placeholder="Paste XML here"></textarea>
+
+<div style="display:flex; flex-direction:column; gap:10px;">
+  <button onclick="generateXSLT()">→ Generate XSLT</button>
+  <button onclick="copyOutput()">Copy</button>
+</div>
+
+<textarea id="output" placeholder="XSLT output"></textarea>
+
+<script>
+function generateXSLT() {
+  const xmlText = document.getElementById("input").value;
+
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(xmlText, "text/xml");
+
+  const items = xml.getElementsByTagName("Item");
+
+  let xslt =
+`<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+
+`;
+
+  for (let item of items) {
+    const id = item.getAttribute("id");
+    const name = item.getAttribute("name") || "";
+
+    if (!id) continue;
+
+    xslt += `
+  <xsl:template match="Item[@id='${id}']/@name">
+    <xsl:attribute name="name">${escapeXML(name)}</xsl:attribute>
+  </xsl:template>
+`;
+  }
+
+  xslt += `
+</xsl:stylesheet>`;
+
+  document.getElementById("output").value = xslt;
+}
+
+function escapeXML(str) {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function copyOutput() {
+  const out = document.getElementById("output");
+  out.select();
+  document.execCommand("copy");
+}
+</script>
+
+</body>
+</html>
