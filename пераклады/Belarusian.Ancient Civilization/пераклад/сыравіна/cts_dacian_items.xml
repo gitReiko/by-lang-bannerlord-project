@@ -877,6 +877,26 @@
     <Flags UseTeamColor="false"
            Civilian="true" />
   </Item>
+  <Item id="cts_dacian_noble_armor_c"
+        name="[cts_Dacian]Noble Scale Mail Bronze"
+        mesh="cts_dacian_noble_armor_c"
+        subtype="body_armor"
+        culture="Culture.empire"
+        weight="15"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="55"
+             leg_armor="20"
+             arm_armor="16"
+             covers_body="false"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false"
+           Civilian="true" />
+  </Item>
   <Item id="cts_dacian_leather_armor"
         name="[cts_Dacian] Dacian Leather Vest"
         mesh="cts_dacian_leather_armor"
