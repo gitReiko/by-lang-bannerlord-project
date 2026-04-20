@@ -18,11 +18,49 @@
 	<SubModules/>
 	<Xmls> 
 		<XmlNode>
-			<XmlName id="Items" path="items"/>
+			<XmlName id="Items" path="head_armor"/>
 			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+				<GameType value="EditorGame" />
 			</IncludedGameTypes>
 		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="shoulder_armor"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+				<GameType value="EditorGame" />
+			</IncludedGameTypes>
+		</XmlNode>  
+		<XmlNode>
+			<XmlName id="Items" path="body_armor"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+				<GameType value="EditorGame" />
+			</IncludedGameTypes>
+		</XmlNode>  
+		<XmlNode>
+			<XmlName id="Items" path="arm_armor"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+				<GameType value="EditorGame" />
+			</IncludedGameTypes>
+		</XmlNode>  
+		<XmlNode>
+			<XmlName id="Items" path="leg_armor"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+				<GameType value="EditorGame" />
+			</IncludedGameTypes>
+		</XmlNode>  
 	</Xmls>
 </Module>

@@ -474,11 +474,12 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
         mesh="cr_c_imperial_lamellar_c"
         culture="Culture.empire"
         weight="20.10"
-        appearance="1"
+        appearance="3"
         Type="BodyArmor">
     <ItemComponent>
-      <Armor body_armor="48"
-             leg_armor="24"
+      <Armor 
+             body_armor="52"
+             leg_armor="23"
              arm_armor="16"
              covers_body="true"
 	     has_gender_variations="true"
@@ -541,7 +542,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
 	modifier_group="chain" 
 	material_type="Plate" />
     </ItemComponent>
-    <Flags UseTeamColor="true" />
+    <Flags UseTeamColor="false" />
   </Item>
 
 
