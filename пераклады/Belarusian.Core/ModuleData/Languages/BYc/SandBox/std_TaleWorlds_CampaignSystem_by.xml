@@ -1280,7 +1280,9 @@
     <string id="b3YNi4LG" text="Я - {CONVERSATION_HERO.LINK}. {FACTION_DESCRIPTION}" />
     <string id="b4BaOUKn" text="Вошы з'яўляюцца часткай вайсковага жыцьця, але некаторыя вашы ваяры літаральна кішаць гэтымі паразітамі. Магчыма, у гэтых краях яны асабліва агрэсіўныя, а можа быць, ім проста падабаецца такое надвор'е. Вы баіцеся, што яны могуць распаўсюдзіць лагерную ліхаманку альбо іншыя хваробы." />
     <string id="b4fpZGsv" text="Мы рыбакі з вёскі {VILLAGE}" />
+    <string id="b4HypxQ5" text="Дазорцы бандытаў заўважылі вашых людзей перад атакай, і яны арганізавана адступілі, верагодна, у бліжэйшыя сховішчы. Чакаецца, што яны хутка вернуцца ў сваё логава.{newline}" />
     <string id="b4TeiuoJ" text="Агульнапрынята падчас вайны зьбіраць надзвычайныя падаткі." />
+    <string id="b4YsZY5H" text="Атакаваць сховішча" />
     <string id="b5InObbq" text="Вы прынялі прапанову старосты. Вясковыя зямяне і жыхары былі задаволены вашым вырашэньнем і падарылі вам {PRODUCT_COUNT} {.%}{?(PRODUCT_COUNT &gt; 1)}{PLURAL(PRODUCT)}{?}{PRODUCT}{\?}{.%}." />
     <string id="b5l18lo7" text="{VALUE}% шкода і хуткасьць руху пяхоты фармаваньня, якім вы кіруеце." />
     <string id="b5paUJjG" text="{NAME} болей не існуе" />
@@ -1361,6 +1363,7 @@
     <string id="bEab8stb" text="Добра. Я чакаю добрых навінаў ад вас.[if:convo_undecided_open]" />
     <string id="bEak0k5N" text="Селішча {TARGET_SETTLEMENT} узята. Вы ня бралі ўдзел у гэтай бітве. Вашае пагадненьне з {QUEST_GIVER.LINK} спрэчнае." />
     <string id="BeD9fahY" text="Прыемна было пазнаёміцца." />
+    <string id="beDxk5YB" text="Бандыты напагатове і занадта кемлівыя, каб трапіць у засаду." />
     <string id="beK0AZ2y" text="Мяне непакоіць, што вам не хапае сродкаў для забесьпячэньня сям'і." />
     <string id="BExNNwm0" text="{ATTACKER} рабуе {DEFENDER}" />
     <string id="BeYbp6M2" text="Файна. Вы пераканалі мяне, што я магу гэтае абдумаць." />
@@ -1382,7 +1385,6 @@
     <string id="bgXebaRF" text="Вы можаце толькі абмяняць {X} {?IS_PLURAL}палонных{?}палоннага{\?}." />
     <string id="bGxsp5Le" text="Гонар Забітага Ворага" />
     <string id="bgy8LVvY" text="Лекар" />
-    <string id="bGyrPe8c" text="Вытворчасьць" />
     <string id="BH17ZNSe" text="Я ня думаю, што ў нас узьнікне болей праблемаў з {TARGET_SETTLEMENT}, дзякуй вашым людзям. Калі ласка, перадайце ім нашую падзяку, {?PLAYER.GENDER}пані{?}панове{\?}.[if:convo_mocking_teasing][ib:hip]" />
     <string id="bhdkegZ4" text="Усе гарады маюць будаўнічыя праэкты, якія ўвесь час патрабуюць як кваліфікаваных, гэтак і некваліфікаваных працаўнікоў. Вы даведаліся як будуюцца падымальнікі ды лясы, як абчэсваюцца і ўкладаюцца дошкі ды камяні, і атрымалі іншыя навыкі." />
     <string id="BhDWm78v" text="{VICTIM.NAME} {?VICTIM.GENDER}памёрла ў{?}памёр у{\?} боі." />
@@ -1477,7 +1479,6 @@
     <string id="bPpdw81a" text="Дзённая падрыхтоўка рушэньня павялічана на 1{newline}Рэкруты папаўняюцца на 20% хутчэй{newline}Прыбытак ад падаткаў у селішчах зьніжаны на 10%" />
     <string id="bPPXiybO" text="Я выпадкова {?SPEAKER.GENDER}апынулася{?}апынуўся{\?} побач. Ня бойцеся {QUEST_GIVER.NAME}, з вашым таварам усё добра." />
     <string id="bpXgcBCp" text="Тое, што мы зрабілі з вёскай... Мне гэта не падабаецца. Тыя земляробы былі вельмі падобныя да блізкіх мне людзей. Я жадаю ведаць, што гэтага болей ня здарыцца." />
-    <string id="BQbJLJZ8" text="Эфект ад наяўнасьці больш за 30 адсоткаў воласьцяў" />
     <string id="bqEO389P" text="Гэтая пастанова выклікала разлад у сойме." />
     <string id="BqIRb85N" text="Рушыць рабаваць {TARGET_SETTLEMENT}" />
     <string id="BQjAAo9f" text="Зараз я шукаю працу. Маеце прапановы?" />
@@ -1511,10 +1512,10 @@
     <string id="bteVVFh0" text="{VALUE} золата за кожны караван, які наведаў кіраванае селішча." />
     <string id="bTj16PqR" text="Кожны шляхетны юнак жадае бачыць цэнтр усяго гэтага, дзе шляхта зьбіраецца ў пышнасьці, каб гутарыць і патураць. Вы запрасілі дзіцё паглядзець сьпектакль сваімі вачамі і далі элегантнае адзеньне, каб {?CHILD.GENDER}яна стала{?}ён стаў{\?} яго часткаю. " />
     <string id="bTKiN0hr" text="працавалі ў вясковай кузьні." />
-    <string id="BTp7qpak" text="Вас абвінавачваюць у злачынстве, і {QUEST_GIVER.LINK} болей ня мае патрэбы ў дапамозе." />
     <string id="btsMpRcA" text="Ваша сям'я валодала гарадзкой кузьняй. Вашы бацька граў актыўную, хоць і другарадную ролю ў гарадзкім сойме, а таксама служыў у рушэньні." />
     <string id="bTUPJjfk" text="Можаце разьлічваць на мяне, {?CONVERSATION_NPC.GENDER}шляхцянка{?}шляхціч{\?}." />
     <string id="bu2rmgY1" text="{FIRSTNAME} з Вярбы" />
+    <string id="Bu6YdMme" text="Гаспадарствы не суседзі." />
     <string id="bU7EG06q" text="Я {?SPEAKER.GENDER}згодна{?}згодзен{\?}. Давайце спынім вайну паміж намі, ва ўсякім разе, на гэты момант." />
     <string id="buCYa33Q" text="Купіць яго тавары па зыскоўным кошце." />
     <string id="bue9AShm" text="Я клянуся ваяваць з вашымі ворагамі і даваць прытулак і ваду вашым сябрам..." />
@@ -1964,6 +1965,7 @@
     <string id="dyVvsBMs" text="{VALUE} посьпех перакананьня, які патрабуецца супраць персанажаў іншай культуры." />
     <string id="dYyFWmGB" text="{VALUE}% хуткасьць аднаўленьня разрабаваных вёсак, зьвязаных з кіраваным селішчам." />
     <string id="Dz7E79QP" text="Вы ўжо дастаткова дапамаглі. Дзякуй." />
+    <string id="dZNCEaGB" text="Селішча знаходзіцца ў аблозе і марской блакадзе. Вам забаронена ўмешвацца." />
     <string id="e07rQCcq" text="Сказаць людзям, што гэта выдатная навіна для такіх адважных людзей, як яны, бо нішто не даставіць Дэміургу большага задавальненьня за добры бой." />
     <string id="e0HktW6w" text="Баюся, цяпер я не магу ўзяцца за такое заданьне." />
     <string id="e1sSXEOh" text="Гэта выдатныя навіны. Калі б вы змаглі прывезьці тавары, гэта было б велізарнай дапамогай, і гандлярам давялося б зьменшыць кошты. Дзякуй.[if:convo_excited][ib:hip2]" />
@@ -2172,7 +2174,6 @@
     <string id="ezfehKrT" text="у якасьці чалядніка." />
     <string id="EzpB6hJG" text="Паспрабаваць зьмякчыць вобраз вар'ята, паводзячы сябе як мага больш прыязна падчас наступнага візіту ў горад." />
     <string id="eZYtkDff" text="Герой цяпер ува ўцёках." />
-    <string id="F16k4H7R" text="{QUEST_GIVER.LINK} {?QUEST_GIVER.GENDER}сказала{?}сказаў{\?} вам, што {?QUEST_GIVER.GENDER}яна{?}ён{\?} мае патрэбу ў {.%}{?(REQUESTED_ANIMAL_AMOUNT &gt; 1)}{PLURAL(SELECTED_ANIMAL)}{?}{SELECTED_ANIMAL}{\?}{.%} для {?QUEST_GIVER.GENDER}яе{?}яго{\?} вёскі. {?QUEST_GIVER.GENDER}Яна{?}Ён{\?} заплаціць вам {REWARD_GOLD}{GOLD_ICON} дэнараў, калі жывёлы будуць дастаўлены. Вы сказалі вашаму кампаньёну {COMPANION.LINK} і {ALTERNATIVE_TROOP_AMOUNT} ваярам даставіць {REQUESTED_ANIMAL_AMOUNT} {.%}{?(REQUESTED_ANIMAL_AMOUNT &gt; 1)}{PLURAL(SELECTED_ANIMAL)}{?}{SELECTED_ANIMAL}{\?}{.%} у {QUEST_GIVER.LINK}. Яны вярнуцца ў вашую партыю праз {RETURN_DAYS} дзён." />
     <string id="f1etg9oL" text="Прыдумаць нешта іншае." />
     <string id="F1syZDs4" text="{newline}+{VALUE} да перавагаў {TRAIT_NAME_ONE} і {TRAIT_NAME_TWO}" />
     <string id="F2bgujPo" text="былі слугой правадыра." />
@@ -2201,6 +2202,7 @@
     <string id="FA5QlTvm" text="Вытворца Стрэлаў" />
     <string id="faa9sFfE" text="Я раблю ўсё, што магу, каб палегчыць пакуты ў гэтым сьвеце. Спадзяюся, гэтага хопіць." />
     <string id="fAdwIqbg" text="Я думаю, вам варта паспрабаваць атрымаць ухвалу ад маёй сям'і." />
+    <string id="FaEOnF8q" text="Ваша гаспадарства ўдзельнічае ў вайне." />
     <string id="FaGc9xR4" text="{VALUE}% шанец здачы бандытаў, вяскоўцаў і караванаў." />
     <string id="FAIYN0vN" text="У вас {NUMBER} новых абнаўленьняў вашых квэстаў." />
     <string id="faUooB7V" text="Гаспадарства {KINGDOM} скасоўвае {POLICY_DESCRIPTION} ({POLICY}). {POLICY_SUPPORT}" />
@@ -2232,7 +2234,6 @@
     <string id="fFNNeqxu" text="{VALUE}% шкода і даўжэйшае аглушэньне ўдара шчыта." />
     <string id="FfNwXtii" text="Калі ў ваўчынай зграі з вашага маленства быў альфа, то гэта пэўна былі вы. Усе іншыя дзеці бралі з вас прыклад. Вы вырашалі, дзе і ўва што гуляць; узначальвалі гульні і свавольствы." />
     <string id="ffoqz6yP" text="Вы даставілі {DELIVERED_ITEM_COUNT} адзінак тавараў ад {QUEST_GIVER.NAME}." />
-    <string id="fFuiV5EZ" text="{KINGDOM} не згаджаецца на гандлёвую дамову.{newline}{newline}Наймоцныя Фактары:{newline}{REASONS_BY_LINE}" />
     <string id="FfZpLoVD" text="{?CHILD.GENDER}пляла{?}плёў{\?} інтрыгі." />
     <string id="FGVzQUao" text="Віншую, і хай нябёсы блаславяць вас." />
     <string id="fh1auwJW" text="{FIRSTNAME} з {?FEMALE}Ваўчыц{?}Жарабцоў{\?}" />
@@ -2325,6 +2326,7 @@
     <string id="fudD6PXR" text="Я - {CONVERSATION_HERO.FIRSTNAME}. Я {?CONVERSATION_HERO.GENDER}была абрана{?}быў абраны{\?} народам {REBEL_SETTLEMENT_NAME}, каб узначаліць яго ў змаганьні супраць тыраніі." />
     <string id="Ful5cXFa" text="{VALUE} браня коней ваяроў фармаваньня, якім вы кіруеце." />
     <string id="FuNbouTu" text="З {KINGDOM_NAME} прыбыў ганец. Яны заклікаюць ваша гаспадарства да вайны супраць {KINGDOM_TO_CALL_TO_WAR_AGAINST}. Ваша гаспадарства будзе галасаваць за прыняцьцё гэтай прапановы." />
+    <string id="furyPerk" text="Лютасьць" />
     <string id="fUvs4g40" text="Павелічэньне хуткасьці лячэньня герояў: +{a0}%" />
     <string id="FV4SWLQx" text="Гандаль Таварамі" />
     <string id="Fv8CKNU2" text="Спадзяюся, {QUEST_GIVER.NAME} мае план як пазбавіцца ад дэзерціраў." />
