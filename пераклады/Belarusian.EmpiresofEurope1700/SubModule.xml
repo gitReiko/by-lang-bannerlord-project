@@ -18,5 +18,13 @@
 	<SubModules/>
 	<Xmls>
 
+	<XmlNode>
+      <XmlName id="GameText" path="module_strings"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+		<GameType value = "CustomGame"/>
+      </IncludedGameTypes>
+    </XmlNode>
+
 	</Xmls>
 </Module>
