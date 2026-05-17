@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
  <strings>
-  <!--input/spclans/spclans_almohad.xml-->
-  <string id="nobleHouse_almohad_1" text="аль-Муваххідун"/>
-  <string id="nobleHouse_almohad_2" text="Бану Умар"/>
-  <string id="nobleHouse_almohad_3" text="ан-Насірыюн"/>
-  <string id="nobleHouse_almohad_4" text="ду Адэльмон"/>
-  <string id="nobleHouse_almohad_5" text="ду Альмохадэс"/>
   <!--input/spclans/spclans_aragon.xml-->
   <string id="nobleHouse_aragon_1" text="Каса дэ Барселона"/>
   <string id="nobleHouse_aragon_2" text="Каса дэ Уржэль"/>
@@ -23,6 +17,7 @@
   <string id="lithuania_Astikai" text="Асьцікяй"/>
   <!--input/spclans/spclans_bandits.xml-->
   <string id="1sbJQR4H" text="Нягоднікі"/>
+  <string id="9yaFxhGa" text="Дэзэртыры"/>
   <string id="coastalpirates_faction" text="Узьбярэжныя Піраты"/>
   <string id="mOa9CX13" text="Горныя Бандыты"/>
   <string id="sAbjtZbB" text="Лясныя Бандыты"/>
@@ -30,6 +25,31 @@
   <string id="e6csp4ha" text="Стэпавыя Бандыты"/>
   <string id="BarbaryPirates" text="Берберскія Піраты"/>
   <string id="Castle_Bandits" text="Злачынныя Рыцары"/>
+  <!--input/spclans/spclans_berber_almohad.xml-->
+<string id="nobleHouse_almohad_1" text="аль-Мувахідун"/>
+<string id="nobleHouse_almohad_2" text="Бану Умар"/>
+<string id="nobleHouse_almohad_3" text="ан-Насірыўн"/>
+<string id="nobleHouse_almohad_4" text="дэ Адэльмон"/>
+<string id="nobleHouse_almohad_5" text="дэ Альмахадас"/>
+  <!--input/spclans/spclans_berber_hafsid.xml-->
+<string id="nobleHouse_hafsid_1" text="Бану Хафс"/>
+<string id="nobleHouse_hafsid_2" text="Бану Бутрус"/>
+<string id="nobleHouse_hafsid_3" text="Бану Гамаль"/>
+<string id="nobleHouse_hafsid_4" text="Бану Ханіф"/>
+  <!--input/spclans/spclans_berber_marinids.xml-->
+<string id="nobleHouse_marinid_1" text="Бану Марын"/>
+<string id="nobleHouse_marinid_2" text="Бану Ідрыс"/>
+<string id="nobleHouse_marinid_3" text="Бану Мухамад"/>
+<string id="nobleHouse_marinid_4" text="Бану Адэргал"/>
+<string id="nobleHouse_marinid_5" text="Бану Ібрахім"/>
+<string id="nobleHouse_marinid_6" text="Бану Ях'я"/>
+<string id="nobleHouse_marinid_7" text="Бану Умар"/>
+<string id="nobleHouse_marinid_8" text="Бану Абдалах"/>
+<string id="nobleHouse_marinid_9" text="Бану Саід"/>
+  <!--input/spclans/spclans_berber_murcia.xml-->
+<string id="clan_murcia_1" text="Бану Худ"/>
+  <!--input/spclans/spclans_berber_tlemcen.xml-->
+<string id="nobleHouse_zyan_1" text="Бану Зіян"/>
   <!--input/spclans/spclans_bohemia.xml-->
   <string id="nobleHouse_bohemia_1" text="Пшэмысловцы"/>
   <string id="nobleHouse_bohemia_2" text="Штэрнберковэ"/>
@@ -45,11 +65,6 @@
   <string id="bosnia_clan2" text="Шубічы"/>
   <string id="bosnia_clan3" text="Франкопаны"/>
   <string id="bosnia_clan4" text="Саньнекі-Цэле"/>
-  <!--input/spclans/spclans_brittany.xml-->
-  <string id="nobleHouse_brittany_1" text="Мізон ду Туар"/>
-  <string id="nobleHouse_brittany_2" text="Мізон ду Руан"/>
-  <string id="nobleHouse_brittany_3" text="Мізон ду Лаваль"/>
-  <string id="nobleHouse_brittany_4" text="Мізон ду Рыю"/>
   <!--input/spclans/spclans_bulgaria.xml-->
   <string id="bulgaria_clan1" text="Асэн"/>
   <string id="bulgaria_clan2" text="Тэртэр"/>
@@ -72,11 +87,6 @@
   <string id="nobleHouse_crusader_5" text="Дом Мунфор-Торон"/>
   <string id="nobleHouse_crusader_6" text="Дом Гранье"/>
   <string id="nobleHouse_crusader_7" text="Дом Брыенн д'Акр"/>
-  <!--input/spclans/spclans_customSpawn.xml-->
-  <string id="runawaythralls_faction" text="Зьбеглыя Тралы"/>
-  <string id="robberknights_faction" text="Грабежныя Рыцары"/>
-  <string id="escapedslaves_faction" text="Зьбеглыя Рабы"/>
-  <string id="rovingmercs_faction" text="Бадзяжныя Найміты"/>
   <!--input/spclans/spclans_denmark.xml-->
   <string id="nobleHouse_denmark_1" text="Хусэт Эстрыдсэн"/>
   <string id="nobleHouse_denmark_2" text="Хусэт Гален"/>
@@ -94,20 +104,28 @@
   <string id="nobleHouse_england_6" text="Дом Морцімэр"/>
   <string id="nobleHouse_england_7" text="Дом Мунфор-Лестэр"/>
   <string id="nobleHouse_england_8" text="Дом Савой"/>
-  <!--input/spclans/spclans_france_N.xml-->
+  <!--input/spclans/spclans_french_brittany.xml-->
+<string id="nobleHouse_brittany_1" text="Мезон ду Туар"/>
+<string id="nobleHouse_brittany_2" text="Мезон ду Раган"/>
+<string id="nobleHouse_brittany_3" text="Мезон ду Лаваль"/>
+<string id="nobleHouse_brittany_4" text="Мезон ду Р'ё"/>
+  <!--input/spclans/spclans_french_france.xml-->
   <string id="nobleHouse_france_1" text="Капетынгі"/>
-  <string id="nobleHouse_france_2" text="Мізон ду Фуа"/>
-  <string id="nobleHouse_france_3" text="Мізон ду Клермон-Нэль"/>
-  <string id="nobleHouse_france_4" text="Мізон Капетын д'Анжу"/>
-  <string id="nobleHouse_france_5" text="Мізон Капетын ду Дру"/>
-  <string id="nobleHouse_france_6" text="Мізон ду Блуа-Шацьціён"/>
-  <string id="nobleHouse_france_7" text="Мізон Капетын ду Бургонь"/>
-  <string id="nobleHouse_france_8" text="Мізон ду Лузіньён"/>
-  <string id="nobleHouse_france_9" text="Мізон ду Івру"/>
-  <string id="nobleHouse_france_10" text="Мізон Капетын д'Артуа"/>
-  <string id="nobleHouse_france_11" text="Мізон ду Ла Тур д'Оверні"/>
-  <string id="nobleHouse_france_12" text="Мізон ду Домпьер-Фландэрс"/>
-  <!--input/spclans/spclans_gaelic.xml-->
+  <string id="nobleHouse_france_2" text="Мезон ду Фуа"/>
+  <string id="nobleHouse_france_3" text="Мезон ду Клермон-Нэль"/>
+  <string id="nobleHouse_france_4" text="Мезон Капетын д'Анжу"/>
+  <string id="nobleHouse_france_5" text="Мезон Капетын ду Дру"/>
+  <string id="nobleHouse_france_6" text="Мезон ду Блуа-Шацьціён"/>
+  <string id="nobleHouse_france_7" text="Мезон Капетын ду Бургонь"/>
+  <string id="nobleHouse_france_8" text="Мезон ду Лузіньён"/>
+  <string id="nobleHouse_france_9" text="Мезон ду Івру"/>
+  <string id="nobleHouse_france_10" text="Мезон Капетын д'Артуа"/>
+  <string id="nobleHouse_france_11" text="Мезон ду Ла Тур д'Оверні"/>
+  <string id="nobleHouse_france_12" text="Мезон ду Домпьер-Фландэрс"/>
+  <!--input/spclans/spclans_french_navarre.xml-->
+<string id="nobleHouse_navarre_1" text="Мезон дэ Блуа-Навар"/>
+<string id="nobleHouse_navarre_2" text="Мезон дэ Хіменэс"/>
+  <!--input/spclans/spclans_gealic.xml-->
   <string id="nobleHouse_ireland_1" text="І Ніл"/>
   <string id="nobleHouse_ireland_3" text="І Брайен"/>
   <string id="nobleHouse_ireland_4" text="І Рурк У Брэйфнен"/>
@@ -129,16 +147,6 @@
   <string id="nobleHouse_hre_7" text="Дом Вэцьцін"/>
   <string id="nobleHouse_hre_8" text="Дом Хабсбург"/>
   <string id="nobleHouse_hre_9" text="Дом Шатэнуа"/>
-  <!--input/spclans/spclans_goldenhorde_N.xml-->
-  <string id="CRSFOSil" text="Борджыгін"/>
-  <string id="Q1nAHnV7" text="Мірхан"/>
-  <string id="VpF6skYs" text="Алаколюк"/>
-  <string id="m0teef5g" text="Кіргіз"/>
-  <string id="gXeF1yKn" text="Жыркін"/>
-  <string id="kbGk2so8" text="Хутаг"/>
-  <string id="b6SEM6Ab" text="Булак Урту"/>
-  <string id="W9n5iPbB" text="Аўрангід"/>
-  <string id="cYTdzMQ4" text="Монхбат"/>
   <!--input/spclans/spclans_granada.xml-->
   <string id="nobleHouse_granada_1" text="Бану Наср"/>
   <string id="nobleHouse_granada_2" text="Бану Ашкілула"/>
@@ -150,11 +158,6 @@
   <string id="nobleHouse_nicaea_5" text="Дом Врыэньніёс"/>
   <string id="nobleHouse_nicaea_6" text="Дом Вататзыс"/>
   <string id="nobleHouse_nicaea_7" text="Дом Кантакузэнос"/>
-  <!--input/spclans/spclans_hafsid_N.xml-->
-  <string id="nobleHouse_hafsid_1" text="Бану Хафс"/>
-  <string id="nobleHouse_hafsid_2" text="Бану Бутрус"/>
-  <string id="nobleHouse_hafsid_3" text="Бану Гамал"/>
-  <string id="nobleHouse_hafsid_4" text="Бану Ханіф"/>
   <!--input/spclans/spclans_halych_galicia.xml-->
   <string id="nobleHouse_galicia_1" text="Романовічы"/>
   <string id="nobleHouse_galicia_2" text="Ігоравічы"/>
@@ -177,7 +180,7 @@
   <string id="nobleHouse_ilkhanate_3" text="Сэльджук"/>
   <string id="nobleHouse_ilkhanate_4" text="Бэйлік Карамана"/>
   <string id="nobleHouse_ilkhanate_5" text="Мегакомненой"/>
-  <!--input/spclans/spclans_italy_genoa_N.xml-->
+  <!--input/spclans/spclans_italian_genoa.xml-->
   <string id="OVQoC9fn" text="Фамілья дзі Бокканегра"/>
   <string id="a4GxTbPD" text="Фамілья Сьпінола"/>
   <string id="tdGvElSy" text="Фамілья Грымальдзі"/>
@@ -187,21 +190,21 @@
   <string id="bjemmmcF" text="Фамілья Дор'я"/>
   <string id="pdz4YsEf" text="Фамілья Адорна"/>
   <string id="LTWTTQ71" text="Фамілья Дзаккарыя"/>
-  <!--input/spclans/spclans_italy_milan_N.xml-->
+  <!--input/spclans/spclans_italian_milan.xml-->
   <string id="clan_milan_1" text="Вісконці дзі Мілан"/>
   <string id="clan_milan_2" text="Каса дзі Ланчыя"/>
   <string id="clan_milan_3" text="Каса дэлла Торрэ-Торрыяні"/>
-  <!--input/spclans/spclans_italy_papal_N.xml-->
+  <!--input/spclans/spclans_italian_papal.xml-->
   <string id="nobleHouse_papal_1" text="Суммус Понціфекс Эклезія Універсаліс"/>
   <string id="nobleHouse_papal_2" text="Каса дэй Каэтані"/>
   <string id="nobleHouse_papal_3" text="Каса дэй Конці дзі Сеньі"/>
   <string id="nobleHouse_papal_4" text="Каса дэй Калонна"/>
   <string id="nobleHouse_papal_5" text="Каса дэй Орсіні "/>
-  <!--input/spclans/spclans_italy_pisa_N.xml-->
+  <!--input/spclans/spclans_italian_pisa.xml-->
   <string id="clan_pisa_1" text="Вісконці дзі Піза эт Сардзінія"/>
   <string id="clan_pisa_2" text="Каса дзі Герардэска"/>
   <string id="clan_pisa_3" text="Каса дзі Монтэфельтра"/>
-  <!--input/spclans/spclans_italy_sicily_N.xml-->
+  <!--input/spclans/spclans_italian_sicily.xml-->
   <string id="nobleHouse_sicily_1" text="Гогенштаўф дзі Сіцылія"/>
   <string id="nobleHouse_sicily_2" text="Касата Ланчыя дзі Сіцылія"/>
   <string id="nobleHouse_sicily_3" text="Фамілья Малетта"/>
@@ -211,7 +214,7 @@
   <string id="nobleHouse_sicily_7" text="Фамілья Грыфео"/>
   <string id="nobleHouse_sicily_8" text="Фамілья Кабрэра"/>
   <string id="nobleHouse_sicily_9" text="Фамілья Романа"/>
-  <!--input/spclans/spclans_italy_venice_N.xml-->
+  <!--input/spclans/spclans_italian_venice.xml-->
   <string id="fXENjJJL" text="Фамілья Цзэно"/>
   <string id="UW8BjPXR" text="Фамілья Цьепола"/>
   <string id="txCNVmSV" text="Фамілья Гізі"/>
@@ -221,25 +224,13 @@
   <string id="CibaXzG8" text="Фамілья Дандола"/>
   <string id="SCTf5cay" text="Фамілья Джусьцініані"/>
   <string id="nclQqoam" text="Фамілья Кверыні"/>
-  <!--input/spclans/spclans_italy_verona_N.xml-->
+  <!--input/spclans/spclans_italian_verona.xml-->
   <string id="clan_verona_1" text="Скала-Скаліджэры дзі Верона"/>
   <!--input/spclans/spclans_latin.xml-->
-  <string id="nobleHouse_latinempire_1" text="Мізон Капетын ду Куртэнэ"/>
-  <string id="nobleHouse_latinempire_2" text="Мізон ду Вільардуа"/>
-  <string id="nobleHouse_latinempire_3" text="Мізон ду ля Рош"/>
+  <string id="nobleHouse_latinempire_1" text="Мезон Капетын ду Куртэнэ"/>
+  <string id="nobleHouse_latinempire_2" text="Мезон ду Вільардуа"/>
+  <string id="nobleHouse_latinempire_3" text="Мезон ду ля Рош"/>
   <string id="nobleHouse_latinempire_4" text="Касата дэ Санудо"/>
-  <!--input/spclans/spclans_main_hero.xml-->
-  <string id="o0Xm5Rqk" text="Уладаньні Гульца"/>
-  <!--input/spclans/spclans_marinid_N.xml-->
-  <string id="nobleHouse_marinid_1" text="Бану Марын"/>
-  <string id="nobleHouse_marinid_2" text="Бану Ідрыс"/>
-  <string id="nobleHouse_marinid_3" text="Бану Мухаммад"/>
-  <string id="nobleHouse_marinid_4" text="Бану Адэргал"/>
-  <string id="nobleHouse_marinid_5" text="Бану Ібрахім"/>
-  <string id="nobleHouse_marinid_6" text="Бану Ях'я"/>
-  <string id="nobleHouse_marinid_7" text="Бану Умар"/>
-  <string id="nobleHouse_marinid_8" text="Бану Абдалла"/>
-  <string id="nobleHouse_marinid_9" text="Бану Саід"/>
   <!--input/spclans/spclans_minor.xml-->
   <string id="ghilmanClanName" text="Гільманы"/>
   <string id="ghilmanClanText" text="Гільманы - гэта рабы-ваяры, запалоненыя з заваяваных краёў ці памежжа, асабліва з ліку Цюрскіх народаў Цэнтральнай Азіі і народаў Каўказа."/>
@@ -267,14 +258,16 @@
   <string id="hospitallersudtone_factionname" text="Рыцары-Шпітальеры"/>
   <string id="hospitallersudtone_factionshortname" text="Рыцары-Шпітальеры"/>
   <string id="hospitallersudtone_factiontext" text="Рыцары-Шпітальеры з Садтону - гэта галіна Рыцарскага Ордэну Шпітальераў Сьвятога Іаана Ерусалімскага, што зьмесцавана ў Садтоне, на зямлі, дараванай ордэну Ангельскім Каралеўствам. На гэтых землях разьмешчаны капліца і сад з равамі, якія служаць прэцэпторыяй ордэна. Іншае камандорства ордэна знаходзіцца далей на захадзе Англіі, у Квэнінтоне."/>
-  <string id="almogavar_factionname" text="Альмагавары"/>
-  <string id="almogavar_factionshortname" text="Альмагавары"/>
-  <string id="almogavar_factiontext" text="Альмагавары - гэта назва роду лёгкай пяхоты, хуткага пешага авангарду з лёгкім адзеньнем. Выкарыстаньне мясцовасьці на сваю карысьць і начныя змаганьні ў спалучэньні з вялікай рухомасьцю робяць іх жалівай моцай, зь якой даводзіцца лічыцца. Апошнім часам Альмагавары пачалі вывучаць конную язду, тое апынулася эфектыўным. Звычайна іх выкарыстоўвае Гішпанская шляхта ў сваім войсках, але зараз яны атрымліваюць славутасьць найміцкіх кампаніяў."/>
-  <!--input/spclans/spclans_murcia.xml-->
-  <string id="clan_murcia_1" text="Бану Худ"/>
-  <!--input/spclans/spclans_navarre.xml-->
-  <string id="nobleHouse_navarre_1" text="Мізон дэ Блуа-Навара"/>
-  <string id="nobleHouse_navarre_2" text="Мізон дэ Хімэнэс"/>
+  <!--input/spclans/spclans_mongolian.xml-->
+<string id="CRSFOSil" text="Борджыгін"/>
+<string id="Q1nAHnV7" text="Мірхан"/>
+<string id="VpF6skYs" text="Алаколюк"/>
+<string id="m0teef5g" text="Кыргыза"/>
+<string id="gXeF1yKn" text="Джыркін"/>
+<string id="kbGk2so8" text="Хутаг"/>
+<string id="b6SEM6Ab" text="Булак Урту"/>
+<string id="W9n5iPbB" text="Аўрангід"/>
+<string id="cYTdzMQ4" text="Монхбат"/>
   <!--input/spclans/spclans_norway.xml-->
   <string id="nobleHouse_norway_1" text="Сьверрэттар"/>
   <string id="nobleHouse_norway_2" text="Хаўкдзелірсэттар"/>
@@ -295,10 +288,6 @@
   <string id="nobleHouse_portugal_2" text="Каса дэ Соўза"/>
   <string id="nobleHouse_portugal_3" text="Каса дэ Брытэйрус"/>
   <string id="nobleHouse_portugal_4" text="Каса дэ Брыту"/>
-  <!--input/spclans/spclans_rum_sultanate.xml-->
-  <string id="nobleHouse_rum_1" text="Дом Сэльджук"/>
-  <string id="nobleHouse_rum_2" text="Дом Арслан Айдзін"/>
-  <string id="nobleHouse_rum_3" text="Дом Ісламбек"/>
   <!--input/spclans/spclans_rus_chernigov.xml-->
   <string id="Vsevolodovichi" text="Ольговічы-Всевалодавічы Чарнігаўскія"/>
   <string id="Glebovichi" text="Глебовічы"/>
@@ -335,12 +324,17 @@
   <string id="nobleHouse_scotland_3" text="Сейціх"/>
   <string id="nobleHouse_scotland_4" text="Дун Барра"/>
   <!--input/spclans/spclans_serbia.xml-->
-  <string id="serbia_clan1" text="Неманічы"/>
-  <string id="serbia_clan2" text="Дэяновічы"/>
+  <string id="serbia_clan1" text="Няманічы"/>
+  <string id="clan_serbia_1Text" text="Дом Няманічаў, каралеўская дынастыя, заснаваная Стэфанам Няманяй. Кароль Стэфан Урош I трымае непахісную ўладу як аб'яднаўчая сіла панства."/>
+  <string id="serbia_clan2" text="Дэянавічы"/>
+  <string id="clan_serbia_2Text" text="Дом Дэянавічаў — мацнеючы шляхецкі род Сербскага Каралеўства XIII стагодзьдзя пры каралях з дынастыі Няманічаў, які паходзіць з памежных зямель. Яго заснавальнік Дэян, давераны ваявода і магнат, які праз шлюб з каралеўскай сям'ёй умацаваў становішча роду і заклаў аснову яго ўзвышэньня ў XIV стагодзьдзі. У гэты перыяд Дэянавічы дасягнулі высокіх тытулаў севастакратараў і дэспатаў, кіравалі ўсходнімі вобласьцямі, у тым ліку Куманавам і Прэшавай. Яны заставаліся вернымі васаламі Няманічаў і адыгрывалі важную ролю ў абароне паўднёвых межаў дзяржавы."/>
   <string id="serbia_clan3" text="Бранковічы"/>
+  <string id="clan_serbia_3Text" text="Дом Бранковічаў — шляхецкі род, які ўзьнік у Сербскім Каралеўстве XIII стагодзьдзя пры каралях з дынастыі Няманічаў і паходзіць ад роду, зьвязанага з Младэнавічамі. Раньні родапачынальнік Бранка Младэнавіч у пачатку XIV стагодзьдзя служыў давераным магнатам і намесьнікам (пасьля заснаваньня 1259 года), заставаўся верным васалам спадароў. Яго нашчадкі пазьней заявілі пра матрылінейныя сувязі з каралеўскім домам Няманічаў, што спрыяла іх узвышэньню. У выніку Бранковічы ўзялі пад кантроль ключавыя землі Косава і ўрэшце сталі валадарамі Сербскага Дэспатату ў перыяд пасьля распаду імперыі."/>
   <string id="serbia_clan4" text="Хрэбеляновічы"/>
+  <string id="clan_serbia_4Text" text="Дом Хрэбеляновічаў — шляхецкі род, які ўзьнік у Сербскім Каралеўстве XIII стагодзьдзя пры каралях з дынастыі Няманічаў і паходзіць з дробнай шляхты горназдабыўчага рэгіёна Нова-Брда. Яго родапачынальнік Прыбац Хрэбеляновіч служыў лагатэтам (канцлерам) пры палацы Імператара Стэфана Душана. Яго сын Лазар, прасоўваючыся па палацавай іерархіі, стаў адной з ключавых фігураў імперыі, а праз шлюбныя сувязі з дынастыяй Няманічаў умацаваў сваё становішча. Ён заклаў аснову дынастыі Лазарэвічаў, якая пасьля заняпаду імперыі ўзначаліла Мараўскую Сербію."/>
   <string id="serbia_clan5" text="Бучычы"/>
-  <!--input/spclans/spclans_sweden_N.xml-->
+  <string id="clan_serbia_5Text" text="Клан Бучычаў — дробны шляхецкі род Сербскага Каралеўства XIII стагодзьдзя пры каралях з дынастыі Няманічаў, які, верагодна, паходзіць з мясцовых землеўладальнікаў ці васальных ваяроў цэнтральных альбо паўднёвых земляў. Гэты род узьнік як мясцовая дробная шляхта (властэлічычы), зьвязаная з валоданьнем вясковымі землямі і вайсковай службай. Іх паходжаньне, магчыма, было звязана з горназдабыўчымі раёнамі або памежнымі тэрыторыямі. Бучычы верна служылі ў феадальнай іерархіі, не дасягнуўшы значнай палітычнай вагі ў раньні перыяд, але захоўваючы ролю мясцовых васалаў у структуры дзяржавы."/>
+  <!--input/spclans/spclans_swedish.xml-->
   <string id="nobleHouse_sweden_1" text="Бьяльбоаттэн"/>
   <string id="nobleHouse_sweden_2" text="Асьпенасаттэн"/>
   <string id="nobleHouse_sweden_3" text="Фарлаттэн"/>
@@ -354,15 +348,17 @@
   <string id="teutonic_clan1" text="Капітулум Генерале"/>
   <string id="teutonic_clan2" text="Магнус Коммендатор"/>
   <string id="teutonic_clan3" text="Суммус Шпіталарыус"/>
-  <!--input/spclans/spclans_tlemcen_N.xml-->
-  <string id="nobleHouse_zyan_1" text="Бану Зян"/>
-  <!--input/spclans/spclans_turkish.xml-->
+  <!--input/spclans/spclans_turkish_mamluk.xml-->
   <string id="nobleHouse_mamluk_1" text="Ануш-Тэгін"/>
   <string id="nobleHouse_mamluk_2" text="Захіры"/>
   <string id="nobleHouse_mamluk_3" text="Аюб"/>
   <string id="nobleHouse_mamluk_4" text="Кітбугі"/>
   <string id="nobleHouse_mamluk_5" text="Ашкары"/>
   <string id="nobleHouse_mamluk_6" text="Каімакары"/>
+  <!--input/spclans/spclans_turkish_sultanate.xml-->
+  <string id="nobleHouse_rum_1" text="Дом Сэльджук"/>
+  <string id="nobleHouse_rum_2" text="Дом Арслан Айдын"/>
+  <string id="nobleHouse_rum_3" text="Дом Ісламбек"/>
   <!--input/spclans/spclans_wales.xml-->
   <string id="wales_clan1" text="Аберфраў"/>
   <string id="wales_clan2" text="Матрафал з Поўіса"/>
