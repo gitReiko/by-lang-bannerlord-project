@@ -27,7 +27,7 @@ function generateXSLT() {
   const parser = new DOMParser();
   const xml = parser.parseFromString(xmlText, "text/xml");
 
-  const items = xml.getElementsByTagName("Item");
+  const items = xml.getElementsByTagName("CraftedItem");
 
   let xslt =
 `<?xml version="1.0" encoding="UTF-8"?>
@@ -45,7 +45,7 @@ function generateXSLT() {
     if (!id) continue;
 
     xslt += `
-  <xsl:template match="Item[@id='${id}']/@name">
+  <xsl:template match="CraftedItem[@id='${id}']/@name">
     <xsl:attribute name="name">${escapeXML(name)}</xsl:attribute>
   </xsl:template>
 `;
