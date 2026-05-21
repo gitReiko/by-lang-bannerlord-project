@@ -2,7 +2,7 @@
 <Items>
 	<!-- Armors included in AD1259 pack0.tpac, thanks to Maxim. -->
 	<!-- #region ANNO DOMINI 1259 -->
-	<Item id="1259_skullcap" name="{=ad1259_helmet_1}[XIII][Head] Skullcap over Mail Coif" mesh="skullcap" culture="Culture.castile" value="14645" weight="2.4" appearance="2.7" Type="HeadArmor">
+	<Item id="1259_skullcap" name="{=ad1259_helmet_1}[XIII][Head] Skullcap over Mail Coif" mesh="skullcap" culture="Culture.neutral_culture" value="14645" weight="2.4" appearance="2.7" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="52" body_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
@@ -27,31 +27,31 @@
 		<Flags UseTeamColor="true"/>
 	</Item>
 
-	<Item id="mail_with_tabbard_cas" name="[XIII][Body] Tabard over mail Castile" mesh="mail_with_tabbard_cas" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.castile" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_cas" name="[XIII][Body] Tabard over mail Castile" mesh="mail_with_tabbard_cas" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_fra" name="[XIII][Body] Tabard over mail France" mesh="mail_with_tabbard_fra" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_fra" name="[XIII][Body] Tabard over mail France" mesh="mail_with_tabbard_fra" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_fraKing" name="[XIII][Body] Tabard over mail France King" mesh="mail_with_tabbard_fraKing" is_merchandise="false" subtype="body_armor" value="40000" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_fraKing" name="[XIII][Body] Tabard over mail France King" mesh="mail_with_tabbard_fraKing" is_merchandise="false" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="74" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_hre" name="[XIII][Body] Tabard over mail German Eagle" mesh="mail_with_tabbard_hre" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.germanic" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_hre" name="[XIII][Body] Tabard over mail German Eagle" mesh="mail_with_tabbard_hre" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_dreux" name="[XIII][Body] Tabard over mail Brittany" mesh="mail_with_tabbard_dreux" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_dreux" name="[XIII][Body] Tabard over mail Brittany" mesh="mail_with_tabbard_dreux" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
@@ -63,19 +63,19 @@
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_eng" name="[XIII][Body] Tabard over mail England" mesh="mail_with_tabbard_eng" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.battania" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_eng" name="[XIII][Body] Tabard over mail England" mesh="mail_with_tabbard_eng" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_sic" name="[XIII][Body] Tabard over mail Hohenstaufen" mesh="mail_with_tabbard_sic" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.empire" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_sic" name="[XIII][Body] Tabard over mail Hohenstaufen" mesh="mail_with_tabbard_sic" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_sverre" name="[XIII][Body] Tabard over mail Norway" mesh="mail_with_tabbard_sverre" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.norwegian" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_sverre" name="[XIII][Body] Tabard over mail Norway" mesh="mail_with_tabbard_sverre" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
@@ -93,7 +93,7 @@
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_santiago" name="[XIII][Body] Tabard over mail Santiago Order" mesh="mail_with_tabbard_santiago" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.castile" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_santiago" name="[XIII][Body] Tabard over mail Santiago Order" mesh="mail_with_tabbard_santiago" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
@@ -123,13 +123,13 @@
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_scot1" name="[XIII][Body] Tabard over mail Scotland Lion" mesh="mail_with_tabbard_scot1" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.scottish" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_scot1" name="[XIII][Body] Tabard over mail Scotland Lion" mesh="mail_with_tabbard_scot1" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="mail_with_tabbard_scot2" name="[XIII][Body] Tabard over mail Scotland Sigil" mesh="mail_with_tabbard_scot2" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.scottish" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="mail_with_tabbard_scot2" name="[XIII][Body] Tabard over mail Scotland Sigil" mesh="mail_with_tabbard_scot2" is_merchandise="true" subtype="body_armor" value="40000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="70" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="Chainmail" material_type="Chainmail"/>
 		</ItemComponent>
@@ -400,55 +400,55 @@
 	<!-- #endregion -->
 	<!-- #region Vaegir Armoury -->
 	<!-- #region Helmets -->
-	<Item id="Rus_helm_icon" name="[XIII][Head] Rus Helmet (Decorated)" subtype="head_armor" mesh="rus_helm_icon" culture="Culture.rus" weight="1.8" difficulty="0" appearance="1" value="60000" Type="HeadArmor">
+	<Item id="Rus_helm_icon" name="[XIII][Head] Rus Helmet (Decorated)" subtype="head_armor" mesh="rus_helm_icon" culture="Culture.neutral_culture" weight="1.8" difficulty="0" appearance="1" value="60000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="100" body_armor="100" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="Rus_helm_noble" name="[XIII][Head] Rus Helmet (Noble)" subtype="head_armor" mesh="rus_helm_noble" culture="Culture.rus" weight="4" difficulty="0" appearance="1" value="55000" Type="HeadArmor">
+	<Item id="Rus_helm_noble" name="[XIII][Head] Rus Helmet (Noble)" subtype="head_armor" mesh="rus_helm_noble" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="55000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="105" body_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="Rus_helm_noble_icon" name="[XIII][Head] Rus Helmet (Decorated, Noble)" subtype="head_armor" mesh="rus_helm_noble_icon" culture="Culture.rus" weight="4" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+	<Item id="Rus_helm_noble_icon" name="[XIII][Head] Rus Helmet (Decorated, Noble)" subtype="head_armor" mesh="rus_helm_noble_icon" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="105" body_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="Rus_helm_regular" name="[XIII][Head] Rus Helmet" subtype="head_armor" mesh="rus_helm_regular" culture="Culture.rus" weight="4" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
+	<Item id="Rus_helm_regular" name="[XIII][Head] Rus Helmet" subtype="head_armor" mesh="rus_helm_regular" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="Rus_helm_regular2" name="[XIII][Head] Rus Helmet" subtype="head_armor" mesh="rus_helm_regular2" culture="Culture.rus" weight="4" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
+	<Item id="Rus_helm_regular2" name="[XIII][Head] Rus Helmet" subtype="head_armor" mesh="rus_helm_regular2" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="30" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="Rus_open_helm" name="[XIII][Head] Rus Helmet" subtype="head_armor" mesh="rus_open_helm" culture="Culture.rus" weight="4" difficulty="0" appearance="1" value="45000" Type="HeadArmor">
+	<Item id="Rus_open_helm" name="[XIII][Head] Rus Helmet" subtype="head_armor" mesh="rus_open_helm" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="45000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="30" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="Vaegir_helm" name="[XIII][Head] Cuman War Mask" subtype="head_armor" mesh="vaegir_helm" culture="Culture.rus" weight="4" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+	<Item id="Vaegir_helm" name="[XIII][Head] Cuman War Mask" subtype="head_armor" mesh="vaegir_helm" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="110" body_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="Vaegir_helm_open" name="[XIII][Head] Rus helmet" subtype="head_armor" mesh="vaegir_helm_open" culture="Culture.rus" weight="3.5" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+	<Item id="Vaegir_helm_open" name="[XIII][Head] Rus helmet" subtype="head_armor" mesh="vaegir_helm_open" culture="Culture.neutral_culture" weight="3.5" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="30" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="Va_NorseLord" name="[XIII][Head] Northern lord helmet" subtype="head_armor" mesh="va_norselord" culture="Culture.rus" weight="4" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
+	<Item id="Va_NorseLord" name="[XIII][Head] Northern lord helmet" subtype="head_armor" mesh="va_norselord" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="100" body_armor="80" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
@@ -456,19 +456,19 @@
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Body - done -->
-	<Item id="Rus_armour" name="[XIII][Body] Coat of plates 1 (Rus, Basic)" mesh="Rus_armour" is_merchandise="true" subtype="body_armor" value="100000" culture="Culture.rus" weight="24" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="Rus_armour" name="[XIII][Body] Coat of plates 1 (Rus, Basic)" mesh="Rus_armour" is_merchandise="true" subtype="body_armor" value="100000" culture="Culture.neutral_culture" weight="24" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="76" leg_armor="48" arm_armor="56" covers_body="true" modifier_group="Plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="Rus_armour1" name="[XIII][Body] Coat of plates 2 (Rus, Golden)" mesh="Rus_armour1" is_merchandise="true" subtype="body_armor" value="200000" culture="Culture.rus" weight="24" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="Rus_armour1" name="[XIII][Body] Coat of plates 2 (Rus, Golden)" mesh="Rus_armour1" is_merchandise="true" subtype="body_armor" value="200000" culture="Culture.neutral_culture" weight="24" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="80" leg_armor="48" arm_armor="60" covers_body="true" modifier_group="Plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="Rus_armour2" name="[XIII][Body] Coat of plates 3 (Rus, Half-golden)" mesh="Rus_armour2" is_merchandise="true" subtype="body_armor" value="150000" culture="Culture.rus" weight="24" difficulty="0" appearance="1" Type="BodyArmor">
+	<Item id="Rus_armour2" name="[XIII][Body] Coat of plates 3 (Rus, Half-golden)" mesh="Rus_armour2" is_merchandise="true" subtype="body_armor" value="150000" culture="Culture.neutral_culture" weight="24" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="78" leg_armor="48" arm_armor="58" covers_body="true" modifier_group="Plate" material_type="Plate"/>
 		</ItemComponent>
@@ -476,127 +476,127 @@
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Rus helmets - done, source: https://www.nexusmods.com/mountandblade2bannerlord/mods/6652-->
-	<Item id="osp_li4ina" name="[XIII][Head] Lichina" subtype="head_armor" mesh="li4ina" culture="Culture.rus" weight="4" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+	<Item id="osp_li4ina" name="[XIII][Head] Lichina" subtype="head_armor" mesh="li4ina" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="105" body_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="osp_nikolskoe" name="[XIII][Head] Nikolskoe Helmet" mesh="nikolskoe" culture="Culture.rus" weight="3.8" appearance="2" Type="HeadArmor">
+	<Item id="osp_nikolskoe" name="[XIII][Head] Nikolskoe Helmet" mesh="nikolskoe" culture="Culture.neutral_culture" weight="3.8" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="90" body_armor="40" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_tagancha" name="[XIII][Head] Tagancha Helmet" mesh="tagancha" culture="Culture.rus" weight="3.8" appearance="2" Type="HeadArmor">
+	<Item id="osp_tagancha" name="[XIII][Head] Tagancha Helmet" mesh="tagancha" culture="Culture.neutral_culture" weight="3.8" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="90" body_armor="40" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_bukvitza" name="[XIII][Head] Bukvitza Helmet" mesh="bukvitza" culture="Culture.rus" weight="3.8" appearance="2" Type="HeadArmor">
+	<Item id="osp_bukvitza" name="[XIII][Head] Bukvitza Helmet" mesh="bukvitza" culture="Culture.neutral_culture" weight="3.8" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="90" body_armor="40" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_4ernaja_mogila" name="[XIII][Head] Chernaja Mogila" mesh="4ernaja_mogila" culture="Culture.rus" weight="3.4" appearance="2" Type="HeadArmor">
+	<Item id="osp_4ernaja_mogila" name="[XIII][Head] Chernaja Mogila" mesh="4ernaja_mogila" culture="Culture.neutral_culture" weight="3.4" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_ukraina_coif" name="[XIII][Head] Halychian Coif" mesh="ukraina_coif" culture="Culture.rus" weight="3.4" appearance="2" Type="HeadArmor">
+	<Item id="osp_ukraina_coif" name="[XIII][Head] Halychian Coif" mesh="ukraina_coif" culture="Culture.neutral_culture" weight="3.4" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_kiev_helmet" name="[XIII][Head] Kievska Helmet" mesh="kiev_helmet" culture="Culture.rus" weight="3.4" appearance="2" Type="HeadArmor">
+	<Item id="osp_kiev_helmet" name="[XIII][Head] Kievska Helmet" mesh="kiev_helmet" culture="Culture.neutral_culture" weight="3.4" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_desiatinnaya" name="[XIII][Head] Desiatinnaya Helmet" mesh="desiatinnaya" culture="Culture.rus" weight="3" appearance="3" Type="HeadArmor">
+	<Item id="osp_desiatinnaya" name="[XIII][Head] Desiatinnaya Helmet" mesh="desiatinnaya" culture="Culture.neutral_culture" weight="3" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_gulbishe" name="[XIII][Head] Gulbishe Helmet" mesh="gulbishe" culture="Culture.rus" weight="3" appearance="3" Type="HeadArmor">
+	<Item id="osp_gulbishe" name="[XIII][Head] Gulbishe Helmet" mesh="gulbishe" culture="Culture.neutral_culture" weight="3" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_kamenetz_podolsky" name="[XIII][Head] Kamenetz-Podolsky Helmet" mesh="kamenetz_podolsky" culture="Culture.rus" weight="3" appearance="3.1" Type="HeadArmor">
+	<Item id="osp_kamenetz_podolsky" name="[XIII][Head] Kamenetz-Podolsky Helmet" mesh="kamenetz_podolsky" culture="Culture.neutral_culture" weight="3" appearance="3.1" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_ukraina" name="[XIII][Head] Halychian Helmet" mesh="ukraina" culture="Culture.rus" weight="3" appearance="3.1" Type="HeadArmor">
+	<Item id="osp_ukraina" name="[XIII][Head] Halychian Helmet" mesh="ukraina" culture="Culture.neutral_culture" weight="3" appearance="3.1" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_nemia" name="[XIII][Head] Nemia Helmet" mesh="nemia" culture="Culture.rus" weight="3" appearance="3" Type="HeadArmor">
+	<Item id="osp_nemia" name="[XIII][Head] Nemia Helmet" mesh="nemia" culture="Culture.neutral_culture" weight="3" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_gnezdovo1_chainmail" name="[XIII][Head] Gnezdovo Chainmail Helmet" mesh="gnezdovo1_chainmail" culture="Culture.rus" weight="3" appearance="3" Type="HeadArmor">
+	<Item id="osp_gnezdovo1_chainmail" name="[XIII][Head] Gnezdovo Chainmail Helmet" mesh="gnezdovo1_chainmail" culture="Culture.neutral_culture" weight="3" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_babichi_chainmail" name="[XIII][Head] Babichi Chainmail Helmet" mesh="babichi_chainmail" culture="Culture.rus" weight="3" appearance="3" Type="HeadArmor">
+	<Item id="osp_babichi_chainmail" name="[XIII][Head] Babichi Chainmail Helmet" mesh="babichi_chainmail" culture="Culture.neutral_culture" weight="3" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="80" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_babichi" name="[XIII][Head] Babichi Helmet" subtype="head_armor" mesh="babichi" culture="Culture.rus" weight="2.8" difficulty="0" appearance="1.4" Type="HeadArmor">
+	<Item id="osp_babichi" name="[XIII][Head] Babichi Helmet" subtype="head_armor" mesh="babichi" culture="Culture.neutral_culture" weight="2.8" difficulty="0" appearance="1.4" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="45" body_armor="15" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_gnezdovo1" name="[XIII][Head] Gnezdovo Helmet 1" subtype="head_armor" mesh="gnezdovo1" culture="Culture.rus" weight="2.8" difficulty="0" appearance="1.4" Type="HeadArmor">
+	<Item id="osp_gnezdovo1" name="[XIII][Head] Gnezdovo Helmet 1" subtype="head_armor" mesh="gnezdovo1" culture="Culture.neutral_culture" weight="2.8" difficulty="0" appearance="1.4" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="45" body_armor="15" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_nemia_simple" name="[XIII][Head] Nemia Simple Helmet" subtype="head_armor" mesh="nemia_simple" culture="Culture.rus" weight="2.8" difficulty="0" appearance="1.4" Type="HeadArmor">
+	<Item id="osp_nemia_simple" name="[XIII][Head] Nemia Simple Helmet" subtype="head_armor" mesh="nemia_simple" culture="Culture.neutral_culture" weight="2.8" difficulty="0" appearance="1.4" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="45" body_armor="15" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_leatherhelmet_eastern" name="[XIII][Head] Leather Helmet Eastern" subtype="head_armor" mesh="leatherhelmet_eastern" culture="Culture.rus" weight="1" difficulty="0" appearance="1" Type="HeadArmor">
+	<Item id="osp_leatherhelmet_eastern" name="[XIII][Head] Leather Helmet Eastern" subtype="head_armor" mesh="leatherhelmet_eastern" culture="Culture.neutral_culture" weight="1" difficulty="0" appearance="1" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="35" body_armor="10" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_leather_spangenhelm" name="[XIII][Head] Leather Spangenhelm" subtype="head_armor" mesh="leather_spangenhelm" culture="Culture.rus" weight="1" difficulty="0" appearance="1" Type="HeadArmor">
+	<Item id="osp_leather_spangenhelm" name="[XIII][Head] Leather Spangenhelm" subtype="head_armor" mesh="leather_spangenhelm" culture="Culture.neutral_culture" weight="1" difficulty="0" appearance="1" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="35" body_armor="10" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="osp_gnezdovo2" name="[XIII][Head] Gnezdovo Helmet 2" mesh="gnezdovo2" culture="Culture.rus" weight="3.5" appearance="2" Type="HeadArmor">
+	<Item id="osp_gnezdovo2" name="[XIII][Head] Gnezdovo Helmet 2" mesh="gnezdovo2" culture="Culture.neutral_culture" weight="3.5" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="90" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="osp_lykovo" name="[XIII][Head] Lykovo Helmet" mesh="lykovo" culture="Culture.rus" weight="3.4" appearance="2" Type="HeadArmor">
+	<Item id="osp_lykovo" name="[XIII][Head] Lykovo Helmet" mesh="lykovo" culture="Culture.neutral_culture" weight="3.4" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="90" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
