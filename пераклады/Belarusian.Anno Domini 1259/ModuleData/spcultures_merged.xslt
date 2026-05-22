@@ -9,985 +9,3453 @@
 
   <!-- spcultures_bohemia -->
 
-  <xsl:template match="Culture[@id='bohemia']/male_names">
-    <male_names>
-      <name name="{=bohemia_male_name_1}Jakub"/>
-      <name name="{=bohemia_male_name_2}Matěj"/>
-      <name name="{=bohemia_male_name_3}Jiří"/>
-      <name name="{=bohemia_male_name_4}Martin"/>
-      <name name="{=bohemia_male_name_5}Matouš"/>
-      <name name="{=bohemia_male_name_6}Mikuláš"/>
-      <name name="{=bohemia_male_name_7}Ondřej"/>
-      <name name="{=bohemia_male_name_8}Pavel"/>
-      <name name="{=bohemia_male_name_9}Petr"/>
-      <name name="{=bohemia_male_name_10}Václav"/>
-      <name name="{=bohemia_male_name_11}Michal"/>
-      <name name="{=bohemia_male_name_12}Tomáš"/>
-      <name name="{=bohemia_male_name_13}Bohuš"/>
-      <name name="{=bohemia_male_name_14}Diviš"/>
-      <name name="{=bohemia_male_name_15}Bojislav"/>
-      <name name="{=bohemia_male_name_16}Jaromír"/>
-      <name name="{=bohemia_male_name_17}Ján"/>
-      <name name="{=bohemia_male_name_18}Pravoslav"/>
-      <name name="{=bohemia_male_name_19}Ctislav"/>
-      <name name="{=bohemia_male_name_20}Vojtěch"/>
-      <name name="{=bohemia_male_name_21}Vyšeslav"/>
-      <name name="{=bohemia_male_name_22}Bohumil"/>
-      <name name="{=bohemia_male_name_23}Kazimír"/>
-      <name name="{=bohemia_male_name_24}Jaropluk"/>
-      <name name="{=bohemia_male_name_25}Ctibor"/>
-      <name name="{=bohemia_male_name_26}Miloslav"/>
-      <name name="{=bohemia_male_name_27}Všeslav"/>
-      <name name="{=bohemia_male_name_28}Blažej"/>
-      <name name="{=bohemia_male_name_29}Svatopluk"/>
-      <name name="{=bohemia_male_name_30}Albert"/>
-      <name name="{=bohemia_male_name_31}Vilém"/>
-      <name name="{=bohemia_male_name_32}Kryštof"/>
-      <name name="{=bohemia_male_name_33}Jáchym"/>
-      <name name="{=bohemia_male_name_34}Jindřich"/>
-      <name name="{=bohemia_male_name_35}Adam"/>
-      <name name="{=bohemia_male_name_36}Zbyněk"/>
-      <name name="{=bohemia_male_name_37}Bohuslav"/>
-      <name name="{=bohemia_male_name_38}Radoslav"/>
-    </male_names>
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[1]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_1}Jakub</xsl:attribute>
   </xsl:template>
 
-  <xsl:template match="Culture[@id='bohemia']/female_names">
-    <female_names>
-      <name name="{=bohemia_female_name_1}Anna"/>
-      <name name="{=bohemia_female_name_2}Anežka"/>
-      <name name="{=bohemia_female_name_3}Alice"/>
-      <name name="{=bohemia_female_name_4}Blahota"/>
-      <name name="{=bohemia_female_name_5}Markéta"/>
-      <name name="{=bohemia_female_name_6}Chotimíra"/>
-      <name name="{=bohemia_female_name_7}Dorota"/>
-      <name name="{=bohemia_female_name_8}Alžběta"/>
-      <name name="{=bohemia_female_name_9}Dana"/>
-      <name name="{=bohemia_female_name_10}Kunhuta"/>
-      <name name="{=bohemia_female_name_11}Jana"/>
-      <name name="{=bohemia_female_name_12}Lída"/>
-      <name name="{=bohemia_female_name_13}Otta"/>
-      <name name="{=bohemia_female_name_14}Střezislava"/>
-      <name name="{=bohemia_female_name_15}Kateřina"/>
-      <name name="{=bohemia_female_name_16}Tyeska"/>
-      <name name="{=bohemia_female_name_17}Střezislava"/>
-      <name name="{=bohemia_female_name_18}Zdenka"/>
-      <name name="{=bohemia_female_name_19}Zdeslava"/>
-      <name name="{=bohemia_female_name_20}Mariana"/>
-      <name name="{=bohemia_female_name_21}Vlastimila"/>
-      <name name="{=bohemia_female_name_22}Sáva"/>
-      <name name="{=bohemia_female_name_23}Ctislava"/>
-      <name name="{=bohemia_female_name_24}Jaroslava"/>
-      <name name="{=bohemia_female_name_25}Zbislava"/>
-      <name name="{=bohemia_female_name_26}Slavena"/>
-      <name name="{=bohemia_female_name_27}Lidoslava"/>
-      <name name="{=bohemia_female_name_28}Polemíra"/>
-      <name name="{=bohemia_female_name_29}Bohdana"/>
-      <name name="{=bohemia_female_name_30}Miloslava"/>
-      <name name="{=bohemia_female_name_31}Polemíra"/>
-      <name name="{=bohemia_female_name_32}Myslena"/>
-      <name name="{=bohemia_female_name_33}Bohumila"/>
-      <name name="{=bohemia_female_name_34}Magdalena"/>
-      <name name="{=bohemia_female_name_35}Hněvomíra"/>
-      <name name="{=bohemia_female_name_36}Jadwiga"/>
-      <name name="{=bohemia_female_name_37}Vojslava"/>
-      <name name="{=bohemia_female_name_38}Milada"/>
-    </female_names>
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[2]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_2}Matěj</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[3]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_3}Jiří</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[4]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_4}Martin</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[5]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_5}Matouš</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[6]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_6}Mikuláš</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[7]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_7}Ondřej</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[8]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_8}Pavel</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[9]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_9}Petr</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[10]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_10}Václav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[11]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_11}Michal</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[12]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_12}Tomáš</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[13]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_13}Bohuš</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[14]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_14}Diviš</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[15]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_15}Bojislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[16]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_16}Jaromír</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[17]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_17}Ján</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[18]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_18}Pravoslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[19]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_19}Ctislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[20]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_20}Vojtěch</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[21]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_21}Vyšeslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[22]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_22}Bohumil</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[23]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_23}Kazimír</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[24]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_24}Jaropluk</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[25]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_25}Ctibor</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[26]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_26}Miloslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[27]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_27}Všeslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[28]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_28}Blažej</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[29]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_29}Svatopluk</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[30]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_30}Albert</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[31]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_31}Vilém</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[32]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_32}Kryštof</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[33]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_33}Jáchym</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[34]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_34}Jindřich</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[35]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_35}Adam</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[36]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_36}Zbyněk</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[37]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_37}Bohuslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/male_names/name[38]/@name">
+    <xsl:attribute name="name">{=bohemia_male_name_38}Radoslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[1]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_1}Anna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[2]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_2}Anežka</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[3]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_3}Alice</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[4]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_4}Blahota</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[5]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_5}Markéta</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[6]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_6}Chotimíra</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[7]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_7}Dorota</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[8]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_8}Alžběta</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[9]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_9}Dana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[10]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_10}Kunhuta</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[11]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_11}Jana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[12]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_12}Lída</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[13]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_13}Otta</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[14]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_14}Střezislava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[15]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_15}Kateřina</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[16]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_16}Tyeska</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[17]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_17}Střezislava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[18]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_18}Zdenka</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[19]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_19}Zdeslava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[20]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_20}Mariana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[21]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_21}Vlastimila</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[22]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_22}Sáva</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[23]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_23}Ctislava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[24]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_24}Jaroslava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[25]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_25}Zbislava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[26]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_26}Slavena</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[27]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_27}Lidoslava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[28]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_28}Polemíra</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[29]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_29}Bohdana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[30]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_30}Miloslava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[31]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_31}Polemíra</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[32]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_32}Myslena</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[33]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_33}Bohumila</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[34]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_34}Magdalena</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[35]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_35}Hněvomíra</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[36]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_36}Jadwiga</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[37]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_37}Vojslava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bohemia']/female_names/name[38]/@name">
+    <xsl:attribute name="name">{=bohemia_female_name_38}Milada</xsl:attribute>
   </xsl:template>
 
 
 
-  <!-- spcultures_bohemia -->
+  <!-- spcultures_bosnia -->
 
-  <xsl:template match="Culture[@id='bosnia']/male_names">
-    <male_names>
-      <name name="{=serbia_male_name_1}Vukan"/>
-      <name name="{=serbia_male_name_2}Stefan"/>
-      <name name="{=serbia_male_name_3}Radoslav"/>
-      <name name="{=serbia_male_name_4}Uroš"/>
-      <name name="{=serbia_male_name_5}Vladislav"/>
-      <name name="{=serbia_male_name_6}Dragoslav"/>
-      <name name="{=serbia_male_name_7}Predislav"/>
-      <name name="{=serbia_male_name_8}Stracimir"/>
-      <name name="{=serbia_male_name_9}Momčilo"/>
-      <name name="{=serbia_male_name_10}Lazar"/>
-      <name name="{=serbia_male_name_11}Dobroslav"/>
-      <name name="{=serbia_male_name_12}Gradislav"/>
-      <name name="{=serbia_male_name_13}Miloš"/>
-      <name name="{=serbia_male_name_14}Radivoj"/>
-      <name name="{=serbia_male_name_15}Bratislav"/>
-      <name name="{=serbia_male_name_16}Stanisav"/>
-      <name name="{=serbia_male_name_17}Tvrdislav"/>
-      <name name="{=serbia_male_name_18}Dmitar"/>
-      <name name="{=serbia_male_name_19}Nenad"/>
-      <name name="{=serbia_male_name_20}Dragutin"/>
-      <name name="{=serbia_male_name_21}Bogdan"/>
-      <name name="{=serbia_male_name_22}Petar"/>
-      <name name="{=serbia_male_name_23}Nikola"/>
-      <name name="{=serbia_male_name_24}Andrija"/>
-      <name name="{=serbia_male_name_25}Grgur"/>
-      <name name="{=serbia_male_name_26}Vojislav"/>
-      <name name="{=serbia_male_name_27}Milovan"/>
-      <name name="{=serbia_male_name_28}Desimir"/>
-      <name name="{=serbia_male_name_29}Milutin"/>
-      <name name="{=serbia_male_name_30}Branislav"/>
-    </male_names>
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[1]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_1}Vukan</xsl:attribute>
   </xsl:template>
 
-  <xsl:template match="Culture[@id='bohemia']/female_names">
-    <female_names>
-      <name name="{=serbia_female_name_1}Jelena"/>
-      <name name="{=serbia_female_name_2}Ana"/>
-      <name name="{=serbia_female_name_3}Milica"/>
-      <name name="{=serbia_female_name_4}Teodora"/>
-      <name name="{=serbia_female_name_5}Dragana"/>
-      <name name="{=serbia_female_name_6}Stana"/>
-      <name name="{=serbia_female_name_7}Radoslava"/>
-      <name name="{=serbia_female_name_8}Marija"/>
-      <name name="{=serbia_female_name_9}Vidosava"/>
-      <name name="{=serbia_female_name_10}Desislava"/>
-      <name name="{=serbia_female_name_11}Smiljana"/>
-      <name name="{=serbia_female_name_12}Bogdana"/>
-      <name name="{=serbia_female_name_13}Nevena"/>
-      <name name="{=serbia_female_name_14}Pribislava"/>
-      <name name="{=serbia_female_name_15}Radmila"/>
-      <name name="{=serbia_female_name_16}Magdalena"/>
-      <name name="{=serbia_female_name_17}Kosara"/>
-      <name name="{=serbia_female_name_18}Gordana"/>
-      <name name="{=serbia_female_name_19}Zorica"/>
-      <name name="{=serbia_female_name_20}Neda"/>
-    </female_names>
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[2]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_2}Stefan</xsl:attribute>
   </xsl:template>
 
-  <xsl:template match="Culture[@id='bohemia']/clan_names">
-    <clan_names>
-      <name name="{=bosnia_clan_name_1}Radojević"/>
-      <name name="{=bosnia_clan_name_2}Rastomirić"/>
-      <name name="{=bosnia_clan_name_3}Stepković"/>
-      <name name="{=bosnia_clan_name_4}Adamović"/>
-      <name name="{=bosnia_clan_name_5}Mrdić"/>
-      <name name="{=bosnia_clan_name_6}Zlošević"/>
-      <name name="{=bosnia_clan_name_7}Pavlović"/>
-      <name name="{=bosnia_clan_name_8}Kosača"/>
-      <name name="{=bosnia_clan_name_9}Radivojević"/>
-      <name name="{=bosnia_clan_name_10}Jurjević"/>
-      <name name="{=bosnia_clan_name_11}Miltenović"/>
-      <name name="{=bosnia_clan_name_12}Vlatković"/>
-      <name name="{=bosnia_clan_name_13}Radosalić"/>
-      <name name="{=bosnia_clan_name_14}Bogopanković"/>
-    </clan_names>
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[3]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_3}Radoslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[4]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_4}Uroš</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[5]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_5}Vladislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[6]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_6}Dragoslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[7]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_7}Predislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[8]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_8}Stracimir</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[9]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_9}Momčilo</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[10]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_10}Lazar</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[11]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_11}Dobroslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[12]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_12}Gradislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[13]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_13}Miloš</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[14]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_14}Radivoj</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[15]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_15}Bratislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[16]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_16}Stanisav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[17]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_17}Tvrdislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[18]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_18}Dmitar</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[19]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_19}Nenad</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[20]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_20}Dragutin</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[21]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_21}Bogdan</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[22]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_22}Petar</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[23]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_23}Nikola</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[24]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_24}Andrija</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[25]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_25}Grgur</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[26]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_26}Vojislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[27]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_27}Milovan</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[28]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_28}Desimir</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[29]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_29}Milutin</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/male_names/name[30]/@name">
+    <xsl:attribute name="name">{=serbia_male_name_30}Branislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[1]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_1}Jelena</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[2]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_2}Ana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[3]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_3}Milica</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[4]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_4}Teodora</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[5]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_5}Dragana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[6]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_6}Stana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[7]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_7}Radoslava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[8]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_8}Marija</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[9]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_9}Vidosava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[10]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_10}Desislava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[11]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_11}Smiljana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[12]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_12}Bogdana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[13]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_13}Nevena</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[14]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_14}Pribislava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[15]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_15}Radmila</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[16]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_16}Magdalena</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[17]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_17}Kosara</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[18]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_18}Gordana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[19]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_19}Zorica</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/female_names/name[20]/@name">
+    <xsl:attribute name="name">{=serbia_female_name_20}Neda</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[1]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_1}Radojević</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[2]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_2}Rastomirić</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[3]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_3}Stepković</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[4]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_4}Adamović</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[5]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_5}Mrdić</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[6]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_6}Zlošević</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[7]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_7}Pavlović</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[8]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_8}Kosača</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[9]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_9}Radivojević</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[10]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_10}Jurjević</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[11]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_11}Miltenović</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[12]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_12}Vlatković</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[13]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_13}Radosalić</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bosnia']/clan_names/name[14]/@name">
+    <xsl:attribute name="name">{=bosnia_clan_name_14}Bogopanković</xsl:attribute>
   </xsl:template>
 
 
 
   <!-- spcultures_bulgaria -->
 
-  <xsl:template match="Culture[@id='bulgaria']/male_names">
-    <male_names>
-      <name name="{=halych_male_name_1}Oleg"/>
-      <name name="{=halych_male_name_2}Ratimir"/>
-      <name name="{=halych_male_name_3}Velimir"/>
-      <name name="{=halych_male_name_4}Dawyd"/>
-      <name name="{=halych_male_name_5}Datsko"/>
-      <name name="{=halych_male_name_6}Dmitri"/>
-      <name name="{=halych_male_name_7}Boryslav"/>
-      <name name="{=halych_male_name_8}Jaromir"/>
-      <name name="{=halych_male_name_9}Radovan"/>
-      <name name="{=halych_male_name_10}Stanislav"/>
-      <name name="{=halych_male_name_11}Artem"/>
-      <name name="{=halych_male_name_12}Izyaslav"/>
-      <name name="{=halych_male_name_13}Mal"/>
-      <name name="{=halych_male_name_14}Oleksandr"/>
-      <name name="{=halych_male_name_15}Mal"/>
-      <name name="{=halych_male_name_16}Vlastimil"/>
-      <name name="{=halych_male_name_17}Dobromir"/>
-      <name name="{=halych_male_name_18}Mykhail"/>
-      <name name="{=halych_male_name_19}Fedir"/>
-      <name name="{=halych_male_name_20}Jaroslav"/>
-      <name name="{=halych_male_name_21}Borys"/>
-      <name name="{=halych_male_name_22}Bohdan"/>
-      <name name="{=halych_male_name_23}Faddei"/>
-      <name name="{=halych_male_name_24}Ivan"/>
-      <name name="{=halych_male_name_25}Stepan"/>
-      <name name="{=halych_male_name_26}Sviatoslav"/>
-      <name name="{=halych_male_name_27}Andriy"/>
-      <name name="{=halych_male_name_28}Alexander"/>
-      <name name="{=halych_male_name_29}Ivan"/>
-      <name name="{=halych_male_name_30}Volodimir"/>
-      <name name="{=halych_male_name_31}Vasylko"/>
-      <name name="{=halych_male_name_32}Roman"/>
-      <name name="{=halych_male_name_33}Lev"/>
-      <name name="{=halych_male_name_34}Danylo"/>
-      <name name="{=halych_male_name_35}Mstislav"/>
-      <name name="{=halych_male_name_36}Svarn"/>
-      <name name="{=halych_male_name_37}Bryachislav"/>
-      <name name="{=halych_male_name_38}Voloda"/>
-    </male_names>
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[1]/@name">
+    <xsl:attribute name="name">{=halych_male_name_1}Oleg</xsl:attribute>
   </xsl:template>
 
-  <xsl:template match="Culture[@id='bulgaria']/female_names">
-    <female_names>
-      <name name="{=halych_female_name_1}Daryna"/>
-      <name name="{=halych_female_name_2}Anastasiya"/>
-      <name name="{=halych_female_name_3}Bohdana"/>
-      <name name="{=halych_female_name_4}Alina"/>
-      <name name="{=halych_female_name_5}Daniela"/>
-      <name name="{=halych_female_name_6}Dobrodeia"/>
-      <name name="{=halych_female_name_7}Dobroniega"/>
-      <name name="{=halych_female_name_8}Iadvykha"/>
-      <name name="{=halych_female_name_9}Olenica"/>
-      <name name="{=halych_female_name_10}Polahia"/>
-      <name name="{=halych_female_name_11}Zofeia"/>
-      <name name="{=halych_female_name_12}Zvenislava"/>
-      <name name="{=halych_female_name_13}Wyola"/>
-      <name name="{=halych_female_name_14}Stetsia"/>
-      <name name="{=halych_female_name_15}Poloneia"/>
-      <name name="{=halych_female_name_16}Tomyla"/>
-      <name name="{=halych_female_name_17}Olena"/>
-      <name name="{=halych_female_name_18}Kalyna"/>
-      <name name="{=halych_female_name_19}Kateryna"/>
-      <name name="{=halych_female_name_20}Inna"/>
-      <name name="{=halych_female_name_21}Ivanna"/>
-      <name name="{=halych_female_name_22}Anichka"/>
-      <name name="{=halych_female_name_23}Aleksandra"/>
-      <name name="{=halych_female_name_24}Anna"/>
-      <name name="{=halych_female_name_25}Ionna"/>
-      <name name="{=halych_female_name_26}Daryna"/>
-      <name name="{=halych_female_name_27}Dina"/>
-      <name name="{=halych_female_name_28}Olena"/>
-      <name name="{=halych_female_name_29}Oksana"/>
-      <name name="{=halych_female_name_30}Maria"/>
-      <name name="{=halych_female_name_31}Ljudmila"/>
-      <name name="{=halych_female_name_32}Svitlana"/>
-      <name name="{=halych_female_name_33}Zlata"/>
-      <name name="{=halych_female_name_34}Zoriana"/>
-      <name name="{=halych_female_name_35}Leonida"/>
-      <name name="{=halych_female_name_36}Yaroslava"/>
-      <name name="{=halych_female_name_37}Tetiana"/>
-      <name name="{=halych_female_name_38}Kalyna"/>
-    </female_names>
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[2]/@name">
+    <xsl:attribute name="name">{=halych_male_name_2}Ratimir</xsl:attribute>
   </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[3]/@name">
+    <xsl:attribute name="name">{=halych_male_name_3}Velimir</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[4]/@name">
+    <xsl:attribute name="name">{=halych_male_name_4}Dawyd</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[5]/@name">
+    <xsl:attribute name="name">{=halych_male_name_5}Datsko</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[6]/@name">
+    <xsl:attribute name="name">{=halych_male_name_6}Dmitri</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[7]/@name">
+    <xsl:attribute name="name">{=halych_male_name_7}Boryslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[8]/@name">
+    <xsl:attribute name="name">{=halych_male_name_8}Jaromir</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[9]/@name">
+    <xsl:attribute name="name">{=halych_male_name_9}Radovan</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[10]/@name">
+    <xsl:attribute name="name">{=halych_male_name_10}Stanislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[11]/@name">
+    <xsl:attribute name="name">{=halych_male_name_11}Artem</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[12]/@name">
+    <xsl:attribute name="name">{=halych_male_name_12}Izyaslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[13]/@name">
+    <xsl:attribute name="name">{=halych_male_name_13}Mal</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[14]/@name">
+    <xsl:attribute name="name">{=halych_male_name_14}Oleksandr</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[15]/@name">
+    <xsl:attribute name="name">{=halych_male_name_15}Mal</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[16]/@name">
+    <xsl:attribute name="name">{=halych_male_name_16}Vlastimil</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[17]/@name">
+    <xsl:attribute name="name">{=halych_male_name_17}Dobromir</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[18]/@name">
+    <xsl:attribute name="name">{=halych_male_name_18}Mykhail</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[19]/@name">
+    <xsl:attribute name="name">{=halych_male_name_19}Fedir</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[20]/@name">
+    <xsl:attribute name="name">{=halych_male_name_20}Jaroslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[21]/@name">
+    <xsl:attribute name="name">{=halych_male_name_21}Borys</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[22]/@name">
+    <xsl:attribute name="name">{=halych_male_name_22}Bohdan</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[23]/@name">
+    <xsl:attribute name="name">{=halych_male_name_23}Faddei</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[24]/@name">
+    <xsl:attribute name="name">{=halych_male_name_24}Ivan</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[25]/@name">
+    <xsl:attribute name="name">{=halych_male_name_25}Stepan</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[26]/@name">
+    <xsl:attribute name="name">{=halych_male_name_26}Sviatoslav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[27]/@name">
+    <xsl:attribute name="name">{=halych_male_name_27}Andriy</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[28]/@name">
+    <xsl:attribute name="name">{=halych_male_name_28}Alexander</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[29]/@name">
+    <xsl:attribute name="name">{=halych_male_name_29}Ivan</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[30]/@name">
+    <xsl:attribute name="name">{=halych_male_name_30}Volodimir</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[31]/@name">
+    <xsl:attribute name="name">{=halych_male_name_31}Vasylko</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[32]/@name">
+    <xsl:attribute name="name">{=halych_male_name_32}Roman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[33]/@name">
+    <xsl:attribute name="name">{=halych_male_name_33}Lev</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[34]/@name">
+    <xsl:attribute name="name">{=halych_male_name_34}Danylo</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[35]/@name">
+    <xsl:attribute name="name">{=halych_male_name_35}Mstislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[36]/@name">
+    <xsl:attribute name="name">{=halych_male_name_36}Svarn</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[37]/@name">
+    <xsl:attribute name="name">{=halych_male_name_37}Bryachislav</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/male_names/name[38]/@name">
+    <xsl:attribute name="name">{=halych_male_name_38}Voloda</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[1]/@name">
+    <xsl:attribute name="name">{=halych_female_name_1}Daryna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[2]/@name">
+    <xsl:attribute name="name">{=halych_female_name_2}Anastasiya</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[3]/@name">
+    <xsl:attribute name="name">{=halych_female_name_3}Bohdana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[4]/@name">
+    <xsl:attribute name="name">{=halych_female_name_4}Alina</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[5]/@name">
+    <xsl:attribute name="name">{=halych_female_name_5}Daniela</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[6]/@name">
+    <xsl:attribute name="name">{=halych_female_name_6}Dobrodeia</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[7]/@name">
+    <xsl:attribute name="name">{=halych_female_name_7}Dobroniega</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[8]/@name">
+    <xsl:attribute name="name">{=halych_female_name_8}Iadvykha</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[9]/@name">
+    <xsl:attribute name="name">{=halych_female_name_9}Olenica</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[10]/@name">
+    <xsl:attribute name="name">{=halych_female_name_10}Polahia</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[11]/@name">
+    <xsl:attribute name="name">{=halych_female_name_11}Zofeia</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[12]/@name">
+    <xsl:attribute name="name">{=halych_female_name_12}Zvenislava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[13]/@name">
+    <xsl:attribute name="name">{=halych_female_name_13}Wyola</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[14]/@name">
+    <xsl:attribute name="name">{=halych_female_name_14}Stetsia</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[15]/@name">
+    <xsl:attribute name="name">{=halych_female_name_15}Poloneia</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[16]/@name">
+    <xsl:attribute name="name">{=halych_female_name_16}Tomyla</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[17]/@name">
+    <xsl:attribute name="name">{=halych_female_name_17}Olena</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[18]/@name">
+    <xsl:attribute name="name">{=halych_female_name_18}Kalyna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[19]/@name">
+    <xsl:attribute name="name">{=halych_female_name_19}Kateryna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[20]/@name">
+    <xsl:attribute name="name">{=halych_female_name_20}Inna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[21]/@name">
+    <xsl:attribute name="name">{=halych_female_name_21}Ivanna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[22]/@name">
+    <xsl:attribute name="name">{=halych_female_name_22}Anichka</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[23]/@name">
+    <xsl:attribute name="name">{=halych_female_name_23}Aleksandra</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[24]/@name">
+    <xsl:attribute name="name">{=halych_female_name_24}Anna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[25]/@name">
+    <xsl:attribute name="name">{=halych_female_name_25}Ionna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[26]/@name">
+    <xsl:attribute name="name">{=halych_female_name_26}Daryna</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[27]/@name">
+    <xsl:attribute name="name">{=halych_female_name_27}Dina</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[28]/@name">
+    <xsl:attribute name="name">{=halych_female_name_28}Olena</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[29]/@name">
+    <xsl:attribute name="name">{=halych_female_name_29}Oksana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[30]/@name">
+    <xsl:attribute name="name">{=halych_female_name_30}Maria</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[31]/@name">
+    <xsl:attribute name="name">{=halych_female_name_31}Ljudmila</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[32]/@name">
+    <xsl:attribute name="name">{=halych_female_name_32}Svitlana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[33]/@name">
+    <xsl:attribute name="name">{=halych_female_name_33}Zlata</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[34]/@name">
+    <xsl:attribute name="name">{=halych_female_name_34}Zoriana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[35]/@name">
+    <xsl:attribute name="name">{=halych_female_name_35}Leonida</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[36]/@name">
+    <xsl:attribute name="name">{=halych_female_name_36}Yaroslava</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[37]/@name">
+    <xsl:attribute name="name">{=halych_female_name_37}Tetiana</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="Culture[@id='bulgaria']/female_names/name[38]/@name">
+    <xsl:attribute name="name">{=halych_female_name_38}Kalyna</xsl:attribute>
+  </xsl:template>
+
 
 
 
   <!-- spcultures_gealic -->
 
-  <xsl:template match="Culture[@id='gaelic']/male_names">
-    <male_names>
-      <name name="{=gealic_male_name_1}Áed"/>
-      <name name="{=gealic_male_name_2}Óengus"/>
-      <name name="{=gealic_male_name_3}Áengus"/>
-      <name name="{=gealic_male_name_4}Ailill"/>
-      <name name="{=gealic_male_name_5}Fergus"/>
-      <name name="{=gealic_male_name_6}Eochaid"/>
-      <name name="{=gealic_male_name_7}Lugaid"/>
-      <name name="{=gealic_male_name_8}Domnall"/>
-      <name name="{=gealic_male_name_9}Cairpre"/>
-      <name name="{=gealic_male_name_10}Conall"/>
-      <name name="{=gealic_male_name_11}Cormac"/>
-      <name name="{=gealic_male_name_12}Fland"/>
-      <name name="{=gealic_male_name_13}Flann"/>
-      <name name="{=gealic_male_name_14}Muiredach"/>
-      <name name="{=gealic_male_name_15}Cellach"/>
-      <name name="{=gealic_male_name_16}Éogan"/>
-      <name name="{=gealic_male_name_17}Eochu"/>
-      <name name="{=gealic_male_name_18}Diarmait"/>
-      <name name="{=gealic_male_name_19}Colmán"/>
-      <name name="{=gealic_male_name_21}Conchobor"/>
-      <name name="{=gealic_male_name_22}Fiachra"/>
-      <name name="{=gealic_male_name_23}Énnae"/>
-      <name name="{=gealic_male_name_24}Cináed"/>
-      <name name="{=gealic_male_name_25}Crimthann"/>
-      <name name="{=gealic_male_name_26}Fedelmid"/>
-      <name name="{=gealic_male_name_27}Murchad"/>
-      <name name="{=gealic_male_name_28}Cathal"/>
-      <name name="{=gealic_male_name_29}Donnchad"/>
-      <name name="{=gealic_male_name_30}Máel-dúin"/>
-      <name name="{=gealic_male_name_31}Rónán"/>
-      <name name="{=gealic_male_name_32}Muirchertach"/>
-      <name name="{=gealic_male_name_33}Ercc"/>
-      <name name="{=gealic_male_name_34}Maine"/>
-      <name name="{=gealic_male_name_35}Bran"/>
-      <name name="{=gealic_male_name_36}Cobthach"/>
-      <name name="{=gealic_male_name_37}Niall"/>
-      <name name="{=gealic_male_name_38}Fogartach"/>
-      <name name="{=gealic_male_name_39}Crundmáel"/>
-      <name name="{=gealic_male_name_40}Bressal"/>
-      <name name="{=gealic_male_name_41}Congal"/>
-      <name name="{=gealic_male_name_42}Cenn-fáelad"/>
-      <name name="{=gealic_male_name_43}Dunchad"/>
-      <name name="{=gealic_male_name_44}Suibne"/>
-      <name name="{=gealic_male_name_45}Faílbe"/>
-      <name name="{=gealic_male_name_46}Fiachu"/>
-      <name name="{=gealic_male_name_47}Móenach"/>
-      <name name="{=gealic_male_name_48}Donngal"/>
-      <name name="{=gealic_male_name_49}Sétnae"/>
-      <name name="{=gealic_male_name_50}Scandlán"/>
-      <name name="{=gealic_male_name_51}Dímmae"/>
-      <name name="{=gealic_male_name_52}Senach"/>
-      <name name="{=gealic_male_name_53}Fáelán"/>
-      <name name="{=gealic_male_name_54}Tuathal"/>
-      <name name="{=gealic_male_name_55}Cummascach"/>
-      <name name="{=gealic_male_name_56}Fiachna"/>
-      <name name="{=gealic_male_name_57}Artt"/>
-      <name name="{=gealic_male_name_58}Dúngal"/>
-      <name name="{=gealic_male_name_59}Congalach"/>
-      <name name="{=gealic_male_name_60}Fergal"/>
-      <name name="{=gealic_male_name_61}Blathmac"/>
-      <name name="{=gealic_male_name_62}Dubthach"/>
-      <name name="{=gealic_male_name_63}Dúnlang"/>
-      <name name="{=gealic_male_name_64}Corcc"/>
-      <name name="{=gealic_male_name_65}Find"/>
-      <name name="{=gealic_male_name_66}Lóegaire"/>
-      <name name="{=gealic_male_name_67}Feradach"/>
-      <name name="{=gealic_male_name_68}Findchad"/>
-      <name name="{=gealic_male_name_69}Finán"/>
-      <name name="{=gealic_male_name_70}Cernach"/>
-      <name name="{=gealic_male_name_71}Dáire"/>
-      <name name="{=gealic_male_name_72}Ruaidrí"/>
-      <name name="{=gealic_male_name_73}Fintan"/>
-      <name name="{=gealic_male_name_74}Guaire"/>
-      <name name="{=gealic_male_name_75}Trian"/>
-      <name name="{=gealic_male_name_76}Tigernach"/>
-      <name name="{=gealic_male_name_77}Sechnassach"/>
-      <name name="{=gealic_male_name_78}Nath-í"/>
-      <name name="{=gealic_male_name_79}Tadc"/>
-      <name name="{=gealic_male_name_80}Báetán"/>
-      <name name="{=gealic_male_name_81}Columb"/>
-      <name name="{=gealic_male_name_82}Forannán"/>
-      <name name="{=gealic_male_name_83}Máel-tuili"/>
-      <name name="{=gealic_male_name_84}Cillíne"/>
-      <name name="{=gealic_male_name_85}Máel-ruanaid"/>
-      <name name="{=gealic_male_name_86}Rechtabra"/>
-      <name name="{=gealic_male_name_87}Bróccan"/>
-      <name name="{=gealic_male_name_88}Duinechaid"/>
-      <name name="{=gealic_male_name_89}Colcu"/>
-      <name name="{=gealic_male_name_90}Amalgaid"/>
-      <name name="{=gealic_male_name_91}Indrechtach"/>
-      <name name="{=gealic_male_name_92}Condlae  "/>
-      <name name="{=gealic_male_name_93}Conlae"/>
-      <name name="{=gealic_male_name_94}Fothud"/>
-      <name name="{=gealic_male_name_95}Máelodor"/>
-      <name name="{=gealic_male_name_96}Flaithbertach"/>
-      <name name="{=gealic_male_name_97}Imchad"/>
-      <name name="{=gealic_male_name_98}Bécc"/>
-      <name name="{=gealic_male_name_99}Carthach"/>
-      <name name="{=gealic_male_name_100}Cerball"/>
-      <name name="{=gealic_male_name_101}Cúán"/>
-      <name name="{=gealic_male_name_102}Tipraite"/>
-      <name name="{=gealic_male_name_103}Cáirthenn"/>
-      <name name="{=gealic_male_name_104}Níall"/>
-      <name name="{=gealic_male_name_105}Brian"/>
-      <name name="{=gealic_male_name_106}Domhnall"/>
-      <name name="{=gealic_male_name_107}Cathal"/>
-      <name name="{=gealic_male_name_108}Aedh"/>
-      <name name="{=gealic_male_name_109}Ruaidrí"/>
-      <name name="{=gealic_male_name_110}Eógan"/>
-      <name name="{=gealic_male_name_111}Feidlim"/>
-      <name name="{=gealic_male_name_112}Finghin"/>
-      <name name="{=gealic_male_name_113}Donnchad"/>
-      <name name="{=gealic_male_name_114}Conchobhair"/>
-      <name name="{=gealic_male_name_115}Tadg"/>
-      <name name="{=gealic_male_name_116}Lochlann"/>
-      <name name="{=gealic_male_name_117}Áed"/>
-    </male_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='gaelic']/male_names/name[1]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_1}Áed</xsl:attribute>
+</xsl:template>
 
-  <xsl:template match="Culture[@id='gaelic']/female_names">
-    <female_names>
-      <name name="{=gealic_female_name_1}Eisibél"/>
-      <name name="{=gealic_female_name_2}Aífe"/>
-      <name name="{=gealic_female_name_3}Mór"/>
-      <name name="{=gealic_female_name_4}Fionnuala"/>
-      <name name="{=gealic_female_name_5}Sadhbh"/>
-      <name name="{=gealic_female_name_6}Una"/>
-      <name name="{=gealic_female_name_7}Nuala"/>
-      <name name="{=gealic_female_name_8}Áedammair"/>
-      <name name="{=gealic_female_name_9}Aghna"/>
-      <name name="{=gealic_female_name_10}Aibhilín"/>
-      <name name="{=gealic_female_name_11}Ailionóra"/>
-      <name name="{=gealic_female_name_12}Aillenn"/>
-      <name name="{=gealic_female_name_13}Aimilíona"/>
-      <name name="{=gealic_female_name_14}Albea"/>
-      <name name="{=gealic_female_name_15}Allsún"/>
-      <name name="{=gealic_female_name_16}Alson"/>
-      <name name="{=gealic_female_name_17}Anlaith"/>
-      <name name="{=gealic_female_name_18}Annábla"/>
-      <name name="{=gealic_female_name_19}Anstace"/>
-      <name name="{=gealic_female_name_20}Any"/>
-      <name name="{=gealic_female_name_21}Aodhnait"/>
-      <name name="{=gealic_female_name_22}Aphria"/>
-      <name name="{=gealic_female_name_23}Athracht"/>
-      <name name="{=gealic_female_name_24}Attracta"/>
-      <name name="{=gealic_female_name_25}Benvon"/>
-      <name name="{=gealic_female_name_26}Bláth"/>
-      <name name="{=gealic_female_name_27}Blinne"/>
-      <name name="{=gealic_female_name_28}Bluinse"/>
-      <name name="{=gealic_female_name_29}Caineach"/>
-      <name name="{=gealic_female_name_30}Catirfina"/>
-      <name name="{=gealic_female_name_31}Dachonna"/>
-      <name name="{=gealic_female_name_32}Coblaith"/>
-      <name name="{=gealic_female_name_33}Cobhlaith"/>
-      <name name="{=gealic_female_name_34}Dianaimh"/>
-      <name name="{=gealic_female_name_35}Dirrevorgill"/>
-      <name name="{=gealic_female_name_36}Dorethy"/>
-      <name name="{=gealic_female_name_37}Dorren"/>
-      <name name="{=gealic_female_name_38}Dorinnia"/>
-      <name name="{=gealic_female_name_39}Dubheasa"/>
-      <name name="{=gealic_female_name_40}Downet"/>
-      <name name="{=gealic_female_name_41}Dúnlaith"/>
-      <name name="{=gealic_female_name_42}Elan"/>
-      <name name="{=gealic_female_name_43}Ellenor"/>
-      <name name="{=gealic_female_name_44}Eistir"/>
-      <name name="{=gealic_female_name_45}Ellice"/>
-      <name name="{=gealic_female_name_46}Euginia"/>
-      <name name="{=gealic_female_name_47}Elan"/>
-      <name name="{=gealic_female_name_48}Evelin"/>
-      <name name="{=gealic_female_name_49}Faílenn"/>
-      <name name="{=gealic_female_name_50}Fanche"/>
-      <name name="{=gealic_female_name_51}Faoiltighearna"/>
-      <name name="{=gealic_female_name_52}Fín"/>
-      <name name="{=gealic_female_name_53}Finbil"/>
-      <name name="{=gealic_female_name_54}Fínemain"/>
-      <name name="{=gealic_female_name_55}Finnola"/>
-      <name name="{=gealic_female_name_56}Forflissa"/>
-      <name name="{=gealic_female_name_57}Gelgéis"/>
-      <name name="{=gealic_female_name_58}Gillie"/>
-      <name name="{=gealic_female_name_59}Gormlaith"/>
-      <name name="{=gealic_female_name_60}Gráinne"/>
-      <name name="{=gealic_female_name_61}Isibéal"/>
-      <name name="{=gealic_female_name_62}Máible"/>
-      <name name="{=gealic_female_name_63}Máirghréad"/>
-      <name name="{=gealic_female_name_64}Mairéad"/>
-      <name name="{=gealic_female_name_65}Ciannait"/>
-      <name name="{=gealic_female_name_66}Mairsil"/>
-      <name name="{=gealic_female_name_67}Margreg"/>
-      <name name="{=gealic_female_name_68}Máirín"/>
-      <name name="{=gealic_female_name_69}Mairsil"/>
-      <name name="{=gealic_female_name_70}Mauda"/>
-      <name name="{=gealic_female_name_71}Meadhbh"/>
-      <name name="{=gealic_female_name_72}Míde"/>
-      <name name="{=gealic_female_name_73}Modwenna"/>
-      <name name="{=gealic_female_name_74}Modwen"/>
-      <name name="{=gealic_female_name_75}Moncha"/>
-      <name name="{=gealic_female_name_76}Muadhnait"/>
-      <name name="{=gealic_female_name_77}Muirgheal"/>
-      <name name="{=gealic_female_name_78}Muireann"/>
-      <name name="{=gealic_female_name_79}Nárbhfhlaith"/>
-      <name name="{=gealic_female_name_80}Niewlfe"/>
-      <name name="{=gealic_female_name_81}Proinnséas"/>
-      <name name="{=gealic_female_name_82}Ríoghnach"/>
-      <name name="{=gealic_female_name_83}Regnacia"/>
-      <name name="{=gealic_female_name_84}Raghnailt"/>
-      <name name="{=gealic_female_name_85}Reanet"/>
-      <name name="{=gealic_female_name_86}Owny"/>
-      <name name="{=gealic_female_name_87}Úna"/>
-      <name name="{=gealic_female_name_88}Uallach"/>
-      <name name="{=gealic_female_name_89}Tómnat"/>
-      <name name="{=gealic_female_name_90}Sláine"/>
-      <name name="{=gealic_female_name_91}Slany"/>
-      <name name="{=gealic_female_name_92}Slania"/>
-      <name name="{=gealic_female_name_93}Sisuile"/>
-      <name name="{=gealic_female_name_94}Síle"/>
-      <name name="{=gealic_female_name_95}Shillie"/>
-      <name name="{=gealic_female_name_96}Sárnait"/>
-      <name name="{=gealic_female_name_97}Síban"/>
-      <name name="{=gealic_female_name_98}Siobhan"/>
-      <name name="{=gealic_female_name_99}Sióbhan"/>
-    </female_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='gaelic']/male_names/name[2]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_2}Óengus</xsl:attribute>
+</xsl:template>
 
-  <xsl:template match="Culture[@id='gaelic']/clan_names">
-    <clan_names>
-      <name name="{=gealic_clan_name_1}uí Rúad"/>
-      <name name="{=gealic_clan_name_2}uí Leochain"/>
-      <name name="{=gealic_clan_name_3}uí Eòghann"/>
-      <name name="{=gealic_clan_name_4}uí Murchadha"/>
-      <name name="{=gealic_clan_name_5}uí Ceallaigh"/>
-      <name name="{=gealic_clan_name_6}uí Súilleabháin"/>
-      <name name="{=gealic_clan_name_7}uí Broin"/>
-      <name name="{=gealic_clan_name_8}uí Riaghain"/>
-      <name name="{=gealic_clan_name_9}uí Dubhghaill"/>
-    </clan_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='gaelic']/male_names/name[3]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_3}Áengus</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[4]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_4}Ailill</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[5]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_5}Fergus</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[6]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_6}Eochaid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[7]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_7}Lugaid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[8]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_8}Domnall</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[9]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_9}Cairpre</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[10]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_10}Conall</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[11]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_11}Cormac</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[12]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_12}Fland</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[13]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_13}Flann</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[14]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_14}Muiredach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[15]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_15}Cellach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[16]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_16}Éogan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[17]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_17}Eochu</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[18]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_18}Diarmait</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[19]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_19}Colmán</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[20]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_21}Conchobor</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[21]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_22}Fiachra</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[22]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_23}Énnae</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[23]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_24}Cináed</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[24]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_25}Crimthann</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[25]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_26}Fedelmid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[26]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_27}Murchad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[27]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_28}Cathal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[28]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_29}Donnchad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[29]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_30}Máel-dúin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[30]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_31}Rónán</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[31]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_32}Muirchertach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[32]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_33}Ercc</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[33]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_34}Maine</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[34]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_35}Bran</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[35]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_36}Cobthach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[36]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_37}Niall</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[37]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_38}Fogartach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[38]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_39}Crundmáel</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[39]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_40}Bressal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[40]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_41}Congal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[41]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_42}Cenn-fáelad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[42]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_43}Dunchad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[43]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_44}Suibne</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[44]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_45}Faílbe</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[45]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_46}Fiachu</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[46]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_47}Móenach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[47]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_48}Donngal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[48]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_49}Sétnae</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[49]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_50}Scandlán</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[50]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_51}Dímmae</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[51]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_52}Senach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[52]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_53}Fáelán</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[53]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_54}Tuathal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[54]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_55}Cummascach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[55]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_56}Fiachna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[56]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_57}Artt</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[57]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_58}Dúngal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[58]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_59}Congalach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[59]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_60}Fergal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[60]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_61}Blathmac</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[61]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_62}Dubthach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[62]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_63}Dúnlang</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[63]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_64}Corcc</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[64]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_65}Find</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[65]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_66}Lóegaire</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[66]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_67}Feradach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[67]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_68}Findchad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[68]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_69}Finán</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[69]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_70}Cernach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[70]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_71}Dáire</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[71]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_72}Ruaidrí</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[72]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_73}Fintan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[73]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_74}Guaire</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[74]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_75}Trian</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[75]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_76}Tigernach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[76]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_77}Sechnassach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[77]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_78}Nath-í</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[78]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_79}Tadc</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[79]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_80}Báetán</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[80]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_81}Columb</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[81]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_82}Forannán</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[82]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_83}Máel-tuili</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[83]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_84}Cillíne</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[84]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_85}Máel-ruanaid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[85]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_86}Rechtabra</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[86]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_87}Bróccan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[87]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_88}Duinechaid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[88]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_89}Colcu</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[89]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_90}Amalgaid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[90]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_91}Indrechtach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[91]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_92}Condlae  </xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[92]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_93}Conlae</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[93]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_94}Fothud</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[94]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_95}Máelodor</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[95]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_96}Flaithbertach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[96]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_97}Imchad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[97]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_98}Bécc</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[98]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_99}Carthach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[99]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_100}Cerball</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[100]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_101}Cúán</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[101]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_102}Tipraite</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[102]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_103}Cáirthenn</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[103]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_104}Níall</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[104]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_105}Brian</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[105]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_106}Domhnall</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[106]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_107}Cathal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[107]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_108}Aedh</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[108]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_109}Ruaidrí</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[109]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_110}Eógan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[110]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_111}Feidlim</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[111]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_112}Finghin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[112]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_113}Donnchad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[113]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_114}Conchobhair</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[114]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_115}Tadg</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[115]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_116}Lochlann</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/male_names/name[116]/@name">
+  <xsl:attribute name="name">{=gealic_male_name_117}Áed</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[1]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_1}Eisibél</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[2]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_2}Aífe</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[3]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_3}Mór</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[4]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_4}Fionnuala</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[5]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_5}Sadhbh</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[6]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_6}Una</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[7]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_7}Nuala</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[8]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_8}Áedammair</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[9]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_9}Aghna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[10]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_10}Aibhilín</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[11]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_11}Ailionóra</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[12]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_12}Aillenn</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[13]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_13}Aimilíona</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[14]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_14}Albea</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[15]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_15}Allsún</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[16]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_16}Alson</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[17]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_17}Anlaith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[18]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_18}Annábla</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[19]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_19}Anstace</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[20]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_20}Any</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[21]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_21}Aodhnait</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[22]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_22}Aphria</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[23]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_23}Athracht</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[24]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_24}Attracta</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[25]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_25}Benvon</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[26]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_26}Bláth</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[27]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_27}Blinne</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[28]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_28}Bluinse</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[29]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_29}Caineach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[30]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_30}Catirfina</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[31]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_31}Dachonna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[32]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_32}Coblaith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[33]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_33}Cobhlaith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[34]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_34}Dianaimh</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[35]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_35}Dirrevorgill</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[36]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_36}Dorethy</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[37]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_37}Dorren</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[38]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_38}Dorinnia</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[39]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_39}Dubheasa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[40]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_40}Downet</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[41]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_41}Dúnlaith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[42]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_42}Elan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[43]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_43}Ellenor</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[44]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_44}Eistir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[45]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_45}Ellice</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[46]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_46}Euginia</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[47]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_47}Elan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[48]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_48}Evelin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[49]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_49}Faílenn</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[50]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_50}Fanche</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[51]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_51}Faoiltighearna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[52]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_52}Fín</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[53]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_53}Finbil</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[54]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_54}Fínemain</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[55]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_55}Finnola</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[56]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_56}Forflissa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[57]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_57}Gelgéis</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[58]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_58}Gillie</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[59]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_59}Gormlaith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[60]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_60}Gráinne</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[61]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_61}Isibéal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[62]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_62}Máible</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[63]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_63}Máirghréad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[64]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_64}Mairéad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[65]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_65}Ciannait</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[66]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_66}Mairsil</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[67]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_67}Margreg</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[68]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_68}Máirín</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[69]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_69}Mairsil</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[70]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_70}Mauda</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[71]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_71}Meadhbh</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[72]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_72}Míde</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[73]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_73}Modwenna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[74]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_74}Modwen</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[75]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_75}Moncha</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[76]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_76}Muadhnait</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[77]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_77}Muirgheal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[78]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_78}Muireann</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[79]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_79}Nárbhfhlaith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[80]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_80}Niewlfe</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[81]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_81}Proinnséas</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[82]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_82}Ríoghnach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[83]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_83}Regnacia</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[84]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_84}Raghnailt</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[85]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_85}Reanet</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[86]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_86}Owny</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[87]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_87}Úna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[88]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_88}Uallach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[89]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_89}Tómnat</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[90]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_90}Sláine</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[91]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_91}Slany</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[92]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_92}Slania</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[93]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_93}Sisuile</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[94]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_94}Síle</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[95]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_95}Shillie</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[96]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_96}Sárnait</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[97]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_97}Síban</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[98]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_98}Siobhan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/female_names/name[99]/@name">
+  <xsl:attribute name="name">{=gealic_female_name_99}Sióbhan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[1]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_1}uí Rúad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[2]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_2}uí Leochain</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[3]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_3}uí Eòghann</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[4]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_4}uí Murchadha</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[5]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_5}uí Ceallaigh</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[6]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_6}uí Súilleabháin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[7]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_7}uí Broin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[8]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_8}uí Riaghain</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='gaelic']/clan_names/name[9]/@name">
+  <xsl:attribute name="name">{=gealic_clan_name_9}uí Dubhghaill</xsl:attribute>
+</xsl:template>
+
+
 
 
   <!-- spcultures_halych -->
 
-  <xsl:template match="Culture[@id='halych']/male_names">
-    <male_names>
-      <name name="{=halych_male_name_1}Oleg"/>
-      <name name="{=halych_male_name_2}Ratimir"/>
-      <name name="{=halych_male_name_3}Velimir"/>
-      <name name="{=halych_male_name_4}Dawyd"/>
-      <name name="{=halych_male_name_5}Datsko"/>
-      <name name="{=halych_male_name_6}Dmitri"/>
-      <name name="{=halych_male_name_7}Boryslav"/>
-      <name name="{=halych_male_name_8}Jaromir"/>
-      <name name="{=halych_male_name_9}Radovan"/>
-      <name name="{=halych_male_name_10}Stanislav"/>
-      <name name="{=halych_male_name_11}Artem"/>
-      <name name="{=halych_male_name_12}Izyaslav"/>
-      <name name="{=halych_male_name_13}Mal"/>
-      <name name="{=halych_male_name_14}Oleksandr"/>
-      <name name="{=halych_male_name_15}Mal"/>
-      <name name="{=halych_male_name_16}Vlastimil"/>
-      <name name="{=halych_male_name_17}Dobromir"/>
-      <name name="{=halych_male_name_18}Mykhail"/>
-      <name name="{=halych_male_name_19}Fedir"/>
-      <name name="{=halych_male_name_20}Jaroslav"/>
-      <name name="{=halych_male_name_21}Borys"/>
-      <name name="{=halych_male_name_22}Bohdan"/>
-      <name name="{=halych_male_name_23}Faddei"/>
-      <name name="{=halych_male_name_24}Ivan"/>
-      <name name="{=halych_male_name_25}Stepan"/>
-      <name name="{=halych_male_name_26}Sviatoslav"/>
-      <name name="{=halych_male_name_27}Andriy"/>
-      <name name="{=halych_male_name_28}Alexander"/>
-      <name name="{=halych_male_name_29}Ivan"/>
-      <name name="{=halych_male_name_30}Volodimir"/>
-      <name name="{=halych_male_name_31}Vasylko"/>
-      <name name="{=halych_male_name_32}Roman"/>
-      <name name="{=halych_male_name_33}Lev"/>
-      <name name="{=halych_male_name_34}Danylo"/>
-      <name name="{=halych_male_name_35}Mstislav"/>
-      <name name="{=halych_male_name_36}Svarn"/>
-      <name name="{=halych_male_name_37}Bryachislav"/>
-      <name name="{=halych_male_name_38}Voloda"/>
-    </male_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='halych']/male_names/name[1]/@name">
+  <xsl:attribute name="name">{=halych_male_name_1}Oleg</xsl:attribute>
+</xsl:template>
 
-  <xsl:template match="Culture[@id='halych']/female_names">
-    <female_names>
-      <name name="{=halych_female_name_1}Daryna"/>
-      <name name="{=halych_female_name_2}Anastasiya"/>
-      <name name="{=halych_female_name_3}Bohdana"/>
-      <name name="{=halych_female_name_4}Alina"/>
-      <name name="{=halych_female_name_5}Daniela"/>
-      <name name="{=halych_female_name_6}Dobrodeia"/>
-      <name name="{=halych_female_name_7}Dobroniega"/>
-      <name name="{=halych_female_name_8}Iadvykha"/>
-      <name name="{=halych_female_name_9}Olenica"/>
-      <name name="{=halych_female_name_10}Polahia"/>
-      <name name="{=halych_female_name_11}Zofeia"/>
-      <name name="{=halych_female_name_12}Zvenislava"/>
-      <name name="{=halych_female_name_13}Wyola"/>
-      <name name="{=halych_female_name_14}Stetsia"/>
-      <name name="{=halych_female_name_15}Poloneia"/>
-      <name name="{=halych_female_name_16}Tomyla"/>
-      <name name="{=halych_female_name_17}Olena"/>
-      <name name="{=halych_female_name_18}Kalyna"/>
-      <name name="{=halych_female_name_19}Kateryna"/>
-      <name name="{=halych_female_name_20}Inna"/>
-      <name name="{=halych_female_name_21}Ivanna"/>
-      <name name="{=halych_female_name_22}Anichka"/>
-      <name name="{=halych_female_name_23}Aleksandra"/>
-      <name name="{=halych_female_name_24}Anna"/>
-      <name name="{=halych_female_name_25}Ionna"/>
-      <name name="{=halych_female_name_26}Daryna"/>
-      <name name="{=halych_female_name_27}Dina"/>
-      <name name="{=halych_female_name_28}Olena"/>
-      <name name="{=halych_female_name_29}Oksana"/>
-      <name name="{=halych_female_name_30}Maria"/>
-      <name name="{=halych_female_name_31}Ljudmila"/>
-      <name name="{=halych_female_name_32}Svitlana"/>
-      <name name="{=halych_female_name_33}Zlata"/>
-      <name name="{=halych_female_name_34}Zoriana"/>
-      <name name="{=halych_female_name_35}Leonida"/>
-      <name name="{=halych_female_name_36}Yaroslava"/>
-      <name name="{=halych_female_name_37}Tetiana"/>
-      <name name="{=halych_female_name_38}Kalyna"/>
-    </female_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='halych']/male_names/name[2]/@name">
+  <xsl:attribute name="name">{=halych_male_name_2}Ratimir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[3]/@name">
+  <xsl:attribute name="name">{=halych_male_name_3}Velimir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[4]/@name">
+  <xsl:attribute name="name">{=halych_male_name_4}Dawyd</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[5]/@name">
+  <xsl:attribute name="name">{=halych_male_name_5}Datsko</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[6]/@name">
+  <xsl:attribute name="name">{=halych_male_name_6}Dmitri</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[7]/@name">
+  <xsl:attribute name="name">{=halych_male_name_7}Boryslav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[8]/@name">
+  <xsl:attribute name="name">{=halych_male_name_8}Jaromir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[9]/@name">
+  <xsl:attribute name="name">{=halych_male_name_9}Radovan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[10]/@name">
+  <xsl:attribute name="name">{=halych_male_name_10}Stanislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[11]/@name">
+  <xsl:attribute name="name">{=halych_male_name_11}Artem</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[12]/@name">
+  <xsl:attribute name="name">{=halych_male_name_12}Izyaslav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[13]/@name">
+  <xsl:attribute name="name">{=halych_male_name_13}Mal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[14]/@name">
+  <xsl:attribute name="name">{=halych_male_name_14}Oleksandr</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[15]/@name">
+  <xsl:attribute name="name">{=halych_male_name_15}Mal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[16]/@name">
+  <xsl:attribute name="name">{=halych_male_name_16}Vlastimil</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[17]/@name">
+  <xsl:attribute name="name">{=halych_male_name_17}Dobromir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[18]/@name">
+  <xsl:attribute name="name">{=halych_male_name_18}Mykhail</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[19]/@name">
+  <xsl:attribute name="name">{=halych_male_name_19}Fedir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[20]/@name">
+  <xsl:attribute name="name">{=halych_male_name_20}Jaroslav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[21]/@name">
+  <xsl:attribute name="name">{=halych_male_name_21}Borys</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[22]/@name">
+  <xsl:attribute name="name">{=halych_male_name_22}Bohdan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[23]/@name">
+  <xsl:attribute name="name">{=halych_male_name_23}Faddei</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[24]/@name">
+  <xsl:attribute name="name">{=halych_male_name_24}Ivan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[25]/@name">
+  <xsl:attribute name="name">{=halych_male_name_25}Stepan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[26]/@name">
+  <xsl:attribute name="name">{=halych_male_name_26}Sviatoslav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[27]/@name">
+  <xsl:attribute name="name">{=halych_male_name_27}Andriy</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[28]/@name">
+  <xsl:attribute name="name">{=halych_male_name_28}Alexander</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[29]/@name">
+  <xsl:attribute name="name">{=halych_male_name_29}Ivan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[30]/@name">
+  <xsl:attribute name="name">{=halych_male_name_30}Volodimir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[31]/@name">
+  <xsl:attribute name="name">{=halych_male_name_31}Vasylko</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[32]/@name">
+  <xsl:attribute name="name">{=halych_male_name_32}Roman</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[33]/@name">
+  <xsl:attribute name="name">{=halych_male_name_33}Lev</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[34]/@name">
+  <xsl:attribute name="name">{=halych_male_name_34}Danylo</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[35]/@name">
+  <xsl:attribute name="name">{=halych_male_name_35}Mstislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[36]/@name">
+  <xsl:attribute name="name">{=halych_male_name_36}Svarn</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[37]/@name">
+  <xsl:attribute name="name">{=halych_male_name_37}Bryachislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/male_names/name[38]/@name">
+  <xsl:attribute name="name">{=halych_male_name_38}Voloda</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[1]/@name">
+  <xsl:attribute name="name">{=halych_female_name_1}Daryna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[2]/@name">
+  <xsl:attribute name="name">{=halych_female_name_2}Anastasiya</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[3]/@name">
+  <xsl:attribute name="name">{=halych_female_name_3}Bohdana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[4]/@name">
+  <xsl:attribute name="name">{=halych_female_name_4}Alina</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[5]/@name">
+  <xsl:attribute name="name">{=halych_female_name_5}Daniela</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[6]/@name">
+  <xsl:attribute name="name">{=halych_female_name_6}Dobrodeia</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[7]/@name">
+  <xsl:attribute name="name">{=halych_female_name_7}Dobroniega</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[8]/@name">
+  <xsl:attribute name="name">{=halych_female_name_8}Iadvykha</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[9]/@name">
+  <xsl:attribute name="name">{=halych_female_name_9}Olenica</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[10]/@name">
+  <xsl:attribute name="name">{=halych_female_name_10}Polahia</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[11]/@name">
+  <xsl:attribute name="name">{=halych_female_name_11}Zofeia</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[12]/@name">
+  <xsl:attribute name="name">{=halych_female_name_12}Zvenislava</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[13]/@name">
+  <xsl:attribute name="name">{=halych_female_name_13}Wyola</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[14]/@name">
+  <xsl:attribute name="name">{=halych_female_name_14}Stetsia</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[15]/@name">
+  <xsl:attribute name="name">{=halych_female_name_15}Poloneia</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[16]/@name">
+  <xsl:attribute name="name">{=halych_female_name_16}Tomyla</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[17]/@name">
+  <xsl:attribute name="name">{=halych_female_name_17}Olena</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[18]/@name">
+  <xsl:attribute name="name">{=halych_female_name_18}Kalyna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[19]/@name">
+  <xsl:attribute name="name">{=halych_female_name_19}Kateryna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[20]/@name">
+  <xsl:attribute name="name">{=halych_female_name_20}Inna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[21]/@name">
+  <xsl:attribute name="name">{=halych_female_name_21}Ivanna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[22]/@name">
+  <xsl:attribute name="name">{=halych_female_name_22}Anichka</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[23]/@name">
+  <xsl:attribute name="name">{=halych_female_name_23}Aleksandra</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[24]/@name">
+  <xsl:attribute name="name">{=halych_female_name_24}Anna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[25]/@name">
+  <xsl:attribute name="name">{=halych_female_name_25}Ionna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[26]/@name">
+  <xsl:attribute name="name">{=halych_female_name_26}Daryna</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[27]/@name">
+  <xsl:attribute name="name">{=halych_female_name_27}Dina</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[28]/@name">
+  <xsl:attribute name="name">{=halych_female_name_28}Olena</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[29]/@name">
+  <xsl:attribute name="name">{=halych_female_name_29}Oksana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[30]/@name">
+  <xsl:attribute name="name">{=halych_female_name_30}Maria</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[31]/@name">
+  <xsl:attribute name="name">{=halych_female_name_31}Ljudmila</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[32]/@name">
+  <xsl:attribute name="name">{=halych_female_name_32}Svitlana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[33]/@name">
+  <xsl:attribute name="name">{=halych_female_name_33}Zlata</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[34]/@name">
+  <xsl:attribute name="name">{=halych_female_name_34}Zoriana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[35]/@name">
+  <xsl:attribute name="name">{=halych_female_name_35}Leonida</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[36]/@name">
+  <xsl:attribute name="name">{=halych_female_name_36}Yaroslava</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[37]/@name">
+  <xsl:attribute name="name">{=halych_female_name_37}Tetiana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='halych']/female_names/name[38]/@name">
+  <xsl:attribute name="name">{=halych_female_name_38}Kalyna</xsl:attribute>
+</xsl:template>
+
+
 
 
   <!-- spcultures_scotland -->
 
-  <xsl:template match="Culture[@id='scottish']/female_names">
-    <female_names>
-      <name name="{=wmavDBib}Abigall"/>
-      <name name="{=RwdyVlWH}Ailios"/>
-      <name name="{=gexRdzPt}Alesonne"/>
-      <name name="{=EeQcqzEe}Allissaid"/>
-      <name name="{=OXoPACAH}Angnes"/>
-      <name name="{=NKaZCrCs}Annabill"/>
-      <name name="{=ibkUzsqW}Annas"/>
-      <name name="{=FwSOKlli}Beatie"/>
-      <name name="{=eRTXFINc}Beigis"/>
-      <name name="{=WJrzZmBe}Besseta"/>
-      <name name="{=PtXuSUFV}Burunild"/>
-      <name name="{=PAbXEMxf}Caitrina"/>
-      <name name="{=iMvdaBND}Cannie"/>
-      <name name="{=pCpcJvbR}Canny"/>
-      <name name="{=oPkiWtxA}Christan"/>
-      <name name="{=fwATACsV}Christane"/>
-      <name name="{=nAYTDkkN}Claray"/>
-      <name name="{=sxrYZMQQ}Deredere"/>
-      <name name="{=bFxLMaPP}Dervorgilla"/>
-      <name name="{=gehiiIJT}Dervorguilla"/>
-      <name name="{=GkDdfWqu}Ealusaid"/>
-      <name name="{=PenklAly}Eby"/>
-      <name name="{=depzqcUd}Elesbeth"/>
-      <name name="{=WGrNmZcv}Elspaith"/>
-      <name name="{=cWzavUOa}Eschina"/>
-      <name name="{=OyZjowOp}Eufemie"/>
-      <name name="{=IjJAxQSu}Fernelith"/>
-      <name name="{=YojoLYUi}Finnola"/>
-      <name name="{=ThxLupmw}Finvola"/>
-      <name name="{=SAIVsgHj}Forbflaith"/>
-      <name name="{=WlRZxwqw}Forflissa"/>
-      <name name="{=FOVNFqMl}Forsy"/>
-      <name name="{=VbuGyOCc}Gelis"/>
-      <name name="{=VvHEeBaz}Godith"/>
-      <name name="{=xWJmxQFQ}Grisell "/>
-      <name name="{=odLqCFmj}Gruoch"/>
-      <name name="{=FNvCCbvb}Hextilda"/>
-      <name name="{=XKpwaOko}Isbell"/>
-      <name name="{=MJcltsUR}Isobell"/>
-      <name name="{=wbHDgvNw}Isobella"/>
-      <name name="{=FAyzylTF}Jennet "/>
-      <name name="{=vPVtBGUg}Jonet"/>
-      <name name="{=UbTucQFH}Karistina"/>
-      <name name="{=cEQuvQji}Katherin"/>
-      <name name="{=NnmJVMBd}Katreine"/>
-      <name name="{=PdkVMUxD}Kennera"/>
-      <name name="{=XKuBfNsw}Kennocha"/>
-      <name name="{=Aydvdrfh}Made"/>
-      <name name="{=NinGFRif}Maidlin "/>
-      <name name="{=rTADRsrH}Margret"/>
-      <name name="{=sPmspHUD}Mariory"/>
-      <name name="{=JJqFyLiH}Mariot"/>
-      <name name="{=nFLOPBgf}Mariota"/>
-      <name name="{=VNSbiMVI}Marioziota"/>
-      <name name="{=AzVSFYAS}Marsle"/>
-      <name name="{=oIqQfByi}Merraid"/>
-      <name name="{=zANfiFKy}Murreall"/>
-      <name name="{=DlhpxEAK}Rinalde"/>
-      <name name="{=fBnKsGYC}Sidheag"/>
-      <name name="{=fDdlppDu}Suanach"/>
-      <name name="{=jlRMtPCn}Thebe"/>
-      <name name="{=scotland_female_name_1}Theebet"/>
-      <name name="{=scotland_female_name_2}Triduana"/>
-      <name name="{=scotland_female_name_3}Wyolet"/>
-      <name name="{=scotland_female_name_4}Ysenda"/>
-    </female_names>
-  </xsl:template>
 
-  <xsl:template match="Culture[@id='scottish']/clan_names">
-    <clan_names>
-      <name name="{=scotland_clan_name_1}Olifard"/>
-      <name name="{=scotland_clan_name_2}Syward"/>
-      <name name="{=scotland_clan_name_3}Cornet"/>
-      <name name="{=scotland_clan_name_4}Corbet"/>
-      <name name="{=scotland_clan_name_5}Giffard"/>
-      <name name="{=scotland_clan_name_6}Gurle"/>
-      <name name="{=scotland_clan_name_7}Wyscard"/>
-      <name name="{=scotland_clan_name_8}MacDuf"/>
-      <name name="{=scotland_clan_name_9}Mackenedi"/>
-      <name name="{=scotland_clan_name_10}McGregere"/>
-    </clan_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='scottish']/female_names/name[1]/@name">
+  <xsl:attribute name="name">{=wmavDBib}Abigall</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[2]/@name">
+  <xsl:attribute name="name">{=RwdyVlWH}Ailios</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[3]/@name">
+  <xsl:attribute name="name">{=gexRdzPt}Alesonne</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[4]/@name">
+  <xsl:attribute name="name">{=EeQcqzEe}Allissaid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[5]/@name">
+  <xsl:attribute name="name">{=OXoPACAH}Angnes</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[6]/@name">
+  <xsl:attribute name="name">{=NKaZCrCs}Annabill</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[7]/@name">
+  <xsl:attribute name="name">{=ibkUzsqW}Annas</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[8]/@name">
+  <xsl:attribute name="name">{=FwSOKlli}Beatie</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[9]/@name">
+  <xsl:attribute name="name">{=eRTXFINc}Beigis</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[10]/@name">
+  <xsl:attribute name="name">{=WJrzZmBe}Besseta</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[11]/@name">
+  <xsl:attribute name="name">{=PtXuSUFV}Burunild</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[12]/@name">
+  <xsl:attribute name="name">{=PAbXEMxf}Caitrina</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[13]/@name">
+  <xsl:attribute name="name">{=iMvdaBND}Cannie</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[14]/@name">
+  <xsl:attribute name="name">{=pCpcJvbR}Canny</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[15]/@name">
+  <xsl:attribute name="name">{=oPkiWtxA}Christan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[16]/@name">
+  <xsl:attribute name="name">{=fwATACsV}Christane</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[17]/@name">
+  <xsl:attribute name="name">{=nAYTDkkN}Claray</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[18]/@name">
+  <xsl:attribute name="name">{=sxrYZMQQ}Deredere</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[19]/@name">
+  <xsl:attribute name="name">{=bFxLMaPP}Dervorgilla</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[20]/@name">
+  <xsl:attribute name="name">{=gehiiIJT}Dervorguilla</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[21]/@name">
+  <xsl:attribute name="name">{=GkDdfWqu}Ealusaid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[22]/@name">
+  <xsl:attribute name="name">{=PenklAly}Eby</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[23]/@name">
+  <xsl:attribute name="name">{=depzqcUd}Elesbeth</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[24]/@name">
+  <xsl:attribute name="name">{=WGrNmZcv}Elspaith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[25]/@name">
+  <xsl:attribute name="name">{=cWzavUOa}Eschina</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[26]/@name">
+  <xsl:attribute name="name">{=OyZjowOp}Eufemie</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[27]/@name">
+  <xsl:attribute name="name">{=IjJAxQSu}Fernelith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[28]/@name">
+  <xsl:attribute name="name">{=YojoLYUi}Finnola</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[29]/@name">
+  <xsl:attribute name="name">{=ThxLupmw}Finvola</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[30]/@name">
+  <xsl:attribute name="name">{=SAIVsgHj}Forbflaith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[31]/@name">
+  <xsl:attribute name="name">{=WlRZxwqw}Forflissa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[32]/@name">
+  <xsl:attribute name="name">{=FOVNFqMl}Forsy</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[33]/@name">
+  <xsl:attribute name="name">{=VbuGyOCc}Gelis</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[34]/@name">
+  <xsl:attribute name="name">{=VvHEeBaz}Godith</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[35]/@name">
+  <xsl:attribute name="name">{=xWJmxQFQ}Grisell </xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[36]/@name">
+  <xsl:attribute name="name">{=odLqCFmj}Gruoch</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[37]/@name">
+  <xsl:attribute name="name">{=FNvCCbvb}Hextilda</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[38]/@name">
+  <xsl:attribute name="name">{=XKpwaOko}Isbell</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[39]/@name">
+  <xsl:attribute name="name">{=MJcltsUR}Isobell</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[40]/@name">
+  <xsl:attribute name="name">{=wbHDgvNw}Isobella</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[41]/@name">
+  <xsl:attribute name="name">{=FAyzylTF}Jennet </xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[42]/@name">
+  <xsl:attribute name="name">{=vPVtBGUg}Jonet</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[43]/@name">
+  <xsl:attribute name="name">{=UbTucQFH}Karistina</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[44]/@name">
+  <xsl:attribute name="name">{=cEQuvQji}Katherin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[45]/@name">
+  <xsl:attribute name="name">{=NnmJVMBd}Katreine</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[46]/@name">
+  <xsl:attribute name="name">{=PdkVMUxD}Kennera</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[47]/@name">
+  <xsl:attribute name="name">{=XKuBfNsw}Kennocha</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[48]/@name">
+  <xsl:attribute name="name">{=Aydvdrfh}Made</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[49]/@name">
+  <xsl:attribute name="name">{=NinGFRif}Maidlin </xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[50]/@name">
+  <xsl:attribute name="name">{=rTADRsrH}Margret</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[51]/@name">
+  <xsl:attribute name="name">{=sPmspHUD}Mariory</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[52]/@name">
+  <xsl:attribute name="name">{=JJqFyLiH}Mariot</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[53]/@name">
+  <xsl:attribute name="name">{=nFLOPBgf}Mariota</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[54]/@name">
+  <xsl:attribute name="name">{=VNSbiMVI}Marioziota</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[55]/@name">
+  <xsl:attribute name="name">{=AzVSFYAS}Marsle</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[56]/@name">
+  <xsl:attribute name="name">{=oIqQfByi}Merraid</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[57]/@name">
+  <xsl:attribute name="name">{=zANfiFKy}Murreall</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[58]/@name">
+  <xsl:attribute name="name">{=DlhpxEAK}Rinalde</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[59]/@name">
+  <xsl:attribute name="name">{=fBnKsGYC}Sidheag</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[60]/@name">
+  <xsl:attribute name="name">{=fDdlppDu}Suanach</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[61]/@name">
+  <xsl:attribute name="name">{=jlRMtPCn}Thebe</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[62]/@name">
+  <xsl:attribute name="name">{=scotland_female_name_1}Theebet</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[63]/@name">
+  <xsl:attribute name="name">{=scotland_female_name_2}Triduana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[64]/@name">
+  <xsl:attribute name="name">{=scotland_female_name_3}Wyolet</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/female_names/name[65]/@name">
+  <xsl:attribute name="name">{=scotland_female_name_4}Ysenda</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[1]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_1}Olifard</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[2]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_2}Syward</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[3]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_3}Cornet</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[4]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_4}Corbet</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[5]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_5}Giffard</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[6]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_6}Gurle</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[7]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_7}Wyscard</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[8]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_8}MacDuf</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[9]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_9}Mackenedi</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='scottish']/clan_names/name[10]/@name">
+  <xsl:attribute name="name">{=scotland_clan_name_10}McGregere</xsl:attribute>
+</xsl:template>
+
+
 
 
   <!-- spcultures_serbia -->
 
-  <xsl:template match="Culture[@id='serbia']/male_names">
-    <male_names>
-      <name name="{=serbia_male_name_1}Vukan"/>
-      <name name="{=serbia_male_name_2}Stefan"/>
-      <name name="{=serbia_male_name_3}Radoslav"/>
-      <name name="{=serbia_male_name_4}Uroš"/>
-      <name name="{=serbia_male_name_5}Vladislav"/>
-      <name name="{=serbia_male_name_6}Dragoslav"/>
-      <name name="{=serbia_male_name_7}Predislav"/>
-      <name name="{=serbia_male_name_8}Stracimir"/>
-      <name name="{=serbia_male_name_9}Momčilo"/>
-      <name name="{=serbia_male_name_10}Lazar"/>
-      <name name="{=serbia_male_name_11}Dobroslav"/>
-      <name name="{=serbia_male_name_12}Gradislav"/>
-      <name name="{=serbia_male_name_13}Miloš"/>
-      <name name="{=serbia_male_name_14}Radivoj"/>
-      <name name="{=serbia_male_name_15}Bratislav"/>
-      <name name="{=serbia_male_name_16}Stanisav"/>
-      <name name="{=serbia_male_name_17}Tvrdislav"/>
-      <name name="{=serbia_male_name_18}Dmitar"/>
-      <name name="{=serbia_male_name_19}Nenad"/>
-      <name name="{=serbia_male_name_20}Dragutin"/>
-      <name name="{=serbia_male_name_21}Bogdan"/>
-      <name name="{=serbia_male_name_22}Petar"/>
-      <name name="{=serbia_male_name_23}Nikola"/>
-      <name name="{=serbia_male_name_24}Andrija"/>
-      <name name="{=serbia_male_name_25}Grgur"/>
-      <name name="{=serbia_male_name_26}Vojislav"/>
-      <name name="{=serbia_male_name_27}Milovan"/>
-      <name name="{=serbia_male_name_28}Desimir"/>
-      <name name="{=serbia_male_name_29}Milutin"/>
-      <name name="{=serbia_male_name_30}Branislav"/>
-    </male_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='serbia']/male_names/name[1]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_1}Vukan</xsl:attribute>
+</xsl:template>
 
-  <xsl:template match="Culture[@id='serbia']/female_names">
-    <female_names>
-      <name name="{=serbia_female_name_1}Jelena"/>
-      <name name="{=serbia_female_name_2}Ana"/>
-      <name name="{=serbia_female_name_3}Milica"/>
-      <name name="{=serbia_female_name_4}Teodora"/>
-      <name name="{=serbia_female_name_5}Dragana"/>
-      <name name="{=serbia_female_name_6}Stana"/>
-      <name name="{=serbia_female_name_7}Radoslava"/>
-      <name name="{=serbia_female_name_8}Marija"/>
-      <name name="{=serbia_female_name_9}Vidosava"/>
-      <name name="{=serbia_female_name_10}Desislava"/>
-      <name name="{=serbia_female_name_11}Smiljana"/>
-      <name name="{=serbia_female_name_12}Bogdana"/>
-      <name name="{=serbia_female_name_13}Nevena"/>
-      <name name="{=serbia_female_name_14}Pribislava"/>
-      <name name="{=serbia_female_name_15}Radmila"/>
-      <name name="{=serbia_female_name_16}Magdalena"/>
-      <name name="{=serbia_female_name_17}Kosara"/>
-      <name name="{=serbia_female_name_18}Gordana"/>
-      <name name="{=serbia_female_name_19}Zorica"/>
-      <name name="{=serbia_female_name_20}Neda"/>
-    </female_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='serbia']/male_names/name[2]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_2}Stefan</xsl:attribute>
+</xsl:template>
 
-  <xsl:template match="Culture[@id='serbia']/clan_names">
-    <clan_names>
-      <name name="{=serbia_clan_name_1}Radojević"/>
-      <name name="{=serbia_clan_name_2}Rastomirić"/>
-      <name name="{=serbia_clan_name_3}Stepković"/>
-      <name name="{=serbia_clan_name_4}Adamović"/>
-      <name name="{=serbia_clan_name_5}Mrdić"/>
-      <name name="{=serbia_clan_name_6}Zlošević"/>
-      <name name="{=serbia_clan_name_7}Crnojević"/>
-      <name name="{=serbia_clan_name_8}Jakšić"/>
-      <name name="{=serbia_clan_name_9}Kosača"/>
-      <name name="{=serbia_clan_name_10}Vojinović"/>
-      <name name="{=serbia_clan_name_11}Balšić"/>
-      <name name="{=serbia_clan_name_12}Mrnjavčević"/>
-    </clan_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='serbia']/male_names/name[3]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_3}Radoslav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[4]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_4}Uroš</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[5]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_5}Vladislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[6]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_6}Dragoslav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[7]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_7}Predislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[8]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_8}Stracimir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[9]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_9}Momčilo</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[10]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_10}Lazar</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[11]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_11}Dobroslav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[12]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_12}Gradislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[13]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_13}Miloš</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[14]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_14}Radivoj</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[15]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_15}Bratislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[16]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_16}Stanisav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[17]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_17}Tvrdislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[18]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_18}Dmitar</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[19]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_19}Nenad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[20]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_20}Dragutin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[21]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_21}Bogdan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[22]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_22}Petar</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[23]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_23}Nikola</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[24]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_24}Andrija</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[25]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_25}Grgur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[26]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_26}Vojislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[27]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_27}Milovan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[28]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_28}Desimir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[29]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_29}Milutin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/male_names/name[30]/@name">
+  <xsl:attribute name="name">{=serbia_male_name_30}Branislav</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[1]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_1}Jelena</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[2]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_2}Ana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[3]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_3}Milica</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[4]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_4}Teodora</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[5]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_5}Dragana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[6]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_6}Stana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[7]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_7}Radoslava</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[8]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_8}Marija</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[9]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_9}Vidosava</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[10]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_10}Desislava</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[11]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_11}Smiljana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[12]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_12}Bogdana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[13]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_13}Nevena</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[14]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_14}Pribislava</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[15]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_15}Radmila</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[16]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_16}Magdalena</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[17]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_17}Kosara</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[18]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_18}Gordana</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[19]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_19}Zorica</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/female_names/name[20]/@name">
+  <xsl:attribute name="name">{=serbia_female_name_20}Neda</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[1]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_1}Radojević</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[2]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_2}Rastomirić</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[3]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_3}Stepković</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[4]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_4}Adamović</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[5]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_5}Mrdić</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[6]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_6}Zlošević</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[7]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_7}Crnojević</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[8]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_8}Jakšić</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[9]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_9}Kosača</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[10]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_10}Vojinović</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[11]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_11}Balšić</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='serbia']/clan_names/name[12]/@name">
+  <xsl:attribute name="name">{=serbia_clan_name_12}Mrnjavčević</xsl:attribute>
+</xsl:template>
 
 
 
   <!-- spcultures_turkish -->
 
-  <xsl:template match="Culture[@id='turkish']/male_names">
-    <male_names>
-      <name name="{=JcbZqRvv}Ataman"/>
-      <name name="{=mxcSHQrJ}Bengü"/>
-      <name name="{=dVNerSxF}Kürşat"/>
-      <name name="{=xfnViuJj}Qutluğ"/>
-      <name name="{=KBYrJSgG}Runtiya"/>
-      <name name="{=ngOWQUON}Ülgen"/>
-      <name name="{=KGJiwyAx}Yafis"/>
-      <name name="{=unHYAVGq}Izz ad-Din"/>
-      <name name="{=qKiodgMd}Sayf"/>
-      <name name="{=PaYoYwad}Nur"/>
-      <name name="{=GZsMAmaI}Ali"/>
-      <name name="{=MStLkdeG}Rukn"/>
-      <name name="{=cFjXBlhQ}Nasir"/>
-      <name name="{=bwjKtOyZ}Badr"/>
-      <name name="{=sAuVJVvF}Izz"/>
-      <name name="{=uTIYtLkq}Rukn ad-Din"/>
-      <name name="{=kmbMExNj}Nasir ad-Din"/>
-      <name name="{=QudTJVwL}Badr ad-Din"/>
-      <name name="{=ggMQhWht}Salah"/>
-      <name name="{=srubHqhZ}Zayn"/>
-      <name name="{=xAOmKEPn}Husam"/>
-      <name name="{=PVbxkDQo}Ala'a"/>
-      <name name="{=tuiUbFbT}Shihab"/>
-      <name name="{=qpoHXsoH}Imad"/>
-      <name name="{=QxfNcnWl}Al-Musta'in"/>
-      <name name="{=QlXfunwr}Billah"/>
-      <name name="{=ahtOYdmn}Fakhr"/>
-      <name name="{=CmayHhBK}Jamal"/>
-      <name name="{=XOgaxxew}Shaykh"/>
-      <name name="{=tpstDmTM}Inal"/>
-      <name name="{=EymGYfDD}Barquq"/>
-      <name name="{=IJfXTzHE}Jaqmaq"/>
-      <name name="{=ESzJDGWx}Barsbay"/>
-      <name name="{=qTpDoZMi}Qa'itbay"/>
-      <name name="{=wzVtzBqX}Yashbak"/>
-      <name name="{=coJihWxo}Muhammad"/>
-      <name name="{=sPxpSfid}Sa'id"/>
-      <name name="{=lcfGETBi}Timurbugha"/>
-      <name name="{=hoguvAuo}Qansuh"/>
-      <name name="{=BbTYtgRr}Tumanbay"/>
-      <name name="{=ZVucLAPj}Al-Mansur"/>
-      <name name="{=wxTlXwVq}as-Salih"/>
-      <name name="{=xUCjuOzy}Aybak"/>
-      <name name="{=JlLOVEfq}Azzaddin"/>
-      <name name="{=WdukBPEg}Naseer"/>
-      <name name="{=KTTrxGSX}Ahmad"/>
-      <name name="{=dMVKZQvg}Saif"/>
-      <name name="{=xsEAReCe}Zein"/>
-      <name name="{=IHDUdDFS}Salah"/>
-      <name name="{=AajPIzCu}Ala"/>
-      <name name="{=tIwUJJWy}Sulayman"/>
-      <name name="{=WWryqVZd}Suleyman"/>
-      <name name="{=SfJvefsx}Omar"/>
-      <name name="{=RjAyexxk}Pasha"/>
-      <name name="{=mVnvGhrs}Dawud"/>
-      <name name="{=akfSjPsS}Said"/>
-      <name name="{=turkish_male_name_1}Aghizluu"/>
-      <name name="{=turkish_male_name_2}Alaabughaa"/>
-      <name name="{=turkish_male_name_3}Altamur"/>
-      <name name="{=turkish_male_name_4}Alt'ibars"/>
-      <name name="{=turkish_male_name_5}Alt'unbughaa"/>
-      <name name="{=turkish_male_name_6}Anuuk"/>
-      <name name="{=turkish_male_name_7}Aqbughaa"/>
-      <name name="{=turkish_male_name_8}Aqtamur"/>
-      <name name="{=turkish_male_name_9}Aqt'uaq"/>
-      <name name="{=turkish_male_name_10}Aquush"/>
-      <name name="{=turkish_male_name_11}Arikmaas"/>
-      <name name="{=turkish_male_name_12}Ariqt.aay"/>
-      <name name="{=turkish_male_name_13}Asanbaay"/>
-      <name name="{=turkish_male_name_14}Asanbughaa"/>
-      <name name="{=turkish_male_name_15}Asandamur"/>
-      <name name="{=turkish_male_name_16}Aydughdii"/>
-      <name name="{=turkish_male_name_17}Aydughmish"/>
-      <name name="{=turkish_male_name_18}Aydakiin"/>
-      <name name="{=turkish_male_name_19}Aydamur"/>
-      <name name="{=turkish_male_name_20}Aytmish"/>
-      <name name="{=turkish_male_name_21}Baktamur"/>
-      <name name="{=turkish_male_name_22}Balabaan"/>
-      <name name="{=turkish_male_name_23}Baltaa"/>
-      <name name="{=turkish_male_name_24}Barsbughaa"/>
-      <name name="{=turkish_male_name_25}Baybujaa"/>
-      <name name="{=turkish_male_name_26}Baydamur"/>
-      <name name="{=turkish_male_name_27}Biiliik"/>
-      <name name="{=turkish_male_name_28}Duqmaaq"/>
-      <name name="{=turkish_male_name_29}Ishiqtamur"/>
-      <name name="{=turkish_male_name_30}Iyaas"/>
-      <name name="{=turkish_male_name_31}Iyaaz"/>
-      <name name="{=turkish_male_name_32}Jaqmaq"/>
-      <name name="{=turkish_male_name_33}Jaavlii"/>
-      <name name="{=turkish_male_name_34}Julbaan"/>
-      <name name="{=turkish_male_name_35}Jumaq"/>
-      <name name="{=turkish_male_name_36}Juubaan"/>
-      <name name="{=turkish_male_name_37}Kaykaldii"/>
-      <name name="{=turkish_male_name_38}Kaytamur"/>
-      <name name="{=turkish_male_name_39}Kubak"/>
-      <name name="{=turkish_male_name_40}Kujuk"/>
-      <name name="{=turkish_male_name_41}Kurjii"/>
-      <name name="{=turkish_male_name_42}Kuujabaa"/>
-      <name name="{=turkish_male_name_43}Kuujarii"/>
-      <name name="{=turkish_male_name_44}Khushkaldii"/>
-      <name name="{=turkish_male_name_45}Makuurish"/>
-      <name name="{=turkish_male_name_46}Mankuutamur"/>
-      <name name="{=turkish_male_name_47}Mintaash"/>
-      <name name="{=turkish_male_name_48}Qaraa Arslaan"/>
-      <name name="{=turkish_male_name_49}Qaraabughaa"/>
-      <name name="{=turkish_male_name_50}Qaraabulaat"/>
-      <name name="{=turkish_male_name_51}Qaraakuz"/>
-      <name name="{=turkish_male_name_52}Qaraalaajiin"/>
-      <name name="{=turkish_male_name_53}Qaraaqaash"/>
-      <name name="{=turkish_male_name_54}Qaraaqujaa"/>
-      <name name="{=turkish_male_name_55}Qaraasunqur"/>
-      <name name="{=turkish_male_name_56}Qarat.aay"/>
-      <name name="{=turkish_male_name_57}Qarsaq"/>
-      <name name="{=turkish_male_name_58}Qaanim"/>
-      <name name="{=turkish_male_name_59}Qaantamur"/>
-      <name name="{=turkish_male_name_60}Qaashiq"/>
-      <name name="{=turkish_male_name_61}Qaaymaaz"/>
-      <name name="{=turkish_male_name_62}Qaazaan"/>
-      <name name="{=turkish_male_name_63}Qijmaas"/>
-      <name name="{=turkish_male_name_64}Qilij"/>
-      <name name="{=turkish_male_name_65}Qirmish"/>
-      <name name="{=turkish_male_name_66}Qujaq"/>
-      <name name="{=turkish_male_name_67}Qujaajaq"/>
-      <name name="{=turkish_male_name_68}Qulanjiq"/>
-      <name name="{=turkish_male_name_69}Qulaq Siiz"/>
-      <name name="{=turkish_male_name_70}Qurqmaas"/>
-      <name name="{=turkish_male_name_71}Qutluqtamur"/>
-      <name name="{=turkish_male_name_72}Qutluubughaa"/>
-      <name name="{=turkish_male_name_73}Qutuubak"/>
-      <name name="{=turkish_male_name_74}Saksan"/>
-      <name name="{=turkish_male_name_75}Sanjar"/>
-      <name name="{=turkish_male_name_76}Sarghitmish"/>
-      <name name="{=turkish_male_name_77}Savinjbughaa"/>
-      <name name="{=turkish_male_name_78}Sunkuu"/>
-      <name name="{=turkish_male_name_79}Sandal"/>
-      <name name="{=turkish_male_name_80}Saqalsiz"/>
-      <name name="{=turkish_male_name_81}Satilmish"/>
-      <name name="{=turkish_male_name_82}Suusuun"/>
-      <name name="{=turkish_male_name_83}Tamur"/>
-      <name name="{=turkish_male_name_84}Tamurbughaa"/>
-      <name name="{=turkish_male_name_85}Tankizbughaa"/>
-      <name name="{=turkish_male_name_86}Tumaantamur"/>
-      <name name="{=turkish_male_name_87}Tashbughaa"/>
-      <name name="{=turkish_male_name_88}Tashtamur"/>
-      <name name="{=turkish_male_name_89}Taybars"/>
-      <name name="{=turkish_male_name_90}Taybughaa"/>
-      <name name="{=turkish_male_name_91}Taanyariq"/>
-      <name name="{=turkish_male_name_92}Tughjii"/>
-      <name name="{=turkish_male_name_93}Tuqtamur"/>
-      <name name="{=turkish_male_name_94}Tuqtamish"/>
-      <name name="{=turkish_male_name_95}Tuughaan"/>
-      <name name="{=turkish_male_name_96}Tuuluutamur"/>
-      <name name="{=turkish_male_name_97}Uqt'aay"/>
-      <name name="{=turkish_male_name_98}Urunbughaa"/>
-      <name name="{=turkish_male_name_99}Uzbak"/>
-      <name name="{=turkish_male_name_100}Uzdamur"/>
-      <name name="{=turkish_male_name_101}Yaghmuur"/>
-      <name name="{=turkish_male_name_102}Yakhshii Baay"/>
-      <name name="{=turkish_male_name_103}Yakrak"/>
-      <name name="{=turkish_male_name_104}Yaaruuq"/>
-    </male_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='turkish']/male_names/name[1]/@name">
+  <xsl:attribute name="name">{=JcbZqRvv}Ataman</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[2]/@name">
+  <xsl:attribute name="name">{=mxcSHQrJ}Bengü</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[3]/@name">
+  <xsl:attribute name="name">{=dVNerSxF}Kürşat</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[4]/@name">
+  <xsl:attribute name="name">{=xfnViuJj}Qutluğ</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[5]/@name">
+  <xsl:attribute name="name">{=KBYrJSgG}Runtiya</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[6]/@name">
+  <xsl:attribute name="name">{=ngOWQUON}Ülgen</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[7]/@name">
+  <xsl:attribute name="name">{=KGJiwyAx}Yafis</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[8]/@name">
+  <xsl:attribute name="name">{=unHYAVGq}Izz ad-Din</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[9]/@name">
+  <xsl:attribute name="name">{=qKiodgMd}Sayf</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[10]/@name">
+  <xsl:attribute name="name">{=PaYoYwad}Nur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[11]/@name">
+  <xsl:attribute name="name">{=GZsMAmaI}Ali</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[12]/@name">
+  <xsl:attribute name="name">{=MStLkdeG}Rukn</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[13]/@name">
+  <xsl:attribute name="name">{=cFjXBlhQ}Nasir</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[14]/@name">
+  <xsl:attribute name="name">{=bwjKtOyZ}Badr</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[15]/@name">
+  <xsl:attribute name="name">{=sAuVJVvF}Izz</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[16]/@name">
+  <xsl:attribute name="name">{=uTIYtLkq}Rukn ad-Din</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[17]/@name">
+  <xsl:attribute name="name">{=kmbMExNj}Nasir ad-Din</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[18]/@name">
+  <xsl:attribute name="name">{=QudTJVwL}Badr ad-Din</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[19]/@name">
+  <xsl:attribute name="name">{=ggMQhWht}Salah</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[20]/@name">
+  <xsl:attribute name="name">{=srubHqhZ}Zayn</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[21]/@name">
+  <xsl:attribute name="name">{=xAOmKEPn}Husam</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[22]/@name">
+  <xsl:attribute name="name">{=PVbxkDQo}Ala'a</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[23]/@name">
+  <xsl:attribute name="name">{=tuiUbFbT}Shihab</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[24]/@name">
+  <xsl:attribute name="name">{=qpoHXsoH}Imad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[25]/@name">
+  <xsl:attribute name="name">{=QxfNcnWl}Al-Musta'in</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[26]/@name">
+  <xsl:attribute name="name">{=QlXfunwr}Billah</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[27]/@name">
+  <xsl:attribute name="name">{=ahtOYdmn}Fakhr</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[28]/@name">
+  <xsl:attribute name="name">{=CmayHhBK}Jamal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[29]/@name">
+  <xsl:attribute name="name">{=XOgaxxew}Shaykh</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[30]/@name">
+  <xsl:attribute name="name">{=tpstDmTM}Inal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[31]/@name">
+  <xsl:attribute name="name">{=EymGYfDD}Barquq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[32]/@name">
+  <xsl:attribute name="name">{=IJfXTzHE}Jaqmaq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[33]/@name">
+  <xsl:attribute name="name">{=ESzJDGWx}Barsbay</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[34]/@name">
+  <xsl:attribute name="name">{=qTpDoZMi}Qa'itbay</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[35]/@name">
+  <xsl:attribute name="name">{=wzVtzBqX}Yashbak</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[36]/@name">
+  <xsl:attribute name="name">{=coJihWxo}Muhammad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[37]/@name">
+  <xsl:attribute name="name">{=sPxpSfid}Sa'id</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[38]/@name">
+  <xsl:attribute name="name">{=lcfGETBi}Timurbugha</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[39]/@name">
+  <xsl:attribute name="name">{=hoguvAuo}Qansuh</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[40]/@name">
+  <xsl:attribute name="name">{=BbTYtgRr}Tumanbay</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[41]/@name">
+  <xsl:attribute name="name">{=ZVucLAPj}Al-Mansur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[42]/@name">
+  <xsl:attribute name="name">{=wxTlXwVq}as-Salih</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[43]/@name">
+  <xsl:attribute name="name">{=xUCjuOzy}Aybak</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[44]/@name">
+  <xsl:attribute name="name">{=JlLOVEfq}Azzaddin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[45]/@name">
+  <xsl:attribute name="name">{=WdukBPEg}Naseer</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[46]/@name">
+  <xsl:attribute name="name">{=KTTrxGSX}Ahmad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[47]/@name">
+  <xsl:attribute name="name">{=dMVKZQvg}Saif</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[48]/@name">
+  <xsl:attribute name="name">{=xsEAReCe}Zein</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[49]/@name">
+  <xsl:attribute name="name">{=IHDUdDFS}Salah</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[50]/@name">
+  <xsl:attribute name="name">{=AajPIzCu}Ala</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[51]/@name">
+  <xsl:attribute name="name">{=tIwUJJWy}Sulayman</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[52]/@name">
+  <xsl:attribute name="name">{=WWryqVZd}Suleyman</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[53]/@name">
+  <xsl:attribute name="name">{=SfJvefsx}Omar</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[54]/@name">
+  <xsl:attribute name="name">{=RjAyexxk}Pasha</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[55]/@name">
+  <xsl:attribute name="name">{=mVnvGhrs}Dawud</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[56]/@name">
+  <xsl:attribute name="name">{=akfSjPsS}Said</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[57]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_1}Aghizluu</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[58]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_2}Alaabughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[59]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_3}Altamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[60]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_4}Alt'ibars</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[61]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_5}Alt'unbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[62]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_6}Anuuk</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[63]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_7}Aqbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[64]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_8}Aqtamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[65]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_9}Aqt'uaq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[66]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_10}Aquush</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[67]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_11}Arikmaas</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[68]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_12}Ariqt.aay</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[69]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_13}Asanbaay</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[70]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_14}Asanbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[71]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_15}Asandamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[72]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_16}Aydughdii</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[73]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_17}Aydughmish</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[74]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_18}Aydakiin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[75]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_19}Aydamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[76]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_20}Aytmish</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[77]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_21}Baktamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[78]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_22}Balabaan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[79]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_23}Baltaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[80]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_24}Barsbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[81]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_25}Baybujaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[82]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_26}Baydamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[83]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_27}Biiliik</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[84]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_28}Duqmaaq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[85]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_29}Ishiqtamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[86]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_30}Iyaas</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[87]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_31}Iyaaz</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[88]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_32}Jaqmaq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[89]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_33}Jaavlii</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[90]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_34}Julbaan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[91]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_35}Jumaq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[92]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_36}Juubaan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[93]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_37}Kaykaldii</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[94]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_38}Kaytamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[95]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_39}Kubak</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[96]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_40}Kujuk</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[97]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_41}Kurjii</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[98]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_42}Kuujabaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[99]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_43}Kuujarii</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[100]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_44}Khushkaldii</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[101]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_45}Makuurish</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[102]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_46}Mankuutamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[103]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_47}Mintaash</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[104]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_48}Qaraa Arslaan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[105]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_49}Qaraabughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[106]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_50}Qaraabulaat</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[107]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_51}Qaraakuz</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[108]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_52}Qaraalaajiin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[109]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_53}Qaraaqaash</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[110]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_54}Qaraaqujaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[111]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_55}Qaraasunqur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[112]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_56}Qarat.aay</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[113]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_57}Qarsaq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[114]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_58}Qaanim</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[115]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_59}Qaantamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[116]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_60}Qaashiq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[117]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_61}Qaaymaaz</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[118]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_62}Qaazaan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[119]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_63}Qijmaas</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[120]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_64}Qilij</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[121]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_65}Qirmish</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[122]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_66}Qujaq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[123]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_67}Qujaajaq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[124]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_68}Qulanjiq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[125]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_69}Qulaq Siiz</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[126]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_70}Qurqmaas</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[127]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_71}Qutluqtamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[128]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_72}Qutluubughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[129]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_73}Qutuubak</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[130]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_74}Saksan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[131]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_75}Sanjar</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[132]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_76}Sarghitmish</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[133]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_77}Savinjbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[134]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_78}Sunkuu</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[135]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_79}Sandal</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[136]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_80}Saqalsiz</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[137]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_81}Satilmish</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[138]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_82}Suusuun</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[139]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_83}Tamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[140]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_84}Tamurbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[141]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_85}Tankizbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[142]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_86}Tumaantamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[143]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_87}Tashbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[144]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_88}Tashtamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[145]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_89}Taybars</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[146]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_90}Taybughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[147]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_91}Taanyariq</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[148]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_92}Tughjii</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[149]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_93}Tuqtamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[150]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_94}Tuqtamish</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[151]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_95}Tuughaan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[152]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_96}Tuuluutamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[153]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_97}Uqt'aay</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[154]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_98}Urunbughaa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[155]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_99}Uzbak</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[156]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_100}Uzdamur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[157]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_101}Yaghmuur</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[158]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_102}Yakhshii Baay</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[159]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_103}Yakrak</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='turkish']/male_names/name[160]/@name">
+  <xsl:attribute name="name">{=turkish_male_name_104}Yaaruuq</xsl:attribute>
+</xsl:template>
+
+
 
 
   <!-- spcultures_wales -->
 
-  <xsl:template match="Culture[@id='wales']/female_names">
-    <female_names>
-      <name name="{=wales_female_name_1}Nest"/>
-      <name name="{=wales_female_name_2}Elen"/>
-      <name name="{=wales_female_name_3}Gwenllian"/>
-      <name name="{=wales_female_name_4}Angharad"/>
-      <name name="{=wales_female_name_5}Marged"/>
-      <name name="{=wales_female_name_6}Tangwystl"/>
-      <name name="{=wales_female_name_7}Catrin"/>
-      <name name="{=wales_female_name_8}Dyddgu"/>
-      <name name="{=wales_female_name_9}Lleucu"/>
-      <name name="{=wales_female_name_10}Sioned"/>
-      <name name="{=wales_female_name_11}Lowri"/>
-      <name name="{=wales_female_name_12}Enfys"/>
-      <name name="{=wales_female_name_13}Mevanwy"/>
-      <name name="{=wales_female_name_14}Isolde"/>
-      <name name="{=wales_female_name_15}Seren"/>
-      <name name="{=wales_female_name_16}Branwen"/>
-      <name name="{=wales_female_name_17}Myfanwy"/>
-      <name name="{=wales_female_name_18}Esyllt"/>
-      <name name="{=wales_female_name_19}Blodwen"/>
-      <name name="{=wales_female_name_20}Rhiannon"/>
-      <name name="{=wales_female_name_21}Gwenfrewi"/>
-      <name name="{=wales_female_name_22}Tegwen"/>
-      <name name="{=wales_female_name_23}Annest"/>
-      <name name="{=wales_female_name_24}Efa"/>
-      <name name="{=wales_female_name_25}Dyfanwy"/>
-      <name name="{=wales_female_name_26}Sibyl"/>
-      <name name="{=wales_female_name_27}Arddun"/>
-      <name name="{=wales_female_name_28}Morfudd"/>
-      <name name="{=wales_female_name_29}Eluned"/>
-      <name name="{=wales_female_name_30}Bethan"/>
-    </female_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='wales']/female_names/name[1]/@name">
+  <xsl:attribute name="name">{=wales_female_name_1}Nest</xsl:attribute>
+</xsl:template>
 
-  <xsl:template match="Culture[@id='wales']/clan_names">
-    <clan_names>
-      <name name="{=wales_clan_name_1}ap Cadwaladr"/>
-      <name name="{=wales_clan_name_2}ap Rhys"/>
-      <name name="{=wales_clan_name_3}ap Hywel"/>
-      <name name="{=wales_clan_name_4}ap Madog"/>
-      <name name="{=wales_clan_name_5}ap Maredudd"/>
-      <name name="{=wales_clan_name_6}ap Cynan"/>
-      <name name="{=wales_clan_name_7}ap Bleddyn"/>
-      <name name="{=wales_clan_name_8}ap Rhodri"/>
-      <name name="{=wales_clan_name_9}ap Anarawd"/>
-    </clan_names>
-  </xsl:template>
+<xsl:template match="Culture[@id='wales']/female_names/name[2]/@name">
+  <xsl:attribute name="name">{=wales_female_name_2}Elen</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[3]/@name">
+  <xsl:attribute name="name">{=wales_female_name_3}Gwenllian</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[4]/@name">
+  <xsl:attribute name="name">{=wales_female_name_4}Angharad</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[5]/@name">
+  <xsl:attribute name="name">{=wales_female_name_5}Marged</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[6]/@name">
+  <xsl:attribute name="name">{=wales_female_name_6}Tangwystl</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[7]/@name">
+  <xsl:attribute name="name">{=wales_female_name_7}Catrin</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[8]/@name">
+  <xsl:attribute name="name">{=wales_female_name_8}Dyddgu</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[9]/@name">
+  <xsl:attribute name="name">{=wales_female_name_9}Lleucu</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[10]/@name">
+  <xsl:attribute name="name">{=wales_female_name_10}Sioned</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[11]/@name">
+  <xsl:attribute name="name">{=wales_female_name_11}Lowri</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[12]/@name">
+  <xsl:attribute name="name">{=wales_female_name_12}Enfys</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[13]/@name">
+  <xsl:attribute name="name">{=wales_female_name_13}Mevanwy</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[14]/@name">
+  <xsl:attribute name="name">{=wales_female_name_14}Isolde</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[15]/@name">
+  <xsl:attribute name="name">{=wales_female_name_15}Seren</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[16]/@name">
+  <xsl:attribute name="name">{=wales_female_name_16}Branwen</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[17]/@name">
+  <xsl:attribute name="name">{=wales_female_name_17}Myfanwy</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[18]/@name">
+  <xsl:attribute name="name">{=wales_female_name_18}Esyllt</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[19]/@name">
+  <xsl:attribute name="name">{=wales_female_name_19}Blodwen</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[20]/@name">
+  <xsl:attribute name="name">{=wales_female_name_20}Rhiannon</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[21]/@name">
+  <xsl:attribute name="name">{=wales_female_name_21}Gwenfrewi</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[22]/@name">
+  <xsl:attribute name="name">{=wales_female_name_22}Tegwen</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[23]/@name">
+  <xsl:attribute name="name">{=wales_female_name_23}Annest</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[24]/@name">
+  <xsl:attribute name="name">{=wales_female_name_24}Efa</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[25]/@name">
+  <xsl:attribute name="name">{=wales_female_name_25}Dyfanwy</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[26]/@name">
+  <xsl:attribute name="name">{=wales_female_name_26}Sibyl</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[27]/@name">
+  <xsl:attribute name="name">{=wales_female_name_27}Arddun</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[28]/@name">
+  <xsl:attribute name="name">{=wales_female_name_28}Morfudd</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[29]/@name">
+  <xsl:attribute name="name">{=wales_female_name_29}Eluned</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/female_names/name[30]/@name">
+  <xsl:attribute name="name">{=wales_female_name_30}Bethan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[1]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_1}ap Cadwaladr</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[2]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_2}ap Rhys</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[3]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_3}ap Hywel</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[4]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_4}ap Madog</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[5]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_5}ap Maredudd</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[6]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_6}ap Cynan</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[7]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_7}ap Bleddyn</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[8]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_8}ap Rhodri</xsl:attribute>
+</xsl:template>
+
+<xsl:template match="Culture[@id='wales']/clan_names/name[9]/@name">
+  <xsl:attribute name="name">{=wales_clan_name_9}ap Anarawd</xsl:attribute>
+</xsl:template>
+
+
 
 
 
