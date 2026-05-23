@@ -7,14 +7,6 @@
 
   </xsl:template>
 
-
-
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
-  <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
-
   <xsl:template match="NPCCharacter[@id='lord_almohad_5_1']/@name">
     <xsl:attribute name="name">{=almohad_lord_de_vicente_1}Vicente Bellvis, ex-Emir of Valencia</xsl:attribute>
   </xsl:template>
@@ -46,7 +38,5 @@
   <xsl:template match="NPCCharacter[@id='lord_almohad_5_8']/@name">
     <xsl:attribute name="name">{=almohad_lord_de_vicente_8}Sancho Ferrandis</xsl:attribute>
   </xsl:template>
-
-</xsl:stylesheet>
 
 </xsl:stylesheet>
