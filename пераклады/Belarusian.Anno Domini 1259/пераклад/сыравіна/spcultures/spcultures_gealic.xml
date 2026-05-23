@@ -1,80 +1,85 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
 <SPCultures>
-	<Culture id="battania"
+	<Culture id="gaelic"
 	         name="{=gaelicCulture}Gaelic"
              is_main_culture="true"
-             color="0xff3b6298"
-             color2="0xfff3bb08"
+             color="0xff284e19"
+             color2="0xff211f1f"
              elite_basic_troop="NPCCharacter.gaelic_elite_root"
              basic_troop="NPCCharacter.gaelic_basic_root"
-             melee_militia_troop="NPCCharacter.battanian_militia_spearman"
-	         ranged_militia_troop="NPCCharacter.battanian_militia_archer"
-	         melee_elite_militia_troop="NPCCharacter.battanian_militia_veteran_spearman"
-	         ranged_elite_militia_troop="NPCCharacter.battanian_militia_veteran_archer"
+             melee_militia_troop="NPCCharacter.gaelic_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.gaelic_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.gaelic_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.gaelic_militia_veteran_archer"
 	         can_have_settlement="true"
-	         town_edge_number="16"
 	         militia_bonus="1"
-	         villager_party_template="PartyTemplate.villager_battania_template"
+	         villager_party_template="PartyTemplate.villager_gaelic_template"
 	         default_party_template="PartyTemplate.kingdom_hero_party_GAELIC_template"
-	         encounter_background_mesh="encounter_battania"
+			 settlement_patrol_template_level_1="PartyTemplate.patrol_party_GAELIC_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_GAELIC_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_GAELIC_template_level_3"
+	         encounter_background_mesh="encounter_gaelic"
 	         faction_banner_key="11.2.126.1450.1450.764.764.1.1.180.427.144.143.562.284.658.798.0.0.-64.427.2.143.562.284.723.834.0.0.-64.427.144.143.123.193.918.641.0.0.142.427.116.143.115.153.925.626.0.0.142.427.143.143.124.143.929.620.0.0.142.510.143.143.465.318.833.848.0.0.-123.427.144.143.370.178.709.622.0.0.1.427.144.116.370.178.702.608.0.0.-10.510.128.128.479.55.684.836.0.0.-68.510.128.128.432.55.712.830.0.0.-68.510.128.128.379.55.739.810.0.0.-68.510.128.128.316.55.768.793.0.0.-68.510.128.128.275.55.817.767.0.0.-68.510.128.128.249.55.830.738.0.0.-68.510.128.128.189.55.869.704.0.0.-68.510.128.128.268.55.788.767.0.0.-68.510.128.128.178.55.854.731.0.0.-68.510.128.128.129.55.884.675.0.0.-68.427.116.116.379.182.705.599.0.0.-7.427.143.116.376.182.705.592.0.0.-7.510.143.116.465.280.875.870.0.0.-116.427.2.143.159.178.949.600.0.0.144.510.116.116.527.325.843.865.0.0.-119.510.143.116.527.325.847.865.0.0.-119.512.144.143.290.90.563.617.0.0.-73.512.144.143.290.90.567.583.0.0.-73.512.2.143.290.90.595.509.0.0.-73.512.2.143.253.132.644.562.0.0.297.503.116.116.51.51.854.871.0.0.-119.503.143.116.41.41.854.871.0.0.-119.503.116.116.65.65.797.984.0.0.-119.503.143.116.52.52.797.984.0.0.-119.503.116.116.42.42.914.757.0.0.-119.503.143.116.33.33.914.757.0.0.-119.505.143.116.56.36.874.596.0.0.34.503.2.116.367.220.741.544.0.0.-7.503.2.116.367.220.761.525.0.0.-7.439.42.116.75.75.562.583.0.0.-8.439.42.116.75.75.555.632.0.0.-8.439.42.116.75.75.551.681.0.0.4.439.42.116.65.65.559.728.0.0.13.439.42.116.65.65.567.771.0.0.16.439.42.116.59.59.580.812.0.0.20.439.42.116.53.53.595.846.0.0.26.439.42.116.48.48.610.877.0.0.26.439.42.116.41.41.625.904.0.0.33.439.42.116.38.38.639.927.0.0.33.439.42.116.32.32.652.945.0.0.40.439.42.116.28.28.666.961.0.0.42.439.42.116.23.23.678.973.0.0.40.439.42.116.21.21.687.983.0.0.48.439.42.116.19.19.698.993.0.0.54"
-	         elite_caravan_party_template="PartyTemplate.elite_caravan_template_battania"
-	         caravan_party_template="PartyTemplate.caravan_template_battania"
-	         militia_party_template="PartyTemplate.militia_battania_template"
-	         rebels_party_template="PartyTemplate.rebels_battania_template"
-	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_battania"
-	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+	         militia_party_template="PartyTemplate.militia_gaelic_template"
+	         rebels_party_template="PartyTemplate.rebels_gaelic_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_gaelic"
 	         text="{=Ax9OkgL5}Unused in the game."
-	         tournament_master="NPCCharacter.tournament_master_battania"
-	         villager="NPCCharacter.villager_battania"
-	         caravan_master="NPCCharacter.caravan_master_battania"
-	         armed_trader="NPCCharacter.armed_trader_battania"
-	         caravan_guard="NPCCharacter.caravan_guard_battania"
-	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_battania"
-	         prison_guard="NPCCharacter.prison_guard_battania"
-	         guard="NPCCharacter.guard_battania"
-	         blacksmith="NPCCharacter.blacksmith_battania"
-	         weaponsmith="NPCCharacter.weaponsmith_battania"
-	         townswoman="NPCCharacter.townswoman_battania"
-	         townswoman_infant="NPCCharacter.townswoman_infant_battania"
-	         townswoman_child="NPCCharacter.townswoman_child_battania"
-	         townswoman_teenager="NPCCharacter.townswoman_teenager_battania"
-	         townsman="NPCCharacter.townsman_battania"
-	         townsman_infant="NPCCharacter.townsman_infant_battania"
-	         townsman_child="NPCCharacter.townsman_child_battania"
-	         townsman_teenager="NPCCharacter.townsman_teenager_battania"
-	         village_woman="NPCCharacter.village_woman_battania"
-	         villager_male_child="NPCCharacter.villager_child_battania"
-	         villager_male_teenager="NPCCharacter.villager_teenager_battania"
-	         villager_female_child="NPCCharacter.village_woman_child_battania"
-	         villager_female_teenager="NPCCharacter.village_woman_teenager_battania"
-	         ransom_broker="NPCCharacter.ransom_broker_battania"
-	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_battania"
-	         merchant_notary="NPCCharacter.merchant_notary_battania"
-	         artisan_notary="NPCCharacter.artisan_notary_battania"
-	         preacher_notary="NPCCharacter.preacher_notary_battania"
-	         rural_notable_notary="NPCCharacter.rural_notable_notary_battania"
-	         shop_worker="NPCCharacter.shop_worker_battania"
-	         tavernkeeper="NPCCharacter.tavernkeeper_battania"
-	         taverngamehost="NPCCharacter.taverngamehost_battania"
-	         musician="NPCCharacter.musician_battania"
-	         tavern_wench="NPCCharacter.tavern_wench_battania"
-	         armorer="NPCCharacter.armorer_battania"
-	         horseMerchant="NPCCharacter.horseMerchant_battania"
-	         barber="NPCCharacter.barber_battania"
-	         merchant="NPCCharacter.merchant_battania"
-	         beggar="NPCCharacter.beggar_battania"
-	         female_beggar="NPCCharacter.female_beggar_battania"
-	         female_dancer="NPCCharacter.female_dancer_battania"
-	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_battania"
-	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_battania"
-	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_battania"
-	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_battania"
-	         gear_dummy="NPCCharacter.gear_dummy_battania"
-	         default_battle_equipment_roster="EquipmentRoster.bat_civ_template_default"
-	         default_civilian_equipment_roster="EquipmentRoster.bat_civ_template_default"
+	         tournament_master="NPCCharacter.tournament_master_gaelic"
+	         villager="NPCCharacter.villager_gaelic"
+	         caravan_master="NPCCharacter.caravan_master_gaelic"
+	         caravan_guard="NPCCharacter.caravan_guard_gaelic"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_gaelic"
+	         prison_guard="NPCCharacter.prison_guard_gaelic"
+	         guard="NPCCharacter.guard_gaelic"
+	         blacksmith="NPCCharacter.blacksmith_gaelic"
+	         weaponsmith="NPCCharacter.weaponsmith_gaelic"
+	         townswoman="NPCCharacter.townswoman_gaelic"
+	         townswoman_infant="NPCCharacter.townswoman_infant_gaelic"
+	         townswoman_child="NPCCharacter.townswoman_child_gaelic"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_gaelic"
+	         townsman="NPCCharacter.townsman_gaelic"
+	         townsman_infant="NPCCharacter.townsman_infant_gaelic"
+	         townsman_child="NPCCharacter.townsman_child_gaelic"
+	         townsman_teenager="NPCCharacter.townsman_teenager_gaelic"
+	         village_woman="NPCCharacter.village_woman_gaelic"
+	         villager_male_child="NPCCharacter.villager_child_gaelic"
+	         villager_male_teenager="NPCCharacter.villager_teenager_gaelic"
+	         villager_female_child="NPCCharacter.village_woman_child_gaelic"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_gaelic"
+	         ransom_broker="NPCCharacter.ransom_broker_gaelic"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_gaelic"
+	         merchant_notary="NPCCharacter.merchant_notary_gaelic"
+	         artisan_notary="NPCCharacter.artisan_notary_gaelic"
+	         preacher_notary="NPCCharacter.preacher_notary_gaelic"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_gaelic"
+	         shop_worker="NPCCharacter.shop_worker_gaelic"
+	         tavernkeeper="NPCCharacter.tavernkeeper_gaelic"
+	         taverngamehost="NPCCharacter.taverngamehost_gaelic"
+	         musician="NPCCharacter.musician_gaelic"
+	         tavern_wench="NPCCharacter.tavern_wench_gaelic"
+	         armorer="NPCCharacter.armorer_gaelic"
+	         horseMerchant="NPCCharacter.horseMerchant_gaelic"
+	         barber="NPCCharacter.barber_gaelic"
+	         merchant="NPCCharacter.merchant_gaelic"
+	         beggar="NPCCharacter.beggar_gaelic"
+	         female_beggar="NPCCharacter.female_beggar_gaelic"
+	         female_dancer="NPCCharacter.female_dancer_gaelic"
+	         default_battle_equipment_roster="EquipmentRoster.gaelic_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.gaelic_civ_template_default"
+			 default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
 	         duel_preset_equipment_roster="EquipmentRoster.bat_duel_preset_template"
-	         board_game_type="BaghChal">
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_gaelic_cutscene_template"
+	         board_game_type="BaghChal"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_battania"
+	         start_point_position_x="84"
+		     start_point_position_y="1149">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_gaelic"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_gaelic"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
 		<vassal_reward_items>
 			<item id="Item.noble_horse_battania"/>
 		</vassal_reward_items>
@@ -85,42 +90,42 @@
             <item id="Item.sturgia_sword_5_t5"/>
 		</banner_bearer_replacement_weapons>
 		<default_policies>
-			<policy id="policy_cantons"/>
+			<policy id="policy_grazing_rights"/>
 			<policy id="policy_lawspeakers"/>
 		</default_policies>
 		 <male_names>
-            <name name="{=BrbIzqAy}Áed"/>
-            <name name="{=BrbIzqAy}Óengus"/>
-            <name name="{=BrbIzqAy}Áengus"/>
-            <name name="{=BrbIzqAy}Ailill"/>
-            <name name="{=BrbIzqAy}Fergus"/>
-            <name name="{=BrbIzqAy}Eochaid"/>
-            <name name="{=BrbIzqAy}Lugaid"/>
-            <name name="{=BrbIzqAy}Domnall"/>
-            <name name="{=BrbIzqAy}Cairpre"/>
-            <name name="{=BrbIzqAy}Conall"/>
-            <name name="{=BrbIzqAy}Cormac"/>
-            <name name="{=BrbIzqAy}Fland"/>
-            <name name="{=BrbIzqAy}Flann"/>
-            <name name="{=BrbIzqAy}Muiredach"/>
-            <name name="{=BrbIzqAy}Cellach"/>
-            <name name="{=BrbIzqAy}Éogan"/>
-            <name name="{=BrbIzqAy}Eochu"/>
-            <name name="{=BrbIzqAy}Diarmait"/>
-            <name name="{=BrbIzqAy}Colmán"/>
-            <name name="{=BrbIzqAy}Conchobor"/>
-            <name name="{=BrbIzqAy}Fiachra"/>
-            <name name="{=BrbIzqAy}Énnae"/>
-            <name name="{=BrbIzqAy}Cináed"/>
-            <name name="{=BrbIzqAy}Crimthann"/>
-            <name name="{=BrbIzqAy}Fedelmid"/>
-            <name name="{=BrbIzqAy}Murchad"/>
-            <name name="{=BrbIzqAy}Cathal"/>
-            <name name="{=BrbIzqAy}Donnchad"/>
-            <name name="{=BrbIzqAy}Máel-dúin"/>
-            <name name="{=BrbIzqAy}Rónán"/>
-            <name name="{=BrbIzqAy}Muirchertach"/>
-            <name name="{=BrbIzqAy}Ercc"/>
+            <name name="{=mo467zxi}Áed"/>
+            <name name="{=6hhj2jok}Óengus"/>
+            <name name="{=3t5wupq0}Áengus"/>
+            <name name="{=ojjd3rnc}Ailill"/>
+            <name name="{=cnsgd1s5}Fergus"/>
+            <name name="{=g3yv91r3}Eochaid"/>
+            <name name="{=yzhjegxh}Lugaid"/>
+            <name name="{=0u775j9a}Domnall"/>
+            <name name="{=fh8w8p92}Cairpre"/>
+            <name name="{=v73sya7a}Conall"/>
+            <name name="{=rv9ufrye}Cormac"/>
+            <name name="{=ki5n803d}Fland"/>
+            <name name="{=0p1qvs8d}Flann"/>
+            <name name="{=ue9e8k1g}Muiredach"/>
+            <name name="{=ey7s7jmh}Cellach"/>
+            <name name="{=wfs9m6t6}Éogan"/>
+            <name name="{=jmgdh0ng}Eochu"/>
+            <name name="{=4oaax16i}Diarmait"/>
+            <name name="{=lo7mf5ac}Colmán"/>
+            <name name="{=9p2lmqc0}Conchobor"/>
+            <name name="{=3gil7na9}Fiachra"/>
+            <name name="{=lr1h6mb4}Énnae"/>
+            <name name="{=nlasglzw}Cináed"/>
+            <name name="{=q8ipi27n}Crimthann"/>
+            <name name="{=Bo8d0g47}Fedelmid"/>
+            <name name="{=642dq8cs}Murchad"/>
+            <name name="{=saqa1amb}Cathal"/>
+            <name name="{=qqcv7hoz}Donnchad"/>
+            <name name="{=80ayn7e3}Máel-dúin"/>
+            <name name="{=8hg3inf2}Rónán"/>
+            <name name="{=558a7owv}Muirchertach"/>
+            <name name="{=9c46kcy5}Ercc"/>
             <name name="{=BrbIzqAy}Maine"/>
             <name name="{=BrbIzqAy}Bran"/>
             <name name="{=BrbIzqAy}Cobthach"/>
@@ -196,7 +201,6 @@
             <name name="{=BrbIzqAy}Domhnall"/>
             <name name="{=BrbIzqAy}Cathal"/>
             <name name="{=BrbIzqAy}Aedh"/>
-            <name name="{=BrbIzqAy}Ruaidrí"/>
             <name name="{=BrbIzqAy}Eógan"/>
             <name name="{=BrbIzqAy}Feidlim"/>
             <name name="{=BrbIzqAy}Finghin"/>
@@ -253,7 +257,6 @@
             <name name="{=BrbIzqAy}Eistir"/>
             <name name="{=BrbIzqAy}Ellice"/>
             <name name="{=BrbIzqAy}Euginia"/>
-            <name name="{=BrbIzqAy}Elan"/>
             <name name="{=BrbIzqAy}Evelin"/>
             <name name="{=BrbIzqAy}Faílenn"/>
             <name name="{=BrbIzqAy}Fanche"/>
@@ -272,7 +275,6 @@
             <name name="{=BrbIzqAy}Máirghréad"/>
             <name name="{=BrbIzqAy}Mairéad"/>
             <name name="{=BrbIzqAy}Ciannait"/>
-            <name name="{=BrbIzqAy}Mairsil"/>
             <name name="{=BrbIzqAy}Margreg"/>
             <name name="{=BrbIzqAy}Máirín"/>
             <name name="{=BrbIzqAy}Mairsil"/>
@@ -321,7 +323,7 @@
        <cultural_feats>
 			<feat id="battanian_forest_speed"/>
 			<feat id="battanian_militia_production"/>
-			<feat id="battanian_slower_construction"/>
+			<feat id="sturgian_increased_grain_production"/>
 		</cultural_feats>
 		<possible_clan_banner_icon_ids>
 			<icon id="112"/>
@@ -348,37 +350,27 @@
             <icon id="444"/>
             <icon id="445"/>
 		</possible_clan_banner_icon_ids>
-		<notable_and_wanderer_templates>
-			<template name="NPCCharacter.spc_wanderer_battania_0"/>
-			<template name="NPCCharacter.spc_wanderer_battania_1"/>
-			<template name="NPCCharacter.spc_wanderer_battania_2"/>
-			<template name="NPCCharacter.spc_wanderer_battania_3"/>
-			<template name="NPCCharacter.spc_wanderer_battania_4"/>
-			<template name="NPCCharacter.spc_wanderer_battania_5"/>
-			<template name="NPCCharacter.spc_wanderer_battania_6"/>
-			<template name="NPCCharacter.spc_wanderer_battania_7"/>
-			<template name="NPCCharacter.spc_wanderer_battania_8"/>
-			<template name="NPCCharacter.spc_wanderer_battania_9"/>
-			<template name="NPCCharacter.spc_notable_battania_merchant_1"/>
-			<template name="NPCCharacter.spc_notable_battania_0b"/>
-			<template name="NPCCharacter.spc_notable_battania_0c"/>
-			<template name="NPCCharacter.spc_notable_battania_0d"/>
-			<template name="NPCCharacter.spc_notable_battania_0e"/>
-			<template name="NPCCharacter.spc_notable_battania_1"/>
-			<template name="NPCCharacter.spc_notable_battania_1b"/>
-			<template name="NPCCharacter.spc_notable_battania_2"/>
-			<template name="NPCCharacter.spc_notable_battania_3"/>
-			<template name="NPCCharacter.spc_notable_battania_4"/>
-			<template name="NPCCharacter.spc_notable_battania_5"/>
-			<template name="NPCCharacter.spc_battania_artisan_1"/>
-			<template name="NPCCharacter.spc_battania_artisan_2"/>
-			<template name="NPCCharacter.spc_battania_artisan_3"/>
-			<template name="NPCCharacter.spc_battania_rural_notable_1"/>
-			<template name="NPCCharacter.spc_battania_rural_notable_2"/>
-			<template name="NPCCharacter.spc_battania_headman_1"/>
-			<template name="NPCCharacter.spc_battania_headman_2"/>
-			<template name="NPCCharacter.spc_battania_headman_3"/>
-		</notable_and_wanderer_templates>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_gaelic_merchant_1"/>
+			<template name="NPCCharacter.spc_notable_gaelic_0b"/>
+			<template name="NPCCharacter.spc_notable_gaelic_0c"/>
+			<template name="NPCCharacter.spc_notable_gaelic_0d"/>
+			<template name="NPCCharacter.spc_notable_gaelic_0e"/>
+			<template name="NPCCharacter.spc_notable_gaelic_1"/>
+			<template name="NPCCharacter.spc_notable_gaelic_1b"/>
+			<template name="NPCCharacter.spc_notable_gaelic_2"/>
+			<template name="NPCCharacter.spc_notable_gaelic_3"/>
+			<template name="NPCCharacter.spc_notable_gaelic_4"/>
+			<template name="NPCCharacter.spc_notable_gaelic_5"/>
+			<template name="NPCCharacter.spc_gaelic_artisan_1"/>
+			<template name="NPCCharacter.spc_gaelic_artisan_2"/>
+			<template name="NPCCharacter.spc_gaelic_artisan_3"/>
+			<template name="NPCCharacter.spc_gaelic_rural_notable_1"/>
+			<template name="NPCCharacter.spc_gaelic_rural_notable_2"/>
+			<template name="NPCCharacter.spc_gaelic_headman_1"/>
+			<template name="NPCCharacter.spc_gaelic_headman_2"/>
+			<template name="NPCCharacter.spc_gaelic_headman_3"/>
+		</notable_templates>
 		<lord_templates>
             <template name="NPCCharacter.gaelic_autogenerated_lord1"/>
             <template name="NPCCharacter.gaelic_autogenerated_lord2"/>
@@ -392,20 +384,19 @@
             <template name="NPCCharacter.gaelic_autogenerated_lord4"/>
         </rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
-			<template name="NPCCharacter.tournament_template_battania_one_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_battania_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_gaelic_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_gaelic_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_gaelic_one_participant_set_v3"/>
 		</tournament_team_templates_one_participant>
 		<tournament_team_templates_two_participant>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v3"/>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v4"/>
-			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v5"/>
+			<template name="NPCCharacter.tournament_template_gaelic_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_gaelic_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_gaelic_two_participant_set_v3"/>
 		</tournament_team_templates_two_participant>
 		<tournament_team_templates_four_participant>
-			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v1"/>
-			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v2"/>
-			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v3"/>
+			<template name="NPCCharacter.tournament_template_gaelic_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_gaelic_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_gaelic_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.merc_euro_spearman"/>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+<meta charset="UTF-8">
+<title>XSLT генератар</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    textarea {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        font-family: monospace;
+    }
+    input {
+        width: 300px;
+        padding: 5px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    button {
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+
+<h2>XML увод</h2>
+<textarea id="input" placeholder='Устаў <name name="{=...}Імя"/>'></textarea>
+
+<h2>Налады</h2>
+
+<label>Id культуры:</label><br>
+<input type="text" id="culture" value="bohemia">
+
+<br>
+
+<label>Тып імёнаў:</label><br>
+<input type="text" id="node" value="male_names">
+
+<br><br>
+
+<button onclick="generateXSLT()">Згенераваць XSLT</button>
+
+<h2>Вынік</h2>
+<textarea id="output"></textarea>
+
+<script>
+function generateXSLT() {
+    const input = document.getElementById("input").value;
+    const culture = document.getElementById("culture").value.trim();
+    const node = document.getElementById("node").value.trim();
+
+    const regex = /<name\s+name="([^"]+)"\s*\/>/g;
+
+    let match;
+    let index = 1;
+    let result = "";
+
+    while ((match = regex.exec(input)) !== null) {
+        const value = match[1];
+
+        result += `<xsl:template match="Culture[@id='${culture}']/${node}/name[${index}]/@name">
+  <xsl:attribute name="name">${value}</xsl:attribute>
+</xsl:template>\n\n`;
+
+        index++;
+    }
+
+    document.getElementById("output").value = result;
+}
+</script>
+
+</body>
+</html>
