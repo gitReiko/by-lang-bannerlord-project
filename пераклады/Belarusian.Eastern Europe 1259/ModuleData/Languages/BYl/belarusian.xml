@@ -240,7 +240,7 @@
   <string id="EE000209" text="Biez naležnaha ŭpłyvu dla ŭtrymańnia, vašyja elitnyja vajary buduć dezertavać..."/>
   <string id="EE000210" text="{TROOP_NAME} syšli z vašaha vojska."/>
   <string id="EE000211" text="Inšyja vieravańni:"/>
-  <string id="EE000212" text="Padkazka"/>
+  <string id="EE000212" text="Parada"/>
   <string id="EE000213" text="Nia chapaje zołata..."/>
   <string id="EE000214" text="My musim padniać maral našych vajaroŭ..."/>
   <string id="EE000215" text="Dać kožnamu vajaru 50{GOLD_ICON} ({TOTAL_AMOUNT1}{GOLD_ICON}/+5{MORALE_ICON})"/>
@@ -349,7 +349,7 @@
   <string id="EE000318" text="Chočacie syści ciapier? Vam jašče zastałosia adpracavać {DAYS} dzion! Vaša słova ničoha nia varta, kali vy kidajecie słužbu da jaje zaviaršeńnia!"/>
   <string id="EE000319" text="Vy dobra adsłužyli svoj čas. Ja vyzvalaju vas ad słužby."/>
   <string id="EE000320" text="Pačata vajskovaja słužba ŭ partyi {LORDNAME}."/>
-  <string id="EE000321" text="Vy słužycie {MSERVICE_LORD}{newline}{STRATEGY}"/>
+  <string id="EE000321" text="Vy słužycie {MSERVICE_LORD}{newline}{STRATEGY}{newline}{newline}{MSINFO}"/>
   <string id="EE000322" text="Uvajści {ENSETTLEMENT}"/>
   <string id="EE000323" text="Pahavaryć z {MSERVICE_LORD}"/>
   <string id="EE000324" text="Dezertavać z Vajskovaj Słužby"/>
@@ -444,91 +444,191 @@
   <string id="EE000413" text="Ryštunak Vajskovaj Słužby"/>
   <string id="EE000414" text="Rada: utrymlivajcie CTRL+X, kab paskoryć čas i chutka prapuścić niecikavyja momanty."/>
   <string id="EE000415" text="Pad upłyvam inšaj viery vaša serca zavahałasia, vy stali šanavać inšuju vieru."/>
-  <string id="EE000416" text=""/>
-  <string id="EE000417" text=""/>
-  <string id="EE000418" text=""/>
-  <string id="EE000419" text=""/>
-  <string id="EE000420" text=""/>
-  <string id="EE000421" text=""/>
-  <string id="EE000422" text=""/>
-  <string id="EE000423" text=""/>
-  <string id="EE000424" text=""/>
-  <string id="EE000425" text=""/>
-  <string id="EE000426" text=""/>
-  <string id="EE000427" text=""/>
-  <string id="EE000428" text=""/>
-  <string id="EE000429" text=""/>
-  <string id="EE000430" text=""/>
-  <string id="EE000431" text=""/>
-  <string id="EE000432" text=""/>
-  <string id="EE000433" text=""/>
-  <string id="EE000434" text=""/>
-  <string id="EE000435" text=""/>
-  <string id="EE000436" text=""/>
-  <string id="EE000437" text=""/>
-  <string id="EE000438" text=""/>
-  <string id="EE000439" text=""/>
-  <string id="EE000440" text=""/>
-  <string id="EE000441" text=""/>
-  <string id="EE000442" text=""/>
-  <string id="EE000443" text=""/>
-  <string id="EE000444" text=""/>
-  <string id="EE000445" text=""/>
-  <string id="EE000446" text=""/>
-  <string id="EE000447" text=""/>
-  <string id="EE000448" text=""/>
-  <string id="EE000449" text=""/>
-  <string id="EE000450" text=""/>
-  <string id="EE000451" text=""/>
-  <string id="EE000452" text=""/>
-  <string id="EE000453" text=""/>
-  <string id="EE000454" text=""/>
-  <string id="EE000455" text=""/>
-  <string id="EE000456" text=""/>
-  <string id="EE000457" text=""/>
-  <string id="EE000458" text=""/>
-  <string id="EE000459" text=""/>
-  <string id="EE000460" text=""/>
-  <string id="EE000461" text=""/>
-  <string id="EE000462" text=""/>
-  <string id="EE000463" text=""/>
-  <string id="EE000464" text=""/>
-  <string id="EE000465" text=""/>
-  <string id="EE000466" text=""/>
-  <string id="EE000467" text=""/>
-  <string id="EE000468" text=""/>
-  <string id="EE000469" text=""/>
-  <string id="EE000470" text=""/>
-  <string id="EE000471" text=""/>
-  <string id="EE000472" text=""/>
-  <string id="EE000473" text=""/>
-  <string id="EE000474" text=""/>
-  <string id="EE000475" text=""/>
-  <string id="EE000476" text=""/>
-  <string id="EE000477" text=""/>
-  <string id="EE000478" text=""/>
-  <string id="EE000479" text=""/>
-  <string id="EE000480" text=""/>
-  <string id="EE000481" text=""/>
-  <string id="EE000482" text=""/>
-  <string id="EE000483" text=""/>
-  <string id="EE000484" text=""/>
-  <string id="EE000485" text=""/>
-  <string id="EE000486" text=""/>
-  <string id="EE000487" text=""/>
-  <string id="EE000488" text=""/>
-  <string id="EE000489" text=""/>
-  <string id="EE000490" text=""/>
-  <string id="EE000491" text=""/>
-  <string id="EE000492" text=""/>
-  <string id="EE000493" text=""/>
-  <string id="EE000494" text=""/>
-  <string id="EE000495" text=""/>
-  <string id="EE000496" text=""/>
-  <string id="EE000497" text=""/>
-  <string id="EE000498" text=""/>
-  <string id="EE000499" text=""/>
-  <string id="EE000500" text=""/>
+  <string id="EE000416" text="Uzr: {LVL}, Navyki:"/>
+  <string id="EE000417" text="Infa pra haspadarstva niedastupnaja padčas Vajskovaj Słužby."/>
+  <string id="EE000418" text="Siabroŭskaja ziamla"/>
+  <string id="EE000419" text="Vy na Vajskovaj Słužbie."/>
+  <string id="EE000420" text="Vašy {AMOUNT} aviečki byli vielmi praduktyŭnyja."/>
+  <string id="EE000421" text="Vašy {AMOUNT} śvińni byli vielmi praduktyŭnyja."/>
+  <string id="EE000422" text="Dzionny Zarobak: {WAGE}{GOLD_ICON}{newline}Uzrovień: {LEVEL} (Dośvied: {XP} - {PERCENT}% da nastupnaha roŭniu)"/>
+  <string id="EE000423" text="Dzionny Zarobak: {WAGE}{GOLD_ICON}{newline}Uzrovień: {LEVEL}"/>
+  <string id="EE000424" text="Relihijnaja napruha: {COMPANION} nie ŭchvalaje vašaj {PLAYER_RELIGION} viery."/>
+  <string id="EE000425" text="Niedastatkova miodu..."/>
+  <string id="EE000426" text="Miod vinien palehčyć ich kłopaty ({TOTAL_AMOUNT4} {BEER_ICON}/+18{MORALE_ICON})"/>
+  <string id="EE000427" text="Dapamažycie adnavić viosku"/>
+  <string id="EE000428" text="Smurod popiełu dahetul łunaje ŭ pavietry, kali vy ahladajecie spustašeńnie, pakinutaje hrabiežnikami. Siarod ruinaŭ sialanie z cichaj nastojlivaściu pracujuć — źbirajuć kamiani, siakuć dreva, robiać, što mohuć, majučy tak mała. Vy zakočvajecie rukavy i dałučajeciesia da ich: ciahniecie belki na miesca, umacoŭvajecie abvaleny skład, čynicie płot, što kaliści ściaroh žyviołu. Hadziny minajuć. Pamału toje, što było druzam, znoŭ pačynaje nahadvać viosku."/>
+  <string id="EE000429" text="Vašy pałanialniki zdoleli adabrać u vas {GOLD_AMOUNT}{GOLD_ICON}."/>
+  <string id="EE000430" text="You fell at the hands of assassins."/>
+  <string id="EE000431" text="Fight for your life!"/>
+  <string id="EE000432" text="Leave?"/>
+  <string id="EE000433" text="Hold it right there! This is our territory. Pay {GOLD_AMOUNT}{GOLD_ICON} or face the consequences.[ib:confident2][if:convo_predatory]"/>
+  <string id="EE000434" text="Fine, heres your gold. (Pay {GOLD_AMOUNT}{GOLD_ICON}"/>
+  <string id="EE000435" text="Smart choice. Now get lost."/>
+  <string id="EE000436" text="I refuse to pay!"/>
+  <string id="EE000437" text="Your funeral!"/>
+  <string id="EE000438" text="You cannot leave while fighting!"/>
+  <string id="EE000439" text="Local Thugs"/>
+  <string id="EE000440" text="You paid {GOLD_AMOUNT}{GOLD_ICON} in extortion money."/>
+  <string id="EE000441" text="You refused to pay and survived the encounter!"/>
+  <string id="EE000442" text="You refused to pay, were beaten and robbed..."/>
+  <string id="EE000443" text="Extra Fast Forward"/>
+  <string id="EE000444" text="Camp"/>
+  <string id="EE000445" text="Your camp is set. The fire crackles, the bedroll awaits — a moment of peace from the troubles of the world."/>
+  <string id="EE000446" text="Resting by the fire, watching the hours drift by...{newline}"/>
+  <string id="EE000447" text="Making camp. Soon there will be fire and rest...{newline}"/>
+  <string id="EE000448" text="Putting out the fire, rolling up the bedroll. Time to go...{newline}"/>
+  <string id="EE000449" text="You must be in a forest to hunt."/>
+  <string id="EE000450" text="Wood can only be chopped in the forest."/>
+  <string id="EE000451" text="You must be near a water source to catch fish."/>
+  <string id="EE000452" text="Athletics skill has deterioted."/>
+  <string id="EE000453" text="{HEALTH_ICON}You were injured..."/>
+  <string id="EE000454" text="Cannot build camp when in Military Service."/>
+  <string id="EE000455" text="Cannot build camp – too close to a settlement."/>
+  <string id="EE000456" text="Cannot build camp here."/>
+  <string id="EE000457" text="Your camp is set. The fire crackles, the bedroll awaits — a moment of peace from the troubles of the world."/>
+  <string id="EE000458" text="Talk with quartermaster"/>
+  <string id="EE000459" text="Take action"/>
+  <string id="EE000460" text="Wait in camp"/>
+  <string id="EE000461" text="Leave camp"/>
+  <string id="EE000462" text="Time to decide on an activity..."/>
+  <string id="EE000463" text="Chop wood"/>
+  <string id="EE000464" text="You are wounded."/>
+  <string id="EE000465" text="Wood can only be chopped in the forest."/>
+  <string id="EE000466" text="You need an axe to chop wood."/>
+  <string id="EE000467" text="Not enough tools. Chopping wood for your party requires {TOOLS_ICON}{REQUIRED_TOOLS} tools."/>
+  <string id="EE000468" text="With the sharpened axe you start to bite into the rough bark, each swing sending dull echoes through the quiet forest. Chips of wood scatter at your feet as the steady rhythm of steel against timber fills the air, mixing with the scent of fresh sap and damp earth. Your arms grow heavy, but the tree slowly yields, creaking and shuddering under the repeated blows until it finally begins to lean.{newline}"/>
+  <string id="EE000469" text="Troops dislike menial labour. Morale drops by: {MORALE_CHANGE} {MORALE_ICON}"/>
+  <string id="EE000470" text="Morale drops by: {MORALE_CHANGE} {MORALE_ICON}"/>
+  <string id="EE000471" text="Too tired. Thats enough for now."/>
+  <string id="EE000472" text="The job is finished. The fallen timber is gathered and bound into manageable bundles, stacked neatly upon the forest floor. What was once a standing tree is now ready to warm fires and build shelter, its fresh scent lingering in the cool air as the forest slowly returns to silence around you."/>
+  <string id="EE000473" text="Go back to your camp"/>
+  <string id="EE000474" text="While chopping the tree, a careless strike turns against you. The axe glances off the timber and strikes painfully, ending your work in an instant. You are forced to stop, leaving the fallen wood behind and the task unfinished."/>
+  <string id="EE000475" text="Crawl to your camp"/>
+  <string id="EE000476" text="Hunt"/>
+  <string id="EE000477" text="You must be in a forest to hunt."/>
+  <string id="EE000478" text="You need a bow, a crossbow or a throwing weapon to hunt."/>
+  <string id="EE000479" text="The hunt begins. You move carefully through the forest, watching for tracks and listening for the faintest sound of movement among the trees. Every step is measured, every breath controlled, as you search for your prey. The rustle of leaves and distant calls guide your path, while the tension of the chase sharpens your senses and keeps you alert for the moment opportunity reveals itself.{newline}"/>
+  <string id="EE000480" text="A good hunt brightens the day! +{MORALE_CHANGE} {MORALE_ICON}"/>
+  <string id="EE000481" text="Call off the hunt"/>
+  <string id="EE000482" text="The hunt ends in success. After a long and tiresome pursuit through the forest, your patience is finally rewarded as the wild yields its bounty. The fallen prey ensures food and supplies for the journey onward, and though your body aches from the effort, the reward makes the hardship worthwhile..."/>
+  <string id="EE000483" text="Take the spoils to camp"/>
+  <string id="EE000484" text="Misfortune strikes during the hunt. A brief lapse in caution results in injury, and you are forced to withdraw, leaving the forest and its prey behind. The chase ends not with triumph but with pain and frustration, as the sounds of the wild slowly fade while you make your careful retreat to safety."/>
+  <string id="EE000485" text="Limp to your camp"/>
+  <string id="EE000486" text="The forest remains silent and ungiving. No prey reveals itself, and as daylight fades, you abandon the hunt without reward. The long hours of careful tracking leave only tired steps behind you, and the quiet woods seem unchanged by your passing as you make your way back empty-handed."/>
+  <string id="EE000487" text="Trudge back to your camp"/>
+  <string id="EE000488" text="Go fishing"/>
+  <string id="EE000489" text="You must be near a water source to catch fish."/>
+  <string id="EE000490" text="The line disappears beneath the water as you wait in silence. Fishing demands patience, and the steady rhythm of the shore eases your thoughts while you watch for movement. Gentle ripples spread across the surface, and time seems to slow as the quiet murmur of water and wind becomes the only measure of passing moments.{newline}"/>
+  <string id="EE000491" text="Stop fishing"/>
+  <string id="EE000492" text="Your patience is rewarded as a fish takes the bait. After a brief struggle, you pull the catch ashore, securing fresh food for the journey ahead. Water drips from the writhing prize as the ripples slowly fade, and the quiet shore once again settles into calm after the moment of sudden action."/>
+  <string id="EE000493" text="Hours pass with only gentle ripples to watch. At last, you pull in the line, realizing the fish have eluded you today. The quiet water offers no sign of what lies beneath, and with fading patience you gather your gear, leaving the shore as calm and unchanged as when you arrived."/>
+  <string id="EE000494" text="Gather honey and wax"/>
+  <string id="EE000495" text="You must be in a forest to find bees."/>
+  <string id="EE000496" text="You search the forest for wild hives, watching the flight of bees and listening for their faint buzzing among the trees. Careful steps guide you as you look for signs of honey hidden high in branches or within hollow trunks.{newline}"/>
+  <string id="EE000497" text="End the search"/>
+  <string id="EE000498" text="A soft buzzing draws your attention to a hollow trunk where a thriving beehive rests. Golden honey glistens within the comb as bees circle cautiously around their home, their steady hum filling the warm forest air. The scent of wax and sweetness lingers nearby, promising a valuable reward to those willing to risk disturbing the busy swarm."/>
+  <string id="EE000499" text="Go to your camp"/>
+  <string id="EE000500" text="The bees erupt into a furious swarm as the hive is disturbed. Blinded by panic and stinging pain, you slip from the branches and crash to the ground, ending the attempt in injury. Dazed and aching, you struggle to your feet as the angry buzzing slowly fades behind you, leaving the hive untouched and the forest once again settling into uneasy silence."/>
+  <string id="EE000501" text="Run to your camp"/>
+  <string id="EE000502" text="You follow faint buzzing and examine hollow trunks, yet no hive can be found. The woods offer no honey this day, and your efforts bring no reward. As the sounds of bees fade into the distance, you realize the forest has kept its treasures hidden, and you turn back with nothing to show for your long search."/>
+  <string id="EE000503" text="Resting by the fire, watching the hours drift by...{newline}"/>
+  <string id="EE000504" text="Stop waiting"/>
+  <string id="EE000505" text="Making camp. Soon there will be fire and rest...{newline}"/>
+  <string id="EE000506" text="Putting out the fire, rolling up the bedroll. Time to go...{newline}"/>
+  <string id="EE000507" text="In Camp"/>
+  <string id="EE000508" text="Leave Town"/>
+  <string id="EE000509" text="You cant desert while in the open waters."/>
+  <string id="EE000510" text="Need to be in the camp..."/>
+  <string id="EE000511" text=""/>
+  <string id="EE000512" text=""/>
+  <string id="EE000513" text=""/>
+  <string id="EE000514" text=""/>
+  <string id="EE000515" text=""/>
+  <string id="EE000516" text=""/>
+  <string id="EE000517" text=""/>
+  <string id="EE000518" text=""/>
+  <string id="EE000519" text=""/>
+  <string id="EE000520" text=""/>
+  <string id="EE000521" text=""/>
+  <string id="EE000522" text=""/>
+  <string id="EE000523" text=""/>
+  <string id="EE000524" text=""/>
+  <string id="EE000525" text=""/>
+  <string id="EE000526" text=""/>
+  <string id="EE000527" text=""/>
+  <string id="EE000528" text=""/>
+  <string id="EE000529" text=""/>
+  <string id="EE000530" text=""/>
+  <string id="EE000531" text=""/>
+  <string id="EE000532" text=""/>
+  <string id="EE000533" text=""/>
+  <string id="EE000534" text=""/>
+  <string id="EE000535" text=""/>
+  <string id="EE000536" text=""/>
+  <string id="EE000537" text=""/>
+  <string id="EE000538" text=""/>
+  <string id="EE000539" text=""/>
+  <string id="EE000540" text=""/>
+  <string id="EE000541" text=""/>
+  <string id="EE000542" text=""/>
+  <string id="EE000543" text=""/>
+  <string id="EE000544" text=""/>
+  <string id="EE000545" text=""/>
+  <string id="EE000546" text=""/>
+  <string id="EE000547" text=""/>
+  <string id="EE000548" text=""/>
+  <string id="EE000549" text=""/>
+  <string id="EE000550" text=""/>
+  <string id="EE000551" text=""/>
+  <string id="EE000552" text=""/>
+  <string id="EE000553" text=""/>
+  <string id="EE000554" text=""/>
+  <string id="EE000555" text=""/>
+  <string id="EE000556" text=""/>
+  <string id="EE000557" text=""/>
+  <string id="EE000558" text=""/>
+  <string id="EE000559" text=""/>
+  <string id="EE000560" text=""/>
+  <string id="EE000561" text=""/>
+  <string id="EE000562" text=""/>
+  <string id="EE000563" text=""/>
+  <string id="EE000564" text=""/>
+  <string id="EE000565" text=""/>
+  <string id="EE000566" text=""/>
+  <string id="EE000567" text=""/>
+  <string id="EE000568" text=""/>
+  <string id="EE000569" text=""/>
+  <string id="EE000570" text=""/>
+  <string id="EE000571" text=""/>
+  <string id="EE000572" text=""/>
+  <string id="EE000573" text=""/>
+  <string id="EE000574" text=""/>
+  <string id="EE000575" text=""/>
+  <string id="EE000576" text=""/>
+  <string id="EE000577" text=""/>
+  <string id="EE000578" text=""/>
+  <string id="EE000579" text=""/>
+  <string id="EE000580" text=""/>
+  <string id="EE000581" text=""/>
+  <string id="EE000582" text=""/>
+  <string id="EE000583" text=""/>
+  <string id="EE000584" text=""/>
+  <string id="EE000585" text=""/>
+  <string id="EE000586" text=""/>
+  <string id="EE000587" text=""/>
+  <string id="EE000588" text=""/>
+  <string id="EE000589" text=""/>
+  <string id="EE000590" text=""/>
+  <string id="EE000591" text=""/>
+  <string id="EE000592" text=""/>
+  <string id="EE000593" text=""/>
+  <string id="EE000594" text=""/>
+  <string id="EE000595" text=""/>
+  <string id="EE000596" text=""/>
+  <string id="EE000597" text=""/>
+  <string id="EE000598" text=""/>
+  <string id="EE000599" text=""/>
+  <string id="EE000600" text=""/>
 
 
     <!-- 
