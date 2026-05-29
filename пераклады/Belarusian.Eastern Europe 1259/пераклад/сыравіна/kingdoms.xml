@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom
+		id="lithuania"
+		initial_home_settlement="Settlement.town_LT1"
+		owner="Hero.lord_lit_1_1"
+		banner_key="11.148.140.1836.1836.768.788.1.0.-30.129.35.116.403.339.759.769.1.0.0"
+		primary_banner_color="0xff92564B"
+		secondary_banner_color="0xffF4EDED"
+		color="0xff92564B"
+		color2="0xffF4EDED"
+		culture="Culture.baltic"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=Lithuania}Kingdom of Lithuania"
+		short_name="{=Lithuania}Lithuania"
+		title="{=Lithuania_title}Kingdom of Lithuania"
+		ruler_title="{=hwnp9abW}King"
+		text="{=lt_kingdom_desc}The Kingdom of Lithuania exists from 1251. King Mindaugas is the first chieftain crowned as King of Lithuania with the Pope's assent. The formation of the Kingdom of Lithuania represents a partially successful attempt at unifying all surrounding Baltic tribes into a single state.">
+		<relationships>
+			<relationship kingdom="Kingdom.prussia" value="75" isAtWar="false" />
+			<relationship kingdom="Kingdom.baltic_tribes" value="75" isAtWar="false" />
+            <relationship kingdom="Kingdom.polack" value="25" isAtWar="false" />  
+		</relationships>
+        <policies>
+			<policy	id="policy_royal_guard" />
+		</policies>
+	</Kingdom>
+
+
+    <!-- Teutonic black cross on white 
+		banner_key="11.127.127.1836.1836.768.788.1.0.-30.510.116.116.1609.793.764.764.1.1.180.510.116.116.1975.868.764.764.1.1.270"
+
+        Anno's family coat of arms    
+        11.128.116.2000.2000.764.764.1.0.0.510.116.116.2028.553.764.764.1.0.180.510.116.116.2028.553.764.764.1.0.270.316.128.116.892.836.764.767.1.0.0.510.116.116.590.50.764.764.1.0.0.510.116.116.683.50.764.802.1.0.90.505.142.142.301.293.898.627.1.0.90.505.142.142.229.225.662.870.1.0.90.513.142.142.282.276.618.960.1.0.62.513.142.142.282.276.626.973.1.0.229.513.142.142.282.276.676.1007.1.0.219.505.142.142.135.158.562.835.1.0.180.505.142.142.135.158.700.959.1.0.180.513.142.142.271.276.638.991.1.0.219.510.116.116.300.280.630.626.1.0.90.510.116.116.300.280.630.626.1.0.180.510.116.116.300.280.901.903.1.0.269.510.116.116.288.280.898.900.1.0.180.510.116.116.300.280.901.924.1.0.269.504.116.116.25.89.906.1064.1.0.284.321.121.116.85.85.901.842.1.0.0.321.121.116.85.85.859.898.1.0.90.321.121.116.85.85.947.898.1.1.270.321.121.116.85.85.902.955.1.1.180.321.121.116.85.85.630.569.1.0.0.321.121.116.85.85.630.677.1.1.180.321.121.116.85.85.676.626.1.1.270.321.121.116.85.85.587.626.1.0.90.424.121.116.58.62.630.512.1.0.-1.424.121.116.58.62.630.739.1.1.180.424.121.116.58.62.524.626.1.1.89.424.121.116.58.62.739.626.1.0.270.424.121.116.58.62.1008.899.1.0.270.424.121.116.58.62.796.899.1.1.89.424.121.116.58.62.902.787.1.1.0.424.121.116.58.62.902.1015.1.0.180.319.121.116.160.160.902.896.1.0.0.319.121.116.160.160.631.626.1.0.0.102.116.121.120.120.902.884.1.0.0.102.116.121.120.120.629.614.1.0.0.141.121.142.251.199.899.540.1.0.0.141.121.142.251.199.899.620.1.0.0.141.121.142.251.199.899.702.1.0.0.141.121.142.251.199.635.810.1.0.0.141.121.142.251.199.634.810.1.0.0.141.121.142.251.199.634.889.1.0.0.141.121.142.247.190.643.973.1.0.0
+    -->
+
+
+	<Kingdom
+		id="teutonic_order"
+		initial_home_settlement="Settlement.town_CR2"		
+		owner="Hero.lord_crus_1_1"
+        banner_key="11.22.100.2222.2222.764.764.1.0.0.510.149.14.3000.1000.763.764.0.1.0.505.22.14.4000.15.764.693.0.1.0.505.22.14.4000.15.764.835.0.1.0.510.149.14.3000.1000.763.764.0.1.90.505.22.14.4000.15.835.764.0.1.90.505.22.14.4000.15.693.764.0.1.90.505.149.14.286.151.763.764.0.1.0"
+		primary_banner_color="0xff000000"
+		secondary_banner_color="0xff000000"
+		color="FFFFFFFF"
+		color2="FF000000"
+		culture="Culture.crusader"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=Teutonic_Order}Teutonic Order"
+		short_name="{=Teutonic_Order}Teutonic Order"
+		title="{=Teutonic_Order}Teutonic Order"
+		ruler_title="{=Grand_Master}Grand Master"
+		text="{=teuton_desc}The Teutonic Order is a Catholic religious institution founded as a military society in 1190 in Acre, Kingdom of Jerusalem. It is the leading power of The Northern Crusades or Baltic Crusades - colonization and Christianization campaigns undertaken by Catholic Christian military orders and kingdoms, primarily against the pagan Baltic, Finnic and West Slavic peoples around the southern and eastern shores of the Baltic Sea, and also against Orthodox Christian Slavs.">
+		<relationships>
+        	<relationship kingdom="Kingdom.estonia" value="75" isAtWar="false" />   
+        	<relationship kingdom="Kingdom.pomerania" value="75" isAtWar="false" />  
+        	<relationship kingdom="Kingdom.masovia" value="75" isAtWar="false" />                            
+		</relationships>
+        <policies>
+			<policy	id="policy_royal_guard" />
+            <policy	id="policy_cantons" />
+            <policy	id="policy_forgiveness_of_debts" />
+            <policy	id="policy_noble_retinues" />
+		</policies>
+	</Kingdom>
+
+	<Kingdom
+		id="prussia"
+		initial_home_settlement="Settlement.castle_PR1"		
+		owner="Hero.lord_prus_1_1"
+		banner_key="11.2.140.1836.1836.768.788.1.0.-30.457.35.127.320.340.653.775.1.0.-270.457.35.127.319.340.875.775.1.0.-90"
+		primary_banner_color="0xff5F8C6B"
+		secondary_banner_color="0xffEFF3F0"
+		color="0xff5F8C6B"
+		color2="0xffEFF3F0"
+		culture="Culture.baltic"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=Prussia}Prussian Tribes"
+		short_name="{=Prussia}Prussian Tribes"
+		title="{=Prussian_Tribes}Prussian Tribes"
+		ruler_title="{=Chief}Chief"
+		text="{=prussia_desc}Prussia is a loose alliance of pagan Prussian tribes with similar languages and cultures. Prussian Tribes are organized in a loose confederation led by local chieftains. Their society is largely tribal and clan-based, with leaders known as 'kriwe' or 'kriwes' who hold both religious and political authority. These leaders are supported by a council of nobles or elders. The Prussian Tribes do not have a centralized state structure, and their political organization are more focused on local governance and tribal coalitions, which often shifted alliances and rivalries.">
+		<relationships>
+			<relationship kingdom="Kingdom.lithuania" value="75" isAtWar="false" />
+			<relationship kingdom="Kingdom.baltic_tribes" value="75" isAtWar="false" />		
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="baltic_tribes"
+		initial_home_settlement="Settlement.castle_BT4"		
+		owner="Hero.lord_balttr_1_1"
+		banner_key="11.36.140.1836.1836.768.788.1.0.-30.533.35.127.460.502.764.752.1.0.0"
+		primary_banner_color="0xffD3CBAE"
+		secondary_banner_color="0xff615956"
+		color="0xffD3CBAE"
+		color2="0xff615956"
+		culture="Culture.baltic"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=Baltic_Tribes}Baltic Tribes"
+		short_name="{=Baltic_Tribes}Baltic Tribes"
+		title="{=Baltic_Tribes}Baltic Tribes"
+		ruler_title="{=Chief}Chief"
+		text="{=baltic_tribes_desc}Baltic Tribes is a loose alliance of pagan baltic tribes with similar languages and cultures.">
+		<relationships>
+			<relationship kingdom="Kingdom.lithuania" value="75" isAtWar="false" />
+			<relationship kingdom="Kingdom.prussia" value="75" isAtWar="false" />			
+		</relationships>
+	</Kingdom>
+
+
+	<Kingdom
+		id="estonia"
+		initial_home_settlement="Settlement.town_DES1"		
+		owner="Hero.lord_dest_1_1"
+		banner_key="11.36.100.2222.2222.764.764.1.0.0.141.72.149.465.465.778.579.1.0.0.141.72.149.406.406.778.776.1.0.0.141.72.149.349.349.778.964.1.0.0.505.36.116.37.103.725.508.0.0.260.505.36.116.88.32.731.711.1.0.-10.505.36.116.73.26.738.909.1.0.-10.340.149.149.91.95.725.507.1.0.-10.340.149.149.79.79.731.709.1.0.-10.340.149.149.67.67.738.907.1.0.-10.506.142.116.27.27.703.587.1.0.-10.506.142.116.22.22.712.787.1.0.-10.506.142.116.19.19.721.973.1.0.-10.505.142.116.15.2.706.580.1.0.-10.505.142.116.12.15.712.787.1.0.-10.505.142.116.9.12.721.970.1.0.-10.514.149.116.16.24.639.1034.0.0.316.514.142.116.11.17.639.1034.0.0.316.514.149.116.16.24.627.1018.0.0.309.514.142.116.11.17.627.1018.0.0.309.514.149.116.16.24.631.992.0.0.260.514.142.116.11.17.631.992.0.0.260.514.149.116.16.24.625.912.0.0.260.514.142.116.11.17.625.912.0.0.260.514.149.116.16.24.616.929.0.0.274.514.142.116.11.17.616.929.0.0.274.514.149.116.16.24.619.948.0.0.293.514.142.116.11.17.619.948.0.0.293.514.149.116.16.24.813.1012.0.0.293.514.142.116.11.17.813.1012.0.0.293.514.149.116.16.24.816.1033.0.0.316.514.142.116.11.17.816.1033.0.0.316.514.149.116.16.24.847.1038.0.0.351.514.142.116.11.17.847.1038.0.0.351.514.149.116.16.24.889.1030.0.0.351.514.142.116.11.17.889.1030.0.0.351.514.149.116.16.24.906.1036.0.0.6.514.142.116.11.17.906.1036.0.0.6.514.149.116.16.24.934.1030.0.0.38.514.142.116.11.17.934.1030.0.0.38.514.149.116.19.27.615.859.0.0.316.514.142.116.12.20.615.859.0.0.316.514.149.116.19.27.604.838.0.0.309.514.142.116.12.20.604.838.0.0.309.514.149.116.19.27.607.811.0.0.260.514.142.116.12.20.607.811.0.0.260.514.149.116.19.27.600.715.0.0.260.514.142.116.12.20.600.715.0.0.260.514.149.116.19.27.587.737.0.0.274.514.142.116.12.20.587.737.0.0.274.514.149.116.19.27.591.757.0.0.293.514.142.116.12.20.591.757.0.0.293.514.149.116.19.27.820.833.0.0.293.514.142.116.12.20.820.833.0.0.293.514.149.116.19.27.824.858.0.0.316.514.142.116.12.20.824.858.0.0.316.514.149.116.19.27.858.863.0.0.351.514.142.116.12.20.858.863.0.0.351.514.149.116.19.27.909.853.0.0.351.514.142.116.12.20.909.853.0.0.351.514.149.116.19.27.931.863.0.0.6.514.142.116.12.20.931.863.0.0.6.514.149.116.19.27.961.857.0.0.38.514.142.116.12.20.961.857.0.0.38.514.149.116.22.31.592.672.0.0.316.514.142.116.15.24.592.672.0.0.316.514.149.116.22.31.579.651.0.0.309.514.142.116.15.24.579.651.0.0.309.514.149.116.22.31.584.615.0.0.260.514.142.116.15.24.584.615.0.0.260.514.149.116.22.31.574.508.0.0.260.514.142.116.15.24.574.508.0.0.260.514.149.116.22.31.560.533.0.0.274.514.142.116.15.24.560.533.0.0.274.514.149.116.22.31.565.557.0.0.293.514.142.116.15.24.565.557.0.0.293.514.149.116.22.31.827.644.0.0.293.514.142.116.15.24.827.644.0.0.293.514.149.116.22.31.830.671.0.0.316.514.142.116.15.24.830.671.0.0.316.514.149.116.22.31.871.677.0.0.351.514.142.116.15.24.871.677.0.0.351.514.149.116.22.31.929.666.0.0.351.514.142.116.15.24.929.666.0.0.351.514.149.116.22.31.952.677.0.0.6.514.142.116.15.24.952.677.0.0.6.514.149.116.22.31.987.669.0.0.38.514.142.116.15.24.987.669.0.0.38.427.149.116.48.20.842.800.0.0.178.427.149.116.59.27.844.599.0.0.178.427.149.116.42.17.834.980.0.0.178.340.143.116.80.80.725.508.1.0.-10.340.143.116.71.71.731.711.1.0.-10.340.143.116.61.61.738.909.1.0.-10"
+		primary_banner_color="0xffFFAD55"
+		secondary_banner_color="0xff000000"
+		color="0xffFFAD55"
+		color2="0xff00667F"
+		culture="Culture.danish"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=Duchy_of_Estonia}Duchy of Estonia"
+		short_name="{=Duchy_of_Estonia}Duchy of Estonia"
+		title="{=Duchy_of_Estonia}Duchy of Estonia"
+		ruler_title="{=vice-regent}Vice-regent"
+		text="{=Duchy_of_Estonia_desc}The conquest of Northern Estonia, culminating in the establishment of Danish rule in 1219, was achieved under King Valdemar II of Denmark, known as Valdemar the Victorious. This significant event took place during the Northern Crusades, a period characterized by the Christian states of Northern Europe launching military campaigns against the pagan tribes of the Baltic region. The pivotal moment occurred at the Battle of Lindanise, on June 15, 1219, where Danish forces decisively defeated the Estonian tribes.{newline}{newline}The battle is famously noted for the legendary appearance of the Dannebrog, the flag of Denmark, which is said to have fallen from the skies during a critical point in the battle, boosting the morale of the Danish troops and leading to their victory. {newline}{newline}This victory not only solidified Danish influence in Estonia but also marked the beginning of significant Christianization and the establishment of feudal structures throughout the region. Under Danish rule, Reval was fortified and developed into a major center of commerce and governance, integrating Northern Estonia more closely into the broader European economic and cultural sphere.">
+		<relationships>	
+			<relationship kingdom="Kingdom.teutonic_order" value="75" isAtWar="false" />        
+		</relationships>
+        <policies>
+			<policy	id="policy_royal_guard" />
+            <policy	id="policy_cantons" />
+            <policy	id="policy_forgiveness_of_debts" />
+            <policy	id="policy_noble_retinues" />
+		</policies>        
+	</Kingdom>
+
+
+	<Kingdom
+		id="polack"
+		initial_home_settlement="Settlement.town_PLC1"		
+		owner="Hero.lord_plc_1_1"
+		banner_key="11.146.146.2000.2000.764.764.0.0.0.503.95.95.50.50.782.609.0.0.0.503.95.95.50.50.782.572.0.0.0.503.95.95.50.50.746.609.0.0.0.503.95.95.50.50.746.572.0.0.0.503.95.27.50.50.795.661.0.0.0.503.95.27.50.50.733.661.0.0.0.503.95.27.50.50.795.727.0.0.0.503.95.27.50.50.733.727.0.0.0.510.95.95.313.377.764.694.0.0.0.510.95.95.666.377.764.764.0.0.90.510.95.95.213.377.764.592.0.0.0.510.39.95.650.300.764.764.0.0.90.510.39.27.300.300.764.694.0.0.0.510.39.27.200.300.764.592.0.0.0.503.39.27.40.40.746.572.0.0.0.503.39.27.40.40.782.572.0.0.0.503.39.27.40.40.746.609.0.0.0.503.39.27.40.40.782.609.0.0.0.428.95.95.15.15.784.613.1.0.45.428.95.95.15.15.744.613.1.0.45.428.95.95.15.15.744.569.1.0.45.428.95.95.15.15.784.569.1.0.45.503.39.27.40.40.795.727.0.0.0.503.39.27.40.40.733.727.0.0.0.503.39.27.40.40.795.661.0.0.0.503.39.27.40.40.733.661.0.0.0.428.95.95.20.20.733.661.1.0.45.428.95.95.20.20.795.661.1.0.45.428.95.95.20.20.795.727.1.0.45.428.95.95.20.20.733.727.1.0.45.503.100.100.18.28.764.760.0.0.0.503.100.100.18.28.764.964.0.0.0.503.100.100.18.28.764.856.0.0.0.503.34.34.18.28.764.641.0.0.0.503.34.34.18.28.714.592.0.0.90.503.34.34.18.28.814.592.0.0.90.503.34.34.18.28.844.694.0.0.90.503.34.34.18.28.684.694.0.0.90.510.95.80.70.60.764.695.0.0.90.510.95.80.36.60.764.682.0.0.0.510.95.80.50.60.764.700.0.0.0.510.95.80.40.60.764.592.0.0.90.510.95.80.40.60.764.592.0.0.0.500.95.95.35.26.844.694.1.0.0.500.95.95.35.26.684.694.1.0.0.500.95.95.35.26.764.760.1.0.90.500.95.95.35.26.764.642.1.0.90.500.95.95.35.26.764.856.1.0.90.500.95.95.35.26.764.964.1.0.90.500.95.95.35.26.715.592.1.0.0.500.95.95.35.26.814.592.1.0.0.502.95.95.26.26.764.592.1.0.0.502.95.95.26.26.764.700.1.0.0"
+		primary_banner_color="0xff35588F"
+		secondary_banner_color="0xffADADAD"
+		color="0xff35588F"
+		color2="0xffADADAD"
+		culture="Culture.rus"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.polack.name}Polock Principalities"
+		short_name="{=kingdom.polack.short_name}Polock Principalities"
+		title="{=kingdom.polack.title}Polack Principalities"
+		ruler_title="{=kingdom.polack.ruler_title}Knyaz"
+		text="{=kingdom.polack.text}From the second half of the 11th century vasal-union relations began to form between Polock and Lithuania. The reason for consolidation was a common enemy – Kievan Rus. Initially Polock played a leading role. But as time went on, Lithuania took that place. In 1259, thanks to a dynastic marriage, the Lithuanian prince Tautvilas ruled in Polock. The Principaly of Polock became vassal of the Lithuania, fought with Lithuania against common enemies: Golden Horde and Teutonic Order, but were not yet part of Lithuania. They had high autonomy, and many Polock princes fought for the main throne, Polock, among themselves and external enemies, including Lithuania.">
+		<relationships>	
+			<relationship kingdom="Kingdom.lithuania" value="10" isAtWar="false" />        
+            <relationship kingdom="Kingdom.novgorod" value="25" isAtWar="false" />  
+            <relationship kingdom="Kingdom.turov_pinsk" value="10" isAtWar="false" />              
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="novgorod"
+		initial_home_settlement="Settlement.town_NOV1"		
+		owner="Hero.lord_nov_1_1"
+		banner_key="11.12.100.2222.2222.764.764.1.0.0.142.47.132.480.679.759.755.0.1.4.503.12.132.179.182.836.665.0.1.4.160.47.47.480.480.830.806.1.1.4.503.12.132.118.127.722.700.0.1.56.503.12.132.118.127.804.945.0.1.56.503.12.132.118.127.706.920.0.1.56.503.12.132.32.78.750.862.0.1.56.505.12.132.9.61.721.831.0.1.50.505.12.132.28.61.902.729.0.1.325.503.12.132.88.127.883.601.0.1.5.503.12.132.64.127.886.699.0.1.5.503.12.132.55.53.919.823.0.1.-98.503.12.132.206.131.904.960.0.1.-85.503.12.132.206.178.844.936.0.1.-85.503.12.132.30.105.792.879.0.1.-124.503.12.132.30.105.943.906.0.1.-113.503.12.132.94.105.817.1022.0.1.-113.427.12.132.85.40.893.786.0.1.-74.504.12.132.65.79.914.791.0.1.-47.504.12.132.65.79.921.781.0.1.-12.504.47.132.85.110.787.754.0.1.-140.427.12.132.142.86.765.812.0.1.5.504.12.132.109.110.827.847.0.1.-126.504.12.132.129.131.689.721.0.1.-132.504.12.132.118.119.791.863.0.1.-163.346.47.132.28.55.849.653.0.1.264.426.47.132.42.29.846.687.0.0.95.427.47.132.39.42.639.657.0.0.-3.427.47.132.44.46.612.699.0.0.167.503.47.132.57.62.858.738.0.0.167.503.12.132.57.62.605.612.0.0.167.427.47.132.44.46.643.612.0.0.244.503.47.132.24.24.653.608.0.0.167.514.47.132.26.39.768.897.0.0.262.514.47.132.7.17.786.892.0.0.82.514.47.132.7.17.787.905.0.0.82.514.47.132.7.17.781.913.0.0.60.514.47.132.7.17.768.912.0.0.5.505.47.132.37.20.714.828.0.0.154.427.12.132.62.45.692.795.0.0.108.427.12.132.157.122.902.779.0.0.285.505.12.132.90.20.918.845.0.0.145.503.47.132.35.35.883.769.0.0.5.503.12.132.70.69.868.728.0.0.5.503.47.132.48.79.842.737.0.0.5.427.12.132.57.29.813.784.0.0.124.427.47.132.59.31.662.657.0.0.31.500.12.132.218.169.824.663.0.0.-53.428.12.132.23.23.779.741.0.0.-53.428.12.132.23.23.779.762.0.0.-53.428.12.132.23.23.756.753.0.0.-53.428.12.132.23.23.797.778.0.0.-53.428.12.132.23.23.770.783.0.0.-53.428.12.132.23.23.748.776.0.0.-53.428.12.132.23.23.727.762.0.0.-53.428.12.132.23.23.727.786.0.0.-53.428.12.132.23.23.750.800.0.0.-53.428.12.132.23.23.772.808.0.0.-53.428.12.132.23.23.797.797.0.0.-53.428.12.132.23.23.708.775.0.0.-53.428.12.132.23.23.695.753.0.0.-53.428.12.132.23.23.669.747.0.0.-53.428.12.132.23.23.662.769.0.0.-53.428.12.132.23.23.679.790.0.0.-53.428.12.132.23.23.673.813.0.0.-53.428.12.132.23.23.656.795.0.0.-53.428.12.132.23.23.651.820.0.0.-53.428.12.132.23.23.632.801.0.0.-53.428.12.132.23.23.643.845.0.0.-53.428.12.132.23.23.626.827.0.0.-53.428.12.132.23.23.644.751.0.0.-53.428.12.132.23.23.638.775.0.0.-53.428.12.132.23.23.803.748.0.0.-53.428.12.132.23.23.828.759.0.0.-53.428.12.132.23.23.848.754.0.0.-53.428.12.132.23.23.842.780.0.0.-53.427.12.132.46.23.846.791.0.0.13.427.12.132.46.23.879.765.0.0.78.427.12.132.46.23.618.752.0.0.78.427.12.132.46.23.610.844.0.0.126.427.12.132.46.23.709.847.0.0.180.428.12.132.23.23.708.823.0.0.-53.428.12.132.23.23.870.761.0.0.73.503.12.132.63.23.864.644.0.0.-18.503.47.132.30.20.864.660.0.0.8.504.12.132.8.28.828.650.0.0.252.500.12.132.160.160.832.637.0.0.-53.513.47.132.28.61.799.645.0.0.37.513.47.132.27.61.779.653.0.0.67.427.12.132.43.45.787.627.0.0.258.514.47.132.7.42.875.684.0.0.55.428.12.132.15.15.845.715.0.0.23.428.12.132.15.15.841.729.0.0.23.428.12.132.15.15.857.729.0.0.23.428.12.132.15.15.828.718.0.0.23.428.12.132.15.15.813.715.0.0.23.428.12.132.15.15.798.707.0.0.23.428.12.132.15.15.784.698.0.0.23.428.12.132.15.15.782.715.0.0.23.428.12.132.15.15.798.725.0.0.23.428.12.132.15.15.813.729.0.0.23.428.12.132.15.15.826.735.0.0.23.428.12.132.15.15.846.742.0.0.23.503.12.132.58.58.764.701.0.0.23"
+		primary_banner_color="0xff456982"
+		secondary_banner_color="0xffE8EEF2"
+		color="0xff456982"
+		color2="0xffE8EEF2"
+		culture="Culture.rus"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.novgorod.name}Novgorod Republic"
+		short_name="{=kingdom.novgorod.short_name}Novgorod Republic"
+		title="{=kingdom.novgorod.title}Novgorod Republic"
+		ruler_title="{=kingdom.novgorod.ruler_title}Posadnik"
+		text="{=kingdom.novgorod.text}The Novgorod Republic in the 13th century was a unique and powerful medieval state in northern Rus', known for its republican-style governance and economic prosperity. Unlike other principalities, Novgorod operated under a decentralized system, with real power held by the veche (popular assembly), representing the interests of local boyars, merchants, and citizens. Key offices, including the posadnik (mayor), tysyatsky (military leader), and archbishop, managed the city’s administration, defense, and church affairs.{newline}{newline}Novgorod maintained semi-autonomy within the broader Rus' political sphere, balancing relations with the Grand Princes of Vladimir and the Mongol Empire. Known as a major trading hub, Novgorod’s wealth and influence came from its extensive connections with the Baltic Sea, the Hanseatic League, and Eastern markets. Its strategic location allowed Novgorod to flourish, blending self-governance, economic strength, and diplomatic skill to navigate the challenges of the 13th century.">
+		<relationships>	
+			<relationship kingdom="Kingdom.polack" value="25" isAtWar="false" />        
+		</relationships>
+        <policies>
+			<policy	id="policy_senate" />
+            <policy	id="policy_council_of_the_commons" />
+		</policies>        
+	</Kingdom>
+
+	<Kingdom
+		id="pomerania"
+		initial_home_settlement="Settlement.town_POL1"		
+		owner="Hero.lord_pol_1_1"
+		banner_key="11.22.100.2222.2222.764.764.1.0.0.102.14.14.543.543.804.787.0.0.21.505.22.14.496.608.559.730.0.0.4.505.22.14.382.406.861.938.0.0.-3.505.22.14.382.406.696.905.0.0.5.140.14.14.613.487.733.795.0.0.5.505.22.14.252.163.650.571.0.0.-13.427.14.14.83.92.829.592.0.0.200.427.14.14.99.79.838.623.0.0.89.427.14.14.55.79.827.604.0.0.175.503.14.14.93.125.832.605.0.0.10.503.22.14.77.79.825.623.0.0.10.503.14.14.66.96.824.602.0.0.186.505.22.14.74.186.824.544.0.0.133.427.14.14.133.108.832.754.0.0.148.510.22.14.25.31.872.654.0.0.68.119.14.14.169.171.739.618.0.1.8.503.22.14.154.154.578.636.0.0.3.503.22.14.164.97.594.778.0.0.30.346.39.14.29.97.625.768.0.1.306.346.39.14.29.97.616.635.0.1.209.427.22.14.47.23.632.665.0.1.49.427.22.14.36.20.652.749.0.1.113.427.39.14.61.50.591.797.0.1.185.427.39.14.61.50.604.805.0.1.215.427.39.14.78.50.587.592.0.1.94.427.39.14.68.44.594.612.0.1.152.427.39.14.68.46.588.600.0.1.131.426.14.14.59.97.749.553.0.0.113.426.14.14.72.89.760.561.0.0.83.426.14.14.67.83.765.574.0.0.52.151.22.14.21.22.727.568.0.0.197.503.22.14.47.96.711.621.0.0.337.427.51.14.73.29.684.604.0.0.23.426.39.14.91.65.703.594.0.0.-86.426.39.14.45.51.722.609.0.0.-86.427.14.14.105.51.722.609.0.0.102.503.14.14.56.51.749.605.0.0.102.503.39.14.16.11.719.601.0.0.102.503.39.14.15.22.690.578.0.0.102.513.22.14.8.102.882.756.0.0.43.513.22.14.9.102.889.740.0.0.46.503.14.14.41.93.829.596.0.0.314.503.14.14.65.58.838.629.0.0.186.503.22.14.37.58.813.651.0.0.164.503.22.14.37.65.824.650.0.0.149.503.14.14.36.36.820.637.0.0.186.505.14.14.20.35.810.630.0.0.196.503.22.14.105.178.858.798.0.0.220.504.14.14.143.35.884.754.0.0.137.504.14.14.90.35.862.733.0.0.317.503.22.14.94.146.835.776.0.0.226.503.14.14.35.53.793.783.0.0.5.505.14.14.61.35.782.759.0.0.284.504.14.14.145.35.831.756.0.0.299.504.14.14.137.15.844.743.0.0.306.505.14.14.56.16.821.735.0.0.299.510.29.14.63.38.885.684.0.0.337.510.29.14.63.38.859.714.0.0.318.510.29.14.63.38.899.655.0.0.348.504.29.14.5.85.894.644.0.0.86.504.14.14.137.15.800.735.0.0.294.505.29.14.27.5.784.713.0.0.57.505.29.14.27.5.773.714.0.1.313.505.29.14.27.5.800.709.0.1.337.505.29.14.47.5.803.687.0.0.280.503.14.14.33.33.851.605.0.0.280.503.14.14.33.33.821.691.0.0.280.503.14.14.26.33.835.680.0.0.280.427.22.14.131.133.634.943.0.0.269.514.39.14.13.24.614.926.0.0.286.514.39.14.13.24.618.910.0.0.259.514.39.14.13.24.631.898.0.0.259.514.39.14.13.24.645.890.0.0.241.427.22.14.111.103.774.993.0.0.330.505.22.14.111.90.708.1013.0.0.287.514.39.14.13.24.733.963.0.0.261.514.39.14.13.24.733.978.0.0.271.514.39.14.13.24.738.993.0.0.283.514.39.14.13.24.754.1000.0.0.314"
+		primary_banner_color="0xffE44434"
+		secondary_banner_color="0xffF5F5F5"
+		color="0xffE44434"
+		color2="0xffF5F5F5"
+		culture="Culture.polish"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.pomerania.name}Duchy of Pomerania"
+		short_name="{=kingdom.pomerania.short_name}Duchy of Pomerania"
+		title="{=kingdom.pomerania.title}Duchy of Pomerania"
+		ruler_title="{=kingdom.pomerania.ruler_title}Duke"
+		text="{=kingdom.pomerania.text}In the mid-13th century, Pomerania was divided between Western Pomerania (Duchy of Pomerania, ruled by the Griffins) and Eastern Pomerania (Pomerelia, ruled by the Sobiesławice dynasty). While Western Pomerania remained loosely tied to the Holy Roman Empire, Pomerelia was engaged in power struggles with the Piasts of Poland, the Teutonic Order, and local noble clans over control of Gdańsk and strategic trade routes.">
+		<relationships>
+			<relationship kingdom="Kingdom.teutonic_order" value="75" isAtWar="false" />         
+			<relationship kingdom="Kingdom.masovia" value="75" isAtWar="false" />              
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="masovia"
+		initial_home_settlement="Settlement.town_POL2"		
+		owner="Hero.lord_pol_4_1"
+		banner_key="11.142.137.2000.2000.764.764.0.0.0.161.27.27.450.612.766.695.1.0.0.503.142.142.277.223.766.575.0.0.0.503.142.142.478.295.766.483.0.0.0.119.27.27.119.128.761.595.0.1.11.503.27.27.77.77.888.590.0.0.0.503.27.27.77.77.642.590.0.0.0.504.142.142.135.46.818.739.0.0.103.504.142.142.135.46.713.739.0.1.257.503.142.27.22.51.744.601.0.1.0.503.142.27.31.87.801.624.0.1.-9.503.27.27.14.44.799.594.0.1.5.427.27.27.65.43.792.642.0.1.-82.427.142.27.110.76.783.570.0.1.117.505.27.27.14.44.786.617.0.1.-12.503.142.27.44.44.727.632.0.1.0.503.27.27.44.44.755.640.0.1.0.427.27.27.50.50.733.657.0.1.69.503.142.27.44.44.720.630.0.1.0.503.27.27.53.89.768.669.0.1.0.513.39.27.87.56.740.574.0.0.110.513.142.27.18.36.733.586.0.1.266.503.142.27.22.17.731.584.0.1.0.504.39.27.11.40.720.584.0.1.174.513.27.27.40.50.760.568.0.1.25.503.27.27.35.22.744.562.0.1.-43.426.27.27.20.36.785.643.0.1.225.426.27.27.20.36.790.622.0.1.183.426.27.27.32.46.794.598.0.1.184.426.27.27.32.46.788.566.0.1.211.426.27.27.31.64.769.551.0.1.279.426.27.27.31.64.770.550.0.1.241.503.142.27.35.35.751.525.0.1.0.503.142.27.264.142.934.866.0.1.0.503.142.27.264.142.597.867.0.1.0.427.39.27.62.58.882.867.0.0.227.427.39.27.79.54.886.850.0.0.218.427.39.27.62.58.650.867.0.1.133.427.39.27.79.54.646.850.0.1.142.309.39.27.217.73.825.796.0.0.151.309.39.27.217.73.707.796.0.1.208.427.27.27.174.142.765.791.0.1.180.503.27.27.143.65.765.688.0.1.180.427.39.27.162.46.844.647.1.0.36.427.39.27.162.46.684.647.1.1.323.427.39.27.162.46.764.673.0.0.0.504.27.142.40.65.766.804.1.1.180.504.27.142.40.65.781.794.1.1.180.504.27.142.40.65.751.794.1.1.180.504.27.142.40.65.766.784.1.1.180.504.27.142.40.65.796.784.1.1.180.504.27.142.40.65.736.784.1.1.180.504.27.142.40.65.781.774.1.1.180.504.27.142.40.65.751.774.1.1.180.504.27.142.30.65.725.774.1.1.180.504.27.142.30.65.807.774.1.1.180.504.27.142.40.65.766.764.1.1.180.504.27.142.32.65.796.764.1.1.180.504.27.142.32.65.736.764.1.1.180.504.27.142.30.65.781.754.1.1.180.504.27.142.30.65.751.754.1.1.180.504.27.142.30.65.766.744.1.1.180.504.27.142.30.65.796.744.1.1.180.504.27.142.30.65.736.744.1.1.180.504.27.142.30.65.779.734.1.1.180.504.27.142.30.65.753.734.1.1.180.504.27.142.30.65.798.734.1.1.180.504.27.142.30.65.734.734.1.1.180.504.27.142.40.65.766.724.1.1.180.504.27.142.40.65.798.724.1.1.180.504.27.142.40.65.734.724.1.1.180.504.27.142.40.65.781.714.1.1.180.504.27.142.40.65.751.714.1.1.180.504.27.142.30.65.723.714.1.1.180.504.27.142.30.65.809.714.1.1.180.504.27.142.40.65.766.704.1.1.180.504.27.142.40.65.796.704.1.1.180.504.27.142.40.65.736.704.1.1.180.340.27.142.114.155.766.696.1.0.180.427.142.142.64.22.766.849.0.1.0.504.142.142.27.295.805.962.0.1.24.504.142.142.27.295.725.961.0.0.335.504.27.142.14.70.807.882.0.0.335.504.27.142.14.70.725.882.0.1.24.504.27.142.14.70.745.933.0.1.147.504.27.142.14.70.787.933.0.0.213.504.142.142.78.65.766.935.0.0.0.513.27.142.33.112.766.932.0.0.180.427.27.27.44.33.685.792.0.1.56.427.27.27.44.33.847.792.0.0.304.503.142.27.17.13.749.561.0.0.11.504.142.27.4.44.754.556.0.0.281.503.39.27.23.20.727.566.0.0.0.503.142.27.6.6.724.566.0.0.11.428.39.39.37.37.642.589.1.0.0.428.39.39.37.37.890.589.1.0.0.503.142.39.67.41.765.836.0.0.0.503.39.39.57.34.765.838.1.0.0"
+		primary_banner_color="0xff830808"
+		secondary_banner_color="0xffF5F5F5"
+		color="0xff830808"
+		color2="0xffF5F5F5"
+		culture="Culture.polish"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.masovia.name}Duchy of Masovia"
+		short_name="{=kingdom.masovia.short_name}Duchy of Masovia"
+		title="{=kingdom.masovia.title}Duchy of Masovia"
+		ruler_title="{=kingdom.masovia.ruler_title}Duke"
+		text="{=kingdom.masovia.text}In the mid-13th century, Masovia was ruled by Duke Siemowit I of the Piast dynasty, who sought to defend and expand his duchy amid conflicts with neighboring Polish and Baltic powers. The region faced frequent raids from the Yotvingians and Lithuanians, while Masovian nobles played a key role in the political struggles between the Piasts of Greater Poland and Kuyavia.">
+		<relationships>	
+			<relationship kingdom="Kingdom.teutonic_order" value="75" isAtWar="false" />    
+			<relationship kingdom="Kingdom.pomerania" value="75" isAtWar="false" />                     
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="yaroslavl"
+		initial_home_settlement="Settlement.town_RUS2"		
+		owner="Hero.lord_rus_1_2"
+		banner_key="11.131.100.2222.2222.764.764.1.0.0.138.149.132.448.505.754.775.0.0.-4.506.149.132.140.157.822.687.0.0.23.506.149.132.140.157.841.814.0.0.-8.506.131.132.140.162.893.736.0.0.6.506.149.132.114.157.790.612.0.0.26.505.131.132.94.53.697.615.0.0.110.506.149.132.54.79.741.564.0.0.110.506.149.132.34.29.781.551.0.0.62.506.149.132.49.40.737.594.0.0.62.504.149.132.34.67.728.624.0.0.200.346.149.132.66.124.726.596.0.0.86.309.131.132.25.60.677.594.0.1.270.505.131.132.94.53.657.592.0.0.98.503.131.132.49.49.712.638.0.0.98.504.29.132.14.5.738.569.0.0.340.427.149.132.94.51.742.863.0.0.270.427.149.132.94.51.784.911.0.0.281.427.131.132.105.41.832.937.0.0.281.427.149.132.105.41.759.798.0.0.292.510.59.132.222.61.763.656.0.0.216.510.59.132.54.61.621.760.0.0.216.503.35.132.86.61.853.564.0.0.216.503.20.132.63.39.853.564.0.0.216.503.131.132.80.39.861.577.0.0.216.426.35.132.59.69.860.590.0.0.216.504.35.132.67.93.867.581.0.0.216.504.20.132.44.70.860.574.0.0.216.426.20.132.30.42.864.588.0.0.216.510.35.132.59.85.862.582.0.0.216.510.131.132.46.23.869.586.0.0.216.510.131.132.34.23.849.596.0.0.127.510.131.132.34.23.881.574.0.0.127.504.131.132.13.21.875.559.0.0.10.503.35.132.19.19.893.561.0.0.216.513.35.132.25.70.912.548.0.0.304.510.131.132.39.17.912.548.0.0.214"
+		primary_banner_color="0xffE1C844"
+		secondary_banner_color="0xff32302D"
+		color="0xffE1C844"
+		color2="0xff32302D"
+		culture="Culture.rus"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.yaroslavl.name}Principality of Yaroslavl"
+		short_name="{=kingdom.yaroslavl.short_name}Principality of Yaroslavl"
+		title="{=kingdom.yaroslavl.title}Principality of Yaroslavl"
+		ruler_title="{=kingdom.yaroslavl.ruler_title}Knyaz"
+		text="{=kingdom.yaroslavl.text}In the mid-13th century, the Principality of Yaroslavl was ruled by Prince Vasily Vsevolodovich of the Rurikid dynasty, a junior line descended from the powerful rulers of Vladimir. Situated along the upper Volga, Yaroslavl served as a key northern outpost amid the fragmentation of Rus’. The principality faced growing threats from Mongol incursions following the 1238 invasion, while navigating tense relations with neighboring powers such as Novgorod and Rostov. Despite its modest size, Yaroslavl retained strategic importance as a fortified river port and a seat of Orthodox authority in the region.">
+		<relationships>	
+            <relationship kingdom="Kingdom.rostov" value="10" isAtWar="false" />  
+            <relationship kingdom="Kingdom.tver" value="50" isAtWar="false" />              
+		</relationships>
+	</Kingdom>
+
+
+	<Kingdom
+		id="rostov"
+		initial_home_settlement="Settlement.town_RUS3"		
+		owner="Hero.lord_rus_2_1"
+		banner_key="11.142.100.2222.2222.764.764.1.0.0.129.29.14.419.593.793.764.0.1.0.427.142.14.697.593.776.800.0.1.188.503.142.14.66.78.803.844.0.1.130.505.142.14.60.76.783.854.0.1.120.503.142.14.239.113.947.808.0.1.116.503.29.14.138.78.891.791.0.1.105.504.29.14.90.211.903.863.0.1.195.504.29.14.18.59.930.781.0.1.30.504.142.14.22.84.845.837.0.1.246.504.142.14.44.50.845.846.0.1.276.504.29.14.31.78.841.835.0.1.116.504.29.14.27.76.855.852.0.1.297.503.29.14.138.93.704.781.0.1.105.427.142.14.259.113.692.950.0.1.87.503.29.14.47.44.690.862.0.1.73.346.0.14.47.20.619.997.0.0.5.346.0.14.37.20.750.997.0.0.25.346.0.14.46.20.817.992.0.0.59.346.0.14.39.20.925.997.0.0.5.427.142.14.697.593.778.707.0.1.188.346.29.14.154.-74.672.719.0.1.281.527.0.14.214.87.706.580.0.1.223.427.25.14.119.112.700.772.0.1.248.427.15.14.151.123.700.758.0.1.235.427.15.14.151.123.660.713.0.1.60.503.142.14.99.184.780.705.0.1.-85.427.142.14.182.140.897.758.0.1.-214.503.142.14.99.184.605.772.0.1.194.503.15.14.38.88.657.786.0.1.205.503.15.14.38.88.697.698.0.1.183.503.142.14.94.92.637.659.0.1.0.503.29.14.88.88.642.654.0.1.73.503.29.14.38.38.590.692.0.1.73.346.29.14.94.33.618.685.0.1.25.346.29.14.94.33.610.668.0.1.50.503.142.14.38.70.587.653.0.1.126.503.29.14.26.64.622.655.0.1.0.504.29.14.44.44.624.626.0.1.290.504.29.14.34.63.680.631.0.1.-55.504.142.14.16.63.677.623.0.1.125.504.142.14.8.95.626.622.0.1.311.506.29.14.52.95.606.672.0.1.-52.506.142.14.19.23.626.653.0.1.-80.511.142.14.31.16.627.646.0.1.8.511.142.14.58.25.583.710.0.1.52.506.142.14.10.13.581.694.0.1.310.504.29.14.19.26.943.790.0.1.-88.510.142.14.65.38.843.832.0.1.149.510.142.14.69.51.872.874.0.1.103.503.29.14.115.115.734.791.0.1.0.427.25.14.125.112.871.770.0.1.156.503.29.14.132.102.869.786.0.1.156.503.29.14.100.76.851.792.0.1.156.504.0.14.10.120.639.559.0.1.34.504.0.14.6.40.626.554.0.1.71.504.0.14.6.77.627.574.0.1.83.504.0.14.9.77.690.567.0.1.289.504.0.14.9.100.692.520.0.1.-2.504.0.14.7.75.680.521.0.1.33.504.0.14.7.66.723.508.0.1.-12.504.0.14.8.76.762.509.0.1.281.504.145.14.15.76.750.505.0.1.118.504.0.14.7.59.753.497.0.1.-12.506.29.14.16.12.625.653.0.1.0.427.25.14.65.35.652.677.0.1.30.510.25.14.53.53.610.701.0.1.20.504.29.14.33.48.689.847.0.1.275.504.142.14.35.76.699.878.0.1.130.504.0.14.8.155.768.614.0.1.-96.504.0.14.4.55.788.608.0.1.-65.504.0.14.5.68.772.602.0.1.315.504.0.14.9.85.741.575.0.1.346.504.0.14.9.62.723.591.0.1.0.504.0.14.9.62.779.541.0.1.332.504.142.14.12.123.776.555.0.1.144.504.0.14.6.100.794.548.0.1.-69.506.0.14.12.12.624.654.0.1.45"
+		primary_banner_color="0xffAD4A2B"
+		secondary_banner_color="0xffF7F364"
+		color="0xffAD4A2B"
+		color2="0xffF7F364"
+		culture="Culture.rus"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.rostov.name}Principality of Rostov"
+		short_name="{=kingdom.rostov.short_name}Principality of Rostov"
+		title="{=kingdom.rostov.title}Principality of Rostov"
+		ruler_title="{=kingdom.rostov.ruler_title}Knyaz"
+		text="{=kingdom.rostov.text}In the mid-13th century, the Principality of Rostov was one of the oldest centers of Rus', ruled by junior members of the powerful Rurikid dynasty. Though eclipsed in influence by the rising city of Vladimir, Rostov retained religious prestige as the seat of one of the earliest Orthodox bishoprics in northeastern Rus’. The principality was divided among rival appanage princes, weakening its political cohesion. Surrounded by thick forests and river networks, Rostov faced both internal rivalries and growing threats from Mongol domination after the 1238 invasion. Despite this, it remained a vital cultural and ecclesiastical hub in the northeast.">
+		<relationships>	     
+            <relationship kingdom="Kingdom.yaroslavl" value="10" isAtWar="false" />  
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="beloozero"
+		initial_home_settlement="Settlement.town_RUS1"		
+		owner="Hero.lord_rus_3_1"
+		banner_key="11.12.100.2222.2222.764.764.1.0.0.428.19.12.333.333.764.620.0.0.0.428.20.12.290.290.764.603.0.0.0.503.12.12.277.277.764.562.0.0.0.417.39.12.143.143.764.554.0.0.270.513.12.12.111.116.810.601.0.0.45.513.12.12.111.116.718.601.0.1.315.513.12.12.111.116.718.509.0.0.-135.513.12.12.111.116.810.509.0.1.135.505.39.12.55.55.764.554.0.0.0.505.95.12.45.45.764.554.0.0.0.505.39.12.35.35.764.554.0.0.0.504.95.12.17.115.764.568.0.0.0.504.95.12.17.115.764.541.0.1.180.504.95.12.17.115.776.554.0.1.90.504.95.12.17.115.752.554.0.0.270.513.20.12.145.290.813.853.0.1.300.504.20.12.222.71.889.814.0.0.36.504.20.12.86.399.700.923.0.0.122.503.12.12.11.11.918.797.0.1.238.513.12.12.84.163.826.902.0.1.323.514.20.12.39.75.853.871.0.1.149.514.20.12.33.64.833.903.0.1.327.217.20.12.58.163.820.814.0.1.290.513.20.12.100.163.614.975.0.1.301.213.12.12.63.125.607.980.0.0.301.503.12.12.63.125.537.1023.0.0.301.504.19.12.335.22.783.864.0.0.30.514.12.12.48.99.699.907.0.0.38.513.20.12.145.290.715.853.0.0.59.504.20.12.222.71.639.814.0.1.324.504.20.12.86.399.827.923.0.1.238.503.12.12.11.11.610.797.0.1.238.513.12.12.84.163.702.908.0.0.31.514.20.12.39.75.675.871.0.0.211.514.20.12.35.68.698.904.0.0.37.217.20.12.58.163.708.813.0.0.69.513.20.12.100.163.913.975.0.0.58.213.12.12.63.125.920.980.0.1.58.503.12.12.63.125.991.1023.0.1.58.504.19.12.335.22.745.864.0.1.329.504.12.12.207.14.807.875.0.1.320.503.20.12.30.40.644.815.0.1.49.427.19.12.33.42.644.815.0.1.49.503.20.12.30.40.884.815.0.0.311.427.19.12.33.42.884.815.0.0.311.504.20.12.76.135.723.881.0.0.44.504.20.12.54.61.685.931.0.0.25"
+		primary_banner_color="0xff435BA0"
+		secondary_banner_color="0xffE6E6E6"
+		color="0xff435BA0"
+		color2="0xffE6E6E6"
+		culture="Culture.rus"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.beloozero.name}Principality of Beloozero"
+		short_name="{=kingdom.beloozero.short_name}Principality of Beloozero"
+		title="{=kingdom.beloozero.title}Principality of Beloozero"
+		ruler_title="{=kingdom.beloozero.ruler_title}Knyaz"
+		text="{=kingdom.beloozero.text}In the mid-13th century, the Principality of Beloozero was a remote northern outpost of the Rurikid realm, situated on the shores of Lake Beloye. Ruled by junior princes of the Vladimir-Suzdal line, it served as a frontier domain guarding the forested approaches to the White Sea basin. Though small and sparsely populated, Beloozero held strategic importance for trade and river transport, connecting northern Rus’ to the Volga basin. The principality remained relatively insulated from steppe invasions, allowing it to develop as a quiet yet loyal vassal of the Grand Princes of Vladimir.">
+		<relationships>	     
+            <relationship kingdom="Kingdom.yaroslavl" value="10" isAtWar="false" />  
+            <relationship kingdom="Kingdom.novgorod" value="10" isAtWar="false" /> 
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="tver"
+		initial_home_settlement="Settlement.town_RUS4"		
+		owner="Hero.lord_rus_4_1"
+		banner_key="11.14.100.2222.2222.764.764.1.0.0.330.39.14.356.389.764.846.1.0.0.330.39.14.85.85.764.809.0.0.0.330.39.14.107.58.843.822.0.0.-15.330.39.14.107.58.686.822.0.1.15.510.39.14.113.145.764.790.0.0.0.426.0.14.70.71.764.811.0.0.270.426.0.14.62.115.846.834.0.0.243.426.0.14.62.115.683.834.0.1.117.500.14.14.387.378.764.812.1.0.0.503.0.14.383.120.764.731.1.0.0.503.39.14.378.100.764.729.1.0.0.503.2.12.377.106.764.720.0.0.0.503.126.12.326.79.767.708.0.0.0.503.2.12.225.61.764.703.0.0.0.503.39.12.213.55.764.693.0.0.0.340.39.12.309.347.764.611.0.0.0.503.14.12.104.148.769.553.0.0.0.340.0.12.300.192.764.618.0.0.0.340.39.12.302.304.764.624.0.0.0.503.2.12.20.37.764.601.0.0.0.503.129.12.12.24.764.599.0.0.0.503.2.12.13.37.652.639.0.0.33.503.2.12.13.37.877.639.0.1.327.503.129.12.6.30.878.639.0.1.327.503.129.12.6.30.651.639.0.0.33.427.39.0.69.82.633.907.0.0.40.427.39.0.69.82.896.907.0.1.320.503.39.0.38.38.916.907.0.1.320.503.39.0.38.38.612.907.0.1.320.213.14.14.72.90.923.773.0.0.180.213.0.14.56.83.923.773.0.0.180.213.14.14.72.90.869.802.0.0.180.213.0.14.56.83.869.802.0.0.180.213.14.14.72.90.625.789.0.0.180.213.0.14.56.85.625.789.0.0.180.512.2.12.39.56.764.687.0.0.90.512.129.12.24.41.764.687.0.0.90.512.2.12.39.45.699.681.0.0.80.512.2.12.39.45.830.681.0.1.280.512.129.12.20.23.830.681.0.1.280.512.129.12.20.23.699.681.0.0.80.511.0.12.236.20.764.663.0.0.180.511.0.12.206.37.764.705.0.0.180.504.0.12.19.29.764.637.0.0.0.504.0.12.19.29.713.642.0.0.20.504.0.12.19.29.815.642.0.1.340"
+		primary_banner_color="0xff9F4222"
+		secondary_banner_color="0xff4B6F3D"
+		color="0xff9F4222"
+		color2="0xff4B6F3D"
+		culture="Culture.rus"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.tver.name}Principality of Tver"
+		short_name="{=kingdom.tver.short_name}Principality of Tver"
+		title="{=kingdom.tver.title}Principality of Tver"
+		ruler_title="{=kingdom.tver.ruler_title}Knyaz"
+		text="{=kingdom.tver.text}In the mid-13th century, the Principality of Tver emerged as a rising power in northeastern Rus’, ruled by Prince Yaroslav Yaroslavich of the Rurikid dynasty. Originally an appanage of the Grand Principality of Vladimir, Tver grew in importance due to its strategic location on the Volga River and its ambitious, well-connected princely line. Under Yaroslav and his successors, Tver developed into a rival to Moscow, attracting craftsmen, clergy, and boyars fleeing Mongol pressure elsewhere. Though still subordinate to the Golden Horde, Tver’s growing autonomy and wealth laid the foundation for its later claims to leadership in Rus’.">
+		<relationships>	     
+            <relationship kingdom="Kingdom.yaroslavl" value="50" isAtWar="false" />  
+            <relationship kingdom="Kingdom.novgorod" value="10" isAtWar="false" /> 
+            <relationship kingdom="Kingdom.rostov" value="10" isAtWar="false" />        
+            <relationship kingdom="Kingdom.toropets" value="10" isAtWar="false" />                   
+		</relationships>
+	</Kingdom>
+
+
+	<Kingdom
+		id="toropets"
+		initial_home_settlement="Settlement.town_RUS5"		
+		owner="Hero.lord_rus_6_1"
+		banner_key="11.129.138.2222.2222.764.764.1.0.0.505.126.125.1501.1188.764.764.0.0.-1.314.143.125.350.300.764.495.0.0.-1.503.126.125.350.300.764.628.0.0.-1.400.126.125.350.300.764.607.0.0.-1.505.143.125.240.301.764.910.0.1.180.500.126.125.438.107.672.931.0.0.263.500.126.125.438.107.856.930.0.1.-263.504.143.125.135.267.764.673.0.0.0.504.143.125.177.197.764.718.0.0.0.505.143.125.92.129.764.837.0.1.180.510.126.125.148.43.764.1015.0.0.0.510.126.125.136.43.764.994.0.0.0.510.126.125.121.43.764.972.0.0.0.510.126.125.117.43.764.950.0.0.0.510.126.125.110.43.764.929.0.0.0.510.126.125.103.43.764.907.0.0.0.510.126.125.105.43.764.885.0.0.0.510.126.125.100.43.764.863.0.0.0.510.126.125.100.43.764.841.0.0.0.510.126.125.105.43.764.819.0.0.0.510.126.125.108.43.764.797.0.0.0.506.126.125.155.325.876.895.0.0.6.506.126.125.155.325.652.895.0.0.-6.510.126.125.241.163.671.1034.0.0.-33.510.126.125.241.163.857.1035.0.1.33.316.126.125.25.35.764.820.0.1.180.316.126.125.25.35.741.820.0.1.180.316.126.125.25.35.787.820.0.1.180.316.126.125.22.32.706.815.0.1.185.316.126.125.22.32.822.815.0.0.175.316.126.125.25.32.834.970.0.1.196.316.126.125.25.32.694.970.0.0.-196.316.126.125.40.60.764.983.0.0.180.505.126.125.30.60.764.1023.0.0.180.316.143.125.27.50.764.985.0.0.180.505.143.125.20.50.764.1017.0.0.180.510.126.125.70.43.835.790.0.0.15.510.126.125.70.43.693.790.0.1.345.510.126.125.70.43.835.811.0.0.15.510.126.125.70.43.693.811.0.1.345.510.126.125.70.43.693.832.0.1.345.510.126.125.70.43.835.832.0.0.15.510.126.125.70.43.835.854.0.0.15.510.126.125.70.43.693.854.0.1.345.510.126.125.70.43.693.876.0.1.345.510.126.125.70.43.835.876.0.0.15.510.126.125.70.43.836.899.0.0.15.510.126.125.70.43.692.899.0.1.345.510.126.125.70.43.690.921.0.1.345.510.126.125.70.43.838.921.0.0.15.510.126.125.70.43.839.943.0.0.15.510.126.125.70.43.689.943.0.1.345.510.126.125.70.43.684.963.0.1.345.510.126.125.70.43.844.963.0.0.15.510.126.125.70.43.847.986.0.0.15.510.126.125.70.43.681.986.0.1.345.510.126.125.70.43.677.1008.0.1.345.510.126.125.70.43.851.1008.0.0.15.510.126.125.40.32.723.761.0.0.63.510.126.125.40.32.805.761.0.1.297.403.126.126.206.44.764.734.1.1.180.403.126.126.206.44.764.732.1.1.180.403.126.126.206.44.764.731.1.1.180.504.143.125.121.189.764.676.0.0.0.510.126.125.170.32.780.670.0.1.283.510.126.125.170.32.748.670.0.0.77.510.143.125.123.43.763.620.0.0.90.403.126.126.88.160.764.564.0.1.180.504.142.125.20.165.694.590.0.0.90.505.142.125.20.58.735.578.0.0.90.504.142.125.14.110.685.580.0.0.84.510.126.125.31.17.743.590.0.0.90.503.126.125.97.300.764.384.0.0.-1.510.143.125.61.66.764.489.0.0.0.510.143.125.305.16.764.536.0.0.0.503.126.125.97.300.695.344.0.0.11.503.126.125.97.300.833.345.0.1.349.503.143.125.18.15.918.535.0.0.-1.503.143.125.18.15.610.535.0.0.-1"
+		primary_banner_color="0xff4F7642"
+		secondary_banner_color="0xffD0BA3E"
+		color="0xff4F7642"
+		color2="0xffD0BA3E"
+		culture="Culture.rus"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.toropets.name}Principality of Toropets"
+		short_name="{=kingdom.toropets.short_name}Principality of Toropets"
+		title="{=kingdom.toropets.title}Principality of Toropets"
+		ruler_title="{=kingdom.toropets.ruler_title}Knyaz"
+		text="{=kingdom.toropets.text}In the mid-13th century, the Principality of Toropets was a small but strategically placed frontier domain, situated between the powerful principalities of Smolensk, Novgorod, and the expanding Lithuanian lands. Ruled by a junior branch of the Rurikid dynasty, Toropets often shifted allegiance between larger neighbors, striving to maintain its autonomy amid regional power struggles. Its fortified position along key river routes made it a valuable trade and military post. Though vulnerable to raids and political encroachment, Toropets played a quiet but persistent role as a buffer principality on the volatile western edge of Rus’.">
+		<relationships>	     
+            <relationship kingdom="Kingdom.novgorod" value="10" isAtWar="false" /> 
+            <relationship kingdom="Kingdom.rostov" value="10" isAtWar="false" />              
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="turov_pinsk"
+		initial_home_settlement="Settlement.town_RUS6"		
+		owner="Hero.lord_rus_8_1"
+        banner_key="11.12.100.2222.2222.764.764.1.0.0.510.39.14.331.108.764.859.0.0.0.510.39.14.293.108.901.735.0.0.90.510.39.14.188.108.626.778.0.0.90.522.39.14.71.70.647.682.0.0.45.510.39.14.40.108.614.704.0.0.0.510.39.14.40.108.679.704.0.0.0.510.39.14.40.108.614.661.0.0.0.510.39.14.40.108.679.661.0.0.0.510.39.14.93.108.669.747.0.0.90.510.39.14.40.108.669.643.0.0.90.510.39.14.40.108.626.643.0.0.90.511.39.39.61.79.647.619.1.0.0.511.39.39.61.79.588.682.1.0.90.511.39.39.61.79.705.682.1.1.270.500.39.39.402.320.888.919.0.1.0.500.39.39.402.320.640.919.0.1.0.504.39.39.15.176.764.877.0.0.180.505.12.14.364.175.542.900.0.0.90.505.12.14.364.175.986.900.0.0.90.505.12.14.290.243.678.1080.0.0.139.505.12.14.290.243.850.1080.0.1.221.522.39.14.85.85.764.560.0.0.45.503.39.39.30.30.764.524.0.0.45.503.12.39.20.20.764.524.0.0.45.503.39.39.30.30.764.595.0.0.45.503.12.39.20.20.764.595.0.0.45.503.39.39.30.30.800.560.0.0.45.503.39.39.30.30.728.560.0.0.45.503.12.39.20.20.800.560.0.0.45.503.12.39.20.20.728.560.0.0.45.503.39.39.45.35.704.829.0.0.0.503.39.39.45.35.824.829.0.0.0.503.12.39.31.21.824.829.0.0.0.503.12.39.31.21.704.829.0.0.0.510.39.39.101.59.764.829.0.0.0.527.39.39.120.193.894.704.0.0.0.403.39.39.258.265.916.705.0.0.270.505.12.39.140.405.970.702.0.0.0.503.39.14.20.20.689.682.0.0.45.503.39.14.20.20.603.682.0.0.45.503.39.14.20.20.647.636.0.0.45.503.39.14.20.20.647.729.0.0.45"
+		primary_banner_color="0xff637EBA"
+		secondary_banner_color="0xffFCFDFB"
+		color="0xff637EBA"
+		color2="0xffFCFDFB"
+		culture="Culture.rus"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kingdom.turov_pinsk.name}Principality of Turov and Pinsk"
+		short_name="{=kingdom.turov_pinsk.short_name}Principality of Turov and Pinsk"
+		title="{=kingdom.turov_pinsk.title}Principality of Turov and Pinsk"
+		ruler_title="{=kingdom.turov_pinsk.ruler_title}Knyaz"
+		text="{=kingdom.turov_pinsk.text}In the mid-13th century, the Principality of Turov and Pinsk was a fragmented Rurikid domain in the forested marshlands of the Dnieper and Pripyat rivers. Nominally under the influence of the Grand Principality of Kiev or Volhynia, it was often ruled by junior branches of the Rurikid dynasty competing for control of key towns like Turov, Pinsk, and Mozyr. The region’s dense terrain provided natural defenses against steppe raiders, though it was increasingly pressured by Lithuanian expansion from the northwest. Despite political instability, the principality remained an important Orthodox and trade center, linking the Polesian frontier with the wider Rus’ world.">
+		<relationships>	
+            <relationship kingdom="Kingdom.polack" value="10" isAtWar="false" />  
+		</relationships>
+	</Kingdom>
+
+
+	<Kingdom
+		id="visby"
+		initial_home_settlement="Settlement.town_SW1"		
+		owner="Hero.lord_visby_1_1"
+		banner_key="11.12.116.1536.1536.764.764.1.0.0.124.35.149.478.478.786.783.0.1.0.346.39.149.43.18.807.949.0.0.0.346.39.149.43.18.942.932.0.0.116.346.39.149.43.18.759.963.0.0.70.346.39.149.43.18.708.930.0.0.111.510.39.149.100.70.666.907.0.0.245.504.12.149.20.276.672.847.0.0.212.504.12.149.20.148.899.825.0.0.145.211.12.149.239.316.588.661.0.0.132.510.39.149.207.70.805.610.0.0.245.505.39.149.62.187.876.640.0.0.245.510.39.149.59.70.831.557.0.0.155.505.142.149.45.112.857.631.0.0.245.505.12.149.4.91.952.657.0.0.245.505.12.149.4.91.946.667.0.0.245.505.12.149.4.91.941.677.0.0.245.505.12.149.4.91.935.687.0.0.245.503.35.149.54.47.885.809.0.0.0.503.35.149.47.47.885.805.0.0.0.503.12.149.169.141.981.763.0.0.245.503.35.149.47.47.904.742.0.0.245.503.35.149.47.47.913.763.0.0.245.503.35.149.47.47.904.788.0.0.245.503.35.149.54.47.847.809.0.0.0.503.35.149.47.47.848.805.0.0.245.503.35.149.47.47.812.808.0.0.245.503.35.149.47.47.779.816.0.0.245.503.35.149.52.52.708.831.0.0.236.503.35.149.47.47.743.821.0.0.245.503.35.149.52.52.672.818.0.0.236.503.35.149.47.47.710.828.0.0.245.503.35.149.47.47.675.812.0.0.245.503.35.149.47.47.660.782.0.0.245.503.35.149.47.47.651.749.0.0.245.503.35.149.47.47.651.716.0.0.245.503.35.149.47.47.885.723.0.0.245.503.35.149.47.47.856.713.0.0.245.503.35.149.47.47.825.717.0.0.245.503.35.149.47.47.788.721.0.0.245.503.35.149.47.47.745.712.0.0.245.503.35.149.47.47.714.699.0.0.245.503.35.149.47.47.689.682.0.0.245.503.35.149.79.79.662.653.0.0.-3.503.35.149.141.81.634.668.0.0.38.503.12.149.90.58.604.727.0.0.31.503.35.149.79.79.659.686.0.0.-3.427.35.149.94.72.626.732.0.0.111.503.12.149.57.19.615.783.0.0.206.503.35.149.40.40.596.693.0.0.-3.503.12.149.39.24.613.715.0.0.-3.511.12.149.28.45.583.679.0.0.140.511.12.149.73.34.583.710.0.0.43.427.12.149.71.57.703.664.0.0.43.503.39.149.79.79.683.653.0.0.43.503.35.149.40.40.683.653.0.0.43.513.12.149.47.51.695.645.0.0.284.513.35.149.38.47.689.646.0.0.287.427.35.149.40.27.663.645.0.0.-162.427.35.149.56.38.662.666.0.0.-73.505.35.149.24.23.663.631.0.0.-73.503.35.149.13.13.679.653.0.0.43.503.12.149.19.16.632.651.0.0.43.503.12.149.34.6.632.652.0.0.29.503.12.149.36.36.618.724.0.0.43.503.35.149.40.40.692.808.0.0.43.503.35.149.41.48.643.755.0.0.0.503.35.149.19.16.674.652.0.0.43.503.35.149.19.16.654.641.0.0.43.503.35.149.19.16.676.648.0.0.43"
+		primary_banner_color="0xff224277"
+		secondary_banner_color="0xffF5F5F5"
+		color="0xff224277"
+		color2="0xffF5F5F5"
+		culture="Culture.swedish"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=Visby_full}Free City of Visby"
+		short_name="{=Visby}Visby"
+		title="{=Visby_full}Free City of Visby"
+		ruler_title="{=jarl}Jarl"
+		text="{=Visby_desc}The wealthy merchant city of Visby dominates the Baltic trade, its German and Gutnish merchants controlling the flow of furs, amber, and silver between Scandinavia, the Hanseatic cities, and Novgorod. Though nominally independent, tensions simmer between the cosmopolitan urban elite and the traditional Gutnish farmers who see their ancient freedoms threatened by foreign wealth and influence.">
+		<relationships>	
+			<relationship kingdom="Kingdom.teutonic_order" value="75" isAtWar="false" />     
+			<relationship kingdom="Kingdom.estonia" value="75" isAtWar="false" />    
+			<relationship kingdom="Kingdom.novgorod" value="75" isAtWar="false" />    
+		</relationships>
+        <policies>
+			<policy	id="policy_royal_guard" />
+            <policy	id="policy_cantons" />
+            <policy	id="policy_forgiveness_of_debts" />
+            <policy	id="policy_noble_retinues" />
+		</policies>        
+	</Kingdom>
+
+</Kingdoms>

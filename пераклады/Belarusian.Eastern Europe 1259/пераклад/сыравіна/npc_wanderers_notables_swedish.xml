@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+	<!-- WANDERERS Empire origin-->
+    
+    <!--
+
+        ██     ██  █████  ███    ██ ██████  ███████ ██████  ███████ ██████  ███████ 
+        ██     ██ ██   ██ ████   ██ ██   ██ ██      ██   ██ ██      ██   ██ ██      
+        ██  █  ██ ███████ ██ ██  ██ ██   ██ █████   ██████  █████   ██████  ███████ 
+        ██ ███ ██ ██   ██ ██  ██ ██ ██   ██ ██      ██   ██ ██      ██   ██      ██ 
+         ███ ███  ██   ██ ██   ████ ██████  ███████ ██   ██ ███████ ██   ██ ███████ 
+                                                                            
+    -->   
+
+	<!-- Engineer who refused to comply with guild backscratching -->
+	<NPCCharacter id="spc_wanderer_swedish_0" name="{=wanderer0_swedish}{FIRSTNAME} Snildher" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_0_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Very boastful -->
+	<NPCCharacter id="spc_wanderer_swedish_1" name="{=wanderer1_swedish}{FIRSTNAME} Ofmódeliker" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_1_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Family lost military land grant, must work for merchants -->
+	<NPCCharacter id="spc_wanderer_swedish_2" name="{=wanderer2_swedish}{FIRSTNAME} Affallin" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_2_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--  Die-hard legionary -->
+	<NPCCharacter id="spc_wanderer_swedish_3" name="{=wanderer3_swedish}{FIRSTNAME} Härfast" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_3_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Bandit who found bandits too sociopathic -->
+	<NPCCharacter id="spc_wanderer_swedish_4" name="{=wanderer4_swedish}{FIRSTNAME} Utfallen" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_4_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- the butcher, doesn't give much away about himself -->
+	<NPCCharacter id="spc_wanderer_swedish_5" name="{=wanderer5_swedish}{FIRSTNAME} Tystslaghare" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_5_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- maquisard, ex-messianic rebel turned mafiosi -->
+	<NPCCharacter id="spc_wanderer_swedish_6" name="{=wanderer6_swedish}{FIRSTNAME} Helvændin" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_6_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- posed as man to join army. needed the money -->
+	<NPCCharacter id="spc_wanderer_swedish_7" name="{=wanderer7_swedish}{FIRSTNAME} Skepnman" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_7_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- merchant-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
+	<NPCCharacter id="spc_wanderer_swedish_8" name="{=wanderer8_swedish}{FIRSTNAME} Stadfallin" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_8_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
+	<NPCCharacter id="spc_wanderer_swedish_9" name="{=wanderer9_swedish}{FIRSTNAME} Blodmö" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_9_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--  Doctor, forced to torture -->
+	<NPCCharacter id="spc_wanderer_swedish_10" name="{=wanderer10_swedish}{FIRSTNAME} Lækthræng" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_10_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--upper-class dispossessed, refused a bad marriage -->
+	<NPCCharacter id="spc_wanderer_swedish_11" name="{=wanderer11_swedish}{FIRSTNAME} Ættløs" voice="earnest" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.swedish" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_11_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- fresh female wanderer to build something out of her -->
+	<NPCCharacter id="spc_wanderer_swedish_12" name="{=wanderer12_swedish}{FIRSTNAME} Vandramö" voice="ironic" age="18" is_female="true" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<skills>
+            <skill id="Athletics" value="10" />
+            <skill id="Riding" value="5" />
+            <skill id="OneHanded" value="8" />
+            <skill id="TwoHanded" value="2" />
+            <skill id="Polearm" value="1" />
+            <skill id="Throwing" value="2" />
+            <skill id="Bow" value="1" />
+            <skill id="Crossbow" value="0" />
+		</skills>        
+		<Traits>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- fresh male wanderer to build something out of him -->
+	<NPCCharacter id="spc_wanderer_swedish_13" name="{=wanderer13_swedish}{FIRSTNAME} Väghfarande" voice="curt" age="18" is_female="false" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills>
+            <skill id="Athletics" value="10" />
+            <skill id="Riding" value="5" />
+            <skill id="OneHanded" value="8" />
+            <skill id="TwoHanded" value="2" />
+            <skill id="Polearm" value="1" />
+            <skill id="Throwing" value="2" />
+            <skill id="Bow" value="1" />
+            <skill id="Crossbow" value="0" />
+		</skills>        
+		<Traits>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>            
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="npc_companion_equipment_template_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+    <!--
+
+	███    ███ ███████ ██████   ██████ ██   ██  █████  ███    ██ ████████ ███████ 
+	████  ████ ██      ██   ██ ██      ██   ██ ██   ██ ████   ██    ██    ██      
+	██ ████ ██ █████   ██████  ██      ███████ ███████ ██ ██  ██    ██    ███████ 
+	██  ██  ██ ██      ██   ██ ██      ██   ██ ██   ██ ██  ██ ██    ██         ██ 
+	██      ██ ███████ ██   ██  ██████ ██   ██ ██   ██ ██   ████    ██    ███████ 
+                                                                    
+    -->  
+
+	<NPCCharacter id="spc_notable_swedish_0" name="{=!}Cautious imperial merchant" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_0b" name="{=!}{FIRSTNAME} the Vintner" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_1" name="{=!}Empire merchant 3, ruthless" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_1b" name="{=!}Cold imperial merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_2" name="{=!}{FIRSTNAME} the Saltpanner" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_2b" name="{=!}danish merchant 6, cautious" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Can be acater -->
+	<NPCCharacter id="spc_notable_swedish_3" name="{=!}danish merchant 7, selfmade" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_3b" name="{=!}danish merchant 8, jocular" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_4" name="{=!}danish merchant 9, heiress" voice="curt" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_4b" name="{=!}danish merchant 10, devious" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--
+
+	██████  ██████  ███████  █████   ██████ ██   ██ ███████ ██████  ███████ 
+	██   ██ ██   ██ ██      ██   ██ ██      ██   ██ ██      ██   ██ ██      
+	██████  ██████  █████   ███████ ██      ███████ █████   ██████  ███████ 
+	██      ██   ██ ██      ██   ██ ██      ██   ██ ██      ██   ██      ██ 
+	██      ██   ██ ███████ ██   ██  ██████ ██   ██ ███████ ██   ██ ███████ 
+
+	-->
+
+	<NPCCharacter id="spc_notable_swedish_5" name="{=!}Messianic preacher" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_preacher_equipment_template_swedish"/>
+			<EquipmentSet id="npc_preacher_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_6" name="{=!}Puritan preacher" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_preacher_equipment_template_swedish"/>
+			<EquipmentSet id="npc_preacher_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_7" name="{=!}mystic" voice="earnest" is_template="true" default_group="Infantry" is_female="false" culture="Culture.swedish" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_preacher_equipment_template_swedish"/>
+			<EquipmentSet id="npc_preacher_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--
+
+     █████  ██████  ████████ ██ ███████  █████  ███    ██ ███████ 
+	██   ██ ██   ██    ██    ██ ██      ██   ██ ████   ██ ██      
+	███████ ██████     ██    ██ ███████ ███████ ██ ██  ██ ███████ 
+	██   ██ ██   ██    ██    ██      ██ ██   ██ ██  ██ ██      ██ 
+	██   ██ ██   ██    ██    ██ ███████ ██   ██ ██   ████ ███████ 
+																
+	-->   
+
+	<NPCCharacter id="spc_notable_swedish_8" name="{=!}danish gruff labor leader" voice="curt" is_template="true" default_group="Infantry" is_female="false" culture="Culture.swedish" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="spc_notable_empire_8"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_9" name="{=!}danish outgoing labor leader" voice="earnest" is_template="true" default_group="Infantry" is_female="false" culture="Culture.swedish" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+			<EquipmentSet id="spc_notable_empire_9"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--
+
+     ██████   █████  ███    ██  ██████      ██      ███████  █████  ██████  ███████ ██████  ███████ 
+	██       ██   ██ ████   ██ ██           ██      ██      ██   ██ ██   ██ ██      ██   ██ ██      
+	██   ███ ███████ ██ ██  ██ ██   ███     ██      █████   ███████ ██   ██ █████   ██████  ███████ 
+	██    ██ ██   ██ ██  ██ ██ ██    ██     ██      ██      ██   ██ ██   ██ ██      ██   ██      ██ 
+	 ██████  ██   ██ ██   ████  ██████      ███████ ███████ ██   ██ ██████  ███████ ██   ██ ███████ 
+
+	-->
+
+	<NPCCharacter id="spc_notable_swedish_10" name="{=!}Ironic gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish"/>
+            <EquipmentSet id="npc_gangleader_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_10b" name="{=!}Protective male gang leader" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish"/>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_11" name="{=!}Intimidating male gang leader" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish"/>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_11b" name="{=!}Bestial male gang leader" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish"/>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_12" name="{=!}Female gang leader" voice="ironic" is_template="true" is_female="true" culture="Culture.swedish" occupation="GangLeader" default_group="Infantry">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish"/>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_13" name="{=!}Menacing female gang leader" voice="softspoken" is_template="true" is_female="true" culture="Culture.swedish" occupation="GangLeader" default_group="Infantry">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish"/>
+			<EquipmentSet id="npc_gangleader_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--
+
+	██████  ██    ██ ██████   █████  ██          ███    ██  ██████  ████████  █████  ██████  ██      ███████ ███████ 
+	██   ██ ██    ██ ██   ██ ██   ██ ██          ████   ██ ██    ██    ██    ██   ██ ██   ██ ██      ██      ██      
+	██████  ██    ██ ██████  ███████ ██          ██ ██  ██ ██    ██    ██    ███████ ██████  ██      █████   ███████ 
+	██   ██ ██    ██ ██   ██ ██   ██ ██          ██  ██ ██ ██    ██    ██    ██   ██ ██   ██ ██      ██           ██ 
+	██   ██  ██████  ██   ██ ██   ██ ███████     ██   ████  ██████     ██    ██   ██ ██████  ███████ ███████ ███████ 
+
+	-->
+
+	<NPCCharacter id="spc_notable_swedish_21" name="{=!}danish gruff rural notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.swedish" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_notable_swedish_22" name="{=!}danish rural notable agreeable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.swedish" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.townsman_nord"/>
+		</face>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!--
+
+	██   ██ ███████  █████  ██████  ███    ███  █████  ███    ██ ███████ 
+	██   ██ ██      ██   ██ ██   ██ ████  ████ ██   ██ ████   ██ ██      
+	███████ █████   ███████ ██   ██ ██ ████ ██ ███████ ██ ██  ██ ███████ 
+	██   ██ ██      ██   ██ ██   ██ ██  ██  ██ ██   ██ ██  ██ ██      ██ 
+	██   ██ ███████ ██   ██ ██████  ██      ██ ██   ██ ██   ████ ███████ 
+
+	-->
+
+	<NPCCharacter id="spc_swedish_headman_1" name="{=!}danish rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_swedish_headman_2" name="{=!}danish conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spc_swedish_headman_3" name="{=!}empire devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swedish" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RomanHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_swedish"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_swedish" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+    <!--
+
+        ██████  ████████ ██   ██ ███████ ██████  
+       ██    ██    ██    ██   ██ ██      ██   ██ 
+       ██    ██    ██    ███████ █████   ██████  
+       ██    ██    ██    ██   ██ ██      ██   ██ 
+        ██████     ██    ██   ██ ███████ ██   ██ 
+                                          
+    -->    
+
+	<NPCCharacter id="npc_wanderer_equipment_swedish" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}wanderer_equipment" occupation="NotAssigned" culture="Culture.swedish">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="npc_artisan_equipment_swedish" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}artisan_equipment" occupation="NotAssigned" culture="Culture.swedish">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_artisan_equipment_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="npc_gang_leader_equipment_swedish" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}gang_leader_equipment" occupation="NotAssigned" culture="Culture.swedish">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_gang_leader_equipment_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="npc_preacher_equipment_swedish" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}preacher_equipment" occupation="NotAssigned" culture="Culture.swedish">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_preacher_equipment_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="npc_merchant_equipment_swedish" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}merchant_equipment" occupation="NotAssigned" culture="Culture.swedish">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_merchant_equipment_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="npc_gentry_equipment_swedish" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}gentry_equipment" occupation="NotAssigned" culture="Culture.swedish">
+		<face>
+			<face_key_template value="BodyProperty.villager_nord"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_gentry_equipment_swedish"/>
+		</Equipments>
+	</NPCCharacter>
+<!--
+	<NPCCharacter id="borrowed_troop" default_group="Infantry" level="6" name="{=H7eELtL6}Borrowed Troop" occupation="Soldier" culture="Culture.swedish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<Traits/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.veteran_borrowed_troop"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="veteran_borrowed_troop" default_group="Infantry" level="11" name="{=S9z09NaN}Veteran Borrowed Troop" occupation="Soldier" culture="Culture.swedish" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_nord"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<Traits/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lt_norse_type_x_1h_sword"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+    -->
+</NPCCharacters>
