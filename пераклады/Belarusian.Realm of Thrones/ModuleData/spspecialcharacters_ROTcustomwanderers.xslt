@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output omit-xml-declaration="yes"/>
+  <xsl:template match="@*|node()">
+      <xsl:copy>
+          <xsl:apply-templates select="@*|node()"/>
+      </xsl:copy>
 
-  <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+  </xsl:template>
 
   <xsl:template match="NPCCharacter[@id='ROTwanderer1']/@name">
     <xsl:attribute name="name">{=ROTwanderer1.name}Jaime Lannister</xsl:attribute>
