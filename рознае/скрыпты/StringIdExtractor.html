@@ -44,9 +44,6 @@ function escapeXML(str) {
 }
 
 function cleanText(text) {
-    if (text.includes(',')) {
-        text = text.split(',')[0];
-    }
     return text.trim();
 }
 
@@ -60,29 +57,45 @@ function processXML(xmlText) {
     const elements = xmlDoc.getElementsByTagName("*");
 
     for (let el of elements) {
+
+        // 🔹 1. Атрыбуты
         for (let attr of el.attributes) {
+            processValue(attr.value);
+        }
 
-            const value = attr.value;
+        // 🔹 2. Тэкст унутры элемента
+        for (let node of el.childNodes) {
+            if (node.nodeType === Node.TEXT_NODE) {
+                const text = node.nodeValue.trim();
 
-            if (value.includes("{=")) {
-                const match = value.match(/\{=([^}]+)\}(.*)/);
-
-                if (!match) continue;
-
-                const id = match[1];
-                let text = match[2] || "";
-
-                text = cleanText(text);
-
-                if (!counts[id]) counts[id] = 0;
-                counts[id]++;
-
-                if (!data[id]) {
-                    data[id] = text;
+                // толькі калі {=...} у пачатку
+                if (text.startsWith("{=")) {
+                    processValue(text);
                 }
             }
         }
     }
+
+function processValue(value) {
+    if (!value.includes("{=")) return;
+
+    const regex = /\{=([^}]+)\}([\s\S]*?)(?=\{=|$)/g;
+    let match;
+
+    while ((match = regex.exec(value)) !== null) {
+        const id = match[1];
+        let text = match[2] || "";
+
+        text = cleanText(text);
+
+        if (!counts[id]) counts[id] = 0;
+        counts[id]++;
+
+        if (!data[id]) {
+            data[id] = text;
+        }
+    }
+}
 
     let result = `<?xml version="1.0" encoding="UTF-8"?>\n`;
     result += `<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" `;
