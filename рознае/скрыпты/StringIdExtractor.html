@@ -58,45 +58,43 @@ function processXML(xmlText) {
 
     for (let el of elements) {
 
-        // 🔹 1. Атрыбуты
-        for (let attr of el.attributes) {
-            processValue(attr.value);
-        }
-
-        // 🔹 2. Тэкст унутры элемента
+        // --- БЯРЭМ ТОЛЬКІ ПРЯМЫ ТЭКСТ (без дзяцей) ---
+        let text = "";
         for (let node of el.childNodes) {
             if (node.nodeType === Node.TEXT_NODE) {
-                const text = node.nodeValue.trim();
-
-                // толькі калі {=...} у пачатку
-                if (text.startsWith("{=")) {
-                    processValue(text);
-                }
+                text += node.nodeValue;
             }
         }
+
+        if (!text.includes("{=")) continue;
+
+        extractString(text);
     }
 
-function processValue(value) {
-    if (!value.includes("{=")) return;
+    function extractString(value) {
+        const match = value.match(/\{=([^}]+)\}([\s\S]*)/);
 
-    const regex = /\{=([^}]+)\}([\s\S]*?)(?=\{=|$)/g;
-    let match;
+        if (!match) return;
 
-    while ((match = regex.exec(value)) !== null) {
         const id = match[1];
         let text = match[2] || "";
 
+        // --- ВЫДАЛЯЕМ УСЕ ЎНУТРАНЫЯ {=...} ---
+        text = text.replace(/\{=[^}]+\}/g, "");
+
         text = cleanText(text);
 
+        // --- УЛІК ДУБЛІКАТАЎ ---
         if (!counts[id]) counts[id] = 0;
         counts[id]++;
 
+        // --- НЕ ПЕРАПІСВАЕМ, КАЛІ ЎЖО ЁСЦЬ ---
         if (!data[id]) {
             data[id] = text;
         }
     }
-}
 
+    // --- ГЕНЕРАЦЫЯ XML ---
     let result = `<?xml version="1.0" encoding="UTF-8"?>\n`;
     result += `<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" `;
     result += `xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">\n`;
@@ -111,6 +109,7 @@ function processValue(value) {
 
     document.getElementById('output').value = result;
 
+    // --- ДУБЛІКАТЫ ---
     let problems = "";
     for (let id in counts) {
         if (counts[id] > 1) {
