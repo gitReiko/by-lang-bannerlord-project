@@ -57,13 +57,13 @@
   <string id="str_tor_skill_effect_prayer_duration" text="Працягласьць дзеяньня малітваў (толькі для сьвятароў): +{a0} %"/>
   <string id="str_tor_spellcaster_trait_name" text="Заклінальнік"/>
   <string id="str_tor_spellcaster_trait_description" text="Апісаньне заклінальніка"/>
-  <string id="str_tor_shallyadevoted_trait_name" text="Адданасьць Шаліі"/>
+  <string id="str_tor_shallyadevoted_trait_name" text="Ушанаваньне Шаліі"/>
   <string id="str_tor_shallyadevoted_trait_description" text="{?PLAYER.GENDER}Адданая сьвятарка{?}Адданы сьвятар{\?} Шаліі"/>
-  <string id="str_tor_sigmardevoted_trait_name" text="Адданасьць Сігмару"/>
+  <string id="str_tor_sigmardevoted_trait_name" text="Ушанаваньне Сігмара"/>
   <string id="str_tor_sigmardevoted_trait_description" text="{?PLAYER.GENDER}Адданая сьвятарка{?}Адданы сьвятар{\?} Сігмара"/>
-  <string id="str_tor_ladydevoted_trait_name" text="Адданасьць Лэдзі"/>
+  <string id="str_tor_ladydevoted_trait_name" text="Ушанаваньне Лэдзі"/>
   <string id="str_tor_ladydevoted_trait_description" text="{?PLAYER.GENDER}Адданая сьвятарка{?}Адданы сьвятар{\?} Лэдзі"/>
-  <string id="str_tor_ulricdevoted_trait_name" text="Адданасьць Ульрыку"/>
+  <string id="str_tor_ulricdevoted_trait_name" text="Ушанаваньне Ульрыка"/>
   <string id="str_tor_ulricdevoted_trait_description" text="{?PLAYER.GENDER}Адданая сьвятарка{?}Адданы сьвятар{\?} Ульрыка"/>
   <string id="str_tor_nagashcorrupted_trait_name" text="Апаганенасьць Нагашам"/>
   <string id="str_tor_nagashcorrupted_trait_description" text="Гэты розум апаганены праклёнам Нагаша."/>
@@ -146,7 +146,7 @@
   <string id="str_tor_perk_grand_prayer_1" text="Дае доступ да ўсіх баявых малітваў гранд узроўню."/>
   <string id="str_tor_perk_devotee_label" text="{?PLAYER.GENDER}Пасьлядоўніца{?}Пасьлядоўнік{\?}"/>
   <string id="str_tor_perk_devotee_1" text="Вы атрымліваеце +3 ачка ўдару за кожнае ачко Дысцыпліны."/>
-  <string id="str_tor_perk_devotee_2" text="Малітва ў капішчы дае на 50% больш набожнасьці да абранай вамі рэлігіі."/>
+  <string id="str_tor_perk_devotee_2" text="Малітва ў капішчы дае на 50% больш ушанаваньняў абранай вамі рэлігіі."/>
   <string id="str_tor_perk_divine_mission_label" text="Боская Місія"/>
   <string id="str_tor_perk_divine_mission_1" text="Вы атрымліваеце 1 ачко фокусу для Медыцыны."/>
   <string id="str_tor_perk_divine_mission_2" text="+5% да прыросту рушэньня ў селішчах, якімі валодае вашы клан."/>
@@ -207,65 +207,65 @@
   <string id="str_tor_prayer_level_novice" text="Навік"/>
   <string id="str_tor_prayer_level_adept" text="Адэпт"/>
   <string id="str_tor_prayer_level_grand" text="Гранд"/>
-  <string id="str_tor_ability_effect_type_projectile" text="Projectile"/>
-  <string id="str_tor_ability_effect_type_missile" text="Missile"/>
-  <string id="str_tor_ability_effect_type_seeker_missile" text="Seeker Missile"/>
-  <string id="str_tor_ability_effect_type_wind" text="Wind"/>
-  <string id="str_tor_ability_effect_type_vortex" text="Vortex"/>
-  <string id="str_tor_ability_effect_type_heal" text="Heal"/>
-  <string id="str_tor_ability_effect_type_augment" text="Augment"/>
-  <string id="str_tor_ability_effect_type_hex" text="Hex"/>
-  <string id="str_tor_ability_effect_type_summoning" text="Summoning"/>
-  <string id="str_tor_ability_effect_type_bombardment" text="Bombardment"/>
-  <string id="str_tor_ability_effect_type_blast" text="Blast"/>
-  <string id="str_tor_ability_effect_type_artillery_placement" text="Artillery Placement"/>
-  <string id="str_tor_ability_effect_type_time_warp" text="Time Warp"/>
-  <string id="str_tor_ability_effect_type_career_ability" text="Career Ability"/>
-  <string id="str_tor_ability_effect_type_tactical_reposition" text="Tactical Reposition"/>
-  <string id="str_tor_spellbook_hero_name" text="Hero name: "/>
-  <string id="str_tor_spellbook_casting_level" text="Spell casting level: "/>
-  <string id="str_tor_spellbook_max_wom" text="Maximum Winds of Magic: "/>
-  <string id="str_tor_spellbook_current_wom" text="Current Winds of Magic: "/>
-  <string id="str_tor_spellbook_wom_recharge" text="Winds of Magic recharge rate: "/>
-  <string id="str_tor_spellbook_recharge_rate" text="{RATE}{ICON}/ hour"/>
-  <string id="str_tor_spellbook_known_lores" text="Known Magic Schools: "/>
-  <string id="str_tor_prayerbook_devoted_to" text="Devoted to: "/>
-  <string id="str_tor_prayerbook_prayer_level" text="Prayer level: "/>
-  <string id="str_tor_forest_harmony_level_harmony" text="Harmony"/>
-  <string id="str_tor_forest_harmony_level_bound" text="Bound"/>
-  <string id="str_tor_forest_harmony_level_unbound" text="Unbound"/>
-  <string id="str_tor_ui_artillery_title" text="Artillery"/>
-  <string id="str_tor_ui_artillery_amount" text="Current Artillery Pieces in Inventory:"/>
-  <string id="str_tor_ui_artillery_max_deployable" text="Maximum Deployable Artillery Pieces:"/>
-  <string id="str_tor_ui_blessing_title" text="Blessing: "/>
-  <string id="str_tor_ui_blessing_duration" text="Duration:"/>
-  <string id="str_tor_ui_blessing_effect" text="Effect:"/>
-  <string id="str_tor_ui_devotion" text="Devotion"/>
-  <string id="str_tor_ui_no_devotion" text="No devotion"/>
-  <string id="str_tor_ui_active_blessing" text="Active Blessing"/>
-  <string id="str_tor_ui_no_blessing" text="No active blessing"/>
-  <string id="str_tor_ui_winds_of_magic_title" text="Winds of Magic"/>
-  <string id="str_tor_ui_winds_of_magic_maximum" text="Maximum:"/>
-  <string id="str_tor_ui_winds_of_magic_recharge_rate" text="Recharge Rate:"/>
-  <string id="str_tor_menu_enter_game" text="Enter the Old World"/>
-  <string id="str_tor_menu_shader_cache" text="Build Shader Cache"/>
-  <string id="str_tor_item_hint_use" text="Use Item"/>
-  <string id="str_tor_religion_follower_none" text="Not a follower of any religion"/>
-  <string id="str_tor_bloodkiss_player_notification" text="Player recieves the Blood Kiss."/>
-  <string id="str_tor_ink_end" text="End"/>
-  <string id="str_tor_ink_continue" text="Continue"/>
-  <string id="str_tor_brawl_cannot_leave" text="You may not leave until finishing the brawl."/>
-  <string id="str_tor_quest_fight_cannot_leave" text="You may not leave until finishing the quest scenario."/>
-  <string id="str_tor_joust_dismount" text="You must dismount to continue with combat on foot."/>
-  <string id="str_tor_chaos_rebellion_text" text="Chaos corruption reaches a critical level in {SETTLEMENT_NAME} and rebellion breaks out."/>
-  <string id="str_tor_stealth_attack_text" text="Stealth Attack!"/>
-  <string id="str_tor_quest_specialize_lore_title" text="Practice Spellcasting"/>
-  <string id="str_tor_quest_engineer_cultists_skip" text="Your victory here is meaningless...you will never find what we took..."/>
-  <string id="str_tor_quest_engineer_skip" text="You have no idea what you are interfering with..."/>
-  <string id="str_tor_quest_hunt_cultist_issue_brief" text="As a matter of fact, I have a lead on a potential cultist. A grave accusation that needs investigating."/>
-  <string id="str_tor_quest_hunt_cultist_issue_accept_player" text="What needs to be done?"/>
-  <string id="str_tor_quest_hunt_cultist_issue_explanation" text="I need you to travel to {TARGET_SETTLEMENT}. Investigate the local populace and root out any cultists. On successful completion, the order will pay you {REWARD}{GOLD_ICON}."/>
-  <string id="str_tor_quest_hunt_cultist_accept_player" text="Consider it done."/>
+  <string id="str_tor_ability_effect_type_projectile" text="Снарад"/>
+  <string id="str_tor_ability_effect_type_missile" text="Ракета"/>
+  <string id="str_tor_ability_effect_type_seeker_missile" text="Саманаводная Ракета"/>
+  <string id="str_tor_ability_effect_type_wind" text="Вецеры"/>
+  <string id="str_tor_ability_effect_type_vortex" text="Віхор"/>
+  <string id="str_tor_ability_effect_type_heal" text="Лячэньне"/>
+  <string id="str_tor_ability_effect_type_augment" text="Узмацненьне"/>
+  <string id="str_tor_ability_effect_type_hex" text="Праклён"/>
+  <string id="str_tor_ability_effect_type_summoning" text="Заклік"/>
+  <string id="str_tor_ability_effect_type_bombardment" text="Бамбардаваньне"/>
+  <string id="str_tor_ability_effect_type_blast" text="Выбух"/>
+  <string id="str_tor_ability_effect_type_artillery_placement" text="Разьмяшчэньне Артылерыі"/>
+  <string id="str_tor_ability_effect_type_time_warp" text="Выкрыўленьне Часу"/>
+  <string id="str_tor_ability_effect_type_career_ability" text="Кар'ерная Здольнасьць"/>
+  <string id="str_tor_ability_effect_type_tactical_reposition" text="Тактычнае Перамяшчэньне"/>
+  <string id="str_tor_spellbook_hero_name" text="Імя героя: "/>
+  <string id="str_tor_spellbook_casting_level" text="Ровень чараваньня заклёна: "/>
+  <string id="str_tor_spellbook_max_wom" text="Максімум Вятроў Магіі: "/>
+  <string id="str_tor_spellbook_current_wom" text="Вятроў Магіі Цяпер: "/>
+  <string id="str_tor_spellbook_wom_recharge" text="Хуткасьць аднаўленьня Вятроў Магіі: "/>
+  <string id="str_tor_spellbook_recharge_rate" text="{RATE}{ICON}/ гадзін"/>
+  <string id="str_tor_spellbook_known_lores" text="Вядомыя Школы Магіі: "/>
+  <string id="str_tor_prayerbook_devoted_to" text="Ушаноўвае: "/>
+  <string id="str_tor_prayerbook_prayer_level" text="Ровень малітвы: "/>
+  <string id="str_tor_forest_harmony_level_harmony" text="Гармонія"/>
+  <string id="str_tor_forest_harmony_level_bound" text="Злучанасьць"/>
+  <string id="str_tor_forest_harmony_level_unbound" text="Раз'яднанасьць"/>
+  <string id="str_tor_ui_artillery_title" text="Артылерыя"/>
+  <string id="str_tor_ui_artillery_amount" text="Колькасьць Артылерыі ў Інвентары:"/>
+  <string id="str_tor_ui_artillery_max_deployable" text="Максімум Артылерыі Льга Разгарнуць:"/>
+  <string id="str_tor_ui_blessing_title" text="Бласлаўленьне: "/>
+  <string id="str_tor_ui_blessing_duration" text="Працягласьць:"/>
+  <string id="str_tor_ui_blessing_effect" text="Эфект:"/>
+  <string id="str_tor_ui_devotion" text="Ушанаваньне"/>
+  <string id="str_tor_ui_no_devotion" text="Няма Ушанаваньня"/>
+  <string id="str_tor_ui_active_blessing" text="Актыўнае Бласлаўленьне"/>
+  <string id="str_tor_ui_no_blessing" text="Няма актыўнага бласлаўленьня"/>
+  <string id="str_tor_ui_winds_of_magic_title" text="Вятры Магіі"/>
+  <string id="str_tor_ui_winds_of_magic_maximum" text="Максімум:"/>
+  <string id="str_tor_ui_winds_of_magic_recharge_rate" text="Хуткасьць Перазарадкі:"/>
+  <string id="str_tor_menu_enter_game" text="Увайсьці ў Стары Сьвет"/>
+  <string id="str_tor_menu_shader_cache" text="Скампіляваць Кэш Шэйдараў"/>
+  <string id="str_tor_item_hint_use" text="Выкарыстаць Прадмет"/>
+  <string id="str_tor_religion_follower_none" text="Ня з'яўляецца пасьлядоўнікам ніводнай рэлігіі"/>
+  <string id="str_tor_bloodkiss_player_notification" text="Гулец атрымаў Крывавы Пацалунак."/>
+  <string id="str_tor_ink_end" text="Канец"/>
+  <string id="str_tor_ink_continue" text="Працягнуць"/>
+  <string id="str_tor_brawl_cannot_leave" text="Вы ня можаце сысьці, пакуль ня скончыце бойку."/>
+  <string id="str_tor_quest_fight_cannot_leave" text="Вы ня можаце сысьці, пакуль ня скончыце квеставы сцэнар."/>
+  <string id="str_tor_joust_dismount" text="Вы мусіце спешыцца, каб працягнуць бой пешшу."/>
+  <string id="str_tor_chaos_rebellion_text" text="Скверна Хаосу дасягае крытычнай мяжы ў {SETTLEMENT_NAME}, і выбухае паўстаньне."/>
+  <string id="str_tor_stealth_attack_text" text="Падступная Атака!"/>
+  <string id="str_tor_quest_specialize_lore_title" text="Практыкаваць Чараваньне"/>
+  <string id="str_tor_quest_engineer_cultists_skip" text="Твая тутэйшая перамога нікчэмная... ты ніколі ня знойдзеш, забранае..."/>
+  <string id="str_tor_quest_engineer_skip" text="Ты нават уяўленьня ня маеш, у што ўмешваешся..."/>
+  <string id="str_tor_quest_hunt_cultist_issue_brief" text="Шчыра кажучы, я маю зачэпку адносна магчымага культыста. Цяжкае абвінавачваньне, якое патрабуе расьсьледаваньня."/>
+  <string id="str_tor_quest_hunt_cultist_issue_accept_player" text="Што трэба зрабіць?"/>
+  <string id="str_tor_quest_hunt_cultist_issue_explanation" text="Трэба, каб ты {?PLAYER.GENDER}выправілася{?}выправіўся{\?} ў {TARGET_SETTLEMENT}. Выведай настроі мясцовых і выкарані ўсіх культыстаў. Папасьпяховым завяршэньні ордэн выплаціць табе {REWARD}{GOLD_ICON}."/>
+  <string id="str_tor_quest_hunt_cultist_accept_player" text="Лічы, што зроблена."/>
   <string id="str_tor_quest_hunt_cultist_issue_title" text="A cultist in our midst"/>
   <string id="str_tor_quest_hunt_cultist_description" text="Travel to {TARGET_SETTLEMENT} and root out any cultist who may be hiding there."/>
   <string id="str_tor_quest_hunt_cultist_quest_title" text="A cultist in our midst"/>
