@@ -194,7 +194,7 @@
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            Маг з вашай партыі заклікае Вецер Гайрана на дапамогу вашым людзям у пошуках. #STR_ForageLoreOfLife1
+                            Маг з вашай партыі заклікае Вецер Гірана на дапамогу вашым людзям у пошуках. #STR_ForageLoreOfLife1
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR

@@ -207,7 +207,7 @@
                 //Bonus Attempts from Lore of Beasts
                     {LoreOfBeastsInParty:
                         -true: 
-                            Маг з вашай партыі заклікае Вецер Гайрана на дапамогу вашым людзям у пошуках (+1 спроба). #STR_Hunt_LoreOFBeastInParty
+                            Маг з вашай партыі заклікае Вецер Гірана на дапамогу вашым людзям у пошуках (+1 спроба). #STR_Hunt_LoreOFBeastInParty
                             ~ HuntLoops = HuntLoops + 1
                         -false:
                         -else: ERROR
