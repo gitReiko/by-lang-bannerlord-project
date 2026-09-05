@@ -20,6 +20,8 @@ Read `пераклады/Belarusian.Core/пераклад/тэрміны.txt` fo
 
 When relevant, inspect other project-specific naming resources such as `уласныя імёны.txt`, `імёны.txt`, `пераклад назваў.txt`, and `запазычанні.txt`. Interpret glossary lists as possible inflections or contextual variants, not automatic byte-for-byte replacements.
 
+Translate `troop` as `ваяр` (plural `troops` as `ваяры`, inflected as needed) in general contexts, including skill and perk descriptions, interface text, and other ordinary references to troops. In proper names of troop types or individual troops, a different translation is allowed when it fits the name, context, and established project terminology; do not mechanically replace such names with `ваяр`.
+
 ## Check high-risk invariants first
 
 Report concrete file paths and stable IDs for findings. Check:
