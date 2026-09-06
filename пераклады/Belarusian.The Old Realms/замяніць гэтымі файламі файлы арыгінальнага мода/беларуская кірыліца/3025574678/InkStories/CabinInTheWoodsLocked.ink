@@ -143,12 +143,12 @@ INCLUDE include.ink
     //Blow up the door (Spellcraft)
         *{PartyCanCastSpell == true}[Падарваць дзьверы {PartySpellcraftCheckText}]
             Лепшы заклінальнік вашай партыі спрабуе падарваць дзьверы магіяй.
-            {PartySpellcraftCheckTest: Ваша партыя зрывае дзьверы з петляў. ->Inside |Ваша партыя не змагла падарваць дзьверы. ->Approach.choice1}
+            {PartySpellcraftCheckTest: Ваша партыя зрывае дзьверы зь петляў. ->Inside |Ваша партыя не змагла падарваць дзьверы. ->Approach.choice1}
             
     //Break down the door (Vigor)
         *[Выламаць дзьверы {PartyVigorCheckText}]
             Мацнейшы чалец вашай партыі спрабуе выламаць дзьверы.
-            {PartyVigorCheckTest: Ваша партыя зрывае дзьверы з петляў. ->Inside |Ваша партыя не змагла выламаць дзьверы. ->Approach.choice1}
+            {PartyVigorCheckTest: Ваша партыя зрывае дзьверы зь петляў. ->Inside |Ваша партыя не змагла выламаць дзьверы. ->Approach.choice1}
 
     *[Працягнуць сваё падарожжа (Сысьці)]Вы вырашылі, што пакуль лепей працягнуць сваё падарожжа.->END
 
