@@ -1,5 +1,5 @@
 //Global story tags
-# title: Cabin In The Woods
+# title: Chałupa ŭ lesie
 # frequency: Common
 # development: false
 # illustration: roadpoint2
@@ -58,11 +58,11 @@ INCLUDE include.ink
     VAR LockText = ""
         {
             - LockQuality == 1:
-                ~ LockText = "weak"
+                ~ LockText = "słaby"
             - LockQuality == 2:
-                ~ LockText = "average"
+                ~ LockText = "siaredniaj tryvałaści"
             - LockQuality == 3:
-                ~ LockText = "strong"
+                ~ LockText = "mocny"
         }
         
     ~ SetTextVariable("LockText",LockQuality)
@@ -76,11 +76,11 @@ INCLUDE include.ink
     VAR DoorText = ""
         {
             - DoorQuality == 1:
-                ~ DoorText = "weak"
+                ~ DoorText = "słabyja"
             - DoorQuality == 2:
-                ~ DoorText = "average"
+                ~ DoorText = "siaredniaj tryvałaści"
             - DoorQuality == 3:
-                ~ DoorText = "strong"
+                ~ DoorText = "mocnyja"
         }
 
     ~ SetTextVariable("DoorText",DoorQuality)
@@ -91,11 +91,11 @@ INCLUDE include.ink
         VAR RewardText = ""
             {
                 - RewardRoll == 0:
-                    ~ RewardText = "5 grain"
+                    ~ RewardText = "5 mier zbožža"
                 - RewardRoll == 1:
-                    ~ RewardText = "2 steel ingots"
+                    ~ RewardText = "2 stalovyja źlitki"
                 - RewardRoll == 2:
-                    ~ RewardText = "500 gold"
+                    ~ RewardText = "500 załatych"
             }
             
     ~ SetTextVariable("RewardText",RewardRoll)
@@ -117,50 +117,50 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    As your party is travelling along you come across a cabin in the woods. #STR_Start1
+    Padčas padarožža vašaja partyja traplaje na chałupu ŭ lesie. #STR_Start1
     
-    *[Approach the cabin]->Approach
-    *[Go on your way (Leave)]You decide it is better to move on for now.->END
+    *[Padyści da chałupy]->Approach
+    *[Rušyć dalej (Syści)]Vy vyrašajecie, što pakul lepiej rušyć dalej.->END
     
 ===Approach===
 
-As you approach the cabin you can see that it is heavily boarded up. The only door on the cabin seems to be locked tight. As you examine the door you see that the door is {DoorText} and that the lock on it is {LockText}. #STR_Approach1
+Padyšoŭšy da chałupy, vy bačycie, što jana nahłucha zabitaja doškami. Adzinyja dźviery, zdajecca, mocna zamknionyja. Ahledzieŭšy ich, vy zaŭvažajecie, što dźviery {DoorText}, a zamok na ich {LockText}. #STR_Approach1
 ->choice1  
 
     =choice1
-    What will your party do?
-    *[Knock on the door]You knock but no one answers.->Approach.choice1
+    Što zrobić vašaja partyja?
+    *[Pahrukać u dźviery]Vy stukajecie, ale nichto nie adkazvaje.->Approach.choice1
     
     //Pick the lock (Roguery)
-        *[Pick the lock on the door {PartyRogueryCheckText}]
-            Your party's best "rogue" attempts to pick the lock.
-            {PartyRogueryCheckTest: Your party succeeds in getting through the lock. ->Inside | Your party fails to pick the lock. ->Approach.choice1}
+        *[Adamknuć zamok admyčkaj {PartyRogueryCheckText}]
+            Najlepšy «złodziej» vašaj partyi sprabuje adamknuć zamok.
+            {PartyRogueryCheckTest: Vašaj partyi ŭdajecca adamknuć zamok. ->Inside | Vašaj partyi nie ŭdajecca adamknuć zamok. ->Approach.choice1}
         
     //Disassemble the Lock (Engineering)
-        *[Disassemble the lock {PartyEngineeringCheckText}]
-            Your party's best engineer attempts to disassemble the lock.
-            {PartyEngineeringCheckTest: Using a selection of their finest tools including screwdrivers, chisels, and a sledgehammer; your engineer masterfully disassembles the lock, so "thorough" is the disassembly that the lock will never be put back together. ->Inside | Your party fails to disassemble the lock. ->Approach.choice1}
+        *[Razabrać zamok {PartyEngineeringCheckText}]
+            Najlepšy inžyner vašaj partyi sprabuje razabrać zamok.
+            {PartyEngineeringCheckTest: Uzbroiŭšysia najlepšymi pryładami, siarod jakich adviortki, dołaty j kuvałda, vaš inžyner majsterska raźbiraje zamok — dy tak «hruntoŭna», što sabrać jaho nanoŭ užo nikoli nia ŭdasca. ->Inside | Vašaj partyi nie ŭdajecca razabrać zamok. ->Approach.choice1}
     
     //Blow up the door (Spellcraft)
-        *{PartyCanCastSpell == true}[Blow up the door {PartySpellcraftCheckText}]
-            Your party's best mage attempts to blow up the door with magic.
-            {PartySpellcraftCheckTest: Your party blows the door clean off its hinges. ->Inside |Your party fails to blow up the door. ->Approach.choice1}
+        *{PartyCanCastSpell == true}[Uzarvać dźviery {PartySpellcraftCheckText}]
+            Najlepšy mah vašaj partyi sprabuje ŭzarvać dźviery čarami.
+            {PartySpellcraftCheckTest: Vašaja partyja vybucham zryvaje dźviery z zaviesaŭ. ->Inside |Vašaj partyi nie ŭdajecca ŭzarvać dźviery. ->Approach.choice1}
             
     //Break down the door (Vigor)
-        *[Break down the door {PartyVigorCheckText}]
-            Your party's strongest member attempts to break down the door.
-            {PartyVigorCheckTest: Your party bashes the door clean off its hinges. ->Inside |Your party fails to break down the door. ->Approach.choice1}
+        *[Vyłamać dźviery {PartyVigorCheckText}]
+            Najdužejšy ŭdzielnik vašaj partyi sprabuje vyłamać dźviery.
+            {PartyVigorCheckTest: Vašaja partyja ŭdarami zryvaje dźviery z zaviesaŭ. ->Inside |Vašaj partyi nie ŭdajecca vyłamać dźviery. ->Approach.choice1}
 
-    *[Go on your way (Leave)]You decide it is better to move on for now.->END
+    *[Rušyć dalej (Syści)]Vy vyrašajecie, što pakul lepiej rušyć dalej.->END
 
 ===Inside===
 
-Your party gets inside the cabin and find that someone or something has stored some supplies here. #STR_Inside1
+Vašaja partyja traplaje ŭ chałupinu j vyjaŭlaje, što niechta ci niešta pakinuła tut zapasy. #STR_Inside1
 ->choice2 
 
     =choice2
-        *[Take the supplies ({RewardText})]
-            You take the {RewardText} and add it to your supplies before continuing on your way.
+        *[Zabrać zapasy ({RewardText})]
+            Vy zabirajecie {RewardText}, dadajacie zdabyču da svaich zapasaŭ i rušycie dalej.
             {RewardRoll:
                 -0: 
                     ~ GiveItem("grain",5)
@@ -171,4 +171,4 @@ Your party gets inside the cabin and find that someone or something has stored s
             }
             ->END
         
-        *[Leave]You decide to leave the supplies and head on your way.->END
+        *[Syści]Vy vyrašajecie pakinuć zapasy j rušyć dalej.->END

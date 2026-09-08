@@ -1,5 +1,5 @@
 //Global story tags
-# title: Blessings of Men
+# title: Błasłaŭleńni ludziej
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -9,15 +9,15 @@ INCLUDE include.ink
 ->START
 
 ===START===
-To start, you need to find holy tomes describing individual rites and blessings. These can be purchased from priests across the land. However, it is likely one might encounter lost knowledge when clearing dangerous threats, vaults, and lairs found on the continent.
-Afterwards you can learn blessings from the acquired books. Of course, your faith or your companions dictate what blessings you can learn; for instance, priests of Sigmar or wolf-priests can only invoke the powers of their respective deities.
-Once learned, you can either speak to different priests or head to the artisan district in any town. There, you can apply your blessing to an item of your choosing. This action, however, requires you to possess certain unique materials…
+Spačatku treba znajści śviatyja falijanty z apisańniami asobnych abradaŭ i błasłaŭleńniaŭ. Ich lha nabyć u śviataroŭ pa ŭsim krai. Adnak zabytyja viedy mohuć trapicca vam i padčas zmahańnia ź niebiaśpiečnymi pahrozami, daśledavańnia schoviščaŭ dy łohavaŭ na kantynencie.
+Paśla hetaha vy zmožacie vyvučyć błasłaŭleńni z nabytych knih. Zrazumieła, dastupnyja vam błasłaŭleńni zaležać ad vašaj viery ci viery vašych kampańjonaŭ: naprykład, śviatary Sihmara j vaŭki-śviatary mohuć zaklikać tolki siły svaich bostvaŭ.
+Vyvučyŭšy błasłaŭleńni, źviarniciesia da śviataroŭ abo nakirujciesia ŭ ramieśnicki kvartał luboha horadu. Tam vy zmožacie nakłaści błasłaŭleńnie na abrany pradmiet. Adnak dla hetaha spatrebiacca peŭnyja ŭnikalnyja materyjały…
 
-Onto the materials with magical properties:
-Arcane Scrolls might be found amidst the loot of the cultists of darkness. Those who use magic may also have it in their possession.
-Amber Crystals are said to originate from the magical forest of Athel Loren. Those that lurk amidst the forests of the Elves, the strange folk and stranger beasts that roam under the trees, are bound to have Amber.
-When it comes to Blessed Water you can always go to the many shrines of man to acquire some, but travellers report that bandits and thieves across Bretonnia and the forests of Laurelorn may also carry such items.
-Marvelous Gemstones are treasures of Dwarfs. However, one might also suspect the foul Greenskins to carry Gemstones looted in their battles against the mountain folk. As a useful tool, those who use magic often carry Gemstones as well.
-Few in life come across such potent a substance as Dragon Blood… Perhaps those of the highest military ranking, valiant commanders and lords, or those who have reached the pinnacle of knighthood may have such a rare ingredient.
-As for the accursed Warpstone, the vilest substance of all, it is crucial to remember many civilized nations find this material highly illegal. You would need to fight at the very gates of Chaos or slay their fiendish cultists to acquire it. If one is particularly daring, then the blasted lands of Sylvania are rife with the foul stuff. But travellers be warned: In the lands perpetually shrouded in gloom and mist, the dead are more common than the living at times.
+Ciapier pra materyjały z mahičnymi ŭłaścivaściami:
+Arkannyja skrutki lha znajści siarod zdabyčy kultystaŭ ciemry. Jany taksama mohuć być u tych, chto karystajecca mahijaj.
+Kažuć, burštynavyja kryštali pachodziać z čaroŭnaha lesu Atel Łoren. U tych, chto chavajecca ŭ Elfijskich lasach, u dziŭnaha ludu j jašče dziŭniejšych źviaroŭ, što błukajuć pad šatami, napeŭna znojdziecca burštyn.
+Pa błasłaŭlonuju vadu zaŭsiody možna źviarnucca ŭ šmatlikija ludzkija kapiščy, ale vandroŭniki kažuć, što bandyty j złodziei Bretonii dy lasoŭ Łaŭrełornu taksama mohuć mieć jaje pry sabie.
+Cudoŭnyja kaštoŭnyja kamiani — skarby dvarfaŭ. Adnak možna mierkavać, što ahidnyja zialonaskuryja taksama nosiać kaštoŭnyja kamiani, narabavanyja ŭ bitvach z hornym narodam. Jany karysnyja j dla čaravańnia, tamu tyja, chto karystajecca mahijaj, časta majuć ich pry sabie.
+Mała kamu ŭ žyćci traplajecca takoje mocnaje rečyva, jak drakonavaja kroŭ… Mahčyma, hety redki składnik jość u najvyšejšych vajskovych čynoŭ, doblesnych vajavodaŭ i šlachcičaŭ ci tych, chto dasiahnuŭ viaršyniaŭ rycarstva.
+Što da praklataha varp-kamieniu, najahidniejšaha z usich rečyvaŭ, dyk treba pamiatać: u mnohich cyvilizavanych krainach hety materyjał stroha zabaronieny. Kab zdabyć jaho, daviadziecca bicca la samych bramaŭ Chaosu abo zabivać jahonych piakielnych kultystaŭ. Asabliva śmiełyja znojduć dosyć hetaj brydoty na spustošanych ziemlach Sylvanii. Ale, vandroŭniki, ścieražyciesia: u krai, viečna achutanym zmrokam i tumanam, miortvych časam bolej, čym žyvych.
     -> END
