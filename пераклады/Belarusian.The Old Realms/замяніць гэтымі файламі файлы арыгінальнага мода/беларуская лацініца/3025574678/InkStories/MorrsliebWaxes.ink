@@ -1,5 +1,5 @@
 //Global story tags
-# title: Uzychod Ciomnaha Miesiaca
+# title: The Dark Moon Rises
 # frequency: Special
 # development: false
 # illustration: morrslieb_comet
@@ -38,11 +38,37 @@
 
 ===Start===
 {ResetRaiderSites()}
-Na haryzoncie zjaviłasia vanitoŭnaje zialonaje śviačeńnie - heta ŭzyšoŭ Ciomny Miesiac Morrśliba. Jaho kplivaja najaŭnaść zapaŭniaje nieba, robić jaho ŭsio jarčej i jarčej, dy abmyvaje śviet svaim niačystym, sapsavanym śviatłom. Pa ŭsioj ziamli ciomnaja mahija pačynaje nazapašvacca ŭ miescach, kudy nie advažvajucca stupać razvažnyja ludzi, i vyklikaje niaŭstojlivaść Vietru Mahii. #STR_START1
-Prychilniki ciemry vykarystoŭvajuć hetuju noč dziela ažyćciaŭleńnia svaich vyčvarnych płanaŭ i zadum. Źvieraludzi źbirajucca z vyćciom i pieśniaśpievami, kultysty ładziać raznastajnyja bluźnierskija abrady, a demany pačynajuć błukać pa materyjalnym śviecie i vysočvać zdabyču. #STR_START2
-Kali chtości advažycca pahladzieć prama na miesiac, to zmoža paklaścisia, što miesiac ŭśmichajecca złaviesnaj uchmyłkaj žachu, jaki jon niasie ŭ śviet. Adnak kali praciahnuć nazirać za miesiacam, to lha pabačyć, jak hetaja ŭśmieška źnikaje, pieratvarajučysia ŭ amal złosny chmurny pohlad, kali miesiac vyjaŭlaje, što jon bolš nie adziny na niebie. #STR_START3
-Dźvuchchvostaja kamieta jarka haryć u niebie, niby kidajučy vyklik Morrślibu. Adkidvaje svajo śviatło na ciomny miesiac, i, zdajecca, pryhłušaje efiekt chaatyčnaha źziańnia Morrśliba, kali ichnija šlachi pierasiakajucca ŭ niebie. #STR_START4
-Sa skančeńniem nočy abodva niabiesnyja cieły chavajucca za haryzontam, i pačynajecca nastupny dzień. #STR_START5
-Statkavyja Kamiani zasieleny nanoŭ; Partały Chaosu znoŭ adkrylisia. #STR_START6
+A sickly green glow comes over the horizon, Morrslieb the Dark Moon is rising. Its mocking presence fills the sky, growing brighter as it bathes the world in its foul, tainted light., All across the land, dark magic begins to pool in places no sane man would dare to tread, causing the Winds of Magic to become erratic. #STR_START1
+The worshippers of darkness will seize upon this night to advance their twisted schemes and agendas. Beastmen gather howling and chanting, cultists undertake all manner of blasphemous ceremonies, and daemons start to walk the material plane stalking for prey. #STR_START2
+If one was to dare look directly at the moon they could swear it was smiling, smirking ominously at the terror it was to bring upon the world. However, if those who had looked upon it kept watching they would have seen this smile fade, turning into an almost angry frown as the moon found itself no longer alone in the sky. #STR_START3
+The Twin Tailed Comet burned bright across the heavens, almost as if to challenge Morrslieb. Casting its own light upon the dark moon as their paths crossed in the sky, the comet seemed to dampen the effect of Morrslieb's chaotic glow. #STR_START4
+As the night wore on, both of the celestial bodies would find their way over the horizon, and the next day would begin. #STR_START5
+Herdstones have been repopulated and Chaos Portals have reopened. #STR_START6
 
 -> END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

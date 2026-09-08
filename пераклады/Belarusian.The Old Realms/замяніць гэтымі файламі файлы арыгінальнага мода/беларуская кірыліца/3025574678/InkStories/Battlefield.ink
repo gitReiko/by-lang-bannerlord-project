@@ -1,45 +1,45 @@
 -> Start
 
 === Start ===
-Аура зданяў лунае над пустэльным полем бою, дзе адвага Імперыі сутыкнулася зь цёмнай моцай Графаў-Вампіраў. Вы трапляеце на поле бою, дзе зямля ўсеяна рэшткамі вайны - зламанымі лёзамі, разьбітымі шчытамі, палымі целамі салдатаў і нямёртвых жахаў. У паветры пануе цішыня, якую парушаюць толькі далёкі лямант птушак-трупаедаў. Вы ледзь адчываеце цяжар некрамантычнай магіі, якая ганьбе вятры. #STR_Start1
+A haunting aura hangs over the desolate battlefield before you, where the Empire's valor clashed with the dark might of the Vampire Counts. You encounter a battlefield, where the ground is littered with the remnants of war – broken blades, shattered shields, and the fallen bodies of both soldiers and undead horrors. A hush pervades the air, punctuated only by the distant cries of carrion birds. You can faintly feel the weight of necromantic magic tainting the winds. #STR_Start1
 
-Паўшыя ляжаць ува ўрачыстым спакоі, іх жыцьцё і доля назаўжды перапляліся ў трагедыі гэтага месца. Калі вы ступаеце на залітую крывёй зямлю, на вас абвальваецца груз гісторыі і ахвяр. #STR_Start2
+The fallen lie in solemn repose, their lives and fates forever intertwined in the tragedy of this place. As you step onto the blood-soaked earth, the weight of history and sacrifice bears down upon you. #STR_Start2
 
-Якія дзеяньні вы распачнёце ў гэтай кранальнай сцэне? #STR_Start3
+What course of action will you choose amid this poignant scene? #STR_Start3
 
-* [Шукаць выжылых сярод палых.] -> SearchForSurvivors
-* [Ушанаваць палых і працягнуць сваё падарожжа.] -> PayRespects
-* [Сысьці з поля бою і працягнуць свой шлях.] -> ContinueOn
+* [Search for any survivors among the fallen.] -> SearchForSurvivors
+* [Pay your respects to the fallen and continue your journey.] -> PayRespects
+* [Leave the battlefield and continue on your path.] -> ContinueOn
 === SearchForSurvivors ===
-Са зьмешанай надзеяй і дрыжыкамі, вы блукаеце па змрочным малюнку палых салдат и шукаеце хоць-якую іскру жыцьця ў моры сьмерці. Вашая рашучасьць прыводзе вас да параненага салдата, які ледзь дыхае. Апусьціўшыся на калені поруч зь ім, вы прапаноўваеце яму дапамогу, суцяшэньне і пасільна лякуеце яго раны. #STR_SearchForSurvivors1
+With a blend of hope and trepidation, you navigate the grim tableau of fallen soldiers, searching for any spark of life amidst the sea of death. Your determination leads you to a wounded soldier, his breathing labored and weak. Kneeling beside him, you offer aid and solace, tending to his injuries as best you can. #STR_SearchForSurvivors1
 
-Яго вочы адкрываюцца, і ў іх узблісквае падзяка. У ціхіх тонах ён выяўляе сваю падзяку, абяцаючы адплаціць за вашу дабрыню. #STR_SearchForSurvivors2
+His eyes flutter open, and gratitude glimmers within them. In hushed tones, he expresses his thanks, vowing to repay your kindness. #STR_SearchForSurvivors2
 
-* [Суправадзіць выжылага да бясьпечнага месца.] -> HelpButDie
-* [Паспрабаваць вылекаваць салдата магіяй Гірана.] -> UseGhyranMagic
+* [Escort the survivor to safety.] -> HelpButDie
+* [Attempt to heal the soldier with the magic of Ghyran.] -> UseGhyranMagic
 
 === UseGhyranMagic ===
-Вашы чараўнік заклікае да жыватворнай энергіі прыроды праз магію Гірана. Паветра мігоча зялёнай энергіяй, калі чараўнік накіроўвае залён у бок параненага салдата. Раны ваяра пачынаюць загойвацца, подых выраўноўваецца, шчокам вяртаецца колер. #STR_UseGhyranMagic1 
+Harnessing the magic of Ghyran, your wizard calls upon the life-giving energies of nature itself. The air shimmers with verdant energy as the wizard channels the spell, guiding it toward the wounded soldier. The soldier's injuries begin to mend, his breathing steadying and color returning to his cheeks. #STR_UseGhyranMagic1 
 
-Са слабай, але ўдзячнай ухмылкай выжылы вызнае вашае цудоўнае ўмяшаньне. Ён сардэчна дзякуе і клянецца далучыцца да вашых шэрагай. #STR_UseGhyranMagic2
+With a weak but grateful smile, the survivor acknowledges your miraculous intervention. He expresses his heartfelt thanks and vows to join you ranks. #STR_UseGhyranMagic2
 
-* [Прыняць яго падзякі і працягнуць.] -> ContinueOn
+* [Accept his thanks and continue on.] -> ContinueOn
 === HelpButDie ===
-Нягледзячы на ўсе вашыя высілкі, стан салдата хутка пагаршаецца. Абцяжараны подых становіцца ўсё больш рэдкім, погляд страчвае фокус. Насуперак усім вашым шляхетным спробам, жыцьцё салдата высьлізгвае, пакідая пасьля сябе ауру меланхоліі і непахіснае пачуцьцё бескарыснасьці. #STR_HelpButDie1
+Despite your best efforts, the soldier's condition deteriorates rapidly. His labored breaths grow shallower, and his gaze loses focus. Despite your valiant attempts, the soldier's life slips away, leaving behind an aura of melancholy and an unshakable sense of futility. #STR_HelpButDie1
 
-Зь цяжарам на сэрцы, вы схіляеце галаву ў знак пашаны адвазе палага салдата. #STR_HelpButDie2
+With a heavy heart, you bow your head in reverence, honoring the fallen soldier's valiant struggle. #STR_HelpButDie2
 
-* [Ушанаваць палага і працягнуць.] -> ContinueOn
+* [Pay your respects to the fallen and continue.] -> ContinueOn
 === PayRespects ===
-Схіліўшы галаву ў ганарыстам паклоне, вы ўшаноўваеце палых салдатаў, што аддалі сваё жыцьцё на гэтым прывідным полі бою. Пачуцьцё таварыства і агульнай мэты апаноўвае над вашай групай і з'яўляецца яркім напамінам пра бясконцае змаганьне між Моррам і нясьмерцю. #STR_PayRespects1
+Bowing your head in solemn reverence, you offer your respects to the fallen soldiers who laid down their lives on this haunted battlefield. A sense of camaraderie and shared purpose settles over your party, a poignant reminder of the enduring struggle between Morr and undeath. #STR_PayRespects1
 
-Аддаўшы даніну маўчаньня, вы зьбіраецеся зь сіламі і вырашаеце перамагчы цемру, што рухаецца і пагражае гаспадарству. #STR_PayRespects2
+With your silent tribute complete, you gather your resolve, determined to vanquish the looming darkness that threatens the realm. #STR_PayRespects2
 
 -> END
 
 === ContinueOn ===
-Вы надумалі пакінуць поле бою ззаду і працягнуць свой шлях. #STR_ContinueOn1
+You choose to leave the battlefield behind and continue on your journey. #STR_ContinueOn1
 
-Калі вы сыходзіце, краявід нібы выдыхае пануры ўздых, назаўжды застаючыся сьведкам выпрабаваньняў, што ляглі на плечы тых, хто адважыўся супрацьстаяць націску цемры. #STR_ContinueOn2
+As you walk away, the landscape seems to exhale a mournful sigh, forever bearing witness to the trials of those who dared to stand against the tides of darkness. #STR_ContinueOn2
 
 -> END

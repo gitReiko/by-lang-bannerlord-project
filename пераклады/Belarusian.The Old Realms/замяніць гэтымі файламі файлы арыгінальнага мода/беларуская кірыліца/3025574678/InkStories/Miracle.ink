@@ -1,5 +1,5 @@
 //Global story tags
-# title: Цуда Веры
+# title: A miracle of faith
 # frequency: Special
 # development: false
 # illustration: tresure_chest
@@ -11,10 +11,10 @@ INCLUDE include.ink
 
 ===START===
 ~ GiveMiracleItem()
-Вы стаіце ля алтара бога, якому даўно пакланяецеся, і выпрабоўваеце глыбокую пашану і прадбачаньне. У паветры лунае пачуцьцё старажытнай сілы, і вы ня можаце не адчуваць прыліў хваляваньняў. #STR_Start1
-Схіліўшы калені ля алтара, вы заплюшчваеце вочы і прамаўляеце шчырую малітву. Вы расказваеце пра сваю прыхільнасьць і непахісную веру. Словы зьлятаюць з вашых вуснаў, як мелодыя, узносячы вашую адданасьць да нябёсаў. #STR_Start2
-Цёплая і пяшчотная прысутнасьць ахутвае вас, нібы само паветра адказвае на вашую вернасьць. Расплюшчыўшы вочы, вы бачыце, як зьверху спускаецца прамяністае сьвятло, якое ахінае вас сваім незямным зьзяньнем. Сьвятло ператвараецца ў мігатлівую фігуру. #STR_Start3
-Вытанчаным жэстам фігура працягвае да вас руку з раскрытай далоньню. У яе руцэ вы бачыце зіхатлівы артэфакт, які пульсуе - боскі дарунак. #STR_Start4
-Вы выпрабоўваеце пачуцьцё глыбокай пашаны і падзякі, калі працягваеце руку і бераце прадмет з рук фігуры. Ад яе зыходзіць цяпло, што напаўняе вас адчуваньнем сілы і мэты. #STR_Start5
-Калі вы пакідаеце сьвятыню, сьвет вакол здаецца сьвятлей, нібы сама сутнасьць блаславеньня вашага бога асьвятліла вашы шлях. Валодаючы боскім дарункам, вы ўпэўнена крочыце ў будучыню, гатовыя да любых цяжкасьцяў, ведаючы, што вы не самотныя. #STR_Start6
+You stand before the altar of the deity you have long revered, feeling a mix of reverence and anticipation. The air is thick with a sense of ancient power, and you can't help but feel a tinge of excitement. #STR_Start1
+As you kneel before the altar, you close your eyes and utter a heartfelt prayer. You recount your commitment and your unwavering faith. The words flow from your lips like a melody, carrying your devotion to the heavens. #STR_Start2
+A warm and gentle presence envelops you, as if the very air itself is responding to your devotion. You open your eyes to see a radiant light descending from above, bathing you in its ethereal glow. The light forms into a shimmering figure. #STR_Start3
+With a graceful gesture, the figure extends a hand toward you, palm open. In their hand, you see a radiant, pulsating artifact — a divine gift #STR_Start4
+You feel a mixture of awe and gratitude as you reach out and take the item from the figure's hand. Its warmth surges through you, filling you with a sense of empowerment and purpose. #STR_Start5
+As you leave the shrine, the world around you seems brighter, as if the very essence of your deity's blessing has illuminated your path. With the divine gift in your possession, you step into the future with confidence, ready to face whatever challenges may come, knowing that you are not alone. #STR_Start6
 ->END

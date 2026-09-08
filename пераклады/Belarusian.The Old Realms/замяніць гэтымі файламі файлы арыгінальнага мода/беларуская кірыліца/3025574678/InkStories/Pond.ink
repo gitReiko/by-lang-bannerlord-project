@@ -1,5 +1,5 @@
 //Global story tags
-# title: Сажалка
+# title: The Pond
 # frequency: Common
 # development: false
 # illustration: pond
@@ -177,24 +177,24 @@
 
 ===Start===
 
-    Падчас падарожжа вы натыкаецеся на лагодную сцэну, ад якой перахапляе дыханьне. Перад вамі раскінулася цудоўная сажалка, утоеная перліна сярод дзікай прыроды. Вада спакойная і празрыстая, у ёй адлюстроўваецца блакітнае неба. Пышная расліннасьць атачае сажалку, ствараючы атмасферу спакою. #STR_Start1
-    {IsNight(): Срэбная месячнае сьвятло | Залацістае сонечнае сьвятло} прадзіраецца скрозь дрэвы, адкідваючы водбліскі на паверхню вады. У паветры лунае далікатны водар прыроды, які супакойвае стомленыя пачуцьці. Птушкі напяваюць мелодыі і ствараюць лагодную атмасферу. #STR_Start2
+    As your party is traveling you come across a tranquil scene that steals your breath away. Before you stretches a serene pond, a hidden gem amidst the wilderness. The water is calm and clear, reflecting the azure sky above. Lush vegetation surrounds the pond, offering a peaceful sanctuary. #STR_Start1
+    {IsNight(): Silver moonlight | Golden sunlight} filters through the trees, casting a glow on the water's surface. The air carries the gentle scent of nature, a soothing balm for your weary senses. Birds sing melodious tunes, contributing to the serene atmosphere. #STR_Start2
 
-    Пакуль вы стаіце, зачараваныя гэтым гледзішчам, вас даганяюць вашыя людзі. Іх твары, змучаныя стомленасьцю, азараюцца зьдзіўленьнем і палёгкай. Нават зазвычай стрыманы чалец вашай групы здолеў усьміхнуцца. #STR_Start3
-
-    Памагаты паклаў на вашае плячо руку, у яго голасе прагучала рэдкая нота лёгкасьці: "Маленькі адпачынак ля сажалкі. Што скажаш?". #STR_Start4
+    As you stand there, captivated by the sight, your men catch up to you. Their faces, etched with exhaustion, light up with wonder and relief. Even the typically reserved member of your group manages a small smile. #STR_Start3
+    
+    Your second places a hand on your shoulder, their voice carrying a rare note of lightness. "A moment of respite by the pond. What do you say?" #STR_Start4
         ->choice1
         
     =choice1
-        Што будзе рабіць вашая партыя? #STR_Start4
-            *[Нарыхтоўваць дзікія расьліны (Шматлікія спробы з {LoreOfLifeInParty: 50% шанцам (Палепшана Ведамі Жыцьця)| 25% шанцам} пасьпяховага збору розных дзікіх расьлін)] 
+        What will you have your party do? #STR_Start4 
+            *[Forage for wild plants (Multiple attempts at {LoreOfLifeInParty: 50% chance (Improved by Lore of Life)| 25% chance} to succeed at harvesting various wild plants)] 
                 
-                Вы загадалі сваёй партыі зьбіраць дзікія расьліны. #STR_Forage1
+                You order your party to forage for wild plants. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            Маг з вашай партыі заклікае Вецер Гірана на дапамогу вашым людзям у пошуках. #STR_ForageLoreOfLife1
+                            A mage in your party calls upon the Wind of Ghyran to aid your men in their search. #STR_ForageLoreOfLife1
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR
@@ -202,28 +202,30 @@
                     
                 ->ForageLoop
 
-            *[Лавіць рыбу (Шматлікія спробы злавіць рыбу (50% шанец посьпеху))] 
+            *[Fish (Multiple chances to get Fish (50% success chance))] 
             
-            Вы загадалі сваім людзям рыбачыць. #STR_Fish1
+            You have your men go fishing. #STR_Fish1
                 
                 ->FishLoop
                 
-            *[Адпачываць (Усе кампаньёны і параненыя ваяры вылечваюцца {PartyMedicineCheckText})]
+            *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
                 
-                Вы намагаецеся даць сваім людзям адпачыць, спадзяючыся, што кароткі перадых дапаможа ім ачуняць. #STR_Rest1
+                You try to give your men a break hoping that the brief respite will help them get better. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
-                        Вашая партыя скарысталася адпачынкам, каб паклапаціцца пра раненых. #STR_RestMedicineSuccess
+                        Your party takes advantage of the break to take care of the wounded. #STR_RestMedicineSuccess
                         ~ HealPartyToFull()
                     -false:
-                        У той момант, калі ваяры пачынаюць даглядаць за параненымі, зямля пад нагамі раптам уздрыгвае, і паветра напаўняецца рыкам. У сажалку абрушваецца вал зямлі і камянёў, што ўтварыўся ў выніку апоўзня на беразе. Вада ўздымаецца і паглынае частку размытай ёю зямлі. #STR_RestMedicineFail
+                    Just as the men start to tend to the wounded, the ground suddenly shakes beneath you, and a roar fills the air. A cascade of earth and rocks crashes into the pond, caused by a landslide along the shore. The water churns, swallowing a part of the land it had eroded over time. #STR_RestMedicineFail
                     -else: "ERROR"
                 }
                 
+               
+                
                 ->Leave
                 
-            *[Пакінуць] Вы вырашаеце, што вашая партыя ня мае часу на адпачынак, і неадкладна рушыце ў шлях.->END
+            *[Leave] You decide your party has no time to rest and set out immediately.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -248,9 +250,9 @@
             
             {RewardRoll:
                 -0:
-                    Нарыхтоўля не прынясла вынікаў, вашыя людзі вярнуліся з пустымі рукамі.
+                    Foraging yields no results, your men return empty handed.
                 -1:
-                    Вашыя людзі знайшлі дзікі рыс (+1 Зерне).
+                    Your men find some wild rice. (+1 Grain)
                     ~ GiveItem("grain",1)
             }
             
@@ -275,10 +277,10 @@
         //Reward
             {
                 - AttemptSuccessful == true:
-                    Вашыя людзі злавілі рыбу (+1 Рыба).
+                    Your men catch some fish (+1 Fish).
                     ~ GiveItem("fish",1)
                 - AttemptSuccessful == false:
-                    Вашыя людзям не пашчасьціла злавіць рыбу.
+                     Your men catch nothing.
                 -else: ERROR
             }
                     
@@ -288,7 +290,7 @@
     ->END
     
 ===Leave===
-    Прабавячы час у сажалкі, вы вырашаеце рушыць у дарогу.
+    Having spent your time by the pond you decide to head off.
 
     ~ MakePartyDisorganized()
     

@@ -31,7 +31,7 @@ VAR RaiseDeadSkillCheckTest = false
 ===START===
 At the end of the days march, your men are setting up camp. You know sunset will come soon, and these lands are dangerous, especially at night. #STR_Start1
 Suddenly, one of your men shouts a warning. Glancing up, you see a local villager approaching. He appears to be unarmed. #illustration: stranger #STR_Start2
-The man explains that a recently arrived necromancer has started raising the dead from the village cemetery. Although the village is quite poor, he says they will pay a modest reward to anyone who slays the necromancer. #STR_Start3 
+The man explains that a recently arrived necromancer has started raising the dead from the village cemetery. Although the villager is quite poor, he says they will pay a modest reward to anyone who slays the necromancer. #STR_Start3 
 -> choices
 
     =choices

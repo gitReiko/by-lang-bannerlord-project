@@ -1,5 +1,5 @@
 //Global story tags
-# title: Vioska, Paražanaja Čumoj
+# title: The plague ridden village
 # frequency: Special
 # development: false
 # illustration: village
@@ -21,144 +21,142 @@ VAR MadeDealWithCultists = false
 
 
 ===START===
-Vy pakidajecie svaju partyju ŭ łahiery na ŭskrainie vioski i vyrašajecie ŭvajści ŭ jaje ŭ adzinotku, nadzieŭšy prostuju vopratku, kab nie pryciahvać uvahi. Jak tolki vy ŭvachodźcie ŭ viosku, na vas abvalvajecca drenny pach. U pavietry visić ciažki pach raskładańnia, źmiašany z nudnym pacham rospačy. Vuzkija pustečnyja vułački prachodziać praz paŭrazburanyja budynki, fasady jakich znasilisia i patrapalisia ad času i zapuścieńnia. Žychary vioski, niekali enierhičnyja i žyćciaradasnyja, zaraz chodziać pa vułačkach, niby zdani, ich žyćciovyja siły zhasajuć pad biaźlitasnym naporam nieviadomaj čumy.
+You leave your party camped at the edge of the village and decide to enter alone, wearing simple commoner's clothes to avoid attention. As you step into the village, a foul stench assaults your senses. The air hangs heavy with the scent of decay, mingled with the lingering odor of despair. Narrow, deserted streets wind through dilapidated buildings, their facades worn and battered by time and neglect. The villagers, once vibrant and lively, now shuffle along like haunted specters, their vitality snuffed out by the merciless grip of an unkown plague.
 
-Chvaravitaja imhła achutvaje viosku, nadajučy blednaść usiamu, čaho jana datykajecca. Dźviery rypajuć na iržavych pietlach, jarkija kolery piaciel pablakli i abłupilisia. Začynienyja vokny vydajuć panujučy ŭnutry strach, niby žychary vioski zamknulisia na zamok. To tut, to tam mihatlivyja lichtary kidajuć słaboje śviatło na nadrapanyja na ścienach rospačnyja abiarehi - hrubyja abiarehi, vyhraviravanyja kryvioju i popiełam, daremnyja sproby zaścierahčysia ad chvaroby.
+A sickly haze blankets the village, casting a pallor upon everything it touches. Doors creak on rusty hinges, their once vibrant colors faded and peeling. Shuttered windows betray the fear that resides within, as if the villagers have locked themselves away. Here and there, flickering lanterns cast feeble light upon desperate symbols of protection scrawled on walls - crude sigils etched in blood and ash, futile attempts to ward off the contagion.
 
-Siarod zapuścieńnia niekalki čałaviek supraćstajać niaŭmolnamu naporu chvaroby. Jany ruchajucca metliva, u ich vačach milhaje tryvałaść. Ludzi, jakim paščaściła vyžyć, kidajuć naściarožanyja pohlady, ichnija cieły nie kranuła chvaroba, što paraziła ich susiedziaŭ. Ichniaje isnavańnie, jak krochkich vuholčykaŭ siarod ciemry, što nasoŭvajecca, namiakaje na toje, što vioska dahetul maje nadzieju. -> choices
+Amidst the desolation, a few figures defy the relentless onslaught of the disease. They move with purpose, their eyes harboring a flicker of resilience. These survivors cast wary glances, their bodies untouched by the affliction that has ravaged their neighbors. Their existence, like fragile embers amidst the encroaching darkness, hints at a lingering hope for the village. -> choices
 
     =choices
-    *[Źviarnucca za infarmacyjaj da viaskoŭcaŭ.] -> QuestionVillagers
-    *[Pašpacyryć pa vioskie, aściarožna ahladaja znaki.] -> ObserveVillage
-    *{suspicious}{not found_age} [Raspytać navakolnych pra lekara.] -> AskAboutHealer
-    *{found_vial || (found_age && met_healer)}[Trochi adpačyć, kab sabracca z dumkami i praanalizavać atrymanyja vyniki.] -> GatherThoughts
+    *[Seek information from the villagers.] -> QuestionVillagers
+    *[Walk around the village carefully observing the sights.] -> ObserveVillage
+    *{suspicious}{not found_age} [Ask around about the healer.] -> AskAboutHealer
+    *{found_vial || (found_age && met_healer)}[Take a moment to gather your thoughts and go over your findings.] -> GatherThoughts
 
 
 ===QuestionVillagers===
-Kali vy padychodzicie da samotnaj fihury siarod zmardavanych žycharoŭ vioski, u jaje vačach milhaje iskra tryvałaści. 
-Zaintryhavanyja, vy zadajecie pytańnie, jakoje nie daje vam spakoju, pytajecie pra čumu. 
-Sa stomlenym vyrazam tvaru viaskoviec adkazvaje cichim hołasam: "Čuma... jana pieraśleduje nas užo niekalki miesiacaŭ. Stolki žyćciaŭ zahublena, stolki pakut pieražyta". Jaho hołas niasie ŭ sabie ciažar asabistaha dośviedu, adlustroŭvajučy supalnuju pakutu, što prajmaje pavietra.
-Jon žestam pakazvaje na žyllo viaskovaha lekara, adznačajučy jaho niepachisnuju addanaść pierad tvaram rospačy, i kaža: "Šukajcie lekara. Jon staŭ našym majakom nadziei, niastomna zmahajučysia z hetaj niepieraadolnaj chvarobaj". ->choices 
+As you approach a lone figure among the weary villagers, their eyes glimmer with a spark of resilience. Intrigued, you pose the question that weighs heavily on your mind, asking about the plague. 
+With a wearied expression, the villager responds in a hushed voice, "The plague... it has been haunting us for months now. So many lives lost, so much suffering endured." Their voice carries the weight of their personal experience, reflecting the collective anguish that permeates the air. 
+They gesture towards the dwelling of the village healer, acknowledging their unwavering dedication in the face of despair, and say, "Seek the healer. They have become our beacon of hope, tirelessly fighting against this unyielding affliction." ->choices 
 
     =choices
-    *{not met_healer}[Prysłuchacca da rady i znajści viaskovaha lekara.] -> AtTheHealers
-    *{met_healer}[Viarnucca da žylla lekara ŭ nadziei znajści jaho ŭ hety raz.] -> AtTheHealers
+    *{not met_healer}[Heed the advice and find the village healer.] -> AtTheHealers
+    *{met_healer}[Go back to the healer's dwelling hoping you will find him there this time.] -> AtTheHealers
 
 ===AskAboutHealer===
-Vy vyrašajecie nieprykmietna raspytać žycharoŭ vioski pra lekara.
-Zaviazvajučy hutarki, vy zaŭvažajecie ahulnuju rysu ŭ ich adkazach - lekar zaŭždy byŭ słupom vioski, hetak doŭha, što inšych słupoŭ, užo nie pamiatajuć. Na jaho dośvied apiralisia mnohimi pakaleńniami, jaho viedy pieradavalisia z pakaleńnia ŭ pakaleńnie.
-"Voch, lekar? Kolki ja siabie pamiataju, jon zaŭždy byŭ z nami" - kaža adzin pažyły žychar vioski, u jaho hołasie adčuvajecca hłybokaja pašana. Jaho mudraść i leki vyratavali nieźličonaje mnostva žyćciaŭ, navat moj dzied źviartaŭsia da jaho za dapamohaj".
-Inšy žychar vioski dadaje: "Tak, ja byŭ jašče dziciom, kali ŭpieršyniu ŭbačyŭ jaho, i heta było šmat dziesiacihodździaŭ tamu. Jon dahetul uvieś čas znachodzicca pobač dy daje suciašeńnie chvorym i nadzieju rospačnym".
-Słovy žycharoŭ vioski zdajucca vam dziŭnymi, bo kali ich apoviedy praŭdzivyja, to lekaru pavinna być bolš za dzievianosta hadoŭ, a kali vy bačyli jaho ŭ apošni raz, jon vyhladaŭ nie starej za piaćdziasiat. Sumnievy zakradajucca ŭ samyja kutki śviadomaści, jak byccam sama realnaść pierakruciłasia ŭ hetaj zabytaj vioscy.
+You decide to discreetly inquire about the healer among the villagers. As you strike up conversations, you notice a common thread in their responses—the healer has been a pillar of the village for as long as anyone can remember. Generations have relied on his expertise, his knowledge passed down from one era to the next.
+"Ah, the healer? He's been with us for as long as I can recall," one elderly villager says, a sense of reverence in his voice. "His wisdom and remedies have saved countless lives, even my grandfather sought his aid."
+Another villager adds, "Yes, I was just a child when I first saw him, and that was many decades ago. He has remained a steady presence, offering comfort to the sick and hope to the desperate."
+The villagers' words strike you as odd, for if their accounts are true, the healer would be over ninety years old, yet the last time you saw him, he appeared no older than fifty. Doubt gnaws at the corners of your mind, as if reality itself has twisted within this forsaken village.
 ~found_age = true
 ->START.choices
 
 ===AtTheHealers===
 ~met_healer=true
-Kali vy ŭvachodzicie ŭ žyllo lekara, pierad vašymi vačami razhortvajecca karcina, jakaja adnačasna začaroŭvaje i naściarožvaje. Pamiaškańnie zapoŭniena pacyjentami, na ich blednych tvarach bačny ślady čumy. Adny lažać na łožkach, kryviačysia ad bolu, inšyja siadziać u kresłach, z nieciarpieńniem čakajučy svajoj čarhi na lačeńnie. 
+As you step into the healer's dwelling, a scene unfolds before your eyes that both captivates and unsettles. The room is filled with patients, their pallid faces marked by the ravages of the plague. Some lay on cots, writhing in pain, while others sit in chairs, waiting anxiously for their turn to receive treatment. 
 
-Lekar saŭhajecca pa pakoi, jaho ruchi hracyjoznyja i metanakiravanyja. Jon pramaŭlaje zaspakajalnyja słovy, jaho dakranańni dalikatnyja i ŭpeŭnienyja. Na palicach uzdoŭž ścien stajać nieźličonyja plašački, słoički i miedyčnyja pryłady. Mihatlivaje śviatło śviečak adkidaje žudasnyja cieni, adkryvajučy pahladu samaaddanaść lekara i pryłady jaho ramiastva.
+The healer moves through the room, their movements graceful yet purposeful. They offer soothing words of comfort, their touch gentle and assured. Shelves lining the walls bear the weight of countless vials, jars, and medical instruments. The flickering candlelight casts eerie shadows, revealing glimpses of the healer's dedication and the tools of their trade.
 
-Siarod mnostva lekavych travaŭ i ziołak vašy pohlad spyniajecca na niečym niezvyčajnym - dziŭnaj sklancy z ciomnaj, hlejkaj vadkaściu, što staić ubaku ad astatnich. -> choices 
+Amidst the array of medicinal herbs and potions, your gaze lands on something seemingly out of place — a curious vial of dark, viscous liquid that stands apart from the rest. -> choices 
 
     =choices
-    *[Ahladzieć cikavuju butelku. {print_player_skill_chance("Medicine", EASYSKILLCHECK)}]
+    *[Examine the curious vial. {print_player_skill_chance("Medicine", EASYSKILLCHECK)}]
         {perform_player_skill_check("Medicine", EASYSKILLCHECK): -> succeed | -> fail}
-    *[Raspytać lekara pra butelku.] -> inquire
-    *{found_vial}[Supraćdziejničać lekaru.] -> ConfrontHealer
-    *{found_vial}[Pakul pakinuć adkryćcio pry sabie i praciahnuć svajo raśśledavańnie.] -> START.choices
-    *[Pakinuć.] -> START.choices
+    *[Ask the healer about the vial.] -> inquire
+    *{found_vial}[Confront the healer.] -> ConfrontHealer
+    *{found_vial}[Decide to keep the discovery for yourself and continue your investigation.] -> START.choices
+    *[Leave.] -> START.choices
 
     =succeed
-    Pa miery narastańnia pačućcia tryvohi, vy ahladajecie butelku, vašaje narychtavanaje voka raspaznaje ŭ jaho źmieścivie rečyva, jakoje nasamreč zjaŭlajecca - padstupnym uzbudžalnikam chvaroby, mahutnuju i hidkuju materyju, jakaja padsiłkoŭvaje samu čumu, što razjadaje viosku.
+    As you examine the vial with a growing sense of alarm, your trained eye recognizes the contents for what they truly are — an insidious agent of the contagion, a potent and vile substance that fuels the very plague consuming the village.
     ~found_vial = true
     ->choices
     
     =fail
-    Vy razhladajecie butelku z razhublenym vyrazam tvaru i nia možacie vyznačyć jaje pryznačeńnie i źmieściva, bo nie vałodajecie patrebnymi miedyčnymi viedami dziela raspaznańnia sapraŭdnaj pryrody. -> choices
+    As you examine the vial with a perplexed expression, you can't quite place its purpose or contents, lacking the necessary medical knowledge to discern its true nature. -> choices
 
     =inquire
-    Vy nakiroŭvajecie svoj pahlad na lekara i naŭprost pytajecie pra niezvyčajnuju butelku. 
-    "Jakoje pryznačeńnie maje hetaja butelka? Jaje źmieściva nie padobnaje na nivodnuju viadomuju mnie reč." - pytajecie vy, u vašym tonie adčuvajecca cikaŭnaść i aściarožnaść. 
-    Lekar sustrakaje vašy pohlad, u jaho vačach na imhnieńnie milhaje zaniepakojenaść, ale potym jon adkazvaje supakojnym hołasam: "Voj, u hetaj butelcy ŭtrymvajecca mahutny ekstrakt redkaj travy - klučavy inhredyjent mahutnaha dezynfiektavalnaha srodku. Jon dapamahaje strymlivać raspaŭsiudžvańnie chvaroby, zabiaśpiečvaje biaśpieku jak chvorych, hetak i zdarovych" - jaho słovy supravadžajucca spakojnaj uśmieškaj, što maskuje schavanyja bojazi. 
+    You direct your gaze towards the healer and ask directly about the peculiar vial. 
+    "What is the purpose of this vial? Its contents appear unlike any remedy I have encountered," you inquire, your tone laced with a mix of curiosity and caution. 
+    The healer meets your gaze, their eyes briefly flickering with unease before they respond in a reassuring voice, "Ah, that vial contains a potent extract of a rare herb—a key ingredient in a powerful disinfectant. It aids in curbing the spread of the disease, ensuring the safety of both the afflicted and the healthy." Their words are accompanied by a calm smile, masking any underlying apprehension. 
     ~suspicious = true
     -> choices
 
 ===ObserveVillage===
 
-Vy idziacie pa pustelnych vulicach, uvažliva ahladajecie navakolle ŭ pošukach adznak, jakija mahli vyjavić praŭdu pra čumu i čutki pra dziejnaść kultystaŭ. Siarod paŭrazburanych budynkaŭ i pakutujučych žycharoŭ vy zaŭvažajecie ledź zaŭvažnyja detali, jakija vyklikajuć u vas cikavaść.
+You walk the desolate streets, your eyes keenly scanning the surroundings for any signs that might reveal the truth behind the plague and the rumors of cultist activity. Among the dilapidated buildings and the suffering inhabitants, you notice subtle details that pique your interest.
 
-U vočy kidajecca vyćviły znak, vyhraviravany na paŭrazburanaj ścianie. Jon napaminaje symbal boha chaosu Nurhła i namiakaje na mahčymuju suviaź z čutkami pra kultystaŭ. Ubačyŭšy čumu, vy ŭžo zdahadalisia pra hetaje, ale adnoj jaje najaŭnaści niedastatkova dla paćvierdžańnia praŭdy.
+A faded sigil etched on a crumbling wall catches your eye. It bears a resemblance to symbols associated with the chaos god Nurgle, hinting at a possible connection to the cultist rumors. Seeing the plague, you already suspected as much, but its presence alone is not enough to confirm the truth.
 
-Siarod zapuścieńnia vy zaŭvažajecie niezvyčajnuju zakanamiernaść. Vašuju ŭvahu pryciahvajuć asobnyja ludzi, jakija nie paddajucca chvarobie, što paraziła ŭsich astatnich. Mužčyny siaredniaha vieku ad tryccaci da saraka hadoŭ, jany vypramieńvajuć niezvyčajnaje zdaroŭje i žyćciovuju siłu. Ich mocny, muskulisty ciełaskład rezka kantrastuje z navakolnymi krochkimi i źniasilenymi fihurami. Ichnija ščoki pałajuć zdarovym rumiankam, śvieciacca žyćciovaj siłaj, a vočy iskracca prutkaściu i mocaj. Zdajecca, što sama ich najaŭnaść vypramianiaje žyćcio siarod zmroku.
+Amidst the desolation, you notice a peculiar pattern. Your eyes are drawn to certain individuals who defy the affliction that plagues the rest. Mid-aged males between the ages of thirty and forty, they exude an extraordinary level of health and vitality. Their robust, muscular builds stand as a stark contrast to the frail, emaciated figures that surround them. Their cheeks bear a healthy flush, glowing with vitality, while their eyes sparkle with resilience and strength. Their very presence seems to radiate life amidst the gloom.
 
-Niemahčyma nie ŭrazicca ich dabrabytu. Ich vyłučnaje zdaroŭje vyklikaje ŭ vas pytańni: što daje im takuju niezvyčajnuju tryvałaść? Ci majecca hetamu naturalnaje tłumačeńnie, ci za ichniaj ujaŭnaj nieparažalnaściu kryjecca štości bolšaje? -> choices
+You cannot help but be awestruck by their sheer well-being. Their exceptional health raises questions within you — what grants them this extraordinary resilience? Is there a natural explanation, or could there be more to their apparent invulnerability? -> choices
 
     =choices
-    *[Nazirać za štodzionnym žyćciom zdarovych žycharoŭ vioski.] -> ObserveRoutine
+    *[Observe the daily routine of the healthy villagers.] -> ObserveRoutine
 
 ===ObserveRoutine===
-Zacikaviŭšysia niezvyčajnym zdaroŭjem mužčynaŭ siaredniaha vieku ŭ vioscy, vy vyrašyli panahladać za ichnim rasparadkam dnia na praciahu niekalkich dzion. Daśledavańnie pryvodzić vas da cikavaha adkryćcia: štoranku zdarovyja žychary vioski nieadmienna źbirajucca ŭ ścipłym žylli viaskovaha lekara.
-Heta vyklikaje cikaŭnaść, bo im nie patrabujecca anijakaha lačeńnia, ale pry hetym baviać značnuju kolkaść času razam z lekaram. -> choices
+Intrigued by the extraordinary health of the mid-aged males in the village, you decide to observe their daily routine over the course of a few days. Your investigation leads you to a fascinating discovery - each morning, without fail, the healthy villagers gather at the humble dwelling of the village healer.
+It piques your curiosity as they don't require any treatment, yet they spend a considerable amount of time inside. -> choices
     
     =choices
-    *[Uvajści ŭ žyllo lekara padčas znachodžańnia bolšaści zdarovych žycharoŭ vioski ŭnutry.] -> AtTheHealersAgain
+    *[Decide to enter the healer's dwelling while most of the healthy villagers are inside.] -> AtTheHealersAgain
 
 ===AtTheHealersAgain===
-Cikaŭnaść biare vierch, i vy vyrašajecie skarystacca vypadkam i ŭvajści ŭ žyllo lekara {met_healer: znoŭ} padčas zboru ŭsich zdarovych žycharoŭ vioski. Jak tolki vy pierastupajecie paroh, vas sustrakaje žudasnaje hledzišča. Prystanak lekara ćmiana aśvietleny, napoŭnieny vodaram travaŭ i pachoščaŭ. Na adnym boku pakoja ŭ ciažkim stanie lažać niekalki žycharoŭ vioski, jakija stohnuć ad bolu, ichnija cieły razburany čumoj. 
-Ale ni lekara, ni zdarovych žycharoŭ, jakich vy bačyli niekalki chvilin tamu, nia bačna.
+With curiosity getting the better of you, you decide to seize the opportunity and enter the healer's dwelling {met_healer: again} when the healthy villagers are gathered inside. The moment you step through the door, an eerie sight greets you. The healer's abode is dimly lit, filled with the scent of herbs and incense. On one side of the room, a few villagers lie in bad condition, moaning in pain, their bodies ravaged by the plague. 
+But there's no sign of the healer or the healthy villagers who you just saw enter moments ago.
 ~suspicious = true
 ->choices
 
     =choices
-    *[Ahledziecca ŭ pošukach padkazki, kudy jany mahli źniknuć.{print_player_skill_chance("Scouting", EASYSKILLCHECK)}]
+    *[Look around for a clue as to where they might have disappeared.{print_player_skill_chance("Scouting", EASYSKILLCHECK)}]
         {perform_player_skill_check("Scouting", EASYSKILLCHECK): -> succeed | -> fail}
-    *{found_passage}[Nie razvažajučy spuścicca pad ziamlu.] -> Descend
-    *{not found_passage}[Admovicca ad pošukaŭ i syści.] -> START.choices
+    *{found_passage}[Without hesitation, you descend underground.] -> Descend
+    *{not found_passage}[Give up the search and leave.] -> START.choices
 
     =succeed
-    Vašy pohlad kidaŭsia pa pakoi ŭ pošukach choć jakoj začepki, jakaja mahła b patłumačyć ich raptoŭnaje źniknieńnie. Uzdoŭž ścien stajać palicy, upryhožanyja sklankami, butelkami z ziellami i staražytnymi knihami pa roznych miedyčnych praktykach. U pakoi adčuvajecca dziŭnaja napruha, jak byccam u joj zachoŭvajecca tajamnica, jakaja čakaje razhadki.
-    Pa miery taho jak vy aściarožna prasoŭvajeciesia dalej, vašuju ŭvahu pryciahvaje patajny prachod, schavany za ciažkim habielenam. Instynktyŭna vy padychodzicie bližej, serca bjecca ŭ pradčuvańni. Zdajecca, što prachod viadzie pad ziamlu, u niaźviedanuju ciemru, jakaja hetak i vabić adkryć svaje tajamnicy.
+    Your eyes sweep across the room, searching for any clue that might explain their sudden disappearance. Shelves line the walls, adorned with vials, potion bottles, and ancient tomes on various medicinal practices. The room feels strangely tense, as if it holds a secret waiting to be unraveled.
+    As you cautiously explore further, a hidden passageway catches your attention, concealed behind a heavy tapestry. Instinctively, you move closer, your heart pounding in anticipation. The passageway seems to lead underground, into an unknown darkness that beckons you to uncover its secrets.
     ~found_passage=true
     ->choices
     
     =fail
-    Vy abšnyrvajecie vačami pakoj u pošukach choć jakoj začepki, jakaja mahła b patłumačyć ich raptoŭnaje zniknieńnie. Vy prydzirliva ahladajecie kožny kutok, pravodzicie rukami pa palicach i ścienach, sprabujučy znajści schavany prachod. Adnak, jak ni imkniciesia, vyjaŭnaha šlachu da razhadki tajamnicy nie znachodzicie.
-    Rasčaravańnie i źbiantežanaść avałodvajuć vami, i vy nia možacie nie pačuvacca ahałomšanym situacyjaj. Lekar i zdarovyja žychary vioski niby biaśśledna źnikli, i ŭ vas zastałosia bolš pytańniaŭ, čym adkazaŭ. Ci mahli jany adčuć vašuju najaŭnaść i vyśliznuć nieŭprykmiet?->choices
+    Your eyes sweep across the room, searching for any clue that might explain their sudden disappearance. You meticulously inspect every nook and cranny, running your hands over the shelves and walls, trying to find a hidden passageway. However, no matter how hard you look, there seems to be no obvious way to uncover the mystery.
+    As frustration and bewilderment start to take hold, you can't help but feel dumbfounded by the situation. The healer and the healthy villagers seem to have vanished without a trace, leaving you with more questions than answers. Could they have sensed your presence and slipped away unnoticed?->choices
 
 ===GatherThoughts===
-Vy znachodzicie chvilinu dziela pieradyški, kab sabracca z dumami, addalajeciesia ŭ cichi kutok vioski, panadalej ad čužych vačej, i skrupulozna vyvučajecie sabranyja na hety momant dokazy.
-Zdarovyja žychary vioski, niby nie kranutyja čumoj, praciahvajuć zastavacca tajamnicaj. Ichniaje mocnaje zdaroŭje, žyvaja enierhija i nievytłumačalny imunitet staviać u tupik rozum. Jany - uvasableńnie žyćcia na fonie rospačy, što achapiła viosku.
-Ale ichniaja suviaź z lekaram vyklikaje bolš pytańniaŭ, čym adkazaŭ. Kali lekar sapraŭdy kłapocicca pra viosku na praciahu šmatlikich pakaleńniaŭ, to jon pavinien być truchlavym, pažyłym čałaviekam, ale heta daloka nie tak. U apošni raz, kali vy sustrakali jaho, jon vyhladaŭ mužčynam u roskvicie siłaŭ, jaki nie hladzić na płyń času.
-Vyjaŭleńnie znaka Nurhła, vyhraviravanaha na paŭrazburanaj ścianie, namiakaje na mahčymuju suviaź z čutkami pra kultystaŭ. Najaŭnaść takoha znaka ŭ vioscy kidaje złaviesny cień na jaje i biez taho zmročnuju atmaśfieru.
-Aproč taho, padazronaja butelka, znojdzienaja ŭ žylli lekara, nie daje vam žyćcia. {not found_vial: Jaje źmieściva zastajecca niezrazumiełym, a tłumačeńni lekara vyklikajuć sumnievy ŭ jaje sapraŭdnym pryznačeńni. Ci moža jana być uzbudžalnikaj zarazy, ci hety sapraŭdy niavinny srodak, jak śćviardžajecca?}{found_vial: Vy całkam ŭpeŭnieny, što źmieściva butelki vykarystoŭvajecca dziela raspalvańnia epidemii. Ź jakoj metaj? Heta jašče treba vyśvietlić.}
-U hałavie zaradžajecca padozrańnie, što ledzianić dušu. Ci moža być tak, što sam lekar niejak źviazany z čumoj i čutkami pra kultystaŭ? Moža, pad jaho zyčlivym fasadam chavajecca niešta tajemnaje? Z novaj siłaj vy vyrašajecie narešcie sustrecca z lekaram tvar u tvar.
+You find a moment of respite to gather your thoughts. You retreat to a quiet corner of the village, away from prying eyes, and meticulously review the evidence you have amassed so far.
+The healthy villagers, seemingly untouched by the plague, continue to stand out as an enigma. Their robust health, vibrant energy, and inexplicable immunity confound reason. They are the very embodiment of life amidst the despair that consumes the village.
+Yet, their association with the healer raises more questions than answers. If the healer has indeed been tending to the village for generations, he should be a frail, elderly man, but that is far from the truth. The last time you encountered him, he appeared to be a man in his prime, defying the passage of time.
+The discovery of the symbol of Nurgle etched on a crumbling wall hints at a possible connection to the cultist rumors. The presence of such a symbol in the village casts a sinister shadow over its already grim atmosphere. 
+Additionally, the suspicious vial you found in the healer's dwelling lingers in your thoughts. {not found_vial: Its contents remain unidentified, and the healer's explanation raises doubts about its true purpose. Could it be an agent of the contagion, or is it genuinely an innocent remedy as claimed?}{found_vial: You are absolutely certain that the contents of the vial are used to fuel the epidemic. As for what purpose? That remains to be seen.}
+A chilling suspicion takes root in your mind. Could it be that the healer himself is somehow linked to the plague and the cultist rumors? Is there something clandestine hidden beneath the surface of his benevolent facade? With renewed determination you finally decide to confront the healer.
 ->ConfrontHealer
 
 ===ConfrontHealer===
-{came_from(-> GatherThoughts): Nabraŭšysia rašučaści, vy znoŭ uvachodzicie ŭ žyllo lekara z vostrymi ad znoŭ zdabytych viedaŭ vačami.} Kali vy nabližajeciesia, vočy lekara sustrakajucca z vašymi. Nastaje momant maŭklivaha pryznańnia - uśviedamleńnia, što praŭda adkryta.
-Adčuŭšy ciažar vašych padozraŭ, tvar lekara pierakručvajecca ad strachu i rospačy. Nie kažučy ni słova, jon pavaročvajecca i kidajecca ŭ daloki kaniec pakoja, robiačy rospačnuju sprobu schavacca ad vašaha pilnaha pohladu.
-"Pačakajcie!" - kryčycie vy i kidajeciesia ŭ pahoniu, kali jon dałazić da zadniaj častki žylla. Chutkim rucham jon adkryvaje patajnyja dźviery, raschinaje ich i źnikaje ŭ hłybini. Vy, nie razvažajučy, spuskajeciesia pa vuzkich prystupkach u nieprahladnuju ciemru. -> choices
+{came_from(-> GatherThoughts): Fueled by determination, you enter the healer's dwelling once more, your eyes sharp with newfound knowledge.} As you approach, the healer's eyes meet yours. There is a moment of silent acknowledgment — a realization that the truth has been uncovered.
+Sensing the weight of your suspicions, the healer's face contorts with a mix of fear and desperation. Without a word, he turns and dashes towards the far end of the room, making a desperate attempt to escape your scrutiny.
+"Wait!" you call out, giving chase as he reaches the back of the dwelling. In a swift motion, he reveals a hidden trap door, flinging it open and disappearing into the depths below. You don't hesitate, following closely behind, descending the narrow steps into the unknown darkness. -> choices
     
     =choices
-    *[Biaz rozdumaŭ, vy rušycie ŭśled za im, spuskajeciesia pa vuzkich stupieniach u nieprahladnuju ciemru.] -> Descend
+    *[Without hesitation, you follow him, descending the narrow steps into the unknown darkness.] -> Descend
     
 
 ===Descend===
-~ OpenCultistLairMission("TOR_nurgle_lair_001")
+~ OpenCultistLairMission("TOR_quest_nurgle_lair_001")
 ...
-{MadeDealWithCultists && not DealtWithCultists: Vočy lidara kultu zichaciać uračystaściu i zadavalnieńniem, kali jon adčuvaje vašuju zhodu. Jaho napieŭ nabyvaje hipnatyčnuju ŭłaścivaść, rezanujučy ŭ vašaj śviadomaści, niby ustaloŭvajučy ź im nieparyŭnuju suviaź. Adčuvańni, što achaplajuć vas, dziŭnyja i tryvožnyja, byccam tahaśvietnaja siła pačynaje ŭplatacca ŭ vašuju isnaść. }
-{MadeDealWithCultists && not DealtWithCultists: Pačynajecca niepieradatnaje pieratvareńnie, padobnaje na razhortvańnie mary, vytkanaj z realnaści. Pryliŭ enierhii raźlivajecca pa vienach, badzioryć cieła i zdymaje stomlenaść. Boli i rany niby zaciahvajucca, pakidajučy paśla siabie adčuvańnie novaj žyćciovaj siły.}
-{MadeDealWithCultists && not DealtWithCultists: Pryniaŭšy Darunak, vy pakidajecie pakoj z ciažaram pryniataha raźviazku. Vioska źnikaje ŭdalečyni, u vušach hučać pryhłušanyja kryki jaje žycharoŭ.}
-{MadeDealWithCultists && not DealtWithCultists: Vašy šlach praciahvajecca, i pieraśleduje vodhałaskami pryniataha vami rašeńnia. Darunak Nurhła daŭ vam siłu i žyćciovuju enierhiju, ale jon ža źviazaŭ vas z budučymi, niapeŭnymi i apanurymi mukami sumleńnia.}
-{not DealtWithCultists && not MadeDealWithCultists: Vašyja ŭdary adbivajucca, a abarona apynajecca marnaj. Złaviesnaje majsterstva lidara kultu pierasiahaje ŭsie vašyja čakańni, a apošni, rujnavalny ŭdar pazbaŭlaje vas sił. Ciemra avałodvaje vašymi pačućciami, a śviadomaść źnikaje.}
-{not DealtWithCultists && not MadeDealWithCultists: Praz niekalki hadzin, a moža być, i cełuju viečnaść, vy pračynajeciesia siarod šumu i hamu pakutnych. Vašaje cieła balić, jano pabita i zraniena, vodhałaski parazy addajucca ŭ kožnaj častcy cieła. Dezaryjentavany i zranieny, vy vyjaŭlajecie siabie siarod žycharoŭ vioski, jakich vy sprabavali vyratavać.}
-{not DealtWithCultists && not MadeDealWithCultists: Ledź poŭzajučy pa pustečy, vy aryjentujeciesia siarod pakutnych duš, kožny stohn i ŭzdych jakich śviedčyć pra biaźlitasnuju chvatku čumy. Uśviedamleńnie svajho niaščaścia hniacie vas, hust parazy horki na jazykie.}
-{not DealtWithCultists && not MadeDealWithCultists: Urešcie vam ščaścić vybracca z hetaha vartaha žalu miesca, i vašaje pierałamanaje cieła viadzie vas nazad u łahier, dzie schavałasia vašaja partyja. Vočy paplečnikaŭ sustrakajucca z vašymi vačami, poŭnymi turboty i spahady, kali jany ŭśviedamlajuć maštaby vašaj parazy.}
-{not DealtWithCultists && not MadeDealWithCultists: Nie kažučy ni słova, vy źbirajecie reštki sił i rašučaści dy pakidajecie viosku ź jaje zmučanymi žycharami. Uspaminy pra sutyknieńnie z lidaram kultu, pra niaščaście ŭ zmahańni z čumoj pieraśledujuć vas što ni krok.}
-{not DealtWithCultists && not MadeDealWithCultists: Pakul vy rušycie, vioska źnikaje z haryzontu, a jaje spadčyna pakut nazaŭždy zachoŭvajecca ŭ vašaj śviadomaści. Ciažar parazy dušyć vas, niezabyŭna napaminajučy pra ciemru, jakuju vy nie zmahli raśsiejać.}
-{DealtWithCultists && not MadeDealWithCultists: Paraza lidara kultu recham prakaciłasia pa padziemnym łohavie i dakaciłasia da samaha serca vioski, zaražanaj čumoj. Vyjdučy vonki, vy bačycie, jak chvoryja žychary vychodziać sa svaich chat, vykazvajuć niedavier i znoŭ zdabytuju nadzieju.}
-{DealtWithCultists && not MadeDealWithCultists: Vioska pačynaje ačuńvać, jaje žychary marudna, ale peŭna apraŭlajucca ad pakut, jakija niekali źviazvali ich. Kali vašaja partyja ŭzjadnoŭvajecca z vami, na ich tvarach adlustroŭvajecca sumiesnaja padziaka vioski.}
-{DealtWithCultists && not MadeDealWithCultists: Vykanaŭšy svaju misiju, vy sychodzicie z vioski, pakidajučy paśla siabie hramadu, što idzie pa šlachu adnaŭleńnia. Pamiać pra vašuju pieramohu, pra zmahańnie z ciemraj zastaniecca ŭ sercach žycharoŭ vioski jak śviedčańnie siły čałaviečaha duchu.}
+{MadeDealWithCultists && not DealtWithCultists: The cult leader's eyes gleam with a mixture of triumph and satisfaction as he senses your acquiescence. His chant takes on a hypnotic quality, resonating within your being as if weaving an irrevocable connection. The sensation that envelops you is strange and unsettling, as if an otherworldly force begins to weave itself into your very essence. }
+{MadeDealWithCultists && not DealtWithCultists: An ineffable transformation begins, like the unfolding of a dream woven from reality. A surge of energy courses through your veins, invigorating your body and banishing fatigue. Aches and wounds seem to mend, leaving behind a renewed sense of vitality.}
+{MadeDealWithCultists && not DealtWithCultists: With the Gift accepted, you depart the chamber, the weight of your decision hanging heavily upon you. The village recedes into the distance, the muted cries of its afflicted residents echoing in your ears as you walk away.}
+{MadeDealWithCultists && not DealtWithCultists: Your journey continues, haunted by the echoes of your decision. The Gift of Nurgle has granted you strength and vitality, but it has also bound you to a future uncertain and tinged with remorse.}
+{not DealtWithCultists && not MadeDealWithCultists: Your strikes are parried and your defenses are rendered futile. The cult leader's malefic prowess is beyond anything you anticipated, and with a final, devastating blow, your strength fails you. Darkness claims your senses as consciousness fades into oblivion.}
+{not DealtWithCultists && not MadeDealWithCultists: Hours, or perhaps an eternity, later, you awaken amidst the clamor of the afflicted. Your body aches, broken and battered, the echoes of your defeat resonating through every fiber of your being. Disoriented and wounded, you find yourself among the very villagers you sought to save.}
+{not DealtWithCultists && not MadeDealWithCultists: Crawling weakly through the desolation, you navigate the landscape of suffering souls, each moan and gasp a testament to the plague's merciless grip. The realization of your failure weighs heavily upon you, the taste of defeat bitter on your tongue.}
+{not DealtWithCultists && not MadeDealWithCultists: Eventually, you manage to escape the pitiable scene, your broken body leading you back to the camp where your party has taken refuge. Your comrades' eyes meet yours, filled with a mix of concern and empathy, as they comprehend the extent of your defeat.}
+{not DealtWithCultists && not MadeDealWithCultists: Without a word, you gather what remains of your strength and determination, leaving the village and its tortured populace behind. The memory of your confrontation with the cult leader, your failure to thwart the plague, haunts your every step.}
+{not DealtWithCultists && not MadeDealWithCultists: As you depart, the village recedes from view, its legacy of suffering forever etched in your mind. The weight of defeat presses upon you, an indelible reminder of the darkness that you were unable to dispel.}
+{DealtWithCultists && not MadeDealWithCultists: The cult leader's defeat reverberates through the underground lair, its impact reaching the very heart of the plague-stricken village above. As you step outside, you're greeted by the sight of the afflicted villagers emerging from their hovels, their expressions a mix of disbelief and newfound hope.}
+{DealtWithCultists && not MadeDealWithCultists: The village begins to heal, its residents slowly but surely recovering from the torment that once bound them. As your party reunites with you, their faces mirror the collective gratitude of the village.}
+{DealtWithCultists && not MadeDealWithCultists: Your mission accomplished, you depart the village, leaving behind a community on the path to recovery. The memory of your victory, of the battle against darkness, remains etched in the villagers' hearts as a testament to the strength of the human spirit.}
 
 ->END

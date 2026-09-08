@@ -1,6 +1,6 @@
 //Global story tags
-# title: Крэпасьць Фоззрыка
-# frequency: Uncommon
+# title: Fozzrik's Fortress
+# frequency: Rare
 # development: false
 # illustration: castle
 
@@ -9,51 +9,51 @@ INCLUDE include.ink
 -> Start
 
 === Start ===
-Падарожжа па дзікай прыродзе прывяло вас да ўзьлеска густога лесу. Выйдучы з-за дрэваў, вы бачыце велічнае і загадкавае гледзішча - крэпасьць, што ўзвышаецца і, здаецца, не падначальваецца законам сваёй прыроды. #STR_Start1
+Your journey through the untamed wilderness brings you to the edge of a dense forest. Emerging from the trees, you come upon a sight both magnificent and mysterious – a towering citadel that seems to defy the laws of nature itself. #STR_Start1
 
-Па меры набліжэньня да падмура крэпасьці вочы разьбягаюцца ад мудрагелістай разьбы, што ўпрыгожвае яе сьцены, кожная зь якіх расказвае гісторыю мінулых стагодзьдзяў. Да неба накіраваны шпілі, каранаваныя віхурамі чароўных вятроў, якія дэманструюць моц і вытанчанасьць. Гэты замак, не падобны ні на адзін іншы, утрыманы магічным майстэрствам, што ўжо даўно пазабыта большасьцю, але пажадана для імператараў і гаспадароў усіх краін. Лятучая крэпасьць - гэта дзіва, на якое варта паглядзець, - помнік марам чараўнікоў, што вынайшлі цьвёрдую форму. #STR_Start2
+As you approach the base of the citadel, your eyes trace the intricate carvings adorning its walls, each telling a story of ages past. Towering spires crowned by swirling winds of magic reach towards the heavens, a display of both power and elegance. It is a castle unlike any other, held aloft by a magical artifice long forgotten by most, coveted by emperors and kings across the lands. The Flying Fortress is a wonder to behold – a monument to a wizard's dreams given solid form. #STR_Start2
 
-Якім шляхам вы пойдзеце? #STR_Start3
+What path shall you tread? #STR_Start3
 
-* [Дасьледаваць крэпасьць бліжэй.] -> InvestigateCitadel
-* [Працягнуць.] -> ContinueOn
+* [Investigate the citadel closer.] -> InvestigateCitadel
+* [Continue on.] -> ContinueOn
 
 === InvestigateCitadel ===
-Цікаўнасьць прымушае вас наблізіцца, і вашыя крокі гучна адклікаюцца ад крэпасьці, што ўзвышаецца. Але вы не пасьпяваеце падысьці, як на вашых вачах разгортваецца незвычайнае гледзішча. Архітэктура крэпасьці ажывае, рэагуючы на загадкавую сілу, якая, здаецца, выходзіць знутры. #STR_InvestigateCitadel
+Curiosity compels you to draw nearer, your steps echoing in the presence of the towering citadel. Before you can approach, an extraordinary spectacle unfolds before your very eyes. The citadel's architecture stirs to life, responding to an enigmatic force that seems to emanate from within. #STR_InvestigateCitadel
 
-Каменныя сьцены складваюцца на каменныя сьцены. З кожнай вытанчанай складкай грандыёзнасьць крэпасьці зьмяншаецца, а значнасьць яе канструкцыі робіцца меншай за ранейшую. За лічаныя імгненьні манументальная крэпасьць ператвараецца ў падабенства самой сябе - гледзішча зачаравальнае. #STR_InvestigateCitade2
+Stone walls fold upon stone walls. The grandeur of the citadel diminishes with each graceful fold, its imposing structure transforming into a fraction of its previous size. In a matter of moments, what was once a monumental fortress is now reduced to a mere semblance of itself – a sight that leaves you spellbound. #STR_InvestigateCitade2
 
-Калі вы дасягаеце месца, дзе некалі стаяла крэпасьць, там застаецца толькі пустая прастора, нібы зямля паглынула яе цалкам. Трапятаньне і зьбянтэжанасьць перапаўняюць сэрца, падахвочваючы спасьцігнуць таямніцы магічнай з'явы. #STR_InvestigateCitade3
+As you reach the spot where the citadel once stood, there remains only an empty space, as if the very earth had swallowed it whole. A mixture of awe and bewilderment fills your heart, urging you to fathom the mysteries of the magical phenomenon at play. #STR_InvestigateCitade3
 
-* [Выкарыстаць свае магічныя веды, каб зразумець унікальнаськь крэпасьці. {print_party_skill_chance("Spellcraft", 200)}]-> SpellcraftCheck
-* [Пакінуць феномен.]-> DismissPhenomenon
+* [Use your knowledge of magic to detect what's unique about the fortress. {print_party_skill_chance("Spellcraft", 200)}]-> SpellcraftCheck
+* [Dismiss this phenomenon.]-> DismissPhenomenon
 
 === SpellcraftCheck ===
 {perform_party_skill_check("Spellcraft",200): -> success | -> fail}
 
     =success
     (SUCCESS)
-    Вы выкарыстоўваеце свае веды пра магію, і спрабуеце разгадаць, што насамрэч адбываецца. І тут да вас прыходзіць разуменьне. Лягенды пра Фоззрыка, загадкавага чараўніка-архітэктара, перагукваюцца з тым, чаму вы сталі сьведкам. #STR_SpellcraftCheckSuccess1
-
-    Фартэца, зь якой вы сутыкнуліся і якая нядаўна зьнікла, выдатна падыходзіць пад аповеды пра агаламшальныя Лятучыя Крэпасьці Фоззрыка. Гэтыя грандыёзныя пабудовы маглі складацца ў кампактныя формы, не паддаючыся логіцы, і ператварацца ў прадметы памерам з куфар, альбо па жаданьню шырыцца да высачэзных цытадэляў. Вашая праніклівасьць прабівае дзюру ў таямнічасьці і раскрывае сутнасьць майстэрства Фоззрыка. #STR_SpellcraftCheckSuccess2
+    Drawing upon your knowledge of magic, you attempt to decipher what is truly going on. Realization then dawns upon you. The legends of Fozzrik, the enigmatic wizard architect, resonate with what you've witnessed. #STR_SpellcraftCheckSuccess1
     
-    Са здабытым разуменьнем вы крочыце наперад, і веды пра натуру крэпасьці асьвятляюць вам шлях у пустэчы. #STR_SpellcraftCheckSuccess3
+    The citadel you've encountered, now vanished, aligns perfectly with the tales of Fozzrik's awe-inspiring Floating Fortresses. These grand constructs could fold themselves into compact forms, defying logic as they transformed into objects as small as a chest, or expand into towering citadels at will. Your insight pierces through the mystique, revealing the workings of Fozzrik's artistry. #STR_SpellcraftCheckSuccess2
+    
+    With newfound understanding, you step forward, your knowledge of the citadel's nature illuminating your path in the wilderness. #STR_SpellcraftCheckSuccess3
     -> END
  
     =fail
     (FAIL)
-    Спрабуючы разгадаць сакрэты зьніклай крэпасьці, вы заходзіце ў тупік. Хітраспляценьні гэтага майстэрства па-ранейшаму ахінуты таямніцай, што не паддаецца разуменьню. Зьнікненьне крэпасьці сьведчыць пра неспасьціжную прыроду магічных майстэрстваў і пакідае ў душы пакутлівую цікаўнасьць з адценьнем расчараваньня. Нягледзячы на ўсе вашыя высілкі, таямніца гэтай архітэктуры застаецца неразгаданай і папаўняе шэрагі незьлічоных загадак сьвету. #STR_SpellcraftCheckFail1
+    As you strain your mind to unravel the secrets of the vanished citadel, you find yourself at an impasse. The intricacies of this craftsmanship remain shrouded in enigma, eluding your attempts at understanding. The citadel's disappearance stands as a testament to the unfathomable nature of magical arts, leaving you with a lingering sense of curiosity tinged with frustration. Despite your best efforts, the riddle of this architecture remains unsolved, a mystery that joins the ranks of countless other enigmas in the world. #STR_SpellcraftCheckFail1
     -> END
 
 === DismissPhenomenon ===
-Хаця зьнікненьне крэпасьці выклікае зьбянтэжанасьць, Вы лічыце за лепшае адкінуць таямніцы і засяродзіцца на прадаўжэньні падарожжа. Таямніцы, як вядома, высьлізгваюць нават ад самых праніклівых розумаў, а разважаньні над імі могуць зьбіць вас са шляху. #STR_DismissPhenomenon1
+Though the vanishing of the citadel bewilders, you choose to set aside the enigma and focus on your continued journey. The mysteries are known to elude even the most astute minds, and pondering them might lead you astray from your goals. #STR_DismissPhenomenon1
 
 
 -> END
 
 === ContinueOn ===
-Запомніўшы зьніклую крэпасьць, вы аднаўляеце падарожжа. #STR_ContinueOn1
+With the memory of the vanished citadel etched into your mind, you resume your travels. #STR_ContinueOn1
 
-І пацягваеце шлях з разуменьнем, што спадчына крэпасьці дагэтуль захоўваецца і з'яўляецца сьведчаньнем зьліцьця магіі і архітэктуры, якое не паддаецца звычайнаму ўспрыманьню гэтага сьвета. #STR_ContinueOn2
+As you continue, the legacy of the fortress lingers, a testament to the fusion of magic and architecture that defies ordinary perception in this world. #STR_ContinueOn2
 
 * -> END

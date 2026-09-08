@@ -1,5 +1,5 @@
 //Global story tags
-# title: Халупа ў Лесе
+# title: Cabin In The Woods
 # frequency: Common
 # development: false
 # illustration: roadpoint2
@@ -58,13 +58,13 @@ INCLUDE include.ink
     VAR LockText = ""
         {
             - LockQuality == 1:
-                ~ LockText = "ненадзейны"
+                ~ LockText = "weak"
             - LockQuality == 2:
-                ~ LockText = "звычайны"
+                ~ LockText = "average"
             - LockQuality == 3:
-                ~ LockText = "надзейны"
+                ~ LockText = "strong"
         }
-
+        
     ~ SetTextVariable("LockText",LockQuality)
             
     VAR DoorQuality = 0
@@ -76,11 +76,11 @@ INCLUDE include.ink
     VAR DoorText = ""
         {
             - DoorQuality == 1:
-                ~ DoorText = "ненадзейная"
+                ~ DoorText = "weak"
             - DoorQuality == 2:
-                ~ DoorText = "звычайная"
+                ~ DoorText = "average"
             - DoorQuality == 3:
-                ~ DoorText = "надзейная"
+                ~ DoorText = "strong"
         }
 
     ~ SetTextVariable("DoorText",DoorQuality)
@@ -91,13 +91,13 @@ INCLUDE include.ink
         VAR RewardText = ""
             {
                 - RewardRoll == 0:
-                    ~ RewardText = "5 зерня"
+                    ~ RewardText = "5 grain"
                 - RewardRoll == 1:
-                    ~ RewardText = "2 сталёвых зьлітка"
+                    ~ RewardText = "2 steel ingots"
                 - RewardRoll == 2:
-                    ~ RewardText = "500 золата"
+                    ~ RewardText = "500 gold"
             }
-
+            
     ~ SetTextVariable("RewardText",RewardRoll)
             
  //Variable Update: Update any variables before story start
@@ -117,48 +117,50 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    Падчас падарожжа вы натыкаецеся на халупу ў лесе. #STR_Start1
+    As your party is travelling along you come across a cabin in the woods. #STR_Start1
     
-    *[Падайсьці да халупы]->Approach
-    *[Працягнуць сваё падарожжа (Сысьці)]Вы вырашылі, што пакуль лепей працягнуць сваё падарожжа.->END
+    *[Approach the cabin]->Approach
+    *[Go on your way (Leave)]You decide it is better to move on for now.->END
     
 ===Approach===
 
-Каля халупы вы бачыце, што яна надзейна забіта. Адзіная дзьвер у халупе, здаецца, наглуха зачынена. Пасьля агляду дзьверы вы выявілі, што яна {DoorText}, а яе замок {LockText}. #STR_Approach1 ->choice1
+As you approach the cabin you can see that it is heavily boarded up. The only door on the cabin seems to be locked tight. As you examine the door you see that the door is {DoorText} and that the lock on it is {LockText}. #STR_Approach1
+->choice1  
 
     =choice1
-    Што ваша партыя мусіць зрабіць?
-    *[Пагрукацца ў дзьверы]Вы грукаецеся, але ня чуеце адказу.->Approach.choice1
+    What will your party do?
+    *[Knock on the door]You knock but no one answers.->Approach.choice1
     
     //Pick the lock (Roguery)
-        *[Узламаць замак на дзьвярах {PartyRogueryCheckText}]
-            Лепшы "махляр" вашай партыі спрабуе ўзламаць замок.
-            {PartyRogueryCheckTest: Ваша партыя пасьпяхова ўзламала замок. ->Inside | Ваша партыя не змагла ўзламаць замок. ->Approach.choice1}
+        *[Pick the lock on the door {PartyRogueryCheckText}]
+            Your party's best "rogue" attempts to pick the lock.
+            {PartyRogueryCheckTest: Your party succeeds in getting through the lock. ->Inside | Your party fails to pick the lock. ->Approach.choice1}
         
     //Disassemble the Lock (Engineering)
-        *[Разабраць замак {PartyEngineeringCheckText}]
-            Лепшы інжынер вашай партыі спрабуе разабраць замок.
-            {PartyEngineeringCheckTest: Выкарыстоўваючы набор самых лепшых інструмантаў: шрубоўкі, долата і кавадлы, вашы інжынер па-майстэрску разьбірае замак, прытым разьбірае гэтак старанна, што яго ўжо ніколі не сабраць. ->Inside | Ваша партыя не змагла разабраць замок. ->Approach.choice1}
+        *[Disassemble the lock {PartyEngineeringCheckText}]
+            Your party's best engineer attempts to disassemble the lock.
+            {PartyEngineeringCheckTest: Using a selection of their finest tools including screwdrivers, chisels, and a sledgehammer; your engineer masterfully disassembles the lock, so "thorough" is the disassembly that the lock will never be put back together. ->Inside | Your party fails to disassemble the lock. ->Approach.choice1}
     
     //Blow up the door (Spellcraft)
-        *{PartyCanCastSpell == true}[Падарваць дзьверы {PartySpellcraftCheckText}]
-            Лепшы заклінальнік вашай партыі спрабуе падарваць дзьверы магіяй.
-            {PartySpellcraftCheckTest: Ваша партыя зрывае дзьверы зь петляў. ->Inside |Ваша партыя не змагла падарваць дзьверы. ->Approach.choice1}
+        *{PartyCanCastSpell == true}[Blow up the door {PartySpellcraftCheckText}]
+            Your party's best mage attempts to blow up the door with magic.
+            {PartySpellcraftCheckTest: Your party blows the door clean off its hinges. ->Inside |Your party fails to blow up the door. ->Approach.choice1}
             
     //Break down the door (Vigor)
-        *[Выламаць дзьверы {PartyVigorCheckText}]
-            Мацнейшы чалец вашай партыі спрабуе выламаць дзьверы.
-            {PartyVigorCheckTest: Ваша партыя зрывае дзьверы зь петляў. ->Inside |Ваша партыя не змагла выламаць дзьверы. ->Approach.choice1}
+        *[Break down the door {PartyVigorCheckText}]
+            Your party's strongest member attempts to break down the door.
+            {PartyVigorCheckTest: Your party bashes the door clean off its hinges. ->Inside |Your party fails to break down the door. ->Approach.choice1}
 
-    *[Працягнуць сваё падарожжа (Сысьці)]Вы вырашылі, што пакуль лепей працягнуць сваё падарожжа.->END
+    *[Go on your way (Leave)]You decide it is better to move on for now.->END
 
 ===Inside===
 
-Ваша партыя трапляе ў халупу і выяўляе, што нехта ці нешта захоўвае тут запасы. #STR_Inside1 ->choice2
+Your party gets inside the cabin and find that someone or something has stored some supplies here. #STR_Inside1
+->choice2 
 
     =choice2
-        *[Забраць ({RewardText})]
-            Вы бярэце {RewardText} і дадаеце да сваіх запасаў перш чым сысьці.
+        *[Take the supplies ({RewardText})]
+            You take the {RewardText} and add it to your supplies before continuing on your way.
             {RewardRoll:
                 -0: 
                     ~ GiveItem("grain",5)
@@ -169,4 +171,4 @@ INCLUDE include.ink
             }
             ->END
         
-        *[Сысьці]Вы вырашылі пакінуць запасы і працягнуць падарожжа.->END
+        *[Leave]You decide to leave the supplies and head on your way.->END

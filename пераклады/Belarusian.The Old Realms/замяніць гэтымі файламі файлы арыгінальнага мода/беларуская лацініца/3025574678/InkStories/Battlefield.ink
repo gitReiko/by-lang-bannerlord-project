@@ -1,45 +1,45 @@
 -> Start
 
 === Start ===
-Aura zdaniaŭ łunaje nad pustelnym polem boju, dzie advaha Impieryi sutyknułasia z ciomnaj mocaj Hrafaŭ-Vampiraŭ. Vy traplajecie na pole boju, dzie ziamla ŭsiejana reštkami vajny - złamanymi lozami, raźbitymi ščytami, pałymi ciełami sałdataŭ i niamiortvych žachaŭ. U pavietry panuje cišynia, jakuju parušajuć tolki daloki lamant ptušak-trupajedaŭ. Vy ledź adčyvajecie ciažar niekramantyčnaj mahii, jakaja hańbie viatry. #STR_Start1
+A haunting aura hangs over the desolate battlefield before you, where the Empire's valor clashed with the dark might of the Vampire Counts. You encounter a battlefield, where the ground is littered with the remnants of war – broken blades, shattered shields, and the fallen bodies of both soldiers and undead horrors. A hush pervades the air, punctuated only by the distant cries of carrion birds. You can faintly feel the weight of necromantic magic tainting the winds. #STR_Start1
 
-Paŭšyja lažać uva ŭračystym spakoi, ich žyćcio i dola nazaŭždy pieraplalisia ŭ trahiedyi hetaha miesca. Kali vy stupajecie na zalituju kryvioj ziamlu, na vas abvalvajecca hruz historyi i achviar. #STR_Start2
+The fallen lie in solemn repose, their lives and fates forever intertwined in the tragedy of this place. As you step onto the blood-soaked earth, the weight of history and sacrifice bears down upon you. #STR_Start2
 
-Jakija dziejańni vy raspačniocie ŭ hetaj kranalnaj scenie? #STR_Start3
+What course of action will you choose amid this poignant scene? #STR_Start3
 
-* [Šukać vyžyłych siarod pałych.] -> SearchForSurvivors
-* [Ušanavać pałych i praciahnuć svajo padarožža.] -> PayRespects
-* [Syści z pola boju i praciahnuć svoj šlach.] -> ContinueOn
+* [Search for any survivors among the fallen.] -> SearchForSurvivors
+* [Pay your respects to the fallen and continue your journey.] -> PayRespects
+* [Leave the battlefield and continue on your path.] -> ContinueOn
 === SearchForSurvivors ===
-Sa źmiešanaj nadziejaj i dryžykami, vy błukajecie pa zmročnym malunku pałych sałdat и šukajecie choć-jakuju iskru žyćcia ŭ mory śmierci. Vašaja rašučaść pryvodzie vas da paranienaha sałdata, jaki ledź dychaje. Apuściŭšysia na kaleni poruč ź im, vy prapanoŭvajecie jamu dapamohu, suciašeńnie i pasilna lakujecie jaho rany. #STR_SearchForSurvivors1
+With a blend of hope and trepidation, you navigate the grim tableau of fallen soldiers, searching for any spark of life amidst the sea of death. Your determination leads you to a wounded soldier, his breathing labored and weak. Kneeling beside him, you offer aid and solace, tending to his injuries as best you can. #STR_SearchForSurvivors1
 
-Jaho vočy adkryvajucca, i ŭ ich uzbliskvaje padziaka. U cichich tonach jon vyjaŭlaje svaju padziaku, abiacajučy adpłacić za vašu dabryniu. #STR_SearchForSurvivors2
+His eyes flutter open, and gratitude glimmers within them. In hushed tones, he expresses his thanks, vowing to repay your kindness. #STR_SearchForSurvivors2
 
-* [Supravadzić vyžyłaha da biaśpiečnaha miesca.] -> HelpButDie
-* [Pasprabavać vylekavać sałdata mahijaj Hajrana.] -> UseGhyranMagic
+* [Escort the survivor to safety.] -> HelpButDie
+* [Attempt to heal the soldier with the magic of Ghyran.] -> UseGhyranMagic
 
 === UseGhyranMagic ===
-Vašy čaraŭnik zaklikaje da žyvatvornaj enierhii pryrody praz mahiju Hajrana. Pavietra mihoča zialonaj enierhijaj, kali čaraŭnik nakiroŭvaje zalon u bok paranienaha sałdata. Rany vajara pačynajuć zahojvacca, podych vyraŭnoŭvajecca, ščokam viartajecca koler. #STR_UseGhyranMagic1 
+Harnessing the magic of Ghyran, your wizard calls upon the life-giving energies of nature itself. The air shimmers with verdant energy as the wizard channels the spell, guiding it toward the wounded soldier. The soldier's injuries begin to mend, his breathing steadying and color returning to his cheeks. #STR_UseGhyranMagic1 
 
-Sa słabaj, ale ŭdziačnaj uchmyłkaj vyžyły vyznaje vašaje cudoŭnaje ŭmiašańnie. Jon sardečna dziakuje i klaniecca dałučycca da vašych šerahaj. #STR_UseGhyranMagic2
+With a weak but grateful smile, the survivor acknowledges your miraculous intervention. He expresses his heartfelt thanks and vows to join you ranks. #STR_UseGhyranMagic2
 
-* [Pryniać jaho padziaki i praciahnuć.] -> ContinueOn
+* [Accept his thanks and continue on.] -> ContinueOn
 === HelpButDie ===
-Niahledziačy na ŭsie vašyja vysiłki, stan sałdata chutka paharšajecca. Abciažarany podych stanovicca ŭsio bolš redkim, pohlad stračvaje fokus. Nasupierak usim vašym šlachietnym sprobam, žyćcio sałdata vyślizhvaje, pakidaja paśla siabie auru miełancholii i niepachisnaje pačućcio bieskarysnaści. #STR_HelpButDie1
+Despite your best efforts, the soldier's condition deteriorates rapidly. His labored breaths grow shallower, and his gaze loses focus. Despite your valiant attempts, the soldier's life slips away, leaving behind an aura of melancholy and an unshakable sense of futility. #STR_HelpButDie1
 
-Z ciažaram na sercy, vy schilajecie hałavu ŭ znak pašany advazie pałaha sałdata. #STR_HelpButDie2
+With a heavy heart, you bow your head in reverence, honoring the fallen soldier's valiant struggle. #STR_HelpButDie2
 
-* [Ušanavać pałaha i praciahnuć.] -> ContinueOn
+* [Pay your respects to the fallen and continue.] -> ContinueOn
 === PayRespects ===
-Schiliŭšy hałavu ŭ hanarystam pakłonie, vy ŭšanoŭvajecie pałych sałdataŭ, što addali svajo žyćcio na hetym pryvidnym poli boju. Pačućcio tavarystva i ahulnaj mety apanoŭvaje nad vašaj hrupaj i zjaŭlajecca jarkim napaminam pra biaskoncaje zmahańnie miž Morram i niaśmierciu. #STR_PayRespects1
+Bowing your head in solemn reverence, you offer your respects to the fallen soldiers who laid down their lives on this haunted battlefield. A sense of camaraderie and shared purpose settles over your party, a poignant reminder of the enduring struggle between Morr and undeath. #STR_PayRespects1
 
-Addaŭšy daninu maŭčańnia, vy źbirajeciesia z siłami i vyrašajecie pieramahčy ciemru, što ruchajecca i pahražaje haspadarstvu. #STR_PayRespects2
+With your silent tribute complete, you gather your resolve, determined to vanquish the looming darkness that threatens the realm. #STR_PayRespects2
 
 -> END
 
 === ContinueOn ===
-Vy nadumali pakinuć pole boju zzadu i praciahnuć svoj šlach. #STR_ContinueOn1
+You choose to leave the battlefield behind and continue on your journey. #STR_ContinueOn1
 
-Kali vy sychodzicie, krajavid niby vydychaje panury ŭzdych, nazaŭždy zastajučysia śviedkam vyprabavańniaŭ, što lahli na plečy tych, chto advažyŭsia supraćstajać nacisku ciemry. #STR_ContinueOn2
+As you walk away, the landscape seems to exhale a mournful sigh, forever bearing witness to the trials of those who dared to stand against the tides of darkness. #STR_ContinueOn2
 
 -> END

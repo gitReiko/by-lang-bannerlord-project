@@ -1,5 +1,5 @@
 //Global story tags
-# title: Palana
+# title: The Meadow
 # frequency: Common
 # development: false
 # illustration: meadow
@@ -170,31 +170,30 @@
 
     ~ PartyRangedSkillCheckText = print_party_skill_chance(SkillTextFinal, HuntDifficulty*2)
     
-
-
+    
+    
 //Variable Check (Use for sanity check. Uncomment variables to see what they are)
-
+    
      ~ SetTextVariable("IsNight",IsNight())
 
 -> Start
 
 ===Start===
 
-    Vy razam sa svajoj partyjaj vałačeciesia pa zavilistaj ściažyncy, i tut krajavid pastupova źmianiajecca. Pavietra stanovicca miakčejšym, a huki - spakajniejšymi. #STR_Start1
-    
-    Narešcie vy vychodzicie na palanu, i z vašych vusnaŭ zryvajecca ŭzdych. Pierad vami raśściłajecca łuh, padobnaha jakomu vy daŭno nia bačyli. Trava - bahaciejšy habielen zialonaha koleru, što miakka kałyšacca pad podźmuchami vietru. Mnostva palavych kvietak afarboŭvajuć łuh u jarkija adcieńni čyrvonaha, fijaletavaha i žoŭtaha. #STR_Start2
-    {IsNight(): Srebnaje śviatło miesiaca | Załatoje śviatło sonca } pradzirajecca praz krony drevaŭ i achutvaje łuh ciapłom. U pavietry łunaje dalikatny vodar kvietak. Ptuški napiavajuć svaje miełodyi, napaŭniajučy palanu simfonijaj, jakaja niby balzam na stomleny duch. #STR_Start3
+    You and your party have been trudging along a winding path, when the landscape gradually shifts. The air becomes gentler, the sounds more peaceful. #STR_Start1
+    And then, you step into a clearing, and a gasp escapes your lips. Before you stretches a meadow unlike any you've seen in a long while. The grass is a rich tapestry of green, waving softly in the breeze. A multitude of wildflowers paints the scene with vibrant hues of red, purple, and yellow. #STR_Start2
+    {IsNight(): Silver moonlight | Golden sunlight } filters through the tree canopy, bathing the meadow in warmth. A gentle aroma of blooming flowers perfumes the air. Birds serenade with their melodies, filling the clearing with a symphony that feels like a balm to your weary spirit. #STR_Start3
         ->choice1
         
     =choice1
-        Što budzie rabić vašaja partyja? #STR_Start4
-            *[Narychtoŭvać dzikija raśliny (Šmatlikija sproby z {LoreOfLifeInParty: 75% šancam (Palepšana Viedami Žyćcia)| 50% šancam} paśpiachovaha zboru dzikich raślin)] 
-            Vy zahadvajecie svajoj partyi zdabyvać ježu siarod raślin łuha. #STR_Forage1
+        What will you have your party do? #STR_Start4
+            *[Forage for wild plants (Multiple attempts at {LoreOfLifeInParty: 75% chance (Improved by Lore of Life)| 50% chance} to succeed at harvesting various wild plants)] 
+            You order your party to forage amongst the plants of the meadow. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                           Mah z vašaj partyi zaklikaje Viecier Hajrana na dapamohu vašym ludziam u pošukach. #STR_Forage_LoreOFLifeInParty
+                            A mage in your party calls upon the Wind of Ghyran to aid your men in their search. #STR_Forage_LoreOFLifeInParty
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR
@@ -202,12 +201,12 @@
                     
                 ->ForageLoop
 
-            *[Palavać na žyvioł (Šmatlikija šansy atrymać miasa, skuru i/ci futra {PartyRangedSkillCheckText})]
+            *[Hunt animals (Multiple chances to get meat, hide, and or fur {PartyRangedSkillCheckText})]
                 
                 //Bonus Attempts from Lore of Beasts
                     {LoreOfBeastsInParty:
                         -true: 
-                            Mah z vašaj partyi zaklikaje Viecier Hajrana na dapamohu vašym ludziam u pošukach (+1 sproba). #STR_Hunt_LoreOFBeastInParty
+                            A mage in your party calls upon the Wind of Ghur to aid your men in their search. (+1 attempt) #STR_Hunt_LoreOFBeastInParty
                             ~ HuntLoops = HuntLoops + 1
                         -false:
                         -else: ERROR
@@ -216,7 +215,7 @@
                 //Bonus attempt from Scouting
                     {perform_party_skill_check("Scouting", HuntDifficulty):
                         -true: 
-                            Vašym vyviednikam paščaściła vyjavić niekalki dadatkovych žyvioł (Vyviedka, +1 sproba). #STR_Hunt_Scout
+                            Your scouts manage to locate some extra animals. (Scouting)(+1 Attempt) #STR_Hunt_Scout
                             ~HuntLoops = HuntLoops + 1
                         -false:
                         -else: ERROR
@@ -224,9 +223,9 @@
                     
                 ->HuntLoop
                 
-            *[Adpačyvać (Usie kampańjony i paranienyja vajary vylečvajucca {PartyMedicineCheckText})]
+            *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
                 
-                Vy sprabujecie dać svaim ludziam pieradyšku, spadziejučysia, što karotki adpačynak dapamoža im akryjać. Vy raźbivajecie časovy łahier na ŭzboččy palany. #STR_Rest1
+                You try to give your men a break hoping that the brief respite will help them get better. You set up a makeshift camp at the meadow's edge. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
@@ -235,11 +234,11 @@
                     -else: "ERROR"
                 }
                 
-                {PartyMedicineCheckTest: Vašaja partyja skarystałasia adpačynkam, kab pakłapacicca pra paranienych. | Na žal, u momant, kali ludzi pasprabavali adpačyć, nalacieŭ mocny štorm, jaki prymusiŭ ich ruchacca ŭ pošukach chovanki.} #STR_Rest2
+                {PartyMedicineCheckTest: Your party takes advantage of the break to take care of the wounded.| Unfortunately just as the men start to try and rest, a large storm comes through and forces your party to try and move to find shelter.} #STR_Rest2
                 
                 ->Leave
                 
-            *[Pakinuć] Vy vyrašyli, što vašaja partyja nia maje času na adpačynak i nieadkładna rušyli ŭ puć.->END
+            *[Leave] You decide your party has no time to rest and set out immediately.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -264,18 +263,18 @@
             
             {RewardRoll:
                 -0:
-                    Pošuki apynulisia marnymi, vašyja ludzi viarnulisia z pustymi rukami. #ForageLoop0
+                    Foraging yields no results, your men return empty handed. #ForageLoop0
                 -1:
-                    Vašyja ludzi znajšli dzikaje ziernie (+1 Ziernie). #ForageLoop1
+                    Your men find some wild grain. (+1 Grain) #ForageLoop1
                     ~ GiveItem("grain",1)
                 -2:
-                    Vašyja ludzi znajšli dzikija jahady (+1 Vinahrad). #ForageLoop2
+                    Your men find some wild berries. (+1 Grapes) #ForageLoop2
                     ~ GiveItem("grape",1)
                 -3:
-                    Vašyja ludzi znajšli dziki lon (+1 Lon). #ForageLoop3
+                    Your men find some wild flax. (+1 Flax) #ForageLoop3
                     ~ GiveItem("flax",1)
                 -4:
-                    Vašyja ludzi znajšli dzikija śpiecyi (+1 Śpiecyi). #ForageLoop4
+                    Your men find some wild spices. (+1 Spice) #ForageLoop4
                     ~ GiveItem("spice",1)
             }
             
@@ -315,19 +314,19 @@
         //Reward
             {
                 - AttemptSuccessful == true && RewardRoll == 0:
-                    Vašyja ludzi damahlisia pośpiechu, jany viarnulisia z fazanami (+1 Miasa). #HuntLoop0
+                    Your men are successful, they return with some pheasants. (+1 Meat) #HuntLoop0
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 1:
-                    Vašyja ludzi damahlisia pośpiechu, jany viarnulisia z aleniem (+1 Miasa, +1 Skury). #HuntLoop1
+                    Your men are successful, they return with a deer. (+1 Meat, +1 Hide) #HuntLoop1
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 2:
-                    Vašyja ludzi damahlisia pośpiechu, jany viarnulisia z dzikam (+1 Miasa, +1 Futra). #HuntLoop2
+                    Your men are successful, they return with a wild boar. (+1 Meat, +1 Fur) #HuntLoop2
                     ~ GiveItem("meat",1)
                     ~ GiveItem("fur",1)
                 - AttemptSuccessful == false:
-                     Dzičyna vyślizhvaje, vašyja ludzi viartajucca z pustymi rukami. #HuntLoop3
+                     Wild game eludes you, your men return empty handed. #HuntLoop3
                 -else: ERROR
             }
                     
@@ -337,8 +336,9 @@
     ->END
     
 ===Leave===
-    Pabaviŭšy svoj čas na palanie, vy vypraŭlajeciesia ŭ darohu. #STR_Leave
+    Having spent your time in the meadow you decide to head off. #STR_Leave
 
     ~ MakePartyDisorganized()
     
 -> END
+

@@ -1,5 +1,5 @@
 //Global story tags
-# title: Выпадак на Ўзбоччы
+# title: Roadside Accident
 # frequency: Common
 # development: false
 # illustration: cart_accident
@@ -52,31 +52,31 @@ INCLUDE include.ink
         VAR InjuryText1 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText1 = "не паранены"
+                    ~InjuryText1 = "uninjured"
                 -1: 
-                    ~InjuryText1 = "лёгка паранены"
+                    ~InjuryText1 = "mildly injured"
                 -2: 
-                    ~InjuryText1 = "цяжка паранены"
+                    ~InjuryText1 = "severely injured"
             }
         
         VAR InjuryText2 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText2 = "просіць вас"
+                    ~InjuryText2 = "asks"
                 -1: 
-                    ~InjuryText2 = "моліць вас"
+                    ~InjuryText2 = "begs"
                 -2: 
-                    ~InjuryText2 = "ледзь прамаўляе вам"
+                    ~InjuryText2 = "gasps"
             }
         
         VAR InjuryText3 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText3 = "уздымаецца"
+                    ~InjuryText3 = "gets up"
                 -1: 
-                    ~InjuryText3 = "ледзь уздымаецца"
+                    ~InjuryText3 = "barely gets up"
                 -2: 
-                    ~InjuryText3 = "ляжыць і спрабуе не памерці"
+                    ~InjuryText3 = "lays there trying not to die"
             }
             
         VAR InjuryText4 = ""
@@ -84,9 +84,9 @@ INCLUDE include.ink
                 -0: 
                     ~InjuryText4 = ""
                 -1: 
-                    ~InjuryText4 = "здаецца, трохі прыгнечаны, ведаючы, што ён будзе калекай, прынамсі, пэўны час"
+                    ~InjuryText4 = "seems to get a bit depressed knowing that he will be crippled for at least some time"
                 -2: 
-                    ~InjuryText4 = "памірае"
+                    ~InjuryText4 = "dies"
             }
     
         VAR HorsesAround = 0
@@ -102,21 +102,21 @@ INCLUDE include.ink
         VAR Profession = ""
             {ProfessionRoll:
                 -0: 
-                    ~Profession = "гандляр"
+                    ~Profession = "merchant"
                 -1: 
-                    ~Profession = "земляроб"
+                    ~Profession = "farmer"
                 -2: 
-                    ~Profession = "каваль"
+                    ~Profession = "blacksmith"
             }
         
         VAR RewardText = ""
             {ProfessionRoll:
                 -0: 
-                    ~RewardText = "500 золата"
+                    ~RewardText = "500 gold"
                 -1: 
-                    ~RewardText = "5 зерня"
+                    ~RewardText = "5 grain"
                 -2: 
-                    ~RewardText = "2 сталёвых зьлітка"
+                    ~RewardText = "2 steel ingots"
             }
 
         VAR HasExtorted = false
@@ -125,15 +125,15 @@ INCLUDE include.ink
         VAR BonusRoll = 0
 
         VAR ManAlive = true
-
-        ~ SetTextVariable("HorsesAround",HorsesAround)
+        
+         ~ SetTextVariable("HorsesAround",HorsesAround)
         ~ SetTextVariable("InjuryText1",InjuryText1)
         ~ SetTextVariable("InjuryText2",InjuryText2)
         ~ SetTextVariable("InjuryText3",InjuryText3)
         ~ SetTextVariable("InjuryText4",InjuryText4)
         
         ~ SetTextVariable("Profession",Profession)
-        ~ SetTextVariable("Settlemente",Settlement)
+        ~ SetTextVariable("Settlement",Settlement)
         ~ SetTextVariable("Notable",Notable)
         ~ SetTextVariable("RewardText",RewardText)
         
@@ -146,72 +146,72 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    Падчас падарожжа вы бачыце ўдалечыні фурманку. #STR_Start1
-    Пасьля набліжэньня відавочна, што яна зламалася і перакулілася. #STR_Start2
-    {HorsesAround: На суседнім полі вы бачыце, як пасьвяцца коні, здаецца, яны цягнулі фурманку. #STR_StartHorse}
+    As your party is travelling along you see a cart in the distance. #STR_Start1
+    As you get closer you can see that it had broken down and tipped over. #STR_Start2
+    {HorsesAround: You can also see some horses grazing on grass in a nearby field, presumably these were pulling the cart prior to the incident. #STR_StartHorse}
 
-    *[Падайсьці да фурманкі]->Approach
-    *[Працягнуць свой шлях] Вы вырашаеце не зьвяртаць увагу на перакуленую фурманку і працягнуць сваё падарожжа. ->END
+    *[Approach the cart]->Approach
+    *[Go on your way] You decide to ignore the overturned cart and continue your journey. ->END
 
 ===Approach===
 
-    Вы падыходзіце да фурманкі і выяўляеце, што пад ёй захрас чалавек. Ён заўважае, што вы набліжаецеся, і кліча па дапамогу. #STR_Approach1
-    Вы бачыце, што чалавек, які трапіў у пастку пад фурманкай, {InjuryText1}. #STR_Approach2
-    Пакуль вы набліжаецеся, ён {InjuryText2}: "Калі ласка, дапамажыце мне". #STR_Approach3
-    Што вы будзеце рабіць? #STR_Approach4
+    You approach the cart and find a man stuck underneath. When he sees you approaching he calls out for help. #STR_Approach1
+    You notice that the man trapped under the cart is {InjuryText1}. #STR_Approach2
+    As you get close he {InjuryText2} to you, "Please help me".  #STR_Approach3
+    What will you do? #STR_Approach4
     ->choices
     
     =choices
-        *[Спытаць, што ён зможа зрабіць дзеля вас, калі вы дапаможаце яму]
-            Вы пытаеце, што чалавек можа зрабіць для вас. #STR_RewardForHelp1
-            Чалавек адказвае: "Я толькі просты {Profession} з {Settlement}. Я магу ўзнагародзіць вас толькі сваёй падзякай". #STR_RewardForHelp2
-            Праз момант ён кажа: "Я сябар {Notable} і замоўлю за вас слова". #STR_RewardForHelp3
-            Пакуль ён гавора, вы ня можаце не заўважыць, што ў фурманцы, здаецца, маецца яшчэ нейкі груз. #STR_RewardForHelp4
+        *[Ask what he can do for you if you help him] #STR_RewardForHelp0
+            You ask the man what he can do for you. #STR_RewardForHelp1
+            The man replies, "I am just a simple {Profession} from {Settlement}, I cannot give you a reward other than my thanks." #STR_RewardForHelp2
+            After a moment he says, "I am a friend of {Notable} and I will put in a good word for you." #STR_RewardForHelp3
+            While he is talking you can't help but notice there still seems to be some cargo in the cart. #STR_RewardForHelp4
             ~HasAsked = true
             ->choices
         
-            *{not HasAsked}[Дапамагчы яму (Літасьць++)]
-                Вы вырашаеце дапамагчы яму. #STR_HelpNoReward1
-                ~ AddTraitInfluence("Mercy", 40)
+            *{not HasAsked}[Help him (Mercy++)]
+                You decide to help him. #STR_HelpNoReward1
+                ~ AddTraitInfluence("Mercy", 160)
                 ->AfterLift
                 
-            *{HasAsked}[Дапамагчы яму (+Адносіны з {Notable}, Літасьць+)]
-                Вы вырашаеце дапамагчы яму. #STR_HelpRelation1
-                ~ AddTraitInfluence("Mercy", 20)
+            *{HasAsked}[Help him (+Relations with {Notable}, Mercy+)]
+                You decide to help him. #STR_HelpRelation1
+                ~ AddTraitInfluence("Mercy", 80)
                 ~ NotableChange = true
                 ->AfterLift
         
-            *{HasAsked}[Патрабаваць ад яго ўзнагароду (Літасьць-)]
-                Вы гаворыце яму ня быць такім сьціплым. Ён відавочна чалавек з дастаткам і цалкам можа выдзяліць {RewardText} у якасьці кампенсацыі за аказаную дапамогу. #STR_HelpExtort1
-                Чалавек, лічыць, што ён ня мае іншага выйсьця і згаджаецца. #STR_HelpExtort2
-                ~ AddTraitInfluence("Mercy", -20)
+            *{HasAsked}[Extort him for a reward (Mercy-)]
+                You tell the {Profession} that he shouldn't be so modest. He is clearly a man of some means and can easily spare {RewardText} as compensation for the assistance. #STR_HelpExtort1
+                The man, believing he has no other option, agrees. #STR_HelpExtort2
+                ~ AddTraitInfluence("Mercy", -80)
                 ~ HasExtorted = true
                 ->AfterLift
             
-            *{HasAsked && HorsesAround}[Запатрабаваць аднога з коней (Літасьць-)]
-                Вы гаворыце, што паколькі ён відавочна не ў стане кіраваць дзьвума коньмі, таму, павінен аддаць вам адну ў якасьці аплаты. #STR_HelpExtortHorse1
-                Чалавек, лічыць, што ён ня мае іншага выйсьця і згаджаецца. #STR_HelpExtortHorse2
-                ~ AddTraitInfluence("Mercy", -20)
+            *{HasAsked && HorsesAround}[Demand one of the horses (Mercy-)]
+                You say that since he is clearly incapable of controlling two horses and therefore should be fine giving you one as payment. #STR_HelpExtortHorse1
+                The man, seeing as he has no other option, agrees. #STR_HelpExtortHorse2
+                ~ AddTraitInfluence("Mercy", -80)
                 ~ HasExtorted = true
                 ~ SetTextVariable("HasExtorted1",HasExtorted)
                 ~ SetTextVariable("HasExtorted2",HasExtorted)
                 ->AfterLift
         
-            *{HorsesAround}[Забраць коней і сысьці (Літасьць--)]
-                Вы вырашаеце, што заміж таго, каб дапамагчы чалавеку, лепей пайсьці і прыручыць дзьвух коней, бо гэта відавочна дзікія коні, якія ні ў якім разе ня мелі ранейшага спадара, што цалкам законна. #STR_HelpTakeHorse1
-                Пасьля таго як вы суладалі з коньмі і рушылі ў дарогу, удалечыні чутныя крыкі чалавека, што трапіў у пастку, ён моліць вас вярнуцца і дапамагчы. #STR_HelpTakeHorse1
-                ~ AddTraitInfluence("Mercy", -40)
+            *{HorsesAround}[Take the horses and leave (Mercy--)]
+                You decide that rather than help the man you would rather go and tame the two horses, as they are clearly wild horses, who in no way have had any previous owner this is perfectly legal. #STR_HelpTakeHorse1
+                After you have gotten a handle on the horses and are heading off, you can hear the cries of the trapped man begging you to come back and help, fade into the distance. #STR_HelpTakeHorse1
+                ~ AddTraitInfluence("Mercy", -160)
                 ~ GiveItem("old_horse",2)
                 ->END
                 
         //Necromancer option
-            *{PartyCanRaiseDead}[Забіць чалавека, узьняць яго ў якасьці касьцяка, {HorsesAround: забраць коней,} і разрабаваць яго фурманку (Літасьць---) {print_party_skill_chance("Spellcraft", 25)}]
-                Вам прыходзіць у галаву бліскучая ідэя. Бо гэты чалавек відавочна бескарысны наезьнік, магчыма, ён зможа стаць каштоўным, у якасьці аднога з вашых мёртвых слугаў. #STR_HelpNecromancer1
-                Адным рухам вы забіваеце чалавека і адраджаеце яго ў якасьці касьцяка. Вашая партыя робіць {RaiseDeadSkillCheckTest: пасьпяховую | няўдалую} спробу.#STR_HelpNecromancerSummon
+            *{PartyCanRaiseDead}[Kill the man, raise his corpse as a skeleton, {HorsesAround: take the horses,} and loot his cart (Mercy---) {print_party_skill_chance("Spellcraft", 25)}]
+                A brilliant idea comes to your mind. Since the man is clearly worthless as a cart driver, perhaps he can find value by becoming one of your undead minions. #STR_HelpNecromancer1
+                In one swift motion you kill the man and go about raising him as a skeleton. Your party makes an attempt and {RaiseDeadSkillCheckTest: succeeds | fails }.#STR_HelpNecromancerSummon
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
     =raiseSucceed
-    Пасьпяхова адрадзіўшы мяртвяка, вы вырашаеце адсьвяткаваць гэтую падзею і забраць усю яго маёмасьць. #STR_HelpNecromancerSuccess
+    Having successfully raised the dead, you decide to celebrate by taking all the man's possessions. #STR_HelpNecromancerSuccess
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -225,7 +225,7 @@ INCLUDE include.ink
         -> END
     
     =raiseFail
-    Пацярпеўшы няшчасьце, вы вырашаеце забраць усю маёмасьць мяртвяка ў якасьці кампенсацыі за прамарнаваны час. #STR_HelpNecromancerFail
+    Having failed you decide to take all the dead man's possessions as compensation for wasting your time. #STR_HelpNecromancerFail
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -238,7 +238,7 @@ INCLUDE include.ink
         -> END
 
 ===AfterLift===
-    Вашая партыя падымае фурманку з чалавека, і ён {InjuryText3}. #STR_AfterLiftMedicine1
+    Your party lifts the cart off the man and he {InjuryText3}. #STR_AfterLiftMedicine1
 
     //Is Injured?
         {InjuryRoll:
@@ -247,22 +247,22 @@ INCLUDE include.ink
         }
 
         =Injury
-            Як вы будзеце лячыць яго раны? #STR_AfterLiftMedicine2
-                *[Лячыць яго медыцынай {MedicineSkillCheckText}]
-                    Вашы лепшы лекар прыступае да працы і спрабуе вылекаваць чалавека. #STR_AfterLiftMedicine
+            How will you treat his injury? #STR_AfterLiftMedicine2
+                *[Treat him with medicine {MedicineSkillCheckText}]
+                    Your best doctor goes to work attempting to fix the man up. #STR_AfterLiftMedicine
                         {MedicineSkillCheckTest: ->Success | ->Fail}
                         
-                *{LoreOfLifeInParty}[Лячыць яго магіяй {SpellcraftSkillCheckText}]
-                    Заклінальнік вашай партыі заклікае Вятры Гірана, каб загаіць раны чалавека. #STR_AfterLiftMagic
+                *{LoreOfLifeInParty}[Treat him with magic {SpellcraftSkillCheckText}]
+                    A spellcaster in your party calls upon the winds of Ghyran to mend the man's wounds. #STR_AfterLiftMagic
                         {SpellcraftSkillCheckTest: ->Success | ->Fail}
                     
         =Success
-            Вашае лекаваньне пасьпяховае, цяпер з чалавекам будзе ўсё файна. #STR_AfterLiftHealSuccess
+            Your treatment succeeds and the man will now be fine. #STR_AfterLiftHealSuccess
                 ~ BonusRoll = RANDOM(0,100)
                 ->Reward
             
         =Fail
-            Вашае лекаваньне няўдалае і чалавек {InjuryText4}. #STR_AfterLiftHealFail
+            Your treatment fails and the man {InjuryText4}. #STR_AfterLiftHealFail
                 {InjuryRoll:
                     -2:
                         ~ ManAlive = false
@@ -274,9 +274,9 @@ INCLUDE include.ink
     {ManAlive:->LiveReward|->DeadReward}
 
     =LiveReward
-        Атрымаўшы выратаваньне, чалавек {HasExtorted: begrudgingly} дзякуе вас за дапамогу{HasExtorted: і дае вам абяцаную ўзнагароду}.#STR_RewardAlive1 
-        {NotableChange: Зьбіраючы свае рэчы, ён гавора: "Я раскажу {Notable} пра вашыя ўчынкі як толькі вярнуся дадому". #STR_RewardAliveNotable}
-        {HasExtorted == false && BonusRoll >=50: Чалавек спыніўся на момант і сказаў: "Я ведаю, што сказаў, што ня мае многага, але, калі ласка, вазьміце ({RewardText}). Гэтай наймалае, чым я магу адказаць на вашую дабрыню". #STR_RewardAliveChance}
+        Having been saved, the man {HasExtorted: begrudgingly} thanks you for your help{HasExtorted: and gives you the promised reward }.#STR_RewardAlive1 
+        {NotableChange: As he starts gathering his things he says, "I will tell {Notable} of your deeds as soon as I am home."#STR_RewardAliveNotable} 
+        {HasExtorted == false && BonusRoll >=50: The man pausing for a moment says, "I know I said I didn't have much but please take this ({RewardText}). It's the least I can do for your kindness."#STR_RewardAliveChance} 
         
         {HasExtorted || (not HasExtorted && BonusRoll >=50):
             -true:
@@ -293,13 +293,13 @@ INCLUDE include.ink
         ->END
         
     =DeadReward
-        Што вашая партыя будзе рабіць далей? #STR_RewardDead1 
-            *[Пахаваць чалавека (Літасьць+)]
-                Вы вырашаеце пахаваць чалавека, спадзеючыся, што ён знойдзе супакой. #STR_RewardDeadBury 
-                {AddTraitInfluence("Mercy", 40)}
+        What will your party do next? #STR_RewardDead1 
+            *[Bury the man (Mercy+)]
+                You decide to bury the man, hoping that he can find peace. #STR_RewardDeadBury 
+                {AddTraitInfluence("Mercy", 160)}
                 ->DeadReward
-            *[Абрабаваць фурманку {HorsesAround: і забраць коней} ({RewardText}{HorsesAround:, +2 каня 0 роўня})]
-                Зараз, калі чалавек сышоў з жыцьця, ён болей ня мае патрэбы ў гэтых таварах. #STR_RewardDeadLoot 
+            *[Loot the cart {HorsesAround: and take the horses} ({RewardText}{HorsesAround:, +2 tier 0 horses})]
+                Now that the man has passed he obviously will not need the supplies anymore. #STR_RewardDeadLoot 
                 {ProfessionRoll:
                     -0: 
                         ~GiveGold(500)
@@ -310,15 +310,15 @@ INCLUDE include.ink
                 }
                 {HorsesAround: {GiveItem("old_horse",2)}}
                 ->DeadReward
-            *{PartyCanRaiseDead}[Узьняць яго ў якасьці касьцяка (+1 касьцяк){RaiseDeadSkillCheckText}]
-                Бо ад цела мерцьвяка няма аніякай карысьці, вы вырашаеце адрадзіць яго ў якасьці касьцяка. #STR_RewardDeadRiseDead
-                Вашая партыя спрабуе {RaiseDeadSkillCheckTest: пасьпяхова| няўдала} адрадзіць чалавека. #STR_RewardRiseDead2
+            *{PartyCanRaiseDead}[Raise him as a skeleton (+1 skeleton){RaiseDeadSkillCheckText}]
+                Since a dead man has no use for his body you decide to raise it as a skeleton. #STR_RewardDeadRiseDead 
+                Your party makes an attempt and {RaiseDeadSkillCheckTest: succeeds| fails}. #STR_RewardRiseDead2
                 
                 {RaiseDeadSkillCheckTest:
-                    -true: Цела чалавека ўздымаецца і накіроўваецца да астатняй часткі вашага войска. #STR_RewardDeadRiseDeadSuccess
+                    -true: The man's body stands up and shambles off to join the rest of your army. #STR_RewardDeadRiseDeadSuccess
                         ~ ChangePartyTroopCount("tor_vc_skeleton",1)
                 }
                 ->DeadReward
-            *[Рушыць далей (пакінуць)]
-                Вы вырашаеце, што прыйшоў час рухацца далей дзеля прадаўжэньня свайго шляху. #STR_RewardDeadLeave
+            *[Move along (leave)]
+                You decide that it is time to move on and continue your journey. #STR_RewardDeadLeave
                 ->END

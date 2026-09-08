@@ -1,5 +1,5 @@
 //Global story tags
-# title: Łahierny Ahoń
+# title: The Campfire
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -53,7 +53,7 @@
             //6. The Shootout (All ranged weapon skills)
         //Grouping 2: Talk about
             //1. Great Rulers (Steward, Leadership, Charm)
-            //2. Craftsman (Smithing and Engineering)
+            //2. Craftsman (Smithing and Engineering) - smithing's skill object is called Crafting
             //3. Negotiation (Charm, Trade, Roguery)
             //4. Traveling (Riding and Athletics)
             //5. Survival (Medicine, Scouting, Athletics)
@@ -66,13 +66,13 @@
                 
                 {MeleeWeaponRandom:
                     -1:
-                        ~ MeleeWeaponText = "Adnaručnaj Zbroi"
+                        ~ MeleeWeaponText = "One Handed"
                     -2:
-                        ~ MeleeWeaponText = "Dvuchručnaj Zbroi"
+                        ~ MeleeWeaponText = "Two Handed"
                     -3:
-                        ~ MeleeWeaponText = "Tronkavaj Zbroi"
+                        ~ MeleeWeaponText = "Polearm"
                 }
-
+                
 
         //Ranged
             VAR RangedWeaponRandom = 0
@@ -81,13 +81,13 @@
                 
                 {RangedWeaponRandom:
                     -1:
-                        ~ RangedWeaponText = "Łuka"
+                        ~ RangedWeaponText = "Bow"
                     -2:
-                        ~ RangedWeaponText = "Arbaleta"
+                        ~ RangedWeaponText = "Crossbow"
                     -3:
-                        ~ RangedWeaponText = "Kidańnia"
+                        ~ RangedWeaponText = "Throwing"
                     -4:
-                        ~ RangedWeaponText = "Poracha"
+                        ~ RangedWeaponText = "Gunpowder"
                 }
     
     //Group 1
@@ -101,29 +101,29 @@
             {StorySelect:
                 -0: ERROR
                 -1:
-                    ~ StoryName = "Palavańnie"
+                    ~ StoryName = "The Hunt"
                     ~ StoryBranch = ->TheHunt
-                    ~ StoryXpText = "(+1000 dośvieda da Vyviedki, {RangedWeaponText} i Taktyki)"
+                    ~ StoryXpText = "(+1000 XP for Scouting, {RangedWeaponText}, and Tactics)"
                 -2:
-                    ~ StoryName = "Zasadu"
+                    ~ StoryName = "The Ambush"
                     ~ StoryBranch = ->TheAmbush
-                    ~ StoryXpText = "(+1000 dośvieda da Lidarstva, Taktyki i Machlarstva)"
+                    ~ StoryXpText = "(+1000 XP for Leadership, Tactics, and Roguery)"
                 -3:
-                    ~ StoryName = "Pahoniu"
+                    ~ StoryName = "The Charge"
                     ~ StoryBranch = ->TheCharge
-                    ~ StoryXpText = "(+1000 dośvieda da Konnaj Jazdy, Tronkavaj Zbroi i Lidarstva)"
+                    ~ StoryXpText = "(+1000 XP for Riding, Polearm, and Leadership)"
                 -4:
-                    ~ StoryName = "Trymańnie Šychta"
+                    ~ StoryName = "Holding the Line"
                     ~ StoryBranch = ->HoldingTheLine
-                    ~ StoryXpText = "(+1000 dośvieda da {MeleeWeaponText}, Lidarstva i Taktyki)"
+                    ~ StoryXpText = "(+1000 XP for {MeleeWeaponText}, Leadership, and Tactics)"
                 -5:
-                    ~ StoryName = "Bojku"
+                    ~ StoryName = "The Brawl"
                     ~ StoryBranch = ->TheBrawl
-                    ~ StoryXpText = "(+1000 dośvieda da ŭsich navykaŭ zbroi blizkaha boju)"
+                    ~ StoryXpText = "(+1000 XP for all melee weapon skills)"
                 -6:
-                    ~ StoryName = "Stralaninu"
+                    ~ StoryName = "The Shootout"
                     ~ StoryBranch = ->TheShootout
-                    ~ StoryXpText = "(+750 dośvieda da ŭsich navykaŭ zbroi dalokaha boju)"
+                    ~ StoryXpText = "(+750 XP for all ranged weapon skills)"
             }
     
     //Group 2
@@ -137,25 +137,25 @@
             {DiscussionSelect:
                 -0: ERROR
                 -1:
-                    ~ DiscussionName = "Vybitnych Haspadaroŭ"
+                    ~ DiscussionName = "Great Rulers"
                     ~ DiscussionBranch = ->GreatRulers
-                    ~ DiscussionXpText = "(+1000 dośvieda da Zahadvańnia, Lidarstva i Charyzmy)"
+                    ~ DiscussionXpText = "(+1000 XP for Steward, Leadership, and Charm)"
                 -2:
-                    ~ DiscussionName = "Ramieśnikaŭ"
+                    ~ DiscussionName = "Craftsman"
                     ~ DiscussionBranch = ->Craftsman
-                    ~ DiscussionXpText = "(+1500 dośvieda da Kavalstva i Inžynieryi)"
+                    ~ DiscussionXpText = "(+1500 XP for Smithing and Engineering)"
                 -3:
-                    ~ DiscussionName = "Pieramovaŭ"
+                    ~ DiscussionName = "Negotiation"
                     ~ DiscussionBranch = ->Negotiation
-                    ~ DiscussionXpText = "(+1000 dośvieda da Charyzmy, Handlu i Machlarstva)"
+                    ~ DiscussionXpText = "(+1000 XP for Charm, Trade, and Roguery)"
                 -4:
-                    ~ DiscussionName = "Vandravańniaŭ"
+                    ~ DiscussionName = "Traveling"
                     ~ DiscussionBranch = ->Traveling
-                    ~ DiscussionXpText = "(+1500 dośvieda da Konnaj Jazdy i Atletyki)"
+                    ~ DiscussionXpText = "(+1500 XP for Riding and Athletics)"
                 -5:
-                    ~ DiscussionName = "Vyžyvańnia"
+                    ~ DiscussionName = "Survival"
                     ~ DiscussionBranch = ->Survival
-                    ~ DiscussionXpText = "(+1000 dośvieda da Miedycyny, Vyviedki i Atletyki)"
+                    ~ DiscussionXpText = "(+1000 XP for Medicine, Scouting, and Athletics)"
             }
             
             
@@ -168,26 +168,26 @@
 
 ===Start===
 
-Z nadychodam ciemry vy i vašyja paplečniki ŭładkoŭvajuć łahier. Nanač vy bačycie, što vašyja ludzi padzialilisia na dźvie hrupy. Zdajecca, adna raskazvaje vajskovyja historyi, inšaja prosta razmaŭlaje. #STR_Start1
+As it gets dark you and your men setup camp. As the night goes on you can see that your men have broken off into two groups. One seems to be telling war stories, while the other is just talking. #STR_Start1
 -> choice1
 
     =choice1
-        Što vy budziecie rabić? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
-            *[Słuchać historyju pra {StoryName} {StoryXpText}]
+        What will you do? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
+            *[Listen in on the story of {StoryName} {StoryXpText}]
                 ->StoryBranch
-            *[Dałučycca da abmierkavańnia {DiscussionName} {DiscussionXpText}]
+            *[Join in the discussion of {DiscussionName} {DiscussionXpText}]
                 ->DiscussionBranch
-            *[Skazać svaim ludziam adpačyć (Usie paranienyja kampańjony i vajary buduć vylekavany)]
-                Vy skazali svaim ludziej pabolej paspać i adpačyć.
+            *[Tell your men to get some rest (All companions healed and all wounded troops restored)]
+                You tell your men to head to bed early and get all the rest they can.
                 ~ HealPartyToFull()
                 ->END
 
 ===TheHunt===
-    Siarod patreskvańnia vohnišča zadychany hołas sałdata raskazvaŭ pra ŭtojlivaść i pieraśled. Mihatlivaje połymia, zdavałasia, adlustroŭvała pradčuvańnie ŭ vačach jaho spadarožnikaŭ, što schililisia pasłuchać. #STR_TheHunt1
+    Amidst the crackling of the campfire, a grizzled soldier's voice carried a tale of stealth and pursuit. The flickering flames seemed to mirror the anticipation in the eyes of his companions as they leaned in to listen. #STR_TheHunt1
 
-"Pasłuchajcie, chłopcy i dzieŭki - pačaŭ sałdat: dazvolcie mnie raskazać vam pra našaje apošniaje palavańnie. Stajała bieźmiesiacovaja noč, našyja kroki vyznačalisia cieniami i šołacham liścia. Našyja vyviedniki prabiralisia praz zaraśniki, zorka sočačy za minataŭram..." #STR_TheHunt2
+"Listen up, lads and lasses," the soldier began, "let me regale you with the tale of our last hunt. It was a moonless night, our steps guided by shadows and the rustling leaves. Our scouts moved through the underbrush, eyes sharp and senses alert as we sensed a minotaur..." #STR_TheHunt2
 
-Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ryzyku pahoni i napruhu, što pavisła ŭ pavietry. Słovy apaviadańnika malavali jarkuju karcinu chitraści i stratehii, i naprykancy apovieda sałdaty stali pa-novamu razumieć, što takoje vyviedka i majsterstva palavańnia. #STR_TheHunt3
+As the story unfolded, the soldiers felt themselves drawn into the narrative, experiencing the thrill of the chase and the tension that hung in the air. The storyteller's words painted a vivid picture of cunning and strategy, and by the time the tale concluded, the soldiers had a newfound appreciation for scouting and the art of the hunt. #STR_TheHunt3
     
     //Give Xp
         ~ GiveSkillExperience("Scouting",1000)
@@ -206,11 +206,11 @@ Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ry
     -> END
 
 ===TheAmbush===
-    Siarod tresku vuhloŭ prahučaŭ hołas sałdata z hareznym blaskam u vačach. Ciopły vodblisk vohnišča aśviatlaŭ nieciarplivyja tvary jaho tavaryšaŭ, jakija sieli pasłuchać apovied. #STR_TheAmbush1
+    Amid the crackling embers, a soldier's voice rose with a mischievous glint in his eye. The campfire's warm glow illuminated the eager faces of his comrades as they settled in for the story. #STR_TheAmbush1
 
-"Źbirajciesia, chłopcy, - skazaŭ sałdat z uchmyłkaj: i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Naš płan byŭ chitry, ruchi imklivyja. My nanieśli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..." #STR_TheAmbush1
+"Gather 'round, men," the soldier said with a grin, "and let me tell you about the ambush we survived. Picture this—a Mannslieblit night, the enemy beastmen advancing unaware. Our plan was cunning, our movements swift. We struck with surprise and ferocity, turning the tide in our favor..." #STR_TheAmbush2
 
-Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. Śmiech i ŭchvalnyja kivy supravadžali kancoŭku apovieda, pakidajučy ŭ sałdataŭ hłybiejšaje razumieńnie taktyki i mocy dobra zładžanaj zasady. #STR_TheAmbush3
+The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tale's conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush. #STR_TheAmbush3
     
         //Give Xp
             ~ GiveSkillExperience("Leadership",1000)
@@ -219,11 +219,11 @@ Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. 
     -> END
 
 ===TheCharge===
-    Ciopłyja abdymki vohnišča adkidvali skoki cieniaŭ na tvary navakolnych vajaroŭ. Ich uvaha była prykuta, kali ŭ pavietry zahučaŭ hołas zahartavanaha ŭ bajach vajara. #STR_Charge1
+    The fire's warm embrace cast dancing shadows upon the faces of the soldiers gathered around. Their attention was rapt as a battle-hardened warrior's voice filled the air. #STR_Charge1
 
-"Słuchajcie ŭvažliva, siabry maje - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Heta byŭ dzień, abłaskany pramieniami zychodziačaha sonca. Našyja koni byli ŭ nieciarpieńni, ich kapyty hrukali ab ziamlu. Z hrymotnym pokličam my rynulisia ŭ boj..." #STR_Charge2
+"Listen well, my friends," the soldier began, "to the tale of our last battle. It was a day bathed in the glow of a setting sun. Our horses were eager, their hooves pawing at the earth. With a thunderous cry, we charged..." #STR_Charge2
 
-Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapyty. Historyja malaŭničuju karcinu jadnańnia i advahi, prymušajučy sałdataŭ hłybiej razumieć asablivaści konnaj jazdy, abychodžańnia sa zbrojaj i siłu zładžanaj kamandy. #STR_Charge3
+The soldiers could almost feel the rush of wind against their faces and the pounding of hooves beneath them. The story painted a vivid picture of unity and bravery, leaving the soldiers with a deeper understanding of riding, weapon usage, and the power of a well-coordinated charge. #STR_Charge3
     
     //Give Xp
         ~ GiveSkillExperience("Riding",1000)
@@ -232,11 +232,11 @@ Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapy
     -> END 
 
 ===HoldingTheLine===
-    Siarod miakkaha patreskvańnia vohnišča hołas sałdata hučaŭ navažna. Vodbliski połymia, zdavałasia, adlustroŭvali rašučaść u vačach jaho tavaryšaŭ. #STR_HoldingTheLine1
+    Amidst the campfire's gentle crackle, a soldier's voice carried the weight of determination. The glow of the flames seemed to mirror the resolve in the eyes of his companions. #STR_HoldingTheLine1
 
-"Słuchajcie ŭvažliva, siabry maje - z niepachisnaj pierakananaściu pramoviŭ sałdat: apovied pra našu apošniuju bitvu. Heta byŭ momant nieparušnaha jadnańnia, my budavali tryvały šerah, začyniŭšysia ščytami dla nadziejnaj abarony. Kali armija niežyci nastavała, my stajali navažna..." #STR_HoldingTheLine2
+"Listen closely, my friends," the soldier spoke with unwavering conviction, "to the tale of our last battle. It was a moment of unbreakable unity as we positioned ourselves to hold strong, shields locked in steadfast defense. As the undead army advanced, we stood resolute..." #STR_HoldingTheLine2
 
-Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać poruč z vajarami hetaj historyi. Słovy apaviadańnika padkreślili važnaść lidarstva i taktyki, što dazvoliła sałdatam hłybiej zrazumieć majsterstva abarony. #STR_HoldingTheLine3
+The soldiers felt a sense of solidarity wash over them, as if they were standing side by side with the warriors of the story. The storyteller's words emphasized the importance of leadership and tactics, leaving the soldiers with a deeper appreciation for the art of defense. #STR_HoldingTheLine3
     
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
@@ -254,11 +254,11 @@ Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać
     -> END
 
 ===TheBrawl===
-    U mihatlivym śviatle vohnišča hołas sałdata raskazvaŭ pra tavarystva i siabroŭskaje supiernictva. Śmiech źmiešvaŭsia z treskam połymia, kali jaho tavaryšy nachilalisia, žadajučy pačuć apovied. #STR_TheBrawl1
+    Around the campfire's flickering light, a soldier's voice carried a tale of camaraderie and friendly competition. Laughter mingled with the crackling of flames as his companions leaned in, eager to hear the story. #STR_TheBrawl1
 
-"Voch, siabry - uśmichnuŭsia sałdat: dazvolcie raskazać vam toje-sioje pra zdareńnie na apošnich rychtoŭlach! Heta była noč viesiałości, što pieratvaryłasia ŭ zapalnaje spabornictva. My hulliva praviarali svaje siły, kožny ŭdar i adbićcio byli tancam majsterstva..." #STR_TheBrawl2
+"Ah, my comrades," the soldier chuckled, "let me tell you of what occured the last training session! It was a night of merriment turned into spirited contest. We playfully tested our mettle, each strike and parry a dance of skill..." #STR_TheBrawl2
 
-Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy pra siabroŭskija dvuboi. Słovy apaviadańnika padkreślivali viazi tavarystva i praktykavańni ručnoha boju, pakidajučy ŭ sałdataŭ adčuvańnie ahulnaha dośviedu. #STR_TheBrawl3
+The soldiers shared knowing glances, their own memories of friendly contests coming to mind. The storyteller's words emphasized the bonds of camaraderie and the lessons of melee combat techniques, leaving the soldiers with a sense of shared experience. #STR_TheBrawl3
     
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
@@ -267,11 +267,11 @@ Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy 
     -> END
 
 ===TheShootout===
-    U ciopłych abdymkach vohnišča hołas sałdata ŭzvysiŭsia ad pradčuvańnia. U vačach jaho spadarožnikaŭ skakali ahieńčyki, kali jany raźmiaścilisia, kab pasłuchać apovied. #STR_TheShootout1
+    Amidst the warm embrace of the campfire, a soldier's voice rose with a sense of anticipation. The flames danced in the eyes of his companions as they settled in to hear the tale. #STR_TheShootout1
 
-"Słuchajcie ŭvažliva, paplečniki - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Ujavicie sabie nieba, zaciahnutaje chmarami, na jakim razhortvajecca demanstracyja strałkovaha majsterstva: moj połk naceliŭsia na nadychodziačych pačvar. Łuki, arbalety, kidalnyja nažy, parachavaja zbroja..." #STR_TheShootout2
+"Listen closely, my comrades," the soldier began, "to the tale of our last battle. Imagine a sky heavy with clouds, setting the stage for a display of ranged prowess as my regiment aimed for the approaching beastmen. Bows, crossbows, throwing knives, and gunpowder weapons took center stage..." #STR_TheShootout2
 
-Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snaradaŭ i streł u pavietry. Słovy apaviadańnika padkreślili ŭsie tonkaści boju na dystancyi i dazvolili sałdatam hłybiej zrazumieć usialakija navyki vałodańnia dystancyjnaj zbrojaj. #STR_TheShootout3
+The soldiers exchanged nods, their minds vividly painting scenes of arrows and projectiles soaring through the air. The storyteller's words underscored the intricacies of ranged combat, leaving the soldiers with a deeper understanding of various ranged weapon skills. #STR_TheShootout3
     
     //Give Xp
             ~ GiveSkillExperience("Bow",750)
@@ -281,11 +281,11 @@ Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snar
     -> END
 
 ===GreatRulers===
-    U ciopłym śviatle vohnišča hrupa vajaroŭ zachoplena raskazvała pra vialikich haspadaroŭ Staroha Śvieta. U ich hałasach hučała zachapleńnie i pavaha, a ŭ apoviedach pieraplatalisia ŭroki lidarstva i haspadarskaha majsterstva. #STR_GreatRulers1
+    Amidst the warm glow of the campfire, a group of soldiers engaged in a spirited conversation about the great rulers of the Old World. Their voices carried admiration and respect, their tales interwoven with lessons of leadership and statecraft. #STR_GreatRulers1
 
-Adzin z vajaroŭ pačaŭ z hłybokaj pašanaj u hołasie: "Davajcie pahavorym pra lehiendarnych haspadaroŭ, što stvaryli našyja ziemli. Nakolki ja čuŭ, vialiki Karł Franc, zdajecca, padtrymlivaŭ svaju reputacyju, bo dla panavańnia nad krainaj, patrebna šmat rečaŭ..." #STR_GreatRulers2
+One soldier began, his voice laden with reverence, "Let us speak of the legendary rulers who shaped our lands. Last I heard, the great Karl Franz seemed to uphold his reputation well, as it takes a lot to govern..." #STR_GreatRulers2
 
-Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych haspadaroŭ vybitnymi - majsterstvy zahadvańnia i lidarstva, charyzma, što jadnała paddanych. Uroki ŭkaranilisia ŭ ich śviadomaści i pryviali da hłybiejšaha razumieńnia adkaznaści, jakuju niasie z saboj ułada. #STR_GreatRulers3
+As the stories flowed, the soldiers contemplated the qualities that made these rulers exceptional—their mastery of stewardship, the art of leadership, and the charisma that united their subjects. In their minds, the lessons of stewardship, leadership, and charm took root, leaving them with a deeper understanding of the responsibilities that came with power. #STR_GreatRulers3
     
     //Give Xp
             ~ GiveSkillExperience("Steward",1000)
@@ -294,23 +294,23 @@ Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych hasp
     -> END
 
 ===Craftsman===
-    Padčas siabroŭskaj hutarki ŭ vohnišča hrupa sałdataŭ mianiałasia apoviedami pra dzivy ramiesnaha i inžyniernaha majsterstvaŭ. U ich hałasach hučała pačućcio hłybokaj pašany i zachapleńnia, kali jany raskazvali pra vyčyny majstroŭ-ramieśnikaŭ i hienijalnych inžynieraŭ. #STR_Craftsman1
+    Amidst the camaraderie of the campfire, a group of soldiers exchanged tales of craftsmanship and engineering marvels. Their voices held a sense of awe and admiration as they recounted the feats of master artisans and ingenious engineers.  #STR_Craftsman1
 
-"Słuchajcie ŭvažliva, tavaryšy - zaklikaŭ adzin z sałdataŭ: mała chto viedaje pra hetaje, ale mnie paščaściła vučycca inžyniernaj spravie ŭ dvarfa. Vaładarstvy dvarfaŭ - śviedčańnie kavalskaha majsterstva..." #STR_Craftsman2
+"Listen closely, comrades," one soldier urged, "Not many know this, but I have had the blessing to learn about engineering from a dwarf. The Dwarfen holds are a testament to the art of smithing..." #STR_Craftsman2
 
-Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynachodlivaściu, jakaja ruchała hetymi vyčynami. Abmiarkoŭvajučy kavalskuju dy inžyniernuju spravy i dzivy, narodžanyja ŭ hałovach majstroŭ i dvarfaŭ, sałdaty znoŭ znajšli razumieńnie hetych žyćciova važnych prafiesijaŭ. #STR_Craftsman3
+As the stories unfolded, the soldiers marveled at the intricate designs and the sheer ingenuity that drove these feats. Their discussions delved into the realms of smithing, engineering, and the marvels born from the minds of skilled craftsmen and craftsdwarfs, leaving them with a newfound appreciation for these vital trades. #STR_Craftsman3
     
     //Give Xp
-            ~ GiveSkillExperience("Smithing",1500)
+            ~ GiveSkillExperience("Crafting",1500)
             ~ GiveSkillExperience("Engineering",1500)
     -> END
 
 ===Negotiation===
-    U mihatlivym śviatle vohnišča hrupa sałdataŭ raskazvała adzin adnamu historyi pra pieramovy i handal. Śmiech źmiešvaŭsia ź ich hałasami, kali jany raskazvali jak pra ŭdałyja pieramovy, hetak i pra paciešnyja vypadki, kali spravy išli drenna. #STR_Negotiation1
+    Amidst the flickering firelight, a group of soldiers regaled one another with stories of haggling and trade. Laughter mingled with their voices as they shared both successful negotiations and amusing tales of when things had gone awry. #STR_Negotiation1
 
-"Voch, tavaryšy - uśmichnuŭsia adzin z sałdataŭ: dazvolcie mnie padzialicca z vami majsterstvam pieramovaŭ i tancam handlu. Ad handlu z chitrymi paŭroślikami da sustrečy z praniklivymi handlarami Maryjenburha - šlach da sumlennaj uhody vysłany dościpam i chitraściu..." #STR_Negotiation2
+"Ah, my comrades," one soldier chuckled, "let me share the art of haggling and the dance of trade. From bartering with the wily halflings to facing the shrewd merchants of Marienburg, the path to a fair deal is lined with wit and cunning..." #STR_Negotiation2
 
-Sałdaty nachilalisia, zachoplenyja apoviedami pra dościp i błaźnierstva, jakija razhortvalisia na šumnych kirmašach i bazarach Staroha Śvieta. Jany razvažali pra tonki bałans čaraŭ, handlovaj chvatki i vypadkovych promachaŭ, jakija byli ŭłaścivyja hetamu kraju, što dazvoliła im hłybiej zrazumieć majsterstva viadzieńnia pieramovaŭ. #STR_Negotiation3
+The soldiers leaned in, captivated by the stories of wit and banter that had unfolded in the bustling markets and bazaars of the Old World. They contemplated the delicate balance of charm, trade acumen, and the occasional misstep that came with the territory, leaving them with a deeper understanding of the art of negotiation. #STR_Negotiation3
     
     //Give Xp
             ~ GiveSkillExperience("Charm",1000)
@@ -319,11 +319,11 @@ Sałdaty nachilalisia, zachoplenyja apoviedami pra dościp i błaźnierstva, jak
     -> END
 
 ===Traveling===
-   U treskie vohnišča hrupa sałdataŭ raskazvała pra svaje padarožžy i konnyja pachody. U ich hałasach hučali notki pryhodaŭ i tavarystva, kali jany raskazvali pra padarožžy pa padstupnych łandšaftach i sustrečach z nasielnikami Staroha Śvieta. #STR_Traveling1
+   Around the crackling fire, a group of soldiers shared tales of their travels and experiences on horseback. Their voices held a sense of adventure and camaraderie as they recounted journeys across treacherous landscapes and encounters with the denizens of the Old World. #STR_Traveling1
 
-"Zachavać zdaroŭje bajavoha kania - zajaviŭ adzin z sałdataŭ: heta asobnaje zadańnie. Suviaź pamiž vieršnikam i kaniom - heta suviaź, nie padobnaja ni na jakuju inšuju..." #STR_Traveling2
+"Keeping a battlehorse healthy," one soldier declared, "that is its own challenge. The bond between rider and steed is a connection unlike any other..." #STR_Traveling2
 
-Pa miery apaviadańnia pra pryhody, sałdaty pieranosilisia ŭ dalokija krainy i dzikuju pryrodu. Jany razvažali pra majsterstva konnaj jazdy i pra nieparyŭnuju suviaź pamiž vieršnikam i jaho žyviołaj, što dazvoliła im hłybiej acanić konnaje majsterstva padarožžaŭ. #STR_Traveling3
+As the stories wove their tapestry of adventure, the soldiers found themselves transported to distant lands and untamed wilderness. They contemplated the skills of riding and the unbreakable bond between a rider and their mount, leaving them with a deeper appreciation for the art of traveling on horseback. ##STR_Traveling3
     
     //Give Xp
             ~ GiveSkillExperience("Riding",1500)
@@ -331,11 +331,11 @@ Pa miery apaviadańnia pra pryhody, sałdaty pieranosilisia ŭ dalokija krainy i
     -> END
     
 ===Survival===
-    U miakkim treskie vohnišča hrupa sałdataŭ padzialiłasia svaim dośviedam vyžyvańnia ŭva ŭmovach dzikaj pryrody. Ich hałasy nieśli ŭ sabie hruz dośviedu, raskazvajučy pra znachodlivaść i ciahavitaść pierad tvaram pryrodnych vyprabavańniaŭ. #STR_Survival1
+    Amidst the gentle crackling of the fire, a group of soldiers shared their insights on surviving in the wilderness. Their voices carried the weight of experience as they recounted tales of resourcefulness and endurance in the face of nature's challenges. #STR_Survival1
 
-"Słuchajcie ŭvažliva - pačaŭ adzin z sałdataŭ, jaho hołas byŭ roŭnym i ŭpeŭnienym: ja raskažu vam pra toje, jak słušna vyžyvać u samoj huščy dzikich lasoŭ. Ad zdabyčy pražytka da navihacyi ŭ hustych lasach i padstupnych bałotach - hałoŭnaje zrazumieć rytmy ziamli..." #STR_Survival2
+"Listen well," one soldier began, his voice steady and assured, "for I shall impart the wisdom of how to properly survival in the thickest wild woods. From foraging for sustenance to navigating the dense forests and treacherous swamps, the key lies in understanding the land's rhythms..." #STR_Survival2
 
-Pa chodzie apovieda sałdaty akunalisia ŭ majsterstva vyžyvańnia, vučylisia čytać znaki pryrody i prystasoŭvacca da jaje vymohaŭ. U apoviedach admiennaja ŭvaha nadavałasia navykam miedycyny, vyviedki dy atletyki, i sałdaty znoŭ znachodzili pavahu da niaŭmolnaha i ŭ toj ža čas cudoŭnamu śvietu za miežami cyvilizacyi. #STR_Survival3
+As the tales unfolded, the soldiers found themselves immersed in the art of survival, learning to read the signs of nature and adapt to its demands. The stories emphasized the skills of medicine, scouting, and athleticism, leaving the soldiers with a newfound respect for the unforgiving yet awe-inspiring world beyond the safety of civilization. #STR_Survival3
     
     //Give Xp
             ~ GiveSkillExperience("Medicine",1000)
@@ -345,3 +345,29 @@ Pa chodzie apovieda sałdaty akunalisia ŭ majsterstva vyžyvańnia, vučylisia 
 
 
 -> END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

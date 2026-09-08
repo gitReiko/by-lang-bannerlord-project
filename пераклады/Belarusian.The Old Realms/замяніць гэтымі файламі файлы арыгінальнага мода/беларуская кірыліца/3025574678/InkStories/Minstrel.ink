@@ -1,5 +1,5 @@
 //Global story tags
-# title: Вандроўныя Трубадуры
+# title: Traveling Troubadours
 # frequency: Special
 # development: false
 # illustration: minstrel
@@ -11,24 +11,25 @@ INCLUDE include.ink
 
 ===START===
 ~ PlayMusic("west_bretonnia")
-Падчас падарожжа вашы слых ловіць ажыўленую размову групы трубадураў. Іх яркія ўборы і энергічныя жэсты кажуць пра іхняе захапленьне сваім рамяством. Цікаўнасьць падштурхоўвае вас падысьці бліжэй, і, калі вы набліжаецеся, іх гутарка павольна ператвараецца ўва імправізаваны выступ. #STR_Start1
+During your travels, your ears catch the lively chatter of a group of troubadours engaged in an animated conversation. Their vibrant attire and energetic gestures suggest a shared passion for their craft. Curiosity beckons you closer, and as you approach, their discussion shifts seamlessly into an improvised performance. #STR_Start1
 
-Захопленыя іх гарманічнымі галасамі, вы вырашаеце застацца і паслухаць. Музыка трубадураў пляце аповед, які выходзіць за межы словаў. Рытм іх песьні уцягвае вас у супольны момант, калі ўсе трывогі і няпэўнасьці сьвету нібы зьнікаюць. #STR_Start2
+Captivated by their harmonious voices, you decide to stay and listen. The troubadours' music weaves a narrative that transcends mere words. The rhythm of their song pulls you into a shared moment, where the world's worries and uncertainties seem to fade away. #STR_Start2
 
-Калі выступ дасягае кульмінацыі, пагляды трубадураў сустракаюцца, іхнія усьмешкі адлюстроўваюць радасьць, якую яны выпрабоўваюць ад творчага памену. І тады, з апошняй, трыумфальнай нотай, іх песьня завяршаецца. #STR_Start3
+As their performance reaches its climax, the troubadours' gazes meet, their smiles reflecting the joy they find in their artistic exchange. And then, with a final, triumphant note, their song comes to an end. #STR_Start3
 
-*[Пляскаць у ладоні] -> Applaud
-*[Выказаць сваю ўдзячнасьць] -> Appreciate
+*[Clap and applaud] -> Applaud
+*[Express your appreciation] -> Appreciate
 
 ===Applaud===
-Ахопленыя чараўніцтвам моманту, вы выяўляеце, што пляскаеце разам з сабраным натоўпам, што з'яўляецца негалосным прызнаньнем прыгажосьці, якую вы толькі што адчулі. #STR_Applaud1
+Caught up in the magic of the moment, you find yourself clapping along with the gathered crowd, an unspoken acknowledgement of the beauty you've all just experienced. #STR_Applaud1
 ->Leave
 
 ===Appreciate===
-Вашае сэрца перапаўняецца ўдзячнасьцю, і вы выказваеце глыбокую пашану трубадурам за іхні выступ. Яны мяняюцца дасьведчанымі паглядамі, іхнія усьмешкі цёплыя і шчырыя. #STR_Appreciate2
+Your heart full of gratitude, you express your deep appreciation for the troubadours' performance. They exchange a knowing glance, their smiles warm and genuine.
+#STR_Appreciate2
 ->Leave
 
 ===Leave===
-Адзьдзячыўшы, вы пакідаеце трубадураў працягваць свае музычныя прыгоды і забіраеце з сабой успаміны пра іхні імправізаваны выступ, дзеля працягненьня свайго уласнага шляху. #STR_Leave1
-(Націсьніце "Завяршыць (End)", каб спыніць музыку, калі яна дагэтуль прайграецца.) #STR_Leave2
+With a final nod of appreciation, you leave the troubadours to continue their musical journey, carrying the memory of their impromptu performance with you as you resume your own path. #STR_Leave1
+(Clicking on "End" will stop the music if it's still playing.) #STR_Leave2
 ->END
