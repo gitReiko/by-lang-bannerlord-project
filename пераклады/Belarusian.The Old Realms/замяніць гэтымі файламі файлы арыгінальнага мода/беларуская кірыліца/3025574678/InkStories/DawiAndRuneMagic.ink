@@ -1,5 +1,5 @@
 //Global story tags
-# title: Dawi and Rune Magic
+# title: Даві й рунная магія
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -9,16 +9,16 @@ INCLUDE include.ink
 ->START
 
 ===START===
-To start, you need to find tomes and scrolls describing rituals behind individual runes. These can be purchased from Runesmiths across the Karaz Ankor. However, it is possible one might encounter long-lost runes when clearing dangerous threats, vaults, and lairs found on the continent.
-Afterwards you can learn runes from the acquired scrolls. Once learned, you can either speak to different Runesmiths or head to the artisan district in any Karak. There, you can apply your runes to an artifact of your choosing. This action, however, requires you to possess certain unique materials…
-When it comes to the most potent runes, I am afraid their knowledge is lost to us. Our runesmiths, as well as many underground expeditions, constantly busy themselves with searching for this lost knowledge. I would not be surprised to stumble upon such runes in the darkest and most dangerous corners of the realm.
+Спачатку трэба знайсьці фаліянты й скруткі з апісаньнямі абрадаў асобных рунаў. Іх можна набыць у рунных кавалёў па ўсім Караз Анкоры. Аднак даўно забытыя руны могуць трапіцца вам і падчас змаганьня зь небясьпечнымі пагрозамі, дасьледаваньня сховішчаў ды логаваў на кантынэнце.
+Пасьля гэтага вы зможаце вывучыць руны з набытых скруткаў. Вывучыўшы іх, зьвярніцеся да рунных кавалёў або накіруйцеся ў рамесьніцкі квартал любога караку. Там вы зможаце нанесьці руны на абраны артэфакт. Аднак для гэтага спатрэбяцца пэўныя ўнікальныя матэрыялы…
+Што да наймагутнейшых рунаў, баюся, веды пра іх для нас страчаныя. Нашыя рунныя кавалі й шматлікія падземныя экспэдыцыі няспынна шукаюць гэтыя забытыя веды. Я б не зьдзівіўся, калі б такія руны знайшліся ў найцямнейшых і найнебясьпечнейшых кутках гаспадарства.
 
-Onto the materials with magical properties:
-Arcane Scrolls might be found amidst the loot of the cultists of darkness. Those who use unreliable magic may also have it in their possession.
-Amber Crystals are said to originate from the forest of Athel Loren, the realm of wutelgi. Those that lurk amidst the forests, the strange elves and stranger beasts that roam under the trees, are bound to have Amber.
-When it comes to Blessed Water, you can always go to the many shrines of man to acquire some, but our rangers and kin from distant holds claim that bandits and thieves across Bretonnia and the forests of Laurelorn may also carry such items. The priests of the Empire do not take kindly to outsiders, however.
-Marvelous Gemstones are treasures of our proud kingdom. However, it is common for urk and grobi scum to carry Gemstones looted from our mines. These foul-smelling Greenskins will regret invading our holds, and every grudge will be satisfied.
-As a useful tool, practitioners of magic often carry Gemstones as well.
-Few in life come across such potent a substance as Dragon Blood… Perhaps those of the highest military ranking, valiant commanders and lords, or those who have reached the pinnacle of knighthood may have such a rare ingredient.
-As for the accursed thengduraz, corrupting Warpstone, the vilest substance of all, it is crucial to remember many civilized nations find this material highly illegal. You would need to fight at the very gates of Chaos or slay their cultists to acquire it. If one is particularly daring, then the blasted lands of Sylvania are rife with the foul stuff. But travellers be warned: In the lands perpetually shrouded in gloom and mist, the dead are more common than the living at times.
+Цяпер пра матэрыялы з магічнымі ўласьцівасьцямі:
+Арканныя скруткі можна знайсьці сярод здабычы культыстаў цемры. Яны таксама могуць быць у тых, хто карыстаецца ненадзейнай магіяй.
+Кажуць, бурштынавыя крышталі паходзяць зь лесу Атэль Лорэн, валадарства вутэльгі. У тых, хто хаваецца ў лясах, у дзіўных эльфаў і яшчэ дзіўнейшых зьвяроў, што блукаюць пад шатамі, напэўна знойдзецца бурштын.
+Па бласлаўлёную ваду заўсёды можна зьвярнуцца ў шматлікія людзкія капішчы, але нашыя рэйнджары й суродзічы з далёкіх цьвярдыняў сьцьвярджаюць, што бандыты й злодзеі Брэтоніі ды лясоў Лаўрэлорну таксама могуць мець яе пры сабе. Аднак сьвятары Імперыі ня надта зычлівыя да чужынцаў.
+Цудоўныя каштоўныя камяні — скарбы нашага гордага гаспадарства. Аднак уркі й гробскія падонкі часта носяць каштоўныя камяні, нарабаваныя ў нашых руднях. Гэтыя сьмярдзючыя зялёнаскурыя яшчэ пашкадуюць, што ўварваліся ў нашыя цьвярдыні, і за кожную крыўду будзе адплочана.
+Каштоўныя камяні карысныя й для чараваньня, таму тыя, хто карыстаецца магіяй, часта маюць іх пры сабе.
+Мала каму ў жыцьці трапляецца такое моцнае рэчыва, як драконавая кроў… Магчыма, гэты рэдкі складнік ёсьць у найвышэйшых вайсковых чыноў, доблесных ваяводаў і шляхцічаў ці тых, хто дасягнуў вяршыняў рыцарства.
+Што да праклятага тэнгдуразу, разбэшчвальнага варп-каменю, найагіднейшага з усіх рэчываў, дык трэба памятаць: у многіх цывілізаваных краінах гэты матэрыял строга забаронены. Каб здабыць яго, давядзецца біцца ля самых брамаў Хаосу або забіваць ягоных культыстаў. Асабліва сьмелыя знойдуць удосталь гэтай брыдоты на спустошаных землях Сыльваніі. Але, вандроўнікі, сьцеражыцеся: у краі, вечна ахутаным змрокам і туманам, мёртвых часам болей, чым жывых.
     -> END

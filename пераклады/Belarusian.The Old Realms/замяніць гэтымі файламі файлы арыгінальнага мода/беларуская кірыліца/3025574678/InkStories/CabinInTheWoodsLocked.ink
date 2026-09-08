@@ -1,5 +1,5 @@
 //Global story tags
-# title: Cabin In The Woods
+# title: Хаціна ў лесе
 # frequency: Common
 # development: false
 # illustration: roadpoint2
@@ -58,11 +58,11 @@ INCLUDE include.ink
     VAR LockText = ""
         {
             - LockQuality == 1:
-                ~ LockText = "weak"
+                ~ LockText = "слабы"
             - LockQuality == 2:
-                ~ LockText = "average"
+                ~ LockText = "сярэдняй трываласьці"
             - LockQuality == 3:
-                ~ LockText = "strong"
+                ~ LockText = "моцны"
         }
         
     ~ SetTextVariable("LockText",LockQuality)
@@ -76,11 +76,11 @@ INCLUDE include.ink
     VAR DoorText = ""
         {
             - DoorQuality == 1:
-                ~ DoorText = "weak"
+                ~ DoorText = "слабыя"
             - DoorQuality == 2:
-                ~ DoorText = "average"
+                ~ DoorText = "сярэдняй трываласьці"
             - DoorQuality == 3:
-                ~ DoorText = "strong"
+                ~ DoorText = "моцныя"
         }
 
     ~ SetTextVariable("DoorText",DoorQuality)
@@ -91,11 +91,11 @@ INCLUDE include.ink
         VAR RewardText = ""
             {
                 - RewardRoll == 0:
-                    ~ RewardText = "5 grain"
+                    ~ RewardText = "5 мер збожжа"
                 - RewardRoll == 1:
-                    ~ RewardText = "2 steel ingots"
+                    ~ RewardText = "2 сталёвыя зьліткі"
                 - RewardRoll == 2:
-                    ~ RewardText = "500 gold"
+                    ~ RewardText = "500 залатых"
             }
             
     ~ SetTextVariable("RewardText",RewardRoll)
@@ -117,50 +117,50 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    As your party is travelling along you come across a cabin in the woods. #STR_Start1
+    Падарожнічаючы, вашая партыя натрапляе на хаціну ў лесе. #STR_Start1
     
-    *[Approach the cabin]->Approach
-    *[Go on your way (Leave)]You decide it is better to move on for now.->END
+    *[Падысьці да хаціны]->Approach
+    *[Рушыць далей (Сысьці)]Вы вырашаеце, што пакуль лепей рушыць далей.->END
     
 ===Approach===
 
-As you approach the cabin you can see that it is heavily boarded up. The only door on the cabin seems to be locked tight. As you examine the door you see that the door is {DoorText} and that the lock on it is {LockText}. #STR_Approach1
+Падышоўшы да хаціны, вы бачыце, што яна наглуха забітая дошкамі. Адзіныя дзьверы, здаецца, моцна замкнёныя. Агледзеўшы іх, вы заўважаеце, што дзьверы {DoorText}, а замок на іх {LockText}. #STR_Approach1
 ->choice1  
 
     =choice1
-    What will your party do?
-    *[Knock on the door]You knock but no one answers.->Approach.choice1
+    Што зробіць вашая партыя?
+    *[Пастукаць у дзьверы]Вы стукаеце, але ніхто не адказвае.->Approach.choice1
     
     //Pick the lock (Roguery)
-        *[Pick the lock on the door {PartyRogueryCheckText}]
-            Your party's best "rogue" attempts to pick the lock.
-            {PartyRogueryCheckTest: Your party succeeds in getting through the lock. ->Inside | Your party fails to pick the lock. ->Approach.choice1}
+        *[Адамкнуць замок адмычкай {PartyRogueryCheckText}]
+            Найлепшы «злодзей» вашай партыі спрабуе адамкнуць замок.
+            {PartyRogueryCheckTest: Вашай партыі ўдаецца адамкнуць замок. ->Inside | Вашай партыі не ўдаецца адамкнуць замок. ->Approach.choice1}
         
     //Disassemble the Lock (Engineering)
-        *[Disassemble the lock {PartyEngineeringCheckText}]
-            Your party's best engineer attempts to disassemble the lock.
-            {PartyEngineeringCheckTest: Using a selection of their finest tools including screwdrivers, chisels, and a sledgehammer; your engineer masterfully disassembles the lock, so "thorough" is the disassembly that the lock will never be put back together. ->Inside | Your party fails to disassemble the lock. ->Approach.choice1}
+        *[Разабраць замок {PartyEngineeringCheckText}]
+            Найлепшы інжынэр вашай партыі спрабуе разабраць замок.
+            {PartyEngineeringCheckTest: Узброіўшыся найлепшымі прыладамі, сярод якіх адвёрткі, долаты й кувалда, ваш інжынэр майстэрска разьбірае замок — ды так «грунтоўна», што сабраць яго наноў ужо ніколі ня ўдасца. ->Inside | Вашай партыі не ўдаецца разабраць замок. ->Approach.choice1}
     
     //Blow up the door (Spellcraft)
-        *{PartyCanCastSpell == true}[Blow up the door {PartySpellcraftCheckText}]
-            Your party's best mage attempts to blow up the door with magic.
-            {PartySpellcraftCheckTest: Your party blows the door clean off its hinges. ->Inside |Your party fails to blow up the door. ->Approach.choice1}
+        *{PartyCanCastSpell == true}[Узарваць дзьверы {PartySpellcraftCheckText}]
+            Найлепшы маг вашай партыі спрабуе ўзарваць дзьверы чарамі.
+            {PartySpellcraftCheckTest: Вашая партыя выбухам зрывае дзьверы з завесаў. ->Inside |Вашай партыі не ўдаецца ўзарваць дзьверы. ->Approach.choice1}
             
     //Break down the door (Vigor)
-        *[Break down the door {PartyVigorCheckText}]
-            Your party's strongest member attempts to break down the door.
-            {PartyVigorCheckTest: Your party bashes the door clean off its hinges. ->Inside |Your party fails to break down the door. ->Approach.choice1}
+        *[Выламаць дзьверы {PartyVigorCheckText}]
+            Найдужэйшы ўдзельнік вашай партыі спрабуе выламаць дзьверы.
+            {PartyVigorCheckTest: Вашая партыя ўдарамі зрывае дзьверы з завесаў. ->Inside |Вашай партыі не ўдаецца выламаць дзьверы. ->Approach.choice1}
 
-    *[Go on your way (Leave)]You decide it is better to move on for now.->END
+    *[Рушыць далей (Сысьці)]Вы вырашаеце, што пакуль лепей рушыць далей.->END
 
 ===Inside===
 
-Your party gets inside the cabin and find that someone or something has stored some supplies here. #STR_Inside1
+Вашая партыя трапляе ў хаціну й выяўляе, што нехта ці нешта пакінула тут запасы. #STR_Inside1
 ->choice2 
 
     =choice2
-        *[Take the supplies ({RewardText})]
-            You take the {RewardText} and add it to your supplies before continuing on your way.
+        *[Забраць запасы ({RewardText})]
+            Вы забіраеце {RewardText}, дадаяце здабычу да сваіх запасаў і рушыце далей.
             {RewardRoll:
                 -0: 
                     ~ GiveItem("grain",5)
@@ -171,4 +171,4 @@ Your party gets inside the cabin and find that someone or something has stored s
             }
             ->END
         
-        *[Leave]You decide to leave the supplies and head on your way.->END
+        *[Сысьці]Вы вырашаеце пакінуць запасы й рушыць далей.->END

@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Dark Moon Rises
+# title: Узыходзіць Цёмны Месяц
 # frequency: Special
 # development: false
 # illustration: morrslieb_comet
@@ -38,12 +38,12 @@
 
 ===Start===
 {ResetRaiderSites()}
-A sickly green glow comes over the horizon, Morrslieb the Dark Moon is rising. Its mocking presence fills the sky, growing brighter as it bathes the world in its foul, tainted light., All across the land, dark magic begins to pool in places no sane man would dare to tread, causing the Winds of Magic to become erratic. #STR_START1
-The worshippers of darkness will seize upon this night to advance their twisted schemes and agendas. Beastmen gather howling and chanting, cultists undertake all manner of blasphemous ceremonies, and daemons start to walk the material plane stalking for prey. #STR_START2
-If one was to dare look directly at the moon they could swear it was smiling, smirking ominously at the terror it was to bring upon the world. However, if those who had looked upon it kept watching they would have seen this smile fade, turning into an almost angry frown as the moon found itself no longer alone in the sky. #STR_START3
-The Twin Tailed Comet burned bright across the heavens, almost as if to challenge Morrslieb. Casting its own light upon the dark moon as their paths crossed in the sky, the comet seemed to dampen the effect of Morrslieb's chaotic glow. #STR_START4
-As the night wore on, both of the celestial bodies would find their way over the horizon, and the next day would begin. #STR_START5
-Herdstones have been repopulated and Chaos Portals have reopened. #STR_START6
+Над даляглядам разьліваецца хваравіта-зялёнае зьзяньне: узыходзіць Морсьліб, Цёмны Месяц. Ягоная зьдзеклівая прысутнасьць запаўняе неба, усё ярчэй купаючы сьвет у агідным, апаганеным сьвятле. Па ўсім краі цёмная магія пачынае зьбірацца там, куды не наважыўся б ступіць ніводзін чалавек пры здаровым розуме, і Вятры Магіі робяцца няўстойлівымі. #STR_START1
+Прыхільнікі цемры скарыстаюць гэтую ноч для сваіх вычварных задумаў. Зьвералюды зьбіраюцца з выцьцём і сьпевамі, культысты ладзяць разнастайныя блюзьнерскія абрады, а дэманы выходзяць у матэрыяльны сьвет паляваць на здабычу. #STR_START2
+Той, хто наважыўся б паглядзець проста на месяц, мог бы прысягнуць, што ён усьміхаецца — злавесна кпіць з жаху, які прынясе сьвету. Аднак тыя, хто працягнуў бы глядзець, убачылі б, як гэтая ўсьмешка зьнікае й зьмяняецца амаль гнеўнай грымасай: месяц апынуўся на небе не адзін. #STR_START3
+Двуххвостая Камэта ярка палала ў нябёсах, нібы кідаючы выклік Морсьлібу. Калі іхныя шляхі перасекліся, камэта асьвятліла цёмны месяц сваім сьвятлом і, здавалася, аслабіла ўзьдзеяньне ягонага хаатычнага зьзяньня. #STR_START4
+Ноч мінала, абодва нябесныя целы зайшлі за далягляд, і пачаўся новы дзень. #STR_START5
+Ля стадных камянёў зноў сабраліся ворагі, а парталы Хаосу адкрыліся наноў. #STR_START6
 
 -> END
 

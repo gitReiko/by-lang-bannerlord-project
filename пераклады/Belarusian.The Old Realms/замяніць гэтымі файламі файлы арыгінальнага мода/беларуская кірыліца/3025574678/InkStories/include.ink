@@ -51,7 +51,7 @@ Possible school (lore) of magic names (case sensitive!)
 ===function print_player_skill_chance(skillName, skillLevelForCertainty)===
     ~ temp chance = limit100(INT(((GetPlayerSkillValue(skillName) / skillLevelForCertainty) * 100)))
     ~ SetPlayerSkillChance(skillName, chance)
-    ~ return "({skillName} check - success chance " + chance + "%)"
+    ~ return "(Праверка: {by_stat_name(skillName)} — шанец посьпеху " + chance + "%)"
 
 ===function perform_player_skill_check(skillName, skillLevelToCheckAgainst)===
     ~ return GetPlayerSkillValue(skillName) >= RANDOM(1,skillLevelToCheckAgainst)
@@ -59,7 +59,7 @@ Possible school (lore) of magic names (case sensitive!)
 ===function print_party_skill_chance(skillName, skillLevelForCertainty)===
     ~ temp chance = limit100(INT(((GetPartySkillValue(skillName) / skillLevelForCertainty) * 100)))
     ~ SetPartySkillChance(skillName, chance)
-    ~ return "({skillName} check - success chance " + chance + "%)"
+    ~ return "(Праверка: {by_stat_name(skillName)} — шанец посьпеху " + chance + "%)"
 
 ===function perform_party_skill_check(skillName, skillLevelToCheckAgainst)===
     ~ return GetPartySkillValue(skillName) >= RANDOM(1,skillLevelToCheckAgainst)
@@ -68,7 +68,7 @@ Possible school (lore) of magic names (case sensitive!)
 ===function print_player_attribute_chance(attributeName, attributeLevelForCertainty)===
     ~ temp chance = limit100(INT(((GetPlayerAttributeValue(attributeName) / attributeLevelForCertainty) * 100)))
     ~ SetPlayerAttributeChance(attributeName, chance)
-    ~ return "({attributeName} check - success chance " + chance + "%)"
+    ~ return "(Праверка: {by_stat_name(attributeName)} — шанец посьпеху " + chance + "%)"
 
 ===function perform_player_attribute_check(attributeName, attributeLevelForCertainty)===
     ~ return GetPlayerAttributeValue(attributeName) >= RANDOM(1,attributeLevelForCertainty)
@@ -76,7 +76,7 @@ Possible school (lore) of magic names (case sensitive!)
 ===function print_party_attribute_chance(attributeName, attributeLevelForCertainty)===
     ~ temp chance = limit100(INT(((GetPartyAttributeValue(attributeName) / attributeLevelForCertainty) * 100)))
     ~ SetPartyAttributeChance(attributeName, chance)
-    ~ return "({attributeName} check - success chance " + chance + "%)"
+    ~ return "(Праверка: {by_stat_name(attributeName)} — шанец посьпеху " + chance + "%)"
 
 ===function perform_party_attribute_check(attributeName, attributeLevelForCertainty)===
     ~ return GetPartyAttributeValue(attributeName) >= RANDOM(1,attributeLevelForCertainty)
@@ -326,3 +326,63 @@ EXTERNAL CloseStory()
 ===function CloseStory()===
     ~ return ""
 
+
+// Belarusian display names; external calls keep the original stat IDs.
+===function by_stat_name(statName)===
+    {statName:
+        - "OneHanded":
+            ~ return "Аднаручная зброя"
+        - "TwoHanded":
+            ~ return "Двухручная зброя"
+        - "Polearm":
+            ~ return "Тронкавая зброя"
+        - "Bow":
+            ~ return "Лук"
+        - "Crossbow":
+            ~ return "Арбалет"
+        - "Throwing":
+            ~ return "Кіданьне"
+        - "Riding":
+            ~ return "Конная язда"
+        - "Athletics":
+            ~ return "Атлетыка"
+        - "Scouting":
+            ~ return "Выведка"
+        - "Tactics":
+            ~ return "Тактыка"
+        - "Crafting":
+            ~ return "Кавальства"
+        - "Roguery":
+            ~ return "Махлярства"
+        - "Charm":
+            ~ return "Харызма"
+        - "Leadership":
+            ~ return "Лідарства"
+        - "Trade":
+            ~ return "Гандаль"
+        - "Steward":
+            ~ return "Загадваньне"
+        - "Medicine":
+            ~ return "Медыцына"
+        - "Engineering":
+            ~ return "Інжынерыя"
+        - "Faith":
+            ~ return "Вера"
+        - "Gunpowder":
+            ~ return "Парахавая зброя"
+        - "Spellcraft":
+            ~ return "Вядзьмарства"
+        - "Vigor":
+            ~ return "Дужасьць"
+        - "Control":
+            ~ return "Кантроль"
+        - "Endurance":
+            ~ return "Трываласьць"
+        - "Cunning":
+            ~ return "Хітрасьць"
+        - "Social":
+            ~ return "Сацыяльнасьць"
+        - "Intelligence":
+            ~ return "Інтэлект"
+    }
+    ~ return statName

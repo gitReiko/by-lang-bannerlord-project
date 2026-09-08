@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Calling of Da Gods
+# title: Покліч багоў
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -12,17 +12,17 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-After a night of prolonged dancing, you wake up with a horrible headache. You haved dealt with headaches before but this is different.
+Пасьля доўгай ночы танцаў вы прачынаецеся з жахлівым галаўным болем. Галава ў вас балела й раней, але гэтым разам усё іначай.
 
-It’s a throbbing pain, as if the gods themselves are shaking you around.
+Боль пульсуе, нібы самі багі трасуць вас з боку ў бок.
 
-Some boys gather around you, watching in awe and fear. You fall to your knees and vomit green bile onto the earth.
+Некалькі хлопцаў зьбіраюцца вакол і глядзяць з трапятаньнем і страхам. Вы падаеце на калені й ванітуеце зялёнай жоўцю на зямлю.
 
-In the foul-smelling mush you see meat chunks and bone splinters arranged in an image of a shrine, idols to Gork and Mork.
+У сьмярдзючай кашы вы бачыце кавалкі мяса й аскепкі касьцей, што склаліся ў выяву капішча зь ідаламі Горка й Морка.
 
-The gods are calling, it is time to answer.
+Багі клічуць, час адгукнуцца.
 
-+ [Where’s dis bloody place!?]
++ [Дзі эта праклітае міфца!?]
     ~ StartQuest("Quests.Careers.OrcShamanQuest1")
     ~ CloseStory()
     -> END

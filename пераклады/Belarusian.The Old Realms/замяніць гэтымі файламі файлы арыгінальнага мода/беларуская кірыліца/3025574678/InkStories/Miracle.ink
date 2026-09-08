@@ -1,5 +1,5 @@
 //Global story tags
-# title: A miracle of faith
+# title: Цуд веры
 # frequency: Special
 # development: false
 # illustration: tresure_chest
@@ -11,10 +11,10 @@ INCLUDE include.ink
 
 ===START===
 ~ GiveMiracleItem()
-You stand before the altar of the deity you have long revered, feeling a mix of reverence and anticipation. The air is thick with a sense of ancient power, and you can't help but feel a tinge of excitement. #STR_Start1
-As you kneel before the altar, you close your eyes and utter a heartfelt prayer. You recount your commitment and your unwavering faith. The words flow from your lips like a melody, carrying your devotion to the heavens. #STR_Start2
-A warm and gentle presence envelops you, as if the very air itself is responding to your devotion. You open your eyes to see a radiant light descending from above, bathing you in its ethereal glow. The light forms into a shimmering figure. #STR_Start3
-With a graceful gesture, the figure extends a hand toward you, palm open. In their hand, you see a radiant, pulsating artifact — a divine gift #STR_Start4
-You feel a mixture of awe and gratitude as you reach out and take the item from the figure's hand. Its warmth surges through you, filling you with a sense of empowerment and purpose. #STR_Start5
-As you leave the shrine, the world around you seems brighter, as if the very essence of your deity's blessing has illuminated your path. With the divine gift in your possession, you step into the future with confidence, ready to face whatever challenges may come, knowing that you are not alone. #STR_Start6
+Вы стаіце перад алтаром боства, якое даўно шануеце, поўныя пашаны й чаканьня. У паветры адчуваецца старажытная моц, і вы ня можаце стрымаць лёгкага хваляваньня. #STR_Start1
+Укленчыўшы перад алтаром, вы заплюшчваеце вочы й прамаўляеце шчырую малітву. Вы кажаце пра сваю адданасьць і непахісную веру. Словы ліюцца з вашых вуснаў, нібы мэлёдыя, узносячы вашую пабожнасьць да нябёсаў. #STR_Start2
+Вас ахінае цёплая й лагодная прысутнасьць, нібы само паветра адгукаецца на вашую адданасьць. Вы расплюшчваеце вочы й бачыце, як зьверху сыходзіць яркае сьвятло, купаючы вас у незямным зьзяньні. Сьвятло набывае абрысы мігатлівай постаці. #STR_Start3
+Плыўным рухам постаць працягвае да вас раскрытую далонь. На ёй вы бачыце прамяністы артэфакт, што пульсуе сьвятлом, — боскі дар. #STR_Start4
+З трапятаньнем і ўдзячнасьцю вы працягваеце руку й прымаеце прадмет з далоні постаці. Ягонае цяпло пранізвае вас, напаўняючы моцай і пачуцьцём прызначэньня. #STR_Start5
+Калі вы пакідаеце капішча, сьвет вакол здаецца ярчэйшым, нібы бласлаўленьне вашага боства асьвятліла вам шлях. З боскім дарам у руках вы ўпэўнена крочыце ў будучыню, гатовыя сустрэць любыя выпрабаваньні й ведаючы, што вы не адны. #STR_Start6
 ->END

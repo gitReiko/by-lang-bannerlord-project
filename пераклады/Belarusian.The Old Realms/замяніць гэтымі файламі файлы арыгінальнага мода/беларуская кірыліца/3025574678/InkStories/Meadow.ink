@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Meadow
+# title: Луг
 # frequency: Common
 # development: false
 # illustration: meadow
@@ -180,65 +180,65 @@
 
 ===Start===
 
-    You and your party have been trudging along a winding path, when the landscape gradually shifts. The air becomes gentler, the sounds more peaceful. #STR_Start1
-    And then, you step into a clearing, and a gasp escapes your lips. Before you stretches a meadow unlike any you've seen in a long while. The grass is a rich tapestry of green, waving softly in the breeze. A multitude of wildflowers paints the scene with vibrant hues of red, purple, and yellow. #STR_Start2
-    {IsNight(): Silver moonlight | Golden sunlight } filters through the tree canopy, bathing the meadow in warmth. A gentle aroma of blooming flowers perfumes the air. Birds serenade with their melodies, filling the clearing with a symphony that feels like a balm to your weary spirit. #STR_Start3
+    Вы з партыяй стомлена крочыце зьвілістай сьцежкай, калі краявід паступова мяняецца. Паветра робіцца лагаднейшым, гукі — спакайнейшымі. #STR_Start1
+    І вось вы выходзіце на адкрытае месца й міжволі ахкаеце. Перад вамі луг, падобнага да якога вы даўно ня бачылі. Трава — раскошны зялёны дыван — мякка калышацца на ветры. Мноства палявых кветак упрыгожвае краявід яркімі чырвонымі, пурпуровымі й жоўтымі фарбамі. #STR_Start2
+    {IsNight(): Срэбнае месяцовае сьвятло | Залатое сонечнае сьвятло } прабіваецца праз шаты дрэваў, лагодна ахінаючы луг. У паветры разьліваецца пяшчотны водар кветак. Птушкі сьпяваюць свае мэлёдыі, напаўняючы паляну сымфоніяй, што гаючым бальзамам кладзецца на ваш стомлены дух. #STR_Start3
         ->choice1
         
     =choice1
-        What will you have your party do? #STR_Start4
-            *[Forage for wild plants (Multiple attempts at {LoreOfLifeInParty: 75% chance (Improved by Lore of Life)| 50% chance} to succeed at harvesting various wild plants)] 
-            You order your party to forage amongst the plants of the meadow. #STR_Forage1
+        Што вы загадаеце сваёй партыі? #STR_Start4
+            *[Пазьбіраць дзікарослыя расьліны (Некалькі спробаў сабраць розныя дзікарослыя расьліны: {LoreOfLifeInParty: шанец посьпеху 75% (Павышаны Школай Жыцьця)| шанец посьпеху 50%})] 
+            Вы загадваеце сваёй партыі пашукаць карысныя расьліны на лузе. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            A mage in your party calls upon the Wind of Ghyran to aid your men in their search. #STR_Forage_LoreOFLifeInParty
+                            Маг вашай партыі заклікае Вецер Гірану, каб дапамагчы вашым людзям у пошуках. #STR_Forage_LoreOFLifeInParty
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
-                        -else: ERROR
+                        -else: ПАМЫЛКА
                     }
                     
                 ->ForageLoop
 
-            *[Hunt animals (Multiple chances to get meat, hide, and or fur {PartyRangedSkillCheckText})]
+            *[Папаляваць (Некалькі шанцаў здабыць мяса, скуры й футра {PartyRangedSkillCheckText})]
                 
                 //Bonus Attempts from Lore of Beasts
                     {LoreOfBeastsInParty:
                         -true: 
-                            A mage in your party calls upon the Wind of Ghur to aid your men in their search. (+1 attempt) #STR_Hunt_LoreOFBeastInParty
+                            Маг вашай партыі заклікае Вецер Гуру, каб дапамагчы вашым людзям у пошуках. (+1 спроба) #STR_Hunt_LoreOFBeastInParty
                             ~ HuntLoops = HuntLoops + 1
                         -false:
-                        -else: ERROR
+                        -else: ПАМЫЛКА
                     }
                     
                 //Bonus attempt from Scouting
                     {perform_party_skill_check("Scouting", HuntDifficulty):
                         -true: 
-                            Your scouts manage to locate some extra animals. (Scouting)(+1 Attempt) #STR_Hunt_Scout
+                            Вашыя выведнікі знаходзяць дадатковую дзічыну. (Выведка)(+1 спроба) #STR_Hunt_Scout
                             ~HuntLoops = HuntLoops + 1
                         -false:
-                        -else: ERROR
+                        -else: ПАМЫЛКА
                     }
                     
                 ->HuntLoop
                 
-            *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
+            *[Даць людзям адпачыць (Усе кампаньёны вылечацца, усе параненыя ваяры адновяцца {PartyMedicineCheckText})]
                 
-                You try to give your men a break hoping that the brief respite will help them get better. You set up a makeshift camp at the meadow's edge. #STR_Rest1
+                Вы спрабуеце даць людзям перадыхнуць, спадзеючыся, што кароткі адпачынак дапаможа ім ачуняць. Вы разьбіваеце часовы лягер на ўскрайку лугу. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
                         ~ HealPartyToFull()
                     -false:
-                    -else: "ERROR"
+                    -else: "ПАМЫЛКА"
                 }
                 
-                {PartyMedicineCheckTest: Your party takes advantage of the break to take care of the wounded.| Unfortunately just as the men start to try and rest, a large storm comes through and forces your party to try and move to find shelter.} #STR_Rest2
+                {PartyMedicineCheckTest: Вашая партыя карыстаецца перапынкам, каб паклапаціцца пра параненых.| На жаль, ледзь людзі пачынаюць адпачываць, налятае моцная бура й змушае вашую партыю рушыць на пошукі сховішча.} #STR_Rest2
                 
                 ->Leave
                 
-            *[Leave] You decide your party has no time to rest and set out immediately.->END
+            *[Сысьці] Вы вырашаеце, што вашай партыі няма калі адпачываць, і адразу рушыце далей.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -250,7 +250,7 @@
                     ~ AttemptSuccessful = true
                 -false:
                     ~ AttemptSuccessful = false
-                -else: ERROR
+                -else: ПАМЫЛКА
             }
 
         //Reward if successful
@@ -263,18 +263,18 @@
             
             {RewardRoll:
                 -0:
-                    Foraging yields no results, your men return empty handed. #ForageLoop0
+                    Пошукі не даюць плёну, вашыя людзі вяртаюцца з пустымі рукамі. #ForageLoop0
                 -1:
-                    Your men find some wild grain. (+1 Grain) #ForageLoop1
+                    Вашыя людзі знаходзяць дзікае збожжа. (+1 Збожжа) #ForageLoop1
                     ~ GiveItem("grain",1)
                 -2:
-                    Your men find some wild berries. (+1 Grapes) #ForageLoop2
+                    Вашыя людзі знаходзяць лясныя ягады. (+1 Вінаград) #ForageLoop2
                     ~ GiveItem("grape",1)
                 -3:
-                    Your men find some wild flax. (+1 Flax) #ForageLoop3
+                    Вашыя людзі знаходзяць дзікі лён. (+1 Лён) #ForageLoop3
                     ~ GiveItem("flax",1)
                 -4:
-                    Your men find some wild spices. (+1 Spice) #ForageLoop4
+                    Вашыя людзі знаходзяць дзікарослыя прыправы. (+1 Прыправы) #ForageLoop4
                     ~ GiveItem("spice",1)
             }
             
@@ -298,7 +298,7 @@
                     ~ AttemptSuccessful = true
                 -false:
                     ~ AttemptSuccessful = false
-                -else: ERROR
+                -else: ПАМЫЛКА
             }
             
             //Roll for bonus hide
@@ -314,20 +314,20 @@
         //Reward
             {
                 - AttemptSuccessful == true && RewardRoll == 0:
-                    Your men are successful, they return with some pheasants. (+1 Meat) #HuntLoop0
+                    Паляваньне ўдалае: вашыя людзі вяртаюцца з фазанамі. (+1 Мяса) #HuntLoop0
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 1:
-                    Your men are successful, they return with a deer. (+1 Meat, +1 Hide) #HuntLoop1
+                    Паляваньне ўдалае: вашыя людзі вяртаюцца з аленем. (+1 Мяса, +1 Скура) #HuntLoop1
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 2:
-                    Your men are successful, they return with a wild boar. (+1 Meat, +1 Fur) #HuntLoop2
+                    Паляваньне ўдалае: вашыя людзі вяртаюцца зь дзіком. (+1 Мяса, +1 Футра) #HuntLoop2
                     ~ GiveItem("meat",1)
                     ~ GiveItem("fur",1)
                 - AttemptSuccessful == false:
-                     Wild game eludes you, your men return empty handed. #HuntLoop3
-                -else: ERROR
+                     Дзічына ўцякае, вашыя людзі вяртаюцца з пустымі рукамі. #HuntLoop3
+                -else: ПАМЫЛКА
             }
                     
         //End of Loop
@@ -336,7 +336,7 @@
     ->END
     
 ===Leave===
-    Having spent your time in the meadow you decide to head off. #STR_Leave
+    Пабыўшы на лузе, вы вырашаеце рушыць далей. #STR_Leave
 
     ~ MakePartyDisorganized()
     

@@ -1,5 +1,5 @@
 //Global story tags
-# title: Enchanting and Artifacts
+# title: Зачараваньне й артэфакты
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -15,39 +15,39 @@ INCLUDE include.ink
 
 
     =choices
-    + [Read about enchanting.]->Beginning 
-    + [Read about Incredients.]->Ingredients
-    + [Read about Magical Items.]->MagicItems 
-    + [Close book] -> END
+    + [Прачытаць пра зачараваньне.]->Beginning 
+    + [Прачытаць пра складнікі.]->Ingredients
+    + [Прачытаць пра магічныя прадметы.]->MagicItems 
+    + [Закрыць кнігу] -> END
 
 ===Beginning===
 
 
-To start, you need to find books containing individual enchanting formulas. These can be purchased from wizards across the land. However, it is likely one might encounter lost knowledge when clearing dangerous threats, vaults, and lairs found on the continent.
-Afterwards you can learn enchanting formulas from the acquired books. Of course, your profession or your companions dictate what formulas you can learn; one can only channel the Winds of Magic one is attuned to. Moreover, alien cultures will never share their secrets with outsiders. Once learned, you can either speak to different wizards or head to the artisan district in any town. There, you can apply your formulas to an item of your choosing. This action, however, requires you to possess certain unique materials…
+Спачатку трэба знайсьці кнігі з асобнымі формуламі зачараваньня. Іх можна набыць у чараўнікоў па ўсім краі. Аднак забытыя веды могуць трапіцца вам і падчас змаганьня зь небясьпечнымі пагрозамі, дасьледаваньня сховішчаў ды логаваў на кантынэнце.
+Пасьля гэтага вы зможаце вывучыць формулы зачараваньня з набытых кніг. Зразумела, даступныя вам формулы залежаць ад вашага занятку ці занятку вашых кампаньёнаў: кожны можа кіраваць толькі тымі Вятрамі Магіі, з якімі мае сувязь. Да таго ж чужыя народы ніколі ня дзеляцца сваімі таямніцамі з чужынцамі. Вывучыўшы формулы, зьвярніцеся да чараўнікоў або накіруйцеся ў рамесьніцкі квартал любога гораду. Там вы зможаце ўжыць формулы да абранага прадмета. Аднак для гэтага спатрэбяцца пэўныя ўнікальныя матэрыялы…
 
 
 
-+ [Read imprint]->START
++ [Прачытаць выходныя зьвесткі]->START
 
 === Ingredients === 
 
-Onto the materials with magical properties:
-Arcane Scrolls might be found amidst the loot of the cultists of darkness. Those who use magic may also have it in their possession.
+Цяпер пра матэрыялы з магічнымі ўласьцівасьцямі:
+Арканныя скруткі можна знайсьці сярод здабычы культыстаў цемры. Яны таксама могуць быць у тых, хто карыстаецца магіяй.
 
-Amber Crystals are said to originate from the magical forest of Athel Loren. Those that lurk amidst the forests of the Elves, the strange folk and stranger beasts that roam under the trees, are bound to have Amber. 
-When it comes to Blessed Water you can always go to the many shrines of man to acquire some, but travellers report that bandits and thieves across Bretonnia and the forests of Laurelorn may also carry such items. The priests of the Empire do not take kindly to outsiders however.  
-Marvelous Gemstones are treasures of Dwarfs. However, one might also suspect the foul Greenskins to carry Gemstones looted in their battles against the mountain folk. As a useful tool, those who use magic often carry Gemstones as well. 
-Few in life come across such potent a substance as Dragon Blood… Perhaps those of the highest military ranking, valiant commanders and lords, or those who have reached the pinnacle of knighthood may have such a rare ingredient. 
-As for the accursed Warstpone, the vilest substance of all, it is crucial to remember many civilized nations find this material highly illegal. You would need to fight at the very gates of Chaos or slay their fiendish cultists to acquire it. If one is particularly daring, then the blasted lands of Sylvania are rife with the foul stuff. But travellers be warned: In the lands perpetually shrouded in gloom and mist, the dead are more common than the living at times.
+Кажуць, бурштынавыя крышталі паходзяць з чароўнага лесу Атэль Лорэн. У тых, хто хаваецца ў эльфійскіх лясах, у дзіўнага люду й яшчэ дзіўнейшых зьвяроў, што блукаюць пад шатамі, напэўна знойдзецца бурштын. 
+Па бласлаўлёную ваду заўсёды можна зьвярнуцца ў шматлікія людзкія капішчы, але вандроўнікі кажуць, што бандыты й злодзеі Брэтоніі ды лясоў Лаўрэлорну таксама могуць мець яе пры сабе. Аднак сьвятары Імперыі ня надта зычлівыя да чужынцаў.  
+Цудоўныя каштоўныя камяні — скарбы дварфаў. Аднак можна меркаваць, што агідныя зялёнаскурыя таксама носяць каштоўныя камяні, нарабаваныя ў бітвах з горным народам. Яны карысныя й для чараваньня, таму тыя, хто карыстаецца магіяй, часта маюць іх пры сабе. 
+Мала каму ў жыцьці трапляецца такое моцнае рэчыва, як драконавая кроў… Магчыма, гэты рэдкі складнік ёсьць у найвышэйшых вайсковых чыноў, доблесных ваяводаў і шляхцічаў ці тых, хто дасягнуў вяршыняў рыцарства. 
+Што да праклятага варп-каменю, найагіднейшага з усіх рэчываў, дык трэба памятаць: у многіх цывілізаваных краінах гэты матэрыял строга забаронены. Каб здабыць яго, давядзецца біцца ля самых брамаў Хаосу або забіваць ягоных д'ябальскіх культыстаў. Асабліва сьмелыя знойдуць удосталь гэтай брыдоты на спустошаных землях Сыльваніі. Але, вандроўнікі, сьцеражыцеся: у краі, вечна ахутаным змрокам і туманам, мёртвых часам болей, чым жывых.
 
-+ [Read imprint]->START
++ [Прачытаць выходныя зьвесткі]->START
     
 === MagicItems === 
 
-Magical Items can be found through out the Old World. Sometimes their wielders are not even aware about their possession, sometimes it is just superstition. 
-The College of Mages request any artefact that are not man made, to be delivered to the Arcane Academy for studying.
-The efforts are being rewarded: The College of mages will reward the good will with Imperial Marks and we make sure that these efforts are being noted in the empire.
+Магічныя прадметы сустракаюцца па ўсім Старым Сьвеце. Часам іхныя ўласьнікі нават ня ведаюць, чым валодаюць, а часам іхныя ўяўленьні — толькі забабоны. 
+Калегія Магаў просіць дастаўляць усе артэфакты, створаныя не людзьмі, у Арканную Акадэмію для вывучэньня.
+Вашыя намаганьні будуць узнагароджаныя: Калегія Магаў аддзячыць за добрую волю імперскімі маркамі, а мы паклапоцімся, каб у Імперыі пра іх даведаліся.
 
-+ [Read Table of Contents]->START
++ [Прачытаць зьмест]->START
 

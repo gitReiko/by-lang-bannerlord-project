@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Vision of Gork and Mork
+# title: Бачаньне Горка й Морка
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -9,26 +9,26 @@ INCLUDE include.ink
 ->START
 
 ===START===
-You have found the shrine, crude idols of Gork and Mork, carved from towering piles of rock and dung.
+Вы знайшлі капішча — грубыя ідалы Горка й Морка, высечаныя зь вялізных грудаў каменьня й гною.
 
-Scattered around them lie weapons and armour unlike anything you have seen before. Some you recognise as dwarf-made, but others are beyond your comprehension.
+Вакол раскіданая зброя й панцыры, якіх вы ніколі раней ня бачылі. У нечым вы пазнаяце працу дварфаў, але паходжаньне астатняга вам не зразумець.
 
-You step forward alone. The closer you get, the more pungent the stench becomes. Reaching the largest dung-pile, you inhale the rancid fumes deeply. They flood your senses and knock you out cold.
+Вы самотна крочыце наперад. Чым бліжэй, тым больш едкі смурод. Дайшоўшы да найбольшай кучы гною, вы глыбока ўдыхаеце тухлыя выпарэньні. Яны запаўняюць усе вашыя пачуцьці, і вы правальваецеся ў непрытомнасьць.
 
-Then THEY appear.
+Тады зьяўляюцца ЯНЫ.
 
-Two green gigantic silhouettes wrestling and smashing into each other relentlessly.
+Два зялёныя волатаўскія сылюэты, што няспынна змагаюцца й лупяць адзін аднаго.
 
-Otherworldly voices and sights fill your thick skull, accompanied by incoherent bellowing and roaring laughter: Burning cities, the thunder of pounding drums, the green tide marching as it tramples corpses and shattered banners beneath its feet. The idols of weak, pathetic gods, human and dwarf alike, are cast down into the dirt, broken apart or reshaped into crude figures of Gork and Mork.
+Тагасьветныя галасы й відовішчы напаўняюць ваш тоўсты чэрап пад бязладны роў і грымотны рогат: палаючыя гарады, грукат барабанаў, зялёная навала, што крочыць, топчучы трупы й паламаныя сьцягі. Ідалаў слабых, вартых жалю багоў людзей і дварфаў кідаюць у бруд, разьбіваюць або перарабляюць у грубыя постаці Горка й Морка.
 
-Amidst the ruins and the feasting boys, you see a figure, dancing, cackling madly as crackling green bolts of energy rain across the battlefield.
+Сярод руінаў і хлопцаў, што балююць, вы бачыце постаць, якая танчыць і шалёна рагоча, пакуль на поле бітвы сыплюцца траскучыя зялёныя маланкі энэргіі.
 
-It is you.
+Гэта вы.
 
-Then you awaken.
+Тады вы прачынаецеся.
 
-The air trembles with anticipation. And your destiny is clear.
+Паветра трымціць у прадчуваньні. І вашае прызначэньне зразумелае.
 
-+ [I'Z GUNNA BE DA BEST SHAMAN DERE EVER WAS!!!]
++ [БУДУ ШАМЫМ ЛІПФЫМ ФАМАНАМ ЗА ЎВЕШЬ ЧАШ!!!]
     ~ CloseStory()
     -> END

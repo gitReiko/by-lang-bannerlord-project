@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Campfire
+# title: Лягернае вогнішча
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -66,11 +66,11 @@
                 
                 {MeleeWeaponRandom:
                     -1:
-                        ~ MeleeWeaponText = "One Handed"
+                        ~ MeleeWeaponText = "Аднаручная зброя"
                     -2:
-                        ~ MeleeWeaponText = "Two Handed"
+                        ~ MeleeWeaponText = "Двухручная зброя"
                     -3:
-                        ~ MeleeWeaponText = "Polearm"
+                        ~ MeleeWeaponText = "Тронкавая зброя"
                 }
                 
 
@@ -81,13 +81,13 @@
                 
                 {RangedWeaponRandom:
                     -1:
-                        ~ RangedWeaponText = "Bow"
+                        ~ RangedWeaponText = "Лук"
                     -2:
-                        ~ RangedWeaponText = "Crossbow"
+                        ~ RangedWeaponText = "Арбалет"
                     -3:
-                        ~ RangedWeaponText = "Throwing"
+                        ~ RangedWeaponText = "Кіданьне"
                     -4:
-                        ~ RangedWeaponText = "Gunpowder"
+                        ~ RangedWeaponText = "Парахавая зброя"
                 }
     
     //Group 1
@@ -99,31 +99,31 @@
             ~ StorySelect = RANDOM(1,6)
             
             {StorySelect:
-                -0: ERROR
+                -0: ПАМЫЛКА
                 -1:
-                    ~ StoryName = "The Hunt"
+                    ~ StoryName = "Паляваньне"
                     ~ StoryBranch = ->TheHunt
-                    ~ StoryXpText = "(+1000 XP for Scouting, {RangedWeaponText}, and Tactics)"
+                    ~ StoryXpText = "(+1000 досьведу да навыкаў: Выведка, {RangedWeaponText} і Тактыка)"
                 -2:
-                    ~ StoryName = "The Ambush"
+                    ~ StoryName = "Засада"
                     ~ StoryBranch = ->TheAmbush
-                    ~ StoryXpText = "(+1000 XP for Leadership, Tactics, and Roguery)"
+                    ~ StoryXpText = "(+1000 досьведу да навыкаў: Лідарства, Тактыка й Махлярства)"
                 -3:
-                    ~ StoryName = "The Charge"
+                    ~ StoryName = "Атака"
                     ~ StoryBranch = ->TheCharge
-                    ~ StoryXpText = "(+1000 XP for Riding, Polearm, and Leadership)"
+                    ~ StoryXpText = "(+1000 досьведу да навыкаў: Конная язда, Тронкавая зброя й Лідарства)"
                 -4:
-                    ~ StoryName = "Holding the Line"
+                    ~ StoryName = "Трымаючы шыхт"
                     ~ StoryBranch = ->HoldingTheLine
-                    ~ StoryXpText = "(+1000 XP for {MeleeWeaponText}, Leadership, and Tactics)"
+                    ~ StoryXpText = "(+1000 досьведу да навыкаў: {MeleeWeaponText}, Лідарства й Тактыка)"
                 -5:
-                    ~ StoryName = "The Brawl"
+                    ~ StoryName = "Бойка"
                     ~ StoryBranch = ->TheBrawl
-                    ~ StoryXpText = "(+1000 XP for all melee weapon skills)"
+                    ~ StoryXpText = "(+1000 досьведу да ўсіх навыкаў блізкага бою)"
                 -6:
-                    ~ StoryName = "The Shootout"
+                    ~ StoryName = "Перастрэлка"
                     ~ StoryBranch = ->TheShootout
-                    ~ StoryXpText = "(+750 XP for all ranged weapon skills)"
+                    ~ StoryXpText = "(+750 досьведу да ўсіх навыкаў далёкага бою)"
             }
     
     //Group 2
@@ -135,27 +135,27 @@
             ~ DiscussionSelect = RANDOM(1,5)
             
             {DiscussionSelect:
-                -0: ERROR
+                -0: ПАМЫЛКА
                 -1:
-                    ~ DiscussionName = "Great Rulers"
+                    ~ DiscussionName = "Вялікія гаспадары"
                     ~ DiscussionBranch = ->GreatRulers
-                    ~ DiscussionXpText = "(+1000 XP for Steward, Leadership, and Charm)"
+                    ~ DiscussionXpText = "(+1000 досьведу да навыкаў: Загадваньне, Лідарства й Харызма)"
                 -2:
-                    ~ DiscussionName = "Craftsman"
+                    ~ DiscussionName = "Рамесьнікі"
                     ~ DiscussionBranch = ->Craftsman
-                    ~ DiscussionXpText = "(+1500 XP for Smithing and Engineering)"
+                    ~ DiscussionXpText = "(+1500 досьведу да навыкаў: Кавальства й Інжынерыя)"
                 -3:
-                    ~ DiscussionName = "Negotiation"
+                    ~ DiscussionName = "Перамовы"
                     ~ DiscussionBranch = ->Negotiation
-                    ~ DiscussionXpText = "(+1000 XP for Charm, Trade, and Roguery)"
+                    ~ DiscussionXpText = "(+1000 досьведу да навыкаў: Харызма, Гандаль і Махлярства)"
                 -4:
-                    ~ DiscussionName = "Traveling"
+                    ~ DiscussionName = "Падарожжы"
                     ~ DiscussionBranch = ->Traveling
-                    ~ DiscussionXpText = "(+1500 XP for Riding and Athletics)"
+                    ~ DiscussionXpText = "(+1500 досьведу да навыкаў: Конная язда і Атлетыка)"
                 -5:
-                    ~ DiscussionName = "Survival"
+                    ~ DiscussionName = "Выжываньне"
                     ~ DiscussionBranch = ->Survival
-                    ~ DiscussionXpText = "(+1000 XP for Medicine, Scouting, and Athletics)"
+                    ~ DiscussionXpText = "(+1000 досьведу да навыкаў: Медыцына, Выведка й Атлетыка)"
             }
             
             
@@ -168,26 +168,26 @@
 
 ===Start===
 
-As it gets dark you and your men setup camp. As the night goes on you can see that your men have broken off into two groups. One seems to be telling war stories, while the other is just talking. #STR_Start1
+Калі цямнее, вы са сваімі людзьмі разьбіваеце лягер. Ноч мінае, і вы заўважаеце, што людзі падзяліліся на дзьве купкі. У адной, здаецца, расказваюць вайсковыя гісторыі, а ў другой проста гутараць. #STR_Start1
 -> choice1
 
     =choice1
-        What will you do? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
-            *[Listen in on the story of {StoryName} {StoryXpText}]
+        Што вы зробіце? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
+            *[Паслухаць гісторыю «{StoryName}» {StoryXpText}]
                 ->StoryBranch
-            *[Join in the discussion of {DiscussionName} {DiscussionXpText}]
+            *[Далучыцца да гутаркі на тэму «{DiscussionName}» {DiscussionXpText}]
                 ->DiscussionBranch
-            *[Tell your men to get some rest (All companions healed and all wounded troops restored)]
-                You tell your men to head to bed early and get all the rest they can.
+            *[Загадаць людзям адпачыць (Усе кампаньёны вылечацца, усе параненыя ваяры адновяцца)]
+                Вы загадваеце сваім людзям раней класьціся спаць і адпачыць як сьлед.
                 ~ HealPartyToFull()
                 ->END
 
 ===TheHunt===
-    Amidst the crackling of the campfire, a grizzled soldier's voice carried a tale of stealth and pursuit. The flickering flames seemed to mirror the anticipation in the eyes of his companions as they leaned in to listen. #STR_TheHunt1
+    Пад трэск вогнішча голас сівога жаўнера вядзе аповед пра ўтойлівасьць і перасьлед. Мігатлівае полымя нібы адлюстроўвае прадчуваньне ў вачах паплечнікаў, якія нахіляюцца бліжэй, каб паслухаць. #STR_TheHunt1
 
-"Listen up, lads and lasses," the soldier began, "let me regale you with the tale of our last hunt. It was a moonless night, our steps guided by shadows and the rustling leaves. Our scouts moved through the underbrush, eyes sharp and senses alert as we sensed a minotaur..." #STR_TheHunt2
+«Слухайце, хлопцы й дзяўчаты, — пачынае жаўнер, — раскажу вам пра нашае апошняе паляваньне. Ноч была бязьмесячная, нашыя крокі вялі цені й шолах лісьця. Выведнікі прабіраліся праз падлесак, пільна ўзіраючыся й прыслухоўваючыся: мы адчулі прысутнасьць мінатаўра…» #STR_TheHunt2
 
-As the story unfolded, the soldiers felt themselves drawn into the narrative, experiencing the thrill of the chase and the tension that hung in the air. The storyteller's words painted a vivid picture of cunning and strategy, and by the time the tale concluded, the soldiers had a newfound appreciation for scouting and the art of the hunt. #STR_TheHunt3
+Жаўнеры ўсё глыбей занураюцца ў аповед, адчуваючы азарт пагоні й напружаньне ў паветры. Словы апавядальніка малююць яскравыя карціны хітрасьці й стратэгіі, і да канца гісторыі слухачы пачынаюць па-новаму цаніць выведку й мастацтва паляваньня. #STR_TheHunt3
     
     //Give Xp
         ~ GiveSkillExperience("Scouting",1000)
@@ -206,11 +206,11 @@ As the story unfolded, the soldiers felt themselves drawn into the narrative, ex
     -> END
 
 ===TheAmbush===
-    Amid the crackling embers, a soldier's voice rose with a mischievous glint in his eye. The campfire's warm glow illuminated the eager faces of his comrades as they settled in for the story. #STR_TheAmbush1
+    Сярод трэску вугольля гучыць голас жаўнера, у вачах якога паблісквае хітрынка. Цёплае сьвятло вогнішча асьвятляе зацікаўленыя твары таварышаў, што ўладкоўваюцца паслухаць гісторыю. #STR_TheAmbush1
 
-"Gather 'round, men," the soldier said with a grin, "and let me tell you about the ambush we survived. Picture this—a Mannslieblit night, the enemy beastmen advancing unaware. Our plan was cunning, our movements swift. We struck with surprise and ferocity, turning the tide in our favor..." #STR_TheAmbush2
+«Зьбірайцеся бліжэй, хлопцы, — кажа жаўнер з усьмешкай, — раскажу вам пра засаду, якую мы перажылі. Уявіце: ноч пад сьвятлом Мансьлібу, варожыя зьвералюды ідуць, нічога не падазраючы. Наш плян быў хітры, а рухі імклівыя. Мы ўдарылі зьнянацку й люта, схіліўшы ход бою на свой бок…» #STR_TheAmbush2
 
-The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tale's conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush. #STR_TheAmbush3
+Жаўнеры нібы пераносяцца туды, дзе прадуманая хітрасьць увасобілася ў імклівым удары. Апавяданьне сканчаецца сьмехам і ўхвальнымі кіўкамі, паглыбіўшы разуменьне тактыкі й сілы добра зладжанай засады. #STR_TheAmbush3
     
         //Give Xp
             ~ GiveSkillExperience("Leadership",1000)
@@ -219,11 +219,11 @@ The soldiers were transported to a scene of calculated cunning and swift executi
     -> END
 
 ===TheCharge===
-    The fire's warm embrace cast dancing shadows upon the faces of the soldiers gathered around. Their attention was rapt as a battle-hardened warrior's voice filled the air. #STR_Charge1
+    У цёплых абдымках вогнішча цені танчаць на тварах жаўнераў, што сабраліся навокал. Яны ўважліва слухаюць голас загартаванага ў баях ваяра. #STR_Charge1
 
-"Listen well, my friends," the soldier began, "to the tale of our last battle. It was a day bathed in the glow of a setting sun. Our horses were eager, their hooves pawing at the earth. With a thunderous cry, we charged..." #STR_Charge2
+«Слухайце ўважліва, сябры, — пачынае жаўнер, — аповед пра нашу апошнюю бітву. Дзень купаўся ў промнях захаднага сонца. Нашыя коні нецярпліва білі капытамі зямлю. З грымотным крыкам мы кінуліся ў атаку…» #STR_Charge2
 
-The soldiers could almost feel the rush of wind against their faces and the pounding of hooves beneath them. The story painted a vivid picture of unity and bravery, leaving the soldiers with a deeper understanding of riding, weapon usage, and the power of a well-coordinated charge. #STR_Charge3
+Жаўнеры амаль адчуваюць вецер у твар і грукат капытоў пад сабою. Гісторыя яскрава малюе еднасьць і адвагу, даючы слухачам глыбейшае разуменьне язды верхам, валоданьня зброяй і моцы зладжанай атакі. #STR_Charge3
     
     //Give Xp
         ~ GiveSkillExperience("Riding",1000)
@@ -232,11 +232,11 @@ The soldiers could almost feel the rush of wind against their faces and the poun
     -> END 
 
 ===HoldingTheLine===
-    Amidst the campfire's gentle crackle, a soldier's voice carried the weight of determination. The glow of the flames seemed to mirror the resolve in the eyes of his companions. #STR_HoldingTheLine1
+    Пад ціхае патрэскваньне вогнішча гучыць рашучы голас жаўнера. Зьзяньне полымя нібы адлюстроўвае непахіснасьць у вачах ягоных таварышаў. #STR_HoldingTheLine1
 
-"Listen closely, my friends," the soldier spoke with unwavering conviction, "to the tale of our last battle. It was a moment of unbreakable unity as we positioned ourselves to hold strong, shields locked in steadfast defense. As the undead army advanced, we stood resolute..." #STR_HoldingTheLine2
+«Слухайце ўважліва, сябры, — кажа жаўнер зь непахіснай перакананасьцю, — аповед пра нашу апошнюю бітву. Мы былі адным цэлым, калі сталі насмерць, самкнуўшы шчыты ў трывалай абароне. Войска нежыці наступала, а мы стаялі цьвёрда…» #STR_HoldingTheLine2
 
-The soldiers felt a sense of solidarity wash over them, as if they were standing side by side with the warriors of the story. The storyteller's words emphasized the importance of leadership and tactics, leaving the soldiers with a deeper appreciation for the art of defense. #STR_HoldingTheLine3
+Жаўнераў ахоплівае пачуцьцё еднасьці, нібы яны самі стаяць плячо ў плячо з ваярамі з аповеду. Словы апавядальніка падкрэсьліваюць значэньне лідарства й тактыкі, вучачы слухачоў глыбей цаніць мастацтва абароны. #STR_HoldingTheLine3
     
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
@@ -254,11 +254,11 @@ The soldiers felt a sense of solidarity wash over them, as if they were standing
     -> END
 
 ===TheBrawl===
-    Around the campfire's flickering light, a soldier's voice carried a tale of camaraderie and friendly competition. Laughter mingled with the crackling of flames as his companions leaned in, eager to hear the story. #STR_TheBrawl1
+    Ля мігатлівага вогнішча жаўнер расказвае пра братэрства й сяброўскае суперніцтва. Сьмех зьмешваецца з трэскам полымя, а таварышы нахіляюцца бліжэй, ахвочыя паслухаць гісторыю. #STR_TheBrawl1
 
-"Ah, my comrades," the soldier chuckled, "let me tell you of what occured the last training session! It was a night of merriment turned into spirited contest. We playfully tested our mettle, each strike and parry a dance of skill..." #STR_TheBrawl2
+«Ах, таварышы, — пасьмейваецца жаўнер, — раскажу вам, што адбылося на апошняй трэніроўцы! Вясёлы вечар ператварыўся ў зацятае спаборніцтва. Мы жартам выпрабоўвалі адзін аднаго, і кожны ўдар ды парыраваньне былі танцам майстэрства…» #STR_TheBrawl2
 
-The soldiers shared knowing glances, their own memories of friendly contests coming to mind. The storyteller's words emphasized the bonds of camaraderie and the lessons of melee combat techniques, leaving the soldiers with a sense of shared experience. #STR_TheBrawl3
+Жаўнеры з разуменьнем пераглядаюцца, успамінаючы ўласныя сяброўскія спаборніцтвы. Аповед падкрэсьлівае таварыскія повязі й вучыць прыёмам блізкага бою, пакідаючы слухачам пачуцьцё супольнага досьведу. #STR_TheBrawl3
     
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
@@ -267,11 +267,11 @@ The soldiers shared knowing glances, their own memories of friendly contests com
     -> END
 
 ===TheShootout===
-    Amidst the warm embrace of the campfire, a soldier's voice rose with a sense of anticipation. The flames danced in the eyes of his companions as they settled in to hear the tale. #STR_TheShootout1
+    У цёплых абдымках вогнішча гучыць голас жаўнера, поўны прадчуваньня. Языкі полымя танчаць у вачах ягоных таварышаў, што ўладкоўваюцца паслухаць аповед. #STR_TheShootout1
 
-"Listen closely, my comrades," the soldier began, "to the tale of our last battle. Imagine a sky heavy with clouds, setting the stage for a display of ranged prowess as my regiment aimed for the approaching beastmen. Bows, crossbows, throwing knives, and gunpowder weapons took center stage..." #STR_TheShootout2
+«Слухайце ўважліва, таварышы, — пачынае жаўнер, — аповед пра нашу апошнюю бітву. Уявіце неба пад цяжкімі хмарамі й мой полк, які рыхтуецца паказаць сваё стралецкае майстэрства, цэлячыся ў зьвералюдаў, што набліжаюцца. Лукі, арбалеты, кідальныя нажы й парахавая зброя выйшлі на першы плян…» #STR_TheShootout2
 
-The soldiers exchanged nods, their minds vividly painting scenes of arrows and projectiles soaring through the air. The storyteller's words underscored the intricacies of ranged combat, leaving the soldiers with a deeper understanding of various ranged weapon skills. #STR_TheShootout3
+Жаўнеры ківаюць, яскрава ўяўляючы стрэлы й снарады, што праносяцца ў паветры. Словы апавядальніка раскрываюць тонкасьці далёкага бою, паглыбляючы разуменьне розных відаў стралецкай і кідальнай зброі. #STR_TheShootout3
     
     //Give Xp
             ~ GiveSkillExperience("Bow",750)
@@ -281,11 +281,11 @@ The soldiers exchanged nods, their minds vividly painting scenes of arrows and p
     -> END
 
 ===GreatRulers===
-    Amidst the warm glow of the campfire, a group of soldiers engaged in a spirited conversation about the great rulers of the Old World. Their voices carried admiration and respect, their tales interwoven with lessons of leadership and statecraft. #STR_GreatRulers1
+    У цёплым сьвятле вогнішча купка жаўнераў жвава абмяркоўвае вялікіх гаспадароў Старога Сьвету. У іхных галасах гучаць захапленьне й павага, а аповеды пераплятаюцца з урокамі лідарства й кіраваньня дзяржавай. #STR_GreatRulers1
 
-One soldier began, his voice laden with reverence, "Let us speak of the legendary rulers who shaped our lands. Last I heard, the great Karl Franz seemed to uphold his reputation well, as it takes a lot to govern..." #STR_GreatRulers2
+Адзін жаўнер пачынае з пашанай у голасе: «Пагаворым пра легендарных гаспадароў, якія вызначылі лёс нашых земляў. Апошняе, што я чуў: вялікі Карл Франц добра падтрымлівае сваю славу, бо кіраваньне шмат чаго вымагае…» #STR_GreatRulers2
 
-As the stories flowed, the soldiers contemplated the qualities that made these rulers exceptional—their mastery of stewardship, the art of leadership, and the charisma that united their subjects. In their minds, the lessons of stewardship, leadership, and charm took root, leaving them with a deeper understanding of the responsibilities that came with power. #STR_GreatRulers3
+Слухаючы аповеды, жаўнеры разважаюць пра якасьці, якія зрабілі гэтых гаспадароў выбітнымі: майстэрства загадваньня, мастацтва лідарства й харызму, што яднала падданых. Урокі загадваньня, лідарства й абаяльнасьці адкладаюцца ў памяці, даючы глыбейшае разуменьне адказнасьці, якую нясе ўлада. #STR_GreatRulers3
     
     //Give Xp
             ~ GiveSkillExperience("Steward",1000)
@@ -294,11 +294,11 @@ As the stories flowed, the soldiers contemplated the qualities that made these r
     -> END
 
 ===Craftsman===
-    Amidst the camaraderie of the campfire, a group of soldiers exchanged tales of craftsmanship and engineering marvels. Their voices held a sense of awe and admiration as they recounted the feats of master artisans and ingenious engineers.  #STR_Craftsman1
+    У сяброўскай атмасфэры ля вогнішча жаўнеры абменьваюцца аповедамі пра рамяство й інжынэрныя цуды. Іхныя галасы поўныя трапятаньня й захапленьня, калі яны згадваюць дасягненьні ўмелых рамесьнікаў і вынаходлівых інжынэраў.  #STR_Craftsman1
 
-"Listen closely, comrades," one soldier urged, "Not many know this, but I have had the blessing to learn about engineering from a dwarf. The Dwarfen holds are a testament to the art of smithing..." #STR_Craftsman2
+«Слухайце ўважліва, таварышы, — заклікае адзін жаўнер. — Мала хто ведае, але мне пашчасьціла вучыцца інжынэрыі ў дварфа. Дварфійскія цьвярдыні — сьведчаньне кавальскага мастацтва…» #STR_Craftsman2
 
-As the stories unfolded, the soldiers marveled at the intricate designs and the sheer ingenuity that drove these feats. Their discussions delved into the realms of smithing, engineering, and the marvels born from the minds of skilled craftsmen and craftsdwarfs, leaving them with a newfound appreciation for these vital trades. #STR_Craftsman3
+Слухаючы гісторыі, жаўнеры дзівяцца складаным канструкцыям і неверагоднай вынаходлівасьці іхных стваральнікаў. Размова закранае кавальства, інжынэрыю й цуды, народжаныя розумам умелых майстроў — людзей і дварфаў, вучачы па-новаму цаніць гэтыя неабходныя рамёствы. #STR_Craftsman3
     
     //Give Xp
             ~ GiveSkillExperience("Crafting",1500)
@@ -306,11 +306,11 @@ As the stories unfolded, the soldiers marveled at the intricate designs and the 
     -> END
 
 ===Negotiation===
-    Amidst the flickering firelight, a group of soldiers regaled one another with stories of haggling and trade. Laughter mingled with their voices as they shared both successful negotiations and amusing tales of when things had gone awry. #STR_Negotiation1
+    У мігатлівым сьвятле вогнішча жаўнеры забаўляюць адзін аднаго гісторыямі пра гандаль і таргі. Іхныя галасы перамяжоўваюцца сьмехам, калі яны згадваюць удалыя ўгоды й пацешныя выпадкі, у якіх усё пайшло не паводле пляну. #STR_Negotiation1
 
-"Ah, my comrades," one soldier chuckled, "let me share the art of haggling and the dance of trade. From bartering with the wily halflings to facing the shrewd merchants of Marienburg, the path to a fair deal is lined with wit and cunning..." #STR_Negotiation2
+«Ах, таварышы, — пасьмейваецца адзін жаўнер, — падзялюся з вамі мастацтвам таргоў і танцам гандлю. Ці вы мяняецеся з хітрымі паўросьлікамі, ці маеце справу з праніклівымі гандлярамі Марыенбургу — шлях да справядлівай угоды патрабуе досьціпу й кемлівасьці…» #STR_Negotiation2
 
-The soldiers leaned in, captivated by the stories of wit and banter that had unfolded in the bustling markets and bazaars of the Old World. They contemplated the delicate balance of charm, trade acumen, and the occasional misstep that came with the territory, leaving them with a deeper understanding of the art of negotiation. #STR_Negotiation3
+Жаўнеры нахіляюцца бліжэй, захопленыя гісторыямі пра досьціп і слоўныя двубоі на шумлівых рынках ды кірмашах Старога Сьвету. Яны разважаюць пра тонкую раўнавагу паміж абаяльнасьцю, гандлёвай кемлівасьцю й непазьбежнымі хібамі, глыбей спасьцігаючы мастацтва перамоваў. #STR_Negotiation3
     
     //Give Xp
             ~ GiveSkillExperience("Charm",1000)
@@ -319,11 +319,11 @@ The soldiers leaned in, captivated by the stories of wit and banter that had unf
     -> END
 
 ===Traveling===
-   Around the crackling fire, a group of soldiers shared tales of their travels and experiences on horseback. Their voices held a sense of adventure and camaraderie as they recounted journeys across treacherous landscapes and encounters with the denizens of the Old World. #STR_Traveling1
+   Вакол патрэсклівага вогнішча жаўнеры дзеляцца аповедамі пра свае падарожжы й прыгоды ў сядле. У іхных галасах чуваць дух прыгодаў і братэрства, калі яны згадваюць пераходы праз падступныя мясьціны й сустрэчы з насельнікамі Старога Сьвету. #STR_Traveling1
 
-"Keeping a battlehorse healthy," one soldier declared, "that is its own challenge. The bond between rider and steed is a connection unlike any other..." #STR_Traveling2
+«Даглядаць здароўе баявога каня, — заяўляе адзін жаўнер, — само па сабе выпрабаваньне. Сувязь паміж вершнікам і ягоным канём не падобная да ніякай іншай…» #STR_Traveling2
 
-As the stories wove their tapestry of adventure, the soldiers found themselves transported to distant lands and untamed wilderness. They contemplated the skills of riding and the unbreakable bond between a rider and their mount, leaving them with a deeper appreciation for the art of traveling on horseback. ##STR_Traveling3
+Аповеды плятуць палатно прыгодаў, і жаўнеры нібы пераносяцца ў далёкія землі й дзікія мясьціны. Яны разважаюць пра майстэрства язды верхам і непарушную сувязь вершніка з канём, вучачыся глыбей цаніць мастацтва конных падарожжаў. ##STR_Traveling3
     
     //Give Xp
             ~ GiveSkillExperience("Riding",1500)
@@ -331,11 +331,11 @@ As the stories wove their tapestry of adventure, the soldiers found themselves t
     -> END
     
 ===Survival===
-    Amidst the gentle crackling of the fire, a group of soldiers shared their insights on surviving in the wilderness. Their voices carried the weight of experience as they recounted tales of resourcefulness and endurance in the face of nature's challenges. #STR_Survival1
+    Пад ціхае патрэскваньне вогнішча жаўнеры дзеляцца парадамі пра выжываньне ў дзікай прыродзе. У іхных галасах адчуваецца багаты досьвед, калі яны расказваюць пра знаходлівасьць і трываласьць перад абліччам прыродных выпрабаваньняў. #STR_Survival1
 
-"Listen well," one soldier began, his voice steady and assured, "for I shall impart the wisdom of how to properly survival in the thickest wild woods. From foraging for sustenance to navigating the dense forests and treacherous swamps, the key lies in understanding the land's rhythms..." #STR_Survival2
+«Слухайце ўважліва, — пачынае адзін жаўнер спакойным, упэўненым голасам, — я падзялюся мудрасьцю выжываньня ў самых густых дзікіх лясах. Ці шукаеце вы харч, ці прабіраецеся празь лясныя гушчары й падступныя балоты, галоўнае — разумець рытмы зямлі…» #STR_Survival2
 
-As the tales unfolded, the soldiers found themselves immersed in the art of survival, learning to read the signs of nature and adapt to its demands. The stories emphasized the skills of medicine, scouting, and athleticism, leaving the soldiers with a newfound respect for the unforgiving yet awe-inspiring world beyond the safety of civilization. #STR_Survival3
+Слухаючы аповеды, жаўнеры занураюцца ў мастацтва выжываньня, вучацца чытаць знакі прыроды й прыстасоўвацца да яе патрабаваньняў. Гісторыі падкрэсьліваюць значэньне мэдыцыны, выведкі й атлетыкі, абуджаючы новую павагу да бязьлітаснага, але дзівоснага сьвету па-за бясьпечнымі межамі цывілізацыі. #STR_Survival3
     
     //Give Xp
             ~ GiveSkillExperience("Medicine",1000)

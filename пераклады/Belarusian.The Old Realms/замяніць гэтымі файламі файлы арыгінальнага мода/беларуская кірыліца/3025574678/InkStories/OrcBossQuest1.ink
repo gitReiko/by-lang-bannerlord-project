@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Boss Awakens
+# title: Бос прачынаецца
 # frequency: Special
 # development: false
 # illustration: orc_boss_career_2
@@ -12,18 +12,18 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-It comes suddenly, not quite a thought, not quite a feeling. Something closer to instinct. Your heart rate quickens. There is something stirring inside you: excitement. Urgency. You need to move. You need to KILL.
+Гэта прыходзіць раптам — ня думка й не пачуцьцё. Нешта бліжэйшае да інстынкту. Сэрца пачынае біцца хутчэй. Унутры нешта варушыцца: азарт. Нецярпеньне. Трэба рухацца. Трэба ЗАБІВАЦЬ.
 
-A voice whispers, then roars. It urges you on.
+Голас шэпча, а потым раве. Ён падганяе вас.
 
-“Bigga… betta… stronga… kill… KILL… WAAAAAAAAAAAAAGH!”
+«Больфы… ліпфы… мацнійфы… забівай… ЗАБІВАЙ… ВААААААААААААААГХ!»
 
-A sign from the gods? The voice leads you, drives you. To ignore it would be to invite the wrath of Gork and Mork themselves.
+Знак багоў? Голас вядзе вас, гоніць наперад. Праігнараваць яго — значыць наклікаць гнеў саміх Горка й Морка.
 
-You have been chosen. YOU. Given a chance to prove yourself before the gods.
-You must rise up. Face challenges. Smash everything. But above all, you must KILL.
+Багі абралі вас. ВАС. Далі шанец паказаць сябе перад імі.
+Вы мусіце ўзвысіцца. Прыняць выклікі. Разьбіць усё. Але найперш вы мусіце ЗАБІВАЦЬ.
 
-+ [LET’S DO DIS!]
++ [НУ ДАВАЙ ЗРОБІМ ЭТА!]
     ~ StartQuest("Quests.Careers.OrcBossQuest1")
     ~ CloseStory()
     -> END

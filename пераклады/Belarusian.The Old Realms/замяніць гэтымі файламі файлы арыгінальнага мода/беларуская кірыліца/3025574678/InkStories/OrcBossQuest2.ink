@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Big Boss Rises
+# title: Паўстае буйнабос
 # frequency: Special
 # development: false
 # illustration: orc_boss_career_2
@@ -12,23 +12,23 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-Under the watchful gaze of Gork and Mork you have proven yourself time and time again. You are a Boss, a warrior, you are death upon the battlefield and countless corpses lie in your wake.
+Пад пільнымі позіркамі Горка й Морка вы раз за разам даводзілі сваю вартасьць. Вы бос, вы ваяр, вы сама сьмерць на полі бітвы, і за вамі ляжаць незьлічоныя трупы.
 
-Your mob of boys follows you, fears you, respects you. They know you will lead them to the biggest fights and the greatest loot.
+Вашая банда хлопцаў ідзе за вамі, баіцца й паважае вас. Яны ведаюць, што вы прывядзяце іх да найбольшых боек і найбагацейшай здабычы.
 
-You have become a boss among bosses, but the gods are not satisfied, never are, never will. There is more to be done.
+Вы сталі босам сярод босаў, але багам гэтага мала. Заўсёды было мала й заўсёды будзе. Наперадзе яшчэ шмат справаў.
 
-+ [I'Z GUNNA BE DA BIGGEST DERE EVER WAS!!]
++ [БУДУ ШАМЫМ БОЛЬФЫМ ЗА ЎВЕШЬ ЧАШ!!]
     -> confirm_big_boss
 
 ===confirm_big_boss===
-You look to your boys, they are restless, they are ready. You look to the horizon, the road has been long, it's littered with loot, shinies and the corpses of all the runts that oppose you.
+Вы глядзіце на сваіх хлопцаў: ім ня церпіцца, яны гатовыя. Вы глядзіце на далягляд: ваш шлях быў доўгі, усеяны здабычай, бліскучымі цацкамі й трупамі ўсіх нікчэмнасьцяў, што сталі вам упоперак.
 
-No enemy dares to face you in open battle, so you must take the fight to them, tear them from their walls and drag them screaming from their homes.
+Ніводзін вораг не адважваецца сустрэць вас у адкрытым баі, таму вы мусіце самі прынесьці ім вайну, сарваць іх са сьценаў і выцягнуць з дамоў пад іхныя крыкі.
 
-The time is now, the green tide under your command will drown the world.
+Час прыйшоў: зялёная навала пад вашай камандай затопіць сьвет.
 
-+ [CRUSH 'EM ALL!! WAAAAAAAAAAAAAAAAGH!!!]
++ [РАШЧАВІЦЬ ІХ УШІХ!! ВААААААААААААААААГХ!!!]
     ~ StartQuest("Quests.Careers.OrcBossQuest2")
     ~ CloseStory()
     -> END

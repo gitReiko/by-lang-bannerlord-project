@@ -1,5 +1,5 @@
 //Global story tags
-# title: Blessings of Men
+# title: Бласлаўленьні людзей
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -9,15 +9,15 @@ INCLUDE include.ink
 ->START
 
 ===START===
-To start, you need to find holy tomes describing individual rites and blessings. These can be purchased from priests across the land. However, it is likely one might encounter lost knowledge when clearing dangerous threats, vaults, and lairs found on the continent.
-Afterwards you can learn blessings from the acquired books. Of course, your faith or your companions dictate what blessings you can learn; for instance, priests of Sigmar or wolf-priests can only invoke the powers of their respective deities.
-Once learned, you can either speak to different priests or head to the artisan district in any town. There, you can apply your blessing to an item of your choosing. This action, however, requires you to possess certain unique materials…
+Спачатку трэба знайсьці сьвятыя фаліянты з апісаньнямі асобных абрадаў і бласлаўленьняў. Іх можна набыць у сьвятароў па ўсім краі. Аднак забытыя веды могуць трапіцца вам і падчас змаганьня зь небясьпечнымі пагрозамі, дасьледаваньня сховішчаў ды логаваў на кантынэнце.
+Пасьля гэтага вы зможаце вывучыць бласлаўленьні з набытых кніг. Зразумела, даступныя вам бласлаўленьні залежаць ад вашай веры ці веры вашых кампаньёнаў: напрыклад, сьвятары Сігмара й ваўкі-сьвятары могуць заклікаць толькі сілы сваіх бостваў.
+Вывучыўшы бласлаўленьні, зьвярніцеся да сьвятароў або накіруйцеся ў рамесьніцкі квартал любога гораду. Там вы зможаце накласьці бласлаўленьне на абраны прадмет. Аднак для гэтага спатрэбяцца пэўныя ўнікальныя матэрыялы…
 
-Onto the materials with magical properties:
-Arcane Scrolls might be found amidst the loot of the cultists of darkness. Those who use magic may also have it in their possession.
-Amber Crystals are said to originate from the magical forest of Athel Loren. Those that lurk amidst the forests of the Elves, the strange folk and stranger beasts that roam under the trees, are bound to have Amber.
-When it comes to Blessed Water you can always go to the many shrines of man to acquire some, but travellers report that bandits and thieves across Bretonnia and the forests of Laurelorn may also carry such items.
-Marvelous Gemstones are treasures of Dwarfs. However, one might also suspect the foul Greenskins to carry Gemstones looted in their battles against the mountain folk. As a useful tool, those who use magic often carry Gemstones as well.
-Few in life come across such potent a substance as Dragon Blood… Perhaps those of the highest military ranking, valiant commanders and lords, or those who have reached the pinnacle of knighthood may have such a rare ingredient.
-As for the accursed Warpstone, the vilest substance of all, it is crucial to remember many civilized nations find this material highly illegal. You would need to fight at the very gates of Chaos or slay their fiendish cultists to acquire it. If one is particularly daring, then the blasted lands of Sylvania are rife with the foul stuff. But travellers be warned: In the lands perpetually shrouded in gloom and mist, the dead are more common than the living at times.
+Цяпер пра матэрыялы з магічнымі ўласьцівасьцямі:
+Арканныя скруткі можна знайсьці сярод здабычы культыстаў цемры. Яны таксама могуць быць у тых, хто карыстаецца магіяй.
+Кажуць, бурштынавыя крышталі паходзяць з чароўнага лесу Атэль Лорэн. У тых, хто хаваецца ў эльфійскіх лясах, у дзіўнага люду й яшчэ дзіўнейшых зьвяроў, што блукаюць пад шатамі, напэўна знойдзецца бурштын.
+Па бласлаўлёную ваду заўсёды можна зьвярнуцца ў шматлікія людзкія капішчы, але вандроўнікі кажуць, што бандыты й злодзеі Брэтоніі ды лясоў Лаўрэлорну таксама могуць мець яе пры сабе.
+Цудоўныя каштоўныя камяні — скарбы дварфаў. Аднак можна меркаваць, што агідныя зялёнаскурыя таксама носяць каштоўныя камяні, нарабаваныя ў бітвах з горным народам. Яны карысныя й для чараваньня, таму тыя, хто карыстаецца магіяй, часта маюць іх пры сабе.
+Мала каму ў жыцьці трапляецца такое моцнае рэчыва, як драконавая кроў… Магчыма, гэты рэдкі складнік ёсьць у найвышэйшых вайсковых чыноў, доблесных ваяводаў і шляхцічаў ці тых, хто дасягнуў вяршыняў рыцарства.
+Што да праклятага варп-каменю, найагіднейшага з усіх рэчываў, дык трэба памятаць: у многіх цывілізаваных краінах гэты матэрыял строга забаронены. Каб здабыць яго, давядзецца біцца ля самых брамаў Хаосу або забіваць ягоных д'ябальскіх культыстаў. Асабліва сьмелыя знойдуць удосталь гэтай брыдоты на спустошаных землях Сыльваніі. Але, вандроўнікі, сьцеражыцеся: у краі, вечна ахутаным змрокам і туманам, мёртвых часам болей, чым жывых.
     -> END
