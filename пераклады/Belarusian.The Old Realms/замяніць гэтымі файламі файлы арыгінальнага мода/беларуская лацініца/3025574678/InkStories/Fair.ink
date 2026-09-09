@@ -1,5 +1,5 @@
 //Global story tags
-# title: A Fair in the Woods
+# title: Kirmaš u lesie
 # frequency: Uncommon
 # development: false
 # illustration: trader
@@ -21,105 +21,105 @@ VAR TurnipPrice = 50
 
 
 
-As your army travels, a sudden clearing reveals a surprising sight – a bustling fair known as the Morrslieb Revelry. Tents stand proud, colors dancing in the dappled sunlight. Laughter mingles with the snorts of horses, the heart of this joyous gathering. #STR_Start1
+Kali vašaje vojska ruchajecca dalej, za drevami raptam adkryvajecca palana ź niečakanym vidoviščam — šumlivym kirmašom, viadomym jak Hulańnie Morślibu. Hanarliva ŭzdymajucca namioty, ichnyja farby hulajuć u soniečnych plamach. Śmiech źmiešvajecca z konskim pyrchańniem — sercam hetaha viasiołaha zboryšča. #STR_Start1
 
-Merchants beckon, their eyes alight with mischief, hawking horses at a discount from the standard rates you'd find in the scrolls. The air carries the tempting scents of roasted meat, frothy ale, and tangy wine. Amidst the merry crowd, a farmer grins, offering a turnip that oddly resembles the famed twin-tailed comet. Yours for a mere penny, a chance to possess this curious marvel. #STR_Start2
+Handlary zavablivajuć pakupnikoŭ, chitravata bliskajučy vačyma j prapanujučy koniej tańniej za zvyčajnyja ceny, paznačanyja ŭ skrutkach. U pavietry łunajuć spakuślivyja pachi smažanaha miasa, pienistaha elu j daŭkaha vina. Siarod viasiołaha natoŭpu ŭśmichajecca ziemlarob, jaki prapanuje repu, dziŭna padobnuju da słavutaj dvuchchvostaj kamety. Usiaho za drabiazu vy možacie zavałodać hetym niezvyčajnym dzivam. #STR_Start2
     ->choices
 
     =choices
-    * [Join the crowd at the horse market.]->HorseStalls 
-    * [Savor the flavors of the fair.]->FoodStalls
-    * [Test your luck at the horse races.]->HorseRaces
-    * [Examine the peculiar turnip.]->Turnip
-    * [Continue your journey through the woods.]->Leave
+    * [Dałučycca da natoŭpu na konskim kirmašy.]->HorseStalls 
+    * [Pakaštavać kirmašovych stravaŭ.]->FoodStalls
+    * [Vyprabavać udaču na skokach.]->HorseRaces
+    * [Ahladzieć niezvyčajnuju repu.]->Turnip
+    * [Praciahnuć padarožža praź les.]->Leave
 
 ===HorseStalls===
-The fair's heart beats strongest at the horse market. Proud stallions prance, their eyes fierce and wild. One horse, in particular, captures your attention. It has a sleek, ebony coat that glistens in the sunlight, and its eyes seem to hold a knowing glint. #STR_HorseStalls1
+Najbolš žvava kirmaš viruje tam, dzie pradajuć koniej. Hanarlivyja žarabcy harcujuć, luta pazirajučy dzikimi vačyma. Adzin koń asabliva pryciahvaje vašuju ŭvahu. Jahonaja hładkaja varanaja poŭść bliščyć na soncy, a ŭ vačach niby iskrycca razumieńnie. #STR_HorseStalls1
     ->choices
 
     =choices
-    + [Take the merchant's deal for the horse. ({HorsePrice} gold)]->BuyHorse
-    * [Persuade the merchant to lower the price. {print_player_skill_chance("Charm",150)}]->PersuadeMerchant
-    * [Return to the fair's heart.]->Start.choices
+    + [Pryniać prapanovu handlara j kupić kania. ({HorsePrice} załatych)]->BuyHorse
+    * [Pierakanać handlara źnizić canu. {print_player_skill_chance("Charm",150)}]->PersuadeMerchant
+    * [Viarnucca ŭ hušču kirmašu.]->Start.choices
 
 ===BuyHorse===
-{HasEnoughGold(HorsePrice): You strike a deal with the merchant. You exchange coins for a sturdy saddle and reins. With a surge of anticipation, you mount the horse. The connection between you is immediate, the horse seems to respond to your touch with trust and eagerness. {GiveGold(-HorsePrice)} {GiveItem("t2_empire_horse",1)} | You don't have enough gold. #STR_BuyHorse1NOTENOUGHGOLD }  #STR_BuyHorse1
+{HasEnoughGold(HorsePrice): Vy damaŭlajeciesia z handlarom i addajacie maniety ŭ abmien na mocnaje siadło j pavady. Z radasnym pradčuvańniem vy siadajecie na kania. Pamiž vami adrazu ŭźnikaje suviaź: zdajecca, koń z davieram i achvotaj adhukajecca na vaš dotyk. {GiveGold(-HorsePrice)} {GiveItem("t2_empire_horse",1)} | Vam brakuje zołata. #STR_BuyHorse1NOTENOUGHGOLD }  #STR_BuyHorse1
 
-* [Return to the revelry]->Start.choices
+* [Viarnucca da hulańnia]->Start.choices
 
 ===PersuadeMerchant===
 {perform_player_skill_check("Charm",150): -> success | -> fail}
 
     =success
-    Your words work their magic, and the merchant agrees to lower the price by 50%. The merchant grumbles but respects your negotiating skills. #STR_PersuadeMerchant_Success
+    Vašyja słovy robiać cud, i handlar zhadžajecca źnizić canu na 50%. Jon burčyć, ale pavažaje vašaje ŭmieńnie tarhavacca. #STR_PersuadeMerchant_Success
     ~HorsePrice = 1000
     ->HorseStalls.choices
 
     =fail
-    Despite your best attempts to haggle, the merchant remains firm on the price. #STR_PersuadeMerchant_Fail
+    Niahledziačy na ŭsie vašyja sproby patarhavacca, handlar ćviorda trymajecca svajoj cany. #STR_PersuadeMerchant_Fail
     ->HorseStalls.choices
     
 
 ===FoodStalls===
-Scents swirl and tempt, guiding you to a feast of flavors. Meats sizzle and ale froths – a carnival for the senses. There's plenty of food available, and it's your choice to partake. #STR_FoodStalls1
+Spakuślivyja pachi viaduć vas da sapraŭdnaha śviata smaku. Miasa šypić, el pienicca — asałoda dla ŭsich pačućciaŭ. Ježy tut udostal, i tolki vam vyrašać, ci dałučycca da pačastunku. #STR_FoodStalls1
 
-* [Indulge in the fair's feast. ({FoodPrice} gold)]->BuyFood
-* [Carry on, resisting the temptation.]->Start
+* [Pačastavacca na kirmašy. ({FoodPrice} załatych)]->BuyFood
+* [Ustrymacca ad spakusy j pajści dalej.]->Start
 
 ===BuyFood===
-{HasEnoughGold(FoodPrice): Indulgence wins. You feast, the fair's flavors a delightful symphony on your tongue. Merchants nod their approval as you partake. {GiveGold(-FoodPrice)} | You don't have enough gold. #STR_BuyFood1NOTENOUGHGOLD}#STR_BuyFood1
+{HasEnoughGold(FoodPrice): Spakusa pieramahaje. Vy łasujeciesia, i kirmašovyja prysmaki składajucca ŭ cudoŭnuju symfoniju na vašym jazyku. Handlary ŭchvalna kivajuć, hledziačy, jak vy jaście. {GiveGold(-FoodPrice)} | Vam brakuje zołata. #STR_BuyFood1NOTENOUGHGOLD}#STR_BuyFood1
 
-* [Return to the merriment.]->Start.choices
+* [Viarnucca da hulańnia.]->Start.choices
 
 ===HorseRaces===
-Cheers erupt from an amphitheater. Horses thunder, riders urging them to glory. #STR_HorseRaces
+Z amfiteatru danosiacca zachoplenyja vokličy. Hrukočuć kapyty, i vieršniki padhaniajuć koniej nasustrač chvale. #STR_HorseRaces
 ->choices
 
     =choices
-    * [Place a wager on a racing horse. ({HorseBetPrice} gold - payout 5x on win)]->PlaceBet
-    * [You decide that you shouldn't test your luck.]->Start.choices
+    * [Pastavić na kania. ({HorseBetPrice} załatych — vypłata ŭ piać razoŭ bolšaja za staŭku ŭ vypadku pieramohi)]->PlaceBet
+    * [Vyrašyć, što nia varta vypraboŭvać udaču.]->Start.choices
 
 ===PlaceBet===
-{not HasEnoughGold(HorseBetPrice): You don't have enough gold. #STR_PlaceBet_NOTENOUGHGOLD -> HorseRaces.choices } 
+{not HasEnoughGold(HorseBetPrice): Vam brakuje zołata. #STR_PlaceBet_NOTENOUGHGOLD -> HorseRaces.choices } 
 ~GiveGold(-HorseBetPrice)
 {WinHorseRace: ->success | ->fail}
     =success
-    Your heart races as you place your wager. The horse you chose surges forward, and luck dances in your favor. Laughter and clinking coins surround you. #STR_PlaceBet_Success
+    Serca kałocicca, kali vy robicie staŭku. Abrany vami koń vyryvajecca napierad, i ŭdača ŭśmichajecca vam. Navokał hučać śmiech i zvon manietaŭ. #STR_PlaceBet_Success
     ~ GiveGold(HorseBetPayout)
-    * [Return to the merry crowd.]->Start.choices
+    * [Viarnucca da viasiołaha natoŭpu.]->Start.choices
 
     =fail
-    Your heart races as you place your wager. The horse you chose quickly surges forward at first, but the other riders soon catch up. Eventually, your horse slows down to the point of only earning a late place. Laughter and clinking coins surround you.
+    Serca kałocicca, kali vy robicie staŭku. Abrany vami koń spačatku imkliva vyryvajecca napierad, ale nieŭzabavie astatnija vieršniki jaho dahaniajuć. Urešcie jon zapavolvajecca j prychodzić adnym z apošnich. Navokał hučać śmiech i zvon manietaŭ.
         #STR_PlaceBet_Fail
-    * [Return to the merry crowd.]->Start.choices
+    * [Viarnucca da viasiołaha natoŭpu.]->Start.choices
 
 ===Turnip===
-Intrigue tugs at your senses as you gaze upon the comet-shaped turnip – a whimsical marvel. A farmer grins, inviting you to join a raffle. #STR_Turnip1
+Vy z cikaŭnaściu razhladajecie repu ŭ formie kamety — mudrahielistaje dziva pryrody. Ziemlarob uśmichajecca j zaprašaje vas uziać udzieł u rozyhryšy. #STR_Turnip1
     ->choices
 
     =choices
-    * [Try your luck with a raffle ticket. ({TurnipPrice} gold)]->BuyTicket
-    * [Use your perception to find hidden clues about the turnip. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
-    * [Move on, leaving the curious turnip behind.]->Start.choices
+    * [Vyprabavać udaču j nabyć kvitok na rozyhryš. ({TurnipPrice} załatych)]->BuyTicket
+    * [Uvažliva ahledzieć repu j pašukać prychavanyja padkazki. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
+    * [Pajści dalej, pakinuŭšy niezvyčajnuju repu.]->Start.choices
 
 ===BuyTicket===
-{HasEnoughGold(TurnipPrice): With a coin and a smile, you secure your chance at the raffle. Who knows? The comet-kissed turnip might be yours after all. {GiveGold(-TurnipPrice)} | You don't have enough gold. #STR_BuyTicket1NOTENOUGHGOLD  -> Turnip.choices}  #STR_BuyTicket1
+{HasEnoughGold(TurnipPrice): Addaŭšy manety, vy z uśmieškaj atrymlivajecie šaniec na vyjhryš. Chto viedaje? Moža, repa, pacałavanaja kametaj, usio ž budzie vašaj. {GiveGold(-TurnipPrice)} | Vam brakuje zołata. #STR_BuyTicket1NOTENOUGHGOLD  -> Turnip.choices}  #STR_BuyTicket1
 
-With anticipation in the air, the raffle commences, and as the announcer calls out the winning ticket number, you hold your breath. However, luck is not on your side this time. The winning number isn't yours, and a twinge of disappointment washes over you. #STR_BuyTicket2
+Usie zamirajuć u čakańni, rozyhryš pačynajecca. Kali abviaščajuć numar pieramožnaha kvitka, vy zatojvajecie dychańnie. Adnak hetym razam udača nie na vašym baku. Pieramožny numar nie supadaje z vašym, i vas achoplivaje rasčaravańnie. #STR_BuyTicket2
 
-* [Return to the mirthful revelry.]->Start.choices
+* [Viarnucca da viasiołaha hulańnia.]->Start.choices
 
 === PerceiveTurnip ===
 {perform_player_skill_check("Roguery", 80): -> success | ->fail}
 
     =success
-    Your sharp eyes pick up on subtle details that others might miss. The turnip seems to have no strange markings that hint at its significance. It's completely ordinary.   #STR_PerceiveTurnip_Success
+    Vašaje pilnaje voka zaŭvažaje drobiazi, jakija inšyja mahli b prapuścić. Na repie niama nijakich niezvyčajnych znakaŭ, jakija śviedčyli b pra jaje asablivuju značnaść. Heta samaja zvyčajnaja repa.   #STR_PerceiveTurnip_Success
     ->Turnip.choices
     
     =fail
-    Your examination doesn't reveal anything unusual about the turnip. #STR_PerceiveTurnip_Success
+    Ahlad nie vyjaŭlaje ŭ repie ničoha niezvyčajnaha. #STR_PerceiveTurnip_Success
     ->Turnip.choices
 
 ===Leave===
-As the fair's merriment fades, you step back into the embrace of the wilderness, leaving the laughter of the fair's revelry behind. #STR_Leave1
+Kirmašovy homan zacichaje, i vy znoŭ stupajecie ŭ abdymki dzikaj pryrody, pakidajučy za śpinaj śmiech viasiołaha hulańnia. #STR_Leave1
 ->END

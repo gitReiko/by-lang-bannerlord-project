@@ -1,5 +1,5 @@
 //Global story tags
-# title: Traveling Troubadours
+# title: Vandroŭnyja trubadury
 # frequency: Special
 # development: false
 # illustration: minstrel
@@ -11,25 +11,25 @@ INCLUDE include.ink
 
 ===START===
 ~ PlayMusic("west_bretonnia")
-During your travels, your ears catch the lively chatter of a group of troubadours engaged in an animated conversation. Their vibrant attire and energetic gestures suggest a shared passion for their craft. Curiosity beckons you closer, and as you approach, their discussion shifts seamlessly into an improvised performance. #STR_Start1
+U darozie da vas danosicca žvavaja razmova trubaduraŭ, jakija zachoplena niešta abmiarkoŭvajuć. Ichnyja jarkija ŭbory j enerhičnyja žesty vydajuć supolny zapał da svajho ramiastva. Cikaŭnaść vabić vas bližej, i, kali vy padychodzicie, razmova nieprykmietna pieratvarajecca ŭ impravizavany vystup. #STR_Start1
 
-Captivated by their harmonious voices, you decide to stay and listen. The troubadours' music weaves a narrative that transcends mere words. The rhythm of their song pulls you into a shared moment, where the world's worries and uncertainties seem to fade away. #STR_Start2
+Začaravanyja ichnymi zładžanymi hałasami, vy vyrašajecie zastacca j pasłuchać. Muzyka trubaduraŭ placie apovied, jaki kaža bolš za prostyja słovy. Rytm pieśni jadnaje vas u supolnym imhnieńni, dzie kłopaty j niavyznačanaść śvietu niby adychodziać preč. #STR_Start2
 
-As their performance reaches its climax, the troubadours' gazes meet, their smiles reflecting the joy they find in their artistic exchange. And then, with a final, triumphant note, their song comes to an end. #STR_Start3
+Kali vystup dasiahaje viaršyni, trubadury pierahladajucca j uśmichajucca ad radaści supolnaj tvorčaści. Narešcie hučyć apošniaja, tryjumfalnaja nota, i pieśnia skančajecca. #STR_Start3
 
-*[Clap and applaud] -> Applaud
-*[Express your appreciation] -> Appreciate
+*[Zaplaskać u ładki] -> Applaud
+*[Vykazać udziačnaść] -> Appreciate
 
 ===Applaud===
-Caught up in the magic of the moment, you find yourself clapping along with the gathered crowd, an unspoken acknowledgement of the beauty you've all just experienced. #STR_Applaud1
+Zachoplenyja čarami imhnieńnia, vy plaskajecie ŭ ładki razam z usimi, chto sabraŭsia, — maŭklivaja danina pryhažości, jakuju vy tolki što pieražyli razam. #STR_Applaud1
 ->Leave
 
 ===Appreciate===
-Your heart full of gratitude, you express your deep appreciation for the troubadours' performance. They exchange a knowing glance, their smiles warm and genuine.
+Z udziačnym sercam vy ščyra dziakujecie trubaduram za vystup. Jany z razumieńniem pierahladajucca, ciopła j ščyra ŭśmichajučysia.
 #STR_Appreciate2
 ->Leave
 
 ===Leave===
-With a final nod of appreciation, you leave the troubadours to continue their musical journey, carrying the memory of their impromptu performance with you as you resume your own path. #STR_Leave1
-(Clicking on "End" will stop the music if it's still playing.) #STR_Leave2
+Jašče raz udziačna kiŭnuŭšy, vy pakidajecie trubaduraŭ praciahvać ichnaje muzyčnaje padarožža j rušycie svajoj darohaj, niesučy z saboju ŭspamin pra niečakany vystup. #STR_Leave1
+(Nacisk na «Kaniec» spynić muzyku, kali jana jašče hraje.) #STR_Leave2
 ->END

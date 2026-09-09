@@ -51,7 +51,7 @@ Possible school (lore) of magic names (case sensitive!)
 ===function print_player_skill_chance(skillName, skillLevelForCertainty)===
     ~ temp chance = limit100(INT(((GetPlayerSkillValue(skillName) / skillLevelForCertainty) * 100)))
     ~ SetPlayerSkillChance(skillName, chance)
-    ~ return "({skillName} check - success chance " + chance + "%)"
+    ~ return "(Pravierka: {by_stat_name(skillName)} — šaniec pośpiechu " + chance + "%)"
 
 ===function perform_player_skill_check(skillName, skillLevelToCheckAgainst)===
     ~ return GetPlayerSkillValue(skillName) >= RANDOM(1,skillLevelToCheckAgainst)
@@ -59,7 +59,7 @@ Possible school (lore) of magic names (case sensitive!)
 ===function print_party_skill_chance(skillName, skillLevelForCertainty)===
     ~ temp chance = limit100(INT(((GetPartySkillValue(skillName) / skillLevelForCertainty) * 100)))
     ~ SetPartySkillChance(skillName, chance)
-    ~ return "({skillName} check - success chance " + chance + "%)"
+    ~ return "(Pravierka: {by_stat_name(skillName)} — šaniec pośpiechu " + chance + "%)"
 
 ===function perform_party_skill_check(skillName, skillLevelToCheckAgainst)===
     ~ return GetPartySkillValue(skillName) >= RANDOM(1,skillLevelToCheckAgainst)
@@ -68,7 +68,7 @@ Possible school (lore) of magic names (case sensitive!)
 ===function print_player_attribute_chance(attributeName, attributeLevelForCertainty)===
     ~ temp chance = limit100(INT(((GetPlayerAttributeValue(attributeName) / attributeLevelForCertainty) * 100)))
     ~ SetPlayerAttributeChance(attributeName, chance)
-    ~ return "({attributeName} check - success chance " + chance + "%)"
+    ~ return "(Pravierka: {by_stat_name(attributeName)} — šaniec pośpiechu " + chance + "%)"
 
 ===function perform_player_attribute_check(attributeName, attributeLevelForCertainty)===
     ~ return GetPlayerAttributeValue(attributeName) >= RANDOM(1,attributeLevelForCertainty)
@@ -76,7 +76,7 @@ Possible school (lore) of magic names (case sensitive!)
 ===function print_party_attribute_chance(attributeName, attributeLevelForCertainty)===
     ~ temp chance = limit100(INT(((GetPartyAttributeValue(attributeName) / attributeLevelForCertainty) * 100)))
     ~ SetPartyAttributeChance(attributeName, chance)
-    ~ return "({attributeName} check - success chance " + chance + "%)"
+    ~ return "(Pravierka: {by_stat_name(attributeName)} — šaniec pośpiechu " + chance + "%)"
 
 ===function perform_party_attribute_check(attributeName, attributeLevelForCertainty)===
     ~ return GetPartyAttributeValue(attributeName) >= RANDOM(1,attributeLevelForCertainty)
@@ -108,15 +108,15 @@ EXTERNAL SetPartyAttributeChance(attributeName, attributeLevelForCertainty)
 
 
 //Gets the current skill value of the player
-//Takes the skill's name as argument
+//Takes the skills name as argument
 //The skillname is case sensitive string
 //returns the skill value as a float
 EXTERNAL GetPlayerSkillValue(skillname)
 ===function GetPlayerSkillValue(skillname)===
     ~return 100.0
 
-//Gets the current highest skill value of any hero member of the player's party (player or companions)
-//Takes the attribute's name as argument
+//Gets the current highest skill value of any hero member of the players party (player or companions)
+//Takes the attributes name as argument
 //The skillname is case sensitive string
 //returns the skill value as a float
 EXTERNAL GetPartySkillValue(skillname)
@@ -124,15 +124,15 @@ EXTERNAL GetPartySkillValue(skillname)
     ~return 100.0
 
 //Gets the current attribute value of the player
-//Takes the attribute's name as argument
+//Takes the attributes name as argument
 //The attributeName is case sensitive string
 //returns the attribute value as a float, return values are between 1-10
 EXTERNAL GetPlayerAttributeValue(attributeName)
 ===function GetPlayerAttributeValue(attributeName)===
     ~return 5.0
 
-//Gets the current highest attribute value of any hero member of the player's party (player or companions)
-//Takes the attribute's name as argument
+//Gets the current highest attribute value of any hero member of the players party (player or companions)
+//Takes the attributes name as argument
 //The attributeName is case sensitive string
 //returns the attribute value as a float, return values are between 1-10
 EXTERNAL GetPartyAttributeValue(attributeName)
@@ -141,7 +141,7 @@ EXTERNAL GetPartyAttributeValue(attributeName)
 
 
 //Gives skill experience to the player
-//Takes the skill's name and the amount of xp to give as arguments
+//Takes the skills name and the amount of xp to give as arguments
 //The skillname is a case sensitive string, amount must be an integer
 //returns nothing
 EXTERNAL GiveSkillExperience(skillname, amount)
@@ -149,9 +149,9 @@ EXTERNAL GiveSkillExperience(skillname, amount)
     ~return ""
 
 //Gets the value of a personality trait of the player
-//Takes the trait's name as argument
+//Takes the traits name as argument
 //The traitname is a case sensitive string
-//returns the trait's value as an integer - usually ranges between [-2 , 2]
+//returns the traits value as an integer - usually ranges between [-2 , 2]
 EXTERNAL GetPlayerPersonalityTraitValue(traitname)
 ===function GetPlayerPersonalityTraitValue(traitname)===
     ~return 1
@@ -182,7 +182,7 @@ EXTERNAL PartyHasSpellcaster(playeronly)
 
 //Checks if the player party has any member with the knowledge of the passed in school of magic (lore of magic)
 //takes a boolean as argument, if true, only the player is checked, if false, all hero members of the party are checked
-//second argument is a case sensitive string with the lore's name
+//second argument is a case sensitive string with the lores name
 //playeronly is a (true|false) boolean
 //lorename is a case sensitive string
 //returns a (true|false) boolean
@@ -190,7 +190,7 @@ EXTERNAL DoesPartyKnowSchoolOfMagic(playeronly, lorename)
 ===function DoesPartyKnowSchoolOfMagic(playeronly, lorename)===
     ~ return true
 
-//Gets the name of the closest settlement of the given type to the player's party
+//Gets the name of the closest settlement of the given type to the players party
 //takes a string as an argument with only the following possible values (town|village|castle)
 //settlementtype is a non-case sensitive string from a finite list of possible values
 //returns a string with the name of the settlement
@@ -198,7 +198,7 @@ EXTERNAL GetNearestSettlement(settlementtype)
 ===function GetNearestSettlement(settlementtype)===
     ~ return "ExampleSettlement"
 
-//Gets the name of a random notable from the closest settlement to the player's party
+//Gets the name of a random notable from the closest settlement to the players party
 //takes a string as an argument with only the following possible values (town|village) NOTE! No Castle!
 //settlementtype is a non-case sensitive string from a finite list of possible values
 //returns a string with the name of the notable
@@ -214,7 +214,7 @@ EXTERNAL GetRandomNotableFromSpecificSettlement(settlementname)
 ===function GetRandomNotableFromSpecificSettlement(settlementname)===
     ~ return "Specific John"
 
-//Method to change the count of some troop types in the player's party. Can add or remove as well based on whether the count is a positive or a negative number.
+//Method to change the count of some troop types in the players party. Can add or remove as well based on whether the count is a positive or a negative number.
 //takes a string as an argument that MUST match a valid troop ID from the game. If you are not sure how to look that up, bug hunharibo or Z3rca about it
 //returns nothing
 EXTERNAL ChangePartyTroopCount(troopId, count)
@@ -306,7 +306,7 @@ EXTERNAL PlayMusic(musicname)
 ===function PlayMusic(musicname)===
     ~ return ""
 
-//Give an artifact item based on player's religion
+//Give an artifact item based on players religion
 EXTERNAL GiveMiracleItem()
 ===function GiveMiracleItem()===
     ~ return ""
@@ -326,3 +326,63 @@ EXTERNAL CloseStory()
 ===function CloseStory()===
     ~ return ""
 
+
+// Belarusian display names; external calls keep the original stat IDs.
+===function by_stat_name(statName)===
+    {statName:
+        - "OneHanded":
+            ~ return "Adnaručnaja Zbroja"
+        - "TwoHanded":
+            ~ return "Dvuchručnaja Zbroja"
+        - "Polearm":
+            ~ return "Tronkavaja Zbroja"
+        - "Bow":
+            ~ return "Łuk"
+        - "Crossbow":
+            ~ return "Arbalet"
+        - "Throwing":
+            ~ return "Kidalnaja Zbroja"
+        - "Riding":
+            ~ return "Konnaja Jazda"
+        - "Athletics":
+            ~ return "Atletyka"
+        - "Scouting":
+            ~ return "Vyviedka"
+        - "Tactics":
+            ~ return "Taktyka"
+        - "Crafting":
+            ~ return "Kavalstva"
+        - "Roguery":
+            ~ return "Machlarstva"
+        - "Charm":
+            ~ return "Charyzma"
+        - "Leadership":
+            ~ return "Lidarstva"
+        - "Trade":
+            ~ return "Handal"
+        - "Steward":
+            ~ return "Zahadvańnie"
+        - "Medicine":
+            ~ return "Miedycyna"
+        - "Engineering":
+            ~ return "Inžynieryja"
+        - "Faith":
+            ~ return "Viera"
+        - "Gunpowder":
+            ~ return "Parachavaja Zbroja"
+        - "Spellcraft":
+            ~ return "Viadźmarstva"
+        - "Vigor":
+            ~ return "Dužaść"
+        - "Control":
+            ~ return "Kantrol"
+        - "Endurance":
+            ~ return "Tryvałaść"
+        - "Cunning":
+            ~ return "Chitraść"
+        - "Social":
+            ~ return "Sacyjalnaść"
+        - "Intelligence":
+            ~ return "Intelekt"
+    }
+    ~ return statName

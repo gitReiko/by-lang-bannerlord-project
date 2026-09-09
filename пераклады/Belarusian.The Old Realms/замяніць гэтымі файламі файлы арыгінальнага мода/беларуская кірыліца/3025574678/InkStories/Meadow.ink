@@ -322,7 +322,7 @@
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 2:
-                    Паляваньне ўдалае: вашыя людзі вяртаюцца зь дзіком. (+1 Мяса, +1 Футра) #HuntLoop2
+                    Паляваньне ўдалае: вашыя людзі вяртаюцца зь дзікам. (+1 Мяса, +1 Футра) #HuntLoop2
                     ~ GiveItem("meat",1)
                     ~ GiveItem("fur",1)
                 - AttemptSuccessful == false:

@@ -331,19 +331,19 @@ EXTERNAL CloseStory()
 ===function by_stat_name(statName)===
     {statName:
         - "OneHanded":
-            ~ return "Аднаручная зброя"
+            ~ return "Аднаручная Зброя"
         - "TwoHanded":
-            ~ return "Двухручная зброя"
+            ~ return "Двухручная Зброя"
         - "Polearm":
-            ~ return "Тронкавая зброя"
+            ~ return "Тронкавая Зброя"
         - "Bow":
             ~ return "Лук"
         - "Crossbow":
             ~ return "Арбалет"
         - "Throwing":
-            ~ return "Кіданьне"
+            ~ return "Кідальная Зброя"
         - "Riding":
-            ~ return "Конная язда"
+            ~ return "Конная Язда"
         - "Athletics":
             ~ return "Атлетыка"
         - "Scouting":
@@ -369,7 +369,7 @@ EXTERNAL CloseStory()
         - "Faith":
             ~ return "Вера"
         - "Gunpowder":
-            ~ return "Парахавая зброя"
+            ~ return "Парахавая Зброя"
         - "Spellcraft":
             ~ return "Вядзьмарства"
         - "Vigor":
