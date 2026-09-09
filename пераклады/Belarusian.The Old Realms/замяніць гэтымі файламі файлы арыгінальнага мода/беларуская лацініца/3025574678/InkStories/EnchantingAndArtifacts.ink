@@ -1,5 +1,5 @@
 //Global story tags
-# title: Enchanting and Artifacts
+# title: Začaravańnie j artefakty
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -15,39 +15,38 @@ INCLUDE include.ink
 
 
     =choices
-    + [Read about enchanting.]->Beginning 
-    + [Read about Incredients.]->Ingredients
-    + [Read about Magical Items.]->MagicItems 
-    + [Close book] -> END
+    + [Pračytać pra začaravańnie.]->Beginning 
+    + [Pračytać pra składniki.]->Ingredients
+    + [Pračytać pra mahičnyja pradmiety.]->MagicItems 
+    + [Začynić knihu] -> END
 
 ===Beginning===
 
 
-To start, you need to find books containing individual enchanting formulas. These can be purchased from wizards across the land. However, it is likely one might encounter lost knowledge when clearing dangerous threats, vaults, and lairs found on the continent.
-Afterwards you can learn enchanting formulas from the acquired books. Of course, your profession or your companions dictate what formulas you can learn; one can only channel the Winds of Magic one is attuned to. Moreover, alien cultures will never share their secrets with outsiders. Once learned, you can either speak to different wizards or head to the artisan district in any town. There, you can apply your formulas to an item of your choosing. This action, however, requires you to possess certain unique materials…
+Spačatku treba znajści knihi z asobnymi formułami začaravańnia. Ich možna nabyć u čaraŭnikoŭ pa ŭsim krai. Adnak zabytyja viedy mohuć trapicca vam i padčas zmahańnia ź niebiaśpiečnymi pahrozami, daśledavańnia schoviščaŭ dy łohavaŭ na kantynencie.
+Paśla hetaha vy zmožacie vyvučyć formuły začaravańnia z nabytych knih. Zrazumieła, dastupnyja vam formuły zaležać ad vašaha zaniatku ci zaniatku vašych kampańjonaŭ: kožny moža kiravać tolki tymi Viatrami Mahii, ź jakimi maje suviaź. Da taho ž čužyja narody nikoli nia dzielacca svaimi tajamnicami z čužyncami. Vyvučyŭšy formuły, źviarniciesia da čaraŭnikoŭ abo nakirujciesia ŭ ramieśnicki kvartał luboha horadu. Tam vy zmožacie ŭžyć formuły da abranaha pradmieta. Adnak dla hetaha spatrebiacca peŭnyja ŭnikalnyja materyjały…
 
 
 
-+ [Read imprint]->START
++ [Pračytać vychodnyja źviestki]->START
 
 === Ingredients === 
 
-Onto the materials with magical properties:
-Arcane Scrolls might be found amidst the loot of the cultists of darkness. Those who use magic may also have it in their possession.
+Ciapier pra materyjały z mahičnymi ŭłaścivaściami:
+Arkannyja skrutki možna znajści siarod zdabyčy kultystaŭ ciemry. Jany taksama mohuć być u tych, chto karystajecca mahijaj.
 
-Amber Crystals are said to originate from the magical forest of Athel Loren. Those that lurk amidst the forests of the Elves, the strange folk and stranger beasts that roam under the trees, are bound to have Amber. 
-When it comes to Blessed Water you can always go to the many shrines of man to acquire some, but travellers report that bandits and thieves across Bretonnia and the forests of Laurelorn may also carry such items. The priests of the Empire do not take kindly to outsiders however.  
-Marvelous Gemstones are treasures of Dwarfs. However, one might also suspect the foul Greenskins to carry Gemstones looted in their battles against the mountain folk. As a useful tool, those who use magic often carry Gemstones as well. 
-Few in life come across such potent a substance as Dragon Blood… Perhaps those of the highest military ranking, valiant commanders and lords, or those who have reached the pinnacle of knighthood may have such a rare ingredient. 
-As for the accursed Warstpone, the vilest substance of all, it is crucial to remember many civilized nations find this material highly illegal. You would need to fight at the very gates of Chaos or slay their fiendish cultists to acquire it. If one is particularly daring, then the blasted lands of Sylvania are rife with the foul stuff. But travellers be warned: In the lands perpetually shrouded in gloom and mist, the dead are more common than the living at times.
+Kažuć, burštynavyja kryštali pachodziać z čaroŭnaha lesu Atel Łoren. U tych, chto chavajecca ŭ elfijskich lasach, u dziŭnaha ludu j jašče dziŭniejšych źviaroŭ, što błukajuć pad šatami, napeŭna znojdziecca burštyn. 
+Pa błasłaŭlonuju vadu zaŭsiody možna źviarnucca ŭ šmatlikija ludzkija kapiščy, ale vandroŭniki kažuć, što bandyty j złodziei Bretonii dy lasoŭ Łaŭrełornu taksama mohuć mieć jaje pry sabie. Adnak śviatary Impieryi nia nadta zyčlivyja da čužyncaŭ.  
+Cudoŭnyja kaštoŭnyja kamiani — skarby dvarfaŭ. Adnak možna mierkavać, što ahidnyja zialonaskuryja taksama nosiać kaštoŭnyja kamiani, narabavanyja ŭ bitvach z hornym narodam. Jany karysnyja j dla čaravańnia, tamu tyja, chto karystajecca mahijaj, časta majuć ich pry sabie. 
+Mała kamu ŭ žyćci traplajecca takoje mocnaje rečyva, jak drakonavaja kroŭ… Mahčyma, hety redki składnik jość u najvyšejšych vajskovych čynoŭ, doblesnych vajavodaŭ i šlachcičaŭ ci tych, chto dasiahnuŭ viaršyniaŭ rycarstva. 
+Što da praklataha varp-kamieniu, najahidniejšaha z usich rečyvaŭ, dyk treba pamiatać: u mnohich cyvilizavanych krainach hety materyjał stroha zabaronieny. Kab zdabyć jaho, daviadziecca bicca la samych bramaŭ Chaosu abo zabivać jahonych piakielnych kultystaŭ. Asabliva śmiełyja znojduć udostal hetaj brydoty na spustošanych ziemlach Sylvanii. Ale, vandroŭniki, ścieražyciesia: u krai, viečna achutanym zmrokam i tumanam, miortvych časam bolej, čym žyvych.
 
-+ [Read imprint]->START
++ [Pračytać vychodnyja źviestki]->START
     
 === MagicItems === 
 
-Magical Items can be found through out the Old World. Sometimes their wielders are not even aware about their possession, sometimes it is just superstition. 
-The College of Mages request any artefact that are not man made, to be delivered to the Arcane Academy for studying.
-The efforts are being rewarded: The College of mages will reward the good will with Imperial Marks and we make sure that these efforts are being noted in the empire.
+Mahičnyja pradmiety sustrakajucca pa ŭsim Starym Śviecie. Časam ichnija ŭłaśniki navat nia viedajuć, čym vałodajuć, a časam ichnija ŭjaŭleńni — tolki zababony. 
+Kalehija Mahaŭ prosić dastaŭlać usie artefakty, stvoranyja nieludźmi, u Arkannuju Akademiju dla vyvučeńnia.
+Vašyja namahańni buduć uznaharodžanyja: Kalehija Mahaŭ adździačyć za dobruju volu impierskimi markami, a my pakłapocimsia, kab u Impieryi pra ich daviedalisia.
 
-+ [Read Table of Contents]->START
-
++ [Pračytać źmiest]->START
