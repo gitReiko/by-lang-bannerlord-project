@@ -1,5 +1,5 @@
 //Global story tags
-# title: Покліч багоў
+# title: Покліч Багоў
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -22,7 +22,7 @@ VAR QuestToStart = ""
 
 Багі клічуць, час адгукнуцца.
 
-+ [Дзі эта праклітае міфца!?]
++ [Дзе эта праклятае месца!?]
     ~ StartQuest("Quests.Careers.OrcShamanQuest1")
     ~ CloseStory()
     -> END

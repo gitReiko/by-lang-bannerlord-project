@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Big Boss Rises
+# title: Paŭstaje Bujnabos
 # frequency: Special
 # development: false
 # illustration: orc_boss_career_2
@@ -12,23 +12,23 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-Under the watchful gaze of Gork and Mork you have proven yourself time and time again. You are a Boss, a warrior, you are death upon the battlefield and countless corpses lie in your wake.
+Pad pilnymi pozirkami Horka j Morka vy raz za razam davodzili svaju vartaść. Vy bos, vy vajar, vy sama śmierć na poli bitvy, i za vami lažać nieźličonyja trupy.
 
-Your mob of boys follows you, fears you, respects you. They know you will lead them to the biggest fights and the greatest loot.
+Vašaja banda chłopcaŭ idzie za vami, baicca j pavažaje vas. Jany viedajuć, što vy pryviadziacie ich da najbolšych bojek i najbahaciejšaj zdabyčy.
 
-You have become a boss among bosses, but the gods are not satisfied, never are, never will. There is more to be done.
+Vy stali bosam siarod bosaŭ, ale baham hetaha mała. Zaŭsiody było mała j zaŭsiody budzie. Napieradzie jašče šmat spravaŭ.
 
-+ [I'Z GUNNA BE DA BIGGEST DERE EVER WAS!!]
++ [Ja BUDU NAJVIALIKIM NAZAŬŽDY!!]
     -> confirm_big_boss
 
 ===confirm_big_boss===
-You look to your boys, they are restless, they are ready. You look to the horizon, the road has been long, it's littered with loot, shinies and the corpses of all the runts that oppose you.
+Vy hladzicie na svaich chłopcaŭ: im nia cierpicca, jany hatovyja. Vy hladzicie na dalahlad: vaš šlach byŭ doŭhi, usiejany zdabyčaj, bliskučymi cackami j trupami ŭsich nikčemaŭ, što stali vam upopierak.
 
-No enemy dares to face you in open battle, so you must take the fight to them, tear them from their walls and drag them screaming from their homes.
+Nivodny vorah nie advažvajecca sustreć vas u adkrytym bai, tamu vy musicie sami prynieści im vajnu, sarvać ich sa ścienaŭ i vyciahnuć z damoŭ pad ichnyja kryki.
 
-The time is now, the green tide under your command will drown the world.
+Čas pryjšoŭ: zialonaja navała pad vašym čałom zatopić śviet.
 
-+ [CRUSH 'EM ALL!! WAAAAAAAAAAAAAAAAGH!!!]
++ [RAZHRAMICIE ŬSICH!! VAAAAAAAAAAAAAAAAHCH!!!]
     ~ StartQuest("Quests.Careers.OrcBossQuest2")
     ~ CloseStory()
     -> END

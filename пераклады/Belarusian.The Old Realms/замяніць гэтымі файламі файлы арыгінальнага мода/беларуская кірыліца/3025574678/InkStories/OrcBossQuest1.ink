@@ -1,5 +1,5 @@
 //Global story tags
-# title: Прачынаньне Босу
+# title: Бос Прачынаецца
 # frequency: Special
 # development: false
 # illustration: orc_boss_career_2

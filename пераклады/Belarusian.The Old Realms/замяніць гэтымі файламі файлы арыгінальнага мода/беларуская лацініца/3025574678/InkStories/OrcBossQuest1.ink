@@ -1,5 +1,5 @@
 //Global story tags
-# title: Pračynańnie Bosu
+# title: Bos Pračynajecca
 # frequency: Special
 # development: false
 # illustration: orc_boss_career_2

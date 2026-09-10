@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Calling of Da Gods
+# title: Poklič Bahoŭ
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -12,17 +12,17 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-After a night of prolonged dancing, you wake up with a horrible headache. You haved dealt with headaches before but this is different.
+Paśla doŭhaj nočy tancaŭ vy pračynajeciesia z žachlivym hałaŭnym bolem. Hałava ŭ vas baleła j raniej, ale hetym razam usio inačaj.
 
-It’s a throbbing pain, as if the gods themselves are shaking you around.
+Bol pulsuje, niby sami bahi trasuć vas z boku ŭ bok.
 
-Some boys gather around you, watching in awe and fear. You fall to your knees and vomit green bile onto the earth.
+Niekalki chłopcaŭ źbirajucca vakoł i hladziać z trapiatańniem i stracham. Vy padajecie na kaleni j vanitujecie zialonaj žoŭciu na ziamlu.
 
-In the foul-smelling mush you see meat chunks and bone splinters arranged in an image of a shrine, idols to Gork and Mork.
+U śmiardziučaj kašy vy bačycie kavałki miasa j askiepki kaściej, što skłalisia ŭ vyjavu kapišča ź idałami Horka j Morka.
 
-The gods are calling, it is time to answer.
+Bahi kličuć, čas adhuknucca.
 
-+ [Where’s dis bloody place!?]
++ [Dzie eta praklataje miesca!?]
     ~ StartQuest("Quests.Careers.OrcShamanQuest1")
     ~ CloseStory()
     -> END

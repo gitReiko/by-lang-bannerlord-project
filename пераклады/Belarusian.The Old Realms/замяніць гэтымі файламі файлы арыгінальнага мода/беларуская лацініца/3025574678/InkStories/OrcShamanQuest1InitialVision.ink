@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Vision of Gork and Mork
+# title: Bačańnie Horka j Morka
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -9,26 +9,26 @@ INCLUDE include.ink
 ->START
 
 ===START===
-You have found the shrine, crude idols of Gork and Mork, carved from towering piles of rock and dung.
+Vy znajšli kapišča — hrubyja idały Horka j Morka, vysiečanyja ź vializnych hrudaŭ kamieńnia j hnoju.
 
-Scattered around them lie weapons and armour unlike anything you have seen before. Some you recognise as dwarf-made, but others are beyond your comprehension.
+Vakoł raskidanaja zbroja j pancyry, jakich vy nikoli raniej nia bačyli. U niečym vy paznajacie pracu dvarfaŭ, ale pachodžańnie astatniaha vam nie zrazumieć.
 
-You step forward alone. The closer you get, the more pungent the stench becomes. Reaching the largest dung-pile, you inhale the rancid fumes deeply. They flood your senses and knock you out cold.
+Vy samotna kročycie napierad. Čym bližej, tym bolš jedki smurod. Dajšoŭšy da najbolšaj kučy hnoju, vy hłyboka ŭdychajecie tuchłyja vypareńni. Jany zapaŭniajuć usie vašyja pačućci, i vy pravalvajeciesia ŭ nieprytomnaść.
 
-Then THEY appear.
+Tady źjaŭlajucca JANY.
 
-Two green gigantic silhouettes wrestling and smashing into each other relentlessly.
+Dva zialonyja vołataŭskija syluety, što niaspynna zmahajucca j łupiać adzin adnaho.
 
-Otherworldly voices and sights fill your thick skull, accompanied by incoherent bellowing and roaring laughter: Burning cities, the thunder of pounding drums, the green tide marching as it tramples corpses and shattered banners beneath its feet. The idols of weak, pathetic gods, human and dwarf alike, are cast down into the dirt, broken apart or reshaped into crude figures of Gork and Mork.
+Tahaśvietnyja hałasy j vidoviščy napaŭniajuć vaš toŭsty čerap pad biazładny roŭ i hrymotny rohat: pałajučyja harady, hrukat barabanaŭ, zialonaja navała, što kročyć, topčučy trupy j pałamanyja ściahi. Idałaŭ słabych, vartych žalu bahoŭ ludziej i dvarfaŭ kidajuć u brud, raźbivajuć abo pierarablajuć u hrubyja postaci Horka j Morka.
 
-Amidst the ruins and the feasting boys, you see a figure, dancing, cackling madly as crackling green bolts of energy rain across the battlefield.
+Siarod ruinaŭ i chłopcaŭ, što balujuć, vy bačycie postać, jakaja tančyć i šalona rahoča, pakul na pole bitvy syplucca traskučyja zialonyja małanki enerhii.
 
-It is you.
+Heta vy.
 
-Then you awaken.
+Tady vy pračynajeciesia.
 
-The air trembles with anticipation. And your destiny is clear.
+Pavietra trymcić u pradčuvańni. I vašaje pryznačeńnie zrazumiełaje.
 
-+ [I'Z GUNNA BE DA BEST SHAMAN DERE EVER WAS!!!]
++ [BUDU ŠAMYM LEPŠYM ŠAMANAM!!!]
     ~ CloseStory()
     -> END

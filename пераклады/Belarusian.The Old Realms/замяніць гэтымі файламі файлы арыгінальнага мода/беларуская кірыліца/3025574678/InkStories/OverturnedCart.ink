@@ -1,5 +1,5 @@
 //Global story tags
-# title: Здарэньне пры дарозе
+# title: Здарэньне на Дарозе
 # frequency: Common
 # development: false
 # illustration: cart_accident
@@ -205,9 +205,9 @@ INCLUDE include.ink
                 ->END
                 
         //Necromancer option
-            *{PartyCanRaiseDead}[Забіць мужчыну, узьняць ягонае цела як шкілета, {HorsesAround: забраць коней,} і абрабаваць воз (Літасьць---) {print_party_skill_chance("Spellcraft", 25)}]
+            *{PartyCanRaiseDead}[Забіць мужчыну, узьняць ягонае цела як касьцяка, {HorsesAround: забраць коней,} і абрабаваць воз (Літасьць---) {print_party_skill_chance("Spellcraft", 25)}]
                 Вам прыходзіць у галаву бліскучая думка. Паколькі фурман зь яго нікчэмны, магчыма, ён прынясе карысьць у якасьці аднаго з вашых нямёртвых слугаў. #STR_HelpNecromancer1
-                Адным імклівым рухам вы забіваеце мужчыну й берацеся ўздымаць яго як шкілета. Вашая партыя робіць спробу й {RaiseDeadSkillCheckTest: дасягае посьпеху | церпіць няўдачу }.#STR_HelpNecromancerSummon
+                Адным імклівым рухам вы забіваеце мужчыну й берацеся ўздымаць яго як касьцяка. Вашая партыя робіць спробу й {RaiseDeadSkillCheckTest: дасягае посьпеху | церпіць няўдачу }.#STR_HelpNecromancerSummon
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
     =raiseSucceed
@@ -310,8 +310,8 @@ INCLUDE include.ink
                 }
                 {HorsesAround: {GiveItem("old_horse",2)}}
                 ->DeadReward
-            *{PartyCanRaiseDead}[Узьняць яго як шкілета (+1 шкілет){RaiseDeadSkillCheckText}]
-                Паколькі мерцьвяку цела ўжо ні да чаго, вы вырашаеце ўзьняць яго як шкілета. #STR_RewardDeadRiseDead 
+            *{PartyCanRaiseDead}[Узьняць яго як касьцяка (+1 касьцяк){RaiseDeadSkillCheckText}]
+                Паколькі мерцьвяку цела ўжо ні да чаго, вы вырашаеце ўзьняць яго як касьцяка. #STR_RewardDeadRiseDead 
                 Вашая партыя робіць спробу й {RaiseDeadSkillCheckTest: дасягае посьпеху| церпіць няўдачу}. #STR_RewardRiseDead2
                 
                 {RaiseDeadSkillCheckTest:

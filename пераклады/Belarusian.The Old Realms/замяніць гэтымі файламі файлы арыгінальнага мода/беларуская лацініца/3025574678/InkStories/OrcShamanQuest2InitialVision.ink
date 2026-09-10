@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Gods Demand More!
+# title: Bahi Patrabujuć Bolš!
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -9,23 +9,23 @@ INCLUDE include.ink
 ->START
 
 ===START===
-You have returned to the shrine. Your Waaagh! ju-jus have grown, your faith has deepened, and the gods have truly blessed you. The time has come to make your visions a reality.
+Vy viarnulisia da kapišča. Vašy džu-džu Vaaahch! uzmacniŭsia, viera pahłybiłasia, i bahi sapraŭdy błasłavili vas. Pryjšoŭ čas uvasobić vašyja bačańni ŭ žyćcio.
 
-Once more, you approach the largest dung-pile and inhale deeply, drifting again into the realm of Gork and Mork.
+Vy znoŭ padychodzicie da najbolšaj kučy hnoju j hłyboka ŭdychajecie, jašče raz pahružajučysia ŭ vaładarstva Horka j Morka.
 
-The gods momentarily cease their bashing and seem pleased, but only now have you been granted the true chance to prove yourself.
+Bahi na imhnieńnie pierastajuć łupić adzin adnaho j vyhladajuć zadavolenymi, ale tolki ciapier vy atrymali sapraŭdny šaniec pakazać siabie.
 
-Visions flood your green mind once more: more battles, more foes to smash, more tribes to unite under the true banner of Gork and Mork. Burning cities crumble beneath your  Waaagh!, and dwarf holds are overrun and broken.
+Vaš zialony rozum znoŭ napaŭniajuć bačańni: bolej bitvaŭ, bolej vorahaŭ, jakich treba raźbić, bolej plamionaŭ, jakich treba abjadnać pad sapraŭdnym ściaham Horka j Morka. Pałajučyja harady rujnujucca pad vašym Vaaahch!, a ćviardyni dvarfaŭ zachoplenyja j raźbityja.
 
-Their weak gods are humiliated, their shrines defiled and buried beneath reeking dungpiles. And there you stand again, at the heart of it all, witnessing the collapse of a vast temple complex as it is torn apart stone by stone.
+Ichnyja słabyja bahi prynižanyja, kapiščy apahanienyja j pachavanyja pad śmiardziučymi kučami hnoju. A vy znoŭ staicie ŭ samym centry j hladzicie, jak vielizarny chramavy kompleks razvalvajecca — jaho raźbirajuć kamień za kamieniem.
 
-All the other shamans and boys fall on their knees, and recognize you as the TRUE prophet of Gork and Mork, the GREENEST prophet.
+Usie astatnija šamany j chłopcy padajuć na kaleni j pryznajuć vas SAPRAŬDNYM prarokam Horka j Morka, NAJZIELANIEJŠYM prarokam.
 
-Then you awaken.
+Tady vy pračynajeciesia.
 
-The lads awaits your instructions. The time has come to drown the world in green, and the Twin Gods shall dance amidst the ashes of dead empires.
+Chłopcy čakajuć vašych zahadaŭ. Pryjšoŭ čas zatapić śviet zialonym, i Bahi-Bliźniaty buduć tančyć siarod popiełu miortvych impieryjaŭ.
 
-+ [FER GORK AN' MORK!! WAAAAAAAAAAAAAAAGH!!!]
++ [ZA HORKA J MORKA!! VAAAAAAAAAAAAAAAHCH!!!]
     ~ StartQuest("Quests.Careers.OrcShamanQuest2")
     ~ CloseStory()
     -> END
