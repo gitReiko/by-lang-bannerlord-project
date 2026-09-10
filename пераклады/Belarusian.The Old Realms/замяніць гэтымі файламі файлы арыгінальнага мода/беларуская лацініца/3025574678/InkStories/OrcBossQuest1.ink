@@ -18,7 +18,7 @@ Hołas šepča, a potym ravie. Jon padhaniaje vas.
 
 «Bujniej… lepiej… mašniej… zabivać… ZABIVAĆ… VAAAAAAAAAAAAAAHCH!»
 
-Znak bahoŭ? Hołas viadzie vas, honić napierad. Praihnaravać jaho — značyć naklikać hnieŭ Horka j Morka.
+Znak bahoŭ? Hołas viadzie vas, honić napierad. Praihnaravać jaho — naklikać hnieŭ Horka j Morka.
 
 Bahi abrali vas. VAS. Dali šaniec pakazać siabie pierad imi.
 Vy musicie ŭzvysicca. Pryniać vykliki. Razburyć usio. Ale najpierš ZABIVAĆ.
