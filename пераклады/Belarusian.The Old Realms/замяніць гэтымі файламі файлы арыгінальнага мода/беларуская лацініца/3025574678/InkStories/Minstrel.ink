@@ -1,5 +1,5 @@
 //Global story tags
-# title: Vandroŭnyja trubadury
+# title: Vandroŭnyja Trubadury
 # frequency: Special
 # development: false
 # illustration: minstrel

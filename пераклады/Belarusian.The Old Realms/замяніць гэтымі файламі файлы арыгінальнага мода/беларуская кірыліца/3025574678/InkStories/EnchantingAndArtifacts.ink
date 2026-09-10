@@ -1,5 +1,5 @@
 //Global story tags
-# title: Зачараваньне й артэфакты
+# title: Зачараваньне й Артэфакты
 # frequency: Special
 # development: false
 # illustration: campfirenight

@@ -1,5 +1,5 @@
 //Global story tags
-# title: Kultyst siarod nas
+# title: Kultysty Siarod Nas
 # frequency: Special
 # development: false
 # illustration: village

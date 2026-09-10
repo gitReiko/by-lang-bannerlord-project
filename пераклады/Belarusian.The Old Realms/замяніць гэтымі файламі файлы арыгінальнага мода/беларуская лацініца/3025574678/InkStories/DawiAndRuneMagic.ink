@@ -1,5 +1,5 @@
 //Global story tags
-# title: Davi j runnaja mahija
+# title: Davi j Runnaja Mahija
 # frequency: Special
 # development: false
 # illustration: campfirenight

@@ -1,5 +1,5 @@
 //Global story tags
-# title: Даві й рунная магія
+# title: Даві й Рунная Магія
 # frequency: Special
 # development: false
 # illustration: campfirenight

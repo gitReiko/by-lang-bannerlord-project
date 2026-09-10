@@ -1,5 +1,5 @@
 //Global story tags
-# title: Цуд веры
+# title: Цуд Веры
 # frequency: Special
 # development: false
 # illustration: tresure_chest

@@ -1,5 +1,5 @@
 //Global story tags
-# title: Kirmaš u lesie
+# title: Lasny Kirmaš
 # frequency: Uncommon
 # development: false
 # illustration: trader

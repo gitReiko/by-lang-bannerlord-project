@@ -1,5 +1,5 @@
 //Global story tags
-# title: Халупа ў лесе
+# title: Халупа ў Лесе
 # frequency: Common
 # development: false
 # illustration: roadpoint2

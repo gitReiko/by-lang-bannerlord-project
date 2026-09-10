@@ -1,5 +1,5 @@
 //Global story tags
-# title: Chałupa ŭ lesie
+# title: Chałupa ŭ Lesie
 # frequency: Common
 # development: false
 # illustration: roadpoint2

@@ -1,5 +1,5 @@
 //Global story tags
-# title: Кірмаш у лесе
+# title: Лясны Кірмаш
 # frequency: Uncommon
 # development: false
 # illustration: trader

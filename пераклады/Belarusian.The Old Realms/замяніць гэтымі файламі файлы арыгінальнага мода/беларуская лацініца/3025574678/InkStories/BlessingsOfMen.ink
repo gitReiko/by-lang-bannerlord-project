@@ -1,5 +1,5 @@
 //Global story tags
-# title: Błasłaŭleńni ludziej
+# title: Błasłaŭleńni Ludziej
 # frequency: Special
 # development: false
 # illustration: campfirenight

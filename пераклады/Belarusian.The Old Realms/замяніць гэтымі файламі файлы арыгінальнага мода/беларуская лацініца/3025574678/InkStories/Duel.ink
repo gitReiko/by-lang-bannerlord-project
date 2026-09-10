@@ -1,5 +1,5 @@
 //Global story tags
-# title: Majsterstva klinka
+# title: Majsterstva Klinka
 # frequency: Special
 # development: false
 # illustration: roadpoint2

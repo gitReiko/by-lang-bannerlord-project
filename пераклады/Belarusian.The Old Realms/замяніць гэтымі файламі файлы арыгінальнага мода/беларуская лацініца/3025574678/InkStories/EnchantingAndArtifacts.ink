@@ -1,5 +1,5 @@
 //Global story tags
-# title: Začaravańnie j artefakty
+# title: Začaravańnie j Artefakty
 # frequency: Special
 # development: false
 # illustration: campfirenight

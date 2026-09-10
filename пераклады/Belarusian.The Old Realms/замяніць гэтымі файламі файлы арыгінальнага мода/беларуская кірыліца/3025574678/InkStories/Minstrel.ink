@@ -1,5 +1,5 @@
 //Global story tags
-# title: Вандроўныя трубадуры
+# title: Вандроўныя Трубадуры
 # frequency: Special
 # development: false
 # illustration: minstrel

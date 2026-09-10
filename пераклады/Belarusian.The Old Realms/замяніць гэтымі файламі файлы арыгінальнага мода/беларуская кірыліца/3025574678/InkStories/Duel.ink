@@ -1,5 +1,5 @@
 //Global story tags
-# title: Майстэрства клінка
+# title: Майстэрства Клінка
 # frequency: Special
 # development: false
 # illustration: roadpoint2

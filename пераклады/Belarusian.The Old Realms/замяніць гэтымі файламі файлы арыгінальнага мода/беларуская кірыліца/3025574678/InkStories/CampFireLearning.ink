@@ -1,5 +1,5 @@
 //Global story tags
-# title: Лягернае вогнішча
+# title: Лягернае Вогнішча
 # frequency: Special
 # development: false
 # illustration: campfirenight

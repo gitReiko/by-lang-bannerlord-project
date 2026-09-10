@@ -1,5 +1,5 @@
 //Global story tags
-# title: Lahiernaje vohnišča
+# title: Lahiernaje Vohnišča
 # frequency: Special
 # development: false
 # illustration: campfirenight

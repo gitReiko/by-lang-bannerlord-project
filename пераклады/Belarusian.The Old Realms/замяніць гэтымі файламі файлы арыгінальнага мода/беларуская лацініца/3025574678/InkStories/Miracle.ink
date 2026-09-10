@@ -1,5 +1,5 @@
 //Global story tags
-# title: Cud viery
+# title: Cud Viery
 # frequency: Special
 # development: false
 # illustration: tresure_chest

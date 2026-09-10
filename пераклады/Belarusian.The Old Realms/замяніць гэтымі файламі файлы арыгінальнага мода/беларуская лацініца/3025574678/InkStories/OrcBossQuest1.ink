@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Boss Awakens
+# title: Pračynańnie Bosu
 # frequency: Special
 # development: false
 # illustration: orc_boss_career_2
@@ -12,21 +12,18 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-It comes suddenly, not quite a thought, not quite a feeling. Something closer to instinct. Your heart rate quickens. There is something stirring inside you: excitement. Urgency. You need to move. You need to KILL.
+Heta prychodzić raptam — nia dumka j nie pačućcio. Niešta bližejšaje da instynktu. Serca pačynaje bicca chutčej. Unutry niešta varušycca: azart. Nieciarpieńnie. Treba ruchacca. Treba ZABIVAĆ.
 
-A voice whispers, then roars. It urges you on.
+Hołas šepča, a potym ravie. Jon padhaniaje vas.
 
-“Bigga… betta… stronga… kill… KILL… WAAAAAAAAAAAAAGH!”
+«Bujniej… lepiej… mašniej… zabivać… ZABIVAĆ… VAAAAAAAAAAAAAAHCH!»
 
-A sign from the gods? The voice leads you, drives you. To ignore it would be to invite the wrath of Gork and Mork themselves.
+Znak bahoŭ? Hołas viadzie vas, honić napierad. Praihnaravać jaho — značyć naklikać hnieŭ Horka j Morka.
 
-You have been chosen. YOU. Given a chance to prove yourself before the gods.
-You must rise up. Face challenges. Smash everything. But above all, you must KILL.
+Bahi abrali vas. VAS. Dali šaniec pakazać siabie pierad imi.
+Vy musicie ŭzvysicca. Pryniać vykliki. Razburyć usio. Ale najpierš ZABIVAĆ.
 
-+ [LET’S DO DIS!]
++ [NU DAVAJ ZROBIM ETA!]
     ~ StartQuest("Quests.Careers.OrcBossQuest1")
     ~ CloseStory()
     -> END
-
-    
-    

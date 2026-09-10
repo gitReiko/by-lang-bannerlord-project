@@ -1,5 +1,5 @@
 //Global story tags
-# title: Культыст сярод нас
+# title: Культысты Сярод Нас
 # frequency: Special
 # development: false
 # illustration: village
