@@ -15,7 +15,7 @@ Vakoł raskidanaja zbroja j pancyry, jakich vy nikoli raniej nia bačyli. U nie�
 
 Vy samotna kročycie napierad. Čym bližej, tym bolš jedki smurod. Dajšoŭšy da najbolšaj kučy hnoju, vy hłyboka ŭdychajecie tuchłyja vypareńni. Jany zapaŭniajuć usie vašyja pačućci, i vy pravalvajeciesia ŭ nieprytomnaść.
 
-Tady źjaŭlajucca JANY.
+Tady zjaŭlajucca JANY.
 
 Dva zialonyja vołataŭskija syluety, što niaspynna zmahajucca j łupiać adzin adnaho.
 

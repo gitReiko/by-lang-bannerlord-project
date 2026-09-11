@@ -31,7 +31,7 @@ VAR RaiseDeadSkillCheckTest = false
 ===START===
 Naprykancy dzionnaha pierachodu vašyja ludzi raźbivajuć lahier. Vy viedajecie, što chutka zachod sonca, a hetyja ziemli niebiaśpiečnyja, asabliva ŭnačy. #STR_Start1
 Raptam adzin z vašych ludziej vykrykvaje pieraściarohu. Uźniaŭšy pozirk, vy bačycie, što da vas nabližajecca miascovy viaskoviec. Zdajecca, jon biaz zbroi. #illustration: stranger #STR_Start2
-Mužčyna tłumačyć, što niadaŭna tut źjaviŭsia niekramant i pačaŭ uzdymać miortvych na viaskovych mohiłkach. Chacia viaskoviec i biedny, jon kaža, što viaskoŭcy zapłaciać ścipłuju ŭznaharodu tamu, chto zabje niekramanta. #STR_Start3 
+Mužčyna tłumačyć, što niadaŭna tut zjaviŭsia niekramant i pačaŭ uzdymać miortvych na viaskovych mohiłkach. Chacia viaskoviec i biedny, jon kaža, što viaskoŭcy zapłaciać ścipłuju ŭznaharodu tamu, chto zabje niekramanta. #STR_Start3 
 -> choices
 
     =choices

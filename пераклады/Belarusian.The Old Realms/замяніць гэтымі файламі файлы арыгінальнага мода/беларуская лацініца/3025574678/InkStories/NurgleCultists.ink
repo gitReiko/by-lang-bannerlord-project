@@ -21,7 +21,7 @@ VAR MadeDealWithCultists = false
 
 
 ===START===
-Vy pakidajecie svaju partyju ŭ lahiery na ŭskrajku vioski j vyrašajecie ŭvajści tudy samastojna, apranuŭšy prostuju vopratku, kab nie pryciahvać uvahi. Ledź vy stupajecie ŭ viosku, u nozdry ŭdaraje ahidny smurod. Pavietra ciažkaje ad pachu hnili, źmiešanaha z nieadčepnym ducham adčaju. Vuzkija pustelnyja vulicy vijucca pamiž struchlełymi budynkami, čyje fasady źniščanyja časam i zaniadbańniem. Viaskoŭcy, kaliści žvavyja j žyćciaradasnyja, ciapier sunucca, niby zmučanyja zdani: ichnuju žyćciovuju siłu zhasiła biaźlitasnaja chvatka nieviadomaj čumy.
+Vy pakidajecie svaju partyju ŭ lahiery na ŭskrajku vioski j vyrašajecie ŭvajści tudy samastojna, apranuŭšy prostuju vopratku, kab nie pryciahvać uvahi. Ledź vy stupajecie ŭ viosku, u nozdry ŭdaraje ahidny smurod. Pavietra ciažkaje ad pachu hnili, źmiešanaha ź nieadčepnym ducham adčaju. Vuzkija pustelnyja vulicy vijucca pamiž struchlełymi budynkami, čyje fasady źniščanyja časam i zaniadbańniem. Viaskoŭcy, kaliści žvavyja j žyćciaradasnyja, ciapier sunucca, niby zmučanyja zdani: ichnuju žyćciovuju siłu zhasiła biaźlitasnaja chvatka nieviadomaj čumy.
 
 Chvaravitaja smuha achutvaje viosku, nadajučy ŭsiamu miortvuju blednaść. Dźviery rypiać na iržavych zaviesach, niekali jarkija farby vyćvili j abłupilisia. Začynienyja akanicy vydajuć strach, što panuje ŭnutry, niby viaskoŭcy zamknulisia ad usiaho śvietu. Tut i tam mihatlivyja lichtary słaba aśviatlajuć achoŭnyja znaki, u rospačy nakreślenyja na ścienach kryvioju j popiełam, — marnyja sproby adahnać zarazu.
 
@@ -77,7 +77,7 @@ Siarod lekavych ziołak i nastojek vaš pozirk spyniajecca na niečym niedarečn
 
     =inquire
     Vy hladzicie na lekara j naŭprost pytajeciesia pra dziŭnuju butelečku. 
-    «Dla čaho hetaja butelečka? Jaje źmieściva nie padobnaje da nivodnych lekaŭ, što mnie davodziłasia bačyć», — pytajeciesia vy z cikaŭnaściu j aściarohaj u hołasie. 
+    «Dla čaho hetaja butelečka? Jaje źmieściva nie padobnaje da nivodnych lekaŭ, što mnie davodziłasia bačyć», — pytajeciesia vy ź cikaŭnaściu j aściarohaj u hołasie. 
     Lekar sustrakaje vaš pozirk; u jahonych vačach na imhnieńnie milhaje niespakoj, ale jon adkazvaje zaspakajalnym hołasam: «A, u hetaj butelečcy mocny ekstrakt redkaj ziołki — hałoŭny składnik mahutnaha srodku dla abiezzaražvańnia. Jon dapamahaje strymlivać pašyreńnie chvaroby, abaraniajučy i chvorych, i zdarovych». Jon spakojna ŭśmichajecca, chavajučy za ŭśmieškaj usialakuju tryvohu. 
     ~suspicious = true
     -> choices
@@ -151,10 +151,10 @@ Adčuŭšy ciažar vašych padazreńniaŭ, lekar kryvicca ad strachu j adčaju. 
 {MadeDealWithCultists && not DealtWithCultists: Vašaje padarožža praciahvajecca pad hniotam pryniataha rašeńnia. Dar Nurhła nadzialiŭ vas mocaj i žyćciovaj siłaj, ale j źviazaŭ ź niapeŭnaj budučyniaj, azmročanaj raskajańniem.}
 {not DealtWithCultists && not MadeDealWithCultists: Vašyja ŭdary adbivajuć, abarona akazvajecca marnaj. Złaviesnaje majsterstva pravadyra kultu pieraŭzychodzić usie vašyja čakańni, i paśla apošniaha źniščalnaha ŭdaru siły pakidajuć vas. Ciemra pahłynaje pačućci, i prytomnaść rastvarajecca ŭ niabycie.}
 {not DealtWithCultists && not MadeDealWithCultists: Praź niekalki hadzinaŭ, a moža, praz cełuju viečnaść, vy pračynajeciesia siarod krykaŭ chvorych. Źbitaje, źniaviečanaje cieła balić, vodhulle parazy adhukajecca ŭ kožnaj čaścincy vašaj istoty. Razhublenyja j paranienyja, vy apynajeciesia siarod tych samych viaskoŭcaŭ, jakich imknulisia ŭratavać.}
-{not DealtWithCultists && not MadeDealWithCultists: Vy ź ciažkaściu paŭziecie praz spustašeńnie, prabirajučysia siarod pakutnikaŭ; kožny stohn i chryp śviedčyć pra biaźlitasnuju chvatku čumy. Uśviedamleńnie niaŭdačy ciažaram cisnie na vas, horki smak parazy staić u rocie.}
+{not DealtWithCultists && not MadeDealWithCultists: Vy ź ciažkaściu paŭziecie praz spustašeńnie, prabirajučysia siarod pakutnikaŭ; kožny stohn i chryp śviedčyć pra biaźlitasnuju chvatku čumy. Uśviedamleńnie niaŭdačy ciažaram ciśnie na vas, horki smak parazy staić u rocie.}
 {not DealtWithCultists && not MadeDealWithCultists: Urešcie vam udajecca vybracca z hetaha vartaha žalu miesca j daciahnuć źniaviečanaje cieła da lahiera, dzie spyniłasia vašaja partyja. Tavaryšy hladziać na vas z tryvohaj i spačuvańniem, razumiejučy ŭsiu hłybiniu vašaj parazy.}
 {not DealtWithCultists && not MadeDealWithCultists: Biez adzinaha słova vy źbirajecie reštki siłaŭ i rašučaści, pakidajučy viosku ź jaje zmučanymi žycharami. Uspamin pra sutyčku z pravadyrom kultu j niazdolnaść spynić čumu pieraśleduje kožny vaš krok.}
-{not DealtWithCultists && not MadeDealWithCultists: Vy adychodzicie, vioska źnikaje z vačej, ale jaje pakuty navieki ŭrazajucca ŭ pamiać. Ciažar parazy cisnie na vas, pakidajučy niazmyŭny napamin pra ciemru, jakuju vy nia zdoleli razahnać.}
+{not DealtWithCultists && not MadeDealWithCultists: Vy adychodzicie, vioska źnikaje z vačej, ale jaje pakuty navieki ŭrazajucca ŭ pamiać. Ciažar parazy ciśnie na vas, pakidajučy niazmyŭny napamin pra ciemru, jakuju vy nia zdoleli razahnać.}
 {DealtWithCultists && not MadeDealWithCultists: Paraza pravadyra kultu adhukajecca va ŭsim padziemnym łohavie j dasiahaje samaha serca achoplenaj čumoj vioski naviersie. Vyjšaŭšy vonki, vy bačycie, jak chvoryja viaskoŭcy vychodziać sa svaich chałupaŭ; na ichnych tvarach — niedavier i nanoŭ zdabytaja nadzieja.}
 {DealtWithCultists && not MadeDealWithCultists: Vioska pačynaje ačuniać, jaje žychary pavolna, ale niaŭchilna vyzvalajucca ad pakutaŭ, što trymali ich u pałonie. Kali vašaja partyja dałučajecca da vas, na tvarach paplečnikaŭ adbivajecca ŭdziačnaść usioj vioski.}
 {DealtWithCultists && not MadeDealWithCultists: Vykanaŭšy svaju spravu, vy pakidajecie viosku, žychary jakoj stali na šlach vyzdaraŭleńnia. Pamiać pra vašuju pieramohu, pra bitvu ź ciemraj, zastajecca ŭ ichnych sercach śviedčańniem mocy čałaviečaha duchu.}

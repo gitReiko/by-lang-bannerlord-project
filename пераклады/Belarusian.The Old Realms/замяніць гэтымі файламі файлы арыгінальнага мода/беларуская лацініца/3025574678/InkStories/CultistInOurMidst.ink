@@ -57,7 +57,7 @@ INCLUDE include.ink
 
 === InvestigateVillagers ===
     Vy razumiejecie, što kultysty ŭmieła chavajuć svaje sapraŭdnyja abliččy. Vyśvietlić, chto jany, budzie niaprosta. Vy vyrašajecie pahavaryć ź viaskoŭcami j sabrać bolš źviestak.
-    Razmaŭlajučy z roznymi ludźmi, vy aściarožna pytajeciesia pra niadaŭnija dziŭnyja zdareńni, źnikłych ludziej i čutki pra ciomnyja abrady. Niekatoryja viaskoŭcy tryvožacca, raskazvajuć pra tajamničyja znaki ŭ patajemnych zakutkach, nievytłumačalnyja źniknieńni j dziŭnyja ahni, što źjaŭlajucca ŭ navakolnym lesie ŭnačy.
+    Razmaŭlajučy z roznymi ludźmi, vy aściarožna pytajeciesia pra niadaŭnija dziŭnyja zdareńni, źnikłych ludziej i čutki pra ciomnyja abrady. Niekatoryja viaskoŭcy tryvožacca, raskazvajuć pra tajamničyja znaki ŭ patajemnych zakutkach, nievytłumačalnyja źniknieńni j dziŭnyja ahni, što zjaŭlajucca ŭ navakolnym lesie ŭnačy.
     ->choices
 
     =choices
@@ -72,7 +72,7 @@ INCLUDE include.ink
 
     =normal
     Starasta, čałaviek davoli zamožny na fonie ścipłaha žyćcia vioski, žyvie va ŭtulnym domie niepadalok ad centru.
-    Vy stukajecie ŭ draŭlanyja dźviery, i starasta z ciopłaj uśmieškaj zaprašaje vas unutr. U domie ŭtulna: u kaminie patreskvaje ahoń, raźlivajučy pa pakoi łahodnaje śviatło. Vy siadajecie za nievialiki draŭlany stoł, hatovyja abmierkavać svaju tryvohu nakont dziŭnych padziejaŭ u vioscy.
+    Vy stukajecie ŭ draŭlanyja dźviery, i starasta ź ciopłaj uśmieškaj zaprašaje vas unutr. U domie ŭtulna: u kaminie patreskvaje ahoń, raźlivajučy pa pakoi łahodnaje śviatło. Vy siadajecie za nievialiki draŭlany stoł, hatovyja abmierkavać svaju tryvohu nakont dziŭnych padziejaŭ u vioscy.
     {ElderState == 1:Kali vy pytajeciesia ŭ starasty pra mahčymuju prysutnaść kultu ŭ vioscy, jon słuchaje ŭvažliva, ale sa skieptyčnym vyrazam tvaru. Jon adkidaje dumku pra kult, ličačy jaje niedarečnaj i nadumanaj. Na jahonuju dumku, apošnija biedy — tolki supadzieńni ci asobnyja vypadki.}
     {ElderState == 1:«Ja razumieju vašuju zaniepakojenaść, — kaža jon ź lohkaj pabłažlivaściu ŭ hołasie. — Ale zapeŭnivaju: nijakaha kultu ŭ našaj vioscy niama. Hetyja dziŭnyja padziei možna patłumačyć naturalnymi pryčynami abo zanadta žyvym ujaŭleńniem niekatorych viaskoŭcaŭ».}
     {ElderState == 1:Rasčaravanyja admaŭleńniem starasty, vy razumiejecie, što pierakanać jaho vystupić suprać kultu budzie nadzvyčaj ciažka. Vidavočna, treba šukać inšyja šlachi, kab spynić pahrozu, jakaja raście.}
@@ -203,7 +203,7 @@ Jak vy pastupicie?
     
     Uzrušeńnie j niedavier pranosiacca praz natoŭp: ludzi hladziać na siabroŭ i susiedziaŭ, jakich vykryli jak pasłuhačoŭ Chaosu.
     
-    Raźjušanyja zdradaj viaskoŭcy vystupajuć suprać kultystaŭ, jakim bolš nia vierać. Sutyčka karotkaja, ale lutaja: ludziej jadnaje supolnaja meta — abaranić svaju hramadu j pazbavić jaje ad hetaha zła.
+    Razjušanyja zdradaj viaskoŭcy vystupajuć suprać kultystaŭ, jakim bolš nia vierać. Sutyčka karotkaja, ale lutaja: ludziej jadnaje supolnaja meta — abaranić svaju hramadu j pazbavić jaje ad hetaha zła.
     
     U mituśni žmieńcy kultystaŭ udajecca vyrvacca z ruk viaskoŭcaŭ i źniknuć na źvilistych vulicach vakoł placu.
     
@@ -270,7 +270,7 @@ Chutka pryniaŭšy rašeńnie, kultysty pačynajuć adstupać, ichnyja kroki add
     *[Kinucca za najbližejšym kultystam, što ŭciakaje.] ->ChaseCultist
     
 ===ChaseCultist===
-Poŭnyja niepachisnaj rašučaści, vy kidajeciesia ŭ pahoniu za kultystami, jakija adstupajuć z viaskovaha placu. Źvilistyja vulicy j vuzkija zavułki milhajuć pierad vačyma, pakul vy prabirajeciesia labiryntam šlachoŭ, prahnučy adkazaŭ i spraviadlivaści.
+Poŭnyja niepachisnaj rašučaści, vy kidajeciesia ŭ pahoniu za kultystami, jakija adstupajuć ź viaskovaha placu. Źvilistyja vulicy j vuzkija zavułki milhajuć pierad vačyma, pakul vy prabirajeciesia labiryntam šlachoŭ, prahnučy adkazaŭ i spraviadlivaści.
 Pieraśled urešcie pryvodzić vas da budynka, jaki staić asobna ad inšych: zakinutaha j častkova zrujnavanaha, źniaviečanaha časam i zaniadbańniem. Uvachod, schavany za parvanaj zasłonaj pavojnych raślinaŭ, namiakaje na ciemru ŭnutry. Kroki kultystaŭ ścichajuć, kali jany źnikajuć u hetym złaviesnym prajomie.
 Ź miačom u ruce vy vyrašajecie ŭvajści za imi.
 ->EnterHideout
@@ -290,7 +290,7 @@ Pieraśled urešcie pryvodzić vas da budynka, jaki staić asobna ad inšych: za
 {DealtWithCultists && not MassacreHappened && not StruggleHappened: Prabirajučysia praz natoŭp, vy razumiejecie, što vašyja dziejańni zastalisia niezaŭvažanymi. Viaskoŭcy śmiajucca j hutarać, zachoplenyja śviatam, nia viedajučy pra złaviesnuju zmovu, jakaja navisła nad imi.}
 {DealtWithCultists && not MassacreHappened && not StruggleHappened:Vy na chvilinu spyniajeciesia, kab adčuć ciapło j radaść navokał. Dzieci hulajuć, darosłyja hutarać, a siabroŭstva viaskoŭcaŭ śviedčyć pra ichnyja supolnyja poviazi j stojkaść. Ciemru, što imknułasia prakraścisia ŭ ichnyja žyćci, udałosia strymać, i vašyja dziejańni adyhrali vyrašalnuju rolu ŭ zachavańni ichnaha zvykłaha ładu.}
  {DealtWithCultists && not MassacreHappened: Kult źniščany, prychavanaja pahroza likvidavanaja, i vioska moža dalej kvitnieć u śviatle novaha dnia.}
- {not DealtWithCultists: Vy lažycie pieramožanyja ŭ patajemnym pamiaškańni, dychańnie pieraryvistaje, cieła źbitaje, i ciažar niaŭdačy cisnie na vas. Chałodnyja kamiennyja ścieny, što byli śviedkami lutaha boju, ciapier niby ściskajucca vakoł — zmročny napamin pra ciemru, jakaja ŭziała vierch.}
+ {not DealtWithCultists: Vy lažycie pieramožanyja ŭ patajemnym pamiaškańni, dychańnie pieraryvistaje, cieła źbitaje, i ciažar niaŭdačy ciśnie na vas. Chałodnyja kamiennyja ścieny, što byli śviedkami lutaha boju, ciapier niby ściskajucca vakoł — zmročny napamin pra ciemru, jakaja ŭziała vierch.}
  {not DealtWithCultists: Siarod cišyni vašaj parazy da vušej danosicca daloki huk — mnostva śpiešnych krokaŭ i hučnych hałasoŭ. Vajary vašaj partyi, jakija stajali lahieram za vioskaj, ciapier śpiašajucca vam na dapamohu.}
  {not DealtWithCultists: Kultysty, jakim udałosia adoleć vas i jakija raskryli siabie, užo pa-za vašaj dasiažnaściu. Jany ŭśliznuli, źnikli, niby dym na vietry, pakinuŭšy viosku za saboju.}
  {not DealtWithCultists: Ciažka pryniać balučuju praŭdu: kultysty napeŭna praciahnuć svajo panavańnie ciemry ŭ inšaj vioscy, jakaja ničoha nie padazraje.}

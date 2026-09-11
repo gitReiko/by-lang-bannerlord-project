@@ -23,10 +23,10 @@ Cikaŭnaść zmušaje vas padyści bližej, i vašyja kroki adbivajucca recham l
 
 Kamiennyja ścieny składvajucca adna za adnoj. Z kožnym płyŭnym rucham vieličnaja cytadel mienšaje, i jaje vializny abjom ściskajecca ŭ šmat razoŭ. Za ličanyja imhnieńni manumentalnaja farteca pieratvarajecca ŭ malusieńkaje padabienstva samoj siabie — vidovišča, ad jakoha vy nia možacie advieści vačej. #STR_InvestigateCitade2
 
-Kali vy dachodzicie da miesca, dzie stajała cytadel, tam užo pusta, niby sama ziamla prahłynuła jaje całkam. Zachapleńnie j źbiantežanaść napaŭniajuć vašaje serca, padachvočvajučy razhadać tajamnicu hetaha mahičnaha źjavišča. #STR_InvestigateCitade3
+Kali vy dachodzicie da miesca, dzie stajała cytadel, tam užo pusta, niby sama ziamla prahłynuła jaje całkam. Zachapleńnie j źbiantežanaść napaŭniajuć vašaje serca, padachvočvajučy razhadać tajamnicu hetaha mahičnaha zjavišča. #STR_InvestigateCitade3
 
 * [Skarystacca viedami mahii, kab zrazumieć asablivaść fartecy. {print_party_skill_chance("Spellcraft", 200)}]-> SpellcraftCheck
-* [Nie zvažać na hetaje źjavišča.]-> DismissPhenomenon
+* [Nie zvažać na hetaje zjavišča.]-> DismissPhenomenon
 
 === SpellcraftCheck ===
 {perform_party_skill_check("Spellcraft",200): -> success | -> fail}

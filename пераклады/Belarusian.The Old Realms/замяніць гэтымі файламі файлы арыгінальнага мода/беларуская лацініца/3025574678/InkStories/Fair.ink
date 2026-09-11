@@ -94,7 +94,7 @@ Z amfiteatru danosiacca zachoplenyja vokličy. Hrukočuć kapyty, i vieršniki p
     * [Viarnucca da viasiołaha natoŭpu.]->Start.choices
 
 ===Turnip===
-Vy z cikaŭnaściu razhladajecie repu ŭ formie kamety — mudrahielistaje dziva pryrody. Ziemlarob uśmichajecca j zaprašaje vas uziać udzieł u rozyhryšy. #STR_Turnip1
+Vy ź cikaŭnaściu razhladajecie repu ŭ formie kamety — mudrahielistaje dziva pryrody. Ziemlarob uśmichajecca j zaprašaje vas uziać udzieł u rozyhryšy. #STR_Turnip1
     ->choices
 
     =choices

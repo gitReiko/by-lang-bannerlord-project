@@ -162,10 +162,10 @@ INCLUDE include.ink
     ->choices
     
     =choices
-        *[Spytać, čym jon moža addziačyć za dapamohu] #STR_RewardForHelp0
-            Vy pytajeciesia ŭ mužčyny, čym jon moža addziačyć vam. #STR_RewardForHelp1
+        *[Spytać, čym jon moža adździačyć za dapamohu] #STR_RewardForHelp0
+            Vy pytajeciesia ŭ mužčyny, čym jon moža adździačyć vam. #STR_RewardForHelp1
             Mužčyna adkazvaje: «Ja ŭsiaho tolki prosty {Profession}, moj dom — {Settlement}. Mnie niama čym uznaharodzić vas, aproč padziaki». #STR_RewardForHelp2
-            Praz imhnieńnie jon kaža: «{Notable} — moj dobry siabar, ja zamoŭlu za vas słoŭca». #STR_RewardForHelp3
+            Praź imhnieńnie jon kaža: «{Notable} — moj dobry siabar, ja zamoŭlu za vas słoŭca». #STR_RewardForHelp3
             Pakul jon havoryć, vy mižvoli zaŭvažajecie, što na vozie, zdajecca, jašče jość niejki hruz. #STR_RewardForHelp4
             ~HasAsked = true
             ->choices
@@ -276,7 +276,7 @@ INCLUDE include.ink
     =LiveReward
         Vyratavany mužčyna {HasExtorted: nieachvotna} dziakuje vam za dapamohu{HasExtorted: j addaje abiacanuju ŭznaharodu }.#STR_RewardAlive1 
         {NotableChange: Pačaŭšy źbirać rečy, jon kaža: «Jak tolki ja viarnusia dadomu, {Notable} daviedajecca pra vašyja ŭčynki».#STR_RewardAliveNotable} 
-        {HasExtorted == false && BonusRoll >=50: Mužčyna na imhnieńnie zamiraje j kaža: «Viedaju, ja kazaŭ, što ŭ mianie mała čaho jość, ale, kali łaska, vaźmicie heta ({RewardText}). Heta najmienšaje, čym ja mahu addziačyć za vašuju dabryniu».#STR_RewardAliveChance} 
+        {HasExtorted == false && BonusRoll >=50: Mužčyna na imhnieńnie zamiraje j kaža: «Viedaju, ja kazaŭ, što ŭ mianie mała čaho jość, ale, kali łaska, vaźmicie heta ({RewardText}). Heta najmienšaje, čym ja mahu adździačyć za vašuju dabryniu».#STR_RewardAliveChance} 
         
         {HasExtorted || (not HasExtorted && BonusRoll >=50):
             -true:

@@ -21,9 +21,9 @@ VAR DeniedBefore = true
 
 ===START===
 Vy praciahvajecie padarožža źvilistaj darohaj, i kožny vaš krok supravadžaje cichaje šapacieńnie vietryku.#STR_Start1
-Raptam vašuju ŭvahu pryciahvaje mierny tupat krokaŭ. Uzniaŭšy pozirk, {not MetBefore: vy zaŭvažajecie tajamničaha nieznajomca, jaki nabližajecca ŭpeŭnienaj chadoj. Kali jon padychodzić bližej, vašaje voka łović blask vytančanaj rapiry. Nieznajomiec spyniajecca pierad vami j aceńvaje vas pozirkam, pryjazna ŭśmichajučysia.}{MetBefore:  vy zaŭvažajecie znajomuju postać Vitoryjo de Luki, słavutaha Tylijskaha duelanta, jaki ŭpeŭniena kročyć da vašaj partyi. {not DeniedBefore: U pamiaci ažyvaje vašaja minułaja sustreča, i vy znoŭ adčuvajecie chvalavańnie pieršaha dvuboju.}} #illustration: stranger #STR_Start2
+Raptam vašuju ŭvahu pryciahvaje mierny tupat krokaŭ. Uźniaŭšy pozirk, {not MetBefore: vy zaŭvažajecie tajamničaha nieznajomca, jaki nabližajecca ŭpeŭnienaj chadoj. Kali jon padychodzić bližej, vašaje voka łović blask vytančanaj rapiry. Nieznajomiec spyniajecca pierad vami j aceńvaje vas pozirkam, pryjazna ŭśmichajučysia.}{MetBefore:  vy zaŭvažajecie znajomuju postać Vitoryjo de Luki, słavutaha Tylijskaha duelanta, jaki ŭpeŭniena kročyć da vašaj partyi. {not DeniedBefore: U pamiaci ažyvaje vašaja minułaja sustreča, i vy znoŭ adčuvajecie chvalavańnie pieršaha dvuboju.}} #illustration: stranger #STR_Start2
 {not MetBefore: «Ach, jakaja ŭdača — sustreć hodnych vajaroŭ na hetaj pustelnaj darozie, — kaža jon. — Ja Vitoryjo de Luka, majstar klinka z dalokaj Tylii. Ja abjeździŭ šmat krajoŭ u pošukach hodnaha supiernika, jaki moh by zraŭnacca sa mnoj u bai. I voś dola pryviała mianie da vas. Ci nie žadajecie davieści svajo majsterstva ŭ siabroŭskim dvuboi, ź nievialikim zakładam dziela azartu?»#STR_Start3NotMetBefore} 
-{MetBefore: Kali Vitoryjo padychodzić bližej, vašaje voka łović blask jahonaj vytančanaj rapiry, a na tvary duelanta źjaŭlajecca pryjaznaja ŭśmieška. «Ach, jakaja ŭdača — znoŭ sustrecca na hetaj pustelnaj darozie, — kaža jon z hareźlivymi notkami ŭ hołasie. — Baču, ahoń vajara ŭsio jašče haryć u vas. {not DeniedBefore: Ci nie žadajecie znoŭ davieści svajo majsterstva ŭ paŭtornym dvuboi?»} {DeniedBefore: Ci nie žadajecie hetym razam davieści svajo majsterstva?»}#STR_Start3MetBefore} 
+{MetBefore: Kali Vitoryjo padychodzić bližej, vašaje voka łović blask jahonaj vytančanaj rapiry, a na tvary duelanta zjaŭlajecca pryjaznaja ŭśmieška. «Ach, jakaja ŭdača — znoŭ sustrecca na hetaj pustelnaj darozie, — kaža jon z hareźlivymi notkami ŭ hołasie. — Baču, ahoń vajara ŭsio jašče haryć u vas. {not DeniedBefore: Ci nie žadajecie znoŭ davieści svajo majsterstva ŭ paŭtornym dvuboi?»} {DeniedBefore: Ci nie žadajecie hetym razam davieści svajo majsterstva?»}#STR_Start3MetBefore} 
 ~ SetPlayerCustomTag("MetVittorio") 
 -> choices
 
@@ -42,7 +42,7 @@ Kali arena hatovaja, vy vychodzicie ŭ siaredzinu, i serca kałocicca ŭ pradču
 
 =deny
 ~ SetPlayerCustomTag("DeniedVittorio")
-Vitoryjo zachoŭvaje spakojny vyraz tvaru, ale ŭ kutkach jahonych vusnaŭ źjaŭlajecca ledź zaŭvažnaja ŭśmieška. #STR_Deny1
+Vitoryjo zachoŭvaje spakojny vyraz tvaru, ale ŭ kutkach jahonych vusnaŭ zjaŭlajecca ledź zaŭvažnaja ŭśmieška. #STR_Deny1
 «Škada, — adkazvaje jon ź lohkaj pabłažlivaściu ŭ hołasie. — Ja spadziavaŭsia znajści kahości vartaha majho času, ale, vidać, čutki pra vašaje majsterstva byli pierabolšanyja». #STR_Deny2
 Vitoryjo de Luka raźvitvajecca pahardlivym pakłonam. U jahonych vytančanych, pychlivych ruchach adčuvajecca niepachisnaja ŭpeŭnienaść va ŭłasnaj pieravazie. #STR_Deny3
 ->END

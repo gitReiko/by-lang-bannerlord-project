@@ -162,10 +162,10 @@ INCLUDE include.ink
     ->choices
     
     =choices
-        *[Спытаць, чым ён можа аддзячыць за дапамогу] #STR_RewardForHelp0
-            Вы пытаецеся ў мужчыны, чым ён можа аддзячыць вам. #STR_RewardForHelp1
+        *[Спытаць, чым ён можа адзьдзячыць за дапамогу] #STR_RewardForHelp0
+            Вы пытаецеся ў мужчыны, чым ён можа адзьдзячыць вам. #STR_RewardForHelp1
             Мужчына адказвае: «Я ўсяго толькі просты {Profession}, мой дом — {Settlement}. Мне няма чым узнагародзіць вас, апроч падзякі». #STR_RewardForHelp2
-            Праз імгненьне ён кажа: «{Notable} — мой добры сябар, я замоўлю за вас слоўца». #STR_RewardForHelp3
+            Празь імгненьне ён кажа: «{Notable} — мой добры сябар, я замоўлю за вас слоўца». #STR_RewardForHelp3
             Пакуль ён гаворыць, вы міжволі заўважаеце, што на возе, здаецца, яшчэ ёсьць нейкі груз. #STR_RewardForHelp4
             ~HasAsked = true
             ->choices
@@ -276,7 +276,7 @@ INCLUDE include.ink
     =LiveReward
         Выратаваны мужчына {HasExtorted: неахвотна} дзякуе вам за дапамогу{HasExtorted: й аддае абяцаную ўзнагароду }.#STR_RewardAlive1 
         {NotableChange: Пачаўшы зьбіраць рэчы, ён кажа: «Як толькі я вярнуся дадому, {Notable} даведаецца пра вашыя ўчынкі».#STR_RewardAliveNotable} 
-        {HasExtorted == false && BonusRoll >=50: Мужчына на імгненьне замірае й кажа: «Ведаю, я казаў, што ў мяне мала чаго ёсьць, але, калі ласка, вазьміце гэта ({RewardText}). Гэта найменшае, чым я магу аддзячыць за вашую дабрыню».#STR_RewardAliveChance} 
+        {HasExtorted == false && BonusRoll >=50: Мужчына на імгненьне замірае й кажа: «Ведаю, я казаў, што ў мяне мала чаго ёсьць, але, калі ласка, вазьміце гэта ({RewardText}). Гэта найменшае, чым я магу адзьдзячыць за вашую дабрыню».#STR_RewardAliveChance} 
         
         {HasExtorted || (not HasExtorted && BonusRoll >=50):
             -true:

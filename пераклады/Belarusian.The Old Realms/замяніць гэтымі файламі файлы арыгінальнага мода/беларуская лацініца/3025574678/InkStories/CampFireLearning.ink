@@ -234,7 +234,7 @@ Vajary amal adčuvajuć viecier u tvar i hrukat kapytoŭ pad saboju. Historyja j
 ===HoldingTheLine===
     Pad cichaje patreskvańnie vohnišča hučyć rašučy hołas vajara. Źziańnie połymia niby adlustroŭvaje niepachisnaść u vačach jahonych paplečnikaŭ. #STR_HoldingTheLine1
 
-«Słuchajcie ŭvažliva, siabry, — kaža vajar ź niepachisnaj pierakananaściu, — apovied pra našu apošniuju bitvu. My byli adnym cełym, kali stali nasmierć, samknuŭšy ščyty ŭ tryvałaj abaronie. Vojska niežyci nastupała, a my stajali ćviorda…» #STR_HoldingTheLine2
+«Słuchajcie ŭvažliva, siabry, — kaža vajar ź niepachisnaj pierakananaściu, — apovied pra našu apošniuju bitvu. My byli adnym cełym, kali stali naśmierć, samknuŭšy ščyty ŭ tryvałaj abaronie. Vojska niežyci nastupała, a my stajali ćviorda…» #STR_HoldingTheLine2
 
 Vajaroŭ achoplivaje pačućcio jednaści, niby jany sami stajać plačo ŭ plačo z vajarami z apoviedu. Słovy apaviadalnika padkreślivajuć značeńnie lidarstva j taktyki, vučačy słuchačoŭ hłybiej canić majsterstva abarony. #STR_HoldingTheLine3
     
