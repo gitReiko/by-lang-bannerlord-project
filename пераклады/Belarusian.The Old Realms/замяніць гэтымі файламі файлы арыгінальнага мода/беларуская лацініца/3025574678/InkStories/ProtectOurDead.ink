@@ -1,5 +1,5 @@
 //Global story tags
-# title: Protect Our Dead
+# title: Abaranicie Našych Miortvych
 # frequency: Uncommon
 # development: true
 # illustration: campfirenight
@@ -29,18 +29,18 @@ VAR RaiseDeadSkillCheckTest = false
 ->START
 
 ===START===
-At the end of the days march, your men are setting up camp. You know sunset will come soon, and these lands are dangerous, especially at night. #STR_Start1
-Suddenly, one of your men shouts a warning. Glancing up, you see a local villager approaching. He appears to be unarmed. #illustration: stranger #STR_Start2
-The man explains that a recently arrived necromancer has started raising the dead from the village cemetery. Although the villager is quite poor, he says they will pay a modest reward to anyone who slays the necromancer. #STR_Start3 
+Naprykancy dzionnaha pierachodu vašyja ludzi raźbivajuć lahier. Vy viedajecie, što chutka zachod sonca, a hetyja ziemli niebiaśpiečnyja, asabliva ŭnačy. #STR_Start1
+Raptam adzin z vašych ludziej vykrykvaje pieraściarohu. Uźniaŭšy pozirk, vy bačycie, što da vas nabližajecca miascovy viaskoviec. Zdajecca, jon biaz zbroi. #illustration: stranger #STR_Start2
+Mužčyna tłumačyć, što niadaŭna tut źjaviŭsia niekramant i pačaŭ uzdymać miortvych na viaskovych mohiłkach. Chacia viaskoviec i biedny, jon kaža, što viaskoŭcy zapłaciać ścipłuju ŭznaharodu tamu, chto zabje niekramanta. #STR_Start3 
 -> choices
 
     =choices
-    *[We will kill this necromancer for you.] ->accept
-    *[This is an outrage, those skeletons should belong to me!] ->accept
-    *[Perhaps another time. We have more urgent matters to attend to.] -> deny
+    *[My zabjom hetaha niekramanta dla vas.] ->accept
+    *[Heta aburalna! Hetyja kaściaki musiać naležać mnie!] ->accept
+    *[Moža, inšym razam. U nas jość bolš pilnyja spravy.] -> deny
     
     =accept
-    The village explains that the necromancer comes every night with a few skeletons. With this knowledge, you make a plan to ambush him in the graveyard.  #STR_Accept1
+    Viaskoviec tłumačyć, što niekramant prychodzić štoviečar ź niekalkimi kaściakami. Viedajučy heta, vy rychtujecie zasadu na mohiłkach.  #STR_Accept1
     
     ->enterArena
     
@@ -50,24 +50,24 @@ The man explains that a recently arrived necromancer has started raising the dea
     =enterArena
     //~ OpenGraveyardMission()
     ...
-    {PlayerWin: As the necromancer falls, you give thanks to insert_deity_name. #STR_PlayerWin1}
+    {PlayerWin: Kali niekramant padaje, vy ŭznosicie padziaku: insert_deity_name. #STR_PlayerWin1}
 
     ->BattleResult
     
 ===BattleResult===
-        *[Return to the village and claim the reward {GiveGold(500)}{GiveSkillExperience("Faith",1000)}]
+        *[Viarnucca ŭ viosku j atrymać uznaharodu {GiveGold(500)}{GiveSkillExperience("Faith",1000)}]
 		-> END
 		
         //Necromancer option
-        *{PartyCanRaiseDead}[Attempt to bind the defeated skeletons to your will, {print_party_skill_chance("Spellcraft", 25)}]
+        *{PartyCanRaiseDead}[Pasprabavać padparadkavać pieramožanych kaściakoŭ svajoj voli, {print_party_skill_chance("Spellcraft", 25)}]
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
         =raiseSucceed
-        Having successfully raised the dead, you search the necromancer for anything of value. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerSuccess
+        Paśpiachova ŭźniaŭšy miortvych, vy abšukvajecie niekramanta ŭ pošukach kaštoŭnaściaŭ. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerSuccess
             
             ~ChangePartyTroopCount("tor_vc_skeleton",8)
             -> END
         
         =raiseFail
-        You may have failed to raise the dead, but at least the necromancer left a useful staff behind. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerFail
+        Chacia ŭźniać miortvych vam i nie ŭdałosia, prynamsi niekramant pakinuŭ paśla sabie karysny posach. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerFail
             -> END

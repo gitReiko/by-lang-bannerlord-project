@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Pond
+# title: Sažałka
 # frequency: Common
 # development: false
 # illustration: pond
@@ -177,55 +177,55 @@
 
 ===Start===
 
-    As your party is traveling you come across a tranquil scene that steals your breath away. Before you stretches a serene pond, a hidden gem amidst the wilderness. The water is calm and clear, reflecting the azure sky above. Lush vegetation surrounds the pond, offering a peaceful sanctuary. #STR_Start1
-    {IsNight(): Silver moonlight | Golden sunlight} filters through the trees, casting a glow on the water's surface. The air carries the gentle scent of nature, a soothing balm for your weary senses. Birds sing melodious tunes, contributing to the serene atmosphere. #STR_Start2
+    U darozie vašaja partyja natraplaje na taki mirny krajavid, što zajmaje duch. Pierad vami raspaścirajecca cichaja sažałka — schavanaja pierlina siarod dzikaj pryrody. Spakojnaja prazrystaja vada adlustroŭvaje błakitnaje nieba. Bujnaja raślinnaść vakoł sažałki stvaraje ŭtulny prytułak. #STR_Start1
+    {IsNight(): Srebnaje miesiacovaje śviatło | Załatoje soniečnaje śviatło} prabivajecca praz drevy j aśviatlaje roŭniadź vady. Pavietra napoŭnienaje łahodnym vodaram pryrody — hajučym balzamam dla vašych stomlenych pačućciaŭ. Miłahučny śpieŭ ptušak dapaŭniaje spakojnuju atmaśfieru. #STR_Start2
 
-    As you stand there, captivated by the sight, your men catch up to you. Their faces, etched with exhaustion, light up with wonder and relief. Even the typically reserved member of your group manages a small smile. #STR_Start3
+    Pakul vy staicie, začaravanyja vidoviščam, vas dahaniajuć vašyja ludzi. Ichnyja źniasilenyja tvary aśviatlajucca ździŭleńniem i palohkaj. Navat samy strymany z vašaj partyi ledź zaŭvažna ŭśmichajecca. #STR_Start3
     
-    Your second places a hand on your shoulder, their voice carrying a rare note of lightness. "A moment of respite by the pond. What do you say?" #STR_Start4
+    Vaš namieśnik kładzie ruku vam na plačo, i ŭ jahonym hołasie hučyć redkaja biesturbotnaść: «Trochi adpačynku la sažałki. Što skažacie?» #STR_Start4
         ->choice1
         
     =choice1
-        What will you have your party do? #STR_Start4 
-            *[Forage for wild plants (Multiple attempts at {LoreOfLifeInParty: 50% chance (Improved by Lore of Life)| 25% chance} to succeed at harvesting various wild plants)] 
+        Što vy zahadajecie svajoj partyi? #STR_Start4 
+            *[Paźbirać dzikarosłyja raśliny (Niekalki sprobaŭ sabrać roznyja dzikarosłyja raśliny: {LoreOfLifeInParty: šaniec pośpiechu 50% (Pavyšany Škołaj Žyćcia)| šaniec pośpiechu 25%})] 
                 
-                You order your party to forage for wild plants. #STR_Forage1
+                Vy zahadvajecie svajoj partyi pašukać karysnyja dzikarosłyja raśliny. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            A mage in your party calls upon the Wind of Ghyran to aid your men in their search. #STR_ForageLoreOfLife1
+                            Mah vašaj partyi zaklikaje Viecier Hiranu, kab dapamahčy vašym ludziam u pošukach. #STR_ForageLoreOfLife1
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
-                        -else: ERROR
+                        -else: PAMYŁKA
                     }
                     
                 ->ForageLoop
 
-            *[Fish (Multiple chances to get Fish (50% success chance))] 
+            *[Parybačyć (Niekalki šancaŭ złavić rybu (Šaniec pośpiechu 50%))] 
             
-            You have your men go fishing. #STR_Fish1
+            Vy pasyłajecie svaich ludziej łavić rybu. #STR_Fish1
                 
                 ->FishLoop
                 
-            *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
+            *[Dać ludziam adpačyć (Usie kampańjony i paranienyja vajary vylečacca {PartyMedicineCheckText})]
                 
-                You try to give your men a break hoping that the brief respite will help them get better. #STR_Rest1
+                Vy sprabujecie dać ludziam pieradychnuć, spadziejučysia, što karotki adpačynak dapamoža im ačuniać. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
-                        Your party takes advantage of the break to take care of the wounded. #STR_RestMedicineSuccess
+                        Vašaja partyja karystajecca pierapynkam, kab pakłapacicca pra paranienych. #STR_RestMedicineSuccess
                         ~ HealPartyToFull()
                     -false:
-                    Just as the men start to tend to the wounded, the ground suddenly shakes beneath you, and a roar fills the air. A cascade of earth and rocks crashes into the pond, caused by a landslide along the shore. The water churns, swallowing a part of the land it had eroded over time. #STR_RestMedicineFail
-                    -else: "ERROR"
+                    Ledź ludzi pačynajuć dahladać paranienych, ziamla pad vami raptam dryžyć i pavietra napaŭniajecca hrukatam. Z-za apoŭźnia na bierazie ŭ sažałku abrynajecca łavina ziamli j kamieńnia. Vada burlić, pahłynajučy častku sušy, jakuju doŭha padmyvała. #STR_RestMedicineFail
+                    -else: "PAMYŁKA"
                 }
                 
                
                 
                 ->Leave
                 
-            *[Leave] You decide your party has no time to rest and set out immediately.->END
+            *[Syści] Vy vyrašajecie, što vašaj partyi niama kali adpačyvać, i adrazu rušycie dalej.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -237,7 +237,7 @@
                     ~ AttemptSuccessful = true
                 -false:
                     ~ AttemptSuccessful = false
-                -else: ERROR
+                -else: PAMYŁKA
             }
 
         //Reward if successful
@@ -250,9 +250,9 @@
             
             {RewardRoll:
                 -0:
-                    Foraging yields no results, your men return empty handed.
+                    Pošuki nie dajuć plonu, vašyja ludzi viartajucca z pustymi rukami.
                 -1:
-                    Your men find some wild rice. (+1 Grain)
+                    Vašyja ludzi znachodziać dziki rys. (+1 Zbožža)
                     ~ GiveItem("grain",1)
             }
             
@@ -271,17 +271,17 @@
                     ~ AttemptSuccessful = true
                 -false:
                     ~ AttemptSuccessful = false
-                -else: ERROR
+                -else: PAMYŁKA
             }
 
         //Reward
             {
                 - AttemptSuccessful == true:
-                    Your men catch some fish (+1 Fish).
+                    Vašyja ludzi łoviać rybu (+1 Ryba).
                     ~ GiveItem("fish",1)
                 - AttemptSuccessful == false:
-                     Your men catch nothing.
-                -else: ERROR
+                     Vašyja ludzi ničoha nia łoviać.
+                -else: PAMYŁKA
             }
                     
         //End of Loop
@@ -290,7 +290,7 @@
     ->END
     
 ===Leave===
-    Having spent your time by the pond you decide to head off.
+    Pabyŭšy la sažałki, vy vyrašajecie rušyć dalej.
 
     ~ MakePartyDisorganized()
     

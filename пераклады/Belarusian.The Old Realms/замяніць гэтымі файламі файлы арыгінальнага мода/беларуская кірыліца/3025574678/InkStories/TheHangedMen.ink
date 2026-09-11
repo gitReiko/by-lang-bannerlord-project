@@ -87,14 +87,14 @@ INCLUDE include.ink
                 ->Grave
             
         //Raise the hanging bodies as skeletons
-            *{PartyCanRaiseDead}[Узьняць павешаных як шкілетаў (Літасьць--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
+            *{PartyCanRaiseDead}[Узьняць павешаных як касьцякоў (Літасьць--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
                 ~ AddTraitInfluence("Mercy", -200)
                 {perform_party_skill_check("Spellcraft", RaiseDeadDifficulty):
                     -true:
                         ~ ChangePartyTroopCount("tor_vc_skeleton",3)
                         ~ SkeletonSuccess = true
                 }
-                Вашая партыя спрабуе ажывіць трупы ў выглядзе шкілетаў {SkeletonSuccess: і дасягае посьпеху. ->Grave | і церпіць няўдачу.->choice1} #STR_Loot
+                Вашая партыя спрабуе ажывіць трупы ў форме касьцякоў {SkeletonSuccess: і дасягае посьпеху. ->Grave | і церпіць няўдачу.->choice1} #STR_Loot
 
 ===Grave===
     //Needed for intermission text 
