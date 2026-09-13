@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Hanged Men
+# title: Paviešanyja
 # frequency: Common
 # development: false
 # illustration: hangedman
@@ -62,43 +62,43 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    Vy natykajeciesia na dreva, na jakim visiać try čałavieki z miačom, uvatknutym u ziamlu pad imi. Padydučy bližej, vy bačycie, što na drevie vydrapana słova "Zdradniki", a mieč vykarystoŭvajecca dla paznačeńnia mahiły. #STR_Start1
+    Vy natraplajecie na dreva z tryma paviešanymi, pad jakimi ŭ ziamlu ŭtorknuty mieč. Padyšoŭšy bližej, vy bačycie vyrazanaje na drevie słova «Zdradniki», a mieč, vidać, paznačaje mahiłu. #STR_Start1
     ->choice1
 
     //What to do with the hanging bodies
     =choice1
-        Što vaša partyja budzie rabić z paviešanymi ciełami? #STR_Start2
+        Što vašaja partyja zrobić ź ciełami paviešanych? #STR_Start2
         
-            *[Ničoha]
-                Vy vyrašajecie ničoha nie rabić z paviešanymi ciełami.  #STR_DoNothing
+            *[Ničoha nie rabić]
+                Vy vyrašajecie nie čapać cieły paviešanych. #STR_DoNothing
                 ->Grave
         
-            *[Pachavać paviešanyja cieły (Litaść+)]
-                Vy siačecie viaroŭki i chavajecie ŭ ziamlu cieły. #STR_Bury
-                ~ AddTraitInfluence("Mercy", 20)
+            *[Pachavać paviešanych (Litaść+)]
+                Vy zrazajecie cieły j addajacie ich ziamli. #STR_Bury
+                ~ AddTraitInfluence("Mercy", 80)
                 ->Grave
         
-            *[Abrabavać paviešanyja cieły (Litaść-)]
-                Vy siačecie viaroŭki, rabujecie cieły i zabirajecie rvanyja łachmany, u jakich jany byli zabity. #STR_Loot
-                ~ AddTraitInfluence("Mercy", -20)
+            *[Abrabavać paviešanych (Litaść-)]
+                Vy zrazajecie cieły j abirajecie mierćviakoŭ, zabirajučy łachmany, u jakich ich pakarali śmierciu. #STR_Loot
+                ~ AddTraitInfluence("Mercy", -80)
                 ~ GiveItem("wrapped_headcloth",3)
                 ~ GiveItem("ragged_robes",3)
                 ~ GiveItem("leather_shoes",3)
                 ->Grave
             
         //Raise the hanging bodies as skeletons
-            *{PartyCanRaiseDead}[Ažyvić paviešanyja cieły ŭ jakaści kaściakoŭ (Litaść--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
-                ~ AddTraitInfluence("Mercy", -50)
+            *{PartyCanRaiseDead}[Uźniać paviešanych jak kaściakoŭ (Litaść--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
+                ~ AddTraitInfluence("Mercy", -200)
                 {perform_party_skill_check("Spellcraft", RaiseDeadDifficulty):
                     -true:
                         ~ ChangePartyTroopCount("tor_vc_skeleton",3)
                         ~ SkeletonSuccess = true
                 }
-                {SkeletonSuccess: Vašaja partyja paśpiachova ažyŭlaje cieły ŭ jakaści kaściakoŭ. ->Grave | Vašaja partyja niaŭdała sprabuje ažyvić cieły ŭ jakaści kaściakoŭ. ->choice1} #STR_Loot
+                Vašaja partyja sprabuje ažyvić trupy ŭ formie kaściakoŭ {SkeletonSuccess: i dasiahaje pośpiechu. ->Grave | i cierpić niaŭdaču.->choice1} #STR_Loot
 
 ===Grave===
     //Needed for intermission text 
-        Vyrašyŭšy, što rabić z paviešanymi ciełami, vy zaŭvažajecie mahiłu, paznačanuju miačom. #STR_Grave
+        Vyrašyŭšy, što rabić z paviešanymi, vy źviartajecie ŭvahu na mahiłu, paznačanuju miačom. #STR_Grave
         ->choice2
         
     //What to do with the buried body
@@ -106,33 +106,33 @@ INCLUDE include.ink
         
         //Variable Update
         ~ RaiseDeadDifficulty = 100
-        Što rabić z mahiłaj? #STR_Grave
-        *[Pakinuć hetaje miesca (Pakinuć)]
+        Što vy zrobicie z mahiłaj? #STR_Grave
+        *[Pakinuć hetaje miesca (Syści)]
             ->Leave
             
         *[Pamalicca (Litaść+)]
-            Vy moliciesia za niabožčykaŭ i spadziejaciesia, što jany znojduć supakoj. #STR_Prayer
-            ~ AddTraitInfluence("Mercy", 20)
+            Vy moliciesia za pamierłych, spadziejučysia, što jany znojduć spakoj. #STR_Prayer
+            ~ AddTraitInfluence("Mercy", 80)
             ->Leave
 
 
-        *[Zabrać mieč (1 mieč 3 roŭnia, Litaść-)]
-            Vy zabirajecie mieč u svaje ruki. #STR_TakeSword
-            ~ AddTraitInfluence("Mercy", -20)
+        *[Zabrać mieč (1 mieč 3-ha ŭzroŭniu, Litaść-)]
+            Vy bieracie mieč u ruki. #STR_TakeSword
+            ~ AddTraitInfluence("Mercy", -80)
             ~ HaveSword = true
             ~ TookSword = true
             ->choice2
             
         *[Raskapać mahiłu (Litaść-)]
-            Raskapaŭšy mahiłu, vy znachodzicie vajara, pachavanaha ŭ daśpiechach. Bačna, što častka daśpiechaŭ paškodžana, najchutčej, "zdradnikami". #STR_Dig
-            ~ AddTraitInfluence("Mercy", -20)
+            Vy raskopvajecie mahiłu j znachodzicie pachavanaha vajara ŭ pancyry. Častka pancyra paškodžanaja, chutčej za ŭsio tymi samymi «zdradnikami». #STR_Dig
+            ~ AddTraitInfluence("Mercy", -80)
             ~ DugUpGrave = true
             ->choice2
         
-        *{DugUpGrave == true}[Abrabavać cieła niabožčyka (2 adzinki brani 3 roŭnia, Litaść-)]
-            Vy zdymajecie z cieła ŭsiu zachavanuju braniu. #STR_DigLoot
+        *{DugUpGrave == true}[Abrabavać pachavanaha (2 častki pancyra 3-ha ŭzroŭniu, Litaść-)]
+            Vy zdymajecie ź cieła ŭsie acalełyja častki pancyra. #STR_DigLoot
             ~LootedBody = true
-            ~AddTraitInfluence("Mercy", -20)
+            ~AddTraitInfluence("Mercy", -80)
             
                 //Loot Rolls
                     {RANDOM(0,1):
@@ -150,8 +150,8 @@ INCLUDE include.ink
 
             ->choice2
             
-        *{DugUpGrave && PartyCanRaiseDead && not LootedBody}[Ažyvić cieła niabožčyka ŭ jakaści pryvida (+1 Vartaŭnik Sklepa, Litaść--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
-            ~AddTraitInfluence("Mercy", -50)
+        *{DugUpGrave && PartyCanRaiseDead && not LootedBody}[Uvaskrasić pachavanaha jak vajta (+1 Sklepny Hvardziejec, Litaść--) {print_party_skill_chance("Spellcraft", RaiseDeadDifficulty)}]
+            ~AddTraitInfluence("Mercy", -200)
                 
                 //Raise Dead
                     {perform_party_skill_check("Spellcraft", RaiseDeadDifficulty):
@@ -162,11 +162,11 @@ INCLUDE include.ink
                         -false:
                     }
 
-                {CryptGuardSuccess: Vašaja partyja paśpiachova ažyŭlaje cieła ŭ jakaści pryvida. Pryvid uzdymajecca {TookSword: i praciahvaje ruku, niby prosiačy viarnuć jamu mieč. Vy viartajecie jamu zbroju.} Potym jon dałučajecca da astatnich vajaroŭ. ->Leave | partyja niaŭdała sprabuje ažyvić cieła ŭ jakaści pryvida. ->choice2} #STR_DigResurrect
+                Vašaja partyja sprabuje ŭvaskrasić mierćviaka jak vajta {CryptGuardSuccess: i dasiahaje pośpiechu. Vajt padymajecca {TookSword: j praciahvaje ruku, niby prosić viarnuć jamu mieč. Vy addajacie zbroju}, paśla čaho jon kročyć da astatniaha vašaha vojska. ->Leave | i cierpić niaŭdaču.->choice2} #STR_DigResurrect
             ->Leave
 
 ===Leave===
-    Paśla pryniaćcia raźviazka vy rušycie dalej. #STR_Leave1
+    Zrabiŭšy svoj vybar, vy rušycie dalej. #STR_Leave1
     {HaveSword: 
         ~GiveItem("vlandia_sword_1_t2",1)
     }

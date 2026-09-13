@@ -1,5 +1,5 @@
 //Global story tags
-# title: Palana
+# title: Łuh
 # frequency: Common
 # development: false
 # illustration: meadow
@@ -170,76 +170,75 @@
 
     ~ PartyRangedSkillCheckText = print_party_skill_chance(SkillTextFinal, HuntDifficulty*2)
     
-
-
+    
+    
 //Variable Check (Use for sanity check. Uncomment variables to see what they are)
-
+    
      ~ SetTextVariable("IsNight",IsNight())
 
 -> Start
 
 ===Start===
 
-    Vy razam sa svajoj partyjaj vałačeciesia pa zavilistaj ściažyncy, i tut krajavid pastupova źmianiajecca. Pavietra stanovicca miakčejšym, a huki - spakajniejšymi. #STR_Start1
-    
-    Narešcie vy vychodzicie na palanu, i z vašych vusnaŭ zryvajecca ŭzdych. Pierad vami raśściłajecca łuh, padobnaha jakomu vy daŭno nia bačyli. Trava - bahaciejšy habielen zialonaha koleru, što miakka kałyšacca pad podźmuchami vietru. Mnostva palavych kvietak afarboŭvajuć łuh u jarkija adcieńni čyrvonaha, fijaletavaha i žoŭtaha. #STR_Start2
-    {IsNight(): Srebnaje śviatło miesiaca | Załatoje śviatło sonca } pradzirajecca praz krony drevaŭ i achutvaje łuh ciapłom. U pavietry łunaje dalikatny vodar kvietak. Ptuški napiavajuć svaje miełodyi, napaŭniajučy palanu simfonijaj, jakaja niby balzam na stomleny duch. #STR_Start3
+    Vy z partyjaj stomlena kročycie źvilistaj ściežkaj, kali krajavid pastupova mianiajecca. Pavietra robicca łahadniejšym, huki — spakajniejšymi. #STR_Start1
+    I voś vy vychodzicie na adkrytaje miesca j mižvoli achkajecie. Pierad vami łuh, padobnaha da jakoha vy daŭno nia bačyli. Trava — raskošny zialony dyvan — miakka kałyšacca na vietry. Mnostva palavych kvietak upryhožvaje krajavid jarkimi čyrvonymi, purpurovymi j žoŭtymi farbami. #STR_Start2
+    {IsNight(): Srebnaje miesiacovaje śviatło | Załatoje soniečnaje śviatło } prabivajecca praz šaty drevaŭ, łahodna achinajučy łuh. U pavietry raźlivajecca piaščotny vodar kvietak. Ptuški śpiavajuć svaje melodyi, napaŭniajučy palanu symfonijaj, što hajučym balzamam kładziecca na vaš stomleny duch. #STR_Start3
         ->choice1
         
     =choice1
-        Što budzie rabić vašaja partyja? #STR_Start4
-            *[Narychtoŭvać dzikija raśliny (Šmatlikija sproby z {LoreOfLifeInParty: 75% šancam (Palepšana Viedami Žyćcia)| 50% šancam} paśpiachovaha zboru dzikich raślin)] 
-            Vy zahadvajecie svajoj partyi zdabyvać ježu siarod raślin łuha. #STR_Forage1
+        Što vy zahadajecie svajoj partyi? #STR_Start4
+            *[Paźbirać dzikarosłyja raśliny (Niekalki sprobaŭ sabrać roznyja dzikarosłyja raśliny: {LoreOfLifeInParty: šaniec pośpiechu 75% (Pavyšany Škołaj Žyćcia)| šaniec pośpiechu 50%})] 
+            Vy zahadvajecie svajoj partyi pašukać karysnyja raśliny na łuzie. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                           Mah z vašaj partyi zaklikaje Viecier Hajrana na dapamohu vašym ludziam u pošukach. #STR_Forage_LoreOFLifeInParty
+                            Mah vašaj partyi zaklikaje Viecier Hiranu, kab dapamahčy vašym ludziam u pošukach. #STR_Forage_LoreOFLifeInParty
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
-                        -else: ERROR
+                        -else: PAMYŁKA
                     }
                     
                 ->ForageLoop
 
-            *[Palavać na žyvioł (Šmatlikija šansy atrymać miasa, skuru i/ci futra {PartyRangedSkillCheckText})]
+            *[Papalavać (Niekalki šancaŭ zdabyć miasa, skury j futra {PartyRangedSkillCheckText})]
                 
                 //Bonus Attempts from Lore of Beasts
                     {LoreOfBeastsInParty:
                         -true: 
-                            Mah z vašaj partyi zaklikaje Viecier Hajrana na dapamohu vašym ludziam u pošukach (+1 sproba). #STR_Hunt_LoreOFBeastInParty
+                            Mah vašaj partyi zaklikaje Viecier Huru, kab dapamahčy vašym ludziam u pošukach. (+1 sproba) #STR_Hunt_LoreOFBeastInParty
                             ~ HuntLoops = HuntLoops + 1
                         -false:
-                        -else: ERROR
+                        -else: PAMYŁKA
                     }
                     
                 //Bonus attempt from Scouting
                     {perform_party_skill_check("Scouting", HuntDifficulty):
                         -true: 
-                            Vašym vyviednikam paščaściła vyjavić niekalki dadatkovych žyvioł (Vyviedka, +1 sproba). #STR_Hunt_Scout
+                            Vašyja vyviedniki znachodziać dadatkovuju dzičynu. (Vyviedka)(+1 sproba) #STR_Hunt_Scout
                             ~HuntLoops = HuntLoops + 1
                         -false:
-                        -else: ERROR
+                        -else: PAMYŁKA
                     }
                     
                 ->HuntLoop
                 
-            *[Adpačyvać (Usie kampańjony i paranienyja vajary vylečvajucca {PartyMedicineCheckText})]
+            *[Dać ludziam adpačyć (Usie kampańjony vylečacca, usie paranienyja vajary adnoviacca {PartyMedicineCheckText})]
                 
-                Vy sprabujecie dać svaim ludziam pieradyšku, spadziejučysia, što karotki adpačynak dapamoža im akryjać. Vy raźbivajecie časovy łahier na ŭzboččy palany. #STR_Rest1
+                Vy sprabujecie dać ludziam pieradychnuć, spadziejučysia, što karotki adpačynak dapamoža im ačuniać. Vy raźbivajecie časovy lahier na ŭskrajku łuhu. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
                         ~ HealPartyToFull()
                     -false:
-                    -else: "ERROR"
+                    -else: "PAMYŁKA"
                 }
                 
-                {PartyMedicineCheckTest: Vašaja partyja skarystałasia adpačynkam, kab pakłapacicca pra paranienych. | Na žal, u momant, kali ludzi pasprabavali adpačyć, nalacieŭ mocny štorm, jaki prymusiŭ ich ruchacca ŭ pošukach chovanki.} #STR_Rest2
+                {PartyMedicineCheckTest: Vašaja partyja karystajecca pierapynkam, kab pakłapacicca pra paranienych.| Na žal, ledź ludzi pačynajuć adpačyvać, nalataje mocnaja bura j zmušaje vašuju partyju rušyć na pošuki schovišča.} #STR_Rest2
                 
                 ->Leave
                 
-            *[Pakinuć] Vy vyrašyli, što vašaja partyja nia maje času na adpačynak i nieadkładna rušyli ŭ puć.->END
+            *[Syści] Vy vyrašajecie, što vašaj partyi niama kali adpačyvać, i adrazu rušycie dalej.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -251,7 +250,7 @@
                     ~ AttemptSuccessful = true
                 -false:
                     ~ AttemptSuccessful = false
-                -else: ERROR
+                -else: PAMYŁKA
             }
 
         //Reward if successful
@@ -264,18 +263,18 @@
             
             {RewardRoll:
                 -0:
-                    Pošuki apynulisia marnymi, vašyja ludzi viarnulisia z pustymi rukami. #ForageLoop0
+                    Pošuki nie dajuć plonu, vašyja ludzi viartajucca z pustymi rukami. #ForageLoop0
                 -1:
-                    Vašyja ludzi znajšli dzikaje ziernie (+1 Ziernie). #ForageLoop1
+                    Vašyja ludzi znachodziać dzikaje zbožža. (+1 Zbožža) #ForageLoop1
                     ~ GiveItem("grain",1)
                 -2:
-                    Vašyja ludzi znajšli dzikija jahady (+1 Vinahrad). #ForageLoop2
+                    Vašyja ludzi znachodziać lasnyja jahady. (+1 Vinahrad) #ForageLoop2
                     ~ GiveItem("grape",1)
                 -3:
-                    Vašyja ludzi znajšli dziki lon (+1 Lon). #ForageLoop3
+                    Vašyja ludzi znachodziać dziki lon. (+1 Lon) #ForageLoop3
                     ~ GiveItem("flax",1)
                 -4:
-                    Vašyja ludzi znajšli dzikija śpiecyi (+1 Śpiecyi). #ForageLoop4
+                    Vašyja ludzi znachodziać dzikarosłyja prypravy. (+1 Prypravy) #ForageLoop4
                     ~ GiveItem("spice",1)
             }
             
@@ -299,7 +298,7 @@
                     ~ AttemptSuccessful = true
                 -false:
                     ~ AttemptSuccessful = false
-                -else: ERROR
+                -else: PAMYŁKA
             }
             
             //Roll for bonus hide
@@ -315,20 +314,20 @@
         //Reward
             {
                 - AttemptSuccessful == true && RewardRoll == 0:
-                    Vašyja ludzi damahlisia pośpiechu, jany viarnulisia z fazanami (+1 Miasa). #HuntLoop0
+                    Palavańnie ŭdałaje: vašyja ludzi viartajucca z fazanami. (+1 Miasa) #HuntLoop0
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 1:
-                    Vašyja ludzi damahlisia pośpiechu, jany viarnulisia z aleniem (+1 Miasa, +1 Skury). #HuntLoop1
+                    Palavańnie ŭdałaje: vašyja ludzi viartajucca z aleniem. (+1 Miasa, +1 Skura) #HuntLoop1
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 2:
-                    Vašyja ludzi damahlisia pośpiechu, jany viarnulisia z dzikam (+1 Miasa, +1 Futra). #HuntLoop2
+                    Palavańnie ŭdałaje: vašyja ludzi viartajucca ź dzikam. (+1 Miasa, +1 Futra) #HuntLoop2
                     ~ GiveItem("meat",1)
                     ~ GiveItem("fur",1)
                 - AttemptSuccessful == false:
-                     Dzičyna vyślizhvaje, vašyja ludzi viartajucca z pustymi rukami. #HuntLoop3
-                -else: ERROR
+                     Dzičyna ŭciakaje, vašyja ludzi viartajucca z pustymi rukami. #HuntLoop3
+                -else: PAMYŁKA
             }
                     
         //End of Loop
@@ -337,7 +336,7 @@
     ->END
     
 ===Leave===
-    Pabaviŭšy svoj čas na palanie, vy vypraŭlajeciesia ŭ darohu. #STR_Leave
+    Pabyŭšy na łuzie, vy vyrašajecie rušyć dalej. #STR_Leave
 
     ~ MakePartyDisorganized()
     

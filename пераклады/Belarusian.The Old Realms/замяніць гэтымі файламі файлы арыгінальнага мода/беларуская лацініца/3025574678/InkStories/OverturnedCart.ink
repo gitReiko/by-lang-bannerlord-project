@@ -1,5 +1,5 @@
 //Global story tags
-# title: Vypadak na Ŭzboččy
+# title: Zdareńnie na Darozie
 # frequency: Common
 # development: false
 # illustration: cart_accident
@@ -62,21 +62,21 @@ INCLUDE include.ink
         VAR InjuryText2 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText2 = "prosić vas"
+                    ~InjuryText2 = "prosić"
                 -1: 
-                    ~InjuryText2 = "molić vas"
+                    ~InjuryText2 = "molić"
                 -2: 
-                    ~InjuryText2 = "ledź pramaŭlaje vam"
+                    ~InjuryText2 = "ledź vymaŭlaje"
             }
         
         VAR InjuryText3 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText3 = "uzdymajecca"
+                    ~InjuryText3 = "ustaje"
                 -1: 
-                    ~InjuryText3 = "ledź uzdymajecca"
+                    ~InjuryText3 = "ledź ustaje"
                 -2: 
-                    ~InjuryText3 = "lažyć i sprabuje nie pamierci"
+                    ~InjuryText3 = "lažyć, zmahajučysia za žyćcio"
             }
             
         VAR InjuryText4 = ""
@@ -84,7 +84,7 @@ INCLUDE include.ink
                 -0: 
                     ~InjuryText4 = ""
                 -1: 
-                    ~InjuryText4 = "zdajecca, trochi pryhniečany, viedajučy, što jon budzie kalekaj, prynamsi, peŭny čas"
+                    ~InjuryText4 = "zasmučajecca, razumiejučy, što prynamsi niejki čas budzie kalekam"
                 -2: 
                     ~InjuryText4 = "pamiraje"
             }
@@ -112,11 +112,11 @@ INCLUDE include.ink
         VAR RewardText = ""
             {ProfessionRoll:
                 -0: 
-                    ~RewardText = "500 zołata"
+                    ~RewardText = "500 załatych"
                 -1: 
-                    ~RewardText = "5 ziernia"
+                    ~RewardText = "5 mier zbožža"
                 -2: 
-                    ~RewardText = "2 stalovych źlitka"
+                    ~RewardText = "2 stalovyja źlitki"
             }
 
         VAR HasExtorted = false
@@ -125,15 +125,15 @@ INCLUDE include.ink
         VAR BonusRoll = 0
 
         VAR ManAlive = true
-
-        ~ SetTextVariable("HorsesAround",HorsesAround)
+        
+         ~ SetTextVariable("HorsesAround",HorsesAround)
         ~ SetTextVariable("InjuryText1",InjuryText1)
         ~ SetTextVariable("InjuryText2",InjuryText2)
         ~ SetTextVariable("InjuryText3",InjuryText3)
         ~ SetTextVariable("InjuryText4",InjuryText4)
         
         ~ SetTextVariable("Profession",Profession)
-        ~ SetTextVariable("Settlemente",Settlement)
+        ~ SetTextVariable("Settlement",Settlement)
         ~ SetTextVariable("Notable",Notable)
         ~ SetTextVariable("RewardText",RewardText)
         
@@ -146,72 +146,72 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    Padčas padarožža vy bačycie ŭdalečyni furmanku. #STR_Start1
-    Paśla nabližeńnia vidavočna, što jana złamałasia i pierakuliłasia. #STR_Start2
-    {HorsesAround: Na susiednim poli vy bačycie, jak paśviacca koni, zdajecca, jany ciahnuli furmanku. #STR_StartHorse}
+    U darozie vašaja partyja zaŭvažaje ŭdalečyni voz. #STR_Start1
+    Nabliziŭšysia, vy bačycie, što jon złamaŭsia j pierakuliŭsia. #STR_Start2
+    {HorsesAround: Taksama vy bačycie koniej, što paśviacca na susiednim poli; vidać, da zdareńnia mienavita jany ciahnuli voz. #STR_StartHorse}
 
-    *[Padajści da furmanki]->Approach
-    *[Praciahnuć svoj šlach] Vy vyrašajecie nie źviartać uvahu na pierakulenuju furmanku i praciahnuć svajo padarožža. ->END
+    *[Padyści da voza]->Approach
+    *[Rušyć dalej] Vy vyrašajecie nie zvažać na pierakuleny voz i praciahnuć padarožža. ->END
 
 ===Approach===
 
-    Vy padychodzicie da furmanki i vyjaŭlajecie, što pad joj zachras čałaviek. Jon zaŭvažaje, što vy nabližajeciesia, i kliča pa dapamohu. #STR_Approach1
-    Vy bačycie, što čałaviek, jaki trapiŭ u pastku pad furmankaj, {InjuryText1}. #STR_Approach2
-    Pakul vy nabližajeciesia, jon {InjuryText2}: "Kali łaska, dapamažycie mnie". #STR_Approach3
-    Što vy budziecie rabić? #STR_Approach4
+    Vy padychodzicie da voza j znachodzicie prycisnutaha pad im mužčynu. Zaŭvažyŭšy vas, jon kliča na dapamohu. #STR_Approach1
+    Vy zaŭvažajecie, što mužčyna pad vozam {InjuryText1}. #STR_Approach2
+    Kali vy padychodzicie bližej, jon {InjuryText2}: «Kali łaska, dapamažycie mnie».  #STR_Approach3
+    Što vy zrobicie? #STR_Approach4
     ->choices
     
     =choices
-        *[Spytać, što jon zmoža zrabić dziela vas, kali vy dapamožacie jamu]
-            Vy pytajecie, što čałaviek moža zrabić dla vas. #STR_RewardForHelp1
-            Čałaviek adkazvaje: "Ja tolki prosty {Profession} z {Settlement}. Ja mahu ŭznaharodzić vas tolki svajoj padziakaj". #STR_RewardForHelp2
-            Praz momant jon kaža: "Ja siabar {Notable} i zamoŭlu za vas słova". #STR_RewardForHelp3
-            Pakul jon havora, vy nia možacie nie zaŭvažyć, što ŭ furmancy, zdajecca, majecca jašče niejki hruz. #STR_RewardForHelp4
+        *[Spytać, čym jon moža adździačyć za dapamohu] #STR_RewardForHelp0
+            Vy pytajeciesia ŭ mužčyny, čym jon moža adździačyć vam. #STR_RewardForHelp1
+            Mužčyna adkazvaje: «Ja ŭsiaho tolki prosty {Profession}, moj dom — {Settlement}. Mnie niama čym uznaharodzić vas, aproč padziaki». #STR_RewardForHelp2
+            Praź imhnieńnie jon kaža: «{Notable} — moj dobry siabar, ja zamoŭlu za vas słoŭca». #STR_RewardForHelp3
+            Pakul jon havoryć, vy mižvoli zaŭvažajecie, što na vozie, zdajecca, jašče jość niejki hruz. #STR_RewardForHelp4
             ~HasAsked = true
             ->choices
         
             *{not HasAsked}[Dapamahčy jamu (Litaść++)]
                 Vy vyrašajecie dapamahčy jamu. #STR_HelpNoReward1
-                ~ AddTraitInfluence("Mercy", 40)
+                ~ AddTraitInfluence("Mercy", 160)
                 ->AfterLift
                 
-            *{HasAsked}[Dapamahčy jamu (+Adnosiny z {Notable}, Litaść+)]
+            *{HasAsked}[Dapamahčy jamu (+Adnosiny: {Notable}, Litaść+)]
                 Vy vyrašajecie dapamahčy jamu. #STR_HelpRelation1
-                ~ AddTraitInfluence("Mercy", 20)
+                ~ AddTraitInfluence("Mercy", 80)
                 ~ NotableChange = true
                 ->AfterLift
         
-            *{HasAsked}[Patrabavać ad jaho ŭznaharodu (Litaść-)]
-                Vy havorycie jamu nia być takim ścipłym. Jon vidavočna čałaviek z dastatkam i całkam moža vydzialić {RewardText} u jakaści kampiensacyi za akazanuju dapamohu. #STR_HelpExtort1
-                Čałaviek, ličyć, što jon nia maje inšaha vyjścia i zhadžajecca. #STR_HelpExtort2
-                ~ AddTraitInfluence("Mercy", -20)
+            *{HasAsked}[Vymahčy ŭ jaho ŭznaharodu (Litaść-)]
+                Vy kažacie: «Vy ž {Profession}, nia varta ścipłaści». Jon vidavočna čałaviek niebiadotny j moža lohka addać {RewardText} u jakaści płaty za dapamohu. #STR_HelpExtort1
+                Mužčyna, ličačy, što inšaha vyjścia niama, zhadžajecca. #STR_HelpExtort2
+                ~ AddTraitInfluence("Mercy", -80)
                 ~ HasExtorted = true
                 ->AfterLift
             
-            *{HasAsked && HorsesAround}[Zapatrabavać adnoha z koniej (Litaść-)]
-                Vy havorycie, što pakolki jon vidavočna nie ŭ stanie kiravać dźvuma końmi, tamu, pavinien addać vam adnu ŭ jakaści apłaty. #STR_HelpExtortHorse1
-                Čałaviek, ličyć, što jon nia maje inšaha vyjścia i zhadžajecca. #STR_HelpExtortHorse2
-                ~ AddTraitInfluence("Mercy", -20)
+            *{HasAsked && HorsesAround}[Zapatrabavać adnaho z koniej (Litaść-)]
+                Vy kažacie, što jon vidavočna nia zdolny ŭpravicca z dvuma kaniami, tamu całkam moža addać vam adnaho ŭ jakaści płaty. #STR_HelpExtortHorse1
+                Mužčyna, bačačy, što inšaha vyjścia niama, zhadžajecca. #STR_HelpExtortHorse2
+                ~ AddTraitInfluence("Mercy", -80)
                 ~ HasExtorted = true
                 ~ SetTextVariable("HasExtorted1",HasExtorted)
                 ~ SetTextVariable("HasExtorted2",HasExtorted)
                 ->AfterLift
         
             *{HorsesAround}[Zabrać koniej i syści (Litaść--)]
-                Vy vyrašajecie, što zamiž taho, kab dapamahčy čałavieku, lepiej pajści i pryručyć dźvuch koniej, bo heta vidavočna dzikija koni, jakija ni ŭ jakim razie nia mieli raniejšaha spadara, što całkam zakonna. #STR_HelpTakeHorse1
-                Paśla taho jak vy suładali z końmi i rušyli ŭ darohu, udalečyni čutnyja kryki čałavieka, što trapiŭ u pastku, jon molić vas viarnucca i dapamahčy. #STR_HelpTakeHorse1
-                ~ AddTraitInfluence("Mercy", -40)
+                Vy vyrašajecie, što zamiest dapamohi mužčynu lepiej pajści j pryručyć dvuch koniej. Jany ž vidavočna dzikija, nijakaha haspadara raniej nia mieli, tamu ŭsio całkam zakonna. #STR_HelpTakeHorse1
+                Kali vy ŭžo ŭziali koniej pad abroć i adychodzicie, zzadu pastupova zacichajuć kryki prycisnutaha mužčyny, jaki molić viarnucca j dapamahčy. #STR_HelpTakeHorse1
+                ~ AddTraitInfluence("Mercy", -160)
                 ~ GiveItem("old_horse",2)
                 ->END
                 
         //Necromancer option
-            *{PartyCanRaiseDead}[Zabić čałavieka, uźniać jaho ŭ jakaści kaściaka, {HorsesAround: zabrać koniej,} i razrabavać jaho furmanku (Litaść---) {print_party_skill_chance("Spellcraft", 25)}]
-                Vam prychodzić u hałavu bliskučaja ideja. Bo hety čałaviek vidavočna bieskarysny najeźnik, mahčyma, jon zmoža stać kaštoŭnym, u jakaści adnoha z vašych miortvych słuhaŭ. #STR_HelpNecromancer1
-                Adnym rucham vy zabivajecie čałavieka i adradžajecie jaho ŭ jakaści kaściaka. Vašaja partyja robić {RaiseDeadSkillCheckTest: paśpiachovuju | niaŭdałuju} sprobu.#STR_HelpNecromancerSummon
+            *{PartyCanRaiseDead}[Zabić mužčynu, uźniać jahonaje cieła jak kaściaka, {HorsesAround: zabrać koniej,} i abrabavać voz (Litaść---) {print_party_skill_chance("Spellcraft", 25)}]
+                Vam prychodzić u hałavu bliskučaja dumka. Pakolki furman ź jaho nikčemny, mahčyma, jon pryniasie karyść u jakaści adnaho z vašych niamiortvych słuhaŭ. #STR_HelpNecromancer1
+                Adnym imklivym rucham vy zabivajecie mužčynu j bieraciesia ŭzdymać jaho jak kaściaka. Vašaja partyja robić sprobu j {RaiseDeadSkillCheckTest: dasiahaje pośpiechu | cierpić niaŭdaču }.#STR_HelpNecromancerSummon
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
     =raiseSucceed
-    Paśpiachova adradziŭšy miartviaka, vy vyrašajecie adśviatkavać hetuju padzieju i zabrać usiu jaho majomaść. #STR_HelpNecromancerSuccess
+    Paśpiachova ŭźniaŭšy mierćviaka, vy vyrašajecie adśviatkavać heta, zabraŭšy ŭsiu jahonuju majomaść. #STR_HelpNecromancerSuccess
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -225,7 +225,7 @@ INCLUDE include.ink
         -> END
     
     =raiseFail
-    Paciarpieŭšy niaščaście, vy vyrašajecie zabrać usiu majomaść miartviaka ŭ jakaści kampiensacyi za pramarnavany čas. #STR_HelpNecromancerFail
+    Paciarpieŭšy niaŭdaču, vy vyrašajecie zabrać usiu majomaść mierćviaka ŭ jakaści kampensacyi za zmarnavany čas. #STR_HelpNecromancerFail
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -238,7 +238,7 @@ INCLUDE include.ink
         -> END
 
 ===AfterLift===
-    Vašaja partyja padymaje furmanku z čałavieka, i jon {InjuryText3}. #STR_AfterLiftMedicine1
+    Vašaja partyja padymaje voz, vyzvalajučy mužčynu, i jon {InjuryText3}. #STR_AfterLiftMedicine1
 
     //Is Injured?
         {InjuryRoll:
@@ -247,22 +247,22 @@ INCLUDE include.ink
         }
 
         =Injury
-            Jak vy budziecie lačyć jaho rany? #STR_AfterLiftMedicine2
-                *[Lačyć jaho miedycynaj {MedicineSkillCheckText}]
-                    Vašy lepšy lekar prystupaje da pracy i sprabuje vylekavać čałavieka. #STR_AfterLiftMedicine
+            Jak vy budziecie lačyć jahonuju ranu? #STR_AfterLiftMedicine2
+                *[Dapamahčy jamu lekami {MedicineSkillCheckText}]
+                    Vaš najlepšy lekar biarecca za spravu, sprabujučy pastavić mužčynu na nohi. #STR_AfterLiftMedicine
                         {MedicineSkillCheckTest: ->Success | ->Fail}
                         
-                *{LoreOfLifeInParty}[Lačyć jaho mahijaj {SpellcraftSkillCheckText}]
-                    Zaklinalnik vašaj partyi zaklikaje Viatry Hajrana, kab zahaić rany čałavieka. #STR_AfterLiftMagic
+                *{LoreOfLifeInParty}[Vylečyć jaho mahijaj {SpellcraftSkillCheckText}]
+                    Zaklinalnik vašaj partyi zaklikaje viatry Hiranu, kab zahaić rany mužčyny. #STR_AfterLiftMagic
                         {SpellcraftSkillCheckTest: ->Success | ->Fail}
                     
         =Success
-            Vašaje lekavańnie paśpiachovaje, ciapier z čałaviekam budzie ŭsio fajna. #STR_AfterLiftHealSuccess
+            Lačeńnie dapamahaje, i ciapier z mužčynam usio budzie dobra. #STR_AfterLiftHealSuccess
                 ~ BonusRoll = RANDOM(0,100)
                 ->Reward
             
         =Fail
-            Vašaje lekavańnie niaŭdałaje i čałaviek {InjuryText4}. #STR_AfterLiftHealFail
+            Lačeńnie nie dapamahaje, i mužčyna {InjuryText4}. #STR_AfterLiftHealFail
                 {InjuryRoll:
                     -2:
                         ~ ManAlive = false
@@ -274,9 +274,9 @@ INCLUDE include.ink
     {ManAlive:->LiveReward|->DeadReward}
 
     =LiveReward
-        Atrymaŭšy vyratavańnie, čałaviek {HasExtorted: begrudgingly} dziakuje vas za dapamohu{HasExtorted: i daje vam abiacanuju ŭznaharodu}.#STR_RewardAlive1 
-        {NotableChange: Źbirajučy svaje rečy, jon havora: "Ja raskažu {Notable} pra vašyja ŭčynki jak tolki viarnusia dadomu". #STR_RewardAliveNotable}
-        {HasExtorted == false && BonusRoll >=50: Čałaviek spyniŭsia na momant i skazaŭ: "Ja viedaju, što skazaŭ, što nia maje mnohaha, ale, kali łaska, vaźmicie ({RewardText}). Hetaj najmałaje, čym ja mahu adkazać na vašuju dabryniu". #STR_RewardAliveChance}
+        Vyratavany mužčyna {HasExtorted: nieachvotna} dziakuje vam za dapamohu{HasExtorted: j addaje abiacanuju ŭznaharodu }.#STR_RewardAlive1 
+        {NotableChange: Pačaŭšy źbirać rečy, jon kaža: «Jak tolki ja viarnusia dadomu, {Notable} daviedajecca pra vašyja ŭčynki».#STR_RewardAliveNotable} 
+        {HasExtorted == false && BonusRoll >=50: Mužčyna na imhnieńnie zamiraje j kaža: «Viedaju, ja kazaŭ, što ŭ mianie mała čaho jość, ale, kali łaska, vaźmicie heta ({RewardText}). Heta najmienšaje, čym ja mahu adździačyć za vašuju dabryniu».#STR_RewardAliveChance} 
         
         {HasExtorted || (not HasExtorted && BonusRoll >=50):
             -true:
@@ -293,13 +293,13 @@ INCLUDE include.ink
         ->END
         
     =DeadReward
-        Što vašaja partyja budzie rabić dalej? #STR_RewardDead1 
-            *[Pachavać čałavieka (Litaść+)]
-                Vy vyrašajecie pachavać čałavieka, spadziejučysia, što jon znojdzie supakoj. #STR_RewardDeadBury 
-                {AddTraitInfluence("Mercy", 40)}
+        Što vašaja partyja zrobić dalej? #STR_RewardDead1 
+            *[Pachavać mužčynu (Litaść+)]
+                Vy vyrašajecie pachavać mužčynu, spadziejučysia, što jon znojdzie spakoj. #STR_RewardDeadBury 
+                {AddTraitInfluence("Mercy", 160)}
                 ->DeadReward
-            *[Abrabavać furmanku {HorsesAround: i zabrać koniej} ({RewardText}{HorsesAround:, +2 kania 0 roŭnia})]
-                Zaraz, kali čałaviek syšoŭ z žyćcia, jon bolej nia maje patreby ŭ hetych tavarach. #STR_RewardDeadLoot 
+            *[Abrabavać voz {HorsesAround: i zabrać koniej} ({RewardText}{HorsesAround:, +2 kani 0-ha ŭzroŭniu})]
+                Ciapier, kali mužčyna pamior, zapasy jamu vidavočna bolš nie patrebnyja. #STR_RewardDeadLoot 
                 {ProfessionRoll:
                     -0: 
                         ~GiveGold(500)
@@ -310,15 +310,15 @@ INCLUDE include.ink
                 }
                 {HorsesAround: {GiveItem("old_horse",2)}}
                 ->DeadReward
-            *{PartyCanRaiseDead}[Uźniać jaho ŭ jakaści kaściaka (+1 kaściak){RaiseDeadSkillCheckText}]
-                Bo ad cieła mierćviaka niama anijakaj karyści, vy vyrašajecie adradzić jaho ŭ jakaści kaściaka. #STR_RewardDeadRiseDead
-                Vašaja partyja sprabuje {RaiseDeadSkillCheckTest: paśpiachova| niaŭdała} adradzić čałavieka. #STR_RewardRiseDead2
+            *{PartyCanRaiseDead}[Uźniać jaho jak kaściaka (+1 kaściak){RaiseDeadSkillCheckText}]
+                Pakolki mierćviaku cieła ŭžo ni da čaho, vy vyrašajecie ŭźniać jaho jak kaściaka. #STR_RewardDeadRiseDead 
+                Vašaja partyja robić sprobu j {RaiseDeadSkillCheckTest: dasiahaje pośpiechu| cierpić niaŭdaču}. #STR_RewardRiseDead2
                 
                 {RaiseDeadSkillCheckTest:
-                    -true: Cieła čałavieka ŭzdymajecca i nakiroŭvajecca da astatniaj častki vašaha vojska. #STR_RewardDeadRiseDeadSuccess
+                    -true: Cieła mužčyny padymajecca j niaŭpeŭniena placiecca da astatniaha vašaha vojska. #STR_RewardDeadRiseDeadSuccess
                         ~ ChangePartyTroopCount("tor_vc_skeleton",1)
                 }
                 ->DeadReward
-            *[Rušyć dalej (pakinuć)]
-                Vy vyrašajecie, što pryjšoŭ čas ruchacca dalej dziela pradaŭžeńnia svajho šlachu. #STR_RewardDeadLeave
+            *[Rušyć dalej (Syści)]
+                Vy vyrašajecie, što čas rušyć dalej i praciahnuć padarožža. #STR_RewardDeadLeave
                 ->END

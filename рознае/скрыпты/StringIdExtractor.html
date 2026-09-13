@@ -44,9 +44,6 @@ function escapeXML(str) {
 }
 
 function cleanText(text) {
-    if (text.includes(',')) {
-        text = text.split(',')[0];
-    }
     return text.trim();
 }
 
@@ -60,30 +57,44 @@ function processXML(xmlText) {
     const elements = xmlDoc.getElementsByTagName("*");
 
     for (let el of elements) {
-        for (let attr of el.attributes) {
 
-            const value = attr.value;
-
-            if (value.includes("{=")) {
-                const match = value.match(/\{=([^}]+)\}(.*)/);
-
-                if (!match) continue;
-
-                const id = match[1];
-                let text = match[2] || "";
-
-                text = cleanText(text);
-
-                if (!counts[id]) counts[id] = 0;
-                counts[id]++;
-
-                if (!data[id]) {
-                    data[id] = text;
-                }
+        // --- БЯРЭМ ТОЛЬКІ ПРЯМЫ ТЭКСТ (без дзяцей) ---
+        let text = "";
+        for (let node of el.childNodes) {
+            if (node.nodeType === Node.TEXT_NODE) {
+                text += node.nodeValue;
             }
+        }
+
+        if (!text.includes("{=")) continue;
+
+        extractString(text);
+    }
+
+    function extractString(value) {
+        const match = value.match(/\{=([^}]+)\}([\s\S]*)/);
+
+        if (!match) return;
+
+        const id = match[1];
+        let text = match[2] || "";
+
+        // --- ВЫДАЛЯЕМ УСЕ ЎНУТРАНЫЯ {=...} ---
+        text = text.replace(/\{=[^}]+\}/g, "");
+
+        text = cleanText(text);
+
+        // --- УЛІК ДУБЛІКАТАЎ ---
+        if (!counts[id]) counts[id] = 0;
+        counts[id]++;
+
+        // --- НЕ ПЕРАПІСВАЕМ, КАЛІ ЎЖО ЁСЦЬ ---
+        if (!data[id]) {
+            data[id] = text;
         }
     }
 
+    // --- ГЕНЕРАЦЫЯ XML ---
     let result = `<?xml version="1.0" encoding="UTF-8"?>\n`;
     result += `<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" `;
     result += `xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">\n`;
@@ -98,6 +109,7 @@ function processXML(xmlText) {
 
     document.getElementById('output').value = result;
 
+    // --- ДУБЛІКАТЫ ---
     let problems = "";
     for (let id in counts) {
         if (counts[id] > 1) {

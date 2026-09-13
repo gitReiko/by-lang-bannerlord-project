@@ -177,53 +177,55 @@
 
 ===Start===
 
-    Padčas padarožža vy natykajeciesia na łahodnuju scenu, ad jakoj pierachaplaje dychańnie. Pierad vami raskinułasia cudoŭnaja sažałka, utojenaja pierlina siarod dzikaj pryrody. Vada spakojnaja i prazrystaja, u joj adlustroŭvajecca błakitnaje nieba. Pyšnaja raslinnaść atačaje sažałku, stvarajučy atmasfieru spakoju. #STR_Start1
-    {IsNight(): Srebnaja miesiačnaje śviatło | Załacistaje soniečnaje śviatło} pradzirajecca skroź drevy, adkidvajučy vodbliski na pavierchniu vady. U pavietry łunaje dalikatny vodar pryrody, jaki supakojvaje stomlenyja pačućci. Ptuški napiavajuć miełodyi i stvarajuć łahodnuju atmasfieru. #STR_Start2
+    U darozie vašaja partyja natraplaje na taki mirny krajavid, što zajmaje duch. Pierad vami raspaścirajecca cichaja sažałka — schavanaja pierlina siarod dzikaj pryrody. Spakojnaja prazrystaja vada adlustroŭvaje błakitnaje nieba. Bujnaja raślinnaść vakoł sažałki stvaraje ŭtulny prytułak. #STR_Start1
+    {IsNight(): Srebnaje miesiacovaje śviatło | Załatoje soniečnaje śviatło} prabivajecca praz drevy j aśviatlaje roŭniadź vady. Pavietra napoŭnienaje łahodnym vodaram pryrody — hajučym balzamam dla vašych stomlenych pačućciaŭ. Miłahučny śpieŭ ptušak dapaŭniaje spakojnuju atmaśfieru. #STR_Start2
 
-    Pakul vy staicie, začaravanyja hetym hledziščam, vas dahaniajuć vašyja ludzi. Ich tvary, zmučanyja stomlenaściu, azarajucca ździŭleńniem i palohkaj. Navat zazvyčaj strymany čalec vašaj hrupy zdoleŭ uśmichnucca. #STR_Start3
-
-    Pamahaty pakłaŭ na vašaje plačo ruku, u jaho hołasie prahučała redkaja nota lohkaści: "Maleńki adpačynak la sažałki. Što skažaš?". #STR_Start4
+    Pakul vy staicie, začaravanyja vidoviščam, vas dahaniajuć vašyja ludzi. Ichnyja źniasilenyja tvary aśviatlajucca ździŭleńniem i palohkaj. Navat samy strymany z vašaj partyi ledź zaŭvažna ŭśmichajecca. #STR_Start3
+    
+    Vaš namieśnik kładzie ruku vam na plačo, i ŭ jahonym hołasie hučyć redkaja biesturbotnaść: «Trochi adpačynku la sažałki. Što skažacie?» #STR_Start4
         ->choice1
         
     =choice1
-        Što budzie rabić vašaja partyja? #STR_Start4
-            *[Narychtoŭvać dzikija raśliny (Šmatlikija sproby z {LoreOfLifeInParty: 50% šancam (Palepšana Viedami Žyćcia)| 25% šancam} paśpiachovaha zboru roznych dzikich raślin)] 
+        Što vy zahadajecie svajoj partyi? #STR_Start4 
+            *[Paźbirać dzikarosłyja raśliny (Niekalki sprobaŭ sabrać roznyja dzikarosłyja raśliny: {LoreOfLifeInParty: šaniec pośpiechu 50% (Pavyšany Škołaj Žyćcia)| šaniec pośpiechu 25%})] 
                 
-                Vy zahadali svajoj partyi źbirać dzikija raśliny. #STR_Forage1
+                Vy zahadvajecie svajoj partyi pašukać karysnyja dzikarosłyja raśliny. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            Mah z vašaj partyi zaklikaje Viecier Hajrana na dapamohu vašym ludziam u pošukach. #STR_ForageLoreOfLife1
+                            Mah vašaj partyi zaklikaje Viecier Hiranu, kab dapamahčy vašym ludziam u pošukach. #STR_ForageLoreOfLife1
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
-                        -else: ERROR
+                        -else: PAMYŁKA
                     }
                     
                 ->ForageLoop
 
-            *[Łavić rybu (Šmatlikija sproby złavić rybu (50% šaniec pośpiechu))] 
+            *[Parybačyć (Niekalki šancaŭ złavić rybu (Šaniec pośpiechu 50%))] 
             
-            Vy zahadali svaim ludziam rybačyć. #STR_Fish1
+            Vy pasyłajecie svaich ludziej łavić rybu. #STR_Fish1
                 
                 ->FishLoop
                 
-            *[Adpačyvać (Usie kampańjony i paranienyja vajary vylečvajucca {PartyMedicineCheckText})]
+            *[Dać ludziam adpačyć (Usie kampańjony i paranienyja vajary vylečacca {PartyMedicineCheckText})]
                 
-                Vy namahajeciesia dać svaim ludziam adpačyć, spadziajučysia, što karotki pieradych dapamoža im ačuniać. #STR_Rest1
+                Vy sprabujecie dać ludziam pieradychnuć, spadziejučysia, što karotki adpačynak dapamoža im ačuniać. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
-                        Vašaja partyja skarystałasia adpačynkam, kab pakłapacicca pra ranienych. #STR_RestMedicineSuccess
+                        Vašaja partyja karystajecca pierapynkam, kab pakłapacicca pra paranienych. #STR_RestMedicineSuccess
                         ~ HealPartyToFull()
                     -false:
-                        U toj momant, kali vajary pačynajuć dahladać za paranienymi, ziamla pad nahami raptam uzdryhvaje, i pavietra napaŭniajecca rykam. U sažałku abrušvajecca vał ziamli i kamianioŭ, što ŭtvaryŭsia ŭ vyniku apoŭznia na bierazie. Vada ŭzdymajecca i pahłynaje častku razmytaj joju ziamli. #STR_RestMedicineFail
-                    -else: "ERROR"
+                    Ledź ludzi pačynajuć dahladać paranienych, ziamla pad vami raptam dryžyć i pavietra napaŭniajecca hrukatam. Z-za apoŭźnia na bierazie ŭ sažałku abrynajecca łavina ziamli j kamieńnia. Vada burlić, pahłynajučy častku sušy, jakuju doŭha padmyvała. #STR_RestMedicineFail
+                    -else: "PAMYŁKA"
                 }
+                
+               
                 
                 ->Leave
                 
-            *[Pakinuć] Vy vyrašajecie, što vašaja partyja nia maje času na adpačynak, i nieadkładna rušycie ŭ šlach.->END
+            *[Syści] Vy vyrašajecie, što vašaj partyi niama kali adpačyvać, i adrazu rušycie dalej.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -235,7 +237,7 @@
                     ~ AttemptSuccessful = true
                 -false:
                     ~ AttemptSuccessful = false
-                -else: ERROR
+                -else: PAMYŁKA
             }
 
         //Reward if successful
@@ -248,9 +250,9 @@
             
             {RewardRoll:
                 -0:
-                    Narychtoŭla nie pryniasła vynikaŭ, vašyja ludzi viarnulisia z pustymi rukami.
+                    Pošuki nie dajuć plonu, vašyja ludzi viartajucca z pustymi rukami.
                 -1:
-                    Vašyja ludzi znajšli dziki rys (+1 Ziernie).
+                    Vašyja ludzi znachodziać dziki rys. (+1 Zbožža)
                     ~ GiveItem("grain",1)
             }
             
@@ -269,17 +271,17 @@
                     ~ AttemptSuccessful = true
                 -false:
                     ~ AttemptSuccessful = false
-                -else: ERROR
+                -else: PAMYŁKA
             }
 
         //Reward
             {
                 - AttemptSuccessful == true:
-                    Vašyja ludzi złavili rybu (+1 Ryba).
+                    Vašyja ludzi łoviać rybu (+1 Ryba).
                     ~ GiveItem("fish",1)
                 - AttemptSuccessful == false:
-                    Vašyja ludziam nie paščaściła złavić rybu.
-                -else: ERROR
+                     Vašyja ludzi ničoha nia łoviać.
+                -else: PAMYŁKA
             }
                     
         //End of Loop
@@ -288,7 +290,7 @@
     ->END
     
 ===Leave===
-    Prabaviačy čas u sažałki, vy vyrašajecie rušyć u darohu.
+    Pabyŭšy la sažałki, vy vyrašajecie rušyć dalej.
 
     ~ MakePartyDisorganized()
     
