@@ -1,6 +1,6 @@
 //Global story tags
-# title: Krepaść Fozzryka
-# frequency: Uncommon
+# title: Farteca Fozryka
+# frequency: Rare
 # development: false
 # illustration: castle
 
@@ -9,51 +9,51 @@ INCLUDE include.ink
 -> Start
 
 === Start ===
-Padarožža pa dzikaj pryrodzie pryviało vas da ŭźleska hustoha lesu. Vyjdučy z-za drevaŭ, vy bačycie vieličnaje i zahadkavaje hledzišča - krepaść, što ŭzvyšajecca i, zdajecca, nie padnačalvajecca zakonam svajoj pryrody. #STR_Start1
+Padarožža pa dzikich miaścinach pryvodzić vas da ŭskrajku hustoha lesu. Vyjšaŭšy z-za drevaŭ, vy bačycie niešta vieličnaje j tajamničaje — vysokuju cytadel, jakaja niby kidaje vyklik samim zakonam pryrody. #STR_Start1
 
-Pa miery nabližeńnia da padmura krepaści vočy raźbiahajucca ad mudrahielistaj raźby, što ŭpryhožvaje jaje ścieny, kožnaja ź jakich raskazvaje historyju minułych stahodździaŭ. Da nieba nakiravany špili, karanavanyja vichurami čaroŭnych viatroŭ, jakija demanstrujuć moc i vytančanaść. Hety zamak, nie padobny ni na adzin inšy, utrymany mahičnym majsterstvam, što ŭžo daŭno pazabyta bolšaściu, ale pažadana dla impierataraŭ i haspadaroŭ usich krain. Latučaja krepaść - heta dziva, na jakoje varta pahladzieć, - pomnik maram čaraŭnikoŭ, što vynajšli ćviorduju formu. #STR_Start2
+Nabližajučysia da padnožža cytadeli, vy razhladajecie mudrahielistuju raźbu na jaje ścienach: kožny ŭzor apaviadaje pra daŭno minułyja časy. Vysokija śpičaki, uviančanyja vichurami Viatroŭ Mahii, siahajuć da niabiosaŭ, uvasablajučy moc i vytančanaść. Heta zamak, nie padobny da inšych: jaho trymaje ŭ pavietry mahičnaje majsterstva, daŭno zabytaje bolšaściu j žadanaje impieratarami dy karalami ŭsich ziemlaŭ. Latučaja Farteca — sapraŭdny cud, uvasoblenaja ŭ kamieni mara čaraŭnika. #STR_Start2
 
-Jakim šlacham vy pojdziecie? #STR_Start3
+Jaki šlach vy abiarecie? #STR_Start3
 
-* [Daśledavać krepaść bližej.] -> InvestigateCitadel
-* [Praciahnuć.] -> ContinueOn
+* [Ahladzieć cytadel bližej.] -> InvestigateCitadel
+* [Rušyć dalej.] -> ContinueOn
 
 === InvestigateCitadel ===
-Cikaŭnaść prymušaje vas nablizicca, i vašyja kroki hučna adklikajucca ad krepaści, što ŭzvyšajecca. Ale vy nie paśpiavajecie padyści, jak na vašych vačach razhortvajecca niezvyčajnaje hledzišča. Architektura krepaści ažyvaje, reahujučy na zahadkavuju siłu, jakaja, zdajecca, vychodzić znutry. #STR_InvestigateCitadel
+Cikaŭnaść zmušaje vas padyści bližej, i vašyja kroki adbivajucca recham la vysokaj cytadeli. Ale jašče da taho, jak vy nabližajeciesia, pierad vačyma razhortvajecca niezvyčajnaje vidovišča. Budynak ažyvaje, padparadkoŭvajučysia zahadkavaj sile, što niby sychodzić ź jahonych nietraŭ. #STR_InvestigateCitadel
 
-Kamiennyja ścieny składvajucca na kamiennyja ścieny. Z kožnaj vytančanaj składkaj hrandyjoznaść krepaści źmianšajecca, a značnaść jaje kanstrukcyi robicca mienšaj za raniejšuju. Za ličanyja imhnieńni manumientalnaja krepaść pieratvarajecca ŭ padabienstva samoj siabie - hledzišča začaravalnaje. #STR_InvestigateCitade2
+Kamiennyja ścieny składvajucca adna za adnoj. Z kožnym płyŭnym rucham vieličnaja cytadel mienšaje, i jaje vializny abjom ściskajecca ŭ šmat razoŭ. Za ličanyja imhnieńni manumentalnaja farteca pieratvarajecca ŭ malusieńkaje padabienstva samoj siabie — vidovišča, ad jakoha vy nia možacie advieści vačej. #STR_InvestigateCitade2
 
-Kali vy dasiahajecie miesca, dzie niekali stajała krepaść, tam zastajecca tolki pustaja prastora, niby ziamla pahłynuła jaje całkam. Trapiatańnie i źbiantežanaść pierapaŭniajuć serca, padachvočvajučy spaścihnuć tajamnicy mahičnaj zjavy. #STR_InvestigateCitade3
+Kali vy dachodzicie da miesca, dzie stajała cytadel, tam užo pusta, niby sama ziamla prahłynuła jaje całkam. Zachapleńnie j źbiantežanaść napaŭniajuć vašaje serca, padachvočvajučy razhadać tajamnicu hetaha mahičnaha zjavišča. #STR_InvestigateCitade3
 
-* [Vykarystać svaje mahičnyja viedy, kab zrazumieć unikalnaśk krepaści. {print_party_skill_chance("Spellcraft", 200)}]-> SpellcraftCheck
-* [Pakinuć fienomien.]-> DismissPhenomenon
+* [Skarystacca viedami mahii, kab zrazumieć asablivaść fartecy. {print_party_skill_chance("Spellcraft", 200)}]-> SpellcraftCheck
+* [Nie zvažać na hetaje zjavišča.]-> DismissPhenomenon
 
 === SpellcraftCheck ===
 {perform_party_skill_check("Spellcraft",200): -> success | -> fail}
 
     =success
-    (SUCCESS)
-    Vy vykarystoŭvajecie svaje viedy pra mahiju, i sprabujecie razhadać, što nasamreč adbyvajecca. I tut da vas prychodzić razumieńnie. Lahiendy pra Fozzryka, zahadkavaha čaraŭnika-architektara, pierahukvajucca z tym, čamu vy stali śviedkam. #STR_SpellcraftCheckSuccess1
-
-    Farteca, ź jakoj vy sutyknulisia i jakaja niadaŭna źnikła, vydatna padychodzić pad apoviedy pra ahałamšalnyja Latučyja Krepaści Fozzryka. Hetyja hrandyjoznyja pabudovy mahli składacca ŭ kampaktnyja formy, nie paddajučysia łohicy, i pieratvaracca ŭ pradmiety pamieram z kufar, albo pa žadańniu šyrycca da vysačeznych cytadelaŭ. Vašaja praniklivaść prabivaje dziuru ŭ tajamničaści i raskryvaje sutnaść majsterstva Fozzryka. #STR_SpellcraftCheckSuccess2
+    (POŚPIECH)
+    Abapirajučysia na svaje viedy mahii, vy sprabujecie razabracca ŭ tym, što adbyłosia. I raptam prychodzić razumieńnie. Padańni pra Fozryka, zahadkavaha čaraŭnika-dojlida, pierahukajucca z ubačanym. #STR_SpellcraftCheckSuccess1
     
-    Sa zdabytym razumieńniem vy kročycie napierad, i viedy pra naturu krepaści aśviatlajuć vam šlach u pustečy. #STR_SpellcraftCheckSuccess3
+    Cytadel, na jakuju vy natrapili j jakaja ciapier źnikła, całkam adpaviadaje apoviedam pra dzivosnyja Latučyja Fartecy Fozryka. Hetyja vieličnyja zbudavańni mahli nasupierak zdarovamu sensu składvacca da pamieraŭ kufra abo na zahad razhortvacca ŭ vysokija cytadeli. Vašaje razumieńnie pranikaje praz zasłonu tajamnicy j adkryvaje sakrety majsterstva Fozryka. #STR_SpellcraftCheckSuccess2
+    
+    Uzbahaciŭšysia novymi viedami, vy kročycie dalej: razumieńnie pryrody cytadeli aśviatlaje vaš šlach pa dzikich miaścinach. #STR_SpellcraftCheckSuccess3
     -> END
  
     =fail
-    (FAIL)
-    Sprabujučy razhadać sakrety źnikłaj krepaści, vy zachodzicie ŭ tupik. Chitrasplacieńni hetaha majsterstva pa-raniejšamu achinuty tajamnicaj, što nie paddajecca razumieńniu. Źniknieńnie krepaści śviedčyć pra niespaścižnuju pryrodu mahičnych majsterstvaŭ i pakidaje ŭ dušy pakutlivuju cikaŭnaść z adcieńniem rasčaravańnia. Niahledziačy na ŭsie vašyja vysiłki, tajamnica hetaj architektury zastajecca nierazhadanaj i papaŭniaje šerahi nieźličonych zahadak śvietu. #STR_SpellcraftCheckFail1
+    (NIAŬDAČA)
+    Vy napružvajecie rozum, sprabujučy razhadać sakret źnikłaj cytadeli, ale zachodzicie ŭ tupik. Tonkaści hetaha majsterstva zastajucca tajamnicaj i nie paddajucca vašym sprobam zrazumieć ich. Źniknieńnie cytadeli śviedčyć pra niespaścižnaść mahičnych majsterstvaŭ i pakidaje pa sabie cikaŭnaść, źmiašanuju z prykrym rasčaravańniem. Niahledziačy na ŭsie namahańni, zahadka hetaha zbudavańnia zastajecca nierazhadanaj — jašče adnoj siarod nieźličonych tajamnicaŭ śvietu. #STR_SpellcraftCheckFail1
     -> END
 
 === DismissPhenomenon ===
-Chacia źniknieńnie krepaści vyklikaje źbiantežanaść, Vy ličycie za lepšaje adkinuć tajamnicy i zasiarodzicca na pradaŭžeńni padarožža. Tajamnicy, jak viadoma, vyślizhvajuć navat ad samych praniklivych rozumaŭ, a razvažańni nad imi mohuć źbić vas sa šlachu. #STR_DismissPhenomenon1
+Chacia źniknieńnie cytadeli j biantežyć vas, vy vyrašajecie adkłaści zahadku j zasiarodzicca na padarožžy. Tajamnicy časam nie paddajucca navat najpranikliviejšym rozumam, a rozdumy nad imi mohuć advieści vas ad ułasnych metaŭ. #STR_DismissPhenomenon1
 
 
 -> END
 
 === ContinueOn ===
-Zapomniŭšy źnikłuju krepaść, vy adnaŭlajecie padarožža. #STR_ContinueOn1
+Zachavaŭšy ŭ pamiaci vobraz źnikłaj cytadeli, vy praciahvajecie padarožža. #STR_ContinueOn1
 
-I paciahvajecie šlach z razumieńniem, što spadčyna krepaści dahetul zachoŭvajecca i zjaŭlajecca śviedčańniem źlićcia mahii i architektury, jakoje nie paddajecca zvyčajnamu ŭsprymańniu hetaha śvieta. #STR_ContinueOn2
+Vy idziacie dalej, a dumki pra fartecu nie pakidajuć vas: jana śviedčyć pra spałučeńnie mahii j dojlidztva, jakoje vychodzić za miežy zvykłych ujaŭleńniaŭ pra śviet. #STR_ContinueOn2
 
 * -> END

@@ -1,5 +1,5 @@
 //Global story tags
-# title: Łahierny Ahoń
+# title: Lahiernaje Vohnišča
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -53,7 +53,7 @@
             //6. The Shootout (All ranged weapon skills)
         //Grouping 2: Talk about
             //1. Great Rulers (Steward, Leadership, Charm)
-            //2. Craftsman (Smithing and Engineering)
+            //2. Craftsman (Smithing and Engineering) - smithings skill object is called Crafting
             //3. Negotiation (Charm, Trade, Roguery)
             //4. Traveling (Riding and Athletics)
             //5. Survival (Medicine, Scouting, Athletics)
@@ -66,13 +66,13 @@
                 
                 {MeleeWeaponRandom:
                     -1:
-                        ~ MeleeWeaponText = "Adnaručnaj Zbroi"
+                        ~ MeleeWeaponText = "Adnaručnaja Zbroja"
                     -2:
-                        ~ MeleeWeaponText = "Dvuchručnaj Zbroi"
+                        ~ MeleeWeaponText = "Dvuchručnaja Zbroja"
                     -3:
-                        ~ MeleeWeaponText = "Tronkavaj Zbroi"
+                        ~ MeleeWeaponText = "Tronkavaja Zbroja"
                 }
-
+                
 
         //Ranged
             VAR RangedWeaponRandom = 0
@@ -81,13 +81,13 @@
                 
                 {RangedWeaponRandom:
                     -1:
-                        ~ RangedWeaponText = "Łuka"
+                        ~ RangedWeaponText = "Łuk"
                     -2:
-                        ~ RangedWeaponText = "Arbaleta"
+                        ~ RangedWeaponText = "Arbalet"
                     -3:
-                        ~ RangedWeaponText = "Kidańnia"
+                        ~ RangedWeaponText = "Kidalnaja Zbroja"
                     -4:
-                        ~ RangedWeaponText = "Poracha"
+                        ~ RangedWeaponText = "Parachavaja Zbroja"
                 }
     
     //Group 1
@@ -99,31 +99,31 @@
             ~ StorySelect = RANDOM(1,6)
             
             {StorySelect:
-                -0: ERROR
+                -0: PAMYŁKA
                 -1:
                     ~ StoryName = "Palavańnie"
                     ~ StoryBranch = ->TheHunt
-                    ~ StoryXpText = "(+1000 dośvieda da Vyviedki, {RangedWeaponText} i Taktyki)"
+                    ~ StoryXpText = "(+1000 dośviedu da navykaŭ: Vyviedka, {RangedWeaponText} i Taktyka)"
                 -2:
-                    ~ StoryName = "Zasadu"
+                    ~ StoryName = "Zasada"
                     ~ StoryBranch = ->TheAmbush
-                    ~ StoryXpText = "(+1000 dośvieda da Lidarstva, Taktyki i Machlarstva)"
+                    ~ StoryXpText = "(+1000 dośviedu da navykaŭ: Lidarstva, Taktyka j Machlarstva)"
                 -3:
-                    ~ StoryName = "Pahoniu"
+                    ~ StoryName = "Ataka"
                     ~ StoryBranch = ->TheCharge
-                    ~ StoryXpText = "(+1000 dośvieda da Konnaj Jazdy, Tronkavaj Zbroi i Lidarstva)"
+                    ~ StoryXpText = "(+1000 dośviedu da navykaŭ: Konnaja Jazda, Tronkavaja Zbroja j Lidarstva)"
                 -4:
-                    ~ StoryName = "Trymańnie Šychta"
+                    ~ StoryName = "Trymańnie šychtu"
                     ~ StoryBranch = ->HoldingTheLine
-                    ~ StoryXpText = "(+1000 dośvieda da {MeleeWeaponText}, Lidarstva i Taktyki)"
+                    ~ StoryXpText = "(+1000 dośviedu da navykaŭ: {MeleeWeaponText}, Lidarstva j Taktyka)"
                 -5:
-                    ~ StoryName = "Bojku"
+                    ~ StoryName = "Bojka"
                     ~ StoryBranch = ->TheBrawl
-                    ~ StoryXpText = "(+1000 dośvieda da ŭsich navykaŭ zbroi blizkaha boju)"
+                    ~ StoryXpText = "(+1000 dośviedu da ŭsich navykaŭ blizkaha boju)"
                 -6:
-                    ~ StoryName = "Stralaninu"
+                    ~ StoryName = "Pierastrełka"
                     ~ StoryBranch = ->TheShootout
-                    ~ StoryXpText = "(+750 dośvieda da ŭsich navykaŭ zbroi dalokaha boju)"
+                    ~ StoryXpText = "(+750 dośviedu da ŭsich navykaŭ dalokaha boju)"
             }
     
     //Group 2
@@ -135,27 +135,27 @@
             ~ DiscussionSelect = RANDOM(1,5)
             
             {DiscussionSelect:
-                -0: ERROR
+                -0: PAMYŁKA
                 -1:
-                    ~ DiscussionName = "Vybitnych Haspadaroŭ"
+                    ~ DiscussionName = "Vialikija Haspadary"
                     ~ DiscussionBranch = ->GreatRulers
-                    ~ DiscussionXpText = "(+1000 dośvieda da Zahadvańnia, Lidarstva i Charyzmy)"
+                    ~ DiscussionXpText = "(+1000 dośviedu da navykaŭ: Zahadvańnie, Lidarstva j Charyzma)"
                 -2:
-                    ~ DiscussionName = "Ramieśnikaŭ"
+                    ~ DiscussionName = "Ramieśniki"
                     ~ DiscussionBranch = ->Craftsman
-                    ~ DiscussionXpText = "(+1500 dośvieda da Kavalstva i Inžynieryi)"
+                    ~ DiscussionXpText = "(+1500 dośviedu da navykaŭ: Kavalstva j Inžynieryja)"
                 -3:
-                    ~ DiscussionName = "Pieramovaŭ"
+                    ~ DiscussionName = "Pieramovy"
                     ~ DiscussionBranch = ->Negotiation
-                    ~ DiscussionXpText = "(+1000 dośvieda da Charyzmy, Handlu i Machlarstva)"
+                    ~ DiscussionXpText = "(+1000 dośviedu da navykaŭ: Charyzma, Handal i Machlarstva)"
                 -4:
-                    ~ DiscussionName = "Vandravańniaŭ"
+                    ~ DiscussionName = "Padarožžy"
                     ~ DiscussionBranch = ->Traveling
-                    ~ DiscussionXpText = "(+1500 dośvieda da Konnaj Jazdy i Atletyki)"
+                    ~ DiscussionXpText = "(+1500 dośviedu da navykaŭ: Konnaja Jazda i Atletyka)"
                 -5:
-                    ~ DiscussionName = "Vyžyvańnia"
+                    ~ DiscussionName = "Vyžyvańnie"
                     ~ DiscussionBranch = ->Survival
-                    ~ DiscussionXpText = "(+1000 dośvieda da Miedycyny, Vyviedki i Atletyki)"
+                    ~ DiscussionXpText = "(+1000 dośviedu da navykaŭ: Miedycyna, Vyviedka j Atletyka)"
             }
             
             
@@ -168,26 +168,26 @@
 
 ===Start===
 
-Z nadychodam ciemry vy i vašyja paplečniki ŭładkoŭvajuć łahier. Nanač vy bačycie, što vašyja ludzi padzialilisia na dźvie hrupy. Zdajecca, adna raskazvaje vajskovyja historyi, inšaja prosta razmaŭlaje. #STR_Start1
+Kali ciamnieje, vy sa svaimi ludźmi raźbivajecie lahier. Noč minaje, i vy zaŭvažajecie, što ludzi padzialilisia na dźvie kupki. U adnoj, zdajecca, raskazvajuć vajskovyja historyi, a ŭ druhoj prosta hutarać. #STR_Start1
 -> choice1
 
     =choice1
-        Što vy budziecie rabić? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
-            *[Słuchać historyju pra {StoryName} {StoryXpText}]
+        Što vy zrobicie? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
+            *[Pasłuchać historyju «{StoryName}» {StoryXpText}]
                 ->StoryBranch
-            *[Dałučycca da abmierkavańnia {DiscussionName} {DiscussionXpText}]
+            *[Dałučycca da hutarki na temu «{DiscussionName}» {DiscussionXpText}]
                 ->DiscussionBranch
-            *[Skazać svaim ludziam adpačyć (Usie paranienyja kampańjony i vajary buduć vylekavany)]
-                Vy skazali svaim ludziej pabolej paspać i adpačyć.
+            *[Zahadać ludziam adpačyć (Usie kampańjony vylečacca, usie paranienyja vajary adnoviacca)]
+                Vy zahadvajecie svaim ludziam raniej kłaścisia spać i adpačyć jak śled.
                 ~ HealPartyToFull()
                 ->END
 
 ===TheHunt===
-    Siarod patreskvańnia vohnišča zadychany hołas sałdata raskazvaŭ pra ŭtojlivaść i pieraśled. Mihatlivaje połymia, zdavałasia, adlustroŭvała pradčuvańnie ŭ vačach jaho spadarožnikaŭ, što schililisia pasłuchać. #STR_TheHunt1
+    Pad tresk vohnišča hołas sivoha vajara viadzie apovied pra ŭtojlivaść i pieraśled. Mihatlivaje połymia niby adlustroŭvaje pradčuvańnie ŭ vačach paplečnikaŭ, jakija nachilajucca bližej, kab pasłuchać. #STR_TheHunt1
 
-"Pasłuchajcie, chłopcy i dzieŭki - pačaŭ sałdat: dazvolcie mnie raskazać vam pra našaje apošniaje palavańnie. Stajała bieźmiesiacovaja noč, našyja kroki vyznačalisia cieniami i šołacham liścia. Našyja vyviedniki prabiralisia praz zaraśniki, zorka sočačy za minataŭram..." #STR_TheHunt2
+«Słuchajcie, chłopcy j dziaŭčaty, — pačynaje vajar, — raskažu vam pra našaje apošniaje palavańnie. Noč była biaźmiesiačnaja, našyja kroki viali cieni j šołach liścia. Vyviedniki prabiralisia praz padlesak, pilna ŭzirajučysia j prysłuchoŭvajučysia: my adčuli prysutnaść minataŭra…» #STR_TheHunt2
 
-Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ryzyku pahoni i napruhu, što pavisła ŭ pavietry. Słovy apaviadańnika malavali jarkuju karcinu chitraści i stratehii, i naprykancy apovieda sałdaty stali pa-novamu razumieć, što takoje vyviedka i majsterstva palavańnia. #STR_TheHunt3
+Vajary ŭsio hłybiej zanurajucca ŭ apovied, adčuvajučy azart pahoni j napružańnie ŭ pavietry. Słovy apaviadalnika malujuć jaskravyja malunki chitraści j stratehii, i da kanca historyi słuchačy pačynajuć pa-novamu canić vyviedku j mastactva palavańnia. #STR_TheHunt3
     
     //Give Xp
         ~ GiveSkillExperience("Scouting",1000)
@@ -206,11 +206,11 @@ Pa miery raźvićcia siužeta sałdaty ŭciahvalisia ŭ apovied, adčuvajučy ry
     -> END
 
 ===TheAmbush===
-    Siarod tresku vuhloŭ prahučaŭ hołas sałdata z hareznym blaskam u vačach. Ciopły vodblisk vohnišča aśviatlaŭ nieciarplivyja tvary jaho tavaryšaŭ, jakija sieli pasłuchać apovied. #STR_TheAmbush1
+    Siarod tresku vuholla hučyć hołas vajara, u vačach jakoha pabliskvaje chitrynka. Ciopłaje śviatło vohnišča aśviatlaje zacikaŭlenyja tvary tavaryšaŭ, što ŭładkoŭvajucca pasłuchać historyju. #STR_TheAmbush1
 
-"Źbirajciesia, chłopcy, - skazaŭ sałdat z uchmyłkaj: i dazvolcie mnie raskazać vam pra zasadu, u jakoj my vyžyli. Ujavicie sabie - noč u Mannśliblicie, varožyja źvieraludzi nastupajuć, nie padazrajučy pra pastku. Naš płan byŭ chitry, ruchi imklivyja. My nanieśli niečakany i žorstki ŭdar, jaki pierałamiŭ chod padziejaŭ na našuju karyść..." #STR_TheAmbush1
+«Źbirajciesia bližej, chłopcy, — kaža vajar z uśmieškaj, — raskažu vam pra zasadu, jakuju my pieražyli. Ujavicie: noč pad śviatłom Manślibu, varožyja źvieraludy iduć, ničoha nie padazrajučy. Naš plan byŭ chitry, a ruchi imklivyja. My ŭdaryli źnianacku j luta, schiliŭšy chod boju na svoj bok…» #STR_TheAmbush2
 
-Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. Śmiech i ŭchvalnyja kivy supravadžali kancoŭku apovieda, pakidajučy ŭ sałdataŭ hłybiejšaje razumieńnie taktyki i mocy dobra zładžanaj zasady. #STR_TheAmbush3
+Vajary niby pieranosiacca tudy, dzie pradumanaja chitraść uvasobiłasia ŭ imklivym udary. Apaviadańnie skančajecca śmiecham i ŭchvalnymi kiŭkami, pahłybiŭšy razumieńnie taktyki j siły dobra zładžanaj zasady. #STR_TheAmbush3
     
         //Give Xp
             ~ GiveSkillExperience("Leadership",1000)
@@ -219,11 +219,11 @@ Sałdaty pieranieślisia ŭ scenu aščadnaj chitraści i chutkaha vykanańnia. 
     -> END
 
 ===TheCharge===
-    Ciopłyja abdymki vohnišča adkidvali skoki cieniaŭ na tvary navakolnych vajaroŭ. Ich uvaha była prykuta, kali ŭ pavietry zahučaŭ hołas zahartavanaha ŭ bajach vajara. #STR_Charge1
+    U ciopłych abdymkach vohnišča cieni tančać na tvarach vajaroŭ, što sabralisia navokał. Jany ŭvažliva słuchajuć hołas zahartavanaha ŭ bajach vajara. #STR_Charge1
 
-"Słuchajcie ŭvažliva, siabry maje - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Heta byŭ dzień, abłaskany pramieniami zychodziačaha sonca. Našyja koni byli ŭ nieciarpieńni, ich kapyty hrukali ab ziamlu. Z hrymotnym pokličam my rynulisia ŭ boj..." #STR_Charge2
+«Słuchajcie ŭvažliva, siabry, — pačynaje vajar, — apovied pra našu apošniuju bitvu. Dzień kupaŭsia ŭ promniach zachadnaha sonca. Našyja koni nieciarpliva bili kapytami ziamlu. Z hrymotnym krykam my kinulisia ŭ ataku…» #STR_Charge2
 
-Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapyty. Historyja malaŭničuju karcinu jadnańnia i advahi, prymušajučy sałdataŭ hłybiej razumieć asablivaści konnaj jazdy, abychodžańnia sa zbrojaj i siłu zładžanaj kamandy. #STR_Charge3
+Vajary amal adčuvajuć viecier u tvar i hrukat kapytoŭ pad saboju. Historyja jaskrava maluje jednaść i advahu, dajučy słuchačam hłybiejšaje razumieńnie jazdy viercham, vałodańnia zbrojaj i mocy zładžanaj ataki. #STR_Charge3
     
     //Give Xp
         ~ GiveSkillExperience("Riding",1000)
@@ -232,11 +232,11 @@ Sałdaty amal adčuvali, jak viecier bjecca ŭ tvar, a pad nahami hrukajuć kapy
     -> END 
 
 ===HoldingTheLine===
-    Siarod miakkaha patreskvańnia vohnišča hołas sałdata hučaŭ navažna. Vodbliski połymia, zdavałasia, adlustroŭvali rašučaść u vačach jaho tavaryšaŭ. #STR_HoldingTheLine1
+    Pad cichaje patreskvańnie vohnišča hučyć rašučy hołas vajara. Źziańnie połymia niby adlustroŭvaje niepachisnaść u vačach jahonych paplečnikaŭ. #STR_HoldingTheLine1
 
-"Słuchajcie ŭvažliva, siabry maje - z niepachisnaj pierakananaściu pramoviŭ sałdat: apovied pra našu apošniuju bitvu. Heta byŭ momant nieparušnaha jadnańnia, my budavali tryvały šerah, začyniŭšysia ščytami dla nadziejnaj abarony. Kali armija niežyci nastavała, my stajali navažna..." #STR_HoldingTheLine2
+«Słuchajcie ŭvažliva, siabry, — kaža vajar ź niepachisnaj pierakananaściu, — apovied pra našu apošniuju bitvu. My byli adnym cełym, kali stali naśmierć, samknuŭšy ščyty ŭ tryvałaj abaronie. Vojska niežyci nastupała, a my stajali ćviorda…» #STR_HoldingTheLine2
 
-Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać poruč z vajarami hetaj historyi. Słovy apaviadańnika padkreślili važnaść lidarstva i taktyki, što dazvoliła sałdatam hłybiej zrazumieć majsterstva abarony. #STR_HoldingTheLine3
+Vajaroŭ achoplivaje pačućcio jednaści, niby jany sami stajać plačo ŭ plačo z vajarami z apoviedu. Słovy apaviadalnika padkreślivajuć značeńnie lidarstva j taktyki, vučačy słuchačoŭ hłybiej canić majsterstva abarony. #STR_HoldingTheLine3
     
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
@@ -254,11 +254,11 @@ Sałdaty adčuli, što ich achaplaje pačućcio salidarnaści, niby jany stajać
     -> END
 
 ===TheBrawl===
-    U mihatlivym śviatle vohnišča hołas sałdata raskazvaŭ pra tavarystva i siabroŭskaje supiernictva. Śmiech źmiešvaŭsia z treskam połymia, kali jaho tavaryšy nachilalisia, žadajučy pačuć apovied. #STR_TheBrawl1
+    La mihatlivaha vohnišča vajar raskazvaje pra braterstva j siabroŭskaje supiernictva. Śmiech źmiešvajecca z treskam połymia, a tavaryšy nachilajucca bližej, achvočyja pasłuchać historyju. #STR_TheBrawl1
 
-"Voch, siabry - uśmichnuŭsia sałdat: dazvolcie raskazać vam toje-sioje pra zdareńnie na apošnich rychtoŭlach! Heta była noč viesiałości, što pieratvaryłasia ŭ zapalnaje spabornictva. My hulliva praviarali svaje siły, kožny ŭdar i adbićcio byli tancam majsterstva..." #STR_TheBrawl2
+«Ach, tavaryšy, — paśmiejvajecca vajar, — raskažu vam, što adbyłosia na apošniaj treniroŭcy! Viasioły viečar pieratvaryŭsia ŭ zaciataje spabornictva. My žartam vypraboŭvali adzin adnaho, i kožny ŭdar dy paryravańnie byli tancam majsterstva…» #STR_TheBrawl2
 
-Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy pra siabroŭskija dvuboi. Słovy apaviadańnika padkreślivali viazi tavarystva i praktykavańni ručnoha boju, pakidajučy ŭ sałdataŭ adčuvańnie ahulnaha dośviedu. #STR_TheBrawl3
+Vajary z razumieńniem pierahladajucca, uspaminajučy ŭłasnyja siabroŭskija spabornictvy. Apovied padkreślivaje tavaryskija poviazi j vučyć pryjomam blizkaha boju, pakidajučy słuchačam pačućcio supolnaha dośviedu. #STR_TheBrawl3
     
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
@@ -267,11 +267,11 @@ Sałdaty abmieńvalisia pahladami razumieńnia, u pamiaci ŭspłyvali ŭspaminy 
     -> END
 
 ===TheShootout===
-    U ciopłych abdymkach vohnišča hołas sałdata ŭzvysiŭsia ad pradčuvańnia. U vačach jaho spadarožnikaŭ skakali ahieńčyki, kali jany raźmiaścilisia, kab pasłuchać apovied. #STR_TheShootout1
+    U ciopłych abdymkach vohnišča hučyć hołas vajara, poŭny pradčuvańnia. Jazyki połymia tančać u vačach jahonych paplečnikaŭ, što ŭładkoŭvajucca pasłuchać apovied. #STR_TheShootout1
 
-"Słuchajcie ŭvažliva, paplečniki - pačaŭ sałdat: apovied pra našuju apošniuju bitvu. Ujavicie sabie nieba, zaciahnutaje chmarami, na jakim razhortvajecca demanstracyja strałkovaha majsterstva: moj połk naceliŭsia na nadychodziačych pačvar. Łuki, arbalety, kidalnyja nažy, parachavaja zbroja..." #STR_TheShootout2
+«Słuchajcie ŭvažliva, paplečniki, — pačynaje vajar, — apovied pra našu apošniuju bitvu. Ujavicie nieba pad ciažkimi chmarami j moj połk, jaki rychtujecca pakazać svajo straleckaje majsterstva, celačysia ŭ źvieraludaŭ, što nabližajucca. Łuki, arbalety, kidalnyja nažy j parachavaja zbroja vyjšli na pieršy plan…» #STR_TheShootout2
 
-Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snaradaŭ i streł u pavietry. Słovy apaviadańnika padkreślili ŭsie tonkaści boju na dystancyi i dazvolili sałdatam hłybiej zrazumieć usialakija navyki vałodańnia dystancyjnaj zbrojaj. #STR_TheShootout3
+Vajary kivajuć, jaskrava ŭjaŭlajučy streły j snarady, što pranosiacca ŭ pavietry. Słovy apaviadalnika raskryvajuć tonkaści dalokaha boju, pahłyblajučy razumieńnie roznych vidaŭ straleckaj i kidalnaj zbroi. #STR_TheShootout3
     
     //Give Xp
             ~ GiveSkillExperience("Bow",750)
@@ -281,11 +281,11 @@ Sałdaty abmieńvalisia kivami, u ich pamiaci ŭźnikali jarkija sceny lotu snar
     -> END
 
 ===GreatRulers===
-    U ciopłym śviatle vohnišča hrupa vajaroŭ zachoplena raskazvała pra vialikich haspadaroŭ Staroha Śvieta. U ich hałasach hučała zachapleńnie i pavaha, a ŭ apoviedach pieraplatalisia ŭroki lidarstva i haspadarskaha majsterstva. #STR_GreatRulers1
+    U ciopłym śviatle vohnišča kupka vajaroŭ žvava abmiarkoŭvaje vialikich haspadaroŭ Staroha Śvietu. U ichnych hałasach hučać zachapleńnie j pavaha, a apoviedy pieraplatajucca z urokami lidarstva j kiravańnia dziaržavaj. #STR_GreatRulers1
 
-Adzin z vajaroŭ pačaŭ z hłybokaj pašanaj u hołasie: "Davajcie pahavorym pra lehiendarnych haspadaroŭ, što stvaryli našyja ziemli. Nakolki ja čuŭ, vialiki Karł Franc, zdajecca, padtrymlivaŭ svaju reputacyju, bo dla panavańnia nad krainaj, patrebna šmat rečaŭ..." #STR_GreatRulers2
+Adzin vajar pačynaje z pašanaj u hołasie: «Pahavorym pra lehiendarnych haspadaroŭ, jakija vyznačyli los našych ziemlaŭ. Apošniaje, što ja čuŭ: vialiki Karł Franc dobra padtrymlivaje svaju słavu, bo kiravańnie šmat čaho vymahaje…» #STR_GreatRulers2
 
-Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych haspadaroŭ vybitnymi - majsterstvy zahadvańnia i lidarstva, charyzma, što jadnała paddanych. Uroki ŭkaranilisia ŭ ich śviadomaści i pryviali da hłybiejšaha razumieńnia adkaznaści, jakuju niasie z saboj ułada. #STR_GreatRulers3
+Słuchajučy apoviedy, vajary razvažajuć pra jakaści, jakija zrabili hetych haspadaroŭ vybitnymi: majsterstva zahadvańnia, mastactva lidarstva j charyzmu, što jadnała paddanych. Uroki zahadvańnia, lidarstva j abajalnaści adkładajucca ŭ pamiaci, dajučy hłybiejšaje razumieńnie adkaznaści, jakuju niasie ŭłada. #STR_GreatRulers3
     
     //Give Xp
             ~ GiveSkillExperience("Steward",1000)
@@ -294,23 +294,23 @@ Padčas apovieda sałdaty razvažali nad tym, jakija jakaści rabili hetych hasp
     -> END
 
 ===Craftsman===
-    Padčas siabroŭskaj hutarki ŭ vohnišča hrupa sałdataŭ mianiałasia apoviedami pra dzivy ramiesnaha i inžyniernaha majsterstvaŭ. U ich hałasach hučała pačućcio hłybokaj pašany i zachapleńnia, kali jany raskazvali pra vyčyny majstroŭ-ramieśnikaŭ i hienijalnych inžynieraŭ. #STR_Craftsman1
+    U siabroŭskaj atmasfery la vohnišča vajary abmieńvajucca apoviedami pra ramiastvo j inžynernyja cudy. Ichnyja hałasy poŭnyja trapiatańnia j zachapleńnia, kali jany zhadvajuć dasiahnieńni ŭmiełych ramieśnikaŭ i vynachodlivych inžyneraŭ.  #STR_Craftsman1
 
-"Słuchajcie ŭvažliva, tavaryšy - zaklikaŭ adzin z sałdataŭ: mała chto viedaje pra hetaje, ale mnie paščaściła vučycca inžyniernaj spravie ŭ dvarfa. Vaładarstvy dvarfaŭ - śviedčańnie kavalskaha majsterstva..." #STR_Craftsman2
+«Słuchajcie ŭvažliva, paplečniki, — zaklikaje adzin vajar. — Mała chto viedaje, ale mnie paščaściła vučycca inžyneryi ŭ dvarfa. Dvarfijskija ćviardyni — śviedčańnie kavalskaha mastactva…» #STR_Craftsman2
 
-Pa chodu apovieda sałdaty zachaplalisia mudrahielistymi kanstrukcyjami i vynachodlivaściu, jakaja ruchała hetymi vyčynami. Abmiarkoŭvajučy kavalskuju dy inžyniernuju spravy i dzivy, narodžanyja ŭ hałovach majstroŭ i dvarfaŭ, sałdaty znoŭ znajšli razumieńnie hetych žyćciova važnych prafiesijaŭ. #STR_Craftsman3
+Słuchajučy historyi, vajary dziviacca składanym kanstrukcyjam i nievierahodnaj vynachodlivaści ichnych stvaralnikaŭ. Razmova zakranaje kavalstva, inžyneryju j cudy, narodžanyja rozumam umiełych majstroŭ — ludziej i dvarfaŭ, vučačy pa-novamu canić hetyja nieabchodnyja ramiostvy. #STR_Craftsman3
     
     //Give Xp
-            ~ GiveSkillExperience("Smithing",1500)
+            ~ GiveSkillExperience("Crafting",1500)
             ~ GiveSkillExperience("Engineering",1500)
     -> END
 
 ===Negotiation===
-    U mihatlivym śviatle vohnišča hrupa sałdataŭ raskazvała adzin adnamu historyi pra pieramovy i handal. Śmiech źmiešvaŭsia ź ich hałasami, kali jany raskazvali jak pra ŭdałyja pieramovy, hetak i pra paciešnyja vypadki, kali spravy išli drenna. #STR_Negotiation1
+    U mihatlivym śviatle vohnišča vajary zabaŭlajuć adzin adnaho historyjami pra handal i tarhi. Ichnyja hałasy pieramiažoŭvajucca śmiecham, kali jany zhadvajuć udałyja ŭhody j paciešnyja vypadki, u jakich usio pajšło nie pa planu. #STR_Negotiation1
 
-"Voch, tavaryšy - uśmichnuŭsia adzin z sałdataŭ: dazvolcie mnie padzialicca z vami majsterstvam pieramovaŭ i tancam handlu. Ad handlu z chitrymi paŭroślikami da sustrečy z praniklivymi handlarami Maryjenburha - šlach da sumlennaj uhody vysłany dościpam i chitraściu..." #STR_Negotiation2
+«Ach, tavaryšy, — paśmiejvajecca adzin vajar, — padzialusia z vami mastactvam tarhoŭ i tancam handlu. Ci vy mianiajeciesia z chitrymi paŭroślikami, ci majecie spravu z praniklivymi handlarami Maryjenburhu — šlach da spraviadlivaj uhody patrabuje dościpu j kiemlivaści…» #STR_Negotiation2
 
-Sałdaty nachilalisia, zachoplenyja apoviedami pra dościp i błaźnierstva, jakija razhortvalisia na šumnych kirmašach i bazarach Staroha Śvieta. Jany razvažali pra tonki bałans čaraŭ, handlovaj chvatki i vypadkovych promachaŭ, jakija byli ŭłaścivyja hetamu kraju, što dazvoliła im hłybiej zrazumieć majsterstva viadzieńnia pieramovaŭ. #STR_Negotiation3
+Vajary nachilajucca bližej, zachoplenyja historyjami pra dościp i słoŭnyja dvuboi na šumlivych rynkach dy kirmašach Staroha Śvietu. Jany razvažajuć pra tonkuju raŭnavahu pamiž abajalnaściu, handlovaj kiemlivaściu j niepaźbiežnymi chibami, hłybiej spaścihajučy majsterstva pieramovaŭ. #STR_Negotiation3
     
     //Give Xp
             ~ GiveSkillExperience("Charm",1000)
@@ -319,11 +319,11 @@ Sałdaty nachilalisia, zachoplenyja apoviedami pra dościp i błaźnierstva, jak
     -> END
 
 ===Traveling===
-   U treskie vohnišča hrupa sałdataŭ raskazvała pra svaje padarožžy i konnyja pachody. U ich hałasach hučali notki pryhodaŭ i tavarystva, kali jany raskazvali pra padarožžy pa padstupnych łandšaftach i sustrečach z nasielnikami Staroha Śvieta. #STR_Traveling1
+   Vakoł patresklivaha vohnišča vajary dzielacca apoviedami pra svaje padarožžy j pryhody ŭ siadle. U ichnych hałasach čuvać duch pryhodaŭ i braterstva, kali jany zhadvajuć pierachody praz padstupnyja miaściny j sustrečy z nasielnikami Staroha Śvietu. #STR_Traveling1
 
-"Zachavać zdaroŭje bajavoha kania - zajaviŭ adzin z sałdataŭ: heta asobnaje zadańnie. Suviaź pamiž vieršnikam i kaniom - heta suviaź, nie padobnaja ni na jakuju inšuju..." #STR_Traveling2
+«Dahladać zdaroŭje bajavoha kania, — zajaŭlaje adzin vajar, — samo pa sabie vyprabavańnie. Suviaź pamiž vieršnikam i jahonym kaniom nie padobnaja da nijakaj inšaj…» #STR_Traveling2
 
-Pa miery apaviadańnia pra pryhody, sałdaty pieranosilisia ŭ dalokija krainy i dzikuju pryrodu. Jany razvažali pra majsterstva konnaj jazdy i pra nieparyŭnuju suviaź pamiž vieršnikam i jaho žyviołaj, što dazvoliła im hłybiej acanić konnaje majsterstva padarožžaŭ. #STR_Traveling3
+Apoviedy platuć pałatno pryhodaŭ, i vajary niby pieranosiacca ŭ dalokija ziemli j dzikija miaściny. Jany razvažajuć pra majsterstva jazdy viercham i nieparušnuju suviaź vieršnika z kaniom, vučačysia hłybiej canić mastactva konnych padarožžaŭ. ##STR_Traveling3
     
     //Give Xp
             ~ GiveSkillExperience("Riding",1500)
@@ -331,11 +331,11 @@ Pa miery apaviadańnia pra pryhody, sałdaty pieranosilisia ŭ dalokija krainy i
     -> END
     
 ===Survival===
-    U miakkim treskie vohnišča hrupa sałdataŭ padzialiłasia svaim dośviedam vyžyvańnia ŭva ŭmovach dzikaj pryrody. Ich hałasy nieśli ŭ sabie hruz dośviedu, raskazvajučy pra znachodlivaść i ciahavitaść pierad tvaram pryrodnych vyprabavańniaŭ. #STR_Survival1
+    Pad cichaje patreskvańnie vohnišča vajary dzielacca paradami pra vyžyvańnie ŭ dzikaj pryrodzie. U ichnych hałasach adčuvajecca bahaty dośvied, kali jany raskazvajuć pra znachodlivaść i tryvałaść pierad abliččam pryrodnych vyprabavańniaŭ. #STR_Survival1
 
-"Słuchajcie ŭvažliva - pačaŭ adzin z sałdataŭ, jaho hołas byŭ roŭnym i ŭpeŭnienym: ja raskažu vam pra toje, jak słušna vyžyvać u samoj huščy dzikich lasoŭ. Ad zdabyčy pražytka da navihacyi ŭ hustych lasach i padstupnych bałotach - hałoŭnaje zrazumieć rytmy ziamli..." #STR_Survival2
+«Słuchajcie ŭvažliva, — pačynaje adzin vajar spakojnym, upeŭnienym hołasam, — ja padzialusia mudraściu vyžyvańnia ŭ samych hustych dzikich lasach. Ci šukajecie vy charč, ci prabirajeciesia praź lasnyja huščary j padstupnyja bałoty, hałoŭnaje — razumieć rytmy ziamli…» #STR_Survival2
 
-Pa chodzie apovieda sałdaty akunalisia ŭ majsterstva vyžyvańnia, vučylisia čytać znaki pryrody i prystasoŭvacca da jaje vymohaŭ. U apoviedach admiennaja ŭvaha nadavałasia navykam miedycyny, vyviedki dy atletyki, i sałdaty znoŭ znachodzili pavahu da niaŭmolnaha i ŭ toj ža čas cudoŭnamu śvietu za miežami cyvilizacyi. #STR_Survival3
+Słuchajučy apoviedy, vajary zanurajucca ŭ mastactva vyžyvańnia, vučacca čytać znaki pryrody j prystasoŭvacca da jaje patrabavańniaŭ. Historyi padkreślivajuć značeńnie medycyny, vyviedki j atletyki, abudžajučy novuju pavahu da biaźlitasnaha, ale dzivosnaha śvietu pa-za biaśpiečnymi miežami cyvilizacyi. #STR_Survival3
     
     //Give Xp
             ~ GiveSkillExperience("Medicine",1000)
