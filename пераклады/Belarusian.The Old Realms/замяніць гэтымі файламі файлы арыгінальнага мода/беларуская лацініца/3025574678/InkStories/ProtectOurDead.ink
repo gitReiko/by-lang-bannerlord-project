@@ -1,5 +1,5 @@
 //Global story tags
-# title: Protect Our Dead
+# title: Abaranicie Našych Miortvych
 # frequency: Uncommon
 # development: true
 # illustration: campfirenight
@@ -29,19 +29,18 @@ VAR RaiseDeadSkillCheckTest = false
 ->START
 
 ===START===
-Naprykancy šmatdzionnaha maršu vašyja ludzi raźbivajuć łahier. Vy viedajecie, što chutka nastupić zachod, dy hetyja ziemli niebiaśpiečnyja, asabliva ŭnačy. #STR_Start1
-Raptoŭna vašy čałaviek vykrykvaje papiaredžvańnie. Padniaŭšy vočy, vy bačycie nabližeńnie miascovaha žychara. Zdajecca, jon niaŭzbrojeny. 
-#illustration: stranger #STR_Start2
-Mužčyna tłumačyć, što niadaŭna siudy pryjšoŭ niekramant i pačaŭ uzdymać mierćviakoŭ z sialanskich mohiłkaŭ. Chacia vioska davoli biednaja, jon kaža, što jany zapłaciać ścipłuju ŭznaharodu tamu, chto zabje niekramanta. #STR_Start3 
+Naprykancy dzionnaha pierachodu vašyja ludzi raźbivajuć lahier. Vy viedajecie, što chutka zachod sonca, a hetyja ziemli niebiaśpiečnyja, asabliva ŭnačy. #STR_Start1
+Raptam adzin z vašych ludziej vykrykvaje pieraściarohu. Uźniaŭšy pozirk, vy bačycie, što da vas nabližajecca miascovy viaskoviec. Zdajecca, jon biaz zbroi. #illustration: stranger #STR_Start2
+Mužčyna tłumačyć, što niadaŭna tut zjaviŭsia niekramant i pačaŭ uzdymać miortvych na viaskovych mohiłkach. Chacia viaskoviec i biedny, jon kaža, što viaskoŭcy zapłaciać ścipłuju ŭznaharodu tamu, chto zabje niekramanta. #STR_Start3 
 -> choices
 
     =choices
     *[My zabjom hetaha niekramanta dla vas.] ->accept
-    *[Heta aburalna, henyja kaściaki musiać naležać mnie!] ->accept
-    *[Mahčyma, inšym razam. My majem bolš terminovyja spravy.] -> deny
+    *[Heta aburalna! Hetyja kaściaki musiać naležać mnie!] ->accept
+    *[Moža, inšym razam. U nas jość bolš pilnyja spravy.] -> deny
     
     =accept
-    U vioscy tłumačać, što niekramant prychodzić štonoč z niekalkimi kaściakami. Vałodajučy viedami, vy raspracoŭvajecie płan zasady na mohiłkach.  #STR_Accept1
+    Viaskoviec tłumačyć, što niekramant prychodzić štoviečar ź niekalkimi kaściakami. Viedajučy heta, vy rychtujecie zasadu na mohiłkach.  #STR_Accept1
     
     ->enterArena
     
@@ -51,24 +50,24 @@ Mužčyna tłumačyć, što niadaŭna siudy pryjšoŭ niekramant i pačaŭ uzdym
     =enterArena
     //~ OpenGraveyardMission()
     ...
-    {PlayerWin: Kali niekramant cierpić parazu, vy dziakujecie insert_deity_name. #STR_PlayerWin1}
+    {PlayerWin: Kali niekramant padaje, vy ŭznosicie padziaku: insert_deity_name. #STR_PlayerWin1}
 
     ->BattleResult
     
 ===BattleResult===
-        *[Viarnucca ŭ viosku i atrymać uznaharodu {GiveGold(500)}{GiveSkillExperience("Faith",1000)}]
+        *[Viarnucca ŭ viosku j atrymać uznaharodu {GiveGold(500)}{GiveSkillExperience("Faith",1000)}]
 		-> END
 		
         //Necromancer option
-        *{PartyCanRaiseDead}[Pasprabavać padnačalić pieramožanych kaściakoŭ svajoj voli, {print_party_skill_chance("Spellcraft", 25)}]
+        *{PartyCanRaiseDead}[Pasprabavać padparadkavać pieramožanych kaściakoŭ svajoj voli, {print_party_skill_chance("Spellcraft", 25)}]
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
         =raiseSucceed
-        Paśpiachova ŭskresiŭšy mierćviakoŭ, vy abšukvajecie niekramanta, kab znajści štości kaštoŭnaje. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerSuccess
+        Paśpiachova ŭźniaŭšy miortvych, vy abšukvajecie niekramanta ŭ pošukach kaštoŭnaściaŭ. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerSuccess
             
             ~ChangePartyTroopCount("tor_vc_skeleton",8)
             -> END
         
         =raiseFail
-        Mahčyma, vam nie ŭdałosia ŭskresić mierćviakoŭ, ale, prynamsi, niekramant pakinuŭ paśla siabie karysny posach. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerFail
+        Chacia ŭźniać miortvych vam i nie ŭdałosia, prynamsi niekramant pakinuŭ paśla sabie karysny posach. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerFail
             -> END

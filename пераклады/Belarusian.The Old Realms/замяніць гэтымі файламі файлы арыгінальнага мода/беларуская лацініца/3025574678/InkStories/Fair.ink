@@ -1,5 +1,5 @@
 //Global story tags
-# title: Kirmaš u Lesie
+# title: Lasny Kirmaš
 # frequency: Uncommon
 # development: false
 # illustration: trader
@@ -21,105 +21,105 @@ VAR TurnipPrice = 50
 
 
 
-Padčas padarožža vašaha vojska na palanie niečakana adkryvajecca dziŭnaje hledzišča -  šumny kirmaš, viadomy jak Morrślibskaja Viesiałość. Namioty hanarliva ŭzvyšajucca, ich kolery skačuć u pramieniach sonca. Śmiech źmiešvajecca z ryhatańniem koniej - serca hetaha radasnaha schodu. #STR_Start1
+Kali vašaje vojska ruchajecca dalej, za drevami raptam adkryvajecca palana ź niečakanym vidoviščam — šumlivym kirmašom, viadomym jak Hulańnie Morślibu. Hanarliva ŭzdymajucca namioty, ichnyja farby hulajuć u soniečnych plamach. Śmiech źmiešvajecca z konskim pyrchańniem — sercam hetaha viasiołaha zboryšča. #STR_Start1
 
-Handlary vabiać, ich vočy harać svavolstvam, jany pradajuć koniej sa źnižkaj u paraŭnańni sa zvyčajnym koštam, jaki lha znajści ŭ skrutkach. U pavietry łunajuć spakuślivyja vodary piečanaha miasa, pienistaha elu i daŭkaha vina. Siarod viasiołaha natoŭpu ŭchmylajecca ziemlarob, što prapanoŭvaje repu, jakaja dziŭna napaminaje znakamituju dvuchchvostuju kamietu. Za sapraŭdnyja kapiejki vy atrymajecie šaniec stać uładalnikam hetaha dziŭnaha cuda. #STR_Start2
+Handlary zavablivajuć pakupnikoŭ, chitravata bliskajučy vačyma j prapanujučy koniej tańniej za zvyčajnyja ceny, paznačanyja ŭ skrutkach. U pavietry łunajuć spakuślivyja pachi smažanaha miasa, pienistaha elu j daŭkaha vina. Siarod viasiołaha natoŭpu ŭśmichajecca ziemlarob, jaki prapanuje repu, dziŭna padobnuju da słavutaj dvuchchvostaj kamety. Usiaho za drabiazu vy možacie zavałodać hetym niezvyčajnym dzivam. #STR_Start2
     ->choices
 
     =choices
-    * [Dałučycca da natoŭpu na konnym kirmašy.]->HorseStalls
-    * [Atrymać asałodu ad vodaru kirmaša.]->FoodStalls
-    * [Vyprabavać svajo ščaście na konnych skačkach.]->HorseRaces
-    * [Razhladzieć dziŭnuju repu.]->Turnip
-    * [Praciahnuć padarožža praz les.]->Leave
+    * [Dałučycca da natoŭpu na konskim kirmašy.]->HorseStalls 
+    * [Pakaštavać kirmašovych stravaŭ.]->FoodStalls
+    * [Vyprabavać udaču na skokach.]->HorseRaces
+    * [Ahladzieć niezvyčajnuju repu.]->Turnip
+    * [Praciahnuć padarožža praź les.]->Leave
 
 ===HorseStalls===
-Serca kirmašu bjecca najmacniej na konnym kirmašu. Hanarlivyja žarabcy skačuć, vočy ich lutyja i dzikija. Adzin koń, u pryvatnaści, pryciahvaje vašuju ŭvahu. Jon maje hładkuju poŭść koleru čornaha dreva, što zichacić u soniečnych pramieniach, a ŭ vačach, zdajecca, zastyŭ daśviedčany blask. #STR_HorseStalls1 
+Najbolš žvava kirmaš viruje tam, dzie pradajuć koniej. Hanarlivyja žarabcy harcujuć, luta pazirajučy dzikimi vačyma. Adzin koń asabliva pryciahvaje vašuju ŭvahu. Jahonaja hładkaja varanaja poŭść bliščyć na soncy, a ŭ vačach niby iskrycca razumieńnie. #STR_HorseStalls1
     ->choices
 
     =choices
-    + [Pahadzicca na ŭhodu handlara pa kaniu. ({HorsePrice} zołata)]->BuyHorse
-    * [Pierakanać handlara źnizić košt. {print_player_skill_chance("Charm",150)}]->PersuadeMerchant
-    * [Viarnucca da serca kirmaša.]->Start.choices
+    + [Pryniać prapanovu handlara j kupić kania. ({HorsePrice} załatych)]->BuyHorse
+    * [Pierakanać handlara źnizić canu. {print_player_skill_chance("Charm",150)}]->PersuadeMerchant
+    * [Viarnucca ŭ hušču kirmašu.]->Start.choices
 
 ===BuyHorse===
-{HasEnoughGold(HorsePrice): Vy składajecie ŭhodu z handlarom. Vy mianiajecie maniety na tryvałaje siadło i vupraž. U pradčuvańni vy siadajecie na kania. Suviaź pamiž vami ŭźnikaje imhnienna, koń reahuje na vašyja dakranańni z davieram i hatovaściu. {GiveGold(-HorsePrice)} {GiveItem("t2_empire_horse",1)} | Vam brakuje zołata. #STR_BuyHorse1NOTENOUGHGOLD } #STR_BuyHorse1 
+{HasEnoughGold(HorsePrice): Vy damaŭlajeciesia z handlarom i addajacie maniety ŭ abmien na mocnaje siadło j pavady. Z radasnym pradčuvańniem vy siadajecie na kania. Pamiž vami adrazu ŭźnikaje suviaź: zdajecca, koń z davieram i achvotaj adhukajecca na vaš dotyk. {GiveGold(-HorsePrice)} {GiveItem("t2_empire_horse",1)} | Vam brakuje zołata. #STR_BuyHorse1NOTENOUGHGOLD }  #STR_BuyHorse1
 
-* [Viarnucca da viesiałości]->Start.choices
+* [Viarnucca da hulańnia]->Start.choices
 
 ===PersuadeMerchant===
 {perform_player_skill_check("Charm",150): -> success | -> fail}
 
     =success
-    Vašyja słovy robiać svaju mahiju i handlar pahadžajecca źnizić košt na 50%. Handlar burčyć, ale šanuje vašaje ŭmieńnie vieści pieramovy. #STR_PersuadeMerchant_Success 
+    Vašyja słovy robiać cud, i handlar zhadžajecca źnizić canu na 50%. Jon burčyć, ale pavažaje vašaje ŭmieńnie tarhavacca. #STR_PersuadeMerchant_Success
     ~HorsePrice = 1000
     ->HorseStalls.choices
 
     =fail
-    Niahledziačy na ŭsie vašyja sproby patarhavacca, handlar uparta trymaje košt. #STR_PersuadeMerchant_Fail 
+    Niahledziačy na ŭsie vašyja sproby patarhavacca, handlar ćviorda trymajecca svajoj cany. #STR_PersuadeMerchant_Fail
     ->HorseStalls.choices
     
 
 ===FoodStalls===
-Vodary łunajuć i vabiać, nakiroŭvajučy vas na balavańnie hustaŭ. Miasa šypić, el pienicca - karnavał pačućciaŭ. Ježy tut bolš čym treba, i vybar za vami. #STR_FoodStalls1
+Spakuślivyja pachi viaduć vas da sapraŭdnaha śviata smaku. Miasa šypić, el pienicca — asałoda dla ŭsich pačućciaŭ. Ježy tut udostal, i tolki vam vyrašać, ci dałučycca da pačastunku. #STR_FoodStalls1
 
-* [Pryniać udzieł u kirmašovym feście. ({FoodPrice} zołata)]->BuyFood
-* [Iści dalej, nie paddajučysia spakusie.]->Start
+* [Pačastavacca na kirmašy. ({FoodPrice} załatych)]->BuyFood
+* [Ustrymacca ad spakusy j pajści dalej.]->Start
 
 ===BuyFood===
-{HasEnoughGold(FoodPrice): Spakusa pieramahaje. Vy balujecie, i smaki kirmaša hučać na vašym jazykie cudoŭnaj simfonijaj. Handlary ŭchvalna kivajuć vam uśled. {GiveGold(-FoodPrice)} | Vam brakuje zołata. #STR_BuyFood1NOTENOUGHGOLD} #STR_BuyFood1
+{HasEnoughGold(FoodPrice): Spakusa pieramahaje. Vy łasujeciesia, i kirmašovyja prysmaki składajucca ŭ cudoŭnuju symfoniju na vašym jazyku. Handlary ŭchvalna kivajuć, hledziačy, jak vy jaście. {GiveGold(-FoodPrice)} | Vam brakuje zołata. #STR_BuyFood1NOTENOUGHGOLD}#STR_BuyFood1
 
-* [Viarnucca da viesiałości.]->Start.choices
+* [Viarnucca da hulańnia.]->Start.choices
 
 ===HorseRaces===
-Z amfiteatra danosiacca ŭchvalnyja vokličy. Koni ržuć, vieršniki zaklikajuć ich da słavy. #STR_HorseRaces
+Z amfiteatru danosiacca zachoplenyja vokličy. Hrukočuć kapyty, i vieršniki padhaniajuć koniej nasustrač chvale. #STR_HorseRaces
 ->choices
 
     =choices
-    * [Zrabić staŭku na skakavoha kania. ({HorseBetPrice} zołata - uznharoda 5x pry pieramozie)]->PlaceBet
-    * [Vy vyrašyli nie vypraboŭvać svaju ŭdaču.]->Start.choices
+    * [Pastavić na kania. ({HorseBetPrice} załatych — vypłata ŭ piać razoŭ bolšaja za staŭku ŭ vypadku pieramohi)]->PlaceBet
+    * [Vyrašyć, što nia varta vypraboŭvać udaču.]->Start.choices
 
 ===PlaceBet===
-{not HasEnoughGold(HorseBetPrice): Vam brakuje zołata. #STR_PlaceBet_NOTENOUGHGOLD -> HorseRaces.choices }
+{not HasEnoughGold(HorseBetPrice): Vam brakuje zołata. #STR_PlaceBet_NOTENOUGHGOLD -> HorseRaces.choices } 
 ~GiveGold(-HorseBetPrice)
 {WinHorseRace: ->success | ->fail}
     =success
-    Vaša serca bjecca, kali vy robicie staŭku. Abrany vami koń irviecca napierad, i pośpiech tancuje na vašuju karyść. Śmiech i zvon maniet atačajuć vas. #STR_PlaceBet_Success
+    Serca kałocicca, kali vy robicie staŭku. Abrany vami koń vyryvajecca napierad, i ŭdača ŭśmichajecca vam. Navokał hučać śmiech i zvon manietaŭ. #STR_PlaceBet_Success
     ~ GiveGold(HorseBetPayout)
-    * [Viarnucca da natoŭpu viesiałości.]->Start.choices
+    * [Viarnucca da viasiołaha natoŭpu.]->Start.choices
 
     =fail
-    Vaša serca bjecca, kali vy robicie staŭku. Abrany Vami koń spačatku chutka vydzirajecca napierad, ale nieŭzabavie jaho dahaniajuć inšyja najeźniki. Urešcie, Vašy koń zapavolvajecca hetak, što moža zaniać tolki apošniaje miesca. Śmiech i zvon maniet atačajuć vas. #STR_PlaceBet_Fail
-    
-    * [Viarnucca da natoŭpu viesiałości.]->Start.choices
+    Serca kałocicca, kali vy robicie staŭku. Abrany vami koń spačatku imkliva vyryvajecca napierad, ale nieŭzabavie astatnija vieršniki jaho dahaniajuć. Urešcie jon zapavolvajecca j prychodzić adnym z apošnich. Navokał hučać śmiech i zvon manietaŭ.
+        #STR_PlaceBet_Fail
+    * [Viarnucca da viasiołaha natoŭpu.]->Start.choices
 
 ===Turnip===
-Intryha zaciahvaje vas, kali vy hladzicie na repu ŭ formie kamiety - mudrahielistaje dziva. Ziemlarob uśmichajecca, zaprašajučy vas pryniać udzieł u łatarei.
+Vy ź cikaŭnaściu razhladajecie repu ŭ formie kamety — mudrahielistaje dziva pryrody. Ziemlarob uśmichajecca j zaprašaje vas uziać udzieł u rozyhryšy. #STR_Turnip1
     ->choices
 
     =choices
-    * [Vyprabavać svaju ŭdaču, kupiŭšy łatarejny kvitok. ({TurnipPrice} zołata)]->BuyTicket
-    * [Vykarystać svajo ŭsprymańnie, kab znajści ŭtojenyja padkazki pra repu. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
-    * [Pajści dalej, pakinuŭšy cikavuju repu zzadu.]->Start.choices
+    * [Vyprabavać udaču j nabyć kvitok na rozyhryš. ({TurnipPrice} załatych)]->BuyTicket
+    * [Uvažliva ahledzieć repu j pašukać prychavanyja padkazki. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
+    * [Pajści dalej, pakinuŭšy niezvyčajnuju repu.]->Start.choices
 
 ===BuyTicket===
-{HasEnoughGold(TurnipPrice): Kinuŭšy manietu i ŭśmichnuŭšysia, vy zabiaśpiečvajecie sabie šaniec na ŭdzieł u rozyhryšy. Chto viedaje? Moža, repa, pacałavanaja kamietaj, usio-taki stanie vašaj. {GiveGold(-TurnipPrice)} | Vam brakuje zołata. #STR_BuyTicket1NOTENOUGHGOLD -> Turnip.choices} #STR_BuyTicket1 
+{HasEnoughGold(TurnipPrice): Addaŭšy manety, vy z uśmieškaj atrymlivajecie šaniec na vyjhryš. Chto viedaje? Moža, repa, pacałavanaja kametaj, usio ž budzie vašaj. {GiveGold(-TurnipPrice)} | Vam brakuje zołata. #STR_BuyTicket1NOTENOUGHGOLD  -> Turnip.choices}  #STR_BuyTicket1
 
-U pradčuvańni łatarei pačynajecca rozyhryš, i kali dyktar kliča numar pieramožnaha kvitka, vy zatojvajecie dychańnie. Adnak hetym razam pośpiech nie na vašym boku. Pieramožny numar nie vaš, i vas achaplaje pačućcio rasčaravańnia. #STR_BuyTicket2
+Usie zamirajuć u čakańni, rozyhryš pačynajecca. Kali abviaščajuć numar pieramožnaha kvitka, vy zatojvajecie dychańnie. Adnak hetym razam udača nie na vašym baku. Pieramožny numar nie supadaje z vašym, i vas achoplivaje rasčaravańnie. #STR_BuyTicket2
 
-* [Viarnucca da balavańnia viesiałości.]->Start.choices
+* [Viarnucca da viasiołaha hulańnia.]->Start.choices
 
 === PerceiveTurnip ===
 {perform_player_skill_check("Roguery", 80): -> success | ->fail}
 
     =success
-    Vaša vostraje voka łović tonkija detali, jakija inšyja mohuć prapuścić. Na repie niama nijakich dziŭnych aznak, što namiakajuć na jaje značnaść. Jana zusim zvyčajnaja.  #STR_PerceiveTurnip_Success 
+    Vašaje pilnaje voka zaŭvažaje drobiazi, jakija inšyja mahli b prapuścić. Na repie niama nijakich niezvyčajnych znakaŭ, jakija śviedčyli b pra jaje asablivuju značnaść. Heta samaja zvyčajnaja repa.   #STR_PerceiveTurnip_Success
     ->Turnip.choices
     
     =fail
-    Vašy ahlad nia vyjaviŭ ničoha niezvyčajnaha ŭ repie. #STR_PerceiveTurnip_Success
+    Ahlad nie vyjaŭlaje ŭ repie ničoha niezvyčajnaha. #STR_PerceiveTurnip_Success
     ->Turnip.choices
 
 ===Leave===
-Kali viesiałość kirmašu ścichaje, vy viartajeciesia ŭ abdymki dzikaj pryrody, pakidajučy za saboj śmiech kirmašovaj viesiałości. #STR_Leave1
+Kirmašovy homan zacichaje, i vy znoŭ stupajecie ŭ abdymki dzikaj pryrody, pakidajučy za śpinaj śmiech viasiołaha hulańnia. #STR_Leave1
 ->END
