@@ -29,6 +29,8 @@ A mod glossary override is local to that mod; do not propagate it into Core or u
 
 For names, also inspect project-specific files such as `уласныя імёны.txt`, `імёны.txt`, `пераклад назваў.txt`, or `запазычанні.txt` when present and relevant.
 
+For occasional clarification of troop orders, consult [the troop-order translation notes](<../../../пераклады/Belarusian.Core/пераклад/шаі/тэрміны загадаў.txt>). They explain land and naval contexts and record alternatives and user-selected translations (`Абраны варыянт`). Do not load or use these notes during routine daily checks; consult them only when a specific order needs clarification. Distinguish the selected wording from earlier proposals and historical `BYc цяпер` values.
+
 Translate `troop` as `ваяр` (plural `troops` as `ваяры`, inflected as needed) in general contexts, including skill and perk descriptions, interface text, and other ordinary references to troops. In proper names of troop types or individual troops, a different translation is allowed when it fits the name, context, and established project terminology; do not mechanically replace such names with `ваяр`.
 
 ## Translate safely
