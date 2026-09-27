@@ -58,13 +58,13 @@ INCLUDE include.ink
     VAR LockText = ""
         {
             - LockQuality == 1:
-                ~ LockText = "nienadziejny"
+                ~ LockText = "słaby"
             - LockQuality == 2:
-                ~ LockText = "zvyčajny"
+                ~ LockText = "siaredniaj tryvałaści"
             - LockQuality == 3:
-                ~ LockText = "nadziejny"
+                ~ LockText = "mocny"
         }
-
+        
     ~ SetTextVariable("LockText",LockQuality)
             
     VAR DoorQuality = 0
@@ -76,11 +76,11 @@ INCLUDE include.ink
     VAR DoorText = ""
         {
             - DoorQuality == 1:
-                ~ DoorText = "nienadziejnaja"
+                ~ DoorText = "słabyja"
             - DoorQuality == 2:
-                ~ DoorText = "zvyčajnaja"
+                ~ DoorText = "siaredniaj tryvałaści"
             - DoorQuality == 3:
-                ~ DoorText = "nadziejnaja"
+                ~ DoorText = "mocnyja"
         }
 
     ~ SetTextVariable("DoorText",DoorQuality)
@@ -91,13 +91,13 @@ INCLUDE include.ink
         VAR RewardText = ""
             {
                 - RewardRoll == 0:
-                    ~ RewardText = "5 ziernia"
+                    ~ RewardText = "5 mier zbožža"
                 - RewardRoll == 1:
-                    ~ RewardText = "2 stalovych źlitka"
+                    ~ RewardText = "2 stalovyja źlitki"
                 - RewardRoll == 2:
-                    ~ RewardText = "500 zołata"
+                    ~ RewardText = "500 załatych"
             }
-
+            
     ~ SetTextVariable("RewardText",RewardRoll)
             
  //Variable Update: Update any variables before story start
@@ -117,48 +117,50 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    Padčas padarožža vy natykajeciesia na chałupu ŭ lesie. #STR_Start1
+    Padčas padarožža vašaja partyja traplaje na chałupu ŭ lesie. #STR_Start1
     
-    *[Padajści da chałupy]->Approach
-    *[Praciahnuć svajo padarožža (Syści)]Vy vyrašyli, što pakul lepiej praciahnuć svajo padarožža.->END
+    *[Padyści da chałupy]->Approach
+    *[Rušyć dalej (Syści)]Vy vyrašajecie, što pakul lepiej rušyć dalej.->END
     
 ===Approach===
 
-Kala chałupy vy bačycie, što jana nadziejna zabita. Adzinaja dźvier u chałupie, zdajecca, nahłucha začyniena. Paśla ahladu dźviery vy vyjavili, što jana {DoorText}, a jaje zamok {LockText}. #STR_Approach1 ->choice1
+Padyšoŭšy da chałupy, vy bačycie, što jana nahłucha zabitaja doškami. Adzinyja dźviery, zdajecca, mocna zamknionyja. Ahledzieŭšy ich, vy zaŭvažajecie, što dźviery {DoorText}, a zamok na ich {LockText}. #STR_Approach1
+->choice1  
 
     =choice1
-    Što vaša partyja musić zrabić?
-    *[Pahrukacca ŭ dźviery]Vy hrukajeciesia, ale nia čujecie adkazu.->Approach.choice1
+    Što zrobić vašaja partyja?
+    *[Pahrukać u dźviery]Vy stukajecie, ale nichto nie adkazvaje.->Approach.choice1
     
     //Pick the lock (Roguery)
-        *[Uzłamać zamak na dźviarach {PartyRogueryCheckText}]
-            Lepšy "machlar" vašaj partyi sprabuje ŭzłamać zamok.
-            {PartyRogueryCheckTest: Vaša partyja paśpiachova ŭzłamała zamok. ->Inside | Vaša partyja nie zmahła ŭzłamać zamok. ->Approach.choice1}
+        *[Adamknuć zamok admyčkaj {PartyRogueryCheckText}]
+            Najlepšy «złodziej» vašaj partyi sprabuje adamknuć zamok.
+            {PartyRogueryCheckTest: Vašaj partyi ŭdajecca adamknuć zamok. ->Inside | Vašaj partyi nie ŭdajecca adamknuć zamok. ->Approach.choice1}
         
     //Disassemble the Lock (Engineering)
-        *[Razabrać zamak {PartyEngineeringCheckText}]
-            Lepšy inžynier vašaj partyi sprabuje razabrać zamok.
-            {PartyEngineeringCheckTest: Vykarystoŭvajučy nabor samych lepšych instrumantaŭ: šruboŭki, dołata i kavadły, vašy inžynier pa-majstersku raźbiraje zamak, prytym raźbiraje hetak staranna, što jaho ŭžo nikoli nie sabrać. ->Inside | Vaša partyja nie zmahła razabrać zamok. ->Approach.choice1}
+        *[Razabrać zamok {PartyEngineeringCheckText}]
+            Najlepšy inžyner vašaj partyi sprabuje razabrać zamok.
+            {PartyEngineeringCheckTest: Uzbroiŭšysia najlepšymi pryładami, siarod jakich adviortki, dołaty j kuvałda, vaš inžyner majsterska raźbiraje zamok — dy tak «hruntoŭna», što sabrać jaho nanoŭ užo nikoli nia ŭdasca. ->Inside | Vašaj partyi nie ŭdajecca razabrać zamok. ->Approach.choice1}
     
     //Blow up the door (Spellcraft)
-        *{PartyCanCastSpell == true}[Padarvać dźviery {PartySpellcraftCheckText}]
-            Lepšy zaklinalnik vašaj partyi sprabuje padarvać dźviery mahijaj.
-            {PartySpellcraftCheckTest: Vaša partyja zryvaje dźviery z pietlaŭ. ->Inside |Vaša partyja nie zmahła padarvać dźviery. ->Approach.choice1}
+        *{PartyCanCastSpell == true}[Uzarvać dźviery {PartySpellcraftCheckText}]
+            Najlepšy mah vašaj partyi sprabuje ŭzarvać dźviery čarami.
+            {PartySpellcraftCheckTest: Vašaja partyja vybucham zryvaje dźviery z zaviesaŭ. ->Inside |Vašaj partyi nie ŭdajecca ŭzarvać dźviery. ->Approach.choice1}
             
     //Break down the door (Vigor)
         *[Vyłamać dźviery {PartyVigorCheckText}]
-            Macniejšy čalec vašaj partyi sprabuje vyłamać dźviery.
-            {PartyVigorCheckTest: Vaša partyja zryvaje dźviery z pietlaŭ. ->Inside |Vaša partyja nie zmahła vyłamać dźviery. ->Approach.choice1}
+            Najdužejšy ŭdzielnik vašaj partyi sprabuje vyłamać dźviery.
+            {PartyVigorCheckTest: Vašaja partyja ŭdarami zryvaje dźviery z zaviesaŭ. ->Inside |Vašaj partyi nie ŭdajecca vyłamać dźviery. ->Approach.choice1}
 
-    *[Praciahnuć svajo padarožža (Syści)]Vy vyrašyli, što pakul lepiej praciahnuć svajo padarožža.->END
+    *[Rušyć dalej (Syści)]Vy vyrašajecie, što pakul lepiej rušyć dalej.->END
 
 ===Inside===
 
-Vaša partyja traplaje ŭ chałupu i vyjaŭlaje, što niechta ci niešta zachoŭvaje tut zapasy. #STR_Inside1 ->choice2
+Vašaja partyja traplaje ŭ chałupinu j vyjaŭlaje, što niechta ci niešta pakinuła tut zapasy. #STR_Inside1
+->choice2 
 
     =choice2
-        *[Zabrać ({RewardText})]
-            Vy biarecie {RewardText} i dadajecie da svaich zapasaŭ pierš čym syści.
+        *[Zabrać zapasy ({RewardText})]
+            Vy zabirajecie {RewardText}, dadajacie zdabyču da svaich zapasaŭ i rušycie dalej.
             {RewardRoll:
                 -0: 
                     ~ GiveItem("grain",5)
@@ -169,4 +171,4 @@ Vaša partyja traplaje ŭ chałupu i vyjaŭlaje, što niechta ci niešta zachoŭ
             }
             ->END
         
-        *[Syści]Vy vyrašyli pakinuć zapasy i praciahnuć padarožža.->END
+        *[Syści]Vy vyrašajecie pakinuć zapasy j rušyć dalej.->END

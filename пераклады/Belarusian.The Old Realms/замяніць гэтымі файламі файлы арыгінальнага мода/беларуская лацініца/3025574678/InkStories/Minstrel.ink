@@ -11,24 +11,25 @@ INCLUDE include.ink
 
 ===START===
 ~ PlayMusic("west_bretonnia")
-Padčas padarožža vašy słych łović ažyŭlenuju razmovu hrupy trubaduraŭ. Ich jarkija ŭbory i enierhičnyja žesty kažuć pra ichniaje zachapleńnie svaim ramiastvom. Cikaŭnaść padšturchoŭvaje vas padyści bližej, i, kali vy nabližajeciesia, ich hutarka pavolna pieratvarajecca ŭva impravizavany vystup. #STR_Start1
+U darozie da vas danosicca žvavaja razmova trubaduraŭ, jakija zachoplena niešta abmiarkoŭvajuć. Ichnyja jarkija ŭbory j enerhičnyja žesty vydajuć supolny zapał da svajho ramiastva. Cikaŭnaść vabić vas bližej, i, kali vy padychodzicie, razmova nieprykmietna pieratvarajecca ŭ impravizavany vystup. #STR_Start1
 
-Zachoplenyja ich harmaničnymi hałasami, vy vyrašajecie zastacca i pasłuchać. Muzyka trubaduraŭ placie apovied, jaki vychodzić za miežy słovaŭ. Rytm ich pieśni uciahvaje vas u supolny momant, kali ŭsie tryvohi i niapeŭnaści śvietu niby źnikajuć. #STR_Start2
+Začaravanyja ichnymi zładžanymi hałasami, vy vyrašajecie zastacca j pasłuchać. Muzyka trubaduraŭ placie apovied, jaki kaža bolš za prostyja słovy. Rytm pieśni jadnaje vas u supolnym imhnieńni, dzie kłopaty j niavyznačanaść śvietu niby adychodziać preč. #STR_Start2
 
-Kali vystup dasiahaje kulminacyi, pahlady trubaduraŭ sustrakajucca, ichnija uśmieški adlustroŭvajuć radaść, jakuju jany vypraboŭvajuć ad tvorčaha pamienu. I tady, z apošniaj, tryumfalnaj notaj, ich pieśnia zaviaršajecca. #STR_Start3
+Kali vystup dasiahaje viaršyni, trubadury pierahladajucca j uśmichajucca ad radaści supolnaj tvorčaści. Narešcie hučyć apošniaja, tryjumfalnaja nota, i pieśnia skančajecca. #STR_Start3
 
-*[Plaskać u ładoni] -> Applaud
-*[Vykazać svaju ŭdziačnaść] -> Appreciate
+*[Zaplaskać u ładki] -> Applaud
+*[Vykazać udziačnaść] -> Appreciate
 
 ===Applaud===
-Achoplenyja čaraŭnictvam momantu, vy vyjaŭlajecie, što plaskajecie razam z sabranym natoŭpam, što zjaŭlajecca niehałosnym pryznańniem pryhažości, jakuju vy tolki što adčuli. #STR_Applaud1
+Zachoplenyja čarami imhnieńnia, vy plaskajecie ŭ ładki razam z usimi, chto sabraŭsia, — maŭklivaja danina pryhažości, jakuju vy tolki što pieražyli razam. #STR_Applaud1
 ->Leave
 
 ===Appreciate===
-Vašaje serca pierapaŭniajecca ŭdziačnaściu, i vy vykazvajecie hłybokuju pašanu trubaduram za ichni vystup. Jany mianiajucca daśviedčanymi pahladami, ichnija uśmieški ciopłyja i ščyryja. #STR_Appreciate2
+Z udziačnym sercam vy ščyra dziakujecie trubaduram za vystup. Jany z razumieńniem pierahladajucca, ciopła j ščyra ŭśmichajučysia.
+#STR_Appreciate2
 ->Leave
 
 ===Leave===
-Adździačyŭšy, vy pakidajecie trubaduraŭ praciahvać svaje muzyčnyja pryhody i zabirajecie z saboj uspaminy pra ichni impravizavany vystup, dziela praciahnieńnia svajho ułasnaha šlachu. #STR_Leave1
-(Naciśnicie "Zaviaršyć (End)", kab spynić muzyku, kali jana dahetul prajhrajecca.) #STR_Leave2
+Jašče raz udziačna kiŭnuŭšy, vy pakidajecie trubaduraŭ praciahvać ichnaje muzyčnaje padarožža j rušycie svajoj darohaj, niesučy z saboju ŭspamin pra niečakany vystup. #STR_Leave1
+(Nacisk na «Kaniec» spynić muzyku, kali jana jašče hraje.) #STR_Leave2
 ->END

@@ -58,13 +58,13 @@ INCLUDE include.ink
     VAR LockText = ""
         {
             - LockQuality == 1:
-                ~ LockText = "ненадзейны"
+                ~ LockText = "слабы"
             - LockQuality == 2:
-                ~ LockText = "звычайны"
+                ~ LockText = "сярэдняй трываласьці"
             - LockQuality == 3:
-                ~ LockText = "надзейны"
+                ~ LockText = "моцны"
         }
-
+        
     ~ SetTextVariable("LockText",LockQuality)
             
     VAR DoorQuality = 0
@@ -76,11 +76,11 @@ INCLUDE include.ink
     VAR DoorText = ""
         {
             - DoorQuality == 1:
-                ~ DoorText = "ненадзейная"
+                ~ DoorText = "слабыя"
             - DoorQuality == 2:
-                ~ DoorText = "звычайная"
+                ~ DoorText = "сярэдняй трываласьці"
             - DoorQuality == 3:
-                ~ DoorText = "надзейная"
+                ~ DoorText = "моцныя"
         }
 
     ~ SetTextVariable("DoorText",DoorQuality)
@@ -91,13 +91,13 @@ INCLUDE include.ink
         VAR RewardText = ""
             {
                 - RewardRoll == 0:
-                    ~ RewardText = "5 зерня"
+                    ~ RewardText = "5 мер збожжа"
                 - RewardRoll == 1:
-                    ~ RewardText = "2 сталёвых зьлітка"
+                    ~ RewardText = "2 сталёвыя зьліткі"
                 - RewardRoll == 2:
-                    ~ RewardText = "500 золата"
+                    ~ RewardText = "500 залатых"
             }
-
+            
     ~ SetTextVariable("RewardText",RewardRoll)
             
  //Variable Update: Update any variables before story start
@@ -117,48 +117,50 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    Падчас падарожжа вы натыкаецеся на халупу ў лесе. #STR_Start1
+    Падчас падарожжа вашая партыя трапляе на халупу ў лесе. #STR_Start1
     
-    *[Падайсьці да халупы]->Approach
-    *[Працягнуць сваё падарожжа (Сысьці)]Вы вырашылі, што пакуль лепей працягнуць сваё падарожжа.->END
+    *[Падысьці да халупы]->Approach
+    *[Рушыць далей (Сысьці)]Вы вырашаеце, што пакуль лепей рушыць далей.->END
     
 ===Approach===
 
-Каля халупы вы бачыце, што яна надзейна забіта. Адзіная дзьвер у халупе, здаецца, наглуха зачынена. Пасьля агляду дзьверы вы выявілі, што яна {DoorText}, а яе замок {LockText}. #STR_Approach1 ->choice1
+Падышоўшы да халупы, вы бачыце, што яна наглуха забітая дошкамі. Адзіныя дзьверы, здаецца, моцна замкнёныя. Агледзеўшы іх, вы заўважаеце, што дзьверы {DoorText}, а замок на іх {LockText}. #STR_Approach1
+->choice1  
 
     =choice1
-    Што ваша партыя мусіць зрабіць?
-    *[Пагрукацца ў дзьверы]Вы грукаецеся, але ня чуеце адказу.->Approach.choice1
+    Што зробіць вашая партыя?
+    *[Пагрукаць у дзьверы]Вы стукаеце, але ніхто не адказвае.->Approach.choice1
     
     //Pick the lock (Roguery)
-        *[Узламаць замак на дзьвярах {PartyRogueryCheckText}]
-            Лепшы "махляр" вашай партыі спрабуе ўзламаць замок.
-            {PartyRogueryCheckTest: Ваша партыя пасьпяхова ўзламала замок. ->Inside | Ваша партыя не змагла ўзламаць замок. ->Approach.choice1}
+        *[Адамкнуць замок адмычкай {PartyRogueryCheckText}]
+            Найлепшы «злодзей» вашай партыі спрабуе адамкнуць замок.
+            {PartyRogueryCheckTest: Вашай партыі ўдаецца адамкнуць замок. ->Inside | Вашай партыі не ўдаецца адамкнуць замок. ->Approach.choice1}
         
     //Disassemble the Lock (Engineering)
-        *[Разабраць замак {PartyEngineeringCheckText}]
-            Лепшы інжынер вашай партыі спрабуе разабраць замок.
-            {PartyEngineeringCheckTest: Выкарыстоўваючы набор самых лепшых інструмантаў: шрубоўкі, долата і кавадлы, вашы інжынер па-майстэрску разьбірае замак, прытым разьбірае гэтак старанна, што яго ўжо ніколі не сабраць. ->Inside | Ваша партыя не змагла разабраць замок. ->Approach.choice1}
+        *[Разабраць замок {PartyEngineeringCheckText}]
+            Найлепшы інжынэр вашай партыі спрабуе разабраць замок.
+            {PartyEngineeringCheckTest: Узброіўшыся найлепшымі прыладамі, сярод якіх адвёрткі, долаты й кувалда, ваш інжынэр майстэрска разьбірае замок — ды так «грунтоўна», што сабраць яго наноў ужо ніколі ня ўдасца. ->Inside | Вашай партыі не ўдаецца разабраць замок. ->Approach.choice1}
     
     //Blow up the door (Spellcraft)
-        *{PartyCanCastSpell == true}[Падарваць дзьверы {PartySpellcraftCheckText}]
-            Лепшы заклінальнік вашай партыі спрабуе падарваць дзьверы магіяй.
-            {PartySpellcraftCheckTest: Ваша партыя зрывае дзьверы з петляў. ->Inside |Ваша партыя не змагла падарваць дзьверы. ->Approach.choice1}
+        *{PartyCanCastSpell == true}[Узарваць дзьверы {PartySpellcraftCheckText}]
+            Найлепшы маг вашай партыі спрабуе ўзарваць дзьверы чарамі.
+            {PartySpellcraftCheckTest: Вашая партыя выбухам зрывае дзьверы з завесаў. ->Inside |Вашай партыі не ўдаецца ўзарваць дзьверы. ->Approach.choice1}
             
     //Break down the door (Vigor)
         *[Выламаць дзьверы {PartyVigorCheckText}]
-            Мацнейшы чалец вашай партыі спрабуе выламаць дзьверы.
-            {PartyVigorCheckTest: Ваша партыя зрывае дзьверы з петляў. ->Inside |Ваша партыя не змагла выламаць дзьверы. ->Approach.choice1}
+            Найдужэйшы ўдзельнік вашай партыі спрабуе выламаць дзьверы.
+            {PartyVigorCheckTest: Вашая партыя ўдарамі зрывае дзьверы з завесаў. ->Inside |Вашай партыі не ўдаецца выламаць дзьверы. ->Approach.choice1}
 
-    *[Працягнуць сваё падарожжа (Сысьці)]Вы вырашылі, што пакуль лепей працягнуць сваё падарожжа.->END
+    *[Рушыць далей (Сысьці)]Вы вырашаеце, што пакуль лепей рушыць далей.->END
 
 ===Inside===
 
-Ваша партыя трапляе ў халупу і выяўляе, што нехта ці нешта захоўвае тут запасы. #STR_Inside1 ->choice2
+Вашая партыя трапляе ў халупіну й выяўляе, што нехта ці нешта пакінула тут запасы. #STR_Inside1
+->choice2 
 
     =choice2
-        *[Забраць ({RewardText})]
-            Вы бярэце {RewardText} і дадаеце да сваіх запасаў перш чым сысьці.
+        *[Забраць запасы ({RewardText})]
+            Вы забіраеце {RewardText}, дадаяце здабычу да сваіх запасаў і рушыце далей.
             {RewardRoll:
                 -0: 
                     ~ GiveItem("grain",5)
@@ -169,4 +171,4 @@ INCLUDE include.ink
             }
             ->END
         
-        *[Сысьці]Вы вырашылі пакінуць запасы і працягнуць падарожжа.->END
+        *[Сысьці]Вы вырашаеце пакінуць запасы й рушыць далей.->END

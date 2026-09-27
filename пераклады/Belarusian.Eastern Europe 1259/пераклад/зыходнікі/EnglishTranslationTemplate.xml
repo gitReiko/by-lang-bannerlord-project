@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <tags>
     <tag language="English" />
@@ -54,7 +54,7 @@
     <string id="EE000023" text="ERROR: RBM Mod not present, but LT_EE1259_RBM_Patch is enabled. Enable RBM for proper experience."/>
     <string id="EE000024" text="The time of clash of cultures and gods.{newline}The time of great leaders and legendary battles.{newline}The time of change...{newline}{newline}Forge your destiny in a world where your greatest weapon {newline}is not just the sword at your side, {newline}but the wit, courage, and determination you carry within.{newline}{newline}Welcome to Eastern Europe 1259, traveler. {newline}Your legend begins now."/>
     <string id="EE000025" text="Start"/>
-    <string id="EE000026" text="The owner of this settlement does not allow you to recruit troops here.{newline}{newline}Increase relations with the owner:{newline}{newline}* follow them and help them in the battles{newline}* give them presents/gold in the barter menu{newline}* do missions for them{newline}* give them troops{newline}* donate troops to lord settlement's garrison{newline}* vote for this lord"/>
+    <string id="EE000026" text="The owner of this settlement ({OWNER}) does not currently allow you to recruit troops here.{newline}{newline}You need {RELATIONS} relation with the owner to recruit here.{newline}{newline}Current relation: {CURRENT_RELATIONS}{newline}{newline}Raise your relation by:{newline}{newline}* Helping him in battles{newline}* Giving him trained troops{newline}* Serving in his warband{newline}* Giving him gifts or gold{newline}* Completing missions for him{newline}* Donating troops to his garrisons{newline}* Supporting him in kingdom votes{newline}{newline}HINT: You can recruit troops right away from the village where your journey begins."/>
     <string id="EE000027" text="You can't recruit in the enemy's castle."/>
     <string id="EE000028" text="Governor of {SETTLEMENT} took {AMOUNT} food from the Stash to the Granary."/>
     <string id="EE000029" text="The blacksmith in {SETTLEMENT} charges {CRAFTING_RATE}{GOLD_ICON}/h for renting a forge."/>
@@ -74,7 +74,7 @@
     <string id="EE000043" text="Back"/>
     <string id="EE000044" text="The tournament is over. It was a decent display of skill and competition."/>
     <string id="EE000045" text="Reflecting on learned lessons..."/>
-    <string id="EE000046" text="Resting following the competition."/>
+    <string id="EE000046" text="Resting following the competition..."/>
     <string id="EE000047" text="The tournament has ended. There was a respectable display of skill and competitiveness."/>
     <string id="EE000048" text="I would like to give you some troops."/>
     <string id="EE000049" text="You have no troops to give..."/>
@@ -109,7 +109,7 @@
     <string id="EE000078" text="Managing the prisoners..."/>
     <string id="EE000079" text="It takes time to deal with the trader."/>
     <string id="EE000080" text="Counting the coins..."/>
-    <string id="EE000081" text="Recruitment takes time"/>
+    <string id="EE000081" text="Recruitment takes time."/>
     <string id="EE000082" text="Making everything in order..."/>
     <string id="EE000083" text="Garrison management takes time."/>
     <string id="EE000084" text="As the tournament winner, your relations with the local nobility have improved."/>
@@ -140,8 +140,8 @@
     <string id="EE000109" text="{WOOD_COUNT} Hardwood {WOOD_ICON}, {CLAY_COUNT} Clay {CLAY_ICON}, {TOOLS_COUNT} Tools {TOOLS_ICON} and {IRON_COUNT} Crude Iron {IRON_ICON}"/>
     <string id="EE000110" text="Not enough resources: need {WOOD_COUNT} Hardwood {WOOD_ICON}, {CLAY_COUNT} Clay {CLAY_ICON}, {TOOLS_COUNT} Tools {TOOLS_ICON} and {IRON_COUNT} Crude Iron {IRON_ICON}"/>
     <string id="EE000111" text="I am ready to help you build current project ({PROJECT_NAME}{PROJECT_PERCENT})"/>
-    <string id="EE000112" text="Helping to build: {PROJECT_NAME}({PROGRESS} %) +{BRICKS}{BRICKS_ICON}"/>
-    <string id="EE000113" text="Indeed, there is work to be done... There are various tasks around the castle that should not take long. We are always in need of skilled hands for repairs and maintenance. And if you truly wish to assist and have ample resources, your help would be greatly appreciated in expanding the castle grounds or fortifying our defenses. You could also lend a hand with the current construction projects within the walls."/>
+    <string id="EE000112" text="Helping to build: {PROJECT_NAME} ({PROGRESS} %) +{BRICKS}{BRICKS_ICON}"/>
+    <string id="EE000113" text="Indeed, there is work to be done... There are various tasks around the settlement that should not take long. We are always in need of skilled hands for repairs and maintenance. And if you truly wish to assist and have ample resources, your help would be greatly appreciated in expanding the grounds or fortifying our defenses. You could also lend a hand with the current construction projects within the walls."/>
     <string id="EE000114" text="You step into the bustling construction site within the grounds, where a new structure is already taking shape. Workers are busy hauling materials and assembling the framework, but much remains to be done. You join in, helping to reinforce the walls and support the ongoing work, ensuring everything is built sturdy and secure. As you contribute your skills, the project progresses swiftly, and the workers nod in appreciation for your assistance in this important addition to the settlement."/>
     <string id="EE000115" text="The party's morale is too low. (Need {MORALE_ICON}{NEED_MORALE}+). The troops refuse to take on this task."/>
     <string id="EE000116" text="You arrive at the settlement and are quickly directed to the site where new structures are needed to accommodate the growing population. The foundation has been laid, but much work remains. You begin by setting the wooden beams for the framework, ensuring each one is sturdy and well-placed. As the walls rise, you carefully fit the timber together, building strong support for the roof. Once the structure is sound, you assist in securing the roof, whether it be thatched with straw or covered in tiles, ensuring it is tightly woven to keep the elements out. With each step, the new buildings take shape, and the people show their gratitude as their community grows, offering shelter and space to those in need."/>
@@ -161,8 +161,8 @@
     <string id="EE000130" text="ERROR: MBSuperSpeed (Super Speed) is already integrated into EE1259. You should remove it from your load order."/>
     <string id="EE000131" text="Could you introduce me to the other notable people here?"/>
     <string id="EE000132" text="ATH: {ATH}, 1H: {ONEH}, 2H: {TWOH}, POL: {POL}, BOW: {BOW}, XBOW: {XBOW}, THROW: {THROW}"/>
-    <string id="EE000133" text="The party's morale is suffering due to the presence of women of questionable reputation."/>
-    <string id="EE000134" text="The party's morale is heightened by the presence of women offering additional comforts."/>
+    <string id="EE000133" text="The party's morale {MORALE_ICON} is suffering due to the presence of women of questionable reputation."/>
+    <string id="EE000134" text="The party's morale {MORALE_ICON} is heightened by the presence of women offering additional comforts."/>
     <string id="EE000135" text="Camp Followers"/>
     <string id="EE000136" text="{HERO} joined {CLAN}"/>
     <string id="EE000137" text="Can't help with this right now."/>
@@ -246,7 +246,7 @@
     <string id="EE000215" text="Give every troop 50{GOLD_ICON} ({TOTAL_AMOUNT1}{GOLD_ICON}/+5{MORALE_ICON})"/>
     <string id="EE000216" text="Give every troop 100{GOLD_ICON} ({TOTAL_AMOUNT2}{GOLD_ICON}/+10{MORALE_ICON})"/>
     <string id="EE000217" text="Beer always helps in situations like this. ({TOTAL_AMOUNT3} {BEER_ICON}/+15{MORALE_ICON})"/>
-    <string id="EE000218" text="Wine should fortify their spirits. ({TOTAL_AMOUNT4} {WINE_ICON}/+20{MORALE_ICON})"/>
+    <string id="EE000218" text="Wine should fortify their spirits. ({TOTAL_AMOUNT5} {WINE_ICON}/+20{MORALE_ICON})"/>
     <string id="EE000219" text="Not enough beer..."/>
     <string id="EE000220" text="Not enough wine..."/>
     <string id="EE000221" text="Your warband has {TROOPS} troops and their morale is {MORALE}.{newline}What do you want to do?"/>
@@ -313,7 +313,7 @@
     <string id="EE000282" text="Return to Military Service"/>
     <string id="EE000283" text="Your lord is dead..."/>
     <string id="EE000284" text="Your military service has ended."/>
-    <string id="EE000285" text="Military Service Level {LEVEL} reached"/>
+    <string id="EE000285" text="Military Service Level {LEVEL} reached!"/>
     <string id="EE000286" text="Military service: +{XP} XP. ({PROGRESS}% to level {LEVEL})"/>
     <string id="EE000287" text="I want to serve in your warband."/>
     <string id="EE000288" text="I understand..."/>
@@ -326,7 +326,7 @@
     <string id="EE000295" text="I hope so."/>
     <string id="EE000296" text="State your business, soldier."/>
     <string id="EE000297" text="I request to be released from military service."/>
-    <string id="EE000298" text="Forgive me, my lord. I spoke in haste."/>
+    <string id="EE000298" text="Forgive me, my lord. That would be all."/>
     <string id="EE000299" text="I'm sorry, but I have to leave military service."/>
     <string id="EE000300" text="So be it. You are dismissed."/>
     <string id="EE000301" text="I beg your pardon. I shall continue my military service."/>
@@ -462,7 +462,7 @@
     <string id="EE000431" text="Fight for your life!"/>
     <string id="EE000432" text="Leave?"/>
     <string id="EE000433" text="Hold it right there! This is our territory. Pay {GOLD_AMOUNT}{GOLD_ICON} or face the consequences.[ib:confident2][if:convo_predatory]"/>
-    <string id="EE000434" text="Fine, here's your gold. (Pay {GOLD_AMOUNT}{GOLD_ICON}"/>
+    <string id="EE000434" text="Fine, here's your gold. (Pay {GOLD_AMOUNT}{GOLD_ICON})"/>
     <string id="EE000435" text="Smart choice. Now get lost."/>
     <string id="EE000436" text="I refuse to pay!"/>
     <string id="EE000437" text="Your funeral!"/>
@@ -531,106 +531,606 @@
     <string id="EE000500" text="The bees erupt into a furious swarm as the hive is disturbed. Blinded by panic and stinging pain, you slip from the branches and crash to the ground, ending the attempt in injury. Dazed and aching, you struggle to your feet as the angry buzzing slowly fades behind you, leaving the hive untouched and the forest once again settling into uneasy silence."/>
     <string id="EE000501" text="Run to your camp"/>
     <string id="EE000502" text="You follow faint buzzing and examine hollow trunks, yet no hive can be found. The woods offer no honey this day, and your efforts bring no reward. As the sounds of bees fade into the distance, you realize the forest has kept its treasures hidden, and you turn back with nothing to show for your long search."/>
-    <string id="EE000503" text="Resting by the fire, watching the hours drift by...{newline}"/>
+    <string id="EE000503" text="Resting by the fire, watching the hours drift by...{newline}{VANTAGE_LINE}"/>
     <string id="EE000504" text="Stop waiting"/>
     <string id="EE000505" text="Making camp. Soon there will be fire and rest...{newline}"/>
     <string id="EE000506" text="Putting out the fire, rolling up the bedroll. Time to go...{newline}"/>
     <string id="EE000507" text="In Camp"/>
     <string id="EE000508" text="Leave Town"/>
     <string id="EE000509" text="You can't desert while in the open waters."/>
-    <string id="EE000510" text="Need to be in the camp..."/>
-    <string id="EE000511" text=""/>
-    <string id="EE000512" text=""/>
-    <string id="EE000513" text=""/>
-    <string id="EE000514" text=""/>
-    <string id="EE000515" text=""/>
-    <string id="EE000516" text=""/>
-    <string id="EE000517" text=""/>
-    <string id="EE000518" text=""/>
-    <string id="EE000519" text=""/>
-    <string id="EE000520" text=""/>
-    <string id="EE000521" text=""/>
-    <string id="EE000522" text=""/>
-    <string id="EE000523" text=""/>
-    <string id="EE000524" text=""/>
-    <string id="EE000525" text=""/>
-    <string id="EE000526" text=""/>
-    <string id="EE000527" text=""/>
-    <string id="EE000528" text=""/>
-    <string id="EE000529" text=""/>
-    <string id="EE000530" text=""/>
-    <string id="EE000531" text=""/>
-    <string id="EE000532" text=""/>
-    <string id="EE000533" text=""/>
-    <string id="EE000534" text=""/>
-    <string id="EE000535" text=""/>
-    <string id="EE000536" text=""/>
-    <string id="EE000537" text=""/>
-    <string id="EE000538" text=""/>
-    <string id="EE000539" text=""/>
-    <string id="EE000540" text=""/>
-    <string id="EE000541" text=""/>
-    <string id="EE000542" text=""/>
-    <string id="EE000543" text=""/>
-    <string id="EE000544" text=""/>
-    <string id="EE000545" text=""/>
-    <string id="EE000546" text=""/>
-    <string id="EE000547" text=""/>
-    <string id="EE000548" text=""/>
-    <string id="EE000549" text=""/>
-    <string id="EE000550" text=""/>
-    <string id="EE000551" text=""/>
-    <string id="EE000552" text=""/>
-    <string id="EE000553" text=""/>
-    <string id="EE000554" text=""/>
-    <string id="EE000555" text=""/>
-    <string id="EE000556" text=""/>
-    <string id="EE000557" text=""/>
-    <string id="EE000558" text=""/>
-    <string id="EE000559" text=""/>
-    <string id="EE000560" text=""/>
-    <string id="EE000561" text=""/>
-    <string id="EE000562" text=""/>
-    <string id="EE000563" text=""/>
-    <string id="EE000564" text=""/>
-    <string id="EE000565" text=""/>
-    <string id="EE000566" text=""/>
-    <string id="EE000567" text=""/>
-    <string id="EE000568" text=""/>
-    <string id="EE000569" text=""/>
-    <string id="EE000570" text=""/>
-    <string id="EE000571" text=""/>
-    <string id="EE000572" text=""/>
-    <string id="EE000573" text=""/>
-    <string id="EE000574" text=""/>
-    <string id="EE000575" text=""/>
-    <string id="EE000576" text=""/>
-    <string id="EE000577" text=""/>
-    <string id="EE000578" text=""/>
-    <string id="EE000579" text=""/>
-    <string id="EE000580" text=""/>
-    <string id="EE000581" text=""/>
-    <string id="EE000582" text=""/>
-    <string id="EE000583" text=""/>
-    <string id="EE000584" text=""/>
-    <string id="EE000585" text=""/>
-    <string id="EE000586" text=""/>
-    <string id="EE000587" text=""/>
-    <string id="EE000588" text=""/>
-    <string id="EE000589" text=""/>
-    <string id="EE000590" text=""/>
-    <string id="EE000591" text=""/>
-    <string id="EE000592" text=""/>
-    <string id="EE000593" text=""/>
-    <string id="EE000594" text=""/>
-    <string id="EE000595" text=""/>
-    <string id="EE000596" text=""/>
-    <string id="EE000597" text=""/>
-    <string id="EE000598" text=""/>
-    <string id="EE000599" text=""/>
-    <string id="EE000600" text=""/>
-
-
+    <string id="EE000510" text="Need to be in a camp or settlement."/>
+    <string id="EE000511" text="Dirt Paths"/>
+    <string id="EE000512" text="Basic Roads"/>
+    <string id="EE000513" text="Good Roads"/>
+    <string id="EE000514" text="Make Tools"/>
+    <string id="EE000515" text="Craft Tools from 1 Iron and 1 Hardwood."/>
+    <string id="EE000516" text="Not enough materials: need 1 Iron and 1 Hardwood."/>
+    <string id="EE000517" text="Too tired to craft. You must rest before you can do this action."/>
+    <string id="EE000518" text="Stash"/>
+    <string id="EE000519" text="Empty"/>
+    <string id="EE000520" text="A lone rider approaches your party under a trader's banner..."/>
+    <string id="EE000521" text="I come under a trader's banner — and I come carefully. Word reached Sarai that a messenger sent to you did not ride home. I am still but a middle man for Burundai and Berke Khan... yet I will not pretend I forget what became of the last.[ib:closed][if:convo_stern]"/>
+    <string id="EE000522" text="Peace upon your road, friend. I am but a humble trader — a middle man, nothing more. Yet I carry words from Burundai, who rides in the name of Berke Khan, lord of the Golden Horde.[ib:normal][if:convo_calm_friendly]"/>
+    <string id="EE000523" text="So. The birds still name you a powerful lord — and Burundai names a heavier token for spilled blood. The Horde asks {MONGOL_TRIBUTE_AMOUNT} Gold Ingots. Bring them within one week. Carry the ingots with you; I meet travelers on the road, not in their vaults.[ib:warrior][if:convo_grave]"/>
+    <string id="EE000524" text="The birds told me you are a powerful lord — and it would be a pity if misfortune found your domain. The Horde asks only a small token of gratitude: {MONGOL_TRIBUTE_AMOUNT} Gold Ingots. Bring them within one week, and I shall find you again. Carry the ingots with you; I meet travelers on the road, not in their vaults."/>
+    <string id="EE000525" text="I have the Gold Ingots with me. Take them, and spare my villages. (Give {MONGOL_TRIBUTE_AMOUNT})"/>
+    <string id="EE000526" text="Surely even a token for the Horde can be spoken of as traders speak..."/>
+    <string id="EE000527" text="Haggle? Over so small a token — {MONGOL_TRIBUTE_AMOUNT} Gold Ingots? Friend, you have a merchant's heart; I almost envy it. But Burundai would laugh me out of camp if I returned with less than this. Keep your wit for a richer day.[ib:confident][if:convo_bemused][rb:positive]"/>
+    <string id="EE000528" text="Speak, then. The birds are listening.[ib:normal][if:convo_thinking]"/>
+    <string id="EE000529" text="I honor Berke Khan and Burundai's riders. Yet a wise token leaves the grass green and the road open. Soften the demand, and you leave a lord who remembers generosity."/>
+    <string id="EE000530" text="Enough. Let the demand stand."/>
+    <string id="EE000531" text="Ha! You would survive in a steppe bazaar, friend. Say {MONGOL_TRIBUTE_AMOUNT} Gold Ingots, then — and not a grain less.[ib:confident][if:convo_relaxed_happy]"/>
+    <string id="EE000532" text="I will consider it. Return in a week."/>
+    <string id="EE000533" text="Wise. One week, friend. May the road be kind until then.[ib:normal][if:convo_calm_friendly]"/>
+    <string id="EE000534" text="I will not pay tribute to raiders."/>
+    <string id="EE000535" text="Seize him. I will not be fleeced by a steppe peddler."/>
+    <string id="EE000536" text="I would hear more of your people and your Khan."/>
+    <string id="EE000537" text="Ask, friend. An ortoq who travels far learns to love talk as much as trade.[ib:normal][if:convo_relaxed_happy]"/>
+    <string id="EE000538" text="What else would you ask?[ib:normal][if:convo_calm_friendly]"/>
+    <string id="EE000539" text="Enough questions. About the tribute..."/>
+    <string id="EE000540" text="As you wish. Let us return to the Horde's token.[ib:normal][if:convo_calm_friendly]"/>
+    <string id="EE000541" text="What say you?[ib:normal][if:convo_nonchalant]"/>
+    <string id="EE000542" text="The steppe wind carries me back to you, friend. A week has turned, and Burundai still waits for the Khan's gratitude — {MONGOL_TRIBUTE_AMOUNT} Gold Ingots, as spoken.[ib:normal][if:convo_calm_friendly]"/>
+    <string id="EE000543" text="Here are the Gold Ingots. Take them. (Give {MONGOL_TRIBUTE_AMOUNT})"/>
+    <string id="EE000544" text="I do not have them."/>
+    <string id="EE000545" text="Ah... then fate has written another path. May your harvests be plentiful and your walls stand tall. Farewell, friend. Truly.[ib:normal][if:convo_shocked]"/>
+    <string id="EE000546" text="I will not pay."/>
+    <string id="EE000547" text="Then I have delivered my words. May your harvests be plentiful and your walls stand tall. Farewell.[ib:normal][if:convo_undecided_closed]"/>
+    <string id="EE000548" text="The Horde keeps its word. Your domain will be spared — so Burundai swears, and so I swear. But hear me well: do not cross the path of the riders. The token buys your lands, not your life on the road. May your trade prosper, friend.[ib:confident][if:convo_grave]"/>
+    <string id="EE000549" text="Kill a merchant and you answer to every camp from here to Sarai... The Sky sees. Remember that.[ib:warrior][if:convo_furious]"/>
+    <string id="EE000550" text="Who is this Berke Khan?"/>
+    <string id="EE000551" text="Grandson of Genghis Khan, brother of the great Batu who broke Rus, Poland and Hungary. Now he rules the Horde from Sarai on the Volga. Unusual among his kin — he follows the faith of Islam."/>
+    <string id="EE000552" text="Who was Genghis Khan?"/>
+    <string id="EE000553" text="Born Temujin — an outcast boy who survived betrayal and slavery. At the great kurultai of 1206 he bent every steppe tribe to one banner. His law, the Yassa, still rules the grass sea."/>
+    <string id="EE000554" text="How did he unite the tribes?"/>
+    <string id="EE000555" text="He broke the old clan loyalties. Men rose by merit, not birth. Spoils for the loyal; annihilation for the treacherous. Merkits, Naimans, Keraites, Tatars — all became one people: the Mongols."/>
+    <string id="EE000556" text="Where do you come from?"/>
+    <string id="EE000557" text="From the endless grass sea east of all maps. I have seen Karakorum with my own eyes. Now I serve the ordu at Sarai — where gold and news both travel."/>
+    <string id="EE000558" text="What do the Mongols believe?"/>
+    <string id="EE000559" text="The Eternal Blue Sky — Tengri — who granted the whole earth to the Khans. Yet shamans, priests, imams and monks ride unmolested in our camps. The Horde taxes trade, not prayer. Berke himself bowed to Allah."/>
+    <string id="EE000560" text="What is their final goal?"/>
+    <string id="EE000561" text="The old dream of Batu and Subutai: to ride until the hooves of their horses touch the Last Sea — the water at the edge of the world. Nothing the Sky has given may remain untaken."/>
+    <string id="EE000562" text="Why is everyone so terrified of them?"/>
+    <string id="EE000563" text="They move faster than news of them. They feign retreat and slaughter pursuers. Cities that close their gates are erased so the next ten open theirs. Ask what remained of Ryazan — or of great Kyiv."/>
+    <string id="EE000564" text="Why Gold Ingots? Why not ordinary coin?"/>
+    <string id="EE000565" text="Coin is heavy, and every town stamps its own. An ingot rides light in a saddlebag, is known from Sarai to Karakorum, and needs no moneychanger on the grass. Burundai trusts weight — not the promise stamped on a stranger's silver.[ib:normal][if:convo_thinking]"/>
+    <string id="EE000566" text="What happens if I do not pay?"/>
+    <string id="EE000567" text="I only carry words, friend. But Burundai's riders burn what they are not paid to spare. I would grieve to trade with ashes.[ib:normal][if:convo_grave]"/>
+    <string id="EE000568" text="You need {AMOUNT} Gold Ingots in your party inventory."/>
+    <string id="EE000569" text="The Khan's demand is not mine to lessen. That is the word I was given."/>
+    <string id="EE000570" text="Hmm... No. {IMMEDIATE_FAILURE_LINE}"/>
+    <string id="EE000571" text="What? No. {IMMEDIATE_FAILURE_LINE}"/>
+    <string id="EE000572" text="The word of Berke Khan is not a market price to be argued. I carry it; I do not rewrite it."/>
+    <string id="EE000573" text="That touches the Khan's honor. Do not speak so lightly."/>
+    <string id="EE000574" text="Enough. The Khan's demand stands. That is the word I was given."/>
+    <string id="EE000575" text="I honor Berke Khan. I ask only that his messenger show a merchant's mercy."/>
+    <string id="EE000576" text="A lighter token today leaves fuller coffers when the Horde rides this way again."/>
+    <string id="EE000577" text="Gold paid gladly travels farther than gold wrenched from a clenched fist."/>
+    <string id="EE000578" text="I am but an ortoq — a middle man. Soften the demand and Burundai will ask why I failed him."/>
+    <string id="EE000579" text="Burundai's shadow is long. I will not stand in it for your sake."/>
+    <string id="EE000580" text="I will not risk Burundai's anger for a stranger's purse. We are done speaking of this."/>
+    <string id="EE000581" text="Tell him the lord was generous in spirit — and the steppe still green beneath his riders."/>
+    <string id="EE000582" text="Say the birds ate a few ingots on the road. Who counts every feather in the wind?"/>
+    <string id="EE000583" text="A fair messenger is remembered. Carry a softer word and doors will open for you elsewhere."/>
+    <string id="EE000584" text="Or tell him I am a dangerous man, and the cheaper tribute bought him peace."/>
+    <string id="EE000585" text="The Horde does not haggle like shopkeepers in a muddy town square."/>
+    <string id="EE000586" text="You speak as if the steppe were a bazaar stall. It is not."/>
+    <string id="EE000587" text="The steppe does not bargain. The demand stands. Farewell to this talk."/>
+    <string id="EE000588" text="Then let us not call it haggling. Call it wisdom — a fair token binds better than a bitter one."/>
+    <string id="EE000589" text="Even the steppe bazaar knows every price has two sides. Meet me halfway, friend."/>
+    <string id="EE000590" text="A powerful lord spared lightly becomes an ally of convenience. That is worth more than a few ingots."/>
+    <string id="EE000591" text="Or keep the full demand — and wonder, when next you sleep, whether my patience outlasted my temper."/>
+    <string id="EE000592" text="The Horde's envoy rides away with your gold. Your domain will be spared — but stay clear of the riders."/>
+    <string id="EE000593" text="Word of the envoy's death will reach the Horde. The steppe does not forgive."/>
+    <string id="EE000594" text="They say the gold paid to the Khan's envoy now lies in a dead man's saddlebags. The steppe returns nothing."/>
+    <string id="EE000595" text="I have a gift for you."/>
+    <string id="EE000596" text="Oh? What did you bring?[ib:nervous2][if:convo_bemused][rb:positive]"/>
+    <string id="EE000597" text="Something else."/>
+    <string id="EE000598" text="A purse of 500{GOLD_ICON}."/>
+    <string id="EE000599" text="A purse of 2000{GOLD_ICON}."/>
+    <string id="EE000600" text="A purse of 10000{GOLD_ICON}."/>
+    <string id="EE000601" text="Never mind."/>
+    <string id="EE000602" text="Oh... I see. Some other time, then.[ib:weary2][if:convo_annoyed][rb:negative]"/>
+    <string id="EE000603" text="This means a great deal to me. Thank you.[ib:closed2][if:convo_focused_happy][rb:very_positive]"/>
+    <string id="EE000604" text="How thoughtful. I will treasure this.[ib:demure2][if:convo_merry][rb:positive]"/>
+    <string id="EE000605" text="A fine gift. You have my thanks.[ib:confident2][if:convo_approving][rb:positive]"/>
+    <string id="EE000606" text="Your generosity is appreciated. Thank you.[ib:normal2][if:convo_relaxed_happy][rb:positive]"/>
+    <string id="EE000607" text="I appreciate it. Thank you.[ib:normal][if:happy][rb:positive]"/>
+    <string id="EE000608" text="You do not have enough denars."/>
+    <string id="EE000609" text="You cannot give troops through a messenger."/>
+    <string id="EE000610" text="You cannot exchange goods or prisoners through a messenger."/>
+    <string id="EE000611" text="{newline}At war: price doubled"/>
+    <string id="EE000612" text="{newline}Never met: price doubled"/>
+    <string id="EE000613" text="{newline}Under siege: price ×5"/>
+    <string id="EE000614" text="less than a day"/>
+    <string id="EE000615" text="{LOW}-{HIGH} days"/>
+    <string id="EE000616" text="No target."/>
+    <string id="EE000617" text="You cannot send a messenger to yourself."/>
+    <string id="EE000618" text="You can only send a messenger to a lord."/>
+    <string id="EE000619" text="{HERO_NAME} is too young to receive messengers."/>
+    <string id="EE000620" text="{HERO_NAME} is dead."/>
+    <string id="EE000621" text="The messenger won't be able to reach {HERO_NAME}."/>
+    <string id="EE000622" text="{HERO_NAME} is imprisoned and cannot be reached by messenger."/>
+    <string id="EE000623" text="A messenger is already on the way to {HERO_NAME}."/>
+    <string id="EE000624" text="{HERO_NAME} is in the same settlement as you. Speak to them in person."/>
+    <string id="EE000625" text="{HERO_NAME} is in the same army as you. Speak to them in person."/>
+    <string id="EE000626" text="Not enough gold. Need {COST}{GOLD_ICON}."/>
+    <string id="EE000627" text="Messenger en route"/>
+    <string id="EE000628" text="Arrives in"/>
+    <string id="EE000629" text="Send messenger"/>
+    <string id="EE000630" text="{COST}{GOLD_ICON}"/>
+    <string id="EE000631" text="Cost"/>
+    <string id="EE000632" text="Travel"/>
+    <string id="EE000633" text="At war: price doubled"/>
+    <string id="EE000634" text="Never met: price doubled"/>
+    <string id="EE000635" text="Under siege: price ×5"/>
+    <string id="EE000636" text="Send a messenger to {HERO_NAME}?{newline}{newline}Cost: {COST}{GOLD_ICON}{newline}Travel: {DAYS}{SURCHARGES}"/>
+    <string id="EE000637" text="Messenger sent to {HERO_NAME} (-{COST}{GOLD_ICON}). Arrives in {DAYS}."/>
+    <string id="EE000638" text="Messenger Arrived"/>
+    <string id="EE000639" text="Your messenger has reached {HERO_NAME}. Speak with them?"/>
+    <string id="EE000640" text="Cancel Messenger"/>
+    <string id="EE000641" text="{HERO_NAME} is dead. "/>
+    <string id="EE000642" text="{HERO_NAME} is imprisoned. "/>
+    <string id="EE000643" text="{HERO_NAME} is fugitive. "/>
+    <string id="EE000644" text="{HERO_NAME} has just been released and is not ready to meet. "/>
+    <string id="EE000645" text="{HERO_NAME} is traveling. "/>
+    <string id="EE000646" text="Our army's cohesion is critically low! We should restore it before the army falls apart."/>
+    <string id="EE000647" text="Your lord is displeased by your improper appearance. ({RELATION_CHANGE} with {LORD_NAME})"/>
+    <string id="EE000648" text="The party's morale {MORALE_ICON} suffers — the troops are ashamed of their naked leader."/>
+    <string id="EE000649" text="The guards throw you out for improper behaviour — appearing without clothes."/>
+    <string id="EE000650" text="Your shameless appearance costs you the respect of everyone present."/>
+    <string id="EE000651" text="I want you to bribe local militia to increase their loyalty."/>
+    <string id="EE000652" text="Very well, my {?PLAYER.GENDER}lady{?}lord{\?}. I shall see that coin reaches the right hands among the militia."/>
+    <string id="EE000653" text="+1 loyalty ({COST1}{GOLD_ICON})"/>
+    <string id="EE000654" text="+5 loyalty ({COST5}{GOLD_ICON})"/>
+    <string id="EE000655" text="+10 loyalty ({COST10}{GOLD_ICON})"/>
+    <string id="EE000656" text="It shall be done. The locals will remember your generosity."/>
+    <string id="EE000657" text="There are no militia here to bribe."/>
+    <string id="EE000658" text="Loyalty is already at its maximum."/>
+    <string id="EE000659" text="Your renown has decreased by {AMOUNT}."/>
+    <string id="EE000660" text="Inspect Enemy"/>
+    <string id="EE000661" text="Starving"/>
+    <string id="EE000662" text="Cat(s)"/>
+    <string id="EE000663" text="Dog(s)"/>
+    <string id="EE000664" text="Patrol Parties"/>
+    <string id="EE000665" text="Our clan has risen to tier {TIER_LEVEL}! The future looks bright."/>
+    <string id="EE000666" text="Increases militia recruitment and prisoner limit, and provides a patrol party that improves security."/>
+    <string id="EE000667" text="Melt holy symbol?"/>
+    <string id="EE000668" text="If you melt this, some companions can be really upset with you. Proceed anyway?"/>
+    <string id="EE000669" text="Gold Ingot"/>
+    <string id="EE000670" text="holy symbol"/>
+    <string id="EE000671" text="{COMPANION.NAME} is very, very dissatisfied with you — you melted a consecrated holy symbol ({ITEM})."/>
+    <string id="EE000672" text="Increase village production and village hearth growth. Speeds up parties near the settlement."/>
+    <string id="EE000673" text="+{BONUS_AMOUNT_PERCENT}% increase to party speed near the settlement"/>
+    <string id="EE000674" text="{STR1}{newline}{STR2}"/>
+    <string id="EE000675" text="NO_PERSUASION_RESPONSE - ERROR. Report to mod developer with the screenshot."/>
+    <string id="EE000676" text="You have tried to persuade me before. I will not stand your words again."/>
+    <string id="EE000677" text="Do you want to bleed me dry?! No nono nonono... Don't ever mention this again."/>
+    <string id="EE000678" text="Trade Agent {AGENT_NAME} in {TOWN_NAME} is no longer available ({REASON}). Your wares remain in temporary storage — visit the backstreets to reclaim them (storage fees apply)."/>
+    <string id="EE000679" text="Your trade agent {AGENT_NAME} is no longer with us — dead, disappeared, or gone from this town. Your wares (and any remaining gold) have been held here in temporary storage. If you want to reclaim them, you must pay a storage fee of {FEE}{GOLD_ICON}."/>
+    <string id="EE000680" text="Your former trade agent is no longer with us — dead, disappeared, or gone from this town. Your wares (and any remaining gold) have been held here in temporary storage. If you want to reclaim them, you must pay a storage fee of {FEE}{GOLD_ICON}."/>
+    <string id="EE000681" text="10000 {GOLD_ICON}"/>
+    <string id="EE000682" text="Cover your warehouse debt before ending the contract."/>
+    <string id="EE000683" text="Remaining balance and wares will be returned to you."/>
+    <string id="EE000684" text="Negative balance. Cover your debt before accessing the warehouse."/>
+    <string id="EE000685" text="Trade Agent does not have any wares"/>
+    <string id="EE000686" text="Wares will be transferred to your party's inventory"/>
+    <string id="EE000687" text="1000 {GOLD_ICON}"/>
+    <string id="EE000688" text="50000 {GOLD_ICON}"/>
+    <string id="EE000689" text="100000 {GOLD_ICON}"/>
+    <string id="EE000690" text="Nothing to take..."/>
+    <string id="EE000691" text="{BALANCE}{GOLD_ICON}"/>
+    <string id="EE000692" text="Select trade wares you want your Trade Agent to trade"/>
+    <string id="EE000693" text="Select trade wares you don't want your Trade Agent to trade anymore"/>
+    <string id="EE000694" text="Select the ware to change max buy price"/>
+    <string id="EE000695" text="Select the ware to change min sell price"/>
+    <string id="EE000696" text="Select the quantity limit for the maximum number of items to purchase"/>
+    <string id="EE000697" text="Select the item to set a minimum quantity to keep when selling"/>
+    <string id="EE000698" text="Your Trade Agent"/>
+    <string id="EE000699" text="Trade Agent's {AGENT_NAME}'s ({TOWN_NAME}) balance is low"/>
+    <string id="EE000700" text="Visit Trade Warehouse"/>
+    <string id="EE000701" text="The warehouse is locked. Guard tells you to see {AGENT_NAME}"/>
+    <string id="EE000702" text="Unattended warehouse"/>
+    <string id="EE000703" text="Pay storage fee"/>
+    <string id="EE000704" text="Reclaim"/>
+    <string id="EE000705" text="You do not have enough gold to pay the storage fee."/>
+    <string id="EE000706" text="Recovered {AMOUNT}{GOLD_ICON} from warehouse balance."/>
+    <string id="EE000707" text="Trade Warehouse"/>
+    <string id="EE000708" text="Inspect troops"/>
+    <string id="EE000709" text="You need at least one healthy troop to inspect."/>
+    <string id="EE000710" text="Choose a settlement to manage..."/>
+    <string id="EE000711" text="Manage settlements"/>
+    <string id="EE000712" text="This settlement is under siege."/>
+    <string id="EE000713" text="Up to this level you learn at full speed. Beyond it, the learning rate steadily declines."/>
+    <string id="EE000714" text="Skill Limit"/>
+    <string id="EE000715" text="No limit applies to this skill."/>
+    <string id="EE000716" text="Slowest learning after"/>
+    <string id="EE000717" text="Beyond this level, skills improve at only {RATE}% of normal speed."/>
+    <string id="EE000718" text="Skills cannot improve beyond this level."/>
+    <string id="EE000719" text="{AGE} year old"/>
+    <string id="EE000720" text="{AGE} years old"/>
+    <string id="EE000721" text="Only the ruler of the kingdom can rename settlements."/>
+    <string id="EE000722" text="This settlement no longer belongs to your kingdom."/>
+    <string id="EE000723" text="Rename this settlement: {COST} influence."/>
+    <string id="EE000724" text="Rename {SETTLEMENT_NAME}"/>
+    <string id="EE000725" text="Settlement name cannot be empty"/>
+    <string id="EE000726" text="Settlement name should be between {MIN} and {MAX} characters"/>
+    <string id="EE000727" text="Settlement name cannot contain special characters"/>
+    <string id="EE000728" text="Settlement name cannot start or end with a white space"/>
+    <string id="EE000729" text="Settlement name cannot contain consecutive white spaces"/>
+    <string id="EE000730" text="That is already this settlement's name"/>
+    <string id="EE000731" text="Another settlement already bears this name"/>
+    <string id="EE000732" text="Confirm renaming"/>
+    <string id="EE000733" text="Rename {OLD_NAME} to {NEW_NAME} for {COST} influence?"/>
+    <string id="EE000734" text="town"/>
+    <string id="EE000735" text="castle"/>
+    <string id="EE000736" text="village"/>
+    <string id="EE000737" text="Let it be known throughout the lands: the {SETTLEMENT_TYPE} formerly known as {OLD_NAME} shall henceforth bear the name {NEW_NAME}, by the will of {RULER_NAME}, ruler of {KINGDOM_NAME}!"/>
+    <string id="EE000738" text="Royal Decree"/>
+    <string id="EE000739" text="So be it!"/>
+    <string id="EE000740" text="Sort troops by tier (highest first)"/>
+    <string id="EE000741" text="I must be going."/>
+    <string id="EE000742" text="As you wish."/>
+    <string id="EE000743" text="You still need: {MISSING}"/>
+    <string id="EE000744" text="{PRICE}{GOLD_ICON}"/>
+    <string id="EE000745" text="{COUNT} {ITEM}"/>
+    <string id="EE000746" text="Complete the required mission"/>
+    <string id="EE000747" text="Steppe Trader"/>
+    <string id="EE000748" text="Well... I can't argue with that."/>
+    <string id="EE000749" text="I don't think so."/>
+    <string id="EE000750" text="I see..."/>
+    <string id="EE000751" text="Yes.. You might be correct."/>
+    <string id="EE000752" text=""/>
+    <string id="EE000753" text="Call the scout back"/>
+    <string id="EE000754" text=""/>
+    <string id="EE000755" text=""/>
+    <string id="EE000756" text="Reveals troop counts and composition of one nearby settlement."/>
+    <string id="EE000757" text="No settlements in sight."/>
+    <string id="EE000758" text="Send a scout to the surroundings or a nearby settlement."/>
+    <string id="EE000759" text="The scout counted the defenders at {SETTLEMENT}: {COUNT}"/>
+    <string id="EE000760" text="What should the scout look at?"/>
+    <string id="EE000761" text="Scout the surroundings"/>
+    <string id="EE000762" text="Scout a settlement"/>
+    <string id="EE000763" text="Which settlement should they scout?"/>
+    <string id="EE000764" text="{NAME} will count troops and composition at {SETTLEMENT} for {HOURS} hours."/>
+    <string id="EE000765" text=""/>
+    <string id="EE000766" text=""/>
+    <string id="EE000767" text="Send scout is unavailable."/>
+    <string id="EE000768" text="You need rest. {HOURS} hours remaining."/>
+    <string id="EE000769" text="Scout"/>
+    <string id="EE000770" text="You see farther the longer you scout."/>
+    <string id="EE000771" text="You see farther the longer the scout is out."/>
+    <string id="EE000772" text="What will you look at?"/>
+    <string id="EE000773" text="Which settlement will you scout?"/>
+    <string id="EE000774" text="You will count troops and composition at {SETTLEMENT} for {HOURS} hours."/>
+    <string id="EE000775" text="You are looking farther out. The longer you scout, the farther you see."/>
+    <string id="EE000776" text="Your scout is ranging outward. The longer they stay out, the farther you will see."/>
+    <string id="EE000777" text="You left the camp to scout."/>
+    <string id="EE000778" text="The camp is quiet without a lookout. Your scout is away."/>
+    <string id="EE000779" text="Return to camp"/>
+    <string id="EE000780" text="You return without a report."/>
+    <string id="EE000781" text="You found no parties."/>
+    <string id="EE000782" text="You reported {COUNT} parties."/>
+    <string id="EE000783" text="Unknown castle to the {DIRECTION}"/>
+    <string id="EE000784" text="Unknown town to the {DIRECTION}"/>
+    <string id="EE000785" text="Unknown village to the {DIRECTION}"/>
+    <string id="EE000786" text="You scouted the defenders of {SETTLEMENT}: {COUNT}"/>
+    <string id="EE000787" text="Party troop count is revealed based on the distance, not instantly.{newline}Closer or a better scout shows more digits.{newline}? unread digit{newline}... too far{newline}~ older count{newline}From camp you can Send scout to see farther for a time, or investigate the settlement.{newline}{newline}AI Lords still see true numbers."/>
+    <string id="EE000788" text="You can see farther for a time."/>
+    <string id="EE000789" text="What are your thoughts about Möngke Tenggeri?"/>
+    <string id="EE000790" text="What are your thoughts about Judaism?"/>
+    <string id="EE000791" text="Bronze Ingot"/>
+    <string id="EE000792" text="Silver Ingot"/>
+    <string id="EE000793" text="Ingot"/>
+    <string id="EE000794" text="Böö {NAME}"/>
+    <string id="EE000795" text="Rabbi {NAME}"/>
+    <string id="EE000796" text="You can make camp with this button or the Home key."/>
+    <string id="EE000797" text="{HERO.NAME} is now a follower of {FAITH}. Those who still hold to {OLD_FAITH} think less of {?HERO.GENDER}her{?}him{\?}."/>
+    <string id="EE000798" text="No party"/>
+    <string id="EE000799" text="Inventory Fill"/>
+    <string id="EE000800" text="Items Weight"/>
+    <string id="EE000801" text="25% production bonus to horse, mule, cow and sheep in villages."/>
+    <string id="EE000802" text="Scout report"/>
+    <string id="EE000803" text="I preach Möngke Tenggeri — Eternal Heaven. Heaven grants the khan his mandate; this is not a church, and we keep no pope, no baptism, no closed hall of stone. We stand under the open sky, where the breath of Heaven is not shut behind doors.\r\nShamans — Böö — mediate between people and Heaven. We do not keep a priesthood of bishops. Subject peoples may keep their own rites; Heaven does not ask them to kneel in a foreign chapel."/>
+    <string id="EE000804" text="I preach the Law of Moses — one God, not a trinity, not a pope. The Torah is our covenant. We do not baptize, and we do not eat at their altar. Our gathering is the synagogue, where the scroll is read and the commandments are taught.\r\nWe keep the Sabbath and the Name. We wait, as our fathers waited. This is not a princely church of these lands; it is the faith of Israel, carried on the road and in the house."/>
+    <string id="EE000805" text="Our preaching is Heaven's mandate, not a gospel of repentance. We make offering at the sacred cairn, we honor ancestors, we listen for signs. We do not baptize, and we do not confess to a priest of Rome or of the Greeks.\r\nHeaven is not an idol in a box. It is above us, as it was above our fathers. The khan rules by Heaven's power; we do not argue creeds in stone churches."/>
+    <string id="EE000806" text="Our teaching is the covenant, not a gospel of a son of God. Prayer is toward the One; we do not kiss pictures, and we do not confess to a priest of Rome or of the Greeks.\r\nThe Law is not a shadow to be cast off. It is the path. A rabbi teaches; he does not sell indulgences or claim a throne in a far city."/>
+    <string id="EE000807" text="I have heard of their groves and the gods they honor among the trees. They pray outside walls, as we do under Heaven — not the same Heaven, and their Krivis is not a Böö, yet I understand a people who do not hide the sky behind stone."/>
+    <string id="EE000808" text="They honor many powers in the grove — thunder, earth, forest. We keep one God, and we do not make offering to trees. I do not know their names well. It is not our covenant."/>
+    <string id="EE000809" text="The men of Rome bring a book, a pope, and baptism. They shut God in stone and say none may come to Heaven but through their Christ. Heaven is above us without their doors. Let them keep their rites if they will; we will not take their font or their Pope."/>
+    <string id="EE000810" text="Rome says the Law is fulfilled and that a man of Galilee is God. We keep the covenant our fathers kept. We will not take their font, their Pope, or their claim that Israel is done."/>
+    <string id="EE000811" text="The Greeks and the Rus also speak of Christ, with icons and long beards, and they quarrel with Rome over who sits higher. It is the same closed god in another chapel. Heaven does not ask us to kiss their pictures. We ride under the open sky."/>
+    <string id="EE000812" text="The Greeks and the Rus also speak of Christ, with icons and long liturgies. It is the same claim in another chapel. We do not kiss pictures, and we do not call a man the Name."/>
+    <string id="EE000813" text="They are pagans, lost to a sky-idol they call Eternal Heaven. It is a sad error, not the Gospel. Without Christ there is no salvation — yet I will not name demons where there is only ignorance of the true God."/>
+    <string id="EE000814" text="Cursed be that rite. They worship a false Heaven and call it eternal, but it is the devil's snare. Their shamans traffic with darkness; their souls walk in shadow until they turn to Christ. Do not be deceived by riders who speak of mandate while they damn themselves."/>
+    <string id="EE000815" text="I do not know this name. Möngke Tenggeri? It means nothing to me. Our gods are those of the grove and the river. I cannot speak of what I have never heard."/>
+    <string id="EE000816" text="I have heard riders speak of Eternal Heaven and a mandate for their khan. It is not the Name we keep, and their shamans are not rabbis. Let them pray under the sky; we will not take their cairn."/>
+    <string id="EE000817" text="They are the people of the Old Law — the Sabbath, the synagogue, the waiting for a Messiah who has already come. They will not receive baptism or the Gospel. Until they confess Christ, they remain outside salvation. It is a blindness the Church has long sought to heal, not a faith we can bless."/>
+    <string id="EE000818" text="I have heard of a people of an old Book, older than Kiev, who still wait for a Messiah. Beyond that I cannot speak with certainty. Their ways are little known in our parishes, and I will not pretend to knowledge I do not have."/>
+    <string id="EE000819" text="Judaism? That word is strange to me. If it is a faith of the towns, it has not been taught under our oaks. Ask me of the grove and the river — I cannot speak of names a Krivis has never heard."/>
+    <string id="EE000820" text="Among the towns there are people of a book who keep their own rites. Heaven does not ask us to take their Law. Subject peoples may pray as they will; we ride under the open sky."/>
+    <string id="EE000821" text="I want to hire you to trade for me when I am not around."/>
+    <string id="EE000822" text="Great. For the start of the contract take 10000{GOLD_ICON}."/>
+    <string id="EE000823" text="I changed my mind."/>
+    <string id="EE000824" text="Ok then.[ib:warrior][if:convo_grave]"/>
+    <string id="EE000825" text="Ok. Here are the keys to the rented warehouse. You will find it in the backstreets, not far from the tavern. Anything else?"/>
+    <string id="EE000826" text="Would you trade for me when I am not around?"/>
+    <string id="EE000827" text="About our trade agreement..."/>
+    <string id="EE000828" text="Let's talk about gold{GOLD_ICON}"/>
+    <string id="EE000829" text="About the wares..."/>
+    <string id="EE000830" text="Let's inspect the warehouse"/>
+    <string id="EE000831" text="I want to talk about our contract..."/>
+    <string id="EE000832" text="That will be all."/>
+    <string id="EE000833" text="As agreed I will trade for you for a small fee of {COMMISSION_PERC}%. {STATUS_REPORT_INFO} {ACTIVE_STATUS_INFO}[ib:nervous2][if:convo_undecided_closed]"/>
+    <string id="EE000834" text="That fee of yours is kind of high... What about lowering it a bit?"/>
+    <string id="EE000835" text="I want you to send me detailed status reports about your trades."/>
+    <string id="EE000836" text="I don't want to be bothered with detailed status reports anymore."/>
+    <string id="EE000837" text="Let's resume the trading."/>
+    <string id="EE000838" text="Let's temporarily pause the trading."/>
+    <string id="EE000839" text="I want to end our agreement..."/>
+    <string id="EE000840" text="Ok then..."/>
+    <string id="EE000841" text="Lower my fee, you say? Ah, I see you have a keen eye for fine and exquisite service. Alas, my fee is as sturdy as a castle wall, fortified with quality and exclusivity. Perhaps, you'd prefer a journey to the mystical realm of &quot;Wishful Thinking&quot; for more affordable deals? [ib:nervous2][if: convo_insulted]"/>
+    <string id="EE000842" text="Pitty, that was a good contract. Let me transfer remaining balance and all the wares to you now...[ib:nervous][if:convo_shocked]"/>
+    <string id="EE000843" text="Ok, let's end this"/>
+    <string id="EE000844" text="Actually, I changed my mind. Keep up the good work."/>
+    <string id="EE000845" text="As you wish."/>
+    <string id="EE000846" text="That's what I though.[ib:normal2][if:convo_calm_friendly]"/>
+    <string id="EE000847" text="I want to take all the wares from the warehouse"/>
+    <string id="EE000848" text="I will visit the warehouse myself"/>
+    <string id="EE000849" text="Ok, another thing..."/>
+    <string id="EE000850" text="Here you go..."/>
+    <string id="EE000851" text="Let me check my records... Right, here it is... Current balance is {BALANCE}{GOLD_ICON} [ib:closed]"/>
+    <string id="EE000852" text="I want to increase the balance by 1000{GOLD_ICON}"/>
+    <string id="EE000853" text="I want to increase the balance by 10000{GOLD_ICON}"/>
+    <string id="EE000854" text="I want to increase the balance by 50000{GOLD_ICON}"/>
+    <string id="EE000855" text="I want to increase the balance by 100000{GOLD_ICON}"/>
+    <string id="EE000856" text="Let me take some of my gold back..."/>
+    <string id="EE000857" text="Ok... with the increase of {BALANCE_INCREASE}{GOLD_ICON} the total balance will be {BALANCE}{GOLD_ICON}"/>
+    <string id="EE000858" text="Another thing..."/>
+    <string id="EE000859" text="I am listening."/>
+    <string id="EE000860" text="What's yours is yours. Current balance is {BALANCE}{GOLD_ICON}"/>
+    <string id="EE000861" text="I want to take 1000{GOLD_ICON}"/>
+    <string id="EE000862" text="I want to take 10000{GOLD_ICON}"/>
+    <string id="EE000863" text="I want to take 100000{GOLD_ICON}"/>
+    <string id="EE000864" text="I will take all the gold {BALANCE}{GOLD_ICON}"/>
+    <string id="EE000865" text="Nevermind"/>
+    <string id="EE000866" text="I want to add new wares to the list"/>
+    <string id="EE000867" text="Let me remove some wares from the list"/>
+    <string id="EE000868" text="I want to change buy prices"/>
+    <string id="EE000869" text="I want to change sell prices"/>
+    <string id="EE000870" text="Do not buy more than..."/>
+    <string id="EE000871" text="When selling leave at least..."/>
+    <string id="EE000872" text="Noted."/>
+    <string id="EE000873" text="Great, continue as it is."/>
+    <string id="EE000874" text="Understood."/>
+    <string id="EE000875" text="Do I look like I know anything about trading?"/>
+    <string id="EE000876" text="As far as I know you already have agreement with {AGENT}"/>
+    <string id="EE000877" text="I don't think you will be able to manage one more Trade Agent. Let's talk again after you will gain more renown."/>
+    <string id="EE000878" text="Most esteemed noble, I regretfully cannot accommodate your request at this time, for it grieves me to inform you that your noble self is preoccupied with weighty matters, and I humbly apologize for any inconvenience caused by my inability to fulfill your desires. (Trade Agent limit reached)"/>
+    <string id="EE000879" text="Get lost or I'll gut you."/>
+    <string id="EE000880" text="I don't like you. Piss off."/>
+    <string id="EE000881" text="No, I don't think so."/>
+    <string id="EE000882" text="I don't know you well enough."/>
+    <string id="EE000883" text="I think ... I can do that. For an additional {FEE}% fee of course. I have connections in {LOCATIONS}{TOWN}"/>
+    <string id="EE000884" text="DO I LOOK LIKE ... actually... I can hir... Yes! Sure! We can have a deal. My fee is .... mmm ... {FEE}%. I can organize trade in {LOCATIONS}{TOWN}"/>
+    <string id="EE000885" text="As agreed I will trade for you {WARES}. My fee is {FEE}%."/>
+    <string id="EE000886" text="Wares in the list (in the warehouse, min sell price/min leave amount, max buy price/max buy amount): {WARES}"/>
+    <string id="EE000887" text="Yes, about that. We need to agree on what should I trade."/>
+    <string id="EE000888" text="I will send you detailed reports about my trades."/>
+    <string id="EE000889" text="I will not bother you with detailed reports about my trades."/>
+    <string id="EE000890" text="Currently I will not do any trades as you asked."/>
+    <string id="EE000891" text="There is a small issue we need to resolve before you will be allowed to the warehouse. There is a debt of {DEBT}{GOLD_ICON}..."/>
+    <string id="EE000892" text="I have such wares in the warehouse currently: {WARES}"/>
+    <string id="EE000893" text="I don't have any wares currently."/>
+    <string id="EE000894" text="Kindly hear my plea..."/>
+    <string id="EE000895" text="Oook. If you say so..."/>
+    <string id="EE000896" text="Ok, make your point"/>
+    <string id="EE000897" text="As fellow traders in this prosperous realm, I humbly request your reconsideration in lowering your fee. By doing so, we can foster a more equitable and harmonious market, benefiting both our businesses and the customers we serve, while fostering stronger collaborations and a shared vision of success."/>
+    <string id="EE000898" text="Nevermind..."/>
+    <string id="EE000899" text="I am not entirely comfortable discussing this with you."/>
+    <string id="EE000900" text="I am simply not comfortable discussing this with you."/>
+    <string id="EE000901" text="I don't even like you. You expect me to discuss something like this with you?"/>
+    <string id="EE000902" text="I barely know you, and you're asking me to lower my fee?"/>
+    <string id="EE000903" text="You are my friend, but even so, this is not a pleasant conversation to have."/>
+    <string id="EE000904" text="I acknowledge that we may have differing opinions or impressions, but I'm dedicated to maintaining a constructive approach. Let's put any personal differences aside and work towards finding a solution that meets both our interests."/>
+    <string id="EE000905" text="Though we may be just getting to know each other, I believe in fostering a positive connection, and I look forward to engaging in fruitful discussion as we pursue common goal."/>
+    <string id="EE000906" text="With our friendship as a foundation, I'm confident we can navigate this smoothly while maintaining our positive relationship."/>
+    <string id="EE000907" text="Rest assured that my reputation as skilled and generous precedes me, guaranteeing a prosperous and mutually beneficial partnership."/>
+    <string id="EE000908" text="My proven track record as a competent and astute trader assures you of a fruitful and advantageous collaboration."/>
+    <string id="EE000909" text="You know me. I'll be careful not to get this get back to the wrong ears."/>
+    <string id="EE000910" text="You must know of my reputation. You know that it's not in my interest to betray your trust."/>
+    <string id="EE000911" text="I do not see it that way."/>
+    <string id="EE000912" text="I do not see it that way. We are done for now."/>
+    <string id="EE000913" text="In this bustling market, where rivals offer similar services, maintaining my competitive fee is crucial. Lowering it would compromise my profitability and devalue the entire market's offerings."/>
+    <string id="EE000914" text="Amidst the clamor of this vibrant market, where competitors vie with similar services, preserving my competitive fee becomes imperative, for a reduction would undermine profitability and diminish the value of offerings across the market."/>
+    <string id="EE000915" text="Within this bustling market, teeming with rivals offering akin services, upholding my competitive fee holds utmost significance, as a decrease would erode profitability and dilute the worth of offerings throughout the market."/>
+    <string id="EE000916" text="Lowering the fee could attract a larger customer base, increase market share, and potentially enable you to negotiate better terms with suppliers, thus enhancing your power and profitability in the long run."/>
+    <string id="EE000917" text="Lowering the fee could be a strategic move to differentiate yourself from competitors, attract new customers, and maintain a competitive edge in the market, ultimately benefiting your profitability and reinforcing your position as a respected player in the industry."/>
+    <string id="EE000918" text="Lowering the fee would not only strengthen your market dominance by discouraging potential competitors but also enable you to capture a larger market share, exploit economies of scale, and solidify your position as the industry leader, thereby maximizing your long-term profitability."/>
+    <string id="EE000919" text="By adapting pricing strategies and providing additional value, you can strengthen your competitive position, attract loyal customers, and ultimately increase profitability as a powerful merchant."/>
+    <string id="EE000920" text="By emphasizing your artisanal craftsmanship and offering unique, personalized experiences, you can successfully differentiate yourself from traditional merchants and attract a dedicated customer base that values authenticity, enabling you to compete effectively in the market."/>
+    <string id="EE000921" text="As a formidable figure in the industry, maintaining competitive pricing secures your position of strength, fosters customer loyalty, and solidifies your market dominance, ultimately boosting profitability and reinforcing your influence as a formidable trader."/>
+    <string id="EE000922" text="Lowering fees may compromise profitability, but imagine the thrill of seeing rival traders' faces as you crash the market!"/>
+    <string id="EE000923" text="Nah, I don't agree."/>
+    <string id="EE000924" text="Nah, I don't agree. Let's finish this."/>
+    <string id="EE000925" text="My fee accounts for the risks and uncertainties inherent in trading, protecting me against bandit attacks, unpredictable weather, and political instability, ensuring I can sustain my business and mitigate potential losses."/>
+    <string id="EE000926" text="Though we may hail from the same culture, adjusting fees to match the ever-changing market conditions can help us navigate risks and uncertainties, fostering resilience and prosperity within our shared trading realm."/>
+    <string id="EE000927" text="Though our cultures may be different, embracing the opportunity to learn and adapt to the distinct risks and uncertainties of each other's trading environments can lead to prosperous exchanges and mutual growth in our diverse cultural realms."/>
+    <string id="EE000928" text="As one {?HERO.GENDER}woman{?}man{\?} to another, it's important to consider that embracing fair competition and reasonable fees can create a more balanced market environment, benefiting both our businesses and fostering mutual respect in our trade."/>
+    <string id="EE000929" text="Let us acknowledge that upholding fairness in competition and setting reasonable fees can create a just and balanced trading environment, ensuring equal opportunities for success and fostering harmony in this town."/>
+    <string id="EE000930" text="Given our comparable ages, let us adapt our pricing strategies and embrace the changing market to ensure mutual success."/>
+    <string id="EE000931" text="Despite our age difference, let us combine our wisdom and energy, adapting pricing strategies to the dynamic market."/>
+    <string id="EE000932" text="I must refuse."/>
+    <string id="EE000933" text="I must refuse. Let's talk about something else."/>
+    <string id="EE000934" text="The expertise and exceptional quality I provide in my services justify the higher fee, as they offer a unique value that sets me apart from competitors, ensuring clients receive unparalleled excellence and specialized expertise that cannot be easily replicated."/>
+    <string id="EE000935" text="I understand your position, and while your exceptional service quality is acknowledged, not adjusting your fee to be more competitive may jeopardize customer loyalty, potentially impacting our ongoing business partnership."/>
+    <string id="EE000936" text="Oh come one! Cut the cr... Well... you are absolutely right... Your service quality is exceptional but I can't operate with such a high fee and ask you to reconsider."/>
+    <string id="EE000937" text="Listen well, trader! You'd be wise to reconsider, for I have the might to ravage your pitiful business to the ground, should you persist in your stubborn refusal to negotiate fair terms!"/>
+    <string id="EE000938" text=" and"/>
+    <string id="EE000939" text="Enter new max buy price for {ITEM}"/>
+    <string id="EE000940" text="Enter new min sell price for {ITEM}"/>
+    <string id="EE000941" text="Enter new maximum number of items to purchase for {ITEM}"/>
+    <string id="EE000942" text="Enter new mininum number of items to keep when selling for {ITEM}"/>
+    <string id="EE000943" text="The Trade Agent will not buy this ware if price will be higher than max buy price.{newline}{newline}Current max buy price: {CURRENT_PRICE}          Average price: {AVERAGE_PRICE}{newline}{newline}Enter -1 for unlimited (∞) - to always buy no matter the price.{newline}Enter 0 - to never buy."/>
+    <string id="EE000944" text="The Trade Agent will not sell this ware if price will be lower than min sell price.{newline}{newline}Current min sell price: {CURRENT_PRICE}          Average price: {AVERAGE_PRICE}{newline}{newline}Enter 0 - to do not sell.{newline}Enter 1 - to always sell no matter the price."/>
+    <string id="EE000945" text="The Trade Agent will buy this ware until the set maximum limit and then will stop.{newline}{newline}Current max buy amount: {CURRENT_AMOUNT}{newline}{newline}Enter -1 for unlimited (∞) - to buy without the limit.{newline}Enter 0 - to not buy."/>
+    <string id="EE000946" text="The Trade Agent will leave this amount of items in the warehouse when selling.{newline}{newline}Current min sell amount: {CURRENT_AMOUNT}{newline}{newline}Enter 0 - to sell everything."/>
+    <string id="EE000947" text="{AGENT} hired as new Trade Agent in {TOWN}"/>
+    <string id="EE000948" text="Trade Agent contract with {AGENT} in {TOWN} terminated."/>
+    <string id="EE000949" text="{ITEM} ({COUNT}) received"/>
+    <string id="EE000950" text="{ITEM} already in the list"/>
+    <string id="EE000951" text="{ITEM} added to the list"/>
+    <string id="EE000952" text="{ITEM} removed from the list"/>
+    <string id="EE000953" text="{ITEM} max buy price changed to {PRICE}"/>
+    <string id="EE000954" text="{ITEM} min sell price changed to {PRICE}"/>
+    <string id="EE000955" text="{ITEM} max buy amount changed to {AMOUNT}"/>
+    <string id="EE000956" text="{ITEM} min amount to keep when selling changed to {AMOUNT}"/>
+    <string id="EE000957" text="Fee reduced to: {FEE}%"/>
+    <string id="EE000958" text="Send scout"/>
+    <string id="EE000959" text="The scout is already out."/>
+    <string id="EE000960" text="Assign a companion as Scout."/>
+    <string id="EE000961" text="Assign a companion as Scout. You stay in camp."/>
+    <string id="EE000962" text="The scout needs rest. {HOURS} hours remaining."/>
+    <string id="EE000963" text="Your scout is wounded."/>
+    <string id="EE000964" text="The scout returns without a report."/>
+    <string id="EE000965" text="Scout away"/>
+    <string id="EE000966" text="Scout back: {COUNT} parties reported."/>
+    <string id="EE000967" text="Scout back: no parties reported."/>
+    <string id="EE000968" text="mixed"/>
+    <string id="EE000969" text="mostly infantry"/>
+    <string id="EE000970" text="mostly ranged"/>
+    <string id="EE000971" text="mostly horse"/>
+    <string id="EE000972" text="mostly horse archers"/>
+    <string id="EE000973" text="north"/>
+    <string id="EE000974" text="north-east"/>
+    <string id="EE000975" text="east"/>
+    <string id="EE000976" text="south-east"/>
+    <string id="EE000977" text="south"/>
+    <string id="EE000978" text="south-west"/>
+    <string id="EE000979" text="west"/>
+    <string id="EE000980" text="north-west"/>
+    <string id="EE000981" text="nearby"/>
+    <string id="EE000982" text="half a day"/>
+    <string id="EE000983" text="a day"/>
+    <string id="EE000984" text="more than a day"/>
+    <string id="EE000985" text="Hard to say from the ridge, but I marked these."/>
+    <string id="EE000986" text="I have them. Here's what I saw."/>
+    <string id="EE000987" text="Your scout has the high ground."/>
+    <string id="EE000988" text="Report from allied patrols"/>
+    <string id="EE000989" text="Observed by your scout"/>
+    <string id="EE000990" text="Your own observation"/>
+    <string id="EE000991" text="Counted {HOURS} hours ago"/>
+    <string id="EE000992" text="Named in your quests"/>
+    <string id="EE000993" text="Unknown party"/>
+    <string id="EE000994" text="Scouting"/>
+    <string id="EE000995" text="Trade Agent {AGENT} ({TOWN}) tries to sell:"/>
+    <string id="EE000996" text="Trade Agent {AGENT} ({TOWN}) does not have wares to sell."/>
+    <string id="EE000997" text="{ITEM} marked as not to sell, skipping"/>
+    <string id="EE000998" text="{ITEM} min amount to not sell {AMOUNT} reached. Will not sell more."/>
+    <string id="EE000999" text="{ITEM} 0 in the warehouse. Nothing to sell."/>
+    <string id="EE001000" text="{COUNT} x {ITEM}, will try to sell x{BATCH} if price &gt; {PRICE}"/>
+    <string id="EE001001" text="{SETTLEMENT} does not have enough gold."/>
+    <string id="EE001002" text="x{COUNT} would cost {COST}"/>
+    <string id="EE001003" text="Too cheap to sell (&lt;{PRICE})"/>
+    <string id="EE001004" text="{SETTLEMENT} buys {ITEM} for {PRICE}. {ADDITIONAL_INFO}"/>
+    <string id="EE001005" text="{COUNT} x {ITEM} sold to {SETTLEMENT} for {GOLD} (fee not deducted). Price/item: {PRICE}"/>
+    <string id="EE001006" text="No settlement wants to buy {ITEM} with price &gt; {PRICE}"/>
+    <string id="EE001007" text="Trade Agent {AGENT} ({TOWN}) is not buying currently as you asked."/>
+    <string id="EE001008" text="Trade Agent {AGENT} ({TOWN}) is out of money."/>
+    <string id="EE001009" text="Trade Agent {AGENT} ({TOWN}) tries to buy:"/>
+    <string id="EE001010" text="Trade Agent {AGENT} ({TOWN}) does not have wares to buy."/>
+    <string id="EE001011" text="{SETTLEMENT} does not have {ITEM} to sell."/>
+    <string id="EE001012" text="{ITEM} max buy limit amount {AMOUNT} reached. Will not buy more."/>
+    <string id="EE001013" text="{SETTLEMENT} sells {ITEM} for {PRICE}. Too expensive to buy (&gt;{MAX_PRICE})"/>
+    <string id="EE001014" text="Not enough gold to buy {ITEM} in {SETTLEMENT} for {PRICE}.  Gold left: {BALANCE}"/>
+    <string id="EE001015" text="Bought {COUNT} x {ITEM} in {SETTLEMENT} for {GOLD}  price/item: {PRICE}"/>
+    <string id="EE001016" text="{AGENT}'s ({TOWN}) Balance: {BALANCE}  Wares in storage: {WARES}"/>
+    <string id="EE001017" text="Trade Agent {AGENT} ({TOWN}) charged {FEE}{GOLD_ICON} for {COUNT} wares in the warehouse"/>
+    <string id="EE001018" text="{COUNT} Trade Agent sold {SOLD} and bought {BOUGHT} wares."/>
+    <string id="EE001019" text="{COUNT} Trade Agents sold {SOLD} and bought {BOUGHT} wares."/>
+    <string id="EE001020" text="unavailable"/>
+    <string id="EE001021" text="died or disappeared"/>
+    <string id="EE001022" text="is no longer a notable"/>
+    <string id="EE001023" text="left town or vanished from the notables"/>
+    <string id="EE001024" text="left town"/>
+    <string id="EE001025" text="Fought together with {NAME}"/>
+    <string id="EE001026" text="Fought against {NAME}"/>
+    <string id="EE001027" text="ERROR: Adonnay's Troop Changer mod overwrites EE1259 logic. Remove ATC for proper EE1259 experience."/>
+    <string id="EE001028" text="ERROR: MBSuperSpeed (Super Speed) is already integrated into EE1259. You should remove it from your load order."/>
+    <string id="EE001029" text="WARNING: Complex Characters mod is not 100% compatible with EE1259. It will crash your game eventually. Remove it."/>
+    <string id="EE001030" text="ERROR: Deactivate Enlistment mod by Cheyron because it conflicts with Military Service functionality!"/>
+    <string id="EE001031" text="ERROR: Deactivate Serve as Soldier mod because it conflicts with Military Service functionality!"/>
+    <string id="EE001032" text="ERROR: BetterTime is already integrated into EE1259. You should remove it from your load order."/>
+    <string id="EE001033" text="ERROR: RBM mod present, but LT_EE1259_RBM_Patch not. Enable LT_EE1259_RBM_Patch for proper experience."/>
+    <string id="EE001034" text="ERROR: RBM mod not present, but LT_EE1259_RBM_Patch is enabled. Enable RBM for proper experience."/>
+    <string id="EE001035" text="WARNING: RBM mod not found. The game without RBM will be unbalanced. It is strongly advised to use RBM mod with EE1259."/>
+    <string id="EE001036" text="RBM not detected"/>
+    <string id="EE001037" text="WARNING: NoBigSmiles mod is already integrated into EE1259. You can remove it from your load order."/>
+    <string id="EE001038" text="WARNING: TrueNobleOpinion mod is already integrated into EE1259. You can remove it from your load order."/>
+    <string id="EE001039" text="WARNING: NoRelation mod is already integrated into EE1259. You can remove it from your load order."/>
+    <string id="EE001040" text="WARNING: FeelTheHit mod is already integrated into EE1259. You can remove it from your load order."/>
+    <string id="EE001041" text="WARNING: KillBanditsRaiseRelations mod is already integrated into EE1259. You should remove it from your load order."/>
+    <string id="EE001042" text="WARNING: LT_TradeAgent mod is already integrated into EE1259. You should remove it from your load order."/>
+    <string id="EE001043" text="WARNING: LT_KickTheChicken mod is already integrated into EE1259. You should remove it from your load order."/>
+    <string id="EE001044" text="WARNING: AllHeroesAreVisibleInBattle mod is already integrated into EE1259. You should remove it from your load order."/>
+    <string id="EE001045" text="Remaining shaders to compile: {COUNT}"/>
+    <string id="EE001046" text=", "/>
+    <string id="EE001047" text="A long road, is it not? I have walked many of them — and sailed a few besides."/>
+    <string id="EE001048" text="Your knowledge of ports and roads could serve me well. What would it take for you to ride with me?"/>
+    <string id="EE001049" text="My time is not cheap. Bring me {UW_HIRE_COST}, and I will share what I know — and my blade, if need be."/>
+    <string id="EE001050" text="Here is your fee. Let us see where the road takes us."/>
+    <string id="EE001051" text="Wise choice. I know a dozen towns where a clever tongue opens doors faster than a sword."/>
+    <string id="EE001052" text="No matter. The road will bring you back when you are ready."/>
+    <string id="EE001053" text="What do you trade in these days?"/>
+    <string id="EE001054" text="Information, mostly. Amber from the north, salt from the coast, and the names of men who owe debts they have not yet paid."/>
+    <string id="EE001055" text="You seem to know your way around ships."/>
+    <string id="EE001056" text="A man who only travels by land is half-blind in this age. I have stood on a deck through storms that would turn a knight's stomach."/>
+    <string id="EE001057" text="You look at a man the crown would hang if it could. I have no banner and no lord — only experience, and debts owed me by kings."/>
+    <string id="EE001058" text="I need a man who understands war and the sea. Will you ride under my banner?"/>
+    <string id="EE001059" text="Men like me do not come cheap. I want {UW_HIRE_COST} before I draw sword for anyone again."/>
+    <string id="EE001060" text="Take your payment. From today I fight where you point me."/>
+    <string id="EE001061" text="Good. Teach me your enemies, and I will teach you how to break them."/>
+    <string id="EE001062" text="Then we have nothing more to say today."/>
+    <string id="EE001063" text="They called you Marsk Stig, did they not?"/>
+    <string id="EE001064" text="Once I held the king's war-office. Now I hold no office at all — yet Denmark remembers my name, and that is worth more than any seal."/>
+    <string id="EE001065" text="Why are you hunted?"/>
+    <string id="EE001066" text="Because when a king falls, the court needs culprits more than truth. I was cast out with others — outlawed, though we swore we had no hand in it. Whether you believe that is your affair."/>
+    <string id="EE001067" text="I hear you know the coasts and the straits."/>
+    <string id="EE001068" text="I know where a ship can lie hidden, where a harbour sleeps unguarded, and where a few bold men can make a kingdom bleed from its shores. The sea is a marshal's country too."/>
+    <string id="EE001069" text="I am Onfim, from Novgorod. I was raised with letters and psalms — but I always wanted to be a fighter, not a clerk."/>
+    <string id="EE001070" text="You look like a man who could use a soldier with nothing to lose. Will you take me?"/>
+    <string id="EE001071" text="Give me {UW_HIRE_COST} and a place in your company. I have trained for this since I was a boy scratching horsemen on birch bark."/>
+    <string id="EE001072" text="Good. I will earn my bread with steel, not with a stylus."/>
+    <string id="EE001073" text="At last. No more lessons — only the road, and enemies worth drawing."/>
+    <string id="EE001074" text="Then I will find another captain. I did not leave Novgorod to copy syllables."/>
+    <string id="EE001075" text="What is this about birch bark?"/>
+    <string id="EE001076" text="In Novgorod we wrote on soft birch bark — notes, homework, letters and syllables scratched with a stylus while the teacher droned on. I once sent a strip to my bench-mate Danilo with Greetings from Onfim to Danilo, under a drawing that made him laugh. The rest I kept: alphabets, psalms, and battle scenes beside my name. That was how I learned to read — and how I learned I wanted a sword instead."/>
+    <string id="EE001077" text="Tell me more about Danilo."/>
+    <string id="EE001078" text="Danilo is my oldest friend — we sat on the same bench in Novgorod, scratching lessons while the master walked the rows. He had a steadier hand for letters than I did, and patience for psalms I never had. Last I heard he still lives in the city, copying accounts for a merchant. I think of him when I pass a birch grove."/>
+    <string id="EE001079" text="You always wanted to fight?"/>
+    <string id="EE001080" text="Always. While other boys copied prayers, I drew myself as a horseman with a lance — Onfim beside the rider, stabbing some poor stick-figure on the ground. My teacher said I should pray more and stab less. I wrote Lord, help your servant Onfim, then went back to drawing knights."/>
+    <string id="EE001081" text="Did you ever want anything besides war?"/>
+    <string id="EE001082" text="Once I scratched I am a wild beast on a strip of bark — long neck, sharp ears, fire or an arrow in its mouth. I showed it to Danilo before I sent it. It was homework, I think. But even then I knew: I would rather be the beast than the boy at the desk."/>
+    <string id="EE001083" text="Shimkus. The Curonian, if names still matter. I fight on foot — always have — and I do not trade my people's ways for any lord's favour."/>
+    <string id="EE001084" text="I need a commander who knows infantry work. Will you ride with me?"/>
+    <string id="EE001085" text="I will follow your banner for {UW_HIRE_COST}. But if you mock our speech, our gods, or our dead — we part at the next crossroads."/>
+    <string id="EE001086" text="Take your coin. Point me at the enemy's line, not at a scribe's desk."/>
+    <string id="EE001087" text="Good. Put me where the shield wall breaks — that is Curonian work."/>
+    <string id="EE001088" text="Then find some soft knight on a horse. I will wait for a captain who values what we are."/>
+    <string id="EE001089" text="Why is preserving your culture so important to you?"/>
+    <string id="EE001090" text="Because I have watched it thin year by year — our names bent to foreign tongues, our rites called heathen, our graves ploughed under new churches. A Curonian who forgets is already dead. I keep the old words, the old oaths, and the old way of fighting so something of us survives the next winter."/>
+    <string id="EE001091" text="You commanded men for a lord?"/>
+    <string id="EE001092" text="Aye. For a Baltic lord who knew I could hold a ford or break a gate with axemen alone. I drilled farmers into a wall of shields and led them where the horse-lords would not go — into mud, timber, and blood at arm's length. He paid well until politics found a younger face. I left with my honour and my accent intact."/>
+    <string id="EE001093" text="Why do you fight on foot?"/>
+    <string id="EE001094" text="Horses are for nobles and crusaders with iron on their backs. On the coast and in the forest a Curonian lives with axe, javelin, and sand under his boots. I am tall enough to look a rider in the eye when I drag him down. On foot I choose where I stand — and I have never lost a duel with the ground beneath me."/>
+    <string id="EE001095" text="Tell me more about being Curonian."/>
+    <string id="EE001096" text="We are of the western shores — Grobina, the rivers, the sea-wind. Not Lithuanian, not German, not some clerk's label on a charter. My father spoke Curonian to his sons and Baltic to strangers. I still do. If you hire me, know this: I serve you as a fighter, not as a convert."/>
+    <string id="EE001097" text="You survived the assassination attempt!"/>
+    <string id="EE001098" text="Not enough healthy party members: {HEALTHY_TROOPS}. Need at least {NEED_TROOPS}"/>
+    <string id="EE001099" text="{AMOUNT} {ITEM_NAME}{ITEM_ICON} removed"/>
+    <string id="EE001100" text="Devotion to {FAITH_NAME} increased by {AMOUNT}"/>
+    <string id="EE001101" text="Devotion to {FAITH_NAME} decreased by {AMOUNT}"/>
+    <string id="EE001102" text="You are in military service under {MSERVICE_LORD}{newline}{STRATEGY}"/>
 
 
 
@@ -713,6 +1213,7 @@
     <string id="lt_mail_shirt_short_short.name" text="Mail Shirt"/>
     <string id="lt_mail_shirt_short_short_baltic.name" text="Mail Shirt - Baltic"/>
 
+    <string id="lt_sa_chain_shoulders" text="Chain shoulders"/>
     <string id="great_helm_base.name" text="Great Helmet"/>
     <string id="winged_great_helm_base.name" text="Great Helmet - Winged"/>
     <string id="great_helm_brass.name" text="Great Helmet - Brass"/>
@@ -1650,8 +2151,8 @@
 
     <string id="estonianfather" text="Loit"/>
     <string id="estonianmother" text="Jumi"/>
-    <string id="old-estonian" text="Old-Estonian"/>
-    <string id="estoniandescription" text="Finno-Ugric Old-Estonian culture is a robust, forest-dwelling society with a deep reverence for nature, practicing ancient animistic rituals and speaking a unique Finno-Ugric language, expert in guerrilla warfare and skilled in crafting from natural materials, reflecting their symbiotic relationship with the dense woodlands of northeastern Europe."/>
+    <string id="old-estonian" text="Estonian"/>
+    <string id="estoniandescription" text="By 1259 the Estonians of the northern Baltic shore lived under Danish and Teutonic crusader rule after the Northern Crusades. Once a forest people of Finno-Ugric speech and older rites, they were baptized into the Latin Church; villages still keep their tongue and ways."/>
     <string id="estonianrulertitle" text="{?RULER.GENDER}Chieftain{?}High Chieftain{\?} {RULER.NAME}"/>
     <string id="estoniannobletitle" text="{?RULER.GENDER}Chieftain{?}Chieftain{\?} {RULER.NAME}"/>
     <string id="estonianofficial" text="a chieftain"/>
@@ -1659,15 +2160,17 @@
     <string id="estonianruler" text="High Chieftain"/>
     <string id="estonianrulerf" text="Chieftain"/>
     <string id="estonianrulerterm" text="{RULER.NAME} {?RULER.GENDER}Chieftain{?}High Chieftain{\?}"/>
-    <string id="estonianfactionadjective" text="Old-Estonian"/>
-    <string id="estonianfactionshortterm" text="Old-Estonian"/>
-    <string id="estonianfactionformalname" text="The Old-Estonian Tribes"/>
-    <string id="estonianfactioninformalname" text="the Old-Estonian Tribes"/>
-    <string id="estoniancultureadjective" text="Old-Estonian"/>
-    <string id="estoniancultureneutralterm" text="Old-Estonian"/>
-    <string id="estonianmembers" text="Old-Estonian"/>
+    <string id="estonianfactionadjective" text="Estonian"/>
+    <string id="estonianfactionshortterm" text="Estonian"/>
+    <string id="estonianfactionformalname" text="Estonian"/>
+    <string id="estonianfactioninformalname" text="Estonian"/>
+    <string id="estoniancultureadjective" text="Estonian"/>
+    <string id="estoniancultureneutralterm" text="Estonian"/>
+    <string id="estonianmembers" text="Estonian"/>
     <string id="str_liege_title.estonian" text="Grand Chieftain"/>
     <string id="str_liege_title_female.estonian" text="Grand Chieftess"/>
+    <string id="estonian" text="Estonian"/>
+    <string id="estonian_culture_desc" text="By 1259 the Estonians of the northern Baltic shore lived under Danish and Teutonic crusader rule after the Northern Crusades. Once a forest people of Finno-Ugric speech and older rites, they were baptized into the Latin Church; villages still keep their tongue and ways."/>
 
     <string id="latvianfather" text="Ainis"/>
     <string id="latvianmother" text="Baiba"/>
@@ -1751,6 +2254,26 @@
     <string id="mongol_raidersruler" text="Khan"/>
     <string id="mongol_raidersrulerterm" text="{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}"/>
     <string id="mongol_raidersrulertitle" text="{?RULER.GENDER}Khatun{?}Khan{\?} {RULER.NAME}"/>
+    <string id="mongol" text="Mongol"/>
+    <string id="mongoldescription" text="By 1259 the western Mongol ulus — the Jochid realm later called the Golden Horde — ruled the Pontic-Caspian steppe from Sarai under Berke Khan. They took tribute from Rus princes, sent tumens west, and kept the yurt-and-horse ways of the Mongol nation."/>
+    <string id="mongolfather" text="Berke"/>
+    <string id="mongolmother" text="Boraqchin"/>
+    <string id="mongolrulertitle" text="{?RULER.GENDER}Khatun{?}Khan{\?} {RULER.NAME}"/>
+    <string id="mongolnobletitle" text="{?RULER.GENDER}Lady{?}Noyan{\?} {RULER.NAME}"/>
+    <string id="mongolofficial" text="noyan"/>
+    <string id="mongolofficialf" text="khatun"/>
+    <string id="mongolruler" text="Khan"/>
+    <string id="mongolrulerf" text="Khatun"/>
+    <string id="mongolrulerterm" text="{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}"/>
+    <string id="mongolfactionadjective" text="Mongol"/>
+    <string id="mongolfactionshortterm" text="Mongol"/>
+    <string id="mongolfactionformalname" text="Mongol"/>
+    <string id="mongolfactioninformalname" text="Mongol"/>
+    <string id="mongolcultureadjective" text="Mongol"/>
+    <string id="mongolcultureneutralterm" text="Mongol"/>
+    <string id="mongolmembers" text="Mongol"/>
+    <string id="str_liege_title.mongol" text="Khan"/>
+    <string id="str_liege_title_female.mongol" text="Khatun"/>
 
     <string id="curonian_raiderscultureadjective" text="Curonian"/>
     <string id="curonian_raiderscultureneutralterm" text="Curonian"/>
@@ -1858,6 +2381,20 @@
     <string id="wand_balt_11_6" text="Bad luck or not, the forest doesn’t forgive mistakes."/>
     <string id="wand_balt_11_7" text="I can’t keep living like this, chasing shadows and hoping for a break. I came to the town, thinking maybe there’s work here, something that doesn’t involve freezing to death alone in the woods."/>
     <string id="wand_balt_11_8" text="I grew up as a hunter’s son, but the forest hasn’t been kind. My father is gone, and I’ve been struggling to survive on my own. Now I’m looking for another way, hoping the town might offer me a chance."/>
+    <string id="wand_est_2_a" text="You may have heard of my father - Lembit of Sakala. Many called him Lembit the Brave. It's my life's goal to be his worthy son, though he died when I was a baby. My stepfather, though rich in land and cows, does not have the same reputation, although I resolved early in my life that duty to my mother necessitated that I serve him as loyally as I would my natural father."/>
+    <string id="wand_est_3_a" text="I am Estonian. But for 20 years I fought in the Danish host, and later under the Teutonic banner when they took the south. Most men my age learned their trade that way. We saw no dishonor in it. They fed us well, they paid us well, they respected our courage."/>
+    <string id="wand_est_3_b" text="But my lord is gone - died in a winter campaign. And since the bishops and the Order divided the land, the young say to fight for a Dane or a German is treason. Treason to what? 'Estonia'? There is no Estonia. Never has been. Just villages and chieftains, who'll steal your cows as soon as you turn your back on them."/>
+    <string id="wand_est_3_d" text="Anyway, well, I've had it with narrow escapes from charging knights, and I'm going to seek work in a more professional force."/>
+    <string id="wand_est_3_g" text="I am Estonian by birth but I served with the Danes and the Teutons. Many of us did. A brave lord, a captain who cares for his men... What does it matter in which language your oath of fealty is given, as long as you honor it? "/>
+    <string id="wand_est_4_d" text="I am the prince of horsethieves! I have stolen Danish mares from the yards at Reval and ridden them along the coast under the moon, I have taken Rus stallions from Novgorod paddocks, the sturdy ponies of the Livs, and the Order's own geldings from a poorly watched camp. But, I'll be the first to admit, it is risky work, so sometimes I do other jobs."/>
+    <string id="wand_est_5_a" text="My family was not one of the greatest kin of Virumaa, but neither are we among the poorest. When I came of age they sent me to live in the woods with other youths - three years without cooked meat, spun cloth, or a roof, as our fathers did before the priests came. In the old law we were beasts then, not bound by the laws of men."/>
+    <string id="wand_est_5_b" text="Some speak well of their years in the woods. It is meant to teach you the forest. But the 'pack' I joined were all rich feral children, playing at being animals."/>
+    <string id="wand_est_5_g" text="I'm a former woods-runner. No doubt you have heard of such youths. I am not proud of what I did in those years. But I am proud of the woodcraft I learned."/>
+    <string id="wand_est_6_a" text="Aye, once I made a fine living on the Novgorod road, stopping merchants and asking 'em for a bit of change. But there was a lass there, beautiful as the moon and just as cold, and she was my undoing. Courted by a local chieftain but I thought, I can do better than that, with my takings, and I brought her the pick of the rings and finery and asked her to pass the evening with me. "/>
+    <string id="wand_est_6_c" text="Blessed be the Gods, happened that my cousin Ain was in the guard. He sprung me that night from the prison, and together we went roaming round the country. But a passing merchant decided he weren't parting with his purse, and pulled his blade rather than handing it over like a sensible lad. I took him down, but now before my poor Ain was butchered. See now the price of woman's ingratitude?"/>
+    <string id="wand_est_6_g" text="I was a robber on the highways, on the Novgorod road, making a fine living from the merchants. But I loved a girl in town, and snuck in to visit her from time to time. Then I got caught, and had to reveal the hiding place of all my hard-earned loot to the guards to escape the noose. So here I am now."/>
+    <string id="wand_est_8_g" text="I come from the forests. My people were suspicious folk. It is easy for them to get into their heads that a child, especially a girl, practices witchcraft. I had two neighbors die of fevers within the same season, and so I was chased from my home and driven to fend for myself. Which I can, and did. I forge my own weapons and can wield them as well, but now I'm looking for steady work."/>
+    <string id="wand_est_9_a" text="My uncle - he had a great herd of cows, and in the inland farms of Sakala that is the only kind of wealth we value. But they were taken by his chief herdsman, a man we trusted. So we took up spears to get them back, but my uncle was now poor, but the thief had many kinsmen. Having nothing else to lose, my uncle ordered that even the women of our family take up spears and ride out to fight, and so we did."/>
 
     <!-- fresh female -->
     <string id="wand_crus_12_1" text="My story? It’s the tale of a young girl trying to survive in a world that cares little for the weak."/>
@@ -1958,6 +2495,19 @@
     <string id="wanderer9_baltic" text="{FIRSTNAME} Karvavedis"/>            
     <string id="wanderer10_baltic" text="{FIRSTNAME} Murzė"/>
     <string id="wanderer11_baltic" text="{FIRSTNAME} Driskius"/>
+
+    <string id="wanderer0_estonian" text="{FIRSTNAME} Tark"/>
+    <string id="wanderer1_estonian" text="{FIRSTNAME} Peakaupmees"/>
+    <string id="wanderer2_estonian" text="{FIRSTNAME} Õnnelik"/>
+    <string id="wanderer3_estonian" text="{FIRSTNAME} Jässakas"/>
+    <string id="wanderer4_estonian" text="{FIRSTNAME} Hobusevaras"/>
+    <string id="wanderer5_estonian" text="{FIRSTNAME} Räbal"/>
+    <string id="wanderer6_estonian" text="{FIRSTNAME} Mustahammas"/>
+    <string id="wanderer7_estonian" text="{FIRSTNAME} Hulkija"/>
+    <string id="wanderer8_estonian" text="{FIRSTNAME} Neetud"/>
+    <string id="wanderer9_estonian" text="{FIRSTNAME} Lehmavaras"/>
+    <string id="wanderer10_estonian" text="{FIRSTNAME} Mustnagu"/>
+    <string id="wanderer11_estonian" text="{FIRSTNAME} Kaltsakas"/>
 
     <string id="wanderer0_crusader" text="{FIRSTNAME} Der Gelehrter"/>
     <string id="wanderer1_crusader" text="{FIRSTNAME} Der Stier"/>
@@ -2155,6 +2705,25 @@
     <string id="estonian_5.name" text="Estonian Horse Skirmisher"/>
     <string id="estonian_6.name" text="Estonian Bowman (Vibumees)"/>
     <string id="estonian_7.name" text="Estonian Hunter (Kütt)"/>
+    <string id="estonian_8.name" text="Estonian Regular (Sõdur)"/>
+    <string id="estonian_9.name" text="Estonian Veteran Spearman (Vanem Odamees)"/>
+    <string id="estonian_10.name" text="Estonian Elite Spearman"/>
+    <string id="estonian_11.name" text="Estonian Veteran Axeman (Vanem Kirvemees)"/>
+    <string id="estonian_12.name" text="Estonian Veteran Swordsman (Mõõgamees)"/>
+    <string id="estonian_13.name" text="Estonian Regular Horse Skirmisher"/>
+    <string id="estonian_14.name" text="Estonian Veteran Horse Skirmisher"/>
+    <string id="estonian_15.name" text="Estonian Elite Horse Skirmisher"/>
+    <string id="estonian_16.name" text="Estonian Veteran Archer (Vanem Vibumees)"/>
+    <string id="estonian_17.name" text="Estonian Young Noble (Noor Ülik)"/>
+    <string id="estonian_18.name" text="Estonian Noble Rider"/>
+    <string id="estonian_19.name" text="Estonian Trained Noble"/>
+    <string id="estonian_20.name" text="Estonian Veteran Noble (Vanem)"/>
+    <string id="estonian_21.name" text="Estonian Commander"/>
+    <string id="estonian_caravan_master" text="Estonian Caravan Master"/>
+    <string id="estonian_armed_trader" text="Estonian Armed Trader"/>
+    <string id="estonian_caravan_guard" text="Estonian Caravan Guard"/>
+    <string id="estonian_veteran_caravan_guard" text="Estonian Veteran Caravan Guard"/>
+    <string id="villager_estonian" text="Estonian Peasant (Talupoeg)"/>
 
     <string id="mongol_10" text="Mongol Archer"/>
     <string id="mongol_11" text="Mongol Spear Infantry"/>
@@ -2176,6 +2745,16 @@
     <string id="mongol_7" text="Mongol Raider"/>
     <string id="mongol_8" text="Mongol Horseman"/>
     <string id="mongol_9" text="Mongol Qanqli"/>
+    <string id="villager_mongol" text="Mongol Peasant"/>
+    <string id="village_woman_mongol" text="Mongol Peasant"/>
+    <string id="mongol_caravan_master" text="Mongol Caravan Master"/>
+    <string id="mongol_armed_trader" text="Mongol Armed Trader"/>
+    <string id="mongol_caravan_guard" text="Mongol Caravan Guard"/>
+    <string id="mongol_veteran_caravan_guard" text="Mongol Veteran Caravan Guard"/>
+    <string id="mongol_armed_convoy_trader" text="Mongol Armed Convoy Trader"/>
+    <string id="mongol_convoy_guard" text="Mongol Convoy Guard"/>
+    <string id="mongol_veteran_convoy_guard" text="Mongol Veteran Convoy Guard"/>
+    <string id="mongol_convoy_master" text="Mongol Convoy Master"/>
 
     <string id="polish_0" text="Polish Peasant (Chłop)"/>
     <string id="polish_10" text="Polish Trained Light Cavalry"/>
@@ -3643,7 +4222,7 @@
     
     -->
 
-    <string id="old-estonian" text="Old-Estonian"/>
+    <string id="old-estonian" text="Estonian"/>
 
     <string id="Ahas" text="Ahas"/>
     <string id="Aht" text="Aht"/>
@@ -10049,6 +10628,1610 @@
 
 
     <!--
+    ███████ ██     ██ ███████ ██████  ██ ███████ ██   ██      ██████ ██    ██ ██      ████████ ██    ██ ██████  ███████ 
+    ██      ██     ██ ██      ██   ██ ██ ██      ██   ██     ██      ██    ██ ██         ██    ██    ██ ██   ██ ██      
+    ███████ ██  █  ██ █████   ██   ██ ██ ███████ ███████     ██      ██    ██ ██         ██    ██    ██ ██████  █████   
+         ██ ██ ███ ██ ██      ██   ██ ██      ██ ██   ██     ██      ██    ██ ██         ██    ██    ██ ██   ██ ██      
+    ███████  ███ ███  ███████ ██████  ██ ███████ ██   ██      ██████  ██████  ███████    ██     ██████  ██   ██ ███████ 
+    -->
+
+    <string id="swedish_armed_trader" text="Swedish Armed Trader"/>
+    <string id="swedish_caravan_guard" text="Swedish Caravan Guard"/>
+    <string id="swedish_caravan_master" text="Swedish Caravan Master"/>
+    <string id="swedish_veteran_caravan_guard" text="Swedish Veteran Caravan Guard"/>
+    <!--input/sweden_patch/clans_visby.xml-->
+    <string id="clan_visby_1" text="Stenbalk"/>
+    <string id="clan_visby_2" text="Von der Dorne"/>
+    <string id="clan_visby_3" text="Wulflam"/>
+    <!--input/sweden_patch/culture_swedish.xml-->
+    <string id="swedish" text="Swedish"/>
+    <string id="swedish_culture_desc" text="A Baltic-Norse culture shaped by Christianity, old assembly law, and seafaring trade. Society is built around free farmers, tight kin networks, and local communities, with wealth flowing through ports, fairs, and merchant routes. Status shows in ships, weapons, imported cloth, and silver, while daily life is wool, timber, fishing, and seasonal work—practical, disciplined, and proud of independence."/>
+    <string id="Aabiörn" text="Aabiörn"/>
+    <string id="Aabiørn" text="Aabiørn"/>
+    <string id="Aabram" text="Aabram"/>
+    <string id="Aabyorn" text="Aabyorn"/>
+    <string id="Aabyrn" text="Aabyrn"/>
+    <string id="Aache" text="Aache"/>
+    <string id="Aaddhe" text="Aaddhe"/>
+    <string id="Aaddke" text="Aaddke"/>
+    <string id="Aage" text="Aage"/>
+    <string id="Aaggy" text="Aaggy"/>
+    <string id="Aaghæ" text="Aaghæ"/>
+    <string id="Aaghe" text="Aaghe"/>
+    <string id="Aagi" text="Aagi"/>
+    <string id="Aaka" text="Aaka"/>
+    <string id="Aakä" text="Aakä"/>
+    <string id="Aakæ" text="Aakæ"/>
+    <string id="Aake" text="Aake"/>
+    <string id="Aåke" text="Aåke"/>
+    <string id="Aako" text="Aako"/>
+    <string id="Aale" text="Aale"/>
+    <string id="Aalf" text="Aalf"/>
+    <string id="Aalff" text="Aalff"/>
+    <string id="Aalgoth" text="Aalgoth"/>
+    <string id="Aalgut" text="Aalgut"/>
+    <string id="Aan" text="Aan"/>
+    <string id="Aared" text="Aared"/>
+    <string id="Aaron" text="Aaron"/>
+    <string id="Abbe" text="Abbe"/>
+    <string id="Abbertus" text="Abbertus"/>
+    <string id="Abbiorn" text="Abbiorn"/>
+    <string id="Abbiörn" text="Abbiörn"/>
+    <string id="Abbiørn" text="Abbiørn"/>
+    <string id="Abbram" text="Abbram"/>
+    <string id="Abel" text="Abel"/>
+    <string id="Abell" text="Abell"/>
+    <string id="Abern" text="Abern"/>
+    <string id="Abernus" text="Abernus"/>
+    <string id="Abert" text="Abert"/>
+    <string id="Abhram" text="Abhram"/>
+    <string id="Abiærn" text="Abiærn"/>
+    <string id="Abild" text="Abild"/>
+    <string id="Abiorn" text="Abiorn"/>
+    <string id="Abiörn" text="Abiörn"/>
+    <string id="Abiørn" text="Abiørn"/>
+    <string id="Åbiörn" text="Åbiörn"/>
+    <string id="Abjörn" text="Abjörn"/>
+    <string id="Abøirn" text="Abøirn"/>
+    <string id="Abordh" text="Abordh"/>
+    <string id="Aborn" text="Aborn"/>
+    <string id="Abörn" text="Abörn"/>
+    <string id="Abørn" text="Abørn"/>
+    <string id="Abraam" text="Abraam"/>
+    <string id="Abrahaam" text="Abrahaam"/>
+    <string id="Abraham" text="Abraham"/>
+    <string id="Abrahm" text="Abrahm"/>
+    <string id="Abram" text="Abram"/>
+    <string id="Abrham" text="Abrham"/>
+    <string id="Absalon" text="Absalon"/>
+    <string id="Abso" text="Abso"/>
+    <string id="Absolon" text="Absolon"/>
+    <string id="Abyorn" text="Abyorn"/>
+    <string id="Abyørn" text="Abyørn"/>
+    <string id="Abyrn" text="Abyrn"/>
+    <string id="Accarius" text="Accarius"/>
+    <string id="Acha" text="Acha"/>
+    <string id="Ache" text="Ache"/>
+    <string id="Acho" text="Acho"/>
+    <string id="Acilinus" text="Acilinus"/>
+    <string id="Acke" text="Acke"/>
+    <string id="Ackke" text="Ackke"/>
+    <string id="Aco" text="Aco"/>
+    <string id="Adalbert" text="Adalbert"/>
+    <string id="Adalbertus" text="Adalbertus"/>
+    <string id="Adaluarðær" text="Adaluarðær"/>
+    <string id="Adalvard" text="Adalvard"/>
+    <string id="Adalward" text="Adalward"/>
+    <string id="Adalwardus" text="Adalwardus"/>
+    <string id="Adalwarðþær" text="Adalwarðþær"/>
+    <string id="Adam" text="Adam"/>
+    <string id="Addæ" text="Addæ"/>
+    <string id="Adde" text="Adde"/>
+    <string id="Addhe" text="Addhe"/>
+    <string id="Addrian" text="Addrian"/>
+    <string id="Adelualder" text="Adelualder"/>
+    <string id="Adelwardh" text="Adelwardh"/>
+    <string id="Adelwardus" text="Adelwardus"/>
+    <string id="Adhels" text="Adhels"/>
+    <string id="Adhils" text="Adhils"/>
+    <string id="Adiærf" text="Adiærf"/>
+    <string id="Adiärf" text="Adiärf"/>
+    <string id="Adierff" text="Adierff"/>
+    <string id="Admundus" text="Admundus"/>
+    <string id="Adolf" text="Adolf"/>
+    <string id="Adrian" text="Adrian"/>
+    <string id="Adryan" text="Adryan"/>
+    <string id="Adulpho" text="Adulpho"/>
+    <string id="Adulphus" text="Adulphus"/>
+    <string id="Æbbe" text="Æbbe"/>
+    <string id="Ægwar" text="Ægwar"/>
+    <string id="Ælgh" text="Ælgh"/>
+    <string id="Ænbiorn" text="Ænbiorn"/>
+    <string id="Ærinbiorn" text="Ærinbiorn"/>
+    <string id="Æringer" text="Æringer"/>
+    <string id="Æringisl" text="Æringisl"/>
+    <string id="Ærinolf" text="Ærinolf"/>
+    <string id="Ærinvardh" text="Ærinvardh"/>
+    <string id="Ærinvidh" text="Ærinvidh"/>
+    <string id="Ærlænd" text="Ærlænd"/>
+    <string id="Ærland" text="Ærland"/>
+    <string id="Ærling" text="Ærling"/>
+    <string id="Ærmund" text="Ærmund"/>
+    <string id="Ærnbiorn" text="Ærnbiorn"/>
+    <string id="Ærnger" text="Ærnger"/>
+    <string id="Ærnils" text="Ærnils"/>
+    <string id="Ærnkil" text="Ærnkil"/>
+    <string id="Ærnmund" text="Ærnmund"/>
+    <string id="Ærnolf" text="Ærnolf"/>
+    <string id="Ærnvardh" text="Ærnvardh"/>
+    <string id="Ærnvast" text="Ærnvast"/>
+    <string id="Ærnvidh" text="Ærnvidh"/>
+    <string id="Æsbiorn" text="Æsbiorn"/>
+    <string id="Æsger" text="Æsger"/>
+    <string id="Æskil" text="Æskil"/>
+    <string id="Æskild" text="Æskild"/>
+    <string id="Æsvidh" text="Æsvidh"/>
+    <string id="Affrad" text="Affrad"/>
+    <string id="Affradh" text="Affradh"/>
+    <string id="Affradus" text="Affradus"/>
+    <string id="Afkar" text="Afkar"/>
+    <string id="Afkarus" text="Afkarus"/>
+    <string id="Afradh" text="Afradh"/>
+    <string id="Afradher" text="Afradher"/>
+    <string id="Afrath" text="Afrath"/>
+    <string id="Afwastus" text="Afwastus"/>
+    <string id="Agä" text="Agä"/>
+    <string id="Agæ" text="Agæ"/>
+    <string id="Age" text="Age"/>
+    <string id="Åge" text="Åge"/>
+    <string id="Agfast" text="Agfast"/>
+    <string id="Aggæ" text="Aggæ"/>
+    <string id="Agge" text="Agge"/>
+    <string id="Agghæ" text="Agghæ"/>
+    <string id="Aggi" text="Aggi"/>
+    <string id="Aggo" text="Aggo"/>
+    <string id="Aghä" text="Aghä"/>
+    <string id="Aghæ" text="Aghæ"/>
+    <string id="Aghe" text="Aghe"/>
+    <string id="Aghen" text="Aghen"/>
+    <string id="Aghi" text="Aghi"/>
+    <string id="Aghmund" text="Aghmund"/>
+    <string id="Aghmunder" text="Aghmunder"/>
+    <string id="Aghmundur" text="Aghmundur"/>
+    <string id="Aghmundus" text="Aghmundus"/>
+    <string id="Agho" text="Agho"/>
+    <string id="Aghvardh" text="Aghvardh"/>
+    <string id="Aghvidh" text="Aghvidh"/>
+    <string id="Agi" text="Agi"/>
+    <string id="Agimundus" text="Agimundus"/>
+    <string id="Agisl" text="Agisl"/>
+    <string id="Agmund" text="Agmund"/>
+    <string id="Agmunder" text="Agmunder"/>
+    <string id="Agmundh" text="Agmundh"/>
+    <string id="Agmundher" text="Agmundher"/>
+    <string id="Agmundir" text="Agmundir"/>
+    <string id="Agmundo" text="Agmundo"/>
+    <string id="Agmundr" text="Agmundr"/>
+    <string id="Agmunðr" text="Agmunðr"/>
+    <string id="Agmundus" text="Agmundus"/>
+    <string id="Agmwnd" text="Agmwnd"/>
+    <string id="Agne" text="Agne"/>
+    <string id="Ago" text="Ago"/>
+    <string id="Agur" text="Agur"/>
+    <string id="Agus" text="Agus"/>
+    <string id="Agvardus" text="Agvardus"/>
+    <string id="Ägwar" text="Ägwar"/>
+    <string id="Agy" text="Agy"/>
+    <string id="Aimundus" text="Aimundus"/>
+    <string id="Aka" text="Aka"/>
+    <string id="Akä" text="Akä"/>
+    <string id="Äkä" text="Äkä"/>
+    <string id="Akæ" text="Akæ"/>
+    <string id="Akarius" text="Akarius"/>
+    <string id="Ake" text="Ake"/>
+    <string id="Åke" text="Åke"/>
+    <string id="Akee" text="Akee"/>
+    <string id="Aki" text="Aki"/>
+    <string id="Akie" text="Akie"/>
+    <string id="Akj" text="Akj"/>
+    <string id="Akke" text="Akke"/>
+    <string id="Ako" text="Ako"/>
+    <string id="Akoo" text="Akoo"/>
+    <string id="Aky" text="Aky"/>
+    <string id="Alanus" text="Alanus"/>
+    <string id="Alar" text="Alar"/>
+    <string id="Alardus" text="Alardus"/>
+    <string id="Alarik" text="Alarik"/>
+    <string id="Alart" text="Alart"/>
+    <string id="Albart" text="Albart"/>
+    <string id="Alberd" text="Alberd"/>
+    <string id="Albero" text="Albero"/>
+    <string id="Albert" text="Albert"/>
+    <string id="Albertus" text="Albertus"/>
+    <string id="Alberus" text="Alberus"/>
+    <string id="Alboldus" text="Alboldus"/>
+    <string id="Albräc" text="Albräc"/>
+    <string id="Albräkt" text="Albräkt"/>
+    <string id="Albrech" text="Albrech"/>
+    <string id="Albrecht" text="Albrecht"/>
+    <string id="Albrect" text="Albrect"/>
+    <string id="Albred" text="Albred"/>
+    <string id="Albregt" text="Albregt"/>
+    <string id="Albrek" text="Albrek"/>
+    <string id="Albrekt" text="Albrekt"/>
+    <string id="Albret" text="Albret"/>
+    <string id="Albrett" text="Albrett"/>
+    <string id="Albreyt" text="Albreyt"/>
+    <string id="Albric" text="Albric"/>
+    <string id="Albricht" text="Albricht"/>
+    <string id="Albrict" text="Albrict"/>
+    <string id="Albricus" text="Albricus"/>
+    <string id="Albrikt" text="Albrikt"/>
+    <string id="Albrit" text="Albrit"/>
+    <string id="Albryc" text="Albryc"/>
+    <string id="Albrygth" text="Albrygth"/>
+    <string id="Albrykt" text="Albrykt"/>
+    <string id="Albryt" text="Albryt"/>
+    <string id="Ale" text="Ale"/>
+    <string id="Aledt" text="Aledt"/>
+    <string id="Alefant" text="Alefant"/>
+    <string id="Alegut" text="Alegut"/>
+    <string id="Alerd" text="Alerd"/>
+    <string id="Alerdt" text="Alerdt"/>
+    <string id="Alert" text="Alert"/>
+    <string id="Alesant" text="Alesant"/>
+    <string id="Alesantar" text="Alesantar"/>
+    <string id="Alexander" text="Alexander"/>
+    <string id="Alexius" text="Alexius"/>
+    <string id="Alf" text="Alf"/>
+    <string id="Alferth" text="Alferth"/>
+    <string id="Alffuer" text="Alffuer"/>
+    <string id="Alffuir" text="Alffuir"/>
+    <string id="Alffuor" text="Alffuor"/>
+    <string id="Alffwin" text="Alffwin"/>
+    <string id="Alfolsus" text="Alfolsus"/>
+    <string id="Alfonsus" text="Alfonsus"/>
+    <string id="Alfradus" text="Alfradus"/>
+    <string id="Alfuer" text="Alfuer"/>
+    <string id="Alfvold" text="Alfvold"/>
+    <string id="Alfwardus" text="Alfwardus"/>
+    <string id="Äringer" text="Äringer"/>
+    <string id="Äringisle" text="Äringisle"/>
+    <string id="Ärmund" text="Ärmund"/>
+    <string id="Ärnfast" text="Ärnfast"/>
+    <string id="Ärnger" text="Ärnger"/>
+    <string id="Ärnlef" text="Ärnlef"/>
+    <string id="Ärnmund" text="Ärnmund"/>
+    <string id="Ärnulf" text="Ärnulf"/>
+    <string id="Ärnvardh" text="Ärnvardh"/>
+    <string id="Ärnvast" text="Ärnvast"/>
+    <string id="Ärnvidh" text="Ärnvidh"/>
+    <string id="Äsbjörn" text="Äsbjörn"/>
+    <string id="Åste" text="Åste"/>
+    <string id="Labbe" text="Labbe"/>
+    <string id="Lafse" text="Lafse"/>
+    <string id="Lage" text="Lage"/>
+    <string id="Lagho" text="Lagho"/>
+    <string id="Lambert" text="Lambert"/>
+    <string id="Lambertus" text="Lambertus"/>
+    <string id="Lambrekt" text="Lambrekt"/>
+    <string id="Larens" text="Larens"/>
+    <string id="Lares" text="Lares"/>
+    <string id="Laris" text="Laris"/>
+    <string id="Lars" text="Lars"/>
+    <string id="Las" text="Las"/>
+    <string id="Lasse" text="Lasse"/>
+    <string id="Laurencius" text="Laurencius"/>
+    <string id="Laurens" text="Laurens"/>
+    <string id="Laurentius" text="Laurentius"/>
+    <string id="Laures" text="Laures"/>
+    <string id="Lauris" text="Lauris"/>
+    <string id="Lauritz" text="Lauritz"/>
+    <string id="Lechardus" text="Lechardus"/>
+    <string id="Lek" text="Lek"/>
+    <string id="Leksten" text="Leksten"/>
+    <string id="Lennart" text="Lennart"/>
+    <string id="Leonardus" text="Leonardus"/>
+    <string id="Libbe" text="Libbe"/>
+    <string id="Lifsten" text="Lifsten"/>
+    <string id="Liknatus" text="Liknatus"/>
+    <string id="Likvidh" text="Likvidh"/>
+    <string id="Lille" text="Lille"/>
+    <string id="Linder" text="Linder"/>
+    <string id="Lindor" text="Lindor"/>
+    <string id="Lindorm" text="Lindorm"/>
+    <string id="Lindvardh" text="Lindvardh"/>
+    <string id="Lindvid" text="Lindvid"/>
+    <string id="Lindvidh" text="Lindvidh"/>
+    <string id="Linnar" text="Linnar"/>
+    <string id="Lisman" text="Lisman"/>
+    <string id="Litle" text="Litle"/>
+    <string id="Lizle" text="Lizle"/>
+    <string id="Ljunge" text="Ljunge"/>
+    <string id="Lludechinus" text="Lludechinus"/>
+    <string id="Lodwig" text="Lodwig"/>
+    <string id="Lodwik" text="Lodwik"/>
+    <string id="Lokk" text="Lokk"/>
+    <string id="Lokke" text="Lokke"/>
+    <string id="Lucas" text="Lucas"/>
+    <string id="Lüdeka" text="Lüdeka"/>
+    <string id="Ludhin" text="Ludhin"/>
+    <string id="Lydekin" text="Lydekin"/>
+    <string id="Lydhær" text="Lydhær"/>
+    <string id="Lydika" text="Lydika"/>
+    <string id="Madz" text="Madz"/>
+    <string id="Mæghinbiorn" text="Mæghinbiorn"/>
+    <string id="Maens" text="Maens"/>
+    <string id="Maghens" text="Maghens"/>
+    <string id="Maghons" text="Maghons"/>
+    <string id="Mäginvast" text="Mäginvast"/>
+    <string id="Magnus" text="Magnus"/>
+    <string id="Magons" text="Magons"/>
+    <string id="Mane" text="Mane"/>
+    <string id="Manne" text="Manne"/>
+    <string id="Mans" text="Mans"/>
+    <string id="Måns" text="Måns"/>
+    <string id="Maons" text="Maons"/>
+    <string id="Marchus" text="Marchus"/>
+    <string id="Marcus" text="Marcus"/>
+    <string id="Markor" text="Markor"/>
+    <string id="Markward" text="Markward"/>
+    <string id="Marquardus" text="Marquardus"/>
+    <string id="Marten" text="Marten"/>
+    <string id="Mårten" text="Mårten"/>
+    <string id="Marthin" text="Marthin"/>
+    <string id="Martin" text="Martin"/>
+    <string id="Martinus" text="Martinus"/>
+    <string id="Mats" text="Mats"/>
+    <string id="Matteus" text="Matteus"/>
+    <string id="Mattias" text="Mattias"/>
+    <string id="Mattis" text="Mattis"/>
+    <string id="Mattiss" text="Mattiss"/>
+    <string id="Matts" text="Matts"/>
+    <string id="Matz" text="Matz"/>
+    <string id="Mauritius" text="Mauritius"/>
+    <string id="Mauritz" text="Mauritz"/>
+    <string id="Mawens" text="Mawens"/>
+    <string id="Mekel" text="Mekel"/>
+    <string id="Melcher" text="Melcher"/>
+    <string id="Melchior" text="Melchior"/>
+    <string id="Menart" text="Menart"/>
+    <string id="Menarth" text="Menarth"/>
+    <string id="Merten" text="Merten"/>
+    <string id="Michael" text="Michael"/>
+    <string id="Michæl" text="Michæl"/>
+    <string id="Michel" text="Michel"/>
+    <string id="Mickel" text="Mickel"/>
+    <string id="Mickil" text="Mickil"/>
+    <string id="Mikel" text="Mikel"/>
+    <string id="Mogenss" text="Mogenss"/>
+    <string id="Mons" text="Mons"/>
+    <string id="Monulf" text="Monulf"/>
+    <string id="Moritz" text="Moritz"/>
+    <string id="Morten" text="Morten"/>
+    <string id="Morthen" text="Morthen"/>
+    <string id="Mule" text="Mule"/>
+    <string id="Mundo" text="Mundo"/>
+    <string id="Mýr" text="Mýr"/>
+    <string id="Myskia" text="Myskia"/>
+    <string id="Nænnir" text="Nænnir"/>
+    <string id="Næsbernus" text="Næsbernus"/>
+    <string id="Næsbiörn" text="Næsbiörn"/>
+    <string id="Næskonung" text="Næskonung"/>
+    <string id="Næstr" text="Næstr"/>
+    <string id="Næve" text="Næve"/>
+    <string id="Nafne" text="Nafne"/>
+    <string id="Nakke" text="Nakke"/>
+    <string id="Nanne" text="Nanne"/>
+    <string id="Nanno" text="Nanno"/>
+    <string id="Nannulf" text="Nannulf"/>
+    <string id="Näsbiorn" text="Näsbiorn"/>
+    <string id="Näsbiörn" text="Näsbiörn"/>
+    <string id="Nase" text="Nase"/>
+    <string id="Nels" text="Nels"/>
+    <string id="Nicholao" text="Nicholao"/>
+    <string id="Nicholaus" text="Nicholaus"/>
+    <string id="Nickles" text="Nickles"/>
+    <string id="Niclæs" text="Niclæs"/>
+    <string id="Niclas" text="Niclas"/>
+    <string id="Nicles" text="Nicles"/>
+    <string id="Niclis" text="Niclis"/>
+    <string id="Nicolaus" text="Nicolaus"/>
+    <string id="Niels" text="Niels"/>
+    <string id="Nighils" text="Nighils"/>
+    <string id="Nigles" text="Nigles"/>
+    <string id="Nikels" text="Nikels"/>
+    <string id="Niklas" text="Niklas"/>
+    <string id="Niklis" text="Niklis"/>
+    <string id="Nikodemus" text="Nikodemus"/>
+    <string id="Nikulas" text="Nikulas"/>
+    <string id="Nilis" text="Nilis"/>
+    <string id="Nils" text="Nils"/>
+    <string id="Nilss" text="Nilss"/>
+    <string id="Nis" text="Nis"/>
+    <string id="Nisse" text="Nisse"/>
+    <string id="Nokke" text="Nokke"/>
+    <string id="Nordman" text="Nordman"/>
+    <string id="Nycolaus" text="Nycolaus"/>
+    <string id="Obbe" text="Obbe"/>
+    <string id="Od" text="Od"/>
+    <string id="Ödbjörn" text="Ödbjörn"/>
+    <string id="Odd" text="Odd"/>
+    <string id="Odde" text="Odde"/>
+    <string id="Odder" text="Odder"/>
+    <string id="Oddolf" text="Oddolf"/>
+    <string id="Oddulf" text="Oddulf"/>
+    <string id="Ödger" text="Ödger"/>
+    <string id="Ödhbiorn" text="Ödhbiorn"/>
+    <string id="Ødhbiorn" text="Ødhbiorn"/>
+    <string id="Ödhe" text="Ödhe"/>
+    <string id="Ødhe" text="Ødhe"/>
+    <string id="Odhenkarl" text="Odhenkarl"/>
+    <string id="Ödhger" text="Ödhger"/>
+    <string id="Ødhger" text="Ødhger"/>
+    <string id="Ödhgils" text="Ödhgils"/>
+    <string id="Ødhgisl" text="Ødhgisl"/>
+    <string id="Ödhgrim" text="Ödhgrim"/>
+    <string id="Ødhgrim" text="Ødhgrim"/>
+    <string id="Odhin" text="Odhin"/>
+    <string id="Ödhin" text="Ödhin"/>
+    <string id="Ødhin" text="Ødhin"/>
+    <string id="Ödhmar" text="Ödhmar"/>
+    <string id="Ödhmund" text="Ödhmund"/>
+    <string id="Ødhmund" text="Ødhmund"/>
+    <string id="Ödholf" text="Ödholf"/>
+    <string id="Ødholf" text="Ødholf"/>
+    <string id="Ödhsten" text="Ödhsten"/>
+    <string id="Ødhsten" text="Ødhsten"/>
+    <string id="Ödhulf" text="Ödhulf"/>
+    <string id="Ödhvald" text="Ödhvald"/>
+    <string id="Ødhvald" text="Ødhvald"/>
+    <string id="Ödhvast" text="Ödhvast"/>
+    <string id="Ödhvidh" text="Ödhvidh"/>
+    <string id="Ødhvidh" text="Ødhvidh"/>
+    <string id="Odinkar" text="Odinkar"/>
+    <string id="Ödmar" text="Ödmar"/>
+    <string id="Ödmund" text="Ödmund"/>
+    <string id="Odmundus" text="Odmundus"/>
+    <string id="Odowater" text="Odowater"/>
+    <string id="Ödriiaz" text="Ödriiaz"/>
+    <string id="Ødriiaz" text="Ødriiaz"/>
+    <string id="Odulphus" text="Odulphus"/>
+    <string id="Ofegh" text="Ofegh"/>
+    <string id="Offæ" text="Offæ"/>
+    <string id="Offe" text="Offe"/>
+    <string id="Ofrad" text="Ofrad"/>
+    <string id="Ofradh" text="Ofradh"/>
+    <string id="Ogæ" text="Ogæ"/>
+    <string id="Oge" text="Oge"/>
+    <string id="Ögge" text="Ögge"/>
+    <string id="Oghæ" text="Oghæ"/>
+    <string id="Oghe" text="Oghe"/>
+    <string id="Oghmund" text="Oghmund"/>
+    <string id="Ogmunder" text="Ogmunder"/>
+    <string id="Ogy" text="Ogy"/>
+    <string id="Øiar" text="Øiar"/>
+    <string id="Øiolf" text="Øiolf"/>
+    <string id="Öiulf" text="Öiulf"/>
+    <string id="Öjulf" text="Öjulf"/>
+    <string id="Okä" text="Okä"/>
+    <string id="Okæ" text="Okæ"/>
+    <string id="Oke" text="Oke"/>
+    <string id="Ola" text="Ola"/>
+    <string id="Olaf" text="Olaf"/>
+    <string id="Ølaf" text="Ølaf"/>
+    <string id="Olaff" text="Olaff"/>
+    <string id="Olauer" text="Olauer"/>
+    <string id="Olaus" text="Olaus"/>
+    <string id="Olav" text="Olav"/>
+    <string id="Ole" text="Ole"/>
+    <string id="Olef" text="Olef"/>
+    <string id="Oleff" text="Oleff"/>
+    <string id="Olf" text="Olf"/>
+    <string id="Olle" text="Olle"/>
+    <string id="Olof" text="Olof"/>
+    <string id="Oluf" text="Oluf"/>
+    <string id="Oluff" text="Oluff"/>
+    <string id="Ølver" text="Ølver"/>
+    <string id="Ømund" text="Ømund"/>
+    <string id="Onas" text="Onas"/>
+    <string id="Önd" text="Önd"/>
+    <string id="Ønd" text="Ønd"/>
+    <string id="Önder" text="Önder"/>
+    <string id="Ookä" text="Ookä"/>
+    <string id="Ored" text="Ored"/>
+    <string id="Oreste" text="Oreste"/>
+    <string id="Örian" text="Örian"/>
+    <string id="Øricus" text="Øricus"/>
+    <string id="Örien" text="Örien"/>
+    <string id="Örik" text="Örik"/>
+    <string id="Orikkia" text="Orikkia"/>
+    <string id="Orikus" text="Orikus"/>
+    <string id="Øring" text="Øring"/>
+    <string id="Orm" text="Orm"/>
+    <string id="Ormar" text="Ormar"/>
+    <string id="Ormger" text="Ormger"/>
+    <string id="Ormolf" text="Ormolf"/>
+    <string id="Ormsten" text="Ormsten"/>
+    <string id="Ormulf" text="Ormulf"/>
+    <string id="Ørn" text="Ørn"/>
+    <string id="Orre" text="Orre"/>
+    <string id="Østen" text="Østen"/>
+    <string id="Östman" text="Östman"/>
+    <string id="Østman" text="Østman"/>
+    <string id="Østulf" text="Østulf"/>
+    <string id="Övald" text="Övald"/>
+    <string id="Övidher" text="Övidher"/>
+    <string id="Övind" text="Övind"/>
+    <string id="Øvind" text="Øvind"/>
+    <string id="Öþin" text="Öþin"/>
+    <string id="Säbiorn" text="Säbiorn"/>
+    <string id="Säbjörn" text="Säbjörn"/>
+    <string id="Sæbbe" text="Sæbbe"/>
+    <string id="Sæbiorn" text="Sæbiorn"/>
+    <string id="Sædiærf" text="Sædiærf"/>
+    <string id="Sæmund" text="Sæmund"/>
+    <string id="Sæve" text="Sæve"/>
+    <string id="Säfast" text="Säfast"/>
+    <string id="Sävald" text="Sävald"/>
+    <string id="Siælve" text="Siælve"/>
+    <string id="Sighulf" text="Sighulf"/>
+    <string id="Sighurdh" text="Sighurdh"/>
+    <string id="Sighus" text="Sighus"/>
+    <string id="Sighvardh" text="Sighvardh"/>
+    <string id="Sighvast" text="Sighvast"/>
+    <string id="Sighvat" text="Sighvat"/>
+    <string id="Sighvidh" text="Sighvidh"/>
+    <string id="Signiut" text="Signiut"/>
+    <string id="Signjut" text="Signjut"/>
+    <string id="Sigrik" text="Sigrik"/>
+    <string id="Sigrödh" text="Sigrödh"/>
+    <string id="Sigsten" text="Sigsten"/>
+    <string id="Sigthor" text="Sigthor"/>
+    <string id="Sigulf" text="Sigulf"/>
+    <string id="Sigvald" text="Sigvald"/>
+    <string id="Sigvat" text="Sigvat"/>
+    <string id="Sigvidh" text="Sigvidh"/>
+    <string id="Sigwidh" text="Sigwidh"/>
+    <string id="Sihgstanus" text="Sihgstanus"/>
+    <string id="Silvast" text="Silvast"/>
+    <string id="Silvester" text="Silvester"/>
+    <string id="Simme" text="Simme"/>
+    <string id="Simon" text="Simon"/>
+    <string id="Simpa" text="Simpa"/>
+    <string id="Sinolfver" text="Sinolfver"/>
+    <string id="Sinolfwer" text="Sinolfwer"/>
+    <string id="Siovald" text="Siovald"/>
+    <string id="Siovast" text="Siovast"/>
+    <string id="Siunde" text="Siunde"/>
+    <string id="Siurd" text="Siurd"/>
+    <string id="Sivert" text="Sivert"/>
+    <string id="Siwaldh" text="Siwaldh"/>
+    <string id="Sixten" text="Sixten"/>
+    <string id="Skægge" text="Skægge"/>
+    <string id="Skærlak" text="Skærlak"/>
+    <string id="Skaghi" text="Skaghi"/>
+    <string id="Skakle" text="Skakle"/>
+    <string id="Skald" text="Skald"/>
+    <string id="Skalde" text="Skalde"/>
+    <string id="Skaldo" text="Skaldo"/>
+    <string id="Skalle" text="Skalle"/>
+    <string id="Skamhals" text="Skamhals"/>
+    <string id="Skardhe" text="Skardhe"/>
+    <string id="Skarpe" text="Skarpe"/>
+    <string id="Skogh" text="Skogh"/>
+    <string id="Skoghe" text="Skoghe"/>
+    <string id="Skule" text="Skule"/>
+    <string id="Slodhe" text="Slodhe"/>
+    <string id="Smidh" text="Smidh"/>
+    <string id="Snare" text="Snare"/>
+    <string id="Sommar" text="Sommar"/>
+    <string id="Sone" text="Sone"/>
+    <string id="Sören" text="Sören"/>
+    <string id="Sot" text="Sot"/>
+    <string id="Sote" text="Sote"/>
+    <string id="Spa" text="Spa"/>
+    <string id="Spak" text="Spak"/>
+    <string id="Spake" text="Spake"/>
+    <string id="Spiælbodhi" text="Spiælbodhi"/>
+    <string id="Spiælle" text="Spiælle"/>
+    <string id="Spirv" text="Spirv"/>
+    <string id="Spiut" text="Spiut"/>
+    <string id="Spørv" text="Spørv"/>
+    <string id="Staffan" text="Staffan"/>
+    <string id="Stak" text="Stak"/>
+    <string id="Stake" text="Stake"/>
+    <string id="Stale" text="Stale"/>
+    <string id="Stapfan" text="Stapfan"/>
+    <string id="Star" text="Star"/>
+    <string id="Stare" text="Stare"/>
+    <string id="Starke" text="Starke"/>
+    <string id="Starre" text="Starre"/>
+    <string id="Stellan" text="Stellan"/>
+    <string id="Sten" text="Sten"/>
+    <string id="Stenar" text="Stenar"/>
+    <string id="Stenbiorn" text="Stenbiorn"/>
+    <string id="Stenfinn" text="Stenfinn"/>
+    <string id="Stenkil" text="Stenkil"/>
+    <string id="Stenolf" text="Stenolf"/>
+    <string id="Stenulf" text="Stenulf"/>
+    <string id="Stenvast" text="Stenvast"/>
+    <string id="Stephanus" text="Stephanus"/>
+    <string id="Stig" text="Stig"/>
+    <string id="Stigher" text="Stigher"/>
+    <string id="Stigulf" text="Stigulf"/>
+    <string id="Stødhing" text="Stødhing"/>
+    <string id="Storbjörn" text="Storbjörn"/>
+    <string id="Störbjörn" text="Störbjörn"/>
+    <string id="Store" text="Store"/>
+    <string id="Storlach" text="Storlach"/>
+    <string id="Sture" text="Sture"/>
+    <string id="Stybbe" text="Stybbe"/>
+    <string id="Styfeldus" text="Styfeldus"/>
+    <string id="Styr" text="Styr"/>
+    <string id="Styrbiorn" text="Styrbiorn"/>
+    <string id="Styreman" text="Styreman"/>
+    <string id="Styrger" text="Styrger"/>
+    <string id="Styrkar" text="Styrkar"/>
+    <string id="Styrløgh" text="Styrløgh"/>
+    <string id="Styrman" text="Styrman"/>
+    <string id="Styrvast" text="Styrvast"/>
+    <string id="Suen" text="Suen"/>
+    <string id="Sune" text="Sune"/>
+    <string id="Sunvidh" text="Sunvidh"/>
+    <string id="Sutare" text="Sutare"/>
+    <string id="Sværker" text="Sværker"/>
+    <string id="Sværkil" text="Sværkil"/>
+    <string id="Sværting" text="Sværting"/>
+    <string id="Svante" text="Svante"/>
+    <string id="Svantepolk" text="Svantepolk"/>
+    <string id="Svantopolk" text="Svantopolk"/>
+    <string id="Svarald" text="Svarald"/>
+    <string id="Svärke" text="Svärke"/>
+    <string id="Svärkir" text="Svärkir"/>
+    <string id="Svart" text="Svart"/>
+    <string id="Svarte" text="Svarte"/>
+    <string id="Svartger" text="Svartger"/>
+    <string id="Svarthövde" text="Svarthövde"/>
+    <string id="Svarthovdhe" text="Svarthovdhe"/>
+    <string id="Svavar" text="Svavar"/>
+    <string id="Sven" text="Sven"/>
+    <string id="Svenald" text="Svenald"/>
+    <string id="Svening" text="Svening"/>
+    <string id="Svenke" text="Svenke"/>
+    <string id="Svente" text="Svente"/>
+    <string id="Svenung" text="Svenung"/>
+    <string id="Sverkel" text="Sverkel"/>
+    <string id="Sverkil" text="Sverkil"/>
+    <string id="Swäning" text="Swäning"/>
+    <string id="Swarte" text="Swarte"/>
+    <string id="Swarthe" text="Swarthe"/>
+    <string id="Swen" text="Swen"/>
+    <string id="Symon" text="Symon"/>
+    <string id="Syxsten" text="Syxsten"/>
+    <string id="Tate" text="Tate"/>
+    <string id="Tavast" text="Tavast"/>
+    <string id="Theodorus" text="Theodorus"/>
+    <string id="Thiægn" text="Thiægn"/>
+    <string id="Thiælvar" text="Thiælvar"/>
+    <string id="Thiälvar" text="Thiälvar"/>
+    <string id="Thiälve" text="Thiälve"/>
+    <string id="Thielvar" text="Thielvar"/>
+    <string id="Thingbiorn" text="Thingbiorn"/>
+    <string id="Thingfast" text="Thingfast"/>
+    <string id="Thingger" text="Thingger"/>
+    <string id="Thingulf" text="Thingulf"/>
+    <string id="Thingvar" text="Thingvar"/>
+    <string id="Thingvast" text="Thingvast"/>
+    <string id="Thiok" text="Thiok"/>
+    <string id="Thiudhger" text="Thiudhger"/>
+    <string id="Thiudhsten" text="Thiudhsten"/>
+    <string id="Thiudhulf" text="Thiudhulf"/>
+    <string id="Tholf" text="Tholf"/>
+    <string id="Thomas" text="Thomas"/>
+    <string id="Thorald" text="Thorald"/>
+    <string id="Thorbärg" text="Thorbärg"/>
+    <string id="Thorbern" text="Thorbern"/>
+    <string id="Thorbernus" text="Thorbernus"/>
+    <string id="Thorbiorn" text="Thorbiorn"/>
+    <string id="Thorbørn" text="Thorbørn"/>
+    <string id="Thord" text="Thord"/>
+    <string id="Thordh" text="Thordh"/>
+    <string id="Thordher" text="Thordher"/>
+    <string id="Thordo" text="Thordo"/>
+    <string id="Thore" text="Thore"/>
+    <string id="Thorer" text="Thorer"/>
+    <string id="Thorfast" text="Thorfast"/>
+    <string id="Thorfin" text="Thorfin"/>
+    <string id="Thorfridh" text="Thorfridh"/>
+    <string id="Thorgardh" text="Thorgardh"/>
+    <string id="Thorger" text="Thorger"/>
+    <string id="Thorgils" text="Thorgils"/>
+    <string id="Thorgisl" text="Thorgisl"/>
+    <string id="Thorgny" text="Thorgny"/>
+    <string id="Thorgot" text="Thorgot"/>
+    <string id="Thorgrim" text="Thorgrim"/>
+    <string id="Thorgut" text="Thorgut"/>
+    <string id="Thorhvat" text="Thorhvat"/>
+    <string id="Thorirus" text="Thorirus"/>
+    <string id="Thorketil" text="Thorketil"/>
+    <string id="Thorkil" text="Thorkil"/>
+    <string id="Thorlak" text="Thorlak"/>
+    <string id="Thorlef" text="Thorlef"/>
+    <string id="Thorløgh" text="Thorløgh"/>
+    <string id="Thormodh" text="Thormodh"/>
+    <string id="Thormund" text="Thormund"/>
+    <string id="Thorn" text="Thorn"/>
+    <string id="Thorniut" text="Thorniut"/>
+    <string id="Thorolf" text="Thorolf"/>
+    <string id="Thorsten" text="Thorsten"/>
+    <string id="Thorulf" text="Thorulf"/>
+    <string id="Thorvald" text="Thorvald"/>
+    <string id="Thorvast" text="Thorvast"/>
+    <string id="Thorvat" text="Thorvat"/>
+    <string id="Thorvidh" text="Thorvidh"/>
+    <string id="Thosten" text="Thosten"/>
+    <string id="Thrond" text="Thrond"/>
+    <string id="Throtte" text="Throtte"/>
+    <string id="Thrued" text="Thrued"/>
+    <string id="Thrugillus" text="Thrugillus"/>
+    <string id="Thulerus" text="Thulerus"/>
+    <string id="Thure" text="Thure"/>
+    <string id="Thurer" text="Thurer"/>
+    <string id="Thyke" text="Thyke"/>
+    <string id="Thyrger" text="Thyrger"/>
+    <string id="Thyrghils" text="Thyrghils"/>
+    <string id="Thyrgils" text="Thyrgils"/>
+    <string id="Thyrgisl" text="Thyrgisl"/>
+    <string id="Thyrnir" text="Thyrnir"/>
+    <string id="Tiburtius" text="Tiburtius"/>
+    <string id="Tideke" text="Tideke"/>
+    <string id="Tideman" text="Tideman"/>
+    <string id="Tidemann" text="Tidemann"/>
+    <string id="Tidheca" text="Tidheca"/>
+    <string id="Tidika" text="Tidika"/>
+    <string id="Tileman" text="Tileman"/>
+    <string id="Tiløgh" text="Tiløgh"/>
+    <string id="Tjälve" text="Tjälve"/>
+    <string id="Tobbe" text="Tobbe"/>
+    <string id="Tobias" text="Tobias"/>
+    <string id="Toke" text="Toke"/>
+    <string id="Tole" text="Tole"/>
+    <string id="Tolle" text="Tolle"/>
+    <string id="Toma" text="Toma"/>
+    <string id="Tomas" text="Tomas"/>
+    <string id="Tönis" text="Tönis"/>
+    <string id="Tönius" text="Tönius"/>
+    <string id="Tönne" text="Tönne"/>
+    <string id="Tönnes" text="Tönnes"/>
+    <string id="Tönnis" text="Tönnis"/>
+    <string id="Torbern" text="Torbern"/>
+    <string id="Torbernus" text="Torbernus"/>
+    <string id="Torbiorn" text="Torbiorn"/>
+    <string id="Tord" text="Tord"/>
+    <string id="Tørgils" text="Tørgils"/>
+    <string id="Torgisl" text="Torgisl"/>
+    <string id="Toste" text="Toste"/>
+    <string id="Tote" text="Tote"/>
+    <string id="Totte" text="Totte"/>
+    <string id="Tove" text="Tove"/>
+    <string id="Trana" text="Trana"/>
+    <string id="Trion" text="Trion"/>
+    <string id="Troels" text="Troels"/>
+    <string id="Trøgels" text="Trøgels"/>
+    <string id="Troghed" text="Troghed"/>
+    <string id="Truels" text="Truels"/>
+    <string id="Trughed" text="Trughed"/>
+    <string id="Trygge" text="Trygge"/>
+    <string id="Tubbe" text="Tubbe"/>
+    <string id="Tuke" text="Tuke"/>
+    <string id="Tulo" text="Tulo"/>
+    <string id="Tune" text="Tune"/>
+    <string id="Ture" text="Ture"/>
+    <string id="Tuve" text="Tuve"/>
+    <string id="Twle" text="Twle"/>
+    <string id="Twue" text="Twue"/>
+    <string id="Tydika" text="Tydika"/>
+    <string id="Tyke" text="Tyke"/>
+    <string id="Tyrger" text="Tyrger"/>
+    <string id="Tzule" text="Tzule"/>
+    <string id="Ubbe" text="Ubbe"/>
+    <string id="Ubbo" text="Ubbo"/>
+    <string id="Ud" text="Ud"/>
+    <string id="Udd" text="Udd"/>
+    <string id="Udde" text="Udde"/>
+    <string id="Udder" text="Udder"/>
+    <string id="Uddger" text="Uddger"/>
+    <string id="Uddo" text="Uddo"/>
+    <string id="Uddolf" text="Uddolf"/>
+    <string id="Uddorm" text="Uddorm"/>
+    <string id="Uddulf" text="Uddulf"/>
+    <string id="Uffe" text="Uffe"/>
+    <string id="Ugge" text="Ugge"/>
+    <string id="Ulf" text="Ulf"/>
+    <string id="Ulfbiorn" text="Ulfbiorn"/>
+    <string id="Ulfger" text="Ulfger"/>
+    <string id="Ulfhard" text="Ulfhard"/>
+    <string id="Ulfhidhin" text="Ulfhidhin"/>
+    <string id="Ulfrik" text="Ulfrik"/>
+    <string id="Ulfvidh" text="Ulfvidh"/>
+    <string id="Ulrik" text="Ulrik"/>
+    <string id="Ulv" text="Ulv"/>
+    <string id="Ulvar" text="Ulvar"/>
+    <string id="Une" text="Une"/>
+    <string id="Unge" text="Unge"/>
+    <string id="Uni" text="Uni"/>
+    <string id="Unne" text="Unne"/>
+    <string id="Unnolf" text="Unnolf"/>
+    <string id="Unnulf" text="Unnulf"/>
+    <string id="Uno" text="Uno"/>
+    <string id="Urban" text="Urban"/>
+    <string id="Väbiorn" text="Väbiorn"/>
+    <string id="Vædher" text="Vædher"/>
+    <string id="Væmund" text="Væmund"/>
+    <string id="Væne" text="Væne"/>
+    <string id="Væsten" text="Væsten"/>
+    <string id="Vævast" text="Vævast"/>
+    <string id="Vafri" text="Vafri"/>
+    <string id="Vaghn" text="Vaghn"/>
+    <string id="Vakre" text="Vakre"/>
+    <string id="Valdemar" text="Valdemar"/>
+    <string id="Valderus" text="Valderus"/>
+    <string id="Vale" text="Vale"/>
+    <string id="Valentin" text="Valentin"/>
+    <string id="Vallemar" text="Vallemar"/>
+    <string id="Vallmar" text="Vallmar"/>
+    <string id="Valter" text="Valter"/>
+    <string id="Vämodh" text="Vämodh"/>
+    <string id="Vämund" text="Vämund"/>
+    <string id="Västen" text="Västen"/>
+    <string id="Velam" text="Velam"/>
+    <string id="Verner" text="Verner"/>
+    <string id="Vernika" text="Vernika"/>
+    <string id="Veseti" text="Veseti"/>
+    <string id="Veste" text="Veste"/>
+    <string id="Vibbe" text="Vibbe"/>
+    <string id="Vibiorn" text="Vibiorn"/>
+    <string id="Vibrand" text="Vibrand"/>
+    <string id="Vidhbiorn" text="Vidhbiorn"/>
+    <string id="Vidika" text="Vidika"/>
+    <string id="Vifast" text="Vifast"/>
+    <string id="Vigæst" text="Vigæst"/>
+    <string id="Vigar" text="Vigar"/>
+    <string id="Vigdiärf" text="Vigdiärf"/>
+    <string id="Viger" text="Viger"/>
+    <string id="Vigh" text="Vigh"/>
+    <string id="Vighbiorn" text="Vighbiorn"/>
+    <string id="Vighdiärf" text="Vighdiärf"/>
+    <string id="Vighe" text="Vighe"/>
+    <string id="Vighlek" text="Vighlek"/>
+    <string id="Vighman" text="Vighman"/>
+    <string id="Vighmar" text="Vighmar"/>
+    <string id="Vighmund" text="Vighmund"/>
+    <string id="Vighniut" text="Vighniut"/>
+    <string id="Vigholf" text="Vigholf"/>
+    <string id="Vighsten" text="Vighsten"/>
+    <string id="Vighulf" text="Vighulf"/>
+    <string id="Viglek" text="Viglek"/>
+    <string id="Vigmar" text="Vigmar"/>
+    <string id="Vigmund" text="Vigmund"/>
+    <string id="Vigniut" text="Vigniut"/>
+    <string id="Vigolf" text="Vigolf"/>
+    <string id="Vigsten" text="Vigsten"/>
+    <string id="Vigulf" text="Vigulf"/>
+    <string id="Viking" text="Viking"/>
+    <string id="Vilhelm" text="Vilhelm"/>
+    <string id="Villam" text="Villam"/>
+    <string id="Villar" text="Villar"/>
+    <string id="Vimund" text="Vimund"/>
+    <string id="Vinamannus" text="Vinamannus"/>
+    <string id="Vincent" text="Vincent"/>
+    <string id="Vincentz" text="Vincentz"/>
+    <string id="Vinter" text="Vinter"/>
+    <string id="Visäte" text="Visäte"/>
+    <string id="Vitick" text="Vitick"/>
+    <string id="Vivast" text="Vivast"/>
+    <string id="Vlf" text="Vlf"/>
+    <string id="Vlpho" text="Vlpho"/>
+    <string id="Volrat" text="Volrat"/>
+    <string id="Vrang" text="Vrang"/>
+    <string id="Vrange" text="Vrange"/>
+    <string id="Vredh" text="Vredh"/>
+    <string id="Waste" text="Waste"/>
+    <string id="Wäste" text="Wäste"/>
+    <string id="Weste" text="Weste"/>
+    <string id="Westo" text="Westo"/>
+    <string id="Wiar" text="Wiar"/>
+    <string id="Wilhelm" text="Wilhelm"/>
+    <string id="Wilkin" text="Wilkin"/>
+    <string id="Wlph" text="Wlph"/>
+    <string id="Wlpho" text="Wlpho"/>
+    <string id="Wollmar" text="Wollmar"/>
+    <string id="Ygge" text="Ygge"/>
+    <string id="Yrian" text="Yrian"/>
+    <string id="Yrien" text="Yrien"/>
+    <string id="Yryan" text="Yryan"/>
+    <string id="Ysaac" text="Ysaac"/>
+    <string id="Zacharias" text="Zacharias"/>
+    <string id="Abbelle" text="Abbelle"/>
+    <string id="Abbleka" text="Abbleka"/>
+    <string id="Abela" text="Abela"/>
+    <string id="Abele" text="Abele"/>
+    <string id="Abeleke" text="Abeleke"/>
+    <string id="Abelke" text="Abelke"/>
+    <string id="Accella" text="Accella"/>
+    <string id="Acelia" text="Acelia"/>
+    <string id="Adalissa" text="Adalissa"/>
+    <string id="Adalisza" text="Adalisza"/>
+    <string id="Adaliza" text="Adaliza"/>
+    <string id="Adelburgis" text="Adelburgis"/>
+    <string id="Adeliisse" text="Adeliisse"/>
+    <string id="Adeliisze" text="Adeliisze"/>
+    <string id="Adelissa" text="Adelissa"/>
+    <string id="Adelisza" text="Adelisza"/>
+    <string id="Adelitz" text="Adelitz"/>
+    <string id="Adelitza" text="Adelitza"/>
+    <string id="Adelitze" text="Adelitze"/>
+    <string id="Adelitzse" text="Adelitzse"/>
+    <string id="Adelixa" text="Adelixa"/>
+    <string id="Adeliza" text="Adeliza"/>
+    <string id="Adellissa" text="Adellissa"/>
+    <string id="Adhalissa" text="Adhalissa"/>
+    <string id="Adhalitzsa" text="Adhalitzsa"/>
+    <string id="Adhelburg" text="Adhelburg"/>
+    <string id="Adhelin" text="Adhelin"/>
+    <string id="Adhelissa" text="Adhelissa"/>
+    <string id="Adheliza" text="Adheliza"/>
+    <string id="Adhinlidhse" text="Adhinlidhse"/>
+    <string id="Adhlidhse" text="Adhlidhse"/>
+    <string id="Adis" text="Adis"/>
+    <string id="Adlitza" text="Adlitza"/>
+    <string id="Adlitze" text="Adlitze"/>
+    <string id="Adlize" text="Adlize"/>
+    <string id="Adriana" text="Adriana"/>
+    <string id="Adstilla" text="Adstilla"/>
+    <string id="Ænfridh" text="Ænfridh"/>
+    <string id="Ærinborgh" text="Ærinborgh"/>
+    <string id="Ærinfridh" text="Ærinfridh"/>
+    <string id="Æringærdh" text="Æringærdh"/>
+    <string id="Ærnborgh" text="Ærnborgh"/>
+    <string id="Ærndis" text="Ærndis"/>
+    <string id="Ærnfridh" text="Ærnfridh"/>
+    <string id="Ærngun" text="Ærngun"/>
+    <string id="Ærnløgh" text="Ærnløgh"/>
+    <string id="Æstridh" text="Æstridh"/>
+    <string id="Ætlitzæ" text="Ætlitzæ"/>
+    <string id="Afridh" text="Afridh"/>
+    <string id="Agada" text="Agada"/>
+    <string id="Agade" text="Agade"/>
+    <string id="Agata" text="Agata"/>
+    <string id="Agatha" text="Agatha"/>
+    <string id="Agathe" text="Agathe"/>
+    <string id="Agda" text="Agda"/>
+    <string id="Agdha" text="Agdha"/>
+    <string id="Agdis" text="Agdis"/>
+    <string id="Agfridh" text="Agfridh"/>
+    <string id="Aghada" text="Aghada"/>
+    <string id="Aghata" text="Aghata"/>
+    <string id="Agnæs" text="Agnæs"/>
+    <string id="Agnes" text="Agnes"/>
+    <string id="Agneta" text="Agneta"/>
+    <string id="Agnetæ" text="Agnetæ"/>
+    <string id="Agnete" text="Agnete"/>
+    <string id="Agnetha" text="Agnetha"/>
+    <string id="Agnethe" text="Agnethe"/>
+    <string id="Agniis" text="Agniis"/>
+    <string id="Agniiss" text="Agniiss"/>
+    <string id="Agnijs" text="Agnijs"/>
+    <string id="Agnis" text="Agnis"/>
+    <string id="Agnisa" text="Agnisa"/>
+    <string id="Agniss" text="Agniss"/>
+    <string id="Agnyss" text="Agnyss"/>
+    <string id="Aide" text="Aide"/>
+    <string id="Alba" text="Alba"/>
+    <string id="Albo" text="Albo"/>
+    <string id="Alborg" text="Alborg"/>
+    <string id="Alcha" text="Alcha"/>
+    <string id="Aledim" text="Aledim"/>
+    <string id="Aleida" text="Aleida"/>
+    <string id="Aleidis" text="Aleidis"/>
+    <string id="Aleka" text="Aleka"/>
+    <string id="Alet" text="Alet"/>
+    <string id="Aleta" text="Aleta"/>
+    <string id="Aleydis" text="Aleydis"/>
+    <string id="Alfred" text="Alfred"/>
+    <string id="Alfridh" text="Alfridh"/>
+    <string id="Algunna" text="Algunna"/>
+    <string id="Alhect" text="Alhect"/>
+    <string id="Alheid" text="Alheid"/>
+    <string id="Alidza" text="Alidza"/>
+    <string id="Alika" text="Alika"/>
+    <string id="Alise" text="Alise"/>
+    <string id="Alitza" text="Alitza"/>
+    <string id="Aliza" text="Aliza"/>
+    <string id="Alka" text="Alka"/>
+    <string id="Alldelisse" text="Alldelisse"/>
+    <string id="Allerdis" text="Allerdis"/>
+    <string id="Alletyt" text="Alletyt"/>
+    <string id="Alleydis" text="Alleydis"/>
+    <string id="Amma" text="Amma"/>
+    <string id="Ana" text="Ana"/>
+    <string id="Anborgh" text="Anborgh"/>
+    <string id="Angærdh" text="Angærdh"/>
+    <string id="Angnes" text="Angnes"/>
+    <string id="Angneta" text="Angneta"/>
+    <string id="Angnetha" text="Angnetha"/>
+    <string id="Angnita" text="Angnita"/>
+    <string id="Anna" text="Anna"/>
+    <string id="Anneke" text="Anneke"/>
+    <string id="Annika" text="Annika"/>
+    <string id="Arfridh" text="Arfridh"/>
+    <string id="Arna" text="Arna"/>
+    <string id="Ärna" text="Ärna"/>
+    <string id="Arnborgh" text="Arnborgh"/>
+    <string id="Ärndis" text="Ärndis"/>
+    <string id="Ärnfrid" text="Ärnfrid"/>
+    <string id="Arnfridh" text="Arnfridh"/>
+    <string id="Ärnfridh" text="Ärnfridh"/>
+    <string id="Arngærdh" text="Arngærdh"/>
+    <string id="Arngärdh" text="Arngärdh"/>
+    <string id="Ärngärdh" text="Ärngärdh"/>
+    <string id="Arngun" text="Arngun"/>
+    <string id="Ärngun" text="Ärngun"/>
+    <string id="Ärngunna" text="Ärngunna"/>
+    <string id="Arnhild" text="Arnhild"/>
+    <string id="Arnlög" text="Arnlög"/>
+    <string id="Ärnvi" text="Ärnvi"/>
+    <string id="Asa" text="Asa"/>
+    <string id="Asälf" text="Asälf"/>
+    <string id="Äsborg" text="Äsborg"/>
+    <string id="Ascelia" text="Ascelia"/>
+    <string id="Ascella" text="Ascella"/>
+    <string id="Asfridh" text="Asfridh"/>
+    <string id="Asfriþ" text="Asfriþ"/>
+    <string id="Asgärdh" text="Asgärdh"/>
+    <string id="Asgun" text="Asgun"/>
+    <string id="Asgunn" text="Asgunn"/>
+    <string id="Äshild" text="Äshild"/>
+    <string id="Aslaug" text="Aslaug"/>
+    <string id="Aslög" text="Aslög"/>
+    <string id="Asmodh" text="Asmodh"/>
+    <string id="Asrid" text="Asrid"/>
+    <string id="Asrun" text="Asrun"/>
+    <string id="Astelia" text="Astelia"/>
+    <string id="Ästrid" text="Ästrid"/>
+    <string id="Astridh" text="Astridh"/>
+    <string id="Astríþ" text="Astríþ"/>
+    <string id="Asvi" text="Asvi"/>
+    <string id="Athelbugh" text="Athelbugh"/>
+    <string id="Athelburgh" text="Athelburgh"/>
+    <string id="Athledis" text="Athledis"/>
+    <string id="Athlitze" text="Athlitze"/>
+    <string id="Atla" text="Atla"/>
+    <string id="Atleta" text="Atleta"/>
+    <string id="Atlissä" text="Atlissä"/>
+    <string id="Atlissæ" text="Atlissæ"/>
+    <string id="Ätlitzä" text="Ätlitzä"/>
+    <string id="Bærta" text="Bærta"/>
+    <string id="Barbara" text="Barbara"/>
+    <string id="Barbro" text="Barbro"/>
+    <string id="Barebra" text="Barebra"/>
+    <string id="Beata" text="Beata"/>
+    <string id="Beatrice" text="Beatrice"/>
+    <string id="Bencta" text="Bencta"/>
+    <string id="Benedicta" text="Benedicta"/>
+    <string id="Bengta" text="Bengta"/>
+    <string id="Benkta" text="Benkta"/>
+    <string id="Berta" text="Berta"/>
+    <string id="Birghitta" text="Birghitta"/>
+    <string id="Birgitta" text="Birgitta"/>
+    <string id="Birita" text="Birita"/>
+    <string id="Borgildha" text="Borgildha"/>
+    <string id="Borgunn" text="Borgunn"/>
+    <string id="Botheidh" text="Botheidh"/>
+    <string id="Bothilder" text="Bothilder"/>
+    <string id="Botild" text="Botild"/>
+    <string id="Botildis" text="Botildis"/>
+    <string id="Botvi" text="Botvi"/>
+    <string id="Brita" text="Brita"/>
+    <string id="Brynhild" text="Brynhild"/>
+    <string id="Byrghita" text="Byrghita"/>
+    <string id="Byrita" text="Byrita"/>
+    <string id="Cecilia" text="Cecilia"/>
+    <string id="Christina" text="Christina"/>
+    <string id="Clara" text="Clara"/>
+    <string id="Constantia" text="Constantia"/>
+    <string id="Cristin" text="Cristin"/>
+    <string id="Cristina" text="Cristina"/>
+    <string id="Cristine" text="Cristine"/>
+    <string id="Dorde" text="Dorde"/>
+    <string id="Dordi" text="Dordi"/>
+    <string id="Dordie" text="Dordie"/>
+    <string id="Dorede" text="Dorede"/>
+    <string id="Dorete" text="Dorete"/>
+    <string id="Dorotea" text="Dorotea"/>
+    <string id="Dorothea" text="Dorothea"/>
+    <string id="Dota" text="Dota"/>
+    <string id="Doter" text="Doter"/>
+    <string id="Dottir" text="Dottir"/>
+    <string id="Ebba" text="Ebba"/>
+    <string id="Edela" text="Edela"/>
+    <string id="Edla" text="Edla"/>
+    <string id="Eirny" text="Eirny"/>
+    <string id="Eldridh" text="Eldridh"/>
+    <string id="Elena" text="Elena"/>
+    <string id="Eliko" text="Eliko"/>
+    <string id="Elin" text="Elin"/>
+    <string id="Elina" text="Elina"/>
+    <string id="Elisabet" text="Elisabet"/>
+    <string id="Elisiv" text="Elisiv"/>
+    <string id="Ella" text="Ella"/>
+    <string id="Ellissa" text="Ellissa"/>
+    <string id="Ellitze" text="Ellitze"/>
+    <string id="Elsa" text="Elsa"/>
+    <string id="Elseby" text="Elseby"/>
+    <string id="Elsef" text="Elsef"/>
+    <string id="Elzaby" text="Elzaby"/>
+    <string id="Engel" text="Engel"/>
+    <string id="Englika" text="Englika"/>
+    <string id="Esther" text="Esther"/>
+    <string id="Estrid" text="Estrid"/>
+    <string id="Fastlög" text="Fastlög"/>
+    <string id="Fastridh" text="Fastridh"/>
+    <string id="Fastrun" text="Fastrun"/>
+    <string id="Fastvi" text="Fastvi"/>
+    <string id="Felicia" text="Felicia"/>
+    <string id="Filippa" text="Filippa"/>
+    <string id="Finger" text="Finger"/>
+    <string id="Folkvi" text="Folkvi"/>
+    <string id="Fröborg" text="Fröborg"/>
+    <string id="Frödis" text="Frödis"/>
+    <string id="Frögärdh" text="Frögärdh"/>
+    <string id="Frögerd" text="Frögerd"/>
+    <string id="Frögun" text="Frögun"/>
+    <string id="Gerborg" text="Gerborg"/>
+    <string id="Gerfridh" text="Gerfridh"/>
+    <string id="Gerika" text="Gerika"/>
+    <string id="Gerlög" text="Gerlög"/>
+    <string id="Gerthrud" text="Gerthrud"/>
+    <string id="Gertrud" text="Gertrud"/>
+    <string id="Gerunn" text="Gerunn"/>
+    <string id="Gervi" text="Gervi"/>
+    <string id="Geska" text="Geska"/>
+    <string id="Gilla" text="Gilla"/>
+    <string id="Gillög" text="Gillög"/>
+    <string id="Gilløgh" text="Gilløgh"/>
+    <string id="Giörell" text="Giörell"/>
+    <string id="Gislög" text="Gislög"/>
+    <string id="Gisløgh" text="Gisløgh"/>
+    <string id="Gjöli" text="Gjöli"/>
+    <string id="Gödelig" text="Gödelig"/>
+    <string id="Gödika" text="Gödika"/>
+    <string id="Göli" text="Göli"/>
+    <string id="Gölig" text="Gölig"/>
+    <string id="Gölog" text="Gölog"/>
+    <string id="Görel" text="Görel"/>
+    <string id="Görvel" text="Görvel"/>
+    <string id="Götke" text="Götke"/>
+    <string id="Greta" text="Greta"/>
+    <string id="Greteke" text="Greteke"/>
+    <string id="Grimhild" text="Grimhild"/>
+    <string id="Gro" text="Gro"/>
+    <string id="Groa" text="Groa"/>
+    <string id="Gudelig" text="Gudelig"/>
+    <string id="Gudhborg" text="Gudhborg"/>
+    <string id="Gudhfridh" text="Gudhfridh"/>
+    <string id="Gudhgärdh" text="Gudhgärdh"/>
+    <string id="Gudhlög" text="Gudhlög"/>
+    <string id="Gudhløgh" text="Gudhløgh"/>
+    <string id="Gudhmodh" text="Gudhmodh"/>
+    <string id="Gudhrun" text="Gudhrun"/>
+    <string id="Gudhvi" text="Gudhvi"/>
+    <string id="Gulla" text="Gulla"/>
+    <string id="Gullög" text="Gullög"/>
+    <string id="Gumbor" text="Gumbor"/>
+    <string id="Gunborgh" text="Gunborgh"/>
+    <string id="Gunfridh" text="Gunfridh"/>
+    <string id="Gunhedh" text="Gunhedh"/>
+    <string id="Gunheidh" text="Gunheidh"/>
+    <string id="Gunhild" text="Gunhild"/>
+    <string id="Gunilda" text="Gunilda"/>
+    <string id="Gunna" text="Gunna"/>
+    <string id="Gunnælf" text="Gunnælf"/>
+    <string id="Gunnälf" text="Gunnälf"/>
+    <string id="Gunnel" text="Gunnel"/>
+    <string id="Gunnil" text="Gunnil"/>
+    <string id="Gunnild" text="Gunnild"/>
+    <string id="Gunnilda" text="Gunnilda"/>
+    <string id="Gunnö" text="Gunnö"/>
+    <string id="Gunnur" text="Gunnur"/>
+    <string id="Gunridh" text="Gunridh"/>
+    <string id="Gunvar" text="Gunvar"/>
+    <string id="Gunvor" text="Gunvor"/>
+    <string id="Gydha" text="Gydha"/>
+    <string id="Gyna" text="Gyna"/>
+    <string id="Gynna" text="Gynna"/>
+    <string id="Gyridh" text="Gyridh"/>
+    <string id="Hadhui" text="Hadhui"/>
+    <string id="Hadwig" text="Hadwig"/>
+    <string id="Hælgha" text="Hælgha"/>
+    <string id="Haferdh" text="Haferdh"/>
+    <string id="Hafridh" text="Hafridh"/>
+    <string id="Hafrik" text="Hafrik"/>
+    <string id="Hafuidh" text="Hafuidh"/>
+    <string id="Halffred" text="Halffred"/>
+    <string id="Hälgha" text="Hälgha"/>
+    <string id="Hamfrid" text="Hamfrid"/>
+    <string id="Hanna" text="Hanna"/>
+    <string id="Härborg" text="Härborg"/>
+    <string id="Härdis" text="Härdis"/>
+    <string id="Hedendis" text="Hedendis"/>
+    <string id="Hedevi" text="Hedevi"/>
+    <string id="Hedewig" text="Hedewig"/>
+    <string id="Hedhindis" text="Hedhindis"/>
+    <string id="Hedvig" text="Hedvig"/>
+    <string id="Helena" text="Helena"/>
+    <string id="Helga" text="Helga"/>
+    <string id="Helja" text="Helja"/>
+    <string id="Hellevig" text="Hellevig"/>
+    <string id="Helvi" text="Helvi"/>
+    <string id="Helvig" text="Helvig"/>
+    <string id="Herborg" text="Herborg"/>
+    <string id="Herfrid" text="Herfrid"/>
+    <string id="Hiälmdis" text="Hiälmdis"/>
+    <string id="Hiälmlög" text="Hiälmlög"/>
+    <string id="Hildeborg" text="Hildeborg"/>
+    <string id="Hildegærdh" text="Hildegærdh"/>
+    <string id="Hildegard" text="Hildegard"/>
+    <string id="Hildiburg" text="Hildiburg"/>
+    <string id="Hilla" text="Hilla"/>
+    <string id="Hilleborg" text="Hilleborg"/>
+    <string id="Hillegärd" text="Hillegärd"/>
+    <string id="Hillevi" text="Hillevi"/>
+    <string id="Hindrika" text="Hindrika"/>
+    <string id="Holfre" text="Holfre"/>
+    <string id="Holfred" text="Holfred"/>
+    <string id="Holma" text="Holma"/>
+    <string id="Holmborg" text="Holmborg"/>
+    <string id="Holmdis" text="Holmdis"/>
+    <string id="Holmfrid" text="Holmfrid"/>
+    <string id="Holmfridh" text="Holmfridh"/>
+    <string id="Holmgærdh" text="Holmgærdh"/>
+    <string id="Holmgärd" text="Holmgärd"/>
+    <string id="Holmgärdh" text="Holmgärdh"/>
+    <string id="Holmgun" text="Holmgun"/>
+    <string id="Holmlög" text="Holmlög"/>
+    <string id="Holmvi" text="Holmvi"/>
+    <string id="Iærtrudh" text="Iærtrudh"/>
+    <string id="Ida" text="Ida"/>
+    <string id="Iliana" text="Iliana"/>
+    <string id="Inga" text="Inga"/>
+    <string id="Ingeborgh" text="Ingeborgh"/>
+    <string id="Ingefridh" text="Ingefridh"/>
+    <string id="Ingegærdh" text="Ingegærdh"/>
+    <string id="Ingelef" text="Ingelef"/>
+    <string id="Ingeløgh" text="Ingeløgh"/>
+    <string id="Ingemodh" text="Ingemodh"/>
+    <string id="Inger" text="Inger"/>
+    <string id="Ingerth" text="Ingerth"/>
+    <string id="Ingerun" text="Ingerun"/>
+    <string id="Ingiärd" text="Ingiärd"/>
+    <string id="Ingiborgh" text="Ingiborgh"/>
+    <string id="Ingifridh" text="Ingifridh"/>
+    <string id="Ingigärdh" text="Ingigärdh"/>
+    <string id="Ingigun" text="Ingigun"/>
+    <string id="Ingilaug" text="Ingilaug"/>
+    <string id="Ingilef" text="Ingilef"/>
+    <string id="Ingileif" text="Ingileif"/>
+    <string id="Ingimodh" text="Ingimodh"/>
+    <string id="Ingirun" text="Ingirun"/>
+    <string id="Ingithora" text="Ingithora"/>
+    <string id="Ingø" text="Ingø"/>
+    <string id="Ingridh" text="Ingridh"/>
+    <string id="Iogærdh" text="Iogærdh"/>
+    <string id="Iuliana" text="Iuliana"/>
+    <string id="Jliana" text="Jliana"/>
+    <string id="Jngeborg" text="Jngeborg"/>
+    <string id="Jngegerdh" text="Jngegerdh"/>
+    <string id="Jnggeborgh" text="Jnggeborgh"/>
+    <string id="Jngridh" text="Jngridh"/>
+    <string id="Jofridh" text="Jofridh"/>
+    <string id="Jogärdh" text="Jogärdh"/>
+    <string id="Johanna" text="Johanna"/>
+    <string id="Judith" text="Judith"/>
+    <string id="Juliana" text="Juliana"/>
+    <string id="Justina" text="Justina"/>
+    <string id="Kadherin" text="Kadherin"/>
+    <string id="Kadhrin" text="Kadhrin"/>
+    <string id="Kætilfridh" text="Kætilfridh"/>
+    <string id="Kætilløgh" text="Kætilløgh"/>
+    <string id="Kætilø" text="Kætilø"/>
+    <string id="Kajsa" text="Kajsa"/>
+    <string id="Karin" text="Karin"/>
+    <string id="Katarina" text="Katarina"/>
+    <string id="Katerin" text="Katerin"/>
+    <string id="Katerina" text="Katerina"/>
+    <string id="Kätilög" text="Kätilög"/>
+    <string id="Kätilrun" text="Kätilrun"/>
+    <string id="Kätilvi" text="Kätilvi"/>
+    <string id="Kättilborg" text="Kättilborg"/>
+    <string id="Kättilfridh" text="Kättilfridh"/>
+    <string id="Kättilgärdh" text="Kättilgärdh"/>
+    <string id="Kättilgun" text="Kättilgun"/>
+    <string id="Kättilö" text="Kättilö"/>
+    <string id="Kättilög" text="Kättilög"/>
+    <string id="Kättilvi" text="Kättilvi"/>
+    <string id="Keli" text="Keli"/>
+    <string id="Kellu" text="Kellu"/>
+    <string id="Kiäli" text="Kiäli"/>
+    <string id="Kierstin" text="Kierstin"/>
+    <string id="Kirstin" text="Kirstin"/>
+    <string id="Kjellu" text="Kjellu"/>
+    <string id="Kristin" text="Kristin"/>
+    <string id="Kristina" text="Kristina"/>
+    <string id="Lisebet" text="Lisebet"/>
+    <string id="Lucia" text="Lucia"/>
+    <string id="Lussa" text="Lussa"/>
+    <string id="Mærætha" text="Mærætha"/>
+    <string id="Mæreta" text="Mæreta"/>
+    <string id="Mæretta" text="Mæretta"/>
+    <string id="Magdalena" text="Magdalena"/>
+    <string id="Magga" text="Magga"/>
+    <string id="Magnill" text="Magnill"/>
+    <string id="Magnilla" text="Magnilla"/>
+    <string id="Maisa1" text="Maisa1"/>
+    <string id="Maja" text="Maja"/>
+    <string id="Majsa" text="Majsa"/>
+    <string id="Malin" text="Malin"/>
+    <string id="Märeta" text="Märeta"/>
+    <string id="Margareta" text="Margareta"/>
+    <string id="Marget" text="Marget"/>
+    <string id="Marghit" text="Marghit"/>
+    <string id="Margta" text="Margta"/>
+    <string id="Maria" text="Maria"/>
+    <string id="Mariana" text="Mariana"/>
+    <string id="Marina" text="Marina"/>
+    <string id="Märita" text="Märita"/>
+    <string id="Märta" text="Märta"/>
+    <string id="Mätta" text="Mätta"/>
+    <string id="Mechthild" text="Mechthild"/>
+    <string id="Mechtild" text="Mechtild"/>
+    <string id="Metta" text="Metta"/>
+    <string id="Mette" text="Mette"/>
+    <string id="Moder" text="Moder"/>
+    <string id="Modher" text="Modher"/>
+    <string id="Moiken" text="Moiken"/>
+    <string id="Mundgärdh" text="Mundgärdh"/>
+    <string id="Ödborg" text="Ödborg"/>
+    <string id="Ödgärd" text="Ödgärd"/>
+    <string id="Ödgerd" text="Ödgerd"/>
+    <string id="Ödgun" text="Ödgun"/>
+    <string id="Ödha" text="Ödha"/>
+    <string id="Ødhælf" text="Ødhælf"/>
+    <string id="Ödhborg" text="Ödhborg"/>
+    <string id="Ödhfridh" text="Ödhfridh"/>
+    <string id="Ødhgærdh" text="Ødhgærdh"/>
+    <string id="Ödhgärdh" text="Ödhgärdh"/>
+    <string id="Ödhgun" text="Ödhgun"/>
+    <string id="Ödhhild" text="Ödhhild"/>
+    <string id="Ödhild" text="Ödhild"/>
+    <string id="Ödhny" text="Ödhny"/>
+    <string id="Ödis" text="Ödis"/>
+    <string id="Ødis" text="Ødis"/>
+    <string id="Ögärdh" text="Ögärdh"/>
+    <string id="Ölfva" text="Ölfva"/>
+    <string id="Öllegård" text="Öllegård"/>
+    <string id="Ormlög" text="Ormlög"/>
+    <string id="Othindisa" text="Othindisa"/>
+    <string id="Pernilla" text="Pernilla"/>
+    <string id="Petronella" text="Petronella"/>
+    <string id="Petronilla" text="Petronilla"/>
+    <string id="Rachel" text="Rachel"/>
+    <string id="Radhborg" text="Radhborg"/>
+    <string id="Radhgärdh" text="Radhgärdh"/>
+    <string id="Ragna" text="Ragna"/>
+    <string id="Ragnælf" text="Ragnælf"/>
+    <string id="Ragnälf" text="Ragnälf"/>
+    <string id="Ragnborg" text="Ragnborg"/>
+    <string id="Ragnborgh" text="Ragnborgh"/>
+    <string id="Ragndis" text="Ragndis"/>
+    <string id="Ragnfridh" text="Ragnfridh"/>
+    <string id="Ragnhild" text="Ragnhild"/>
+    <string id="Ragnhilda" text="Ragnhilda"/>
+    <string id="Ragnö" text="Ragnö"/>
+    <string id="Ragnvi" text="Ragnvi"/>
+    <string id="Rakel" text="Rakel"/>
+    <string id="Randvi" text="Randvi"/>
+    <string id="Rannvig" text="Rannvig"/>
+    <string id="Ricmot" text="Ricmot"/>
+    <string id="Rikhild" text="Rikhild"/>
+    <string id="Rikitza" text="Rikitza"/>
+    <string id="Rikiza" text="Rikiza"/>
+    <string id="Rodhælf" text="Rodhælf"/>
+    <string id="Rodhälf" text="Rodhälf"/>
+    <string id="Rodhgärdh" text="Rodhgärdh"/>
+    <string id="Rodhlög" text="Rodhlög"/>
+    <string id="Rodhvi" text="Rodhvi"/>
+    <string id="Rodny" text="Rodny"/>
+    <string id="Runa" text="Runa"/>
+    <string id="Runälf" text="Runälf"/>
+    <string id="Runfrid" text="Runfrid"/>
+    <string id="Runfridh" text="Runfridh"/>
+    <string id="Säborg" text="Säborg"/>
+    <string id="Sara" text="Sara"/>
+    <string id="Sibilla" text="Sibilla"/>
+    <string id="Sigborg" text="Sigborg"/>
+    <string id="Sighborgh" text="Sighborgh"/>
+    <string id="Sighfridh" text="Sighfridh"/>
+    <string id="Sighløgh" text="Sighløgh"/>
+    <string id="Sighne" text="Sighne"/>
+    <string id="Sighni" text="Sighni"/>
+    <string id="Sighridh" text="Sighridh"/>
+    <string id="Sighridher" text="Sighridher"/>
+    <string id="Sighrun" text="Sighrun"/>
+    <string id="Siglög" text="Siglög"/>
+    <string id="Signild" text="Signild"/>
+    <string id="Sigrid" text="Sigrid"/>
+    <string id="Skärlog" text="Skärlog"/>
+    <string id="Sophia" text="Sophia"/>
+    <string id="Stena" text="Stena"/>
+    <string id="Stenborg" text="Stenborg"/>
+    <string id="Stenborgh" text="Stenborgh"/>
+    <string id="Stenfridh" text="Stenfridh"/>
+    <string id="Stengärdh" text="Stengärdh"/>
+    <string id="Stenhild" text="Stenhild"/>
+    <string id="Stenvor" text="Stenvor"/>
+    <string id="Sunniva" text="Sunniva"/>
+    <string id="Susanna" text="Susanna"/>
+    <string id="Svena" text="Svena"/>
+    <string id="Svenborg" text="Svenborg"/>
+    <string id="Thiudhborg" text="Thiudhborg"/>
+    <string id="Thora" text="Thora"/>
+    <string id="Thorälf" text="Thorälf"/>
+    <string id="Thorgærdh" text="Thorgærdh"/>
+    <string id="Thorgärdh" text="Thorgärdh"/>
+    <string id="Thorgun" text="Thorgun"/>
+    <string id="Thorlof" text="Thorlof"/>
+    <string id="Thorlög" text="Thorlög"/>
+    <string id="Thorridh" text="Thorridh"/>
+    <string id="Thorun" text="Thorun"/>
+    <string id="Thyrvi" text="Thyrvi"/>
+    <string id="Tidhfridh" text="Tidhfridh"/>
+    <string id="Tifridh" text="Tifridh"/>
+    <string id="Tifriþ" text="Tifriþ"/>
+    <string id="Tola" text="Tola"/>
+    <string id="Tonna" text="Tonna"/>
+    <string id="Torborg" text="Torborg"/>
+    <string id="Torgerd" text="Torgerd"/>
+    <string id="Torhild" text="Torhild"/>
+    <string id="Torhilda" text="Torhilda"/>
+    <string id="Torlög" text="Torlög"/>
+    <string id="Torny" text="Torny"/>
+    <string id="Tova" text="Tova"/>
+    <string id="Ulfva" text="Ulfva"/>
+    <string id="Unna" text="Unna"/>
+    <string id="Ursula" text="Ursula"/>
+    <string id="Valborg" text="Valborg"/>
+    <string id="Värun" text="Värun"/>
+    <string id="Vendela" text="Vendela"/>
+    <string id="Viborg" text="Viborg"/>
+    <string id="Viborgh" text="Viborgh"/>
+    <string id="Vifridh" text="Vifridh"/>
+    <string id="Vigærdh" text="Vigærdh"/>
+    <string id="Vigärdh" text="Vigärdh"/>
+    <string id="Vigun" text="Vigun"/>
+    <string id="Vigunn" text="Vigunn"/>
+    <string id="Walborg" text="Walborg"/>
+    <string id="Wlfuildhæ" text="Wlfuildhæ"/>
+    <string id="Ybba" text="Ybba"/>
+    <string id="Ylfva" text="Ylfva"/>
+    <string id="Yliæne" text="Yliæne"/>
+    <string id="Yliana" text="Yliana"/>
+    <string id="Ylva" text="Ylva"/>
+    <string id="swedish_player_clan1.name" text="Björnætta"/>
+    <string id="swedish_player_clan2.name" text="Stenulfingar"/>
+    <string id="swedish_player_clan3.name" text="Kettilsætt"/>
+    <string id="swedish_player_clan4.name" text="Havardhætt"/>
+    <string id="swedish_player_clan5.name" text="Gautrungar"/>
+    <string id="swedish_player_clan6.name" text="Hrafnunga"/>
+    <string id="swedish_player_clan7.name" text="Torsætta"/>
+    <string id="swedish_player_clan8.name" text="Ulvstammar"/>
+    <string id="swedish_player_clan9.name" text="Sigfastætt"/>
+    <string id="swedish_player_clan10.name" text="Vardhunga"/>
+    <!--input/sweden_patch/kingdoms.xml-->
+    <string id="Visby_full" text="Free City of Visby"/>
+    <string id="Visby" text="Visby"/>
+    <string id="jarl" text="Jarl"/>
+    <string id="Visby_desc" text="The wealthy merchant city of Visby dominates the Baltic trade, its German and Gutnish merchants controlling the flow of furs, amber, and silver between Scandinavia, the Hanseatic cities, and Novgorod. Though nominally independent, tensions simmer between the cosmopolitan urban elite and the traditional Gutnish farmers who see their ancient freedoms threatened by foreign wealth and influence."/>
+    <!--input/sweden_patch/lords_visby.xml-->
+    <string id="dead_lord_visby_1_1" text="Magnus Stenbalk"/>
+    <string id="lord_visby_1_1" text="Håkan Stenbalk"/>
+    <string id="lord_visby_1_2" text="Ingrid Kettilsdotter"/>
+    <string id="lord_visby_1_4" text="Niklas Håkansson"/>
+    <string id="lord_visby_1_5" text="Ingegerd Eriksdotter"/>
+    <string id="lord_visby_1_6" text="Ragnhild Håkansdotter"/>
+    <string id="lord_visby_2_1" text="Ludolf von der Dorne"/>
+    <string id="lord_visby_2_2" text="Gertrud von Brömse"/>
+    <string id="lord_visby_2_3" text="Dietrich von der Dorne"/>
+    <string id="lord_visby_2_4" text="Elisabeth von der Dorne"/>
+    <string id="dead_lord_visby_3_1" text="Sigurd Grimsson"/>
+    <string id="lord_visby_3_1" text="Hermann Wulflam"/>
+    <string id="lord_visby_3_2" text="Runa Sigurdsdotter"/>
+    <string id="lord_visby_3_4" text="Ulrich Wulflam"/>
+    <string id="lord_visby_3_5" text="Alheydis Wulflam"/>
+    <!--input/sweden_patch/module_strings.xml-->
+    <string id="swedishrfather" text="Erik"/>
+    <string id="swedishmother" text="Ylva"/>
+    <string id="swedishdescription" text="By the 13th century, the Swedes have emerged as a dominant Baltic power, blending Norse warrior traditions with Christian kingship as they expand eastward into Finland and challenge Danish hegemony over trade routes."/>
+    <string id="swedishrulertitle" text="{?RULER.GENDER}Drottning{?}Konung{\?} {RULER.NAME}"/>
+    <string id="swedishnobletitle" text="{?RULER.GENDER}Jarla{?}Jarl{\?} {RULER.NAME}"/>
+    <string id="swedishofficial" text="jarl"/>
+    <string id="swedishofficialf" text="jarla"/>
+    <string id="cswedishruler" text="Konung"/>
+    <string id="swedishrulerf" text="Drottning"/>
+    <string id="swedishrulerterm" text="{RULER.NAME} {?RULER.GENDER}Jarla{?}Jarl{\?}"/>
+    <string id="swedishfactionadjective" text="Swedish"/>
+    <string id="swedishfactionshortterm" text="Swedish"/>
+    <string id="cswedishfactionformalname" text="Swedish"/>
+    <string id="swedishfactioninformalname" text="Swedish"/>
+    <string id="swedishcultureadjective" text="Swedish"/>
+    <string id="swedishcultureneutralterm" text="Swedish"/>
+    <string id="swedishmembers" text="Swedish"/>
+    <string id="str_liege_title.swedish" text="Jarl"/>
+    <string id="str_liege_title_female.swedish" text="Jarla"/>
+    <string id="aaQtzfjL" text="Well done, {?PLAYER.GENDER}madam{?}sir{\?}. Keep the money and wine coming our way, and there's no foe in these lands you need to fear.[ib:convo_approving]"/>
+    <string id="kM1Y8XT0" text="You will not be dissapointed {?PLAYER.GENDER}madam{?}sir{\?}. You will not find better warriors anywhere.[ib:convo_approving]"/>
+    <string id="lt_cross1" text="Cross"/>
+    <string id="lt_menorah1" text="Menorah"/>
+    <string id="lt_ingot1" text="Ingot"/>
+    <string id="lt_amber1" text="Amber"/>
+    <string id="lt_honey1" text="Honey"/>
+    <string id="lt_mead1" text="Mead"/>
+    <string id="lt_wax1" text="Wax"/>
+    <string id="lt_sable_pelts1" text="Sable Pelts"/>
+    <!--input/sweden_patch/npc_wanderers_notables_swedish.xml-->
+    <string id="wanderer0_swedish" text="{FIRSTNAME} Snildher"/>
+    <string id="wanderer1_swedish" text="{FIRSTNAME} Ofmódeliker"/>
+    <string id="wanderer2_swedish" text="{FIRSTNAME} Affallin"/>
+    <string id="wanderer3_swedish" text="{FIRSTNAME} Härfast"/>
+    <string id="wanderer4_swedish" text="{FIRSTNAME} Utfallen"/>
+    <string id="wanderer5_swedish" text="{FIRSTNAME} Tystslaghare"/>
+    <string id="wanderer6_swedish" text="{FIRSTNAME} Helvændin"/>
+    <string id="wanderer7_swedish" text="{FIRSTNAME} Skepnman"/>
+    <string id="wanderer8_swedish" text="{FIRSTNAME} Stadfallin"/>
+    <string id="wanderer9_swedish" text="{FIRSTNAME} Blodmö"/>
+    <string id="wanderer10_swedish" text="{FIRSTNAME} Lækthræng"/>
+    <string id="wanderer11_swedish" text="{FIRSTNAME} Ættløs"/>
+    <string id="wanderer12_swedish" text="{FIRSTNAME} Vandramö"/>
+    <string id="wanderer13_swedish" text="{FIRSTNAME} Väghfarande"/>
+    <!--input/sweden_patch/settlements.xml-->
+    <string id="town_SW1" text="Visby"/>
+    <string id="town_SW1_desc" text="The wealthy merchant city of Visby dominates the Baltic trade, its German and Gutnish merchants controlling the flow of furs, amber, and silver between Scandinavia, the Hanseatic cities, and Novgorod. Though nominally independent, tensions simmer between the cosmopolitan urban elite and the traditional Gutnish farmers who see their ancient freedoms threatened by foreign wealth and influence."/>
+    <string id="village_town_SW1_1" text="Paviken"/>
+    <string id="village_town_SW1_2" text="Roma"/>
+    <string id="village_town_SW1_3" text="Lau"/>
+    <string id="village_town_SW1_4" text="Tingstäde"/>
+    <!--input/sweden_patch/troops_swedish.xml-->
+    <string id="swedish_1" text="Swedish Levy"/>
+    <string id="swedish_1f" text="Swedish Fisherman"/>
+    <string id="swedish_2" text="Swedish Footman"/>
+    <string id="swedish_3" text="Swedish Spearman"/>
+    <string id="swedish_4" text="Swedish Axeman"/>
+    <string id="swedish_5" text="Swedish Militia Crossbowman"/>
+    <string id="swedish_6" text="Swedish Bowman"/>
+    <string id="swedish_7" text="Swedish Hunter"/>
+    <string id="swedish_8" text="Swedish Crossbowman"/>
+    <string id="swedish_9" text="Swedish Armored Crossbowman"/>
+    <string id="swedish_10" text="Swedish Warrior"/>
+    <string id="swedish_11" text="Swedish Swordsman"/>
+    <string id="swedish_12" text="Swedish Sergeant"/>
+    <string id="swedish_13" text="Swedish Squire"/>
+    <string id="swedish_14" text="Swedish Lesser Knight"/>
+    <string id="swedish_15" text="Swedish Lay-Knight"/>
+    <string id="swedish_17" text="Swedish Captain"/>
+
+
+    <!--
 
     ██    ██ ███    ██ ███████  ██████  ██████  ████████ ███████ ██████  
     ██    ██ ████   ██ ██      ██    ██ ██   ██    ██    ██      ██   ██ 
@@ -10061,6 +12244,7 @@
     <string id="polishfactionformalname" text="Polish"/>
     <string id="polishruler" text="Duke"/>
     <string id="CuronianRaiders" text="Curonian Raiders"/>
+    <string id="CuronianPirates" text="Curonian Raiders"/>
     <string id="dead_lord_pol_1_1.name" text="Mestwin I"/>
     <string id="dead_lord_pol_4_1.name" text="Konrad I"/>
     <string id="holy_place_alkas" text="Alkas (Sacred Grove)"/>
@@ -10084,6 +12268,7 @@
     <string id="Nadruvians_description" text="In the 13th century, the Nadruvians were a Baltic tribe inhabiting the region of Nadruva, characterized by a decentralized tribal society, steadfast pagan traditions, and determined resistance against crusader incursions."/>
     <string id="Nadruvians" text="Nadruvians"/>
     <string id="OeselianRaiders" text="Oeselian Raiders"/>
+    <string id="OeselianPirates" text="Oeselian Raiders"/>
     <string id="polish_caravan_guard" text="Polish Caravan Guard"/>
     <string id="polish_caravan_master" text="Polish Caravan Master"/>
     <string id="polishcultureadjective" text="Polish"/>
@@ -10181,8 +12366,56 @@
     <string id="rus_24" text="Krivichi Regular Horseman"/>
     <string id="rus_25" text="Krivichi Trained Horseman"/>
     <string id="rus_26" text="Krivichi Veteran Horseman"/>
-
-
+    <string id="balt_1f" text="Baltic Fisherman (Zvejys)"/>
+    <string id="crusader_1f" text="German Fisherman"/>
+    <string id="danish_1f" text="Danish Fisherman"/>
+    <string id="estonian_1f" text="Estonian Fisherman"/>
+    <string id="polish_1f" text="Polish Fisherman"/>
+    <string id="rus_1f" text="Rus Fisherman"/>
+    <string id="swedish_1f" text="Swedish Fisherman"/>
+    <string id="swedish_0" text="Swedish Peasant"/>
+    <string id="Eufrozyna" text="Eufrozyna"/>
+    <string id="dead_lord_rus_5_1" text="Gavrila Alexich"/>
+    <string id="lt_local_thug_t1" text="Local Thug"/>
+    <string id="karve" text="Karve"/>
+    <string id="karve_desc" text="The Karve is a broad-hulled, high-sided vessel used across Northern Europe as a practical workboat in the 13th century. More versatile than true war longships, it carries people, supplies, or livestock while remaining light enough for coastal sailing and river travel. Powered by oars and a square sail, the karve is easy to beach and operate from simple landings rather than developed ports.{newline}{newline}Although not built primarily for battle, karves can be armed when needed and are often used for patrols, transport, and minor raids. Their combination of shallow draft, stability, and modest cargo space makes them common among coastal communities and local rulers, serving as dependable all-purpose vessels in an era where flexibility matters more than specialization."/>
+    <string id="snekkja" text="Snekkja"/>
+    <string id="snekkja_desc" text="The Snekkja is a light warship used across the Baltic and Northern Europe in the 13th century. Long and narrow with a shallow draft, it is built for speed, rowing efficiency, and rapid landings along coasts and river mouths. A square sail provides power at sea, while oars allow precise control during combat and in confined waters.{newline}{newline}Designed specifically for warfare, the snekkja carries a compact but well-armed crew and favors quick raids, patrols, and escort duties over prolonged engagements. Easier to crew and maintain than larger warships, it is the most common dedicated fighting vessel of the period, valued for its balance of mobility, striking power, and versatility."/>
+    <string id="shneka" text="Shneka"/>
+    <string id="shneka_desc" text="The Shneka is a Novgorodian, Baltic-facing variant of the Snekkja, used primarily by Rus’ crews operating near the Baltic Sea in the 13th century. Long and lightly built with a shallow draft, it combines Scandinavian longship design with local Rus’ practices, making it suitable for coastal sailing, river mouths, and rapid transitions between sea and inland waterways. It is powered by oars and a square sail, favoring control and flexibility over endurance at sea.{newline}{newline}Used mainly for warfare, escorts, and swift raids, the shneka carries a compact, well-armed crew and emphasizes speed and surprise rather than heavy fighting. While not central to Rus’ river logistics, it appears where Novgorod’s interests meet the Baltic world, reflecting Norse influence adapted to Rus’ needs rather than a native shipbuilding tradition."/>
+    <string id="laiva" text="Laiva"/>
+    <string id="laiva_desc" text="The Laiva is a Curonian variant of the Snekkja, used along the eastern Baltic coast in the 13th century. Long and lightly built with a shallow draft, it is designed for speed, surprise, and rapid beach landings on open shores and river mouths. Propelled by oars and a square sail, the laiva handles well in rough coastal waters while remaining agile in confined inlets and lagoons.{newline}{newline}Built for raiding and coastal warfare, the laiva carries a compact, heavily armed crew and favors swift strikes over prolonged fighting at sea. Its construction reflects local needs rather than royal prestige—practical, aggressive, and easy to operate from undeveloped coastlines—making it the primary war vessel of Curonian sea raiders."/>
+    <string id="laev" text="Laev"/>
+    <string id="laev_desc" text="The Laev is an Oeselian variant of the Snekkja, used by the islanders of Saaremaa and the nearby Baltic coasts in the 13th century. Long, narrow, and shallow-drafted, it is built for speed and precise handling in coastal waters, island channels, and river mouths. A square sail provides power at sea, while oars allow controlled movement during landings and combat.{newline}{newline}Designed for raiding and defense alike, the laev carries a compact but experienced crew and excels in sudden attacks and quick withdrawals. Its form reflects the seafaring culture of the Oeselians—efficient, resilient, and well suited to operating from natural harbors and open beaches rather than fortified ports."/>
+    <string id="skeid" text="Skeið"/>
+    <string id="skeid_desc" text="The Skeið is a large war longship used by Scandinavian rulers and major lords in the 13th century. Long, powerful, and crew-intensive, it is built for fleet actions, intimidation, and the transport of significant numbers of warriors. A square sail provides speed at sea, while numerous oars give the ship control and momentum during combat and landings.{newline}{newline}More expensive and demanding than lighter warships, the skeið is not a common vessel. It serves as the core ship of major expeditions and often acts as a flagship, projecting authority as much as military force. While still fast for its size, it sacrifices flexibility for presence, marking the upper limit of practical longship warfare."/>
+    <string id="kara_laiva" text="Kara Laiva"/>
+    <string id="kara_laiva_desc" text="The Kara Laiva is a Curonian variant of the Skeið, used by powerful Curonian leaders along the eastern Baltic in the 13th century. Larger and more imposing than the common laiva, it is built to carry a substantial war band and to dominate coastal waters through speed and intimidation. A square sail and numerous oars provide both striking power and control during landings and close engagements.{newline}{newline}Unlike everyday raiding vessels, the kara laiva is rare and costly, reserved for major expeditions and the display of authority. It reflects Curonian naval ambition at its highest level—an adaptation of Scandinavian heavy longship traditions shaped by local raiding culture and the need to project power along open coasts and contested sea routes."/>
+    <string id="pikk_laev" text="Pikk Laev"/>
+    <string id="pikk_laev_desc" text="The Pikk Laev is an Oeselian variant of the Skeið, used by the seafarers of Saaremaa in the 13th century. Larger and heavier than the common laev, it is built to carry a sizable war band and to operate confidently in open Baltic waters as well as among island channels. Driven by a square sail and many oars, it combines speed with the strength needed for decisive landings and fleet actions.{newline}{newline}Rare and demanding to crew, the pikk laev is reserved for major raids and high-status leaders rather than everyday warfare. It represents the peak of Oeselian shipbuilding—an imposing longship designed to project power, deter rivals, and lead expeditions across contested sea routes."/>
+    <string id="great_skeid" text="Great Skeið"/>
+    <string id="great_skeid_desc" text="The Great Skeið is an exceptionally large and prestigious war longship representing the upper limit of longship construction in the 13th century. Long, heavily built, and demanding a very large crew, it is designed to serve as a flagship rather than a common fighting vessel. A powerful square sail and numerous oars give it authority and momentum in fleet actions, while its size and presence project dominance before battle even begins.{newline}{newline}Such ships are rare and costly, typically maintained only by kings or major coalitions. Less flexible than lighter warships and poorly suited to rivers or minor harbors, the Great Skeið exists to lead major expeditions, coordinate fleets, and symbolize supreme maritime power rather than to conduct everyday warfare."/>
+    <string id="battle_knarr" text="Battle Knarr"/>
+    <string id="battle_knarr_desc" text="The Battle Knarr is a warlike adaptation of the traditional cargo knarr, refitted for combat in the Baltic and Northern Europe during the 13th century. Retaining its broad beam and seaworthy hull, it sacrifices part of its cargo capacity in favor of raised fighting platforms, reinforced sides, and greater space for armed men. A single square sail remains its main source of power, while oars assist in maneuvering during coastal engagements, river operations, and boarding actions.{newline}{newline}Built to carry warriors as well as supplies, the battle knarr serves in troop transport, escort duty, raiding, and coastal defense. Its sturdy construction allows it to endure rough northern waters, while its moderate draft lets it approach beaches, river mouths, and small landing sites where larger warships cannot easily go. Though slower and less elegant than purpose-built long war vessels, the battle knarr is valued for its versatility, combining endurance, carrying capacity, and fighting strength in the unsettled waters of Baltic trade and war."/>
+    <string id="byrding" text="Byrding"/>
+    <string id="byrding_dec" text="The Byrding is a small cargo vessel used in the Baltic and North Sea regions during the 13th century. Built with a broad hull and relatively high sides, it is designed to carry goods efficiently while remaining simple to operate from undeveloped shores and shallow harbors. Propelled by a square sail and supported by oars for maneuvering, the byrding balances stability with flexibility.{newline}{newline}Primarily employed for local and regional trade, the byrding transports everyday cargo such as foodstuffs, timber, and supplies rather than large bulk loads. Smaller and more manageable than a knarr, it is favored by minor merchants and coastal communities, serving as a practical carrier where larger merchant ships are unnecessary or impractical."/>
+    <string id="knarr" text="Knarr"/>
+    <string id="knarr_desc" text="The Knarr is a robust seagoing cargo vessel used across the Baltic and Northern Europe in the 13th century. Broad-beamed and deep-hulled, it is built to carry heavy loads over long distances rather than to fight. A single square sail provides its main power, while oars are used for maneuvering in harbors, river mouths, and confined waters.{newline}{newline}Designed for endurance and capacity, the knarr transports bulk goods such as grain, timber, furs, iron, salt, and amber. Its sturdy construction and moderate draft allow it to operate from simple ports and beaches, making it well suited to regions with limited harbor infrastructure. Though not intended for battle, the knarr often sails with armed crews to deter raiders, reflecting the unsettled nature of Baltic trade."/>
+    <string id="kogg" text="Kogg"/>
+    <string id="kogg_desc" text="The Kogg is an early form of the Cog used in the Baltic during the 13th century, marking a transition from Norse merchant ships to more cargo-focused designs. Built with a wide, rounded hull and high sides, it emphasizes carrying capacity and stability over speed or flexibility. Although influenced by northern clinker-built traditions, its form is clearly oriented toward bulk transport.{newline}{newline}Used primarily for trade and supply, the kogg carries heavy goods along established sea routes and between growing ports. It is less suited to beaching or river travel than older merchant ships, but its larger hold and safer working deck make it increasingly valuable as Baltic commerce expands and demands more efficient cargo transport."/>
+    <string id="cog" text="Cog"/>
+    <string id="cog_desc" text="The Cog is a mature cargo vessel widely used in the Baltic during the 13th century. Broad-beamed, high-sided, and stable at sea, it is designed for transporting large quantities of goods rather than for speed or maneuverability. Powered primarily by a single square sail and steered by a stern-mounted rudder, the cog reflects a shift toward more specialized and efficient merchant shipping.{newline}{newline}Built to operate from established ports, the cog carries bulk cargo such as grain, timber, salt, and construction materials along regular trade routes. Its high sides offer protection against rough seas and piracy, but its deep hull makes it poorly suited to rivers or beach landings. As trade grows and ports develop, the cog becomes a central workhorse of Baltic commerce."/>
+    <string id="hanseatic_cog" text="Hanseatic Cog"/>
+    <string id="hanseatic_cog_desc" text="The Hanseatic Cog is a standardized, highly efficient merchant vessel that dominates Baltic trade as organized commerce matures in the 13th century. Broad-beamed and high-sided, it is optimized for bulk cargo and predictable handling rather than flexibility. A single square sail and a stern-mounted rudder give it reliable control on long sea passages between major ports.{newline}{newline}Built to common patterns and operated within coordinated trade networks such as the Hanseatic League, the Hanseatic Cog achieves superior cargo-to-crew efficiency and lower operating risk. It is port-bound and infrastructure-dependent, but unmatched for moving large volumes of goods along established routes—marking the transition from individual seafaring to systemized medieval trade."/>
+    <string id="heavy_cog" text="Heavy Cog"/>
+    <string id="heavy_cog_desc" text="The Heavy Cog is an oversized, high-sided cargo vessel built to maximize carrying capacity in the Baltic during the 13th century. Broader and bulkier than a standard cog, it sacrifices speed and maneuverability for sheer volume and stability. Powered by a single square sail and steered by a stern rudder, it is designed to move large loads along established sea routes rather than operate flexibly near shore.{newline}{newline}Costly to build and demanding on ports and crews, the Heavy Cog is rare and typically used only where trade volume justifies its size. Poorly suited to rivers or beach landings, it functions best as a port-bound bulk carrier, representing an extreme solution to growing commercial demand before full standardization of merchant shipping takes hold."/>
+    <string id="ushkuy" text="Ushkuy"/>
+    <string id="ushkuy_dec" text="The ushkuy is a light river raiding vessel used by Rus’ crews, especially those of Novgorod, in the 13th century. Built for speed and extreme mobility, it features a shallow draft and a light hull that allow it to move quickly along rivers, lakes, and narrow waterways. Propelled primarily by oars and sometimes supported by a small square sail, the ushkuy is well suited to sudden attacks and rapid retreats.{newline}{newline}Carrying a small but aggressive crew, the ushkuy is designed for surprise rather than sustained combat. Its light construction allows it to be beached or dragged over portages between river systems, making it a key tool of inland warfare and raiding. More a weapon of movement than of strength, the ushkuy reflects the river-focused military culture of the Rus’."/>
+    <string id="lodya" text="Lodya"/>
+    <string id="lodya_desc" text="The Lodya is the primary river–sea vessel of the Rus’ in the 13th century, used for trade, transport, and military expeditions. Broad-hulled and shallow-drafted, it is built to navigate rivers, lakes, and coastal waters with equal ease. Powered by oars and a square sail, the lodya can be beached, loaded from simple landings, or hauled across portages between river systems.{newline}{newline}Valued for its versatility rather than speed or prestige, the lodya carries people, supplies, and goods deep into the interior while remaining capable of short sea voyages. When armed, it serves as a practical troop transport rather than a dedicated warship. Its design reflects the Rus’ reliance on rivers as highways, making the lodya the backbone of their mobility and logistics."/>
+    <string id="war_lodya" text="War Lodya"/>
+    <string id="war_lodya_desc" text="The War Lodya is a larger, reinforced variant of the standard Lodya, built specifically to carry substantial numbers of warriors during Rus’ military expeditions in the 13th century. With a longer hull, higher sides, and increased load capacity, it sacrifices some agility in exchange for greater manpower and battlefield presence. Like the lodya, it is propelled by oars and a square sail and retains a shallow draft suitable for rivers and coastal waters.{newline}{newline}Designed as a troop carrier rather than a trader, the War Lodya functions as a mobile fighting platform on inland waterways. Its size allows it to transport armed detachments, supplies, and equipment deep into enemy territory, while still being capable of beaching or river landings. Less flexible than smaller raiding craft, it represents the Rus’ answer to large-scale river warfare rather than open-sea combat."/>
+    
 
   </strings>
 </base>

@@ -1,45 +1,45 @@
 -> Start
 
 === Start ===
-Aura zdaniaŭ łunaje nad pustelnym polem boju, dzie advaha Impieryi sutyknułasia z ciomnaj mocaj Hrafaŭ-Vampiraŭ. Vy traplajecie na pole boju, dzie ziamla ŭsiejana reštkami vajny - złamanymi lozami, raźbitymi ščytami, pałymi ciełami sałdataŭ i niamiortvych žachaŭ. U pavietry panuje cišynia, jakuju parušajuć tolki daloki lamant ptušak-trupajedaŭ. Vy ledź adčyvajecie ciažar niekramantyčnaj mahii, jakaja hańbie viatry. #STR_Start1
+Nad spustošanym polem bitvy pierad vami, dzie advaha Impieryi sutyknułasia ź ciomnaj mocaj Hrafstvaŭ Vampiraŭ, łunaje złaviesny duch. Ziamla ŭsiejanaja reštkami vajny — złamanymi klinkami, raźbitymi ščytami dy ciełami palehłych vajaroŭ i žachlivych sparadžeńniaŭ niežyci. Panujučuju cišyniu parušajuć tolki dalokija kryki ptušak-padalščykaŭ. Vy ledźvie adčuvajecie ciažar niekramanckaj mahii, što apahańvaje viatry. #STR_Start1
 
-Paŭšyja lažać uva ŭračystym spakoi, ich žyćcio i dola nazaŭždy pieraplalisia ŭ trahiedyi hetaha miesca. Kali vy stupajecie na zalituju kryvioj ziamlu, na vas abvalvajecca hruz historyi i achviar. #STR_Start2
+Palehłyja lažać u zmročnym supakoi, a ichnyja žyćci j losy navieki pieraplalisia ŭ trahiedyi hetaha miesca. Stupiŭšy na prasiaknutuju kryvioju ziamlu, vy adčuvajecie ŭvieś ciažar minułaha j pryniesienych achviaraŭ. #STR_Start2
 
-Jakija dziejańni vy raspačniocie ŭ hetaj kranalnaj scenie? #STR_Start3
+Jak vy pastupicie pierad abliččam hetaha žurbotnaha vidovišča? #STR_Start3
 
-* [Šukać vyžyłych siarod pałych.] -> SearchForSurvivors
-* [Ušanavać pałych i praciahnuć svajo padarožža.] -> PayRespects
-* [Syści z pola boju i praciahnuć svoj šlach.] -> ContinueOn
+* [Pašukać žyvych siarod palehłych.] -> SearchForSurvivors
+* [Ušanavać pamiać palehłych i praciahnuć padarožža.] -> PayRespects
+* [Pakinuć pole bitvy j rušyć dalej.] -> ContinueOn
 === SearchForSurvivors ===
-Sa źmiešanaj nadziejaj i dryžykami, vy błukajecie pa zmročnym malunku pałych sałdat и šukajecie choć-jakuju iskru žyćcia ŭ mory śmierci. Vašaja rašučaść pryvodzie vas da paranienaha sałdata, jaki ledź dychaje. Apuściŭšysia na kaleni poruč ź im, vy prapanoŭvajecie jamu dapamohu, suciašeńnie i pasilna lakujecie jaho rany. #STR_SearchForSurvivors1
+Z nadziejaj i tryvohaj vy prabirajeciesia siarod ciełaŭ palehłych vajaroŭ, šukajučy choć iskrynku žyćcia ŭ hetym mory śmierci. Vaša ŭpartaść pryvodzić vas da paranienaha vajara, jaki dychaje ciažka j słaba. Uklinavaŭšysia pobač, vy suciašajecie jaho i jak umiejecie dahladajecie jahonyja rany. #STR_SearchForSurvivors1
 
-Jaho vočy adkryvajucca, i ŭ ich uzbliskvaje padziaka. U cichich tonach jon vyjaŭlaje svaju padziaku, abiacajučy adpłacić za vašu dabryniu. #STR_SearchForSurvivors2
+Jahonyja pavieki ŭzdryhvajuć, vočy raspluščvajucca, i ŭ ich bliščyć udziačnaść. Jon cicha dziakuje vam, abiacajučy adpłacić za vašu dabryniu. #STR_SearchForSurvivors2
 
-* [Supravadzić vyžyłaha da biaśpiečnaha miesca.] -> HelpButDie
-* [Pasprabavać vylekavać sałdata mahijaj Hajrana.] -> UseGhyranMagic
+* [Advieści acalełaha ŭ biaśpiečnaje miesca.] -> HelpButDie
+* [Pasprabavać vylečyć vajara mahijaj Hiranu.] -> UseGhyranMagic
 
 === UseGhyranMagic ===
-Vašy čaraŭnik zaklikaje da žyvatvornaj enierhii pryrody praz mahiju Hajrana. Pavietra mihoča zialonaj enierhijaj, kali čaraŭnik nakiroŭvaje zalon u bok paranienaha sałdata. Rany vajara pačynajuć zahojvacca, podych vyraŭnoŭvajecca, ščokam viartajecca koler. #STR_UseGhyranMagic1 
+Vaš čaraŭnik źviartajecca da mahii Hiranu, zaklikajučy žyvatvornyja siły samoj pryrody. Pavietra mihcić zialonaj enerhijaj, pakul čaraŭnik tvoryć zaklon i nakiroŭvaje jaho na paranienaha vajara. Rany pačynajuć zaciahvacca, dychańnie vyraŭnoŭvajecca, a na ščoki viartajecca rumianiec. #STR_UseGhyranMagic1 
 
-Sa słabaj, ale ŭdziačnaj uchmyłkaj vyžyły vyznaje vašaje cudoŭnaje ŭmiašańnie. Jon sardečna dziakuje i klaniecca dałučycca da vašych šerahaj. #STR_UseGhyranMagic2
+Acaleły sustrakaje vaš cudoŭny ŭčynak słaboj, ale ŭdziačnaj uśmieškaj. Jon ad usiaho serca dziakuje vam i abiacaje dałučycca da vašych šerahaŭ. #STR_UseGhyranMagic2
 
-* [Pryniać jaho padziaki i praciahnuć.] -> ContinueOn
+* [Pryniać jahonuju padziaku j rušyć dalej.] -> ContinueOn
 === HelpButDie ===
-Niahledziačy na ŭsie vašyja vysiłki, stan sałdata chutka paharšajecca. Abciažarany podych stanovicca ŭsio bolš redkim, pohlad stračvaje fokus. Nasupierak usim vašym šlachietnym sprobam, žyćcio sałdata vyślizhvaje, pakidaja paśla siabie auru miełancholii i niepachisnaje pačućcio bieskarysnaści. #STR_HelpButDie1
+Niahledziačy na ŭsie vašyja namahańni, stan vajara imkliva paharšajecca. Jahonaje ciažkaje dychańnie robicca ŭsio słabiejšym, a pozirk ćmianieje. Vy adčajna sprabujecie dapamahčy, ale žyćcio sychodzić ź jaho, pakidajučy pa sabie tuhu j nieadčepnaje pačućcio marnaści ŭsich vysiłkaŭ. #STR_HelpButDie1
 
-Z ciažaram na sercy, vy schilajecie hałavu ŭ znak pašany advazie pałaha sałdata. #STR_HelpButDie2
+Ź ciažkim sercam vy schilajecie hałavu, ušanoŭvajučy mužnaje zmahańnie zahinułaha vajara. #STR_HelpButDie2
 
-* [Ušanavać pałaha i praciahnuć.] -> ContinueOn
+* [Ušanavać pamiać palehłaha j rušyć dalej.] -> ContinueOn
 === PayRespects ===
-Schiliŭšy hałavu ŭ hanarystam pakłonie, vy ŭšanoŭvajecie pałych sałdataŭ, što addali svajo žyćcio na hetym pryvidnym poli boju. Pačućcio tavarystva i ahulnaj mety apanoŭvaje nad vašaj hrupaj i zjaŭlajecca jarkim napaminam pra biaskoncaje zmahańnie miž Morram i niaśmierciu. #STR_PayRespects1
+Pavažna schiliŭšy hałavu, vy ŭšanoŭvajecie vajaroŭ, što addali žyćci na hetym zmročnym poli bitvy. Vašuju partyju jadnaje pačućcio braterstva j supolnaj mety — ščymlivy napamin pra niaspynnaje zmahańnie Mora ź niežyćciu. #STR_PayRespects1
 
-Addaŭšy daninu maŭčańnia, vy źbirajeciesia z siłami i vyrašajecie pieramahčy ciemru, što ruchajecca i pahražaje haspadarstvu. #STR_PayRespects2
+Addaŭšy maŭklivuju pašanu palehłym, vy źbirajeciesia z ducham, poŭnyja rašučaści adoleć ciemru, što navisła nad haspadarstvam. #STR_PayRespects2
 
 -> END
 
 === ContinueOn ===
-Vy nadumali pakinuć pole boju zzadu i praciahnuć svoj šlach. #STR_ContinueOn1
+Vy vyrašajecie pakinuć pole bitvy j praciahnuć padarožža. #STR_ContinueOn1
 
-Kali vy sychodzicie, krajavid niby vydychaje panury ŭzdych, nazaŭždy zastajučysia śviedkam vyprabavańniaŭ, što lahli na plečy tych, chto advažyŭsia supraćstajać nacisku ciemry. #STR_ContinueOn2
+Kali vy adychodzicie, sama ziamla niby ŭzdychaje ŭ smutku, navieki zastajučysia śviedkaj vyprabavańniaŭ tych, chto navažyŭsia supraćstajać navale ciemry. #STR_ContinueOn2
 
 -> END
