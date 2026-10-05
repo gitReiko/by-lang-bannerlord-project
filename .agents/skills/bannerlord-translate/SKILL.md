@@ -1,6 +1,6 @@
 ---
 name: bannerlord-translate
-description: Translate Mount & Blade II: Bannerlord game or mod localization files from English into Belarusian classical orthography within this repository. Use when adding, updating, or completing Belarusian Cyrillic translation strings; do not use for a review-only request.
+description: Translate Mount & Blade II Bannerlord game or mod localization into Belarusian classical orthography, and maintain the shared equipment dictionary from BYc item names in this repository. Use for translation edits or adding attested equipment terms; do not use for a review-only request.
 ---
 
 # Bannerlord translation
@@ -11,13 +11,19 @@ Translate the requested game or mod text into natural Belarusian in classical or
 
 - All active game and mod projects are under `пераклады/`.
 - Treat `пераклады/Belarusian.Core` as the base-game project. Treat another `пераклады/Belarusian.*` directory as its own mod project.
-- Work only in the project named or unambiguously implied by the request. If it is not identifiable, ask which project is intended.
+- For translation edits, work only in the project named or unambiguously implied by the request. If it is not identifiable, ask which project is intended. A request to collect terms for the shared equipment dictionary may span all projects under `пераклады/` without changing their translations.
 - Files used to prepare a translation are kept under the project's `пераклад/` directory. Its internal folder names vary (`зыходнікі`, `сыравіна`, `крыніцы`, and mod-specific variants), so inspect the selected project instead of assuming one fixed source path.
 - Before creating a destination, inspect the selected project's existing layout and match it. Existing Belarusian Cyrillic output is commonly under `ModuleData/Languages/BYc`; `BYl` is the Latin-script variant and is not the primary hand-translation target unless the user explicitly says otherwise.
 
 ## Load terminology before translating
 
 Always read `пераклады/Belarusian.Core/пераклад/тэрміны.txt` as the shared glossary.
+
+For weapons, armor, protective clothing, shields, ammunition, equipment parts, and horse equipment, also read the repository-root [equipment dictionary](<../../../слоўнік зброі.txt>). This is an inventory of attested translations, not a standardized glossary: preserve its alternatives and use the selected project's glossary and context to choose the translation. Do not treat the first listed variant as approved.
+
+When adding or correcting such terminology in a translation, update `слоўнік зброі.txt` with any new English term or Belarusian variant actually used in the edited `BYc` output. Keep all existing variants until the user requests standardization; record the project, BYc-relative file, and localization ID for each added variant. Search for duplicates before appending. Retain attested spelling; distinguish inflected source forms and questionable correspondences from alternative lemmas.
+
+Collect dictionary evidence only from `BYc` directories under `пераклады/`, using item names whose text starts with `{.Mnozny}`, `{.Muzcynski}`, `{.Nijaki}`, or `{.Zanocy}`. Use local English templates or original material only to identify the corresponding English term by localization ID. Extract the equipment type or part, not the full RPG item name: omit color, quality, material, faction, owner, decoration, and descriptive combinations. Keep meaningful lexical compounds such as `Longsword`, `Доўгі Меч`, and `Кідальная Сякера`. Exclude mounts themselves, banners, troops, books, and unrelated tagged names. Do not invent an English equivalent for an unpaired BYc term; record that uncertainty explicitly.
 
 When translating a mod, also read `<mod>/пераклад/тэрміны.txt` if it exists. Apply terminology in this order:
 
