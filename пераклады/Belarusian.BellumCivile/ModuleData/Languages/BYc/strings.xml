@@ -430,7 +430,7 @@
     <string id="BC_Marriage_PlayerRelativeOther" text="Я маю на ўвазе іншага чалавека." />
     <string id="BC_Marriage_ChooseOtherPrompt" text="А чыёй рукі з маёй сям'і вы дамагаецеся?" />
     <string id="BC_Marriage_OtherRelative" text="Дамагаюся рукі {BC_OTHER_CANDIDATE.NAME}." />
-    <string id="BC_Marriage_OtherRelativeOther" text="Я меў на ўвазе іншага чалавека." />
+    <string id="BC_Marriage_OtherRelativeOther" text="Я {?PLAYER.GENDER}мела{?}меў{\?} на ўвазе іншага чалавека." />
     <string id="BC_Marriage_BackToPlayerChoice" text="Мне варта прапанаваць іншага чальца маёй сям'і." />
     <string id="BC_Marriage_ConfirmPrompt" text="То бок, азначаная пара. Пагаворым пра ўмовы." />
     <string id="BC_Marriage_DiscussTerms" text="Выдатна. Абмяркуйма ўмовы." />
@@ -1420,12 +1420,12 @@
     <string id="BC_DynasticHeiress_CadetFounded_Fief" text="Пасьля нядаўняга шлюбу нявесты {BRIDE_NAME} з клану {BRIDE_PARENT_CLAN} і жаніха {GROOM_NAME} з клану {GROOM_PARENT_CLAN} іх дом атрымаў воласьць {DOWRY_FIEF} як пасаг. Захоўваючы дынастычныя правы нявесты, іх галіна сям'і адгэтуль будзе вядомая як клан {CADET_CLAN}." />
     <string id="BC_DynasticHeiress_CadetFounded_Gold" text="Пасьля нядаўняга шлюбу нявесты {BRIDE_NAME} з клану {BRIDE_PARENT_CLAN} і жаніха {GROOM_NAME} з клану {GROOM_PARENT_CLAN} іх дом атрымаў вялікую суму дэнараў як пасаг. Захоўваючы дынастычныя правы нявесты, іх галіна сям'і адгэтуль будзе вядомая як клан {CADET_CLAN}." />
     <string id="BC_DynasticHeiress_RightsRenounced" text="Пасьля нядаўняга шлюбу нявесты {BRIDE_NAME} з клану {BRIDE_PARENT_CLAN} і жаніха {GROOM_NAME} з клану {GROOM_PARENT_CLAN} прынцэса, паводле законаў спадкаемства гаспадарства, адмовілася ад сваіх дынастычных правоў і перайшла ў дом мужа ў гаспадарстве {GROOM_KINGDOM}." />
-    <string id="BC_PlayerSuccession_LegalHeirEnforced" text="Закон спадкаемства вашага дому прызнае героя {LEGAL_HEIR.NAME} законным спадкаемцам. Герой {ATTEMPTED_HEIR.NAME} прапускаецца." />
-    <string id="BC_PlayerSuccession_InvalidCultureHeirHint" text="Паводле звычаяў вашай культуры «{GENDER_LAW}» і «{SUCCESSION_LAW}», герой {LEGAL_HEIR.NAME} — законны спадкаемца вашага дому." />
-    <string id="BC_PlayerSuccession_InvalidKingdomHeirHint" text="Паводле законаў вашага гаспадарства «{GENDER_LAW}» і «{SUCCESSION_LAW}», герой {LEGAL_HEIR.NAME} — законны спадкаемца вашага дому." />
+    <string id="BC_PlayerSuccession_LegalHeirEnforced" text="Закон спадкаемства вашага дому прызнае {?LEGAL_HEIR.GENDER}гераіню{?}героя{\?} {LEGAL_HEIR.NAME} {?LEGAL_HEIR.GENDER}законнай спадкаеміцай{?}законным спадкаемцам{\?}. {?ATTEMPTED_HEIR.GENDER}Гераіня{?}Герой{\?} {ATTEMPTED_HEIR.NAME} прапускаецца." />
+    <string id="BC_PlayerSuccession_InvalidCultureHeirHint" text="Паводле звычаяў вашай культуры «{GENDER_LAW}» і «{SUCCESSION_LAW}», {?LEGAL_HEIR.GENDER}гераіня{?}герой{\?} {LEGAL_HEIR.NAME} — {?LEGAL_HEIR.GENDER}законная спадкаеміца{?}законны спадкаемца{\?} вашага дому." />
+    <string id="BC_PlayerSuccession_InvalidKingdomHeirHint" text="Паводле законаў вашага гаспадарства «{GENDER_LAW}» і «{SUCCESSION_LAW}», {?LEGAL_HEIR.GENDER}гераіня{?}герой{\?} {LEGAL_HEIR.NAME} — {?LEGAL_HEIR.GENDER}законная спадкаеміца{?}законны спадкаемца{\?} вашага дому." />
     <string id="BC_PlayerSuccession_ConfirmTitle" text="Спадкаемства" />
-    <string id="BC_PlayerSuccession_ConfirmCulture" text="Паводле звычаяў вашай культуры «{GENDER_LAW}» і «{SUCCESSION_LAW}», герой {LEGAL_HEIR.NAME} — законны спадкаемца вашага дому. Ці прызнаяце вы {POSSESSIVE} кроўнае права?" />
-    <string id="BC_PlayerSuccession_ConfirmKingdom" text="Паводле законаў вашага гаспадарства «{GENDER_LAW}» і «{SUCCESSION_LAW}», герой {LEGAL_HEIR.NAME} — законны спадкаемца вашага дому. Ці прызнаяце вы {POSSESSIVE} кроўнае права?" />
+    <string id="BC_PlayerSuccession_ConfirmCulture" text="Паводле звычаяў вашай культуры «{GENDER_LAW}» і «{SUCCESSION_LAW}», {?LEGAL_HEIR.GENDER}гераіня{?}герой{\?} {LEGAL_HEIR.NAME} — {?LEGAL_HEIR.GENDER}законная спадкаеміца{?}законны спадкаемца{\?} вашага дому. Ці прызнаяце вы {POSSESSIVE} кроўнае права?" />
+    <string id="BC_PlayerSuccession_ConfirmKingdom" text="Паводле законаў вашага гаспадарства «{GENDER_LAW}» і «{SUCCESSION_LAW}», {?LEGAL_HEIR.GENDER}гераіня{?}герой{\?} {LEGAL_HEIR.NAME} — {?LEGAL_HEIR.GENDER}законная спадкаеміца{?}законны спадкаемца{\?} вашага дому. Ці прызнаяце вы {POSSESSIVE} кроўнае права?" />
     <string id="BC_PlayerSuccession_Acknowledge" text="Прызнаць" />
     <string id="BC_PlayerSuccession_Cancel" text="Скасаваць" />
     <string id="BC_Pronoun_His" text="яго" />
@@ -1471,31 +1471,31 @@
     <string id="BC_GenderLaw_FemaleInheritance_Desc" text="Спадкаваць могуць толькі жанчыны. Калі ў доме не застанецца ніводнай жанчыны, яго землі і тытулы вернуцца да кароны, а ацалелы дом захавае моцныя прэтэнзіі." />
     <string id="BC_GenderLineEscheat_Notification" text="Пасьля сьмерці героя {DECEASED_HERO} не засталося законнага спадкаемцы ({GENDER}), таму землі і тытулы клану {CLAN_NAME} вярнуліся да клану {CROWN_CLAN}. Ацалелы дом захоўвае моцныя прэтэнзіі на свае былыя ўладаньні." />
     <string id="BC_DynasticLineEscheat_Notification" text="Пасьля сьмерці героя {DECEASED_HERO} не засталося законнага кроўнага сваяка, таму землі і тытулы клану {CLAN_NAME} вярнуліся да клану {CROWN_CLAN}. Ацалелы дом захоўвае моцныя прэтэнзіі на свае былыя ўладаньні." />
-    <string id="BC_Regency_Started" text="Паколькі спадкаемца {WARD} яшчэ не дасягнуў паўналецьця, рэгент {REGENT} узяў на сябе рэгенцтва клану {CLAN} да паўналецьця законнага спадкаемцы." />
-    <string id="BC_Regency_RegentReplaced" text="Пасьля сыходу рэгента {OLD_REGENT} новы рэгент {NEW_REGENT} узяў на сябе рэгенцтва клану {CLAN} пры спадкаемцы {WARD}." />
-    <string id="BC_Regency_RegentReplacedDeath" text="Пасьля сьмерці рэгента {OLD_REGENT} новы рэгент {NEW_REGENT} узяў на сябе рэгенцтва клану {CLAN} пры спадкаемцы {WARD}." />
+    <string id="BC_Regency_Started" text="Паколькі {?WARD.GENDER}спадкаеміца{?}спадкаемца{\?} {WARD} яшчэ не {?WARD.GENDER}дасягнула{?}дасягнуў{\?} паўналецьця, рэгент {REGENT} узяў на сябе рэгенцтва клану {CLAN} да паўналецьця {?WARD.GENDER}законнай спадкаеміцы{?}законнага спадкаемцы{\?}." />
+    <string id="BC_Regency_RegentReplaced" text="Пасьля сыходу рэгента {OLD_REGENT} новы рэгент {NEW_REGENT} узяў на сябе рэгенцтва клану {CLAN} пры {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}." />
+    <string id="BC_Regency_RegentReplacedDeath" text="Пасьля сьмерці рэгента {OLD_REGENT} новы рэгент {NEW_REGENT} узяў на сябе рэгенцтва клану {CLAN} пры {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}." />
     <string id="BC_Regency_Ended" text="Дасягнуўшы паўналецьця, {WARD} {?WARD.GENDER}скончыла рэгенцтва і заняла{?}скончыў рэгенцтва і заняў{\?} законнае месца галавы клану {CLAN}." />
     <string id="BC_Regency_WardReplaced" text="Пасьля сьмерці спадкаемцы {OLD_WARD} непаўналетні герой {NEW_WARD} стаў галавой клану {CLAN} і застаецца пад рэгенцтвам." />
     <string id="BC_Regency_AdultSuccessor" text="Пасьля сьмерці спадкаемцы {OLD_WARD} герой {SUCCESSOR} скончыў рэгенцтва і ўзначаліў клан {CLAN}." />
     <string id="BC_Regency_FormerRegent" text="ранейшы рэгент" />
     <string id="BC_Regency_FormerWard" text="ранейшы спадкаемца" />
-    <string id="BC_PlayerRegency_SelectionTitle" text="Прызначыць Рэгента пры Спадкаемцы {WARD}" />
-    <string id="BC_PlayerRegency_WardSuccessionTitle" text="Прызнаць Спадкаемцу {WARD} Галавой Дому" />
+    <string id="BC_PlayerRegency_SelectionTitle" text="Прызначыць Рэгента пры {?WARD.GENDER}Спадкаеміцы{?}Спадкаемцы{\?} {WARD}" />
+    <string id="BC_PlayerRegency_WardSuccessionTitle" text="Прызнаць {?WARD.GENDER}Спадкаеміцу{?}Спадкаемцу{\?} {WARD} Галавой Дому" />
     <string id="BC_PlayerRegency_SelectionButton" text="Прызначыць Рэгента" />
     <string id="BC_PlayerRegency_WardSuccessionButton" text="Працягнуць за Спадкаемцу" />
-    <string id="BC_PlayerRegency_SelectionConfirm" text="Прызначыць героя {REGENT} рэгентам пры спадкаемцы {WARD}? Вы працягнеце гуляць за героя {REGENT} да паўналецьця спадкаемцы {WARD}." />
-    <string id="BC_PlayerRegency_WardSuccessionConfirm" text="Спадкаемца {WARD} ужо дасягнуў паўналецьця і цяпер стане законным галавой дому. Вы працягнеце гуляць за героя {WARD}." />
+    <string id="BC_PlayerRegency_SelectionConfirm" text="Прызначыць героя {REGENT} рэгентам пры {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}? Вы працягнеце гуляць за героя {REGENT} да паўналецьця {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}." />
+    <string id="BC_PlayerRegency_WardSuccessionConfirm" text="{?WARD.GENDER}Спадкаеміца{?}Спадкаемца{\?} {WARD} ужо {?WARD.GENDER}дасягнула{?}дасягнуў{\?} паўналецьця і цяпер стане {?WARD.GENDER}законнай{?}законным{\?} галавой дому. Вы працягнеце гуляць за {?WARD.GENDER}гераіню{?}героя{\?} {WARD}." />
     <string id="BC_PlayerRegency_ConfirmTitle" text="Рэгенцтва" />
     <string id="BC_PlayerRegency_Confirm" text="Пацьвердзіць" />
     <string id="BC_PlayerRegency_ReplacementIntroTitle" text="Патрэбны Новы Рэгент" />
     <string id="BC_PlayerRegency_IntroTitle" text="Спадкаемца Непаўналетні" />
-    <string id="BC_PlayerRegency_ReplacementIntro" text="Спадкаемца {WARD} застаецца законным галавой вашага дому, але яшчэ не дасягнуў паўналецьця. Паколькі рэгент {REGENT} больш ня можа служыць, вы мусіце прызначыць новага рэгента і будзеце гуляць за яго да паўналецьця спадкаемцы {WARD}." />
-    <string id="BC_PlayerRegency_ContinuityIntro" text="Закон спадкаемства вашага дому не пакідае ніводнага чальца, які мае права атрымаць яго землі. Спадкаемца {WARD} — найбліжэйшы ацалелы прадаўжальнік дому, але яшчэ непаўналетні, таму ўладаньні пяройдуць паводле правілаў вяртаньня, вызначаных законам, а рэгент захавае дом. Вы мусіце прызначыць гэтага рэгента і будзеце гуляць за яго да паўналецьця спадкаемцы {WARD}." />
-    <string id="BC_PlayerRegency_Intro" text="Паводле законаў вашага дому «{GENDER_LAW}» і «{SUCCESSION_LAW}», герой {WARD} — законны спадкаемца. Паколькі спадкаемца {WARD} яшчэ непаўналетні, вы мусіце прызначыць паўналетняга рэгента і будзеце гуляць за яго да паўналецьця спадкаемцы {WARD}." />
+    <string id="BC_PlayerRegency_ReplacementIntro" text="{?WARD.GENDER}Спадкаеміца{?}Спадкаемца{\?} {WARD} застаецца {?WARD.GENDER}законнай{?}законным{\?} галавой вашага дому, але яшчэ не {?WARD.GENDER}дасягнула{?}дасягнуў{\?} паўналецьця. Паколькі рэгент {REGENT} больш ня можа служыць, вы мусіце прызначыць новага рэгента і будзеце гуляць за яго да паўналецьця {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}." />
+    <string id="BC_PlayerRegency_ContinuityIntro" text="Закон спадкаемства вашага дому не пакідае ніводнага чальца, які мае права атрымаць яго землі. {?WARD.GENDER}Спадкаеміца{?}Спадкаемца{\?} {WARD} — {?WARD.GENDER}найбліжэйшая ацалелая прадаўжальніца{?}найбліжэйшы ацалелы прадаўжальнік{\?} дому, але яшчэ {?WARD.GENDER}непаўналетняя{?}непаўналетні{\?}, таму ўладаньні пяройдуць паводле правілаў вяртаньня, вызначаных законам, а рэгент захавае дом. Вы мусіце прызначыць гэтага рэгента і будзеце гуляць за яго да паўналецьця {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}." />
+    <string id="BC_PlayerRegency_Intro" text="Паводле законаў вашага дому «{GENDER_LAW}» і «{SUCCESSION_LAW}», {?WARD.GENDER}гераіня{?}герой{\?} {WARD} — {?WARD.GENDER}законная спадкаеміца{?}законны спадкаемца{\?}. Паколькі {?WARD.GENDER}спадкаеміца{?}спадкаемца{\?} {WARD} яшчэ {?WARD.GENDER}непаўналетняя{?}непаўналетні{\?}, вы мусіце прызначыць паўналетняга рэгента і будзеце гуляць за яго да паўналецьця {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}." />
     <string id="BC_PlayerRegency_GeneratedIntro" text="{DESCRIPTION}&#xA;&#xA;Паколькі ў доме няма прыдатнага паўналетняга чальца, далёкі сваяк {REGENT} выступіў наперад, каб узяць на сябе рэгенцтва." />
     <string id="BC_PlayerRegency_ChooseRegent" text="Абярыце Рэгента" />
     <string id="BC_PlayerRegency_HandoverTitle" text="Рэгенцтва Канчаецца" />
-    <string id="BC_PlayerRegency_Handover" text="Паўналецьце героя {WARD} надышло, і цяпер {?WARD.GENDER}яна{?}ён{\?} зойме законнае месца галавы клану {CLAN}. Рэгенцтва героя {REGENT} скончанае.&#xA;&#xA;(Вы працягнеце гуляць за героя {WARD}.)" />
+    <string id="BC_PlayerRegency_Handover" text="Паўналецьце {?WARD.GENDER}гераіні{?}героя{\?} {WARD} надышло, і цяпер {?WARD.GENDER}яна{?}ён{\?} зойме законнае месца галавы клану {CLAN}. Рэгенцтва героя {REGENT} скончанае.&#xA;&#xA;(Вы працягнеце гуляць за {?WARD.GENDER}гераіню{?}героя{\?} {WARD}.)" />
     <string id="BC_PlayerRegency_HandoverContinue" text="Працягнуць за Спадкаемцу" />
     <string id="BC_GenderLine_Male" text="мужчынскага полу" />
     <string id="BC_GenderLine_Female" text="жаночага полу" />
