@@ -242,7 +242,7 @@
     <string id="BC_MCM_FeudalTitleMinimumChildren" text="Мінімум Тытулаў для Стварэньня Вышэйшага Тытулу" />
     <string id="BC_MCM_FeudalTitleMinimumChildren_Hint" text="Мінімальная колькасьць сумежных тытулаў аднаго рангу, патрэбная для стварэньня вышэйшага тытулу. Ніжэйшыя значэньні ствараюць шчыльнейшыя герархіі тытулаў, якія лепш адпавядаюць шчыльнасьці мапы Кальрадыі. Прадвызначана: 2." />
     <string id="BC_MCM_FeudalClaimFabricationYears" text="Базавы Тэрмін Фабрыкацыі Прэтэнзіі ў Гадах" />
-    <string id="BC_MCM_FeudalClaimFabricationYears_Hint" text="Базавая колькасьць гульнявых гадоў, патрэбная для фабрыкацыі прэтэнзіі да ўліку ўплыву загадваньня, нягодніцтва і асаблівасьцяў фабрыкатара на прагрэс. Прадвызначана: 3 гады." />
+    <string id="BC_MCM_FeudalClaimFabricationYears_Hint" text="Базавая колькасьць гульнявых гадоў, патрэбная для фабрыкацыі прэтэнзіі да ўліку ўплыву загадваньня, махлярства і асаблівасьцяў фабрыкатара на прагрэс. Прадвызначана: 3 гады." />
     <string id="BC_MCM_FeudalClaimFabricationDiscovery" text="Імавернасьць Выкрыцьця Сфабрыкаванай Прэтэнзіі" />
     <string id="BC_MCM_FeudalClaimFabricationDiscovery_Hint" text="Базавая імавернасьць выкрыцьця да ўліку навыкаў і мадыфікатараў сойму. Другі і трэці этапы дадаюць 3 і 6 адсоткавых пунктаў рызыкі выкрыцьця. Прадвызначана: 10%." />
     <string id="BC_TitlePenalty_ContestedLegalTitle" text="Аспрэчаны законны тытул" />
@@ -1164,10 +1164,10 @@
     <string id="BC_Comrades_BattleSummaryVictory" text="Пасьля сумеснай пераможнай бітвы вашыя сувязі зьмяніліся: {LORD_CHANGES}." />
     <string id="BC_Comrades_BattleSummaryDefeat" text="Пасьля горкай паразы абвінавачаньні і павага зьмяняюць вашыя сувязі: {LORD_CHANGES}." />
     <string id="BC_Comrades_BlameRuler" text="Вы вінаваціце кіраўніцтва гаспадара {RULER_NAME} ў нядаўняй паразе на полі бою ({RELATION_CHANGE})." />
-    <string id="BC_Comrades_BlamedByLord" text="Пан {LORD_NAME} горка вінаваціць вас у нядаўняй паразе на полі бою ({RELATION_CHANGE})." />
+    <string id="BC_Comrades_BlamedByLord" text="{LORD_NAME} горка вінаваціць вас у нядаўняй паразе на полі бою ({RELATION_CHANGE})." />
     <string id="BC_Comrades_Captivity" text="Марнеючы ў палоне, вы ўсё больш крыўдуеце на гаспадара {RULER_NAME} за тое, што ён вас ня выратаваў ({RELATION_CHANGE})." />
     <string id="BC_Comrades_LossInfuriates" text="Невыкананьне абавязку абараняць гаспадарства і страта селішча {SETTLEMENT_NAME} гаспадаром {RULER_NAME} прыводзяць вас у лютасьць ({RELATION_CHANGE})." />
-    <string id="BC_Comrades_LossBlamed" text="Абураны вашай няздольнасьцю абараніць яго землі, пан {LORD_NAME} вінаваціць вас у страце селішча {SETTLEMENT_NAME} ({RELATION_CHANGE})." />
+    <string id="BC_Comrades_LossBlamed" text="Абураны вашай няздольнасьцю абараніць яго землі, {LORD_NAME} вінаваціць вас у страце селішча {SETTLEMENT_NAME} ({RELATION_CHANGE})." />
 
     <!-- CivilWarResolutionBehavior.cs Tribunal Strings -->
     <string id="BC_Tribunal_Title" text="Пасьляваенны Прысуд" />
@@ -1186,9 +1186,9 @@
     <string id="BC_FactionManager_DisbandReason_LeaderAscended" text="яе лідар узышоў на трон" />
     <string id="BC_FactionManager_LeftReason_Ascended" text="яны ўзышлі на трон" />
     <string id="BC_FactionManager_SuccessionChaos" text="Скарыстаўшыся бязладзьдзем спадкаемства, фракцыя {FACTION_NAME} выставіла свае патрабаваньні!" />
-    <string id="BC_FactionManager_FuryLoyal" text="Гаспадар {RULER_NAME} прызнае вашую лаяльнасьць падчас цяперашняй грамадзянскай вайны. (+{RELATION_CHANGE} да адносінаў)" />
-    <string id="BC_FactionManager_FuryNeutral" text="Гаспадар {RULER_NAME} дасылае гнеўныя лісты з патрабаваньнем выканаць вашую феадальную дамову і змагацца з паўстанцамі! ({RELATION_CHANGE} да адносінаў)" />
-    <string id="BC_FactionManager_FuryTraitor" text="Гаспадар {RULER_NAME} лічыць вашую абыякавасьць падчас гэтай грамадзянскай вайны амаль здрадай. ({RELATION_CHANGE} да адносінаў)" />
+    <string id="BC_FactionManager_FuryLoyal" text="{RULER_NAME} прызнае вашую лаяльнасьць падчас цяперашняй грамадзянскай вайны. (+{RELATION_CHANGE} да адносінаў)" />
+    <string id="BC_FactionManager_FuryNeutral" text="{RULER_NAME} дасылае гнеўныя лісты з патрабаваньнем выканаць вашую феадальную дамову і змагацца з паўстанцамі! ({RELATION_CHANGE} да адносінаў)" />
+    <string id="BC_FactionManager_FuryTraitor" text="{RULER_NAME} лічыць вашую абыякавасьць падчас гэтай грамадзянскай вайны амаль здрадай. ({RELATION_CHANGE} да адносінаў)" />
 
     <!-- IdeologyBehavior.cs Strings -->
     <string id="BC_Ideology_LeaderChange" text="Пасьля сходу сойму ў гаспадарстве {KINGDOM_NAME} клан {CLAN_NAME} афіцыйна ўзначаліў фракцыю {FACTION_NAME}." />
@@ -1256,17 +1256,17 @@
     <string id="BC_Ideology_NeutralityPenalty" text="Паны гаспадарства сумняваюцца, каму вы верныя. Вашыя адносіны зь лідарам {CLAN_LEADER} пагоршыліся (-1)." />
     <string id="BC_Ideology_ExpelVote" text="Гаспадарскім дэкрэтам {RULER_NAME} склікаў паноў гаспадарства, каб вынесьці прысуд аб вернасьці лідара {CLAN_LEADER} з клану {CLAN_NAME}." />
     <string id="BC_Ideology_RebellionInsteadOfExecution" text="Замест таго каб стаць перад катам, {LEADER_NAME} з клану {CLAN_NAME} падняў свае сьцягі ў адкрытым паўстаньні!" />
-    <string id="BC_Ideology_ExecutedTreason" text="На загад гаспадара {RULER_NAME} лідар {LEADER_NAME} з клану {CLAN_NAME} быў абвінавачаны ў здрадзе. Пана пазбавілі ўсёй маёмасьці і пакаралі сьмерцю, а ягоныя ацалелыя сваякі ўцяклі, ратуючы жыцьцё." />
-    <string id="BC_Ideology_ExiledTreason" text="На загад гаспадара {RULER_NAME} лідар {LEADER_NAME} з клану {CLAN_NAME} быў абвінавачаны ў здрадзе. Пана пазбавілі ўсёй маёмасьці, і ён уцёк, ратуючы жыцьцё." />
+    <string id="BC_Ideology_ExecutedTreason" text="На загад гаспадара {RULER_NAME} {LEADER_NAME} з клану {CLAN_NAME} быў абвінавачаны ў здрадзе. Пана пазбавілі ўсёй маёмасьці і пакаралі сьмерцю, а ягоныя ацалелыя сваякі ўцяклі, ратуючы жыцьцё." />
+    <string id="BC_Ideology_ExiledTreason" text="На загад гаспадара {RULER_NAME} {LEADER_NAME} з клану {CLAN_NAME} быў абвінавачаны ў здрадзе. Пана пазбавілі ўсёй маёмасьці, і ён уцёк, ратуючы жыцьцё." />
     <string id="BC_Ideology_DefiantRebellion" text="Непакорны да канца, {LEADER_NAME} з клану {CLAN_NAME} адмаўляецца прыняць прысуд кароны і ўзьняў свае сьцягі супраць гаспадарства {KINGDOM_NAME}!" />
-    <string id="BC_Ideology_SwitchedSides" text="Лідар {LEADER_NAME} з клану {CLAN_NAME} перагледзеў сваё палітычнае падданства ў гаспадарстве {KINGDOM_NAME}, пакінуўшы фракцыю {OLD_FACTION} на карысьць фракцыі {NEW_FACTION}." />
+    <string id="BC_Ideology_SwitchedSides" text="{LEADER_NAME} з клану {CLAN_NAME} перагледзеў сваё палітычнае падданства ў гаспадарстве {KINGDOM_NAME}, пакінуўшы фракцыю {OLD_FACTION} на карысьць фракцыі {NEW_FACTION}." />
 
     <!-- NotificationHelper.cs Strings -->
     <string id="BC_Notification_Joined" text="Клан {CLAN_NAME} паабяцаў падтрымку фракцыі {FACTION_NAME} гаспадарства {KINGDOM_NAME}." />
     <string id="BC_Notification_Formed" text="Клан {CLAN_NAME} згуртаваў прыхільнікаў, каб стварыць фракцыю {FACTION_NAME} гаспадарства {KINGDOM_NAME}." />
     <string id="BC_Notification_Abandoned" text="Клан {CLAN_NAME} пакінуў фракцыю {FACTION_NAME} гаспадарства {KINGDOM_NAME} ({REASON})." />
     <string id="BC_Notification_Dissolved" text="Фракцыя {FACTION_NAME} гаспадарства {KINGDOM_NAME} афіцыйна распушчаная, бо {REASON}." />
-    <string id="BC_Notification_Defected" text="На хвалі посьпехаў гаспадарства {REBEL_KINGDOM} лідар {LEADER_NAME} з клану {CLAN_NAME} перайшоў на іншы бок і абвясьціў падтрымку паўстаньню!" />
+    <string id="BC_Notification_Defected" text="На хвалі посьпехаў гаспадарства {REBEL_KINGDOM} {LEADER_NAME} з клану {CLAN_NAME} перайшоў на іншы бок і абвясьціў падтрымку паўстаньню!" />
     <string id="BC_Demand_Independence" text="далі ім незалежнасьць ад гаспадарства" />
     <string id="BC_Demand_Abdication" text="адракліся ад пасаду" />
     <string id="BC_Demand_InstallRuler" text="перадалі карону прэтэнзенту {LEADER_NAME}" />
@@ -1302,21 +1302,21 @@
     <string id="BC_Notification_TitleGranted" text="Суверэнным наданьнем {GRANTOR_NAME} з клану {GRANTOR_CLAN} дараваў тытул {TITLE_NAME} атрымальніку {RECIPIENT_NAME} з клану {RECIPIENT_CLAN}." />
     <string id="BC_Notification_TitleGranted_Independent" text="Суверэнным наданьнем {GRANTOR_NAME} з клану {GRANTOR_CLAN} дараваў тытул {TITLE_NAME} атрымальніку {RECIPIENT_NAME} з клану {RECIPIENT_CLAN}, узьвёўшы яго ў незалежны і роўны сабе ранг." />
     <string id="BC_Notification_TitleRevoked" text="Паводле права прэтэнзіі і ўлады гаспадара {REVOKER_NAME} з клану {REVOKER_CLAN} адабраў тытул {TITLE_NAME} у трымальніка {HOLDER_NAME} з клану {HOLDER_CLAN}. Пазбаўлены ўладаньняў дом прымае прысуд, хоць крыўда застаецца." />
-    <string id="BC_Notification_TitleRevocationDefied" text="Гаспадар {REVOKER_NAME} з клану {REVOKER_CLAN} запатрабаваў тытул {TITLE_NAME} паводле права прэтэнзіі, але трымальнік {HOLDER_NAME} з клану {HOLDER_CLAN} адхіліў грамату. Спрэчка цяпер пагражае перарасьці ў прыватную вайну." />
+    <string id="BC_Notification_TitleRevocationDefied" text="{REVOKER_NAME} з клану {REVOKER_CLAN} запатрабаваў тытул {TITLE_NAME} паводле права прэтэнзіі, але {HOLDER_NAME} з клану {HOLDER_CLAN} адхіліў грамату. Спрэчка цяпер пагражае перарасьці ў прыватную вайну." />
     <string id="BC_TitleGrant_IndependentRealmText" text="Створанае суверэнным наданьнем гаспадарства {PARENT_KINGDOM}, гаспадарства {NEW_KINGDOM} зьявілася як незалежная дзяржава." />
     <string id="BC_PartitionSuccession_IndependentRealmText" text="Аддзеленае ад гаспадарства {PARENT_KINGDOM} дынастычным спадкаемствам, гаспадарства {NEW_KINGDOM} перайшло да роўнага кроўнага спадкаемцы як незалежная дзяржава." />
-    <string id="BC_Notification_ClaimFabricationDiscovered_1" text="Падарожнікі кажуць пра незвычайную дзейнасьць у краі: герой {HERO_NAME} з клану {CLAN_NAME}, відаць, шукае прававых прэцэдэнтаў адносна гістарычнага радаводу тытулу {TITLE_NAME}." />
-    <string id="BC_Notification_ClaimFabricationDiscovered_2" text="Ціхая трывога ахоплівае землі тытулу {TITLE_NAME}: ходзяць чуткі, што герой {HERO_NAME} з клану {CLAN_NAME} актыўна адшуквае старажытныя спрэчныя прывілеі, каб аспрэчыць цяперашняе валоданьне гэтымі землямі." />
-    <string id="BC_Notification_ClaimFabricationDiscovered_3" text="Чуткі з палацу сьведчаць, што герой {HERO_NAME} з клану {CLAN_NAME} таемна наняў пісараў для падробкі дакумэнтаў, якія незаконна зьмяняюць межы тытулу {TITLE_NAME}." />
+    <string id="BC_Notification_ClaimFabricationDiscovered_1" text="Падарожнікі кажуць пра незвычайную дзейнасьць у краі: {HERO_NAME} з клану {CLAN_NAME}, відаць, шукае прававых прэцэдэнтаў адносна гістарычнага радаводу тытулу {TITLE_NAME}." />
+    <string id="BC_Notification_ClaimFabricationDiscovered_2" text="Ціхая трывога ахоплівае землі тытулу {TITLE_NAME}: ходзяць чуткі, што {HERO_NAME} з клану {CLAN_NAME} актыўна адшуквае старажытныя спрэчныя прывілеі, каб аспрэчыць цяперашняе валоданьне гэтымі землямі." />
+    <string id="BC_Notification_ClaimFabricationDiscovered_3" text="Чуткі з палацу сьведчаць, што {HERO_NAME} з клану {CLAN_NAME} таемна наняў пісараў для падробкі дакумэнтаў, якія незаконна зьмяняюць межы тытулу {TITLE_NAME}." />
     <string id="BC_Notification_PlayerClaimFabricationStarted" text="Вашыя агенты пачалі ціха зьбіраць прэцэдэнты і спрэчныя прывілеі адносна тытулу {TITLE_NAME}." />
-    <string id="BC_Notification_ClaimFabricationCompleted_1" text="Спасылаючыся на забытыя наданьні мінулых пакаленьняў, герой {HERO_NAME} з клану {CLAN_NAME} афіцыйна абвясьціў {POSSESSIVE} спрэчную, але юрыдычна абавязковую прэтэнзію на тытул {TITLE_NAME}." />
-    <string id="BC_Notification_ClaimFabricationCompleted_2" text="Палацы прыціхлі, калі герой {HERO_NAME} з клану {CLAN_NAME} прадставіў старажытныя пісьмовыя патэнты, сьмела абвясьціўшы {POSSESSIVE} законную прэтэнзію на тытул {TITLE_NAME}." />
-    <string id="BC_Notification_ClaimFabricationCompleted_3" text="Маючы збор дакумэнтаў, якія нібыта згадваюць аднаго з {POSSESSIVE} продкаў, герой {HERO_NAME} з клану {CLAN_NAME} выставіў афіцыйную прэтэнзію на тытул {TITLE_NAME}." />
-    <string id="BC_Notification_ClaimFeudStarted" text="Прэтэнзент {CLAIMANT_NAME} з клану {CLAIMANT_CLAN} пачаў ціснуць на трымальніка {HOLDER_NAME} з клану {HOLDER_CLAN} праз {POSSESSIVE} прэтэнзію на тытул {TITLE_NAME}, распачаўшы зацяты наезд паміж іх дамамі." />
+    <string id="BC_Notification_ClaimFabricationCompleted_1" text="Спасылаючыся на забытыя наданьні мінулых пакаленьняў, {HERO_NAME} з клану {CLAN_NAME} афіцыйна абвясьціў {POSSESSIVE} спрэчную, але юрыдычна абавязковую прэтэнзію на тытул {TITLE_NAME}." />
+    <string id="BC_Notification_ClaimFabricationCompleted_2" text="Палацы прыціхлі, калі {HERO_NAME} з клану {CLAN_NAME} прадставіў старажытныя пісьмовыя патэнты, сьмела абвясьціўшы {POSSESSIVE} законную прэтэнзію на тытул {TITLE_NAME}." />
+    <string id="BC_Notification_ClaimFabricationCompleted_3" text="Маючы збор дакумэнтаў, якія нібыта згадваюць аднаго з {POSSESSIVE} продкаў, {HERO_NAME} з клану {CLAN_NAME} выставіў афіцыйную прэтэнзію на тытул {TITLE_NAME}." />
+    <string id="BC_Notification_ClaimFeudStarted" text="{CLAIMANT_NAME} з клану {CLAIMANT_CLAN} пачаў ціснуць на трымальніка {HOLDER_NAME} з клану {HOLDER_CLAN} праз {POSSESSIVE} прэтэнзію на тытул {TITLE_NAME}, распачаўшы зацяты наезд паміж іх дамамі." />
     <string id="BC_Notification_ClaimFeudTensions" text="Напружаньне вакол тытулу {TITLE_NAME} расьце: сьвіта клану {CLAIMANT_CLAN} была заўважаная ў перасьледзе васалаў клану {HOLDER_CLAN}." />
     <string id="BC_Notification_ClaimFeudCallToArms" text="Наезд за тытул {TITLE_NAME} пагражае перарасьці ў гвалт: сябры і хаўрусьнікі пачынаюць абвяшчаць падтрымку клану {CLAIMANT_CLAN} або клану {HOLDER_CLAN}." />
-    <string id="BC_Notification_ClaimFeudDropped" text="Наезд за тытул {TITLE_NAME}, здаецца, нарэшце сьціх: прэтэнзент {CLAIMANT_NAME} з клану {CLAIMANT_CLAN} вырашыў спыніць {POSSESSIVE} справу, баючыся перавагі трымальніка {HOLDER_NAME} з клану {HOLDER_CLAN}." />
-    <string id="BC_Notification_ClaimFeudRuling" text="Прэтэнзент {CLAIMANT_NAME} з клану {CLAIMANT_CLAN} зьвярнуўся да гаспадара {RULER_NAME} з прашэньнем вынесьці прысуд адносна {POSSESSIVE} прэтэнзіі на тытул {TITLE_NAME}, якім {LEGAL_STATUS} валодае трымальнік {HOLDER_NAME} з клану {HOLDER_CLAN}. Пасьля доўгага паседжаньня пры палацы ўладар з тытулам «{RULER_TITLE}» {RULING_TEXT}. {RESPONSE_TEXT}" />
+    <string id="BC_Notification_ClaimFeudDropped" text="Наезд за тытул {TITLE_NAME}, здаецца, нарэшце сьціх: {CLAIMANT_NAME} з клану {CLAIMANT_CLAN} вырашыў спыніць {POSSESSIVE} справу, баючыся перавагі трымальніка {HOLDER_NAME} з клану {HOLDER_CLAN}." />
+    <string id="BC_Notification_ClaimFeudRuling" text="{CLAIMANT_NAME} з клану {CLAIMANT_CLAN} зьвярнуўся да гаспадара {RULER_NAME} з прашэньнем вынесьці прысуд адносна {POSSESSIVE} прэтэнзіі на тытул {TITLE_NAME}, якім {LEGAL_STATUS} валодае {HOLDER_NAME} з клану {HOLDER_CLAN}. Пасьля доўгага паседжаньня пры палацы ўладар з тытулам «{RULER_TITLE}» {RULING_TEXT}. {RESPONSE_TEXT}" />
     <string id="BC_ClaimFeud_Status_Lawfully" text="законна" />
     <string id="BC_ClaimFeud_Status_DeJure" text="юрыдычна" />
     <string id="BC_ClaimFeud_Status_DeFacto" text="фактычна" />
@@ -1331,16 +1331,16 @@
     <string id="BC_Notification_ClaimFeudWarStarted" text="Наезд за тытул {TITLE_NAME} перарос у адкрыты гвалт. Кланы {CLAIMANT_CLAN} і {HOLDER_CLAN} паднялі сьцягі адзін супраць аднаго, і гаспадарства трывожна назірае, як кроў адказвае закону." />
     <string id="BC_Notification_ClaimFeudWarClaimantVictory" text="Клан {CLAIMANT_CLAN} перамог у наезьдзе за тытул {TITLE_NAME}. Празь сілу зброі прэтэнзія лідара {CLAIMANT_NAME} цяпер прызнаная, хоць пераможаны клан {HOLDER_CLAN} ня хутка забудзе страту." />
     <string id="BC_Notification_ClaimFeudWarHolderVictory" text="Клан {HOLDER_CLAN} адбіў выклік клану {CLAIMANT_CLAN} за тытул {TITLE_NAME}. Права трымальніка {HOLDER_NAME} захаванае, а дом прэтэнзента адступае з горыччу." />
-    <string id="BC_Notification_ClaimFeudWarClaimantFailure" text="Прэтэнзент {CLAIMANT_NAME} з клану {CLAIMANT_CLAN} ня здолеў пацьвердзіць {POSSESSIVE} прэтэнзію на тытул {TITLE_NAME}, таму сьвіта і прыхільнікі пачынаюць пакідаць {POSSESSIVE} справу. Наезд завяршаецца ганебнай паразай, а права клану {HOLDER_CLAN} прызнанае." />
+    <string id="BC_Notification_ClaimFeudWarClaimantFailure" text="{CLAIMANT_NAME} з клану {CLAIMANT_CLAN} ня здолеў пацьвердзіць {POSSESSIVE} прэтэнзію на тытул {TITLE_NAME}, таму сьвіта і прыхільнікі пачынаюць пакідаць {POSSESSIVE} справу. Наезд завяршаецца ганебнай паразай, а права клану {HOLDER_CLAN} прызнанае." />
     <string id="BC_Notification_ClaimFeudWarWhitePeace" text="Наезд паміж кланамі {CLAIMANT_CLAN} і {HOLDER_CLAN} за тытул {TITLE_NAME} быў прымусова спынены няпэўным мірам. Ніводнае права ня вызначанае, і абодва дамы адступаюць пад пільным наглядам." />
     <string id="BC_ClaimFeud_TempKingdomName" text="Наезд клану {CLAN_NAME}" />
     <string id="BC_Diplo_NoFeudIntervention" text="Яны вядуць прыватны наезд; староньняе ўмяшаньне забароненае." />
     <string id="BC_ClaimFeud_PlayerRuling_Title" text="Паведамленьне ад уладара: {RULER_TITLE} {RULER_NAME}" />
     <string id="BC_ClaimFeud_PlayerRuling_Accept" text="Прыняць прысуд" />
     <string id="BC_ClaimFeud_PlayerRuling_Refuse" text="Адмовіцца і змагацца" />
-    <string id="BC_ClaimFeud_PlayerRuling_UpholdPlayerClaimant" text="&quot;Разгледзеўшы вашую прэтэнзію, я прыйшоў да наступнай высновы: яна абгрунтаваная. Я вырашыў вынесьці прысуд на вашую карысьць і патрабаваць, каб трымальнік {HOLDER_NAME} з клану {HOLDER_CLAN} цалкам перадаў тытул {TITLE_NAME} у вашыя рукі.&quot;" />
-    <string id="BC_ClaimFeud_PlayerRuling_RejectPlayerClaimant" text="&quot;Разгледзеўшы вашую прэтэнзію, я прыйшоў да наступнай высновы: трымальнік {HOLDER_NAME} з клану {HOLDER_CLAN} мае мацнейшае права. Я вынес прысуд супраць вашай справы. Вы мусіце спыніць дамагацца тытулу {TITLE_NAME}. Такі мой дэкрэт.&quot;" />
-    <string id="BC_ClaimFeud_PlayerRuling_UpholdPlayerHolder" text="&quot;Разгледзеўшы прэтэнзію прэтэнзента {CLAIMANT_NAME}, я прыйшоў да наступнай высновы: вашае права мацнейшае. Я вынес прысуд на вашую карысьць, і прэтэнзент {CLAIMANT_NAME} мусіць спыніць дамагацца тытулу {TITLE_NAME}.&quot;" />
+    <string id="BC_ClaimFeud_PlayerRuling_UpholdPlayerClaimant" text="&quot;Разгледзеўшы вашую прэтэнзію, я прыйшоў да наступнай высновы: яна абгрунтаваная. Я вырашыў вынесьці прысуд на вашую карысьць і патрабаваць, каб {HOLDER_NAME} з клану {HOLDER_CLAN} цалкам перадаў тытул {TITLE_NAME} у вашыя рукі.&quot;" />
+    <string id="BC_ClaimFeud_PlayerRuling_RejectPlayerClaimant" text="&quot;Разгледзеўшы вашую прэтэнзію, я прыйшоў да наступнай высновы: {HOLDER_NAME} з клану {HOLDER_CLAN} мае мацнейшае права. Я вынес прысуд супраць вашай справы. Вы мусіце спыніць дамагацца тытулу {TITLE_NAME}. Такі мой дэкрэт.&quot;" />
+    <string id="BC_ClaimFeud_PlayerRuling_UpholdPlayerHolder" text="&quot;Разгледзеўшы прэтэнзію прэтэнзента {CLAIMANT_NAME}, я прыйшоў да наступнай высновы: вашае права мацнейшае. Я вынес прысуд на вашую карысьць, і {CLAIMANT_NAME} мусіць спыніць дамагацца тытулу {TITLE_NAME}.&quot;" />
     <string id="BC_ClaimFeud_PlayerRuling_AgainstPlayerHolder" text="&quot;Разгледзеўшы прэтэнзію прэтэнзента {CLAIMANT_NAME}, я прыйшоў да наступнай высновы: {CLAIMANT_POSSESSIVE} прэтэнзія абгрунтаваная. Я патрабую, каб вы цалкам перадалі тытул {TITLE_NAME} у {CLAIMANT_POSSESSIVE} рукі.&quot;" />
     <string id="BC_ClaimFeud_PlayerRuling_Suppress" text="&quot;Гэтая спрэчка зайшла занадта далёка. Сваёй уладай загадваю абодвум дамам спыніць наезд за тытул {TITLE_NAME}.&quot;" />
     <string id="BC_ClaimFeud_PlayerRuling_Abstain" text="&quot;Я ня буду выносіць прысуд у гэтай справе. Калі вашыя дамы ня могуць разьвязаць спрэчку за тытул {TITLE_NAME} паводле закону, карона не абароніць ніводны бок ад наступстваў.&quot;" />
@@ -1355,7 +1355,7 @@
     <string id="BC_ClaimFeud_PlayerRevocationDemand_DefyHint" text="&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Вынік&lt;/b&gt;&lt;/a&gt;&#xA;Адхіліць патрабаваньне і пакуль захаваць тытул {TITLE_NAME}.&#xA;&#xA;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Наступства&lt;/b&gt;&lt;/a&gt;&#xA;Спрэчка адразу ператворыцца ў прыватную вайну-наезд супраць клану {LIEGE_CLAN}." />
     <string id="BC_ClaimFeud_PlayerRevocationDemand_Failed" text="Не ўдалося разьвязаць патрабаваньне: {REASON}" />
     <string id="BC_ClaimFeud_PlayerRuler_Title" text="Прашэньне аб Прысудзе" />
-    <string id="BC_ClaimFeud_PlayerRuler_Desc" text="Прыбывае ганец зь пячаткай прэтэнзента {CLAIMANT_NAME} з клану {CLAIMANT_CLAN}:&#xA;&#xA;&quot;Спадзяюся, гэты ліст засьпее вас у добрым здароўі, гаспадар. Як вам вядома, я маю законнае права на тытул {TITLE_NAME}, якім незаконна валодае трымальнік {HOLDER_NAME} з клану {HOLDER_CLAN}, і прашу вашай справядлівасьці ў гэтай справе. Чакаю вашай пастановы.&quot;" />
+    <string id="BC_ClaimFeud_PlayerRuler_Desc" text="Прыбывае ганец зь пячаткай прэтэнзента {CLAIMANT_NAME} з клану {CLAIMANT_CLAN}:&#xA;&#xA;&quot;Спадзяюся, гэты ліст засьпее вас у добрым здароўі, гаспадар. Як вам вядома, я маю законнае права на тытул {TITLE_NAME}, якім незаконна валодае {HOLDER_NAME} з клану {HOLDER_CLAN}, і прашу вашай справядлівасьці ў гэтай справе. Чакаю вашай пастановы.&quot;" />
     <string id="BC_ClaimFeud_PlayerRuler_UpholdClaimant" text="Вынесьці Прысуд на Карысьць Прэтэнзента" />
     <string id="BC_ClaimFeud_PlayerRuler_UpholdHolder" text="Вынесьці Прысуд на Карысьць Трымальніка" />
     <string id="BC_ClaimFeud_PlayerRuler_Abstain" text="Адмовіцца ад Умяшаньня" />
@@ -1369,7 +1369,7 @@
     <string id="BC_ClaimFeud_PlayerRuler_ResponseDefy" text="хутчэй за ўсё, не падпарадкуецца гэтаму прысуду" />
     <string id="BC_ClaimFeud_PlayerRuler_ResponseAccept" text="хутчэй за ўсё, прыме гэты прысуд" />
     <string id="BC_ClaimFeud_PlayerSupport_Title" text="Заклік клану {CLAN_NAME}" />
-    <string id="BC_ClaimFeud_PlayerSupport_Desc" text="Лідар {LEADER_NAME} з клану {CLAN_NAME} заклікаў ваш дом шанаваць свае сувязі і падтрымаць наезд супраць клану {OPPONENT_CLAN} за тытул {TITLE_NAME}.&#xA;&#xA;{BALANCE_REPORT}&#xA;&#xA;Калі адгукнецеся, ваш клан будзе залічаны да іх прыхільнікаў пры вынясеньні спрэчкі на разгляд гаспадара. Калі адмовіцеся, гэтую зьнявагу не забудуць." />
+    <string id="BC_ClaimFeud_PlayerSupport_Desc" text="{LEADER_NAME} з клану {CLAN_NAME} заклікаў ваш дом шанаваць свае сувязі і падтрымаць наезд супраць клану {OPPONENT_CLAN} за тытул {TITLE_NAME}.&#xA;&#xA;{BALANCE_REPORT}&#xA;&#xA;Калі адгукнецеся, ваш клан будзе залічаны да іх прыхільнікаў пры вынясеньні спрэчкі на разгляд гаспадара. Калі адмовіцеся, гэтую зьнявагу не забудуць." />
     <string id="BC_ClaimFeud_PlayerSupport_Accept" text="Паабяцаць Падтрымку" />
     <string id="BC_ClaimFeud_PlayerSupport_Refuse" text="Адмовіцца" />
     <string id="BC_RoyalPeace_Title" text="Мір з {RULER_TITLE}" />
@@ -1385,7 +1385,7 @@
     <string id="BC_RoyalPeace_ErrUnavailable" text="Мір гаспадарства цяпер нельга прымусова ўсталяваць." />
     <string id="BC_RoyalPeace_Failed" text="Не ўдалося прымусова ўсталяваць мір гаспадарства: {REASON}" />
     <string id="BC_RoyalPeace_TyrantsDebt" text="Пазыка Тырана" />
-    <string id="BC_ClaimFeud_RoyalPeace" text="Калі гаспадарству пагражае замежная вайна, гаспадар {RULER_NAME} прымусова ўсталяваў мір «{PEACE_NAME}» у наезьдзе паміж кланамі {CLAIMANT_CLAN} і {HOLDER_CLAN} за тытул {TITLE_NAME}. Справа пакуль суцішаная, хоць ніводны дом не забывае сваёй прэтэнзіі." />
+    <string id="BC_ClaimFeud_RoyalPeace" text="Калі гаспадарству пагражае замежная вайна, {RULER_NAME} прымусова ўсталяваў мір «{PEACE_NAME}» у наезьдзе паміж кланамі {CLAIMANT_CLAN} і {HOLDER_CLAN} за тытул {TITLE_NAME}. Справа пакуль суцішаная, хоць ніводны дом не забывае сваёй прэтэнзіі." />
     <string id="BC_KFactions_FeudsHeader" text="Наезды" />
     <string id="BC_ClaimFeud_ItemName" text="Наезд {CLAIMANT_CLAN} на {HOLDER_CLAN}" />
     <string id="BC_ClaimFeud_Founded" text="Пачаты: {DATE}" />
@@ -1475,8 +1475,8 @@
     <string id="BC_Regency_RegentReplaced" text="Пасьля сыходу рэгента {OLD_REGENT} новы рэгент {NEW_REGENT} узяў на сябе рэгенцтва клану {CLAN} пры {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}." />
     <string id="BC_Regency_RegentReplacedDeath" text="Пасьля сьмерці рэгента {OLD_REGENT} новы рэгент {NEW_REGENT} узяў на сябе рэгенцтва клану {CLAN} пры {?WARD.GENDER}спадкаеміцы{?}спадкаемцы{\?} {WARD}." />
     <string id="BC_Regency_Ended" text="Дасягнуўшы паўналецьця, {WARD} {?WARD.GENDER}скончыла рэгенцтва і заняла{?}скончыў рэгенцтва і заняў{\?} законнае месца галавы клану {CLAN}." />
-    <string id="BC_Regency_WardReplaced" text="Пасьля сьмерці спадкаемцы {OLD_WARD} непаўналетні герой {NEW_WARD} стаў галавой клану {CLAN} і застаецца пад рэгенцтвам." />
-    <string id="BC_Regency_AdultSuccessor" text="Пасьля сьмерці спадкаемцы {OLD_WARD} герой {SUCCESSOR} скончыў рэгенцтва і ўзначаліў клан {CLAN}." />
+    <string id="BC_Regency_WardReplaced" text="Пасьля сьмерці спадкаемцы {OLD_WARD} {NEW_WARD}, яшчэ непаўналетні, стаў галавой клану {CLAN} і застаецца пад рэгенцтвам." />
+    <string id="BC_Regency_AdultSuccessor" text="Пасьля сьмерці спадкаемцы {OLD_WARD} {SUCCESSOR} скончыў рэгенцтва і ўзначаліў клан {CLAN}." />
     <string id="BC_Regency_FormerRegent" text="ранейшы рэгент" />
     <string id="BC_Regency_FormerWard" text="ранейшы спадкаемца" />
     <string id="BC_PlayerRegency_SelectionTitle" text="Прызначыць Рэгента пры {?WARD.GENDER}Спадкаеміцы{?}Спадкаемцы{\?} {WARD}" />
@@ -1517,7 +1517,7 @@
     <string id="BC_SuccessionLaw_ElectionPending" text="Спадкаемства нельга перапісваць, пакуль вырашаецца лёс самой кароны." />
     <string id="BC_SuccessionLaw_InsufficientInfluence" text="Вам патрэбныя {COST} уплыву для зьмены закону спадкаемства." />
     <string id="BC_SuccessionLaw_Unavailable" text="Закон спадкаемства цяпер нельга зьмяніць." />
-    <string id="BC_SuccessionLaw_Changed" text="Гаспадар {RULER_NAME} абвясьціў «{LAW_NAME}» законам спадкаемства па ўсім гаспадарстве {KINGDOM_NAME}. Шляхта абураецца гэтым умяшаньнем ва ўсталяваны парадак спадкаемства." />
+    <string id="BC_SuccessionLaw_Changed" text="{RULER_NAME} абвясьціў «{LAW_NAME}» законам спадкаемства па ўсім гаспадарстве {KINGDOM_NAME}. Шляхта абураецца гэтым умяшаньнем ва ўсталяваны парадак спадкаемства." />
     <string id="BC_SuccessionLaw_ConfirmTitle" text="Рэфармаваць Спадкаемства" />
     <string id="BC_SuccessionLaw_Confirm" text="Абвясьціць «{LAW_NAME}» па ўсім гаспадарстве? Гэта каштуе {COST} уплыву, і адносіны кожнага васальнага дому з паноўным домам пагоршацца на {RELATION}." />
     <string id="BC_SuccessionLaw_Enact" text="Увесьці" />
@@ -1607,12 +1607,12 @@
     <string id="BC_Proxy_MissionRiskBlock" text="{DESCRIPTION}&#xA;&#xA;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Агент&lt;/b&gt;&lt;/a&gt;&#xA;{AGENT_NAME}&#xA;&#xA;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Таемнасьць&lt;/b&gt;&lt;/a&gt;&#xA;Імавернасьць посьпеху: {SUCCESS_CHANCE}&#xA;Уплыў агента: {SUCCESS_DELTA}&#xA;&#xA;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Выкрыцьцё&lt;/b&gt;&lt;/a&gt;&#xA;Выжываньне пры выкрыцьці: {SURVIVAL_CHANCE}&#xA;Уплыў агента: {SURVIVAL_DELTA}&#xA;&#xA;&lt;a style=&quot;Tooltip.Value.Text&quot;&gt;&lt;b&gt;Супрацьдзеяньне інтрыгам&lt;/b&gt;&lt;/a&gt;&#xA;Навык і асаблівасьці гаспадара {RULER_NAME} ўплываюць на рызыку выкрыцьця." />
     <string id="BC_Proxy_DispatchAgent" text="Паслаць Агента" />
     <string id="BC_Proxy_Return" text="Вярнуцца" />
-    <string id="BC_Proxy_Departed" text="Агент {AGENT_NAME} выправіўся на таемнае заданьне і вернецца праз 10 дзён." />
-    <string id="BC_Proxy_TargetFallen" text="Пасьля вяртаньня агент {AGENT_NAME} высьветліў, што мэтавае гаспадарства пала. Заданьне спыненае, а золата бясьпечна вернутае." />
-    <string id="BC_Proxy_AgentExecuted" text="Гаспадар {RULER_NAME} схапіў агента {AGENT_NAME} падчас няўдалай змовы і пакараў сьмерцю за дзяржаўную здраду!" />
-    <string id="BC_Proxy_AgentEscaped" text="Агент {AGENT_NAME} ледзь уратаваў жыцьцё, уцёкшы з гаспадарства {TARGET_KINGDOM}. Змова выкрытая, золата канфіскаванае, а заданьне правалілася." />
-    <string id="BC_Proxy_ArrivedAborted" text="Прыбыўшы на месца, агент {AGENT_NAME} высьветліў, што {ABORT_REASON}. Заданьне спыненае, а золата бясьпечна вернутае." />
-    <string id="BC_Proxy_MissionSuccess" text="Заданьне цалкам пасьпяховае, і агент {AGENT_NAME} не пакінуў сьлядоў." />
+    <string id="BC_Proxy_Departed" text="{AGENT_NAME} выправіўся на таемнае заданьне і вернецца праз 10 дзён." />
+    <string id="BC_Proxy_TargetFallen" text="Пасьля вяртаньня {AGENT_NAME} высьветліў, што мэтавае гаспадарства пала. Заданьне спыненае, а золата бясьпечна вернутае." />
+    <string id="BC_Proxy_AgentExecuted" text="{RULER_NAME} схапіў агента {AGENT_NAME} падчас няўдалай змовы і пакараў сьмерцю за дзяржаўную здраду!" />
+    <string id="BC_Proxy_AgentEscaped" text="{AGENT_NAME} ледзь уратаваў жыцьцё, уцёкшы з гаспадарства {TARGET_KINGDOM}. Змова выкрытая, золата канфіскаванае, а заданьне правалілася." />
+    <string id="BC_Proxy_ArrivedAborted" text="Прыбыўшы на месца, {AGENT_NAME} высьветліў, што {ABORT_REASON}. Заданьне спыненае, а золата бясьпечна вернутае." />
+    <string id="BC_Proxy_MissionSuccess" text="Заданьне цалкам пасьпяховае, і {AGENT_NAME} не пакінуў сьлядоў." />
     <string id="BC_Proxy_AbortReason_Fallen" text="мэтавае гаспадарства пала" />
     <string id="BC_Proxy_AbortReason_NoMercs" text="кароль ня меў найміцкіх дамоваў, якія можна разарваць" />
     <string id="BC_Proxy_AbortReason_NoDefectors" text="не было нелаяльных паноў, гатовых перайсьці на іншы бок" />
@@ -1627,7 +1627,7 @@
     <!-- Patches Strings -->
     <string id="BC_Expel_Grudge" text="Клан {CLAN_NAME} крыўдуе на карону за сумневы ў яго лаяльнасьці!" />
     <string id="BC_Fief_Dispossessed_Furious" text="Фракцыя {FACTION_NAME} у лютасьці: у клану {CLAN_NAME} адабралі селішча {SETTLEMENT_NAME}!" />
-    <string id="BC_Fief_RulerClaimed" text="Гаспадар {RULER_NAME} забраў селішча {SETTLEMENT_NAME} для кароны. Фракцыі гаспадарства ахоплівае зайздрасьць!" />
+    <string id="BC_Fief_RulerClaimed" text="{RULER_NAME} забраў селішча {SETTLEMENT_NAME} для кароны. Фракцыі гаспадарства ахоплівае зайздрасьць!" />
     <string id="BC_Fief_FactionSecured" text="Чалец фракцыі {FACTION_NAME} здабыў селішча {SETTLEMENT_NAME}!" />
     <string id="BC_Fief_PragmaticAccept" text="Пасьля прагматычнага голасу свайго лідара фракцыя {FACTION_NAME} прымае пастанову без нараканьняў." />
     <string id="BC_Fief_OutragedPassedOver" text="Фракцыя {FACTION_NAME} абураная тым, што яе абышлі!" />
@@ -1713,14 +1713,14 @@
     <string id="BC_Msg_AvoidedWar_Independence" text="прызнаць незалежнасьць гаспадарства {REALM_NAME}" />
     <string id="BC_FacName_Coalition" text="{FACTION_NAME}" />
     <string id="BC_FacName_Revolt" text="Паўстаньне {CLAN_NAME}" />
-    <string id="BC_Msg_RealmFractures" text="Гаспадарства расколваецца. Лідар {LEADER_NAME} падняў сьцягі ў адкрытым паўстаньні супраць гаспадарства {KINGDOM_NAME}." />
+    <string id="BC_Msg_RealmFractures" text="Гаспадарства расколваецца. {LEADER_NAME} падняў сьцягі ў адкрытым паўстаньні супраць гаспадарства {KINGDOM_NAME}." />
 
     <!-- Faction/Civil War Leader Death  (FactionManagerBehavior + CivilWarResolutionBehavior) -->
     <string id="BC_FactionLeaderDied" text="Пасьля сьмерці свайго абаронцы фракцыя {FACTION_NAME} гуртуецца пад кіраўніцтвам лідара {NEW_LEADER}." />
     <string id="BC_CivilWar_NewRebelLeader" text="Пасьля гібелі лідара {LEADER_NAME} паўстаньне гуртуецца пад кіраўніцтвам лідара {NEW_LEADER}. Вайна працягваецца!" />
     <string id="BC_CivilWar_RebelLeaderDied" text="Лідар паўстанцаў загінуў на полі бою. Паўстаньне развальваецца, бо ўзначаліць яго больш няма каму." />
-    <string id="BC_CivilWar_ParentCollapsed" text="Калі гаспадарства {PARENT_KINGDOM} было разьбітае замежнымі ворагамі, лідар {LEADER_NAME} пераняў яго ўладу. Пакуль незадаволеныя паны склалі зброю і згуртаваліся вакол новага парадку." />
-    <string id="BC_CivilWar_DecisiveCollapseVictory" text="Пасьля поўнай паразы старога гаспадарства лідар {LEADER_NAME} дамогся выкананьня патрабаваньняў пераможнай фракцыі {FACTION_NAME} і пераняў уладу гаспадарства {PARENT_KINGDOM}." />
+    <string id="BC_CivilWar_ParentCollapsed" text="Калі гаспадарства {PARENT_KINGDOM} было разьбітае замежнымі ворагамі, {LEADER_NAME} пераняў яго ўладу. Пакуль незадаволеныя паны склалі зброю і згуртаваліся вакол новага парадку." />
+    <string id="BC_CivilWar_DecisiveCollapseVictory" text="Пасьля поўнай паразы старога гаспадарства {LEADER_NAME} дамогся выкананьня патрабаваньняў пераможнай фракцыі {FACTION_NAME} і пераняў уладу гаспадарства {PARENT_KINGDOM}." />
     <string id="BC_CivilWar_WhitePeace" text="Паміж гаспадарствам {PARENT_KINGDOM} і фракцыяй {FACTION_NAME} падпісаны белы мір. Паўстанцы вяртаюцца да вернасьці, і пакуль усе ранейшыя крыўды адкладзеныя." />
     <string id="BC_CivilWar_ParentDestroyed_Independence" text="Пасьля зьнікненьня гаспадарства {PARENT_KINGDOM} фракцыя {FACTION_NAME} трыюмфуе. Гаспадарства {NEW_KINGDOM} паўстае цалкам незалежнай дзяржавай." />
     <string id="BC_CivilWar_RecognizedIndependence" text="Гаспадарства {PARENT_KINGDOM} прызнала незалежнасьць гаспадарства {NEW_KINGDOM}. Вайна сканчаецца ўзаемным пагадненьнем, але горкая памяць барацьбы застаецца." />
@@ -1777,10 +1777,10 @@
     <string id="BC_CourtAgenda_NoSubstitutes" text="Няма дапушчальных прапановаў для замены." />
     <string id="BC_CourtAgenda_Outmaneuvered" text="Лідару {LEADER_NAME} не хапіла ўплыву, каб прымусова правесьці парадак дня фракцыі {FACTION_NAME} праз палац." />
     <string id="BC_CourtAgenda_DeclinedMsg" text="Вы адхіляеце прапанову фракцыі {FACTION_NAME}. Вашыя прыхільнікі пакідаюць палац незадаволенымі." />
-    <string id="BC_CourtAgenda_RulerBlocked" text="На сойме гаспадарства {KINGDOM_NAME} гаспадар {RULER_NAME} скарыстаўся ўплывам кароны, каб адхіліць рашэньне фракцыі {FACTION_NAME} і заблякаваць яе спробу {MOTION_DESC}. Яе чальцы пакінулі палац незадаволенымі." />
+    <string id="BC_CourtAgenda_RulerBlocked" text="На сойме гаспадарства {KINGDOM_NAME} {RULER_NAME} скарыстаўся ўплывам кароны, каб адхіліць рашэньне фракцыі {FACTION_NAME} і заблякаваць яе спробу {MOTION_DESC}. Яе чальцы пакінулі палац незадаволенымі." />
     <string id="BC_CourtAgenda_RulerBlockFailed" text="Фракцыя {FACTION_NAME} працягнула сваю спробу {MOTION_DESC}; гаспадару {RULER_NAME} не хапіла ўплыву, каб яе стрымаць." />
     <string id="BC_CourtAgenda_RebellionSuppressFailed" text="Лідару {LEADER_NAME} не хапіла {INFLUENCE_COST} уплыву, каб стрымаць фракцыю {FACTION_NAME}. Яна выходзіць з-пад палітычнага кантролю." />
-    <string id="BC_CourtAgenda_RebellionSuppressed" text="Лідар {LEADER_NAME} выдаткоўвае {INFLUENCE_COST} уплыву, каб утрымаць фракцыю {FACTION_NAME} ад адкрытага паўстаньня." />
+    <string id="BC_CourtAgenda_RebellionSuppressed" text="{LEADER_NAME} выдаткоўвае {INFLUENCE_COST} уплыву, каб утрымаць фракцыю {FACTION_NAME} ад адкрытага паўстаньня." />
     <string id="BC_CourtAgenda_NoActionMsg" text="Фракцыя {FACTION_NAME} пакідае палац без навязваньня новай прапановы." />
     <string id="BC_CourtAgenda_PolicyDuplicate" text="Прапанова фракцыі {FACTION_NAME} {ACTION} палітыку «{POLICY_NAME}» ужо на разглядзе палацу." />
     <string id="BC_CourtAgenda_PolicyMandateMsg" text="Фракцыя {FACTION_NAME} дае вам палацавы мандат, каб вынесьці на разгляд сойму адну палітычную прапанову, адпаведную яе поглядам, цягам {DAYS} дзён." />
@@ -1905,7 +1905,7 @@
     <string id="BC_PolicyDelib_Announcement" text="Фракцыя {FACTION_NAME} гаспадарства {KINGDOM_NAME} афіцыйна прапанавала {ACTION} палітыку «{POLICY_NAME}». Палац абмяркуе гэтую прапанову і скліча галасаваньне цягам {DAYS} дзён." />
     <string id="BC_PolicyDelib_PlayerAnnouncement" text="Ініцыятар {PROPOSER_NAME} з фракцыі {FACTION_NAME} гаспадарства {KINGDOM_NAME} афіцыйна прапанаваў {ACTION} палітыку «{POLICY_NAME}». Палац абмяркуе яе і скліча галасаваньне цягам {DAYS} дзён." />
     <string id="BC_PolicyDelib_RulingCouncil" text="сойм гаспадарства" />
-    <string id="BC_PolicyDelib_SoloRulerImmediate" text="Паколькі іншых паноў для парады няма, гаспадар {RULER_NAME} неадкладна выдае гаспадарскі дэкрэт {ACTION} палітыку «{POLICY_NAME}»." />
+    <string id="BC_PolicyDelib_SoloRulerImmediate" text="Паколькі іншых паноў для парады няма, {RULER_NAME} неадкладна выдае гаспадарскі дэкрэт {ACTION} палітыку «{POLICY_NAME}»." />
     <string id="BC_UI_PolicyDeliberating" text="Гаспадарства ўжо абмяркоўвае зьмену палітыкі. Дачакайцеся цяперашняга галасаваньня, перш чым прапаноўваць іншую." />
     <string id="BC_UI_PolicyAlreadyDeliberating" text="Гэтая палітыка ўжо абмяркоўваецца пры палацы." />
     <string id="BC_UI_PlayerPolicyDeliberating" text="Вашая прапанова аб палітыцы ўжо абмяркоўваецца. Дачакайцеся галасаваньня па ёй, перш чым прапаноўваць іншую." />
@@ -1954,10 +1954,10 @@
     <string id="BC_Expul_MenuEntry" text="Хачу абмеркаваць абвінавачаньні караля супраць паноў гаспадарства." />
     <string id="BC_Expul_MenuResponse" text="Вядома. Хто вас турбуе?" />
     <string id="BC_Expul_MenuExit" text="Пакуль ніхто зь іх." />
-    <string id="BC_Expul_DirectQuestion0" text="Што вы думаеце пра абвінавачаньне супраць клану {EX0C}, сябраў фракцыі {EX0F}?" />
-    <string id="BC_Expul_DirectQuestion1" text="Што вы думаеце пра абвінавачаньне супраць клану {EX1C}, сябраў фракцыі {EX1F}?" />
-    <string id="BC_Expul_DirectQuestion2" text="Што вы думаеце пра абвінавачаньне супраць клану {EX2C}, сябраў фракцыі {EX2F}?" />
-    <string id="BC_Expul_DirectQuestion3" text="Што вы думаеце пра абвінавачаньне супраць клану {EX3C}, сябраў фракцыі {EX3F}?" />
+    <string id="BC_Expul_DirectQuestion0" text="Што вы думаеце пра абвінавачаньне супраць клану {EX0C}, чальцоў фракцыі {EX0F}?" />
+    <string id="BC_Expul_DirectQuestion1" text="Што вы думаеце пра абвінавачаньне супраць клану {EX1C}, чальцоў фракцыі {EX1F}?" />
+    <string id="BC_Expul_DirectQuestion2" text="Што вы думаеце пра абвінавачаньне супраць клану {EX2C}, чальцоў фракцыі {EX2F}?" />
+    <string id="BC_Expul_DirectQuestion3" text="Што вы думаеце пра абвінавачаньне супраць клану {EX3C}, чальцоў фракцыі {EX3F}?" />
     <string id="BC_Expul_StrongSupport" text="Скажу: туды ім і дарога. Гаспадарству лепей без такіх здраднікаў." />
     <string id="BC_Expul_Agree" text="Я схіляюся падтрымаць прысуд караля, хоць гатовы выслухаць іншыя думкі." />
     <string id="BC_Expul_Neutral" text="Я яшчэ ня вызначыўся ў гэтай справе. Можа быць па-рознаму." />
@@ -2086,8 +2086,8 @@
     <string id="BC_Treason_PlayerJudgmentDecreeExecute_Title" text="Гаспадарскі Дэкрэт аб Дзяржаўнай Здрадзе" />
     <string id="BC_Treason_PlayerJudgmentVote_Desc" text="Сойм падтрымаў абвінавачаньне кароны супраць клану {CLAN_NAME}. Воляй гаспадара {RULER_NAME} вашыя землі адабраныя, а клан выгнаны з гаспадарства.&#xA;&#xA;{BALANCE_REPORT}&#xA;&#xA;Вы скорыцеся прысуду ці выступіце супраць кароны і ўздымеце харугвы паўстаньня?" />
     <string id="BC_Treason_PlayerJudgmentVoteExecute_Desc" text="Сойм падтрымаў абвінавачаньне кароны супраць клану {CLAN_NAME}. Воляй гаспадара {RULER_NAME} вашыя землі адабраныя, а за дзяржаўную здраду патрабуюць вашага жыцьця.&#xA;&#xA;{BALANCE_REPORT}&#xA;&#xA;Вы скорыцеся прысуду ці выступіце супраць кароны і ўздымеце харугвы паўстаньня?" />
-    <string id="BC_Treason_PlayerJudgmentDecree_Desc" text="Гаспадар {RULER_NAME} абвясьціў клан {CLAN_NAME} вінаватым у здрадзе. Вашыя землі адабраныя, а клан выгнаны з гаспадарства.&#xA;&#xA;{BALANCE_REPORT}&#xA;&#xA;Вы скорыцеся прысуду ці выступіце супраць кароны і ўздымеце харугвы паўстаньня?" />
-    <string id="BC_Treason_PlayerJudgmentDecreeExecute_Desc" text="Гаспадар {RULER_NAME} абвясьціў клан {CLAN_NAME} вінаватым у дзяржаўнай здрадзе. Вашыя землі адабраныя, а гаспадарскае правасудзьдзе патрабуе вашага жыцьця.&#xA;&#xA;{BALANCE_REPORT}&#xA;&#xA;Вы скорыцеся прысуду ці выступіце супраць кароны і ўздымеце харугвы паўстаньня?" />
+    <string id="BC_Treason_PlayerJudgmentDecree_Desc" text="{RULER_NAME} абвясьціў клан {CLAN_NAME} вінаватым у здрадзе. Вашыя землі адабраныя, а клан выгнаны з гаспадарства.&#xA;&#xA;{BALANCE_REPORT}&#xA;&#xA;Вы скорыцеся прысуду ці выступіце супраць кароны і ўздымеце харугвы паўстаньня?" />
+    <string id="BC_Treason_PlayerJudgmentDecreeExecute_Desc" text="{RULER_NAME} абвясьціў клан {CLAN_NAME} вінаватым у дзяржаўнай здрадзе. Вашыя землі адабраныя, а гаспадарскае правасудзьдзе патрабуе вашага жыцьця.&#xA;&#xA;{BALANCE_REPORT}&#xA;&#xA;Вы скорыцеся прысуду ці выступіце супраць кароны і ўздымеце харугвы паўстаньня?" />
     <string id="BC_Treason_PlayerJudgmentSubmit" text="Скарыцца Прысуду" />
     <string id="BC_Treason_PlayerJudgmentDefy" text="Выступіць Супраць Кароны" />
     <string id="BC_Treason_PlayerJudgmentSubmitted" text="Вы прыймаеце прысуд кароны. Вашыя землі адабраныя, а клан выгнаны з гаспадарства." />
@@ -2177,7 +2177,7 @@
     <string id="BC_Fief_Delib_ReasonSelfOther" text="іх дом адстойвае ўласныя інтарэсы" />
     <string id="BC_Fief_Delib_ReasonLegalClaim" text="іх дом мае законную прэтэнзію на гэтыя землі" />
     <string id="BC_Fief_Delib_ReasonLegalClaimSelf" text="мой дом мае законную прэтэнзію на гэтыя землі" />
-    <string id="BC_Fief_Delib_ReasonCapturer" text="кандыдат {CANDIDATE_NAME} захапіў яе сілай зброі" />
+    <string id="BC_Fief_Delib_ReasonCapturer" text="{CANDIDATE_NAME} захапіў яе сілай зброі" />
     <string id="BC_Fief_Delib_ReasonCapturerSelf" text="я захапіў яе сілай зброі" />
     <string id="BC_Fief_Delib_ReasonLandless" text="іх дом ня мае ўласных зямель" />
     <string id="BC_Fief_Delib_ReasonLandlessSelf" text="мой дом ня мае ўласных зямель" />
@@ -2381,10 +2381,10 @@
     <string id="BC_Parley_Politics_RoyalMarriageHint" text="Уладкоўвае шлюб паміж прыдатнымі сваякамі абодвух паноўных дамоў. Сужэнец боку, які саступае, далучаецца да клану гаспадара, які патрабуе, пры зацьверджаньні дамовы." />
     <string id="BC_Parley_RoyalMarriage_ConcedingHint" text="{HERO_NAME} пакіне клан {SOURCE_CLAN} і праз шлюб далучыцца да клану {RECEIVING_CLAN}, калі дамова будзе зацьверджаная." />
     <string id="BC_Parley_RoyalMarriage_SelectConceding" text="Абярыце сваяка гаспадара боку, які саступае" />
-    <string id="BC_Parley_RoyalMarriage_SelectConcedingDesc" text="Абярыце сябра гаспадарскага дому боку, які саступае, для шлюбу з прадстаўніком клану гаспадара, які патрабуе." />
+    <string id="BC_Parley_RoyalMarriage_SelectConcedingDesc" text="Абярыце чальца гаспадарскага дому боку, які саступае, для шлюбу з прадстаўніком клану гаспадара, які патрабуе." />
     <string id="BC_Parley_RoyalMarriage_ReceivingHint" text="{HERO_NAME} застанецца ў клане {RECEIVING_CLAN}, а {SOURCE_NAME} далучыцца да гэтага клану пасьля шлюбу." />
     <string id="BC_Parley_RoyalMarriage_SelectReceiving" text="Абярыце сваяка гаспадара боку, які прымае" />
-    <string id="BC_Parley_RoyalMarriage_SelectReceivingDesc" text="Абярыце сябра гаспадарскага дому боку, які патрабуе, каб прыняць замежнага сужэнца ў свой клан." />
+    <string id="BC_Parley_RoyalMarriage_SelectReceivingDesc" text="Абярыце чальца гаспадарскага дому боку, які патрабуе, каб прыняць замежнага сужэнца ў свой клан." />
     <string id="BC_Parley_Term_RoyalMarriage" text="Уладкаваць шлюб паміж {FIRST_NAME} і {SECOND_NAME}; {FIRST_NAME} далучаецца да клану {RECEIVING_CLAN}" />
     <string id="BC_Treaty_RoyalMarriageConcluded" text="Каб замацаваць мір паміж гаспадарствамі {CONCEDING_REALM} і {RECEIVING_REALM}, {FIRST_NAME} бярэ шлюб з {SECOND_NAME} і далучаецца да клану {RECEIVING_CLAN}." />
     <string id="BC_Parley_Politics_EndTradeOption" text="Спыніць гандлёвая дамова з гаспадарствам {REALM_NAME}" />
@@ -2937,7 +2937,7 @@
     <string id="BC_MapWarScore_RebellingAgainst" text="Паўстаньне супраць {RULER_NAME} з {REALM_NAME}" />
     <string id="BC_MapWarScore_DefendingRealmAgainst" text="Абарона гаспадарства супраць {RULER_NAME} з {REALM_NAME}" />
     <string id="BC_MapWarScore_PressingClaimAgainst" text="Дамаганьне прэтэнзіі супраць {RULER_NAME} з {REALM_NAME}" />
-    <string id="BC_MapWarScore_DefendingClaimAgainst" text="Абарона спрэчнай прэтэнзіі супраць гаспадара {RULER_NAME} з гаспадарства {REALM_NAME}" />
+    <string id="BC_MapWarScore_DefendingClaimAgainst" text="Абарона спрэчнай прэтэнзіі: супраць {RULER_NAME} ({REALM_NAME})" />
     <string id="BC_MapWarScore_Total" text="Ваенны лік" />
     <string id="BC_MapWarScore_TerritorialControl" text="Кантроль тэрыторыі" />
     <string id="BC_MapWarScore_BattleAdvantage" text="Перавага ў бітвах" />
@@ -2983,8 +2983,8 @@
     <string id="BC_Parley_Reason_WeAreBeaten" text="Мы пераможаныя і ня можам адмовіцца ад гэтых умоваў." />
     <string id="BC_Parley_Reason_WeDictatePeace" text="Мы перамаглі і будзем дыктаваць мір." />
     <string id="BC_Parley_ForcedSurrenderTitle" text="Безумоўная капітуляцыя" />
-    <string id="BC_Parley_ForcedSurrenderDefeatedBody" text="Пасланец гаспадарства {ENEMY_REALM} прыбыў з умовамі безумоўнай капітуляцыі вашага гаспадарства. Гаспадар {RULER_NAME} склікаў усіх васалаў, каб стаць сьведкамі мірнай дамовы." />
-    <string id="BC_Parley_ForcedSurrenderVictoriousBody" text="Пасланец гаспадарства {ENEMY_REALM} прыбыў з прапановай безумоўнай капітуляцыі. Гаспадар {RULER_NAME} склікаў усіх васалаў, каб стаць сьведкамі мірнай дамовы." />
+    <string id="BC_Parley_ForcedSurrenderDefeatedBody" text="Пасланец гаспадарства {ENEMY_REALM} прыбыў з умовамі безумоўнай капітуляцыі вашага гаспадарства. {RULER_NAME} склікаў усіх васалаў, каб стаць сьведкамі мірнай дамовы." />
+    <string id="BC_Parley_ForcedSurrenderVictoriousBody" text="Пасланец гаспадарства {ENEMY_REALM} прыбыў з прапановай безумоўнай капітуляцыі. {RULER_NAME} склікаў усіх васалаў, каб стаць сьведкамі мірнай дамовы." />
     <string id="BC_Parley_ForcedSurrenderDefeatedRulerBody" text="Пасланец гаспадарства {ENEMY_REALM} прыбыў з умовамі безумоўнай капітуляцыі вашага гаспадарства. Паколькі далейшы супраціў немагчымы, вы склікаеце васалаў, каб стаць сьведкамі мірнай дамовы." />
     <string id="BC_Parley_ForcedSurrenderVictoriousRulerBody" text="Пасланец гаспадарства {ENEMY_REALM} прыбыў з прапановай безумоўнай капітуляцыі. Вы склікаеце васалаў, каб стаць сьведкамі мірнай дамовы." />
     <string id="BC_Parley_ReviewTerms" text="Разгледзець умовы" />
@@ -3024,8 +3024,8 @@
     <string id="BC_Council_Chancellor" text="Канцлер" />
     <string id="BC_Council_Seneschal" text="Маршалок" />
     <string id="BC_Council_Spymaster" text="Шпегмайстар" />
-    <string id="BC_Council_FirstAdvisor" text="Першы дарадца" />
-    <string id="BC_Council_SecondAdvisor" text="Другі дарадца" />
+    <string id="BC_Council_FirstAdvisor" text="Першы Дарадца" />
+    <string id="BC_Council_SecondAdvisor" text="Другі Дарадца" />
     <string id="BC_Council_GenericAdvisor" text="Дарадца" />
     <string id="BC_Council_Vacant" text="Вакантны" />
     <string id="BC_Council_Competence" text="Кампэтэнтнасьць: {VALUE}" />
@@ -3098,7 +3098,7 @@
     <string id="BC_Council_DisgracedDismissalTitle" text="Адхіленьне з сойму {COUNCIL_NAME}" />
     <string id="BC_Council_DisgracedDismissalBody" text="Прыбывае запячатанае паведамленьне ад {RULER_NAME}:&#xA;&#xA;&quot;Скандалы падчас вашай службы зьняславілі пасаду {OFFICE}. Таму я неадкладна вызваляю вас ад гэтай пасады ў сойме {COUNCIL_NAME}.&quot;" />
     <string id="BC_Council_DisgracedDismissalAcknowledge" text="Зразумела" />
-    <string id="BC_Council_AppointmentCandidate" text="Кандыдат {CANDIDATE_NAME} мусіць займаць гэтую пасаду ў сойме {COUNCIL_NAME}." />
+    <string id="BC_Council_AppointmentCandidate" text="{CANDIDATE_NAME} мусіць займаць гэтую пасаду ў сойме {COUNCIL_NAME}." />
     <string id="BC_Council_AppointmentGeneral" text="Прызначэньне на пасаду {OFFICE}" />
     <string id="BC_Council_AppointmentSupportTitle" text="Галасаваньне за наступнага трымальніка пасады {OFFICE} гаспадарства {KINGDOM_NAME}" />
     <string id="BC_Council_AppointmentChooseTitle" text="Абярыце наступнага пасадоўца {OFFICE} гаспадарства {KINGDOM_NAME}" />
@@ -3129,7 +3129,7 @@
     <string id="BC_Council_DismissHint" text="Адхіліць пасла {COUNCILOR_NAME} з пасады {OFFICE}. Гэта сапсуе адносіны і раззлуе яго палацавую фракцыю, пакінуўшы пасаду вакантнай." />
     <string id="BC_Council_DismissConfirmTitle" text="Адхіліць пасла" />
     <string id="BC_Council_DismissConfirmDesc" text="Адхіліць пасла {COUNCILOR_NAME} з пасады {OFFICE}? Гэта будзе каштаваць {COST} уплыву, сапсуе адносіны і раззлуе яго палацавую фракцыю. Пасада застанецца вакантнай да прапановы новага прызначэньня." />
-    <string id="BC_Council_DismissedByRuler" text="Гаспадар {RULER_NAME} адхіляе пасла {COUNCILOR_NAME} з пасады {OFFICE} у сойме {COUNCIL_NAME} гаспадарства {KINGDOM_NAME}." />
+    <string id="BC_Council_DismissedByRuler" text="{RULER_NAME} адхіляе пасла {COUNCILOR_NAME} з пасады {OFFICE} у сойме {COUNCIL_NAME} гаспадарства {KINGDOM_NAME}." />
     <string id="BC_Council_AppointmentRetained" text="Сойм гаспадарства {KINGDOM_NAME} пакінуў кандыдата {CANDIDATE_NAME} на пасадзе {OFFICE}." />
 
     <string id="BC_CourtAgenda_CouncilFill_Label" text="Запоўніць пасаду {OFFICE}" />
@@ -3162,7 +3162,7 @@
     <string id="BC_CouncilDelib_PersuasionFailedHint" text="Яны ўжо адхілілі ваш довад наконт гэтага прызначэньня." />
     <string id="BC_CouncilDelib_PersuasionRelationHint" text="Яны недастаткова давяраюць вам, каб паддацца перакананьню. Патрэбныя адносіны: 30." />
     <string id="BC_CouncilDelib_BribeHonorHint" text="Яны лічаць прызначэньне ў сойм справай гонару і ня будуць таргавацца наконт яго." />
-    <string id="BC_CouncilDelib_BribeBarter" text="Паўплываць на прызначэньне ў сойм" />
+    <string id="BC_CouncilDelib_BribeBarter" text="Паўплываць на Прызначэньне ў Сойм" />
 
     <string id="BC_CouncilNomination_ReasonSelf" text="Мой дом мае найлепшыя магчымасьці несьці гэтую адказнасьць." />
     <string id="BC_CouncilNomination_ReasonCompetence" text="Здольнасьці кандыдата добра адпавядаюць абавязкам гэтай пасады." />
@@ -3249,80 +3249,80 @@
     <string id="BC_Council_AssignmentNone" text="Няма" />
     <string id="BC_Council_AssignmentNoneHint" text="Гэты пасол ня мае даручэньня. Гаспадар штотыдзень страчвае зь ім 1 адносінаў, пакуль той застаецца без справы." />
 
-    <string id="BC_Council_AssignmentOrganizePatrols" text="Ладзіць патрулі" />
+    <string id="BC_Council_AssignmentOrganizePatrols" text="Ладзіць Патрулі" />
     <string id="BC_Council_AssignmentOrganizePatrolsHint" text="Пры сярэдняй кампэтэнтнасьці: патрульныя партыі на 10% большыя і фармуюцца на 15% хутчэй. Няўдачы абароны караванаў і вёсак спараджаюць на 25% больш супярэчнасьцяў пасады {OFFICE}." />
-    <string id="BC_Council_AssignmentTrainMilitia" text="Навучаць рушэньне" />
+    <string id="BC_Council_AssignmentTrainMilitia" text="Навучаць Рушэньне" />
     <string id="BC_Council_AssignmentTrainMilitiaHint" text="Пры сярэдняй кампэтэнтнасьці: +10% прыросту рушэньня і +10% шанцу вэтэранскага рушэньня па ўсім гаспадарстве коштам 10% вытворчасьці вёсак." />
-    <string id="BC_Council_AssignmentOverseeLogistics" text="Кіраваць забесьпячэньнем" />
+    <string id="BC_Council_AssignmentOverseeLogistics" text="Кіраваць Забесьпячэньнем" />
     <string id="BC_Council_AssignmentOverseeLogisticsHint" text="Пры сярэдняй кампэтэнтнасьці: войскі страчваюць на 15% менш згуртаванасьці, а партыі ў іх складзе спажываюць на 15% менш харчоў. Спараджае 1 супярэчнасьцяў пасады {OFFICE} штотыдзень." />
 
-    <string id="BC_Council_AssignmentAppeaseNobles" text="Залагоджваць шляхту" />
+    <string id="BC_Council_AssignmentAppeaseNobles" text="Залагоджваць Шляхту" />
     <string id="BC_Council_AssignmentAppeaseNoblesHint" text="Пры сярэдняй кампэтэнтнасьці: +1 адносінаў штотыдзень паміж гаспадаром і найбольш адчужаным лаяльным васалам, да 25 адносінаў. Спараджае 1 супярэчнасьцяў пасады {OFFICE} штотыдзень." />
-    <string id="BC_Council_AssignmentImproveForeignRelations" text="Паляпшаць замежныя адносіны" />
+    <string id="BC_Council_AssignmentImproveForeignRelations" text="Паляпшаць Замежныя Адносіны" />
     <string id="BC_Council_AssignmentImproveForeignRelationsHint" text="Пры сярэдняй кампэтэнтнасьці: +1 адносінаў штотыдзень з найбольш адчужаным суседнім гаспадаром, які ня мае вайны з гаспадарствам, да 25 адносінаў. Спараджае 1 супярэчнасьцяў пасады {OFFICE} штотыдзень." />
-    <string id="BC_Council_AssignmentFabricateGrievances" text="Фабрыкаваць прэтэнзіі" />
+    <string id="BC_Council_AssignmentFabricateGrievances" text="Фабрыкаваць Прэтэнзіі" />
     <string id="BC_Council_AssignmentFabricateGrievancesHint" text="Пры сярэдняй кампэтэнтнасьці: +25% прагрэсу фабрыкацыі прэтэнзіі паноўнага клану, але +5 працэнтных пунктаў шанцу яе выкрыцьця. Спараджае 1 супярэчнасьцяў пасады {OFFICE} штотыдзень." />
 
-    <string id="BC_Council_AssignmentAuditVassals" text="Правяраць васалаў" />
+    <string id="BC_Council_AssignmentAuditVassals" text="Правяраць Васалаў" />
     <string id="BC_Council_AssignmentAuditVassalsHint" text="Пры сярэдняй кампэтэнтнасьці: +10% даходу кароны ад феадальнай службы. Спараджае 1 супярэчнасьцяў пасады {OFFICE} штотыдзень." />
-    <string id="BC_Council_AssignmentSubsidizeInfrastructure" text="Фінансаваць інфраструктуру" />
+    <string id="BC_Council_AssignmentSubsidizeInfrastructure" text="Фінансаваць Інфраструктуру" />
     <string id="BC_Council_AssignmentSubsidizeInfrastructureHint" text="Пры сярэдняй кампэтэнтнасьці: +10% будаўніцтва па ўсім гаспадарстве. Гаспадар штодзень плаціць 50 дэнараў за кожны горад ці замак. Карысьці ня будзе без магчымасьці аплаціць поўны штодзённы кошт." />
-    <string id="BC_Council_AssignmentStockpileProvisions" text="Назапашваць харчы" />
+    <string id="BC_Council_AssignmentStockpileProvisions" text="Назапашваць Харчы" />
     <string id="BC_Council_AssignmentStockpileProvisionsHint" text="Пры сярэдняй кампэтэнтнасьці: да 2 харчоў штодзень на цьвярдыню коштам 30 дэнараў за цьвярдыню ў дзень. Карысьці ня будзе без магчымасьці аплаціць поўны штодзённы кошт." />
     <string id="BC_Council_AssignmentStockpileProvisionsHapHint" text="Пры сярэдняй кампэтэнтнасьці: штодзень рэквізыруе да 2% прыдатных рынкавых харчоў у сьвіран кожнай цьвярдыні. Фактычныя перадачы залежаць ад прапановы рынку і вольнага месца ў сьвіранах. Гаспадар плаціць 30 дэнараў за цьвярдыню ў дзень; рэквізыцыі ня будзе без магчымасьці аплаціць поўны штодзённы кошт." />
 
     <string id="BC_Council_AssignmentCounterEspionage" text="Контршпіянаж" />
     <string id="BC_Council_AssignmentCounterEspionageHint" text="Пры сярэдняй кампэтэнтнасьці: +15 абароны ад інтрыгаў, +5 працэнтных пунктаў выкрыцьця варожых падробленых прэтэнзіяў і -5 вядзеньня інтрыгаў. Абарона." />
-    <string id="BC_Council_AssignmentUncoverDissent" text="Выкрываць змовы" />
+    <string id="BC_Council_AssignmentUncoverDissent" text="Выкрываць Змовы" />
     <string id="BC_Council_AssignmentUncoverDissentHint" text="Пры сярэдняй кампэтэнтнасьці: таемныя паўстанцкія змовы разьвіваюцца на 15% павольней, а выкрыцьцё варожых падробленых прэтэнзіяў атрымлівае 10 працэнтных пунктаў. Спараджае 1 супярэчнасьцяў пасады {OFFICE} штотыдзень." />
-    <string id="BC_Council_AssignmentSowRumors" text="Распускаць чуткі" />
+    <string id="BC_Council_AssignmentSowRumors" text="Распускаць Чуткі" />
     <string id="BC_Council_AssignmentSowRumorsHint" text="Пры сярэдняй кампэтэнтнасьці: +15 вядзеньня інтрыгаў супраць суперніцкіх палацаў і -5 абароны ад інтрыгаў. Спараджае 1 супярэчнасьцяў пасады {OFFICE} штотыдзень." />
 
-    <string id="BC_Council_AssignmentCounselCrown" text="Даваць парады гаспадару" />
+    <string id="BC_Council_AssignmentCounselCrown" text="Даваць Парады Гаспадару" />
     <string id="BC_Council_AssignmentCounselCrownHint" text="Пры сярэдняй кампэтэнтнасьці: +5 дзейснай кампэтэнтнасьці ўсім чатыром асноўным пасадам. Два дарадцы могуць дадаваць унёсак, да агульнай мяжы +8." />
-    <string id="BC_Council_AssignmentMediateCouncil" text="Пасярэднічаць у сойме" />
+    <string id="BC_Council_AssignmentMediateCouncil" text="Пасярэднічаць у Сойме" />
     <string id="BC_Council_AssignmentMediateCouncilHint" text="Пры сярэдняй кампэтэнтнасьці: +5 падтрымкі асноўным паслам і -1 штотыднёвых супярэчнасьцяў найбольш супярэчлівай асноўнай пасады." />
-    <string id="BC_Council_AssignmentRepresentCourt" text="Прадстаўляць палацавыя інтарэсы" />
+    <string id="BC_Council_AssignmentRepresentCourt" text="Прадстаўляць Палацавыя Інтарэсы" />
     <string id="BC_Council_AssignmentRepresentCourtHint" text="Пры сярэдняй кампэтэнтнасьці: +5 базавага настрою і -5 намеру паўстаць палацавай фракцыі дарадцы. Паўторнае прадстаўніцтва не складаецца." />
-    <string id="BC_Council_AssignmentMilitiaGrowth" text="Навучаньне рушэньня соймам" />
-    <string id="BC_Council_AssignmentMilitiaQuality" text="Навучаньне рушэньня соймам" />
+    <string id="BC_Council_AssignmentMilitiaGrowth" text="Навучаньне Соймавага Рушэньня" />
+    <string id="BC_Council_AssignmentMilitiaQuality" text="Навучаньне соймавага рушэньня" />
     <string id="BC_Council_AssignmentVillageProduction" text="Зборы на навучаньне рушэньня" />
     <string id="BC_Council_AssignmentArmyLogistics" text="Забесьпячэньне соймам" />
     <string id="BC_Council_AssignmentPatrolSize" text="Ладжаньне патрулёў соймам" />
     <string id="BC_Council_AssignmentConstruction" text="Субсыдыі інфраструктуры ад сойму" />
-    <string id="BC_BreakdownLabel_CourtRepresentation" text="Прадстаўніцтва пры палацы" />
-    <string id="BC_Influence_PrivyCouncil" text="Пасада сойму {COUNCIL_NAME}" />
-    <string id="BC_Score_Label_WantsCouncilSeat" text="Жадае месца ў сойме" />
-    <string id="BC_Score_Label_FactionCouncilRepresentation" text="Палацавая фракцыя прадстаўленая" />
-    <string id="BC_Score_Label_RivalCouncilMonopoly" text="Суперніцкая фракцыя пануе ў сойме" />
-    <string id="BC_Score_WantsCouncilSeat" text="Жадае месца ў сойме: {SIGN}{SCORE}" />
-    <string id="BC_Score_FactionCouncilRepresentation" text="Палацавая фракцыя прадстаўленая: {SIGN}{SCORE}" />
-    <string id="BC_Score_RivalCouncilMonopoly" text="Суперніцкая фракцыя пануе ў сойме: {SIGN}{SCORE}" />
-    <string id="BC_Score_Label_DismissedFromCouncil" text="Адхілены з сойму" />
-    <string id="BC_Score_DismissedFromCouncil" text="Адхілены з сойму: {SIGN}{SCORE}" />
-    <string id="BC_Council_AppointmentOverrideMsg" text="Гаспадар {RULER_NAME} насуперак сойму прызначыў кандыдата {CANDIDATE_NAME} на пасаду {OFFICE}." />
+    <string id="BC_BreakdownLabel_CourtRepresentation" text="Прадстаўніцтва пры Палацы" />
+    <string id="BC_Influence_PrivyCouncil" text="Пасада Сойму {COUNCIL_NAME}" />
+    <string id="BC_Score_Label_WantsCouncilSeat" text="Жадае Месца ў Сойме" />
+    <string id="BC_Score_Label_FactionCouncilRepresentation" text="Палацавая Фракцыя Прадстаўленая" />
+    <string id="BC_Score_Label_RivalCouncilMonopoly" text="Суперніцкая Фракцыя Пануе ў Сойме" />
+    <string id="BC_Score_WantsCouncilSeat" text="Жадае Месца ў Сойме: {SIGN}{SCORE}" />
+    <string id="BC_Score_FactionCouncilRepresentation" text="Палацавая Фракцыя Прадстаўленая: {SIGN}{SCORE}" />
+    <string id="BC_Score_RivalCouncilMonopoly" text="Суперніцкая Фракцыя Пануе ў Сойме: {SIGN}{SCORE}" />
+    <string id="BC_Score_Label_DismissedFromCouncil" text="Адхілены з Сойму" />
+    <string id="BC_Score_DismissedFromCouncil" text="Адхілены з Сойму: {SIGN}{SCORE}" />
+    <string id="BC_Council_AppointmentOverrideMsg" text="{RULER_NAME} насуперак сойму прызначыў кандыдата {CANDIDATE_NAME} на пасаду {OFFICE}." />
     <string id="BC_Council_AppointmentRetainedMsg" text="Сойм пакінуў кандыдата {CANDIDATE_NAME} на пасадзе {OFFICE}." />
     <string id="BC_Council_AppointmentFactionMsg" text="Фракцыя {FACTION_NAME} сьвяткуе прызначэньне кандыдата {CANDIDATE_NAME} на пасаду {OFFICE}." />
     <string id="BC_Council_AppointmentOverrideReaction" text="Фракцыі {FACTION_NAMES} пакідаюць палац, раззлаваныя тым, што іх упадабанаму кандыдату адмовілі ў пасадзе." />
     <string id="BC_Council_AppointmentPassedOverReaction" text="Фракцыі {FACTION_NAMES} незадаволеныя тым, што іх упадабаных кандыдатаў абмінулі." />
-    <string id="BC_Ag_CouncilMemberAppointed" text="Сябра фракцыі прызначаны ў сойм" />
-    <string id="BC_Ag_CouncilMemberAppointedH" text="Сябра гэтай фракцыі нядаўна атрымаў месца ў сойме {COUNCIL_NAME}." />
-    <string id="BC_Ag_CouncilIncumbentRetained" text="Пасол фракцыі захаваў пасаду" />
+    <string id="BC_Ag_CouncilMemberAppointed" text="Чалец Фракцыі Прызначаны ў Сойм" />
+    <string id="BC_Ag_CouncilMemberAppointedH" text="Чалец гэтай фракцыі нядаўна атрымаў месца ў сойме {COUNCIL_NAME}." />
+    <string id="BC_Ag_CouncilIncumbentRetained" text="Пасол Фракцыі Захаваў Пасаду" />
     <string id="BC_Ag_CouncilIncumbentRetainedH" text="Гаспадарства нядаўна пацьвердзіла пасла гэтай фракцыі на пасадзе." />
-    <string id="BC_Ag_CouncilCandidatePassedOver" text="Упадабаны кандыдат у сойм абмінуты" />
+    <string id="BC_Ag_CouncilCandidatePassedOver" text="Упадабаны Кандыдат у Сойм Прайграў" />
     <string id="BC_Ag_CouncilCandidatePassedOverH" text="Упадабаны кандыдат гэтай фракцыі нядаўна прайграў прызначэньне ў сойм {COUNCIL_NAME}." />
-    <string id="BC_Ag_CouncilChoiceOverruled" text="Выбар сойму скасаваны" />
+    <string id="BC_Ag_CouncilChoiceOverruled" text="Выбар Сойму Скасаваны" />
     <string id="BC_Ag_CouncilChoiceOverruledH" text="Гаспадар нядаўна адхіліў упадабанае соймам прызначэньне, раззлаваўшы гэтую фракцыю." />
-    <string id="BC_Ag_CouncilMemberDismissed" text="Чалец адхілены з сойму" />
-    <string id="BC_Ag_CouncilMemberDismissedH" text="Гаспадар нядаўна адхіліў аднаго сябра гэтай фракцыі з сойму {COUNCIL_NAME}." />
+    <string id="BC_Ag_CouncilMemberDismissed" text="Чалец Адхілены з Сойму" />
+    <string id="BC_Ag_CouncilMemberDismissedH" text="Гаспадар нядаўна адхіліў аднаго чальца гэтай фракцыі з сойму {COUNCIL_NAME}." />
     <string id="BC_Council_SeneschalTax" text="Даход ад кіраваньня пасады {OFFICE}" />
     <string id="BC_Council_SeneschalTaxDetail" text="{FIEF_NAME}: даход ад кіраваньня пасады {OFFICE}" />
     <string id="BC_Council_InfrastructureExpense" text="Субсыдыі інфраструктуры" />
     <string id="BC_Council_ProvisionsExpense" text="Запасы харчоў" />
     <string id="BC_Council_AssignmentFoodStocks" text="Запасы харчоў сойму" />
-    <string id="BC_CouncilIncident_BolsterWatch_Title" text="Узмацненьне гарадзкой варты" />
-    <string id="BC_CouncilIncident_BolsterWatch_Description" text="Ваш гетман {MARSHAL_NAME} прапануе паслаць вярбоўнікаў у вёскі, каб заахвоціць моладзь ісьці ў мясцовую варту абяцаньнямі прыгодаў і ўзнагароды за ўступленьне. Гетман сьцьвярджае, што новыя навабранцы пашыраць ахоп патрулёў гаспадарства і зробяць дарогі бясьпечнейшымі." />
-    <string id="BC_CouncilIncident_BolsterWatch_Endorse" text="Падтрымаць вярбоўчую кампанію і прыняць рызыку." />
+    <string id="BC_CouncilIncident_BolsterWatch_Title" text="Узмацненьне Гарадзкой Варты" />
+    <string id="BC_CouncilIncident_BolsterWatch_Description" text="Ваш гетман {MARSHAL_NAME} прапануе паслаць рэкрутараў у вёскі, каб заахвоціць моладзь ісьці ў мясцовую варту абяцаньнямі прыгодаў і ўзнагароды за ўступленьне. Гетман сьцьвярджае, што новыя рэкруты пашыраць ахоп патрулёў гаспадарства і зробяць дарогі бясьпечнейшымі." />
+    <string id="BC_CouncilIncident_BolsterWatch_Endorse" text="Падтрымаць рэкруцкую кампанію і прыняць рызыку." />
     <string id="BC_CouncilIncident_BolsterWatch_Oppose" text="Забараніць прапанову і захаваць цяперашнюю арганізацыю патрулёў." />
     <string id="BC_CouncilIncident_BolsterWatch_Abstain" text="Дазволіць абмежаваную спробу без поўных абавязаньняў кароны." />
     <string id="BC_CouncilIncident_BolsterWatch_EndorseSuccess" text="{CHANCE}% шанцу: падвоіць эфэкт памеру патрулёў на {DAYS} дзён і зьменшыць супярэчнасьці гетмана на 5." />
@@ -3333,14 +3333,14 @@
     <string id="BC_CouncilIncident_BolsterWatch_AbstainSuccess" text="{CHANCE}% шанцу: узмацніць эфэкт памеру патрулёў на 50% на {DAYS} дзён і зьменшыць супярэчнасьці гетмана на 2." />
     <string id="BC_CouncilIncident_BolsterWatch_AbstainNeutral" text="{CHANCE}% шанцу: даручэньне працягваецца бязь зьменаў." />
     <string id="BC_CouncilIncident_BolsterWatch_AbstainFailure" text="{CHANCE}% шанцу: аслабіць эфэкт памеру патрулёў на 25% на {DAYS} дзён і павялічыць супярэчнасьці гетмана на 5." />
-    <string id="BC_CouncilIncident_BolsterWatch_ResultEndorseSuccess" text="Вярбоўчая кампанія ўдалася. Узмоцненыя патрулі робяць дарогі бясьпечнейшымі, і становішча гетмана паляпшаецца." />
-    <string id="BC_CouncilIncident_BolsterWatch_ResultEndorseNeutral" text="Вярбоўнікі знаходзяць менш ахвотнікаў, чым спадзяваліся, але патрулі на пэўны час крыху ўзмацняюцца." />
+    <string id="BC_CouncilIncident_BolsterWatch_ResultEndorseSuccess" text="Рэкруцкая кампанія ўдалася. Узмоцненыя патрулі робяць дарогі бясьпечнейшымі, і становішча гетмана паляпшаецца." />
+    <string id="BC_CouncilIncident_BolsterWatch_ResultEndorseNeutral" text="Рэкрутары знаходзяць менш ахвотнікаў, чым спадзяваліся, але патрулі на пэўны час крыху ўзмацняюцца." />
     <string id="BC_CouncilIncident_BolsterWatch_ResultEndorseFailure" text="Кампанія дае адваротны вынік. Адны вартаўнікі дэзэртуюць, іншыя бяруцца за разбоі, падрываючы наладжаныя патрульныя маршруты." />
-    <string id="BC_CouncilIncident_BolsterWatch_ResultOppose" text="Вы забараняеце вярбоўчую кампанію. Гетман падпарадкоўваецца, але крыўдуе празь недавер кароны." />
-    <string id="BC_CouncilIncident_BolsterWatch_ResultAbstainSuccess" text="Абмежаваная спроба ўдаецца і дае патрулям карысны прыток навабранцаў." />
+    <string id="BC_CouncilIncident_BolsterWatch_ResultOppose" text="Вы забараняеце рэкруцкую кампанію. Гетман падпарадкоўваецца, але крыўдуе празь недавер кароны." />
+    <string id="BC_CouncilIncident_BolsterWatch_ResultAbstainSuccess" text="Абмежаваная спроба ўдаецца і дае патрулям карысны прыток рэкрутаў." />
     <string id="BC_CouncilIncident_BolsterWatch_ResultAbstainNeutral" text="Абмежаваная спроба дае мала прыкметнага, і арганізацыя патрулёў застаецца ранейшай." />
     <string id="BC_CouncilIncident_BolsterWatch_ResultAbstainFailure" text="Нават абмежаваная спроба выклікае дэзэртырства і на пэўны час звужае ахоп патрулёў." />
-    <string id="BC_CouncilIncident_Remounts_Title" text="Рэквізыцыя запасных коней" />
+    <string id="BC_CouncilIncident_Remounts_Title" text="Рэквізыцыя Запасных Коней" />
     <string id="BC_CouncilIncident_Remounts_Description" text="Ваш гетман {MARSHAL_NAME} паведамляе, што збор патрулёў затрымліваецца празь нястачу прыдатных коней. Ён прапануе рэквізыраваць запасных коней у вясковых заводчыкаў, караванных двароў і шляхецкіх маёнткаў, каб новыя патрулі хутчэй выходзілі на дарогі. Гэта можа палепшыць гатоўнасьць, але сьпешныя канфіскацыі пагражаюць супрацівам і могуць пакінуць гаспадарству зьнясіленых ці непрыдатных коней." />
     <string id="BC_CouncilIncident_Remounts_Endorse" text="Надаць паўнамоцтвы на агульную рэквізыцыю." />
     <string id="BC_CouncilIncident_Remounts_Oppose" text="Адмовіцца турбаваць заводчыкаў і маёнткі гаспадарства." />
@@ -3393,13 +3393,13 @@
     <string id="BC_CouncilIncident_MusterRolls_AbstainSuccess" text="{CHANCE}% шанцу: узмацніць эфэкт прыросту рушэньня на 50% на {DAYS} дзён і зьменшыць супярэчнасьці гетмана на 2." />
     <string id="BC_CouncilIncident_MusterRolls_AbstainNeutral" text="{CHANCE}% шанцу: даручэньне працягваецца бязь зьменаў." />
     <string id="BC_CouncilIncident_MusterRolls_AbstainFailure" text="{CHANCE}% шанцу: аслабіць эфэкт прыросту рушэньня на 25% на {DAYS} дзён і павялічыць супярэчнасьці гетмана на 5." />
-    <string id="BC_CouncilIncident_MusterRolls_ResultEndorseSuccess" text="Новыя сьпісы выяўляюць занядбаныя дамы і даюць вялікі прыток навабранцаў да вясковых збораў." />
-    <string id="BC_CouncilIncident_MusterRolls_ResultEndorseNeutral" text="Выкананьне адрозьніваецца паводле акругі, але новыя сьпісы крыху ўзмацняюць набор рушэньня." />
-    <string id="BC_CouncilIncident_MusterRolls_ResultEndorseFailure" text="Старэйшыны падрабляюць запісы, вызваленьні прадаюцца, а абурэньне парушае набор рушэньня па ўсім гаспадарстве." />
+    <string id="BC_CouncilIncident_MusterRolls_ResultEndorseSuccess" text="Новыя сьпісы выяўляюць занядбаныя дамы і даюць вялікі прыток рэкрутаў да вясковых збораў." />
+    <string id="BC_CouncilIncident_MusterRolls_ResultEndorseNeutral" text="Выкананьне адрозьніваецца паводле акругі, але новыя сьпісы крыху ўзмацняюць рэкрутаваньне ў рушэньне." />
+    <string id="BC_CouncilIncident_MusterRolls_ResultEndorseFailure" text="Старэйшыны падрабляюць запісы, вызваленьні прадаюцца, а абурэньне парушае рэкрутаваньне ў рушэньне па ўсім гаспадарстве." />
     <string id="BC_CouncilIncident_MusterRolls_ResultOppose" text="Вы пакідаеце сьпісы рушэньня мясцовай уладзе. Гетман падпарадкоўваецца, але лічыць старыя сьпісы ненадзейнымі." />
-    <string id="BC_CouncilIncident_MusterRolls_ResultAbstainSuccess" text="Памежная спроба выяўляе занядбаныя дамы і дае мясцовай варце новых навабранцаў." />
-    <string id="BC_CouncilIncident_MusterRolls_ResultAbstainNeutral" text="Спроба не выяўляе нічога значнага, і набор рушэньня ідзе па-ранейшаму." />
-    <string id="BC_CouncilIncident_MusterRolls_ResultAbstainFailure" text="Памежныя сьпісы выклікаюць спрэчкі аб вызваленьнях і на кароткі час перашкаджаюць набору рушэньня." />
+    <string id="BC_CouncilIncident_MusterRolls_ResultAbstainSuccess" text="Памежная спроба выяўляе занядбаныя дамы і дае мясцовай варце новых рэкрутаў." />
+    <string id="BC_CouncilIncident_MusterRolls_ResultAbstainNeutral" text="Спроба не выяўляе нічога значнага, і рэкрутаваньне ў рушэньне ідзе па-ранейшаму." />
+    <string id="BC_CouncilIncident_MusterRolls_ResultAbstainFailure" text="Памежныя сьпісы выклікаюць спрэчкі аб вызваленьнях і на кароткі час перашкаджаюць рэкрутаваньню ў рушэньне." />
     <string id="BC_CouncilIncident_LiveSteel_Title" text="Паядынкі вострай зброяй" />
     <string id="BC_CouncilIncident_LiveSteel_Description" text="Ваш гетман {MARSHAL_NAME} сьцьвярджае, што сяляне, навучаныя толькі тупымі кіямі і драўлянымі шчытамі, спалохаюцца пры першай сустрэчы з сапраўднай стальлю. Ён прапануе перадаць абраныя роты рушэньня пад кіраўніцтва дасьведчаных жаўнераў і дазволіць практыкаваньні завостранай зброяй. Тыя, хто вытрымае навучаньне, могуць стаць грознымі вэтэранамі, але кепскае кіраваньне пагражае ранамі, страхам і дэзэртырствам." />
     <string id="BC_CouncilIncident_LiveSteel_Endorse" text="Дазволіць практыкаваньні вострай зброяй па ўсім гаспадарстве." />
@@ -3415,7 +3415,7 @@
     <string id="BC_CouncilIncident_LiveSteel_AbstainFailure" text="{CHANCE}% шанцу: аслабіць эфэкт вэтэранскага рушэньня на 25% на {DAYS} дзён і павялічыць супярэчнасьці гетмана на 5." />
     <string id="BC_CouncilIncident_LiveSteel_ResultEndorseSuccess" text="Дасьведчаныя жаўнеры ўсталёўваюць цьвёрдую дысцыпліну, рыхтуючы выключнае пакаленьне вэтэранаў рушэньня." />
     <string id="BC_CouncilIncident_LiveSteel_ResultEndorseNeutral" text="Практыкаваньні паляпшаюць баявую гатоўнасьць, хоць раны абмяжоўваюць шырыню праграмы." />
-    <string id="BC_CouncilIncident_LiveSteel_ResultEndorseFailure" text="Неразважлівыя настаўнікі выклікаюць кровапраліцьце і адпужваюць навабранцаў ад паглыбленага навучаньня." />
+    <string id="BC_CouncilIncident_LiveSteel_ResultEndorseFailure" text="Неразважлівыя настаўнікі выклікаюць кровапраліцьце і адпужваюць рэкрутаў ад паглыбленага навучаньня." />
     <string id="BC_CouncilIncident_LiveSteel_ResultOppose" text="Вы забараняеце завостраную зброю ў навучаньні рушэньня. Гетман падпарадкоўваецца, але называе рашэньне баязьлівым." />
     <string id="BC_CouncilIncident_LiveSteel_ResultAbstainSuccess" text="Пільны нагляд робіць абмежаваныя практыкаваньні бясьпечнымі і дзейснымі." />
     <string id="BC_CouncilIncident_LiveSteel_ResultAbstainNeutral" text="Спробы даюць некалькі здольных вэтэранаў, але мала што зьмяняюць ва ўсім гаспадарстве." />
@@ -3526,7 +3526,7 @@
     <string id="BC_CouncilIncident_LooseLippedInformant_ResultAbstainSuccess" text="Інфармант захоплена паўтарае хлусьлівыя зьвесткі, адводзячы падазрэньні ад сапраўднай працы канцлера." />
     <string id="BC_CouncilIncident_LooseLippedInformant_ResultAbstainNeutral" text="Гісторыі пісара становяцца занадта супярэчлівымі для даверу, але не настолькі недарэчнымі, каб замежныя агенты страцілі цікавасьць." />
     <string id="BC_CouncilIncident_LooseLippedInformant_ResultAbstainFailure" text="Інфармант заўважае падман і прадае абодва аповеды, праўдзівы і хлусьлівы, палягчаючы выкрыцьцё намераў канцылярыі." />
-    <string id="BC_CouncilIncident_BribingClerics_Title" text="Подкуп пісараў" />
+    <string id="BC_CouncilIncident_BribingClerics_Title" text="Подкуп Пісараў" />
     <string id="BC_CouncilIncident_BribingClerics_Description" text="Ваш канцлер {CHANCELLOR_NAME} паведамляе, што наймацнейшыя прывілеі супраць прэтэнзіі кароны ляжаць у архівах правінцыйных пісараў, якія раўніва ахоўваюць свае рэестры. Прапануюцца шчодрыя зборы, прыватныя выплаты згодлівым захавальнікам запісаў і павышэньне тым, хто правільна памятае мінулае. Калі выплаты стануць вядомымі, прэтэнзія можа выжыць, але рэпутацыя канцлера {CHANCELLOR_NAME} — не." />
     <string id="BC_CouncilIncident_BribingClerics_Effect" text="штотыднёвыя супярэчнасьці даручэньня" />
     <string id="BC_CouncilIncident_BribingClerics_Endorse" text="Фінансаваць выплаты і перадаць архівы ў згодлівыя рукі." />
@@ -3539,7 +3539,7 @@
     <string id="BC_CouncilIncident_BribingClerics_ResultAbstainSuccess" text="Некалькі абачлівых захавальнікаў перастаўляюць патрэбныя паліцы і адпужваюць цікаўных наведнікаў без шырэйшай увагі." />
     <string id="BC_CouncilIncident_BribingClerics_ResultAbstainNeutral" text="Пасярэднікі забясьпечваюць абмежаванае супрацоўніцтва, але архівы застаюцца збольшага цэлымі і даступнымі." />
     <string id="BC_CouncilIncident_BribingClerics_ResultAbstainFailure" text="Адзін пасярэднік хваліцца доступам, выклікаючы чуткі аб карупцыі без карыснага кантролю над запісамі." />
-    <string id="BC_CouncilIncident_ExtravagantGift_Title" text="Раскошны падарунак" />
+    <string id="BC_CouncilIncident_ExtravagantGift_Title" text="Раскошны Падарунак" />
     <string id="BC_CouncilIncident_ExtravagantGift_Description" text="Ваш канцлер {CHANCELLOR_NAME} прыносіць зьвесткі зь суседняга палацу пра гаспадара, чыё стаўленьне да вас ператварылася ў адкрытую пагарду. Прапануецца шыкоўнае пасольства з вырабамі са срэбра, рэдкімі тканінамі і коньмі з гаспадарскіх стайняў. Шчодры падарунак можа аднавіць перапіску; падарунак, палічаны адчайным, безгустоўным ці недастаткова велічным, прынясе толькі кпіны з вас." />
     <string id="BC_CouncilIncident_ExtravagantGift_Effect" text="штотыднёвае паляпшэньне адносінаў з суседнімі гаспадарамі" />
     <string id="BC_CouncilIncident_ExtravagantGift_Endorse" text="Паслаць пасольства, нагружанае падарункамі, вартымі сувэрэна." />
@@ -3655,7 +3655,7 @@
     <string id="BC_CouncilIncident_HiddenLedgers_ResultEndorseNeutral" text="Рахункі выкрываюць дастаткова парушэньняў для ўзмацненьня збору, хоць абяцаная пісарамі вялікая змова так і не знаходзіцца." />
     <string id="BC_CouncilIncident_HiddenLedgers_ResultEndorseSuccess" text="Утоеныя рахункі выяўляюць сыстэматычную недаплату. Перагледжаныя налічэньні прыкметна павялічваюць службу, якая даходзіць да кароны." />
     <string id="BC_CouncilIncident_HiddenLedgers_ResultOppose" text="Вы загадваеце вярнуць запісы. Маршалок падпарадкоўваецца, пакідаючы разыходжаньні нявырашанымі." />
-    <string id="BC_CouncilIncident_HiddenLedgers_Title" text="Утоеныя кнігі" />
+    <string id="BC_CouncilIncident_HiddenLedgers_Title" text="Утоеныя Кнігі" />
     <string id="BC_CouncilIncident_HoardingPanic_Abstain" text="Узгадніць абмежаваныя кантракты з надзейнымі купцамі." />
     <string id="BC_CouncilIncident_HoardingPanic_Description" text="Ваш маршалок {SENESCHAL_NAME} паведамляе, што купцы пачалі ўтрымліваць збожжа, даведаўшыся пра закупы кароны і чакаючы далейшага росту цэнаў. Прымусовы продаж і фіксаваныя цэны могуць спыніць паніку, але жорсткае ўмяшаньне можа загнаць гандаль на таемныя рынкі." />
     <string id="BC_CouncilIncident_HoardingPanic_Effect" text="штодзённы кошт закупаў даручэньня" />
@@ -3811,7 +3811,7 @@
     <string id="BC_CouncilIncident_CounterRumor_ResultEndorseNeutral" text="Абвяржэньне стрымлівае найшкоднейшыя гісторыі, хоць меншыя абвінавачаньні працягваюць хадзіць." />
     <string id="BC_CouncilIncident_CounterRumor_ResultEndorseSuccess" text="Крыніцу выкрываюць як аплачанага замежнага агента, і абвінавачаньні развальваюцца, вызваляючы палац ад значнай часткі іх разбуральнага ўзьдзеяньня." />
     <string id="BC_CouncilIncident_CounterRumor_ResultOppose" text="Вы адмаўляецеся адказваць на замежныя гісторыі. Шпегмайстар працягвае кампанію і прымае яе абаронны кошт." />
-    <string id="BC_CouncilIncident_CounterRumor_Title" text="Сустрэчныя чуткі" />
+    <string id="BC_CouncilIncident_CounterRumor_Title" text="Сустрэчныя Чуткі" />
     <string id="BC_CouncilIncident_CourtParanoia_Abstain" text="Абараняць толькі найнадзейнейшых замежных агентаў." />
     <string id="BC_CouncilIncident_CourtParanoia_Description" text="Ваш шпегмайстар {SPYMASTER_NAME} папярэджвае, што пошук замежных агентаў прымусіў чыноўнікаў баяцца вольна гаварыць, абменьвацца перапіскай ці дазваляць таемную працу за мяжой. Сыстэма запячатаных дазволаў і падзеленых справаздачаў можа аднавіць давер без паслабленьня бясьпекі. Кепскае выкананьне толькі дадасьць яшчэ адзін пласт падазрэньняў." />
     <string id="BC_CouncilIncident_CourtParanoia_Effect" text="штраф вядзеньня інтрыгаў ад даручэньня" />
@@ -3824,7 +3824,7 @@
     <string id="BC_CouncilIncident_CourtParanoia_ResultEndorseNeutral" text="Новыя каналы вяртаюць частку даверу, хоць чыноўнікі застаюцца асьцярожнымі ў таемнай перапісцы." />
     <string id="BC_CouncilIncident_CourtParanoia_ResultEndorseSuccess" text="Запячатаныя дазволы адрозьніваюць упаўнаважаных агентаў ад сапраўдных падазроных, аднаўляючы замежныя апэрацыі без паслабленьня ўнутранай варты." />
     <string id="BC_CouncilIncident_CourtParanoia_ResultOppose" text="Вы захоўваеце цяперашнія засьцярогі. Шпегмайстар пакідае замежныя апэрацыі абмежаванымі падазрэньнямі палацу." />
-    <string id="BC_CouncilIncident_CourtParanoia_Title" text="Параноя пры палацы" />
+    <string id="BC_CouncilIncident_CourtParanoia_Title" text="Параноя пры Палацы" />
     <string id="BC_CouncilIncident_DoubleAgent_Abstain" text="Скарыстацца ім толькі для аднаго кантраляванага абмену." />
     <string id="BC_CouncilIncident_DoubleAgent_Description" text="Ваш шпегмайстар {SPYMASTER_NAME} паведамляе, што замежны агент, злоўлены за купляй пячатак і генэалягічных запісаў, прапануе здрадзіць сваім куратарам у абмен на абарону. Вярнуўшыся зь пераканаўчымі зьвесткамі, ён можа выкрыць кожную спробу фабрыкаваць прэтэнзіі супраць гаспадарства. Калі былыя гаспадары западозраць падман, яны могуць скарыстацца ім, каб перадаць вашаму палацу менавіта тое, у што хочуць прымусіць яго верыць." />
     <string id="BC_CouncilIncident_DoubleAgent_Effect" text="выкрыцьцё варожых падробленых прэтэнзіяў" />
@@ -3837,7 +3837,7 @@
     <string id="BC_CouncilIncident_DoubleAgent_ResultEndorseNeutral" text="Агент дае некалькі карысных імёнаў, хоць былыя гаспадары трымаюць найважнейшыя пляны па-за яго доступам." />
     <string id="BC_CouncilIncident_DoubleAgent_ResultEndorseSuccess" text="Агент вяртае давер куратараў і выяўляе пісараў, пасярэднікаў і замежных апекуноў варожых падробленых прэтэнзіяў супраць гаспадарства." />
     <string id="BC_CouncilIncident_DoubleAgent_ResultOppose" text="Вы загадваеце ўвязьніць агента. Шпегмайстар закрывае апэрацыю і прымае ўжо здабытыя зьвесткі." />
-    <string id="BC_CouncilIncident_DoubleAgent_Title" text="Двайны агент" />
+    <string id="BC_CouncilIncident_DoubleAgent_Title" text="Двайны Агент" />
     <string id="BC_CouncilIncident_FabricatedTreason_Abstain" text="Падкінуць адно пільна абмежаванае фальшывае паведамленьне." />
     <string id="BC_CouncilIncident_FabricatedTreason_Description" text="Ваш шпегмайстар {SPYMASTER_NAME} прапануе падкінуць фальшывую перапіску падазроным змоўнікам, спадзеючыся, што спалоханыя саўдзельнікі выдадуць сябе пры спробе яе зьнішчыць. Пераканаўчы падман можа апраўдаць службу і прымусіць крытыкаў змоўкнуць. Выкрыцьцё зробіць кожнае абвінавачаньне ў здрадзе падробленым на выгляд." />
     <string id="BC_CouncilIncident_FabricatedTreason_Effect" text="штотыднёвыя супярэчнасьці даручэньня" />
@@ -3850,7 +3850,7 @@
     <string id="BC_CouncilIncident_FabricatedTreason_ResultEndorseNeutral" text="Некалькі падазроных выдаюць сваю трывогу, хоць падкінутыя доказы даюць больш падазрэньняў, чым пацьверджаньняў." />
     <string id="BC_CouncilIncident_FabricatedTreason_ResultEndorseSuccess" text="Фальшывыя лісты прымушаюць сапраўдных змоўнікаў выдаць сувязі. Арышты выглядаюць цалкам апраўданымі, і крытыка службы сьціхае." />
     <string id="BC_CouncilIncident_FabricatedTreason_ResultOppose" text="Вы забараняеце падман. Шпегмайстар зьнішчае фальшывыя лісты і працягвае расьсьледаваньне звычайнымі сродкамі." />
-    <string id="BC_CouncilIncident_FabricatedTreason_Title" text="Сфабрыкаваная здрада" />
+    <string id="BC_CouncilIncident_FabricatedTreason_Title" text="Сфабрыкаваная Здрада" />
     <string id="BC_CouncilIncident_Spymaster_AbstainNeutral" text="{CHANCE}% шанцу: даручэньне працягваецца бязь зьменаў." />
     <string id="BC_CouncilIncident_Spymaster_BenefitAbstainFailure" text="{CHANCE}% шанцу: аслабіць паказьнік «{EFFECT}» на 25% на {DAYS} дзён і павялічыць супярэчнасьці шпегмайстра на 5." />
     <string id="BC_CouncilIncident_Spymaster_BenefitAbstainSuccess" text="{CHANCE}% шанцу: узмацніць паказьнік «{EFFECT}» на 50% на {DAYS} дзён і зьменшыць супярэчнасьці шпегмайстра на 2." />
@@ -3869,7 +3869,7 @@
     <string id="BC_CouncilIncident_UndergroundNetwork_Effect" text="падаўленьне таемных змоваў ад даручэньня" />
     <string id="BC_CouncilIncident_UndergroundNetwork_Endorse" text="Пранікнуць у сетку перад яе ліквідацыяй." />
     <string id="BC_CouncilIncident_UndergroundNetwork_Oppose" text="Неадкладна арыштаваць вядомых змоўнікаў." />
-    <string id="BC_CouncilIncident_UndergroundNetwork_ResultAbstainFailure" text="Зьніклыя кур'еры папярэджваюць падпольле аб назіраньні, прымушаючы яго сябраў ужываць бясьпечнейшыя і дзейсныя мэтады." />
+    <string id="BC_CouncilIncident_UndergroundNetwork_ResultAbstainFailure" text="Зьніклыя кур'еры папярэджваюць падпольле аб назіраньні, прымушаючы яго чальцоў ужываць бясьпечнейшыя і дзейсныя мэтады." />
     <string id="BC_CouncilIncident_UndergroundNetwork_ResultAbstainNeutral" text="Парушаныя паведамленьні замінаюць сетцы, але сур'ёзна не перашкаджаюць яе росту." />
     <string id="BC_CouncilIncident_UndergroundNetwork_ResultAbstainSuccess" text="Перахопленыя кур'еры затрымліваюць сустрэчы і пакідаюць некалькі змоўніцкіх ячэек без магчымасьці ўзгадняць дзеяньні." />
     <string id="BC_CouncilIncident_UndergroundNetwork_ResultEndorseFailure" text="Укаранёны агент выкрыты, і падпольле дзеліцца на меншыя ячэйкі, якія абачлівей падтрымліваюць сувязі і арганізуюцца па-за ўвагай службы." />
@@ -3929,7 +3929,7 @@
     <string id="BC_CouncilIncident_BitterRivalry_ResultEndorseNeutral" text="Супернікі аднаўляюць афіцыйнае супрацоўніцтва, хоць ніводзін не адмаўляецца ад крыўды пад ім." />
     <string id="BC_CouncilIncident_BitterRivalry_ResultEndorseSuccess" text="Пасярэдніцтва дае абодвум пасадоўцам годныя саступкі і вяртае давер да здольнасьці сойму кіраваць сабой." />
     <string id="BC_CouncilIncident_BitterRivalry_ResultOppose" text="Вы пакідаеце супернікаў іх сварцы. Дарадца адмаўляецца ад пасярэдніцтва." />
-    <string id="BC_CouncilIncident_BitterRivalry_Title" text="Зацятае суперніцтва" />
+    <string id="BC_CouncilIncident_BitterRivalry_Title" text="Зацятае Суперніцтва" />
     <string id="BC_CouncilIncident_BribedMediator_Abstain" text="Расьсьледаваць пісара прыватна." />
     <string id="BC_CouncilIncident_BribedMediator_Description" text="Ваш дарадца {ADVISOR_NAME} даведаўся, што пісар, якому даверылі перадаваць кампрамісы паміж пасадамі сойму, прымаў падарункі ад аднаго са спрэчных бакоў. Публічнае расьсьледаваньне можа вярнуць давер ці пераканаць кожнага пасла, што пасярэдніцтва толькі хавае іншую форму ўплыву." />
     <string id="BC_CouncilIncident_BribedMediator_Effect" text="унёсак дарадцы ў падтрымку асноўных паслоў" />
@@ -3942,7 +3942,7 @@
     <string id="BC_CouncilIncident_BribedMediator_ResultEndorseNeutral" text="Пісар прыбраны, некалькі дамоўленасьцяў перагледжаныя, але падазрэньні наконт старых кампрамісаў застаюцца." />
     <string id="BC_CouncilIncident_BribedMediator_ResultEndorseSuccess" text="Расьсьледаваньне зводзіць карупцыю да аднаго пісара, скасоўвае яго несумленныя дамоўленасьці і вяртае веру ў бесстароньняе пасярэдніцтва." />
     <string id="BC_CouncilIncident_BribedMediator_ResultOppose" text="Вы хаваеце абвінавачаньне. Пісар застаецца на месцы, і давер сойму мала зьмяняецца." />
-    <string id="BC_CouncilIncident_BribedMediator_Title" text="Падкуплены пасярэднік" />
+    <string id="BC_CouncilIncident_BribedMediator_Title" text="Падкуплены Пасярэднік" />
     <string id="BC_CouncilIncident_CompromisedRepresentative_Abstain" text="Ціха замяніць толькі непасрэдна замяшаных." />
     <string id="BC_CouncilIncident_CompromisedRepresentative_Description" text="Ваш дарадца {ADVISOR_NAME} паведамляе, што пасярэднік, якому давярае фракцыя {FACTION_NAME}, прадаваў прыватную перапіску і скажаў паведамленьні паміж фракцыяй і каронай. Перабудова каналаў можа вярнуць давер, але выкрыцьцё здрады можа паглыбіць цяперашнія падазрэньні." />
     <string id="BC_CouncilIncident_CompromisedRepresentative_Effect" text="зьніжэньне намеру фракцыі паўстаць ад даручэньня" />
@@ -3968,13 +3968,13 @@
     <string id="BC_CouncilIncident_CouncilDeadlock_ResultEndorseNeutral" text="Справы аднаўляюцца пад няўстойлівым кампрамісам, палягчаючы адны спрэчкі і пакідаючы іншыя нявырашанымі." />
     <string id="BC_CouncilIncident_CouncilDeadlock_ResultEndorseSuccess" text="Пільна ўраўнаважаная дамова вяртае працу сойму і пазбаўляе пасадоўцаў найгучнейшых крыўдаў." />
     <string id="BC_CouncilIncident_CouncilDeadlock_ResultOppose" text="Вы адмаўляецеся навязваць дамову. Дарадца пакідае пасадоўцам самастойна выйсьці з тупіку." />
-    <string id="BC_CouncilIncident_CouncilDeadlock_Title" text="Тупік сойму" />
+    <string id="BC_CouncilIncident_CouncilDeadlock_Title" text="Тупік Сойму" />
     <string id="BC_CouncilIncident_FactionDemands_Abstain" text="Выслухаць абмежаваную дэлегацыю без абавязаньняў." />
     <string id="BC_CouncilIncident_FactionDemands_Description" text="Ваш дарадца {ADVISOR_NAME} прыносіць афіцыйны сьпіс патрабаваньняў фракцыі {FACTION_NAME}. Паважлівы прыём можа паказаць вагу яе голасу пры палацы, хоць нават слуханьне могуць памылкова палічыць абяцаньнем." />
     <string id="BC_CouncilIncident_FactionDemands_Effect" text="базавы настрой прадстаўленай фракцыі" />
     <string id="BC_CouncilIncident_FactionDemands_Endorse" text="Прыняць патрабаваньні і дазволіць перамовы." />
     <string id="BC_CouncilIncident_FactionDemands_Oppose" text="Адмовіцца прымаць фракцыйны ціск." />
-    <string id="BC_CouncilIncident_FactionDemands_ResultAbstainFailure" text="Абмежаваньне дэлегацыі прымаюць за абразу, і яе сябры вяртаюцца ў фракцыю больш пакрыўджанымі, чым раней." />
+    <string id="BC_CouncilIncident_FactionDemands_ResultAbstainFailure" text="Абмежаваньне дэлегацыі прымаюць за абразу, і яе чальцы вяртаюцца ў фракцыю больш пакрыўджанымі, чым раней." />
     <string id="BC_CouncilIncident_FactionDemands_ResultAbstainNeutral" text="Дэлегацыю ветліва выслухалі, але яна сыходзіць амаль толькі з прызнаньнем увагі." />
     <string id="BC_CouncilIncident_FactionDemands_ResultAbstainSuccess" text="Малая дэлегацыя атрымлівае ясныя адказы і нясе фракцыі пэўнае заспакаеньне." />
     <string id="BC_CouncilIncident_FactionDemands_ResultEndorseFailure" text="Супярэчлівыя абяцаньні і публічныя адмовы пакідаюць фракцыю з пачуцьцём маніпуляцыі замест прадстаўніцтва." />
@@ -3994,7 +3994,7 @@
     <string id="BC_CouncilIncident_PublicPetition_ResultEndorseNeutral" text="Дэлегацыю годна выслухалі, ствараючы добразычлівасьць без вырашэньня глыбейшых клопатаў фракцыі." />
     <string id="BC_CouncilIncident_PublicPetition_ResultEndorseSuccess" text="Слуханьне надае крыўдам упарадкаваны голас, а ўзважаныя адказы кароны пераконваюць фракцыю, што прашэньне лепшае за непакору." />
     <string id="BC_CouncilIncident_PublicPetition_ResultOppose" text="Вы адхіляеце слуханьне. Дарадца адпускае дэлегацыю, і прадстаўніцтва працягваецца праз прыватныя каналы." />
-    <string id="BC_CouncilIncident_PublicPetition_Title" text="Публічнае прашэньне" />
+    <string id="BC_CouncilIncident_PublicPetition_Title" text="Публічнае Прашэньне" />
     <string id="BC_CouncilIncident_RivalSchools_Abstain" text="Спачатку выпрабаваць мэтад на дзьвюх пасадах." />
     <string id="BC_CouncilIncident_RivalSchools_Description" text="Ваш дарадца {ADVISOR_NAME} папярэджвае, што гетман, канцлер, маршалок і шпегмайстар вядуць запісы паводле розных звычаяў і часта даюць несумяшчальныя адказы на адно пытаньне. Супольны мэтад справаздачаў і запячатаных мэмарандумаў можа ўпарадкаваць іх парады, але ганарлівыя пасадоўцы могуць супраціўляцца адмове ад звыклай практыкі." />
     <string id="BC_CouncilIncident_RivalSchools_Effect" text="унёсак дарадцы ў кампэтэнтнасьць асноўных пасадаў" />
@@ -4007,7 +4007,7 @@
     <string id="BC_CouncilIncident_RivalSchools_ResultEndorseNeutral" text="Новыя формы паляпшаюць сувязь, хоць некалькі пасадаў захоўваюць побач зь імі старыя звычкі." />
     <string id="BC_CouncilIncident_RivalSchools_ResultEndorseSuccess" text="Супольныя справаздачы рана выяўляюць супярэчнасьці і дазваляюць кожнаму пасадоўцу абапірацца на працу іншых." />
     <string id="BC_CouncilIncident_RivalSchools_ResultOppose" text="Вы захоўваеце асобныя звычаі сойму. Дарадца адмаўляецца ад рэформаў." />
-    <string id="BC_CouncilIncident_RivalSchools_Title" text="Суперніцкія школы дарадніцтва" />
+    <string id="BC_CouncilIncident_RivalSchools_Title" text="Суперніцкія Школы Дарадніцтва" />
     <string id="BC_CouncilIncident_Sycophant_Abstain" text="Ціха параўнаць яго справаздачы з арыгіналамі." />
     <string id="BC_CouncilIncident_Sycophant_Description" text="Ваш дарадца {ADVISOR_NAME} выявіў палацавага, чые згодлівыя парады пачалі зьмяняць справаздачы да іх прыбыцьця на трон. Выкрыцьцё лісліўца можа вярнуць сойму сумленнасьць, але неабачлівае расьсьледаваньне можа прымусіць кожнага пасадоўца баяцца гаварыць проста." />
     <string id="BC_CouncilIncident_Sycophant_Effect" text="унёсак дарадцы ў кампэтэнтнасьць асноўных пасадаў" />
@@ -4020,30 +4020,30 @@
     <string id="BC_CouncilIncident_Sycophant_ResultEndorseNeutral" text="Уплыў лісліўца абмежаваны, хоць асьцярожнасьць усё яшчэ афарбоўвае парады перад каронай." />
     <string id="BC_CouncilIncident_Sycophant_ResultEndorseSuccess" text="Зьмененыя справаздачы выкрытыя, і сойм даведваецца, што нязручная праўда дойдзе да трону без пакараньня." />
     <string id="BC_CouncilIncident_Sycophant_ResultOppose" text="Вы адмаўляецеся ад расьсьледаваньня. Дарадца адклікае абвінавачаньне, і парады працягваюцца па-ранейшаму." />
-    <string id="BC_CouncilIncident_Sycophant_Title" text="Ліслівец" />
+    <string id="BC_CouncilIncident_Sycophant_Title" text="Лісьлівец" />
     <string id="BC_CouncilIncident_ResultFailed" text="Прапанову сойму не ўдалося выканаць." />
     <string id="BC_Hierarchy_UsurpSovereignChooseDesc" text="Узурпацыя тытулу {TITLE_NAME} будзе каштаваць {GOLD_COST} дэнараў і {INFLUENCE_COST} уплыву. Васал ня можа мець тытул, роўны ці вышэйшы за сувэрэнны тытул свайго гаспадара. Абярыце: адмовіцца ад уладаньняў па-за законнай герархіяй новага тытулу і мірна сысьці ці захаваць іх і ваяваць з былым гаспадарствам." />
-    <string id="BC_Hierarchy_UsurpSovereignPeaceful" text="Адмовіцца і сысьці" />
+    <string id="BC_Hierarchy_UsurpSovereignPeaceful" text="Адмовіцца і Сысьці" />
     <string id="BC_Hierarchy_UsurpSovereignPeacefulHint" text="Вярнуць былому гаспадарству {SETTLEMENT_COUNT} селішчаў і {UPPER_TITLE_COUNT} вышэйшых тытулаў па-за законнай герархіяй новага тытулу. Селішчы пройдуць звычайныя галасаваньні аб наданьні зямлі, вышэйшыя тытулы пяройдуць старому паноўнаму дому, вашыя прэтэнзіі на ўсе пакінутыя тытулы будуць выдаленыя, і вайна не пачнецца." />
-    <string id="BC_Hierarchy_UsurpSovereignDefy" text="Захаваць уладаньні і выступіць супраць" />
+    <string id="BC_Hierarchy_UsurpSovereignDefy" text="Захаваць Уладаньні і Выступіць Супраць" />
     <string id="BC_Hierarchy_UsurpSovereignDefyHint" text="Захаваць кожны тытул і селішча вашага клану. Новае гаспадарства неадкладна пачне вайну за аддзяленьне супраць былога гаспадара, і адносіны са старым гаспадарствам адпаведна пагоршацца." />
-    <string id="BC_Hierarchy_UsurpSovereignTitle" text="Заявіць сувэрэнны тытул" />
+    <string id="BC_Hierarchy_UsurpSovereignTitle" text="Заявіць Сувэрэнны Тытул" />
     <string id="BC_Hierarchy_UsurpSovereignDirectDesc" text="Узурпацыя тытулу {TITLE_NAME} будзе каштаваць {GOLD_COST} дэнараў і {INFLUENCE_COST} уплыву. Паколькі гэты тытул роўны ці вышэйшы за сувэрэнны тытул вашага гаспадара, ваш клан мірна сыдзе, каб кіраваць ім як незалежным гаспадарствам. Працягнуць?" />
     <string id="BC_Hierarchy_FormSovereignChooseDesc" text="{FORMATION_DESC}&#xA;&#xA;Гэты новы тытул роўны ці вышэйшы за сувэрэнны тытул вашага гаспадара. Абярыце: адмовіцца ад уладаньняў па-за яго законнай герархіяй і мірна сысьці ці захаваць іх і ваяваць з былым гаспадарствам." />
     <string id="BC_Hierarchy_FormSovereignDirectWarning" text="&#xA;&#xA;Гэты тытул роўны ці вышэйшы за сувэрэнны тытул вашага гаспадара. Ваш клан мірна сыдзе, каб кіраваць ім як незалежным гаспадарствам." />
     <string id="BC_Hierarchy_FormSovereignTitle" text="Стварыць сувэрэнны тытул" />
-    <string id="BC_SovereignElevation_IndependentRealmText" text="Атрымаўшы тытул {TITLE_NAME}, гаспадар {RULER_NAME} аддзяліў гаспадарства {NEW_KINGDOM} ад гаспадарства {PARENT_KINGDOM} як незалежнае." />
-    <string id="BC_Notification_SovereignElevationDefiant" text="Атрымаўшы тытул {TITLE_NAME}, гаспадар {RULER_NAME} абвясьціў гаспадарства {NEW_REALM} незалежным ад гаспадарства {FORMER_REALM}. Адмовіўшыся пакінуць былыя ўладаньні, новы сувэрэн цяпер ваюе са старым гаспадаром." />
-    <string id="BC_Notification_SovereignElevationPeaceful" text="Атрымаўшы тытул {TITLE_NAME}, гаспадар {RULER_NAME} мірна аддзяліў гаспадарства {NEW_REALM} ад гаспадарства {FORMER_REALM}. Землі па-за законнай герархіяй новага тытулу вернутыя былому гаспадарству." />
+    <string id="BC_SovereignElevation_IndependentRealmText" text="Атрымаўшы тытул {TITLE_NAME}, {RULER_NAME} аддзяліў гаспадарства {NEW_KINGDOM} ад гаспадарства {PARENT_KINGDOM} як незалежнае." />
+    <string id="BC_Notification_SovereignElevationDefiant" text="Атрымаўшы тытул {TITLE_NAME}, {RULER_NAME} абвясьціў гаспадарства {NEW_REALM} незалежным ад гаспадарства {FORMER_REALM}. Адмовіўшыся пакінуць былыя ўладаньні, новы сувэрэн цяпер ваюе са старым гаспадаром." />
+    <string id="BC_Notification_SovereignElevationPeaceful" text="Атрымаўшы тытул {TITLE_NAME}, {RULER_NAME} мірна аддзяліў гаспадарства {NEW_REALM} ад гаспадарства {FORMER_REALM}. Землі па-за законнай герархіяй новага тытулу вернутыя былому гаспадарству." />
     <string id="BC_Fief_Delib_SovereignSeparationAnnouncement" text="Пасьля мірнага аддзяленьня клану {CLAN_NAME} воласьць {SETTLEMENT_NAME} вярнулася да кароны. Палац абмяркуе новага трымальніка і скліча галасаваньне цягам {DAYS} дзён." />
-    <string id="BC_MCM_Group_Mercenaries" text="Найміцкія кампаніі" />
-    <string id="BC_MCM_DynamicMercenaryCompanyLimit" text="Найбольшая колькасьць дынамічных найміцкіх кампаніяў" />
+    <string id="BC_MCM_Group_Mercenaries" text="Найміцкія Кампаніі" />
+    <string id="BC_MCM_DynamicMercenaryCompanyLimit" text="Найбольшая Колькасьць Дынамічных Найміцкіх Кампаніяў" />
     <string id="BC_MCM_DynamicMercenaryCompanyLimit_Hint" text="Найбольшая колькасьць найміцкіх кампаніяў, створаных Bellum, якія могуць існаваць адначасова. Значэньне 0 выключае новыя сыходы наймітаў і заснаваньні. Цяперашнія кампаніі не зьнішчаюцца пры зьніжэньні мяжы. Прадвызначана: 10." />
-    <string id="BC_MCM_DynamicMercenaryEvaluationYears" text="Прамежак ацэнкі шляхты" />
+    <string id="BC_MCM_DynamicMercenaryEvaluationYears" text="Прамежак Ацэнкі Шляхты" />
     <string id="BC_MCM_DynamicMercenaryEvaluationYears_Hint" text="Гады паміж ацэнкамі кожнага шляхецкага дому наконт магчымых сыходаў у найміты. Ацэнкі разьмеркаваныя па прамежку, каб пазьбегнуць аднаго вялікага імпульсу кампаніі. Прадвызначана: 5 гадоў." />
-    <string id="BC_MCM_DynamicMercenaryMaximumOfficers" text="Найбольшая колькасьць шляхцічаў кампаніі" />
+    <string id="BC_MCM_DynamicMercenaryMaximumOfficers" text="Найбольшая Колькасьць Шляхцічаў Кампаніі" />
     <string id="BC_MCM_DynamicMercenaryMaximumOfficers_Hint" text="Найбольшая колькасьць дарослых зьбеглых шляхцічаў, якіх прымае кожная дынамічная кампанія. Утрыманцы не ўлічваюцца. Прадвызначана: 3." />
-    <string id="BC_MCM_DynamicMercenaryStartingTier" text="Пачатковы ўзровень кампаніі" />
+    <string id="BC_MCM_DynamicMercenaryStartingTier" text="Пачатковы Ўзровень Кампаніі" />
     <string id="BC_MCM_DynamicMercenaryStartingTier_Hint" text="Узровень клану новай дынамічнай найміцкай кампаніі. Ніжэйшыя ўзроўні абмяжоўваюць пачатковую колькасьць партыяў і кошт кампаніі. Прадвызначана: 2." />
     <string id="BC_DynamicMercenaryCompanyFounded" text="У пошуку {?HERO.GENDER}сваёй{?}сваёй{\?} долі {HERO.NAME} пакідае клан {SOURCE_CLAN}, каб заснаваць кампанію {COMPANY}." />
     <string id="BC_DynamicMercenaryCompanyJoined" text="У пошуку прыгодаў і багацьця {HERO.NAME} пакідае клан {SOURCE_CLAN}, каб наняцца ў кампанію {COMPANY}." />
@@ -4065,8 +4065,8 @@
     <string id="BC_DynamicMercenaryDeparture_LetterJoined" text="{HERO} пакідае клан {SOURCE_CLAN}, каб наняцца ў кампанію {COMPANY}." />
     <string id="BC_DynamicMercenaryDeparture_LetterBody" text="Да вас даходзіць запячатаны ліст ад {HERO}.&#xA;&#xA;&quot;{KIN_ADDRESS}, я вырашыў шукаць уласную долю наймітам. Хоць я ня мог пагаварыць з вамі асабіста, я не пайшоў бы без весткі. Спадзяюся, вы зразумееце.&quot;&#xA;&#xA;{OUTCOME}" />
     <string id="BC_DynamicMercenaryDeparture_LetterAcknowledge" text="Хай будзе так." />
-    <string id="BC_DynamicMercenaryDeparture_AddressMother" text="маці" />
-    <string id="BC_DynamicMercenaryDeparture_AddressFather" text="бацька" />
+    <string id="BC_DynamicMercenaryDeparture_AddressMother" text="Маці" />
+    <string id="BC_DynamicMercenaryDeparture_AddressFather" text="Бацька" />
     <string id="BC_DynamicMercenaryDeparture_AddressGrandmother" text="Бабуля" />
     <string id="BC_DynamicMercenaryDeparture_AddressGrandfather" text="Дзядуля" />
     <string id="BC_DynamicMercenaryDeparture_AddressGreatGrandmother" text="Прабабуля" />
@@ -4078,14 +4078,14 @@
     <string id="BC_RelationMemory_AskedMeToAbandonMercenaryVenture" text="Прасіў адмовіцца ад найміцкай задумы" />
     <string id="BC_RelationMemory_ForbadeMyMercenaryDeparture" text="Забараніў мой сыход у найміты" />
     <string id="BC_RelationMemory_PatronizedMyMercenaryCompany" text="Апекаваўся маёй найміцкай кампаніяй" />
-    <string id="BC_RelationMemory_OpposedMyCompanyRecruitment" text="Выступіў супраць вярбоўкі маёй кампаніі" />
-    <string id="BC_Fabrication_Stage1" text="Збор прававых прэцэдэнтаў" />
-    <string id="BC_Fabrication_Stage2" text="Падрыхтоўка спрэчных прывілеяў" />
-    <string id="BC_Fabrication_Stage3" text="Падробка пісьмовых патэнтаў" />
+    <string id="BC_RelationMemory_OpposedMyCompanyRecruitment" text="Выступіў супраць рэкрутаваньня ў маю кампанію" />
+    <string id="BC_Fabrication_Stage1" text="Збор Прававых Прэцэдэнтаў" />
+    <string id="BC_Fabrication_Stage2" text="Падрыхтоўка Спрэчных Прывілеяў" />
+    <string id="BC_Fabrication_Stage3" text="Падробка Пісьмовых Патэнтаў" />
     <string id="BC_Fabrication_StageFailed" text="Няўдача" />
     <string id="BC_Fabrication_StagePassed" text="Посьпех" />
     <string id="BC_Fabrication_StagePending" text="Чакаецца ({CHANCE}% посьпеху)" />
-    <string id="BC_Fabrication_Skills" text="Адпаведныя навыкі:&#xA;Загадваньне {STEWARD}&#xA;Нягодніцтва {ROGUERY}" />
+    <string id="BC_Fabrication_Skills" text="Адпаведныя навыкі:&#xA;Загадваньне {STEWARD}&#xA;Махлярства {ROGUERY}" />
     <string id="BC_Fabrication_StageLine" text="{STAGE} ({PROGRESS}%): {STATUS}" />
     <string id="BC_Fabrication_EstimateNote" text="Шанцы адлюстроўваюць цяперашнія навыкі і ўмовы сойму. Выкрыцьцё на любым этапе спыняе фабрыкацыю." />
     <string id="BC_Fabrication_Stage1Passed" text="Вашыя агенты паведамляюць, што забытыя наданьні і прававыя прэцэдэнты наконт тытулу {TITLE_NAME} сабраныя без падазрэньняў. Цяпер яны бяруцца за спрэчныя прывілеі." />
@@ -4101,20 +4101,20 @@
     <string id="BC_Fabrication_CurrentStage" text="Цяперашні этап" />
     <string id="BC_Hierarchy_TitleOptions" text="Варыянты" />
     <string id="BC_Fabrication_CurrentStageValue" text="{STAGE} ({CHANCE}% посьпеху)" />
-    <string id="BC_Relation_HouseMemberPrisoner" text="Утрыманьне сябра іншага дому ў палоне: {DELTA}" />
-    <string id="BC_MCM_Group_Childhood" text="Уласныя паўналецьце і выхаваньне" />
+    <string id="BC_Relation_HouseMemberPrisoner" text="Утрыманьне чальца іншага дому ў палоне: {DELTA}" />
+    <string id="BC_MCM_Group_Childhood" text="Уласныя Паўналецьце і Выхаваньне" />
     <string id="BC_MCM_CustomEducationToggle_Hint" text="Наладзіць паўналецьце і шэсьць узростаў дзіцячага выхаваньня. Калі выключана, аднаўляюцца ўзросты паўналецьця і выхаваньня базавай гульні. Патрабуе перазапуску. Прадвызначана: уключана." />
-    <string id="BC_MCM_EducationAge1" text="Узрост этапу выхаваньня 1" />
+    <string id="BC_MCM_EducationAge1" text="Узрост Этапу Выхаваньня 1" />
     <string id="BC_MCM_EducationAge1_Hint" text="Узрост этапу дзіцячага выхаваньня 1. Узросты захоўваюцца ў парадку ўзрастаньня і ніжэй за паўналецьце; супярэчлівыя значэньні аўтаматычна выпраўляюцца. Выбары і ўзнагароды не зьмяняюцца. Патрабуе перазапуску. Прадвызначана: 2." />
-    <string id="BC_MCM_EducationAge2" text="Узрост этапу выхаваньня 2" />
+    <string id="BC_MCM_EducationAge2" text="Узрост Этапу Выхаваньня 2" />
     <string id="BC_MCM_EducationAge2_Hint" text="Узрост этапу дзіцячага выхаваньня 2. Узросты захоўваюцца ў парадку ўзрастаньня і ніжэй за паўналецьце; супярэчлівыя значэньні аўтаматычна выпраўляюцца. Выбары і ўзнагароды не зьмяняюцца. Патрабуе перазапуску. Прадвызначана: 5." />
-    <string id="BC_MCM_EducationAge3" text="Узрост этапу выхаваньня 3" />
+    <string id="BC_MCM_EducationAge3" text="Узрост Этапу Выхаваньня 3" />
     <string id="BC_MCM_EducationAge3_Hint" text="Узрост этапу дзіцячага выхаваньня 3. Узросты захоўваюцца ў парадку ўзрастаньня і ніжэй за паўналецьце; супярэчлівыя значэньні аўтаматычна выпраўляюцца. Выбары і ўзнагароды не зьмяняюцца. Патрабуе перазапуску. Прадвызначана: 8." />
-    <string id="BC_MCM_EducationAge4" text="Узрост этапу выхаваньня 4" />
+    <string id="BC_MCM_EducationAge4" text="Узрост Этапу Выхаваньня 4" />
     <string id="BC_MCM_EducationAge4_Hint" text="Узрост этапу дзіцячага выхаваньня 4. Узросты захоўваюцца ў парадку ўзрастаньня і ніжэй за паўналецьце; супярэчлівыя значэньні аўтаматычна выпраўляюцца. Выбары і ўзнагароды не зьмяняюцца. Патрабуе перазапуску. Прадвызначана: 10." />
-    <string id="BC_MCM_EducationAge5" text="Узрост этапу выхаваньня 5" />
+    <string id="BC_MCM_EducationAge5" text="Узрост Этапу Выхаваньня 5" />
     <string id="BC_MCM_EducationAge5_Hint" text="Узрост этапу дзіцячага выхаваньня 5. Узросты захоўваюцца ў парадку ўзрастаньня і ніжэй за паўналецьце; супярэчлівыя значэньні аўтаматычна выпраўляюцца. Выбары і ўзнагароды не зьмяняюцца. Патрабуе перазапуску. Прадвызначана: 13." />
-    <string id="BC_MCM_EducationAge6" text="Узрост этапу выхаваньня 6" />
+    <string id="BC_MCM_EducationAge6" text="Узрост Этапу Выхаваньня 6" />
     <string id="BC_MCM_EducationAge6_Hint" text="Узрост этапу дзіцячага выхаваньня 6. Узросты захоўваюцца ў парадку ўзрастаньня і ніжэй за паўналецьце; супярэчлівыя значэньні аўтаматычна выпраўляюцца. Выбары і ўзнагароды не зьмяняюцца. Патрабуе перазапуску. Прадвызначана: 15." />
     <string id="BC_Education_BirthdayGift" text="Калі {CHILD.NAME} споўнілася {EDUCATION_AGE}, вы далі {?CHILD.GENDER}ёй{?}яму{\?} асаблівы падарунак. Вы бачылі, як {?CHILD.GENDER}яна{?}ён{\?} шануе яго, і верыце, што ён паўплывае на тое, кім {?CHILD.GENDER}яна{?}ён{\?} стане. Вы далі {?CHILD.GENDER}ёй{?}яму{\?}..." />
     <string id="BC_RealmRoot_NorthernCalradia" text="Паўночная Кальрадыя" />
@@ -4130,7 +4130,7 @@
     <string id="BC_MercenaryUnknownHome" text="невядомае селішча" />
     <string id="BC_MercenaryFounderDaughter" text="{NAME}, дачка {PARENT}" />
     <string id="BC_MercenaryFounderSon" text="{NAME}, сын {PARENT}" />
-    <string id="BC_MCM_MemoryDuration" text="Множнік працягласьці памяці" />
+    <string id="BC_MCM_MemoryDuration" text="Множнік Працягласьці Памяці" />
     <string id="BC_MCM_MemoryDuration_Hint" text="Маштабуе працягласьць станоўчых і адмоўных часовых успамінаў. Зьмены прапарцыйна карэктуюць рэшту часу чынных успамінаў. Сталыя ўспаміны і цяперашнія палітычныя ўмовы не закранаюцца. Прадвызначана: 1x." />
     <string id="BC_RelationMemory_WarOfIndependence" text="Вайна за незалежнасьць" />
   </strings>
