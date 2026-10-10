@@ -39,6 +39,14 @@ For occasional clarification of troop orders, consult [the troop-order translati
 
 Translate `troop` as `ваяр` (plural `troops` as `ваяры`, inflected as needed) in general contexts, including skill and perk descriptions, interface text, and other ordinary references to troops. In proper names of troop types or individual troops, a different translation is allowed when it fits the name, context, and established project terminology; do not mechanically replace such names with `ваяр`.
 
+## Capitalization of displayed names
+
+Follow the original string's naming and capitalization style, comparing source and translation by stable ID. Standalone displayed names of skills, perks, abilities, troop types, NPCs, items, factions, places, careers, ranks, and similar game entities must start with a capital letter. Do not lowercase a name label merely because its wording is an occupation or a common noun, or because a glossary lists a lowercase lemma.
+
+Apply this rule to the first visible word after grammatical or UI markup, including `{.Muzcynski}`, `{.Zanocy}`, `{.Nijaki}`, and `{.Mnozny}`; preserve the markup itself exactly. Check visible conditional branches separately without altering control syntax.
+
+An initial capital does not require English Title Case on every word: `Пляценьне зорнага сьвятла` is a correctly capitalized ability label. Preserve proper-name capitals and explicit project or user conventions within multiword names. Distinguish name labels from ordinary uses of the same common nouns in descriptions; do not capitalize every generic mention of an item, occupation, or skill. Existing lowercase target strings and glossary lemmas do not override this rule.
+
 ## Translate safely
 
 - Translate meaning and tone, not English word order. Use consistent classical Belarusian spelling and the style already established in the same project.
@@ -60,4 +68,5 @@ After editing:
 - Confirm that placeholders, conditionals, markup tags, and escaped entities required by each source string remain present in its translation.
 - Search the changed target text for unintended English remnants, but treat proper names, product names, abbreviations, and code tokens as possible valid exceptions.
 - Re-read the changed strings in context for classical orthography, grammar, register, and glossary consistency.
+- Compare displayed names with their source entries and verify the first visible word is capitalized according to the naming rule above, including names preceded by markup.
 - Report the files changed, the checks run, and any ambiguous terms that still need a human decision.

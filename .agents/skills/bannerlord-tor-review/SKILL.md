@@ -31,6 +31,7 @@ For naming questions, read `пераклад/пераклад назваў.txt` 
 
 Apply the user's TOR capitalization style inside descriptions as well as labels:
 
+- Apply [the shared displayed-name capitalization checks](../bannerlord-l10n-review/SKILL.md#review-capitalization-of-displayed-names). This shared rule takes precedence over lowercase glossary lemmas and general cautions about English Title Case.
 - Character names and epithets, clans, states, cultures and peoples, named places and organizations, and significant events take capitals.
 - Culture-derived adjectives also take capitals: `Аверляндзкі`, `Брэтонскі`, `Імперскі`, `Дварфскі`; compare with `Аверлянды` and `Эаніры`.
 - Preserve established multiword forms such as `Лясныя Эльфы`, `Вялікае Графства Аверлянд`, `Вампірскія Войны`, and `Вялікая Вайна Супраць Хаосу`.

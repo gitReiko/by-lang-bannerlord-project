@@ -42,7 +42,7 @@ The glossary contains mixed orthography and capitalization. Preserve the chosen 
 - Distinguish a legal claim from a grievance, `de jure` from `de facto`, and an internal `feud` from a civil or foreign war. Read the corresponding hint before choosing an ambiguous label.
 - Preserve the separate cultural title ranks, male/female forms, and Anglicized/Immersive presets. The glossary intentionally remaps some Sturgian ranks; use its specific mapping rather than automatically transliterating `Knyaz`, `Boyar`, or related terms. Keep general noble terminology distinct from those ranks.
 - Translate displayed names, not internal IDs. For example, the glossary distinguishes the displayed `Karakas` from `karakaz` in an ID. Decline land and people names in compound titles.
-- Keep `Bellum Civile` as the mod name. Do not automatically copy English Title Case into ordinary titles, occupations, peoples, or descriptions; use Belarusian capitalization and the user's explicit style choices.
+- Keep `Bellum Civile` as the mod name. Do not automatically copy English Title Case into ordinary titles, occupations, peoples, or descriptions; use Belarusian capitalization and the user's explicit style choices. Apply [the shared displayed-name capitalization rule](../bannerlord-translate/SKILL.md#capitalization-of-displayed-names). This shared rule takes precedence over lowercase glossary lemmas and general cautions about English Title Case.
 
 ## Preserve the localization format
 

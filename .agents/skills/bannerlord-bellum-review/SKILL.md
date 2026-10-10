@@ -27,7 +27,7 @@ Read [the Bellum Civile glossary](<../../../пераклады/Belarusian.Bellum
 
 The Bellum glossary currently labels itself a draft. Assess against its current working vocabulary, but separate unresolved choices marked `[вычытаць]`, section 18 questions, and internal contradictions from definite translation errors. Do not claim tentative forms are approved. If the glossary itself is in scope, report contradictions and non-classical forms there; otherwise explain their effect on the reviewed strings without silently editing it.
 
-Check classical orthography, meaning, grammar, register, capitalization, and natural phrasing. The glossary has mixed spelling and letter case: correct classical normalization or contextual lowercasing is not automatically a terminology violation. Respect the user's explicit forms and style. Do not apply The Old Realms capitalization rules to Bellum or mechanically transfer English Title Case.
+Check classical orthography, meaning, grammar, register, capitalization, and natural phrasing. The glossary has mixed spelling and letter case: correct classical normalization or contextual lowercasing is not automatically a terminology violation. Respect the user's explicit forms and style. Do not apply The Old Realms capitalization rules to Bellum or mechanically transfer English Title Case. Apply [the shared displayed-name capitalization checks](../bannerlord-l10n-review/SKILL.md#review-capitalization-of-displayed-names). This shared rule takes precedence over lowercase glossary lemmas and general cautions about English Title Case.
 
 Pay particular attention to:
 

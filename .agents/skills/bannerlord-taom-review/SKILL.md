@@ -27,7 +27,7 @@ Read [the TAOM glossary](<../../../пераклады/Belarusian.TAOM/перак
 
 The TAOM glossary labels its contents as draft proposals and its Tolkien names as unchecked against published Belarusian translations. Assess against this working vocabulary while separating definite mistranslations from unresolved choices, conflicts, and provisional transliterations. Do not claim draft choices are approved or substitute terminology from The Old Realms merely because both mods have fantasy peoples.
 
-Check meaning, classical orthography, grammar, natural phrasing, register, and capitalization. Follow TAOM's stated capitalization of people names in ordinary prose and of proper names, factions, and epithets; do not impose English Title Case on every common noun. Check faction prefixes such as `[Gondor]` for conversion to the appropriate adjective without brackets, while retaining actual dialogue and control markup.
+Check meaning, classical orthography, grammar, natural phrasing, register, and capitalization. Follow TAOM's stated capitalization of people names in ordinary prose and of proper names, factions, and epithets; do not impose English Title Case on every common noun. Check faction prefixes such as `[Gondor]` for conversion to the appropriate adjective without brackets, while retaining actual dialogue and control markup. Apply [the shared displayed-name capitalization checks](../bannerlord-l10n-review/SKILL.md#review-capitalization-of-displayed-names). This shared rule takes precedence over lowercase glossary lemmas and general cautions about English Title Case.
 
 Pay particular attention to:
 

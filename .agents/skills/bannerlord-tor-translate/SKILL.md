@@ -35,6 +35,8 @@ Use `ваяр` for general `troop`; a named troop type may retain its establishe
 
 ## TOR capitalization style
 
+Apply [the shared displayed-name capitalization rule](../bannerlord-translate/SKILL.md#capitalization-of-displayed-names). This shared rule takes precedence over lowercase glossary lemmas and general cautions about English Title Case.
+
 The user requests capital letters for proper names throughout descriptions, not only in name labels. Capitalize character names and epithets, clans, states, cultures and peoples, named organizations, places, and significant historical events. Preserve this style when translating new text or correcting existing text.
 
 - Capitalize culture names and their derived adjectives: `Аверлянды`, `Аверляндзкі`, `Брэтонскі`, `Імперскі`, `Эаніры`, `Дварфскі`.
