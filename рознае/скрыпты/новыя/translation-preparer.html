@@ -59,7 +59,7 @@
 <body>
 <main>
   <header>
-    <div class="eyebrow">TAOM · ЛАКАЛЬНЫ ІНСТРУМЕНТ</div>
+    <div class="eyebrow">TAOM · ЛАКАЛЬНЫ ІНСТРУМЕНТ · <span id="toolVersion"></span></div>
     <h1>Падрыхтоўка радкоў для перакладу</h1>
     <p class="muted">Выберыце тэчку з англійскімі зыходнікамі. Інструмент збярэ <code>{=stringid}тэкст</code> з файлаў і ўсіх падтэчак і створыць XML-файлы ў фармаце <code>ModuleData/Languages/PL</code>.</p>
   </header>
@@ -74,7 +74,7 @@
       <label>Суфікс назваў файлаў<input id="locale" type="text" value="eng-GB" maxlength="64"><small>Напрыклад: eng-GB, bel-BY, pol-PL</small></label>
       <label>Назва мовы ў XML<input id="languageName" type="text" value="English"><small>Для LanguageData і tag language</small></label>
       <label>Пашырэньні файлаў<input id="extensions" type="text" value="xml, xslt, xsl, json"><small>Праз коску; * — усе тэкставыя файлы</small></label>
-      <label>Разьмеркаваньне радкоў<select id="grouping"><option value="source">Па зыходных файлах</option><option value="single">У адзін XML-файл</option></select></label>
+      <label>Разьмеркаваньне радкоў<select id="grouping"><option value="source">Па зыходных файлах</option><option value="folder">Па тэчках</option><option value="single">У адзін XML-файл</option></select><small>Па тэчках: kingdoms/ → kingdoms.xml; кожны файл у корані — асобны XML.</small></label>
       <label>Калі ID мае розны тэкст<select id="conflictPolicy"><option value="first">Выбраны варыянт + справаздача</option><option value="omit">Прапусьціць такія ID + справаздача</option></select></label>
     </div>
     <label class="check"><input id="excludeLanguages" type="checkbox" checked>Прапускаць тэчкі Languages і гатовыя неанглійскія табліцы перакладаў</label>
@@ -127,7 +127,9 @@
   const markerPattern = /\{=([^{}]+)\}/g;
   const XSL = "http://www.w3.org/1999/XSL/Transform";
   const PAGE_SIZE = 50;
+  const TOOL_VERSION = "2026-10-10.3";
   const state = { files: [], catalog: null, outputs: [], page: 0, busy: false };
+  $("toolVersion").textContent = "Версія " + TOOL_VERSION;
 
   function extractMarkers(value, source, emit, stats) {
     const markers = Array.from(value.matchAll(markerPattern));
@@ -291,11 +293,25 @@
   }
 
   function xmlEscape(value) {
-    return String(value).replace(/[&<>"'\r\n\t]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&apos;", "\r": "&#13;", "\n": "&#10;", "\t": "&#9;" })[char]);
+    return String(value).replace(/[&<"\r\n\t]/g, char => ({ "&": "&amp;", "<": "&lt;", '"': "&quot;", "\r": "&#13;", "\n": "&#10;", "\t": "&#9;" })[char]);
   }
 
-  function stringsXml(entries, languageName) {
-    const lines = entries.map(entry => '    <string id="' + xmlEscape(entry.id) + '" text="' + xmlEscape(entry.text) + '" />');
+  function stringsXml(entries, languageName, includeSourceComments = false) {
+    const rows = includeSourceComments
+      ? entries.slice().sort((a, b) => compare(a.sourceFile, b.sourceFile) || compare(a.id, b.id))
+      : entries;
+    const lines = [];
+    let previousSource = null;
+    for (const entry of rows) {
+      if (includeSourceComments && entry.sourceFile !== previousSource) {
+        // XML comments cannot contain consecutive hyphens or end with one.
+        const filename = entry.sourceFile.split("/").pop()
+          .replace(/-{2,}/g, run => run.split("").join(" ")).replace(/-$/, "- ");
+        lines.push("    <!--" + filename + "-->");
+        previousSource = entry.sourceFile;
+      }
+      lines.push('    <string id="' + xmlEscape(entry.id) + '" text="' + xmlEscape(entry.text) + '" />');
+    }
     return '<?xml version="1.0" encoding="utf-8"?>\n<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n      xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">\n  <tags>\n    <tag language="' + xmlEscape(languageName) + '" />\n  </tags>\n  <strings>\n' + lines.join("\n") + '\n  </strings>\n</base>\n';
   }
 
@@ -314,11 +330,21 @@
     for (const entry of sorted) {
       if (options.conflictPolicy === "omit" && entry.variants.length > 1) continue;
       const variant = entry.variants[entry.chosen];
-      const source = options.grouping === "single" ? "all" : variant.sources[0].file;
+      const sourceFile = variant.sources[0].file;
+      const folderGroup = options.grouping === "folder" && sourceFile.includes("/");
+      const source = options.grouping === "folder"
+        ? (folderGroup ? "folder:" + sourceFile.split("/").slice(0, -1).join("/") : "file:" + sourceFile)
+        : options.grouping === "single" ? "all" : sourceFile;
       if (!paths.has(source)) {
         let path;
         if (source === "all" && options.grouping === "single") path = "std_all_strings_" + options.locale + ".xml";
-        else {
+        else if (options.grouping === "folder") {
+          const leaf = folderGroup ? sourceFile.split("/").slice(-2)[0] : sourceFile.replace(/\.[^.]+$/, "");
+          const base = safeSegment(leaf);
+          path = base + ".xml";
+          let number = 2;
+          while (used.has(path.toLowerCase())) path = base + "_" + number++ + ".xml";
+        } else {
           const parts = source.split("/");
           const leaf = parts.pop();
           const stem = safeSegment(leaf.replace(/\.[^.]+$/, ""));
@@ -332,10 +358,10 @@
         paths.set(source, path);
         groups.set(path, []);
       }
-      groups.get(paths.get(source)).push({ id: entry.id, text: variant.text });
+      groups.get(paths.get(source)).push({ id: entry.id, text: variant.text, sourceFile });
     }
     const root = "Languages/" + options.languageFolder + "/";
-    const outputs = Array.from(groups.entries()).sort((a, b) => compare(a[0], b[0])).map(([path, entries]) => ({ path: root + path, content: stringsXml(entries, options.languageName), count: entries.length }));
+    const outputs = Array.from(groups.entries()).sort((a, b) => compare(a[0], b[0])).map(([path, entries]) => ({ path: root + path, content: stringsXml(entries, options.languageName, options.grouping !== "source"), count: entries.length }));
     const references = outputs.map(output => '  <LanguageFile xml_path="' + xmlEscape(output.path.slice("Languages/".length)) + '" />');
     outputs.unshift({ path: root + "language_data.xml", content: '<?xml version="1.0" encoding="utf-8"?>\n<LanguageData id="' + xmlEscape(options.languageName) + '">\n' + references.join("\n") + '\n</LanguageData>\n', count: 0 });
     return outputs;
@@ -344,6 +370,7 @@
   function makeReport(catalog, options, outputs) {
     return {
       formatVersion: 1,
+      toolVersion: TOOL_VERSION,
       options,
       summary: { selectedFiles: catalog.stats.selected, processedFiles: catalog.stats.processed, uniqueIds: catalog.entries.size, occurrences: catalog.stats.occurrences, repeatedIds: catalog.stats.occurrences - catalog.entries.size, conflicts: Array.from(catalog.entries.values()).filter(entry => entry.variants.length > 1).length, exportedIds: outputs.reduce((sum, output) => sum + output.count, 0), nonLocalizableMarkers: catalog.stats.nonLocalizable },
       files: outputs.map(output => ({ path: output.path, strings: output.count })),
@@ -475,7 +502,7 @@
       renderPreview();
       const count = state.outputs.reduce((sum, output) => sum + output.count, 0);
       $("downloadZip").disabled = !count; $("downloadXml").disabled = !count; $("downloadReport").disabled = false;
-      $("status").textContent = "Гатова: " + count + " ID у " + (state.outputs.length - 1) + " файлах радкоў.";
+      $("status").textContent = "Гатова («" + $("grouping").selectedOptions[0].textContent + "»): " + count + " ID у " + (state.outputs.length - 1) + " файлах радкоў.";
       const conflicts = Array.from(state.catalog.entries.values()).filter(entry => entry.variants.length > 1).length;
       $("conflictNotice").hidden = !conflicts;
       $("conflictNotice").textContent = readOptions().conflictPolicy === "omit"
@@ -554,7 +581,7 @@
       const options = readOptions();
       const files = buildPackage(state.catalog, options);
       const report = makeReport(state.catalog, options, files);
-      download(zipFiles([...files, { path: "extraction-report.json", content: JSON.stringify(report, null, 2) + "\n" }]), "translation-" + options.languageFolder + "-" + options.locale + ".zip");
+      download(zipFiles([...files, { path: "extraction-report.json", content: JSON.stringify(report, null, 2) + "\n" }]), "translation-" + options.languageFolder + "-" + options.locale + "-" + options.grouping + "-" + TOOL_VERSION + ".zip");
     } catch (error) { $("status").textContent = error.message; }
   });
   $("downloadReport").addEventListener("click", () => {
