@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="be">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XML · Дадаваньне ID перакладу</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.5 system-ui, sans-serif; color: #253348; background: #f2f5f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1260px; margin: 32px auto; padding: 0 24px; }
+    h1 { margin: 0 0 12px; font-size: clamp(25px, 4vw, 34px); line-height: 1.2; }
+    h2 { margin: 0 0 16px; font-size: 21px; }
+    p { margin: 10px 0 16px; }
+    .muted, small { color: #55657b; }
+    .card { margin: 24px 0; padding: 24px; border: 1px solid #d9e2ed; border-radius: 12px; background: white; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    label { display: block; font-size: 14px; font-weight: 600; }
+    input[type="text"], select, textarea { width: 100%; margin-top: 6px; padding: 10px 12px; border: 1px solid #b7c5d6; border-radius: 6px; background: white; color: inherit; font: inherit; }
+    input[type="file"] { max-width: 100%; margin-top: 8px; font: inherit; }
+    textarea { min-height: 170px; resize: vertical; font: 13px/1.5 ui-monospace, Consolas, monospace; tab-size: 2; }
+    #xmlPreview { min-height: 340px; }
+    .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 16px; }
+    button { padding: 10px 16px; border: 1px solid #b7c5d6; border-radius: 6px; background: white; color: inherit; font: inherit; cursor: pointer; }
+    button.primary { background: #2457c5; border-color: #2457c5; color: white; font-weight: 600; }
+    button:disabled { opacity: .5; cursor: default; }
+    :focus-visible { outline: 3px solid #8bafff; outline-offset: 3px; }
+    .table-wrap { overflow: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { padding: 10px; text-align: left; vertical-align: top; border-bottom: 1px solid #e1e7ee; }
+    th { background: #f6f8fb; }
+    td { overflow-wrap: anywhere; }
+    #rulesTable { min-width: 840px; }
+    #rulesTable th:nth-child(1) { width: 19%; }
+    #rulesTable th:nth-child(2) { width: 33%; }
+    #rulesTable input, #rulesTable textarea { margin: 0; font: 13px/1.5 ui-monospace, Consolas, monospace; }
+    #rulesTable textarea { min-height: 66px; }
+    #rulesTable button { padding: 7px 10px; }
+    code { font-family: ui-monospace, Consolas, monospace; overflow-wrap: anywhere; }
+    .notice { padding: 14px 16px; border-radius: 7px; background: #fff3d9; color: #684511; white-space: pre-wrap; }
+    .error { background: #ffeded; color: #842c2c; }
+    details { margin: 14px 0; }
+    summary { cursor: pointer; }
+    #issues { max-height: 260px; overflow: auto; white-space: pre-wrap; }
+    .stats { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+    .stat { flex: 1; min-width: 140px; padding: 12px 16px; border-radius: 7px; background: #f2f5fa; }
+    .stat strong { display: block; font-size: 25px; }
+    .conflict-id { font-family: ui-monospace, Consolas, monospace; }
+    #conflictsBody td { white-space: pre-wrap; }
+    [hidden] { display: none !important; }
+    @media (max-width: 700px) { main { margin-top: 24px; padding: 0 12px; } .card { padding: 18px; } .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Дадаваньне ID перакладу ў XML</h1>
+  <p class="muted">Выберыце атрыбуты і правілы ID. Інструмэнт дадасьць <code>{=string_id}</code> перад тэкстам і падрыхтуе XML для спампоўваньня. Працуе без інтэрнэту ў вашым браўзэры.</p>
+
+  <section class="card" aria-labelledby="inputHeading">
+    <h2 id="inputHeading">1. Зыходны XML</h2>
+    <label for="files">Адзін ці некалькі XML-файлаў</label>
+    <input id="files" type="file" accept=".xml,.xsl,.xslt,application/xml,text/xml" multiple>
+    <p id="selection" class="muted" aria-live="polite">Файлы яшчэ не выбраныя.</p>
+    <details id="pasteDetails">
+      <summary>Або ўставіць XML як тэкст</summary>
+      <p class="muted">Калі тут ёсьць тэкст, будзе апрацаваны ён. Ачысьціце поле, каб апрацаваць выбраныя файлы.</p>
+      <label for="sourceXml">XML</label>
+      <textarea id="sourceXml" spellcheck="false" placeholder="&lt;TitleName id=&quot;duchy_ebor&quot; name=&quot;Ebor&quot; /&gt;"></textarea>
+    </details>
+  </section>
+
+  <section class="card" aria-labelledby="rulesHeading">
+    <h2 id="rulesHeading">2. Прэфікс і правілы</h2>
+    <div class="grid">
+      <label>Прэфікс ID<input id="prefix" type="text" value="BC" spellcheck="false"><small>Можна пакінуць пустым. Часткі ID злучаюцца кропкай.</small></label>
+      <label>Гатовыя правілы<select id="preset"><option value="bellum">Bellum Civile: як у вашым прыкладзе</option><option value="bellumContext">Bellum Civile: з наборам і культурай/каралеўствам</option><option value="universal">Унівэрсальныя: id + назва атрыбута</option></select></label>
+    </div>
+    <p id="presetHint" class="muted"></p>
+    <div class="table-wrap">
+      <table id="rulesTable">
+        <thead><tr><th scope="col">XML-элемэнт</th><th scope="col">Атрыбуты для перакладу</th><th scope="col">Шаблён ID</th><th scope="col">Дзеяньне</th></tr></thead>
+        <tbody id="rulesBody"></tbody>
+      </table>
+    </div>
+    <div class="actions"><button id="addRule" type="button">Дадаць правіла</button></div>
+    <details>
+      <summary>Як наладзіць правілы для іншых XML</summary>
+      <p>Элемэнт: дакладная назва тэга альбо <code>*</code> для ўсіх тэгаў. Атрыбуты: назвы праз коску ці прабел. Калі некалькі правілаў супадаюць, для кожнага атрыбута выкарыстоўваецца першае.</p>
+      <p><code>{prefix}</code> — прэфікс; <code>{attribute}</code> — назва атрыбута, які перакладаецца; <code>{id}</code>, <code>{tier}</code>, <code>{presetId}</code> — значэньні атрыбутаў гэтага элемэнта. Можна выкарыстоўваць любую назву атрыбута, напрыклад <code>{key}</code>.</p>
+      <p><code>{parent.culture}</code> — атрыбут непасрэднага бацькоўскага элемэнта; <code>{ancestor.presetId}</code> — атрыбут найбліжэйшага продка, у якога ён ёсьць; <code>{parent.culture|parent.kingdom}</code> — першае непустое значэньне. <code>{file}</code> — назва файла без пашырэньня; <code>{tag}</code> — назва тэга.</p>
+      <p>Прыклад: <code>{prefix}.{id}.{attribute}</code> дае <code>BC.duchy_ebor.name</code>. Пусты прэфікс не пакідае лішняй кропкі. Адсутны абавязковы атрыбут — памылка, якая будзе паказаная ў справаздачы.</p>
+    </details>
+    <div class="actions"><button id="process" class="primary" type="button">Дадаць ID</button><span class="muted">Існыя <code>{=…}</code>, <code>{=!}</code> і <code>{=*}</code> захоўваюцца.</span></div>
+    <p id="status" role="status" aria-live="polite"></p>
+  </section>
+
+  <section id="results" class="card" hidden aria-labelledby="resultsHeading">
+    <h2 id="resultsHeading">3. Вынік</h2>
+    <div class="stats">
+      <div class="stat"><strong id="fileCount">0</strong><small>апрацавана файлаў</small></div>
+      <div class="stat"><strong id="addedCount">0</strong><small>дададзена ID</small></div>
+      <div class="stat"><strong id="existingCount">0</strong><small>атрыбутаў з існымі маркерамі</small></div>
+      <div class="stat"><strong id="conflictCount">0</strong><small>ID з розным тэкстам</small></div>
+    </div>
+    <div id="errorNotice" class="notice error" hidden></div>
+    <div id="conflictNotice" class="notice" hidden></div>
+    <details id="issuesDetails" hidden><summary>Памылкі і прапушчаныя атрыбуты</summary><div id="issues"></div></details>
+    <details id="conflictsDetails" hidden>
+      <summary>Паглядзець канфлікты ID</summary>
+      <div class="table-wrap"><table><thead><tr><th scope="col">ID</th><th scope="col">Варыянты тэксту і крыніцы</th></tr></thead><tbody id="conflictsBody"></tbody></table></div>
+    </details>
+    <label>Файл для прагляду<select id="previewFile"></select></label>
+    <div class="actions"><button id="downloadXml" class="primary" type="button">Спампаваць гэты XML</button><button id="downloadZip" type="button">Спампаваць усе XML у ZIP</button><button id="downloadStrings" type="button">Спампаваць strings.xml</button><button id="downloadReport" type="button">Спампаваць справаздачу JSON</button></div>
+    <p class="muted">XML можна спампаваць і пры канфліктах, каб праверыць вынік. <code>strings.xml</code> даступны, калі няма памылак і канфліктаў; ён зьмяшчае дададзеныя і існыя ID з выбраных атрыбутаў.</p>
+    <label for="xmlPreview">Зьмесьціва XML</label>
+    <textarea id="xmlPreview" readonly spellcheck="false"></textarea>
+    <p class="muted">Захоўваюцца камэнтары, водступы, двукосьсі, XML-сутнасьці і гульнявыя зьменныя накшталт <code>{SETTLEMENT}</code>. Спампаваныя файлы маюць кадаваньне UTF-8. Зыходныя файлы на дыску аўтаматычна не зьмяняюцца.</p>
+  </section>
+</main>
+
+<script>
+"use strict";
+(() => {
+  const $ = id => document.getElementById(id);
+  const rankAttributes = "titleName, maleRank, femaleRank, heirRank, femaleHeirRank, childRank, femaleChildRank, nobleRank, femaleNobleRank";
+  const state = { files: [], batch: null, busy: false };
+  const ID_PATTERN = /^[\p{L}\p{N}_:.-]+$/u;
+  const NAME_PATTERN = /^[\p{L}_:][\p{L}\p{N}_.:\-\u00b7]*$/u;
+
+  function presetRules(name) {
+    if (name === "universal") return [{ element: "*", attributes: "name, text", template: "{prefix}.{id}.{attribute}" }];
+    const context = name === "bellumContext";
+    return [
+      { element: "BellumFeudalTitles", attributes: "presetName", template: "{prefix}.{presetId}.{attribute}" },
+      { element: "TitleName", attributes: "name", template: context ? "{prefix}.{ancestor.presetId}.{id}.{attribute}" : "{prefix}.{id}.{attribute}" },
+      { element: "Rank", attributes: rankAttributes, template: context ? "{prefix}.{ancestor.presetId}.{parent.culture|parent.kingdom|parent.rulerCulture}.{tier}.{attribute}" : "{prefix}.{parent.culture|parent.kingdom|parent.rulerCulture}.{tier}.{attribute}" }
+    ];
+  }
+
+  function compileRules(rules) {
+    if (!rules.length) throw new Error("Дадайце хаця б адно правіла.");
+    return rules.map((rule, index) => {
+      const element = rule.element.trim();
+      const attributes = [...new Set(rule.attributes.split(/[\s,;]+/).filter(Boolean))];
+      const template = rule.template.trim();
+      if (element !== "*" && !NAME_PATTERN.test(element)) throw new Error("Правіла " + (index + 1) + ": некарэктная назва элемэнта.");
+      if (!attributes.length || attributes.some(name => !NAME_PATTERN.test(name) || name === "xmlns" || name.startsWith("xmlns:"))) throw new Error("Правіла " + (index + 1) + ": увядзіце назвы атрыбутаў для перакладу.");
+      if (!template || !template.includes("{attribute}")) throw new Error("Правіла " + (index + 1) + ": шаблён мусіць утрымліваць {attribute}.");
+      if (/[{}]/.test(template.replace(/\{[^{}]+\}/g, ""))) throw new Error("Правіла " + (index + 1) + ": праверце дужкі ў шаблёне.");
+      return { element, attributes, template };
+    });
+  }
+
+  function tokenValue(token, element, attribute, prefix, filename) {
+    if (token === "prefix") return prefix;
+    if (token === "attribute") return attribute;
+    if (token === "tag") return element.nodeName;
+    if (token === "file") return filename.replace(/^.*[\\/]/, "").replace(/\.[^.]+$/, "");
+    if (token.startsWith("parent.")) return element.parentElement?.getAttribute(token.slice(7)) || "";
+    if (token.startsWith("ancestor.")) {
+      for (let parent = element.parentElement; parent; parent = parent.parentElement) {
+        const value = parent.getAttribute(token.slice(9));
+        if (value) return value;
+      }
+      return "";
+    }
+    return element.getAttribute(token) || "";
+  }
+
+  function makeId(template, element, attribute, prefix, filename) {
+    const id = template.replace(/\{([^{}]+)\}/g, (_, expression) => {
+      const alternatives = expression.split("|").map(part => part.trim());
+      const value = alternatives.map(token => tokenValue(token, element, attribute, prefix, filename)).find(Boolean);
+      if (!value && !(alternatives.length === 1 && alternatives[0] === "prefix")) throw new Error("Няма значэньня для {" + expression + "}.");
+      return value || "";
+    }).replace(/\.{2,}/g, ".").replace(/^\.|\.$/g, "");
+    if (!id || !ID_PATTERN.test(id)) throw new Error("Некарэктны ID «" + id + "»: дазволеныя літары, лічбы, кропка, _, - і :.");
+    return id;
+  }
+
+  function parseXml(text) {
+    const doc = new DOMParser().parseFromString(text, "application/xml");
+    const error = doc.getElementsByTagNameNS("http://www.mozilla.org/newlayout/xml/parsererror.xml", "parsererror")[0];
+    if (error || !doc.documentElement) throw new Error("Некарэктны XML: " + (error?.textContent || "няма каранёвага элемэнта").trim().slice(0, 350));
+    return doc;
+  }
+
+  // Locate attribute value offsets in the original source. DOMParser supplies
+  // decoded values and parent context; it is never used to serialize the file.
+  function openingTags(text) {
+    const tags = [];
+    let cursor = 0;
+    while ((cursor = text.indexOf("<", cursor)) !== -1) {
+      const start = cursor;
+      let terminator = "";
+      if (text.startsWith("<!--", start)) terminator = "-->";
+      else if (text.startsWith("<![CDATA[", start)) terminator = "]]>";
+      else if (text.startsWith("<?", start)) terminator = "?>";
+      if (terminator) {
+        const end = text.indexOf(terminator, start + 2);
+        if (end === -1) throw new Error("Незавершаны камэнтар, CDATA або інструкцыя XML.");
+        cursor = end + terminator.length;
+        continue;
+      }
+      let quote = "", brackets = 0, end = start + 1;
+      for (; end < text.length; end++) {
+        const char = text[end];
+        if (quote) { if (char === quote) quote = ""; }
+        else if (char === '"' || char === "'") quote = char;
+        else if (char === "[") brackets++;
+        else if (char === "]") brackets--;
+        else if (char === ">" && brackets === 0) break;
+      }
+      if (end === text.length) throw new Error("Незавершаны XML-тэг.");
+      cursor = end + 1;
+      if (text[start + 1] === "/" || text[start + 1] === "!") continue;
+      const raw = text.slice(start, cursor);
+      const name = raw.match(/^<([^\s/>]+)/)?.[1];
+      if (!name) throw new Error("Не ўдалося прачытаць XML-тэг.");
+      const attrs = [];
+      const pattern = /([^\s=<>/'"]+)\s*=\s*(["'])([\s\S]*?)\2/g;
+      pattern.lastIndex = name.length + 1;
+      for (let match; (match = pattern.exec(raw));) {
+        attrs.push({ name: match[1], offset: start + match.index + match[0].length - match[3].length - 1 });
+      }
+      tags.push({ name, attrs, start });
+    }
+    return tags;
+  }
+
+  function xmlEscape(value) {
+    return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;").replace(/\r/g, "&#13;").replace(/\n/g, "&#10;").replace(/\t/g, "&#9;");
+  }
+
+  function processXml(text, filename, rules, prefix) {
+    const doc = parseXml(text);
+    const elements = Array.from(doc.getElementsByTagName("*"));
+    const tags = openingTags(text);
+    if (elements.length !== tags.length || tags.some((tag, index) => tag.name !== elements[index].nodeName)) throw new Error("Структура XML не адпавядае зыходнаму тэксту; файл не зьменены.");
+    const result = { name: filename, content: "", added: 0, existing: 0, empty: 0, entries: [], issues: [] };
+    const insertions = [];
+    const lineEnds = [];
+    for (let i = 0; i < text.length; i++) if (text[i] === "\n" || (text[i] === "\r" && text[i + 1] !== "\n")) lineEnds.push(i);
+    function lineNumber(offset) {
+      let low = 0, high = lineEnds.length;
+      while (low < high) { const middle = (low + high) >>> 1; if (lineEnds[middle] < offset) low = middle + 1; else high = middle; }
+      return low + 1;
+    }
+    for (let index = 0; index < tags.length; index++) {
+      const element = elements[index];
+      for (const attr of tags[index].attrs) {
+        const rule = rules.find(item => (item.element === "*" || item.element === element.nodeName) && item.attributes.includes(attr.name));
+        if (!rule) continue;
+        const value = element.getAttribute(attr.name);
+        const source = { file: filename, line: lineNumber(attr.offset), element: element.nodeName, attribute: attr.name };
+        if (!value.trim()) { result.empty++; continue; }
+        // Preserve every existing marker, including nonlocalizable ! and *.
+        if (value.includes("{=")) {
+          result.existing++;
+          const marker = value.match(/^\{=([^{}]+)\}/);
+          if (marker && marker[1] !== "!" && marker[1] !== "*") result.entries.push({ id: marker[1], text: value.slice(marker[0].length), added: false, ...source });
+          else if (!/^\{=[!*]\}/.test(value)) result.issues.push({ ...source, message: "Маркеры перакладу знаходзяцца не на пачатку альбо маюць складаны фармат. Атрыбут захаваны; праверце яго асобна." });
+          continue;
+        }
+        try {
+          const id = makeId(rule.template, element, attr.name, prefix, filename);
+          insertions.push({ offset: attr.offset, text: "{=" + id + "}" });
+          result.entries.push({ id, text: value, added: true, ...source });
+          result.added++;
+        } catch (error) { result.issues.push({ ...source, message: error.message }); }
+      }
+    }
+    // Insert from left to right without changing any pre-existing XML bytes.
+    let cursor = 0;
+    const chunks = [];
+    for (const insertion of insertions) {
+      chunks.push(text.slice(cursor, insertion.offset), insertion.text);
+      cursor = insertion.offset;
+    }
+    chunks.push(text.slice(cursor));
+    result.content = chunks.join("").replace(/^(\uFEFF?\s*<\?xml\b[^?]*\bencoding\s*=\s*["'])[^"']+(["'])/i, "$1utf-8$2");
+    // Validate the final file as well; malformed output must never be offered.
+    parseXml(result.content);
+    return result;
+  }
+
+  function buildBatch(inputs, rules, prefix) {
+    const batch = { outputs: [], entries: new Map(), conflicts: [], issues: [], errors: [], added: 0, existing: 0, empty: 0 };
+    for (const input of inputs) {
+      try {
+        if (input.error) throw new Error(input.error);
+        const output = processXml(input.text, input.name, rules, prefix);
+        batch.outputs.push(output);
+        batch.added += output.added; batch.existing += output.existing; batch.empty += output.empty;
+        batch.issues.push(...output.issues);
+        for (const entry of output.entries) {
+          if (!batch.entries.has(entry.id)) batch.entries.set(entry.id, { id: entry.id, variants: [] });
+          const catalogEntry = batch.entries.get(entry.id);
+          let variant = catalogEntry.variants.find(item => item.text === entry.text);
+          if (!variant) { variant = { text: entry.text, sources: [] }; catalogEntry.variants.push(variant); }
+          variant.sources.push({ file: entry.file, line: entry.line, element: entry.element, attribute: entry.attribute, added: entry.added });
+        }
+      } catch (error) { batch.errors.push({ file: input.name, message: error.message }); }
+    }
+    batch.conflicts = Array.from(batch.entries.values()).filter(entry => entry.variants.length > 1);
+    return batch;
+  }
+
+  function stringsXml(batch) {
+    if (batch.conflicts.length || batch.errors.length || batch.issues.length) throw new Error("Спачатку выпраўце памылкі і канфлікты ID.");
+    const lines = Array.from(batch.entries.values()).map(entry => '    <string id="' + xmlEscape(entry.id) + '" text="' + xmlEscape(entry.variants[0].text) + '" />');
+    return '<?xml version="1.0" encoding="utf-8"?>\n<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">\n  <tags>\n    <tag language="English" />\n  </tags>\n  <strings>\n' + lines.join("\n") + '\n  </strings>\n</base>\n';
+  }
+
+  function decodeXml(buffer) {
+    const bytes = new Uint8Array(buffer);
+    let encoding = "utf-8";
+    if (bytes[0] === 0xff && bytes[1] === 0xfe) encoding = "utf-16le";
+    else if (bytes[0] === 0xfe && bytes[1] === 0xff) encoding = "utf-16be";
+    else if (bytes[0] === 0x3c && bytes[1] === 0) encoding = "utf-16le";
+    else if (bytes[0] === 0 && bytes[1] === 0x3c) encoding = "utf-16be";
+    else {
+      const header = Array.from(bytes.subarray(0, 512), byte => String.fromCharCode(byte)).join("");
+      const declaration = header.match(/^\s*(?:\xef\xbb\xbf)?<\?xml\b[^?]*\bencoding\s*=\s*["']([^"']+)["']/i);
+      if (declaration) encoding = declaration[1];
+    }
+    return new TextDecoder(encoding, { fatal: true }).decode(bytes);
+  }
+
+  function crc32(bytes) {
+    let crc = 0xffffffff;
+    for (const byte of bytes) { crc ^= byte; for (let bit = 0; bit < 8; bit++) crc = (crc >>> 1) ^ ((crc & 1) ? 0xedb88320 : 0); }
+    return (crc ^ 0xffffffff) >>> 0;
+  }
+
+  // ZIP without dependencies: store UTF-8 filenames and uncompressed contents.
+  function zipFiles(files) {
+    const encoder = new TextEncoder();
+    const locals = [], central = [];
+    let offset = 0, centralSize = 0;
+    if (files.length > 65535) throw new Error("Зашмат файлаў для аднаго ZIP.");
+    for (const file of files) {
+      const name = encoder.encode(file.name), data = encoder.encode(file.content), crc = crc32(data);
+      if (name.length > 65535 || offset + data.length + name.length + 30 > 0xffffffff) throw new Error("Файл завялікі для гэтага фармату ZIP.");
+      const local = new Uint8Array(30), view = new DataView(local.buffer);
+      view.setUint32(0, 0x04034b50, true); view.setUint16(4, 20, true); view.setUint16(6, 0x800, true); view.setUint16(12, 0x21, true);
+      view.setUint32(14, crc, true); view.setUint32(18, data.length, true); view.setUint32(22, data.length, true); view.setUint16(26, name.length, true);
+      const header = new Uint8Array(46), cv = new DataView(header.buffer);
+      cv.setUint32(0, 0x02014b50, true); cv.setUint16(4, 20, true); cv.setUint16(6, 20, true); cv.setUint16(8, 0x800, true); cv.setUint16(14, 0x21, true);
+      cv.setUint32(16, crc, true); cv.setUint32(20, data.length, true); cv.setUint32(24, data.length, true); cv.setUint16(28, name.length, true); cv.setUint32(42, offset, true);
+      locals.push(local, name, data); central.push(header, name);
+      offset += local.length + name.length + data.length; centralSize += header.length + name.length;
+    }
+    if (offset + centralSize > 0xffffffff) throw new Error("Архіў завялікі для гэтага фармату ZIP.");
+    const end = new Uint8Array(22), ev = new DataView(end.buffer);
+    ev.setUint32(0, 0x06054b50, true); ev.setUint16(8, files.length, true); ev.setUint16(10, files.length, true); ev.setUint32(12, centralSize, true); ev.setUint32(16, offset, true);
+    return new Blob([...locals, ...central, end], { type: "application/zip" });
+  }
+
+  function uniqueOutputNames(outputs) {
+    const used = new Set();
+    return outputs.map(output => {
+      const original = output.name.replace(/^.*[\\/]/, "");
+      let name = original, counter = 2;
+      while (used.has(name.toLowerCase())) name = original.replace(/(\.[^.]*)?$/, "-" + counter++ + "$1");
+      used.add(name.toLowerCase());
+      return { name, content: output.content };
+    });
+  }
+
+  function download(blob, filename) {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a"); link.href = url; link.download = filename;
+    document.body.append(link); link.click(); link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  }
+
+  function invalidate() {
+    state.batch = null;
+    $("results").hidden = true;
+    $("status").textContent = "";
+  }
+
+  function addRule(rule) {
+    const row = document.createElement("tr");
+    for (const [key, label] of [["element", "XML-элемэнт"], ["attributes", "Атрыбуты для перакладу"], ["template", "Шаблён ID"]]) {
+      const cell = document.createElement("td"), input = document.createElement(key === "attributes" ? "textarea" : "input");
+      if (key !== "attributes") input.type = "text";
+      input.value = rule[key]; input.dataset.field = key; input.setAttribute("aria-label", label); input.spellcheck = false;
+      cell.append(input); row.append(cell);
+    }
+    const cell = document.createElement("td"), button = document.createElement("button");
+    button.type = "button"; button.textContent = "Выдаліць";
+    button.addEventListener("click", () => { row.remove(); invalidate(); });
+    cell.append(button); row.append(cell); $("rulesBody").append(row);
+  }
+
+  function loadPreset() {
+    $("rulesBody").replaceChildren();
+    for (const rule of presetRules($("preset").value)) addRule(rule);
+    $("presetHint").textContent = $("preset").value === "bellum"
+      ? "Rank: BC.Empire_w.Empire.maleRank. Культура, каралеўства ці rulerCulture бяруцца з TitleStyle. Для некалькіх набораў адразу можна дадаць у ID таксама presetId, выбраўшы наступны варыянт правілаў."
+      : $("preset").value === "bellumContext"
+        ? "Rank: BC.anglicized.Empire_s.Empire.maleRank. TitleName: BC.anglicized.duchy_ebor.name. Культура, каралеўства ці rulerCulture бяруцца з TitleStyle."
+        : "Усе элемэнты: BC.значэньне_id.name і BC.значэньне_id.text. Зьмяняйце назвы тэгаў, атрыбуты і шаблёны пад свае файлы.";
+    invalidate();
+  }
+
+  function currentRules() {
+    return compileRules(Array.from($("rulesBody").children).map(row => Object.fromEntries(Array.from(row.querySelectorAll("[data-field]")).map(input => [input.dataset.field, input.value]))));
+  }
+
+  function renderPreview() {
+    const output = state.batch?.outputs[Number($("previewFile").value)];
+    $("xmlPreview").value = output?.content || "";
+  }
+
+  function showResults() {
+    const batch = state.batch;
+    $("fileCount").textContent = batch.outputs.length;
+    $("addedCount").textContent = batch.added; $("existingCount").textContent = batch.existing; $("conflictCount").textContent = batch.conflicts.length;
+    $("errorNotice").hidden = !batch.errors.length && !batch.issues.length;
+    $("errorNotice").textContent = "Не апрацавана файлаў: " + batch.errors.length + ". Атрыбутаў, якія патрабуюць праверкі: " + batch.issues.length + ". Падрабязнасьці ніжэй.";
+    $("conflictNotice").hidden = !batch.conflicts.length;
+    $("conflictNotice").textContent = batch.conflicts.length + " ID маюць розны тэкст. Для Bellum выберыце правілы «з наборам і культурай/каралеўствам» або зьмяніце шаблёны і зноў націсьніце «Дадаць ID». Аднолькавыя ID з аднолькавым тэкстам не лічацца канфліктам.";
+    $("issuesDetails").hidden = !batch.errors.length && !batch.issues.length;
+    $("issues").textContent = [...batch.errors.map(item => item.file + ": " + item.message), ...batch.issues.map(item => item.file + ":" + item.line + " · " + item.element + "/@" + item.attribute + " · " + item.message)].join("\n");
+    $("conflictsDetails").hidden = !batch.conflicts.length;
+    $("conflictsBody").replaceChildren();
+    for (const entry of batch.conflicts.slice(0, 100)) {
+      const row = document.createElement("tr"), id = document.createElement("td"), variants = document.createElement("td");
+      id.textContent = entry.id; id.className = "conflict-id";
+      variants.textContent = entry.variants.map(variant => variant.text + "\n" + variant.sources.slice(0, 3).map(source => "  " + source.file + ":" + source.line).join("\n")).join("\n\n");
+      row.append(id, variants); $("conflictsBody").append(row);
+    }
+    if (batch.conflicts.length > 100) $("conflictNotice").textContent += " У табліцы першыя 100 канфліктаў; усе ёсьць у справаздачы JSON.";
+    $("previewFile").replaceChildren();
+    batch.outputs.forEach((output, index) => { const option = document.createElement("option"); option.value = index; option.textContent = output.name + " · дададзена " + output.added + " ID"; $("previewFile").append(option); });
+    $("downloadXml").disabled = !batch.outputs.length; $("downloadZip").disabled = !batch.outputs.length;
+    $("downloadStrings").disabled = !batch.entries.size || !!(batch.conflicts.length || batch.errors.length || batch.issues.length);
+    $("results").hidden = false; renderPreview();
+    $("status").textContent = "Гатова: дададзена " + batch.added + " ID; пустых атрыбутаў прапушчана " + batch.empty + "; канфліктаў " + batch.conflicts.length + ".";
+  }
+
+  $("files").addEventListener("change", () => {
+    state.files = Array.from($("files").files);
+    $("selection").textContent = state.files.length ? "Выбрана файлаў: " + state.files.length + " · " + state.files.map(file => file.name).join(", ") : "Файлы яшчэ не выбраныя.";
+    invalidate();
+  });
+  $("sourceXml").addEventListener("input", invalidate);
+  $("prefix").addEventListener("input", invalidate);
+  $("rulesBody").addEventListener("input", invalidate);
+  $("preset").addEventListener("change", loadPreset);
+  $("addRule").addEventListener("click", () => { addRule({ element: "*", attributes: "name", template: "{prefix}.{id}.{attribute}" }); invalidate(); });
+  $("previewFile").addEventListener("change", renderPreview);
+  $("process").addEventListener("click", async () => {
+    if (state.busy) return;
+    invalidate();
+    const controls = Array.from(document.querySelectorAll("input, select, textarea, button"));
+    try {
+      const rules = currentRules(), prefix = $("prefix").value.trim().replace(/^\.+|\.+$/g, "");
+      if (prefix && !ID_PATTERN.test(prefix)) throw new Error("Прэфікс: дазволеныя літары, лічбы, кропка, _, - і :.");
+      const pasted = $("sourceXml").value;
+      if (!pasted.trim() && !state.files.length) throw new Error("Выберыце XML-файлы або ўстаўце XML як тэкст.");
+      state.busy = true; controls.forEach(control => { control.disabled = true; });
+      const inputs = pasted.trim() ? [{ name: "pasted.xml", text: pasted }] : [];
+      if (!inputs.length) {
+        for (const file of state.files) {
+          $("status").textContent = "Чытаньне: " + file.name;
+          try { inputs.push({ name: file.name, text: decodeXml(await file.arrayBuffer()) }); }
+          catch (error) { inputs.push({ name: file.name, error: error.message }); }
+        }
+      }
+      $("status").textContent = "Дадаваньне ID…";
+      await new Promise(resolve => setTimeout(resolve, 0));
+      state.batch = buildBatch(inputs, rules, prefix);
+    } catch (error) { $("status").textContent = error.message; }
+    finally {
+      state.busy = false; controls.forEach(control => { control.disabled = false; });
+      if (state.batch) showResults();
+    }
+  });
+  $("downloadXml").addEventListener("click", () => {
+    const output = state.batch?.outputs[Number($("previewFile").value)];
+    if (output) download(new Blob([output.content], { type: "application/xml;charset=utf-8" }), output.name);
+  });
+  $("downloadZip").addEventListener("click", () => {
+    if (!state.batch) return;
+    try { download(zipFiles(uniqueOutputNames(state.batch.outputs)), "xml-with-translation-ids.zip"); }
+    catch (error) { $("status").textContent = error.message; }
+  });
+  $("downloadStrings").addEventListener("click", () => {
+    if (!state.batch) return;
+    try { download(new Blob([stringsXml(state.batch)], { type: "application/xml;charset=utf-8" }), "strings.xml"); }
+    catch (error) { $("status").textContent = error.message; }
+  });
+  $("downloadReport").addEventListener("click", () => {
+    if (!state.batch) return;
+    const { outputs, entries, ...summary } = state.batch;
+    const report = { ...summary, prefix: $("prefix").value, rules: currentRules(), files: outputs.map(({ name, added, existing, empty }) => ({ name, added, existing, empty })), entries: Array.from(entries.values()) };
+    download(new Blob([JSON.stringify(report, null, 2) + "\n"], { type: "application/json;charset=utf-8" }), "translation-id-report.json");
+  });
+
+  // Browser API for verification of real XML inputs and generated archives.
+  window.TranslationIdAdder = Object.freeze({ presetRules, compileRules, makeId, parseXml, openingTags, processXml, buildBatch, stringsXml, decodeXml, zipFiles, uniqueOutputNames, crc32 });
+  loadPreset();
+})();
+</script>
+</body>
+</html>
