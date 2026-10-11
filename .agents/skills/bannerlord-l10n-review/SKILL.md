@@ -24,6 +24,12 @@ For occasional clarification of troop orders, consult [the troop-order translati
 
 Translate `troop` as `ваяр` (plural `troops` as `ваяры`, inflected as needed) in general contexts, including skill and perk descriptions, interface text, and other ordinary references to troops. In proper names of troop types or individual troops, a different translation is allowed when it fits the name, context, and established project terminology; do not mechanically replace such names with `ваяр`.
 
+## Review capitalization of displayed names
+
+Apply [the shared displayed-name capitalization rule](../bannerlord-translate/SKILL.md#capitalization-of-displayed-names). Compare source and target by stable ID: standalone names of skills, perks, abilities, troop types, NPCs, items, factions, places, careers, ranks, and similar game entities must begin with a capital letter. Report a lowercase initial as a defect even if the glossary lemma or nearby target labels are lowercase.
+
+Check the first visible word after grammatical or UI markup and each visible conditional branch; do not suggest altering tags, variables, or control syntax. Distinguish name labels from generic mentions in descriptions. An initial capital does not require capitalizing every word: `Пляценьне зорнага сьвятла` is valid. Retain proper-name capitals and explicit project or user conventions.
+
 ## Check high-risk invariants first
 
 Report concrete file paths and stable IDs for findings. Check:

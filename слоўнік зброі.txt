@@ -1,0 +1,1802 @@
+АГУЛЬНЫ СЛОЎНІК ЗБРОІ, БРАНІ І КОННАГА РЫШТУНКУ
+
+Збор з перакладаў BYc. Варыянты яшчэ не стандартызаваныя; першы варыянт не азначае рэкамэндаваны.
+Фармат: English = беларускі тэрмін | іншы знойдзены варыянт.
+Колеры, матэрыялы, якасьць, уладальнікі, фракцыі і аздабленьне ў назвы тэрмінаў не ўключаныя.
+Сэнсавыя часткі назваў тыпаў зброі захаваныя: Longsword, Доўгі Меч, Кідальная Сякера.
+Пазнакі роду, RPG-апісаньні і ўласныя назвы асобных легендарных прадметаў апушчаныя.
+Склонавыя формы прыведзеныя да слоўнікавай формы; дакладная знойдзеная форма пададзеная пры крыніцы.
+Напісаньні, у тым ліку падазроныя, захаваныя. Адрозьненьне толькі ў рэгістры літараў не ўтварае асобнага варыянту.
+Вопратка, якая трапляе ў рыштунак і слоты брані, вынесеная ў асобны разьдзел.
+Коні і іншыя ездавыя жывёлы, сьцягі, кнігі, назвы войскаў і караблёў не ўваходзяць у слоўнік.
+
+Крыніцы беларускіх тэрмінаў: толькі пераклады/**/BYc/**; толькі назвы, якія пачынаюцца з
+{.Mnozny}, {.Muzcynski}, {.Nijaki} або {.Zanocy}. Ангельскія адпаведнікі ўзятыя з мясцовых
+EN_template, зыходнікаў ці XSLT таго самага праекту і зьвязаныя праз localization ID.
+Кароткая крыніца ніжэй: праект / шлях адносна BYc # ID.
+Поўны шлях: пераклады/Belarusian.<праект>/ModuleData/Languages/BYc/<шлях>.
+Для кожнага варыянту пазначаны прыклад ужываньня; гэта ня поўны сьпіс усіх аднолькавых назваў.
+
+Прааналізавана 570 XML-файлаў BYc; 18401 назваў з пазнакамі ў 34 праектах.
+У слоўніку: 498 ангельскіх тэрмінаў; 723 беларускіх адпаведнікаў (разам з паўторамі паміж тэрмінамі).
+
+========================================================================
+ЗБРОЯ І БОЕПРЫПАСЫ
+========================================================================
+
+Abus gun = Абус Стрэльба | Гармата Абус
+  Абус Стрэльба: EmpiresofEurope1700 / items.xml # bs_musket_cannon_brass.name
+  Гармата Абус: EmpiresofEuropeAmericas / items.xml # bs_musket_cannon_brass.name
+
+Abus gun ammo = Боепрыпасы | Кулі Абус Стрэльбы
+  Боепрыпасы: EmpiresofEuropeAmericas / items.xml # bs_cannon_ammo.name
+  Кулі Абус Стрэльбы: EmpiresofEurope1700 / items.xml # bs_cannon_ammo.name
+
+Ammo = Боепрыпасы | Зарады | Карцеч | Кулі | Снарады
+  Боепрыпасы: Shokuho / module_localization_strings.xml # jASYDOcA
+  Зарады: Wheel of Time / WoTitems.xml # ILLUMsparklet1ammosparkler
+  Карцеч: Core / Native/std_common_strings_xml_by.xml # XGytILlt
+  Кулі: EmpiresofEurope1700 / items.xml # bs_blunderbuss_ammo.name
+  Снарады: The Old Realms / armory_by/xslt_changes.xml # XGytILlt
+
+Ammunition pouch = Мех | Торба
+  Мех: EmpiresofEurope1700 / items.xml # officer_bag.name
+  Торба: EmpiresofEuropeAmericas / items.xml # officer_bag.name
+
+Angon = Ангон | Ангоны
+  Ангон: Realistic Battle Mod / LOC-eng.xml # RBM_LAN_007
+  Ангоны: Open Source Weaponry / std_OSA_ar_reforms_spears.xml # osa_ar_vlandian_throwing_spear_t4
+
+Arakh = Арах
+  Арах: Realm of Thrones / str_english.xml # ROT03019
+
+Arbalest = Арбалест | Арбалет
+  Арбалест: The Old Realms / armory_by/xslt_changes.xml # 0e17RZrZ
+  Арбалет: Core / Native/std_common_strings_xml_by.xml # 0e17RZrZ
+
+Arming sword = Збройны Меч | Меч | Меч-Паўмесяц
+  Збройны Меч: Core / Native/std_mpitems_xml_by.xml # wwAFqJE3
+  Меч: The Old Realms / armory_by/xslt_changes.xml # b8AgXwbL
+  Меч-Паўмесяц: Core / SandBoxCore/std_spitems_xml_by.xml # 4q69NwNy
+
+Arquebus = Аркебуза
+  Аркебуза: Shokuho / module_localization_strings.xml # FSQBKQfP
+
+Arrow = Страла | Стрэлы
+  Страла: Wheel of Time / WoTitems.xml # onepowerflamingarrowingle
+  Стрэлы: BurningEmpires / spitems.xml # gFtu0j41
+
+Awl pike = Піка-Швайка
+  Піка-Швайка: Core / Native/std_mpitems_xml_by.xml # iNJr5HOM
+
+Axe = Полакс | Сякера | Сякера-Дрывакол | Сякера-Калун | Сякера-Скольдэрн | Тамагаўк | Цыкурыён
+  Полакс: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_pole_axe
+  Сякера: Core / Native/std_common_strings_xml_by.xml # 7MkoLtWC
+  Сякера-Дрывакол: Core / Native/std_mpitems_xml_by.xml # aDEjwU8L
+  Сякера-Калун: Core / Naval/std_naval_weapons_xml.xml # SHawi5VS
+  Сякера-Скольдэрн: Core / Native/std_mpitems_xml_by.xml # I8zNQS7i
+  Тамагаўк: EmpiresofEuropeAmericas / items.xml # tomahawk.name
+  Цыкурыён: Core / Naval/std_naval_weapons_xml.xml # EfxxVF1z
+
+Backsword = Аднабокі Меч | Палаш
+  Аднабокі Меч: The Old Realms / armory_by/xslt_changes.xml # FQHaFsyQ
+  Палаш: Core / SandBoxCore/std_spitems_xml_by.xml # FQHaFsyQ
+
+Bajōzutsu = Бадзёдзуцу
+  Бадзёдзуцу: Shokuho / module_localization_strings.xml # pevalQVx
+
+Bardiche / Berdysh = Бярдыш
+  Бярдыш: Core / Native/std_common_strings_xml_by.xml # a8ycVmwU
+
+Bastard sword = Бастард | Меч Бастарда
+  Бастард: The Old Realms / armory_by/xslt_changes.xml # arBdK7st
+  Меч Бастарда: Core / Native/std_mpitems_xml_by.xml # l2j9CAQn
+
+Battle axe = Баёвая Сякера | Баявая Сякера | Сякера
+  Баёвая Сякера: Core / SandBoxCore/std_spitems_xml_by.xml # xWFW8jXw
+  Баявая Сякера: The Old Realms / armory_by/xslt_changes.xml # xWFW8jXw
+  Сякера: Core / Naval/std_naval_weapons_xml.xml # pgVdvzwq
+
+Bayonet = Багнет
+  Багнет: EmpiresofEurope1700 / items.xml # bayonet.name
+
+Bill = Біль
+  Біль: Core / Native/std_mpitems_xml_by.xml # n21mBbbR
+
+Billhook = Біль
+  Біль: Eastern Europe 1259 / belarusian.xml # lt_western_bilhook_2h
+
+Blade = Клінкі | Клінок | Лязо
+  Клінкі: Realm of Thrones / str_english.xml # ROT85e549189
+  Клінок: The Old Realms / armory_by/xslt_changes.xml # Ag6dujzl
+  Лязо: Anno Domini 1259 / reiko_fixes/items_ad_1259.xml # 137
+
+Blasting charge = Зарады
+  Зарады: The Old Realms / armory_by/tor_projectiles.xml # str_tor_dw_weapon_blasting_charges
+
+Blocka = Адбівала
+  Адбівала: The Old Realms / armory_by/tor_shields.xml # str_tor_greenskins_orc_shield_01
+
+Blunderbuss = Мушкетон | Трамблон
+  Мушкетон: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_empire_weapon_gun_blunderbuss_001
+  Трамблон: EmpiresofEurope1700 / items.xml # bs_musket_blunderbuss_brown.name
+
+Blunderbuss ammo = Боепрыпасы | Кулі
+  Боепрыпасы: EmpiresofEuropeAmericas / items.xml # bs_blunderbuss_ammo.name
+  Кулі: EmpiresofEurope1700 / items.xml # bs_blunderbuss_ammo.name
+
+Bolt = Балты
+  Балты: The Old Realms / armory_by/xslt_changes.xml # wrbea2oa
+
+Bomb = Бомбы
+  Бомбы: The Old Realms / armory_by/tor_projectiles.xml # str_tor_dw_weapon_grenade_hand_grenade
+
+Bow = Лук
+  Лук: BurningEmpires / spitems.xml # ifzgMcrK
+
+Breithox = Брэйтокс
+  Брэйтокс: BannerKingsCulturesExpanded / weapons.xml # bk_nord_2haxe_t3.name
+
+Broadsword = Меч
+  Меч: Core / SandBoxCore/std_spitems_xml_by.xml # 8jEDX9J4
+
+Buckshot = Картэч
+  Картэч: The Old Realms / armory_by/tor_projectiles.xml # str_tor_neutral_weapon_ammo_musket_ball_scatter
+
+Bullet = Кулі | Снарады
+  Кулі: The Old Realms / armory_by/tor_projectiles.xml # str_tor_neutral_weapon_ammo_silver_bullet
+  Снарады: BurningEmpires / spitems.xml # be_sling_stones
+
+Bun = Бунь
+  Бунь: Chinese Weapons Huaxia / Infernal_Reaper.xml # adfaji
+
+Cannonball = Ядро
+  Ядро: The Old Realms / armory_by/tor_projectiles.xml # str_tor_neutral_weapon_ammo_cannonball
+
+Carbine = Карабін
+  Карабін: EmpiresofEurope1700 / items.xml # bs_jestle_arquebus.name
+
+Chokuto = Цакуто
+  Цакуто: Tetsojin / items/crafted_weapons.xml # tetitem40
+
+Choppa = Чопа
+  Чопа: The Old Realms / armory_by/tor_meleeweapons.xml # str_tor_greenskin_weapon_axe_001
+
+Claymore = Клеймор
+  Клеймор: CalradiaAtWar / CustomTroopGear.xml # cs_mercenary_claymore.name
+
+Cleaver = Рубач | Сякач
+  Рубач: The Old Realms / armory_by/tor_meleeweapons.xml # str_tor_empire_weapon_sword_runefang_009
+  Сякач: Core / Native/std_common_strings_xml_by.xml # mfeM775z
+
+Club = Булава | Дубец | Дубіна | Дубцы
+  Булава: EmpiresofEuropeAmericas / items.xml # ball_head_club.name
+  Дубец: Realm of Thrones / str_english.xml # ROTde079b347
+  Дубіна: EmpiresofEuropeAmericas / items.xml # kerrie_club.name
+  Дубцы: BurningEmpires / spitems.xml # be_throwing_club
+
+Composite bow = Кампазітны Лук
+  Кампазітны Лук: Core / Native/std_common_strings_xml_by.xml # xODbCO6k
+
+Crossbow = Арбалет
+  Арбалет: Core / Native/std_common_strings_xml_by.xml # K1UFTirG
+
+Crossguard = Крыжавая Ахова
+  Крыжавая Ахова [у назьве: Крыжавой Аховай]: Ancient Civilization / cts_roman_items.xml # cts_roman_colus_a_crossguard.name
+
+Cutlass = Шабля
+  Шабля: EmpiresofEuropeAmericas / items.xml # fine_cutlass.name
+
+Dadao = Да Даў
+  Да Даў: Chinese Weapons Huaxia / Infernal_Reaper.xml # addadao
+
+Dagger = Кінжал
+  Кінжал: Core / Native/std_common_strings_xml_by.xml # mbT1uNPa
+
+Daggeraxe = Кінжал-Сякера
+  Кінжал-Сякера: Huaxia Kingdom / items.xml # huaxia_t1_ge
+
+Daikyu = Даікю
+  Даікю: Shokuho / module_localization_strings.xml # exUcsHT9
+
+Dao = Даў | Хэн Даў
+  Даў: Huaxia Kingdom / items.xml # huaxia_zhanma_1
+  Хэн Даў: Huaxia Kingdom / items.xml # huaxia_hengdao
+
+Dart = Дзідачок | Плюмбаты | Суліцы
+  Дзідачок: Realistic Battle Mod / LOC-eng.xml # RBM_LAN_001
+  Плюмбаты: Anno Domini 1259 / items_osw.xml # osa_ar_plumbata
+  Суліцы: Anno Domini 1259 / items_osw.xml # osa_ar_sling_bullets_d
+
+Demilance = Дэміланса
+  Дэміланса: The Old Realms / armory_by/xslt_changes.xml # j4XraSN6
+
+Drakefire pistol = Пістоля
+  Пістоля: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_dw_weapon_gun_drakefire_pistol
+
+Drakegun = Драконавая Пушка | Драконастрэл
+  Драконавая Пушка [у назьве: Драконавай Пушкі]: The Old Realms / armory_by/tor_projectiles.xml # str_tor_dw_drakegun_canister
+  Драконастрэл: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_dw_weapon_gun_drakegun
+
+Drakegun canister = Каністра
+  Каністра: The Old Realms / armory_by/tor_projectiles.xml # str_tor_dw_drakegun_canister
+
+Falcata = Фальката
+  Фальката: Realm of Thrones / str_english.xml # falcata
+
+Falchion = Фальшыён
+  Фальшыён: Core / SandBoxCore/std_spitems_xml_by.xml # IM2SamZ8
+
+Falx = Серп | Фалькс
+  Серп: Core / Native/std_common_strings_xml_by.xml # QLcP8bIs
+  Фалькс: The Old Realms / armory_by/xslt_changes.xml # QLcP8bIs
+
+Fangtianhuaji = Фанцянь Хуацзі
+  Фанцянь Хуацзі: Chinese Weapons Huaxia / Infernal_Reaper.xml # adfangtianhuaji
+
+Fire pot = Вогнены Збан
+  Вогнены Збан: BurningEmpires / spitems.xml # HP1GzM8l
+
+Flail = Цэп
+  Цэп: Core / SandBoxCore/std_spitems_xml_by.xml # 77GPT2B6
+
+Flyssa = Фліса | Флісса
+  Фліса: The Old Realms / armory_by/xslt_changes.xml # fHj6NbWy
+  Флісса: Core / Native/std_mpitems_xml_by.xml # joroqAbR
+
+Fork = Вілы
+  Вілы: Core / SandBoxCore/std_spitems_xml_by.xml # FbG3CW5p
+
+Forked-spear = Вілы
+  Вілы: CA - Eagle Rising / er_items.xml # cla_gladiator_spear_trident_2
+
+Francesca = Франчэска
+  Франчэска: Core / Native/std_common_strings_xml_by.xml # F4xD8gjJ
+
+Franziska = Францыска
+  Францыска: The Old Realms / armory_by/xslt_changes.xml # KRhIG1cw
+
+Gladius = Гладзіус | Гладыус
+  Гладзіус: CA - Eagle Rising / er_items.xml # cla_rome_weapon_gladius_blunt
+  Гладыус: Core / Native/std_common_strings_xml_by.xml # lwxOPEPx
+
+Glaive = Глефа
+  Глефа: Core / Native/std_common_strings_xml_by.xml # 6hwZwODh
+
+Grapeshot = Карцеч
+  Карцеч: Core / Native/std_common_strings_xml_by.xml # XGytILlt
+  Карцеч [у назьве: Карцечы]: The Old Realms / armory_by/xslt_changes.xml # ZeU1fvdz
+
+Greataxe = Сякера
+  Сякера: The Old Realms / armory_by/tor_meleeweapons.xml # str_tor_vc_weapon_thaxe_black_axe_of_krell
+
+Greathammer = Вялікі Молат
+  Вялікі Молат: The Old Realms / armory_by/tor_meleeweapons.xml # str_tor_dwarf_weapon_mace_002
+
+Greatsword = Вялікі Меч | Меч
+  Вялікі Меч: CalradiaAtWar / CustomTroopGear.xml # cs_mercenary_greatsword.name
+  Меч: Core / Native/std_mpitems_xml_by.xml # FmN4ryxu
+
+Grenade = Граната | Гранаты
+  Граната: Wheel of Time / WoTitems.xml # ILLUMpotbase
+  Гранаты: EmpiresofEurope1700 / items.xml # bs_throwing_bomb.name
+
+Grip = Ручка
+  Ручка [у назьве: Ручкай]: Core / SandBoxCore/std_spitems_xml_by.xml # bohbzGjg
+
+Guandao = Гуаньдао
+  Гуаньдао: Realm of Thrones / str_english.xml # yitguand
+
+Guisarme = Гвізарма
+  Гвізарма: Anno Domini 1259 / reiko_fixes/items_ad_1259.xml # XIII_polearm_2.name
+
+Halberd = Алебарда
+  Алебарда: CalradiaAtWar / CustomTroopGear.xml # cs_halberd.name
+
+Hammer = Двухручны Молат | Молат
+  Двухручны Молат: The Old Realms / armory_by/tor_meleeweapons.xml # str_tor_empire_weapon_thmace_warrior_priest_001
+  Молат: Core / Native/std_common_strings_xml_by.xml # t68bkisr
+
+Handgun = Мушкет | Пістоль | Ручніца
+  Мушкет: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_empire_weapon_gun_big_musket_001
+  Пістоль: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_empire_weapon_gun_empire_repeater_001
+  Ручніца: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_dw_weapon_gun_handgun_001
+
+Hankyu = Ханкю
+  Ханкю: Shokuho / module_localization_strings.xml # KGuj7W99
+
+Harpoon = Гарпун | Гарпуны
+  Гарпун: Core / SandBoxCore/std_spitems_xml_by.xml # YPUDAJDH
+  Гарпуны: The Old Realms / armory_by/xslt_changes.xml # YPUDAJDH
+
+Hatchet = Тапор
+  Тапор: Core / Native/std_common_strings_xml_by.xml # GghHAbIT
+
+Hengdao = Хэн Даў
+  Хэн Даў: Chinese Weapons Huaxia / Infernal_Reaper.xml # adhengdao
+
+Hook = Гак
+  Гак: Core / Native/std_common_strings_xml_by.xml # 7zCPG8TR
+
+Ild = Ільд
+  Ільд: Core / Native/std_mpitems_xml_by.xml # UHcXARc6
+
+Jambiya = Джамбія
+  Джамбія: Core / Naval/std_naval_weapons_xml.xml # Hn6nlQ8W
+
+Javelin = Акстысы | Дротык | Дротыкі | Суліцы
+  Акстысы: Eastern Europe 1259 / belarusian.xml # lt_baltic_javelin_type1a
+  Дротык: Realistic Battle Mod / LOC-eng.xml # RBM_LAN_002
+  Дротыкі: Core / Native/std_common_strings_xml_by.xml # cBZ6OlKW
+  Суліцы: Eastern Europe 1259 / belarusian.xml # lt_rus_javelin_type1a
+
+Jereed = Джарэйд | Джэрыды
+  Джарэйд: Core / Native/std_common_strings_xml_by.xml # Z6Ak3H6G
+  Джэрыды: The Old Realms / armory_by/xslt_changes.xml # Z6Ak3H6G
+
+Ji = Цзі
+  Цзі: Realm of Thrones / str_english.xml # yitqing
+
+Jian = Цзянь
+  Цзянь: Huaxia Kingdom / items.xml # huaxia_war_jian
+
+Jianyihengdao = Цзяні Хэн Даў
+  Цзяні Хэн Даў: Chinese Weapons Huaxia / Infernal_Reaper.xml # adjianyihengdao
+
+Jin gua = Цзіньгуа
+  Цзіньгуа: Chinese Weapons Huaxia / Infernal_Reaper.xml # adjingua
+
+Jingubang = Цзіньгубан
+  Цзіньгубан: Chinese Weapons Huaxia / Infernal_Reaper.xml # adbang
+
+Kama = Кама
+  Кама: Shokuho / module_localization_strings.xml # q2Vsio86
+
+Kama yari = Кама
+  Кама: Shokuho / module_localization_strings.xml # 7ogCF4QM
+
+Kanabo = Канабо
+  Канабо: Tetsojin / items/crafted_weapons.xml # tetitem17
+
+Kapjo = Доўгае Кап'ё | Кап'ё
+  Доўгае Кап'ё: EmpiresofEurope1100 / 1100/europeItems.xml # rus_ash_kapjo_t1_type3_10_11.name
+  Кап'ё: EmpiresofEurope1100 / 1100/europeItems.xml # rus_pine_kapjo_t6_type3_11_12.name
+
+Kaskara = Каскара
+  Каскара: Core / Native/std_mpitems_xml_by.xml # uF4IqQIK
+
+Katana = Катана
+  Катана: Shokuho / module_localization_strings.xml # mBR3AsWm
+
+Katzbalger = Кацбальгар
+  Кацбальгар: Zweihander / items.xml # Knight3.name
+
+Kestros = Суліцы Прашчы
+  Суліцы Прашчы: Anno Domini 1259 / items_osw.xml # osa_ar_sling_bullets_d
+
+Kestros sling darts = Суліцы
+  Суліцы: Anno Domini 1259 / items_osw.xml # osa_ar_sling_bullets_d
+
+Khanjar = Ханжар
+  Ханжар: Anno Domini 1259 / items_osw.xml # osa_ar_khanjar_a
+
+Kilij = Кілідж
+  Кілідж: Core / Native/std_mpitems_xml_by.xml # jEHLd5gm
+
+Kituga = Кітуга
+  Кітуга: Anno Domini 1259 / items_osw.xml # osa_ar_kituga_a
+
+Knife = Вайсковы Нож | Нож
+  Вайсковы Нож: Eastern Europe 1259 / belarusian.xml # lt_baltic_war_knife
+  Нож: Core / SandBoxCore/std_spitems_xml_by.xml # bhiVBSge
+
+Kontos = Контас
+  Контас: Core / Native/std_mpitems_xml_by.xml # pyupZxJK
+
+Kopis = Копіс
+  Копіс: CA - Eagle Rising / er_items.xml # cla_carthage_weapon_kopis_1
+
+Labrys = Лабрысы
+  Лабрысы: Realistic Battle Mod / LOC-eng.xml # RBM_GLA_001
+
+Lance = Дзіда | Контас
+  Дзіда: Chinese Weapons Huaxia / Infernal_Reaper.xml # admashuo
+  Контас: De Re Militari / drm_items.xml # DRMitl00
+
+Lanceae = Ланцыі
+  Ланцыі: Open Source Weaponry / std_OSA_ar_reforms_spears.xml # osa_ar_imperial_heavy_javelin_t2
+
+Langspjót = Лангсьпьёт
+  Лангсьпьёт: BannerKingsCulturesExpanded / weapons.xml # bk_northern_pike_t4.name
+
+Long spear = Доўгае Кап'ё
+  Доўгае Кап'ё: Core / Naval/std_naval_weapons_xml.xml # bFCgpmjI
+
+Longbow = Доўгі Лук | Доўгілук
+  Доўгі Лук: BurningEmpires / spitems.xml # KTegaNP1
+  Доўгілук: Realm of Thrones / str_english.xml # ravbow
+
+Longmace = Доўгая Булавы
+  Доўгая Булавы: CalradiaAtWar / CustomTroopGear.xml # cs_long_spikedmace_t3.name — падазроная граматычная форма ў BYc; захавана для праверкі
+
+Longsword = Доўгі Меч
+  Доўгі Меч: Core / Native/std_common_strings_xml_by.xml # FLBYsvxp
+
+Lucerne hammer = Молат
+  Молат: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_lucerne_hammer
+
+Mace = Булава | Булава-Кветка | Шышпар
+  Булава: Core / SandBoxCore/std_spitems_xml_by.xml # 9pD32UdV
+  Булава-Кветка: Anno Domini 1259 / items_osw.xml # osa_ar_darshi_mace_4_t4
+  Шышпар: Core / SandBoxCore/std_spitems_xml_by.xml # 9EWN9SiT
+
+Martiobarbuli = Маціабарбулы
+  Маціабарбулы: Anno Domini 1259 / items_osw.xml # osa_ar_martiobarbuli
+
+Martiobarbuli darts = Маціабарбулы
+  Маціабарбулы: Anno Domini 1259 / items_osw.xml # osa_ar_martiobarbuli
+
+Maul = Кавадла | Молат
+  Кавадла: CalradiaAtWar / CustomTroopGear.xml # cs_maul_t3.name
+  Молат: Core / SandBoxCore/std_spitems_xml_by.xml # l7sSXCM2
+
+Menavlion = Менавліён
+  Менавліён: Core / Native/std_common_strings_xml_by.xml # 7LmUe8fQ
+
+Messer = Мессэр
+  Мессэр: Eastern Europe 1259 / belarusian.xml # lt_western_messer_1h
+
+Miaodao = Мяо Даў
+  Мяо Даў: Chinese Weapons Huaxia / Infernal_Reaper.xml # admiaodao
+
+Modao = Мо Даў
+  Мо Даў: Chinese Weapons Huaxia / Infernal_Reaper.xml # admodao
+
+Morning star = Ранішняя Зорка
+  Ранішняя Зорка: Core / SandBoxCore/std_spitems_xml_by.xml # 6EWm09LY
+
+Musket = Мушкет
+  Мушкет: EmpiresofEurope1700 / items.xml # bs_jestle_musket.name
+
+Nagamaki = Нагамакі
+  Нагамакі: Shokuho / module_localization_strings.xml # nrA9Aztc
+
+Naginata = Нагіната
+  Нагіната: Shokuho / module_localization_strings.xml # 0uG557qr
+
+Nailclub = Дубец
+  Дубец: CalradiaAtWar / CustomTroopGear.xml # cs_spikedmace_t3.name
+
+No-dachi = Но-Даці
+  Но-Даці: Shokuho / module_localization_strings.xml # sVC9Ht6h
+
+Paramerion = Парамерыён
+  Парамерыён: Core / Native/std_mpitems_xml_by.xml # 5YGP047h
+
+Pernach = Пярнач
+  Пярнач: Core / SandBoxCore/std_spitems_xml_by.xml # rnzpyc0N
+
+Pick = Кірка
+  Кірка: CalradiaAtWar / CustomTroopGear.xml # cs_2haxe_t3.name
+
+Pickaxe = Кірка
+  Кірка: Core / Native/std_common_strings_xml_by.xml # ZvMcHde3
+
+Pike = Контас | Піка
+  Контас: BannerKingsCulturesExpanded / weapons.xml # bk_massa_pike_t3.name
+  Піка: The Old Realms / armory_by/xslt_changes.xml # h60wQVVX
+
+Pilum = Піла | Пілум
+  Піла: Core / Native/std_mpitems_xml_by.xml # v3lIxLvX
+  Пілум: Core / SandBoxCore/std_spitems_xml_by.xml # rkqaCud5
+
+Pistol = Пістоля
+  Пістоля: EmpiresofEuropeAmericas / items.xml # matchlock_pistol.name
+
+Pitchfork = Махові
+  Махові: Core / Native/std_common_strings_xml_by.xml # JBVAeXx3
+
+Plumbata = Плюмбата
+  Плюмбата: Core / Native/std_mpitems_xml_by.xml # ajifXc8I
+
+Podao / Pudao = Даў | По Даў
+  Даў: Huaxia Kingdom / items.xml # huaxia_pudao
+  По Даў: Chinese Weapons Huaxia / Infernal_Reaper.xml # adpodao
+
+Polearm = Тронкавая Зброя
+  Тронкавая Зброя: Core / Native/std_mpitems_xml_by.xml # dK4f8ArH
+
+Poleaxe = Полакс
+  Полакс: Mordhau Armor Pack / items.xml # itspear.name
+
+Polehammer = Полхамер | Польхамер | Тронкамолат
+  Полхамер: Mordhau Armor Pack / items.xml # auspear.name
+  Польхамер: The Old Realms / armory_by/tor_meleeweapons.xml # str_tor_empire_weapon_polehammer_warrior_priest_001
+  Тронкамолат: Realm of Thrones / str_english.xml # sppoleham
+
+Polesword = Меч
+  Меч: Core / SandBoxCore/std_spitems_xml_by.xml # 1mCmYNl6
+
+Pommel = Навершша
+  Навершша [у назьве: Навершам]: Core / SandBoxCore/std_spitems_xml_by.xml # HpdJJO9g
+
+Pot = Збан
+  Збан: Core / Native/std_mpitems_xml_by.xml # 3Wzhxkn1
+
+Pugio = Пугіё | Пугіо | Пугiё
+  Пугіё: CA - Eagle Rising / er_items.xml # cla_rome_weapon_pugio
+  Пугіо: Core / Native/std_common_strings_xml_by.xml # bVzkrtUc
+  Пугiё: The Old Realms / armory_by/xslt_changes.xml # bVzkrtUc — у BYc лацінская i; захавана для праверкі
+
+Qinglong ji = Цыньлун цзі
+  Цыньлун цзі: Realm of Thrones / str_english.xml # yitqing
+
+Qinglongyanyuedao = Цінлун Яньюэ Даў
+  Цінлун Яньюэ Даў: Chinese Weapons Huaxia / Infernal_Reaper.xml # adqinglongyanyuedao
+
+Quarrel = Ніты
+  Ніты: Core / SandBoxCore/std_spitems_xml_by.xml # hN4wE2gG
+
+Quarterstaff = Тронак
+  Тронак: CalradiaAtWar / CustomTroopGear.xml # cs_quarter_staff_t1.name
+
+Rahacina = Рагаціна
+  Рагаціна: EmpiresofEurope1100 / 1100/europeItems.xml # rus_pine_rahacina_t6_type4a_12_13.name
+
+Rake = Граблі
+  Граблі: CalradiaAtWar / CustomTroopGear.xml # cs_peasantrake.name
+
+Ranseur = Рансэр
+  Рансэр: Realm of Thrones / str_english.xml # ranseur
+
+Rapier = Рапіра
+  Рапіра: EmpiresofEurope1700 / items.xml # rapier.name
+
+Razor = Брытва
+  Брытва: Core / SandBoxCore/std_spitems_xml_by.xml # 4RTsybkx
+
+Recurve bow = Лук
+  Лук: Core / Native/std_common_strings_xml_by.xml # IJjrSbiV
+
+Repeater handgun = Пістоль
+  Пістоль: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_empire_weapon_gun_empire_repeater_001
+
+Rhomphaia = Рамфея | Ромфэя
+  Рамфея: Core / Native/std_common_strings_xml_by.xml # 8nObGQqW
+  Ромфэя: Core / SandBoxCore/std_spitems_xml_by.xml # V4b2ZRTH
+
+Rifle = Джэзайл | Стральба | Стрэльба
+  Джэзайл: EmpiresofEurope1700 / items.xml # cla_musket_rifle_1_c.name
+  Стральба: EmpiresofEurope1700 / items.xml # cla_musket_rifle_1_b.name
+  Стрэльба: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_neutral_weapon_gun_old_rifle
+
+Saber / Sabre = Шабля
+  Шабля: Core / Native/std_common_strings_xml_by.xml # 4YTJJaTG
+
+Sarissa = Сарысса
+  Сарысса: BannerKingsCulturesExpanded / weapons.xml # bk_kannic_pike_t3.name
+
+Sasumata = Сасумата
+  Сасумата: Shokuho / module_localization_strings.xml # hYQTnp56
+
+Sasumata yari = Сасумата
+  Сасумата: Shokuho / module_localization_strings.xml # hYQTnp56
+
+Scalpel = Скальпель
+  Скальпель: Core / SandBoxCore/std_spitems_xml_by.xml # LzqugHen
+
+Scimitar = Булат
+  Булат: Core / Native/std_mpitems_xml_by.xml # QUGDr6Te
+
+Scythe = Каса
+  Каса: Core / Native/std_common_strings_xml_by.xml # aGbTPme1
+
+Seax = Сакс
+  Сакс: Core / SandBoxCore/std_spitems_xml_by.xml # 3Pv0SlYj
+
+Semi-spatha = Паўспата
+  Паўспата: BurningEmpires / spitems.xml # be_hunnic_semispatha_1
+
+Shamshir = Шамшыр
+  Шамшыр: BannerKingsCulturesExpanded / weapons.xml # bk_darshi_sword_t3.name
+
+Shash = Шаш
+  Шаш: EOE Flavour Pack / shoulder.xml # eoe_tartanshash1.name
+
+Shestopyor = Шастапёр
+  Шастапёр: Core / SandBoxCore/std_spitems_xml_by.xml # 8pnCvnFR
+
+Shoota = Штраляла
+  Штраляла: The Old Realms / armory_by/tor_rangedweapons.xml # str_tor_greenskin_bow_001
+
+Shortbow = Кароткі Лук
+  Кароткі Лук: BurningEmpires / spitems.xml # wltdyF21
+
+Shortspear = Кап'ё | Кароткае Кап'ё
+  Кап'ё: CalradiaAtWar / CustomTroopGear.xml # cs_simple_short_spear.name
+  Кароткае Кап'ё: Core / Native/std_mpitems_xml_by.xml # qFV7uqVW
+
+Shortsword = Кароткі Меч
+  Кароткі Меч: Core / SandBoxCore/std_spitems_xml_by.xml # cRCkC36E
+
+Shot = Кулі
+  Кулі: EmpiresofEuropeAmericas / items.xml # bs_musket_ammo.name
+  Кулі [у назьве: Куляў]: EmpiresofEuropeAmericas / items.xml # bs_musket_ammo_large.name
+
+Shotel = Шотэл
+  Шотэл: Anno Domini 1259 / items_osw.xml # osa_ar_shotel_t2
+
+Shovel = Рыдлёўка
+  Рыдлёўка: Core / Native/std_mpitems_xml_by.xml # UCvfcokJ
+
+Shuriken = Шурыкен
+  Шурыкен: Tetsojin / items/tetsojin_weapons.xml # tetitem19
+
+Sica = Сіка
+  Сіка: Core / SandBoxCore/std_spitems_xml_by.xml # lbkaoPk6
+
+Sickle = Серп
+  Серп: Core / Native/std_common_strings_xml_by.xml # 4wdgiTta
+
+Siphon = Сіфоны
+  Сіфоны: Anno Domini 1259 / items_osw.xml # osa_ar_cheirosiphon_a
+
+Skaen = Скэйн
+  Скэйн: Anno Domini 1259 / items_osw.xml # osa_ar_skaen_a
+
+Slasha = Рубака
+  Рубака: The Old Realms / armory_by/tor_meleeweapons.xml # str_tor_greenskin_weapon_sword_004
+
+Sledgehammer = Кувалда
+  Кувалда: Realm of Thrones / str_english.xml # ROT01870
+
+Sling = Прашча
+  Прашча: Anno Domini 1259 / items_osw.xml # osa_ar_sling_a
+
+Slinger stone = Прашчавыя Камяні
+  Прашчавыя Камяні: CalradiaAtWar / CustomTroopGear.xml # cs_slinger_stone.name
+
+Spatha = Спата
+  Спата: Core / Native/std_common_strings_xml_by.xml # M2wvaObX
+
+Spathion = Спатыён | Спафіён
+  Спатыён: The Old Realms / armory_by/xslt_changes.xml # 1bc4kTaz
+  Спафіён: Core / SandBoxCore/std_spitems_xml_by.xml # 1bc4kTaz
+
+Spear = Іэтыс | Кап'ё | Кап'ё-Хевінг | Кап'ё-Хьюінг | Рагаціна
+  Іэтыс: Eastern Europe 1259 / belarusian.xml # lt_baltic_spear_type3
+  Кап'ё: Open Source Weaponry / std_OSA_ar_reforms_spears.xml # osa_ar_crude_spear_2_t2
+  Кап'ё-Хевінг: Core / SandBoxCore/std_spitems_xml_by.xml # N28bDEhh
+  Кап'ё-Хьюінг: The Old Realms / armory_by/xslt_changes.xml # N28bDEhh
+  Рагаціна: Eastern Europe 1259 / belarusian.xml # lt_rus_spear_type4a_war_rogatina
+
+Spicula = Сьпікулы
+  Сьпікулы: Open Source Weaponry / std_OSA_ar_reforms_spears.xml # osa_ar_imperial_throwing_spear_t4
+
+Spitze = Шпіцэ
+  Шпіцэ: BannerKingsCulturesExpanded / weapons.xml # bk_rhodok_2hmace_t4.name
+
+Staff = Посах | Тронак
+  Посах: Core / SandBoxCore/std_spitems_xml_by.xml # yy7RvQKN
+  Тронак: CalradiaAtWar / CustomTroopGear.xml # cs_priest_staff.name
+
+Stap = Стап
+  Стап: BannerKingsCulturesExpanded / weapons.xml # bk_rhodok_2hmace_t3.name
+
+Stone = Камяні
+  Камяні: CalradiaAtWar / CustomTroopGear.xml # cs_slinger_stone.name
+
+Sulica = Суліца
+  Суліца: EmpiresofEurope1100 / 1100/europeItems.xml # baltic_pine_sulica_t5_type2.name
+
+Sword = Ільд | Меч | Меч-Ільд | Фальшыён
+  Ільд: The Old Realms / armory_by/xslt_changes.xml # tpUzcdY6
+  Меч: Core / Native/std_common_strings_xml_by.xml # bY9U7w1Q
+  Меч-Ільд: Core / SandBoxCore/std_spitems_xml_by.xml # tpUzcdY6
+  Фальшыён: Core / Naval/std_naval_weapons_xml.xml # 5sOaCRMf
+
+Sword-spear = Кап'ё
+  Кап'ё: BurningEmpires / spitems.xml # be_sarmatian_swordspear_1
+
+Tabar = Табар | Табара
+  Табар: Core / Native/std_common_strings_xml_by.xml # B8p6E8GJ
+  Табара: Core / SandBoxCore/std_spitems_xml_by.xml # 2YYHjytM
+
+Tachi = Таці
+  Таці: Shokuho / module_localization_strings.xml # M9ydEbyA
+
+Taijijian = Тайцзіцзянь
+  Тайцзіцзянь: Chinese Weapons Huaxia / Infernal_Reaper.xml # adtaijijian
+
+Tanegashima = Танэгасіма
+  Танэгасіма: Shokuho / module_localization_strings.xml # pmslilcc
+
+Tanzutsu = Тандзуцу
+  Тандзуцу: Shokuho / module_localization_strings.xml # N23dcv8c
+
+Teppo = Тэппо
+  Тэппо: Tetsojin / items/tetsojin_weapons.xml # matchl
+
+Tetsubo = Тэцубо
+  Тэцубо: Tetsojin / items/crafted_weapons.xml # tetitem16
+
+Throwing axe = Кідальная Сякера | Кідальныя Сякеры
+  Кідальная Сякера: Realm of Thrones / str_english.xml # thennthrow
+  Кідальныя Сякеры: Core / SandBoxCore/std_spitems_xml_by.xml # GrfnpDxu
+
+Throwing dagger = Кідальныя Кінжалы | Кінжал
+  Кідальныя Кінжалы: The Old Realms / armory_by/xslt_changes.xml # koOrDa9q
+  Кінжал: Core / SandBoxCore/std_spitems_xml_by.xml # koOrDa9q
+
+Throwing knife = Кідальныя Нажы | Нож
+  Кідальныя Нажы: The Old Realms / armory_by/xslt_changes.xml # zvIax8Kt
+  Нож: Core / SandBoxCore/std_spitems_xml_by.xml # zvIax8Kt
+
+Throwing lance = Кідальная Дзіда
+  Кідальная Дзіда: Realistic Battle Mod / LOC-eng.xml # RBM_LAN_003
+
+Throwing pots = Кідальныя Збаны
+  Кідальныя Збаны: Anno Domini 1259 / items_osw.xml # osa_ar_throwing_pot
+
+Throwing spear = Кідальнае Кап'ё
+  Кідальнае Кап'ё: Eastern Europe 1259 / belarusian.xml # lt_throwing_spear
+
+Trident = Трызуб
+  Трызуб: Realm of Thrones / str_english.xml # ROTtrident
+
+Trollhammer torpedo = Тарпеды Тролебоя
+  Тарпеды Тролебоя: The Old Realms / armory_by/tor_projectiles.xml # str_tor_dw_iron_drake_trollhammer_torpedo
+
+Two hander = Двухручнік
+  Двухручнік: Core / SandBoxCore/std_spitems_xml_by.xml # rtRGq1uU
+
+Two-handed axe = Двухручная Сякера | Сякера
+  Двухручная Сякера: Core / Native/std_common_strings_xml_by.xml # bsabIdYm
+  Сякера: Core / Native/std_mpitems_xml_by.xml # Mbf8qAxs
+
+Two-handed cleaver = Двухручны Сякач
+  Двухручны Сякач: Core / SandBoxCore/std_spitems_xml_by.xml # XTGdfqVV
+
+Two-handed club = Двухручны Дубец
+  Двухручны Дубец: Anno Domini 1259 / items_osw.xml # osa_ar_crude_2h_mace_t3
+
+Two-handed mace = Двухручная Булава | Двухручная Булава-Кветка
+  Двухручная Булава: Eastern Europe 1259 / belarusian.xml # lt_western_mace_2h
+  Двухручная Булава-Кветка: Anno Domini 1259 / items_osw.xml # osa_ar_darshi_noble_2h_mace_t4
+
+Two-handed sword = Двухручны Меч
+  Двухручны Меч: Eastern Europe 1259 / belarusian.xml # lt_danish_2h_sword
+
+Twohander = Двухручнік
+  Двухручнік: The Old Realms / armory_by/xslt_changes.xml # ekUvh8Em
+
+Tzikourion / Tzikurion = Цыкурыён
+  Цыкурыён: Core / SandBoxCore/std_spitems_xml_by.xml # tsaSBPKu
+
+Voulge = Вульж
+  Вульж: BannerKingsCulturesExpanded / weapons.xml # bk_voulge.name
+
+Wakizashi = Ўакідзасі
+  Ўакідзасі: Shokuho / module_localization_strings.xml # 6CxSdwpp
+
+Wakyu = Ўакю
+  Ўакю: Shokuho / module_localization_strings.xml # jJ9mAeR5
+
+Waraxe = Вайсковая Сякера
+  Вайсковая Сякера: CalradiaAtWar / CustomTroopGear.xml # cs_broad_axe.name
+
+Warclub = Баявая Дубіна-Прыклад
+  Баявая Дубіна-Прыклад: EmpiresofEuropeAmericas / items.xml # gunstock_warclub
+
+Warhammer = Вайсковы Молат
+  Вайсковы Молат: Realm of Thrones / str_english.xml # marchwh
+
+Warspear = Кап'ё
+  Кап'ё: BannerKingsCulturesExpanded / weapons.xml # bk_empire_spear_t5.name
+
+Warsword = Вайсковы Меч
+  Вайсковы Меч: CalradiaAtWar / CustomTroopGear.xml # cs_greatsword_t6.name
+
+Whip = Пуга
+  Пуга: Core / SandBoxCore/std_spitems_xml_by.xml # HclLXEaT
+
+Xiphos / Xyphos = Ксіпас | Ксіфос
+  Ксіпас: The Old Realms / armory_by/xslt_changes.xml # AOZbTGOS
+  Ксіфос: BannerKingsCulturesExpanded / weapons.xml # bk_kanic_sword_t4.name
+
+Yari = Яры
+  Яры: Shokuho / module_localization_strings.xml # bUUaQilR
+
+Yumi = Юмі
+  Юмі: Shokuho / module_localization_strings.xml # jJ9mAeR5
+
+Zweihander = Цвайхандар
+  Цвайхандар: Zweihander / items.xml # Zweihander.name
+
+========================================================================
+БРАНЯ І ДЭТАЛІ АХОЎНАГА РЫШТУНКУ
+========================================================================
+
+Aketon = Акетон
+  Акетон: Anno Domini 1259 / items_native.xml # 7b8Cwogx
+
+Armet = Армэ
+  Армэ: Realm of Thrones / str_english.xml # armet
+
+Armguard = Абгорткі для Абароны Рук | Ручная Ахова
+  Абгорткі для Абароны Рук: Anno Domini 1259 / items_native.xml # b2EDkbhD
+  Ручная Ахова: The Old Realms / armory_by/xslt_changes.xml # b2EDkbhD
+
+Armor / Armour = Браня | Брыганціна | Дасьпех | Кальчуга | Каптур | Ламеляр | Латы | Лінаторакс | Луската | Панцыр
+  Браня: Shokuho / module_localization_strings.xml # WjvswJs2
+  Браня [у назьве: Бранёй]: The Old Realms / armory_by/xslt_changes.xml # Zx4h7jDy
+  Брыганціна: Core / Native/std_mpitems_xml_by.xml # 8oKVhtth
+  Дасьпех: The Old Realms / armory_by/tor_armors.xml # str_tor_vc_body_breastplate_skeleton_001
+  Кальчуга: Templar Armor / items.xml # ktemplarnbr_z_white.name
+  Каптур: Realm of Thrones / str_english.xml # tormarmor — сумнеўная адпаведнасьць: у крыніцы Tormund's Fur Armor; патрабуе праверкі
+  Ламеляр: The Old Realms / armory_by/tor_armors.xml # str_tor_eo_body_kithband_metal_scale_001
+  Латы: Anno Domini 1259 / reiko_fixes/items_eba.xml # ren_fullplate_1.name
+  Лінаторакс: Ancient Civilization / cts_celtic_items.xml # cts_celtic_linothorax_a.name
+  Луската: Calradia Rising Armory / body_armor.xml # cr_b_desert_scale_armor.name
+  Панцыр: Realm of Thrones / str_english.xml # crudearmor
+
+Armwraps = Ручныя Абвязкі | Ручныя Абмоткі
+  Ручныя Абвязкі: Anno Domini 1259 / items_native.xml # oEJnxsQ1
+  Ручныя Абмоткі: The Old Realms / armory_by/xslt_changes.xml # oEJnxsQ1
+
+Aventail = Барміца
+  Барміца [у назьве: Барміцай]: Eastern Europe 1259 / belarusian.xml # lt_babichi_with_aventail
+
+Bandhelm = Бандхельм | Бандэдхельм
+  Бандхельм: BurningEmpires / spitems.xml # be_hunic_helmet_iron
+  Бандэдхельм: Anno Domini 1259 / items_osa.xml # osa_ar_vlandia_lord_helmet_c
+
+Barbute / Barbuta = Барбута
+  Барбута: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_barbute1
+
+Bascinet / Bacinet = Бацынет
+  Бацынет: The Old Realms / armory_by/tor_armors.xml # str_tor_empire_head_helm_pigface_bascinet_001
+
+Besagews = Бесагевы
+  Бесагевы [у назьве: Бесагевамі]: Mordhau Armor Pack / items.xml # kicape.name
+
+Bevor = Бувігер
+  Бувігер: Realm of Thrones / str_english.xml # ROTe39331395
+  Бувігер [у назьве: Бувігерам]: Anno Domini 1259 / reiko_fixes/items_eba.xml # heavybevor_late1.name
+
+Boot = Бот | Боты | Ботыя
+  Бот: The Old Realms / armory_by/tor_armors.xml # str_tor_empire_leg_boots_greatsword_001
+  Боты: CA - Eagle Rising / er_items.xml # cla_carthage_legs_boots_1
+  Ботыя: The Old Realms / armory_by/tor_armors.xml # str_tor_empire_leg_boots_tracker_001 — магчымая памылка напісаньня ў BYc; захавана для праверкі
+
+Bracer = Наруч | Наручы
+  Наруч: The Old Realms / armory_by/tor_armors.xml # str_tor_vc_arm_bracers_skeleton_warrior_001
+  Наручы: Anno Domini 1259 / items_native.xml # wLAL9NRB
+
+Breastplate / Chestplate = Грудная Пласьціна | Нагруднік
+  Грудная Пласьціна [у назьве: Грудной Пласьцінай]: Wheel of Time / WoTitems.xml # WOTlevyarmor8b
+  Нагруднік: Anno Domini 1259 / items_native.xml # 79I1U8OC
+  Нагруднік [у назьве: Нагрудніком]: Ben's Armory / body_armor.xml # bb_gambeson_breastplate.name
+
+Bretache = Брытэш
+  Брытэш: Anno Domini 1259 / reiko_fixes/items_eba.xml # bretache1.name
+
+Brigandine = Брыганціна
+  Брыганціна: Realm of Thrones / str_english.xml # brig1
+
+Broigne = Браінь
+  Браінь: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_broigne
+
+Burgonet = Бурганэт | Бургінет
+  Бурганэт: Realm of Thrones / str_english.xml # lorburg
+  Бургінет: Anno Domini 1259 / reiko_fixes/items_eba.xml # renclos_burgonet1.name
+
+Calcei = Кальцэі
+  Кальцэі: CA - Eagle Rising / er_items.xml # cla_rome_leg_calcei
+
+Caligae = Калігай | Калігі
+  Калігай: CA - Eagle Rising / er_items.xml # cla_rome_leg_caligae
+  Калігі [у назьве: Калігамі]: CA - Eagle Rising / er_items.xml # cla_rome_legs_pants_caligae_blue
+
+Camail = Барміца
+  Барміца [у назьве: Барміцай]: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_colletin_with_camail
+
+Campagi = Кампагі
+  Кампагі: BurningEmpires / spitems.xml # be_german_campagi
+
+Cardiophylax = Кардыяфілакс
+  Кардыяфілакс: CA - Eagle Rising / er_items.xml # cla_iberian_body_cardiophylax_1
+
+Casque = Каска
+  Каска: Core / SandBoxCore/std_spitems_xml_by.xml # bYQocfNx
+
+Cervelliere / Cevelliere = Цэрвельер
+  Цэрвельер: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_fluted_cervellierea
+
+Chainmail = Кальчуга | Ланцуговая Кальчуга | Ланчуговая Кальчуга
+  Кальчуга: The Old Realms / armory_by/xslt_changes.xml # blEEEOdy
+  Ланцуговая Кальчуга: CA - Eagle Rising / er_items.xml # cla_carthage_body_mail_1
+  Ланчуговая Кальчуга: Realm of Thrones / str_english.xml # chainmail — падазронае напісаньне ў BYc; захавана для праверкі
+
+Chausses = Чусіз | Чусізы | Шосы
+  Чусіз: Anno Domini 1259 / items_native.xml # DoiwC1Qa
+  Чусізы: Realm of Thrones / str_english.xml # arrychaus
+  Шосы: The Old Realms / armory_by/xslt_changes.xml # DoiwC1Qa
+
+Chestpiece = Дасьпех | Нагруднік
+  Дасьпех: The Old Realms / armory_by/tor_armors.xml # str_tor_empire_body_armor_greatsword_001
+  Нагруднік: Wheel of Time / WoTitems.xml # wotmiscpurarmor1
+
+Coat of plates = Паліто | Панцыр
+  Паліто: Eastern Europe 1259 / belarusian.xml # lt_coat_of_plates_team_colors
+  Панцыр: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_coat_of_plates1
+
+Coif = Коіф
+  Коіф: Realm of Thrones / str_english.xml # ROTtullycoif
+
+Colletin = Калетын | Кальчуга | Кольлецін
+  Калетын: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_calros_novice_soulder
+  Кальчуга: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_chain_shoulders
+  Кольлецін: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_colletin_with_camail
+
+Colus = Колус
+  Колус: Ancient Civilization / cts_roman_items.xml # cts_roman_colus_a.name
+
+Coolus = Колю
+  Колю: CA - Eagle Rising / er_items.xml # cla_rome_helm_cjiaba_coolus_bronze
+
+Crest = Грэбень | Кляйнот
+  Грэбень [у назьве: Грэбенем]: Anno Domini 1259 / items_osa.xml # osa_ao_imperial_aristocrats_helmet
+  Кляйнот [у назьве: Кляйнотам]: CA - Eagle Rising / er_items.xml # cla_iberian_helm_crested_red_white
+
+Cuirass = Кіраса
+  Кіраса: EmpiresofEurope1700 / items.xml # cuirass.name
+
+Cuisses = Квісы | Кюісы
+  Квісы: Ben's Armory / leg_armor.xml # bb_poor_legs.name
+  Квісы [у назьве: Квісамі]: Ben's Armory / leg_armor.xml # bb_zizka_legs.name
+  Кюісы: Mordhau Armor Pack / items.xml # soleg.name
+
+Do = До
+  До: Shokuho / module_localization_strings.xml # 3e1V0Ziy
+
+Eadplate = Плаштына
+  Плаштына: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_orc_black_2_helmet_001
+
+Faceguard = Абарона Твару
+  Абарона Твару [у назьве: Абаронай Твару]: Anno Domini 1259 / items_native.xml # UoHZGyZa
+
+Faceplate = Прылбіца | Тварная Пласьціна
+  Прылбіца [у назьве: Прылбіцай]: Swadian Armoury / items.xml # italio_norman_helm.name
+  Тварная Пласьціна: Anno Domini 1259 / reiko_fixes/items_eba.xml # es_ib_faceplate_1.name
+
+Faulds = Фолды
+  Фолды [у назьве: Фолдаў]: Mordhau Armor Pack / items.xml # mabody2.name
+
+Gaiters = Гамашы
+  Гамашы: EmpiresofEurope1700 / items.xml # infantry_gaiters.name
+
+Galea = Галея
+  Галея: CA - Eagle Rising / er_items.xml # cla_rome_helm_niederbieber_mix
+
+Gallic = Гальліка | Гальліка-Галея
+  Гальліка: CA - Eagle Rising / er_items.xml # cla_rome_helm_gallic_a
+  Гальліка-Галея: CA - Eagle Rising / er_items.xml # cla_rome_helm_optio_f_red_white
+
+Gambeson = Гамбезон
+  Гамбезон: Realm of Thrones / str_english.xml # ROTnorthgambeson
+
+Gasa = Дзяса
+  Дзяса: Tetsojin / items/tetsojin_troop_armor.xml # Tett11
+
+Gauntlet = Рукавіца | Рукавіцы
+  Рукавіца: The Old Realms / armory_by/tor_armors.xml # str_tor_empire_arm_gauntlet_greatsword_001
+  Рукавіцы: Realm of Thrones / str_english.xml # ROTaad6436a7
+
+Glove = Наручы | Пальчаткі
+  Наручы: Realm of Thrones / str_english.xml # mountgloves
+  Пальчаткі: Realm of Thrones / str_english.xml # renlygloves
+  Пальчаткі [у назьве: Пальчаткамі]: Realm of Thrones / str_english.xml # tarlgloves
+
+Gorget = Гаржэт
+  Гаржэт: Realm of Thrones / str_english.xml # tulgorg
+  Гаржэт [у назьве: Гаржэтам]: Realm of Thrones / str_english.xml # tabgorg
+
+Greathelm = Гаршковы Шалом | Шлем
+  Гаршковы Шалом: BahamutArmory / items.xml # BahamutsArmory06
+  Шлем: The Old Realms / armory_by/tor_armors.xml # str_tor_chaos_head_helm_khorne_warrior_001
+
+Greave = Паножа | Паножы
+  Паножа: CA - Eagle Rising / er_items.xml # cla_carthage_legs_greaves_single_1
+  Паножы: CA - Eagle Rising / er_items.xml # cla_dacia_legs_greaves_black
+  Паножы [у назьве: Паножамі]: Ancient Civilization / cts_roman_items.xml # cts_roman_long_pants_graves.name
+
+Hachigane = Хаціганэ
+  Хаціганэ: Shokuho / module_localization_strings.xml # cfgAVkkE
+
+Haidate = Хаідатэ
+  Хаідатэ: Shokuho / module_localization_strings.xml # 6oWrfo7c
+
+Half aketon = Паўакетон
+  Паўакетон: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_aketona
+
+Half cervelliere = Паўцэрвельер
+  Паўцэрвельер: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_painted_cervellierea
+
+Half coif = Паўкоіф
+  Паўкоіф: Anno Domini 1259 / items_native.xml # zQv3w264
+
+Half gambeson = Паўгамбезон
+  Паўгамбезон: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_gambesona
+
+Half plate = Паўпласьціна
+  Паўпласьціна: Anno Domini 1259 / reiko_fixes/items_eba.xml # halfplate_gambeson_jackchains_1.name
+
+Hamata = Хамата
+  Хамата: Ancient Civilization / cts_celtic_items.xml # cts_celtic_hamata.name
+
+Haubergeon = Гаўбергіён
+  Гаўбергіён: EOE Flavour Pack / armors.xml # eoe_normanhauberk1.name
+
+Hauberk = Гаўберк
+  Гаўберк: Core / Native/std_mpitems_xml_by.xml # FHakBPXw
+
+Heaume = Гаршковы Шалом
+  Гаршковы Шалом: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_great_helmet_base
+
+Helm = Гаршковы Шалом | Капалін | Шалом | Шалом-Франдорф | Шлем | Шлем-Італік | Шлём
+  Гаршковы Шалом: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_great_prankh_helm
+  Капалін: The Old Realms / armory_by/tor_armors.xml # str_tor_bretonnian_head_helm_006
+  Шалом: CA - Eagle Rising / er_items.xml # cla_iberian_helm_bronze
+  Шалом-Франдорф: CA - Eagle Rising / er_items.xml # cla_rome_helm_pfrondorf_gulag
+  Шлем: Ancient Civilization / cts_celtic_items.xml # cts_celtic_helm_c.name
+  Шлем [у назьве: Шлем-Карона]: Anno Domini 1259 / reiko_fixes/items_swadian.xml # crowned_helm_with_faceplate.name
+  Шлем-Італік: CA - Eagle Rising / er_items.xml # cla_rome_helm_niedermormter_high_brass_mask
+  Шлём: Mordhau Armor Pack / items.xml # johead2.name
+
+Helmet = Панцыр | Шалом | Шалом-Капалін | Шалом-Каўпак | Шлём
+  Панцыр: Realm of Thrones / str_english.xml # ROT4ff640a75 — сумнеўная адпаведнасьць: у крыніцы Unsullied Pikeman Helmet; патрабуе праверкі
+  Шалом: Realm of Thrones / str_english.xml # ROTreachhelmet
+  Шалом [у назьве: Шалом-Карона]: Anno Domini 1259 / items_native.xml # EPaqJLSg
+  Шалом-Капалін: Anno Domini 1259 / items_osa.xml # osa_ar_battania_helmet_c
+  Шалом-Каўпак: Anno Domini 1259 / items_osa.xml # osa_battania_simple_spangenhelm
+  Шлём: CA - Eagle Rising / er_items.xml # cla_dacia_helm_tall_ridge_brass
+
+Hounskull / Houndskull = Бацынет | Сабачая Пыса
+  Бацынет: Anno Domini 1259 / reiko_fixes/items_eba.xml # houndskull_ba_1.name
+  Сабачая Пыса: Realm of Thrones / str_english.xml # houndskull
+
+Intercisa = Інтэрцыса
+  Інтэрцыса: BurningEmpires / spitems.xml # be_roman_helm_intercisa_crest_masked
+
+Italic = Італія | Шлем-Італік
+  Італія: CA - Eagle Rising / er_items.xml # cla_rome_helm_italic_b
+  Шлем-Італік: CA - Eagle Rising / er_items.xml # cla_rome_helm_niedermormter_high_brass_mask
+
+Jingasa = Дзінгаса
+  Дзінгаса: Shokuho / module_localization_strings.xml # 5MkZxjuj
+
+Kabuto = Кабуто
+  Кабуто: Shokuho / module_localization_strings.xml # UObFo01T
+
+Kettle = Айзэнхут | Капалін | Капалін-Капліца | Протакапалін
+  Айзэнхут: Mordhau Armor Pack / items.xml # arhead2.name
+  Капалін: Realm of Thrones / str_english.xml # daynehelm4
+  Капалін-Капліца: Anno Domini 1259 / reiko_fixes/items_eba.xml # chap_kettle1.name
+  Протакапалін: Anno Domini 1259 / reiko_fixes/items_eba.xml # e_lkettle_1.name
+
+Khazangand = Хазаганд
+  Хазаганд: Anno Domini 1259 / reiko_fixes/items_eba.xml # khazangand_1.name
+
+Klappvisor = Клапвізар
+  Клапвізар: Anno Domini 1259 / reiko_fixes/items_eba.xml # klappvisor1.name
+  Клапвізар [у назьве: Клапвізарам]: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_bacinet_with_klappvisor
+
+Klappvsior = Клапвізар
+  Клапвізар: Anno Domini 1259 / reiko_fixes/items_eba.xml # pig_klappvisor_1.name
+
+Klivanion = Клібаніён
+  Клібаніён: EOE Flavour Pack / armors.xml # eoe_byz_fleurlamellar_cloth1.name
+
+Konos = Канос
+  Канос: CA - Eagle Rising / er_items.xml # cla_carthage_helm_thracian_konos
+
+Kote = Котэ
+  Котэ: Shokuho / module_localization_strings.xml # q1KgboXi
+
+Lamellar = Ламеляр
+  Ламеляр: Anno Domini 1259 / items_osa.xml # osa_ao_durkhan_lamellar
+
+Lamellar armor = Ламеляр | Панцыр
+  Ламеляр: Calradia Rising Armory / body_armor.xml # cr_leather_lamellar_armor.name
+  Панцыр: Chinese Weapons Huaxia / Infernal_Reaper.xml # adbianjunxiongjia
+
+Laminata = Ламіната
+  Ламіната: CA - Eagle Rising / er_items.xml # cla_dacia_armor_leather_laminata
+
+Leg harness = Абкруткі | Ахова Ног
+  Абкруткі: Mordhau Armor Pack / items.xml # itleg.name
+  Ахова Ног: Ben's Armory / leg_armor.xml # bb_composite_legs.name
+
+Legeneer = Легініры
+  Легініры: BurningEmpires / spitems.xml # be_german_lengeneer_orange
+
+Leggings = Легінсы | Паножы
+  Легінсы: Anno Domini 1259 / reiko_fixes/items_eba.xml # 14_midsplinted_greaves.name
+  Паножы: Mordhau Armor Pack / items.xml # lileg.name
+
+Lichina = Лічына
+  Лічына: Anno Domini 1259 / reiko_fixes/items_ad_1259.xml # osp_li4ina.name
+
+Linothorax = Лінаторакс
+  Лінаторакс: Ancient Civilization / cts_celtic_items.xml # cts_celtic_linothorax_a.name
+
+Lorica = Лорыка
+  Лорыка: CA - Eagle Rising / er_items.xml # cla_rome_body_cj_hamata_light_1
+
+Lorica hamata = Лорыка Хамата
+  Лорыка Хамата: CA - Eagle Rising / er_items.xml # cla_rome_body_cj_hamata_light_1
+
+Lorica scale = Лорыка-Луската
+  Лорыка-Луската: Ancient Civilization / cts_roman_items.xml # cts_roman_lorica_scale_pterges.name
+
+Lorica segmentata = Лорыка Сегментата | Сегментата
+  Лорыка Сегментата: CA - Eagle Rising / er_items.xml # cla_rome_body_segmentata
+  Сегментата: Ancient Civilization / cts_roman_items.xml # cts_lorica_segmentata_shoulder_a.name
+
+Lorica squamata = Лорыка Сквамата
+  Лорыка Сквамата: CA - Eagle Rising / er_items.xml # cla_rome_body_cj_squamata_new_mix_blue
+
+Mail = Кальчуга
+  Кальчуга: Templar Armor / items.xml # ktemplarnbr_z_white.name
+
+Mail armor = Кальчуга | Панцыр
+  Кальчуга: Templar Armor / items.xml # ktemplarnbr_z_white.name
+  Панцыр: Anno Domini 1259 / items_native.xml # puNpMCgX
+
+Manica = Маніка
+  Маніка: BurningEmpires / spitems.xml # be_roman_manica_iron
+
+Mask = Маска | Пласьціна
+  Маска: Shokuho / module_localization_strings.xml # Oeo0q3wU
+  Пласьціна: EOE Flavour Pack / helmets.xml # eoe_lithuanianfaceplate_1.name
+
+Menpo = Мэнпо
+  Мэнпо: Shokuho / module_localization_strings.xml # YOiJXHji
+
+Mitten = Мітэнкі | Міценкі
+  Мітэнкі: Calradia Rising Armory / arm_armor.xml # cr_b_lordly_padded_mitten.name
+  Мітэнкі [у назьве: Мітэнкамі]: Calradia Rising Armory / arm_armor.xml # cr_b_padded_vambrace.name
+  Міценкі: Anno Domini 1259 / items_native.xml # J3YHMkL3
+
+Monferier = Шалом-Монфер'е
+  Шалом-Монфер'е: Ancient Civilization / cts_roman_items.xml # cts_roman_republican_helmet_a.name
+
+Montefortino = Монтэфарціна | Шалом
+  Монтэфарціна: CA - Eagle Rising / er_items.xml # cla_celtic_montefortino_iron
+  Шалом: CA - Eagle Rising / er_items.xml # cla_celts_helm_montefortino_carthage_gt
+
+Montferier = Мунфер'е
+  Мунфер'е: Ancient Civilization / cts_carthage_items.xml # cts_carthage_montferier.name
+
+Morion = Марыён
+  Марыён: Shokuho / module_localization_strings.xml # oQeZ3wkn
+
+Musculata = Мускулата
+  Мускулата: CA - Eagle Rising / er_items.xml # cla_carthage_body_musculata_leather_brown
+
+Nasal = Наносьнік
+  Наносьнік [у назьве: Наносьнікам]: Core / Native/std_mpitems_xml_by.xml # v23z53yg
+
+Nasal helm = Назальхельм | Шалом
+  Назальхельм: Calradia Rising Armory / head_armor.xml # calradia_empire_helmet_1.name
+  Шалом: Core / Native/std_mpitems_xml_by.xml # v23z53yg
+
+Nasalhelm = Назальхельм
+  Назальхельм: Realm of Thrones / str_english.xml # ROT70c04a5ad
+  Назальхельм [у назьве: Назальхельм-Карона]: Anno Domini 1259 / items_osa.xml # osa_tv_vlandia_royal_helmet_b
+
+Neckguard = Ахова Шыі | Гаржэт
+  Ахова Шыі: Calradia Rising Armory / shoulder_armor.xml # CR_b_khuzait_leather_shoulder_b_b.name
+  Ахова Шыі [у назьве: Аховай Шыі]: The Old Realms / armory_by/xslt_changes.xml # Q19xluDy
+  Гаржэт: Core / Native/std_mpitems_xml_by.xml # ykCJ3hDB
+
+Noseguard = Наносьнік
+  Наносьнік [у назьве: Наносьнікам]: BurningEmpires / spitems.xml # be_germ_fern_c
+
+Ō-yoroi = О-ёрой
+  О-ёрой: Shokuho / module_localization_strings.xml # 6gpCytKe
+
+Osode = Асодэ
+  Асодэ: Shokuho / module_localization_strings.xml # JYnKmPLU
+
+Pauldron = Наплечнікі | Палдрон | Палдроны
+  Наплечнікі: Anno Domini 1259 / items_native.xml # Ie0EazLn
+  Палдрон: The Old Realms / armory_by/tor_armors.xml # str_tor_empire_shoulder_pauldron_greatsword_001
+  Палдроны: Realm of Thrones / str_english.xml # ROTreachpauldrons
+  Палдроны [у назьве: Палдронамі]: Realm of Thrones / str_english.xml # tabpaul
+
+Phrygian = Фрыгіан
+  Фрыгіан: CA - Eagle Rising / er_items.xml # cla_carthage_helm_phrygian_simple
+
+Pilos = Пілас | Пілос
+  Пілас: Ancient Civilization / cts_greek_items.xml # pilos_2.name
+  Пілос: CA - Eagle Rising / er_items.xml # cla_rome_hat_pilos
+
+Pizaine = Піцэна
+  Піцэна: The Old Realms / armory_by/tor_armors.xml # str_tor_bretonnian_shoulder_pauldron_knight_001
+
+Plate = Латы | Панцыр | Пласьціна | Пласьціны
+  Латы: Anno Domini 1259 / reiko_fixes/items_eba.xml # ren_fullplate_1.name
+  Панцыр: Realm of Thrones / str_english.xml # arrynarmor
+  Пласьціна: Realm of Thrones / str_english.xml # arrynplate
+  Пласьціны: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_shoulders
+
+Pot helmet = Шалом-Гаршчок | Шышак
+  Шалом-Гаршчок: EmpiresofEuropeAmericas / items.xml # pot_helmet.name
+  Шышак: Anno Domini 1259 / reiko_fixes/items_eba.xml # norm_potplate_1.name
+
+Protector = Пратэктар
+  Пратэктар: CA - Eagle Rising / er_items.xml # cla_carthage_body_tunic_waist_1
+
+Pteruges / Pteryges = Птэругі | Птэрыгі
+  Птэругі: Realm of Thrones / str_english.xml # wwarmor2
+  Птэругі [у назьве: Птэругамі]: BurningEmpires / spitems.xml # be_roman_squamata_undecor
+  Птэрыгі [у назьве: Птэрыгамі]: CA - Eagle Rising / er_items.xml # cla_rome_body_cj_hamata_light_pteru
+
+Punchas = Бівакі
+  Бівакі: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_bracers_orc_black_3_001
+
+Pylos = Пілас
+  Пілас: Ancient Civilization / cts_carthage_items.xml # cts_carthaginian_pylos.name
+
+Rondel = Рандэль
+  Рандэль [у назьве: Рандэлямі]: Mordhau Armor Pack / items.xml # jocape.name
+
+Roundkettle = Капалін
+  Капалін: Anno Domini 1259 / items_native.xml # BUlmMbgH
+
+Sabatons = Сабатоны
+  Сабатоны: Realm of Thrones / str_english.xml # ramsboots
+  Сабатоны [у назьве: Сабатонамі]: Ben's Armory / leg_armor.xml # bb_plate_legs.name
+
+Sallet / Salet = Салад | Шалом
+  Салад: BahamutArmory / items.xml # BahamutsArmory22
+  Салад [у назьве: Салад-Карона]: Anno Domini 1259 / reiko_fixes/items_swadian.xml # sallet_crowned.name
+  Шалом: Realm of Thrones / str_english.xml # mandhelmet4
+
+Sandals = Сандалі
+  Сандалі: EmpiresofEurope1100 / 1100/europeItems.xml # ladies_sandles.name
+
+Scale = Луската
+  Луската: Calradia Rising Armory / body_armor.xml # cr_b_desert_scale_armor.name
+
+Scalothorax = Скалаторакс
+  Скалаторакс: CA - Eagle Rising / er_items.xml # cla_carthage_body_scalothorax_iron_white
+
+Scutarii = Скутары
+  Скутары: CA - Eagle Rising / er_items.xml # cla_iberian_shield_scutarii_iron_1
+
+Shoe = Лапці | Туфлі | Чаравікі
+  Лапці: Eastern Europe 1259 / belarusian.xml # lt_birch_bark_shoes.name
+  Туфлі: Realm of Thrones / str_english.xml # tullyshoes
+  Чаравікі: EmpiresofEurope1100 / 1100/europeItems.xml # askari_shoes.name
+
+Sholdafings = Наплешныя Штукі
+  Наплешныя Штукі: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_shoulderpads_orc_arrer_boyz_001
+
+Sholdapads = Наплешнікі
+  Наплешнікі: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_shoulderpads_orc_shaman_003
+
+Shouldapads = Плешавыя Накладкі
+  Плешавыя Накладкі: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_shoulderpads_orc_boar_boyz_001
+
+Shoulder = Наплечнікі | Пласьціны
+  Наплечнікі: Realm of Thrones / str_english.xml # ROT00087
+  Пласьціны: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_shoulders
+
+Shoulder armor = Наплечнікі
+  Наплечнікі: Ancient Civilization / cts_celtic_items.xml # cts_celtic_shoulder_armor_a.name
+
+Shoulder guard = Абарона Плячэй | Ахова Плячэй | Наплечная Ахова | Плечавая Абарона
+  Абарона Плячэй: Anno Domini 1259 / items_native.xml # 9w40yGlZ
+  Ахова Плячэй: Templar Armor / items.xml # templar_chain_a.name
+  Наплечная Ахова: The Old Realms / armory_by/xslt_changes.xml # 9w40yGlZ
+  Плечавая Абарона: Wheel of Time / WoTitems.xml # W9bsRAfD
+
+Shoulder pad = Наплечныя Падкладкі
+  Наплечныя Падкладкі: Anno Domini 1259 / items_native.xml # EyQTfFS6
+
+Shoulder pieces = Наплечнікі-Кавалкі | Наплечныя Часткі | Часткі Наплечнікаў
+  Наплечнікі-Кавалкі: Anno Domini 1259 / items_native.xml # ICsecuVv
+  Наплечныя Часткі: The Old Realms / armory_by/xslt_changes.xml # M0n609ut
+  Часткі Наплечнікаў: Anno Domini 1259 / items_native.xml # M0n609ut
+
+Shoulder straps = Наплечныя Палоскі
+  Наплечныя Палоскі: Anno Domini 1259 / items_osa.xml # osa_ar_battanian_shoulder_e
+
+Shoulderpad = Наплечнікі | Наплечныя Накладкі
+  Наплечнікі: Core / Native/std_mpitems_xml_by.xml # FyXM8Iob
+  Наплечныя Накладкі: The Old Realms / armory_by/tor_armors.xml # str_tor_chaos_shoulder_cape_chaos_warrior_001
+
+Skullcap = Чарэпнік
+  Чарэпнік: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_orc_boar_boyz_helmet_001
+
+Sode = Содэ
+  Содэ: Shokuho / module_localization_strings.xml # ulaqb6QQ
+
+Solerets = Сабатоны
+  Сабатоны: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_plate_boots
+
+Spangenhelm = Шпангенхэльм
+  Шпангенхэльм: Anno Domini 1259 / items_osa.xml # osa_ar_battania_helmet_g
+  Шпангенхэльм [у назьве: Шпангенхэльм-Карона]: Anno Domini 1259 / items_osa.xml # osa_ao_imperial_crowned_nasal_helmet
+
+Spaulder = Сполдэры
+  Сполдэры: Mordhau Armor Pack / items.xml # jocape2.name
+
+Squamata = Сквамата
+  Сквамата: BurningEmpires / spitems.xml # be_roman_squamata_noptyerges
+
+Stompas = Тапталы
+  Тапталы: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_boots_orc_black_3_001
+
+Subarmalis = Субармаліс
+  Субармаліс: CA - Eagle Rising / er_items.xml # cla_rome_body_subarmalis
+
+Suneate = Сунэатэ
+  Сунэатэ: Shokuho / module_localization_strings.xml # ZEAspayX
+
+Thracian = Тракіан
+  Тракіан: CA - Eagle Rising / er_items.xml # cla_carthage_helm_thracian
+
+Turban helmet = Шалом | Шалом-Турбан
+  Шалом: EmpiresofEurope1100 / 1100/europeItems.xml # noble_turban_helmet.name
+  Шалом-Турбан: BahamutArmory / items.xml # BahamutsArmory38
+
+Uma yoroi = Ума Ёрой | Ўма Ёрой
+  Ума Ёрой: Shokuho / module_localization_strings.xml # AmsJ1tMN
+  Ўма Ёрой: Shokuho / module_localization_strings.xml # UpBWGUY0
+
+Valsgarde = Вальсгард
+  Вальсгард: Anno Domini 1259 / reiko_fixes/items_eba.xml # valsgarde_1.name
+
+Vambrace = Поручы
+  Поручы: Anno Domini 1259 / items_native.xml # MamotK0a
+
+Visor = Забрала | Заслона
+  Забрала [у назьве: Забралам]: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_bascinet_with_open_visor1
+  Заслона [у назьве: Заслонай]: Swadian Armoury / items.xml # vlandian_helm_with_visor.name
+  Заслона [у назьве: Заслоны]: The Old Realms / armory_by/tor_armors.xml # str_tor_empire_head_helm_sallet_002
+
+Warhelmet = Вайсковы Шалом
+  Вайсковы Шалом: Anno Domini 1259 / reiko_fixes/items_eba.xml # noble_as_helmet1.name
+
+Weisenau = Вайзэнаў
+  Вайзэнаў: CA - Eagle Rising / er_items.xml # cla_rome_helm_weisenau
+
+========================================================================
+ШЧЫТЫ
+========================================================================
+
+Adarga = Адарга
+  Адарга: Anno Domini 1259 / items_native.xml # QcKpipVr
+
+Aspis = Асьпіс
+  Асьпіс: CA - Eagle Rising / er_items.xml # cla_carthage_shield_aspis_bronze
+
+Boss = Умбон
+  Умбон [у назьве: Умбонам]: BurningEmpires / spitems.xml # be_dura
+
+Buckler = Баклер
+  Баклер: Wheel of Time / WoTitems.xml # Aiel_shield
+
+Caetra = Каэтра
+  Каэтра: CA - Eagle Rising / er_items.xml # cla_carthage_shield_round_small_iron_iberian
+
+Daraqa = Дарака аль-Ламтунія
+  Дарака аль-Ламтунія: EOE Flavour Pack / shields.xml # eoe_almovarid_lamt1.name
+
+Heater shield = Трохкутны Шчыт
+  Трохкутны Шчыт: Eastern Europe 1259 / belarusian.xml # lt_heater_shield_naked0
+
+Januwiya = Джанувія
+  Джанувія: EOE Flavour Pack / shields.xml # eoe_arabshield1.name
+
+Kite shield = Шчыт-Кропля
+  Шчыт-Кропля: Anno Domini 1259 / items_native.xml # uqO6e6vN
+
+Parma = Парма
+  Парма: CA - Eagle Rising / er_items.xml # cla_rome_shield_cjiaba_round_iron
+
+Parmula = Пармула
+  Пармула: BurningEmpires / spitems.xml # be_garrett_parma_leather_2
+
+Scute = Пласьціна
+  Пласьціна: Chinese Weapons Huaxia / Infernal_Reaper.xml # addatangfubingxiongjia
+
+Scutum = Скутум
+  Скутум: CA - Eagle Rising / er_items.xml # cla_carthage_shield_scutum_rectangle_1
+
+Shield = Джанувія | Паўшчыт | Шчыт
+  Джанувія: EOE Flavour Pack / shields.xml # eoe_arabshield1.name
+  Паўшчыт: CA - Eagle Rising / er_items.xml # cla_germ_shield_hex_half_1
+  Шчыт: Realm of Thrones / str_english.xml # lysshield
+
+Targe = Тарж | Тарч
+  Тарж: Anno Domini 1259 / items_native.xml # RBM_SHI_001
+  Тарч: Anno Domini 1259 / items_native.xml # MnmUBlbL
+
+Thureos = Туэрас
+  Туэрас: CA - Eagle Rising / er_items.xml # cla_carthage_shield_thureos_1
+
+Tower shield = Шчыт | Шчыт-Вежа
+  Шчыт: Wheel of Time / WoTitems.xml # WhiteTowerShield1
+  Шчыт-Вежа: Anno Domini 1259 / items_osw.xml # osa_ar_shield_infantry_zzf
+
+========================================================================
+КОННЫ РЫШТУНАК
+========================================================================
+
+Barding = Барда
+  Барда: Anno Domini 1259 / items_native.xml # amqJbdDV
+
+Camel saddle = Сядло
+  Сядло: Anno Domini 1259 / items_native.xml # q1z4FQub
+
+Caparison = Папона
+  Папона: Eastern Europe 1259 / belarusian.xml # lt_caparison_grey.name
+
+Half barding = Паўбарда
+  Паўбарда: Core / Native/std_mpitems_xml_by.xml # 0rzKQbWy
+
+Half caparison = Паўпапона
+  Паўпапона: EOE Flavour Horse Armoury / horse_caparison.xml # eoe_mailcapar_3.name
+
+Harness = Вупраж | Запрэжка | Збруя
+  Вупраж: Anno Domini 1259 / items_native.xml # y1YTxkmn
+  Запрэжка: Anno Domini 1259 / items_native.xml # O37kzdXO
+  Збруя: The Old Realms / armory_by/tor_horseandharness.xml # str_tor_harness_vampire1
+
+Horse armor / Horse armour = Барда | Конны Панцыр | Панцыр | Папона
+  Барда: The Old Realms / armory_by/tor_horseandharness.xml # str_tor_harness_empire1
+  Конны Панцыр: Realm of Thrones / str_english.xml # horsearmor1
+  Панцыр: EmpiresofEuropeAmericas / items.xml # JkxPt29i
+  Папона: Templar Armor / items.xml # templar_horsearmor.name
+
+Horse coat = Коннае Паліто
+  Коннае Паліто: Wheel of Time / WoTitems.xml # Wot2024horsearmor2
+
+Horse harness = Вупраж | Запрэжка | Збруя | Конная Запрэжка
+  Вупраж: BurningEmpires / spitems.xml # be_german_horse_harness_light
+  Запрэжка: Core / Native/std_mpitems_xml_by.xml # wrM9Km0n
+  Збруя: The Old Realms / armory_by/tor_horseandharness.xml # str_tor_harness_vampire1
+  Конная Запрэжка: The Old Realms / armory_by/xslt_changes.xml # 33aaUcaX
+
+Saddle = Сядло
+  Сядло: Anno Domini 1259 / items_native.xml # k3dvbLDi
+
+Spurs = Шпоры
+  Шпоры [у назьве: Шпорамі]: Eastern Europe 1259 / belarusian.xml # lt_mail_chausses_a_spurs1
+
+========================================================================
+ВОПРАТКА Ў СКЛАДЗЕ РЫШТУНКУ
+========================================================================
+
+Apron = Фартух
+  Фартух: Anno Domini 1259 / items_native.xml # 2WQTvOLF
+
+Bandolier = Бандальер
+  Бандальер: EmpiresofEuropeAmericas / items.xml # bandolier.name
+
+Barett = Барэт | Бярэ
+  Барэт: Eastern Europe 1259 / belarusian.xml # lt_teuton_monk_hat
+  Бярэ: Eastern Europe 1259 / belarusian.xml # lt_teuton_monk_hat
+
+Bearskin = Скура | Футра | Шапка | Шкура
+  Скура: Core / Native/std_mpitems_xml_by.xml # 4Q4JVfuT
+  Футра: EmpiresofEurope1700 / items.xml # bearskin.name
+  Шапка: EmpiresofEuropeAmericas / items.xml # bearskin.name
+  Шкура: The Old Realms / armory_by/xslt_changes.xml # KKWEkA4P
+
+Belt = Пас
+  Пас: EmpiresofEuropeAmericas / items.xml # holster_belt.name
+
+Beret = Берэт | Бярэт
+  Берэт: The Old Realms / armory_by/tor_armors.xml # str_tor_empire_head_helm_hunter_001
+  Бярэт: EmpiresofEurope1700 / items.xml # beret.name
+
+Bisht = Бішт
+  Бішт: Anno Domini 1259 / items_native.xml # SW3lkPHe
+
+Bonnet = Чэпчык
+  Чэпчык: EmpiresofEuropeAmericas / items.xml # commoner_bonnet.name
+
+Bootforts = Батфорты
+  Батфорты: EmpiresofEurope1700 / items.xml # botforts.name
+
+Cap = Капалін | Каўпак | Мітра | Цэрвельер | Шалом | Шапка | Шпангенхэльм-Каўпак
+  Капалін: EOE Flavour Pack / espada_helmets.xml # eoe_kettleplain_cap.name
+  Каўпак: Anno Domini 1259 / items_native.xml # BryUh6yQ
+  Мітра: EmpiresofEurope1700 / items.xml # mitre_cap.name
+  Цэрвельер: EOE Flavour Pack / espada_helmets.xml # eoe_cervelliere_cap.name
+  Шалом: EOE Flavour Pack / espada_helmets.xml # eoe_roundhelmet_cap.name
+  Шапка: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_orc_arrer_boyz_hood_003
+  Шпангенхэльм-Каўпак: Anno Domini 1259 / items_osa.xml # osa_ar_sturgia_helmet_f
+
+Cape = Накідка | Палдрон-Накідка | Плашч | Шапка
+  Накідка: Anno Domini 1259 / reiko_fixes/items_eba.xml # cape_1.name
+  Накідка [у назьве: Накідкай]: Anno Domini 1259 / items_native.xml # re2oRFLW
+  Палдрон-Накідка: Core / Native/std_mpitems_xml_by.xml # 3qF14kaR
+  Плашч: Realm of Thrones / str_english.xml # ROT00061
+  Шапка: Anno Domini 1259 / items_native.xml # 6CMYwYai — сумнеўная адпаведнасьць: у крыніцы Padded Leather Cape; патрабуе праверкі
+
+Chaperon = Шаперон
+  Шаперон: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_chaperon
+
+Chaperone = Шаперон
+  Шаперон: Anno Domini 1259 / reiko_fixes/items_eba.xml # chaperone1.name
+
+Chiton = Хітон
+  Хітон: Anno Domini 1259 / items_osa.xml # osa_ar_empire_armor_p
+
+Cloak = Плашч | Покрыва
+  Плашч: Anno Domini 1259 / items_osa.xml # osa_ao_battanian_cloak
+  Покрыва: Anno Domini 1259 / reiko_fixes/items_eba.xml # el_cloak_1.name
+  Покрыва [у назьве: Покрывам]: Mordhau Armor Pack / items.xml # crhead.name
+
+Coat = Паліто
+  Паліто: Core / Native/std_mpitems_xml_by.xml # h5IlkYck
+
+Colpack = Каўпак
+  Каўпак: EmpiresofEurope1700 / items.xml # hussar_colpack.name
+
+Exomis = Эксоміс
+  Эксоміс: Ancient Civilization / cts_greek_items.xml # exomis_2.name
+
+Eyepatch = Навочная Павязка
+  Навочная Павязка: Anno Domini 1259 / reiko_fixes/items_eba.xml # eyepatch_1.name
+
+Focale = Фокал
+  Фокал: Anno Domini 1259 / items_osa.xml # osa_ao_focale
+
+Fur = Футра
+  Футра: Calradia Rising Armory / shoulder_armor.xml # cr_w_rough_bearskin.name
+  Футра [у назьве: Футрам]: Anno Domini 1259 / items_native.xml # NMSEAA4A
+
+Greatcoat = Шынель
+  Шынель: EmpiresofEurope1700 / items.xml # infantry_greatcoat.name
+
+Hakama = Хакама
+  Хакама: Shokuho / module_localization_strings.xml # fyWQFmQS
+
+Hat = Капалін | Капалін-Капялюх | Капялюх | Капялюш | Капялюш-Казанок | Мітра | Шапка
+  Капалін: The Old Realms / armory_by/tor_armors.xml # str_tor_tilean_head_helm_knight_002
+  Капалін-Капялюх: Anno Domini 1259 / items_native.xml # wBfGpcCO
+  Капялюх: Wheel of Time / WoTitems.xml # MatCuthonHat
+  Капялюш: Eastern Europe 1259 / belarusian.xml # lt_balt_hat10b
+  Капялюш-Казанок: EmpiresofEurope1700 / items.xml # bowler_hat.name
+  Мітра: EmpiresofEuropeAmericas / items.xml # british_grenadier_mitre_hat.name
+  Шапка: EmpiresofEurope1100 / 1100/europeItems.xml # early_pope_hat.name
+
+Head wrap = Галаўныя Абгорткі | Галаўныя Абкруткі
+  Галаўныя Абгорткі: Anno Domini 1259 / items_native.xml # ndfDy5B8
+  Галаўныя Абкруткі: Anno Domini 1259 / items_native.xml # Qyg2bJLX
+
+Headband = Павязка
+  Павязка: Anno Domini 1259 / items_osa.xml # osa_ao_mabili_leather_headband
+
+Headcloth = Галаўны Ўбор
+  Галаўны Ўбор: Anno Domini 1259 / items_native.xml # hRHPPQQP
+
+Headscarf = Хустка
+  Хустка: Anno Domini 1259 / items_native.xml # sc2x2QRe
+
+Headwrap = Галаўныя Абкруткі
+  Галаўныя Абкруткі: Anno Domini 1259 / items_native.xml # frwBm3Oh
+
+Hennin = Хенін
+  Хенін: The Old Realms / armory_by/tor_armors.xml # str_tor_bretonnian_head_prophetess_001
+
+Hijab = Хіджаб
+  Хіджаб: Anno Domini 1259 / items_native.xml # wW3iouiU
+
+Hood = Каптур | Капюшон | Покрыва
+  Каптур: Anno Domini 1259 / items_native.xml # lbVB6KPl
+  Капюшон: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_disciple_hood
+  Покрыва: Calradia Rising Armory / head_armor.xml # cr_nomad_padded_hood.name
+
+Hose = Хазіны
+  Хазіны: Ben's Armory / leg_armor.xml # bb_hose_1.name
+
+Hosen = Хазіны
+  Хазіны: Anno Domini 1259 / reiko_fixes/items_eba.xml # poor_el_boots1.name
+
+Jackboots = Батфорты
+  Батфорты: Core / Naval/std_items_xml.xml # BvOMXDhA
+
+Jacket = Жакет | Куртка
+  Жакет: BurningEmpires / spitems.xml # be_hun_sleeved_1
+  Куртка: EmpiresofEurope1700 / items.xml # fustanella_jacket.name
+
+Jinbaori = Дзінбаоры | Дзінбоары
+  Дзінбаоры: Shokuho / module_localization_strings.xml # RN0CjgA0
+  Дзінбоары: Shokuho / module_localization_strings.xml # yANNztZH
+
+Jupon = Жупон
+  Жупон: Anno Domini 1259 / reiko_fixes/items_eba.xml # joupon_1.name
+
+Kaftan = Каптан | Кафтан
+  Каптан: Anno Domini 1259 / items_native.xml # K2JbjKLG
+  Кафтан: BurningEmpires / spitems.xml # be_mongol_kaftan_a
+
+Kamishimo = Камісімо
+  Камісімо: Shokuho / module_localization_strings.xml # 56EX4QYD
+
+Kaunakes = Каўнакес
+  Каўнакес: Core / SandBoxCore/std_spitems_xml_by.xml # 2dzLiCLk
+
+Kausia = Каусія
+  Каусія: CA - Eagle Rising / er_items.xml # cla_rome_hat_kausia
+
+Keffiyeh / Kefiyyeh = Куфія
+  Куфія: Anno Domini 1259 / items_native.xml # f2awUw9x
+
+Kilt = Кілт | Кільт
+  Кілт: Core / Native/std_common_strings_xml_by.xml # fptsl0Qn
+  Кільт: EmpiresofEurope1700 / items.xml # kilt.name
+
+Leather = Барміца | Скура
+  Барміца: Calradia Rising Armory / shoulder_armor.xml # cr_studded_shoulders.name
+  Скура: Anno Domini 1259 / items_native.xml # FRWm800F
+  Скура [у назьве: Скурай]: The Old Realms / armory_by/xslt_changes.xml # ZV1bKLUn
+
+Leg wrappings = Абкруткі | Абкруткі Ног | Абмоткі
+  Абкруткі: BurningEmpires / spitems.xml # be_german_tiroshoe_legwrap_brown
+  Абкруткі Ног: Core / Native/std_mpitems_xml_by.xml # cCaHNMwf
+  Абмоткі: The Old Realms / armory_by/xslt_changes.xml # xqE9aycc
+
+Longcoat = Паліто
+  Паліто: EmpiresofEurope1700 / items.xml # infantry_longcoat.name
+
+Mantle = Мантыя
+  Мантыя: Eastern Europe 1259 / belarusian.xml # lt_fur_mantle1
+
+Moccasins = Макасіны
+  Макасіны: Anno Domini 1259 / items_native.xml # SxqSJK8h
+
+Nuometas = Намітка
+  Намітка: Eastern Europe 1259 / belarusian.xml # lt_baltic_nuometas
+
+Overcoat = Каптан | Паліто | Шынель
+  Каптан: Ben's Armory / body_armor.xml # bb_overcoat_1.name
+  Паліто: The Old Realms / armory_by/xslt_changes.xml # CtJPuRDa
+  Шынель: Anno Domini 1259 / items_native.xml # CtJPuRDa
+
+Padding = Набіўка
+  Набіўка [у назьве: Набіўкаю]: Anno Domini 1259 / items_native.xml # uu9rXeYz
+  Набіўка [у назьве: Набіўкай]: The Old Realms / armory_by/xslt_changes.xml # uu9rXeYz
+
+Pants = Нагавіцы | Штаны
+  Нагавіцы: EmpiresofEuropeAmericas / items.xml # fighters_pants.name
+  Штаны: The Old Realms / armory_by/tor_armors.xml # str_tor_dw_body_armour_slayer_novice_001
+
+Pelt = Футра | Шкура
+  Футра: Anno Domini 1259 / items_osa.xml # osa_ar_aserai_shoulder_q
+  Шкура: The Old Realms / armory_by/xslt_changes.xml # QxzcuhmA
+
+Petasos = Пэтасос
+  Пэтасос: CA - Eagle Rising / er_items.xml # cla_rome_hat_petasos
+
+Pusnuometis = Павойнік | Пуснуаметыс
+  Павойнік: Eastern Europe 1259 / belarusian.xml # lt_baltic_pusnuometis
+  Пуснуаметыс: Eastern Europe 1259 / belarusian.xml # lt_baltic_pusnuometis
+
+Robe = Роба | Рыза | Халат
+  Роба: Eastern Europe 1259 / belarusian.xml # lt_monk_robe1
+  Рыза: EmpiresofEurope1100 / 1100/europeItems.xml # pope_robe.name
+  Халат: EmpiresofEurope1100 / 1100/europeItems.xml # turcoman_robe_blue.name
+
+Roningasa = Ронінгаса
+  Ронінгаса: Shokuho / module_localization_strings.xml # Trz6pkzv
+
+Sash = Пас | Пояс | Тальмах
+  Пас: BurningEmpires / spitems.xml # be_sash_celt
+  Пояс: Ancient Civilization / cts_celtic_items.xml # cts_sash_celt.name
+  Тальмах: Realm of Thrones / str_english.xml # targsash
+
+Scaramangion = Скарамангіён
+  Скарамангіён [у назьве: Скарамангіёнам]: EOE Flavour Pack / armors.xml # eoe_byz_fleurlamellar_cloth1.name
+
+Scarf = Шаль
+  Шаль: Anno Domini 1259 / items_native.xml # GNdVXMue
+
+Shawl = Хустка
+  Хустка: Anno Domini 1259 / items_native.xml # h1bcf5zn
+
+Shirt = Кашуля
+  Кашуля: EmpiresofEuropeAmericas / items.xml # farmers_shirt.name
+
+Shortcoat = Паліто
+  Паліто: Anno Domini 1259 / items_native.xml # hXijcZyp
+
+Skin = Футра | Шкура
+  Футра: Anno Domini 1259 / items_osa.xml # osa_ar_aserai_shoulder_k
+  Шкура: The Old Realms / armory_by/tor_armors.xml # str_tor_greenskin_body_armour_orc_arrer_boyz_001
+
+Skirt = Спадніца
+  Спадніца: Anno Domini 1259 / items_native.xml # Z9RlnXrD
+
+Sugegasa = Сугэгаса
+  Сугэгаса: Shokuho / module_localization_strings.xml # Yk0ki91Y
+
+Surcoat = Сюрко
+  Сюрко: Anno Domini 1259 / reiko_fixes/items_eba.xml # surcoat_6.name
+
+Tabard = Гамбезон | Табард
+  Гамбезон: Ben's Armory / body_armor.xml # bb_gambeson_tabard_1.name
+  Табард: Anno Domini 1259 / items_native.xml # 0a6Vz7wi
+
+Tagelmust = Тагельмуст
+  Тагельмуст: EOE Flavour Pack / helmets.xml # eoe_tagelmust_1.name
+
+Tartan = Тартан
+  Тартан: Anno Domini 1259 / items_native.xml # zG4Ms3f4
+
+Thawb = Фааб
+  Фааб: Anno Domini 1259 / items_native.xml # FAPHmzxQ
+
+Toga = Тога
+  Тога: Anno Domini 1259 / items_native.xml # R45H8quo
+
+Tricorne = Трыкутка
+  Трыкутка: EmpiresofEurope1700 / items.xml # gap_default_tricorne.name
+
+Trousers = Нагавіцы | Штаны
+  Нагавіцы: The Old Realms / armory_by/tor_armors.xml # str_tor_chaos_body_armor_marauder_002
+  Штаны: Core / Native/std_mpitems_xml_by.xml # IH9GsYzv
+
+Trunks = Шорты | Штаны
+  Шорты: Anno Domini 1259 / items_native.xml # btrf2AXp
+  Штаны: The Old Realms / armory_by/xslt_changes.xml # btrf2AXp
+
+Tunic = Кардыяфілакс | Лінаторакс | Туніка | Туніка-Клапенрок
+  Кардыяфілакс: Ancient Civilization / cts_roman_items.xml # cts_roman_cardiophylax_c.name
+  Лінаторакс: Ancient Civilization / cts_greek_items.xml # cts_thracian_linothorax_b.name
+  Туніка: CA - Eagle Rising / er_items.xml # cla_carthage_body_tunic_a_civ_1
+  Туніка-Клапенрок: EOE Flavour Pack / armors.xml # eoe_klappenrock_decor_pre1.name
+
+Turban = Турбан
+  Турбан: Anno Domini 1259 / items_native.xml # 8SNS2wF9
+
+Veil = Вуаль
+  Вуаль: Eastern Europe 1259 / belarusian.xml # lt_balt_veil1
+
+Vest = Брыганціна | Камізэль | Камізэлька
+  Брыганціна: Anno Domini 1259 / items_native.xml # BbhGL8XT
+  Камізэль: Vlandian Steel / items/vlandiansteel_items_strings.xml # vs_quilted_vesta
+  Камізэлька: Shokuho / module_localization_strings.xml # kxzCYmvt
+
+Waistcoat = Камізэлька | Куртка
+  Камізэлька: The Old Realms / armory_by/xslt_changes.xml # mkoMUmLh
+  Куртка: Anno Domini 1259 / items_native.xml # mkoMUmLh
+
+Wolfskin = Скура | Футра
+  Скура: CA - Eagle Rising / er_items.xml # cla_dacia_helm_cape_wolf_brown
+  Футра: Anno Domini 1259 / items_osa.xml # osa_ar_wolf_head_cloak_a
+
+========================================================================
+НАЗВЫ BYc БЕЗ АНГЕЛЬСКАЙ ПАРЫ ПА ID
+========================================================================
+
+Тэрміны гэтых назваў пакінутыя асобна: ангельскія адпаведнікі не дадумваліся.
+У гэтай заўвазе паказаныя толькі тэрміны; поўныя RPG-назвы не паўтараюцца.
+
+Нагруднік — EmpiresofEurope1700 / items.xml # hussar_body.name
+Наручы — EmpiresofEurope1700 / items.xml # hussar_gloves.name
+Каўпак — Open Source Armory / std_OSA_hmj_moretroops_head.xml # osa_hmj_simple_nasal_helm_з_scale
+Шалом — Open Source Armory / std_OSA_hmj_moretroops_head.xml # osa_simple_helmet_з_scale
+Сядло — Realm of Thrones / str_english.xml # wwСядло
+Накідка — The Old Realms / armory_by/tor_armors.xml # str_tor_vc_shoulder_basic_cape_Некрарха_001
+Роба — The Old Realms / armory_by/tor_armors.xml # str_tor_vc_body_basic_robe_Некрарха_001
+Панцыр — Wheel of Time / WoTitems.xml # WarderarmorLightoldСтылёвы

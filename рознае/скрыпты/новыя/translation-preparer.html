@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="be">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TAOM · Падрыхтоўка радкоў для перакладу</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.5 system-ui, sans-serif; color: #243247; background: #f2f5f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1250px; margin: 36px auto; padding: 0 24px; }
+    h1 { margin: 8px 0; font-size: clamp(24px, 4vw, 34px); line-height: 1.2; }
+    h2 { margin: 0 0 16px; font-size: 20px; }
+    p { margin: 8px 0 16px; }
+    .eyebrow { color: #526580; font-size: 13px; letter-spacing: .1em; }
+    .muted, small { color: #53657a; }
+    .card { margin: 24px 0; padding: 24px; border: 1px solid #dbe3ec; border-radius: 14px; background: white; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    label { display: block; font-size: 14px; font-weight: 600; }
+    input[type="text"], select, textarea { width: 100%; margin-top: 6px; padding: 10px 12px; border: 1px solid #b8c7d8; border-radius: 7px; background: white; color: inherit; font: inherit; }
+    input[type="file"] { max-width: 100%; margin-top: 8px; font: inherit; }
+    .check { display: flex; gap: 9px; align-items: center; margin-top: 18px; font-weight: 400; }
+    .check input { flex: 0 0 auto; }
+    .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+    button { border: 1px solid #b8c7d8; border-radius: 7px; padding: 10px 16px; background: white; color: #243247; font: inherit; cursor: pointer; }
+    button.primary { background: #2457c5; color: white; border-color: #2457c5; font-weight: 600; }
+    button:hover:not(:disabled) { filter: brightness(.95); }
+    button:disabled { opacity: .5; cursor: default; }
+    :focus-visible { outline: 3px solid #8bafff; outline-offset: 3px; }
+    progress { width: 100%; margin-top: 18px; }
+    .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-bottom: 18px; }
+    .stat { padding: 14px; background: #f2f5fa; border-radius: 8px; }
+    .stat strong { display: block; font-size: 26px; }
+    .notice { padding: 14px 16px; border-radius: 8px; margin: 16px 0; background: #fff3d9; color: #684511; }
+    .notice.error { background: #ffeded; color: #842c2c; }
+    .table-wrap { overflow: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { padding: 12px; text-align: left; vertical-align: top; border-bottom: 1px solid #e1e7ee; }
+    th { background: #f6f8fb; }
+    td { overflow-wrap: anywhere; }
+    td.id { width: 24%; font-family: ui-monospace, monospace; }
+    td.value { width: 46%; white-space: pre-wrap; }
+    td.source { width: 30%; }
+    td select { font-size: 13px; white-space: normal; }
+    details { margin-top: 10px; }
+    summary { cursor: pointer; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-bottom: 18px; }
+    .toolbar > label:first-child { flex: 1; min-width: 240px; }
+    .toolbar .check { margin: 0; }
+    .pagination { display: flex; justify-content: flex-end; align-items: center; gap: 12px; margin-top: 16px; }
+    code { font-family: ui-monospace, monospace; overflow-wrap: anywhere; }
+    #xmlPreview { min-height: 300px; font: 13px/1.5 ui-monospace, monospace; tab-size: 2; }
+    #issuesList { white-space: pre-wrap; max-height: 300px; overflow: auto; }
+    [hidden] { display: none !important; }
+    @media (max-width: 720px) { main { padding: 0 12px; margin-top: 24px; } .card { padding: 18px; } .grid, .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 440px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">TAOM · ЛАКАЛЬНЫ ІНСТРУМЕНТ · <span id="toolVersion"></span></div>
+    <h1>Падрыхтоўка радкоў для перакладу</h1>
+    <p class="muted">Выберыце тэчку з англійскімі зыходнікамі. Інструмент збярэ <code>{=stringid}тэкст</code> з файлаў і ўсіх падтэчак і створыць XML-файлы ў фармаце <code>ModuleData/Languages/PL</code>.</p>
+  </header>
+
+  <section class="card" aria-labelledby="settingsHeading">
+    <h2 id="settingsHeading">1. Зыходнікі і параметры</h2>
+    <label for="folder">Тэчка з файламі, напрыклад ModuleData</label>
+    <input id="folder" type="file" webkitdirectory directory multiple>
+    <p id="selection" class="muted" aria-live="polite">Тэчка яшчэ не выбраная.</p>
+    <div class="grid">
+      <label>Тэчка мовы<input id="languageFolder" type="text" value="EN" maxlength="32"><small>Напрыклад: EN, BE, PL</small></label>
+      <label>Суфікс назваў файлаў<input id="locale" type="text" value="eng-GB" maxlength="64"><small>Напрыклад: eng-GB, bel-BY, pol-PL</small></label>
+      <label>Назва мовы ў XML<input id="languageName" type="text" value="English"><small>Для LanguageData і tag language</small></label>
+      <label>Пашырэньні файлаў<input id="extensions" type="text" value="xml, xslt, xsl, json"><small>Праз коску; * — усе тэкставыя файлы</small></label>
+      <label>Разьмеркаваньне радкоў<select id="grouping"><option value="source">Па зыходных файлах</option><option value="folder">Па тэчках</option><option value="single">У адзін XML-файл</option></select><small>Па тэчках: kingdoms/ → kingdoms.xml; кожны файл у корані — асобны XML.</small></label>
+      <label>Калі ID мае розны тэкст<select id="conflictPolicy"><option value="first">Выбраны варыянт + справаздача</option><option value="omit">Прапусьціць такія ID + справаздача</option></select></label>
+    </div>
+    <label class="check"><input id="excludeLanguages" type="checkbox" checked>Прапускаць тэчкі Languages і гатовыя неанглійскія табліцы перакладаў</label>
+    <div class="actions"><button id="scan" class="primary" disabled>Сабраць радкі</button><span class="muted">Працуе без інтэрнэту. Файлы апрацоўваюцца ў вашым браўзэры.</span></div>
+    <progress id="progress" value="0" max="1" hidden></progress>
+    <p id="status" role="status" aria-live="polite"></p>
+  </section>
+
+  <section id="results" class="card" hidden aria-labelledby="resultsHeading">
+    <h2 id="resultsHeading">2. Вынік</h2>
+    <div class="stats">
+      <div class="stat"><strong id="fileCount">0</strong><small>апрацавана файлаў</small></div>
+      <div class="stat"><strong id="stringCount">0</strong><small>унікальных ID</small></div>
+      <div class="stat"><strong id="duplicateCount">0</strong><small>паўторных уваходжаньняў ID</small></div>
+      <div class="stat"><strong id="conflictCount">0</strong><small>ID з розным тэкстам</small></div>
+    </div>
+    <p id="scanSummary" class="muted"></p>
+    <div id="conflictNotice" class="notice" hidden></div>
+    <div id="errorNotice" class="notice error" hidden></div>
+    <div class="actions"><button id="downloadZip" class="primary">Спампаваць ZIP з XML</button><button id="downloadReport">Спампаваць справаздачу JSON</button></div>
+    <p class="muted">У ZIP будзе <code>Languages/МОВА/language_data.xml</code> і файлы з англійскім тэкстам. Пасьля перакладу скапіруйце тэчку мовы ў <code>ModuleData/Languages</code>. Змяняйце толькі <code>text</code>; захоўвайце ID і зьменныя накшталт <code>{RULER.NAME}</code>.</p>
+    <details><summary>Прапушчаныя файлы і заўвагі</summary><div id="issuesList"></div></details>
+  </section>
+
+  <section id="stringsSection" class="card" hidden aria-labelledby="stringsHeading">
+    <h2 id="stringsHeading">3. Радкі і канфлікты</h2>
+    <div class="toolbar">
+      <label>Пошук па ID, тэксьце ці файле<input id="search" type="text" placeholder="Напрыклад: aom_lord_1_1_name"></label>
+      <label class="check"><input id="onlyConflicts" type="checkbox">Толькі канфлікты</label>
+    </div>
+    <div class="table-wrap"><table><thead><tr><th scope="col">ID</th><th scope="col">Англійскі тэкст</th><th scope="col">Крыніца / выбар варыянту</th></tr></thead><tbody id="stringsBody"></tbody></table></div>
+    <div class="pagination"><button id="previous">Назад</button><span id="pageLabel"></span><button id="next">Далей</button></div>
+  </section>
+
+  <section id="previewSection" class="card" hidden aria-labelledby="previewHeading">
+    <h2 id="previewHeading">4. Папярэдні прагляд файлаў</h2>
+    <label>Файл<select id="previewFile"></select></label>
+    <div class="actions"><button id="downloadXml">Спампаваць гэты XML</button></div>
+    <label for="xmlPreview" class="muted">Зьмесьціва XML</label>
+    <textarea id="xmlPreview" readonly spellcheck="false"></textarea>
+  </section>
+  <p class="muted">Маркеры <code>{=!}</code> і <code>{=*}</code> не ўключаюцца. Камэнтары XML таксама прапускаюцца. Прабелы, пераносы радкоў, Unicode і гульнявыя зьменныя ў тэксьце захоўваюцца.</p>
+</main>
+
+<script>
+"use strict";
+(() => {
+  const $ = id => document.getElementById(id);
+  const compare = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+  const markerPattern = /\{=([^{}]+)\}/g;
+  const XSL = "http://www.w3.org/1999/XSL/Transform";
+  const PAGE_SIZE = 50;
+  const TOOL_VERSION = "2026-10-10.3";
+  const state = { files: [], catalog: null, outputs: [], page: 0, busy: false };
+  $("toolVersion").textContent = "Версія " + TOOL_VERSION;
+
+  function extractMarkers(value, source, emit, stats) {
+    const markers = Array.from(value.matchAll(markerPattern));
+    for (let i = 0; i < markers.length; i++) {
+      const match = markers[i];
+      const id = match[1];
+      if (id === "!" || id === "*") { stats.nonLocalizable++; continue; }
+      const start = match.index + match[0].length;
+      const end = i + 1 < markers.length ? markers[i + 1].index : value.length;
+      emit({ id, text: value.slice(start, end), ...source });
+    }
+  }
+
+  function extractXml(text, file, emit, stats, excludeTranslations) {
+    const doc = new DOMParser().parseFromString(text, "application/xml");
+    const error = doc.getElementsByTagName("parsererror")[0];
+    if (error) throw new Error("Некарэктны XML: " + error.textContent.trim().slice(0, 350));
+    if (excludeTranslations && doc.documentElement.localName === "base") {
+      const tags = Array.from(doc.getElementsByTagName("tag"));
+      if (tags.some(tag => tag.hasAttribute("language") && !/^english$/i.test(tag.getAttribute("language")))) return false;
+    }
+    // A stack avoids a fixed nesting limit. Attributes are visited even inside
+    // mixed content whose text has already been collected by its parent.
+    const stack = [{ element: doc.documentElement, location: "/" + doc.documentElement.nodeName + "[1]", textCollected: false }];
+    while (stack.length) {
+      const { element, location, textCollected } = stack.pop();
+      for (const attr of Array.from(element.attributes)) {
+        if (attr.value.includes("{=")) extractMarkers(attr.value, { file, location: location + "/@" + attr.name }, emit, stats);
+      }
+      const children = Array.from(element.childNodes);
+      const directText = children.filter(node => node.nodeType === 3 || node.nodeType === 4).map(node => node.nodeValue).join("");
+      const staticXslValue = element.namespaceURI === XSL && (element.localName === "attribute" || element.localName === "text");
+      const collectText = !textCollected && (directText.includes("{=") || (staticXslValue && element.textContent.includes("{=")));
+      if (collectText) {
+        extractMarkers(element.textContent, { file, location: location + "/text()" }, emit, stats);
+        const dynamicNodes = Array.from(element.getElementsByTagNameNS(XSL, "*")).filter(node => node.localName !== "text");
+        if (dynamicNodes.length) stats.warnings.push({ file, location, message: "Радок утрымлівае дынамічныя інструкцыі XSLT. Зьберагаецца толькі статычны тэкст; праверце вынік." });
+      }
+      const counts = new Map();
+      const pending = [];
+      for (const child of children) {
+        if (child.nodeType !== 1) continue;
+        const index = (counts.get(child.nodeName) || 0) + 1;
+        counts.set(child.nodeName, index);
+        pending.push({ element: child, location: location + "/" + child.nodeName + "[" + index + "]", textCollected: textCollected || collectText });
+      }
+      for (let i = pending.length - 1; i >= 0; i--) stack.push(pending[i]);
+    }
+    return true;
+  }
+
+  function extractJson(text, file, emit, stats) {
+    const stack = [{ value: JSON.parse(text), location: "$" }];
+    while (stack.length) {
+      const { value, location } = stack.pop();
+      if (typeof value === "string") extractMarkers(value, { file, location }, emit, stats);
+      else if (value && typeof value === "object") {
+        const entries = Object.entries(value);
+        for (let i = entries.length - 1; i >= 0; i--) {
+          const [key, child] = entries[i];
+          stack.push({ value: child, location: location + "[" + (Array.isArray(value) ? key : JSON.stringify(key)) + "]" });
+        }
+      }
+    }
+  }
+
+  function extractPlain(text, file, emit, stats) {
+    // Unknown text formats use line boundaries; quoted values stop at their
+    // closing quote. XML and JSON always use their dedicated parsers above.
+    const lines = text.split(/\r\n|\r|\n/);
+    for (let index = 0; index < lines.length; index++) {
+      const line = lines[index];
+      const quoted = /(["'])((?:\\.|(?!\1).)*)\1/g;
+      let end = 0;
+      for (const match of line.matchAll(quoted)) {
+        extractMarkers(line.slice(end, match.index), { file, location: "line:" + (index + 1) }, emit, stats);
+        extractMarkers(match[2], { file, location: "line:" + (index + 1) }, emit, stats);
+        end = match.index + match[0].length;
+      }
+      extractMarkers(line.slice(end), { file, location: "line:" + (index + 1) }, emit, stats);
+    }
+  }
+
+  function decodeBytes(buffer) {
+    const bytes = new Uint8Array(buffer);
+    let encoding = "utf-8";
+    if (bytes[0] === 0xff && bytes[1] === 0xfe) encoding = "utf-16le";
+    else if (bytes[0] === 0xfe && bytes[1] === 0xff) encoding = "utf-16be";
+    else if (bytes[0] === 0x3c && bytes[1] === 0) encoding = "utf-16le";
+    else if (bytes[0] === 0 && bytes[1] === 0x3c) encoding = "utf-16be";
+    else {
+      if (bytes.subarray(0, 1024).includes(0)) return null;
+      const header = Array.from(bytes.subarray(0, 512), byte => String.fromCharCode(byte)).join("");
+      const declaration = header.match(/^\s*(?:\xef\xbb\xbf)?<\?xml\b[^?]*\bencoding\s*=\s*["']([^"']+)["']/i);
+      if (declaration) encoding = declaration[1];
+    }
+    return new TextDecoder(encoding, { fatal: true }).decode(bytes).replace(/^\uFEFF/, "");
+  }
+
+  function relativePath(file) {
+    const path = (file.webkitRelativePath || file.name).replace(/\\/g, "/");
+    return file.webkitRelativePath && path.includes("/") ? path.slice(path.indexOf("/") + 1) : path;
+  }
+
+  function createCatalog() {
+    return { entries: new Map(), stats: { selected: 0, processed: 0, occurrences: 0, nonLocalizable: 0, skipped: [], errors: [], warnings: [] } };
+  }
+
+  function addOccurrence(catalog, occurrence) {
+    catalog.stats.occurrences++;
+    let entry = catalog.entries.get(occurrence.id);
+    if (!entry) {
+      entry = { id: occurrence.id, variants: [], chosen: 0 };
+      catalog.entries.set(entry.id, entry);
+    }
+    let variant = entry.variants.find(item => item.text === occurrence.text);
+    if (!variant) { variant = { text: occurrence.text, sources: [] }; entry.variants.push(variant); }
+    variant.sources.push({ file: occurrence.file, location: occurrence.location });
+  }
+
+  async function scanFiles(files, options, onProgress = () => {}) {
+    const catalog = createCatalog();
+    catalog.stats.selected = files.length;
+    const sorted = Array.from(files).sort((a, b) => compare(relativePath(a), relativePath(b)));
+    const extensions = new Set(options.extensions.toLowerCase().split(/[\s,;]+/).map(value => value.replace(/^\./, "")).filter(Boolean));
+    if (!extensions.size) throw new Error("Увядзіце пашырэньні файлаў альбо *.");
+    for (let index = 0; index < sorted.length; index++) {
+      const file = sorted[index];
+      const path = relativePath(file);
+      const fullPath = (file.webkitRelativePath || path).replace(/\\/g, "/");
+      const extension = (path.match(/\.([^/.]+)$/) || ["", ""])[1].toLowerCase();
+      if (options.excludeLanguages && /(^|\/)languages(\/|$)/i.test(fullPath)) {
+        catalog.stats.skipped.push({ file: path, reason: "Тэчка Languages" });
+      } else if (!extensions.has("*") && !extensions.has(extension)) {
+        catalog.stats.skipped.push({ file: path, reason: "Іншае пашырэньне" });
+      } else {
+        try {
+          const text = decodeBytes(await file.arrayBuffer());
+          if (text === null) catalog.stats.skipped.push({ file: path, reason: "Двайковы файл" });
+          else {
+            // Commit only complete files: a parse failure cannot leave a partial catalog.
+            const extracted = [];
+            const emit = occurrence => extracted.push(occurrence);
+            let included = true;
+            if (["xml", "xslt", "xsl"].includes(extension)) included = extractXml(text, path, emit, catalog.stats, options.excludeLanguages);
+            else if (extension === "json") extractJson(text, path, emit, catalog.stats);
+            else extractPlain(text, path, emit, catalog.stats);
+            if (included) {
+              catalog.stats.processed++;
+              for (const occurrence of extracted) addOccurrence(catalog, occurrence);
+            } else catalog.stats.skipped.push({ file: path, reason: "Неанглійская табліца перакладаў" });
+          }
+        } catch (error) { catalog.stats.errors.push({ file: path, message: error.message }); }
+      }
+      if (index % 10 === 0 || index + 1 === sorted.length) {
+        onProgress(index + 1, sorted.length, path);
+        await new Promise(resolve => setTimeout(resolve, 0));
+      }
+    }
+    return catalog;
+  }
+
+  function xmlEscape(value) {
+    return String(value).replace(/[&<"\r\n\t]/g, char => ({ "&": "&amp;", "<": "&lt;", '"': "&quot;", "\r": "&#13;", "\n": "&#10;", "\t": "&#9;" })[char]);
+  }
+
+  function stringsXml(entries, languageName, includeSourceComments = false) {
+    const rows = includeSourceComments
+      ? entries.slice().sort((a, b) => compare(a.sourceFile, b.sourceFile) || compare(a.id, b.id))
+      : entries;
+    const lines = [];
+    let previousSource = null;
+    for (const entry of rows) {
+      if (includeSourceComments && entry.sourceFile !== previousSource) {
+        // XML comments cannot contain consecutive hyphens or end with one.
+        const filename = entry.sourceFile.split("/").pop()
+          .replace(/-{2,}/g, run => run.split("").join(" ")).replace(/-$/, "- ");
+        lines.push("    <!--" + filename + "-->");
+        previousSource = entry.sourceFile;
+      }
+      lines.push('    <string id="' + xmlEscape(entry.id) + '" text="' + xmlEscape(entry.text) + '" />');
+    }
+    return '<?xml version="1.0" encoding="utf-8"?>\n<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n      xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">\n  <tags>\n    <tag language="' + xmlEscape(languageName) + '" />\n  </tags>\n  <strings>\n' + lines.join("\n") + '\n  </strings>\n</base>\n';
+  }
+
+  function safeSegment(value) {
+    const cleaned = value.normalize("NFC").replace(/[<>:"/\\|?*\u0000-\u001f]/g, "_").replace(/[. ]+$/g, "");
+    if (!cleaned || cleaned === "." || cleaned === "..") return "source";
+    return /^(con|prn|aux|nul|com[1-9]|lpt[1-9])(?:\.|$)/i.test(cleaned) ? "_" + cleaned : cleaned;
+  }
+
+  function buildPackage(catalog, options) {
+    validateOutputOptions(options);
+    const groups = new Map();
+    const paths = new Map();
+    const used = new Set(["language_data.xml"]);
+    const sorted = Array.from(catalog.entries.values()).sort((a, b) => compare(a.id, b.id));
+    for (const entry of sorted) {
+      if (options.conflictPolicy === "omit" && entry.variants.length > 1) continue;
+      const variant = entry.variants[entry.chosen];
+      const sourceFile = variant.sources[0].file;
+      const folderGroup = options.grouping === "folder" && sourceFile.includes("/");
+      const source = options.grouping === "folder"
+        ? (folderGroup ? "folder:" + sourceFile.split("/").slice(0, -1).join("/") : "file:" + sourceFile)
+        : options.grouping === "single" ? "all" : sourceFile;
+      if (!paths.has(source)) {
+        let path;
+        if (source === "all" && options.grouping === "single") path = "std_all_strings_" + options.locale + ".xml";
+        else if (options.grouping === "folder") {
+          const leaf = folderGroup ? sourceFile.split("/").slice(-2)[0] : sourceFile.replace(/\.[^.]+$/, "");
+          const base = safeSegment(leaf);
+          path = base + ".xml";
+          let number = 2;
+          while (used.has(path.toLowerCase())) path = base + "_" + number++ + ".xml";
+        } else {
+          const parts = source.split("/");
+          const leaf = parts.pop();
+          const stem = safeSegment(leaf.replace(/\.[^.]+$/, ""));
+          const prefix = parts.map(safeSegment).join("/");
+          const base = (prefix ? prefix + "/" : "") + "std_" + stem;
+          path = base + "_" + options.locale + ".xml";
+          let number = 2;
+          while (used.has(path.toLowerCase())) path = base + "_" + number++ + "_" + options.locale + ".xml";
+        }
+        used.add(path.toLowerCase());
+        paths.set(source, path);
+        groups.set(path, []);
+      }
+      groups.get(paths.get(source)).push({ id: entry.id, text: variant.text, sourceFile });
+    }
+    const root = "Languages/" + options.languageFolder + "/";
+    const outputs = Array.from(groups.entries()).sort((a, b) => compare(a[0], b[0])).map(([path, entries]) => ({ path: root + path, content: stringsXml(entries, options.languageName, options.grouping !== "source"), count: entries.length }));
+    const references = outputs.map(output => '  <LanguageFile xml_path="' + xmlEscape(output.path.slice("Languages/".length)) + '" />');
+    outputs.unshift({ path: root + "language_data.xml", content: '<?xml version="1.0" encoding="utf-8"?>\n<LanguageData id="' + xmlEscape(options.languageName) + '">\n' + references.join("\n") + '\n</LanguageData>\n', count: 0 });
+    return outputs;
+  }
+
+  function makeReport(catalog, options, outputs) {
+    return {
+      formatVersion: 1,
+      toolVersion: TOOL_VERSION,
+      options,
+      summary: { selectedFiles: catalog.stats.selected, processedFiles: catalog.stats.processed, uniqueIds: catalog.entries.size, occurrences: catalog.stats.occurrences, repeatedIds: catalog.stats.occurrences - catalog.entries.size, conflicts: Array.from(catalog.entries.values()).filter(entry => entry.variants.length > 1).length, exportedIds: outputs.reduce((sum, output) => sum + output.count, 0), nonLocalizableMarkers: catalog.stats.nonLocalizable },
+      files: outputs.map(output => ({ path: output.path, strings: output.count })),
+      errors: catalog.stats.errors,
+      skipped: catalog.stats.skipped,
+      warnings: catalog.stats.warnings,
+      conflicts: Array.from(catalog.entries.values()).filter(entry => entry.variants.length > 1).map(entry => ({ id: entry.id, selectedVariant: entry.chosen, exported: options.conflictPolicy !== "omit", variants: entry.variants })),
+      strings: Array.from(catalog.entries.values()).map(entry => ({ id: entry.id, text: entry.variants[entry.chosen].text, sources: entry.variants.flatMap(variant => variant.sources) }))
+    };
+  }
+
+  // ZIP with stored entries and UTF-8 names. No library, CDN or network needed.
+  const crcTable = Uint32Array.from({ length: 256 }, (_, value) => {
+    let crc = value;
+    for (let bit = 0; bit < 8; bit++) crc = crc & 1 ? 0xedb88320 ^ (crc >>> 1) : crc >>> 1;
+    return crc >>> 0;
+  });
+  function crc32(bytes) {
+    let crc = 0xffffffff;
+    for (const byte of bytes) crc = crcTable[(crc ^ byte) & 255] ^ (crc >>> 8);
+    return (crc ^ 0xffffffff) >>> 0;
+  }
+  function zipFiles(files) {
+    if (files.length > 65535) throw new Error("Зашмат файлаў для ZIP: больш за 65535.");
+    const encoder = new TextEncoder();
+    const parts = [], directory = [];
+    let offset = 0, directorySize = 0;
+    for (const file of files) {
+      const name = encoder.encode(file.path);
+      const data = encoder.encode(file.content);
+      if (name.length > 65535 || offset + 30 + name.length + data.length > 0xffffffff) throw new Error("Перавышаны памер звычайнага ZIP.");
+      const checksum = crc32(data);
+      const header = new Uint8Array(30 + name.length);
+      const view = new DataView(header.buffer);
+      view.setUint32(0, 0x04034b50, true); view.setUint16(4, 20, true); view.setUint16(6, 0x0800, true);
+      view.setUint16(12, 0x0021, true); // 1980-01-01: deterministic valid DOS date.
+      view.setUint32(14, checksum, true); view.setUint32(18, data.length, true); view.setUint32(22, data.length, true); view.setUint16(26, name.length, true);
+      header.set(name, 30);
+      parts.push(header, data);
+      const central = new Uint8Array(46 + name.length);
+      const cv = new DataView(central.buffer);
+      cv.setUint32(0, 0x02014b50, true); cv.setUint16(4, 20, true); cv.setUint16(6, 20, true); cv.setUint16(8, 0x0800, true); cv.setUint16(14, 0x0021, true);
+      cv.setUint32(16, checksum, true); cv.setUint32(20, data.length, true); cv.setUint32(24, data.length, true); cv.setUint16(28, name.length, true); cv.setUint32(42, offset, true);
+      central.set(name, 46);
+      directory.push(central); directorySize += central.length;
+      offset += header.length + data.length;
+    }
+    if (offset + directorySize + 22 > 0xffffffff) throw new Error("Перавышаны памер звычайнага ZIP.");
+    const end = new Uint8Array(22);
+    const ev = new DataView(end.buffer);
+    ev.setUint32(0, 0x06054b50, true); ev.setUint16(8, files.length, true); ev.setUint16(10, files.length, true); ev.setUint32(12, directorySize, true); ev.setUint32(16, offset, true);
+    return new Blob([...parts, ...directory, end], { type: "application/zip" });
+  }
+
+  function validateOutputOptions(options) {
+    if (!/^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(options.languageFolder) || safeSegment(options.languageFolder) !== options.languageFolder) throw new Error("Тэчка мовы: выкарыстоўвайце літары A–Z, лічбы, _ ці -.");
+    if (!/^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(options.locale)) throw new Error("Суфікс файлаў: выкарыстоўвайце літары A–Z, лічбы, _ ці -.");
+    if (!options.languageName.trim() || /[\u0000-\u0008\u000b\u000c\u000e-\u001f]/.test(options.languageName)) throw new Error("Увядзіце карэктную назву мовы.");
+  }
+
+  function readOptions() {
+    const options = { languageFolder: $("languageFolder").value.trim(), locale: $("locale").value.trim(), languageName: $("languageName").value.trim(), extensions: $("extensions").value, grouping: $("grouping").value, conflictPolicy: $("conflictPolicy").value, excludeLanguages: $("excludeLanguages").checked };
+    validateOutputOptions(options);
+    return options;
+  }
+
+  function download(blob, filename) {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url; link.download = filename; document.body.append(link); link.click(); link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 30000);
+  }
+
+  function renderTable() {
+    const query = $("search").value.trim().toLowerCase();
+    const entries = Array.from(state.catalog.entries.values()).filter(entry => {
+      if ($("onlyConflicts").checked && entry.variants.length < 2) return false;
+      return !query || entry.id.toLowerCase().includes(query) || entry.variants.some(variant => variant.text.toLowerCase().includes(query) || variant.sources.some(source => source.file.toLowerCase().includes(query)));
+    }).sort((a, b) => compare(a.id, b.id));
+    const pages = Math.max(1, Math.ceil(entries.length / PAGE_SIZE));
+    state.page = Math.max(0, Math.min(state.page, pages - 1));
+    $("stringsBody").replaceChildren();
+    for (const entry of entries.slice(state.page * PAGE_SIZE, (state.page + 1) * PAGE_SIZE)) {
+      const row = document.createElement("tr");
+      const id = document.createElement("td"); id.className = "id"; id.textContent = entry.id;
+      const value = document.createElement("td"); value.className = "value"; value.textContent = entry.variants[entry.chosen].text;
+      const source = document.createElement("td"); source.className = "source";
+      const origin = document.createElement("div"); origin.textContent = entry.variants[entry.chosen].sources[0].file; source.append(origin);
+      if (entry.variants.length > 1) {
+        const label = document.createElement("label"); label.textContent = "Канфлікт: выберыце тэкст";
+        const select = document.createElement("select"); select.setAttribute("aria-label", "Варыянт для " + entry.id);
+        entry.variants.forEach((variant, index) => {
+          const option = document.createElement("option"); option.value = index; option.textContent = (index + 1) + ". " + variant.text.slice(0, 150) + " — " + variant.sources[0].file; option.title = variant.text; select.append(option);
+        });
+        select.value = entry.chosen;
+        select.addEventListener("change", () => { entry.chosen = Number(select.value); refreshPackage(); renderTable(); });
+        label.append(select); source.append(label);
+      }
+      const details = document.createElement("details");
+      const summary = document.createElement("summary"); summary.textContent = "Усе крыніцы (" + entry.variants.reduce((sum, variant) => sum + variant.sources.length, 0) + ")";
+      details.append(summary);
+      // Populate long source lists only when opened.
+      details.addEventListener("toggle", () => {
+        if (!details.open || details.childNodes.length > 1) return;
+        for (let index = 0; index < entry.variants.length; index++) {
+          const variant = entry.variants[index];
+          const text = document.createElement("p"); text.textContent = "Варыянт " + (index + 1) + ": " + variant.text; details.append(text);
+          for (const item of variant.sources) { const line = document.createElement("div"); line.textContent = item.file + " · " + item.location; details.append(line); }
+        }
+      });
+      source.append(details); row.append(id, value, source); $("stringsBody").append(row);
+    }
+    $("pageLabel").textContent = (state.page + 1) + " / " + pages + " · " + entries.length + " ID";
+    $("previous").disabled = state.page === 0;
+    $("next").disabled = state.page + 1 >= pages;
+  }
+
+  function refreshPackage() {
+    if (!state.catalog) return;
+    try {
+      state.outputs = buildPackage(state.catalog, readOptions());
+      const previous = $("previewFile").value;
+      $("previewFile").replaceChildren();
+      for (const output of state.outputs) {
+        const option = document.createElement("option"); option.value = output.path; option.textContent = output.path + (output.count ? " · " + output.count + " радкоў" : ""); $("previewFile").append(option);
+      }
+      if (state.outputs.some(output => output.path === previous)) $("previewFile").value = previous;
+      else if (state.outputs.length > 1) $("previewFile").selectedIndex = 1;
+      renderPreview();
+      const count = state.outputs.reduce((sum, output) => sum + output.count, 0);
+      $("downloadZip").disabled = !count; $("downloadXml").disabled = !count; $("downloadReport").disabled = false;
+      $("status").textContent = "Гатова («" + $("grouping").selectedOptions[0].textContent + "»): " + count + " ID у " + (state.outputs.length - 1) + " файлах радкоў.";
+      const conflicts = Array.from(state.catalog.entries.values()).filter(entry => entry.variants.length > 1).length;
+      $("conflictNotice").hidden = !conflicts;
+      $("conflictNotice").textContent = readOptions().conflictPolicy === "omit"
+        ? conflicts + " ID маюць розны тэкст і прапушчаныя ў XML. Усе варыянты захаваныя ў справаздачы."
+        : conflicts + " ID маюць розны тэкст. Спачатку выбраны першы варыянт у парадку шляхоў файлаў і ўваходжаньняў. Вы можаце зьмяніць выбар ніжэй; усе варыянты ёсьць у справаздачы.";
+    } catch (error) {
+      $("status").textContent = error.message;
+      $("downloadZip").disabled = true; $("downloadXml").disabled = true; $("downloadReport").disabled = true;
+    }
+  }
+
+  function renderPreview() {
+    const output = state.outputs.find(file => file.path === $("previewFile").value);
+    $("xmlPreview").value = output ? output.content : "";
+  }
+
+  function showResults() {
+    const { stats, entries } = state.catalog;
+    $("fileCount").textContent = stats.processed;
+    $("stringCount").textContent = entries.size;
+    $("duplicateCount").textContent = stats.occurrences - entries.size;
+    $("conflictCount").textContent = Array.from(entries.values()).filter(entry => entry.variants.length > 1).length;
+    $("scanSummary").textContent = "Знойдзена ўваходжаньняў: " + stats.occurrences + ". Прапушчана файлаў: " + stats.skipped.length + ". Маркераў без перакладу: " + stats.nonLocalizable + ". Памылак: " + stats.errors.length + ".";
+    $("errorNotice").hidden = !stats.errors.length && !stats.warnings.length;
+    $("errorNotice").textContent = "Праверце заўвагі: " + stats.errors.length + " файлаў не атрымалася апрацаваць; " + stats.warnings.length + " папярэджаньняў. Вынік уключае толькі пасьпяхова прачытаныя радкі.";
+    $("issuesList").textContent = [...stats.errors.map(item => "ПАМЫЛКА · " + item.file + " · " + item.message), ...stats.warnings.map(item => "ЗАЎВАГА · " + item.file + " · " + item.message), ...stats.skipped.map(item => "ПРАПУШЧАНА · " + item.file + " · " + item.reason)].join("\n") || "Памылак і прапушчаных файлаў няма.";
+    for (const id of ["results", "stringsSection", "previewSection"]) $(id).hidden = false;
+    refreshPackage(); renderTable();
+  }
+
+  function invalidateScan() {
+    state.catalog = null; state.outputs = [];
+    for (const id of ["results", "stringsSection", "previewSection"]) $(id).hidden = true;
+    $("status").textContent = state.files.length ? "Націсьніце «Сабраць радкі», каб апрацаваць выбраныя файлы." : "";
+  }
+
+  $("folder").addEventListener("change", () => {
+    state.files = Array.from($("folder").files);
+    $("selection").textContent = state.files.length ? "Выбрана: " + (state.files[0].webkitRelativePath.split("/")[0] || "файлы") + " · " + state.files.length + " файлаў з усімі падтэчкамі." : "Тэчка яшчэ не выбраная.";
+    $("scan").disabled = !state.files.length; invalidateScan();
+  });
+  for (const id of ["extensions", "excludeLanguages"]) $(id).addEventListener("change", invalidateScan);
+  for (const id of ["languageFolder", "locale", "languageName"]) $(id).addEventListener("input", refreshPackage);
+  for (const id of ["grouping", "conflictPolicy"]) $(id).addEventListener("change", refreshPackage);
+  $("scan").addEventListener("click", async () => {
+    if (state.busy) return;
+    try {
+      const options = readOptions();
+      state.busy = true;
+      invalidateScan();
+      for (const element of document.querySelectorAll("input, select, button")) element.disabled = true;
+      $("progress").hidden = false;
+      state.catalog = await scanFiles(state.files, options, (done, total, path) => {
+        $("progress").max = total; $("progress").value = done;
+        $("status").textContent = "Апрацоўка " + done + " / " + total + ": " + path;
+      });
+      state.page = 0;
+    } catch (error) { $("status").textContent = error.message; }
+    finally {
+      state.busy = false;
+      for (const element of document.querySelectorAll("input, select, button")) element.disabled = false;
+      $("scan").disabled = !state.files.length; $("progress").hidden = true;
+      if (state.catalog) showResults();
+    }
+  });
+  for (const id of ["search", "onlyConflicts"]) $(id).addEventListener(id === "search" ? "input" : "change", () => { state.page = 0; if (state.catalog) renderTable(); });
+  $("previous").addEventListener("click", () => { state.page--; renderTable(); });
+  $("next").addEventListener("click", () => { state.page++; renderTable(); });
+  $("previewFile").addEventListener("change", renderPreview);
+  $("downloadXml").addEventListener("click", () => {
+    const output = state.outputs.find(file => file.path === $("previewFile").value);
+    if (output) download(new Blob([output.content], { type: "application/xml;charset=utf-8" }), output.path.split("/").pop());
+  });
+  $("downloadZip").addEventListener("click", () => {
+    try {
+      const options = readOptions();
+      const files = buildPackage(state.catalog, options);
+      const report = makeReport(state.catalog, options, files);
+      download(zipFiles([...files, { path: "extraction-report.json", content: JSON.stringify(report, null, 2) + "\n" }]), "translation-" + options.languageFolder + "-" + options.locale + "-" + options.grouping + "-" + TOOL_VERSION + ".zip");
+    } catch (error) { $("status").textContent = error.message; }
+  });
+  $("downloadReport").addEventListener("click", () => {
+    try { const options = readOptions(); download(new Blob([JSON.stringify(makeReport(state.catalog, options, buildPackage(state.catalog, options)), null, 2) + "\n"], { type: "application/json;charset=utf-8" }), "extraction-report.json"); }
+    catch (error) { $("status").textContent = error.message; }
+  });
+
+  // Small API for repeatable verification in a real browser.
+  window.TranslationPreparer = Object.freeze({ extractMarkers, extractXml, extractJson, extractPlain, decodeBytes, createCatalog, addOccurrence, scanFiles, xmlEscape, buildPackage, makeReport, zipFiles, crc32 });
+})();
+</script>
+</body>
+</html>

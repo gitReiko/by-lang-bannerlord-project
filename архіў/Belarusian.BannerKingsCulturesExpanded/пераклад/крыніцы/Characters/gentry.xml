@@ -1,0 +1,1238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="bannerkings_gentry_kannic_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.kannic" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_kannic_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.kannic" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_kannic_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.kannic" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_kannic_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.kannic" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_kannic_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.kannic" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_kannic_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.kannic" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_kannic_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.kannic" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_kannic_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.kannic" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bannerkings_gentry_siri_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.siri" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_siri_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.siri" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_siri_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.siri" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_siri_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.siri" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_siri_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.siri" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_siri_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.siri" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_siri_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.siri" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_siri_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.siri" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bannerkings_gentry_balion_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.balion" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="KnightFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_balion_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.balion" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="KnightFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_balion_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.balion" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="KnightFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_balion_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.balion" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="KnightFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_balion_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.balion" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="KnightFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_balion_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.balion" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="KnightFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_balion_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.balion" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="KnightFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_balion_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.balion" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="KnightFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bannerkings_gentry_massa_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.massa" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="KnightFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_massa_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.massa" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="KnightFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_massa_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.massa" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="KnightFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_massa_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.massa" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="KnightFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_massa_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.massa" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="KnightFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_massa_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.massa" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="KnightFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_massa_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.massa" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="KnightFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_massa_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.massa" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="KnightFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+   <NPCCharacter id="bannerkings_gentry_bragantia_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.bragantia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_bragantia_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.bragantia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_bragantia_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.bragantia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_bragantia_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.bragantia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_bragantia_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.bragantia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_bragantia_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.bragantia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_bragantia_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.bragantia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_bragantia_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.bragantia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_geroia_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.geroia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_geroia_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.geroia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_geroia_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.geroia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_geroia_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.geroia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_vlandia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_vlandia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_geroia_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.geroia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_geroia_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.geroia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_geroia_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.geroia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_geroia_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.geroia" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="vla_civ_template_lady_normal" />
+      <EquipmentSet id="vla_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_darshi_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.darshi" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_darshi_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.darshi" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_darshi_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.darshi" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_darshi_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.darshi" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="CavalryFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_aserai" />
+      <EquipmentSet id="npc_wanderer_equipment_template_aserai" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_darshi_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.darshi" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_darshi_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.darshi" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_darshi_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.darshi" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="CavalryFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_darshi_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.darshi" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="CavalryFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="ase_civ_template_lady_normal" />
+      <EquipmentSet id="ase_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_vakken_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.vakken" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_vakken_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.vakken" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_vakken_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.vakken" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_vakken_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.vakken" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_vakken_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.vakken" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_civ_template_lady_normal" />
+      <EquipmentSet id="stu_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_vakken_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.vakken" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_civ_template_lady_normal" />
+      <EquipmentSet id="stu_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_vakken_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.vakken" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_civ_template_lady_normal" />
+      <EquipmentSet id="stu_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_vakken_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.vakken" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_civ_template_lady_normal" />
+      <EquipmentSet id="stu_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_nord_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.nord" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="2" />
+      <Trait id="Commander" value="3" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_nord_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.nord" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Siegecraft" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_nord_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.nord" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Politician" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_nord_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" 
+				culture="Culture.nord" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="3" />
+      <Trait id="Commander" value="2" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+	  <Trait id="Surgery" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_nord_spouse_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.nord" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="2" />
+      <Trait id="Surgery" value="5" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_civ_template_lady_normal" />
+      <EquipmentSet id="stu_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_nord_spouse_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="earnest" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.nord" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="5" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_civ_template_lady_normal" />
+      <EquipmentSet id="stu_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_nord_spouse_3" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="ironic" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.nord" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Manager" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="HuscarlFightingSkills" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_civ_template_lady_normal" />
+      <EquipmentSet id="stu_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bannerkings_gentry_nord_spouse_4" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="curt" is_female="true" is_template="false" default_group="Infantry" is_hero="false" 
+				culture="Culture.nord" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="ScoutSkills" value="1" />
+      <Trait id="Surgery" value="2" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_civ_template_lady_normal" />
+      <EquipmentSet id="stu_civ_template_lady_normal" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>
