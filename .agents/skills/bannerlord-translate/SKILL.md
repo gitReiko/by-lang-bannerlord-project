@@ -49,6 +49,8 @@ An initial capital does not require English Title Case on every word: `Пляц�
 
 ## Translate safely
 
+- During version updates, keep translated entries in exactly the same relative order as the corresponding current source entries. Insert new or moved strings at their source positions; do not append additions or changed strings to the end of the file or sort by ID. Match by case-sensitive ID first, then emit in source order. Preserve unrelated formatting and XML structure.
+- For Core version synchronization, use [bannerlord-core-update](../bannerlord-core-update/SKILL.md). Before translating a new Core entry, follow [bannerlord-core-translate](../bannerlord-core-translate/SKILL.md) to search the deleted-string archive for an existing translation.
 - Translate meaning and tone, not English word order. Use consistent classical Belarusian spelling and the style already established in the same project.
 - Compare the English source with the existing Belarusian entry by stable identifier, not merely by line number.
 - Preserve identifiers, XML element and attribute names, nesting, comments, file names required by the mod, and unrelated content.
@@ -65,6 +67,7 @@ After editing:
 
 - Parse every changed XML file.
 - Compare changed source/target entries and confirm IDs remain aligned.
+- For version updates, compare the ordered source and target ID sequences, not only their sets, and confirm additions and moved entries occupy their source positions.
 - Confirm that placeholders, conditionals, markup tags, and escaped entities required by each source string remain present in its translation.
 - Search the changed target text for unintended English remnants, but treat proper names, product names, abbreviations, and code tokens as possible valid exceptions.
 - Re-read the changed strings in context for classical orthography, grammar, register, and glossary consistency.
