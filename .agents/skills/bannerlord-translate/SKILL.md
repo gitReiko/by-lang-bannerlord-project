@@ -41,15 +41,20 @@ Translate `troop` as `ваяр` (plural `troops` as `ваяры`, inflected as n
 
 ## Capitalization of displayed names
 
-Follow the original string's naming and capitalization style, comparing source and translation by stable ID. Standalone displayed names of skills, perks, abilities, troop types, NPCs, items, factions, places, careers, ranks, and similar game entities must start with a capital letter. Do not lowercase a name label merely because its wording is an occupation or a common noun, or because a glossary lists a lowercase lemma.
+Follow the original string's naming and capitalization style, comparing source and translation by stable ID. In this repository, capitalize every significant word in standalone displayed names of skills, perks, abilities, troop types, NPCs, items, factions, places, careers, ranks, and similar game entities. Checking only the initial letter of the whole label is insufficient. Lowercase glossary lemmas and existing lowercase target labels do not override this naming convention.
 
-Apply this rule to the first visible word after grammatical or UI markup, including `{.Muzcynski}`, `{.Zanocy}`, `{.Nijaki}`, and `{.Mnozny}`; preserve the markup itself exactly. Check visible conditional branches separately without altering control syntax.
+Apply this rule to all significant visible words after grammatical or UI markup, including `{.Muzcynski}`, `{.Zanocy}`, `{.Nijaki}`, and `{.Mnozny}`; preserve the markup itself exactly. Check visible conditional branches separately without altering control syntax. Identify labels by their role and source text, not only by an ID suffix: names may use `_name`, `_short`, `.name.`, clan IDs, or opaque IDs.
 
-An initial capital does not require English Title Case on every word: `Пляценьне зорнага сьвятла` is a correctly capitalized ability label. Preserve proper-name capitals and explicit project or user conventions within multiword names. Distinguish name labels from ordinary uses of the same common nouns in descriptions; do not capitalize every generic mention of an item, occupation, or skill. Existing lowercase target strings and glossary lemmas do not override this rule.
+Examples: `Пляценьне Зорнага Сьвятла`, `Карсарскія Клінкі`, `Шэрая Дружына`, `Саляная Даліна`, `Лягер Гондарскіх Салдатаў`. Keep internal conjunctions, prepositions, and other function words lowercase unless they belong to an explicitly established spelling: `Вёска ля Заходняга Моста`, `Культ Вока бяз Павекаў`. Do not mechanically capitalize every segment after a hyphen; preserve established name spelling and suffixes such as `-хай`.
+
+Use the same capitalization when a named entity recurs in a description, including inflected forms. Distinguish these references from generic mentions: the faction is `Шэрая Дружына`, but an ordinary `дружына` remains lowercase. Apply explicit user or project conventions first; this rule concerns names, not all common nouns or adjectives in prose.
 
 ## Translate safely
 
+- During version updates, keep translated entries in exactly the same relative order as the corresponding current source entries. Insert new or moved strings at their source positions; do not append additions or changed strings to the end of the file or sort by ID. Match by case-sensitive ID first, then emit in source order. Preserve unrelated formatting and XML structure.
+- For Core version synchronization, use [bannerlord-core-update](../bannerlord-core-update/SKILL.md). Before translating a new Core entry, follow [bannerlord-core-translate](../bannerlord-core-translate/SKILL.md) to search the deleted-string archive for an existing translation.
 - Translate meaning and tone, not English word order. Use consistent classical Belarusian spelling and the style already established in the same project.
+- Use only the standard ASCII apostrophe `'` (U+0027) for the Belarusian orthographic apostrophe, including in proper names: `Міжзем'е`, `коп'і`, `аб'ядноўваюцца`. Do not substitute typographic `’` (U+2019), `‘` (U+2018), modifier `ʼ` (U+02BC), backticks, or similar marks. Do not copy such substitutes from source text or glossary examples into translations. In double-quoted XML attributes, write the literal `'`; retain format-required escaping where necessary and preserve runtime syntax. This rule concerns apostrophes within words, not quotation marks around speech.
 - Compare the English source with the existing Belarusian entry by stable identifier, not merely by line number.
 - Preserve identifiers, XML element and attribute names, nesting, comments, file names required by the mod, and unrelated content.
 - Translate only user-visible text. Do not translate internal keys, IDs, paths, code, function bodies, or schema values.
@@ -65,8 +70,10 @@ After editing:
 
 - Parse every changed XML file.
 - Compare changed source/target entries and confirm IDs remain aligned.
+- For version updates, compare the ordered source and target ID sequences, not only their sets, and confirm additions and moved entries occupy their source positions.
 - Confirm that placeholders, conditionals, markup tags, and escaped entities required by each source string remain present in its translation.
 - Search the changed target text for unintended English remnants, but treat proper names, product names, abbreviations, and code tokens as possible valid exceptions.
 - Re-read the changed strings in context for classical orthography, grammar, register, and glossary consistency.
-- Compare displayed names with their source entries and verify the first visible word is capitalized according to the naming rule above, including names preceded by markup.
+- Check orthographic apostrophes in changed visible text: they must be ASCII `'` (U+0027), including in names. Flag or correct typographic substitutes within the authorized scope without altering quotation marks or runtime syntax.
+- Compare displayed names with their source entries and verify every significant visible word is capitalized according to the naming rule above, including names preceded by markup and each conditional branch. Check full and short names together and confirm consistent capitalization of repeated and inflected names in descriptions; an initial-letter-only check does not satisfy this verification.
 - Report the files changed, the checks run, and any ambiguous terms that still need a human decision.
