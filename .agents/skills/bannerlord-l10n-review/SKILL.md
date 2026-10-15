@@ -26,9 +26,9 @@ Translate `troop` as `ваяр` (plural `troops` as `ваяры`, inflected as n
 
 ## Review capitalization of displayed names
 
-Apply [the shared displayed-name capitalization rule](../bannerlord-translate/SKILL.md#capitalization-of-displayed-names). Compare source and target by stable ID: standalone names of skills, perks, abilities, troop types, NPCs, items, factions, places, careers, ranks, and similar game entities must begin with a capital letter. Report a lowercase initial as a defect even if the glossary lemma or nearby target labels are lowercase.
+Apply [the shared displayed-name capitalization rule](../bannerlord-translate/SKILL.md#capitalization-of-displayed-names). Compare source and target by stable ID: every significant word in standalone names of skills, perks, abilities, troop types, NPCs, items, factions, places, careers, ranks, and similar game entities takes a capital. Report lowercase significant words as defects even when the first word is capitalized or glossary lemmas and nearby target labels use lowercase.
 
-Check the first visible word after grammatical or UI markup and each visible conditional branch; do not suggest altering tags, variables, or control syntax. Distinguish name labels from generic mentions in descriptions. An initial capital does not require capitalizing every word: `Пляценьне зорнага сьвятла` is valid. Retain proper-name capitals and explicit project or user conventions.
+Check all significant visible words after grammatical or UI markup and in each visible conditional branch; do not suggest altering tags, variables, or control syntax. Include full and short names, clan labels, and names with opaque IDs. Expected examples include `Пляценьне Зорнага Сьвятла`, `Карсарскія Клінкі`, and `Саляная Даліна`; an initial-letter-only check is insufficient. Internal function words remain lowercase, as in `Вёска ля Заходняга Моста`; established hyphenated suffixes such as `-хай` are not automatically capitalized. Check repeated and inflected named-entity references in descriptions against their labels, while leaving generic mentions lowercase. Explicit user and project conventions take priority.
 
 ## Check high-risk invariants first
 
@@ -43,6 +43,8 @@ Report concrete file paths and stable IDs for findings. Check:
 7. Suspicious English or Russian remnants, distinguishing genuine untranslated prose from names, brands, abbreviations, and code.
 
 For non-XML formats such as Ink, XSLT, or plain text, first identify which segments are user-visible and which are syntax. Preserve branches, knots, labels, variables, interpolation, and control markers exactly while reviewing only displayed prose.
+
+Check the Belarusian orthographic apostrophe against the user's repository convention: only the standard ASCII `'` (U+0027) is valid, including in proper names (`Міжзем'е`, `коп'і`). Report typographic `’` (U+2019), `‘` (U+2018), modifier `ʼ` (U+02BC), backticks, and similar substitutes inside words as defects, even when copied from the source or a glossary. Distinguish these from quotation marks around speech, format-required escaping, and runtime syntax; do not propose a blanket replacement of all quote-like characters. Apply fixes only when authorized.
 
 ## Present results
 

@@ -18,7 +18,7 @@ EN_template, зыходнікаў ці XSLT таго самага праекту
 Для кожнага варыянту пазначаны прыклад ужываньня; гэта ня поўны сьпіс усіх аднолькавых назваў.
 
 Прааналізавана 570 XML-файлаў BYc; 18401 назваў з пазнакамі ў 34 праектах.
-У слоўніку: 498 ангельскіх тэрмінаў; 723 беларускіх адпаведнікаў (разам з паўторамі паміж тэрмінамі).
+У слоўніку: 502 ангельскія тэрміны; 728 беларускіх адпаведнікаў (разам з паўторамі паміж тэрмінамі).
 
 ========================================================================
 ЗБРОЯ І БОЕПРЫПАСЫ
@@ -88,7 +88,8 @@ Bajōzutsu = Бадзёдзуцу
 Bardiche / Berdysh = Бярдыш
   Бярдыш: Core / Native/std_common_strings_xml_by.xml # a8ycVmwU
 
-Bastard sword = Бастард | Меч Бастарда
+Bastard sword = Бастард | Меч Бастарда | Паўтарачны Меч
+  Паўтарачны Меч: TAOM / LOTRLOME_items.xml # aom_numenorean_bastard_elite_a_name
   Бастард: The Old Realms / armory_by/xslt_changes.xml # arBdK7st
   Меч Бастарда: Core / Native/std_mpitems_xml_by.xml # l2j9CAQn
 
@@ -281,7 +282,8 @@ Grenade = Граната | Гранаты
   Граната: Wheel of Time / WoTitems.xml # ILLUMpotbase
   Гранаты: EmpiresofEurope1700 / items.xml # bs_throwing_bomb.name
 
-Grip = Ручка
+Grip = Ручка | Рукаяць
+  Рукаяць: TAOM / LOTRLOME_items.xml # aom_wm_dale_ws_sword_a01_handle_name
   Ручка [у назьве: Ручкай]: Core / SandBoxCore/std_spitems_xml_by.xml # bohbzGjg
 
 Guandao = Гуаньдао
@@ -517,7 +519,8 @@ Polehammer = Полхамер | Польхамер | Тронкамолат
 Polesword = Меч
   Меч: Core / SandBoxCore/std_spitems_xml_by.xml # 1mCmYNl6
 
-Pommel = Навершша
+Pommel = Навершша | Наверша
+  Наверша: TAOM / LOTRLOME_items.xml # aom_dunland_caerdh_axe_pommel_1h_a_name
   Навершша [у назьве: Навершам]: Core / SandBoxCore/std_spitems_xml_by.xml # HpdJJO9g
 
 Pot = Збан
@@ -555,7 +558,8 @@ Rapier = Рапіра
 Razor = Брытва
   Брытва: Core / SandBoxCore/std_spitems_xml_by.xml # 4RTsybkx
 
-Recurve bow = Лук
+Recurve bow = Лук | Лук з Адваротным Выгінам
+  Лук з Адваротным Выгінам: TAOM / LOTRLOME_items.xml # aom_dale_recurve_bow_a_name
   Лук: Core / Native/std_common_strings_xml_by.xml # IJjrSbiV
 
 Repeater handgun = Пістоль
@@ -823,7 +827,8 @@ Aketon = Акетон
 Armet = Армэ
   Армэ: Realm of Thrones / str_english.xml # armet
 
-Armguard = Абгорткі для Абароны Рук | Ручная Ахова
+Armguard = Абгорткі для Абароны Рук | Ручная Ахова | Ахова Рук
+  Ахова Рук: TAOM / LOTRLOME_items.xml # aom_cts_rohan_armguard1_name
   Абгорткі для Абароны Рук: Anno Domini 1259 / items_native.xml # b2EDkbhD
   Ручная Ахова: The Old Realms / armory_by/xslt_changes.xml # b2EDkbhD
 
@@ -1107,7 +1112,8 @@ Kote = Котэ
 Lamellar = Ламеляр
   Ламеляр: Anno Domini 1259 / items_osa.xml # osa_ao_durkhan_lamellar
 
-Lamellar armor = Ламеляр | Панцыр
+Lamellar armor = Ламеляр | Панцыр | Лямэлярны Панцыр
+  Лямэлярны Панцыр: TAOM / LOTRLOME_items.xml # aom_sk_dg_khml_chest_elite_a_name
   Ламеляр: Calradia Rising Armory / body_armor.xml # cr_leather_lamellar_armor.name
   Панцыр: Chinese Weapons Huaxia / Infernal_Reaper.xml # adbianjunxiongjia
 
@@ -1154,6 +1160,9 @@ Mail armor = Кальчуга | Панцыр
   Кальчуга: Templar Armor / items.xml # ktemplarnbr_z_white.name
   Панцыр: Anno Domini 1259 / items_native.xml # puNpMCgX
 
+Mail coat = Кальчужная Кашуля
+  Кальчужная Кашуля: Core / Naval/std_items_xml.xml # ZTLwYnQH
+
 Manica = Маніка
   Маніка: BurningEmpires / spitems.xml # be_roman_manica_iron
 
@@ -1188,9 +1197,13 @@ Musculata = Мускулата
 Nasal = Наносьнік
   Наносьнік [у назьве: Наносьнікам]: Core / Native/std_mpitems_xml_by.xml # v23z53yg
 
-Nasal helm = Назальхельм | Шалом
+Nasal helm = Назальхельм | Шалом | Шалом з Наносьнікам
   Назальхельм: Calradia Rising Armory / head_armor.xml # calradia_empire_helmet_1.name
   Шалом: Core / Native/std_mpitems_xml_by.xml # v23z53yg
+  Шалом з Наносьнікам: Core / Naval/std_items_xml.xml # TJgEpiqz
+
+Nasal helmet = Шалом з Наносьнікам
+  Шалом з Наносьнікам: Core / Naval/std_items_xml.xml # 7zexUGUb
 
 Nasalhelm = Назальхельм
   Назальхельм: Realm of Thrones / str_english.xml # ROT70c04a5ad
@@ -1335,6 +1348,12 @@ Spangenhelm = Шпангенхэльм
 Spaulder = Сполдэры
   Сполдэры: Mordhau Armor Pack / items.xml # jocape2.name
 
+Spectacle helm = Шалом з Акулярамі
+  Шалом з Акулярамі: Core / Naval/std_items_xml.xml # 5sjm7Ufs
+
+Spectacle helmet = Шалом з Акулярамі
+  Шалом з Акулярамі: Core / Naval/std_items_xml.xml # 2l0Vqtdm
+
 Squamata = Сквамата
   Сквамата: BurningEmpires / spitems.xml # be_roman_squamata_noptyerges
 
@@ -1361,7 +1380,8 @@ Uma yoroi = Ума Ёрой | Ўма Ёрой
 Valsgarde = Вальсгард
   Вальсгард: Anno Domini 1259 / reiko_fixes/items_eba.xml # valsgarde_1.name
 
-Vambrace = Поручы
+Vambrace = Поручы | Поруч
+  Поруч: TAOM / LOTRLOME_items.xml # aom_rivendell_vambraces_1_name
   Поручы: Anno Domini 1259 / items_native.xml # MamotK0a
 
 Visor = Забрала | Заслона
@@ -1800,3 +1820,53 @@ Wolfskin = Скура | Футра
 Накідка — The Old Realms / armory_by/tor_armors.xml # str_tor_vc_shoulder_basic_cape_Некрарха_001
 Роба — The Old Realms / armory_by/tor_armors.xml # str_tor_vc_body_basic_robe_Некрарха_001
 Панцыр — Wheel of Time / WoTitems.xml # WarderarmorLightoldСтылёвы
+
+========================================================================
+ДАДАТКІ З ПЕРАКЛАДУ TAOM — LOTRLOME_items.xml
+========================================================================
+
+Handle = Дзяржальна | Тронка | Дрэўка
+  Дзяржальна: TAOM / LOTRLOME_items.xml # aom_dunland_caerdh_sword_handle_2h_a_name
+  Тронка: TAOM / LOTRLOME_items.xml # aom_dunland_caerdh_axe_handle_1h_a_name
+  Дрэўка: TAOM / LOTRLOME_items.xml # aom_dunland_caerdh_short_spear_handle_b_name
+
+
+
+Haft = Тронка
+  Тронка: TAOM / LOTRLOME_items.xml # aom_wm_dale_ws_1h_axe_a02_handle_name
+
+Shaft = Дрэўка
+  Дрэўка: TAOM / LOTRLOME_items.xml # aom_sm_md_num_lance_handle_a_name
+
+Spear head = Наканечнік
+  Наканечнік: TAOM / LOTRLOME_items.xml # aom_dunland_caerdh_spear_head_a_name
+
+Mace head = Галоўка
+  Галоўка: TAOM / LOTRLOME_items.xml # aom_sm_dg_khml_mace_blade_1h_a_name
+
+Poleaxe blade = Баявая Частка
+  Баявая Частка: TAOM / LOTRLOME_items.xml # aom_sm_ar_art_poleaxe_blade_a_name
+
+Chainmail armour / Chainmail armor = Кальчужны Панцыр
+  Кальчужны Панцыр: TAOM / LOTRLOME_items.xml # aom_sk_dwarf_erebor_chest_chain_a_name
+
+Scalemail armour / Scalemail armor = Лускавы Панцыр
+  Лускавы Панцыр: TAOM / LOTRLOME_items.xml # aom_haradrim02_toso_name
+
+Scalemail = Лускатая Кальчуга
+  Лускатая Кальчуга: TAOM / LOTRLOME_items.xml # aom_dunland_wulf_scalemail_elite_a_name
+
+Chestplate = Пласьцінавы Нагруднік
+  Пласьцінавы Нагруднік: TAOM / LOTRLOME_items.xml # aom_mkwd_inf3_chest_bronze_name
+
+Chest = Нагруднік
+  Нагруднік: TAOM / LOTRLOME_items.xml # aom_sk_dg_uruk_chest_elite_a_name
+
+Howdah = Хаўда
+  Хаўда: TAOM / LOTRLOME_items.xml # aom_sk_elephant_armor_howdah_elite
+
+Pauldron cape = Накідка з Палдронам
+  Накідка з Палдронам: TAOM / LOTRLOME_items.xml # aom_sk_dg_uruk_pauldron_elite_cape_a_name
+
+Cape pauldron = Палдрон з Накідкай
+  Палдрон з Накідкай: TAOM / LOTRLOME_items.xml # aom_sk_gd_dol_pauld_cape_noble_elite_a_name
