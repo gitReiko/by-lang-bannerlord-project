@@ -127,7 +127,7 @@
   const markerPattern = /\{=([^{}]+)\}/g;
   const XSL = "http://www.w3.org/1999/XSL/Transform";
   const PAGE_SIZE = 50;
-  const TOOL_VERSION = "2026-10-10.3";
+  const TOOL_VERSION = "2026-10-17.1";
   const state = { files: [], catalog: null, outputs: [], page: 0, busy: false };
   $("toolVersion").textContent = "Версія " + TOOL_VERSION;
 
@@ -248,6 +248,10 @@
     let variant = entry.variants.find(item => item.text === occurrence.text);
     if (!variant) { variant = { text: occurrence.text, sources: [] }; entry.variants.push(variant); }
     variant.sources.push({ file: occurrence.file, location: occurrence.location });
+    // Mods can reuse a character-name ID for an empty Hero text or biography.
+    // Prefer the actual NPC name, then nonempty text, retaining all conflicts.
+    const priority = item => !item.text.trim() ? 0 : item.sources.some(source => /\/NPCCharacter\[\d+\]\/@name$/.test(source.location)) ? 2 : 1;
+    if (priority(variant) > priority(entry.variants[entry.chosen])) entry.chosen = entry.variants.indexOf(variant);
   }
 
   async function scanFiles(files, options, onProgress = () => {}) {
