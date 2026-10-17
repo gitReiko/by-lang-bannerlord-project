@@ -202,4 +202,112 @@
     <xsl:attribute name="name">{=wre_lord_3_3.name}Richomeres</xsl:attribute>
   </xsl:template>
 
+  <xsl:template match="NPCCharacter[@id='be_germanic_archer']/@name">
+    <xsl:attribute name="name">{=germanic_archer}Germanic Archer</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_axeman']/@name">
+    <xsl:attribute name="name">{=germanic_axeman}Germanic Axeman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_chieftain']/@name">
+    <xsl:attribute name="name">{=be_germanic_chieftain}Germanic Chieftain</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_degn']/@name">
+    <xsl:attribute name="name">{=be_germanic_degn}Germanic Degn</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_horseman']/@name">
+    <xsl:attribute name="name">{=germanic_horseman}Germanic Horseman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_hunter']/@name">
+    <xsl:attribute name="name">{=germanic_hunter}Germanic Hunter</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_hurler']/@name">
+    <xsl:attribute name="name">{=germanic_hurler}Germanic Hurler</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_longspear_footman']/@name">
+    <xsl:attribute name="name">{=be_germanic_longspear_footman}Germanic Longspear Footman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_recruit']/@name">
+    <xsl:attribute name="name">{=germanic_recruit}Germanic Recruit</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_scout']/@name">
+    <xsl:attribute name="name">{=germanic_scout}Germanic Scout</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_slinger']/@name">
+    <xsl:attribute name="name">{=germanic_slinger}Germanic Slinger</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_spearman']/@name">
+    <xsl:attribute name="name">{=germanic_spearman}Germanic Spearman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_trained_spearman']/@name">
+    <xsl:attribute name="name">{=germanic_trained_spearman}Germanic Trained Spearman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_veteran_degn']/@name">
+    <xsl:attribute name="name">{=be_germanic_veteran_degn}Germanic Veteran Degn</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_germanic_veteran_horseman']/@name">
+    <xsl:attribute name="name">{=germanic_veteran_horseman}Germanic Veteran Horseman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_bowman']/@name">
+    <xsl:attribute name="name">{=be_nordic_bowman}Nordic Bowman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_cavalryman']/@name">
+    <xsl:attribute name="name">{=be_nordic_cavalryman}Nordic Cavalryman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_footman']/@name">
+    <xsl:attribute name="name">{=be_nordic_footman}Nordic Footman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_hearthguard']/@name">
+    <xsl:attribute name="name">{=be_nordic_hearthguard}Nordic Hearthguard</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_heavy_javelinman']/@name">
+    <xsl:attribute name="name">{=be_nordic_heavy_javelinman}Nordic Heavy Javelinman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_javelinman']/@name">
+    <xsl:attribute name="name">{=be_nordic_javelinman}Nordic Javelinman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_seasoned_footman']/@name">
+    <xsl:attribute name="name">{=be_nordic_seasoned_footman}Nordic Seasoned Footman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_slinger']/@name">
+    <xsl:attribute name="name">{=be_nordic_slinger}Nordic Slinger</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_thrall']/@name">
+    <xsl:attribute name="name">{=be_nordic_thrall}Nordic Thrall</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_thrall_footman']/@name">
+    <xsl:attribute name="name">{=be_nordic_thrall_footman}Nordic Thrall Footman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_thrall_huntsman']/@name">
+    <xsl:attribute name="name">{=be_nordic_thrall_huntsman}Nordic Thrall Huntsman</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="NPCCharacter[@id='be_nordic_veteran_slinger']/@name">
+    <xsl:attribute name="name">{=be_nordic_veteran_slinger}Nordic Veteran Slinger</xsl:attribute>
+  </xsl:template>
+
 </xsl:stylesheet>
