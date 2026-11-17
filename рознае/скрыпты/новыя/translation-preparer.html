@@ -127,7 +127,7 @@
   const markerPattern = /\{=([^{}]+)\}/g;
   const XSL = "http://www.w3.org/1999/XSL/Transform";
   const PAGE_SIZE = 50;
-  const TOOL_VERSION = "2026-10-17.1";
+  const TOOL_VERSION = "2026-11-17.1";
   const state = { files: [], catalog: null, outputs: [], page: 0, busy: false };
   $("toolVersion").textContent = "Версія " + TOOL_VERSION;
 
@@ -302,7 +302,7 @@
 
   function stringsXml(entries, languageName, includeSourceComments = false) {
     const rows = includeSourceComments
-      ? entries.slice().sort((a, b) => compare(a.sourceFile, b.sourceFile) || compare(a.id, b.id))
+      ? entries.slice().sort((a, b) => compare(a.sourceFile, b.sourceFile))
       : entries;
     const lines = [];
     let previousSource = null;
@@ -330,8 +330,8 @@
     const groups = new Map();
     const paths = new Map();
     const used = new Set(["language_data.xml"]);
-    const sorted = Array.from(catalog.entries.values()).sort((a, b) => compare(a.id, b.id));
-    for (const entry of sorted) {
+    // Map iteration preserves the order in which strings were read from each file.
+    for (const entry of catalog.entries.values()) {
       if (options.conflictPolicy === "omit" && entry.variants.length > 1) continue;
       const variant = entry.variants[entry.chosen];
       const sourceFile = variant.sources[0].file;
@@ -453,7 +453,7 @@
     const entries = Array.from(state.catalog.entries.values()).filter(entry => {
       if ($("onlyConflicts").checked && entry.variants.length < 2) return false;
       return !query || entry.id.toLowerCase().includes(query) || entry.variants.some(variant => variant.text.toLowerCase().includes(query) || variant.sources.some(source => source.file.toLowerCase().includes(query)));
-    }).sort((a, b) => compare(a.id, b.id));
+    });
     const pages = Math.max(1, Math.ceil(entries.length / PAGE_SIZE));
     state.page = Math.max(0, Math.min(state.page, pages - 1));
     $("stringsBody").replaceChildren();
