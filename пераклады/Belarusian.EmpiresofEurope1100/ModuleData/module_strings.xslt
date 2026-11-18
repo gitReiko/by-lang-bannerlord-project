@@ -8,6 +8,92 @@
       <xsl:apply-templates select="@*|node()" />
     </xsl:copy>
   </xsl:template>
+  <!-- ModuleData/module_strings/module_strings_arab.xml -->
+  <xsl:template match="string[@id='str_player_father_name.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_player_father_name.arab.text}Hassan</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_player_mother_name.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_player_mother_name.arab.text}Zainab</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_culture_description.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_culture_description.arab.text}During the Middle Ages, Islam fostered a vast Arab union, leading to significant Arab migrations to the Maghreb, the Levant, and neighbouring territories under the rule of Arab empires such as the Rashidun, Umayyad, Abbasid, and Fatimid, ultimately leading to the decline of the Byzantine and Sasanian empires. At its peak, Arab territories stretched from southern France to western China, forming one of history's largest empires.</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_adjective_for_culture.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_adjective_for_culture.arab.text}Arab</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_culture_rich_name.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_culture_rich_name.arab.text}Arab</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_ruler_name_with_title.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_ruler_name_with_title.arab.text}{?RULER.GENDER}Caliph{?}Caliph{\?} {RULER.NAME}</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_noble_name_with_title.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_noble_name_with_title.arab.text}{?RULER.GENDER}Caliph{?}Caliph{\?} {RULER.NAME}</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_official.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_official.arab.text}Emir</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_official.arab_f']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_official.arab_f.text}Emira</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_ruler.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_ruler.arab.text}Caliph</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_ruler.arab_f']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_ruler.arab_f.text}Caliph</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_ruler_term_in_speech.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_ruler_term_in_speech.arab.text}{?RULER.GENDER}Caliph{?}Caliph{\?} {RULER.NAME}</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_neutral_term_for_culture.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_neutral_term_for_culture.arab.text}Arab</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_adjective_for_faction.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_adjective_for_faction.arab.text}Arabs</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_short_term_for_faction.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_short_term_for_faction.arab.text}Arab</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_formal_name_for_culture.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_formal_name_for_culture.arab.text}Arab</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="string[@id='str_faction_informal_name_for_culture.arab']/@text">
+    <xsl:attribute name="text">
+      <xsl:text>{=eoe1100.string.str_faction_informal_name_for_culture.arab.text}Arabs</xsl:text>
+    </xsl:attribute>
+  </xsl:template>
   <!-- ModuleData/module_strings/module_strings_aserai.xml -->
   <xsl:template match="string[@id='str_adjective_for_culture.aserai']/@text">
     <xsl:attribute name="text">
