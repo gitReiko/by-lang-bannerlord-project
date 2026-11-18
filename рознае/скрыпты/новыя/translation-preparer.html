@@ -127,7 +127,7 @@
   const markerPattern = /\{=([^{}]+)\}/g;
   const XSL = "http://www.w3.org/1999/XSL/Transform";
   const PAGE_SIZE = 50;
-  const TOOL_VERSION = "2026-11-18.1";
+  const TOOL_VERSION = "2026-11-18.2";
   const state = { files: [], catalog: null, outputs: [], page: 0, busy: false };
   $("toolVersion").textContent = "Версія " + TOOL_VERSION;
 
@@ -175,6 +175,9 @@
     while (stack.length) {
       const { element, location, textCollected } = stack.pop();
       for (const attr of Array.from(element.attributes)) {
+        // XSLT instruction attributes contain XPath/control syntax, not output
+        // strings. Still collect attributes on literal result elements below.
+        if (element.namespaceURI === XSL || attr.namespaceURI === XSL) continue;
         if (attr.value.includes("{=")) extractMarkers(attr.value, { file, location: location + "/@" + attr.name }, emit, stats);
       }
       const children = Array.from(element.childNodes);
