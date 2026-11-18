@@ -127,7 +127,7 @@
   const markerPattern = /\{=([^{}]+)\}/g;
   const XSL = "http://www.w3.org/1999/XSL/Transform";
   const PAGE_SIZE = 50;
-  const TOOL_VERSION = "2026-11-17.1";
+  const TOOL_VERSION = "2026-11-18.1";
   const state = { files: [], catalog: null, outputs: [], page: 0, busy: false };
   $("toolVersion").textContent = "Версія " + TOOL_VERSION;
 
@@ -141,6 +141,24 @@
       const end = i + 1 < markers.length ? markers[i + 1].index : value.length;
       emit({ id, text: value.slice(start, end), ...source });
     }
+  }
+
+  function staticXslText(element) {
+    const walker = element.ownerDocument.createTreeWalker(element, 4 | 8); // Text and CDATA.
+    const parts = [];
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      const parent = node.parentElement;
+      // XSLT discards indentation-only nodes except in xsl:text or under
+      // xml:space="preserve". Keep meaningful whitespace exactly as written.
+      if (/^[\t\r\n ]*$/.test(node.nodeValue) && !(parent.namespaceURI === XSL && parent.localName === "text")) {
+        let context = parent;
+        while (context && !context.hasAttributeNS("http://www.w3.org/XML/1998/namespace", "space")) context = context.parentElement;
+        if (!context || context.getAttributeNS("http://www.w3.org/XML/1998/namespace", "space") !== "preserve") continue;
+      }
+      parts.push(node.nodeValue);
+    }
+    return parts.join("");
   }
 
   function extractXml(text, file, emit, stats, excludeTranslations) {
@@ -164,7 +182,8 @@
       const staticXslValue = element.namespaceURI === XSL && (element.localName === "attribute" || element.localName === "text");
       const collectText = !textCollected && (directText.includes("{=") || (staticXslValue && element.textContent.includes("{=")));
       if (collectText) {
-        extractMarkers(element.textContent, { file, location: location + "/text()" }, emit, stats);
+        const value = staticXslValue ? staticXslText(element) : element.textContent;
+        extractMarkers(value, { file, location: location + "/text()" }, emit, stats);
         const dynamicNodes = Array.from(element.getElementsByTagNameNS(XSL, "*")).filter(node => node.localName !== "text");
         if (dynamicNodes.length) stats.warnings.push({ file, location, message: "Радок утрымлівае дынамічныя інструкцыі XSLT. Зьберагаецца толькі статычны тэкст; праверце вынік." });
       }
