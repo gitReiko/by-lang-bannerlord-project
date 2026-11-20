@@ -30,6 +30,8 @@ Apply [the shared displayed-name capitalization rule](../bannerlord-translate/SK
 
 Check all significant visible words after grammatical or UI markup and in each visible conditional branch; do not suggest altering tags, variables, or control syntax. Include full and short names, clan labels, and names with opaque IDs. Expected examples include `Пляценьне Зорнага Сьвятла`, `Карсарскія Клінкі`, and `Саляная Даліна`; an initial-letter-only check is insufficient. Internal function words remain lowercase, as in `Вёска ля Заходняга Моста`; established hyphenated suffixes such as `-хай` are not automatically capitalized. Check repeated and inflected named-entity references in descriptions against their labels, while leaving generic mentions lowercase. Explicit user and project conventions take priority.
 
+Check names of countries, states, cultures, and peoples and their derived adjectives in descriptions and dialogue as well as labels: the shared game style requires `Армяне`, `Нарманы`, `Бэрбэрскі`, and `Бізантыйскія` even where ordinary Belarusian prose or the source uses lowercase. Every significant component of a named state takes a capital, including `Імпэрыя`, `Гаспадарства`, or `Султанат` when part of that name (`Сьвятая Рымская Імпэрыя`, `Імпэрыя Сэльджукаў`). Keep generic mentions of a people, culture, or state lowercase. When capitalization fixes are authorized, verify that only letter case changed and that runtime tokens remain exactly identical.
+
 ## Check high-risk invariants first
 
 Report concrete file paths and stable IDs for findings. Check:

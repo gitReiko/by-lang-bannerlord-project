@@ -127,7 +127,7 @@
   const markerPattern = /\{=([^{}]+)\}/g;
   const XSL = "http://www.w3.org/1999/XSL/Transform";
   const PAGE_SIZE = 50;
-  const TOOL_VERSION = "2026-10-17.1";
+  const TOOL_VERSION = "2026-11-18.2";
   const state = { files: [], catalog: null, outputs: [], page: 0, busy: false };
   $("toolVersion").textContent = "Версія " + TOOL_VERSION;
 
@@ -141,6 +141,24 @@
       const end = i + 1 < markers.length ? markers[i + 1].index : value.length;
       emit({ id, text: value.slice(start, end), ...source });
     }
+  }
+
+  function staticXslText(element) {
+    const walker = element.ownerDocument.createTreeWalker(element, 4 | 8); // Text and CDATA.
+    const parts = [];
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      const parent = node.parentElement;
+      // XSLT discards indentation-only nodes except in xsl:text or under
+      // xml:space="preserve". Keep meaningful whitespace exactly as written.
+      if (/^[\t\r\n ]*$/.test(node.nodeValue) && !(parent.namespaceURI === XSL && parent.localName === "text")) {
+        let context = parent;
+        while (context && !context.hasAttributeNS("http://www.w3.org/XML/1998/namespace", "space")) context = context.parentElement;
+        if (!context || context.getAttributeNS("http://www.w3.org/XML/1998/namespace", "space") !== "preserve") continue;
+      }
+      parts.push(node.nodeValue);
+    }
+    return parts.join("");
   }
 
   function extractXml(text, file, emit, stats, excludeTranslations) {
@@ -157,6 +175,9 @@
     while (stack.length) {
       const { element, location, textCollected } = stack.pop();
       for (const attr of Array.from(element.attributes)) {
+        // XSLT instruction attributes contain XPath/control syntax, not output
+        // strings. Still collect attributes on literal result elements below.
+        if (element.namespaceURI === XSL || attr.namespaceURI === XSL) continue;
         if (attr.value.includes("{=")) extractMarkers(attr.value, { file, location: location + "/@" + attr.name }, emit, stats);
       }
       const children = Array.from(element.childNodes);
@@ -164,7 +185,8 @@
       const staticXslValue = element.namespaceURI === XSL && (element.localName === "attribute" || element.localName === "text");
       const collectText = !textCollected && (directText.includes("{=") || (staticXslValue && element.textContent.includes("{=")));
       if (collectText) {
-        extractMarkers(element.textContent, { file, location: location + "/text()" }, emit, stats);
+        const value = staticXslValue ? staticXslText(element) : element.textContent;
+        extractMarkers(value, { file, location: location + "/text()" }, emit, stats);
         const dynamicNodes = Array.from(element.getElementsByTagNameNS(XSL, "*")).filter(node => node.localName !== "text");
         if (dynamicNodes.length) stats.warnings.push({ file, location, message: "Радок утрымлівае дынамічныя інструкцыі XSLT. Зьберагаецца толькі статычны тэкст; праверце вынік." });
       }
@@ -302,7 +324,7 @@
 
   function stringsXml(entries, languageName, includeSourceComments = false) {
     const rows = includeSourceComments
-      ? entries.slice().sort((a, b) => compare(a.sourceFile, b.sourceFile) || compare(a.id, b.id))
+      ? entries.slice().sort((a, b) => compare(a.sourceFile, b.sourceFile))
       : entries;
     const lines = [];
     let previousSource = null;
@@ -330,8 +352,8 @@
     const groups = new Map();
     const paths = new Map();
     const used = new Set(["language_data.xml"]);
-    const sorted = Array.from(catalog.entries.values()).sort((a, b) => compare(a.id, b.id));
-    for (const entry of sorted) {
+    // Map iteration preserves the order in which strings were read from each file.
+    for (const entry of catalog.entries.values()) {
       if (options.conflictPolicy === "omit" && entry.variants.length > 1) continue;
       const variant = entry.variants[entry.chosen];
       const sourceFile = variant.sources[0].file;
@@ -453,7 +475,7 @@
     const entries = Array.from(state.catalog.entries.values()).filter(entry => {
       if ($("onlyConflicts").checked && entry.variants.length < 2) return false;
       return !query || entry.id.toLowerCase().includes(query) || entry.variants.some(variant => variant.text.toLowerCase().includes(query) || variant.sources.some(source => source.file.toLowerCase().includes(query)));
-    }).sort((a, b) => compare(a.id, b.id));
+    });
     const pages = Math.max(1, Math.ceil(entries.length / PAGE_SIZE));
     state.page = Math.max(0, Math.min(state.page, pages - 1));
     $("stringsBody").replaceChildren();

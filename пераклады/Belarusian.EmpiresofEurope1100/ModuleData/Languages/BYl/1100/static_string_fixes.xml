@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Biełaruskaja" />
+  </tags>
+  <strings>
+    <!--crafting_pieces.xslt-->
+    <string id="eoe1100.craftingpiece.baltic_sulica_type_2.name" text="Bałtyjski Nakaniečnik Sulicy Typu 2" />
+    <string id="eoe1100.craftingpiece.baltic_sulica_type_3.name" text="Bałtyjski Nakaniečnik Sulicy Typu 3" />
+    <string id="eoe1100.craftingpiece.rus_hunting_sulica_type_1.name" text="Ruśki Nakaniečnik Palaŭničaj Sulicy Typu 1" />
+    <string id="eoe1100.craftingpiece.rus_oval_war_sulica_type_1.name" text="Ruśki Avalny Nakaniečnik Vajskovaj Sulicy Typu 1" />
+    <string id="eoe1100.craftingpiece.rus_rhombic_war_sulica_type_1.name" text="Ruśki Rambičny Nakaniečnik Vajskovaj Sulicy Typu 1" />
+    <string id="eoe1100.craftingpiece.rus_2h_ash_rahacina_shaft.name" text="Ruśkaje Jasianiovaje Dreŭka Dźviuchručnaj Rahaciny" />
+    <string id="eoe1100.craftingpiece.rus_2h_hardened_ashen_cavalry_shaft.name" text="Ruśkaje Ŭmacavanaje Jasianiovaje Dreŭka Dźviuchručnaj Konnaj Dzidy" />
+    <string id="eoe1100.craftingpiece.rus_2h_noble_cavalry_shaft.name" text="Ruśkaje Dreŭka Dźviuchručnaj Šlachieckaj Konnaj Dzidy" />
+    <string id="eoe1100.craftingpiece.rus_2h_oaken_cavalry_shaft.name" text="Ruśkaje Dubovaje Dreŭka Dźviuchručnaj Konnaj Dzidy" />
+    <string id="eoe1100.craftingpiece.rus_2h_oaken_rahacina_shaft.name" text="Ruśkaje Dubovaje Dreŭka Dźviuchručnaj Rahaciny" />
+    <string id="eoe1100.craftingpiece.rus_2h_pine_cavalry_shaft.name" text="Ruśkaje Chvajovaje Dreŭka Dźviuchručnaj Konnaj Dzidy" />
+    <string id="eoe1100.craftingpiece.rus_2h_pine_rahacina_shaft.name" text="Ruśkaje Chvajovaje Dreŭka Dźviuchručnaj Rahaciny" />
+    <string id="eoe1100.craftingpiece.rus_kapjo_t3_11_12_cavalry.name" text="Ruśki Nakaniečnik Kapja — Typ 3 [XI–XII st.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_head_type4_11_12.name" text="Ruśki Nakaniečnik Kapja Typu 4 [XI–XII st.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_head_type4a_12_13.name" text="Ruśki Nakaniečnik Kapja Typu 4 A [XII–XIII st.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_head_type7_11_12.name" text="Ruśki Nakaniečnik Kapja Typu 7 [XI–XII st.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_head_type7_12_13.name" text="Ruśki Nakaniečnik Kapja Typu 7 [XII–XIII st.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_leaf_head_type4a_12_13.name" text="Ruśki Listapadobny Nakaniečnik Kapja Typu 4 A [XII–XIII st.]" />
+    <!--europeItems.xslt-->
+    <string id="eoe1100.item.turkic_noble.name" text="{.Muzcynski}Ciurski Łamielar Šlachciča" />
+    <string id="eoe1100.item.rough_fur_cloak.name" text="{.Muzcynski}Hruby Futravy Płašč" />
+    <string id="eoe1100.item.gold_ore.name" text="{.Zanocy}Załataja Ruda{@Plural}załatoj rudy{\@}" />
+    <string id="eoe1100.item.khuzait_horse.name" text="{.Muzcynski}Stepavy Koń{@Plural}stepavych koniej{\@}" />
+    <string id="eoe1100.item.saddle_horse.name" text="{.Muzcynski}Vierchavy Koń{@Plural}vierchavych koniej{\@}" />
+    <!--module_strings.xslt-->
+    <string id="eoe1100.string.str_player_father_name.arab.text" text="Chasan" />
+    <string id="eoe1100.string.str_player_mother_name.arab.text" text="Zajnab" />
+    <string id="eoe1100.string.str_culture_description.arab.text" text="U Siaredniavieččy Isłam spryjaŭ utvareńniu vialikaha Arabskaha źviazu, što pryviało da značnych mihracyjaŭ Arabaŭ u Mahryb, Levant i susiednija ziemli pad uładaj Arabskich imperyjaŭ Rašydunaŭ, Amajadaŭ, Abbasidaŭ i Facimidaŭ. Urešcie heta pryviało da zaniapadu Bizantyjskaj i Sasanidzkaj Imperyjaŭ. Na piku mahutnaści Arabskija ŭładańni praściralisia ad poŭdnia Francyi da zachadu Kitaju, utvarajučy adnu z najbujniejšych imperyjaŭ u historyi." />
+    <string id="eoe1100.string.str_adjective_for_culture.arab.text" text="Araby" />
+    <string id="eoe1100.string.str_culture_rich_name.arab.text" text="Arabskaja" />
+    <string id="eoe1100.string.str_faction_ruler_name_with_title.arab.text" text="{?RULER.GENDER}Chalif{?}Chalif{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_faction_noble_name_with_title.arab.text" text="{?RULER.GENDER}Chalif{?}Chalif{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_faction_official.arab.text" text="Emir" />
+    <string id="eoe1100.string.str_faction_official.arab_f.text" text="Emira" />
+    <string id="eoe1100.string.str_faction_ruler.arab.text" text="Chalif" />
+    <string id="eoe1100.string.str_faction_ruler.arab_f.text" text="Chalif" />
+    <string id="eoe1100.string.str_faction_ruler_term_in_speech.arab.text" text="{?RULER.GENDER}Chalif{?}Chalif{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_neutral_term_for_culture.arab.text" text="Araby" />
+    <string id="eoe1100.string.str_adjective_for_faction.arab.text" text="Araby" />
+    <string id="eoe1100.string.str_short_term_for_faction.arab.text" text="Arabskaja" />
+    <string id="eoe1100.string.str_faction_formal_name_for_culture.arab.text" text="Araby" />
+    <string id="eoe1100.string.str_faction_informal_name_for_culture.arab.text" text="Araby" />
+    <string id="eoe1100.string.str_adjective_for_culture.aserai.text" text="Amazihi" />
+    <string id="eoe1100.string.str_adjective_for_faction.aserai.text" text="Amazihi" />
+    <string id="eoe1100.string.str_culture_description.aserai.text" text="Da XI stahodździa bolšaja častka Paŭnočna-Zachodniaj Afryki pieražyvała adnosna chutki praces isłamizacyi, jaki, u adroźnieńnie ad Blizkaha Ŭschodu, supravadžaŭsia abmiežavanaj Arabizacyjaj karennaha Amaziskaha nasielnictva. Hety Musulmanski Zachad, viadomy jak Mahryb, pa-raniejšamu byŭ pieravažna Berberamoŭnym i zdoleŭ prystasavać zvyčai dy vieravańni svaich prodkaŭ da novaha Isłamskaha śvietapohladu. Kraj staŭ ziamloj raznastajnaści, dzie roznyja relihijnyja mienšaści apynulisia pad uładaj novaha palityčnaha ładu XI stahodździa: Berberskija Sunickija emiry trymalisia Malikickaha abradu i panavali ad imia dalokaha Abbasidzkaha Chalifa ŭ Bahdadzie." />
+    <string id="eoe1100.string.str_culture_rich_name.aserai.text" text="Amaziskaja" />
+    <string id="eoe1100.string.str_faction_formal_name_for_culture.aserai.text" text="Amazihi" />
+    <string id="eoe1100.string.str_faction_informal_name_for_culture.aserai.text" text="Amazihi" />
+    <string id="eoe1100.string.str_faction_noble_name_with_title.aserai.text" text="{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_faction_official.aserai.text" text="Vizir" />
+    <string id="eoe1100.string.str_faction_official.aserai_f.text" text="Vizir" />
+    <string id="eoe1100.string.str_faction_ruler.aserai.text" text="Emir" />
+    <string id="eoe1100.string.str_faction_ruler.aserai_f.text" text="Emira" />
+    <string id="eoe1100.string.str_faction_ruler_name_with_title.aserai.text" text="{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_faction_ruler_term_in_speech.aserai.text" text="{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_neutral_term_for_culture.aserai.text" text="Amazihi" />
+    <string id="eoe1100.string.str_short_term_for_faction.aserai.text" text="Amaziskaja" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_arab_0.text" text="Ja naradziŭsia ŭ rabyni ŭ domie Damaskaha kadzi. Jon hadavaŭ mianie razam sa svaimi synami i vučyŭ pavodle pracaŭ Halena dy Ibn Siny, kab adnojčy ja staŭ lekaram. Ja dumaŭ, što viedy pryniasuć mnie pavahu." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_arab_1.text" text="Moj baćka byŭ Ajsam, syn Samuka, unuk Munbilasa Starejšaha, jaki vajavaŭ razam z Banu Sulajm, kali jany zavajavali Ifrykiju. Naša kroŭ pachodzić ad plamionaŭ Nedždu — čystaja, ničym nie zaplamlenaja." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_arab_2.text" text="Moj rod pachodzić z małodšaj haliny Banu Kilab. Kali sułtan kliča, my vystupajem pad vialikimi ściahami, ale kali piajuć paety, to zhadvajuć adno pravadyroŭ mahutnych rodaŭ." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_arab_3.text" text="Ja vučyŭsia ŭ Alepa, dzie mužčyny dziela zabavy bjucca na pajadynkach u kniaskich dvarach. Moj klinok spaznaŭ bolš honaru, čym vina. Ale ja pahardžaju vojskami — za ichnymi ściahami chavajecca zašmat bajaźliŭcaŭ." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_arab_0.text" text="Ale biez upłyvovych svajakoŭ dźviery lekara zastajucca pustymi. Vučonyja ludzi balujuć z emirami, a biedniaki pamirajuć u zavułkach. Tamu ja dałučyŭsia da karavana i lačyŭ chvorych siarod piaskoŭ pamiž Alepa i Basraj." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_arab_1.text" text="Niekatoryja šepčuć, što naš prodak Zais naradziŭsia pa-za šlubam. Heta chłuśnia, jakuju šyryć zajzdrosny rod Banu Hutan. Ale ŭ mianie jahony mieč — dokaz jahonaha honaru, błasłaviony fakicham u Mecy." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_arab_2.text" text="Ja biŭsia pad Charanam, pad Alepa i na pamiežžy suprać Frankaŭ. Ja bačyŭ, jak bajaźliŭcaŭ słavili hierojami, a advažnych zabyvali, bo ichnyja baćki byli biednymi." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_arab_3.text" text="Ja zarablaŭ tym, što zabivaŭ zabojcaŭ. Kali niechta chacieŭ vyklikać voraha na pajadynak i zastacca žyvym, jon płaciŭ mnie, kab ja jaho spravakavaŭ. Ja nikoli nia biŭ pieršym. Heta zhańbiła b mianie pierad Boham." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_arab_0.text" text="U tych padarožžach ja šmat čamu navučyŭsia: lačyć rany paśla nabiehaŭ hazijaŭ, bałotnyja lichamanki dy ŭsiakija pakuty ludziej i žyviołaŭ. Ale biaskoncy pył i pycha pravadyroŭ źniasilvajuć duch." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_arab_1.text" text="Zdajecca, vy nie ŭvažajecie. Niaŭžo vy nia čuli pra advahu Banu Sulajm pad Syrtam i Kajruanam?" />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_arab_2.text" text="Ja paklaŭsia zdabyć takuju słavu, kab jana zahłušyła imia kožnaha emira ŭ šoŭku. Słava, jak i zołata, musić dzialicca miž tymi, chto jaje zdabyvaje." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_arab_3.text" text="Ale adzin emir, zanadta bajaźlivy, kab sustrecca sa mnoj, pasłaŭ zamiest siabie achovu. Adnaho ja mahu zabić, ale nia dziesiacioch. Tamu ja ŭciok, uziaŭšy adno mieč i zarok bolš nikoli nie schilacca pierad chłusam." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_arab_0.text" text="Zrešty, u mianie jość krychu srebra i daroha napieradzie. Moža, vašamu zahonu spatrebicca ćviordaja ruka dy rozum, vastrejšy, čym u bolšaści vajaroŭ?" />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_arab_1.text" text="Cha! Ciapierašnija emiry — syny handlaroŭ i ŭnuki raboŭ. Takim ja nie słužu. Ale za zołata ja pakažu lubomu kniaziu, na što zdolnaja sapraŭdnaja šlachieckaja kroŭ." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_arab_2.text" text="Moža, mienavita pad vašym ściaham majo imia narešcie zapomniać." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_arab_3.text" text="Mahčyma. Kali vaš ściah čysty, a słova ćviordaje, ja ahalu dla vas mieč." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_arab_0.text" text="Naradziŭšysia ŭ rabyni i vyrasšy ŭ domie kadzi, ja vyvučaŭ lekarskaje mastactva Ibn Siny. Kali vučonyja ludzi adkinuli mianie, ja panios svajo ramiastvo ŭ karavany i na pali bitvaŭ." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_arab_1.text" text="Moj radavod siahaje hłyboka ŭ piaski Nedždu, ale ciapier mała chto dbaje pra prodkaŭ. Tamu ja bjusia — i niachaj moj mieč napiša nastupny radok historyi majho rodu." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_arab_2.text" text="Vajar z małodšaj haliny Banu Kilab, jaki šukaje ŭłasnaj słavy. Paety, moža, jašče nia viedajuć jahonaha imia, ale pole bitvy chutka daviedajecca." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_arab_3.text" text="Duelant z Alepa, jaki paklaŭsia nikoli nia bić u śpinu. Vyhnany bajaźlivym panam, jon ciapier pradaje svoj mieč tym, u kaho chopić honaru zapłacić jahony košt." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_arab_0.text" text="Hm. Šmat chto pačynaje apovied, pieraličvajučy svaich prodkaŭ až da Adnana. Ja nia budu. Čałavieka treba sudzić pavodle jahonych učynkaŭ, a nie kostak prodkaŭ. Dyj svajaki daŭno mianie vyhnali." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_arab_1.text" text="Ja raskažu... Kchm, słuchajcie ŭvažliva, bo moj rod šlachietny." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_arab_2.text" text="Słuchajcie dobra, bo heta historyja pra honar — i pra niespraviadlivaść." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_arab_3.text" text="Skažu prosta. Ale kali pierakažacie hetuju historyju, ja adrežu vam jazyk." />
+    <string id="eoe1100.string.response_1.spc_wanderer_arab_0.text" text="Sapraŭdy ciažkaje žyćcio, choć i bahataje na dośvied." />
+    <string id="eoe1100.string.response_1.spc_wanderer_arab_1.text" text="Viadoma. Ale što nakont vašych učynkaŭ, a nia podźvihaŭ dziadoŭ?" />
+    <string id="eoe1100.string.response_1.spc_wanderer_arab_2.text" text="Dobra skazana. Słavu treba zasłužyć, a nie atrymać u spadčynu." />
+    <string id="eoe1100.string.response_1.spc_wanderer_arab_3.text" text="Vy dobra prydalisia b zahonu, dzie šanujuć advahu." />
+    <string id="eoe1100.string.response_2.spc_wanderer_arab_0.text" text="Značyć, ni bahatych zastupnikaŭ, ni miakkaha łožka. Sapraŭdnaja trahiedyja." />
+    <string id="eoe1100.string.response_2.spc_wanderer_arab_1.text" text="Miačom vy vałodajecie hetak ža sprytna, jak jazykom, ci tolki jazykom?" />
+    <string id="eoe1100.string.response_2.spc_wanderer_arab_2.text" text="Mnie srebra milejšaje za pieśni. Ale vaš zapał ja pavažaju." />
+    <string id="eoe1100.string.response_2.spc_wanderer_arab_3.text" text="Vy zaviacie heta honaram. Inšyja nazvali b durnoj pychaj." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_armenian_1.text" text="Bačycie, pra mianie chodzić šmat historyjaŭ, i tolki niekatoryja ź ich praŭdzivyja. Turki zavuć mianie adnym imiem, Araby — inšym." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_armenian_10.text" text="Ja chirurh. Vučyŭsia ŭ imperatarskaj akademii ŭ {IMPERIALCAPITAL}. U horadzie ŭ mianie było šmat bahatych i ŭpłyvovych pacyjentaŭ. Ja dumaŭ, što dobra abaronieny ad Armianskich intryhaŭ i niebiaśpiekaŭ. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_armenian_11.text" text="Moj baćka byŭ imperatarskim katafraktam. Na žal, jon zahinuŭ u bitvie z Arabami, i mianie addali pad apieku miascovaha archonta. Toj pakłaŭ voka na baćkaŭ majontak, choć i ścipły, tamu zładziŭ moj šlub sa svaim stryječnym bratam." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_armenian_3.text" text="Ja vajar pavodle ramiastva. Dvaccać hadoŭ słužyŭ u Armianskich lehijonach. Kaliści jany byli vartyja nazvy «lehijony». My hadami słužyli razam i lepiej pamierli b, čym ubačyli, jak našyja ściahi pachisnucca ci ŭpaduć." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_armenian_10.text" text="Ale adnojčy sa mnoj źviazaŭsia ahient Biuro pa Spravach Barbaraŭ. Nia viedaju, ci dobra vy ź imi znajomyja. Spačatku jany musili trymać čužyja plamiony raźjadnanymi i słabymi, ale potym uzialisia za ŭsie Armianskija spravy, u jakich mahli ŭbačyć pahrozu. Spačatku jany prasili drobnyja, nibyta biaskryŭdnyja źviestki pra maich pacyjentaŭ. Heta parušała maju prysiahu, ale ja prahnuŭ prychilnaści Biuro. Nieŭzabavie jany pačali patrabavać usio bolš i bolš." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_armenian_2.text" text="Ale Turki raźbili nas, jon zahinuŭ, a našuju ziamlu zachapili. Dachody ź jaje ciapier naležać niejkamu tarchanu. Na žal, siońnia ŭ Armianaŭ mała ziamli, kab nadzialać navat takich navučanych końnikaŭ, jak ja, što chočuć słužyć. A koni darahija." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_armenian_3.text" text="Ale imperatar zavioŭ ćviet lehijonaŭ u zasadu ŭ Hiermanskich lasach. Vy, mabyć, čuli hetuju historyju. Ja tady lažaŭ chvory. Šmat maich tavaryšaŭ nie viarnułasia, i paśla taho ŭsio źmianiłasia." />
+    <string id="eoe1100.string.response_2.spc_wanderer_armenian_2.text" text="Armianski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_baltic_3.text" text="Skažu vam: toje, u što vieryć bolšaść, — sucelnaja chłuśnia. Za staroha karala ja słužyŭ u Karaleŭskaj Hvardyi. My surjozna stavilisia da dyscypliny i hanarylisia joju. Potym pačalisia bunty. Toje, što ja bačyŭ u {IMPERIALCAPITAL}... Mnie i dahetul soramna." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_baltic_5.text" text="U nas, Bałtaŭ, jość zvyčaj. Kali dvoje spračajucca, a śviedkaŭ niama i słova adnaho staić suprać słova druhoha, my dazvalajem im raźviazać sprečku miačami. Kali niechta nia choča bicca, moža naniać inšaha zamiest siabie. Tak u nas zaviedziena. Mabyć, inšyja narody robiać hetaksama, bo zvyčaj dobry." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_baltic_1.text" text="Potym ja dałučyŭsia da Jomśvikinhaŭ. «Braty Ščyta». Dobraja nazva, praŭda? Bolšaść času jany siadzieli, skurčyŭšysia za ščytami. Cha! A ja ŭryvaŭsia ŭ hušču vorahaŭ, siejučy śmierć naprava i naleva. I ŭsio, što jany mahli potym skazać: «Čamu ty parušyŭ stroj?»" />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_baltic_1.text" text="Paviercie, druža, ja ćviordy arešak. Ja biŭsia z Jomśvikinhami, Vahirami — dy z usiakimi najmitami, vartymi svajoj płaty. Inšyja mohuć kazać, što rabili toje ž samaje, ale ja sapraŭdy prajšoŭ praz heta." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_baltic_3.text" text="Ja słužyŭ u Karaleŭskaj Hvardyi staroha karala. Ale paśla jahonaj śmierci narod paŭstaŭ suprać nas i napaŭ na nas. Moža, vy ŭžo čuli hetuju historyju. Šmat nas takich, vykinutych u śviet niaŭdziačnymi Kalradyjcami." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_battania_9.text" text="Ale taho dnia ja zabiła kapjom traich i adčuła smak da zabojstva. I zrazumieła: złodziei bahaciejuć, a sumlennyja ludzi pamirajuć. Tamu ja žyła ŭ harach i krała karoŭ u siemjaŭ, jakim pašancavała bolš za maju. Karoŭ ja pradavała, a denary trymała blizka da serca." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_0.text" text="Maja radnia arała ziamlu i paśviła statki, ale ja zmałku vučyŭsia vałodać miačom, bo vajna časta prychodziła da našych dźviarej." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_1.text" text="Ja navučyŭsia tarhavacca, słuchać i bicca, kali zapał braŭ vierch nad rozumam." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_10.text" text="U maładości ja pracavaŭ z mularami, adbudoŭvajučy razburanyja mury." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_11.text" text="Zmałku ja spaznaŭ marachodnuju spravu, a nieŭzabavie — i ŭdary klinkoŭ." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_2.text" text="Moj baćka paśviŭ aviečak, a ja vučyŭsia stralać z łuka, kab adhaniać vaŭkoŭ i złodziejaŭ." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_3.text" text="Ja navučyŭsia vieści čovien, łavić rybu i bicca na vadzie." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_4.text" text="Ad stajni da panskaj zały ja spaścihaŭ mastactva miača i vierchavoj jazdy." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_5.text" text="Kali ja byŭ mały, maju viosku spalili, i mianie prytulili vajary." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_6.text" text="Ja vyras siarod kamiennych muroŭ i zvonu zbroi." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_7.text" text="Ja zmałku vyvučyŭsia hramacie, ale vajna paklikała mianie za manastyrskija mury." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_8.text" text="Radnia navučyła mianie arać ziamlu, a rabaŭniki — zabivać." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_9.text" text="Chłapčukom ja abiraŭ pali bitvaŭ, vučačysia abychodzicca sa zbrojaj, uziataj ź niabožčykaŭ." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_0.text" text="Ja vajavaŭ u rušeńni miascovaha bajaryna, kali Bizantyjcy zachacieli naviazać svaje pravy na našuju ziamlu." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_1.text" text="Paźniej ja pieravoziŭ tavary praz hornyja pieravały, trymajučy klinok pry baku." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_10.text" text="Ale mularstva prynosiła mała hrošaj, tamu ja pajšoŭ u vajary." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_11.text" text="U maładości ja płavaŭ z karsarami, jakija rabavali handlovyja kohi." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_2.text" text="Nieŭzabavie majo majsterstva zaŭvažyli vierchavody zahonaŭ, jakim byŭ patrebny trapny łučnik." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_3.text" text="Z časam ja dałučyŭsia da račnych razbojnikaŭ, što rabavali baržy, jakija prapłyvali mima." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_4.text" text="Kali moj pan staŭ achviaraj intryhaŭ, ja straciŭ usiu prychilnaść i stanovišča." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_5.text" text="Ja vyras u lahierach, vučačysia ŭ veteranaŭ abychodzicca z kapjom i ščytom." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_6.text" text="Padrosšy, ja staŭ vartaŭnikom na murach i sačyŭ jak za handlarami, tak i za zachopnikami." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_7.text" text="Zamiest čarniła ja ŭziaŭsia za zbroju, choć dahetul pamiataju staryja malitvy." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_8.text" text="Kali ŭradžai pajšli marna, ja, jak i šmat chto, padaŭsia ŭ razbojniki." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_9.text" text="Zahon najmitaŭ pryniaŭ mianie i vyhadavaŭ jak svajho." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_0.text" text="Choć my prajhrali, ja vyžyŭ — zahartavany i bieź ničoha, aproč klinka." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_1.text" text="Napad na karavan adabraŭ u mianie ŭsio, ale pakinuŭ žyvym — z ahniom pomsty ŭ sercy." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_10.text" text="Nieŭzabavie ja lepiej viedaŭ pryjomy boju z kapjom, čym vapnu i cehłu." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_11.text" text="Ja pakinuŭ toje žyćcio, pakul jano nie zahubiła mianie, choć mora i zastałosia ŭ sercy." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_2.text" text="Ja syšoŭ ad ich, bo prahnuŭ bolšaha za drobnyja kradziažy i kryvavuju varažnieču." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_3.text" text="Kali Bizantyjcy pasłali suprać nas vajaroŭ, ja ŭciok z adnoj siakieraj." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_4.text" text="Ja vypraviŭsia ŭ darohu — biez brani, ale z honaram." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_5.text" text="Kali vojska raspuścili, ja zastaŭsia — vajar bieź ściaha." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_6.text" text="Ale kali pierastali płacić, skončyłasia i maja viernaść. Ja syšoŭ z klinkom u ruce." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_7.text" text="Ciapier ja niasu z saboj vieru i stal, vandrujučy tudy, dzie ja patrebny." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_8.text" text="Ale mnie nadakučyła kryŭdzić słabych, i ja pajšoŭ šukać lepšaj doli." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_9.text" text="Kali jany razyšlisia, ja zastaŭsia — samotny acaleły paśla zanadta mnohich vojnaŭ." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_0.text" text="Ja z raŭninaŭ Mezii, zahartavany vajnoj." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_1.text" text="Ja z handlovaha Ochrydu, niekali bahataha dziakujučy handlu." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_10.text" text="Ja z Płoŭdzivu, spadkajemca i ruinaŭ, i vojnaŭ." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_11.text" text="Ja z Čarnamorskaha ŭźbiarežža, dzie niama spakoju ni ad chvalaŭ, ni ad vajny." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_2.text" text="Ja z Radopaŭ, dzie pastuchi vučacca vajavać nia horš, čym paśvić statki." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_3.text" text="Ja z Dunaju, dzie žyćcio takoje ž niespakojnaje, jak sama raka." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_4.text" text="Kaliści ja słužyŭ pry Tyrnaŭskim dvary, a ciapier zastaŭsia biaź ničoha." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_5.text" text="Ja sa spustošanych vajnoj raŭninaŭ Trakii." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_6.text" text="Ja ź Vidynu, ćvierdzi na Dunai." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_7.text" text="Ja z Prasłavu, niekali siadziby caroŭ i vučonych." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_8.text" text="Ja z Bałkanskich uzhorkaŭ, zahartavany hoładam i nabiehami." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_9.text" text="Ja sa splažanych vajnoju ziemlaŭ Makiedonii." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_0.text" text="Kolišni ratnik bajarskaha rušeńnia, ciapier volny najmit." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_1.text" text="Achoŭnik handlara, jaki straciŭ usio padčas nabiehu i ciapier vandruje." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_10.text" text="Vučań mulara, jaki staŭ vajarom." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_11.text" text="Karsar, jaki staŭ vandroŭnikam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_2.text" text="Pastuch, jaki staŭ najomnym łučnikam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_3.text" text="Račny razbojnik, jaki staŭ vandroŭnikam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_4.text" text="Kolišni družyńnik bajarskaha domu, što straciŭ svajo stanovišča." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_5.text" text="Vyras u vajskovych lahierach i staŭ najomnym vajarom." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_6.text" text="Były vartaŭnik ćvierdzi, jaki staŭ najmitam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_7.text" text="Kaliści pasłušnik u manachaŭ, ciapier čałaviek miača." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_8.text" text="Sielanin, jaki staŭ razbojnikam, a ciapier šukaje sumlennaha zarobku." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_9.text" text="Sirata z pola bitvy, jaki staŭ najmitam." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_0.text" text="Ja vyras siarod uzhorkaŭ Mezii, dzie vioski zaŭsiody pilnavalisia nalotčykaŭ sa stepaŭ." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_1.text" text="Majo dziacinstva prajšło na kirmašach Ochrydu, dzie sustrakalisia handlary z usich ziemlaŭ." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_10.text" text="Ja naradziŭsia ŭ Płoŭdzivie, dzie kaliści panavali Rymlanie, a handlary chodziać i dasiul." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_11.text" text="Ja z Čarnamorskaha ŭźbiarežža, dzie maraki zmahajucca i z burami, i ź piratami." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_2.text" text="Ja naradziŭsia kala Radopskich Horaŭ, dzie pastuchi i razbojniki časta chadzili tymi samymi ściežkami." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_3.text" text="Maja maładość prajšła na Dunai, dzie pierasiakalisia šlachi handlaroŭ, rabaŭnikoŭ i vajaroŭ." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_4.text" text="Ja vyras kala Tyrnava, siarod bajarskich družyńnikaŭ i ichnych siemjaŭ." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_5.text" text="Ja z raŭninaŭ Trakii, dzie vojny miž imperyjami pakinuli šmat sirotaŭ." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_6.text" text="Moj dom byŭ u Vidynie, ćvierdzi na vyhinie Dunaju." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_7.text" text="Ja naradziŭsia kala Prasłavu, dzie manachi pierapisvali śviatyja knihi, a pany ŭzdymali vajskovyja ściahi." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_8.text" text="Ja vyras u pieradhorjach Bałkanaŭ, dzie žyćcio było surovym, a susiedzi — jašče suroviejšymi." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_9.text" text="Maja siamja žyła kala Skopja, dzie časta prachodzili vojski i pałali vioski." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_0.text" text="Bitvy i niahody zahartavali mianie. Šukaju zarobku i pana, jaki šanuje viernaść." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_1.text" text="Handal navučyŭ mianie ciarpieńniu, a strata — stojkaści." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_10.text" text="Ja viedaju mury: i jak ich budavać, i jak razburać." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_11.text" text="Ja viedaju bury, stal i chistańnie pałuby pad nahami." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_2.text" text="Maja strała traplaje ŭ cel. Ja nie marnuju ni słovaŭ, ni strełaŭ." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_3.text" text="Ja byŭ i złodziejem, i vajarom. Ciapier sam vybiraju sabie haspadara." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_4.text" text="Ja navučany vajskovaj spravie, choć los i skinuŭ mianie dołu." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_5.text" text="Vajna — adzinaje, što ja viedaju. Dazvolcie mnie bicca, i ja nie padviadu." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_6.text" text="Ćvierdź navučyła mianie ciarpieńniu, dyscyplinie i pilnaści." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_7.text" text="Ja nie śviatar, ale pamiataju mudryja słovy." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_8.text" text="Ja žyŭ suvora, ale ŭmieju paznać viernaść." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_9.text" text="Śmierć i spustašeńnie navučyli mianie ŭsiamu. Boju ja nie bajusia." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_0.text" text="Ja prapanuju svaju ruku i prysiahu tym, chto budzie abychodzicca sa mnoj spraviadliva." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_1.text" text="Ja šukaju pracy, a nia žalu. Pakiniem minułaje ŭ pyle." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_10.text" text="Kali vam patrebnaja ćviordaja ruka ŭ abłozie, maja da vašych pasłuhaŭ." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_11.text" text="Kali vam patrebny marak, jaki ŭmieje bicca, ja da vašych pasłuhaŭ." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_2.text" text="Kali vam patrebnaje pilnaje voka, ja budu vašym palaŭničym." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_3.text" text="Dobra karmicie mianie i dajcie pracu — i ja budu vierny." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_4.text" text="Dajcie mnie kamandavańnie, i ja pakažu, čaho varty." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_5.text" text="Lepiej vałodać kapjom za płatu, čym pamirać z hoładu." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_6.text" text="Kali vam patrebny nadziejny čałaviek dla doŭhich pachodaŭ ci abłohaŭ, ja pasłužu." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_7.text" text="I stal, i Śviatoje Pisańnie nakiroŭvajuć maju ruku." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_8.text" text="Kali budziecie płacić spraviadliva, ja budu bicca luta." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_9.text" text="Kali vam patrebny toj, kaho nie złamali niahody, vy jaho znajšli." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_byzantine_10.text" text="Ja chirurh. Vučyŭsia ŭ imperatarskaj akademii ŭ {IMPERIALCAPITAL}. U horadzie ŭ mianie było šmat bahatych i ŭpłyvovych pacyjentaŭ. Ja dumaŭ, što dobra abaronieny ad Bizantyjskich intryhaŭ i niebiaśpiekaŭ. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_byzantine_3.text" text="Ja vajar pavodle ramiastva. Dvaccać hadoŭ słužyŭ u Rymskich lehijonach. Kaliści jany byli vartyja nazvy «lehijony». My hadami słužyli razam i lepiej pamierli b, čym ubačyli, jak našyja ściahi pachisnucca ci ŭpaduć." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_byzantine_10.text" text="Ale adnojčy sa mnoj źviazaŭsia ahient Biuro pa Spravach Barbaraŭ. Nia viedaju, ci dobra vy ź imi znajomyja. Spačatku jany musili trymać čužyja plamiony raźjadnanymi i słabymi, ale potym uzialisia za ŭsie Rymskija spravy, u jakich mahli ŭbačyć pahrozu. Spačatku jany prasili drobnyja, nibyta biaskryŭdnyja źviestki pra maich pacyjentaŭ. Heta parušała maju prysiahu, ale ja prahnuŭ prychilnaści Biuro. Nieŭzabavie jany pačali patrabavać usio bolš i bolš." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_byzantine_2.text" text="Ale Turki raźbili nas, jon zahinuŭ, a našuju ziamlu zachapili. Dachody ź jaje ciapier naležać niejkamu tarchanu. Na žal, siońnia ŭ Rymlanaŭ mała ziamli, kab nadzialać navat takich navučanych końnikaŭ, jak ja, što chočuć słužyć. A koni darahija." />
+    <string id="eoe1100.string.response_2.spc_wanderer_byzantine_2.text" text="Rymski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_english_0.text" text="Ja liču siabie lekaram. U maładości baćki pasłali mianie ŭ Mersijski manastyr vyvučać i malitvy, i ziołki." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_english_1.text" text="Ja naradziŭsia ŭ Narmandyi i vučyŭsia na zbrajanosca pry hiercahu Robercie. Kali syny Zavajoŭnika paklikali ludziej u Anhliju, ja pryjšoŭ na słužbu." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_english_2.text" text="Ja naradziŭsia pa-za šlubam. Baćka vyhadavaŭ mianie, ale spadčyny mnie nie dastałosia. Ja ŭziaŭsia za mieč, kab samomu prakłaści sabie šlach." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_english_3.text" text="Ja vajavaŭ u Narmandyi, a potym u Anhlii pad načałam Vilhelma i jahonych synoŭ. Ja prajšoŭ praz abłohi i bitvy, jakich maładziejšyja za mianie nie pieražyli b." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_0.text" text="Ale manastyry... cudoŭnyja sady, bahatyja biblijateki, a ranišnija malitvy i biaskoncaje pierapisvańnie knih zdavalisia pustymi. Ja syšoŭ pabačyć śviet." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_1.text" text="Ja ŭbačyŭ zamki i vioski, a taksama canu viernaści. Biŭsia ŭ sutyčkach i chutka zasvoiŭ surovyja ŭroki vajny." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_12.text" text="Ja ŭziała jahony mieč i navučyłasia bicca. Hoład i lutaść stali maimi nastaŭnikami, a vyžyvańnie — majoj vieraj." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_2.text" text="Ja dałučyŭsia da viaskovaha rušeńnia, kab baranicca ad Narmanskich zborščykaŭ padatkaŭ. Nichto nia chacieŭ bicca, tamu ja vyklikaŭsia sam i ŭpieršyniu spaznaŭ smak boju." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_3.text" text="Pany časta pasyłajuć ludziej pamirać dziela hrošaj ci ziamli. Mnie nadakučyła słužyć takim haspadaram. Moj mieč naležyć mnie, a nia im, i ja sam vyrašaju, kamu jaho prapanavać." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_0.text" text="Ja dałučaŭsia da vojskaŭ jak lekar, lačyŭ i cialesnyja, i dušeŭnyja rany. Zrazumieŭ, što ŭ darozie rablu bolš dabra, čym siarod manachaŭ." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_1.text" text="Ciapier ja vandruju i šukaju pana, jaki pavažaje majsterstva i advahu, uznaharodžvaje za ŭčynki, a nie za pachodžańnie." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_12.text" text="Nieŭzabavie ja stała nia prosta ŭdavoj, a sapraŭdnaj vajaŭnicaj, jakuju bolš bajalisia, čym škadavali." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_2.text" text="Na brodzie ja zastaŭsia adzin, kali astatnija paŭciakali, i sustreŭ varožuju końnicu. Ja vyžyŭ, ale toje źmianiła mianie nazaŭždy." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_3.text" text="Ciapier ja vandruju i słužu spravam, u jakich šanujuć honar, ci panam, jakija bačać u ludziach niešta bolšaje za pryłady." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_0.text" text="Ja šukaju pachodaŭ, dzie moh by pasłužyć i nabracca dośviedu, lepiej spaznać i ziołki, i ludziej." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_1.text" text="Ja prapanuju svoj mieč usiakamu panu, jakomu jon patrebny, i spadziajusia zdabyć rycarskija špory dy honar u Anhlii." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_10.text" text="Ja padarožničaju, raznošu naviny i padańni. Časam jany prynosiać hrošy. Časam — kranajuć sercy." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_12.text" text="Ciapier ja vandruju i addaju svoj mieč tym, chto płacić, ci tym, chto jašče bjecca z Narmanami." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_2.text" text="Ciapier ja vandruju i prapanuju svoj klinok panam ci spravam, jakim patrebny čałaviek, što nie baicca ni niebiaśpieki, ni abaviazku." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_3.text" text="Ja najmajusia da panoŭ, jakija pavažajuć rycaraŭ, ci da ludziej, što zmahajucca za vyžyvańnie. Voś i ŭsio." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_0.text" text="Ja byŭ manacham, ale manastyrskaje žyćcio było nie dla mianie. Ja vyvučyŭ ziołki i lekavańnie, a ciapier vandruju, prapanoŭvajučy svaje ŭmieńni i vojskam, i panam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_1.text" text="Ja Narmanski zbrajanosiec u Anhlii. Navučany vałodać zbrojaj, ja vandruju, šukajučy nahody prajavić siabie i zasłužyć rycarstva." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_10.text" text="Ja Anhła-Saksonski menestrel, śpiavak padańniaŭ i viastun navinaŭ. Vandruju z arfaj dy hołasam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_11.text" text="Ja Narmanski pravadyr najmitaŭ, zahartavany vajnoju. Šukaju słužby tam, dzie płaciać i patrabujuć ludziej." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_12.text" text="Ja Anhła-Saksonskaja ŭdava, jakaja stała vajaŭnicaj. Hora i hoład zahartavali mianie, i ja prapanuju svoj klinok hodnym spravam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_2.text" text="Ja Anhła-Saksonski vyhnańnik, narodžany pa-za šlubam. Bjusia, kab vyžyć, i šukaju novaha šlachu, na jakim zmahu zasłužyć svajo miesca." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_3.text" text="Ja Narmanski rycar-veteran. Vajavaŭ u Narmandyi i Anhlii, a ciapier vandruju ŭ pošukach honaru i mety." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_english_1.text" text="Viadoma! I ja ŭpeŭnieny: vy pahodziciesia, što hetuju historyju varta pačuć!" />
+    <string id="eoe1100.string.response_1.spc_wanderer_english_1.text" text="Zbrajanosiec, jaki spaścihaje vajskovaje ramiastvo na čužynie." />
+    <string id="eoe1100.string.response_1.spc_wanderer_english_3.text" text="Veteran, jaki viedaje i słavu, i duraść." />
+    <string id="eoe1100.string.response_1.spc_wanderer_english_9.text" text="Słava — nialohkaja noša, ale hodnaja meta." />
+    <string id="eoe1100.string.response_2.spc_wanderer_english_1.text" text="Šlach ad zbrajanosca da rycara ciažki i poŭny vyprabavańniaŭ." />
+    <string id="eoe1100.string.response_2.spc_wanderer_english_10.text" text="Vy bjaciesia vieršam i melodyjaj, a nia stallu." />
+    <string id="eoe1100.string.response_2.spc_wanderer_english_3.text" text="Majsterstva biaz mety moža zmarnavacca. Vy słušna robicie, što šukajecie jaje." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_finnic_3.text" text="Skažu vam: toje, u što vieryć bolšaść, — sucelnaja chłuśnia. Za staroha karala ja słužyŭ u Vahirskaj Hvardyi. My surjozna stavilisia da dyscypliny i hanarylisia joju. Potym pačalisia bunty. Toje, što ja bačyŭ u {IMPERIALCAPITAL}... Mnie i dahetul soramna." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_finnic_5.text" text="U nas, Finaŭ, jość zvyčaj. Kali dvoje spračajucca, a śviedkaŭ niama i słova adnaho staić suprać słova druhoha, my dazvalajem im raźviazać sprečku miačami. Kali niechta nia choča bicca, moža naniać inšaha zamiest siabie. Tak u nas zaviedziena. Mabyć, inšyja narody robiać hetaksama, bo zvyčaj dobry." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_georgian_10.text" text="Ja chirurh. Vučyŭsia ŭ imperatarskaj akademii ŭ {IMPERIALCAPITAL}. U horadzie ŭ mianie było šmat bahatych i ŭpłyvovych pacyjentaŭ. Ja dumaŭ, što dobra abaronieny ad Kartvelskich intryhaŭ i niebiaśpiekaŭ. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_georgian_3.text" text="Ja vajar pavodle ramiastva. Dvaccać hadoŭ słužyŭ u Kartvelskich lehijonach. Kaliści jany byli vartyja nazvy «lehijony». My hadami słužyli razam i lepiej pamierli b, čym ubačyli, jak našyja ściahi pachisnucca ci ŭpaduć." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_georgian_10.text" text="Ale adnojčy sa mnoj źviazaŭsia ahient Biuro pa Spravach Barbaraŭ. Nia viedaju, ci dobra vy ź imi znajomyja. Spačatku jany musili trymać čužyja plamiony raźjadnanymi i słabymi, ale potym uzialisia za ŭsie Kartvelskija spravy, u jakich mahli ŭbačyć pahrozu. Spačatku jany prasili drobnyja, nibyta biaskryŭdnyja źviestki pra maich pacyjentaŭ. Heta parušała maju prysiahu, ale ja prahnuŭ prychilnaści Biuro. Nieŭzabavie jany pačali patrabavać usio bolš i bolš." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_georgian_2.text" text="Ale Turki raźbili nas, jon zahinuŭ, a našuju ziamlu zachapili. Dachody ź jaje ciapier naležać niejkamu tarchanu. Na žal, siońnia ŭ Kartvełaŭ mała ziamli, kab nadzialać navat takich navučanych końnikaŭ, jak ja, što chočuć słužyć. A koni darahija." />
+    <string id="eoe1100.string.response_2.spc_wanderer_georgian_2.text" text="Kartvelski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_german_1.text" text="Tak ci inakš, vorah napaŭ na nas, i Hiermanskaje vojska raźbiehłasia. Ja nie źbirajusia viartacca da tych niahodnikaŭ, ale kali inšy pravadyr łaskava voźmie mianie, ja achvotna pamnožu svaju słavu na jahonaj słužbie." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_german_1.text" text="Ja Hiermanski rycar. Čałaviek honaru. A honar, viadoma, patrabuje pomścić za kožnuju abrazu, niahledziačy na nastupstvy. Bolš ničoha nia skažu. Tolki toje, što praz peŭnyja ŭskładnieńni ŭ minułym mnie patrebny novy pravadyr." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_german_6.text" text="Ja vyras na poŭnačy Hiermanskich ziemlaŭ. Byvaje, ludzi tam zabirajuć siemji daloka ŭ hory, kab žyć biez haspadara ci pana. Ale žyćcio tam ciažkaje, chałodnaje i samotnaje. Ja chaču lepšaj doli. Dobra viedaju dzikija miaściny. Dumaju, mahu prydacca panu ci pani jak vyviednik i prynamsi sam vybrać sabie haspadara." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungarian_1.text" text="Tak ci inakš, vorah napaŭ na nas, i Vuhorskaje vojska raźbiehłasia. Ja nie źbirajusia viartacca da tych niahodnikaŭ, ale kali inšy pravadyr łaskava voźmie mianie, ja achvotna pamnožu svaju słavu na jahonaj słužbie." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungarian_1.text" text="Ja Vuhorski rycar. Čałaviek honaru. A honar, viadoma, patrabuje pomścić za kožnuju abrazu, niahledziačy na nastupstvy. Bolš ničoha nia skažu. Tolki toje, što praz peŭnyja ŭskładnieńni ŭ minułym mnie patrebny novy pravadyr." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungarian_6.text" text="Ja vyras na poŭnačy Vuhorskich ziemlaŭ. Byvaje, ludzi tam zabirajuć siemji daloka ŭ hory, kab žyć biez haspadara ci pana. Ale žyćcio tam ciažkaje, chałodnaje i samotnaje. Ja chaču lepšaj doli. Dobra viedaju dzikija miaściny. Dumaju, mahu prydacca panu ci pani jak vyviednik i prynamsi sam vybrać sabie haspadara." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_0.text" text="Ja inžyner, navučany na słužbie ŭ Vuhorskich panoŭ. My adkazvali za ŭmacavańni, masty i darohi. Kali hrošy skončylisia, ja staŭ vandroŭnikam i prapanuju svajo majsterstva tym, kamu jano patrebnaje." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_1.text" text="Ja vajavaŭ u mnohich vojnach pad načałam Vuhorskich panoŭ. Umieńnie vałodać miačom i kapjom pryniesła mnie hrošy i imia." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_2.text" text="Moj baćka słužyŭ ciažkim końnikam u Vuhoryi. Mianie hadavali, kab ja pajšoŭ jahonym šlacham." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_3.text" text="Ja prasłužyŭ dvaccać hadoŭ u Vuhorskich vojskach. Bitvy, abłohi i dazory vyznačyli majo žyćcio." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_4.text" text="U maładości ŭ Vuhoryi ja dałučyŭsia da razbojnikaŭ, kab vyžyć. Žyćcio na darohach było žorstkim i biazładnym." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_5.text" text="Ja pajšoŭ za Vuhorskim šlachcičam, jaki ŭźniaŭ paŭstańnie suprać padatkaŭ. Šmat chto dałučyŭsia z viernaści ci ad adčaju." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_6.text" text="Kab słužyć u Vuhorskim vojsku, ja pieraapranułasia mužčynam. Žančynam mała što dazvalali, a ja chacieła bicca." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_7.text" text="Moj baćka handlavaŭ zbožžam u Vuhorskim horadzie. Razboj i nabiehi źniščyli naš dom, pakinuŭšy mianie biaź ničoha." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_8.text" text="Ja vyras na vulicach Vuhorskaha horadu i navučyŭsia być niezaŭvažnym, kab vyžyć." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_9.text" text="Ja naradziŭsia ŭ pamiežnaj vioscy i zmałku navučyŭsia čytać ślady, palavać i vyžyvać." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_0.text" text="Byvaje, budoŭli cierpiać niaŭdaču praz chabarnictva ci niavopytnaść. Ja paźbiahaju takich pastak i nastojvaju na naležnaj pracy." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_1.text" text="Ja nanošu ŭdar tam, dzie honar i płata nie supiarečać adno adnamu. Vajna — nie zabava, i ja nikoli nia bjusia biez pryčyny." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_2.text" text="Paśla jahonaj śmierci ja staŭ vandravać, prapanoŭvajučy svajo ŭmieńnie panam, jakim nie pa kišeni cełyja pałki końnikaŭ." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_3.text" text="Šmat tavaryšaŭ zahinuła ŭ zasadach ci praz kiepskaje kamandavańnie, i mnie zastałosia vandravać dy pradavać svajo majsterstva." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_4.text" text="Ja syšoŭ, raźličyŭsia z pazykami i viarnuŭsia da sumlennaj pracy. Hvałt zastaŭsia ŭmieńniem, a nia zvyčkaj." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_5.text" text="Paŭstańnie paciarpieła parazu. Adnych zabili, inšych kinuli ŭ viaźnicu. Ja vyžyŭ i panios svajo majsterstva ŭ inšyja ziemli." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_6.text" text="Ja pieraciahvała hrudzi, trenavałasia i słužyła, nie vyklikajučy padazreńniaŭ." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_7.text" text="Ja vyžyła siarod inšych uciekačoŭ i navučyłasia baranić siabie." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_8.text" text="Ja braŭ zamovy prybirać tych, chto pahražaŭ handlaram ci šlachcie, i zaŭsiody zastavaŭsia niezaŭvažnym." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_9.text" text="Ja słužyŭ miascovym panam pravadnikom, vyviednikam i palaŭničym, baraniŭ sieliščy ad nabiehaŭ." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_0.text" text="Za takuju sumlennaść ja ŭžo stračvaŭ pracu, ale dla mianie hodnaść daražejšaja za lohki zarobak." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_1.text" text="Ja słužu najomnym vajarom, kali majho pana niama ci kali ŭ mirny čas niama z čaho žyć." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_2.text" text="Ja abačliva vybiraju, kamu słužyć, i paźbiahaju piešaj słužby — mnie milejšaja ataka końnicy." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_3.text" text="Ciapier ja navučaju piešych vajaroŭ, kiruju abłohami i dzialusia dośviedam z tymi, chto hatovy za jaho płacić." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_4.text" text="Ciapier ja najmajusia ŭ haradach ci da panoŭ i abychodžu lasy, dzie navučyŭsia svajmu ramiastvu." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_5.text" text="Ja navučyŭsia vyžyvać, vieści vyviedku i kiravać ludźmi, a ciapier prapanuju hetyja ŭmieńni dziela sumlennaj pracy." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_6.text" text="Pieražyŭšy zasadu, u jakoj šmat chto zahinuŭ, ja pakinuła vojska i pačała vandravać pa Vuhoryi." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_7.text" text="Ja ŭziała mieč i pakinuła horad, kab znajści ŭ vandroŭkach zarobak i biaśpieku." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_8.text" text="Ja nikoli nie kryŭdziŭ nievinavatych. Dyscyplina adroźnivaje mianie ad złodziejaŭ." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_9.text" text="Paśla śmierci pana ja staŭ vandroŭnikam i prapanuju svaje ŭmieńni i handlaram, i drobnaj šlachcie." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_0.text" text="Dzie b mianie ni naniali, ja kiruju budoŭlami, vyrabam abłohavych mašynaŭ i ŭźviadzieńniem umacavańniaŭ." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_1.text" text="Ja pracuju na handlaroŭ ci drobnuju šlachtu, prapanuju svajo majsterstva ŭ bai i achovie." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_2.text" text="Ja addaju svoj mieč i kania tym, kamu jany patrebnyja, i zaŭsiody imknusia ŭšanavać pamiać baćki." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_3.text" text="Ja pradaju svoj mieč i paradu panam ci handlaram, jakim patrebny znaŭca vajskovaj spravy." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_4.text" text="Biarusia za ciažkuju pracu, achovu, časam za palavańnie ci słužbu pravadnikom — hledziačy što prapanujuć." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_5.text" text="Ja vadžu, vyviedvaju i raju panam ci handlaram, jakija ceniać majsterstva i ŭmieńnie trymać jazyk za zubami." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_6.text" text="Ciapier ja navučaju vajaroŭ, ramantuju zbroju i słužu handlaram ci drobnaj šlachcie, jakim patrebnaje majsterstva." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_7.text" text="Ja słužu pravadnicaj, bjusia i najmajusia da panoŭ ci handlaroŭ, jakija ceniać umielstva i viernaść." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_8.text" text="Ja ruchajusia niezaŭvažna, bju dakładna i źnikaju. Prapanuju hetyja pasłuhi za hrošy." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_9.text" text="Prapanuju pasłuhi vyviednika, palaŭničaha i pravadnika pa ŭsioj Vuhoryi." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_0.text" text="Ja inžyner, navučany ŭ Vuhorskich panoŭ. Prapanuju svaje viedy ŭ budaŭnictvie i vyrabie vajskovych mašynaŭ." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_1.text" text="Ja najmit z Vuhoryi, daśviedčany ŭ vajnie i vierny damovam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_2.text" text="Ja były Vuhorski katafrakt, ciapier vandruju i prapanuju svajo majsterstva końnika tam, dzie jano patrebnaje." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_3.text" text="Veteran Vuhorskich vojskaŭ, daśviedčany ŭ bai i stratehii, ciapier vandruje ŭ pošukach pracy." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_4.text" text="Kaliści razbojnik u Vuhoryi, ciapier sumlenny vandroŭnik, jaki biarecca za pracu i achovu." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_5.text" text="Były Vuhorski paŭstaniec, ciapier vandruje i prapanuje pasłuhi pravadnika, vyviednika dy achoŭnika." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_6.text" text="Žančyna, jakaja słužyła, vydajučy siabie za mužčynu. Ciapier vandruje pa Vuhoryi i prapanuje svajo majsterstva ŭ bai i navučańni vajaroŭ." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_7.text" text="Dačka handlara, jakaja stała vandroŭnicaj. Umieje baranicca, vieści ludziej i vyžyvać." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_8.text" text="Vuhorski zabojca, zahartavany vulicaj, dyscyplinavany i dakładny." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_9.text" text="Vuhorski pamiežnik, daśviedčany ŭ čytańni śladoŭ, palavańni i słužbie pravadnikom." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_0.text" text="Ja nia suprać pahavaryć pra heta." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_1.text" text="Chočacie daviedacca pra mianie? Što ž, historyja niaprostaja." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_2.text" text="Ja nieachvotna raskazvaju hetuju historyju." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_3.text" text="Dalicie ŭ kielich, i ja raskažu." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_4.text" text="Mabyć, mahu vam raskazać." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_5.text" text="Ja raskažu vam svaju historyju." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_6.text" text="Pieradajcie vino i słuchajcie ŭvažliva." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_7.text" text="Ja raskažu vam svaju historyju." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_8.text" text="Chočacie pačuć maju historyju?" />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_9.text" text="Ja abyšoŭ Vuhorskija lasy i raŭniny." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_0.text" text="Vielmi šlachietna z vašaha boku, panie." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_1.text" text="Aha, tak. Mudryja słovy." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_2.text" text="I heta ŭsio? Voś u čym hańba — pracavać na handlaroŭ?" />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_3.text" text="Biezumoŭna, sumnaje stanovišča. A čym vy zajmajeciesia ciapier?" />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_4.text" text="Mudraja pastanova." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_5.text" text="Sapraŭdy sumnaja historyja." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_6.text" text="Dla advažnych zaŭsiody znojdziecca praca." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_7.text" text="Hałodnyja robiać toje, što musiać." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_8.text" text="Śmiarotnaje ramiastvo." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_9.text" text="Dzikija miaściny dobra vas zahartavali." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_0.text" text="Vy čałaviek pryncypaŭ ci toj, chto abhavorvaje tavaryšaŭ za śpinaj? Nie mahu razabracca." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_1.text" text="Vy ničoha nie skazali pra siabie. U mianie jość važniejšyja spravy." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_2.text" text="Vuhorski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_3.text" text="Ach, byłyja časy. Dosyć nastalhii." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_4.text" text="Niahodnik, jaki vypraviŭsia! Redkaja źjava." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_5.text" text="Jeraś i paŭstańnie pieraplalisia. Niebiaśpiečny šlach." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_6.text" text="Historyja padmanu i vyžyvańnia." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_7.text" text="A padumać tolki: vas ža ŭ dziacinstvie vučyli hramacie." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_8.text" text="Nie niedaaceńvajcie vulicu." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_9.text" text="Mała chto viartajecca z pamiežža z takimi ŭmieńniami." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_0.text" text="Ja inžyner, navučaŭsia ŭźviadzieńniu ŭmacavańniaŭ i abłohavaj spravie ŭ starym imperatarskim vojsku. Kali lehijony raspalisia, šmat maich kalehaŭ pajšło ŭ najmy da panoŭ. Ja zastaŭsia viernym svajmu ramiastvu." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_1.text" text="Ja vajavaŭ pa ŭsioj Italii i za jaje miežami. Vorahi zavuć mianie pa-roznamu: adny advažnym, inšyja biezrazvažnym. Ja adkazvaju tolki pierad saboj." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_2.text" text="Moj baćka byŭ katafraktam na ŭschodzie. My mieli ścipły majontak, kab utrymlivać jahonaha kania i braniu. Mianie hadavali, kab ja pajšoŭ jahonym šlacham." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_3.text" text="Ja vajar pavodle ramiastva. Dvaccać hadoŭ słužyŭ u Italjanskich lehijonach, pakul zdrada i niaŭdačy nie razburyli našaje vojska." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_4.text" text="Ja ŭciok ź vioski da ludziej, jakija zarablali sabie na darohach. Žyćcio za płuham zdavałasia mnie zanadta ciažkim." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_5.text" text="Maja siamja? Ja mała pra ich dbaju. Syšoŭ dziciom i nikoli nie škadavaŭ. Niachaj braty pakinuć spadčynu sabie." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_6.text" text="Kaliści ja pajšoŭ za Ładzimasam Čyrvonym, jaki zaklikaŭ paŭstać suprać handlaroŭ i ziemleŭłaśnikaŭ. Šmat chto ź nas vieryŭ, inšyja išli praz pazyki ci dziela svavolstva." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_7.text" text="Maja siamja zavinavaciłasia, tamu ja pieraapranułasia mužčynam i pastupiła ŭ vojska da miascovaha kamandzira. Dziejnaje žyćcio było mnie milejšaje za chatniaje." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_8.text" text="Moj baćka handlavaŭ zbožžam u {IMPERIALCAPITAL}. My žyli zamožna, pakul bunty nia źniščyli naš dom." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_9.text" text="U dziacinstvie ja biehała z bandaj «Kientaŭry» ŭ {IMPERIALCAPITAL}. Vykonvała ŭsiakija daručeńni — ad kišennych kradziažoŭ da pracy nažom." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_0.text" text="Siońnia siarod inžyneraŭ paŭsiul kumaŭstvo. Zamovy atrymlivajuć braty dy staryja vučni, a takija ŭmiełyja ruki, jak maje, abychodziać uvahaj." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_1.text" text="U kožnaj bojcy ja trymaŭsia praviłaŭ. Kali vy byli maim voraham, ja davaŭ vam šaniec. A nievinavatych nikoli nie čapaŭ." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_2.text" text="Ale Połaŭcy zachapili našuju ziamlu, i baćka zahinuŭ. Ja nia zmoh atrymać jahonaha kania i braniu, tamu źviarnuŭsia da handlaroŭ i prapanavaŭ svaje ŭmieńni za płatu." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_3.text" text="Šmat tavaryšaŭ zahinuła, kali Drosijas Nerec zładziŭ suprać nas zasadu. Ja tady lažaŭ chvory. Paśla taho vojska ŭžo nia stała raniejšym." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_4.text" text="Razbojniki — žorstkija źviary: pjuć, režuć adzin adnaho, mruć ad pošaści ci na šybienicy. Ja chutka zrazumieŭ, čym pahražaje takoje žyćcio." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_5.text" text="Ja vajavaŭ u mnohich vojnach. Urešcie tavaryšy pavaročvajucca adzin suprać adnaho, i ja liču za lepšaje trymacca ŭbaku." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_6.text" text="My zbudavali ŭ hłušy śviatyniu i nazvali jaje Haspadarstvam Praŭdy, bilisia z imperatarskimi zahonami. Kali Ładzimas pamior, naša hramada raspałasia. Kab vyžyć, niekatoryja ŭzialisia za vymahalnictva." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_7.text" text="Vydavać siabie za mužčynu było prosta. Ja pieraciahvała hrudzi i bieź ciažkaściaŭ vykonvała svaje abaviazki." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_8.text" text="Hvardziejcy spalili naš kvartał. Baćka sprabavaŭ uratavać svaju skryniu z hrašyma, ale jaho zabili. My dałučylisia da ŭciekačoŭ i vyžyvali ŭ vioskach, jak umieli." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_9.text" text="Ja padrasła i ŭciakła ad prystavańniaŭ pjanych mužčynaŭ. Nia viedała, kudy padacca, ale šukała voli." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_0.text" text="Ja nie pahadžajusia chałturyć. Kali mur abryniecca, ja tak i skažu. Praz takuju sumlennaść mnie nie dastajecca lohkaja praca, zatoje ja splu spakojna." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_1.text" text="Vajna — nie zabava. Vulica — nie arena. Kali niechta pierajšoŭ vam darohu, dziejničajcie rašuča. U hetym žyćci tolki na toje i možna spadziavacca." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_2.text" text="Ja najmajusia da handlaroŭ z miačom u rukach, ale spadziajusia adnojčy viarnuć ziamlu, patrebnuju, kab słužyć jak naležyć, jak słužyŭ moj baćka." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_3.text" text="Lehijony trapili ŭ ruki bahaciejaŭ, jakija ŭtrymlivali vajaroŭ za ŭłasny košt. Svarlivyja hrupoŭki zamianili dyscyplinu, i byłyja vorahi pačali z nas śmiajacca." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_4.text" text="Ja pakinuŭ toje žyćcio, zapłaciŭ siabram, kab vykreślili majo imia sa śpisu złačyncaŭ, i staŭ zakonapasłuchmianym hramadzianinam. Choć zapał bojki mnie pa-raniejšamu daspadoby." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_5.text" text="Majo minułaje naležyć tolki mnie. Ja mała pra jaho kažu." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_6.text" text="Ja syšoŭ, a imperatar pasłaŭ vojska, kab skončyć z Haspadarstvam Praŭdy. Ciapier byłyja tavaryšy słužać panam ci marniejuć u kletkach z paznakaj «R» — «razbojnik»." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_7.text" text="Zasada skončyłasia razhromam. Ja vyžyła, ale na tym vajskovaje žyćcio dla mianie skončyłasia. Łaŭcy słavy ledź nie zahnali mianie ŭ mahiłu." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_8.text" text="Ja zabrała mieč u pjanaha hvardziejca. Ad taho času jon nie raz mianie ratavaŭ." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_0.text" text="Tamu ja vandruju z horadu ŭ horad i biaru pracu, dzie znajdu: kiruju budoŭlaj, raźbiraju kiepskija ŭmacavańni ci dapamahaju z abłohavaj spravaj." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_1.text" text="Handlary najmajuć mianie dla siłavoj pracy ci achovy, ale ja nikomu nie prysiahaŭ. Ja najmit — ni bolš, ni mienš." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_2.text" text="Ja starajusia vybirać haspadaroŭ z rozumam i spadziajusia, što honar końnika, jakomu mianie vučyli, prydasca navat siarod handlovych zvyčajaŭ." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_3.text" text="Ciapier ja pradaju svoj mieč hodnym kamandziram, navučaju piešych vajaroŭ i pracuju z abłohavaj technikaj dla tych, chto hatovy davierycca majsterstvu, a nia hrašam." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_4.text" text="Haradzkoje žyćcio mnie bolš pasuje. Praca byvaje ciažkaj, zatoje potym možna adpačyć u lepšaj kampanii, čym była ŭ lasach." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_5.text" text="Ja zarablaju bojem. Biarusia za pracu, jakoj inšyja curajucca, i majsterstva mnie chapaje, kab ź joju spravicca." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_6.text" text="Ja nabyŭ umieńni, kab vyžyć u harach i na karavannych šlachach. Ciapier šukaju sumlennaj pracy, dzie jany prydaducca." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_7.text" text="Ciapier mianie najmajuć handlary. Ja ŭmieju vałodać zbrojaj, ramantavać i vyrablać jaje. Šukaju pravadyra z zahonam, da jakoha mahła b dałučycca." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_8.text" text="Ja chutka prystasoŭvajusia. Kali daduć šaniec, mahu słužyć vajskavodu i navučycca ŭsim patrebnym umieńniam." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_0.text" text="Ja inžyner, navučany ŭ imperatarskim vojsku. Vandruju ŭ pošukach pracy: kiruju budoŭlami, razbureńniem i abłohavymi pracami ŭsiudy, dzie treba." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_1.text" text="Ja najmit. Bjusia dziela zarobku, majsterstva i vyžyvańnia, a nia dziela jakoha pana ci karony." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_2.text" text="Ja były imperatarski katafrakt, ciapier najmajusia da handlaroŭ i jak mahu zachoŭvaju majsterstva dy honar svajho baćki." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_3.text" text="Ja vajar imperatarskich lehijonaŭ, ciapier vandroŭny nastaŭnik i najmit, jaki pieratvaraje junakoŭ u dyscyplinavanych vajaroŭ." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_4.text" text="U maładości ja pasprabavaŭ złačynnaha žyćcia, potym pajšoŭ svaim šlacham. Ciapier žyvu sumlenna, choć i lublu pabicca, kali treba." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_5.text" text="Ja zarablaju zabojstvam. Biarusia za pracu, ad jakoj inšyja admaŭlajucca, i rablu jaje dobra." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_6.text" text="Kaliści ja byŭ paŭstancam u harach, a ciapier šukaju sumlennaj pracy. Umieju vyžyvać i čytać ślady." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_7.text" text="Ja pieraapranałasia, kab słužyć u lehijonach. Šmat chto rabiŭ hetaksama i vyžyŭ, kab pra heta raskazać." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_8.text" text="Ja dačka handlara, jakaja straciła dom praz bunty. Baraćba za vyžyvańnie navučyła mianie ŭmieńniam, ź jakimi ja i ciapier mahu dać sabie rady ŭ vandroŭkach." />
+    <string id="eoe1100.string.response_2.spc_wanderer_italian_2.text" text="Italjanski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_turkic_0.text" text="Moj baćka vyvučyŭ svajo ramiastvo jašče za staroha chana Urchuna. Tady Ciurki byli niepieramožnymi ŭ bai, ale mała viedali pra tarany, katapulty ci navat leśvicy, i navat najściplejšaja ćvierdź mahła dać im adpor. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_turkic_4.text" text="Moj rod byŭ adnym z apošnich Ciurskich rodaŭ, što žyli ŭ adkrytym stepie i pa-daŭniejšamu pierachodzili ź miesca na miesca. Rod byŭ nievialiki, vy pra jaho nia čuli. Jon staŭ jašče mienšy, kali imperatarski dazor źnianacku napaŭ na našaje stojbišča, zabiŭ i razahnaŭ statki. Acalełyja musili šukać prytułku ŭ vioscy pad uładaj bolšaha rodu. Jahonaje imia vy, mahčyma, viedajecie, ale ja jaho nie nazavu." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_turkic_6.text" text="Vy, mabyć, viedajecie, što kaliści Ciurki žyli siarod adkrytych stepaŭ. Ale našyja chany pryzvyčailisia da raskošy. Jany sialilisia ŭ haradach i chacieli handlavać ź inšymi karalami dy vajavać ź imi. Chan Urchun, jakoha adny zavuć Vialikim, a inšyja Žorstkim, vyrašyŭ, što rody musiać žyć na adnym miescy, kab jon moh padličvać ichnych vajaroŭ i sklikać u vojska, ličyć ichnyja statki i abkładać padatkami. Tryccać hadoŭ tamu chan Urchun zahadaŭ usim Ciurskim rodam zaniać ziamlu i žyć na joj, a nojanam — budavać zamki. Bolšaść skaryłasia, bo ŭžo caniła vyhody vyšej za volu." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_turkic_0.text" text="Za Urchuna, kali Ciurak, navučany abłohavaj spravie, pierachodziŭ da inšaha haspadara i jaho łavili, jaho čakała vielmi pakutlivaja śmierć. Ale časy źmianilisia. Najbahaciejšyja harady imperyi ŭžo ŭpali, a ciapier ichnyja mury vyšejšyja, čym raniej. Ciurskija pany płaciać majstru abłohaŭ mienš, dyj płatu časta zatrymlivajuć. Tamu ja hatovy ŭziacca za inšuju słužbu, kali prapanujuć." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_turkic_1.text" text="Ja hadami jeździŭ pad ściaham Ciurskaha chana. Mnie naležała b pačesnaje miesca ŭ jahonaj zale. Ale za abrazu ja zabiŭ čałavieka z bahaciejšaha rodu, a ŭ taho było zašmat svajakoŭ, kab mnie zastavacca." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_turkic_10.text" text="Ja syn viaskovaha raznosčyka, ale takoha žyćcia sabie nie chaču. Chaču navučycca bicca i jeździć viarchom. Dumaju, u Ciurskich ziemlach vy znojdziecie šmat takich chłopcaŭ, jak ja, navat kali vialikija konnyja pany ličać, što my vartyja tolki šyć sandali ci chadzić za płuham." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_turkic_6.text" text="Pakaleńnie tamu chan Urchun zahadaŭ usim Ciurkam asiaści, kab sklikać ich u vojska i abkładać padatkami. My admovilisia. Jahonyja ludzi zabrali našyja statki, i z taho času my žyli žabrakami na ŭskrainach haradoŭ. Ja vyrašyŭ vypravicca ŭ śviet i zarabić na novyja statki. Tady my znoŭ pojdziem u vialiki step, kudy nie daciahniecca ni tyran, ni chan." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_turkic_3.text" text="Aha... Raskažu vam pra žyćcio ŭ vialikich Ciurskich ordach, što navodziać žach na ŭvieś śviet." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_kryvian_5.text" text="U nas, Kryvičoŭ, jość zvyčaj. Kali dvoje spračajucca, a śviedkaŭ niama i słova adnaho staić suprać słova druhoha, my dazvalajem im raźviazać sprečku miačami. Kali niechta nia choča bicca, moža naniać inšaha zamiest siabie. Tak u nas zaviedziena. Mabyć, inšyja narody robiać hetaksama, bo zvyčaj dobry." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_kryvian_1.text" text="Pačynaŭ u Karaleŭskaj Hvardyi. Vyjaviłasia, što ja tam adziny sapraŭdny vajar. Jany tolki i rabili, što maršyravali tudy-siudy ŭ pryhožych strojach, miesiacami nie vymajučy miača z pochvaŭ. Ja skazaŭ, što pra ich dumaju, a kamandzir zahadaŭ trymać jazyk za zubami ci sychodzić. Ja i syšoŭ." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_norman_1.text" text="Bačycie, pra mianie chodzić šmat historyjaŭ, i tolki niekatoryja ź ich praŭdzivyja. Połaŭcy zavuć mianie adnym imiem, Araby — inšym." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_norman_10.text" text="Ja chirurh. Vučyŭsia ŭ imperatarskaj akademii ŭ {IMPERIALCAPITAL}. U horadzie ŭ mianie było šmat bahatych i ŭpłyvovych pacyjentaŭ. Ja dumaŭ, što dobra abaronieny ad Narmanskich intryhaŭ i niebiaśpiekaŭ. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_norman_3.text" text="Ja vajar pavodle ramiastva. Dvaccać hadoŭ słužyŭ u Narmanskich lehijonach. Kaliści jany byli vartyja nazvy «lehijony». My hadami słužyli razam i lepiej pamierli b, čym ubačyli, jak našyja ściahi pachisnucca ci ŭpaduć." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_norman_10.text" text="Ale adnojčy sa mnoj źviazaŭsia ahient Biuro pa Spravach Barbaraŭ. Nia viedaju, ci dobra vy ź imi znajomyja. Spačatku jany musili trymać čužyja plamiony raźjadnanymi i słabymi, ale potym uzialisia za ŭsie Narmanskija spravy, u jakich mahli ŭbačyć pahrozu. Spačatku jany prasili drobnyja, nibyta biaskryŭdnyja źviestki pra maich pacyjentaŭ. Heta parušała maju prysiahu, ale ja prahnuŭ prychilnaści Biuro. Nieŭzabavie jany pačali patrabavać usio bolš i bolš." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_norman_2.text" text="Ale Połaŭcy raźbili nas, jon zahinuŭ, a našuju ziamlu zachapili. Dachody ź jaje ciapier naležać niejkamu tarchanu. Na žal, siońnia ŭ Narmanaŭ mała ziamli, kab nadzialać navat takich navučanych końnikaŭ, jak ja, što chočuć słužyć. A koni darahija." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_norman_3.text" text="Ale Drosijas Nerec zavioŭ ćviet lehijonaŭ u zasadu ŭ Irłandzkich lasach. Vy, mabyć, čuli hetuju historyju. Ja tady lažaŭ chvory. Šmat maich tavaryšaŭ nie viarnułasia, i paśla taho ŭsio źmianiłasia." />
+    <string id="eoe1100.string.response_2.spc_wanderer_norman_2.text" text="Narmanski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_polish_1.text" text="Daśviedčany vajar, jaki pabačyŭ pamiežnyja bai i račnyja sutyčki. Kali vašamu vojsku patrebnyja ludzi, što nie pabiahuć pry pieršaj pierapravie, ja hatovy naniacca." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_portuguese_10.text" text="Ja chirurh. Vučyŭsia ŭ imperatarskaj akademii ŭ {IMPERIALCAPITAL}. U horadzie ŭ mianie było šmat bahatych i ŭpłyvovych pacyjentaŭ. Ja dumaŭ, što dobra abaronieny ad Partuhalskich intryhaŭ i niebiaśpiekaŭ. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_portuguese_3.text" text="Ja vajar pavodle ramiastva. Dvaccać hadoŭ słužyŭ u Partuhalskich lehijonach. Kaliści jany byli vartyja nazvy «lehijony». My hadami słužyli razam i lepiej pamierli b, čym ubačyli, jak našyja ściahi pachisnucca ci ŭpaduć." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_portuguese_10.text" text="Ale adnojčy sa mnoj źviazaŭsia ahient Biuro pa Spravach Barbaraŭ. Nia viedaju, ci dobra vy ź imi znajomyja. Spačatku jany musili trymać čužyja plamiony raźjadnanymi i słabymi, ale potym uzialisia za ŭsie Partuhalskija spravy, u jakich mahli ŭbačyć pahrozu. Spačatku jany prasili drobnyja, nibyta biaskryŭdnyja źviestki pra maich pacyjentaŭ. Heta parušała maju prysiahu, ale ja prahnuŭ prychilnaści Biuro. Nieŭzabavie jany pačali patrabavać usio bolš i bolš." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_portuguese_2.text" text="Ale Turki raźbili nas, jon zahinuŭ, a našuju ziamlu zachapili. Dachody ź jaje ciapier naležać niejkamu tarchanu. Na žal, siońnia ŭ Partuhalcaŭ mała ziamli, kab nadzialać navat takich navučanych końnikaŭ, jak ja, što chočuć słužyć. A koni darahija." />
+    <string id="eoe1100.string.response_2.spc_wanderer_portuguese_2.text" text="Partuhalski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_scottish_3.text" text="Ja Šatłandziec. Ale dvaccać hadoŭ vajavaŭ za Imperyju. Praŭda, bolšaść Šatłandcaŭ majho vieku vučyłasia ramiastvu ŭ lehijonach. My nia bačyli ŭ hetym hańby. Nas dobra karmili, dobra płacili, pavažali našuju advahu." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_scottish_5.text" text="Moj rod nie naležaŭ da najvialikšych Šatłandzkich rodaŭ, ale i nia byŭ siarod najbiadniejšych. Kali ja dasiahnuŭ paŭnalećcia, radnia pasłała mianie da Vaŭčynych Skuraŭ. Mahčyma, vy čuli pra hety zvyčaj: try hady my žyviom u lasach, nia jamo varanaha miasa, nia nosim tkanaj vopratki i nia śpim pad dacham. Pavodle zakonu my źviary, jakich čałaviečyja zakony nie abaviazvajuć." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_scottish_9.text" text="Moj dziadźka mieŭ vialiki statak karoŭ, a ŭ Šatłandzkaj hłybincy heta adzinaje bahaćcie, jakoje my cenim. Ale karoŭ zabraŭ jahony staršy pastuch, čałaviek, jakomu my daviarali. My ŭzialisia za kopji, kab viarnuć ich, dy dziadźka ŭžo źbiadnieŭ, a ŭ złodzieja było šmat radni. Nia majučy čaho hublać, dziadźka zahadaŭ navat žančynam našaha rodu ŭziać kopji i jechać u boj. My tak i zrabili." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_scottish_1.text" text="Ja rablu pa daŭninie: kožny raz, kali vorah hinie ad majho kapja, ja zabiraju jahonuju hałavu! Pahladzim... maju Brechtana Staroha, Łamejka Kulhavaha — chaj imiony vas nie ašukvajuć, heta byli vialikija vajary, — Archana Byka i šmat inšych! Sapraŭdny Šatłandziec nikoli nie vychvalajecca, bo jahonyja dziei visiać nad ahmieniem dla ŭsieahulnaha ahladu. Prynamsi, tak było raniej." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_scottish_3.text" text="Ale lehijonaŭ bolš niama. A z taho času, jak Kaładoh staŭ karalom, jon ubiŭ maładym u hałovy, što vajavać za Imperyju — zdrada. Zdrada čamu? «Šatłandyi»? Niama nijakaj Šatłandyi. Nikoli nie było. Tolki kupa svarlivych vajskavodaŭ, jakija skraduć vašych karoŭ, varta vam adviarnucca." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_scottish_1.text" text="Što ž, ja Šatłandzki vajar. Paviercie, bolšaha honaru nie byvaje! Ale kali najmiecie mianie, mahu paźniej raskazać bolš pra słavutych ludziej, jakich ja zabiŭ, i hałovy, jakija zabraŭ." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_scottish_3.text" text="Ja Šatłandziec z pachodžańnia, ale słužyŭ Imperyi. Šmat chto z nas słužyŭ. Advažny pan, pravadyr, jaki dbaje pra svaich ludziej... Jakaja roźnica, na jakoj movie pryniesienaja prysiaha viernaści, pakul vy jaje trymajecie? " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_serbian_10.text" text="Ja chirurh. Vučyŭsia ŭ imperatarskaj akademii ŭ {IMPERIALCAPITAL}. U horadzie ŭ mianie było šmat bahatych i ŭpłyvovych pacyjentaŭ. Ja dumaŭ, što dobra abaronieny ad Sierbskich intryhaŭ i niebiaśpiekaŭ. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_serbian_3.text" text="Ja vajar pavodle ramiastva. Dvaccać hadoŭ słužyŭ u Sierbskich lehijonach. Kaliści jany byli vartyja nazvy «lehijony». My hadami słužyli razam i lepiej pamierli b, čym ubačyli, jak našyja ściahi pachisnucca ci ŭpaduć." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_serbian_10.text" text="Ale adnojčy sa mnoj źviazaŭsia ahient Biuro pa Spravach Barbaraŭ. Nia viedaju, ci dobra vy ź imi znajomyja. Spačatku jany musili trymać čužyja plamiony raźjadnanymi i słabymi, ale potym uzialisia za ŭsie Sierbskija spravy, u jakich mahli ŭbačyć pahrozu. Spačatku jany prasili drobnyja, nibyta biaskryŭdnyja źviestki pra maich pacyjentaŭ. Heta parušała maju prysiahu, ale ja prahnuŭ prychilnaści Biuro. Nieŭzabavie jany pačali patrabavać usio bolš i bolš." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_serbian_2.text" text="Ale Turki raźbili nas, jon zahinuŭ, a našuju ziamlu zachapili. Dachody ź jaje ciapier naležać niejkamu tarchanu. Na žal, siońnia ŭ Sierbaŭ mała ziamli, kab nadzialać navat takich navučanych końnikaŭ, jak ja, što chočuć słužyć. A koni darahija." />
+    <string id="eoe1100.string.response_2.spc_wanderer_serbian_2.text" text="Sierbski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_spanish_3.text" text="Ja vajar pavodle ramiastva. Dvaccać hadoŭ słužyŭ u Hišpanskich lehijonach. Kaliści jany byli vartyja nazvy «lehijony». My hadami słužyli razam i lepiej pamierli b, čym ubačyli, jak našyja ściahi pachisnucca ci ŭpaduć." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_spanish_6.text" text="Mahčyma, vy čuli pra Ładzimasa Čyrvonaha. Jon prapaviedavaŭ, što Niabiosy rychtujucca abrynuć svoj hnieŭ na ziemleŭłaśnikaŭ i handlaroŭ. My musili vyhnać ich i žyć čysta, i tady va ŭznaharodu atrymali b Čystaha Imperatara, jaki sydzie ź niabiosaŭ. Heta było hadoŭ dziesiać tamu. Šmat nas pabiehła za im: adny vieryli, druhija mieli pazyki, a inšyja prosta chacieli adpłacić tym, chto nas pryhniataŭ." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_spanish_2.text" text="Ale Połaŭcy raźbili nas, jon zahinuŭ, a našuju ziamlu zachapili. Dachody ź jaje ciapier naležać niejkamu tarchanu. Na žal, siońnia ŭ Hišpancaŭ mała ziamli, kab nadzialać navat takich navučanych końnikaŭ, jak ja, što chočuć słužyć. A koni darahija." />
+    <string id="eoe1100.string.response_2.spc_wanderer_spanish_2.text" text="Hišpanski końnik na pabiahuškach u handlaroŭ! Jakaja hańba!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_0.text" text="Ja žyła ŭ maleńkaj prybiarežnaj vioscy pa toj bok zatoki. Poŭnač — surovy kraj: jarły svaracca za pašy i karabli, a panskaja varažnieča moža spalić ceły chutar. Maci lačyła chvorych ziołkami i śpievami, a ja vučyłasia pry joj — da taho nabiehu, što zabraŭ jaje i mužčynu, za jakoha ja miełasia vyjści." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_1.text" text="Siarod junakoŭ majoj vioski ja najlepiej vałodaŭ miačom i siakieraj. Ludzi kazali, što bjusia jak berserk. Dasiahnuŭšy paŭnalećcia, ja padaŭsia na poŭdzień šukać vajny i zarobku. Spačatku słužyŭ u Vahirskaj Hvardyi, ale ichnaja dyscyplina mianie dušyła." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_2.text" text="Moj baćka byŭ słavutym nalotčykam, jakomu ŭ nabiehu pakalečyli nahu. Jon karmiŭ nas zdabyčaj. Plon jahonych pieramohaŭ my ŭkłali ŭ ziamlu i raboŭ, ale ja paklaŭsia sam zarabić dla svajho domu i nabyć ułasny karabiel." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_3.text" text="Ja słužyŭ u imperatarskaj hvardyi za Arenikasa. My hanarylisia paradkam i strojem, ale kali imperatar zahinuŭ, horad paŭstaŭ, a hvardyja stała mišeńniu natoŭpu." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_4.text" text="Ja byŭ ziemlarobam, pakul sprečka za miežavy płot nia skončyłasia tym, što ja raźbiŭ čałavieku čerap matykaj. Kroŭ zabłytvaje čałavieka — toje, što pačałosia z hnievu, zaviało mianie tudy, adkul užo nie viarnucca." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_5.text" text="Pavodle našaha zakonu, kali spravu nielha raźviazać inačaj, za jaje adkazvajuć vajary ŭ pajadynku. Heta daŭni zvyčaj. Kali čałaviek nia choča bicca sam, jon najmaje zastupnika. Reč u tym, što advaha maje svoj košt." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_6.text" text="Baćki pamierli, kali ja byŭ mały, a siastra vyjšła za čałavieka, jaki pakłaŭ voka na našuju haspadarku. Jon naniaŭ chitraha znaŭcu zakonaŭ, kab toj adstojvaŭ jahonyja pravy, i tynh prysudziŭ im našuju ziamlu." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_7.text" text="Moj baćka byŭ čarciožnikam, budavaŭ dla miascovych jarłaŭ viežy, zamki i častakoły. Jon navučyŭ mianie čarcić plany i raźmiačać biarvieńnie dla kila ci ściany." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_8.text" text="Ja pachodžu z dobraha domu i zaŭsiody chacieła stać Dzievaj Ščyta. Trenavałasia ź viaskovymi chłopcami i navučyłasia vałodać kapjom, ale baćka nastojvaŭ: dačka musić praści i prynosić pasah, a nia kroŭ." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_9.text" text="Ja rablu mužčynskuju pracu lepiej za bolšaść mužčynaŭ. Nie lublu apraŭdańniaŭ: prychodžu ćviarozaja, vykonvaju spravu i zabiraju płatu. Voś majo abiacańnie." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_0.text" text="Im byli patrebnyja bydła i draŭnina, ale jany zabrali i ŭsio astatniaje. My ŭciakli ŭ biarozavyja lasy, i ja paklałasia nikoli bolš nie zastavacca biezdapamožnaj, pakul inšyja vyrašajuć moj los. Ja budu lačyć paranienych na poli boju, a kali spatrebicca, navučusia i ranić nia horš, čym lačyć." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_1.text" text="Potym ja dałučyŭsia da braterstva ščyta — Skolderbrudy. Ale ichnaja ŭpartaść nakont ščylnych šychtoŭ i ściany ščytoŭ mianie stamlała. Ja lublu kryvavuju sieču: kinucca, raśsiekčy i adpravić čałavieka dadomu tak, kab jahonaja pachvalba jamu ŭžo nie spatrebiłasia." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_2.text" text="Ja nie pradam rodnuju haspadarku, kab ryštavać kamandu. Tamu najmajusia vajarom, pakul nie zmahu nabyć doŭhi karabiel i naniać viesłavańnikaŭ. Dumaju chadzić u nabiehi dy pryvozić srebra i ludziej dla abmienu ci prodažu." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_3.text" text="My sprabavali zachavać spakoj, ale rabunak i hnieŭ šyrylisia, jak ahoń. U lutaści niekatoryja maje tavaryšy rabavali i zabivali. Tady ja ŭbačyŭ, što robiać ludzi, kali zakon razvalvajecca, i zabyć hetaha ŭžo nia moh." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_4.text" text="Jahonaja radnia pryjšła pa płatu za kroŭ. Za adno žyćcio ja jašče moh by zapłacić, ale nie za try. U lutaści ja znoŭ zabiŭ, a potym uciok, bo naš tynh paviesiŭ by mianie." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_5.text" text="Ja zrabiŭ z hetaha ramiastvo: vystupaŭ u pajadynkach za inšych za płatu. Biŭsia za hałovy, vykupy i honar. Płacili dobra, pakul rady nie pastanavili, što ja zanadta tanna pradaju svoj mieč, i nie zabaranili mnie być zakonnym zastupnikam u pajadynkach." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_6.text" text="Ja pajšoŭ u lasy, žyŭ z pastak i prodažu futraŭ. Žyćcio cichaje i pasuje mnie bolš za sudovyja pramovy dy prysiahi." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_7.text" text="Kali jon pamior, ja žyŭ u dziadźki, ale ludzi šaptalisia, što ja prynošu licha: plama na plačy nahadvała viedźmarski znak. Viaskovyja starejšyny zapatrabavali, kab ja syšoŭ i nie viartaŭsia." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_8.text" text="Mianie vydali zamuž, a muž abraziŭ mianie na kirmašy. Ja zabiła jaho ŭ zakonnym pajadynku, i tynh pryznaŭ mianie nievinavataj. Ale mianie pazbavili spadčyny i zhańbili, tamu ja syšła." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_9.text" text="Vy nia znojdziecie mianie pjanaj biez prytomnaści, kali ja budu patrebnaja. Vam nia pryjdziecca padkuplać vartu, kab vyzvalić mianie z kamery. Ja rablu toje, što treba, i rablu dobra." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_0.text" text="Moža, adnojčy maja radnia znojdzie spakoj. A pakul ja vandruju ad doŭhich damoŭ da doŭhich karabloŭ, prapanuju mazi, pryparki i nadziejnyja ruki ludziam, jakija pralivajuć kroŭ za srebra. I bolš nie viarnusia pad čyjuści łasku." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_1.text" text="Pravadyry zahadali trymać jazyk za zubami ci sychodzić. Ja syšoŭ. Ciapier šukaju zahon, jaki zapłacić čałavieku, što ŭlezie ŭ samuju hušču i vyjdzie žyvym." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_2.text" text="Kali zajmieju sudna, pajdu da bahatych bierahoŭ i viarnusia z dabrom, jakoha chopić na šluby dla bratoŭ i siostraŭ dy na ziamlu dla maich synoŭ. A pakul mnie dosyć miača i ščyta." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_3.text" text="Ja syšoŭ, majučy tolki vopratku na sabie i adzin stary mieč. Ciapier vandruju, šukaju sumlennaha zarobku, kab viarnuć stračanaje, i pravadyra, čyje ludzi trymajucca dyscypliny navat u ciažkija časy." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_4.text" text="Ja hetym nie chvalusia. Ziemlarob nia maje lubovi da miača, ale Niabiosy vyznačyli inšy šlach. Ciapier ludzi ŭ haradach płaciać mnie za kryvavuju pracu, jakoj zakon nie dazvalaje im samim." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_5.text" text="Ciapier ja vandruju, a najomnaja słužba nie daje ruce zabyć majsterstva. Pajadynki čystyja i chutkija. Ja lublu ich bolš za doŭhija abłohi i nudnuju vartu. Kali vašamu pravadyru patrebny čałaviek, jaki nie zdryhaniecca, maja cana spraviadlivaja." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_6.text" text="Ciapier ja staŭlu pastki i vadžu palaŭničych, ale taksama słužu vyviednikam u vajskovych zahonach, jakim patrebnyja ludzi, što ŭmiejuć źnikać siarod drevaŭ i danosić pra ślady voraha." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_7.text" text="Ja vandravaŭ i vučyŭsia vyžyvać siarod złodziejaŭ i najmitaŭ, pakul nia skraŭ mieč u niaŭvažlivaha razbojnika i nie zrazumieŭ, što mahu zarablać i ciaślarstvam, i klinkom. Ciapier najmajusia i budaŭnikom, i dla siłavoj pracy." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_8.text" text="Žyćcio vajaŭnicy ciažejšaje, čym u padańniach, ale sumlennaje. Ciapier ja bjusia za płatu, volnaja ad abaviazkaŭ, što kaliści mianie źviazvali." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_9.text" text="Kali pravadyru patrebny niechta, chto abaronić jahonyja vazy ci čysta śsiače vorahaŭ, ja — taja žančyna. I žalu ja nie prašu." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_0.text" text="Kali viedajecie zahon, jakomu patrebny niechta pieraviazvać rany i ratavać ludziej paśla nabiehaŭ, pasyłajcie ich da mianie." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_1.text" text="Kali vašamu zahonu patrebny vajar, jaki kidajecca tudy, dzie bolšaść vahajecca, ja da vašych pasłuhaŭ za naležnuju dolu." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_2.text" text="Kali viedajecie pravadyra, jaki cenić marachodnaje ŭmielstva i śmiełaść, pieradajcie jamu: svaju dolu ja adpracuju z liškam." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_3.text" text="Kali zahonu patrebnyja ludzi, jakija ŭmiejuć trymać stroj i vučyć inšych, ja dałučusia — i zarablu sabie hrošaj." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_4.text" text="Kali b los dazvoliŭ, ja zastaŭsia b ziemlarobam. Ale ciapier pradaju svoj mieč u haradach, i tym, chto dobra płacić, patrebnyja takija, jak ja." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_5.text" text="Zrešty, kali treba rychtavać vajaroŭ dla pajadynkaŭ, ja viedaju i zakon, i klinok. Ja navuču ludziej i vystaju tam, dzie inšyja pabiahuć." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_6.text" text="Ja viedaju lasy i bałoty. Umieju čytać ślady lahieru i znachodzić najlepšaje miesca dla ŭdaru." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_7.text" text="Pracuju na taho, chto płacić: udzień buduju častakoł, unačy najmajusia achoŭnikam. Śviet nia mieŭ da mianie litaści, i ja nie płaču jamu litaściu." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_8.text" text="Dadomu mnie nie viarnucca, ale mora i vajarskaja zała prymajuć tych, chto maje ŭmielstva. Ciapier ja bjusia dziela hrošaj — i žyćcia, jakoje sama vybrała." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_9.text" text="Kali vašamu pravadyru patrebny nadziejny i vierny mieč, raskažycie pra mianie. Spravami ja pakažu bolš, čym pachvalboj." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_0.text" text="Ja była zialarkaj u paŭnočnaj vioscy, pakul nalotčyki jaje nie spalili. Ciapier vandruju i laču rany vajaroŭ. Takich, jak ja, niamała na darohach Kalradyi." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_1.text" text="Ja vajavaŭ u mnohich vojskach — sa Skolderbrudaj, Vahirskim suchaputnym rušeńniem i marskimi siłami. Inšyja mohuć chłusić pra heta, ale ja sapraŭdy ŭsio prajšoŭ." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_2.text" text="Baćka pakinuŭ nam bahaćcie z nabiehaŭ, ale ja mušu prakłaści ŭłasny šlach. Chaču nabyć karabiel i pryvieźci dadomu dosyć dabra dla radni dy rodu. A pakul pradaju svoj klinok." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_3.text" text="Kaliści ja słužyŭ u imperatarskaj hvardyi. Paśla buntaŭ i hibieli imperatara straciŭ płatu i miesca. Ciapier prapanuju svoj klinok pravadyru, jaki cenić paradak." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_4.text" text="Ja byŭ ziemlarobam i musiŭ uciačy paśla zabojstva ŭ varažniečy. Naźbirać płaty za kroŭ nie ŭdałosia, tamu ja vybraŭ darohu i mieč." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_5.text" text="Ja byŭ najomnym zastupnikam u pajadynkach, raźviazvaŭ sprečki adzinaborstvam dziela zarobku i imia, pakul rady nie abviaścili mianie pa-za zakonam. Ciapier prapanuju svaju ruku pravadyram, jakim patrebnyja ćviordyja ludzi." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_6.text" text="Łaviec, jaki staŭ vyviednikam. Ja viedaju lasnyja ściežki i noravy źviaroŭ — dy ludziej taksama." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_7.text" text="Ja byŭ siratoj i badziaŭsia pa darohach, pakul skradzieny mieč nie zrabiŭ mianie niečym bolšym za žabraka. Adnolkava ŭmieju i budavać, i bicca." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_8.text" text="Ja Dzieva Ščyta. Na poŭnačy heta nia dziva, ale nas dastatkova mała, kab zaŭvažali. Bjusia dziela hrošaj, voli i smaku vietru." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_9.text" text="Ja žančyna, jakaja źmianiła vieraciano na kapjo. Najmicie mianie, i ja pakažu siabie spravaj, a nia słovami." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_sturgia_5.text" text="Słuchajcie, druža, ja tut pić, a nie bałbatać. Ale kali sapraŭdy chočacie viedać, raskažu koratka." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_sturgia_8.text" text="Ja raskažu svaju historyju. Ale papiaredžvaju: vašaja ŭchvała mianie mała chvaluje." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_sturgia_9.text" text="Nalicie vypić, nieznajomiec. Ja raskažu toje, što vam treba viedać." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_2.text" text="Vy addany syn i čałaviek ź vialikimi pamknieńniami." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_3.text" text="Ja čuŭ pra bunty ŭ {IMPERIALCAPITAL}. Brydkaja sprava." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_4.text" text="Zdajecca, vybar u vas byŭ nievialiki." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_5.text" text="Hetyja ciapierašnija rady. Usio mianiajuć zvyčai..." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_6.text" text="Dobry vyviednik moža zapatrabavać dobruju płatu." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_7.text" text="Sapraŭdy sumnaja historyja." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_8.text" text="Moža, takija zvyčai vučać mužoŭ lepiej siabie pavodzić." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_9.text" text="Nadziejny vajar siońnia na vahu zołata." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_0.text" text="Śviet žorstki, i vajarski šlach taksama maje svaje pakuty." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_1.text" text="Pakiniecie prałom u ścianie ščytoŭ — zahinuć vašyja tavaryšy. Niekatoryja zavuć heta zdradaj." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_2.text" text="Pabožnyja słovy ad taho, chto źbirajecca rabavać." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_3.text" text="Šmat śviedkaŭ vinavaciła hvardyju ŭ padzieńni imperatara." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_4.text" text="Čałaviek, jaki nia moža avałodać svaim hnievam, sapraŭdy niebiaśpiečny." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_5.text" text="I heta vy zaviacie spraviadlivaściu?" />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_6.text" text="Jakoj žančynie spadabajecca muž, ad jakoha pachnie šałupińniem?" />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_7.text" text="Niabiosy! Preč!" />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_8.text" text="Vy zabili svajho muža? Preč!" />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_9.text" text="Z dobrym imiem vy zdabudziecie i hrošy, i mienš pytańniaŭ." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_suzdalian_5.text" text="U nas, Suzdalcaŭ, jość zvyčaj. Kali dvoje spračajucca, a śviedkaŭ niama i słova adnaho staić suprać słova druhoha, my dazvalajem im raźviazać sprečku miačami. Kali niechta nia choča bicca, moža naniać inšaha zamiest siabie. Tak u nas zaviedziena. Mabyć, inšyja narody robiać hetaksama, bo zvyčaj dobry." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_volhynian_5.text" text="U nas, Vałynianaŭ, jość zvyčaj. Kali dvoje spračajucca, a śviedkaŭ niama i słova adnaho staić suprać słova druhoha, my dazvalajem im raźviazać sprečku miačami. Kali niechta nia choča bicca, moža naniać inšaha zamiest siabie. Tak u nas zaviedziena. Mabyć, inšyja narody robiać hetaksama, bo zvyčaj dobry." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_welsh_3.text" text="Ja Ŭelec. Ale dvaccać hadoŭ vajavaŭ za Imperyju. Praŭda, bolšaść Uelcaŭ majho vieku vučyłasia ramiastvu ŭ lehijonach. My nia bačyli ŭ hetym hańby. Nas dobra karmili, dobra płacili, pavažali našuju advahu." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_welsh_5.text" text="Moj rod nie naležaŭ da najvialikšych Uelskich rodaŭ, ale i nia byŭ siarod najbiadniejšych. Kali ja dasiahnuŭ paŭnalećcia, radnia pasłała mianie da Rućjeraŭ. Mahčyma, vy čuli pra hety zvyčaj: try hady my žyviom u lasach, nia jamo varanaha miasa, nia nosim tkanaj vopratki i nia śpim pad dacham. Pavodle zakonu my źviary, jakich čałaviečyja zakony nie abaviazvajuć." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_welsh_9.text" text="Moj dziadźka mieŭ vialiki statak karoŭ, a va Ŭelskaj hłybincy heta adzinaje bahaćcie, jakoje my cenim. Ale karoŭ zabraŭ jahony staršy pastuch, čałaviek, jakomu my daviarali. My ŭzialisia za kopji, kab viarnuć ich, dy dziadźka ŭžo źbiadnieŭ, a ŭ złodzieja było šmat radni. Nia majučy čaho hublać, dziadźka zahadaŭ navat žančynam našaha rodu ŭziać kopji i jechać u boj. My tak i zrabili." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_welsh_1.text" text="Ja rablu pa daŭninie: kožny raz, kali vorah hinie ad majho kapja, ja zabiraju jahonuju hałavu! Pahladzim... maju Brechtana Staroha, Łamejka Kulhavaha — chaj imiony vas nie ašukvajuć, heta byli vialikija vajary, — Archana Byka i šmat inšych! Sapraŭdny Ŭelec nikoli nie vychvalajecca, bo jahonyja dziei visiać nad ahmieniem dla ŭsieahulnaha ahladu. Prynamsi, tak było raniej." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_welsh_3.text" text="Ale lehijonaŭ bolš niama. A z taho času, jak hety novy staŭ karalom, jon ubiŭ maładym u hałovy, što vajavać za Imperyju — zdrada. Zdrada čamu? «Ŭelsu»? Niama nijakaha Ŭelsu. Nikoli nie było. Tolki kupa svarlivych vajskavodaŭ, jakija skraduć vašych karoŭ, varta vam adviarnucca." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_welsh_5.text" text="Niekatoryja dobra zhadvajuć čas siarod Rućjeraŭ. Heta musić navučyć žyć u lesie. Ale «zhraja», da jakoj ja dałučyŭsia, składałasia z raspieščanych bahatych dzietak, jakija ŭdavali źviaroŭ." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_welsh_4.text" text="Ja kniaź kanakradaŭ! Ja kraŭ Arabskich kabyłaŭ prosta siarod namiotaŭ i hnaŭ ich praz pustelniu pad miesiacam, zabiraŭ Francuzkich žarabcoŭ z zahonaŭ, mocnych Tureckich poni i spakojnych mieranoŭ imperatarskich dzidanoscaŭ. Ale pieršy pryznaju: praca ryzykoŭnaja, tamu časam biarusia i za inšuju." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_welsh_1.text" text="Što ž, ja Ŭelski vajar. Paviercie, bolšaha honaru nie byvaje! Ale kali najmiecie mianie, mahu paźniej raskazać bolš pra słavutych ludziej, jakich ja zabiŭ, i hałovy, jakija zabraŭ." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_welsh_3.text" text="Ja Ŭelec z pachodžańnia, ale słužyŭ Imperyi. Šmat chto z nas słužyŭ. Advažny pan, pravadyr, jaki dbaje pra svaich ludziej... Jakaja roźnica, na jakoj movie pryniesienaja prysiaha viernaści, pakul vy jaje trymajecie? " />
+    <!--npccharacters.xslt-->
+    <string id="eoe1100.npccharacter.assassins_boss.name" text="Chasan-i Sabach" />
+    <string id="eoe1100.npccharacter.pirate_boss.name" text="Piracki Pan" />
+    <string id="eoe1100.npccharacter.lord_castile_4b.name" text="Major Muńjos" />
+    <string id="eoe1100.npccharacter.lord_polotsk_2e.name" text="Usievaład Hlebavič" />
+    <string id="eoe1100.npccharacter.village_woman_bulgarian.name" text="Bałharskaja Viaskoŭka" />
+    <string id="eoe1100.npccharacter.village_woman_byzantine.name" text="Rymskaja Viaskoŭka" />
+    <string id="eoe1100.npccharacter.village_woman_empire.name" text="Hišpanskaja Viaskoŭka" />
+    <string id="eoe1100.npccharacter.village_woman_georgian.name" text="Kartvelskaja Viaskoŭka" />
+    <string id="eoe1100.npccharacter.andalusian_heavy_cavalry.name" text="Andaluski Ciažki Końnik-Veteran" />
+    <string id="eoe1100.npccharacter.village_woman_portuguese.name" text="Partuhalskaja Viaskoŭka" />
+    <string id="eoe1100.npccharacter.village_woman_scottish.name" text="Šatłandzkaja Viaskoŭka" />
+    <string id="eoe1100.npccharacter.village_woman_serbian.name" text="Sierbskaja Viaskoŭka" />
+    <string id="eoe1100.npccharacter.village_woman_welsh.name" text="Uelskaja Viaskoŭka" />
+    <string id="eoe1100.npccharacter.townswoman_aserai.name" text="Amaziskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_bulgarian.name" text="Bałharskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_bulgarian.name" text="Bałharski Viaskoviec" />
+    <string id="eoe1100.npccharacter.townswoman_byzantine.name" text="Rymskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_byzantine.name" text="Rymski Viaskoviec" />
+    <string id="eoe1100.npccharacter.townswoman_dregovian.name" text="Dryhavickaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_empire.name" text="Hišpanskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_empire.name" text="Hišpanski Viaskoviec" />
+    <string id="eoe1100.npccharacter.townswoman_finnic.name" text="Finskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_georgian.name" text="Kartvelskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_georgian.name" text="Kartvelski Viaskoviec" />
+    <string id="eoe1100.npccharacter.townswoman_german.name" text="Hiermanskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_hungarian.name" text="Vuhorskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_italian.name" text="Italjanskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_italian.name" text="Italjanski Viaskoviec" />
+    <string id="eoe1100.npccharacter.townswoman_kryvian.name" text="Kryvickaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_norman.name" text="Narmanskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_novgorodian.name" text="Naŭharodzkaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_persian.name" text="Piersickaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_polish.name" text="Polskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_portuguese.name" text="Partuhalskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_portuguese.name" text="Partuhalski Viaskoviec" />
+    <string id="eoe1100.npccharacter.townswoman_rus.name" text="Ruśkaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_scottish.name" text="Šatłandzkaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_scottish.name" text="Šatłandzki Viaskoviec" />
+    <string id="eoe1100.npccharacter.townswoman_serbian.name" text="Sierbskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_serbian.name" text="Sierbski Viaskoviec" />
+    <string id="eoe1100.npccharacter.townswoman_sturgia.name" text="Nordzkaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_suzdalian.name" text="Suzdalskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_vlandia.name" text="Francuzkaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_volhynian.name" text="Vałynskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.townswoman_welsh.name" text="Uelskaja Haradžanka" />
+    <string id="eoe1100.npccharacter.villager_welsh.name" text="Uelski Viaskoviec" />
+    <string id="eoe1100.npccharacter.spc_skolderbrotva_leader_3.name" text="Kioten Kipčaski" />
+    <string id="eoe1100.npccharacter.armenian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Armianskaja Paŭstanka{?}Armianski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.baltic_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Bałtyjskaja Paŭstanka{?}Bałtyjski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.battania_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Irłandzkaja Paŭstanka{?}Irłandzki Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.bulgarian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Bałharskaja Paŭstanka{?}Bałharski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.byzantine_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Rymskaja Paŭstanka{?}Rymski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.dregovian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Dryhavickaja Paŭstanka{?}Dryhavicki Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.empire_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Hišpanskaja Paŭstanka{?}Hišpanski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.finnic_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Finskaja Paŭstanka{?}Finski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.georgian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Kartvelskaja Paŭstanka{?}Kartvelski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.german_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Hiermanskaja Paŭstanka{?}Hiermanski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.italian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Italjanskaja Paŭstanka{?}Italjanski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.khuzait_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Ciurskaja Paŭstanka{?}Ciurski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.kryvian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Kryvickaja Paŭstanka{?}Kryvicki Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.norman_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Narmanskaja Paŭstanka{?}Narmanski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.novgorodian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Naŭharodzkaja Paŭstanka{?}Naŭharodzki Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.portuguese_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Partuhalskaja Paŭstanka{?}Partuhalski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.rus_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Ruśkaja Paŭstanka{?}Ruśki Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.serbian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Sierbskaja Paŭstanka{?}Sierbski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.sturgia_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Nordzkaja Paŭstanka{?}Nordzki Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.suzdalian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Suzdalskaja Paŭstanka{?}Suzdalski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.vlandia_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Francuzkaja Paŭstanka{?}Francuzki Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.volhynian_rebel_lord.name" text="{FIRSTNAME} {?FEMALE}Vałynskaja Paŭstanka{?}Vałynski Paŭstaniec{\?}" />
+    <string id="eoe1100.npccharacter.artillery_english_knight.name" text="Anhlijski Artyleryjski Rycar" />
+    <string id="eoe1100.npccharacter.novgorodian_light_horseman.name" text="Naŭharodzki Lohki Końnik" />
+    <string id="eoe1100.npccharacter.persian_elite_charkh_ghulam.name" text="Piersicki Elitny Hchułam Čarch" />
+    <string id="eoe1100.npccharacter.suzdalian_experienced_archer.name" text="Suzdalski Daśviedčany Łučnik" />
+    <!--settlements.xslt-->
+    <string id="eoe1100.settlement.castle_borsova_szatamar.text" text="Satamar: apisańnie..." />
+    <string id="eoe1100.settlement.castle_soimos_hunyad.text" text="Chuńjad: apisańnie..." />
+    <string id="eoe1100.settlement.town_gdansk.text" text="Hdańsk: apisańnie..." />
+    <string id="eoe1100.settlement.town_gdansk_puck.text" text="Kamień-Pamorski: apisańnie..." />
+    <string id="eoe1100.settlement.town_mecca.text" text="Mieka: apisańnie..." />
+    <string id="eoe1100.settlement.town_regensburg.text" text="Rehiensburh: apisańnie..." />
+    <string id="eoe1100.settlement.town_rikala_inga.name" text="Inha" />
+    <string id="eoe1100.settlement.town_sfax_sidi.text" text="Sidzi Buzid: apisańnie..." />
+    <!--spclans.xslt-->
+    <string id="eoe1100.faction.assassins.name" text="Asasiny" />
+    <string id="eoe1100.faction.bedouin_bandits.name" text="Bieduiny-Bandyty" />
+    <string id="eoe1100.faction.germanic_bandits.name" text="Hiermanskija Bandyty" />
+    <string id="eoe1100.faction.mountain_bandits.name" text="Hornyja Bandyty" />
+    <string id="eoe1100.faction.pirates.name" text="Majorskija Piraty" />
+    <string id="eoe1100.faction.sea_raiders.name" text="Marskija Nalotčyki" />
+    <string id="eoe1100.faction.clan_chernigov_3.text" text="Pradstaŭlaje siamju Aleha Śviatasłaviča. Hierb — piačatka kniazia Aleha Śviatasłaviča." />
+    <string id="eoe1100.faction.clan_chernigov_4.text" text="Pradstaŭlaje siamju Śviatasłava Davydaviča. Hierb — piačatka kniazia Śviatasłava Davydaviča." />
+    <string id="eoe1100.faction.jihad_army.name" text="Vojska Mudžachidaŭ" />
+    <string id="eoe1100.faction.jihad_army.text" text="Musulmanskija siły sabralisia ŭ Masule. Jany iduć na Damask, kab vyhnać Chryścijanskich zachopnikaŭ!" />
+    <string id="eoe1100.faction.romans.name" text="Rymskija Najmity" />
+    <string id="eoe1100.faction.clan_english_1.name" text="Dom Narmandyi" />
+    <string id="eoe1100.faction.clan_halych_5.text" text="Pradstaŭlaje siamju Chałdziejaŭ. Hierb — hierb Pieramyšlu." />
+    <!--spcultures.xslt-->
+    <string id="eoe1100.culture.assassins.name" text="Asasiny" />
+    <string id="eoe1100.culture.pirates.name" text="Piraty" />
+    <string id="eoe1100.culture.turkic_bandits.name" text="Ciurskija Bandyty" />
+    <string id="eoe1100.culture.battania.name" text="Ben Trajde" />
+    <string id="eoe1100.culture.english.name" text="Kambeł" />
+    <string id="eoe1100.culture.english.name.2" text="Bojd" />
+    <string id="eoe1100.culture.english.name.3" text="Barkłaj" />
+    <string id="eoe1100.culture.english.name.4" text="Dramand" />
+    <string id="eoe1100.culture.english.name.5" text="Karmajkł" />
+    <string id="eoe1100.culture.english.name.6" text="Braŭn" />
+    <string id="eoe1100.culture.english.name.7" text="Bjukenen" />
+    <string id="eoe1100.culture.scottish.name" text="Aberneci" />
+    <string id="eoe1100.culture.scottish.name.10" text="Maknachten" />
+    <string id="eoe1100.culture.scottish.name.2" text="Edzir" />
+    <string id="eoe1100.culture.scottish.name.3" text="Ejkenched" />
+    <string id="eoe1100.culture.scottish.name.4" text="Bejli" />
+    <string id="eoe1100.culture.scottish.name.5" text="Barkłaj" />
+    <string id="eoe1100.culture.scottish.name.6" text="Kołdueł" />
+    <string id="eoe1100.culture.scottish.name.7" text="Mjurched" />
+    <string id="eoe1100.culture.scottish.name.8" text="Makłaren" />
+    <string id="eoe1100.culture.scottish.name.9" text="Maklełan" />
+    <string id="eoe1100.culture.suzdalian.name" text="Marka" />
+    <!--spworkshops.xslt-->
+    <string id="eoe1100.workshoptype.armoursmith.description" text="My vyrablajem hatovuju da boju braniu i stroi dla vašych vajaroŭ." />
+    <string id="eoe1100.workshoptype.armoursmith.name" text="Brońnik" />
+    <string id="eoe1100.workshoptype.butcher.description" text="Tolki najlepšyja kavałki miasa dy krychu skuraŭ, što zastalisia paśla razborki tušaŭ." />
+    <string id="eoe1100.workshoptype.butcher.name" text="Miaśnik" />
+    <string id="eoe1100.workshoptype.saddlery.description" text="U nas najlepšyja siodły z usioj Eŭropy." />
+    <string id="eoe1100.workshoptype.saddlery.name" text="Zbrujarnia" />
+    <string id="eoe1100.workshoptype.tailor.description" text="My šyjem vysakajakasnuju vopratku z naturalnych materyjałaŭ." />
+    <string id="eoe1100.workshoptype.tailor.name" text="Kraviec" />
+  </strings>
+</base>

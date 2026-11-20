@@ -2,29 +2,100 @@
 <Module>
 	<Name value = "Belarusian EoE 1100 + Expanded"/>
 	<Id value = "Belarusian EoE 1100 + Expanded"/>
-	<Version value = "v1.4.7.4"/>
+	<Version value = "v1.5.7.1"/>
 	<DefaultModule value="true"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
 	<Author value="Denis Makouski (Reiko17)" />
   	<Official value="false" />
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.4.8"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.4.8"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.4.8"/>
-		<DependedModule Id="StoryMode" DependentVersion="v1.4.8"/>
-		<DependedModule Id="Belarusian Core" DependentVersion="v1.4.8"/>
+		<DependedModule Id="Native" DependentVersion="v1.5.7"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.5.7"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.5.7"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.5.7"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.5.7"/>
+		<DependedModule Id="Europe1100" DependentVersion="v1.5.7.1"/>
 	</DependedModules>
 	<SubModules/>
 	<Xmls>
-
 		<XmlNode>
-		<XmlName id="GameText" path="module_strings"/>
-		<IncludedGameTypes>
-			<GameType value = "Campaign"/>
-			<GameType value = "CustomGame"/>
-		</IncludedGameTypes>
+			<XmlName id="NPCCharacters" path="npccharacters"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
 		</XmlNode>
 
+		<XmlNode>
+			<XmlName id="Factions" path="spclans"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="CraftingPieces" path="crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="europeItems"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="GameText" path="module_strings"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Settlements" path="settlements"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="SPCultures" path="spcultures"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="WorkshopTypes" path="spworkshops"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
 	</Xmls>
 </Module>
