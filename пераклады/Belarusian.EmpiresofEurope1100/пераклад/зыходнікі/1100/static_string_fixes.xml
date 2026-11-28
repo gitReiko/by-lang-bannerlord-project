@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <!--crafting_pieces.xslt-->
+    <string id="eoe1100.craftingpiece.baltic_sulica_type_2.name" text="Baltic Sulica Type 2 Head" />
+    <string id="eoe1100.craftingpiece.baltic_sulica_type_3.name" text="Baltic Sulica Type 3 Head" />
+    <string id="eoe1100.craftingpiece.rus_hunting_sulica_type_1.name" text="Rus Hunting Sulica Type 1 Head" />
+    <string id="eoe1100.craftingpiece.rus_oval_war_sulica_type_1.name" text="Rus Oval War Sulica Type 1 Head" />
+    <string id="eoe1100.craftingpiece.rus_rhombic_war_sulica_type_1.name" text="Rus Rhombic War Sulica Type 1 Head" />
+    <string id="eoe1100.craftingpiece.rus_2h_ash_rahacina_shaft.name" text="Rus 2H Ash Rahacina Shaft" />
+    <string id="eoe1100.craftingpiece.rus_2h_hardened_ashen_cavalry_shaft.name" text="Rus 2H Hardened Ashen Cavalry Staff" />
+    <string id="eoe1100.craftingpiece.rus_2h_noble_cavalry_shaft.name" text="Rus 2H Noble Cavalry Shaft" />
+    <string id="eoe1100.craftingpiece.rus_2h_oaken_cavalry_shaft.name" text="Rus 2H Oaken Cavalry Shaft" />
+    <string id="eoe1100.craftingpiece.rus_2h_oaken_rahacina_shaft.name" text="Rus 2H Oaken Rahacina Shaft" />
+    <string id="eoe1100.craftingpiece.rus_2h_pine_cavalry_shaft.name" text="Rus 2H Pine Cavalry Shaft" />
+    <string id="eoe1100.craftingpiece.rus_2h_pine_rahacina_shaft.name" text="Rus 2H Pine Rahacina Shaft" />
+    <string id="eoe1100.craftingpiece.rus_kapjo_t3_11_12_cavalry.name" text="Rus Kapjo Head - Type 3 [11th - 12th c.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_head_type4_11_12.name" text="Rus Spear Head Type 4 [11th - 12th c.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_head_type4a_12_13.name" text="Rus Spear Head Type 4 A [12th - 13th c.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_head_type7_11_12.name" text="Rus Spear Head Type 7 [11th - 12th c.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_head_type7_12_13.name" text="Rus Spear Head Type 7 [12th - 13th c.]" />
+    <string id="eoe1100.craftingpiece.rus_spear_leaf_head_type4a_12_13.name" text="Rus Spear Leaf Head Type 4 A [12th - 13th c.]" />
+    <!--europeItems.xslt-->
+    <string id="eoe1100.item.turkic_noble.name" text="Turkic Noble Lamellar" />
+    <string id="eoe1100.item.rough_fur_cloak.name" text="Rough Fur Cloak" />
+    <string id="eoe1100.item.gold_ore.name" text="Gold Ore{@Plural}loads of gold ore{\@}" />
+    <string id="eoe1100.item.khuzait_horse.name" text="Steppe Horse{@Plural}steppe horses{\@}" />
+    <string id="eoe1100.item.saddle_horse.name" text="Saddle Horse{@Plural}saddle horses{\@}" />
+    <!--module_strings.xslt-->
+    <string id="eoe1100.string.str_player_father_name.arab.text" text="Hassan" />
+    <string id="eoe1100.string.str_player_mother_name.arab.text" text="Zainab" />
+    <string id="eoe1100.string.str_culture_description.arab.text" text="During the Middle Ages, Islam fostered a vast Arab union, leading to significant Arab migrations to the Maghreb, the Levant, and neighbouring territories under the rule of Arab empires such as the Rashidun, Umayyad, Abbasid, and Fatimid, ultimately leading to the decline of the Byzantine and Sasanian empires. At its peak, Arab territories stretched from southern France to western China, forming one of history's largest empires." />
+    <string id="eoe1100.string.str_adjective_for_culture.arab.text" text="Arab" />
+    <string id="eoe1100.string.str_culture_rich_name.arab.text" text="Arab" />
+    <string id="eoe1100.string.str_faction_ruler_name_with_title.arab.text" text="{?RULER.GENDER}Caliph{?}Caliph{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_faction_noble_name_with_title.arab.text" text="{?RULER.GENDER}Caliph{?}Caliph{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_faction_official.arab.text" text="Emir" />
+    <string id="eoe1100.string.str_faction_official.arab_f.text" text="Emira" />
+    <string id="eoe1100.string.str_faction_ruler.arab.text" text="Caliph" />
+    <string id="eoe1100.string.str_faction_ruler.arab_f.text" text="Caliph" />
+    <string id="eoe1100.string.str_faction_ruler_term_in_speech.arab.text" text="{?RULER.GENDER}Caliph{?}Caliph{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_neutral_term_for_culture.arab.text" text="Arab" />
+    <string id="eoe1100.string.str_adjective_for_faction.arab.text" text="Arabs" />
+    <string id="eoe1100.string.str_short_term_for_faction.arab.text" text="Arab" />
+    <string id="eoe1100.string.str_faction_formal_name_for_culture.arab.text" text="Arab" />
+    <string id="eoe1100.string.str_faction_informal_name_for_culture.arab.text" text="Arabs" />
+    <string id="eoe1100.string.str_adjective_for_culture.aserai.text" text="Imazighen" />
+    <string id="eoe1100.string.str_adjective_for_faction.aserai.text" text="Imazighen" />
+    <string id="eoe1100.string.str_culture_description.aserai.text" text="Before the 11th century, most of Northwest Africa experienced a relatively swift process of Islamization accompanied by limited aseraiization of the native imazighen population, in contrast to the Middle East. This Muslim West, referred to as the Maghreb, was still mainly Berber-speaking and demonstrated an ability to adjust its ancestral customs and beliefs to this emerging Islamic paradigm. The region became a land of diversity, where various religious minorities found themselves governed by a new political order in the 11th century: Berber Sunni emirs, adhering to the Maliki rite, asserted their rule on behalf of the distant Abbasid Caliph in Baghdad" />
+    <string id="eoe1100.string.str_culture_rich_name.aserai.text" text="Amazigh" />
+    <string id="eoe1100.string.str_faction_formal_name_for_culture.aserai.text" text="Imazighen" />
+    <string id="eoe1100.string.str_faction_informal_name_for_culture.aserai.text" text="Imazighen" />
+    <string id="eoe1100.string.str_faction_noble_name_with_title.aserai.text" text="{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_faction_official.aserai.text" text="Vizier" />
+    <string id="eoe1100.string.str_faction_official.aserai_f.text" text="Vizier" />
+    <string id="eoe1100.string.str_faction_ruler.aserai.text" text="Emir" />
+    <string id="eoe1100.string.str_faction_ruler.aserai_f.text" text="Emira" />
+    <string id="eoe1100.string.str_faction_ruler_name_with_title.aserai.text" text="{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_faction_ruler_term_in_speech.aserai.text" text="{?RULER.GENDER}Emira{?}Emir{\?} {RULER.NAME}" />
+    <string id="eoe1100.string.str_neutral_term_for_culture.aserai.text" text="Imazighen" />
+    <string id="eoe1100.string.str_short_term_for_faction.aserai.text" text="Amazigh" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_arab_0.text" text="I was born to a slave girl in the house of a qadi of Damascus. He raised me with his sons, teaching me the letters of Galen and Ibn Sina, so I might one day become a physician. I thought knowledge would win me respect." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_arab_1.text" text="My father was Aytham, son of Thamuq, son of Munbilas the elder, who rode with the Banu Sulaym when they took Ifriqiya. Our blood traces to the tribes of Najd, pure and untainted." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_arab_2.text" text="My clan descends from a lesser branch of the Banu Kilab. When the Sultan calls, we ride beside the great banners, yet when poets sing, they name only the chiefs of the powerful." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_arab_3.text" text="I was trained in Aleppo, where men duel for sport in the courtyards of princes. My blade has tasted more honor than wine. Yet I despise armies — too many cowards hiding behind banners." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_arab_0.text" text="But without family patrons, a healer’s door remains empty. The learned men feast with the emirs, while the poor die in the alleys. So I joined a caravan, tending the sick across the sands between Aleppo and Basra." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_arab_1.text" text="Some whisper that our ancestor Zais was born out of wedlock — lies spread by the jealous Banu Ghutan. Yet I hold his sword, the proof of his honor, blessed by a faqih at Mecca." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_arab_2.text" text="I fought at Harran, at Aleppo, and at the frontier against the Franks. I saw cowards praised as heroes and brave men forgotten because their fathers were poor." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_arab_3.text" text="I made my living as a killer of killers. If a man wished to challenge an enemy and live, he paid me to provoke him. I never struck first. To do so would shame me before God." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_arab_0.text" text="I learned much on those journeys — wounds from ghazi raids, fevers from the marshes, and all the torments of men and beasts. Yet the endless dust and the arrogance of captains wear the spirit thin." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_arab_1.text" text="You seem distracted. Have you not heard of the Banu Sulaym’s valor at Sirte and Kairouan?" />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_arab_2.text" text="I swore I would earn fame enough to drown out every silken emir’s name. Glory, like gold, should be shared among those who win it." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_arab_3.text" text="But one emir, too cowardly to face me, sent his guards instead. I can kill one man, not ten. So I fled, taking only my sword and my oath never again to bow to a liar." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_arab_0.text" text="Still, I have some silver, and the road ahead. Perhaps your warband has need of a steady hand and sharper mind than most soldiers?" />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_arab_1.text" text="Hah! The emirs of today are merchants’ sons and slaves’ grandsons. I serve no such men. But for gold, I will show any prince what true noble blood can do." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_arab_2.text" text="Perhaps your banner will be the one beneath which my name is finally remembered." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_arab_3.text" text="Perhaps. Still, if your banner is clean and your word good, I will draw for you." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_arab_0.text" text="Born the son of a slave, raised in the house of a qadi, I studied the healing arts of Ibn Sina. When learned men refused me, I took my craft to the caravans and battlefields instead." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_arab_1.text" text="My lineage runs deep into the sands of Najd, but few care for ancestry now. So I fight — and let my sword write the next line of my family’s history." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_arab_2.text" text="A lesser-born warrior of the Banu Kilab who seeks his own fame. The poets may not yet know his name, but the battlefield soon will." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_arab_3.text" text="A duelist from Aleppo who swore never to strike from behind. Cast out by a cowardly lord, he now sells his sword to those with honor enough to meet his price." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_arab_0.text" text="Hmm. Many men begin their tales by naming their forefathers back to Adnan. I will not. A man should be judged by his own deeds, not by the bones of his ancestors. And besides, my kin cast me out long ago." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_arab_1.text" text="I shall tell you… Ahem, attend closely, for mine is a noble line." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_arab_2.text" text="Listen well, for this is a story of pride — and of injustice." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_arab_3.text" text="I will speak plainly. But if you repeat this tale, your tongue will be mine." />
+    <string id="eoe1100.string.response_1.spc_wanderer_arab_0.text" text="A hard life indeed, though rich in experience." />
+    <string id="eoe1100.string.response_1.spc_wanderer_arab_1.text" text="Of course. But what of your own deeds, not your grandsires’?" />
+    <string id="eoe1100.string.response_1.spc_wanderer_arab_2.text" text="Well said. Glory must be earned, not inherited." />
+    <string id="eoe1100.string.response_1.spc_wanderer_arab_3.text" text="You’d fit well in a company that honors courage." />
+    <string id="eoe1100.string.response_2.spc_wanderer_arab_0.text" text="So, no rich patrons, no soft bed. A tragedy indeed." />
+    <string id="eoe1100.string.response_2.spc_wanderer_arab_1.text" text="Do you wield the sword as well as the tongue, or only the latter?" />
+    <string id="eoe1100.string.response_2.spc_wanderer_arab_2.text" text="I prefer silver to songs. But I respect your fire." />
+    <string id="eoe1100.string.response_2.spc_wanderer_arab_3.text" text="You call it honor. Others might call it foolish pride." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_armenian_1.text" text="See, there's a lot of tales about me, and only some of them are true. The Turks call me by one name, the Arabs by another." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_armenian_10.text" text="I'm a surgeon. I trained at the imperial academy in {IMPERIALCAPITAL}. I had many rich and influential patients in the town. I thought I was well shielded from the intrigues and dangers of the armenians. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_armenian_11.text" text="My father was an imperial cataphract. Alas, he died in battle against the Arabs, and I was placed under the local archon's guardianship. He had eyes for my father's estate, modest as it was, so he arranged for me to be married to his cousin." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_armenian_3.text" text="I'm a soldier by trade. I've served in the Armenians' legions for 20 years. Once upon a time they were worthy of being called 'legions.' We served together for years, and we'd die rather than see our standards falter or fall." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_armenian_10.text" text="But one day I was contacted by an agent of the Bureau of Barbarian Affairs. I do not know how well you know them. Their original mission was to keep the foreign tribes divided and weak, but they expanded their remit into all the affairs of the Armenians, anything that might be deemed a threat. At first they wanted small harmless details about my patients. To do so was a violation of my oath, but I was anxious to have the favor of the Bureau. But soon they began to call on me for more and more." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_armenian_2.text" text="But the Turks overran us, and he was slain, and our land was taken. Its revenues now belong to some tarkhan. Alas, the Armenians have little land to grant today, even to trained cavalrymen like myself who wish to serve. And horses are expensive." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_armenian_3.text" text="But the Emperor led the pick of the legions into an ambush in the German woods. You may have heard that story. I was laid up sick at the time. But a lot of my comrades didn't come back, and things were never the same afterward." />
+    <string id="eoe1100.string.response_2.spc_wanderer_armenian_2.text" text="A cavalier of the Armenians doing errands for traders! The shame of it!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_baltic_3.text" text="I'll tell you - what most people believe is a pack of lies. I was in the Royal Guard in the time of the old King. We took our discipline seriously; we were proud of it. Then the riots happened. What I saw in {IMPERIALCAPITAL}.. Even now it makes me feel ashamed." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_baltic_5.text" text="We Balts have a tradition. If two people have a dispute, and there's no witnesses, so it all comes down to one man's word against another's, then we let them settle it with swords. If one man doesn't like to fight, he can hire someone else to do the fighting. That's how it works with us. Probably other people do the same, because it's a good tradition." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_baltic_1.text" text="Then I joined the Jomsvikings. The 'Shield Brothers.' It's a good name, you know? They spent most of their time hunkering behind their shields. Ha! Me, I'd wade into the midst of the enemy, dealing out death right and left - and, well, all they had to say afterward was 'Why didn't you keep ranks?'" />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_baltic_1.text" text="Let me tell you friend, I'm hard. I've fought with the Jomsvikings, the Vaegirs, any mercenaries worth their salt, I've been with them. Others may tell you've they've done what I've done, but I'm the real thing." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_baltic_3.text" text="I was part of the old King's Royal Guard. But the people turned on us after his death, and attacked us. Maybe you've heard the story before. There's a whole lot of us, spat out into the world by the ungrateful Calradians." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_battania_9.text" text="But I had killed three men with a spear that day, and found I had a taste for it. And I learned that thieves grow rich, while honest men die. So I lived in the hills, and took the cows of families more fortunate then my own. But I sold the cows I took, and kept the denars close to my chest." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_0.text" text="My kin were farmers and herdsmen, but I trained in the sword from youth, for war often came to our doors." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_1.text" text="I learned to haggle, to listen, and to fight when tempers ran high." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_10.text" text="As a youth, I worked with masons rebuilding fallen walls." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_11.text" text="I learned the ropes of ships young, and the cut of blades soon after." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_2.text" text="My father tended sheep, but I learned the bow to fend off wolves and thieves." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_3.text" text="I learned to row, to fish, and to fight upon the water." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_4.text" text="From the stables to the hall, I learned the ways of the sword and horse." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_5.text" text="My village burned when I was small, and I was taken in by soldiers." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_6.text" text="I grew up among stone walls and the clang of weapons." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_7.text" text="I learned my letters young, but war called me away from the monastery’s walls." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_8.text" text="My kin taught me to farm, but raiders taught me to kill." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_bulgarian_9.text" text="As a boy, I scavenged battlefields, learning the ways of weapons from corpses." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_0.text" text="I fought in the levy under a local boyar when the Byzantines pressed their claim." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_1.text" text="Later, I carried goods across mountain passes, blade at my side." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_10.text" text="But stonework paid little, so I took service with soldiers." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_11.text" text="As a youth, I sailed with corsairs who plundered merchant cogs." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_2.text" text="Soon, my skill drew the attention of band leaders who sought my aim." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_3.text" text="In time, I joined river bandits who plundered passing barges." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_4.text" text="When my lord fell to intrigue, I lost all favor and standing." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_5.text" text="I grew up in camps, learning spear and shield from veterans." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_6.text" text="As I grew, I became a guard on the walls, watching traders and invaders alike." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_7.text" text="I took up arms instead of ink, though I still recall the old prayers." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_8.text" text="When the harvests failed, I turned to banditry, as many did." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_bulgarian_9.text" text="A mercenary band took me in, raising me as one of their own." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_0.text" text="Though we lost, I lived — hardened and with nothing left but my blade." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_1.text" text="A caravan raid took all — but left me alive, with vengeance burning." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_10.text" text="Soon I knew spear drill better than mortar and brick." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_11.text" text="I left that life before it ended me, though I keep the sea in my heart." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_2.text" text="I left them, for I wanted more than petty theft and blood feuds." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_3.text" text="When the Byzantines sent soldiers against us, I fled with only my axe." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_4.text" text="I took to the road, armor stripped, but pride intact." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_5.text" text="When the army disbanded, I remained — a soldier without a banner." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_6.text" text="But when wages failed, so did my loyalty. I left, blade in hand." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_7.text" text="Now I carry both faith and steel, wandering where I am needed." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_8.text" text="Yet I tired of preying on the weak and sought better fortune." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_bulgarian_9.text" text="When they disbanded, I remained, a lone survivor of too many wars." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_0.text" text="From the plains of Moesia, hardened by war." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_1.text" text="From the merchant city of Ohrid, once rich with trade." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_10.text" text="From Plovdiv, heir to ruins and wars alike." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_11.text" text="From the Black Sea coast, ever torn between waves and war." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_2.text" text="From the Rhodopes, where shepherds learn war as well as tending flocks." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_3.text" text="From the Danube, where life is as restless as the river." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_4.text" text="Once a retainer in Tarnovo’s court, now dispossessed." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_5.text" text="From the war-torn plains of Thrace." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_6.text" text="From Vidin, the fortress on the Danube." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_7.text" text="From Preslav, once a seat of kings and scholars." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_8.text" text="From the Balkan hills, hardened by hunger and raiders." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_bulgarian_9.text" text="From the war-torn lands of Macedonia." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_0.text" text="Once a levy soldier under a boyar, now a free sword." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_1.text" text="A merchant’s guard who lost all in a raid, now roaming." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_10.text" text="A mason’s apprentice turned soldier." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_11.text" text="A corsair turned wanderer." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_2.text" text="A shepherd turned archer-for-hire." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_3.text" text="A river raider turned wanderer." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_4.text" text="A fallen retainer of a boyar’s household." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_5.text" text="Raised in war camps, a soldier-for-hire." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_6.text" text="A former fortress guard turned mercenary." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_7.text" text="Once a novice among monks, now a man of the sword." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_8.text" text="A peasant turned brigand, now seeking honest pay." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_bulgarian_9.text" text="A battlefield orphan turned mercenary." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_0.text" text="I grew up among the hills of Moesia, where the villages stood watch against raiders from the steppes." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_1.text" text="My childhood was spent in the markets of Ohrid, where merchants from all lands crossed paths." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_10.text" text="I was born in Plovdiv, where Romans once ruled and traders still pass." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_11.text" text="I hail from the Black Sea coast, where sailors wrestle with storms and pirates alike." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_2.text" text="I was born near the Rhodope Mountains, where shepherds and brigands often shared the same paths." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_3.text" text="My youth was spent by the Danube, where merchants, raiders, and soldiers all crossed paths." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_4.text" text="I was raised near Tarnovo, in the household of a boyar’s retinue." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_5.text" text="I came from the plains of Thrace, where wars between empires left many orphans." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_6.text" text="My home was in Vidin, a fortress on the Danube’s bend." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_7.text" text="I was born near Preslav, where monks copied holy texts and lords raised banners of war." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_8.text" text="I grew up in the Balkan foothills, where life was harsh and neighbors harsher." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_bulgarian_9.text" text="My family lived near Skopje, where armies marched often and villages burned." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_0.text" text="Battle and hardship have shaped me. I seek coin and a lord who values loyalty." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_1.text" text="Trade taught me patience, loss taught me strength." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_10.text" text="I know walls — how to build them, and how to break them." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_11.text" text="I know storms, steel, and the sway of decks beneath my feet." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_2.text" text="My bow finds its mark. I do not waste words or arrows." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_3.text" text="I have lived as both thief and fighter. Now I choose my own master." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_4.text" text="I am trained in war, though fortune has cast me down." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_5.text" text="War is all I know. Let me fight, and I will not disappoint." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_6.text" text="A fortress taught me patience, discipline, and vigilance." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_7.text" text="I am not a priest, but I remember wisdom in words." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_8.text" text="I have lived rough, but I know loyalty when I see it." />
+    <string id="eoe1100.string.response_1.spc_wanderer_bulgarian_9.text" text="Death and ruin taught me everything. I do not fear battle." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_0.text" text="What I offer is my arm and my oath, for those who treat me fairly." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_1.text" text="I seek work, not pity. Let us leave the past in dust." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_10.text" text="If you need an arm steady in siege, mine is yours." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_11.text" text="If you need a sailor who can fight, I am yours." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_2.text" text="If you need a keen eye, I am your hunter." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_3.text" text="If you feed me well and give me work, I’ll be loyal." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_4.text" text="Give me command, and I will show my worth." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_5.text" text="Better to wield a spear for coin than to starve." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_6.text" text="If you need a steady hand for long marches or sieges, I will serve." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_7.text" text="Steel and scripture both guide my hand." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_8.text" text="If you pay fairly, I will fight fiercely." />
+    <string id="eoe1100.string.response_2.spc_wanderer_bulgarian_9.text" text="If you need someone unbroken by hardship, look no further." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_byzantine_10.text" text="I'm a surgeon. I trained at the imperial academy in {IMPERIALCAPITAL}. I had many rich and influential patients in the town. I thought I was well shielded from the intrigues and dangers of the byzantines. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_byzantine_3.text" text="I'm a soldier by trade. I've served in the Romans' legions for 20 years. Once upon a time they were worthy of being called 'legions.' We served together for years, and we'd die rather than see our standards falter or fall." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_byzantine_10.text" text="But one day I was contacted by an agent of the Bureau of Barbarian Affairs. I do not know how well you know them. Their original mission was to keep the foreign tribes divided and weak, but they expanded their remit into all the affairs of the Romans, anything that might be deemed a threat. At first they wanted small harmless details about my patients. To do so was a violation of my oath, but I was anxious to have the favor of the Bureau. But soon they began to call on me for more and more." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_byzantine_2.text" text="But the Turks overran us, and he was slain, and our land was taken. Its revenues now belong to some tarkhan. Alas, the Romans have little land to grant today, even to trained cavalrymen like myself who wish to serve. And horses are expensive." />
+    <string id="eoe1100.string.response_2.spc_wanderer_byzantine_2.text" text="A cavalier of the Romans doing errands for traders! The shame of it!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_english_0.text" text="I fancy myself a healer, you see. My parents sent me to a Mercian monastery when I was young to study both prayers and herbs." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_english_1.text" text="I was born in Normandy, trained as a squire for Duke Robert. When the Conqueror’s sons called for men in England, I came to serve." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_english_2.text" text="I was born out of wedlock. My father raised me, but I had no inheritance. I took up the sword to make my own way." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_english_3.text" text="I fought in Normandy, then England, under William and his sons. I have seen sieges and battles that younger men would not survive." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_0.text" text="But the monasteries... lovely gardens, rich libraries, yet the dawn prayers and endless copying of texts felt hollow. I left to see the world." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_1.text" text="I saw castles and villages, and the cost of loyalty. I fought in skirmishes, learned quickly the harsh lessons of war." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_12.text" text="I took his sword and learned to fight. Hunger and rage were my teachers, survival my creed." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_2.text" text="I joined my village’s levy to defend against Norman tax collectors. None wished to fight, so I volunteered, earning my first taste of battle." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_english_3.text" text="Lords often send men to die for coin or land. I tire of serving such masters. My sword is mine to offer, not theirs." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_0.text" text="I joined armies as a healer, tending to wounds both of flesh and spirit. I found I did more good on the road than among monks." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_1.text" text="Now I roam, seeking a lord who respects skill and courage, one who rewards action rather than birth." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_12.text" text="Soon I was no mere widow, but a warrior in my own right, feared more than pitied." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_2.text" text="At a ford, I stayed behind while the rest fled, facing an enemy cavalry force alone. I survived, but it changed me forever." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_english_3.text" text="I wander now, offering service to causes that respect honor, or to lords who value men as more than tools." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_0.text" text="I look for campaigns where I might serve and gain experience, learning more of both herbs and men." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_1.text" text="I offer my sword to any lord in need, hoping to earn my spurs and honor in England." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_10.text" text="I travel, spreading news and tales. Sometimes they earn coin. Sometimes they stir hearts." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_12.text" text="Now I wander, lending my sword to those who pay, or those who fight Normans still." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_2.text" text="I wander now, offering my blade to lords or causes that need a man who fears neither danger nor duty." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_english_3.text" text="I take work with lords who respect knights, or with men who fight for survival. That is all." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_0.text" text="I was a monk, but ill-suited to monastery life. I learned herbs and healing, and now wander, offering my skills to armies and lords alike." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_1.text" text="I am a Norman squire in England. Trained in arms, I wander seeking opportunity to prove myself and earn my knighthood." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_10.text" text="I am an Anglo-Saxon minstrel, a singer of tales and bearer of news, wandering with harp and voice." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_11.text" text="I am a Norman mercenary captain, seasoned by war, seeking service wherever coin is offered and men are needed." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_12.text" text="I am an Anglo-Saxon widow turned warrior, forged by grief and hunger, offering my blade to causes worthy of it." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_2.text" text="I am an Anglo-Saxon outlaw, born out of wedlock. I fight to survive and seek a new path where I can earn my place." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_english_3.text" text="I am a Norman veteran knight. I fought in Normandy and England, and now wander in search of honor and purpose." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_english_1.text" text="Of course - and I'm sure you'll agree it's a tale worth telling!" />
+    <string id="eoe1100.string.response_1.spc_wanderer_english_1.text" text="A squire learning the ways of war in a foreign land." />
+    <string id="eoe1100.string.response_1.spc_wanderer_english_3.text" text="A veteran who knows both glory and folly." />
+    <string id="eoe1100.string.response_1.spc_wanderer_english_9.text" text="Glory is a heavy burden, but a worthy goal." />
+    <string id="eoe1100.string.response_2.spc_wanderer_english_1.text" text="The road from squire to knight is hard and full of tests." />
+    <string id="eoe1100.string.response_2.spc_wanderer_english_10.text" text="You fight with verse and melody, not steel." />
+    <string id="eoe1100.string.response_2.spc_wanderer_english_3.text" text="Skill without a cause can be wasted. You seek rightly." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_finnic_3.text" text="I'll tell you - what most people believe is a pack of lies. I was in the Vaegir guard in the time of the old King. We took our discipline seriously; we were proud of it. Then the riots happened. What I saw in {IMPERIALCAPITAL}.. Even now it makes me feel ashamed." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_finnic_5.text" text="We finnic have a tradition. If two people have a dispute, and there's no witnesses, so it all comes down to one man's word against another's, then we let them settle it with swords. If one man doesn't like to fight, he can hire someone else to do the fighting. That's how it works with us. Probably other people do the same, because it's a good tradition." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_georgian_10.text" text="I'm a surgeon. I trained at the imperial academy in {IMPERIALCAPITAL}. I had many rich and influential patients in the town. I thought I was well shielded from the intrigues and dangers of the Georgians. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_georgian_3.text" text="I'm a soldier by trade. I've served in the Georgians' legions for 20 years. Once upon a time they were worthy of being called 'legions.' We served together for years, and we'd die rather than see our standards falter or fall." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_georgian_10.text" text="But one day I was contacted by an agent of the Bureau of Barbarian Affairs. I do not know how well you know them. Their original mission was to keep the foreign tribes divided and weak, but they expanded their remit into all the affairs of the Georgians, anything that might be deemed a threat. At first they wanted small harmless details about my patients. To do so was a violation of my oath, but I was anxious to have the favor of the Bureau. But soon they began to call on me for more and more." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_georgian_2.text" text="But the Turks overran us, and he was slain, and our land was taken. Its revenues now belong to some tarkhan. Alas, the Georgians have little land to grant today, even to trained cavalrymen like myself who wish to serve. And horses are expensive." />
+    <string id="eoe1100.string.response_2.spc_wanderer_georgian_2.text" text="A cavalier of the Georgians doing errands for traders! The shame of it!" />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_german_1.text" text="At any rate the enemy came down upon us, and the german host was scattered. I do not care to rejoin such miscreants, but if another captain were gracious enough to take me on, I would be pleased to add to my glory in his service." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_german_1.text" text="I am a knight of the german. I am a man of honor. Honor, of course, dictates that one avenges all insults, regardless of the consequences. I shall say no more, only that I am in need of a new captain to follow due to complications in my previous circumstances." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_german_6.text" text="I grew up in the north of the german lands. Sometimes men up there take their families far up in the hills, to live without any master or lord. But it's a hard life, cold and lonely. I want something better. I know the wilds well. I figure I can be of good use to a lord or lady, as a scout, and can at least choose my master." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungarian_1.text" text="At any rate the enemy came down upon us, and the hungarian host was scattered. I do not care to rejoin such miscreants, but if another captain were gracious enough to take me on, I would be pleased to add to my glory in his service." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungarian_1.text" text="I am a knight of the hungarian. I am a man of honor. Honor, of course, dictates that one avenges all insults, regardless of the consequences. I shall say no more, only that I am in need of a new captain to follow due to complications in my previous circumstances." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungarian_6.text" text="I grew up in the north of the hungarian lands. Sometimes men up there take their families far up in the hills, to live without any master or lord. But it's a hard life, cold and lonely. I want something better. I know the wilds well. I figure I can be of good use to a lord or lady, as a scout, and can at least choose my master." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_0.text" text="I'm an engineer trained in the service of Hungarian lords. Fortifications, bridges, and roads were our responsibility. After funding dried, I became a wanderer, offering my skills to those who need them." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_1.text" text="I've fought in many conflicts under Hungarian lords. My skill with sword and spear has earned me coin and reputation." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_2.text" text="My father served as a heavy cavalryman in Hungary’s service. I was raised to follow in his footsteps." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_3.text" text="I served twenty years in Hungary’s armies. Battles, sieges, and patrols shaped my life." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_4.text" text="As a youth in Hungary, I joined bandits to survive. Life on the roads was cruel and chaotic." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_5.text" text="I followed a Hungarian noble who raised a revolt over taxes. Many joined out of loyalty or desperation." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_6.text" text="To serve Hungarian troops, I dressed as a man. Women’s roles were limited; I wanted to fight." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_7.text" text="My father was a grain merchant in a Hungarian town. Banditry and raids destroyed our house, leaving me with nothing." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_8.text" text="I grew up in the streets of a Hungarian town, learning stealth to survive." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_hungary_9.text" text="Born in a border village, I learned tracking, hunting, and survival early." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_0.text" text="Projects sometimes fail due to corruption or inexperience. I avoid such pitfalls and insist on proper construction." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_1.text" text="I strike where honor and payment align. War is not a game, and I never fight without reason." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_2.text" text="After his death, I took to wandering, offering my skill to lords who cannot afford full regiments of horsemen." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_3.text" text="Many comrades fell due to ambush or mismanagement, leaving me to wander and sell my skills." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_4.text" text="I left, repaid debts, and returned to honest work. Violence remains a skill, not a habit." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_5.text" text="The revolt failed. Some were killed, others imprisoned. I survived and took my skills elsewhere." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_6.text" text="I bound my chest, trained, and served unnoticed." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_7.text" text="I survived among other refugees, learning to defend myself." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_8.text" text="I took contracts to remove threats to merchants or nobles, always unseen." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_hungary_9.text" text="I served local lords as a guide, scout, and hunter, defending settlements from raiders." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_0.text" text="That honesty has cost me work in the past, but I prefer integrity over easy coin." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_1.text" text="I serve as a soldier-for-hire when my lord is absent or the peace cannot sustain me." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_2.text" text="I am careful who I serve and avoid foot soldiers’ work, preferring the charge of the cavalry." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_3.text" text="I now train footmen, oversee sieges, and lend experience to those willing to pay for it." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_4.text" text="I now take work in towns or with lords, avoiding the woods where I learned my trade." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_5.text" text="I learned survival, scouting, and leadership, now offering those skills for honest work." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_6.text" text="After surviving an ambush that killed many, I left the army and wandered Hungary." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_7.text" text="I took a sword and left town, wandering to earn coin and safety." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_8.text" text="I never harmed innocents; discipline separates me from thieves." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_hungary_9.text" text="After the lord’s death, I became a wanderer, selling skills to merchants and minor lords alike." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_0.text" text="I oversee construction, siege engines, and fortifications wherever I'm employed." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_1.text" text="I work for merchants or minor lords, offering my skill in battle and protection." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_2.text" text="I lend my sword and horse to those in need, always seeking to honor my father’s memory." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_3.text" text="I sell my sword and counsel to lords or merchants who need guidance in warfare." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_4.text" text="I perform rough work, protection, and sometimes hunting or guiding, depending on what is offered." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_5.text" text="I guide, scout, and advise lords or merchants who value skill and discretion." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_6.text" text="I now train soldiers, repair weapons, and serve merchants or minor lords who require skill." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_7.text" text="I guide, fight, and serve lords or merchants who value skill and loyalty." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_8.text" text="I move unseen, strike precisely, and vanish. Services offered for coin." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_hungary_9.text" text="I offer scouting, hunting, and guiding services across Hungary." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_0.text" text="I'm an engineer trained under Hungarian lords, offering expertise in construction and war machines." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_1.text" text="I am a soldier of fortune from Hungary, skilled in war and loyal to contracts." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_2.text" text="I am a former Hungarian cataphract, now wandering and offering my cavalry skills where needed." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_3.text" text="A veteran of Hungarian armies, skilled in battle and strategy, now wandering for work." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_4.text" text="Once a bandit in Hungary, now an honest wanderer offering services in work and protection." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_5.text" text="A former Hungarian rebel, now wandering and offering guidance, scouting, and protection." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_6.text" text="A woman who served disguised as a man, now wandering Hungary offering skill in arms and training." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_7.text" text="A merchant’s daughter turned wanderer, skilled in defense, guidance, and survival." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_8.text" text="A street-trained Hungarian assassin, disciplined and precise." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_hungary_9.text" text="A Hungarian frontiersman skilled in tracking, hunting, and guiding." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_0.text" text="I don't mind talking about it." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_1.text" text="You want to know about me? Well, that's a story." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_2.text" text="It is not without reluctance that I tell this story." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_3.text" text="Refill my glass and I’ll tell you." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_4.text" text="I suppose I can tell you." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_5.text" text="I'll tell you my story." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_6.text" text="Pass the wine and listen close." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_7.text" text="I'll tell you my story." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_8.text" text="You want my story?" />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_hungary_9.text" text="I've walked Hungary’s forests and plains." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_0.text" text="Most noble of you, sir." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_1.text" text="Ah, yes. Wise words." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_2.text" text="That's it? The dishonorable part? Working for merchants?" />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_3.text" text="No doubt a sad state of affairs. What do you do now?" />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_4.text" text="A wise decision." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_5.text" text="A sad tale indeed." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_6.text" text="There is always work for the brave." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_7.text" text="The starving do what they must." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_8.text" text="A deadly profession." />
+    <string id="eoe1100.string.response_1.spc_wanderer_hungary_9.text" text="A life well-honed in the wilderness." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_0.text" text="A man of integrity, or one who backbites peers? I cannot tell." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_1.text" text="You’ve said nothing of yourself. I have better things to do." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_2.text" text="A cavalier of Hungary doing errands for traders! The shame!" />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_3.text" text="Ah, the old days. Enough nostalgia." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_4.text" text="A knave who reformed! Rare indeed." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_5.text" text="Heresy and rebellion intertwined. A dangerous path." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_6.text" text="A tale of deceit and survival." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_7.text" text="And to think you had an educated childhood." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_8.text" text="Do not underestimate the streets." />
+    <string id="eoe1100.string.response_2.spc_wanderer_hungary_9.text" text="Few survive the frontier with such skills." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_0.text" text="I am an engineer, trained in fortifications and siegecraft under the old imperial army. When the legions fell apart, many of my colleagues went into the lords' employ. I stayed true to my craft." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_1.text" text="I have fought across Italy and beyond. My enemies have many names for me; some call me brave, others reckless. I answer only to myself." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_2.text" text="My father was a cataphract in the east. We owned a modest estate to support his horse and armor. I was raised to follow in his path." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_3.text" text="I am a soldier by trade. I served in the Italian legions for twenty years, until betrayal and misfortune fractured our forces." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_4.text" text="I ran away from my village to join men who made their living on the roads. Life plowing fields seemed too harsh for me." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_5.text" text="My family? I care little for them. I left as a child and never regretted it. My brothers can keep their inheritance." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_6.text" text="I once followed Ladimos the Red, who preached rebellion against merchants and landowners. Many of us believed, others followed for debt or mischief." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_7.text" text="My family owed debts, so I enlisted disguised as a man under a local commander. I preferred action to domestic life." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_8.text" text="My father was a grain merchant in {IMPERIALCAPITAL}. We lived comfortably until riots destroyed our home." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_italian_9.text" text="As a child, I ran with a gang called the Centaurs in {IMPERIALCAPITAL}, running errands from pickpocketing to knife work." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_0.text" text="Nepotism runs rampant among engineers these days. Brothers and old apprentices get contracts while competent hands like mine are overlooked." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_1.text" text="Every fight I entered, I respected the rules. If you were my enemy, I gave you your chance, but never the innocent." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_2.text" text="But the Cumans overran our land, and he was slain. I could not take up his horse and armor, so I turned to merchants, offering my skill for hire." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_3.text" text="Many comrades died when Drosios Neretzes led an ambush against us. I was laid up sick. The army was never the same afterward." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_4.text" text="Bandits are brutal animals—drunken, stabbing, dying of plague or hanging. I quickly learned the risks of that life." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_5.text" text="I fought in many wars. Comrades turn on each other in the end, and I prefer to keep my distance." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_6.text" text="We built a backcountry temple called the Kingdom of Truth, and fought imperial detachments. When Ladimos died, our group broke apart. Some turned to extortion to survive." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_7.text" text="Dressing as a man was simple. I bound my chest and observed the duties without difficulty." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_8.text" text="The guards burned our neighborhood. My father tried to save his strongbox but was killed. We joined refugees, living by our wits in the countryside." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_italian_9.text" text="I grew older and escaped the harassment of drunken men. Unsure where to go, I sought freedom." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_0.text" text="I refuse to cut corners. If a wall will crumble, I will say so. That honesty has kept me from the easier work, but I sleep soundly." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_1.text" text="War is no game. Streets are no arena. If someone crosses you, act decisively. That is all one can trust in this life." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_2.text" text="I work as a hired sword for merchants, yet I hope one day to reclaim the land I need to serve properly as my father did." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_3.text" text="The legions fell into the hands of the wealthy, who maintained soldiers at their own expense. Squabbling factions replaced discipline, and we were mocked by former enemies." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_4.text" text="I left that life, paid some friends to remove my name from the outlaw list, and became a law-abiding citizen, though I still enjoy the thrill of a fight." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_5.text" text="My past is mine alone. I speak little of it." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_6.text" text="I left, and the emperor sent troops to finish the Kingdom of Truth. Former comrades now serve lords or languish in cages marked R for robber." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_7.text" text="An ambush led to a rout. I survived, but the army life ended for me. Glory hounds led me to near death." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_italian_8.text" text="I took a sword from a drunken guardsman. It has been invaluable since." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_0.text" text="So I roam from town to town, taking work where I can find it—supervising construction, dismantling faulty defenses, or aiding in siege craft." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_1.text" text="Merchants hire me as muscle or guard, but I owe allegiance to no one. I am a soldier of fortune, nothing more, nothing less." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_2.text" text="I try to choose my masters wisely, hoping that some honor from my equestrian training rubs off even in the courts of commerce." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_3.text" text="I now sell my sword to worthy commanders, training footmen and handling siege equipment for those who will follow skill over money." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_4.text" text="Life in the city suits me better. The work can be rough, but I can relax afterward with better company than the forests offered." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_5.text" text="I fight for a living. I will take work others shy from, and I am skilled enough to handle it." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_6.text" text="I learned skills for survival in the hills and on caravan routes. Now I seek honest work where I can use them." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_7.text" text="Merchants now give me work. I can wield, repair, or craft weapons and seek a captain with a company to join." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_italian_8.text" text="I adapt quickly. I could serve a warlord if given the chance, learning whatever skills are needed." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_0.text" text="I am an engineer trained in the imperial army. I travel for work, supervising construction, destruction, and siegecraft wherever needed." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_1.text" text="I am a soldier of fortune. I fight for coin, skill, and survival—not for any lord or crown." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_2.text" text="I am a former imperial cataphract, now a mercenary for merchants, maintaining the skills and honor of my father where I can." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_3.text" text="I am a soldier of the imperial legions, now a wandering instructor and mercenary, turning youths into disciplined fighters." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_4.text" text="I dabbled in crime as a youth, then struck out on my own. I am honest now, though I enjoy a fight when necessary." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_5.text" text="I kill for a living. I take the work others will not, and I do it well." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_6.text" text="Once a rebel in the hills, I now seek honest work, skilled in survival and tracking." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_7.text" text="I disguised myself to serve in the legions. Many have done the same, and survived to tell it." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_italian_8.text" text="I am a merchant's daughter displaced by riots. Survival taught me skills that now keep me wandering yet capable." />
+    <string id="eoe1100.string.response_2.spc_wanderer_italian_2.text" text="A cavalier of the Italian doing errands for traders! The shame of it!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_turkic_0.text" text="My father learned his trade in the time of the old Urkhun Khan. Back then, the Turkics were invincible in battle, but had little knowledge of rams, catapults or even ladders, and even the most humble fortress defied them. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_turkic_4.text" text="My clan was among the last of the Turkics to live out on the open steppe, moving from place to place in the old way. It was not a large clan; you would not have heard of it. It became even smaller when our encampment was surprised by an imperial patrol, and our flocks slain and scattered. Those of us who survived were forced to refuge in a village, under a larger clan, whose name you may know, but I shall not mention it." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_turkic_6.text" text="You probably know that the Turkics once lived out on the open grass. But our khans became used to luxuries. They lived in cities, and wished to trade with and make war upon other kings. Khan Urkhun, whom some call the Great and others call the Cruel, decided the clans must live in fixed places, so he could count their warriors and levy them, and count their flocks and tax them. Thirty years ago Khan Urkhun ordered all the clans of the Turkics to claim land and live upon it, and the noyans to build castles. Most complied, for they had come to value their comforts more than their freedom." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_turkic_0.text" text="Now, in Urkhun's day, if a Turkic apprenticed in siegecraft went to work for another master, it meant a very painful death if he was recaptured. But times have changed. The richest plums of the empire's cities have fallen, and they build their walls higher than they once did. The Turkic lords pay less for a siegemaster, and that pay is often late. So I am up to taking other employment, if it is offered." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_turkic_1.text" text="I rode behind the banner of the Turkic khan for years. I should have had a place of honor in his hall. But I killed a man from a richer clan over an insult, and he had too many kinfolk for me to linger anymore." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_turkic_10.text" text="I was the son of a village peddler but that's not the kind of life I want to live. I want to learn to fight and ride. There are a lot of us lads like that in the Turkic lands, I think you'll find, even if the great horse lords think we're fit only to stitch sandals or push a plough." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_turkic_6.text" text="Urkhun Khan decreed a generation ago that all the Turkics must settle, to be conscripted and taxed. We refused. His men took our flocks, and we have since lived like beggars on the edge of the towns. I have resolved to go out and earn the money we need to buy new flocks, and then we shall go again into the great grass, beyond the reach of any tyrant or khan." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_turkic_3.text" text="Yeah... I'll tell you a tale of life in the great Turkic hordes, terror of the world." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_kryvian_5.text" text="We Kryvian have a tradition. If two people have a dispute, and there's no witnesses, so it all comes down to one man's word against another's, then we let them settle it with swords. If one man doesn't like to fight, he can hire someone else to do the fighting. That's how it works with us. Probably other people do the same, because it's a good tradition." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_kryvian_1.text" text="Started in the Royal Guard. I found that I was the only real warrior among them. They were all about marching here and there in their pretty uniforms, not pulling sword from scabbard for months on end. I told them what I thought, and my captain told me to keep my mouth shut or leave. So I left." />
+    <string id="ivz2U3e2" text="')]" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_norman_1.text" text="See, there's a lot of tales about me, and only some of them are true. The Cumans call me by one name, the Arabs by another." />
+    <string id="0FHF0OXK" text="')]" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_norman_10.text" text="I'm a surgeon. I trained at the imperial academy in {IMPERIALCAPITAL}. I had many rich and influential patients in the town. I thought I was well shielded from the intrigues and dangers of the Normans. " />
+    <string id="FybsZ7yK" text="')]" />
+    <string id="H7tFXLVN" text="')]" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_norman_3.text" text="I'm a soldier by trade. I've served in the Normans' legions for 20 years. Once upon a time they were worthy of being called 'legions.' We served together for years, and we'd die rather than see our standards falter or fall." />
+    <string id="pzK7TN05" text="')]" />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_norman_10.text" text="But one day I was contacted by an agent of the Bureau of Barbarian Affairs. I do not know how well you know them. Their original mission was to keep the foreign tribes divided and weak, but they expanded their remit into all the affairs of the Normans, anything that might be deemed a threat. At first they wanted small harmless details about my patients. To do so was a violation of my oath, but I was anxious to have the favor of the Bureau. But soon they began to call on me for more and more." />
+    <string id="fwYGme3B" text="')]" />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_norman_2.text" text="But the Cumans overran us, and he was slain, and our land was taken. Its revenues now belong to some tarkhan. Alas, the norman has little land to grant today, even to trained cavalrymen like myself who wish to serve. And horses are expensive." />
+    <string id="DzyAgYIX" text="')]" />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_norman_3.text" text="But Drosios Neretzes led the pick of the legions into an ambush in the Irishn woods. You may have heard that story. I was laid up sick at the time. But a lot of my comrades didn't come back, and things were never the same afterward." />
+    <string id="902xqUja" text="')]" />
+    <string id="eoe1100.string.response_2.spc_wanderer_norman_2.text" text="A cavalier of the Normans doing errands for traders! The shame of it!" />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_polish_1.text" text="A seasoned fighter who has seen border fights and river skirmishes. If your host needs men who won't flee at the first river's crossing, I am for hire." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_portuguese_10.text" text="I'm a surgeon. I trained at the imperial academy in {IMPERIALCAPITAL}. I had many rich and influential patients in the town. I thought I was well shielded from the intrigues and dangers of the Portuguese. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_portuguese_3.text" text="I'm a soldier by trade. I've served in the portugueses' legions for 20 years. Once upon a time they were worthy of being called 'legions.' We served together for years, and we'd die rather than see our standards falter or fall." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_portuguese_10.text" text="But one day I was contacted by an agent of the Bureau of Barbarian Affairs. I do not know how well you know them. Their original mission was to keep the foreign tribes divided and weak, but they expanded their remit into all the affairs of the Portuguese, anything that might be deemed a threat. At first they wanted small harmless details about my patients. To do so was a violation of my oath, but I was anxious to have the favor of the Bureau. But soon they began to call on me for more and more." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_portuguese_2.text" text="But the Turks overran us, and he was slain, and our land was taken. Its revenues now belong to some tarkhan. Alas, the Portuguese have little land to grant today, even to trained cavalrymen like myself who wish to serve. And horses are expensive." />
+    <string id="eoe1100.string.response_2.spc_wanderer_portuguese_2.text" text="A cavalier of the Portuguese doing errands for traders! The shame of it!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_scottish_3.text" text="I am Scottish. But for 20 years, I fought for the Empire. Indeed, most Scottish my age learned their trade in the legions. We saw no dishonor in it. They fed us well, they paid us well, they respected our courage." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_scottish_5.text" text="My family was not one of the greatest clans of the Scottish, but neither are we among the poorest. When I came of age, my family sent me to join the Wolfskins. You may have heard of this tradition - for three years we live in the woods and do not eat cooked meat, wear spun cloth, or sleep under a roof, and according to the law we are beasts, not bound by the laws of men." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_scottish_9.text" text="My uncle - he had a great herd of cows, and in the Scottish upcountry that is only kind of wealth we value. But they were taken by his chief herdsman, a man we trusted. So we took up spears to get them back, but my uncle was now poor, but the thief had many kinsmen. Having nothing else to lose, my uncle ordered that even the women of our family take up spears and ride out to fight, and so we did." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_scottish_1.text" text="I do things in the old way, and so whenever an enemy falls to my spear, I take their head! Let's see - I have Brechtan the Old, Lamaich the Lame -- don't let the names fool you, these were great warriors - Archan the Bull, so many others! A true Scottish never boasts, because his deeds are hung over the hearth for all to see. At least that's the way it used to be." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_scottish_3.text" text="But there's no legions any more. And since Caladog became king, well, he's gotten the young to think that to fight for the Empire is treason. Treason to what? 'scottish'? There is no scottish. Never has been. Just a bunch of quarreling warlords, who'll steal your cows as soon as you turn your back on them." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_scottish_1.text" text="Well now, I am a warrior of the Scottish. There is no greater boast than that, I will tell you! But perhaps if you hire me, I can tell you more later about the great names I have slain and the heads I have taken." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_scottish_3.text" text="I am Scottish by birth but I served with the Empire. Many of us did. A brave lord, a captain who cares for his men... What does it matter in which language your oath of fealty is given, as long as you honor it? " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_serbian_10.text" text="I'm a surgeon. I trained at the imperial academy in {IMPERIALCAPITAL}. I had many rich and influential patients in the town. I thought I was well shielded from the intrigues and dangers of the Serbs. " />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_serbian_3.text" text="I'm a soldier by trade. I've served in the Serbs' legions for 20 years. Once upon a time they were worthy of being called 'legions.' We served together for years, and we'd die rather than see our standards falter or fall." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_serbian_10.text" text="But one day I was contacted by an agent of the Bureau of Barbarian Affairs. I do not know how well you know them. Their original mission was to keep the foreign tribes divided and weak, but they expanded their remit into all the affairs of the Serbs, anything that might be deemed a threat. At first they wanted small harmless details about my patients. To do so was a violation of my oath, but I was anxious to have the favor of the Bureau. But soon they began to call on me for more and more." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_serbian_2.text" text="But the Turks overran us, and he was slain, and our land was taken. Its revenues now belong to some tarkhan. Alas, the Serbs have little land to grant today, even to trained cavalrymen like myself who wish to serve. And horses are expensive." />
+    <string id="eoe1100.string.response_2.spc_wanderer_serbian_2.text" text="A cavalier of the Serbs doing errands for traders! The shame of it!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_spanish_3.text" text="I'm a soldier by trade. I've served in the spanish's legions for 20 years. Once upon a time they were worthy of being called 'legions.' We served together for years, and we'd die rather than see our standards falter or fall." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_spanish_6.text" text="You may have heard of Ladimos the Red. He preached that the Heavens were getting ready to unload their wrath on landowners and merchant, that we had to drive them out and live pure lives and we'd be rewarded with a Pure Emperor, come down from the skies. This was some 10 years ago. Well, a lot of us ran off to follow him, some of us believed him and some had debts and some just wanted to take a lick at those that oppressed us." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_spanish_2.text" text="But the Cumans overran us, and he was slain, and our land was taken. Its revenues now belong to some tarkhan. Alas, the spanish has little land to grant today, even to trained cavalrymen like myself who wish to serve. And horses are expensive." />
+    <string id="eoe1100.string.response_2.spc_wanderer_spanish_2.text" text="A cavalier of the spanish doing errands for traders! The shame of it!" />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_0.text" text="I lived in a small coastal village across the gulf. The north is a hard place — jarls quarrel over grazing and ships, and a lord’s feud can burn a whole hamlet down. My mother tended the sick with herbs and song; I learned at her knee until the raid that took her and the man I was to wed." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_1.text" text="I was the finest youth in my village for sword and axe; folk said I fought like a berserker. At coming-of-age I rode south to find war and coin, first serving with the Vaegir guard but chafing at their discipline." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_2.text" text="My father was a noted raider whose leg was cut in a raid and who kept us fed with spoils. We invested his victories in land and thralls, but I swore to earn for my own house and to buy a ship of my own." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_3.text" text="I served in the imperial guard in the days of Arenicos. We were proud of order and formation, but when the emperor fell the city turned and the guard became the target of the mob." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_4.text" text="I was a tiller of earth until a quarrel over a boundary fence ended with a man’s skull split by my hoe. Blood enmeshes a man — what started as anger took me beyond repair." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_5.text" text="In our law when a matter cannot be settled, we let champions answer in single combat — it is an old way. If a man will not fight, he hires a champion to fight for him; the thing is that courage has a price." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_6.text" text="My parents died when I was young and my sister married to a man who coveted the farm. He hired a crafty law-man to press his claim, and the thing awarded them our land." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_7.text" text="My father was a draftsman, a builder for local jarls — towers, keeps and palisades. He taught me to draw plans and to mark timber for the keel and wall." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_8.text" text="I come from a good house and always wished to be a shield-maiden. I trained with the village boys and learned the spear, but my father insisted a daughter should spin and bring dowry, not blood." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_sturgia_9.text" text="I do a man's work better than most men. I am not given to excuses: I show up sober, do the task, and collect my pay. That is my promise." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_0.text" text="They wanted cattle and timber; they took everything else too. We fled into the birchwoods and I swore never to be helpless while others decided my fate. I will mend the wounded on the field, and if need be, I will learn to wound as well as I heal." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_1.text" text="I then joined a shield-clan — the Skolderbroda — but their insistence on tight ranks and shield-walls bored me. I favor the bloody melee: charge, cleave, and send a man home with no use for his bragging." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_2.text" text="I will not sell the homestead to fit out a crew, so I hire myself as a warrior until I can buy a longship and hire men to row her. I plan raids to bring back silver and people to trade or sell." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_3.text" text="We tried to hold the peace, but loot and anger spread like wildfire. Some of my comrades looted and killed in the fury; later I would see what men do when law decays and I could not unsee it." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_4.text" text="His kin came for blood-payment. I could have paid for one life, but not three. In the fury I killed again and then fled, for our thing would have hanged me." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_5.text" text="I made a trade of it — championing men for coin. I fought for heads, ransoms and honor-claims. It paid well till the councils said I sold my sword too cheaply and banned me from being a lawful champion." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_6.text" text="I left for the woods, living by trapping and selling furs. The life is quiet and it suits me better than court talk and oaths." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_7.text" text="When he died I stayed with my uncle but the folk muttered I brought evil — a blemish on my shoulder looked like a witch-mark. The village elders demanded I leave and do not return." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_8.text" text="I was married off and my husband insulted me in the market. I struck him down in a lawful duel, was judged not guilty by the thing — but I was disinherited and shamed, so I left." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_sturgia_9.text" text="You will not find me passed out when needed. You will not have to bribe guards to get me out of a cell. I do what must be done, and I do it well." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_0.text" text="Perhaps one day my kin will find peace. For now I travel from longhouse to longship offering salves, poultices and steady hands to men who bleed for silver, and I will not return to be at any man's mercy again." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_1.text" text="The captains told me to keep my mouth shut or leave; I left. Now I look for a warband that pays for a man who makes trouble and survives it." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_2.text" text="When I have a vessel, I will sail to rich coasts and come home with enough to secure marriages for my siblings and land for my sons. Till then my sword and shield will do." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_3.text" text="I left with nothing but the clothes on my back and one old sword. Now I roam, looking for honest pay to earn back what I lost and a captain whose men keep discipline even in hard times." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_4.text" text="I do not boast of it. A farmer has no love for a sword, but the Heavens decided a different path. Now men in the cities pay me for sharp work that the law will not let them do." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_5.text" text="So now I wander and mercenary-work keeps my hand. Duels are clean and quick; I prefer them to long sieges and dull guard duty. If your leader needs a man who does not flinch, my price is fair." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_6.text" text="Now I trap and guide hunters, but I also serve as scout for war-parties that need men who can vanish into the trees and report on an enemy’s tracks." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_7.text" text="I wandered and learned to survive among thieves and sellswords, until I stole a sword from a careless bandit and found I could trade woodcraft as well as a blade. Now I hire out as builder and muscle both." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_8.text" text="A warrior’s life is harder than the stories; yet it is honest. I now fight for pay, free of the obligations that once bound me." />
+    <string id="eoe1100.string.backstory_c.spc_wanderer_sturgia_9.text" text="If a chief needs someone who protects his wagons or cuts down his enemies cleanly, I am that woman — and I do not ask for pity." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_0.text" text="If you know of a warband seeking someone to bind wounds and keep men whole after a raid, send them to me." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_1.text" text="Still, if your company wants a fighter who charges where most hesitate, I'm available for the right share." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_2.text" text="If you know a captain who values seamanship and daring, send word — I'll earn my share and more." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_3.text" text="If there's a company that needs men who can hold rank and train others, I will join — and make coin while I do." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_4.text" text="If fate had allowed it I would have stayed the farmer. But now I sell my sword in the towns — and those who pay well need my sort." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_5.text" text="Still, for raising champions, I know the law and the blade. I will train men and stand where others would flee." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_6.text" text="I know the woods and marshes. I can read a camp’s signs and find the best place to strike." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_7.text" text="I work for whoever pays: build a palisade by day, take a contract as a guard by night. The world gave me no mercy; I give none back." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_8.text" text="I cannot return home, but the sea and shield-house welcome those with skill. I fight now for coin — and the life I chose." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_sturgia_9.text" text="If your leader needs a solid, loyal sword, tell them of me. I will show more than I boast." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_0.text" text="I was an herbalist in a northern village until raiders burned it. I now travel and treat warriors' wounds—there are many of us on the roads of Calradia." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_1.text" text="I've fought with many hosts—Skolderbroda, Vaegir land-levies and sea-forces. Others may claim it, but I'm the real thing." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_2.text" text="My father left us wealth from raids but I must make my own way. I plan to buy a ship and bring home enough for kin and clan; till then I hire my blade." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_3.text" text="I was once in the imperial guard. After riots and the fall of the emperor I lost my pay and place. Now I offer my blade to a captain who values order." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_4.text" text="I was a farmer forced to flee after killing in a feud. Blood-money could not be raised; thus I took to the road and the sword." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_5.text" text="I was a paid champion, solving disputes by single combat for coin and reputation until councils outlawed me. Now I offer my arm to captains and chiefs who want firm men." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_6.text" text="A trapper turned scout. I know the forest paths and the ways of beasts — and people alike." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_7.text" text="I was an orphan wandering the roads until a stolen sword made me more than a beggar. I can build and fight, in equal measure." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_8.text" text="I am a shield-maiden — not uncommon in the north, but rare enough to be noticed. I fight for coin, for freedom, and for the taste of the wind." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_sturgia_9.text" text="I'm a woman who left the spindle for the spear. Hire me and I will prove myself in action rather than speech." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_sturgia_5.text" text="Look, friend, I'm here to drink, not talk. But if you really want to know, I'll give it you in brief." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_sturgia_8.text" text="I'll tell you my tale. But I warn you: I care little for your approval." />
+    <string id="eoe1100.string.prebackstory.spc_wanderer_sturgia_9.text" text="Pour a drink, stranger. I'll tell you what you need to know." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_2.text" text="You are a dutiful son and an ambitious man." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_3.text" text="I have heard of the riots in {IMPERIALCAPITAL}. Ugly business." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_4.text" text="It sounds like you had little choice." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_5.text" text="Councils these days. Always changing tradition..." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_6.text" text="A good scout can command a fine price." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_7.text" text="A sad tale indeed." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_8.text" text="Perhaps such customs teach husbands to behave better." />
+    <string id="eoe1100.string.response_1.spc_wanderer_sturgia_9.text" text="A dependable fighter is precious these days." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_0.text" text="It's a cruel world, and a warrior's path has its own pains." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_1.text" text="Leaving a gap in a shield-wall will get your fellows killed; some call that treason." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_2.text" text="Pious words from one who plans to pillage." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_3.text" text="Many witness testimony blamed the guard for the emperor's fall." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_4.text" text="A man who cannot master his rage is a danger indeed." />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_5.text" text="You call that justice?" />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_6.text" text="What woman would relish a husk-smelling spouse?" />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_7.text" text="Heavens! Away!" />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_8.text" text="You slew your husband? Begone!" />
+    <string id="eoe1100.string.response_2.spc_wanderer_sturgia_9.text" text="A good enough reputation will get you coin and few questions asked." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_suzdalian_5.text" text="We Suzdalians have a tradition. If two people have a dispute, and there's no witnesses, so it all comes down to one man's word against another's, then we let them settle it with swords. If one man doesn't like to fight, he can hire someone else to do the fighting. That's how it works with us. Probably other people do the same, because it's a good tradition." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_volhynian_5.text" text="We volhynian have a tradition. If two people have a dispute, and there's no witnesses, so it all comes down to one man's word against another's, then we let them settle it with swords. If one man doesn't like to fight, he can hire someone else to do the fighting. That's how it works with us. Probably other people do the same, because it's a good tradition." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_welsh_3.text" text="I am welsh. But for 20 years, I fought for the Empire. Indeed, most welsh my age learned their trade in the legions. We saw no dishonor in it. They fed us well, they paid us well, they respected our courage." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_welsh_5.text" text="My family was not one of the greatest clans of the welsh, but neither are we among the poorest. When I came of age, my family sent me to join the Routiers. You may have heard of this tradition - for three years we live in the woods and do not eat cooked meat, wear spun cloth, or sleep under a roof, and according to the law we are beasts, not bound by the laws of men." />
+    <string id="eoe1100.string.backstory_a.spc_wanderer_welsh_9.text" text="My uncle - he had a great herd of cows, and in the welsh upcountry that is only kind of wealth we value. But they were taken by his chief herdsman, a man we trusted. So we took up spears to get them back, but my uncle was now poor, but the thief had many kinsmen. Having nothing else to lose, my uncle ordered that even the women of our family take up spears and ride out to fight, and so we did." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_welsh_1.text" text="I do things in the old way, and so whenever an enemy falls to my spear, I take their head! Let's see - I have Brechtan the Old, Lamaich the Lame -- don't let the names fool you, these were great warriors - Archan the Bull, so many others! A true welsh never boasts, because his deeds are hung over the hearth for all to see. At least that's the way it used to be." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_welsh_3.text" text="But there's no legions any more. And since that new guy became king, well, he's gotten the young to think that to fight for the Empire is treason. Treason to what? 'welsh'? There is no welsh. Never has been. Just a bunch of quarreling warlords, who'll steal your cows as soon as you turn your back on them." />
+    <string id="eoe1100.string.backstory_b.spc_wanderer_welsh_5.text" text="Some speak well of their time in the Routiers. It is intended to teach you the ways of the woods. But the 'pack' I joined were all rich feral children, playing at being animals." />
+    <string id="eoe1100.string.backstory_d.spc_wanderer_welsh_4.text" text="I am the prince of horsethieves! I have stolen Arabs mares from amid the tents and ridden them across the desert under the moon, I have taken French stallions from their paddocks, the sturdy ponies of the Turks, and the steady geldings of the imperial lancers. But, I'll be the first to admit, it is risky work, so sometimes I do other jobs." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_welsh_1.text" text="Well now, I am a warrior of the welsh. There is no greater boast than that, I will tell you! But perhaps if you hire me, I can tell you more later about the great names I have slain and the heads I have taken." />
+    <string id="eoe1100.string.generic_backstory.spc_wanderer_welsh_3.text" text="I am welsh by birth but I served with the Empire. Many of us did. A brave lord, a captain who cares for his men... What does it matter in which language your oath of fealty is given, as long as you honor it? " />
+    <!--npccharacters.xslt-->
+    <string id="eoe1100.npccharacter.assassins_boss.name" text="Hasan-i Sabbah" />
+    <string id="eoe1100.npccharacter.pirate_boss.name" text="Pirate Lord" />
+    <string id="eoe1100.npccharacter.lord_castile_4b.name" text="Mayor Muñoz" />
+    <string id="eoe1100.npccharacter.lord_polotsk_2e.name" text="Usievaład Hlebavič" />
+    <string id="eoe1100.npccharacter.village_woman_bulgarian.name" text="Bulgarian Peasant" />
+    <string id="eoe1100.npccharacter.village_woman_byzantine.name" text="Roman Peasant" />
+    <string id="eoe1100.npccharacter.village_woman_empire.name" text="Spanish Peasant" />
+    <string id="eoe1100.npccharacter.village_woman_georgian.name" text="Georgian Peasant" />
+    <string id="eoe1100.npccharacter.andalusian_heavy_cavalry.name" text="Andalusian Veteran Heavy Cavalry" />
+    <string id="eoe1100.npccharacter.village_woman_portuguese.name" text="portuguese Peasant" />
+    <string id="eoe1100.npccharacter.village_woman_scottish.name" text="Scottish Peasant" />
+    <string id="eoe1100.npccharacter.village_woman_serbian.name" text="Serbian Peasant" />
+    <string id="eoe1100.npccharacter.village_woman_welsh.name" text="Welsh Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_aserai.name" text="Imazighen Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_bulgarian.name" text="Bulgarian Townswoman" />
+    <string id="eoe1100.npccharacter.villager_bulgarian.name" text="Bulgarian Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_byzantine.name" text="Roman Townswoman" />
+    <string id="eoe1100.npccharacter.villager_byzantine.name" text="Roman Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_dregovian.name" text="Dregovian Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_empire.name" text="Spanish Townswoman" />
+    <string id="eoe1100.npccharacter.villager_empire.name" text="Spanish Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_finnic.name" text="Finnic Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_georgian.name" text="Georgian Townswoman" />
+    <string id="eoe1100.npccharacter.villager_georgian.name" text="Georgian Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_german.name" text="german Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_hungarian.name" text="hungarian Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_italian.name" text="Italian Townswoman" />
+    <string id="eoe1100.npccharacter.villager_italian.name" text="Italian Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_kryvian.name" text="Kryvian Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_norman.name" text="Norman Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_novgorodian.name" text="Novgorodian Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_persian.name" text="Persian Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_polish.name" text="polish Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_portuguese.name" text="Portuguese Townswoman" />
+    <string id="eoe1100.npccharacter.villager_portuguese.name" text="Portuguese Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_rus.name" text="Rus Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_scottish.name" text="Scottish Townswoman" />
+    <string id="eoe1100.npccharacter.villager_scottish.name" text="Scottish Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_serbian.name" text="Serbian Townswoman" />
+    <string id="eoe1100.npccharacter.villager_serbian.name" text="Serbian Peasant" />
+    <string id="eoe1100.npccharacter.townswoman_sturgia.name" text="Nordic Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_suzdalian.name" text="Suzdalian Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_vlandia.name" text="French Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_volhynian.name" text="Volhynian Townswoman" />
+    <string id="eoe1100.npccharacter.townswoman_welsh.name" text="Welsh Townswoman" />
+    <string id="eoe1100.npccharacter.villager_welsh.name" text="Welsh Peasant" />
+    <string id="eoe1100.npccharacter.spc_skolderbrotva_leader_3.name" text="Köten of the Kipchaks" />
+    <string id="eoe1100.npccharacter.armenian_rebel_lord.name" text="of the Armenian Rebels" />
+    <string id="eoe1100.npccharacter.baltic_rebel_lord.name" text="of the Baltic Rebels" />
+    <string id="eoe1100.npccharacter.battania_rebel_lord.name" text="of the Irish Rebels" />
+    <string id="eoe1100.npccharacter.bulgarian_rebel_lord.name" text="of the Bulgarian Rebels" />
+    <string id="eoe1100.npccharacter.byzantine_rebel_lord.name" text="of the Roman Rebels" />
+    <string id="eoe1100.npccharacter.dregovian_rebel_lord.name" text="of the Dregovian Rebels" />
+    <string id="eoe1100.npccharacter.empire_rebel_lord.name" text="of the Spanish Rebels" />
+    <string id="eoe1100.npccharacter.finnic_rebel_lord.name" text="of the Finnic Rebels" />
+    <string id="eoe1100.npccharacter.georgian_rebel_lord.name" text="of the Georgian Rebels" />
+    <string id="eoe1100.npccharacter.german_rebel_lord.name" text="of the German Rebels" />
+    <string id="eoe1100.npccharacter.italian_rebel_lord.name" text="of the Italian Rebels" />
+    <string id="eoe1100.npccharacter.khuzait_rebel_lord.name" text="of the Turkic Rebels" />
+    <string id="eoe1100.npccharacter.kryvian_rebel_lord.name" text="of the Kryvian Rebels" />
+    <string id="eoe1100.npccharacter.norman_rebel_lord.name" text="of the Norman Rebels" />
+    <string id="eoe1100.npccharacter.novgorodian_rebel_lord.name" text="of the Novgorodian Rebels" />
+    <string id="eoe1100.npccharacter.portuguese_rebel_lord.name" text="of the Portuguese Rebels" />
+    <string id="eoe1100.npccharacter.rus_rebel_lord.name" text="of the Rus Rebels" />
+    <string id="eoe1100.npccharacter.serbian_rebel_lord.name" text="of the Serbian Rebels" />
+    <string id="eoe1100.npccharacter.sturgia_rebel_lord.name" text="of the Nordic Rebels" />
+    <string id="eoe1100.npccharacter.suzdalian_rebel_lord.name" text="of the Suzdalian Rebels" />
+    <string id="eoe1100.npccharacter.vlandia_rebel_lord.name" text="of the French Rebels" />
+    <string id="eoe1100.npccharacter.volhynian_rebel_lord.name" text="of the Volhynian Rebels" />
+    <string id="eoe1100.npccharacter.artillery_english_knight.name" text="Artillery English Knight" />
+    <string id="eoe1100.npccharacter.novgorodian_light_horseman.name" text="Novgorodian Light Horseman" />
+    <string id="eoe1100.npccharacter.persian_elite_charkh_ghulam.name" text="Persian Elite Charkh Ghulam" />
+    <string id="eoe1100.npccharacter.suzdalian_experienced_archer.name" text="Suzdalian Experienced Archer" />
+    <!--settlements.xslt-->
+    <string id="eoe1100.settlement.castle_borsova_szatamar.text" text="Szatamar text..." />
+    <string id="eoe1100.settlement.castle_soimos_hunyad.text" text="Hunyad text..." />
+    <string id="eoe1100.settlement.town_gdansk.text" text="Gdansk text..." />
+    <string id="eoe1100.settlement.town_gdansk_puck.text" text="Kamienpomorski text..." />
+    <string id="eoe1100.settlement.town_mecca.text" text="Mecca text..." />
+    <string id="eoe1100.settlement.town_regensburg.text" text="Regensburg text..." />
+    <string id="eoe1100.settlement.town_rikala_inga.name" text="Inga" />
+    <string id="eoe1100.settlement.town_sfax_sidi.text" text="Sidi Bouzid text..." />
+    <!--spclans.xslt-->
+    <string id="eoe1100.faction.assassins.name" text="Assassins" />
+    <string id="eoe1100.faction.bedouin_bandits.name" text="Bedouin Bandits" />
+    <string id="eoe1100.faction.germanic_bandits.name" text="Germanic Bandits" />
+    <string id="eoe1100.faction.mountain_bandits.name" text="Mountain Bandits" />
+    <string id="eoe1100.faction.pirates.name" text="The Majorca Pirates" />
+    <string id="eoe1100.faction.sea_raiders.name" text="Sea Raiders" />
+    <string id="eoe1100.faction.clan_chernigov_3.text" text="Representing the Oleg Sviatoslavych family. The coat of arms is the seal of Knyaz Oleg Sviatoslavych." />
+    <string id="eoe1100.faction.clan_chernigov_4.text" text="Representing the Sviatoslav Davydovich family. The coat of arms is the seal of Knyaz Sviatoslav Davydovich." />
+    <string id="eoe1100.faction.jihad_army.name" text="Mujaheddin Army" />
+    <string id="eoe1100.faction.jihad_army.text" text="The Muslim forces have rallied at Mosul. They are on their way to Damascus to drive out the Christian invaders!" />
+    <string id="eoe1100.faction.romans.name" text="The Roman Mercenaries" />
+    <string id="eoe1100.faction.clan_english_1.name" text="House of Normandy" />
+    <string id="eoe1100.faction.clan_halych_5.text" text="Representing the Khaldei family. The coat of arms is the coat of arms of Przemyśl." />
+    <!--spcultures.xslt-->
+    <string id="eoe1100.culture.assassins.name" text="Assassins" />
+    <string id="eoe1100.culture.pirates.name" text="Pirates" />
+    <string id="eoe1100.culture.turkic_bandits.name" text="Turkic Bandits" />
+    <string id="eoe1100.culture.battania.name" text="Beann Traidhe" />
+    <string id="eoe1100.culture.english.name" text="Campbell" />
+    <string id="eoe1100.culture.english.name.2" text="Boyd" />
+    <string id="eoe1100.culture.english.name.3" text="Barclay" />
+    <string id="eoe1100.culture.english.name.4" text="Drummond" />
+    <string id="eoe1100.culture.english.name.5" text="Carmichael" />
+    <string id="eoe1100.culture.english.name.6" text="Broun" />
+    <string id="eoe1100.culture.english.name.7" text="Buchanan" />
+    <string id="eoe1100.culture.scottish.name" text="Abernethy" />
+    <string id="eoe1100.culture.scottish.name.10" text="Macnaghten" />
+    <string id="eoe1100.culture.scottish.name.2" text="Adair" />
+    <string id="eoe1100.culture.scottish.name.3" text="Aikenhead" />
+    <string id="eoe1100.culture.scottish.name.4" text="Baillie" />
+    <string id="eoe1100.culture.scottish.name.5" text="Barclay" />
+    <string id="eoe1100.culture.scottish.name.6" text="Caldwell" />
+    <string id="eoe1100.culture.scottish.name.7" text="Muirhead" />
+    <string id="eoe1100.culture.scottish.name.8" text="MacLaren" />
+    <string id="eoe1100.culture.scottish.name.9" text="MacLellan" />
+    <string id="eoe1100.culture.suzdalian.name" text="Marka" />
+    <!--spworkshops.xslt-->
+    <string id="eoe1100.workshoptype.armoursmith.description" text="We create battle ready armours and uniforms for your troops." />
+    <string id="eoe1100.workshoptype.armoursmith.name" text="Armoursmith" />
+    <string id="eoe1100.workshoptype.butcher.description" text="Only the finest cuts of meat, and some left over skins." />
+    <string id="eoe1100.workshoptype.butcher.name" text="Butcher" />
+    <string id="eoe1100.workshoptype.saddlery.description" text="We have the finest saddles from across europe." />
+    <string id="eoe1100.workshoptype.saddlery.name" text="Saddlery" />
+    <string id="eoe1100.workshoptype.tailor.description" text="We create high quality garments using natural materials." />
+    <string id="eoe1100.workshoptype.tailor.name" text="Tailor" />
+  </strings>
+</base>

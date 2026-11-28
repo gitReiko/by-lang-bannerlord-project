@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+
+
+
+  <strings>
+    <!-- Ангельскія радкі з ключамі {=ID}, вынятыя з DLL. -->
+    <!-- Тэксты з {=!} ня маюць ключа: захаваныя ў камэнтарах, для перакладу патрэбныя зьмены ў DLL. -->
+    <!-- Тэксты безь лякалізацыйнай пазнакі сюды не ўключаныя. -->
+    <!-- Радкі, ужо наяўныя ў core, і паўторныя ключы не дублююцца. -->
+
+    <!-- Americas.WarSails.dll -->
+    <string id="amws_lifeboat_name" text="Выратавальная Шлюпка Русалкі" />
+    <string id="amws_fleet_found" text="Ваш флот стаіць на якары ля найбліжэйшага берагу." />
+    <string id="amws_fleet_brought" text="Русалка прывяла ваш флот да найбліжэйшага берагу." />
+    <string id="amws_lifeboat_again" text="Русалка пакінула для вас яшчэ адзін човен ля найбліжэйшага берагу." />
+    <string id="amws_mermaid_title" text="Блаславеньне Русалкі" />
+    <string id="amws_mermaid_text" text="Русалка заўважыла, што ў вас няма ўласнага судна. Зьлітаваўшыся з вас, яна пакінула невялікі човен на якары ля найбліжэйшага берагу. Гэта самае сьціплае судна на вадзе, затое яно вашае.&#10;&#10;Калі вы зноў апыняцеся на беразе без карабля, іншы човен будзе чакаць там, дзе ён вам спатрэбіцца." />
+    <string id="amws_mermaid_ok" text="Падзякаваць ёй" />
+
+    <!-- EOE.AmericasMapBorders.dll -->
+    <!-- {=!}Realm -->
+    <!-- {=!}Turn off map borders -->
+    <!-- {=!}Choose a realm on the map first. -->
+    <!-- {=!}Begin the campaign on  -->
+
+    <!-- EOE.CustomBattle.dll -->
+    <string id="eoe_cb_menu" text="Уласная Бітва EOE" />
+    <string id="YLbBHN0Z" text="Нос Карабля" />
+    <string id="VKFTub9a" text="Каршак" />
+    <string id="ku2DXiY9" text="Трапнасьць стральбы каманды {EFFECT_AMOUNT}%" />
+    <string id="D0SX1cFQ" text="Леў" />
+    <string id="EjjAmdXp" text="Баявая мараль каманды {EFFECT_AMOUNT}" />
+    <string id="GkvX7z6Y" text="Цмок" />
+    <string id="4Ok7GnHs" text="Мараль варожай каманды падчас абардажу {EFFECT_AMOUNT}" />
+    <string id="ci0npfYB" text="Крылы Перамогі" />
+    <string id="mQuaMNVb" text="Баявы досьвед партыі {EFFECT_AMOUNT}%" />
+    <string id="shipFigureheadRam" text="Таран" />
+    <string id="eJ4MC1KO" text="Шкода караблю й маралі ад тарану {EFFECT_AMOUNT}%." />
+    <string id="fsb5EEbg" text="Марскі Зьмей" />
+    <string id="OraB7RjB" text="Супраціў вогненнай шкодзе {EFFECT_AMOUNT}%" />
+    <string id="LTOaBiw3" text="Гадзюка" />
+    <string id="NxIUg152" text="Хуткасьць перазарадкі балісты {EFFECT_AMOUNT}" />
+    <string id="113F2KC5" text="Шаблязубы Тыгр" />
+    <string id="qWDM0Oa1" text="Бронепрабівальнасьць лучнікаў {EFFECT_AMOUNT}" />
+    <string id="wrwdRGkW" text="Сірэна" />
+    <string id="iBPMtWzZ" text="Шкода блізкага бою варожай каманды падчас абардажу {EFFECT_AMOUNT}%" />
+    <string id="LwfILaRH" text="Конь" />
+    <string id="sMCpa5Sk" text="Хуткасьць руху карабля {EFFECT_AMOUNT}%" />
+    <string id="Ni8CSaxD" text="Чарапаха" />
+    <string id="bAWHXCsb" text="Ачкі ўдару шчытоў каманды {EFFECT_AMOUNT}%" />
+    <string id="0OrIliBh" text="Дзік" />
+    <string id="FPZ9QOGl" text="Панцыр каманды {EFFECT_AMOUNT}%" />
+    <string id="mGy1EcUd" text="Валы" />
+    <string id="D2ZA2XT6" text="Ачкі ўдару каманды {EFFECT_AMOUNT}" />
+    <string id="ZSA1mySL" text="Лебедзь" />
+    <string id="JJTWn3zs" text="Моц ветразяў {EFFECT_AMOUNT}%" />
+    <string id="XbNVQdZN" text="Алень" />
+    <string id="foC3qNav" text="Моц вёслаў {EFFECT_AMOUNT}%" />
+    <string id="NVKwvl1G" text="Крумкач" />
+    <string id="QsR8WTpA" text="Шкода кідальнай зброі каманды {EFFECT_AMOUNT}%" />
+    <!-- Наступныя восем ключоў таксама выкарыстоўвае EU1700.WarSailsShips.dll. -->
+    <string id="kU1cGwNH" text="Афіцер Флоту" />
+    <string id="XOM8Eyva" text="Разьбяная постаць марскога афіцера ў каптане з галунамі, які ўзьняў рупар. Трапнасьць стральбы каманды {EFFECT_AMOUNT}%" />
+    <string id="b8JFKJrp" text="Каранаваны Леў" />
+    <string id="s0IDRrOg" text="Каранаваны Леў, што вёў старыя лінейныя караблі. Баявая мараль каманды {EFFECT_AMOUNT}" />
+    <string id="feljjAbE" text="Нептун" />
+    <string id="TrjJ9G3r" text="Нептун з трызубам, валадар ветру й хваляў. Моц ветразяў {EFFECT_AMOUNT}%" />
+    <string id="HxCEtLe4" text="Крылатая Слава" />
+    <string id="GIFowqG3" text="Крылатая Слава трубіць у сваю трубу перад носам карабля. Мараль варожай каманды падчас абардажу {EFFECT_AMOUNT}" />
+
+    <!-- EOE.UISkin.dll -->
+    <string id="eoe_menu_title" text="Імперыі Еўропы" />
+    <string id="eoe_menu_title_1" text="Імперыі" />
+    <!-- Ангельскае of перадаецца родным склонам у наступным радку. -->
+    <string id="eoe_menu_title_2" text="з" />
+    <string id="eoe_menu_title_3" text="Еўропы" />
+    <string id="eoe_menu_subtitle" text="А М Е Р Ы К І" />
+    <string id="eoe_menu_continue" text="Працягнуць" />
+    <string id="eoe_menu_continue_desc" text="{HERO}  ·  Дзень {DAY}" />
+    <string id="eoe_menu_newgame" text="Новая Кампанія" />
+    <string id="eoe_menu_loadgame" text="Загрузіць Гульню" />
+    <string id="eoe_menu_custombattle" text="Уласная Бітва" />
+
+    <!-- EU1700.WarSailsShips.dll -->
+    <string id="ApD0xQXT" text="{STR1}: {STR2}" />
+    <string id="wXCM8BnW" text="Каманда" />
+    <string id="eu1700_dismasted" text="Бяз Мачтаў" />
+    <string id="eu1700gm1" text="{KEY} Стаць да гарматы" />
+    <string id="eu1700gm2" text="Гармата" />
+    <string id="eu1700hm1" text="{KEY} Стаць за стырно" />
+    <string id="eu1700hm2" text="Стырно" />
+    <!-- {=!}engage with broadsides -->
+  </strings>
+</base>

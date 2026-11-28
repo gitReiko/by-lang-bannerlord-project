@@ -49,6 +49,8 @@ Examples: `Пляценьне Зорнага Сьвятла`, `Карсарск�
 
 Use the same capitalization when a named entity recurs in a description, including inflected forms. Distinguish these references from generic mentions: the faction is `Шэрая Дружына`, but an ordinary `дружына` remains lowercase. Apply explicit user or project conventions first; this rule concerns names, not all common nouns or adjectives in prose.
 
+The user's shared game style also capitalizes names of countries, states, cultures, and peoples throughout visible text, including descriptions and dialogue, and adjectives derived from those names: `Армяне`, `Нарманы`, `Сэльджукі`, `Бэрбэрскі`, `Бізантыйскія`, `Арабскае`. Capitalize every significant component of a named state, including its form of government: `Сьвятая Рымская Імпэрыя`, `Ерусалімскае Гаспадарства`, `Румскі Султанат`, `Імпэрыя Сэльджукаў`. This convention takes precedence over ordinary Belarusian prose capitalization, lowercase source text, and lowercase glossary forms. Generic references such as `народ`, `культура`, `гаспадарства`, or `імпэрыя` remain lowercase when they are not part of a name. For capitalization-only corrections, preserve wording, spelling, punctuation, whitespace, and runtime tokens; the before/after text must be identical when case is ignored.
+
 ## Translate safely
 
 - During version updates, keep translated entries in exactly the same relative order as the corresponding current source entries. Insert new or moved strings at their source positions; do not append additions or changed strings to the end of the file or sort by ID. Match by case-sensitive ID first, then emit in source order. Preserve unrelated formatting and XML structure.
