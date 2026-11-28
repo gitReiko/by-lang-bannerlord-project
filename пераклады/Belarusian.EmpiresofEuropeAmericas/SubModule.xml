@@ -15,7 +15,11 @@
 		<DependedModule Id="StoryMode" DependentVersion="v1.5.7"/>
 		<DependedModule Id="Belarusian Core" DependentVersion="v1.5.7"/>
 		<DependedModule Id="Americas" DependentVersion="v1.5.6.1"/>
+		<DependedModule Id="Americas.WarSails" Optional="true"/>
 	</DependedModules>
+	<DependedModuleMetadatas>
+		<DependedModuleMetadata id="Americas.WarSails" order="LoadBeforeThis" optional="true" />
+	</DependedModuleMetadatas>
 	<SubModules/>
 	<Xmls>
 		<XmlNode>
@@ -126,6 +130,10 @@
 				<GameType value="CustomGame"/>
 				<GameType value="EditorGame"/>
 			</IncludedGameTypes>
+		</XmlNode>
+		<!-- Localization of the scene added by the optional Americas.WarSails module. -->
+		<XmlNode>
+			<XmlName id="CustomBattleScenes" path="custom_battle_scenes"/>
 		</XmlNode>
 	</Xmls>
 </Module>
